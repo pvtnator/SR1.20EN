@@ -1,0 +1,320 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+好感度と契約の珠を上げますか？
+> CONTEXT: Map003/events/2/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+好感度は10、契約の珠は1000ずつ上がります。
+何回上げますか？
+> CONTEXT: Map003/events/2/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]回上げました。
+> CONTEXT: Map003/events/2/pages/0/13/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミニゲームのテストを開始するｸﾏｰ？
+> CONTEXT: Map003/events/4/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レベルを選ぶｸﾏｰ。
+(1～10。それ以外の数字はレベルランダム)
+> CONTEXT: Map003/events/4/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あああああ
+> CONTEXT: Map003/events/4/pages/0/19/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+また来るｸﾏｰ
+> CONTEXT: Map003/events/4/pages/0/22/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+契約上限を上げますか？
+> CONTEXT: Map003/events/5/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+いくつ上げますか？
+> CONTEXT: Map003/events/5/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map003/events/22/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]上げました。
+> CONTEXT: Map003/events/5/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map003/events/22/pages/0/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ボックス管理係]こちらはボックス管理係です。\\_
+何か御用ですか？
+> CONTEXT: Map003/events/6/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+いろいろやります。
+> CONTEXT: Map003/events/7/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アイテムをすべて入手する。
+> CONTEXT: Map003/events/7/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+所持金を増やす
+> CONTEXT: Map003/events/7/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+がっつり手に入れました。
+> CONTEXT: Map003/events/7/pages/0/13/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+いくら増やしますか？
+> CONTEXT: Map003/events/7/pages/0/16/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対味方戦、戦闘テストができます。
+（パーティの２番目の子の情報を参照します。）
+> CONTEXT: Map003/events/13/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+戦闘する
+> CONTEXT: Map003/events/13/pages/0/2/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+先頭の仲間の習得しているスキルと素質をリセットしますか？
+> CONTEXT: Map003/events/15/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+仲間がいません！
+> CONTEXT: Map003/events/15/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+契約の珠で習得させたスキルや素質を残しますか？
+> CONTEXT: Map003/events/15/pages/0/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リセットしました。
+> CONTEXT: Map003/events/15/pages/0/17/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+作成中マップへ移動しますか？
+> CONTEXT: Map003/events/17/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map003/events/27/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map003/events/31/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map003/events/37/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+麓町レンディカ
+> CONTEXT: Map003/events/17/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パルフィス密教会
+> CONTEXT: Map003/events/17/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+未定
+> CONTEXT: Map003/events/17/pages/0/1/Choice/2 < UNTRANSLATED
+> CONTEXT: Map003/events/31/pages/0/1/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"name_map2"
+> CONTEXT: Map003/events/17/pages/0/17/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Map003/events/17/pages/0/27/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/36/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パーティを全回復します。
+> CONTEXT: Map003/events/19/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パーティのレベルを調整します。
+> CONTEXT: Map003/events/22/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レベルを上げる
+> CONTEXT: Map003/events/22/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レベルを下げる
+> CONTEXT: Map003/events/22/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+いくつ下げますか？
+> CONTEXT: Map003/events/22/pages/0/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]下げました。
+> CONTEXT: Map003/events/22/pages/0/16/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テスト用
+> CONTEXT: Map003/events/27/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+月明かりの樹海１
+> CONTEXT: Map003/events/27/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+月明かりの樹海２
+> CONTEXT: Map003/events/27/pages/0/1/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホーム
+> CONTEXT: Map003/events/31/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ポートを全登録する
+> CONTEXT: Map003/events/31/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+全登録しました。
+> CONTEXT: Map003/events/31/pages/0/14/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+仲間を連れて行きますか？
+（開発用。ID入力式）
+> CONTEXT: Map003/events/32/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+どこに行きますか？
+> CONTEXT: Map003/events/33/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+混濁Ｌ１
+> CONTEXT: Map003/events/33/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+混濁Ｌ３
+> CONTEXT: Map003/events/33/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パルフィス上層
+> CONTEXT: Map003/events/33/pages/0/1/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パルフィス下層
+> CONTEXT: Map003/events/33/pages/0/1/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+習得表を確認します。
+（開発用）
+> CONTEXT: Map003/events/36/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+習得スキル表の確認
+> CONTEXT: Map003/events/36/pages/0/2/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ボーナス表の確認
+> CONTEXT: Map003/events/36/pages/0/2/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+闇洞窟１
+> CONTEXT: Map003/events/37/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+闇洞窟２
+> CONTEXT: Map003/events/37/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔城トゥーロマンサ
+> CONTEXT: Map003/events/37/pages/0/1/Choice/2 < UNTRANSLATED
+
+> END STRING

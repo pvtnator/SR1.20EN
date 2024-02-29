@@ -1,0 +1,112 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やぁ、ルーン研究所へようこそ。
+ルーンが必要ならうちで買っていってくれ。
+自慢のルーンばかりだ。
+> CONTEXT: Map360/events/2/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+「ルーン革命」と書かれた本がある。読みますか？
+> CONTEXT: Map360/events/3/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ルーンとは、言わば小型の魔法陣である。
+これを人間の体に刻むことで、その魔法効果を得ることが\\_
+できるものだ。
+> CONTEXT: Map360/events/3/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+嘗て存在した旧式のルーンは破棄が非常に難しく、
+専用の手順を必要とするため、取り扱いを慎重にする\\_
+必要があった。
+> CONTEXT: Map360/events/3/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+誤って刻印してしまえば、破棄したくなってもそれをする\\_
+のが難しく、
+ずっとそれに悩まされることになるであろう。
+元々は呪印のように使用されていたのだ。
+> CONTEXT: Map360/events/3/pages/0/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+しかし、旧式のルーンが消せない焼き跡を付ける\\_
+「烙印」であったのに対し、
+現在のルーンはインクを洗い流せば落ちる「印章」といった\\_
+ものである。
+> CONTEXT: Map360/events/3/pages/0/14/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+その使い勝手の良さから多くの需要を得た上、\\_
+研究も盛んになっている。
+このルーン革命によって、ルーン産業は大きく変貌し、
+今や庶民的な魔法具として知られている。
+> CONTEXT: Map360/events/3/pages/0/18/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+「魔法陣」と書かれた本がある。読みますか？
+> CONTEXT: Map360/events/4/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔法を使用するために必要な魔法陣は、
+魔力点を線で結び、既定の形に連結することで描かれる。
+> CONTEXT: Map360/events/4/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+連結は簡略なほど負担が少ない。
+使用できる魔法はその分制限されるが、
+使用する魔法に沿って魔法陣の連結を変えるのが\\_
+一般的である。
+> CONTEXT: Map360/events/4/pages/0/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+複雑な連結が為された魔法陣は、汎用的な魔法陣としても\\_
+機能するが、
+効果に対して負担が大きすぎるために、あまり一般的では\\_
+ない。\\n現在は大規模な魔法への使用が主流である。
+> CONTEXT: Map360/events/4/pages/0/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+技術の進歩により、使用する魔法によっての最小限の\\_
+連結が開発されており、
+それらの基礎的な形は「ルーン文字」として知られている。
+> CONTEXT: Map360/events/4/pages/0/14/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"少女"
+> CONTEXT: Map360/events/5/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map209/events/16/pages/1/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ルーンの材料を探してるんだけど、持ってない？
+作ったルーンと交換してあげるよ。
+> CONTEXT: Map360/events/5/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING

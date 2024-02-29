@@ -1,0 +1,379 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+062-Slow05
+> CONTEXT: Map208/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map052/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map032/bgm/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]を味方にしますか？
+> CONTEXT: Map208/events/1/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map208/events/3/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map208/events/5/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/1/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/3/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/5/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]を味方から外しますか？
+> CONTEXT: Map208/events/1/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map208/events/3/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map208/events/5/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/1/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/3/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/5/pages/0/15/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔と戯れますか？
+> CONTEXT: Map208/events/2/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/2/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手になる夢魔がいません！
+> CONTEXT: Map208/events/2/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/2/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"gradation211"
+> CONTEXT: Map208/events/2/pages/0/22/InlineScript/11:34 < UNTRANSLATED
+> CONTEXT: Map032/events/2/pages/0/22/InlineScript/11:34 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]
+> CONTEXT: Map208/events/2/pages/0/75/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/21/15/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/101/14/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ランプが部屋をほんのりと照らしている……。
+> CONTEXT: Map208/events/4/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map208/events/4/pages/0/18/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/4/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+書置きを見直す
+> CONTEXT: Map208/events/4/pages/0/2/Choice/0 < UNTRANSLATED
+> CONTEXT: Map208/events/4/pages/0/19/Choice/0 < UNTRANSLATED
+> CONTEXT: Map032/events/4/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+装備品やルーンの効果について
+> CONTEXT: Map208/events/4/pages/0/2/Choice/1 < UNTRANSLATED
+> CONTEXT: Map208/events/4/pages/0/19/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+演出を変更する
+> CONTEXT: Map208/events/4/pages/0/2/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[寝室の使用方法]\\_
+この寝室では、夢魔たちとの逢瀬をより愉しむ為に、
+受ける快感や絶頂時の脱力が、通常のおよそ半分程となる。
+愛し合うには時間も必要だ。
+> CONTEXT: Map208/events/4/pages/0/35/Dialogue < UNTRANSLATED
+> CONTEXT: Map208/events/7/pages/0/12/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/4/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/7/pages/0/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[寝室の使用方法]\\_
+また寝室では、自分も夢魔も互いに追撃が出やすくなる。
+お互いの特性を知っておくのも大事だろう。
+> CONTEXT: Map208/events/4/pages/0/39/Dialogue < UNTRANSLATED
+> CONTEXT: Map208/events/7/pages/0/16/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/4/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/7/pages/0/16/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[寝室の使用方法]\\_
+夢魔を複数人連れている場合、
+「相手する」か「仲間にする」かを選べる。
+一人で複数を相手したり、逆に複数で一人を攻めたりできる。
+> CONTEXT: Map208/events/4/pages/0/42/Dialogue < UNTRANSLATED
+> CONTEXT: Map208/events/7/pages/0/19/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/4/pages/0/10/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/7/pages/0/19/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[寝室の使用方法]\\_
+一晩を共にした夢魔は、例外なく好意を抱いてくれるが、
+この際、相手をした夢魔のほうが仲間にした夢魔よりも、
+好意を抱く度合が高いようだ。
+> CONTEXT: Map208/events/4/pages/0/46/Dialogue < UNTRANSLATED
+> CONTEXT: Map208/events/7/pages/0/23/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/4/pages/0/14/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/7/pages/0/23/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[寝室の使用方法]\\_
+さて、堅苦しいのもここまでだ。
+後は、思うがままに愛を貪りあうといい。
+健闘を祈る。
+> CONTEXT: Map208/events/4/pages/0/50/Dialogue < UNTRANSLATED
+> CONTEXT: Map208/events/7/pages/0/27/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/4/pages/0/18/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/7/pages/0/27/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[装備効果について]\\_
+装備品やルーンを仲間に刻印した場合、
+相手にした際に現れない効果が存在する。
+> CONTEXT: Map208/events/4/pages/0/58/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[装備効果について]\\_
+ステータス増減、装備品によって習得されている素質や\\_
+スキル。
+これらは相手にした時でも効果が現れている。
+> CONTEXT: Map208/events/4/pages/0/61/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[装備効果について]\\_
+装備品による状態異常耐性や、その他の効果。
+これらは相手にした時には発揮されない。
+注意されたし。
+> CONTEXT: Map208/events/4/pages/0/65/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+何を変えますか？
+> CONTEXT: Map208/events/4/pages/0/73/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+背景
+> CONTEXT: Map208/events/4/pages/0/74/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+音楽
+> CONTEXT: Map208/events/4/pages/0/74/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+何も変えない
+> CONTEXT: Map208/events/4/pages/0/74/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+樹海
+> CONTEXT: Map208/events/4/pages/0/76/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+洞窟
+> CONTEXT: Map208/events/4/pages/0/76/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+教会
+> CONTEXT: Map208/events/4/pages/0/76/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+室内
+> CONTEXT: Map208/events/4/pages/0/76/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+樹海の背景に変更しました。
+> CONTEXT: Map208/events/4/pages/0/78/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+洞窟の背景に変更しました。
+> CONTEXT: Map208/events/4/pages/0/82/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+教会の背景に変更しました。
+> CONTEXT: Map208/events/4/pages/0/86/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+室内の背景に戻しました。
+> CONTEXT: Map208/events/4/pages/0/90/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+通常戦
+> CONTEXT: Map208/events/4/pages/0/98/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+OFE戦
+> CONTEXT: Map208/events/4/pages/0/98/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ボス戦
+> CONTEXT: Map208/events/4/pages/0/98/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベッド戦
+> CONTEXT: Map208/events/4/pages/0/98/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+通常戦のBGMに変更しました。
+> CONTEXT: Map208/events/4/pages/0/100/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+OFE戦のBGMに変更しました。
+> CONTEXT: Map208/events/4/pages/0/104/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ボス戦のBGMに変更しました。
+> CONTEXT: Map208/events/4/pages/0/108/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベッド戦のBGMに戻しました。
+> CONTEXT: Map208/events/4/pages/0/112/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ランプを点けますか？
+（ベッドイン時の追撃発生率が互いに上昇します）
+> CONTEXT: Map208/events/4/pages/1/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/4/pages/1/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+寝室の説明を再確認する
+> CONTEXT: Map208/events/4/pages/1/4/Choice/2 < UNTRANSLATED
+> CONTEXT: Map032/events/4/pages/1/4/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[寝室の使用方法]
+この寝室では、夢魔たちとの逢瀬をより愉しむ為に、
+受ける快感や絶頂時の脱力が、通常のおよそ半分程となる。
+愛し合うには時間も必要だ。
+> CONTEXT: Map208/events/4/pages/1/16/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/4/pages/1/16/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[寝室の使用方法]
+また、このランプを点灯させることで、お互いの感度が増し、
+自分も夢魔も互いに追撃が出やすくなる。
+ランプを消灯すると感度は元に戻る。活用されたし。
+> CONTEXT: Map208/events/4/pages/1/20/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/4/pages/1/20/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[寝室の使用方法]
+夢魔を複数人連れている場合、
+「相手する」か「仲間にする」かを選べる。
+一人で複数を相手したり、逆に複数で一人を攻めたりできる。
+> CONTEXT: Map208/events/4/pages/1/24/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/4/pages/1/24/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[寝室の使用方法]
+一晩を共にした夢魔は、例外なく好意を抱いてくれるが、
+この際、相手をした夢魔のほうが仲間にした夢魔よりも、
+好意を抱く度合が高いようだ。
+> CONTEXT: Map208/events/4/pages/1/28/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/4/pages/1/28/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[寝室の使用方法]
+後は、お互い思うままに愛を貪りあうといい。
+健闘を祈る。
+> CONTEXT: Map208/events/4/pages/1/32/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/4/pages/1/32/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+………？
+> CONTEXT: Map208/events/7/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/7/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+寝台脇のランプの下に、
+何か書置きが置いてあるようだ……。
+> CONTEXT: Map208/events/7/pages/0/8/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/7/pages/0/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+……書置きはここで終わっている。\\_
+> CONTEXT: Map208/events/7/pages/0/32/Dialogue < UNTRANSLATED
+> CONTEXT: Map032/events/7/pages/0/32/Dialogue < UNTRANSLATED
+
+> END STRING

@@ -1,0 +1,171 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+不思議な魔方陣がある･･･。
+> CONTEXT: Map215/events/43/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ここでは、体験版のクリアデータから仲間の夢魔を\\_
+呼び出し、
+戦うことが出来ます。
+> CONTEXT: Map215/events/43/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map215/events/43/pages/0/60/Dialogue < UNTRANSLATED
+> CONTEXT: Map215/events/43/pages/0/124/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+契約し直すことも可能ですが、仕様外のものを残した夢魔は、
+本来の仕様通りのものに改竄されてしまいます。
+ご了承ください。
+> CONTEXT: Map215/events/43/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map215/events/43/pages/0/63/Dialogue < UNTRANSLATED
+> CONTEXT: Map215/events/43/pages/0/127/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+また、習得していた「スキル」はリセットされ、
+製品版の習得レベルに準拠したスキルが習得されます。
+この際、契約の珠で習得したスキルは引き継ぎされません。
+> CONTEXT: Map215/events/43/pages/0/10/Dialogue < UNTRANSLATED
+> CONTEXT: Map215/events/43/pages/0/66/Dialogue < UNTRANSLATED
+> CONTEXT: Map215/events/43/pages/0/130/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+習得している「素質」は、契約の珠で習得したものも含めて\\_
+引き継がれます。
+装備品と刻印していたルーンも引き継がれます。
+> CONTEXT: Map215/events/43/pages/0/13/Dialogue < UNTRANSLATED
+> CONTEXT: Map215/events/43/pages/0/69/Dialogue < UNTRANSLATED
+> CONTEXT: Map215/events/43/pages/0/133/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+体験版の引き継ぎデータを読み込みますか？
+> CONTEXT: Map215/events/43/pages/0/23/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+引き継ぎデータを読み込む
+> CONTEXT: Map215/events/43/pages/0/24/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+引き継ぎする時について
+> CONTEXT: Map215/events/43/pages/0/24/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+説明を聞き直す
+> CONTEXT: Map215/events/43/pages/0/24/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+体験版のクリアデータを取得しています･\\.･\\.･\\.･\\.･\\.･。
+> CONTEXT: Map215/events/43/pages/0/26/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+引き継ぎデータを読み込みしました！
+> CONTEXT: Map215/events/43/pages/0/29/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+体験版の引き継ぎデータが存在しません！
+> CONTEXT: Map215/events/43/pages/0/33/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+以下の事をご確認ください。
+・体験版フォルダと製品版フォルダが\\_
+同じフォルダ内にありますか？
+・最新版の体験版にてゲームクリアをしましたか？
+> CONTEXT: Map215/events/43/pages/0/34/Dialogue < UNTRANSLATED
+> CONTEXT: Map215/events/43/pages/0/48/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+・体験版のフォルダ名を「Succubus Rhapsodia 体験版」から
+「Succubus Rhapsodia Trial」に変更していますか？
+> CONTEXT: Map215/events/43/pages/0/38/Dialogue < UNTRANSLATED
+> CONTEXT: Map215/events/43/pages/0/52/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+最新版の体験版のゲームクリア時、またゲームクリア後に
+夢の拠点の机にある本にて、引き継ぎデータを記録する\\_
+ことができます。
+> CONTEXT: Map215/events/43/pages/0/40/Dialogue < UNTRANSLATED
+> CONTEXT: Map215/events/43/pages/0/54/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔を召喚しますか？
+> CONTEXT: Map215/events/43/pages/0/86/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+召喚する
+> CONTEXT: Map215/events/43/pages/0/87/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+呼び出される夢魔について
+> CONTEXT: Map215/events/43/pages/0/87/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+最初の説明を聞き直す
+> CONTEXT: Map215/events/43/pages/0/87/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+引き継げる夢魔がもういません！
+> CONTEXT: Map215/events/43/pages/0/90/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+召喚される夢魔は、契約していた夢魔の中からランダムで
+一人が選ばれ、召喚され戦闘となります。
+> CONTEXT: Map215/events/43/pages/0/118/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+逃走することもでき、契約するまでは何度でも召喚できます。
+> CONTEXT: Map215/events/43/pages/0/120/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+019-People01
+> CONTEXT: Map215/bgs/name/ < UNTRANSLATED
+> CONTEXT: Map167/bgs/name/ < UNTRANSLATED
+> CONTEXT: Map210/bgs/name/ < UNTRANSLATED
+> CONTEXT: Map050/bgs/name/ < UNTRANSLATED
+> CONTEXT: Map035/bgs/name/ < UNTRANSLATED
+> CONTEXT: Map007/bgs/name/ < UNTRANSLATED
+> CONTEXT: Map006/bgs/name/ < UNTRANSLATED
+> CONTEXT: Map005/bgs/name/ < UNTRANSLATED
+
+> END STRING

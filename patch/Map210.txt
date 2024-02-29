@@ -1,0 +1,1010 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+"おせっかいな騎士"
+> CONTEXT: Map210/events/1/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map035/events/1/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map005/events/12/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おせっかいな僕が初期スキルについて教えてあげよう。
+何か聞きたいことはあるかい？
+> CONTEXT: Map210/events/1/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/1/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map005/events/12/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「キッス」は与えられる快感は他より少しだけ小さいが、
+その分ムードが上がる効果を持っているね。
+> CONTEXT: Map210/events/1/pages/0/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ムードの低い序盤などはキッスでムードを上げていくと、
+自分のやりたいことがやりやすくなるよ。
+> CONTEXT: Map210/events/1/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/1/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: Map005/events/12/pages/0/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「バスト」はこの４つの中では、最も安定して
+高い快感を与えられるスキルだ。
+> CONTEXT: Map210/events/1/pages/0/14/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/1/pages/0/14/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+与える快感を重視している時などは、
+これが最も使いやすいだろうね。
+> CONTEXT: Map210/events/1/pages/0/17/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/1/pages/0/21/Dialogue < UNTRANSLATED
+> CONTEXT: Map005/events/12/pages/0/17/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「ヒップ」は短いターンの間だが、相手の素早さを遅くする\\_
+効果がある。
+> CONTEXT: Map210/events/1/pages/0/22/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/1/pages/0/26/Dialogue < UNTRANSLATED
+> CONTEXT: Map005/events/12/pages/0/22/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+相手の行動順をずらすことができるし、
+レジストスキルに対して若干だが有利になれるよ。
+> CONTEXT: Map210/events/1/pages/0/25/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/1/pages/0/29/Dialogue < UNTRANSLATED
+> CONTEXT: Map005/events/12/pages/0/25/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「クロッチ」は相手の潤滑度を上げる効果があるね。
+> CONTEXT: Map210/events/1/pages/0/30/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/1/pages/0/34/Dialogue < UNTRANSLATED
+> CONTEXT: Map005/events/12/pages/0/30/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+潤滑度というのは、その戦闘中でのみ加算されていくけど、
+一部のスキルはこれが高いほど効果がある。
+> CONTEXT: Map210/events/1/pages/0/32/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/1/pages/0/36/Dialogue < UNTRANSLATED
+> CONTEXT: Map005/events/12/pages/0/32/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+しかし、クロッチのような潤滑度を上げるスキルは、
+裸の相手でないと与える快感も効果も激減してしまうから\\_
+注意が必要だよ。
+> CONTEXT: Map210/events/1/pages/0/35/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/1/pages/0/39/Dialogue < UNTRANSLATED
+> CONTEXT: Map005/events/12/pages/0/35/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"手練の男"
+> CONTEXT: Map210/events/2/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map035/events/2/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map005/events/11/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]パーティには気を遣っているか？
+> CONTEXT: Map210/events/2/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/2/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map005/events/11/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]夢魔によっては、戦闘を得意とする者や、
+探索に向いている者などがいる。
+戦闘と探索の役割を考えたパーティ編成をする事が\\_
+望ましい。
+> CONTEXT: Map210/events/2/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/2/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map005/events/11/pages/0/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]だが、その２つのバランスが良いだけでは
+良いパーティというわけでは決して無い。
+> CONTEXT: Map210/events/2/pages/0/6/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/2/pages/0/6/Dialogue < UNTRANSLATED
+> CONTEXT: Map005/events/11/pages/0/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]倒したい敵がいる時は\\_
+戦闘を得意とする夢魔で固め、
+夢世界での探索を重視する時は、探索を得意とした夢魔を
+多く率いる事も重要だ。
+> CONTEXT: Map210/events/2/pages/0/8/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/2/pages/0/8/Dialogue < UNTRANSLATED
+> CONTEXT: Map005/events/11/pages/0/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]パーティ編成をする時は、\\_
+冒険の目的と仲間の役割を考えて、
+仲間の夢魔を選ぶんだな。
+> CONTEXT: Map210/events/2/pages/0/12/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/2/pages/0/12/Dialogue < UNTRANSLATED
+> CONTEXT: Map005/events/11/pages/0/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"魔法士の青年"
+> CONTEXT: Map210/events/3/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map152/events/9/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map035/events/3/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map005/events/13/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おや、ラーミル様のお弟子様ではありませんか。
+こんな所で会うとは奇遇ですね。
+> CONTEXT: Map210/events/3/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/3/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map005/events/13/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]ここは夢魔が蔓延っている夢世界。
+剣術の心得も攻撃魔法の知識も役立たず･･･。
+どうやら普通の戦闘能力では彼女らに\\_
+勝つことができないようです。
+> CONTEXT: Map210/events/3/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+わかりやすく言えば、
+\\c[12]魅力が攻撃力、忍耐力が防御力\\c[0]\\_
+となっていることでしょうか。
+> CONTEXT: Map210/events/3/pages/0/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なので、攻めを強くする場合は魅力を高める装備を、
+守りを強くする場合は忍耐力を高める装備をするのが\\_
+基本みたいですね。
+> CONTEXT: Map210/events/3/pages/0/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"バニー"
+> CONTEXT: Map210/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map035/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map005/events/2/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+いらっしゃーい\\H
+> CONTEXT: Map210/events/4/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/4/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･違う違う、アタシは夢魔じゃないわよぉ！
+> CONTEXT: Map210/events/4/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/4/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あぁ、そーそー。
+ホームにいる夢魔の数がいっぱいだと、
+新しく夢魔とは契約できないんだって。
+> CONTEXT: Map210/events/4/pages/0/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+誰かと契約したい時は、拠点に空きは必要よ？
+> CONTEXT: Map210/events/4/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/4/pages/0/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そういえば、\\c[12]夢世界には変わった泉があるらしくて、
+その泉を見続けたら、契約できる夢魔の上限を\\_
+増やせる\\c[0]らしいわ。
+> CONTEXT: Map210/events/4/pages/0/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]キミ･･･使えない道具とか持ってない？
+> CONTEXT: Map210/events/5/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/5/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/1/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map005/events/8/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map002/events/5/pages/0/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やぁ･･･。使えない道具とか見つかったかい？
+> CONTEXT: Map210/events/5/pages/0/6/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/5/pages/0/6/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/1/pages/0/6/Dialogue < UNTRANSLATED
+> CONTEXT: Map002/events/5/pages/0/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+たまーに夢魔が落としてくれたり、採取で見つかったり\\_
+するんだけどさ。
+いっぱい持ってたら、良い物と交換してあげるよ。
+> CONTEXT: Map210/events/5/pages/0/10/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/5/pages/0/10/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/1/pages/0/10/Dialogue < UNTRANSLATED
+> CONTEXT: Map002/events/5/pages/0/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+使えない道具が集まったら、また僕の所へおいで･･･。
+> CONTEXT: Map210/events/5/pages/0/20/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/5/pages/0/20/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/1/pages/0/20/Dialogue < UNTRANSLATED
+> CONTEXT: Map002/events/5/pages/0/408/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"バーテンダー"
+> CONTEXT: Map210/events/6/pages/0/3/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map152/events/10/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map152/events/10/pages/1/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map035/events/6/pages/0/3/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map005/events/17/pages/0/3/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+よぉ\\v[3]。
+酒は出せねーが、なんか食っていくか？
+> CONTEXT: Map210/events/6/pages/0/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[悪魔]\\_
+なんだい、ナンダイ。
+ただの悪魔が酒飲んでちゃ悪いのかい。
+> CONTEXT: Map210/events/7/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"情報屋"
+> CONTEXT: Map210/events/7/pages/0/4/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map210/events/7/pages/0/15/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map210/events/7/pages/1/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map005/events/7/pages/0/5/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+オレは他の夢世界の情報を取り扱ってる情報屋様だぜ？
+良い情報揃えてやってやるんだ。是非ともご贔屓になァ？
+キキキッ！
+> CONTEXT: Map210/events/7/pages/0/5/Dialogue < UNTRANSLATED
+> CONTEXT: Map005/events/7/pages/0/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうだ、早速サービスしてやろう。
+この情報は金を取らねえから安心しナ。
+> CONTEXT: Map210/events/7/pages/0/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+俺は情報屋サ。
+今は特別サービス中だぜ。無料で情報を教えてやるヨ。\\_
+キキッ！
+> CONTEXT: Map210/events/7/pages/0/16/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここから別の夢世界へ行くことができるところは３つあるんダ。
+どこの情報が知りたい？
+> CONTEXT: Map210/events/7/pages/0/22/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+浅き夢の瀬
+> CONTEXT: Map210/events/7/pages/0/25/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+月明かりの樹海
+> CONTEXT: Map210/events/7/pages/0/25/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+教会図書館
+> CONTEXT: Map210/events/7/pages/0/25/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+浅き夢の瀬か。
+ここはアンタ通ってきたんじゃないか？
+> CONTEXT: Map210/events/7/pages/0/27/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢世界でもかなり浅い場所ではあるみたいだナ。
+おかげで特に見るものも無い。
+> CONTEXT: Map210/events/7/pages/0/30/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ま、何かあるかもしれねーがその時はすぐ分かるダロ。
+キキッ！
+> CONTEXT: Map210/events/7/pages/0/33/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+月明かりの樹海か。
+ここはこのホームにある\\c[12]虚のある植木\\c[0]から\\_
+行けるゼ。
+> CONTEXT: Map210/events/7/pages/0/38/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢魔は多いが、弱いし動きも分かりやすい。
+旅や夢魔に慣れるにはちょうど良いはずだぜ。
+> CONTEXT: Map210/events/7/pages/0/42/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それに、【秩序の魔女】だったか？　\\_
+あの女がいたって話もある。
+> CONTEXT: Map210/events/7/pages/0/45/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+アンタの知り合いだろう？
+まずはここを探索してみれば良いんじゃないカイ。
+> CONTEXT: Map210/events/7/pages/0/48/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+教会図書館か。
+ここはこのホームの\\c[12]とある本棚\\c[0]から行けるゼ。
+> CONTEXT: Map210/events/7/pages/0/53/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あそこは夢世界に関した書物が多い。
+アンタも分からないことだらけだろう？　\\_
+調べてみる価値はあると思うゼ。
+> CONTEXT: Map210/events/7/pages/0/56/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+敵も襲ってこねーし、平和な場所だしナ。
+まぁ、夢魔の領域ではあるから、ちゃんと夢魔の\\_
+腹の調子は管理しとけヨ？
+> CONTEXT: Map210/events/7/pages/0/60/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なんだい、勿体無いやつだナ。
+せっかく俺がサービスしてやってるってのによォ？
+> CONTEXT: Map210/events/7/pages/0/66/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+俺は情報屋サ。金さえ払ってくれれば情報提供してやるヨ。
+何が聞きタイ？
+> CONTEXT: Map210/events/7/pages/1/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map210/events/7/pages/1/25/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+隠し扉の傾向
+> CONTEXT: Map210/events/7/pages/1/6/Choice/0 < UNTRANSLATED
+> CONTEXT: Map210/events/7/pages/1/28/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ユニーク夢魔について
+> CONTEXT: Map210/events/7/pages/1/6/Choice/1 < UNTRANSLATED
+> CONTEXT: Map210/events/7/pages/1/28/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+明晰の泉の場所
+> CONTEXT: Map210/events/7/pages/1/6/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+オイオイ、情報の価値が分かってねぇ奴だナァ？
+勿体無いやつだゼ。
+> CONTEXT: Map210/events/7/pages/1/17/Dialogue < UNTRANSLATED
+> CONTEXT: Map210/events/7/pages/1/36/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/131/23/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"隠し扉の傾向ダナ。"
+> CONTEXT: Map210/events/7/pages/1/48/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+隠し扉ってのは基本的には北側にしか存在しないんダ。
+西や東にはそうそう無い。
+> CONTEXT: Map210/events/7/pages/1/60/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+壁に線が入っている所や色が違う壁なんかはそうだ。
+装飾の何かと何かの間にあるってことが多いゼ。
+> CONTEXT: Map210/events/7/pages/1/63/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それと不自然に部屋の装飾が非対称的になってる時は、
+その対称側に何かあるかもナ。
+> CONTEXT: Map210/events/7/pages/1/66/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ごくたまに南側にも隠し扉があるガ、
+これはだいたいシンメトリーな部屋の中央から南にある\\_
+ケースダナ。
+> CONTEXT: Map210/events/7/pages/1/69/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あとは隠し扉の先に見つけたものが
+やたら安っぽいアイテムの時は注意しなヨ。
+更に隠し扉があるケースがあるようだゼ。
+> CONTEXT: Map210/events/7/pages/1/73/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こんなもんダナ。キキッ！
+> CONTEXT: Map210/events/7/pages/1/77/Dialogue < UNTRANSLATED
+> CONTEXT: Map210/events/7/pages/1/211/Dialogue < UNTRANSLATED
+> CONTEXT: Map210/events/7/pages/1/253/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おっとこれは個人情報だネ。
+こいつはおおっぴらに言うとウチの信用に関わる。
+> CONTEXT: Map210/events/7/pages/1/83/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+アンタの強さに合わせて教えてやるヨ。
+ボカして言うから、あとはアンタで探してくんナ。
+> CONTEXT: Map210/events/7/pages/1/86/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ユニーク夢魔の情報その１。"
+> CONTEXT: Map210/events/7/pages/1/90/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【天然由来】
+胸が性感帯。素早さ\\v[3]。
+【落ちこぼれ】
+口が性感帯。素早さ\\v[4]。
+> CONTEXT: Map210/events/7/pages/1/104/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+アンタの強さに見込んで更に情報をやろうじゃないカ。
+> CONTEXT: Map210/events/7/pages/1/114/Dialogue < UNTRANSLATED
+> CONTEXT: Map210/events/7/pages/1/140/Dialogue < UNTRANSLATED
+> CONTEXT: Map210/events/7/pages/1/166/Dialogue < UNTRANSLATED
+> CONTEXT: Map210/events/7/pages/1/192/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ユニーク夢魔の情報その２。"
+> CONTEXT: Map210/events/7/pages/1/116/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【上から目線】
+口が性感帯。素早さ\\v[3]。
+【冒涜飼い】
+お尻が性感帯。素早さ\\v[4]。
+> CONTEXT: Map210/events/7/pages/1/130/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ユニーク夢魔の情報その３。"
+> CONTEXT: Map210/events/7/pages/1/142/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【丈夫な玩具】
+胸が性感帯。素早さ\\v[3]。
+【美の体現者】
+陰核が性感帯。素早さ\\v[4]。
+> CONTEXT: Map210/events/7/pages/1/156/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ユニーク夢魔の情報その４。"
+> CONTEXT: Map210/events/7/pages/1/168/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【秩序の魔女】
+胸が性感帯。素早さ\\v[3]。
+【金色の夢魔】
+女陰が性感帯。素早さ\\v[4]。
+> CONTEXT: Map210/events/7/pages/1/182/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ユニーク夢魔の情報その５。"
+> CONTEXT: Map210/events/7/pages/1/194/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【露悪の果て】
+女陰が性感帯。素早さ\\v[3]。
+> CONTEXT: Map210/events/7/pages/1/208/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"明晰の泉の場所ダナ。"
+> CONTEXT: Map210/events/7/pages/1/218/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+行くことができる明晰の泉の場所は全部で９つダ。
+> CONTEXT: Map210/events/7/pages/1/230/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+月明かりの樹海に２つ。
+この２つは共通して木の虚の中にあるゼ。
+> CONTEXT: Map210/events/7/pages/1/232/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+闇洞窟に２つ。
+１つは暗闇にしないと行けない場所にあるんだが、\\_
+気付いてるカイ？
+> CONTEXT: Map210/events/7/pages/1/235/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+パルフィス密教会に１つ。
+乱交してたホールのその先にある部屋の奥サ。
+> CONTEXT: Map210/events/7/pages/1/239/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+令嬢の屋敷に１つ。
+あれは完全に屋敷のオブジェにしてるナ、あのお嬢サマ。
+> CONTEXT: Map210/events/7/pages/1/242/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+獄界オルデオに１つ。
+ここは厄介な所サ。夢魔を倒していかないと見ることが\\_
+出来ないゼ。
+> CONTEXT: Map210/events/7/pages/1/245/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]魔城トゥーロマンサに２つ。
+１つは難しくないが、問題はもう１つサ。
+ポートから遠く、泉も強い夢魔が塞いでやがる。\\_
+ここが一番の難所だゼ。
+> CONTEXT: Map210/events/7/pages/1/249/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"のんびりした女"
+> CONTEXT: Map210/events/9/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map035/events/9/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢の魔力はー。
+仲間にした夢魔が多ければ多いほど増えるって聞いたよー。
+> CONTEXT: Map210/events/9/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それでー、増える夢の魔力は「強い夢魔」ほど
+多くなるんだってー。
+> CONTEXT: Map210/events/9/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/9/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢の魔力が必要な場所があったらー
+夢魔とたくさん契約したりー、夢魔をレベルアップ\\_
+させたりすれば\\nいいと思うなー。
+> CONTEXT: Map210/events/9/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ゴースト"
+> CONTEXT: Map210/events/10/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map035/events/10/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おいおい君、あんまり同じ夢魔にずっと同じ攻め方を\\_
+してないだろうね？
+> CONTEXT: Map210/events/10/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/10/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\c[12]弱点だったからと言ってやりすぎると飽きられる\\c[0]\\_
+よ。\\nたまには違う攻め方も入れて攻めるんだね。
+ちなみにホールド中のスキルは何回やっても大丈夫だよ。
+> CONTEXT: Map210/events/10/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･まぁ私に対しての光魔法は何度だろうが痛いがね･･･。
+> CONTEXT: Map210/events/10/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/10/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･････えっ？
+シャイニングレイジ？　光属性最上位魔法？
+> CONTEXT: Map210/events/10/pages/0/19/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･おいおいおいおいおいおい君君きみみみ、
+そそそそんな物騒な魔法を私に撃ってくれるなよ？
+> CONTEXT: Map210/events/10/pages/0/25/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+勘弁してくれ！　痛いどころじゃない！！
+幽霊だろうと関係ない！！　死んでしまう！！！
+> CONTEXT: Map210/events/10/pages/0/28/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こ、これをあげるからさ、
+決して私で試そうとはしないでくれないか･･･？
+> CONTEXT: Map210/events/10/pages/0/31/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+頼むよ･･･？
+> CONTEXT: Map210/events/10/pages/0/41/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･まぁ私に対しての光魔法は何度だろうが痛いがね･･･。
+シャイニングレイジなんて魔法なんか使われたら、\\_
+ひとたまりもないよ･･･。
+> CONTEXT: Map210/events/10/pages/0/51/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+しかしそんな物騒な攻撃魔法、夢魔には一切効かない\\_
+だろう？\\nなんでそんなものを習得しているんだね･･･。
+> CONTEXT: Map210/events/10/pages/0/55/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+魔王様にも通用しそうなぐらいな代物だよそれは･･･。
+> CONTEXT: Map210/events/10/pages/0/58/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"飲食する男"
+> CONTEXT: Map210/events/11/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map035/events/11/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+腹が減っては戦は出来ぬ。そういうだろ？
+> CONTEXT: Map210/events/11/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/11/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「食事」をすると、しばらく歩いている間は食事の効果が\\_
+得られるんだ。\\nステータスを上げたり、ＥＰやＶＰの\\_
+自動回復量を\\n上げたりすることができるぜ。
+> CONTEXT: Map210/events/11/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/11/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]それと、\\c[12]満腹度が減らない場所では\\_
+食事の歩数も減らない\\c[0]んだ。\\nだからここみたいな\\_
+安全な場所で食べても、ダンジョンに出るまでは
+食事効果の歩数は減ってないぜ。
+> CONTEXT: Map210/events/11/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ただし食事を行うと、食事の効果が切れるまでは\\_
+次の食事は行えない。
+まぁ、食べたら食べた分動け、ってことだな。
+> CONTEXT: Map210/events/11/pages/0/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/11/pages/0/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･ここじゃこうしてカウンターにいる兄ちゃんが\\_
+作ってくれるけど、
+ダンジョンで食事できたらなぁ･･･。
+> CONTEXT: Map210/events/11/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map035/events/11/pages/0/15/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"鎧の男"
+> CONTEXT: Map210/events/12/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢魔との相対において、より多くの経験値を得る方法がある。
+それは「\\c[12]自分より強い夢魔と戦うこと\\c[0]」、\\_
+「\\c[12]複数の夢魔と同時に戦うこと\\c[0]」だ。
+> CONTEXT: Map210/events/12/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+楽ではないものの、それによって得られる経験は大きい。
+余裕がある時は狙ってみることだな。
+> CONTEXT: Map210/events/12/pages/0/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+また、夢魔と接触した時、
+稀にレアな敵グループが現れることがある。
+> CONTEXT: Map210/events/12/pages/0/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+これも一筋縄ではいかない敵グループだが、
+経験値量を更に多く得ることができるぞ。
+> CONTEXT: Map210/events/12/pages/0/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ま、勝てないと経験値にならないんだがな。
+ちゃんと逃げることも重要だぞ。
+> CONTEXT: Map210/events/12/pages/0/14/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+戦闘中に夢魔と交代させる方法は分かる？
+教えてあげよっか？
+> CONTEXT: Map210/events/13/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢魔の交代は、夢魔側でしか行えないの。
+\\c[12]夢魔の行動選択で、Changeから\\_
+交代したい夢魔を選べば交代できる\\c[0]わ。
+> CONTEXT: Map210/events/13/pages/0/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢魔の交代は他のスキルとかと同様、夢魔の番にならない\\_
+とできないし、\\n行動不能とかになっちゃってると交代\\_
+できないから気をつけてね。
+> CONTEXT: Map210/events/13/pages/0/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢魔はＶＰが無くなって失神してると、経験値が一切貰え\\_
+ないから、
+危なくなった時に経験値が欲しいなら交代するのも手よ！
+> CONTEXT: Map210/events/13/pages/0/14/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ならば良し！
+> CONTEXT: Map210/events/13/pages/0/20/Dialogue < UNTRANSLATED
+
+> END STRING

@@ -1,0 +1,619 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+魔方陣が起動されている･･･
+> CONTEXT: Map204/events/1/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map204/events/1/pages/0/16/Dialogue < UNTRANSLATED
+> CONTEXT: Map204/events/2/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map031/events/1/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map031/events/1/pages/0/16/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ポートの設定を変える
+> CONTEXT: Map204/events/1/pages/0/3/Choice/0 < UNTRANSLATED
+> CONTEXT: Map204/events/1/pages/0/17/Choice/0 < UNTRANSLATED
+> CONTEXT: Map031/events/1/pages/0/3/Choice/0 < UNTRANSLATED
+> CONTEXT: Map031/events/1/pages/0/17/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+×××する
+> CONTEXT: Map204/events/1/pages/0/3/Choice/1 < UNTRANSLATED
+> CONTEXT: Map204/events/2/pages/0/2/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ポートの一番上に来る項目を変更できます。
+> CONTEXT: Map204/events/1/pages/0/31/Dialogue < UNTRANSLATED
+> CONTEXT: Map031/events/1/pages/0/31/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セーブを上にする
+> CONTEXT: Map204/events/1/pages/0/32/Choice/0 < UNTRANSLATED
+> CONTEXT: Map031/events/1/pages/0/32/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テレポートを上にする
+> CONTEXT: Map204/events/1/pages/0/32/Choice/1 < UNTRANSLATED
+> CONTEXT: Map031/events/1/pages/0/32/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+変えない
+> CONTEXT: Map204/events/1/pages/0/32/Choice/2 < UNTRANSLATED
+> CONTEXT: Map031/events/1/pages/0/32/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セーブを一番上にしました。
+> CONTEXT: Map204/events/1/pages/0/36/Dialogue < UNTRANSLATED
+> CONTEXT: Map031/events/1/pages/0/36/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テレポートを一番上にしました。
+> CONTEXT: Map204/events/1/pages/0/42/Dialogue < UNTRANSLATED
+> CONTEXT: Map031/events/1/pages/0/42/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+しますか？
+> CONTEXT: Map204/events/1/pages/0/53/Dialogue < UNTRANSLATED
+> CONTEXT: Map204/events/2/pages/0/15/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おや？　見ない顔ですね。
+･･････はっ、もしや刺客･･････！
+> CONTEXT: Map204/events/3/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうはさせません、私の枕は特別製なんです。
+安眠保証熟睡確実、「貴方の一生を駄目にする」が
+キャッチコピーのこの枕だけは、命に替えても渡しません。
+> CONTEXT: Map204/events/3/pages/0/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+これに変えてからというもの毎日が最高の惰眠生活が\\_
+送れているのです。\\n二度寝三度寝の気持ち良さが\\_
+また格別。贅沢ものの一品なのです。
+> CONTEXT: Map204/events/3/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+その枕が今なら19800Lps.で送料負担でお買い求め\\_
+頂けます。
+この機会に是非。
+> CONTEXT: Map204/events/3/pages/0/13/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+前置きはさておき。
+> CONTEXT: Map204/events/3/pages/0/17/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/16/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/40/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「状態異常のススメ」シリーズ全７巻、お読みになられました\\_
+か？
+私は著者のアンジュと申します。どうかお見知り置きを。
+> CONTEXT: Map204/events/3/pages/0/19/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/18/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"アンジュ"
+> CONTEXT: Map204/events/3/pages/0/26/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map204/events/3/pages/0/61/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/25/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/111/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+【胆力】や【柔軟】のような状態異常の耐性を付ける素質は、
+それだけで3/4まで付与確率が減らせます。
+> CONTEXT: Map204/events/3/pages/0/29/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/78/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+逆に言うと1/4残っちゃうので、
+それを嫌うなら装備品やルーンで補っておくと確実ですよ。
+精神力に自身があるなら大丈夫ですが。
+> CONTEXT: Map204/events/3/pages/0/32/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+装備品には「耐性」と書かれたものとは別に
+「無効」と書かれているものがあるのはご存じです？
+> CONTEXT: Map204/events/3/pages/0/39/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/88/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「耐性」はスキルの効果などで下げられてしまうことで
+付与確率が上がることがありますが、\\n「無効」と書かれた\\_
+ものはそれ関係なく効きませんよ。私の敵ですね。
+> CONTEXT: Map204/events/3/pages/0/42/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/91/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+状態異常は意外と、所謂「ボス」の夢魔にも効くんですよ。
+特殊な耐性を持っている場合はチェックで調べることが\\_
+できるんです。
+> CONTEXT: Map204/events/3/pages/0/49/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/98/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+しかしああいうのは場所の力によるその場限りの耐性だった\\_
+りするので、\\n契約した後は素質通りの耐性しか\\_
+持ちあわせてないんですけどね。
+> CONTEXT: Map204/events/3/pages/0/53/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/102/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+何か私にご用でして？
+> CONTEXT: Map204/events/3/pages/0/62/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+状態異常の解説を訊く
+> CONTEXT: Map204/events/3/pages/0/64/Choice/0 < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/114/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私に直々に訊きますか。眠たくなっても知りませんよ？
+私が。
+> CONTEXT: Map204/events/3/pages/0/66/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/116/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+→次へ
+> CONTEXT: Map204/events/3/pages/0/69/Choice/3 < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/119/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「恍惚」は見とれてしまい、動けなくなってしまう\\_
+状態異常ですね。
+> CONTEXT: Map204/events/3/pages/0/71/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/121/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+その効果は強力で、恍惚すると本当に何もできなくなります。
+レジストに対しても無力で、抵抗はできるにはできるのですが
+かなり厳しいものとなります。
+> CONTEXT: Map204/events/3/pages/0/74/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/124/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ただ、新たな快感を少し受けるだけで簡単に解けて\\_
+しまいます。
+> CONTEXT: Map204/events/3/pages/0/78/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/128/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+恍惚は夢魔に大きな胸を押し付けられたりすると\\_
+なりやすいみたいです。
+サキュバスさんのような方々が得意なのではないでしょうか。
+> CONTEXT: Map204/events/3/pages/0/81/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/131/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+確かに、あの胸は寝心地よさそうですものね。
+恍惚しちゃうのも納得です。
+> CONTEXT: Map204/events/3/pages/0/85/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/135/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+複数相手がいる時に攻撃の手を減らすためや、
+こちらの強化や回復などするための時間稼ぎには有効です。
+> CONTEXT: Map204/events/3/pages/0/88/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/138/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「欲情」は攻撃を受けた時に追撃されやすくなる\\_
+状態異常です。
+効果は見えにくいのですが、シンプルで分かりやすいですね。
+> CONTEXT: Map204/events/3/pages/0/93/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/143/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+追撃で与える快感は１発目よりも少し小さいのですが、
+それでも連続攻撃になるのは強力です。
+> CONTEXT: Map204/events/3/pages/0/97/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/147/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+追撃を利用することによって強力になるものもあります。
+攻撃スキルに追加効果があるようなものは、\\_
+追撃で更にチャンスができますね。
+> CONTEXT: Map204/events/3/pages/0/100/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/150/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+欲情はお顔にアソコを擦り付けられた時にたまに\\_
+なるようです。
+こういうのは好色な夢魔の方々が得意みたいですね。
+> CONTEXT: Map204/events/3/pages/0/104/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/154/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私は疲れるのであんまりですが。
+> CONTEXT: Map204/events/3/pages/0/108/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/158/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そういえば、力を得る代わりにずっと欲情状態になる\\_
+装備品があるそうです。
+付ける方は相当物好きと見えますね。
+> CONTEXT: Map204/events/3/pages/0/110/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/160/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]「暴走」はしばらくの間、積極的な行動ばかり\\_
+するようになる状態異常です。
+魔法や補助スキルなどは一切使えず、また夢魔の契約者の
+指示を受けることもできません。
+> CONTEXT: Map204/events/3/pages/0/116/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/166/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+相手の行動を大きく制限することができる状態異常ですね。
+ただ、新たな快感を少しでも受けると、たまに解けてしまう\\_
+ようです。
+> CONTEXT: Map204/events/3/pages/0/120/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/170/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]暴走中はどんな攻撃も「器用さ」ではなく\\_
+「精力」が影響するようになります。
+暴走状態の夢魔が与える快感は普段より大きくなっている\\_
+ので、\\n押し切られるのに注意ですね。
+> CONTEXT: Map204/events/3/pages/0/124/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/174/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]魔法を使えなくする性質上、魔法に頼る\\_
+夢魔には有効です。\\n暴走しても相手を押し切るほどの\\_
+能力が無いことが多いですからね。
+私も相当困ります。
+> CONTEXT: Map204/events/3/pages/0/128/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/178/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+というか暴走って、治ったあとが怖いんですよ。
+> CONTEXT: Map204/events/3/pages/0/132/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/182/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+恥ずかしくなりますから。
+> CONTEXT: Map204/events/3/pages/0/134/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/184/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「虚脱」は身体を動かすのが億劫になってしまう\\_
+状態異常です。
+> CONTEXT: Map204/events/3/pages/0/140/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/190/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+行動するために必要なＶＰが増えてしまいます。
+ＶＰが増えないのは動かないことだけです。
+実質的に毒のような効果を持ちますね。
+> CONTEXT: Map204/events/3/pages/0/143/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/193/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]目に見えた効果は小さいのですが、
+絶頂させた後に復帰させにくくできますし、
+相手のＶＰがもうほとんど無い状態でしたら\\_
+もう動くことはできません。
+> CONTEXT: Map204/events/3/pages/0/147/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/197/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+しぶとい相手や忍耐力の高い相手に有効な状態異常です。
+ＶＰがあるうちは効果があまりあるように見えないのが弱点\\_
+ですが。
+> CONTEXT: Map204/events/3/pages/0/151/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/201/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私は虚脱状態になるとそうですね。
+> CONTEXT: Map204/events/3/pages/0/155/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/205/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もっとだらけます。
+> CONTEXT: Map204/events/3/pages/0/157/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/207/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「畏怖」は不安に駆り立てられ、たまに怯んでしまう\\_
+状態異常です。
+> CONTEXT: Map204/events/3/pages/0/161/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/211/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+怯んでしまうと、そのターンの間は動くことができません。
+恍惚に比べると確実性はないものの、快感を受けても
+解除されることは無く、長期的に効果が望めます。
+> CONTEXT: Map204/events/3/pages/0/164/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/214/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+恍惚同様、相手の手数を減らすのに有効ですが、
+畏怖中の相手には、ムードが高くても多く快感を与える\\_
+ことができません。
+> CONTEXT: Map204/events/3/pages/0/168/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/218/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ちなみに、畏怖は私ことナイトメアの得意技です。
+十八番です。悪夢ですからね。
+> CONTEXT: Map204/events/3/pages/0/172/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/222/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私としても会った瞬間相手を怖がらせられるようになるのが\\_
+夢です。
+正気度を失いそうな。
+> CONTEXT: Map204/events/3/pages/0/175/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/225/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「麻痺」は体が痺れてしまって動きにくくなる状態異常です。
+> CONTEXT: Map204/events/3/pages/0/181/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/231/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+効果の一つとして、ターン中での行動順番が\\_
+非常に遅くなります。
+行動順の調整に有効な状態異常ですね。
+> CONTEXT: Map204/events/3/pages/0/183/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/233/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+更に、麻痺状態の時はレジストに弱くなります。
+単純に矢印の数が上下するのではなく、
+最小数か最大数が変動するタイプですが。
+> CONTEXT: Map204/events/3/pages/0/187/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/237/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+即時的に効果が現れるので、
+レジストを行う時やレジストに頼る相手に有効ですね。
+> CONTEXT: Map204/events/3/pages/0/191/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/241/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そういえば麻痺の魔法って使い方次第でマッサージに\\_
+なるって本当ですかね。
+心地よい痺れが身体をほぐすとかなんとか。
+> CONTEXT: Map204/events/3/pages/0/194/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/244/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+一度試してみようと思うんですけど、どうです？
+> CONTEXT: Map204/events/3/pages/0/198/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/248/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「散漫」は頭が回らなくなってしまう状態異常です。
+大きい効果としては「魔法が使えなくなる」ことですね。
+> CONTEXT: Map204/events/3/pages/0/202/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/252/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]同じく魔法に頼る夢魔を無力化できる\\_
+「暴走」よりも範囲は狭いものの、
+散漫は相手を強化することや快感を受けると治ることもなく、
+使いやすさで勝ります。
+> CONTEXT: Map204/events/3/pages/0/205/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/255/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+他にも、散漫状態の時はレジストが単純に難しくなります。
+レジストに頼る相手にも効果があり、有効な相手は多いです。
+> CONTEXT: Map204/events/3/pages/0/209/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/259/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+散漫状態は私にとってはある意味身近ですね。
+起きてしばらくぼーっとしてる時なんかは、
+まさに散漫状態と言っていいでしょう。全然頭が回りません。
+> CONTEXT: Map204/events/3/pages/0/212/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/262/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+････････････ぐー･･･。\\!
+･･･はっ、寝てませんよ。大丈夫です、大丈夫です。
+で、何の話でしたっけ？
+> CONTEXT: Map204/events/3/pages/0/226/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/276/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+「夢魔図鑑」
+と書かれた本がある。
+> CONTEXT: Map204/events/4/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_library"
+> CONTEXT: Map204/events/4/pages/0/13/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Map103/events/14/pages/0/10/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Map051/events/9/pages/0/10/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/61/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/65/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING

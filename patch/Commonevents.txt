@@ -1,0 +1,2264 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+"アナウンスします"
+> CONTEXT: Commonevents/1/5/InlineScript/1:8 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+迷えるアリス様、甘美なる『夢世界』へようこそ。
+歓迎致しますわ\\H
+> CONTEXT: Commonevents/2/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+早速ですけども、貴方の事をいくつかお伺いしたいですわ。\\_
+\\.\\.
+まずは･･･
+> CONTEXT: Commonevents/2/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+次のうち、一番惹かれるのはどれでしょう？
+> CONTEXT: Commonevents/2/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、他愛の無いお喋りもいいものですわね。\\.\\.
+（主人公の性格が【真面目】になります）\\n
+> CONTEXT: Commonevents/2/13/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、嘘はいけませんわ\\H
+> CONTEXT: Commonevents/2/21/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/2/36/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/2/51/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、たくましい殿方、素敵ですわ\\H\\.\\.
+（主人公の性格が【腕白】になります）\\n
+> CONTEXT: Commonevents/2/28/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ありがとうございます。\\.\\.
+では次に･･･
+> CONTEXT: Commonevents/2/58/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、私も貴方に唇を奪われてみたいですわね\\H\\.\\.
+（主人公の弱点が【口攻めに弱い】になります）\\n
+> CONTEXT: Commonevents/2/67/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、均整の取れた手足は美しいですわよね\\H\\.\\.
+（主人公の弱点が【手攻めに弱い】になります）\\n
+> CONTEXT: Commonevents/2/82/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、女性の魅力は胸だけとは限りませんものね？\\.\\.
+（主人公の弱点が【女陰攻めに弱い】になります）\\n
+> CONTEXT: Commonevents/2/112/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+成程･･･\\H\\.\\.
+ご協力、感謝いたしますわ。
+> CONTEXT: Commonevents/2/148/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"スライムの粘液が付いて
+上手く移動できなくなってしまった！"
+> CONTEXT: Commonevents/9/53/InlineScript/2:1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"黒猫の不吉な鳴き声が
+頭にこびりついている……"
+> CONTEXT: Commonevents/9/64/InlineScript/2:1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ポートにあなたの情報が登録されました。
+> CONTEXT: Commonevents/11/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ポートに記録されている情報が流れこんできた！
+> CONTEXT: Commonevents/11/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デバッグ用アイテムを入手します。
+> CONTEXT: Commonevents/12/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テレポート
+> CONTEXT: Commonevents/12/24/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/12/60/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/27/10/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+情報を確認
+> CONTEXT: Commonevents/12/24/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/12/60/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ポートの記録"
+> CONTEXT: Commonevents/13/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+夢世界の近くで住めそうな無人の家を発見した。
+夢魔の棲家からも離れており、しばらくはここを拠点として
+有効活用できると思われる。
+> CONTEXT: Commonevents/13/5/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/13/92/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+幸い、隣人も友好的で良い人ばかりだ。
+夢世界の通貨であるLps.と、夢世界での旅に必要な物を\\_
+取引してくれたり、\\n多くの情報も入手できる。
+> CONTEXT: Commonevents/13/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+また、ここから一番近い夢世界は下級夢魔ばかりのようだ。
+動きも緩慢で、いざ襲われても抵抗ができるであろう。
+> CONTEXT: Commonevents/13/13/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+しかし、油断は禁物である。
+一度快楽に身を任せてしまえば行く先は破滅。
+気を引き締めていかねばならない。
+> CONTEXT: Commonevents/13/16/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/13/99/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+夢世界でも「怪しい物は怪しい」ものだ。
+> CONTEXT: Commonevents/13/26/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/13/207/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+一見何かありそうな場所には、何かがある可能性がある。
+調べてみるまで分からないものは多いのだ。
+案外、そこには「扉」があったりする。
+> CONTEXT: Commonevents/13/28/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/13/209/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+また、夢魔も夢世界にやって来た人間に対して容赦なく
+襲い掛かってくるが、その前触れに気付くことは意外と\\_
+容易い。
+> CONTEXT: Commonevents/13/32/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/13/213/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+夢世界の探索に置いて必要なのは「直感」や「嗅覚」だ。
+探索中は、常に気を張り巡らせておくことであろう。
+> CONTEXT: Commonevents/13/36/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/13/217/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+まさかこの邪教が夢世界にも存在するとは思いもしなかった。
+> CONTEXT: Commonevents/13/45/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+堕落を崇拝し、悪魔と共に他者に堕落を布教する、
+魔女たちの密教会。
+> CONTEXT: Commonevents/13/47/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/13/290/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+私も魔女の端くれとして、多数の魔女を有するこの教会と
+関わることは現実でもあったが、規模がまるで違う。
+> CONTEXT: Commonevents/13/50/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/13/293/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+もしかしたら、夢世界のこの教会こそが･･･。
+> CONTEXT: Commonevents/13/53/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+おそらく、すんなりと侵入を許した割には、ただでは帰して\\_
+くれないだろう。
+慎重に行かなければ。
+> CONTEXT: Commonevents/13/55/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+ホームポート用マニュアル
+「ホームとポートの機能説明について」
+> CONTEXT: Commonevents/13/65/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+夢世界には人間が各々持つ「ホーム」と呼ばれる領域が\\_
+存在します。
+> CONTEXT: Commonevents/13/68/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+本来は夢の中ではまともに活動することができませんが、
+この「ポート」をホームに設置することで明晰状態を\\_
+維持することができ、\\n活動を可能としています。
+> CONTEXT: Commonevents/13/71/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+ホームは外の夢世界から強く干渉されず、
+また、このポートにより更に安全性が高められます。
+> CONTEXT: Commonevents/13/75/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+管理者の許可の無い外の夢世界の夢魔の影響は、
+受けないと言って良いでしょう。
+そのため、夢世界探索では安全な拠点として活用できます。
+> CONTEXT: Commonevents/13/78/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+ポートを設置したホームにはあなたを助ける者も現れます。
+彼らは無害で、夢世界の知識に明るいので、友好的に\\_
+接しましょう。
+> CONTEXT: Commonevents/13/82/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+ここから一番近い夢世界は下級夢魔ばかりのようだ。
+動きも緩慢で、いざ襲われても抵抗ができるであろう。
+> CONTEXT: Commonevents/13/96/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+この教会は、図書館と併設されているようだ。
+一見平和そうにも見える所だが･･････。
+> CONTEXT: Commonevents/13/109/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+得体のしれない空気がずっと纏わりついている。
+噂通りなら、ここが一番怪しいだろう。
+> CONTEXT: Commonevents/13/112/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+しかし夢世界の勝手が分からない私には、先人の知恵であり
+情報源となる書物は、貴重で有用だ。
+> CONTEXT: Commonevents/13/115/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+夢世界はどこへ行っても堕落的な夢魔ばかりだが、
+夢世界の者にも「書に纏めようとする者」がいると考えれば、
+案外味方はいるのかも知れない。
+> CONTEXT: Commonevents/13/118/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+この屋敷の令嬢は、私が知る夢魔の中では
+友好的に接することができる相手だった。
+> CONTEXT: Commonevents/13/128/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+夢魔にしてはあまり下品さも感じられず、
+貞操観念、というよりもその貴族的な振る舞いからか、
+自分を安売りしないような者に見える。
+> CONTEXT: Commonevents/13/131/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+彼女は他者の物語に興味を持っており、話すとその礼として
+様々な取引を独自の人脈で取り計らってくれた。
+> CONTEXT: Commonevents/13/135/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+パルフィス密教会とは創立時からの付き合いのようだが、
+彼女を見ていると、パルフィス密教会が本当は何を
+したかったのかを垣間見れた気がした。
+> CONTEXT: Commonevents/13/138/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+･･･その分、現状のパルフィス密教会の腐敗を見ても、
+それを眺め楽しむだけのような、放任主義なのが些か\\_
+厄介な性格だが。
+> CONTEXT: Commonevents/13/142/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+ポートには記録欄が使えるようなので、
+備忘録も兼ねてこれから記録していくようにする。
+> CONTEXT: Commonevents/13/152/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+夢世界では何が起こるか分からない。
+回復できるようなものの備蓄は必要だろう。
+> CONTEXT: Commonevents/13/155/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+精神を安定させるには紅茶が良さそうだ。
+夢魔と相対しているときは使えないものの、
+安価で量を備蓄しやすい。
+> CONTEXT: Commonevents/13/158/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+夢魔と相対している時には、
+手軽に摂取できる菓子で誤魔化せそうである。
+> CONTEXT: Commonevents/13/162/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+菓子は紅茶に比べると少々値を張るが、
+緊急時に欲しいものだ。
+> CONTEXT: Commonevents/13/165/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+ある時、弟子が夢魔に襲われている場面に出くわした。
+> CONTEXT: Commonevents/13/174/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+なんとか彼を救い出すこともできたが、
+彼は本当の彼ではない。この夢世界での経験でそれは\\_
+理解している。
+> CONTEXT: Commonevents/13/176/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+とはいえ、だからといって彼を救わない理由はない。
+私の大事な愛弟子だ。夢でも守れずに何が師匠か。
+> CONTEXT: Commonevents/13/180/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+この先に、「魔王のホーム」と呼ばれるものがあるようだ。
+> CONTEXT: Commonevents/13/189/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+嘗て滞在機で封じられていた人々の宿敵。
+魔王を制したその技術は、確かに有効だった。
+> CONTEXT: Commonevents/13/191/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+私が知る中でパルフィス密教会の唯一の功績だが･･･。
+> CONTEXT: Commonevents/13/194/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+あの堕落教会がそんなことをわざわざするだろうか。
+あそこはもっと利己的だったはずだ。
+> CONTEXT: Commonevents/13/196/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+もう一度、私はあの教会を探索するべきだろう。
+> CONTEXT: Commonevents/13/199/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+夢魔を退け、逃げるのにも慣れたものだ。
+こうしてポートを設置していく事で、局所的に夢世界の
+明晰状態が保たれて、活動範囲を広げることができる。
+> CONTEXT: Commonevents/13/226/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+不便だが、こうでもしないとこの夢世界というのは危険だ。
+明晰状態の無い夢世界は、自分が夢を見ているということ\\_
+にも気付けない。
+> CONTEXT: Commonevents/13/230/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+･･･しかしこうして見ると、夢と現実に差は無いように\\_
+見えてしまう。
+> CONTEXT: Commonevents/13/234/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+そうなると、尚更夢魔の存在は夢だと笑うことができない。
+> CONTEXT: Commonevents/13/237/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+ここからは落とし穴があるようだ。
+> CONTEXT: Commonevents/13/245/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+どうやら夢魔はそこを踏まないように移動している。
+よく観察して進む必要があるようだが･･･。
+> CONTEXT: Commonevents/13/247/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+視界の悪さと相まって危険さが付き纏う。
+> CONTEXT: Commonevents/13/250/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+夢魔に先手を取られないようにすることや、
+逃走しやすいような装備を整えることが重要だろう。
+> CONTEXT: Commonevents/13/252/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+･･･あの教会で、私は耐えられないものを見てしまった。
+> CONTEXT: Commonevents/13/255/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+いくら夢世界で夢魔に慣れたとはいえ、
+あそこまでのものは私も想定外だった。
+> CONTEXT: Commonevents/13/257/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+思い出すだけで気分が悪くなり、今は別の所を探索\\_
+しているものの･･･。
+> CONTEXT: Commonevents/13/260/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+あんなものを見過ごすわけにはいかないのは確かなのだ。
+それをできるのも私だけだろう。
+> CONTEXT: Commonevents/13/263/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+ゴブリンは比較的人間の価値観に近い。
+道具を作り、仲間と連携し、他者と共生していく。
+> CONTEXT: Commonevents/13/272/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+血の気が多くはあり、人間からすればそれは遅れている\\_
+ものの、
+彼女らは確かに文明を築いていた。
+> CONTEXT: Commonevents/13/275/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+しかし夢世界で武器はいらないだろう武器は。
+> CONTEXT: Commonevents/13/279/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+まさかこの邪教が夢世界にも存在するとは
+思いもしなかった。
+> CONTEXT: Commonevents/13/287/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+やはり、夢世界のこの教会こそが･･･。
+> CONTEXT: Commonevents/13/296/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+･･･恐ろしいものを見てしまった。
+> CONTEXT: Commonevents/13/304/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+何だあれは。何が目的なのだ？
+> CONTEXT: Commonevents/13/306/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+遠目でよく見ることが出来なかったが、
+どうやら金色の夢魔が主導しているようだ。
+> CONTEXT: Commonevents/13/308/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+気分が悪い･･･。
+> CONTEXT: Commonevents/13/311/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+この教会は一体何をやっている･･･？
+> CONTEXT: Commonevents/13/313/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+やはりここは酷く吐き気のする場所だ。
+> CONTEXT: Commonevents/13/321/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+あの子たちも教会で引き取られた孤児だろう。
+しかし彼女らの待遇は良い様には見えない。\\_
+まさに奴隷のようだ。
+> CONTEXT: Commonevents/13/323/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+しかし、嘗て関わったパルフィス密教会で引き取ることに\\_
+なった孤児は、
+他の孤児も含めて教育自体は充分と為されていたはず･･･。
+> CONTEXT: Commonevents/13/327/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+パルフィス密教会は、昔と何かが変わっている？
+> CONTEXT: Commonevents/13/331/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+どうやら今のパルフィス密教会は嘗ての主導者カオシアが\\_
+不在らしい。
+> CONTEXT: Commonevents/13/339/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+今はあの集会を取り仕切っていた、ヴェルミィーナという
+金色の夢魔が主導者を務めているようだ。
+夢魔がトップの組織なぞ腐敗して当然なはずだ。
+> CONTEXT: Commonevents/13/342/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+とはいえ、想像以上にこの教会は根を張っている。
+今分かっているこの教会の現実世界の支部を解体していく\\_
+程度では、\\n逆に警戒を強めてしまうだけだろう。
+> CONTEXT: Commonevents/13/346/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+堕落的とはいえ、ここは優秀な魔女も多い。
+魔女にとって絶好の研究施設にもなっているこの教会を、
+安易に敵に回してしまうのも危険だ。
+> CONTEXT: Commonevents/13/350/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+しかしそうなると、一体どうすれば･･･？
+> CONTEXT: Commonevents/13/354/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+一度弟子が夢魔に襲われている場面に出くわしたが、
+あれから同じようなことが何度も発生するようになっていた。
+> CONTEXT: Commonevents/13/362/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+私はその度に弟子たちを救っていった。
+しかし何度助けようと彼は現れる。私に救出されるために。
+> CONTEXT: Commonevents/13/365/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+徐々にだが、その場面は少しずつ手遅れになってきている。
+私に何かを訴えかけるかのように。
+> CONTEXT: Commonevents/13/368/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+これは夢。ただの夢想なのだ。
+> CONTEXT: Commonevents/13/371/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+これが現実にならないためにも、
+この夢世界をどうにか制せねばならないのだが･･･。
+> CONTEXT: Commonevents/13/373/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+夢世界は探索すればする程、混沌の塊だと意識させられる。
+もはや私だけの手に負えるものとは思えない。
+> CONTEXT: Commonevents/13/376/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+ここは過酷そうな場所だ。
+火山のような地形になっているのだろうか。
+> CONTEXT: Commonevents/13/385/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+ここは何か力の脈動のようなものを感じる。
+夢魔･･･というよりももっと広義的な「悪魔」が多い地域の\\_
+ようだが、\\nこの力の影響なのだろうか。
+> CONTEXT: Commonevents/13/388/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+とはいえ、弟子を襲う夢魔の数が多く厄介だ。
+逃げても逃げても夢魔が大量にいる。
+> CONTEXT: Commonevents/13/392/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+深部へ行けば何か分かるだろうか。
+何か手がかりがあるかもしれない。
+> CONTEXT: Commonevents/13/395/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+悪用する者、自堕落のためだけに使う者が必ず出現する\\_
+だろうこの世界。\\n公言するべくではないと私１人で\\_
+ここまで探索してきていたが･･･。
+> CONTEXT: Commonevents/13/404/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+もはやそれも限界が近づいている。
+少し休息を置いてからなんとか対策班を組み、\\_
+考えるべきだろう。
+> CONTEXT: Commonevents/13/408/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+とはいえ、この地区のポートの設置だけは完了しておきたい\\_
+ものだ。
+> CONTEXT: Commonevents/13/412/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+私と同じポート登録機からホームポートを設置すれば、
+このポートを視認することも出来、\\_
+夢世界も歩き回りやすくはなるはず。
+> CONTEXT: Commonevents/13/415/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+まさかこんな所で彼女と対面することになるとは。
+いや、それよりも重要なことが分かってしまった。
+> CONTEXT: Commonevents/13/425/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+魔王を夢に幽閉した滞在機に「致命的な欠陥」があるのだと。
+そしてそれを悪用される可能性があるということを。
+> CONTEXT: Commonevents/13/428/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+すぐにでも滞在機の置かれている魔王のホームへと向かう\\_
+必要がある。
+> CONTEXT: Commonevents/13/431/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+彼女が動けない以上、私の精神をすり減らしてでも。
+> CONTEXT: Commonevents/13/434/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+滞在機を破壊しなければ。
+> CONTEXT: Commonevents/13/436/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+魔王のホームへと遂に来た。
+> CONTEXT: Commonevents/13/444/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+他者のホームとなると「夢干渉」をする必要があるようだが、
+ここはパルフィス密教会が侵攻した際に、言ってしまえば
+「入り口が広げられている」ようだ。
+> CONTEXT: Commonevents/13/446/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+この技術も今回の事に悪用されることだろう。
+しかし今の私に取っては好都合だ。
+> CONTEXT: Commonevents/13/450/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+ここの夢魔は獲物を見つければすぐに襲い掛かってくる。
+まるで肉食獣のような者たちだ。
+> CONTEXT: Commonevents/13/453/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+ここでも弟子の幻影が現れては、夢魔たちから無節操に\\_
+襲われる。\\nお互いを貪りあい、交合し、私の眼前で果て\\_
+続ける弟子たちを、\\n私は何度も助けた。
+> CONTEXT: Commonevents/13/456/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+頬を赤らめ、私に対して続きを求める彼を厳しく律し、
+なんとか宥めてきた。
+> CONTEXT: Commonevents/13/460/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+だがここの夢魔の積極性からかその頻度も高くなり、
+私も疲弊している。
+> CONTEXT: Commonevents/13/463/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+しかし休んではいけない。これは一刻を争う事態なのだ。
+> CONTEXT: Commonevents/13/466/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+今まで自分を騙し騙しで気付こうとするのを拒んでいたが、
+もはや私も確信してしまっている。
+> CONTEXT: Commonevents/13/474/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+自らを蝕む意識の毒に。
+> CONTEXT: Commonevents/13/477/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+頼ってきた薬でも抑えられることができない。
+> CONTEXT: Commonevents/13/479/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+早く、早く、早く、辿り着かなければ。
+> CONTEXT: Commonevents/13/481/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+私が過ちを犯す前に。
+> CONTEXT: Commonevents/13/483/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+私たちを堕落させるこの夢世界の脅威は、\\_
+【秩序の魔女】として、\\nそして【秩序の魔女】である私で\\_
+あるからこそ止められる。\\n最初こそ、そう自負していた。
+> CONTEXT: Commonevents/13/491/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+実際は、逆だったのだ。
+下手に律する程、人の欲望は増長させてしまう。
+> CONTEXT: Commonevents/13/495/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+そして、私はその事を見ない振りしていた、
+いや、気付こうともしなかっただけなのだと。
+> CONTEXT: Commonevents/13/498/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+では、私が今まで守ってきた町は？
+私は本当に「秩序」を守れていたのか？
+> CONTEXT: Commonevents/13/501/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+その答えは、もう自分で分かっていた。
+> CONTEXT: Commonevents/13/504/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+紅潮し切なそうに求める愛弟子の幻影を。
+> CONTEXT: Commonevents/13/506/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+興奮が増し、とうとう直接的な誘惑をし始めた\\n[101]の\\_
+身体を。
+> CONTEXT: Commonevents/13/508/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+彼を犯すのを。
+> CONTEXT: Commonevents/13/511/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+私は望んでしまっている。
+> CONTEXT: Commonevents/13/513/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+ひと度、自分の本能に気付いてしまったら。
+認めてしまったら。
+もう元には戻れない。
+> CONTEXT: Commonevents/13/521/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+私の精神は完全に満身創痍と化していた。
+これまで幾度と無く救出してきた愛弟子の幻影全員が、
+これまで以上に私を求めてくるのだ。
+> CONTEXT: Commonevents/13/525/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+熱を帯び始めた私の体も治まらなくなっていき、
+もはや苦し紛れに始めた自慰や弟子たちへの手淫も、
+逆効果となってしまっていた。
+> CONTEXT: Commonevents/13/529/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+しかしもう、滞在機はもう目と鼻の先のはずだ。
+> CONTEXT: Commonevents/13/533/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+この先にある滞在機さえ壊せば、
+> CONTEXT: Commonevents/13/535/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+私はもうこんな夢の話など忘れ、
+> CONTEXT: Commonevents/13/537/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+現実に
+> CONTEXT: Commonevents/13/539/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+････････････
+> CONTEXT: Commonevents/13/541/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+････････････
+> CONTEXT: Commonevents/13/543/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+･･････ポートに、キスマークと金字の文章が残されて\\_
+ある･･･。
+> CONTEXT: Commonevents/13/544/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\c[12]ばかね\\c[0]
+> CONTEXT: Commonevents/13/546/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\c[12]夢が現実でないはずがないでしょう\\c[0]
+> CONTEXT: Commonevents/13/547/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+どうか、ラーミル様を助けてください。
+> CONTEXT: Commonevents/13/554/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+僕たちのことも、自分がやってしまったことも
+> CONTEXT: Commonevents/13/555/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+すべて夢だったと、忘れさせてください。
+> CONTEXT: Commonevents/13/556/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"name_map1"
+> CONTEXT: Commonevents/14/12/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/20/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/28/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/283/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_home"
+> CONTEXT: Commonevents/14/44/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_base"
+> CONTEXT: Commonevents/14/52/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_residence"
+> CONTEXT: Commonevents/14/75/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_goblintown"
+> CONTEXT: Commonevents/14/131/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_outskirts"
+> CONTEXT: Commonevents/14/235/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/275/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_rendica"
+> CONTEXT: Commonevents/14/243/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_house"
+> CONTEXT: Commonevents/14/251/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_chaosrendica"
+> CONTEXT: Commonevents/14/259/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_territory"
+> CONTEXT: Commonevents/14/299/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"screen02"
+> CONTEXT: Commonevents/17/25/InlineScript/3:20 < UNTRANSLATED
+> CONTEXT: Commonevents/17/85/InlineScript/2:38 < UNTRANSLATED
+> CONTEXT: Commonevents/130/36/InlineScript/3:20 < UNTRANSLATED
+> CONTEXT: Commonevents/130/68/InlineScript/2:38 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]は新たな姿にランクアップしそうだ……
+ランクアップを行わせますか？
+> CONTEXT: Commonevents/17/62/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]は、\\v[3]にランクアップした！
+> CONTEXT: Commonevents/17/126/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+暗闇に反応して扉が開いた！
+> CONTEXT: Commonevents/20/59/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+開かない。
+扉には日食の紋様が描かれている。
+> CONTEXT: Commonevents/20/67/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+謎のルーンを解読した！
+･･････謎のルーンは\\v[2]だった！
+> CONTEXT: Commonevents/22/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[5]
+移動しますか？
+> CONTEXT: Commonevents/27/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ポート機能を使う
+> CONTEXT: Commonevents/27/10/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+情報の確認
+> CONTEXT: Commonevents/27/26/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]は\\v[2]との
+契約を引き受けてくれそうだ。
+> CONTEXT: Commonevents/28/29/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]と契約しますか？
+> CONTEXT: Commonevents/28/32/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+契約して、ホームに送る
+> CONTEXT: Commonevents/28/35/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/28/45/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+契約を交わさない
+> CONTEXT: Commonevents/28/35/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/28/45/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+契約して、仲間に引き入れる
+> CONTEXT: Commonevents/28/45/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]と契約を交わし、
+パーティに加えます。
+よろしいですか？
+> CONTEXT: Commonevents/28/60/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]と契約を交わした！
+\\v[3]がパーティに加わった！
+> CONTEXT: Commonevents/28/99/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔との契約数が上限に達した。
+今の自分では、これ以上夢魔とは契約できなさそうだ。
+> CONTEXT: Commonevents/28/103/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/28/158/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]と契約を交わし、
+ホームへ送ります。
+よろしいですか？
+> CONTEXT: Commonevents/28/115/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]と契約を交わした！
+\\v[3]をホームに迎え入れた！
+> CONTEXT: Commonevents/28/154/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]とは契約しません。
+よろしいですか？
+> CONTEXT: Commonevents/28/170/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]と契約しませんでした。
+> CONTEXT: Commonevents/28/178/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+/TALKTEXT/
+> CONTEXT: Commonevents/31/58/InlineScript/2:24 < UNTRANSLATED
+> CONTEXT: Commonevents/41/70/InlineScript/2:24 < UNTRANSLATED
+> CONTEXT: Commonevents/41/137/InlineScript/2:24 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[19]
+> CONTEXT: Commonevents/31/71/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/41/78/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/41/145/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[18]]\\_
+\\v[19]
+> CONTEXT: Commonevents/31/74/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/41/81/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/41/148/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"\#{$msg.t_target.name}は"
+> CONTEXT: Commonevents/32/158/InlineScript/2:9 < UNTRANSLATED
+> CONTEXT: Commonevents/32/198/InlineScript/2:9 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"イってしまった！"
+> CONTEXT: Commonevents/32/158/InlineScript/4:11 < UNTRANSLATED
+> CONTEXT: Commonevents/32/198/InlineScript/4:11 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"イかされてしまった！"
+> CONTEXT: Commonevents/32/158/InlineScript/6:11 < UNTRANSLATED
+> CONTEXT: Commonevents/32/198/InlineScript/6:11 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"\\q\\m"
+> CONTEXT: Commonevents/32/158/InlineScript/8:39 < UNTRANSLATED
+> CONTEXT: Commonevents/32/198/InlineScript/8:39 < UNTRANSLATED
+> CONTEXT: Commonevents/34/118/InlineScript/2:8 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"\#{$msg.t_target.name}は、"
+> CONTEXT: Commonevents/32/183/InlineScript/2:9 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"意識が朦朧としている……！"
+> CONTEXT: Commonevents/32/183/InlineScript/4:11 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"blackout"
+> CONTEXT: Commonevents/33/200/InlineScript/3:20 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"\#{$msg.t_enemy.name}を絶頂させた！"
+> CONTEXT: Commonevents/34/105/InlineScript/2:8 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"しかし\#{$msg.t_enemy.name}は、"
+> CONTEXT: Commonevents/34/118/InlineScript/3:9 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"まだ物足りない様子だ……！"
+> CONTEXT: Commonevents/34/118/InlineScript/4:9 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エネミーからアクターへの強制行動でエラー発生
+行動させるスキルIDが入力されていません
+> CONTEXT: Commonevents/36/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アクターからエネミーへの強制行動でエラー発生
+行動させるスキルIDが入力されていません
+> CONTEXT: Commonevents/37/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]のお腹が満たされた！
+> CONTEXT: Commonevents/41/157/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]は\\v[3]に精を献上した！
+\\v[2]はVPを\\v[4]消費した！
+\\v[3]のお腹が満たされた！
+> CONTEXT: Commonevents/41/179/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]は空腹に堪え切れず、
+\\v[2]に襲いかかってきた！
+> CONTEXT: Commonevents/43/50/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]たちは空腹に堪え切れず、
+\\v[2]に襲いかかってきた！
+> CONTEXT: Commonevents/43/89/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/43/129/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+満腹度処理でエラーが発生したのですよ。
+至急修繕おにーさんたちは直しに行ってくださいな。
+> CONTEXT: Commonevents/43/141/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デバッグルームへ
+> CONTEXT: Commonevents/49/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+手動デバッグの切り替え
+> CONTEXT: Commonevents/49/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+なにこれ？
+> CONTEXT: Commonevents/49/1/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+現在はON状態です。OFFにしますか？
+> CONTEXT: Commonevents/49/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+OFFにしました。
+> CONTEXT: Commonevents/49/14/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+現在はOFF状態です。ONにしますか？
+> CONTEXT: Commonevents/49/21/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ONにしました。
+> CONTEXT: Commonevents/49/25/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デバッグ用アイテムです。
+持ってるだけで夢の魔力の色んな扉を完全通過できます。
+> CONTEXT: Commonevents/49/35/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[34]
+> CONTEXT: Commonevents/51/4/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/53/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]は\\v[3]にランクアップした！
+> CONTEXT: Commonevents/59/15/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+現在の一人称は「\\v[3]」です。
+変更後の一人称は「\\v[4]」です。
+\\v[5]の一人称を変えますか？
+> CONTEXT: Commonevents/60/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[5]の一人称が「\\v[3]」になりました。
+> CONTEXT: Commonevents/60/15/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[5]の一人称は「\\v[3]」のままになりました。
+> CONTEXT: Commonevents/60/20/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"使用人"
+> CONTEXT: Commonevents/105/4/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お待たせ致しました、シルフェお嬢様。
+> CONTEXT: Commonevents/105/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+何なりとご用件をお申し付け下さい。
+> CONTEXT: Commonevents/105/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アイテムを買う
+> CONTEXT: Commonevents/105/10/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食事にする
+> CONTEXT: Commonevents/105/10/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+承知しました。すぐに手配致します。
+> CONTEXT: Commonevents/105/12/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/105/22/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+承知しました。
+また何か御座いましたら、いつでもお呼び下さい。
+> CONTEXT: Commonevents/105/34/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+『現の壁』に999999のダメージを与えた！
+> CONTEXT: Commonevents/106/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+『現の壁』を破壊した！
+> CONTEXT: Commonevents/106/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+「･･････\\!は？」
+> CONTEXT: Commonevents/106/14/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+しかし効果が無かった！
+> CONTEXT: Commonevents/106/23/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/107/0/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/108/0/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/109/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+「くらえっ！！」
+> CONTEXT: Commonevents/107/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+「くそっ……！　だったらこれならどうだっ！！！」
+> CONTEXT: Commonevents/108/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+「……くそっ、くそっ、くそっっ！！！」
+> CONTEXT: Commonevents/109/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+「こ、このっ！」
+> CONTEXT: Commonevents/110/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"黒猫の不吉な鳴き声が
+頭にこびりついた……"
+> CONTEXT: Commonevents/111/2/InlineScript/2:1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ヴェルミィーナ]\\_
+「ふふ、ふふふふ、あははは……\\H
+　素敵……私も壊れてしまいそう……」
+> CONTEXT: Commonevents/119/19/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ヴェルミィーナ]\\_
+「……ふふ、駄目。
+　\\n[101]、貴方も壊れましょう？
+　そのまま混ざり合って、１つに……\\H」
+> CONTEXT: Commonevents/119/22/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ヴェルミィーナ]\\_
+「……ふふ\\H」
+> CONTEXT: Commonevents/119/29/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ヴェルミィーナ]\\_
+「さぁ……」
+> CONTEXT: Commonevents/119/36/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ヴェルミィーナ]\\_
+「その最後の理性も、
+　私が犯してあげるから……\\H」\\T
+> CONTEXT: Commonevents/119/44/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ヴェルミィーナ]\\_
+「あはぁ……っ……\\H」
+> CONTEXT: Commonevents/119/53/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ヴェルミィーナ]\\_
+「ふふ、ふふふ……」
+> CONTEXT: Commonevents/119/67/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ヴェルミィーナ]\\_
+「さぁ、最後に残るのが甘い溺没の破滅か。
+　それともその尊い夢想の理性か……」
+> CONTEXT: Commonevents/119/69/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ヴェルミィーナ]\\_
+「私達で答え合わせしましょう？　\\n[101]」
+> CONTEXT: Commonevents/119/72/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+明晰の泉だ。しかしこの泉は力を引き出している。
+> CONTEXT: Commonevents/125/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+･･･失った古印破棄の執行書が再び現れた！
+> CONTEXT: Commonevents/125/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+･･･ふむ、現の魔力とやらを得られる泉というものはこれか。
+> CONTEXT: Commonevents/125/26/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+一度得たものを、我の魔力で更に強引に引き出す･･･。
+どれ、試してみようではないか。
+> CONTEXT: Commonevents/125/28/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+･･･はぁっ！！
+> CONTEXT: Commonevents/125/31/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/125/51/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\n[101]の意識が更にはっきりした！
+> CONTEXT: Commonevents/125/41/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/125/61/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\n[101]の現の魔力が上がった！
+> CONTEXT: Commonevents/125/43/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/125/63/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+ふん、こんなものだろう。
+我にとってみればこの程度の事たわいもないわ。
+> CONTEXT: Commonevents/125/44/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+よし、我に任せるがいい。
+> CONTEXT: Commonevents/125/49/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+･･･まだ足らんのか。
+> CONTEXT: Commonevents/125/68/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+フン、どうやら時間の無駄だったな。優先度を考えろ。
+これ以上はもう付き合ってられ――
+> CONTEXT: Commonevents/125/70/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+･･･のわっ！
+> CONTEXT: Commonevents/125/76/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+･･･脅かしおって。
+> CONTEXT: Commonevents/125/88/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+･･･む、貴様。何だその本は。
+まさかそれが、貴様の欲しかったものとやらか？
+この我の手間を掛けさせた割には、つまらない成果だな。
+> CONTEXT: Commonevents/125/90/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+･･･それとも、それは貴様にとっては、\\_
+つまらなくも無い代物なのか？
+> CONTEXT: Commonevents/125/94/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+･･･フン、まぁいい。
+今は貴様が解決の要であるのは違いないのだ。\\!
+あまり我を失望させてくれるなよ。
+> CONTEXT: Commonevents/125/97/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+現の魔力とやらに何を期待しているかは知らぬが、
+滅びは着々と進んでいる。早急にな。
+> CONTEXT: Commonevents/125/103/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+さぁ、まだ泉はあるのだろう？
+我を案内するのだな。
+> CONTEXT: Commonevents/125/106/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+明晰の泉だ。しかし泉の力を引き出せるものが仲間にいない。
+> CONTEXT: Commonevents/125/115/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+綺麗な泉だ。しかしこの泉は既に見ている。
+> CONTEXT: Commonevents/125/121/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+綺麗な泉に自分の顔が映り込んでいる･･･。
+もうしばらく見続けますか？
+> CONTEXT: Commonevents/125/125/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\n[101]の意識が少しはっきりした！
+> CONTEXT: Commonevents/125/136/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+二十四の連結を施した魔法陣の中央に立ちてこの書を開き、
+百の精神力を持つ他の三者による千の生命力を捧げよ。
+> CONTEXT: Commonevents/128/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+然すれば破棄の儀式は執行される。
+> CONTEXT: Commonevents/128/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+すでに\\n[101]に刻まれた古印は破棄されている！
+> CONTEXT: Commonevents/128/30/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+破棄の儀式を執行しますか？
+> CONTEXT: Commonevents/128/35/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+古印破棄の儀式を執行した！
+> CONTEXT: Commonevents/128/46/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\n[101]に刻まれていた「忘却の古印」が破棄された！
+> CONTEXT: Commonevents/128/58/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+･･････ラーミル様･･･。
+> CONTEXT: Commonevents/128/60/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+･･････夢の拠点へ行こう。
+> CONTEXT: Commonevents/128/61/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+今は執行できる状態ではないようだ。
+> CONTEXT: Commonevents/128/65/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+最大の寵愛を得た夢魔を隣にこの書を開き、
+盟約の指輪と一万の珠を捧げよ。
+> CONTEXT: Commonevents/130/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+然すれば盟約の儀式は執行される。
+> CONTEXT: Commonevents/130/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]と盟約の儀式を執行しますか？
+> CONTEXT: Commonevents/130/20/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\n[101]は\\v[2]に指輪を贈った！
+> CONTEXT: Commonevents/130/66/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+光が２人を包み込む･･････！
+> CONTEXT: Commonevents/130/67/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]は\\n[101]の【大切な人】となった！
+> CONTEXT: Commonevents/130/102/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\g\\v[5]
+\\v[6]Lps.ダ。買うカイ？
+> CONTEXT: Commonevents/131/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+毎度アリッ！
+> CONTEXT: Commonevents/131/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+オイオイ！　金が足りねーナァ！？
+> CONTEXT: Commonevents/131/17/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+･･････！\\|
+この宝箱は夢魔が擬態しているようだ！
+> CONTEXT: Commonevents/204/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+宝箱を開きますか？
+> CONTEXT: Commonevents/204/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+･･････！\\|
+この採取ポイントには擬態した夢魔が潜んでいるようだ！
+> CONTEXT: Commonevents/204/23/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+採取を行いますか？
+> CONTEXT: Commonevents/204/25/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+･･････！\\|
+この茸は夢魔が擬態しているようだ。
+> CONTEXT: Commonevents/204/36/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+何かすれば擬態を解きそうだ。
+> CONTEXT: Commonevents/204/38/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+･･････！\\|
+この石像は夢魔が擬態しているようだ。
+> CONTEXT: Commonevents/204/42/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+石像に襲いかかりますか？
+> CONTEXT: Commonevents/204/44/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"\\\\|\\\\|\\\\|\\\\|\\\\|\\\\~"
+> CONTEXT: Commonevents/206/7/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+\\center　　Succubus Rhapsodia\\v[2]
+> CONTEXT: Commonevents/206/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\center　　\\c[12]制作ツール\\c[0]
+\\center　　RPGツクールXP\\v[2]
+> CONTEXT: Commonevents/206/14/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\center　　\\c[12]グラフィック・シナリオ・システム\\c[0]
+\\center　　wiz\\v[2]
+> CONTEXT: Commonevents/206/18/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\center　　\\c[12]システム・口上\\c[0]
+\\center　　Lily\\v[2]
+> CONTEXT: Commonevents/206/22/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\center　　\\c[12]ドットグラフィック\\c[0]
+\\center　　mikecat\\v[2]
+> CONTEXT: Commonevents/206/26/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\center　　\\c[12]音楽\\c[0]
+\\center　　cres.\\v[2]
+> CONTEXT: Commonevents/206/30/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\center　　\\c[12]グラフィック素材\\c[0]
+\\center　　建設中の茶柱
+\\center　　Whitecat
+\\center　　Mutation Genes Simulation 技術開発研究所\\v[2]
+> CONTEXT: Commonevents/206/34/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\center　　\\c[12]アニメーション素材\\c[0]
+\\center　　謎の研究所ふらいんぐぱんけーき\\v[2]
+> CONTEXT: Commonevents/206/40/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\center　　\\c[12]音楽・効果音素材\\c[0]
+\\center　　魔王魂
+\\center　　White:island
+\\center　　くらげ工匠\\v[2]
+> CONTEXT: Commonevents/206/44/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\center　　\\c[12]音楽・効果音素材\\c[0]
+\\center　　H/MIX GALLERY\\v[2]
+> CONTEXT: Commonevents/206/50/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\center　　\\c[12]スクリプト素材\\c[0]
+\\center　　歯車の城
+\\center　　KAMESOFT
+\\center　　ちいさな本屋\\v[2]
+> CONTEXT: Commonevents/206/54/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\center　　\\c[12]口上協力\\c[0]
+\\center　　kanikama
+\\center　　mao
+\\center　　音速ねこぱんち\\v[2]
+> CONTEXT: Commonevents/206/60/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\center　　\\c[12]口上協力\\c[0]
+\\center　　super sylph\\v[2]
+> CONTEXT: Commonevents/206/66/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\center　　\\c[12]テストプレイ協力\\c[0]
+\\center　　metal
+\\center　　macdalen
+\\center　　dokuro72\\v[2]
+> CONTEXT: Commonevents/206/70/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\center　　\\c[12]テストプレイ協力\\c[0]
+\\center　　hiryki
+\\center　　紅太郎
+\\center　　黒野すらる\\v[2]
+> CONTEXT: Commonevents/206/76/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\center　　\\c[12]リスペクト\\c[0]
+\\center　　S.Q.D.T\\v[2]
+> CONTEXT: Commonevents/206/82/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\center　　\\c[12]制作\\c[0]
+\\center　　Dreamania\\v[2]
+> CONTEXT: Commonevents/206/86/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+\\center　　BAD END\\v[2]
+> CONTEXT: Commonevents/206/91/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+\\center　　NORMAL END\\v[2]
+> CONTEXT: Commonevents/206/96/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+\\center　　BEST END\\v[2]
+> CONTEXT: Commonevents/206/101/Dialogue < UNTRANSLATED
+
+> END STRING
