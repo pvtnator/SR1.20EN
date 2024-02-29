@@ -1,9 +1,9 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "魔道具屋"
-> CONTEXT: Map194/events/1/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map194/events/1/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map194/events/1/pages/0/0/InlineScript/1:22
+> CONTEXT: Map194/events/1/pages/1/0/InlineScript/1:22
+"Magic shop"
 > END STRING
 
 > BEGIN STRING
@@ -11,9 +11,13 @@
 よってらっしゃい見てらっしゃい！
 魔法使うならこれ見とけ！　杖に魔導書！
 魔道具色々取り扱ってますよー！
-> CONTEXT: Map194/events/1/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map194/events/1/pages/1/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map194/events/1/pages/0/2/Dialogue
+> CONTEXT: Map194/events/1/pages/1/2/Dialogue
+\\name[\\v[2]]\\_
+Welcome and have a look!
+If you want to use magic, check this out!
+　A grimoire on a staff!
+We handle various magic tools!
 > END STRING
 
 > BEGIN STRING
@@ -21,57 +25,67 @@
 ･･･おっと\\v[3]さん、こんにちは。
 刻印用のルーンとかご入用です？
 あとは守護石のアクセサリーとかどうでしょ？
-> CONTEXT: Map194/events/1/pages/0/6/Dialogue < UNTRANSLATED
-> CONTEXT: Map194/events/1/pages/1/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map194/events/1/pages/0/6/Dialogue
+> CONTEXT: Map194/events/1/pages/1/6/Dialogue
+\\name[\\v[2]]\\_
+...Oops\\v[3], hello.
+Do you need runes for engraving?
+Or how about guardian stone accessories?
 > END STRING
 
 > BEGIN STRING
 "赤髪の女性"
-> CONTEXT: Map194/events/2/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map194/events/2/pages/0/0/InlineScript/1:22
+"Red-haired woman"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 レンディカは【秩序の魔女】であられるラーミル様の
 お力によって栄えてきたのよね。
-> CONTEXT: Map194/events/2/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map194/events/2/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Rendika has flourished thanks to the 
+power of the [Witch of Order] Ramil.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 この時計塔だってそこの街灯だって、
 ラーミル様の作ってくださったルーンで動いているもの。
-> CONTEXT: Map194/events/2/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map194/events/2/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+This clock tower and that streetlamp
+are powered by runes created by Ramil.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 すごいわよね～。
-> CONTEXT: Map194/events/2/pages/0/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map194/events/2/pages/0/7/Dialogue
+That's amazing~.
 > END STRING
 
 > BEGIN STRING
 "何かを悟る少女"
-> CONTEXT: Map194/events/3/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map194/events/3/pages/0/0/InlineScript/1:22
+"Girl who notices something"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あっちは魔女様の家の方角か･･･。
-> CONTEXT: Map194/events/3/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map194/events/3/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Is that the direction of the witch's house...?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･なんかうっすらといやーな感じがするな･･･。
 これが気のせいで済めばどれだけ楽か･･･。
-> CONTEXT: Map194/events/3/pages/0/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map194/events/3/pages/0/3/Dialogue
+...It feels kind of unpleasant...
+How much easier it would be
+if this was all just my imagination...
 > END STRING
