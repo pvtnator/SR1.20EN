@@ -4,33 +4,42 @@
 ここから先はレンディカを守護する\\_
 【秩序の魔女】ラーミル様の邸宅となる！
 許可無き者は一歩も通さんぞ！
-> CONTEXT: Map187/events/1/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map187/events/2/pages/0/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map187/events/1/pages/0/2/Dialogue
+> CONTEXT: Map187/events/2/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+Past here is the residence of Ramil,\\n\\_
+the [Witch of Order] who protects Rendika!
+Anyone without permission will not be allowed to enter!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 おっと、\\v[3]様ではありませんか。
 \\v[3]様でしたら許可は不要ですよ！
-> CONTEXT: Map187/events/1/pages/0/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map187/events/1/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+Whoops, aren't you Mr. \\v[3]?
+Since you are \\v[3], you may pass!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 なにせあのラーミル様のお弟子様であるのですからな！
 はっはっは！
-> CONTEXT: Map187/events/1/pages/0/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map187/events/1/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+After all, you are the disciple of Ramil!
+Hahaha!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 って\\v[3]様でございましたか。これは失礼しました。
 \\v[3]様でしたらご自由にお通りくださって構いません。
-> CONTEXT: Map187/events/2/pages/0/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map187/events/2/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+Is that Mr. \\v[3]? That was rude of me.
+Since you are \\v[3], you can go freely.
 > END STRING
 
 > BEGIN STRING
@@ -38,22 +47,28 @@
 おります。\\nこれに乗じて悪事を働く輩は我々自警団が\\_
 取り押さえていますゆえ、\\n\\v[3]様はラーミル様の\\_
 回復に専念なさって下さい。
-> CONTEXT: Map187/events/2/pages/0/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map187/events/2/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+From what I've heard, Ramil has't woken up yet.
+We, the vigilante group, are taking this opportunity\\n\\_
+to take down those who commit evil acts.\\n\\_
+Mr. \\v[3], please concentrate on Ramil's recovery.
 > END STRING
 
 > BEGIN STRING
 "ご老人"
-> CONTEXT: Map187/events/8/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map187/events/8/pages/0/0/InlineScript/1:22
+"Old man"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ラーミル様は住んでおられる家は町から離れているものの、
 レンディカの民とは非常に身近なお方じゃ。
-> CONTEXT: Map187/events/8/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map187/events/8/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Although the house where Ramil lives is outside of town,
+She is very close to the people of Rendika.
 > END STRING
 
 > BEGIN STRING
@@ -61,33 +76,40 @@
 あれだけの地位を持っておりながらふんぞり返ることもなく
 わしらの悩みを真摯にお聞きくださり、町を奔走しては\\_
 解決する。\\n非常に素晴らしいお方じゃな･･･。
-> CONTEXT: Map187/events/8/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map187/events/8/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Despite her high position, she never loses her composure.
+She listened to our concerns and ran around town to solve them.\\n\\_
+She's such a wonderful person...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ただ少々気負いすぎる所がある。
 今回の事はそれが原因で無いとよいが･･･。
-> CONTEXT: Map187/events/8/pages/0/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map187/events/8/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+However, sometimes she's a bit too eager.
+I hope that's not the cause for the current situation...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 少年、何かあった時は頼むぞい。
 お主はラーミル様の唯一の弟子なのじゃからな。
-> CONTEXT: Map187/events/8/pages/0/11/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map187/events/8/pages/0/11/Dialogue
+\\name[\\v[2]]\\_
+Boy, if you need anything, just ask.
+You are Ramil's only disciple.
 > END STRING
 
 > BEGIN STRING
 "噂好きの女性"
-> CONTEXT: Map187/events/11/pages/0/3/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map187/events/11/pages/0/11/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map187/events/11/pages/0/21/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map187/events/11/pages/0/30/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map187/events/11/pages/0/3/InlineScript/1:22
+> CONTEXT: Map187/events/11/pages/0/11/InlineScript/1:22
+> CONTEXT: Map187/events/11/pages/0/21/InlineScript/1:22
+> CONTEXT: Map187/events/11/pages/0/30/InlineScript/1:22
+"Gossiping woman"
 > END STRING
 
 > BEGIN STRING
@@ -95,66 +117,76 @@
 聞きました？
 あの噂の教会、最近隣町にも支部が\\_
 見つかったそうなんですって！
-> CONTEXT: Map187/events/11/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map187/events/11/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Have you heard? 
+That rumored church has recently branched out to a neighboring town!
 > END STRING
 
 > BEGIN STRING
 "話好きの婦人"
-> CONTEXT: Map187/events/11/pages/0/8/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map187/events/11/pages/0/16/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map187/events/11/pages/0/27/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map187/events/11/pages/0/33/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map187/events/11/pages/0/8/InlineScript/1:22
+> CONTEXT: Map187/events/11/pages/0/16/InlineScript/1:22
+> CONTEXT: Map187/events/11/pages/0/27/InlineScript/1:22
+> CONTEXT: Map187/events/11/pages/0/33/InlineScript/1:22
+"Talkative lady"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 噂の教会って、あの悪魔崇拝の？
-> CONTEXT: Map187/events/11/pages/0/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map187/events/11/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+Is the rumored church worshiping the devil?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そうそうそう！　それ！
-> CONTEXT: Map187/events/11/pages/0/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map187/events/11/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+Yes, that's right!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 まぁ！
-> CONTEXT: Map187/events/11/pages/0/17/Dialogue < UNTRANSLATED
-> CONTEXT: Map187/events/11/pages/0/28/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map187/events/11/pages/0/17/Dialogue
+> CONTEXT: Map187/events/11/pages/0/28/Dialogue
+\\name[\\v[2]]\\_
+Well!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 でも確か何年か前にもラーミル様が解体させたんじゃ･･･。
-> CONTEXT: Map187/events/11/pages/0/19/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map187/events/11/pages/0/19/Dialogue
+\\name[\\v[2]]\\_
+I thought Ramil dissolved it years ago...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 どうやらあれも支部の１つだったらしくって、
 根っこから取り除けないって話らしいですの。
-> CONTEXT: Map187/events/11/pages/0/22/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map187/events/11/pages/0/22/Dialogue
+\\name[\\v[2]]\\_
+It must've been one of the branches,
+so it couldn't be removed from the roots.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 こわいわねぇ。
-> CONTEXT: Map187/events/11/pages/0/31/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map187/events/11/pages/0/31/Dialogue
+\\name[\\v[2]]\\_
+That's scary.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 こわいわぁ。
-> CONTEXT: Map187/events/11/pages/0/34/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map187/events/11/pages/0/34/Dialogue
+\\name[\\v[2]]\\_
+Really scary.
 > END STRING

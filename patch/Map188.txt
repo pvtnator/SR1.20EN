@@ -1,48 +1,55 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "妖精"
-> CONTEXT: Map188/events/5/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map197/events/16/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map188/events/6/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map198/events/5/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map188/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Map197/events/16/pages/1/0/InlineScript/1:22
+> CONTEXT: Map188/events/6/pages/0/0/InlineScript/1:22
+> CONTEXT: Map198/events/5/pages/1/0/InlineScript/1:22
+"Fairy"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 おかえり、\\v[3]。
-> CONTEXT: Map188/events/5/pages/0/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map188/events/5/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+Welcome back, \\v[3].
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･そう、原因はまだ分からないのね。
-> CONTEXT: Map188/events/5/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map188/events/5/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+...Yes, we still don't know the cause.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ラーミル、こうなる少し前ぐらいから酷く憔悴してたよね。
 いつもの研究疲れとは思えないぐらい･･･。
-> CONTEXT: Map188/events/6/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map188/events/6/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Ramil was feeling really exhausted just before this happened.
+It's hard to believe that regular research caused this tiredness...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あまり人前にも出てなかったし、いつ何があったんだろ･･･。
-> CONTEXT: Map188/events/6/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map188/events/6/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+She didn't go out much, so I wonder what happened...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ねぇ\\n[101]。
 ラーミル、今まで何の研究してたか知らない？
-> CONTEXT: Map188/events/6/pages/0/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map188/events/6/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+Hey\\n[101].
+What kind of research has Ramil been doing?
 > END STRING
 
 > BEGIN STRING
@@ -50,14 +57,17 @@
 もしかしたら、何かの実験に失敗したとかかもしれないし･･･
 看病も少し落ち着いたんだから、\\_
 一度ちゃんと実験室とか調べてみようよ。
-> CONTEXT: Map188/events/6/pages/0/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map188/events/6/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+Maybe an experiment failed...
+Now that the nursing care has calmed down a bit,\\n\\_
+let's check out the laboratory properly.
 > END STRING
 
 > BEGIN STRING
 特に目新しい郵便物は無いようだ。
-> CONTEXT: Map188/events/9/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map188/events/9/pages/0/0/Dialogue
+There doesn't seem to be any new mail.
 > END STRING
 
 > BEGIN STRING
