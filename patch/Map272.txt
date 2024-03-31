@@ -2,7 +2,7 @@
 > BEGIN STRING
 "ホームの景色が映っている。"
 > CONTEXT: Map272/events/1/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"A view of Home is shown"
 > END STRING
 
 > BEGIN STRING
@@ -10,7 +10,7 @@
 > CONTEXT: Map272/events/3/pages/0/0/InlineScript/1:22 < UNTRANSLATED
 > CONTEXT: Map272/events/3/pages/1/0/InlineScript/1:22 < UNTRANSLATED
 > CONTEXT: Map016/events/25/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+"Port Devil"
 > END STRING
 
 > BEGIN STRING
@@ -18,7 +18,10 @@
 よォよォ、ただの人間なんて珍しいじゃねーカ。
 俺はここの管理任されてるしがない使い魔ダ。よろしくナ。
 > CONTEXT: Map272/events/3/pages/0/1/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Yoyo, mere humans are rare.
+I'm an insignificant familiar who's in charge of managing this place.
+Nice to meet you.
 > END STRING
 
 > BEGIN STRING
@@ -27,7 +30,9 @@
 一度ポートを起動させれば、ポートから行き来ができるゼ。
 > CONTEXT: Map272/events/3/pages/0/4/Dialogue < UNTRANSLATED
 > CONTEXT: Map016/events/25/pages/0/4/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+This is the port area.
+Once you activate a port, you can go back and forth from the port.
 > END STRING
 
 > BEGIN STRING
@@ -36,7 +41,9 @@
 パーティ編成する時にでも使うんだナ。
 一応、ホームの自室内でもできるゼ。
 > CONTEXT: Map272/events/3/pages/0/7/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]You can also check on your succubi at the desk on the left.
+Use it when organizing your party.
+Just in case, you can also do it in your own room at Home.
 > END STRING
 
 > BEGIN STRING
@@ -45,7 +52,8 @@
 付けることも、そこでできるんダ。
 > CONTEXT: Map272/events/3/pages/0/11/Dialogue < UNTRANSLATED
 > CONTEXT: Map016/events/25/pages/0/11/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+You can also consume the "covenant beads" of succubi to give them bonuses.
 > END STRING
 
 > BEGIN STRING
@@ -55,7 +63,9 @@
 全回復できるゼ。
 > CONTEXT: Map272/events/3/pages/0/14/Dialogue < UNTRANSLATED
 > CONTEXT: Map016/events/25/pages/0/14/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Also, just by touching a port, you can fully recover everyone's
+EP, VP, and succubi's satiety levels.
 > END STRING
 
 > BEGIN STRING
@@ -64,14 +74,16 @@
 > CONTEXT: Map272/events/3/pages/0/18/Dialogue < UNTRANSLATED
 > CONTEXT: Map272/events/3/pages/1/9/Dialogue < UNTRANSLATED
 > CONTEXT: Map016/events/25/pages/0/18/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Kik-kik-ki. What do you think, reliable aren't I?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 知ってるカイ？
 > CONTEXT: Map272/events/3/pages/1/1/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Did you know?
 > END STRING
 
 > BEGIN STRING
@@ -80,164 +92,168 @@
 確認用のキーを押せば表示方法が変えられるんダ。
 そう、お前が仲間と会話する時のキーさ。
 > CONTEXT: Map272/events/3/pages/1/3/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+When checking the succubi at Home, you can change
+the display method by pressing the confirmation key.
+Yes, it's the key for talking to your friends.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 夢魔が多くなってきた時には有用になるかもナ！
 > CONTEXT: Map272/events/3/pages/1/7/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+It might be useful when the number of succubi increases!
 > END STRING
 
 > BEGIN STRING
 "小さな家が映っている。"
 > CONTEXT: Map272/events/164/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"A small house is shown."
 > END STRING
 
 > BEGIN STRING
 "教会の中庭が見える。"
 > CONTEXT: Map272/events/165/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"You can see the church courtyard."
 > END STRING
 
 > BEGIN STRING
 "厳かなお屋敷が映っている。"
 > CONTEXT: Map272/events/166/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"A solemn mansion is shown."
 > END STRING
 
 > BEGIN STRING
 ホームにいる夢魔を確認できます。
 > CONTEXT: Map272/events/167/pages/0/1/Dialogue < UNTRANSLATED
-
+You can check the dream demons at Home.
 > END STRING
 
 > BEGIN STRING
 "樹海の分岐点が映っている。"
 > CONTEXT: Map272/events/168/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"The fork in The Sea of Trees is visible."
 > END STRING
 
 > BEGIN STRING
 "暗い洞窟の入り口近くが映っている。"
 > CONTEXT: Map272/events/169/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"It shows the area near the entrance of a dark cave."
 > END STRING
 
 > BEGIN STRING
 "アルラウネの住む樹海が映っている。"
 > CONTEXT: Map272/events/170/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"The Sea of Trees where Alraune live is shown."
 > END STRING
 
 > BEGIN STRING
 "茸が群生する木の虚の中が映っている。"
 > CONTEXT: Map272/events/171/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"It shows the inside of a tree where mushrooms grow."
 > END STRING
 
 > BEGIN STRING
 "暗い洞窟の奥へと続く道が映っている。"
 > CONTEXT: Map272/events/172/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"It shows a path leading deep into a dark cave."
 > END STRING
 
 > BEGIN STRING
 "落とし穴だらけの洞窟の中が映っている。"
 > CONTEXT: Map272/events/173/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"It shows the inside of a cave full of pitfalls."
 > END STRING
 
 > BEGIN STRING
 "ゴブリン達の住む町が映っている。"
 > CONTEXT: Map272/events/174/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"The town where the goblins live is shown."
 > END STRING
 
 > BEGIN STRING
 "密教会の入り口が映っている。"
 > CONTEXT: Map272/events/175/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"The entrance to the secret church is shown."
 > END STRING
 
 > BEGIN STRING
 "密教会の魔女の居住区が映っている。"
 > CONTEXT: Map272/events/176/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"The Secret Church witch's quarters are shown."
 > END STRING
 
 > BEGIN STRING
 "地下牢に続く密教会の廊下が映っている。"
 > CONTEXT: Map272/events/177/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"The corridor of the Secret Church leading to the dungeon is shown."
 > END STRING
 
 > BEGIN STRING
 "密教会の研究所が映っている。"
 > CONTEXT: Map272/events/178/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"The Secret Church's research institute is shown."
 > END STRING
 
 > BEGIN STRING
 "地獄の深い谷底が映っている。"
 > CONTEXT: Map272/events/179/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"It shows the depths of hell."
 > END STRING
 
 > BEGIN STRING
 "地獄の火山が映っている。"
 > CONTEXT: Map272/events/180/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"It shows the volcanoes of hell."
 > END STRING
 
 > BEGIN STRING
 "溶岩が垂れ流れる地獄の様子が映っている。"
 > CONTEXT: Map272/events/181/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"It shows hell with lava dripping down."
 > END STRING
 
 > BEGIN STRING
 "巨大なはらわたの中が映っている。"
 > CONTEXT: Map272/events/182/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"You can see the inside of a giant gut."
 > END STRING
 
 > BEGIN STRING
 "魔城のエントランスホールが映っている。"
 > CONTEXT: Map272/events/183/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"The entrance hall of the magic castle is shown."
 > END STRING
 
 > BEGIN STRING
 "石像が並ぶ魔城の地下が映っている。"
 > CONTEXT: Map272/events/184/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"It shows the basement of a magic castle lined with stone statues."
 > END STRING
 
 > BEGIN STRING
 "魔城の昇降口近くが映っている。"
 > CONTEXT: Map272/events/185/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"The area near the entrance to the magic castle is shown."
 > END STRING
 
 > BEGIN STRING
 "魔城の研究室が映っている。"
 > CONTEXT: Map272/events/186/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"Demon's laboratory is shown."
 > END STRING
 
 > BEGIN STRING
 "混濁したレンディカが先に映っている。"
 > CONTEXT: Map272/events/187/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"A cloudy Rendica is visible ahead."
 > END STRING
 
 > BEGIN STRING
 "猫"
 > CONTEXT: Map272/events/188/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+"Cat"
 > END STRING
 
 > BEGIN STRING
@@ -246,60 +262,67 @@
 そろそろ君も他の攻められ方にも目覚めて来たと思うんだ。
 僕に今の君のトレンドってものを教えてくれよ。
 > CONTEXT: Map272/events/188/pages/0/2/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Have you gotten used to the dream world?
+I think it's about time you became aware of other ways of being attacked.
+Tell me what you want to know about.
 > END STRING
 
 > BEGIN STRING
 基本の弱点を教える
 > CONTEXT: Map272/events/188/pages/0/6/Choice/0 < UNTRANSLATED
-
+Basic weaknesses
 > END STRING
 
 > BEGIN STRING
 特殊な弱点を教える
 > CONTEXT: Map272/events/188/pages/0/6/Choice/1 < UNTRANSLATED
-
+Special weaknesses
 > END STRING
 
 > BEGIN STRING
 何も教えない
 > CONTEXT: Map272/events/188/pages/0/6/Choice/2 < UNTRANSLATED
-
+Nothing
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふふ、こっちは１つ以上は必ず申告してもらうよ。
 > CONTEXT: Map272/events/188/pages/0/8/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Hehehe, I'll definitely have you declare at least one of these.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 口で攻められるのは好き？
 > CONTEXT: Map272/events/188/pages/0/13/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Do you like being attacked by mouth?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 手で攻められるのは好き？
 > CONTEXT: Map272/events/188/pages/0/26/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Do you like being attacked by hands?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 胸で攻められるのは好き？
 > CONTEXT: Map272/events/188/pages/0/39/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Do you like being attacked by breasts?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 アソコで攻められるのは好き？
 > CONTEXT: Map272/events/188/pages/0/52/Dialogue < UNTRANSLATED
-
+Do you like being attacked by genitals?
 > END STRING
 
 > BEGIN STRING
@@ -307,7 +330,8 @@
 ふぅん･･････。
 > CONTEXT: Map272/events/188/pages/0/68/Dialogue < UNTRANSLATED
 > CONTEXT: Map272/events/188/pages/0/116/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Hmm......
 > END STRING
 
 > BEGIN STRING
@@ -316,42 +340,49 @@
 君はそういうのが好きなんだな。
 > CONTEXT: Map272/events/188/pages/0/71/Dialogue < UNTRANSLATED
 > CONTEXT: Map272/events/188/pages/0/119/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Thank you, I see.
+You like that kind of thing.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 なんだ、１つくらいあるだろう。教えてくれよな。
 > CONTEXT: Map272/events/188/pages/0/76/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Well, probably at least one of them applies. Please tell me.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふふ、こっちは１つも無いならないで良いよ。
 > CONTEXT: Map272/events/188/pages/0/82/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Hehehe, if none of these apply, you don't have to say anything.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 挿入中に攻められるのは好き？
 > CONTEXT: Map272/events/188/pages/0/87/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Do you like being attacked through sexual intercourse?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 足とかで嗜虐的に攻められるのは好き？
 > CONTEXT: Map272/events/188/pages/0/100/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Do you like being attacked sadistically by feet?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ちぇ。なんだ、１つもないんだ。
 > CONTEXT: Map272/events/188/pages/0/125/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Hey. What, none of these apply?
 > END STRING
 
 > BEGIN STRING
@@ -359,7 +390,9 @@
 そうそう、痛いのはそういう素質が無くても、
 段々と慣れてきちゃうんだよ。
 > CONTEXT: Map272/events/188/pages/0/129/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+That's right, the painful part is that even if you don't have those qualities,
+you gradually grow into it.
 > END STRING
 
 > BEGIN STRING
@@ -367,14 +400,17 @@
 され続けてたらいつの間にか快感になってたりするかもな。
 調教済みってことさ。
 > CONTEXT: Map272/events/188/pages/0/132/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+If you keep doing something, it might become more pleasant before you know it.
+That means it's been trained.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 いつでも教えてくれよな。
 > CONTEXT: Map272/events/188/pages/0/137/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+I can teach you at any time.
 > END STRING
 
 > BEGIN STRING
@@ -383,7 +419,9 @@
 参上致しました。\\n\\n[101]様の持つルーンをより強い\\_
 ルーンにして差し上げます。
 > CONTEXT: Map272/events/189/pages/0/1/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+I received an order from the lady, \\n[101]praising your strength, and came here.\\n[101]
+I will make the runes you have into stronger runes.
 > END STRING
 
 > BEGIN STRING
@@ -391,12 +429,15 @@
 ステータスを上げるルーンは１つの効果ではそこまでですが、
 数を揃えればかなり強力になります。
 > CONTEXT: Map272/events/189/pages/0/11/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Runes that increase status can only go so far as a single effect,
+but if you equip multiple of them, they become quite powerful.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 狙いがあるのなら、特化させても良いでしょう。
 > CONTEXT: Map272/events/189/pages/0/14/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+You can specialize in what you want this way.
 > END STRING
