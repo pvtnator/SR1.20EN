@@ -53,16 +53,16 @@
 
 > BEGIN STRING
 ポートが起動されている。
-> CONTEXT: Map001/events/6/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map001/events/6/pages/0/0/Dialogue
 Port is activated.
 > END STRING
 
 > BEGIN STRING
 セーブ
-> CONTEXT: Map001/events/6/pages/0/1/Choice/0 < UNTRANSLATED
-> CONTEXT: Commonevents/12/24/Choice/1 < UNTRANSLATED
-> CONTEXT: Commonevents/12/60/Choice/0 < UNTRANSLATED
-> CONTEXT: Commonevents/27/26/Choice/0 < UNTRANSLATED
+> CONTEXT: Map001/events/6/pages/0/1/Choice/0
+> CONTEXT: Commonevents/12/24/Choice/1
+> CONTEXT: Commonevents/12/60/Choice/0
+> CONTEXT: Commonevents/27/26/Choice/0
 Save
 > END STRING
 
@@ -80,25 +80,25 @@ Save
 
 > BEGIN STRING
 テスト用です
-> CONTEXT: Map001/events/6/pages/0/6/Dialogue < UNTRANSLATED
+> CONTEXT: Map001/events/6/pages/0/6/Dialogue
 For testing
 > END STRING
 
 > BEGIN STRING
 未実装
-> CONTEXT: Map001/events/6/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: Map001/events/6/pages/0/9/Dialogue
 Unimplemented
 > END STRING
 
 > BEGIN STRING
 <<ポート\>\>
-> CONTEXT: Map001/events/7/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map001/events/7/pages/0/0/Dialogue
 <<Port\>\>
 > END STRING
 
 > BEGIN STRING
 夢の世界には様々な場所にポートが存在します。
-> CONTEXT: Map001/events/7/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map001/events/7/pages/0/1/Dialogue
 Ports exist in various places in the dream world.
 > END STRING
 
@@ -106,7 +106,7 @@ Ports exist in various places in the dream world.
 ポートでは自分のホームへと戻ることや、セーブ、
 また、そのポートに記録されている情報の確認をすることが\\_
 できます。
-> CONTEXT: Map001/events/7/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map001/events/7/pages/0/2/Dialogue
 At a port, you can return to Home, save, 
 and check the information recorded on that port.
 > END STRING
