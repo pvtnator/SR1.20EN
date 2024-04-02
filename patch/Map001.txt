@@ -54,7 +54,7 @@
 > BEGIN STRING
 ポートが起動されている。
 > CONTEXT: Map001/events/6/pages/0/0/Dialogue < UNTRANSLATED
-
+Port is activated.
 > END STRING
 
 > BEGIN STRING
@@ -63,7 +63,7 @@
 > CONTEXT: Commonevents/12/24/Choice/1 < UNTRANSLATED
 > CONTEXT: Commonevents/12/60/Choice/0 < UNTRANSLATED
 > CONTEXT: Commonevents/27/26/Choice/0 < UNTRANSLATED
-
+Save
 > END STRING
 
 > BEGIN STRING
@@ -81,25 +81,25 @@
 > BEGIN STRING
 テスト用です
 > CONTEXT: Map001/events/6/pages/0/6/Dialogue < UNTRANSLATED
-
+For testing
 > END STRING
 
 > BEGIN STRING
 未実装
 > CONTEXT: Map001/events/6/pages/0/9/Dialogue < UNTRANSLATED
-
+Unimplemented
 > END STRING
 
 > BEGIN STRING
 <<ポート\>\>
 > CONTEXT: Map001/events/7/pages/0/0/Dialogue < UNTRANSLATED
-
+<<Port\>\>
 > END STRING
 
 > BEGIN STRING
 夢の世界には様々な場所にポートが存在します。
 > CONTEXT: Map001/events/7/pages/0/1/Dialogue < UNTRANSLATED
-
+Ports exist in various places in the dream world.
 > END STRING
 
 > BEGIN STRING
@@ -107,7 +107,8 @@
 また、そのポートに記録されている情報の確認をすることが\\_
 できます。
 > CONTEXT: Map001/events/7/pages/0/2/Dialogue < UNTRANSLATED
-
+At a port, you can return to Home, save, 
+and check the information recorded on that port.
 > END STRING
 
 > BEGIN STRING
