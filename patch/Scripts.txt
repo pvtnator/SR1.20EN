@@ -3046,7 +3046,7 @@
 "\#{myname}の陰核が肥大化を始める……！\\n\\m\#{myname}の股間にペニスが出現した！"
 > CONTEXT: Scripts/RPG::Statetext/108:18
 "\#{myname}'s penis begins to grow...!
-\\m\#{myname}'s penis is showing!"
+\#{myname}'s penis is showing!"
 > END STRING
 
 > BEGIN STRING
@@ -3125,7 +3125,7 @@
 > BEGIN STRING
 "\#{myname}を蝕む淫毒が抜けていく……\\w\\n"
 > CONTEXT: Scripts/RPG::Statetext/150:19
-"The poison affecting \#{myname} is coming out...\\w\\n"
+"The poison affecting \#{myname} is coming out...\\n"
 > END STRING
 
 > BEGIN STRING
@@ -19350,7 +19350,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "振り向いて、\\n\\m\#{targetname}とキスを試みた！"
 > CONTEXT: Scripts/RPG::Skilltext/742:30
-"Turned around and tried to kiss \\n\\m\#{targetname}!"
+"Turned around and tried to kiss \\n\#{targetname}!"
 > END STRING
 
 > BEGIN STRING
@@ -20648,7 +20648,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "なおも激しく、\\n\\m\#{targetname}に情熱的なキスを重ねてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1177:30
-"Continued to kiss \\n\\m\#{targetname} passionately!"
+"Continued to kiss \\n\#{targetname} passionately!"
 > END STRING
 
 > BEGIN STRING
