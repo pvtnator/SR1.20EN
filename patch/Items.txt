@@ -2,7 +2,7 @@
 > BEGIN STRING
 デバッグアイテム
 > CONTEXT: Items/1/name/ < UNTRANSLATED
-
+Debug item
 > END STRING
 
 > BEGIN STRING
@@ -20,74 +20,74 @@
 > BEGIN STRING
 実験室の鍵
 > CONTEXT: Items/2/name/ < UNTRANSLATED
-
+Laboratory key
 > END STRING
 
 > BEGIN STRING
 オープニング用
 > CONTEXT: Items/2/description/ < UNTRANSLATED
 > CONTEXT: Items/7/description/ < UNTRANSLATED
-
+Opening use
 > END STRING
 
 > BEGIN STRING
 滞在機の鍵
 > CONTEXT: Items/3/name/ < UNTRANSLATED
-
+Staying machine key
 > END STRING
 
 > BEGIN STRING
 滞在機の操作をするための鍵。
 > CONTEXT: Items/3/description/ < UNTRANSLATED
-
+Key to operate the staying machine
 > END STRING
 
 > BEGIN STRING
 古印破棄の執行書
 > CONTEXT: Items/4/name/ < UNTRANSLATED
-
+Old seal destruction text
 > END STRING
 
 > BEGIN STRING
 旧式のルーンを破棄する儀式の執行書。
 > CONTEXT: Items/4/description/ < UNTRANSLATED
-
+Instructions for perfoming the ceremony of old rune destruction
 > END STRING
 
 > BEGIN STRING
 盟約式の執行書
 > CONTEXT: Items/5/name/ < UNTRANSLATED
-
+Covenant letter
 > END STRING
 
 > BEGIN STRING
 盟約の契りを交わす儀式の執行書。
 > CONTEXT: Items/5/description/ < UNTRANSLATED
-
+Instructions for entering a covenant
 > END STRING
 
 > BEGIN STRING
 リリスの器
 > CONTEXT: Items/6/name/ < UNTRANSLATED
-
+Lilith Vessel
 > END STRING
 
 > BEGIN STRING
 素質あるものをリリスへと昇華させるもの。
 > CONTEXT: Items/6/description/ < UNTRANSLATED
-
+Turns someone capable into a Lilith
 > END STRING
 
 > BEGIN STRING
 目覚めの精油
 > CONTEXT: Items/7/name/ < UNTRANSLATED
-
+Awakening Oil
 > END STRING
 
 > BEGIN STRING
 プレシャスリング
 > CONTEXT: Items/19/name/ < UNTRANSLATED
-
+Precious Ring
 > END STRING
 
 > BEGIN STRING
@@ -106,13 +106,13 @@
 ハーブティ
 > CONTEXT: Items/21/name/ < UNTRANSLATED
 > CONTEXT: Map002/events/5/pages/0/19/Choice/0 < UNTRANSLATED
-
+Herb tea
 > END STRING
 
 > BEGIN STRING
 [茶] ＥＰが小回復する。乾燥したハーブを煮出して飲用としたお茶。
 > CONTEXT: Items/21/description/ < UNTRANSLATED
-
+[Tea] Recovers EP a bit. Boiled with dried herbs.
 > END STRING
 
 > BEGIN STRING
@@ -129,13 +129,13 @@
 アールグレイ
 > CONTEXT: Items/22/name/ < UNTRANSLATED
 > CONTEXT: Map002/events/5/pages/0/19/Choice/1 < UNTRANSLATED
-
+Earl Grey
 > END STRING
 
 > BEGIN STRING
 [茶] ＥＰが中回復する。ベルガモットの独特の甘い香りがする着香茶。
 > CONTEXT: Items/22/description/ < UNTRANSLATED
-
+[Tea] Recovers EP moderately. 
 > END STRING
 
 > BEGIN STRING
@@ -155,19 +155,19 @@
 > BEGIN STRING
 [茶] ＥＰが大回復する。香りが良く飲みやすいが、深みがある茶。
 > CONTEXT: Items/23/description/ < UNTRANSLATED
-
+[Tea] Restores EP a lot.
 > END STRING
 
 > BEGIN STRING
 ロイヤルナイトティ
 > CONTEXT: Items/24/name/ < UNTRANSLATED
-
+Royal Knight Tea
 > END STRING
 
 > BEGIN STRING
 [茶] ＥＰが全回復する。濃厚で甘美な味わいの夢世界産ミルクティ。
 > CONTEXT: Items/24/description/ < UNTRANSLATED
-
+[Tea] Restores EP fully.
 > END STRING
 
 > BEGIN STRING
@@ -175,44 +175,44 @@
 > CONTEXT: Items/26/name/ < UNTRANSLATED
 > CONTEXT: Items/37/name/ < UNTRANSLATED
 > CONTEXT: Map002/events/5/pages/0/131/Choice/0 < UNTRANSLATED
-
+Lemon peal
 > END STRING
 
 > BEGIN STRING
 [菓] ＥＰが小回復する。菓子は戦闘中でも使用できる。
 > CONTEXT: Items/26/description/ < UNTRANSLATED
 > CONTEXT: Items/37/description/ < UNTRANSLATED
-
+[Snack] Restores EP a bit.
 > END STRING
 
 > BEGIN STRING
 ドライアプリコット
 > CONTEXT: Items/27/name/ < UNTRANSLATED
-
+Dry Apricot
 > END STRING
 
 > BEGIN STRING
 [菓] ＥＰが中回復する。干すことで甘みが凝縮されたアプリコット。
 > CONTEXT: Items/27/description/ < UNTRANSLATED
-
+[Snack] Restores EP moderately.
 > END STRING
 
 > BEGIN STRING
 フルーツタルト
 > CONTEXT: Items/28/name/ < UNTRANSLATED
-
+Fruit Tart
 > END STRING
 
 > BEGIN STRING
 [菓] ＥＰが大回復する。上品な味わいで人気な一口サイズのタルト。
 > CONTEXT: Items/28/description/ < UNTRANSLATED
-
+[Snack] Restores EP a lot.
 > END STRING
 
 > BEGIN STRING
 ウェイクアップ
 > CONTEXT: Items/30/name/ < UNTRANSLATED
-
+Wake up
 > END STRING
 
 > BEGIN STRING
@@ -230,13 +230,13 @@
 > BEGIN STRING
 ミルクキノコ/10
 > CONTEXT: Items/34/name/ < UNTRANSLATED
-
+Milk Mushroom/10
 > END STRING
 
 > BEGIN STRING
 夢魔の満腹度が少し満たされる。舐め続けていると傘から白い液体が出る茸。
 > CONTEXT: Items/34/description/ < UNTRANSLATED
-
+Restores a bit of satiety.
 > END STRING
 
 > BEGIN STRING
@@ -274,13 +274,13 @@ SC_click4
 > BEGIN STRING
 ネクストステア/1
 > CONTEXT: Items/49/name/ < UNTRANSLATED
-
+Next stair
 > END STRING
 
 > BEGIN STRING
 レベルを１上げる。
 > CONTEXT: Items/49/description/ < UNTRANSLATED
-
+Raise level by 1.
 > END STRING
 
 > BEGIN STRING
