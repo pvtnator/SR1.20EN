@@ -3995,8 +3995,7 @@
 > BEGIN STRING
 "挿入中のみ使用可能なスキルを使用した時、威力と追撃率が上昇する。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/133:24
-"Increased power and follow-up rate for 
-skills that can only be used while inserted."
+"Increased power and follow-up rate for insert skills."
 > END STRING
 
 > BEGIN STRING
@@ -4926,7 +4925,7 @@ the probability of receiving SS decreases."
 > BEGIN STRING
 "暴走状態になりにくい。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/299:24
-"Doesn't easily lose control."
+"Resistant to berserk."
 > END STRING
 
 > BEGIN STRING
@@ -4939,13 +4938,13 @@ the probability of receiving SS decreases."
 "活気"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/301:17 < UNTRANSLATED
 > CONTEXT: Scripts/Game_Battler 2/1020:60 < UNTRANSLATED
-
+"Lively"
 > END STRING
 
 > BEGIN STRING
 "虚脱状態になりにくい。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/302:24 < UNTRANSLATED
-
+"Resistant to collapse"
 > END STRING
 
 > BEGIN STRING
@@ -4964,7 +4963,7 @@ the probability of receiving SS decreases."
 > BEGIN STRING
 "畏怖状態になりにくい。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/305:24
-"Resistance to awe."
+"Resistant to awe."
 > END STRING
 
 > BEGIN STRING
@@ -4986,13 +4985,13 @@ the probability of receiving SS decreases."
 "柔軟"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/310:17 < UNTRANSLATED
 > CONTEXT: Scripts/Game_Battler 2/1042:60 < UNTRANSLATED
-
+"Flexible"
 > END STRING
 
 > BEGIN STRING
 "麻痺状態になりにくい。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/311:24 < UNTRANSLATED
-
+"Resistant to paralysis."
 > END STRING
 
 > BEGIN STRING
@@ -5005,13 +5004,13 @@ the probability of receiving SS decreases."
 > BEGIN STRING
 "\#{master}\#{s_range_text}は\#{myname}に\\n目を引きつけられてしまった！"
 > CONTEXT: Scripts/RPG::Statetext/354:19 < UNTRANSLATED
-
+"\#{master}\#{s_range_text} is attracted\\nto \#{myname}!"
 > END STRING
 
 > BEGIN STRING
 "散漫状態になりにくい。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/314:24
-"Hard to get distracted."
+"Resistant to distraction."
 > END STRING
 
 > BEGIN STRING
@@ -5030,51 +5029,51 @@ the probability of receiving SS decreases."
 > BEGIN STRING
 "最初から全ての潤滑度が高いが、相手の潤滑度を上げやすい。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/317:24 < UNTRANSLATED
-
+"Fully lubricated from the start, easy to increase opponent's lubrication."
 > END STRING
 
 > BEGIN STRING
 "\#{myname}はキスをされてスイッチが入った！"
 > CONTEXT: Scripts/RPG::Statetext/357:18 < UNTRANSLATED
-
+"\#{myname} was turned on by a kiss!"
 > END STRING
 
 > BEGIN STRING
 "プロテクション"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/320:17 < UNTRANSLATED
 > CONTEXT: Scripts/Game_Battler 2/922:29 < UNTRANSLATED
-
+"Protection"
 > END STRING
 
 > BEGIN STRING
 "魔法の効果が一切効かない。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/321:24 < UNTRANSLATED
-
+"Immune to magic effects."
 > END STRING
 
 > BEGIN STRING
 "\#{myname}の唱える魔法の消費が無くなった！"
 > CONTEXT: Scripts/RPG::Statetext/360:18 < UNTRANSLATED
-
+"\#{myname}'s cost of magic removed!"
 > END STRING
 
 > BEGIN STRING
 "ブロッキング"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/324:17 < UNTRANSLATED
 > CONTEXT: Scripts/Game_Battler 4/341:31 < UNTRANSLATED
-
+"Blocking"
 > END STRING
 
 > BEGIN STRING
 "自分がターン中まだ行動していない時、受ける快感が下がる。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/325:24 < UNTRANSLATED
-
+"Reduced pleasure received until taking action each turn."
 > END STRING
 
 > BEGIN STRING
 "\#{myname}の足元の魔法陣が消滅した！"
 > CONTEXT: Scripts/RPG::Statetext/361:19 < UNTRANSLATED
-
+"The magic circle beneath \#{myname}'s feet disappeared!"
 > END STRING
 
 > BEGIN STRING
@@ -5082,19 +5081,19 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/328:17 < UNTRANSLATED
 > CONTEXT: Scripts/Game_Battler 1/214:50 < UNTRANSLATED
 > CONTEXT: Scripts/Game_Battler 1/341:50 < UNTRANSLATED
-
+"Thick clothes"
 > END STRING
 
 > BEGIN STRING
 "\#{myself.marking_battler.name}は\#{myname}に\\n"
 > CONTEXT: Scripts/RPG::Statetext/363:18 < UNTRANSLATED
-
+"\#{myself.marking_battler.name}\\n"
 > END STRING
 
 > BEGIN STRING
 "着衣状態の時、素早さが下がるが忍耐力が上がる。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/329:24 < UNTRANSLATED
-
+"Increased patience and reduced speed when clothed."
 > END STRING
 
 > BEGIN STRING
@@ -5104,25 +5103,25 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/Game_Battler 2/981:109 < UNTRANSLATED
 > CONTEXT: Scripts/Game_Battler 2/987:44 < UNTRANSLATED
 > CONTEXT: Scripts/Game_Battler 4/501:59 < UNTRANSLATED
-
+"Immunity"
 > END STRING
 
 > BEGIN STRING
 "目を付けられてしまった！"
 > CONTEXT: Scripts/RPG::Statetext/364:18 < UNTRANSLATED
-
+"has an eye on \#{myname}!"
 > END STRING
 
 > BEGIN STRING
 "胞子の影響を受けず、毒にも強い。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/333:24 < UNTRANSLATED
-
+"Immune to spores, resistant to poison."
 > END STRING
 
 > BEGIN STRING
 "\#{myname}の\#{myself.marking_battler.name}への\\m\\n"
 > CONTEXT: Scripts/RPG::Statetext/365:19 < UNTRANSLATED
-
+"\#{myself.marking_battler.name}'s\\m\\n"
 > END STRING
 
 > BEGIN STRING
@@ -5132,13 +5131,13 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/Game_Battler 1/986:22 < UNTRANSLATED
 > CONTEXT: Scripts/Scene_Battle 6/261:36 < UNTRANSLATED
 > CONTEXT: Scripts/Scene_Battle 6/275:42 < UNTRANSLATED
-
+"Exalted"
 > END STRING
 
 > BEGIN STRING
 "戦闘に出た時に高揚状態になる。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/338:24 < UNTRANSLATED
-
+"Becomes uplifted when going into battle."
 > END STRING
 
 > BEGIN STRING
@@ -5148,222 +5147,222 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/Game_Battler 1/985:34 < UNTRANSLATED
 > CONTEXT: Scripts/Scene_Battle 6/262:42 < UNTRANSLATED
 > CONTEXT: Scripts/Scene_Battle 6/274:36 < UNTRANSLATED
-
+"Composed"
 > END STRING
 
 > BEGIN STRING
 "興味が落ち着いた！"
 > CONTEXT: Scripts/RPG::Statetext/366:19 < UNTRANSLATED
-
+"interest in \#{myname} has calmed!"
 > END STRING
 
 > BEGIN STRING
 "戦闘に出た時に沈着状態になる。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/341:24 < UNTRANSLATED
-
+"Becomes calm when going into battle."
 > END STRING
 
 > BEGIN STRING
 "\#{myname}は状態異常に強くなった！"
 > CONTEXT: Scripts/RPG::Statetext/368:18 < UNTRANSLATED
-
+"\#{myname} has become resistant against status ailments!"
 > END STRING
 
 > BEGIN STRING
 "快楽主義"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/343:17 < UNTRANSLATED
-
+"Hedonistic"
 > END STRING
 
 > BEGIN STRING
 "\#{myname}の祝福が無くなった！"
 > CONTEXT: Scripts/RPG::Statetext/369:19 < UNTRANSLATED
-
+"\#{myname}'s blessing is gone!"
 > END STRING
 
 > BEGIN STRING
 "攻撃を受けるとムードを上げる。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/344:24 < UNTRANSLATED
-
+"Getting attacked raises the mood."
 > END STRING
 
 > BEGIN STRING
 "\#{myname}の緊張が高まってきた！"
 > CONTEXT: Scripts/RPG::Statetext/371:18 < UNTRANSLATED
-
+"\#{myname}'s tension is rising!"
 > END STRING
 
 > BEGIN STRING
 "ロマンチスト"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/346:17 < UNTRANSLATED
 > CONTEXT: Scripts/Game_Battler 4/312:31 < UNTRANSLATED
-
+"Romanticist"
 > END STRING
 
 > BEGIN STRING
 "ムードが高いほど、与える快感がより大きくなる。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/347:24 < UNTRANSLATED
-
+"The higher the mood, the greater the pleasure you give."
 > END STRING
 
 > BEGIN STRING
 "\#{myname}の緊張が解けた！"
 > CONTEXT: Scripts/RPG::Statetext/372:19 < UNTRANSLATED
-
+"\#{myname}'s tension is gone!"
 > END STRING
 
 > BEGIN STRING
 "熟練"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/349:17 < UNTRANSLATED
 > CONTEXT: Scripts/Game_Battler 4/493:82 < UNTRANSLATED
-
+"Skilled"
 > END STRING
 
 > BEGIN STRING
 "Sensual Stroke率が上がる。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/350:24 < UNTRANSLATED
-
+"Sensual Stroke rate up."
 > END STRING
 
 > BEGIN STRING
 "\#{myname}の精神が研ぎ澄まされた！"
 > CONTEXT: Scripts/RPG::Statetext/375:18 < UNTRANSLATED
-
+"\#{myname}'s mind has focused!"
 > END STRING
 
 > BEGIN STRING
 "自信過剰"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/352:17 < UNTRANSLATED
-
+"Overconfident"
 > END STRING
 
 > BEGIN STRING
 "\#{myname}の集中が切れた！"
 > CONTEXT: Scripts/RPG::Statetext/376:19 < UNTRANSLATED
-
+"\#{myname} lost concentration!"
 > END STRING
 
 > BEGIN STRING
 "この夢魔が敵を絶頂させた時に、自分の状態異常を回復する。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/353:24 < UNTRANSLATED
-
+"Cure own status ailments when bringing opponents to climax."
 > END STRING
 
 > BEGIN STRING
 "\#{myname}の挑発が落ち着いた！"
 > CONTEXT: Scripts/RPG::Statetext/379:19 < UNTRANSLATED
-
+"\#{myname}'s provocation has subsided!"
 > END STRING
 
 > BEGIN STRING
 "焦欲"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/355:17 < UNTRANSLATED
 > CONTEXT: Scripts/Scene_Battle 6/485:36 < UNTRANSLATED
-
+"Lustful"
 > END STRING
 
 > BEGIN STRING
 "自分以外の味方が絶頂した時、自分の魅力と精力を１段階上げる"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/356:24 < UNTRANSLATED
-
+"Upon ally climaxing, raises own charm and energy by one level."
 > END STRING
 
 > BEGIN STRING
 "\#{myname}は挑発している！"
 > CONTEXT: Scripts/RPG::Statetext/380:18 < UNTRANSLATED
-
+"\#{myname} is provoking!"
 > END STRING
 
 > BEGIN STRING
 "\#{myname}は拘束されてしまった！"
 > CONTEXT: Scripts/RPG::Statetext/396:20 < UNTRANSLATED
-
+"\#{myname} has been restrained!"
 > END STRING
 
 > BEGIN STRING
 "執拗な攻め"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/358:17 < UNTRANSLATED
 > CONTEXT: Scripts/Game_Battler 4/393:76 < UNTRANSLATED
-
+"Relentless"
 > END STRING
 
 > BEGIN STRING
 "連続して同じスキルで攻めても快感が減衰しにくい。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/359:24 < UNTRANSLATED
-
+"Reduced diminishing of given pleasure from using the same attack continuously."
 > END STRING
 
 > BEGIN STRING
 "\#{myname}を拘束した！"
 > CONTEXT: Scripts/RPG::Statetext/398:20 < UNTRANSLATED
-
+"\#{myname} has been restrained!"
 > END STRING
 
 > BEGIN STRING
 "\#{myname}は拘束から解かれた！"
 > CONTEXT: Scripts/RPG::Statetext/400:19 < UNTRANSLATED
-
+"\#{myname} released from restraint!"
 > END STRING
 
 > BEGIN STRING
 "洞察力"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/370:17 < UNTRANSLATED
 > CONTEXT: Scripts/Scene_Battle 4/1192:84 < UNTRANSLATED
-
+"Insight"
 > END STRING
 
 > BEGIN STRING
 "攻めた相手をチェックした状態にする。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/371:24 < UNTRANSLATED
-
+"Assess attacked opponents."
 > END STRING
 
 > BEGIN STRING
 "\#{myname}の身体は拘束されている！"
 > CONTEXT: Scripts/RPG::Statetext/401:18 < UNTRANSLATED
-
+"\#{myname}'s body is restrained!"
 > END STRING
 
 > BEGIN STRING
 "挑発的"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/373:17 < UNTRANSLATED
-
+"Provocative"
 > END STRING
 
 > BEGIN STRING
 "\#{myname}の本性が暴かれてしまった！"
 > CONTEXT: Scripts/RPG::Statetext/403:18 < UNTRANSLATED
-
+"\#{myname}'s true nature has been exposed!"
 > END STRING
 
 > BEGIN STRING
 "戦闘に出た時にＶＰを２０消費して、敵全員を挑発する。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/374:24 < UNTRANSLATED
-
+"When you go into battle, consume 20 VP and provoke all opponents."
 > END STRING
 
 > BEGIN STRING
 "\#{myname}は本性を取り繕うことができない！"
 > CONTEXT: Scripts/RPG::Statetext/404:18 < UNTRANSLATED
-
+"\#{myname} cannot cover up their true nature!"
 > END STRING
 
 > BEGIN STRING
 "ボディアロマ"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/376:17 < UNTRANSLATED
-
+"Body aroma"
 > END STRING
 
 > BEGIN STRING
 "戦闘に出た時にＶＰを８消費して、ムードを少し上げる。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/377:24 < UNTRANSLATED
-
+"When you go into battle, consume 8 VP and raise the mood a little."
 > END STRING
 
 > BEGIN STRING
 "\#{myname}は理性を取り戻した！"
 > CONTEXT: Scripts/RPG::Statetext/405:19 < UNTRANSLATED
-
+"\#{myname} has regained his senses!"
 > END STRING
 
 > BEGIN STRING
@@ -5376,13 +5375,13 @@ the probability of receiving SS decreases."
 > BEGIN STRING
 "魅惑的"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/379:17 < UNTRANSLATED
-
+"Fascinating"
 > END STRING
 
 > BEGIN STRING
 "戦闘に出た時にＶＰを４０消費して、敵全員を低確率で欲情にする。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/380:24 < UNTRANSLATED
-
+"When entering battle, lose 40 VP and make all opponents lustful with a low probability."
 > END STRING
 
 > BEGIN STRING
