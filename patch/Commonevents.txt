@@ -2,7 +2,7 @@
 > BEGIN STRING
 "アナウンスします"
 > CONTEXT: Commonevents/1/5/InlineScript/1:8 < UNTRANSLATED
-
+"Announcement"
 > END STRING
 
 > BEGIN STRING
@@ -10,7 +10,9 @@
 迷えるアリス様、甘美なる『夢世界』へようこそ。
 歓迎致しますわ\\H
 > CONTEXT: Commonevents/2/1/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Dear Alice, welcome to the sweet "dream world".
+We welcome you\\H
 > END STRING
 
 > BEGIN STRING
@@ -19,14 +21,16 @@
 \\.\\.
 まずは･･･
 > CONTEXT: Commonevents/2/4/Dialogue < UNTRANSLATED
-
+I would like to ask you a few questions 
+about yourself right away... First...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 次のうち、一番惹かれるのはどれでしょう？
 > CONTEXT: Commonevents/2/9/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Which of the following are you most attracted to?
 > END STRING
 
 > BEGIN STRING
@@ -170,7 +174,11 @@ like it can be used well as a base for a while.
 夢世界の通貨であるLps.と、夢世界での旅に必要な物を\\_
 取引してくれたり、\\n多くの情報も入手できる。
 > CONTEXT: Commonevents/13/9/Dialogue < UNTRANSLATED
-
+\\name[\\v[7]]\\_
+Fortunately, all my neighbors are friendly and nice people.
+You can trade Lps., the currency of the dream world, 
+with things you need for your journey in the dream world,
+and you can also obtain a lot of information.
 > END STRING
 
 > BEGIN STRING
