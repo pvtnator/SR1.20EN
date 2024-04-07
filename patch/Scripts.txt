@@ -5395,85 +5395,85 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "サンチェック"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/382:17 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 6/329:36 < UNTRANSLATED
-> CONTEXT:  Scripts/Scene_Battle 6/367:36 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/382:17
+> CONTEXT: Scripts/Scene_Battle 6/329:36
+> CONTEXT: Scripts/Scene_Battle 6/367:36
 "Assess all"
 > END STRING
 
 > BEGIN STRING
 "戦闘に出た時にＶＰを１００消費して、敵全員を畏怖にする。"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/383:24 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/383:24
 "At the start of battle, lose 100 VP and inflict fear on all opponents."
 > END STRING
 
 > BEGIN STRING
 "平穏の保証"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/385:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 4/363:31 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/385:17
+> CONTEXT: Scripts/Game_Battler 4/363:31
 "Sure Calm"
 > END STRING
 
 > BEGIN STRING
 "使用する回復魔法の効果が上がる。"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/386:24 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/386:24
 "Increases the effectiveness of recovery magic used."
 > END STRING
 
 > BEGIN STRING
 "バッドチェイン"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/388:17 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle PluralAttack/193:55 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/388:17
+> CONTEXT: Scripts/Scene_Battle PluralAttack/193:55
 "Bad chain"
 > END STRING
 
 > BEGIN STRING
 "２つ以上状態異常がついた相手を追撃しやすい。"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/389:24 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/389:24
 "Easy to trigger follow-ups on opponents with 2+ status ailments."
 > END STRING
 
 > BEGIN STRING
 "自慰癖"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/392:17 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/392:17
 "Masturbator"
 > END STRING
 
 > BEGIN STRING
 "自慰が癖になっている。"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/393:24 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/393:24
 "Has a habit to masturbate."
 > END STRING
 
 > BEGIN STRING
 "精液中毒"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/395:17 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/395:17
 "Semen poison"
 > END STRING
 
 > BEGIN STRING
 "精液が癖になっている。"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/396:24 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/396:24
 "Addicted to semen."
 > END STRING
 
 > BEGIN STRING
 "無我夢中"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/399:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/177:52 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/399:17
+> CONTEXT: Scripts/Game_Battler 1/177:52
 "Delirious"
 > END STRING
 
 > BEGIN STRING
 "クライシスになると精力が上がる。"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/400:24 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/400:24
 "Energy increases when in crisis."
 > END STRING
 
 > BEGIN STRING
 "対抗心"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/402:17 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 6/524:36 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/402:17
+> CONTEXT: Scripts/Scene_Battle 6/524:36
 "Rivalry"
 > END STRING
 
@@ -11382,7 +11382,7 @@ the probability of receiving SS decreases."
 > BEGIN STRING
 /./
 > CONTEXT: Scripts/Window_BattleLog/123:29
-/[a-zA-Z ][mwqyH][a-zA-Z \\!\\?\\.\\,\\:\\;\\-\\']|./
+/[a-vA-V ][mwqyH][a-zA-Z \\!\\?\\.\\,\\:\\;\\-\\']|./
 > CONTEXT: Scripts/Window_Message/95:31 < UNTRANSLATED
 > CONTEXT: Scripts/Window_BattleBackLog/74:29 < UNTRANSLATED
 > CONTEXT: Scripts/Window_Cook_Cooking/145:29 < UNTRANSLATED
@@ -12813,7 +12813,7 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "装備品:"
-> CONTEXT: Scripts/Interpreter 4/269:16 < UNTRANSLATED
+> CONTEXT: Scripts/Interpreter 4/269:16
 "Equipment:"
 > END STRING
 
@@ -13343,319 +13343,319 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "マジーシュ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/451:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/451:7
 "Majiishu"
 > END STRING
 
 > BEGIN STRING
 "エトリ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/452:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/452:7
 "Etol"
 > END STRING
 
 > BEGIN STRING
 "ワナップ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/453:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/453:7
 "Wanappu"
 > END STRING
 
 > BEGIN STRING
 "アスタール"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/460:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/460:7
 "Astar"
 > END STRING
 
 > BEGIN STRING
 "モアン"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/461:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/461:7
 "Mouan"
 > END STRING
 
 > BEGIN STRING
 "ザゼル"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/462:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/462:7
 "Sazel"
 > END STRING
 
 > BEGIN STRING
 "ベリア"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/463:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/463:7
 "Belia"
 > END STRING
 
 > BEGIN STRING
 "マスティ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/464:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/464:7
 "Massti"
 > END STRING
 
 > BEGIN STRING
 "メリーク"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/465:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/465:7
 "Meriiku"
 > END STRING
 
 > BEGIN STRING
 "フルーレ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/466:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/466:7
 "Fulre"
 > END STRING
 
 > BEGIN STRING
 "シェム"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/467:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/467:7
 "Shemu"
 > END STRING
 
 > BEGIN STRING
 "シャイタン"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/468:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/468:7
 "Shaitan"
 > END STRING
 
 > BEGIN STRING
 "イスラーフェ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/469:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/469:7
 "Israaphe"
 > END STRING
 
 > BEGIN STRING
 "グリサイユ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/476:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/476:7
 "Glyseyu"
 > END STRING
 
 > BEGIN STRING
 "ディアン"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/477:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/477:7
 "Dian"
 > END STRING
 
 > BEGIN STRING
 "イース"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/478:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/478:7
 "Eesu"
 > END STRING
 
 > BEGIN STRING
 "ペリディ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/479:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/479:7
 "Peridi"
 > END STRING
 
 > BEGIN STRING
 "アムト"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/480:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/480:7
 "Amuto"
 > END STRING
 
 > BEGIN STRING
 "ネリー"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/481:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/481:7
 "Neri"
 > END STRING
 
 > BEGIN STRING
 "コニア"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/482:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/482:7
 "Konia"
 > END STRING
 
 > BEGIN STRING
 "アズール"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/483:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/483:7
 "Azure"
 > END STRING
 
 > BEGIN STRING
 "パンドラ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/490:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/490:7
 "Pandora"
 > END STRING
 
 > BEGIN STRING
 "キャビィ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/491:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/491:7
 "Kyabi"
 > END STRING
 
 > BEGIN STRING
 "トラッペ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/492:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/492:7
 "Trappe"
 > END STRING
 
 > BEGIN STRING
 "ボルダーン"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/493:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/493:7
 "Boldaan"
 > END STRING
 
 > BEGIN STRING
 "コットリ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/494:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/494:7
 "Cottol"
 > END STRING
 
 > BEGIN STRING
 "コーフィン"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/495:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/495:7
 "Coafin"
 > END STRING
 
 > BEGIN STRING
 "ハンマッキド"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/496:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/496:7
 "Hanmakkido"
 > END STRING
 
 > BEGIN STRING
 "ドロセラ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/497:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/497:7
 "Drosela"
 > END STRING
 
 > BEGIN STRING
 "ネペンタス"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/498:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/498:7
 "Nepentas"
 > END STRING
 
 > BEGIN STRING
 "フラートラ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/499:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/499:7
 "Fraatol"
 > END STRING
 
 > BEGIN STRING
 "イナリ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/506:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/506:7
 "Inari"
 > END STRING
 
 > BEGIN STRING
 "ダッキ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/507:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/507:7
 "Dakki"
 > END STRING
 
 > BEGIN STRING
 "キュビー"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/508:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/508:7
 "Kyubii"
 > END STRING
 
 > BEGIN STRING
 "ヤコ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/509:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/509:7
 "Yako"
 > END STRING
 
 > BEGIN STRING
 "ツネ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/510:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/510:7
 "Tsuneh"
 > END STRING
 
 > BEGIN STRING
 "ミョーブ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/511:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/511:7
 "Mouphu"
 > END STRING
 
 > BEGIN STRING
 "カサマ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/512:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/512:7
 "Casama"
 > END STRING
 
 > BEGIN STRING
 "フシミ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/513:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/513:7
 "Fushim"
 > END STRING
 
 > BEGIN STRING
 "ミクズ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/514:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/514:7
 "Miksu"
 > END STRING
 
 > BEGIN STRING
 "クズノ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/515:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/515:7
 "Kuzuno"
 > END STRING
 
 > BEGIN STRING
 "シノ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/516:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/516:7
 "Shino"
 > END STRING
 
 > BEGIN STRING
 "ウシュカ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/517:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/517:7
 "Ushuka"
 > END STRING
 
 > BEGIN STRING
 "リアス"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/524:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/524:7
 "Lias"
 > END STRING
 
 > BEGIN STRING
 "グレーテ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/525:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/525:7
 "Guret"
 > END STRING
 
 > BEGIN STRING
 "ドロシア"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/526:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/526:7
 "Doroshia"
 > END STRING
 
 > BEGIN STRING
 "リーゼ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/527:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/527:7
 "Reaze"
 > END STRING
 
 > BEGIN STRING
 "シンディ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/528:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/528:7
 "Cindy"
 > END STRING
 
 > BEGIN STRING
 "カーレーン"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/529:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/529:7
 "Caareen"
 > END STRING
 
 > BEGIN STRING
 "タリーアー"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/530:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/530:7
 "Tarya"
 > END STRING
 
 > BEGIN STRING
 "ラプッツェ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/531:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/531:7
 "Rapushe"
 > END STRING
 
 > BEGIN STRING
 "レッドフーダ"
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/532:7 < UNTRANSLATED
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/532:7
 "Redfood"
 > END STRING
 
 > BEGIN STRING
 "どのファイルにセーブしますか？"
-> CONTEXT: Scripts/Scene_Save/12:11 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Save/12:11
 "Which file to save to?"
 > END STRING
 
@@ -13696,13 +13696,13 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "タイトルへ"
-> CONTEXT: Scripts/Scene_End/13:10 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_End/13:10
 "To title"
 > END STRING
 
 > BEGIN STRING
 "シャットダウン"
-> CONTEXT: Scripts/Scene_End/14:10 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_End/14:10
 "Shutdown"
 > END STRING
 
@@ -13740,7 +13740,7 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "どのファイルをロードしますか？"
-> CONTEXT: Scripts/Scene_Load/28:11 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Load/28:11
 "Load which file?"
 > END STRING
 
@@ -14273,39 +14273,39 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "手"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/78:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/84:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/367:26 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/53:6 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/278:18 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/278:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/278:26 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/283:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/283:26 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/283:30 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/283:34 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/283:38 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/291:48 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/292:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/292:26 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/292:30 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/292:34 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/292:38 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/293:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/293:26 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/293:30 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/293:34 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/293:38 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/293:42 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/293:46 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/293:50 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/293:54 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/293:58 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/557:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/560:67 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/563:67 < UNTRANSLATED
-> CONTEXT: Scripts/SR_Util other/1066:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/376:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/78:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/84:12
+> CONTEXT: Scripts/Scene_Battle RandomAction/367:26
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/53:6
+> CONTEXT: Scripts/Talk_Sys Talk/278:18
+> CONTEXT: Scripts/Talk_Sys Talk/278:22
+> CONTEXT: Scripts/Talk_Sys Talk/278:26
+> CONTEXT: Scripts/Talk_Sys Talk/283:22
+> CONTEXT: Scripts/Talk_Sys Talk/283:26
+> CONTEXT: Scripts/Talk_Sys Talk/283:30
+> CONTEXT: Scripts/Talk_Sys Talk/283:34
+> CONTEXT: Scripts/Talk_Sys Talk/283:38
+> CONTEXT: Scripts/Talk_Sys Talk/291:48
+> CONTEXT: Scripts/Talk_Sys Talk/292:22
+> CONTEXT: Scripts/Talk_Sys Talk/292:26
+> CONTEXT: Scripts/Talk_Sys Talk/292:30
+> CONTEXT: Scripts/Talk_Sys Talk/292:34
+> CONTEXT: Scripts/Talk_Sys Talk/292:38
+> CONTEXT: Scripts/Talk_Sys Talk/293:22
+> CONTEXT: Scripts/Talk_Sys Talk/293:26
+> CONTEXT: Scripts/Talk_Sys Talk/293:30
+> CONTEXT: Scripts/Talk_Sys Talk/293:34
+> CONTEXT: Scripts/Talk_Sys Talk/293:38
+> CONTEXT: Scripts/Talk_Sys Talk/293:42
+> CONTEXT: Scripts/Talk_Sys Talk/293:46
+> CONTEXT: Scripts/Talk_Sys Talk/293:50
+> CONTEXT: Scripts/Talk_Sys Talk/293:54
+> CONTEXT: Scripts/Talk_Sys Talk/293:58
+> CONTEXT: Scripts/Talk_Sys Talk/557:10
+> CONTEXT: Scripts/Talk_Sys Talk/560:67
+> CONTEXT: Scripts/Talk_Sys Talk/563:67
+> CONTEXT: Scripts/SR_Util other/1066:20
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/376:14
 "Hand"
 > END STRING
 
@@ -14348,46 +14348,46 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "足"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/86:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/157:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/479:26 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/61:6 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/278:42 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/285:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/285:26 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/285:30 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/285:34 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/285:38 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/299:48 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/300:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/300:26 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/300:30 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/300:34 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/300:38 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/300:42 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/300:46 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/301:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/301:26 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/301:30 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/301:34 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/301:38 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/301:42 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/301:46 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/301:50 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/301:54 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/301:58 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/581:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/584:67 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/587:67 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/446:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/86:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/157:12
+> CONTEXT: Scripts/Scene_Battle RandomAction/479:26
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/61:6
+> CONTEXT: Scripts/Talk_Sys Talk/278:42
+> CONTEXT: Scripts/Talk_Sys Talk/285:22
+> CONTEXT: Scripts/Talk_Sys Talk/285:26
+> CONTEXT: Scripts/Talk_Sys Talk/285:30
+> CONTEXT: Scripts/Talk_Sys Talk/285:34
+> CONTEXT: Scripts/Talk_Sys Talk/285:38
+> CONTEXT: Scripts/Talk_Sys Talk/299:48
+> CONTEXT: Scripts/Talk_Sys Talk/300:22
+> CONTEXT: Scripts/Talk_Sys Talk/300:26
+> CONTEXT: Scripts/Talk_Sys Talk/300:30
+> CONTEXT: Scripts/Talk_Sys Talk/300:34
+> CONTEXT: Scripts/Talk_Sys Talk/300:38
+> CONTEXT: Scripts/Talk_Sys Talk/300:42
+> CONTEXT: Scripts/Talk_Sys Talk/300:46
+> CONTEXT: Scripts/Talk_Sys Talk/301:22
+> CONTEXT: Scripts/Talk_Sys Talk/301:26
+> CONTEXT: Scripts/Talk_Sys Talk/301:30
+> CONTEXT: Scripts/Talk_Sys Talk/301:34
+> CONTEXT: Scripts/Talk_Sys Talk/301:38
+> CONTEXT: Scripts/Talk_Sys Talk/301:42
+> CONTEXT: Scripts/Talk_Sys Talk/301:46
+> CONTEXT: Scripts/Talk_Sys Talk/301:50
+> CONTEXT: Scripts/Talk_Sys Talk/301:54
+> CONTEXT: Scripts/Talk_Sys Talk/301:58
+> CONTEXT: Scripts/Talk_Sys Talk/581:10
+> CONTEXT: Scripts/Talk_Sys Talk/584:67
+> CONTEXT: Scripts/Talk_Sys Talk/587:67
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/446:14
 "Leg"
 > END STRING
 
 > BEGIN STRING
 "道具"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/90:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/194:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/539:26 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/90:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/194:12
+> CONTEXT: Scripts/Scene_Battle RandomAction/539:26
 "Tool"
 > END STRING
 
@@ -14452,77 +14452,77 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "背面拘束"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/115:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/100:24 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/300:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1244:23 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/124:27 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/472:31 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/330:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/671:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/889:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/928:12 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/115:14
+> CONTEXT: Scripts/Scene_Battle Resist/100:24
+> CONTEXT: Scripts/Scene_Battle RandomAction/300:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/1244:23
+> CONTEXT: Scripts/Talk_Sys Talk/124:27
+> CONTEXT: Scripts/Talk_Sys Talk/472:31
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/330:14
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/671:14
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/889:14
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/928:12
 "Back restraint"
 > END STRING
 
 > BEGIN STRING
 "開脚拘束"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/115:21 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/302:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1247:23 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/115:21
+> CONTEXT: Scripts/Scene_Battle RandomAction/302:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/1247:23
 "Leg restraint"
 > END STRING
 
 > BEGIN STRING
 "触手開脚拘束"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/115:35 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1273:23 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/115:35
+> CONTEXT: Scripts/Scene_Battle RandomAction/1273:23
 "Tentacle leg restraint"
 > END STRING
 
 > BEGIN STRING
 "対象：口"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/124:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/133:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1299:23 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1341:22 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1341:29 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1369:16 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2623:103 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2630:105 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/330:48 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/632:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/635:67 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/638:67 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/131:21 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/171:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/800:19 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/816:12 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/124:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/133:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/1299:23
+> CONTEXT: Scripts/Scene_Battle RandomAction/1341:22
+> CONTEXT: Scripts/Scene_Battle RandomAction/1341:29
+> CONTEXT: Scripts/Scene_Battle RandomAction/1369:16
+> CONTEXT: Scripts/RPG::Skilltext/2623:103
+> CONTEXT: Scripts/RPG::Skilltext/2630:105
+> CONTEXT: Scripts/Talk_Sys Talk/330:48
+> CONTEXT: Scripts/Talk_Sys Talk/632:10
+> CONTEXT: Scripts/Talk_Sys Talk/635:67
+> CONTEXT: Scripts/Talk_Sys Talk/638:67
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/131:21
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/171:14
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/800:19
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/816:12
 "Target: mouth"
 > END STRING
 
 > BEGIN STRING
 "対象：胸"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/127:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/87:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/110:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/139:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/159:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/174:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1302:23 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1344:22 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1344:29 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1371:16 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2622:88 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2629:106 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/334:48 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/640:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/643:67 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/646:67 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/131:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/174:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/800:12 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/819:12 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/127:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/87:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/110:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/139:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/159:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/174:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/1302:23
+> CONTEXT: Scripts/Scene_Battle RandomAction/1344:22
+> CONTEXT: Scripts/Scene_Battle RandomAction/1344:29
+> CONTEXT: Scripts/Scene_Battle RandomAction/1371:16
+> CONTEXT: Scripts/RPG::Skilltext/2622:88
+> CONTEXT: Scripts/RPG::Skilltext/2629:106
+> CONTEXT: Scripts/Talk_Sys Talk/334:48
+> CONTEXT: Scripts/Talk_Sys Talk/640:10
+> CONTEXT: Scripts/Talk_Sys Talk/643:67
+> CONTEXT: Scripts/Talk_Sys Talk/646:67
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/131:14
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/174:14
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/800:12
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/819:12
 "Target: chest"
 > END STRING
 
@@ -14551,80 +14551,80 @@ the probability of receiving SS decreases."
 "Target: butt"
 > BEGIN STRING
 "対象：アナル"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/135:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/91:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/114:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/178:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/198:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1308:23 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/350:48 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/672:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/675:67 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/678:67 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/144:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/183:23 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/806:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/822:21 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/135:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/91:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/114:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/178:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/198:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/1308:23
+> CONTEXT: Scripts/Talk_Sys Talk/350:48
+> CONTEXT: Scripts/Talk_Sys Talk/672:10
+> CONTEXT: Scripts/Talk_Sys Talk/675:67
+> CONTEXT: Scripts/Talk_Sys Talk/678:67
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/144:22
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/183:23
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/806:20
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/822:21
 "Target: anal"
 > END STRING
 
 > BEGIN STRING
 "対象：アソコ"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/138:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/101:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/124:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/163:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/188:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/201:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1317:23 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1351:24 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1351:33 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1375:16 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2625:90 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2632:107 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/342:48 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/656:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/659:67 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/662:67 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/140:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/183:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/803:12 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/822:12 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/138:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/101:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/124:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/163:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/188:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/201:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/1317:23
+> CONTEXT: Scripts/Scene_Battle RandomAction/1351:24
+> CONTEXT: Scripts/Scene_Battle RandomAction/1351:33
+> CONTEXT: Scripts/Scene_Battle RandomAction/1375:16
+> CONTEXT: Scripts/RPG::Skilltext/2625:90
+> CONTEXT: Scripts/RPG::Skilltext/2632:107
+> CONTEXT: Scripts/Talk_Sys Talk/342:48
+> CONTEXT: Scripts/Talk_Sys Talk/656:10
+> CONTEXT: Scripts/Talk_Sys Talk/659:67
+> CONTEXT: Scripts/Talk_Sys Talk/662:67
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/140:14
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/183:14
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/803:12
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/822:12
 "Target: vagina"
 > END STRING
 
 > BEGIN STRING
 "対象：陰核"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/143:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/103:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/126:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/190:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1320:23 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/346:48 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/664:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/667:67 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/670:67 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/144:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/187:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/806:12 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/826:12 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/143:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/103:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/126:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/190:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/1320:23
+> CONTEXT: Scripts/Talk_Sys Talk/346:48
+> CONTEXT: Scripts/Talk_Sys Talk/664:10
+> CONTEXT: Scripts/Talk_Sys Talk/667:67
+> CONTEXT: Scripts/Talk_Sys Talk/670:67
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/144:14
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/187:14
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/806:12
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/826:12
 "Target: clitoris"
 > END STRING
 
 > BEGIN STRING
 "対象：ペニス"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/143:22 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/97:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/120:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/145:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/161:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/184:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1311:23 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1356:24 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1356:33 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1377:16 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2626:92 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2633:109 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/143:22
+> CONTEXT: Scripts/Scene_Battle RandomAction/97:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/120:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/145:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/161:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/184:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/1311:23
+> CONTEXT: Scripts/Scene_Battle RandomAction/1356:24
+> CONTEXT: Scripts/Scene_Battle RandomAction/1356:33
+> CONTEXT: Scripts/Scene_Battle RandomAction/1377:16
+> CONTEXT: Scripts/RPG::Skilltext/2626:92
+> CONTEXT: Scripts/RPG::Skilltext/2633:109
 "Target: penis"
 > END STRING
 
@@ -14636,25 +14636,25 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "キッスチャーム"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/196:33 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/196:33
 "Kiss charm"
 > END STRING
 
 > BEGIN STRING
 "バストチャーム"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/198:36 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/198:36
 "Bust charm"
 > END STRING
 
 > BEGIN STRING
 "ヒップチャーム"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/200:36 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/200:36
 "Hip charm"
 > END STRING
 
 > BEGIN STRING
 "クロッチチャーム"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/202:36 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/202:36
 "Crotch charm"
 > END STRING
 
@@ -14673,129 +14673,129 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "主人公が夢魔を脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/175:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Other/196:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/153:22 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/175:14
+> CONTEXT: Scripts/Scene_Battle Other/196:14
+> CONTEXT: Scripts/Scene_Battle Resist/153:22
 "Player undresses succubus"
 > END STRING
 
 > BEGIN STRING
 "パートナーが夢魔を脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/175:26 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Other/196:26 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/157:22 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/175:26
+> CONTEXT: Scripts/Scene_Battle Other/196:26
+> CONTEXT: Scripts/Scene_Battle Resist/157:22
 "Ally undresses succubus"
 > END STRING
 
 > BEGIN STRING
 "主人公が夢魔をホールド"
-> CONTEXT: Scripts/Scene_Battle Other/177:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Other/198:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/38:22 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/50:22 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/72:22 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/177:14
+> CONTEXT: Scripts/Scene_Battle Other/198:14
+> CONTEXT: Scripts/Scene_Battle Resist/38:22
+> CONTEXT: Scripts/Scene_Battle Resist/50:22
+> CONTEXT: Scripts/Scene_Battle Resist/72:22
 "Player holds succubus"
 > END STRING
 
 > BEGIN STRING
 "パートナーが夢魔をホールド"
-> CONTEXT: Scripts/Scene_Battle Other/177:28 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Other/198:28 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/43:22 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/55:22 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/76:22 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/177:28
+> CONTEXT: Scripts/Scene_Battle Other/198:28
+> CONTEXT: Scripts/Scene_Battle Resist/43:22
+> CONTEXT: Scripts/Scene_Battle Resist/55:22
+> CONTEXT: Scripts/Scene_Battle Resist/76:22
 "Ally holds succubus"
 > END STRING
 
 > BEGIN STRING
 "自分ホールド解除"
-> CONTEXT: Scripts/Scene_Battle Other/178:30 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Other/199:30 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/39:26 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/44:26 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/178:30
+> CONTEXT: Scripts/Scene_Battle Other/199:30
+> CONTEXT: Scripts/Scene_Battle Resist/39:26
+> CONTEXT: Scripts/Scene_Battle Resist/44:26
 "Self hold release"
 > END STRING
 
 > BEGIN STRING
 "仲間ホールド解除"
-> CONTEXT: Scripts/Scene_Battle Other/178:60 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Other/199:60 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/51:26 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/56:26 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/178:60
+> CONTEXT: Scripts/Scene_Battle Other/199:60
+> CONTEXT: Scripts/Scene_Battle Resist/51:26
+> CONTEXT: Scripts/Scene_Battle Resist/56:26
 "Ally hold release"
 > END STRING
 
 > BEGIN STRING
 "夢魔が主人公を脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/186:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Other/207:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/143:22 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/186:14
+> CONTEXT: Scripts/Scene_Battle Other/207:14
+> CONTEXT: Scripts/Scene_Battle Resist/143:22
 "Succubus undresses player"
 > END STRING
 
 > BEGIN STRING
 "夢魔がパートナーを脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/186:26 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Other/207:26 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/147:22 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/186:26
+> CONTEXT: Scripts/Scene_Battle Other/207:26
+> CONTEXT: Scripts/Scene_Battle Resist/147:22
 "Succubus undresses ally"
 > END STRING
 
 > BEGIN STRING
 "夢魔が主人公をホールド"
-> CONTEXT: Scripts/Scene_Battle Other/188:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Other/209:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/62:22 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/188:14
+> CONTEXT: Scripts/Scene_Battle Other/209:14
+> CONTEXT: Scripts/Scene_Battle Resist/62:22
 "Succubus holds player"
 > END STRING
 
 > BEGIN STRING
 "夢魔がパートナーをホールド"
-> CONTEXT: Scripts/Scene_Battle Other/188:28 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Other/209:28 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/66:22 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/188:28
+> CONTEXT: Scripts/Scene_Battle Other/209:28
+> CONTEXT: Scripts/Scene_Battle Resist/66:22
 "Succubus holds ally"
 > END STRING
 
 > BEGIN STRING
 "夢魔が自ら脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/217:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 4/1285:24 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/217:12
+> CONTEXT: Scripts/Scene_Battle 4/1285:24
 "Succubus undresses self"
 > END STRING
 
 > BEGIN STRING
 "夢魔が仲間夢魔を脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/217:22 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 4/1284:24 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/217:22
+> CONTEXT: Scripts/Scene_Battle 4/1284:24
 "Succubus undresses ally succubus"
 > END STRING
 
 > BEGIN STRING
 "主人公が自ら脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/219:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 4/1301:28 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/219:12
+> CONTEXT: Scripts/Scene_Battle 4/1301:28
 "Player undresses self"
 > END STRING
 
 > BEGIN STRING
 "パートナーが自ら脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/219:23 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 4/1312:28 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/219:23
+> CONTEXT: Scripts/Scene_Battle 4/1312:28
 "Ally undresses self"
 > END STRING
 
 > BEGIN STRING
 "主人公がパートナーを脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/221:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 4/1308:28 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/221:12
+> CONTEXT: Scripts/Scene_Battle 4/1308:28
 "Player undresses ally"
 > END STRING
 
 > BEGIN STRING
 "パートナーが主人公を脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/221:27 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 4/1297:28 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/221:27
+> CONTEXT: Scripts/Scene_Battle 4/1297:28
 "Ally undresses player"
 > END STRING
 
@@ -14895,54 +14895,54 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "オーラルアクセプト"
-> CONTEXT: Scripts/Game_BattlerHold/199:10 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/89:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/266:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/327:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/348:12 < UNTRANSLATED
+> CONTEXT: Scripts/Game_BattlerHold/199:10
+> CONTEXT: Scripts/Scene_Battle Resist/89:12
+> CONTEXT: Scripts/Scene_Battle HoldEffect/266:12
+> CONTEXT: Scripts/Scene_Battle HoldEffect/327:12
+> CONTEXT: Scripts/RPG::Skilltext/348:12
 "Oral accept"
 > END STRING
 
 > BEGIN STRING
 "バックインサート"
-> CONTEXT: Scripts/Game_BattlerHold/211:10 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/91:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/268:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/333:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/207:12 < UNTRANSLATED
+> CONTEXT: Scripts/Game_BattlerHold/211:10
+> CONTEXT: Scripts/Scene_Battle Resist/91:12
+> CONTEXT: Scripts/Scene_Battle HoldEffect/268:12
+> CONTEXT: Scripts/Scene_Battle HoldEffect/333:12
+> CONTEXT: Scripts/RPG::Skilltext/207:12
 "Back insert"
 > END STRING
 
 > BEGIN STRING
 "バックアクセプト"
-> CONTEXT: Scripts/Game_BattlerHold/214:10 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/93:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/270:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/339:12 < UNTRANSLATED
+> CONTEXT: Scripts/Game_BattlerHold/214:10
+> CONTEXT: Scripts/Scene_Battle Resist/93:12
+> CONTEXT: Scripts/Scene_Battle HoldEffect/270:12
+> CONTEXT: Scripts/Scene_Battle HoldEffect/339:12
 "Back accept"
 > END STRING
 
 > BEGIN STRING
 "インサートテイル"
-> CONTEXT: Scripts/Game_BattlerHold/240:10 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/113:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/387:12 < UNTRANSLATED
+> CONTEXT: Scripts/Game_BattlerHold/240:10
+> CONTEXT: Scripts/Scene_Battle Resist/113:12
+> CONTEXT: Scripts/Scene_Battle HoldEffect/387:12
 "Insert tail"
 > END STRING
 
 > BEGIN STRING
 "マウスインテイル"
-> CONTEXT: Scripts/Game_BattlerHold/243:10 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/115:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/389:12 < UNTRANSLATED
+> CONTEXT: Scripts/Game_BattlerHold/243:10
+> CONTEXT: Scripts/Scene_Battle Resist/115:12
+> CONTEXT: Scripts/Scene_Battle HoldEffect/389:12
 "Tail in mouth"
 > END STRING
 
 > BEGIN STRING
 "バックインテイル"
-> CONTEXT: Scripts/Game_BattlerHold/246:10 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/117:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/391:12 < UNTRANSLATED
+> CONTEXT: Scripts/Game_BattlerHold/246:10
+> CONTEXT: Scripts/Scene_Battle Resist/117:12
+> CONTEXT: Scripts/Scene_Battle HoldEffect/391:12
 "Tail in back"
 > END STRING
 
@@ -14954,9 +14954,9 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "インサートテンタクル"
-> CONTEXT: Scripts/Game_BattlerHold/258:10 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/125:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/411:12 < UNTRANSLATED
+> CONTEXT: Scripts/Game_BattlerHold/258:10
+> CONTEXT: Scripts/Scene_Battle Resist/125:12
+> CONTEXT: Scripts/Scene_Battle HoldEffect/411:12
 "Insert tentacle"
 > END STRING
 
@@ -14980,9 +14980,9 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "マウスインテンタクル"
-> CONTEXT: Scripts/Game_BattlerHold/261:10 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/127:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/413:12 < UNTRANSLATED
+> CONTEXT: Scripts/Game_BattlerHold/261:10
+> CONTEXT: Scripts/Scene_Battle Resist/127:12
+> CONTEXT: Scripts/Scene_Battle HoldEffect/413:12
 "Tentacle in mouth"
 > END STRING
 
@@ -15000,9 +15000,9 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "バックインテンタクル"
-> CONTEXT: Scripts/Game_BattlerHold/264:10 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/129:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/415:12 < UNTRANSLATED
+> CONTEXT: Scripts/Game_BattlerHold/264:10
+> CONTEXT: Scripts/Scene_Battle Resist/129:12
+> CONTEXT: Scripts/Scene_Battle HoldEffect/415:12
 "Tentacle in back"
 > END STRING
 
@@ -15020,8 +15020,8 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "テンタクルバンデージ"
-> CONTEXT: Scripts/Game_BattlerHold/267:10 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/131:12 < UNTRANSLATED
+> CONTEXT: Scripts/Game_BattlerHold/267:10
+> CONTEXT: Scripts/Scene_Battle Resist/131:12
 "Tentacle bandage"
 > END STRING
 
@@ -15047,8 +15047,8 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "インサルトツリー"
-> CONTEXT: Scripts/Game_BattlerHold/270:10 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/435:12 < UNTRANSLATED
+> CONTEXT: Scripts/Game_BattlerHold/270:10
+> CONTEXT: Scripts/Scene_Battle HoldEffect/435:12
 "Insult tree"
 > END STRING
 
@@ -15115,8 +15115,8 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "絶頂"
-> CONTEXT: Scripts/Game_BattlerHold/594:10 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 4/2111:19 < UNTRANSLATED
+> CONTEXT: Scripts/Game_BattlerHold/594:10
+> CONTEXT: Scripts/Scene_Battle 4/2111:19
 "Climax"
 > END STRING
 
@@ -15140,91 +15140,91 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "ストラグル"
-> CONTEXT: Scripts/Scene_Battle Resist/36:50 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/178:48 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/81:29 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 5/1517:25 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/36:50
+> CONTEXT: Scripts/Scene_Battle Resist/178:48
+> CONTEXT: Scripts/Scene_Battle HoldEffect/81:29
+> CONTEXT: Scripts/Scene_Battle 5/1517:25
 "Struggle"
 > END STRING
 
 > BEGIN STRING
 "♀挿入：♂側"
-> CONTEXT: Scripts/Scene_Battle Resist/84:24 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/84:24
 "♀In：♂"
 > END STRING
 
 > BEGIN STRING
 "♀挿入：♀側"
-> CONTEXT: Scripts/Scene_Battle Resist/86:24 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/86:24
 "♀In：♀"
 > END STRING
 
 > BEGIN STRING
 "口挿入：♂側"
-> CONTEXT: Scripts/Scene_Battle Resist/88:24 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/88:24
 "Mouth in：♂"
 > END STRING
 
 > BEGIN STRING
 "Ａ挿入：♂側"
-> CONTEXT: Scripts/Scene_Battle Resist/92:24 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/92:24
 "ＡIn：♂"
 > END STRING
 
 > BEGIN STRING
 "Ａ挿入：Ａ側"
-> CONTEXT: Scripts/Scene_Battle Resist/94:24 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/94:24
 "ＡIn：Ａ"
 > END STRING
 
 > BEGIN STRING
 "尻尾Ａ挿入"
-> CONTEXT: Scripts/Scene_Battle Resist/118:24 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/118:24
 "TailＡIn"
 > END STRING
 
 > BEGIN STRING
 "ディルドインディルド"
-> CONTEXT: Scripts/Scene_Battle Resist/121:12 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/121:12
 "Dildo in dildo"
 > END STRING
 
 > BEGIN STRING
 "触手Ａ挿入"
-> CONTEXT: Scripts/Scene_Battle Resist/130:24 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/130:24
 "TentacleＡIn"
 > END STRING
 
 > BEGIN STRING
 "汎用レジスト"
-> CONTEXT: Scripts/Scene_Battle Resist/167:18 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/167:18
 "General resist"
 > END STRING
 
 > BEGIN STRING
 "強引のルーン"
-> CONTEXT: Scripts/Scene_Battle Resist/340:66 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/340:66
 "Forceful rune"
 > END STRING
 
 > BEGIN STRING
 "抵抗のルーン"
-> CONTEXT: Scripts/Scene_Battle Resist/341:66 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/341:66
 "Resist rune"
 > END STRING
 
 > BEGIN STRING
 "威迫"
-> CONTEXT: Scripts/Scene_Battle Resist/386:40 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/424:41 < UNTRANSLATED
-> CONTEXT: Scripts/Incense_System/117:10 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/386:40
+> CONTEXT: Scripts/Scene_Battle Resist/424:41
+> CONTEXT: Scripts/Incense_System/117:10
 "Insistence"
 > END STRING
 
 > BEGIN STRING
 "隷属の首輪"
-> CONTEXT: Scripts/Scene_Battle Resist/392:42 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/428:43 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/392:42
+> CONTEXT: Scripts/Scene_Battle Resist/428:43
 "Slave collar"
 > END STRING
 
@@ -15268,70 +15268,70 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "が現れた！"
-> CONTEXT: Scripts/Scene_Battle 2/30:44 < UNTRANSLATED
-"Appeared!"
+> CONTEXT: Scripts/Scene_Battle 2/30:44
+" appeared!"
 > END STRING
 
 > BEGIN STRING
 "たちが現れた！"
-> CONTEXT: Scripts/Scene_Battle 2/32:44 < UNTRANSLATED
-"Appeared!"
+> CONTEXT: Scripts/Scene_Battle 2/32:44
+" appeared!"
 > END STRING
 
 > BEGIN STRING
 "は先手を取った！\\q"
-> CONTEXT: Scripts/Scene_Battle 2/92:64 < UNTRANSLATED
-"Gets first move!\\q"
+> CONTEXT: Scripts/Scene_Battle 2/92:64
+" gets first move!\\q"
 > END STRING
 
 > BEGIN STRING
 "たちは先手を取った！\\q"
-> CONTEXT: Scripts/Scene_Battle 2/94:64 < UNTRANSLATED
-"Get first move!\\q"
+> CONTEXT: Scripts/Scene_Battle 2/94:64
+" get first move!\\q"
 > END STRING
 
 > BEGIN STRING
 "は夢魔に先手を取られた！\\q"
-> CONTEXT: Scripts/Scene_Battle 2/118:64 < UNTRANSLATED
-"Succubus first move taken!\\q"
+> CONTEXT: Scripts/Scene_Battle 2/118:64
+" first move taken!\\q"
 > END STRING
 
 > BEGIN STRING
 "たちは夢魔に先手を取られた！\\q"
-> CONTEXT: Scripts/Scene_Battle 2/120:64 < UNTRANSLATED
-"Succubi first move taken!\\q"
+> CONTEXT: Scripts/Scene_Battle 2/120:64
+" first move taken!\\q"
 > END STRING
 
 > BEGIN STRING
 "戦闘開始"
-> CONTEXT: Scripts/Scene_Battle 2/181:20 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 2/192:22 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 2/210:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/274:15 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 2/181:20
+> CONTEXT: Scripts/Scene_Battle 2/192:22
+> CONTEXT: Scripts/Scene_Battle 2/210:22
+> CONTEXT: Scripts/Talk_Sys Base/274:15
 "Battle begin"
 > END STRING
 
 > BEGIN STRING
 "夢魔たちを満足させた！"
-> CONTEXT: Scripts/Scene_Battle 2/402:38 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 2/402:38
 "The succubi are satisfied!"
 > END STRING
 
 > BEGIN STRING
 "夢魔たちを退けた！"
-> CONTEXT: Scripts/Scene_Battle 2/404:38 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 2/404:38
 "Ran from the succubi!"
 > END STRING
 
 > BEGIN STRING
 "夢魔を満足させた！"
-> CONTEXT: Scripts/Scene_Battle 2/408:38 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 2/408:38
 "The succubus is satisfied!"
 > END STRING
 
 > BEGIN STRING
 "夢魔を退けた！"
-> CONTEXT: Scripts/Scene_Battle 2/410:38 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 2/410:38
 "Ran from the succubus!"
 > END STRING
 
@@ -15504,7 +15504,7 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\#{target.name}のＥＰが \#{heal.to_s} 回復した！"
-> CONTEXT: Scripts/Scene_Battle 6/60:19 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 6/60:19
 "\#{target.name} recovered \#{heal.to_s} EP!"
 > END STRING
 
@@ -15540,7 +15540,7 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\#{supporter}はトリムオールを詠唱した！"
-> CONTEXT: Scripts/Scene_Battle 6/80:19 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 6/80:19
 "\#{supporter} cast Trim All!"
 > END STRING
 
@@ -15552,7 +15552,7 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\#{supporter}はイーザカールを詠唱した！"
-> CONTEXT: Scripts/Scene_Battle 6/98:19 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 6/98:19
 "\#{supporter} cast Iiza Curl!"
 > END STRING
 
@@ -15602,7 +15602,7 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\#{supporter}は詠唱している！"
-> CONTEXT: Scripts/Scene_Battle 6/129:38 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 6/129:38
 "\#{supporter} is casting!"
 > END STRING
 
@@ -15644,7 +15644,7 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "しかし\#{battler_one.name}には効果が無かった！"
-> CONTEXT: Scripts/Scene_Battle 6/153:15 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 6/153:15
 "But it has no effect on \#{battler_one.name}"
 > END STRING
 
@@ -15688,9 +15688,9 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "リラックスタイム"
-> CONTEXT: Scripts/Scene_Battle 6/167:26 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 6/191:10 < UNTRANSLATED
-> CONTEXT: Scripts/Incense_System/53:10 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 6/167:26
+> CONTEXT: Scripts/Scene_Battle 6/191:10
+> CONTEXT: Scripts/Incense_System/53:10
 "Relax time"
 > END STRING
 
@@ -15708,9 +15708,9 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "ラブフレグランス"
-> CONTEXT: Scripts/Scene_Battle 6/181:38 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 6/204:10 < UNTRANSLATED
-> CONTEXT: Scripts/Incense_System/139:10 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 6/181:38
+> CONTEXT: Scripts/Scene_Battle 6/204:10
+> CONTEXT: Scripts/Incense_System/139:10
 "Love Fragrance"
 > END STRING
 
@@ -15740,7 +15740,7 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\#{target_one.name}のＥＰが \#{heal_one.to_s} 回復した！"
-> CONTEXT: Scripts/Scene_Battle 6/195:17 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 6/195:17
 "\#{target_one.name} was healed for \#{heal_one.to_s} EP！"
 > END STRING
 
@@ -15797,7 +15797,7 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\#{battler.name}は興奮している！"
-> CONTEXT: Scripts/Scene_Battle 6/264:21 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 6/264:21
 "\#{battler.name} is aroused!"
 > END STRING
 
@@ -15823,7 +15823,7 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\#{battler.name}は落ち着いている！"
-> CONTEXT: Scripts/Scene_Battle 6/277:21 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 6/277:21
 "\#{battler.name} is calm!"
 > END STRING
 
@@ -15853,8 +15853,8 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\#{battler.name}は相手を恐怖に駆り立てた！"
-> CONTEXT: Scripts/Scene_Battle 6/340:23 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 6/378:23 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 6/340:23
+> CONTEXT: Scripts/Scene_Battle 6/378:23
 "\#{battler.name} inflicted fear!"
 > END STRING
 
@@ -15866,57 +15866,57 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\#{$game_actors[101].name}君"
-> CONTEXT: Scripts/Window_Petname_Change/166:6 < UNTRANSLATED
+> CONTEXT: Scripts/Window_Petname_Change/166:6
 "\#{$game_actors[101].name}-kun"
 > END STRING
 
 > BEGIN STRING
 "この夢魔から3000Lps.相当の金を採取します。"
-> CONTEXT: Scripts/Window_PromiseRight/236:16 < UNTRANSLATED
+> CONTEXT: Scripts/Window_PromiseRight/236:16
 "Collect 3000 Lps. from this succubus."
 > END STRING
 
 > BEGIN STRING
 "\#{$game_actors[101].name}ちゃん"
-> CONTEXT: Scripts/Window_Petname_Change/167:6 < UNTRANSLATED
+> CONTEXT: Scripts/Window_Petname_Change/167:6
 "\#{$game_actors[101].name}-buddy"
 > END STRING
 
 > BEGIN STRING
 "\#{$game_actors[101].name}様"
-> CONTEXT: Scripts/Window_Petname_Change/168:6 < UNTRANSLATED
+> CONTEXT: Scripts/Window_Petname_Change/168:6
 "Mr. \#{$game_actors[101].name}"
 > END STRING
 
 > BEGIN STRING
 "\#{$game_actors[101].name}たん"
-> CONTEXT: Scripts/Window_Petname_Change/169:6 < UNTRANSLATED
+> CONTEXT: Scripts/Window_Petname_Change/169:6
 "\#{$game_actors[101].name}-sweetie"
 > END STRING
 
 > BEGIN STRING
 "\#{$game_actors[101].name}きゅん"
-> CONTEXT: Scripts/Window_Petname_Change/170:6 < UNTRANSLATED
+> CONTEXT: Scripts/Window_Petname_Change/170:6
 "\#{$game_actors[101].name}-honey"
 > END STRING
 
 > BEGIN STRING
 "レッドカーペット"
-> CONTEXT: Scripts/Scene_Battle 6/431:30 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 6/443:37 < UNTRANSLATED
-> CONTEXT: Scripts/Incense_System/84:10 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 6/431:30
+> CONTEXT: Scripts/Scene_Battle 6/443:37
+> CONTEXT: Scripts/Incense_System/84:10
 "Red Carpet"
 > END STRING
 
 > BEGIN STRING
 "\#{battler.name}は劇的な入場を果たした！"
-> CONTEXT: Scripts/Scene_Battle 6/433:21 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 6/433:21
 "\#{battler.name} made a dramatic entrance!"
 > END STRING
 
 > BEGIN STRING
 "お前"
-> CONTEXT: Scripts/Window_Petname_Change/175:6 < UNTRANSLATED
+> CONTEXT: Scripts/Window_Petname_Change/175:6
 "You"
 > END STRING
 
@@ -15928,67 +15928,67 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "兄ちゃん"
-> CONTEXT: Scripts/Window_Petname_Change/179:6 < UNTRANSLATED
+> CONTEXT: Scripts/Window_Petname_Change/179:6
 "Sweetie"
 > END STRING
 
 > BEGIN STRING
 "お兄ちゃん"
-> CONTEXT: Scripts/Window_Petname_Change/180:6 < UNTRANSLATED
+> CONTEXT: Scripts/Window_Petname_Change/180:6
 "Sweetie"
 > END STRING
 
 > BEGIN STRING
 "兄上"
-> CONTEXT: Scripts/Window_Petname_Change/185:6 < UNTRANSLATED
+> CONTEXT: Scripts/Window_Petname_Change/185:6
 "Sir"
 > END STRING
 
 > BEGIN STRING
 "兄貴"
-> CONTEXT: Scripts/Window_Petname_Change/186:6 < UNTRANSLATED
+> CONTEXT: Scripts/Window_Petname_Change/186:6
 "Big Brother"
 > END STRING
 
 > BEGIN STRING
 "\#{battler.name}は味方の絶頂を見て昂った！"
-> CONTEXT: Scripts/Scene_Battle 6/498:23 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 6/498:23
 "\#{battler.name} was aroused from ally climaxing!"
 > END STRING
 
 > BEGIN STRING
 "パパ"
-> CONTEXT: Scripts/Window_Petname_Change/187:6 < UNTRANSLATED
+> CONTEXT: Scripts/Window_Petname_Change/187:6
 "Papa"
 > END STRING
 
 > BEGIN STRING
 "父さん"
-> CONTEXT: Scripts/Window_Petname_Change/188:6 < UNTRANSLATED
+> CONTEXT: Scripts/Window_Petname_Change/188:6
 "Daddy"
 > END STRING
 
 > BEGIN STRING
 "お父さん"
-> CONTEXT: Scripts/Window_Petname_Change/189:6 < UNTRANSLATED
+> CONTEXT: Scripts/Window_Petname_Change/189:6
 "Paw-paw"
 > END STRING
 
 > BEGIN STRING
 "先輩"
-> CONTEXT: Scripts/Window_Petname_Change/190:6 < UNTRANSLATED
+> CONTEXT: Scripts/Window_Petname_Change/190:6
 "Senpai"
 > END STRING
 
 > BEGIN STRING
 "先生"
-> CONTEXT: Scripts/Window_Petname_Change/191:6 < UNTRANSLATED
+> CONTEXT: Scripts/Window_Petname_Change/191:6
 "Sensei"
 > END STRING
 
 > BEGIN STRING
 "師匠"
-> CONTEXT: Scripts/Window_Petname_Change/192:6 < UNTRANSLATED
+> CONTEXT: Scripts/Window_Petname_Change/192:6
 "Teacher"
 > END STRING
 
@@ -16006,8 +16006,8 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\#{battler.name}は不利な状況に対抗心を燃やした！"
-> CONTEXT: Scripts/Scene_Battle 6/555:23 < UNTRANSLATED
-"The disadvantage got \#{battler.name} fired up!
+> CONTEXT: Scripts/Scene_Battle 6/555:23
+"The disadvantage got \#{battler.name} fired up!"
 > END STRING
 
 > BEGIN STRING
@@ -16042,7 +16042,7 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\#{battler.name}の絶頂が他の味方を刺激する！"
-> CONTEXT: Scripts/Scene_Battle 6/601:23 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 6/601:23
 "\#{battler.name}'s climax stimulates other allies!"
 > END STRING
 
@@ -16078,7 +16078,7 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\#{effected_one.name}には効果がなかった！"
-> CONTEXT: Scripts/Scene_Battle 6/624:36 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 6/624:36
 "\#{effected_one.name} is unaffected!"
 > END STRING
 
@@ -16163,14 +16163,14 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\#{active.name}は\#{target.name}に挿入した！"
-> CONTEXT: Scripts/Scene_Battle HoldEffect/261:16 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle HoldEffect/261:16
 "\#{active.name} inserted into \#{target.name}!"
 > END STRING
 
 > BEGIN STRING
 "\#{active.name}は\#{brk}自分のアソコに、\\n\#{target.name}のペニスを挿入した！"
-> CONTEXT: Scripts/Scene_Battle HoldEffect/263:16 < UNTRANSLATED
-"\#{active.name}\#{brk} inserted penis in \\n\#{target.name}
+> CONTEXT: Scripts/Scene_Battle HoldEffect/263:16
+"\#{active.name} \#{brk}inserted penis in \\n\#{target.name}
 s vagina!"
 > END STRING
 
@@ -16188,9 +16188,9 @@ s vagina!"
 
 > BEGIN STRING
 "\#{active.name}は\#{brk}\#{target.name}の口に挿入した！"
-> CONTEXT: Scripts/Scene_Battle HoldEffect/265:16 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/283:16 < UNTRANSLATED
-\#{active.name}\#{brk} inserted into \#{target.name}'s mouth!"
+> CONTEXT: Scripts/Scene_Battle HoldEffect/265:16
+> CONTEXT: Scripts/Scene_Battle HoldEffect/283:16
+"\#{active.name} \#{brk}inserted into \#{target.name}'s mouth!"
 > END STRING
 
 > BEGIN STRING
@@ -16206,33 +16206,33 @@ s vagina!"
 
 > BEGIN STRING
 "\#{active.name}は\#{brk}\#{target.name}のペニスを口に咥えた！"
-> CONTEXT: Scripts/Scene_Battle HoldEffect/267:16 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle HoldEffect/267:16
+"\#{active.name} put \#{brk}penis in \#{target.name}'s mouth!"
 > END STRING
 
 > BEGIN STRING
 "\#{active.name}は\#{brk}\#{target.name}のお尻に挿入した！"
-> CONTEXT: Scripts/Scene_Battle HoldEffect/269:16 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/285:16 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle HoldEffect/269:16
+> CONTEXT: Scripts/Scene_Battle HoldEffect/285:16
+"\#{active.name} \#{brk}inserted it in \#{target.name}'s ass!"
 > END STRING
 
 > BEGIN STRING
 "\#{active.name}は自分のお尻に、\\n\#{target.name}のペニスを挿入した！"
-> CONTEXT: Scripts/Scene_Battle HoldEffect/271:16 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle HoldEffect/271:16
+"\#{active.name} inserted penis in \\n\#{target.name}'s ass!"
 > END STRING
 
 > BEGIN STRING
 "\#{active.name}は\#{brk}\#{target.name}の頭に馬乗りになった！"
-> CONTEXT: Scripts/Scene_Battle HoldEffect/273:16 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle HoldEffect/273:16
+"\#{active.name} \#{brk}rides on\#{target.name}'s face!"
 > END STRING
 
 > BEGIN STRING
 "\#{active.name}は\#{brk}\#{target.name}のアソコに吸い付いた！"
-> CONTEXT: Scripts/Scene_Battle HoldEffect/275:16 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle HoldEffect/275:16
+"\#{active.name} \#{brk}eats out \#{target.name}'s vagina!"
 > END STRING
 
 > BEGIN STRING
@@ -16250,8 +16250,8 @@ s vagina!"
 
 > BEGIN STRING
 "\#{active.name}は\#{brk}\#{target.name}に抱きついた！"
-> CONTEXT: Scripts/Scene_Battle HoldEffect/277:16 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle HoldEffect/277:16
+"\#{active.name} \#{brk}hugged\#{target.name}!"
 > END STRING
 
 > BEGIN STRING
@@ -16274,14 +16274,15 @@ s vagina!"
 
 > BEGIN STRING
 "ルーンは一度刻印してしまうと再利用する事ができません。\\n刻印しますか？"
-> CONTEXT: Scripts/Scene_Box(Equip)/147:18 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Box(Equip)/147:18
+"Once a rune is engraved, it cannot be reused.
+Engrave it?"
 > END STRING
 
 > BEGIN STRING
 "\#{active.name}は\#{brk}\#{target.name}と脚を絡め合った！"
-> CONTEXT: Scripts/Scene_Battle HoldEffect/279:16 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle HoldEffect/279:16
+"\#{active.name} \#{brk}intertwined legs with \#{target.name}!"
 > END STRING
 
 > BEGIN STRING
@@ -16300,8 +16301,8 @@ s vagina!"
 
 > BEGIN STRING
 "\#{active.name}は\#{brk}\#{target.name}に挿入した！"
-> CONTEXT: Scripts/Scene_Battle HoldEffect/281:16 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle HoldEffect/281:16
+"\#{active.name} \#{brk}inserted into \#{target.name}!"
 > END STRING
 
 > BEGIN STRING
@@ -18153,28 +18154,28 @@ Please make room before leaving!"
 
 > BEGIN STRING
 "恍惚とした表情で"
-> CONTEXT: Scripts/RPG::Skilltext/147:18 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/75:16 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/172:16 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/234:40 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/199:16 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/252:46 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/271:40 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/283:16 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/363:18 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/147:18
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/75:16
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/172:16
+> CONTEXT: Scripts/Talk_Sys Text(Map)/234:40
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/199:16
+> CONTEXT: Scripts/Talk_Sys Text(Map)/252:46
+> CONTEXT: Scripts/Talk_Sys Text(Map)/271:40
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/283:16
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/363:18
+"ecstatically"
 > END STRING
 
 > BEGIN STRING
 "熱心に"
-> CONTEXT: Scripts/RPG::Skilltext/148:18 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/148:18
+"eagerly"
 > END STRING
 
 > BEGIN STRING
 "、\\n\\m\#{targetname}の服を脱がせようと試みた！"
-> CONTEXT: Scripts/RPG::Skilltext/157:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/157:30
+",\\n\\mis attempting to undress \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
@@ -20779,14 +20780,14 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{pantsu}の上から、\\n\\m\#{targetname}のペニスにそっと触れてきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1194:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1194:30
+" gently touched\\n\\m\#{targetname}'s penis from above \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
 "潤滑度♂ : \\"\#{enemy.lub_male}\\"\\n"
-> CONTEXT: Scripts/基本設定強化/573:20 < UNTRANSLATED
-
+> CONTEXT: Scripts/基本設定強化/573:20
+"Lubricity♂ : \\"\#{enemy.lub_male}\\"\\n"
 > END STRING
 
 > BEGIN STRING
@@ -26172,7 +26173,7 @@ and getting fired up."
 > BEGIN STRING
 " の快感を受けた！\\q"
 > CONTEXT: Scripts/Scene_Battle 4/1123:76
-" felt the pleasure!"
+" felt the pleasure!"
 > END STRING
 
 > BEGIN STRING

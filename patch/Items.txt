@@ -92,7 +92,7 @@ Precious Ring
 
 > BEGIN STRING
 盟約の契りを結ぶために必要な指輪。非装備品。
-> CONTEXT: Items/19/description/ < UNTRANSLATED
+> CONTEXT: Items/19/description/
 A ring necessary to seal a pact. Non-equippable.
 > END STRING
 
@@ -148,7 +148,7 @@ Earl Grey
 
 > BEGIN STRING
 アピトーユブレンド
-> CONTEXT: Items/23/name/ < UNTRANSLATED
+> CONTEXT: Items/23/name/
 Apitoyu blend
 > END STRING
 
@@ -217,7 +217,7 @@ Wake up
 
 > BEGIN STRING
 仲間を完全回復させる妙薬。失神した仲間にも効果がある。
-> CONTEXT: Items/30/description/ < UNTRANSLATED
+> CONTEXT: Items/30/description/
 An elixir that fully recovers allies. Also effective on fainted allies.
 > END STRING
 
@@ -249,13 +249,13 @@ SC_click4
 
 > BEGIN STRING
 クリハナッツ/25
-> CONTEXT: Items/35/name/ < UNTRANSLATED
+> CONTEXT: Items/35/name/
 Kuriha nuts/25
 > END STRING
 
 > BEGIN STRING
 夢魔の満腹度がそこそこ満たされる。非常に癖のある臭いのする木の実。
-> CONTEXT: Items/35/description/ < UNTRANSLATED
+> CONTEXT: Items/35/description/
 Restores some satiety. A fruit with a peculiar color.
 > END STRING
 
@@ -267,7 +267,7 @@ Restores some satiety. A fruit with a peculiar color.
 
 > BEGIN STRING
 夢魔の満腹度が完全に満たされる。人間が飲むには濃すぎる味わいの牛乳。
-> CONTEXT: Items/36/description/ < UNTRANSLATED
+> CONTEXT: Items/36/description/
 Restores satiety fully. Milk that's too strong for humans to drink
 > END STRING
 
@@ -297,49 +297,49 @@ Raise level by 1.
 
 > BEGIN STRING
 小さなポピー/10
-> CONTEXT: Items/51/name/ < UNTRANSLATED
+> CONTEXT: Items/51/name/
 Small poppy/10
 > END STRING
 
 > BEGIN STRING
 [贈] 相手１人の契約確率を少し上げる。小さく愛らしいポピーの花。
-> CONTEXT: Items/51/description/ < UNTRANSLATED
+> CONTEXT: Items/51/description/
 [Gift] Increases contract chance a bit. A small and adorable poppy flower.
 > END STRING
 
 > BEGIN STRING
 鮮やかな花冠/25
-> CONTEXT: Items/52/name/ < UNTRANSLATED
+> CONTEXT: Items/52/name/
 Vibrant garland/25
 > END STRING
 
 > BEGIN STRING
 [贈] 相手１人の契約確率を上げる。色どり鮮やかな花の冠。
-> CONTEXT: Items/52/description/ < UNTRANSLATED
+> CONTEXT: Items/52/description/
 [Gift] Increases contract chance. Brightly colored flower crown.
 > END STRING
 
 > BEGIN STRING
 ロマンスブーケ/100
-> CONTEXT: Items/53/name/ < UNTRANSLATED
+> CONTEXT: Items/53/name/
 Romance bouquet/100
 > END STRING
 
 > BEGIN STRING
 [贈] 相手１人の契約確率を大きく上げる。女性を魅了する花束。
-> CONTEXT: Items/53/description/ < UNTRANSLATED
+> CONTEXT: Items/53/description/
 [Gift] Increases contract chance a lot. A bouquet of flowers that fascinates women.
 > END STRING
 
 > BEGIN STRING
 夢中の物語
-> CONTEXT: Items/69/name/ < UNTRANSLATED
+> CONTEXT: Items/69/name/
 Dazing Tale
 > END STRING
 
 > BEGIN STRING
 夢魔の一人称を変更する。
-> CONTEXT: Items/69/description/ < UNTRANSLATED
+> CONTEXT: Items/69/description/
 Change a succubus' 1st person pronoun.
 > END STRING
 
@@ -351,7 +351,7 @@ Change a succubus' 1st person pronoun.
 
 > BEGIN STRING
 ホームへ戻る。
-> CONTEXT: Items/71/description/ < UNTRANSLATED
+> CONTEXT: Items/71/description/
 Return Home.
 > END STRING
 
@@ -369,37 +369,37 @@ Return Home.
 
 > BEGIN STRING
 粗末な食材
-> CONTEXT: Items/151/name/ < UNTRANSLATED
+> CONTEXT: Items/151/name/
 Poor ingredients
 > END STRING
 
 > BEGIN STRING
 [材] お粗末な食材。調理すればマシになる。
-> CONTEXT: Items/151/description/ < UNTRANSLATED
+> CONTEXT: Items/151/description/
 [Ing.] Poor ingredients. Better cooked.
 > END STRING
 
 > BEGIN STRING
 普通の食材
-> CONTEXT: Items/152/name/ < UNTRANSLATED
+> CONTEXT: Items/152/name/
 Ordinary ingredients
 > END STRING
 
 > BEGIN STRING
 [材] 普通の食材。調理すればそこそこ良くはなる。
-> CONTEXT: Items/152/description/ < UNTRANSLATED
+> CONTEXT: Items/152/description/
 [Ing.] Ordinary ingredients. Better cooked.
 > END STRING
 
 > BEGIN STRING
 最高の食材
-> CONTEXT: Items/153/name/ < UNTRANSLATED
+> CONTEXT: Items/153/name/
 Best ingredients
 > END STRING
 
 > BEGIN STRING
 [材] 最高の食材。調理すればその味は引き出される。
-> CONTEXT: Items/153/description/ < UNTRANSLATED
+> CONTEXT: Items/153/description/
 [Ing.] Best ingredients. Cooking brings out the flavor.
 > END STRING
 
@@ -411,113 +411,113 @@ Best ingredients
 
 > BEGIN STRING
 マイルドハニー
-> CONTEXT: Items/161/name/ < UNTRANSLATED
-> CONTEXT: Items/210/name/ < UNTRANSLATED
+> CONTEXT: Items/161/name/
+> CONTEXT: Items/210/name/
 Mild honey
 > END STRING
 
 > BEGIN STRING
 [添] 蜜蜂の作る蜜。料理に入れると味がマイルドになる。
-> CONTEXT: Items/161/description/ < UNTRANSLATED
-> CONTEXT: Items/210/description/ < UNTRANSLATED
+> CONTEXT: Items/161/description/
+> CONTEXT: Items/210/description/
 [Topping] Honey made by bees. Mild flavor when mixed in foods.
 > END STRING
 
 > BEGIN STRING
 発熱ジンジャー
-> CONTEXT: Items/162/name/ < UNTRANSLATED
+> CONTEXT: Items/162/name/
 Strong ginger
 > END STRING
 
 > BEGIN STRING
 [添] 体を内側から温めるジンジャー。風邪に効く。
-> CONTEXT: Items/162/description/ < UNTRANSLATED
+> CONTEXT: Items/162/description/
 [Topping] Warms body from within. Effective against colds.
 > END STRING
 
 > BEGIN STRING
 鮮やかな苺
-> CONTEXT: Items/163/name/ < UNTRANSLATED
+> CONTEXT: Items/163/name/
 Vibrant strawberries
 > END STRING
 
 > BEGIN STRING
 [添] 鮮やかな苺。このまま食べるより料理の飾り付けにしたい。
-> CONTEXT: Items/163/description/ < UNTRANSLATED
+> CONTEXT: Items/163/description/
 [Topping] Vibrant strawberries. Better as a topping.
 > END STRING
 
 > BEGIN STRING
 渋いクルミ
-> CONTEXT: Items/164/name/ < UNTRANSLATED
+> CONTEXT: Items/164/name/
 Bitter walnut
 > END STRING
 
 > BEGIN STRING
 [添] そのまま食べるには渋すぎるクルミ。
-> CONTEXT: Items/164/description/ < UNTRANSLATED
+> CONTEXT: Items/164/description/
 [Topping] Too bitter to eat as is.
 > END STRING
 
 > BEGIN STRING
 スパイシーペッパー
-> CONTEXT: Items/165/name/ < UNTRANSLATED
+> CONTEXT: Items/165/name/
 Spicy pepper
 > END STRING
 
 > BEGIN STRING
 [添] ピリっとくる辛さの黒胡椒。
-> CONTEXT: Items/165/description/ < UNTRANSLATED
+> CONTEXT: Items/165/description/
 [Topping] Spicy black pepper.
 > END STRING
 
 > BEGIN STRING
 スイートマロン
-> CONTEXT: Items/166/name/ < UNTRANSLATED
+> CONTEXT: Items/166/name/
 Sweet chestnut
 > END STRING
 
 > BEGIN STRING
 [添] 甘みのある栗の実なのだが、剥くのが少々手間。
-> CONTEXT: Items/166/description/ < UNTRANSLATED
+> CONTEXT: Items/166/description/
 [Topping] Sweet taste, but peeling them is tough.
 > END STRING
 
 > BEGIN STRING
 爽やかなレモン
-> CONTEXT: Items/167/name/ < UNTRANSLATED
+> CONTEXT: Items/167/name/
 Fresh lemon
 > END STRING
 
 > BEGIN STRING
 [添] フレッシュな酸味がほとばしる瑞々しいレモン。
-> CONTEXT: Items/167/description/ < UNTRANSLATED
+> CONTEXT: Items/167/description/
 [Topping] Juicy lemon with a burst of fresh sourness.
 > END STRING
 
 > BEGIN STRING
 ビターナッツ
-> CONTEXT: Items/168/name/ < UNTRANSLATED
+> CONTEXT: Items/168/name/
 Bitter nuts
 > END STRING
 
 > BEGIN STRING
 [添] 頭の冴える苦目なナッツ。魔女の徹夜のお供。
-> CONTEXT: Items/168/description/ < UNTRANSLATED
+> CONTEXT: Items/168/description/
 [Topping] A bitter nut with a clear tip. Witch's companion.
 > END STRING
 
 > BEGIN STRING
 禍々しい根っこ
-> CONTEXT: Items/169/name/ < UNTRANSLATED
-> CONTEXT: Items/214/name/ < UNTRANSLATED
+> CONTEXT: Items/169/name/
+> CONTEXT: Items/214/name/
 Ominous roots
 > END STRING
 
 > BEGIN STRING
 [添] 生命力溢れる根っこ。魔女の釜の常連。
-> CONTEXT: Items/169/description/ < UNTRANSLATED
-> CONTEXT: Items/214/description/ < UNTRANSLATED
+> CONTEXT: Items/169/description/
+> CONTEXT: Items/214/description/
 [Topping] Roots full of vitality. Common in witch's cauldron.
 > END STRING
 
@@ -529,49 +529,49 @@ Ominous roots
 
 > BEGIN STRING
 魔女の鍵
-> CONTEXT: Items/181/name/ < UNTRANSLATED
+> CONTEXT: Items/181/name/
 Witch's key
 > END STRING
 
 > BEGIN STRING
 パルフィスの魔女たちが使用する鍵。
-> CONTEXT: Items/181/description/ < UNTRANSLATED
+> CONTEXT: Items/181/description/
 A key used by the witches of Palfis.
 > END STRING
 
 > BEGIN STRING
 赫唐辛子
-> CONTEXT: Items/182/name/ < UNTRANSLATED
+> CONTEXT: Items/182/name/
 Red chili pepper
 > END STRING
 
 > BEGIN STRING
 炎のような辛さが味わえる赤々とした唐辛子。人間用ではない。
-> CONTEXT: Items/182/description/ < UNTRANSLATED
+> CONTEXT: Items/182/description/
 Red chili peppers with a fiery spiciness. Not for humans.
 > END STRING
 
 > BEGIN STRING
 回廊の鍵
-> CONTEXT: Items/183/name/ < UNTRANSLATED
+> CONTEXT: Items/183/name/
 Corridor key
 > END STRING
 
 > BEGIN STRING
 パルフィス密教会の回廊の鍵。
-> CONTEXT: Items/183/description/ < UNTRANSLATED
+> CONTEXT: Items/183/description/
 The key to the cloister of the Palfis Secret Church.
 > END STRING
 
 > BEGIN STRING
 忘却の古印
-> CONTEXT: Items/199/name/ < UNTRANSLATED
+> CONTEXT: Items/199/name/
 Oblivion of old symbol
 > END STRING
 
 > BEGIN STRING
 記憶の一部を封じる旧式のルーン。破棄が困難で、安易に使えるものではない。
-> CONTEXT: Items/199/description/ < UNTRANSLATED
+> CONTEXT: Items/199/description/
 An old-fashioned rune that seals away part of one's memories. Difficult dispose and to use.
 > END STRING
 
@@ -583,55 +583,55 @@ An old-fashioned rune that seals away part of one's memories. Difficult dispose 
 
 > BEGIN STRING
 白い羽
-> CONTEXT: Items/201/name/ < UNTRANSLATED
+> CONTEXT: Items/201/name/
 White feather
 > END STRING
 
 > BEGIN STRING
 鳥から抜け落ちたであろう白い羽。
-> CONTEXT: Items/201/description/ < UNTRANSLATED
+> CONTEXT: Items/201/description/
 A white feather that must have fallen off a bird.
 > END STRING
 
 > BEGIN STRING
 大葉
-> CONTEXT: Items/202/name/ < UNTRANSLATED
+> CONTEXT: Items/202/name/
 Perilla
 > END STRING
 
 > BEGIN STRING
 それなりに大きい葉っぱ。
-> CONTEXT: Items/202/description/ < UNTRANSLATED
+> CONTEXT: Items/202/description/
 Fairly large leaves.
 > END STRING
 
 > BEGIN STRING
 毒林檎
-> CONTEXT: Items/203/name/ < UNTRANSLATED
+> CONTEXT: Items/203/name/
 Poison apple
 > END STRING
 
 > BEGIN STRING
 多分。
-> CONTEXT: Items/203/description/ < UNTRANSLATED
+> CONTEXT: Items/203/description/
 Perhaps.
 > END STRING
 
 > BEGIN STRING
 質のいい岩石
-> CONTEXT: Items/205/name/ < UNTRANSLATED
+> CONTEXT: Items/205/name/
 Quality rock
 > END STRING
 
 > BEGIN STRING
 良い感じに塊として採取できた岩石。
-> CONTEXT: Items/205/description/ < UNTRANSLATED
+> CONTEXT: Items/205/description/
 Rocks that were collected in nice chunks.
 > END STRING
 
 > BEGIN STRING
 骨
-> CONTEXT: Items/206/name/ < UNTRANSLATED
+> CONTEXT: Items/206/name/
 Bone
 > END STRING
 
@@ -643,385 +643,385 @@ Bone
 
 > BEGIN STRING
 石英
-> CONTEXT: Items/207/name/ < UNTRANSLATED
+> CONTEXT: Items/207/name/
 Fairly thick. Unknown origin.
 > END STRING
 
 > BEGIN STRING
 綺麗な石英。
-> CONTEXT: Items/207/description/ < UNTRANSLATED
+> CONTEXT: Items/207/description/
 Beautiful quartz.
 > END STRING
 
 > BEGIN STRING
 彩色石英
-> CONTEXT: Items/208/name/ < UNTRANSLATED
+> CONTEXT: Items/208/name/
 Colored quartz
 > END STRING
 
 > BEGIN STRING
 色鮮やかな石英。
-> CONTEXT: Items/208/description/ < UNTRANSLATED
+> CONTEXT: Items/208/description/
 Brightly colored quartz.
 > END STRING
 
 > BEGIN STRING
 ヘルペッパー
-> CONTEXT: Items/211/name/ < UNTRANSLATED
+> CONTEXT: Items/211/name/
 Hell Pepper
 > END STRING
 
 > BEGIN STRING
 地獄のような辛さが味わえる香辛料。人間用ではない。
-> CONTEXT: Items/211/description/ < UNTRANSLATED
+> CONTEXT: Items/211/description/
 A hellish spice. Not for humans.
 > END STRING
 
 > BEGIN STRING
 青い羽
-> CONTEXT: Items/213/name/ < UNTRANSLATED
+> CONTEXT: Items/213/name/
 Blue feather
 > END STRING
 
 > BEGIN STRING
 鳥から採取したであろう青い羽。
-> CONTEXT: Items/213/description/ < UNTRANSLATED
+> CONTEXT: Items/213/description/
 Probably collected from a bird.
 > END STRING
 
 > BEGIN STRING
 魔法石
-> CONTEXT: Items/215/name/ < UNTRANSLATED
+> CONTEXT: Items/215/name/
 Magic stone
 > END STRING
 
 > BEGIN STRING
 魔力を湧出する石。杖のような魔道具に使用される。
-> CONTEXT: Items/215/description/ < UNTRANSLATED
+> CONTEXT: Items/215/description/
 Emits magical power. Used in magical tools like wands.
 > END STRING
 
 > BEGIN STRING
 蜘蛛の糸
-> CONTEXT: Items/217/name/ < UNTRANSLATED
+> CONTEXT: Items/217/name/
 Spider thread
 > END STRING
 
 > BEGIN STRING
 丈夫な蜘蛛の糸。
-> CONTEXT: Items/217/description/ < UNTRANSLATED
+> CONTEXT: Items/217/description/
 Strong spider silk.
 > END STRING
 
 > BEGIN STRING
 錆びた手斧
-> CONTEXT: Items/218/name/ < UNTRANSLATED
+> CONTEXT: Items/218/name/
 Rusty hatchet
 > END STRING
 
 > BEGIN STRING
 手入れされておらず錆びてしまった手斧。切れ味にはもう期待できない。
-> CONTEXT: Items/218/description/ < UNTRANSLATED
+> CONTEXT: Items/218/description/
 It has not been taken care of. Rusty and blunt.
 > END STRING
 
 > BEGIN STRING
 真紅の石
-> CONTEXT: Items/219/name/ < UNTRANSLATED
+> CONTEXT: Items/219/name/
 Crimson stone
 > END STRING
 
 > BEGIN STRING
 赤色の顔料に使われる石。
-> CONTEXT: Items/219/description/ < UNTRANSLATED
+> CONTEXT: Items/219/description/
 A stone used for red pigment.
 > END STRING
 
 > BEGIN STRING
 不発ダイナマイト
-> CONTEXT: Items/220/name/ < UNTRANSLATED
+> CONTEXT: Items/220/name/
 Defective dynamite
 > END STRING
 
 > BEGIN STRING
 火は着くのだが爆発しないダイナマイト。
-> CONTEXT: Items/220/description/ < UNTRANSLATED
+> CONTEXT: Items/220/description/
 Dynamite that won't explode even if lit.
 > END STRING
 
 > BEGIN STRING
 溶岩エビ
-> CONTEXT: Items/222/name/ < UNTRANSLATED
+> CONTEXT: Items/222/name/
 Lava shrimp
 > END STRING
 
 > BEGIN STRING
 溶岩に住むエビ。かなり小さくとても苦くて辛いため、食用としては微妙。
-> CONTEXT: Items/222/description/ < UNTRANSLATED
+> CONTEXT: Items/222/description/
 Lives in lava. Small, very bitter and spicy. Not edible.
 > END STRING
 
 > BEGIN STRING
 凶悪な頭蓋骨
-> CONTEXT: Items/223/name/ < UNTRANSLATED
+> CONTEXT: Items/223/name/
 Evil skull
 > END STRING
 
 > BEGIN STRING
 生前はさぞかし凶悪人だったのだろう。
-> CONTEXT: Items/223/description/ < UNTRANSLATED
+> CONTEXT: Items/223/description/
 Must have been a very violent person while alive.
 > END STRING
 
 > BEGIN STRING
 精神焦がし
-> CONTEXT: Items/224/name/ < UNTRANSLATED
+> CONTEXT: Items/224/name/
 Burning Soul
 > END STRING
 
 > BEGIN STRING
 この火で焼かれると思考が焼け焦げると言われる地獄の炎。
-> CONTEXT: Items/224/description/ < UNTRANSLATED
+> CONTEXT: Items/224/description/
 The flames of hell are said to scorch your thoughts.
 > END STRING
 
 > BEGIN STRING
 プチ悪魔
-> CONTEXT: Items/225/name/ < UNTRANSLATED
+> CONTEXT: Items/225/name/
 Petite Devil
 > END STRING
 
 > BEGIN STRING
 採取程度で入手できるほど弱小な悪魔。
-> CONTEXT: Items/225/description/ < UNTRANSLATED
+> CONTEXT: Items/225/description/
 A demon so weak it can be obtained by harvesting.
 > END STRING
 
 > BEGIN STRING
 捨てられた思い出
-> CONTEXT: Items/226/name/ < UNTRANSLATED
+> CONTEXT: Items/226/name/
 Discarded memories
 > END STRING
 
 > BEGIN STRING
 人が捨てたと思っていても、それはどこかでずっと残るものである。
-> CONTEXT: Items/226/description/ < UNTRANSLATED
+> CONTEXT: Items/226/description/
 Even if you threw something away, it remains somewhere.
 > END STRING
 
 > BEGIN STRING
 樹海ローズマリー
-> CONTEXT: Items/228/name/ < UNTRANSLATED
+> CONTEXT: Items/228/name/
 Jukai rosemary
 > END STRING
 
 > BEGIN STRING
 薬用に使われる樹海産のハーブ。普通のものとは違い非食用。
-> CONTEXT: Items/228/description/ < UNTRANSLATED
+> CONTEXT: Items/228/description/
 A medical herb grown in the forest. Inedible.
 > END STRING
 
 > BEGIN STRING
 彷徨える亡霊
-> CONTEXT: Items/229/name/ < UNTRANSLATED
+> CONTEXT: Items/229/name/
 Wandering ghost
 > END STRING
 
 > BEGIN STRING
 採取中にまとわりついた亡霊。害は無い。
-> CONTEXT: Items/229/description/ < UNTRANSLATED
+> CONTEXT: Items/229/description/
 A ghost that clung to me while harvesting. Harmless.
 > END STRING
 
 > BEGIN STRING
 冒険者の装備
-> CONTEXT: Items/230/name/ < UNTRANSLATED
+> CONTEXT: Items/230/name/
 Adventurer's gear
 > END STRING
 
 > BEGIN STRING
 片方だけしかない篭手。どのみち夢魔相手では不器用になるだけである。
-> CONTEXT: Items/230/description/ < UNTRANSLATED
+> CONTEXT: Items/230/description/
 A singular gauntlet. Clumsy against succubi.
 > END STRING
 
 > BEGIN STRING
 ひよこの餌
-> CONTEXT: Items/231/name/ < UNTRANSLATED
+> CONTEXT: Items/231/name/
 Chick food
 > END STRING
 
 > BEGIN STRING
 カブト虫。本来はもっとすごいものが好まれる。
-> CONTEXT: Items/231/description/ < UNTRANSLATED
+> CONTEXT: Items/231/description/
 Beetle. Normally, a greater one would be preferred.
 > END STRING
 
 > BEGIN STRING
 星の砂
-> CONTEXT: Items/233/name/ < UNTRANSLATED
+> CONTEXT: Items/233/name/
 Starsand
 > END STRING
 
 > BEGIN STRING
 星形の砂。
-> CONTEXT: Items/233/description/ < UNTRANSLATED
+> CONTEXT: Items/233/description/
 Star-shaped sand.
 > END STRING
 
 > BEGIN STRING
 安物の杖
-> CONTEXT: Items/234/name/ < UNTRANSLATED
+> CONTEXT: Items/234/name/
 Cheap cane
 > END STRING
 
 > BEGIN STRING
 廃棄物らしいので持って行って構わないだろう。
-> CONTEXT: Items/234/description/ < UNTRANSLATED
+> CONTEXT: Items/234/description/
 Looks like thrash, so it's good to take with you.
 > END STRING
 
 > BEGIN STRING
 魔獣の心臓
-> CONTEXT: Items/235/name/ < UNTRANSLATED
+> CONTEXT: Items/235/name/
 Devil's heart
 > END STRING
 
 > BEGIN STRING
 今にも動き出しそうな、迫力のある心臓。
-> CONTEXT: Items/235/description/ < UNTRANSLATED
+> CONTEXT: Items/235/description/
 A powerful heart that could start moving at any moment.
 > END STRING
 
 > BEGIN STRING
 魔力片
-> CONTEXT: Items/236/name/ < UNTRANSLATED
+> CONTEXT: Items/236/name/
 Magic piece
 > END STRING
 
 > BEGIN STRING
 魔力を大量に湧出する破片。大型の魔法機などに使われる。
-> CONTEXT: Items/236/description/ < UNTRANSLATED
+> CONTEXT: Items/236/description/
 Emits strong magic. Used for large machines.
 > END STRING
 
 > BEGIN STRING
 破滅の元
-> CONTEXT: Items/237/name/ < UNTRANSLATED
+> CONTEXT: Items/237/name/
 Source of ruin
 > END STRING
 
 > BEGIN STRING
 危険なもの。
-> CONTEXT: Items/237/description/ < UNTRANSLATED
+> CONTEXT: Items/237/description/
 Something dangerous.
 > END STRING
 
 > BEGIN STRING
 壊れた罠
-> CONTEXT: Items/239/name/ < UNTRANSLATED
+> CONTEXT: Items/239/name/
 Broken trap
 > END STRING
 
 > BEGIN STRING
 もう使いものにならない罠。
-> CONTEXT: Items/239/description/ < UNTRANSLATED
+> CONTEXT: Items/239/description/
 A trap that is no longer useful
 > END STRING
 
 > BEGIN STRING
 丈夫な荒縄
-> CONTEXT: Items/240/name/ < UNTRANSLATED
+> CONTEXT: Items/240/name/
 Durable rope
 > END STRING
 
 > BEGIN STRING
 人1人を吊り上げても千切れなさそうな荒縄。
-> CONTEXT: Items/240/description/ < UNTRANSLATED
+> CONTEXT: Items/240/description/
 Rough rope could carry a person.
 > END STRING
 
 > BEGIN STRING
 夢色香水
-> CONTEXT: Items/241/name/ < UNTRANSLATED
+> CONTEXT: Items/241/name/
 Dream perfume
 > END STRING
 
 > BEGIN STRING
 思考が混濁してしまう、不思議な色の香水。
-> CONTEXT: Items/241/description/ < UNTRANSLATED
+> CONTEXT: Items/241/description/
 Mysteriously colored. Clouds your thoughts.
 > END STRING
 
 > BEGIN STRING
 強そうな武器
-> CONTEXT: Items/242/name/ < UNTRANSLATED
+> CONTEXT: Items/242/name/
 Powerful weapon
 > END STRING
 
 > BEGIN STRING
 名の知れた剣士の相棒だっただろう武器。夢魔相手じゃ無用の長物。
-> CONTEXT: Items/242/description/ < UNTRANSLATED
+> CONTEXT: Items/242/description/
 Companion of a famous swordsman. Useless against succubi.
 > END STRING
 
 > BEGIN STRING
 サキュバスの服
-> CONTEXT: Items/243/name/ < UNTRANSLATED
+> CONTEXT: Items/243/name/
 Succubus' clothes
 > END STRING
 
 > BEGIN STRING
 夢魔の脱ぎ捨てた際どい意匠の服。
-> CONTEXT: Items/243/description/ < UNTRANSLATED
+> CONTEXT: Items/243/description/
 Risqué clothes taken off by a succubus.
 > END STRING
 
 > BEGIN STRING
 小さな隣人
-> CONTEXT: Items/245/name/ < UNTRANSLATED
+> CONTEXT: Items/245/name/
 Little neighbor
 > END STRING
 
 > BEGIN STRING
 どうやら迷子になっている妖精。
-> CONTEXT: Items/245/description/ < UNTRANSLATED
+> CONTEXT: Items/245/description/
 Apparently a lost fairy.
 > END STRING
 
 > BEGIN STRING
 夢魔の像
-> CONTEXT: Items/296/name/ < UNTRANSLATED
+> CONTEXT: Items/296/name/
 Succubus statue
 > END STRING
 
 > BEGIN STRING
 教会に保管されているには扇情的すぎる夢魔の像。
-> CONTEXT: Items/296/description/ < UNTRANSLATED
+> CONTEXT: Items/296/description/
 Too sensational to be kept in a church.
 > END STRING
 
 > BEGIN STRING
 天使の像
-> CONTEXT: Items/297/name/ < UNTRANSLATED
+> CONTEXT: Items/297/name/
 Angle statue
 > END STRING
 
 > BEGIN STRING
 教会に祀られた天使の像。足元が欠けており、置くと少し傾く。
-> CONTEXT: Items/297/description/ < UNTRANSLATED
+> CONTEXT: Items/297/description/
 One foot is missing so it tilts a little when placed.
 > END STRING
 
 > BEGIN STRING
 ラプソディアコイン
-> CONTEXT: Items/298/name/ < UNTRANSLATED
+> CONTEXT: Items/298/name/
 Rhapsodia coin
 > END STRING
 
 > BEGIN STRING
 夢世界の記念硬貨。
-> CONTEXT: Items/298/description/ < UNTRANSLATED
+> CONTEXT: Items/298/description/
 Dream world commemorative coin.
 > END STRING
 
@@ -1033,168 +1033,168 @@ Dream world commemorative coin.
 
 > BEGIN STRING
 真夜の華
-> CONTEXT: Items/301/name/ < UNTRANSLATED
+> CONTEXT: Items/301/name/
 Midnight flower
 > END STRING
 
 > BEGIN STRING
 夢魔の好む、闇夜に映える妖艶な紫色の華。
-> CONTEXT: Items/301/description/ < UNTRANSLATED
+> CONTEXT: Items/301/description/
 Shines purple in the dark night, favored by succubi.
 > END STRING
 
 > BEGIN STRING
 魔獣の牙
-> CONTEXT: Items/302/name/ < UNTRANSLATED
+> CONTEXT: Items/302/name/
 Devil's fang
 > END STRING
 
 > BEGIN STRING
 悪魔の持つ装飾品に使われる、凶暴そうな獣の牙。
-> CONTEXT: Items/302/description/ < UNTRANSLATED
+> CONTEXT: Items/302/description/
 Ferocious beast's fang used as a devil's ornament.
 > END STRING
 
 > BEGIN STRING
 見知った銀貨
-> CONTEXT: Items/303/name/ < UNTRANSLATED
+> CONTEXT: Items/303/name/
 Silver coin
 > END STRING
 
 > BEGIN STRING
 現実世界で使われる銀貨。夢世界では価値がない。
-> CONTEXT: Items/303/description/ < UNTRANSLATED
+> CONTEXT: Items/303/description/
 Famliar looking coin. Worthless in the dream world.
 > END STRING
 
 > BEGIN STRING
 恐怖溜まり
-> CONTEXT: Items/304/name/ < UNTRANSLATED
+> CONTEXT: Items/304/name/
 Pile of fears
 > END STRING
 
 > BEGIN STRING
 ナイトメアの集めた恐怖心が溜まったもの。
-> CONTEXT: Items/304/description/ < UNTRANSLATED
+> CONTEXT: Items/304/description/
 A collection of Nightmare's collected fears.
 > END STRING
 
 > BEGIN STRING
 ぷるぷるした粘液
-> CONTEXT: Items/305/name/ < UNTRANSLATED
+> CONTEXT: Items/305/name/
 Jiggly mucus
 > END STRING
 
 > BEGIN STRING
 スライムの一部であった流動体の液体。
-> CONTEXT: Items/305/description/ < UNTRANSLATED
+> CONTEXT: Items/305/description/
 Liquid that was part of a slime.
 > END STRING
 
 > BEGIN STRING
 怪しい調合液
-> CONTEXT: Items/306/name/ < UNTRANSLATED
+> CONTEXT: Items/306/name/
 Odd concoction
 > END STRING
 
 > BEGIN STRING
 魔女の作った試験品。時々派手な音を立てて泡立つ。
-> CONTEXT: Items/306/description/ < UNTRANSLATED
+> CONTEXT: Items/306/description/
 A witch's test product. Sometimes bubbles audibly.
 > END STRING
 
 > BEGIN STRING
 使い魔の箒
-> CONTEXT: Items/307/name/ < UNTRANSLATED
+> CONTEXT: Items/307/name/
 Familiar broom
 > END STRING
 
 > BEGIN STRING
 空を飛ぶものではなく、掃除をするためのもの。
-> CONTEXT: Items/307/description/ < UNTRANSLATED
+> CONTEXT: Items/307/description/
 Not for flying, but for cleaning.
 > END STRING
 
 > BEGIN STRING
 肉球スタンプ
-> CONTEXT: Items/308/name/ < UNTRANSLATED
+> CONTEXT: Items/308/name/
 Paw stamp
 > END STRING
 
 > BEGIN STRING
 押すとぷにっとした手応えがある。
-> CONTEXT: Items/308/description/ < UNTRANSLATED
+> CONTEXT: Items/308/description/
 There is a firm feel when you press it.
 > END STRING
 
 > BEGIN STRING
 獣の角
-> CONTEXT: Items/309/name/ < UNTRANSLATED
+> CONTEXT: Items/309/name/
 Beast horn
 > END STRING
 
 > BEGIN STRING
 ゴブリンが仕留めた獣の角。それなりに重い。
-> CONTEXT: Items/309/description/ < UNTRANSLATED
+> CONTEXT: Items/309/description/
 Killed by a goblin. It's quite heavy.
 > END STRING
 
 > BEGIN STRING
 ダイヤモンド
-> CONTEXT: Items/310/name/ < UNTRANSLATED
+> CONTEXT: Items/310/name/
 Diamond
 > END STRING
 
 > BEGIN STRING
 光が内部で幾つも反射しあい、様々な輝きを見せる美しい宝石。
-> CONTEXT: Items/310/description/ < UNTRANSLATED
+> CONTEXT: Items/310/description/
 Reflects light and sparkles in many ways.
 > END STRING
 
 > BEGIN STRING
 石像の鱗
-> CONTEXT: Items/311/name/ < UNTRANSLATED
+> CONTEXT: Items/311/name/
 Stone scales
 > END STRING
 
 > BEGIN STRING
 石像から剥がれたとても固い鱗。
-> CONTEXT: Items/311/description/ < UNTRANSLATED
+> CONTEXT: Items/311/description/
 Very hard scales that came off a stone statue.
 > END STRING
 
 > BEGIN STRING
 金の粘液
-> CONTEXT: Items/312/name/ < UNTRANSLATED
+> CONTEXT: Items/312/name/
 Gold slime
 > END STRING
 
 > BEGIN STRING
 ゴールドスライムの一部であった流動体の金の液体。
-> CONTEXT: Items/312/description/ < UNTRANSLATED
+> CONTEXT: Items/312/description/
 Gold liquid that was part of a gold slime.
 > END STRING
 
 > BEGIN STRING
 雅の扇
-> CONTEXT: Items/313/name/ < UNTRANSLATED
+> CONTEXT: Items/313/name/
 Elegant fan
 > END STRING
 
 > BEGIN STRING
 見たことがない異国情緒を思わせる扇。
-> CONTEXT: Items/313/description/ < UNTRANSLATED
+> CONTEXT: Items/313/description/
 An unprecedented fan that evokes an exotic feeling.
 > END STRING
 
 > BEGIN STRING
 小さな悪魔像
-> CONTEXT: Items/314/name/ < UNTRANSLATED
+> CONTEXT: Items/314/name/
 Devil statue
 > END STRING
 
 > BEGIN STRING
 手のひらサイズの小さな悪魔像。力を持っているが、弱々しい。
-> CONTEXT: Items/314/description/ < UNTRANSLATED
+> CONTEXT: Items/314/description/
 A small palm-sized devil statue. Strong but weak.
 > END STRING
