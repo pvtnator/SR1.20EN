@@ -710,7 +710,7 @@ Crotch
 > BEGIN STRING
 [手/口→♀] アソコを攻める。[相手着衣↓][追加：潤滑アップ]
 > CONTEXT: Skills/84/description/
-[Hand/Mouth→♀] Attack the genitals. [Opponent's clothes↓][Added: increased lubrication]
+[Hand/Mouth→♀] Attack genitals. [Opponent's clothes↓][Increases lubrication]
 > END STRING
 
 > BEGIN STRING
@@ -1115,7 +1115,7 @@ Nerine Bloom
 > BEGIN STRING
 [魔法] 味方１人の忍耐を強める。
 > CONTEXT: Skills/175/description/
-[Magic] Increases the patience of one ally.
+[Magic] Increases the endurance of one ally.
 > END STRING
 
 > BEGIN STRING
@@ -1127,7 +1127,7 @@ Nerine Bloom: Aldar
 > BEGIN STRING
 [魔法] 味方全員の忍耐を強める。
 > CONTEXT: Skills/176/description/
-[Magic] Increases the patience of all allies.
+[Magic] Increases the endurance of all allies.
 > END STRING
 
 > BEGIN STRING
@@ -1140,7 +1140,7 @@ Nerine Iiza
 > BEGIN STRING
 [魔法] 敵１人の忍耐を弱める。
 > CONTEXT: Skills/177/description/
-[Magic] Weakens the patience of one opponent.
+[Magic] Weakens the endurance of one opponent.
 > END STRING
 
 > BEGIN STRING
@@ -1152,7 +1152,7 @@ Nerine Iiza: Aldar
 > BEGIN STRING
 [魔法] 敵全員の忍耐を弱める。
 > CONTEXT: Skills/178/description/
-[Magic] Weakens the patience of all opponents.
+[Magic] Weakens the endurance of all opponents.
 > END STRING
 
 > BEGIN STRING
@@ -3833,8 +3833,8 @@ A張型で攻める。相手が[尻張型]時のみ使用可能
 
 > BEGIN STRING
 激励
-> CONTEXT: Skills/588/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/588/name/
+Cheer
 > END STRING
 
 > BEGIN STRING
@@ -4087,8 +4087,8 @@ A張型で攻める。相手が[尻張型]時のみ使用可能
 
 > BEGIN STRING
 激励を受ける
-> CONTEXT: Skills/631/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/631/name/
+Receive cheer
 > END STRING
 
 > BEGIN STRING
