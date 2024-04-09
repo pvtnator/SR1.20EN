@@ -7188,7 +7188,7 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "アナタ"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/747:32 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/747:32
 "You"
 > END STRING
 
@@ -7310,13 +7310,13 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "我"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1066:30 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1066:30
 "I"
 > END STRING
 
 > BEGIN STRING
 "貴様"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1067:30 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1067:30
 "You"
 > END STRING
 
@@ -7469,7 +7469,7 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "空白地"
-> CONTEXT: Scripts/Game_Map/154:16 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Map/154:16
 "Blank space"
 > END STRING
 
@@ -7481,91 +7481,91 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "拠点"
-> CONTEXT: Scripts/Game_Map/163:17 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Map/163:17
 "Base"
 > END STRING
 
 > BEGIN STRING
 "ポート空間"
-> CONTEXT: Scripts/Game_Map/164:17 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Map/164:17
 "Port space"
 > END STRING
 
 > BEGIN STRING
 "酒場"
-> CONTEXT: Scripts/Game_Map/165:17 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Map/165:17
 "Tavern"
 > END STRING
 
 > BEGIN STRING
 "混濁した夢世界"
-> CONTEXT: Scripts/Game_Map/166:17 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Map/166:17
 "Cloudy dream world"
 > END STRING
 
 > BEGIN STRING
 "体験版教会"
-> CONTEXT: Scripts/Game_Map/167:17 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Map/167:17
 "Trial Church"
 > END STRING
 
 > BEGIN STRING
 "浅き夢の瀬"
-> CONTEXT: Scripts/Game_Map/168:17 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Map/168:17
 "Shallow Dream Waters"
 > END STRING
 
 > BEGIN STRING
 "月明かりの樹海"
-> CONTEXT: Scripts/Game_Map/169:17 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Map/169:17
 "Moonlit Sea of Trees"
 > END STRING
 
 > BEGIN STRING
 "魔城トゥーロマンサ"
-> CONTEXT: Scripts/Game_Map/170:17 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Map/170:17
 "Magical Castle Too Romanca"
 > END STRING
 
 > BEGIN STRING
 "闇洞窟"
-> CONTEXT: Scripts/Game_Map/171:17 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Map/171:17
 "Dark Cave"
 > END STRING
 
 > BEGIN STRING
 "獄界オルデオ"
-> CONTEXT: Scripts/Game_Map/172:17 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Map/172:17
 "Hellworld Ordeo"
 > END STRING
 
 > BEGIN STRING
 "教会図書館"
-> CONTEXT: Scripts/Game_Map/173:17 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Map/173:17
 "Church Library"
 > END STRING
 
 > BEGIN STRING
 "パルフィス密教会"
-> CONTEXT: Scripts/Game_Map/174:17 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Map/174:17
 "Palfis Secret Church"
 > END STRING
 
 > BEGIN STRING
 "混濁したレンディカ"
-> CONTEXT: Scripts/Game_Map/175:17 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Map/175:17
 "Cloudy Rendica"
 > END STRING
 
 > BEGIN STRING
 "ラーミルテリトリー"
-> CONTEXT: Scripts/Game_Map/176:17 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Map/176:17
 "Ramil Territory"
 > END STRING
 
 > BEGIN STRING
 "シルフェ屋敷"
-> CONTEXT: Scripts/Game_Map/177:17 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Map/177:17
 "Silfe mansion"
 > END STRING
 
@@ -7605,60 +7605,60 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\#{$game_actors[101].name}の\\n移動速度が戻った！"
-> CONTEXT: Scripts/Game_Party/172:26 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Party/172:26
 "\#{$game_actors[101].name}'s\\nmovement returned!"
 > END STRING
 
 > BEGIN STRING
 "\#{$game_actors[101].name}の\\n運気が戻ってきた！"
-> CONTEXT: Scripts/Game_Party/180:26 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Party/180:26
 "\#{$game_actors[101].name}'s\\nluck is back!"
 > END STRING
 
 > BEGIN STRING
 "今は使えない"
-> CONTEXT: Scripts/Game_Party/288:24 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Party/300:22 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Party/288:24
+> CONTEXT: Scripts/Game_Party/300:22
 "Can't use it now"
 > END STRING
 
 > BEGIN STRING
 "このアイテムは使えない"
-> CONTEXT: Scripts/Game_Party/289:24 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Party/301:22 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Party/289:24
+> CONTEXT: Scripts/Game_Party/301:22
 "This item cannot be used"
 > END STRING
 
 > BEGIN STRING
 "このアイテムを使うだけの余裕が無い！"
-> CONTEXT: Scripts/Game_Party/290:34 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Party/290:34
 "Not enough money to use this item!"
 > END STRING
 
 > BEGIN STRING
 "このアイテムは使えない！"
-> CONTEXT: Scripts/Game_Party/291:34 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Party/303:32 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Party/291:34
+> CONTEXT: Scripts/Game_Party/303:32
 "This item cannot be used!"
 > END STRING
 
 > BEGIN STRING
 "風の翼"
-> CONTEXT: Scripts/Game_Party/295:37 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Party/295:37
 "Wind Wings"
 > END STRING
 
 > BEGIN STRING
 "今は使えない！"
-> CONTEXT: Scripts/Game_Party/296:34 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 3/355:36 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 3/496:36 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Party/296:34
+> CONTEXT: Scripts/Game_Battler 3/355:36
+> CONTEXT: Scripts/Game_Battler 3/496:36
 "Can't use it now!"
 > END STRING
 
 > BEGIN STRING
 "今使っても意味が無い！"
-> CONTEXT: Scripts/Game_Party/302:32 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Party/302:32
 "No point using it now!"
 > END STRING
 
@@ -7797,8 +7797,8 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\\w\\n\#{self.name}の空腹が収まった！"
-> CONTEXT: Scripts/Game_Actor/769:16 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Actor/769:16
+"\\w\\n\#{self.name}'s hunger is gone!"
 > END STRING
 
 > BEGIN STRING
@@ -9376,7 +9376,7 @@ the probability of receiving SS decreases."
 "品定め"
 > CONTEXT: Scripts/Game_Battler 4/656:24 < UNTRANSLATED
 > CONTEXT: Scripts/Scene_Battle 5/1281:14 < UNTRANSLATED
-
+"Appraisal"
 > END STRING
 
 > BEGIN STRING
@@ -11382,7 +11382,7 @@ the probability of receiving SS decreases."
 > BEGIN STRING
 /./
 > CONTEXT: Scripts/Window_BattleLog/123:29
-/[a-vA-V ][mwqyH]|[mwqyH][\\!\\?\\.\\,\\:\\;\\-\\']|./
+/[a-pA-Pr-vR-V ][mwqyH]|[mwqyH][\\!\\?\\.\\,\\:\\;\\-\\']|./
 > CONTEXT: Scripts/Window_Message/95:31 < UNTRANSLATED
 > CONTEXT: Scripts/Window_BattleBackLog/74:29 < UNTRANSLATED
 > CONTEXT: Scripts/Window_Cook_Cooking/145:29 < UNTRANSLATED
@@ -15293,13 +15293,13 @@ the probability of receiving SS decreases."
 > BEGIN STRING
 "は夢魔に先手を取られた！\\q"
 > CONTEXT: Scripts/Scene_Battle 2/118:64
-" first move taken!\\q"
+" got ambushed!\\q"
 > END STRING
 
 > BEGIN STRING
 "たちは夢魔に先手を取られた！\\q"
 > CONTEXT: Scripts/Scene_Battle 2/120:64
-" first move taken!\\q"
+" got ambushed!\\q"
 > END STRING
 
 > BEGIN STRING
@@ -17850,7 +17850,7 @@ Number of characters: \#{(x/14)-1}/26　Width: \#{4 + x}/\#{self.contents.width 
 > CONTEXT: Scripts/RPG::Skilltext/39:17
 > CONTEXT: Scripts/RPG::Skilltext/44:17
 > CONTEXT: Scripts/RPG::Skilltext/47:17
-" didn't work for \#{myname}!"
+"Didn't work on \#{myname}!"
 > END STRING
 
 > BEGIN STRING
@@ -18305,7 +18305,7 @@ revealing her voluptuous naked body!"
 > BEGIN STRING
 "\#{targetname}の視界いっぱいに、\\n\\m指で開かれた\#{myname}のアソコが映る！"
 > CONTEXT: Scripts/RPG::Skilltext/278:24
-"\#{targetname}'s view is \\n\\mfilled with \#{myname}'s pussy spread open by fingers!"
+"\#{targetname}'s view is \\n\\mfilled with \#{myname}'s pussy spread open!"
 > END STRING
 
 > BEGIN STRING
@@ -18583,7 +18583,7 @@ revealing her voluptuous naked body!"
 > BEGIN STRING
 "口で、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/484:32
-" caressed \\n\\m\#{targetname}'s \#{target.bustsize} \#{brk2}using mouth!"
+" caressed \\n\\m\#{targetname}'s \#{target.bustsize} \#{brk2}with mouth!"
 > END STRING
 
 > BEGIN STRING
@@ -18629,7 +18629,7 @@ revealing her voluptuous naked body!"
 > CONTEXT: Scripts/RPG::Skilltext/499:29
 > CONTEXT: Scripts/RPG::Skilltext/550:29
 > CONTEXT: Scripts/RPG::Skilltext/592:29
-" by fingers"
+" with fingers"
 > END STRING
 
 > BEGIN STRING
@@ -18709,7 +18709,7 @@ revealing her voluptuous naked body!"
 > CONTEXT: Scripts/RPG::Skilltext/513:31
 > CONTEXT: Scripts/RPG::Skilltext/559:31
 > CONTEXT: Scripts/RPG::Skilltext/601:31
-" rough caress"
+"rough caress"
 > END STRING
 
 > BEGIN STRING
@@ -19157,13 +19157,13 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "艶めかしく腰を"
 > CONTEXT: Scripts/RPG::Skilltext/637:31
-"Sexy waist"
+" sexy waist"
 > END STRING
 
 > BEGIN STRING
 "緩急付けて腰を"
 > CONTEXT: Scripts/RPG::Skilltext/639:31
-"Slow hip adjust"
+" adjust hips slowly"
 > END STRING
 
 > BEGIN STRING
@@ -21344,7 +21344,7 @@ hurriedly started fixing clothes..."
 > BEGIN STRING
 "\#{pantsu}に手を滑り込ませ、\\n\\m\#{targetname}のアソコを指で愛撫してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1324:30
-" slipped hand into \#{pantsu} \\n\\mand caressed \#{targetname}'s pussy by fingers!"
+" slipped hand into \#{pantsu} \\n\\mand caressed \#{targetname}'s pussy!"
 > END STRING
 
 > BEGIN STRING
@@ -21738,8 +21738,8 @@ hurriedly started fixing clothes..."
 
 > BEGIN STRING
 "\#{pantsu}の上から、\\n\\m\#{targetname}の股間にキスしてきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1489:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1489:30
+" kissed \#{targetname}'s\\n\\mcrotch from above \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
@@ -21830,7 +21830,7 @@ hurriedly started fixing clothes..."
 > BEGIN STRING
 "唇で、\\n\\m\#{targetname}の\#{target.bustsize}に\#{brk3}そっとキスしてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1536:30
-"Gently kissed \#{targetname}'s \#{target.bustsize}!"
+" gently kissed \#{targetname}'s \#{target.bustsize}!"
 > END STRING
 
 > BEGIN STRING
@@ -21862,7 +21862,7 @@ hurriedly started fixing clothes..."
 > BEGIN STRING
 "舌先で、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk3}舐めてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1543:30
-"Licked \\n\\m\#{targetname}'s \#{target.bustsize} with tip of tongue!"
+" licked \\n\\m\#{targetname}'s \#{target.bustsize} with tip of tongue!"
 > END STRING
 
 > BEGIN STRING
@@ -22880,7 +22880,7 @@ hurriedly started fixing clothes..."
 > BEGIN STRING
 "遅い"
 > CONTEXT: Scripts/Window_SystemLeft/108:68
-"Slow"
+" is slowly"
 > END STRING
 
 > BEGIN STRING
@@ -23660,7 +23660,7 @@ hurriedly started fixing clothes..."
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/616:24
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/624:24
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/656:21
-"Bold"
+"Bold "
 > END STRING
 
 > BEGIN STRING
@@ -23970,13 +23970,13 @@ hurriedly started fixing clothes..."
 > BEGIN STRING
 "\#{brk}\#{targetname}と脚を絡めあい、\\n\\mアソコ同士を押し当てた！"
 > CONTEXT: Scripts/RPG::Skilltext/2085:28 < UNTRANSLATED
-
+" and \#{brk}\#{targetname} intertwined legs\\n\\m, their pussies pressed against each other!"
 > END STRING
 
 > BEGIN STRING
 "\#{brk}\#{targetname}と脚を絡めあい、\\n\\mアソコ同士を擦り合わせた！"
 > CONTEXT: Scripts/RPG::Skilltext/2087:28 < UNTRANSLATED
-
+" and \#{brk}\#{targetname} intertwined legs and rubbed pussies together!"
 > END STRING
 
 > BEGIN STRING
@@ -23984,14 +23984,14 @@ hurriedly started fixing clothes..."
 > CONTEXT: Scripts/RPG::Skilltext/2089:24 < UNTRANSLATED
 > CONTEXT: Scripts/RPG::Skilltext/2098:24 < UNTRANSLATED
 > CONTEXT: Scripts/RPG::Skilltext/2107:24 < UNTRANSLATED
-
+" strongly"
 > END STRING
 
 > BEGIN STRING
 "\#{brk}\#{targetname}と脚を絡めあい、\\n\\mアソコ同士を\#{waist}擦り合わせた！"
 > CONTEXT: Scripts/RPG::Skilltext/2096:28 < UNTRANSLATED
 > CONTEXT: Scripts/RPG::Skilltext/2105:28 < UNTRANSLATED
-
+" \#{brk}and \#{targetname} intertwined legs \\n\\mand rubbed pussies together\#{waist}!"
 > END STRING
 
 > BEGIN STRING
@@ -25315,13 +25315,13 @@ and getting fired up."
 > BEGIN STRING
 "\\n\\m刺激を受けるたびに、アソコから愛蜜の水飛沫が上がる…！"
 > CONTEXT: Scripts/RPG::Skilltext/2669:21
-"\\n\\mOn every stimulation, a love nectar comes from the vagina...!"
+"\\n\\mOn every stimulation, \\nlove nectar comes from the vagina...!"
 > END STRING
 
 > BEGIN STRING
 "\\n\\m\#{targetname}の\#{pantsu}から愛蜜が滴り落ちる…！"
 > CONTEXT: Scripts/RPG::Skilltext/2670:21
-"\\n\\mLove honey is dripping from \#{targetname}'s \#{pantsu}...!"
+"\\n\\mLove honey is dripping from \\n\#{targetname}'s \#{pantsu}...!"
 > END STRING
 
 > BEGIN STRING
@@ -25339,7 +25339,7 @@ and getting fired up."
 > BEGIN STRING
 "\\n\\m\#{targetname}の内股を愛蜜がつぅっと流れる…！"
 > CONTEXT: Scripts/RPG::Skilltext/2675:21
-"\\n\\mLove nectar flows through \#{targetname}'s inner thighs...!"
+"\\n\\mLove nectar flows through \\n\#{targetname}'s inner thighs...!"
 > END STRING
 
 > BEGIN STRING
@@ -26171,13 +26171,13 @@ and getting fired up."
 > BEGIN STRING
 "は "
 > CONTEXT: Scripts/Scene_Battle 4/1123:54
-" "
+" received "
 > END STRING
 
 > BEGIN STRING
 " の快感を受けた！\\q"
 > CONTEXT: Scripts/Scene_Battle 4/1123:76
-" felt the pleasure!"
+" pleasure!\\q"
 > END STRING
 
 > BEGIN STRING
@@ -29507,7 +29507,7 @@ and getting fired up."
 > BEGIN STRING
 "\#{t_actor}の喘ぎ声が辺りに響く！\\\\|\\\\|"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/375:9 < UNTRANSLATED
-
+"\#{t_actor}'s panting voice echoes around!\\\\|\\\\|"
 > END STRING
 
 > BEGIN STRING
@@ -29733,9 +29733,9 @@ and getting fired up."
 
 > BEGIN STRING
 "空腹"
-> CONTEXT: Scripts/Talk_Sys Base/276:15 < UNTRANSLATED
-> CONTEXT: Commonevents/43/18/InlineScript/4:12 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Base/276:15
+> CONTEXT: Commonevents/43/18/InlineScript/4:12
+"Hungry"
 > END STRING
 
 > BEGIN STRING

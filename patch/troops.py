@@ -47,7 +47,7 @@ def process_file(input_file, output_file):
                         linecount += 1
                 elif context_found:
                     newtext = get_replacement(pending_line)
-                    outfile.write(newtext if newtext!=pending_line else line if linecount > 0 else "\n")
+                    outfile.write(newtext if newtext!=pending_line else line if line or linecount>0 else "\n")
 
                     pending_line = None
                     begin_string_found = False

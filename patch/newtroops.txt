@@ -77,7 +77,7 @@ Lesser Succubus/5/1
 チュートリアルを聞きますか？
 > CONTEXT: Troops/31/pages/0/2/Dialogue
 > CONTEXT: Troops/138/pages/0/2/Dialogue
-
+Listen to a tutorial?
 > END STRING
 
 > BEGIN STRING
@@ -112,7 +112,7 @@ Lesser Succubus/5/1
 > CONTEXT: Map033/events/8/pages/1/260/InlineScript/1:22
 > CONTEXT: Commonevents/2/0/InlineScript/1:22
 > CONTEXT: Commonevents/207/0/InlineScript/1:22
-
+"Someone's voice"
 > END STRING
 
 > BEGIN STRING
@@ -202,7 +202,7 @@ Is this clear so far?
 もう一度聞く
 > CONTEXT: Troops/31/pages/0/30/Choice/1
 > CONTEXT: Troops/138/pages/0/28/Choice/1
-
+Listen again
 > END STRING
 
 > BEGIN STRING
@@ -445,14 +445,14 @@ Did you understand everything so far?
 もう一度レジストをしたい
 > CONTEXT: Troops/31/pages/1/49/Choice/1
 > CONTEXT: Troops/138/pages/1/50/Choice/1
-
+I want to resist again
 > END STRING
 
 > BEGIN STRING
 もう一度説明を聞きたい
 > CONTEXT: Troops/31/pages/1/49/Choice/2
 > CONTEXT: Troops/138/pages/1/50/Choice/2
-
+Hear it again
 > END STRING
 
 > BEGIN STRING
