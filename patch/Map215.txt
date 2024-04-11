@@ -2,7 +2,7 @@
 > BEGIN STRING
 不思議な魔方陣がある･･･。
 > CONTEXT: Map215/events/43/pages/0/0/Dialogue < UNTRANSLATED
-
+There is a mysterious magic square...
 > END STRING
 
 > BEGIN STRING
@@ -12,7 +12,8 @@
 > CONTEXT: Map215/events/43/pages/0/4/Dialogue < UNTRANSLATED
 > CONTEXT: Map215/events/43/pages/0/60/Dialogue < UNTRANSLATED
 > CONTEXT: Map215/events/43/pages/0/124/Dialogue < UNTRANSLATED
-
+Here, you can summon your succubi from the 
+trial version's clear data and fight with them.
 > END STRING
 
 > BEGIN STRING
@@ -22,7 +23,9 @@
 > CONTEXT: Map215/events/43/pages/0/7/Dialogue < UNTRANSLATED
 > CONTEXT: Map215/events/43/pages/0/63/Dialogue < UNTRANSLATED
 > CONTEXT: Map215/events/43/pages/0/127/Dialogue < UNTRANSLATED
-
+It is possible to renew the contract, but out-of-specification 
+aspects will be altered to be in line with original specifications.
+Keep note of this.
 > END STRING
 
 > BEGIN STRING
@@ -32,7 +35,9 @@
 > CONTEXT: Map215/events/43/pages/0/10/Dialogue < UNTRANSLATED
 > CONTEXT: Map215/events/43/pages/0/66/Dialogue < UNTRANSLATED
 > CONTEXT: Map215/events/43/pages/0/130/Dialogue < UNTRANSLATED
-
+In addition, the "skills" that you have acquired will be reset, 
+and replaced with skills that conform to the the product version.
+Skills acquired with Contract Beads will not be carried over.
 > END STRING
 
 > BEGIN STRING
@@ -42,49 +47,51 @@
 > CONTEXT: Map215/events/43/pages/0/13/Dialogue < UNTRANSLATED
 > CONTEXT: Map215/events/43/pages/0/69/Dialogue < UNTRANSLATED
 > CONTEXT: Map215/events/43/pages/0/133/Dialogue < UNTRANSLATED
-
+The "qualities" you have acquired will be carried over, 
+including those acquired with Contract Beads.
+Equipment and engraved runes will also be carried over.
 > END STRING
 
 > BEGIN STRING
 体験版の引き継ぎデータを読み込みますか？
 > CONTEXT: Map215/events/43/pages/0/23/Dialogue < UNTRANSLATED
-
+Do you want to transfer data from the trial version?
 > END STRING
 
 > BEGIN STRING
 引き継ぎデータを読み込む
 > CONTEXT: Map215/events/43/pages/0/24/Choice/0 < UNTRANSLATED
-
+Transfer data
 > END STRING
 
 > BEGIN STRING
 引き継ぎする時について
 > CONTEXT: Map215/events/43/pages/0/24/Choice/1 < UNTRANSLATED
-
+About transfer
 > END STRING
 
 > BEGIN STRING
 説明を聞き直す
 > CONTEXT: Map215/events/43/pages/0/24/Choice/2 < UNTRANSLATED
-
+Explain again
 > END STRING
 
 > BEGIN STRING
 体験版のクリアデータを取得しています･\\.･\\.･\\.･\\.･\\.･。
 > CONTEXT: Map215/events/43/pages/0/26/Dialogue < UNTRANSLATED
-
+Obtaining clear data for trial version.\\..\\..\\..\\..\\...
 > END STRING
 
 > BEGIN STRING
 引き継ぎデータを読み込みしました！
 > CONTEXT: Map215/events/43/pages/0/29/Dialogue < UNTRANSLATED
-
+Data has been transferred!
 > END STRING
 
 > BEGIN STRING
 体験版の引き継ぎデータが存在しません！
 > CONTEXT: Map215/events/43/pages/0/33/Dialogue < UNTRANSLATED
-
+There is no transferable data from the trial version!
 > END STRING
 
 > BEGIN STRING
@@ -94,7 +101,9 @@
 ・最新版の体験版にてゲームクリアをしましたか？
 > CONTEXT: Map215/events/43/pages/0/34/Dialogue < UNTRANSLATED
 > CONTEXT: Map215/events/43/pages/0/48/Dialogue < UNTRANSLATED
-
+Please check the following:
+・Are the trial and full versions folder's in the same folder?
+・Did you clear the game using the latest trial version?
 > END STRING
 
 > BEGIN STRING
@@ -102,7 +111,8 @@
 「Succubus Rhapsodia Trial」に変更していますか？
 > CONTEXT: Map215/events/43/pages/0/38/Dialogue < UNTRANSLATED
 > CONTEXT: Map215/events/43/pages/0/52/Dialogue < UNTRANSLATED
-
+- Have you changed the trial version folder name to 
+"Succubus Rhapsodia Trial"?
 > END STRING
 
 > BEGIN STRING
@@ -111,50 +121,54 @@
 ことができます。
 > CONTEXT: Map215/events/43/pages/0/40/Dialogue < UNTRANSLATED
 > CONTEXT: Map215/events/43/pages/0/54/Dialogue < UNTRANSLATED
-
+When you clear the latest trial version of the game, 
+or after you clear the game, you can record the transfer data 
+in the book on the desk in the dream base.
 > END STRING
 
 > BEGIN STRING
 夢魔を召喚しますか？
 > CONTEXT: Map215/events/43/pages/0/86/Dialogue < UNTRANSLATED
-
+Do you want to summon a succubus?
 > END STRING
 
 > BEGIN STRING
 召喚する
 > CONTEXT: Map215/events/43/pages/0/87/Choice/0 < UNTRANSLATED
-
+Summon
 > END STRING
 
 > BEGIN STRING
 呼び出される夢魔について
 > CONTEXT: Map215/events/43/pages/0/87/Choice/1 < UNTRANSLATED
-
+About summoning
 > END STRING
 
 > BEGIN STRING
 最初の説明を聞き直す
 > CONTEXT: Map215/events/43/pages/0/87/Choice/2 < UNTRANSLATED
-
+Explain again
 > END STRING
 
 > BEGIN STRING
 引き継げる夢魔がもういません！
 > CONTEXT: Map215/events/43/pages/0/90/Dialogue < UNTRANSLATED
-
+There are no more succubi to transfer!
 > END STRING
 
 > BEGIN STRING
 召喚される夢魔は、契約していた夢魔の中からランダムで
 一人が選ばれ、召喚され戦闘となります。
 > CONTEXT: Map215/events/43/pages/0/118/Dialogue < UNTRANSLATED
-
+The summoned succubi will be selected at random 
+from the contracted succubi, and battle will ensue.
 > END STRING
 
 > BEGIN STRING
 逃走することもでき、契約するまでは何度でも召喚できます。
 > CONTEXT: Map215/events/43/pages/0/120/Dialogue < UNTRANSLATED
-
+You can also run away and summon as many times 
+as you like until you make a contract.
 > END STRING
 
 > BEGIN STRING

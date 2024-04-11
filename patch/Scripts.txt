@@ -9374,8 +9374,8 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "品定め"
-> CONTEXT: Scripts/Game_Battler 4/656:24 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 5/1281:14 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Battler 4/656:24
+> CONTEXT: Scripts/Scene_Battle 5/1281:14
 "Appraisal"
 > END STRING
 
@@ -15344,7 +15344,7 @@ the probability of receiving SS decreases."
 > BEGIN STRING
 "\\w\\q\#{a.name}は経験値を多めに貰った！"
 > CONTEXT: Scripts/Scene_Battle 2/554:21 < UNTRANSLATED
-
+"\\w\\q\#{a.name} received lots of experience points!"
 > END STRING
 
 > BEGIN STRING
@@ -15356,13 +15356,13 @@ the probability of receiving SS decreases."
 > BEGIN STRING
 "ワイルドカード"
 > CONTEXT: Scripts/Scene_Battle 2/566:27 < UNTRANSLATED
-
+"Wildcard" 
 > END STRING
 
 > BEGIN STRING
 "\\w\\q\#{actor.name}の装備していた\\w\\nワイルドカードが無くなってしまった……"
 > CONTEXT: Scripts/Scene_Battle 2/568:20 < UNTRANSLATED
-
+"\\w\\q\#{actor.name}'s equipped\\w\\nwildcard disappeared..."
 > END STRING
 
 > BEGIN STRING
@@ -18735,7 +18735,7 @@ revealing her voluptuous naked body!"
 > CONTEXT: Scripts/RPG::Skilltext/515:31
 > CONTEXT: Scripts/RPG::Skilltext/561:31
 > CONTEXT: Scripts/RPG::Skilltext/603:31
-" sex​y caress"
+" sexily caress"
 > END STRING
 
 > BEGIN STRING
@@ -18842,7 +18842,7 @@ revealing her voluptuous naked body!"
 > BEGIN STRING
 "口で、\\n\\m\#{targetname}のお尻を愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/535:32
-" caressed \\n\\m\#{targetname}'s ass with my mouth!"
+" caressed \\n\\m\#{targetname}'s ass with mouth!"
 > END STRING
 
 > BEGIN STRING
@@ -19476,7 +19476,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "しかし\#{myname}には効かなかった！"
 > CONTEXT: Scripts/RPG::Skilltext/809:17
-"But it didn't work for \#{myname}!"
+"But it didn't work on \#{myname}!"
 > END STRING
 
 > BEGIN STRING
@@ -23556,7 +23556,7 @@ hurriedly started fixing clothes..."
 > CONTEXT: Scripts/RPG::Skilltext/2285:28
 > CONTEXT: Scripts/RPG::Skilltext/2319:28
 > CONTEXT: Scripts/RPG::Skilltext/2353:28
-" \#{waist} moving hips!"
+" is moving hips \#{waist}!"
 > END STRING
 
 > BEGIN STRING
@@ -23618,7 +23618,7 @@ hurriedly started fixing clothes..."
 > CONTEXT: Scripts/RPG::Skilltext/2291:28
 > CONTEXT: Scripts/RPG::Skilltext/2325:28
 > CONTEXT: Scripts/RPG::Skilltext/2359:28
-" \#{waist} started shaking hips!"
+" started shaking hips \#{waist}!"
 > END STRING
 
 > BEGIN STRING
@@ -23842,11 +23842,11 @@ hurriedly started fixing clothes..."
 
 > BEGIN STRING
 "\#{waist}腰を振り始めた！"
-> CONTEXT: Scripts/RPG::Skilltext/2055:28 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2301:28 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2335:28 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2369:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/2055:28
+> CONTEXT: Scripts/RPG::Skilltext/2301:28
+> CONTEXT: Scripts/RPG::Skilltext/2335:28
+> CONTEXT: Scripts/RPG::Skilltext/2369:28
+" started shaking hips \#{waist}!"
 > END STRING
 
 > BEGIN STRING
@@ -23942,11 +23942,11 @@ hurriedly started fixing clothes..."
 
 > BEGIN STRING
 "\#{tec}、\\n\\m更に\#{waist}腰を前後させてきた！"
-> CONTEXT: Scripts/RPG::Skilltext/2080:28 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2310:28 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2344:28 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2378:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/2080:28
+> CONTEXT: Scripts/RPG::Skilltext/2310:28
+> CONTEXT: Scripts/RPG::Skilltext/2344:28
+> CONTEXT: Scripts/RPG::Skilltext/2378:28
+"\#{tec}, \\n\\mMoreover, shaking hips \#{waist}!"
 > END STRING
 
 > BEGIN STRING
@@ -23969,28 +23969,28 @@ hurriedly started fixing clothes..."
 
 > BEGIN STRING
 "\#{brk}\#{targetname}と脚を絡めあい、\\n\\mアソコ同士を押し当てた！"
-> CONTEXT: Scripts/RPG::Skilltext/2085:28 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Skilltext/2085:28
 " and \#{brk}\#{targetname} intertwined legs\\n\\m, their pussies pressed against each other!"
 > END STRING
 
 > BEGIN STRING
 "\#{brk}\#{targetname}と脚を絡めあい、\\n\\mアソコ同士を擦り合わせた！"
-> CONTEXT: Scripts/RPG::Skilltext/2087:28 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Skilltext/2087:28
 " and \#{brk}\#{targetname} intertwined legs and rubbed pussies together!"
 > END STRING
 
 > BEGIN STRING
 "強く"
-> CONTEXT: Scripts/RPG::Skilltext/2089:24 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2098:24 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2107:24 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Skilltext/2089:24
+> CONTEXT: Scripts/RPG::Skilltext/2098:24
+> CONTEXT: Scripts/RPG::Skilltext/2107:24
 " strongly"
 > END STRING
 
 > BEGIN STRING
 "\#{brk}\#{targetname}と脚を絡めあい、\\n\\mアソコ同士を\#{waist}擦り合わせた！"
-> CONTEXT: Scripts/RPG::Skilltext/2096:28 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2105:28 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Skilltext/2096:28
+> CONTEXT: Scripts/RPG::Skilltext/2105:28
 " \#{brk}and \#{targetname} intertwined legs \\n\\mand rubbed pussies together\#{waist}!"
 > END STRING
 
@@ -24008,8 +24008,8 @@ hurriedly started fixing clothes..."
 
 > BEGIN STRING
 "\#{brk}\#{targetname}の脚を抱え、\\n\\m更にアソコ同士を\#{waist}擦り合わせた！"
-> CONTEXT: Scripts/RPG::Skilltext/2114:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/2114:28
+" held \#{brk}\#{targetname}'s legs \\n\\mand rubbed their pussies \#{waist}!"
 > END STRING
 
 > BEGIN STRING
@@ -24112,8 +24112,8 @@ Engrave it?"
 
 > BEGIN STRING
 "\#{brk}\#{targetname}に見せ付けるように、\\n\\m顔の上で\#{waist}腰を振ってきた！"
-> CONTEXT: Scripts/RPG::Skilltext/2162:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/2162:28
+" \#{brk}\#{targetname} swung hips \#{waist} \\n\\mover your face!"
 > END STRING
 
 > BEGIN STRING
@@ -24124,8 +24124,8 @@ Engrave it?"
 
 > BEGIN STRING
 "\#{brk}\#{targetname}に馬乗りのまま、\\n\\m更に\#{waist}腰を前後に振ってきた！"
-> CONTEXT: Scripts/RPG::Skilltext/2171:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/2171:28
+" \#{brk}\#{targetname} continued to ride,\\n\\mand shook hips \#{waist}!"
 > END STRING
 
 > BEGIN STRING
@@ -27850,19 +27850,19 @@ and getting fired up."
 
 > BEGIN STRING
 "丁寧に"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/49:21 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/59:21 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/70:21 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/75:39 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/80:23 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/136:21 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/148:21 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/151:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/161:21 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/164:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/189:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/198:24 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Map)/49:21
+> CONTEXT: Scripts/Talk_Sys Text(Map)/59:21
+> CONTEXT: Scripts/Talk_Sys Text(Map)/70:21
+> CONTEXT: Scripts/Talk_Sys Text(Map)/75:39
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/80:23
+> CONTEXT: Scripts/Talk_Sys Text(Map)/136:21
+> CONTEXT: Scripts/Talk_Sys Text(Map)/148:21
+> CONTEXT: Scripts/Talk_Sys Text(Map)/151:24
+> CONTEXT: Scripts/Talk_Sys Text(Map)/161:21
+> CONTEXT: Scripts/Talk_Sys Text(Map)/164:24
+> CONTEXT: Scripts/Talk_Sys Text(Map)/189:24
+> CONTEXT: Scripts/Talk_Sys Text(Map)/198:24
+" politely"
 > END STRING
 
 > BEGIN STRING
@@ -28007,23 +28007,23 @@ and getting fired up."
 
 > BEGIN STRING
 "にやりと笑みを浮かべ"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/81:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/282:18 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/362:20 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Map)/81:32
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/282:18
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/362:20
+" grinning"
 > END STRING
 
 > BEGIN STRING
 "妖艶な笑みを浮かべ"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/81:45 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/71:18 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/279:18 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/359:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/779:19 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/857:19 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/877:21 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/916:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Map)/81:45
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/71:18
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/279:18
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/359:20
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/779:19
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/857:19
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/877:21
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/916:19
+" with a bewitching smile"
 > END STRING
 
 > BEGIN STRING
@@ -28183,8 +28183,8 @@ and getting fired up."
 
 > BEGIN STRING
 "優しく"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/80:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/80:17
+" gently"
 > END STRING
 
 > BEGIN STRING
@@ -28195,26 +28195,26 @@ and getting fired up."
 
 > BEGIN STRING
 "腰を振ってきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/85:15 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/181:15 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/209:15 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/85:15
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/181:15
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/209:15
+" started shaking hips!"
 > END STRING
 
 > BEGIN STRING
 "腰を動かしてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/85:26 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/181:26 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/209:26 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/85:26
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/181:26
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/209:26
+" is moving hips!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}のペニスを舐め回してきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/88:15 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/184:15 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/212:15 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/88:15
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/184:15
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/212:15
+" is licking \#{t_actor}'s penis!"
 > END STRING
 
 > BEGIN STRING
@@ -28233,11 +28233,11 @@ and getting fired up."
 
 > BEGIN STRING
 "\#{t_actor}のペニスをしゃぶってきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/88:41 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/117:17 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/184:41 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/212:41 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/88:41
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/117:17
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/184:41
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/212:41
+" is sucking \#{t_actor}'s penis!"
 > END STRING
 
 > BEGIN STRING
@@ -28250,9 +28250,9 @@ and getting fired up."
 
 > BEGIN STRING
 "\#{t_actor}を愛撫してきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/91:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/187:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/91:14
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/187:14
+" is caressing \#{t_actor}!"
 > END STRING
 
 > BEGIN STRING
@@ -28270,10 +28270,10 @@ and getting fired up."
 
 > BEGIN STRING
 "\#{speaker}は\#{emotion}、\\n\#{action}\#{text}"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/93:9 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/190:9 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/218:9 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/93:9
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/190:9
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/218:9
+"\#{speaker} is \#{emotion},\\n\#{action}\#{text}"
 > END STRING
 
 > BEGIN STRING
@@ -28294,68 +28294,68 @@ and getting fired up."
 
 > BEGIN STRING
 "喜"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/96:40 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/107:40 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/235:40 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/245:40 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/535:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/535:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/535:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/537:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/539:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/539:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/539:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/541:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/541:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/541:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/543:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/543:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/545:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/545:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/545:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/547:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/547:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/549:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/551:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/553:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/553:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/553:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/555:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/555:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/555:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/557:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/557:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/557:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/559:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/559:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/559:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/561:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/563:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/563:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/565:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/565:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/571:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/571:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/571:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/571:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/571:36 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/571:40 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/574:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/574:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/574:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/574:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/574:36 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/577:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/577:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/577:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/577:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/580:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/580:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/583:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/589:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/589:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/589:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/96:40
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/107:40
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/235:40
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/245:40
+> CONTEXT: Scripts/Talk_Sys Base/535:20
+> CONTEXT: Scripts/Talk_Sys Base/535:24
+> CONTEXT: Scripts/Talk_Sys Base/535:28
+> CONTEXT: Scripts/Talk_Sys Base/537:20
+> CONTEXT: Scripts/Talk_Sys Base/539:20
+> CONTEXT: Scripts/Talk_Sys Base/539:24
+> CONTEXT: Scripts/Talk_Sys Base/539:28
+> CONTEXT: Scripts/Talk_Sys Base/541:20
+> CONTEXT: Scripts/Talk_Sys Base/541:24
+> CONTEXT: Scripts/Talk_Sys Base/541:28
+> CONTEXT: Scripts/Talk_Sys Base/543:20
+> CONTEXT: Scripts/Talk_Sys Base/543:24
+> CONTEXT: Scripts/Talk_Sys Base/545:20
+> CONTEXT: Scripts/Talk_Sys Base/545:24
+> CONTEXT: Scripts/Talk_Sys Base/545:28
+> CONTEXT: Scripts/Talk_Sys Base/547:20
+> CONTEXT: Scripts/Talk_Sys Base/547:24
+> CONTEXT: Scripts/Talk_Sys Base/549:20
+> CONTEXT: Scripts/Talk_Sys Base/551:20
+> CONTEXT: Scripts/Talk_Sys Base/553:20
+> CONTEXT: Scripts/Talk_Sys Base/553:24
+> CONTEXT: Scripts/Talk_Sys Base/553:28
+> CONTEXT: Scripts/Talk_Sys Base/555:20
+> CONTEXT: Scripts/Talk_Sys Base/555:24
+> CONTEXT: Scripts/Talk_Sys Base/555:28
+> CONTEXT: Scripts/Talk_Sys Base/557:20
+> CONTEXT: Scripts/Talk_Sys Base/557:24
+> CONTEXT: Scripts/Talk_Sys Base/557:28
+> CONTEXT: Scripts/Talk_Sys Base/559:20
+> CONTEXT: Scripts/Talk_Sys Base/559:24
+> CONTEXT: Scripts/Talk_Sys Base/559:28
+> CONTEXT: Scripts/Talk_Sys Base/561:20
+> CONTEXT: Scripts/Talk_Sys Base/563:20
+> CONTEXT: Scripts/Talk_Sys Base/563:24
+> CONTEXT: Scripts/Talk_Sys Base/565:20
+> CONTEXT: Scripts/Talk_Sys Base/565:24
+> CONTEXT: Scripts/Talk_Sys Base/571:20
+> CONTEXT: Scripts/Talk_Sys Base/571:24
+> CONTEXT: Scripts/Talk_Sys Base/571:28
+> CONTEXT: Scripts/Talk_Sys Base/571:32
+> CONTEXT: Scripts/Talk_Sys Base/571:36
+> CONTEXT: Scripts/Talk_Sys Base/571:40
+> CONTEXT: Scripts/Talk_Sys Base/574:20
+> CONTEXT: Scripts/Talk_Sys Base/574:24
+> CONTEXT: Scripts/Talk_Sys Base/574:28
+> CONTEXT: Scripts/Talk_Sys Base/574:32
+> CONTEXT: Scripts/Talk_Sys Base/574:36
+> CONTEXT: Scripts/Talk_Sys Base/577:20
+> CONTEXT: Scripts/Talk_Sys Base/577:24
+> CONTEXT: Scripts/Talk_Sys Base/577:28
+> CONTEXT: Scripts/Talk_Sys Base/577:32
+> CONTEXT: Scripts/Talk_Sys Base/580:20
+> CONTEXT: Scripts/Talk_Sys Base/580:24
+> CONTEXT: Scripts/Talk_Sys Base/583:20
+> CONTEXT: Scripts/Talk_Sys Base/589:20
+> CONTEXT: Scripts/Talk_Sys Base/589:24
+> CONTEXT: Scripts/Talk_Sys Base/589:28
+" happily"
 > END STRING
 
 > BEGIN STRING
@@ -28392,60 +28392,60 @@ and getting fired up."
 
 > BEGIN STRING
 "怒"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/100:43 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/109:43 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/240:43 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/249:43 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/535:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/537:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/537:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/537:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/539:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/541:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/543:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/543:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/545:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/547:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/547:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/549:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/549:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/549:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/551:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/551:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/551:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/553:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/555:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/557:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/559:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/561:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/561:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/561:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/563:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/563:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/565:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/565:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/574:40 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/577:36 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/577:40 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/580:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/580:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/580:36 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/580:40 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/583:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/583:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/583:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/583:36 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/583:40 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/586:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/586:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/586:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/586:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/586:36 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/586:40 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/589:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/589:36 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/589:40 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/100:43
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/109:43
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/240:43
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/249:43
+> CONTEXT: Scripts/Talk_Sys Base/535:32
+> CONTEXT: Scripts/Talk_Sys Base/537:24
+> CONTEXT: Scripts/Talk_Sys Base/537:28
+> CONTEXT: Scripts/Talk_Sys Base/537:32
+> CONTEXT: Scripts/Talk_Sys Base/539:32
+> CONTEXT: Scripts/Talk_Sys Base/541:32
+> CONTEXT: Scripts/Talk_Sys Base/543:28
+> CONTEXT: Scripts/Talk_Sys Base/543:32
+> CONTEXT: Scripts/Talk_Sys Base/545:32
+> CONTEXT: Scripts/Talk_Sys Base/547:28
+> CONTEXT: Scripts/Talk_Sys Base/547:32
+> CONTEXT: Scripts/Talk_Sys Base/549:24
+> CONTEXT: Scripts/Talk_Sys Base/549:28
+> CONTEXT: Scripts/Talk_Sys Base/549:32
+> CONTEXT: Scripts/Talk_Sys Base/551:24
+> CONTEXT: Scripts/Talk_Sys Base/551:28
+> CONTEXT: Scripts/Talk_Sys Base/551:32
+> CONTEXT: Scripts/Talk_Sys Base/553:32
+> CONTEXT: Scripts/Talk_Sys Base/555:32
+> CONTEXT: Scripts/Talk_Sys Base/557:32
+> CONTEXT: Scripts/Talk_Sys Base/559:32
+> CONTEXT: Scripts/Talk_Sys Base/561:24
+> CONTEXT: Scripts/Talk_Sys Base/561:28
+> CONTEXT: Scripts/Talk_Sys Base/561:32
+> CONTEXT: Scripts/Talk_Sys Base/563:28
+> CONTEXT: Scripts/Talk_Sys Base/563:32
+> CONTEXT: Scripts/Talk_Sys Base/565:28
+> CONTEXT: Scripts/Talk_Sys Base/565:32
+> CONTEXT: Scripts/Talk_Sys Base/574:40
+> CONTEXT: Scripts/Talk_Sys Base/577:36
+> CONTEXT: Scripts/Talk_Sys Base/577:40
+> CONTEXT: Scripts/Talk_Sys Base/580:28
+> CONTEXT: Scripts/Talk_Sys Base/580:32
+> CONTEXT: Scripts/Talk_Sys Base/580:36
+> CONTEXT: Scripts/Talk_Sys Base/580:40
+> CONTEXT: Scripts/Talk_Sys Base/583:24
+> CONTEXT: Scripts/Talk_Sys Base/583:28
+> CONTEXT: Scripts/Talk_Sys Base/583:32
+> CONTEXT: Scripts/Talk_Sys Base/583:36
+> CONTEXT: Scripts/Talk_Sys Base/583:40
+> CONTEXT: Scripts/Talk_Sys Base/586:20
+> CONTEXT: Scripts/Talk_Sys Base/586:24
+> CONTEXT: Scripts/Talk_Sys Base/586:28
+> CONTEXT: Scripts/Talk_Sys Base/586:32
+> CONTEXT: Scripts/Talk_Sys Base/586:36
+> CONTEXT: Scripts/Talk_Sys Base/586:40
+> CONTEXT: Scripts/Talk_Sys Base/589:32
+> CONTEXT: Scripts/Talk_Sys Base/589:36
+> CONTEXT: Scripts/Talk_Sys Base/589:40
+" is angry"
 > END STRING
 
 > BEGIN STRING
@@ -28504,9 +28504,9 @@ and getting fired up."
 
 > BEGIN STRING
 "艶かしく腰を前後させてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/114:17 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/120:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/114:17
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/120:17
+" moved hips back and forth in a seductive manner!"
 > END STRING
 
 > BEGIN STRING
@@ -28519,24 +28519,24 @@ and getting fired up."
 
 > BEGIN STRING
 "激しく腰を動かしてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/114:34 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/120:34 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/114:34
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/120:34
+" is moving hips hard!"
 > END STRING
 
 > BEGIN STRING
 "ペニスを口に咥えて愛撫してきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/153:40 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/191:40 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/218:40 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Map)/153:40
+> CONTEXT: Scripts/Talk_Sys Text(Map)/191:40
+> CONTEXT: Scripts/Talk_Sys Text(Map)/218:40
+" took penis in the mouth and caressed it!"
 > END STRING
 
 > BEGIN STRING
 "激しく腰を前後させてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/114:66 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/120:65 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/114:66
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/120:65
+" started moving hips back and forth intensly!"
 > END STRING
 
 > BEGIN STRING
@@ -28549,15 +28549,15 @@ and getting fired up."
 
 > BEGIN STRING
 "艶かしく腰を振ってきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/114:82 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/120:81 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/114:82
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/120:81
+" shook hips seductively!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}のペニスを口内で舐め回した！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/117:43 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/117:43
+" licked \#{t_actor}'s penis in my mouth!"
 > END STRING
 
 > BEGIN STRING
@@ -28588,8 +28588,8 @@ and getting fired up."
 
 > BEGIN STRING
 "\#{$msg.t_enemy.bustsize}で挟んだ\#{t_actor}のペニスを、\\n艶かしい動きで擦り上げてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/126:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/126:17
+" held \#{t_actor}'s penis between \#{$msg.t_enemy.bustsize} \\nand rubbed it with sexy movements!"
 > END STRING
 
 > BEGIN STRING
@@ -28608,8 +28608,8 @@ and getting fired up."
 
 > BEGIN STRING
 "絶頂寸前の\#{t_actor}の顔を、\\n\#{$msg.t_enemy.bustsize}で抱きしめてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/129:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/129:17
+" hugged \#{t_actor}'s face with \\n\#{$msg.t_enemy.bustsize} as he was about to climax!"
 > END STRING
 
 > BEGIN STRING
@@ -28622,53 +28622,53 @@ and getting fired up."
 
 > BEGIN STRING
 "\#{t_actor}の顔に騎乗したまま、\\n腰を落としてアソコを押し付けてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/132:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/132:17
+" lowered hips and \\npressed her pussy against \#{t_actor}'s face!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の顔に騎乗したまま、\\nゆっくりと腰を前後させてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/133:19 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/138:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/133:19
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/138:19
+" slowly moved hips back and forth \\non \#{t_actor}'s face!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の顔に騎乗したまま、\\n腰を艶かしく前後させてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/134:19 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/315:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/134:19
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/315:19
+" moved hips back and forth seductively on \#{t_actor}'s face!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の顔に騎乗したまま、\\n腰を落としてお尻を押し付けてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/137:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/137:17
+" bent down and pressed \\nher ass against \#{t_actor}'s face while riding!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の顔に騎乗したまま、\\nお尻を艶かしく前後させてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/139:19 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/320:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/139:19
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/320:19
+" moved her ass back and forth seductively \\nwhile riding on \#{t_actor}'s face!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の脚を抱えて腰を振ってきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/142:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/142:17
+" held \#{t_actor}'s legs and shook hips!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の脚を抱えて腰を動かしてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/142:44 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/142:44
+" held \#{t_actor}'s legs and moved hips!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}とアソコを密着させたまま、\\n腰をくねらせてアソコを刺激してきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/143:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/143:19
+" kept vaginas in close contact \\nwith \#{t_actor} and twisted hips!"
 > END STRING
 
 > BEGIN STRING
@@ -28703,20 +28703,20 @@ and getting fired up."
 
 > BEGIN STRING
 "\#{t_actor}の反応を楽しむように、\\nディルドを艶かしく前後させてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/153:17 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/156:17 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/159:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/153:17
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/156:17
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/159:17
+" moved the dildo back and forth \\nseductively and enjoyed \#{t_actor}'s reaction!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は\#{emotion}、\\n\#{action}"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/163:9 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/257:9 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/274:9 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/343:9 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/370:11 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/163:9
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/257:9
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/274:9
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/343:9
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/370:11
+"\#{speaker} is \#{emotion}、\\n\#{action}"
 > END STRING
 
 > BEGIN STRING
@@ -28727,35 +28727,35 @@ and getting fired up."
 
 > BEGIN STRING
 "上目遣いで"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/167:18 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/194:18 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/167:18
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/194:18
+" looking up"
 > END STRING
 
 > BEGIN STRING
 "甘えるように"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/167:26 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/194:26 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/167:26
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/194:26
+" getting spoiled"
 > END STRING
 
 > BEGIN STRING
 "妖艶な表情で"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/168:18 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/195:18 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/284:26 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/625:26 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/168:18
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/195:18
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/284:26
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/625:26
+" with a bewitching look"
 > END STRING
 
 > BEGIN STRING
 "悪戯っぽく笑い"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/169:18 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/196:18 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/261:18 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/278:18 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/358:20 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/169:18
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/196:18
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/261:18
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/278:18
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/358:20
+" mischievously laughing"
 > END STRING
 
 > BEGIN STRING
@@ -29165,47 +29165,47 @@ and getting fired up."
 
 > BEGIN STRING
 "\#{coop_leader}と笑顔を向け合っている……！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/248:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/248:19
+" and \#{coop_leader} are smiling at each other...!"
 > END STRING
 
 > BEGIN STRING
 "\#{coop_leader}に不満げな視線を送った……！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/250:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/250:17
+" sent a dissatisfied look at \#{coop_leader}...!"
 > END STRING
 
 > BEGIN STRING
 "動けない己に群がってくる、夢魔の姿だった……"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/346:16 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/372:16 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Map)/346:16
+> CONTEXT: Scripts/Talk_Sys Text(Map)/372:16
+" was like a succubus, swarming around me who couldn't move..."
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}に不満げな視線を送った……！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/250:48 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/250:48
+" sent a dissatisfied look at \#{t_actor}...!"
 > END STRING
 
 > BEGIN STRING
 "己の陰茎を淫らに弄ぶ、夢魔の姿だった……"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/348:16 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/374:16 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Map)/348:16
+> CONTEXT: Scripts/Talk_Sys Text(Map)/374:16
+"It looked like a succubus, lewdly playing with her pussy..."
 > END STRING
 
 > BEGIN STRING
 "快楽に飢えた目で近づいてくる、夢魔の姿だった……"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/350:16 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/376:16 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Map)/350:16
+> CONTEXT: Scripts/Talk_Sys Text(Map)/376:16
+" was a succubus approaching, eyes hungry for pleasure..."
 > END STRING
 
 > BEGIN STRING
 "\#{coop_leader}に恨めしげな視線を送っている！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/251:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/251:19
+" is giving \#{coop_leader} a hateful look!"
 > END STRING
 
 > BEGIN STRING
@@ -29249,302 +29249,302 @@ and getting fired up."
 
 > BEGIN STRING
 "\#{coop_leader}に不満の声を上げている……！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/252:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/252:19
+" is dissatisfied with \#{coop_leader}...!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}を悲しげに見つめている……"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/253:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/253:19
+" looked sadly at \#{t_actor}..."
 > END STRING
 
 > BEGIN STRING
 "くすりと笑い"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/260:16 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/264:18 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/277:16 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/281:18 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/357:18 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/361:20 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/260:16
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/264:18
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/277:16
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/281:18
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/357:18
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/361:20
+" giggles"
 > END STRING
 
 > BEGIN STRING
 "満足げな表情で"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/262:18 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/263:18 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/262:18
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/263:18
+" with a satisfied look"
 > END STRING
 
 > BEGIN STRING
 "\#{myname}が、最後に見たものは……\\n"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/369:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Map)/369:14
+"\#{myname} saw in final moments...\\n"
 > END STRING
 
 > BEGIN STRING
 "意地悪げな笑みを浮かべ"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/265:18 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/265:18
+" with a wicked smile"
 > END STRING
 
 > BEGIN STRING
 "名残惜しそうに"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/266:16 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/266:16
+" reluctantly"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}から離れた……！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/269:15 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/269:15
+" released \#{t_actor}...!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}にそっと口付けすると、\\n\#{t_actor}を解放した……！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/270:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/270:17
+" gently kissed \#{t_actor} and released\\n\#{t_actor}...!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}を解放した……！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/271:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/271:17
+"\#{t_actor} was released...!"
 > END STRING
 
 > BEGIN STRING
 "休む暇も無く"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/280:18 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/280:18
+" without rest"
 > END STRING
 
 > BEGIN STRING
 "熱に浮かされたように"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/283:27 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/363:29 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/283:27
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/363:29
+" feverishly"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}に覆いかぶさってきた……！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/286:15 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/367:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/286:15
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/367:19
+"\#{t_actor} got covered...!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の上で再び腰を振りはじめた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/289:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/289:17
+" started shaking hips again on \#{t_actor}!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の反応を楽しむように、\\n腰を艶かしく前後させてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/290:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/290:19
+" moved hips back and forth seductively, \\nenjoying \#{t_actor}'s reaction!"
 > END STRING
 
 > BEGIN STRING
 "精を受け止めた余韻を愉しんでいる……！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/291:19 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/301:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/291:19
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/301:19
+" is enjoying the aftertaste of the essence...!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}のペニスを咥えたまま、\\nゆっくりと口を動かしてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/294:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/294:17
+" moved slowly with \\n\#{t_actor}'s penis in her mouth"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の精をごくりと飲み込むと、\\n更に絞り取るようにペニスをしゃぶってきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/295:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/295:19
+" swallowed all of \#{t_actor}'s semen,\\nand started sucking as if to squeeze out more!"
 > END STRING
 
 > BEGIN STRING
 "うっとりとした表情で、\\n\#{t_actor}のペニスをしゃぶり続けている……！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/296:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/296:19
+" keeps sucking \\n\#{t_actor}'s penis with a dreamy expression...!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の上で、再び腰を振りはじめた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/299:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/299:17
+" started shaking hips again on \#{t_actor}!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の反応を楽しむように、\\n腰を艶かしく前後させている！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/300:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/300:19
+" is moving hips seductively, \\nenjoying \#{t_actor}'s reaction!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}に更に密着してきた……！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/304:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/304:17
+"\#{t_actor} is getting even closer...!"
 > END STRING
 
 > BEGIN STRING
 "絶頂したばかりの\#{t_actor}のペニスを、\\nその\#{$msg.t_enemy.bustsize}で弄び続けている……！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/307:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/307:17
+" continued to play with \#{t_actor}'s penis \\nwith \#{$msg.t_enemy.bustsize} after the climax...!"
 > END STRING
 
 > BEGIN STRING
 "胸に放たれた精を舐め取ると、\\n続けて\#{$msg.t_enemy.bustsize}で挟み込んできた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/308:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/308:19
+" continued to squeeze more sperm \\nwith \#{$msg.t_enemy.bustsize} while licking it off!"
 > END STRING
 
 > BEGIN STRING
 "絶頂したばかりの\#{t_actor}の顔を、\\nその\#{$msg.t_enemy.bustsize}で更に抱きしめてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/311:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/311:17
+" hugged \#{t_actor}'s face \\nwith \#{$msg.t_enemy.bustsize} right after climax!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の顔に騎乗したまま、\\n更に腰を落としアソコを押し付けてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/314:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/314:17
+" lowered hips further and \\npressed her pussy against \#{t_actor}'s face!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の顔に騎乗したまま、\\n恍惚とした表情で腰を振っている！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/316:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/316:19
+" is shaking hips with an ecstatic expression while riding \#{t_actor}'s face!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の顔に騎乗したまま、\\n更に腰を落としお尻を押し付けてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/319:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/319:17
+" lowered hips further and \\npressed ass against \#{t_actor}'s face while riding!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の顔に騎乗したまま、\\n恍惚とした表情でお尻を振っている！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/321:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/321:19
+" shook her ass with an ecstatic expression \\nwhile riding \#{t_actor}'s face!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の脚を抱えて腰を振りはじめた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/324:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/324:17
+" held \#{t_actor}'s legs and started shaking hips!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の顔を抱き寄せ更にキスを続けた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/327:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/327:17
+" hugged \#{t_actor}'s face and continued kissing!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}のアソコを舐め続けている！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/330:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/330:17
+" keeps eating out \#{t_actor}'s pussy!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の反応を楽しむように、\\n再びディルドを艶かしく前後させてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/333:17 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/336:17 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/339:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/333:17
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/336:17
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/339:17
+" is enjoying \#{t_actor}'s reaction, \\nand moved the dildo back and forth in a seductively!"
 > END STRING
 
 > BEGIN STRING
 "に向き直り、微笑んだ"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/348:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/348:17
+" turned and smiled"
 > END STRING
 
 > BEGIN STRING
 "に期待の眼差しを向けてきた"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/348:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/348:30
+" looked expectively"
 > END STRING
 
 > BEGIN STRING
 "に意味深な微笑みを向けてきた"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/349:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/349:19
+" gave a suggestive smile"
 > END STRING
 
 > BEGIN STRING
 "に熱い視線を送っている"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/350:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/350:19
+" looked passionately"
 > END STRING
 
 > BEGIN STRING
 "に気恥ずかしそうに微笑んだ"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/351:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/351:19
+" smiled shyly"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は\#{servant}から離れ、\\n\#{master}\#{action}……！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/354:11 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/354:11
+"\#{speaker} leaves \#{servant} and\\n\#{master}\#{action}...!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}に近づいてくる……！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/366:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/366:17
+"\#{t_actor} is getting close...!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}はこれ以上耐えられない！\\\\|\\\\|"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/374:9 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/374:9
+"\#{t_actor} can't take it anymore!\\\\|\\\\|"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の喘ぎ声が辺りに響く！\\\\|\\\\|"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/375:9 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/375:9
 "\#{t_actor}'s panting voice echoes around!\\\\|\\\\|"
 > END STRING
 
 > BEGIN STRING
 "の身体が快感で震える！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/389:15 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/389:15
+"'s body is shaking with pleasure!"
 > END STRING
 
 > BEGIN STRING
 "から一際大きな嬌声が漏れる！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/390:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/390:17
+"A particularly loud voice leaks out!"
 > END STRING
 
 > BEGIN STRING
 "から言葉にならない嬌声が漏れる！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/391:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/391:17
+"A voice that cannot be put into words leaks out!"
 > END STRING
 
 > BEGIN STRING
 "の小さな身体が大きく跳ねる！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/392:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/392:17
+"'s small body is bouncing a lot!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}が腰を振るたび、\\n\#{speaker}\#{action}"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/395:9 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/395:9
+"Every time \#{t_actor} shakes hips,\\n\#{speaker}\#{action}"
 > END STRING
 
 > BEGIN STRING
 "情熱的な"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/398:12 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/410:12 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/398:12
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/410:12
+" passionately"
 > END STRING
 
 > BEGIN STRING
@@ -29555,16 +29555,16 @@ and getting fired up."
 
 > BEGIN STRING
 "魅惑的な"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/399:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/411:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/399:14
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/411:14
+" fascinated"
 > END STRING
 
 > BEGIN STRING
 "大胆な"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/399:21 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/411:21 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/399:21
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/411:21
+" bold"
 > END STRING
 
 > BEGIN STRING
@@ -29575,16 +29575,16 @@ and getting fired up."
 
 > BEGIN STRING
 "一心不乱な"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/400:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/412:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/400:14
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/412:14
+" dedicated"
 > END STRING
 
 > BEGIN STRING
 "ひたむきな"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/400:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/414:22 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/400:22
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/414:22
+" dedicated"
 > END STRING
 
 > BEGIN STRING
@@ -29595,16 +29595,16 @@ and getting fired up."
 
 > BEGIN STRING
 "心得た"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/401:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/413:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/401:14
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/413:14
+" understanding"
 > END STRING
 
 > BEGIN STRING
 "妖艶な"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/401:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/413:20 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/401:20
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/413:20
+" bewitching"
 > END STRING
 
 > BEGIN STRING
@@ -29615,15 +29615,15 @@ and getting fired up."
 
 > BEGIN STRING
 "一所懸命な"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/402:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/414:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/402:14
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/414:14
+" dedicated"
 > END STRING
 
 > BEGIN STRING
 "愛らしい"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/402:22 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/402:22
+" adorable"
 > END STRING
 
 > BEGIN STRING
@@ -29634,15 +29634,15 @@ and getting fired up."
 
 > BEGIN STRING
 "の身体が快感に震える！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/404:15 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/416:15 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/404:15
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/416:15
+"'s body trembles with pleasure!"
 > END STRING
 
 > BEGIN STRING
 "は蕩けたような表情を浮かべている！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/404:29 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/404:29
+" has a dejected look!"
 > END STRING
 
 > BEGIN STRING
@@ -29653,8 +29653,8 @@ and getting fired up."
 
 > BEGIN STRING
 "\#{t_actor}の\#{tec}口付けで、\\n\#{speaker}\#{action}"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/407:9 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/407:9
+"With \#{t_actor}'s \#{tec} kiss,\\n\#{speaker}\#{action}"
 > END STRING
 
 > BEGIN STRING
@@ -29671,8 +29671,8 @@ and getting fired up."
 
 > BEGIN STRING
 "熱心な"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/412:22 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/412:22
+" enthusiastic"
 > END STRING
 
 > BEGIN STRING
@@ -29690,45 +29690,45 @@ and getting fired up."
 
 > BEGIN STRING
 "の口から嬌声が漏れる！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/416:29 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/416:29
+" is letting out a whimper!"
 > END STRING
 
 > BEGIN STRING
 "ッっ"
-> CONTEXT: Scripts/Talk_Sys Base/198:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Base/198:30
+"Ugh"
 > END STRING
 
 > BEGIN STRING
 "の身体が大きく震える！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/416:43 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/416:43
+"'s body is shaking intensly!"
 > END STRING
 
 > BEGIN STRING
 "ランクアップ"
-> CONTEXT: Scripts/Talk_Sys Base/215:15 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/278:15 < UNTRANSLATED
-> CONTEXT: Commonevents/17/55/InlineScript/4:12 < UNTRANSLATED
-> CONTEXT: Commonevents/17/66/InlineScript/4:12 < UNTRANSLATED
-> CONTEXT: Commonevents/17/127/InlineScript/4:12 < UNTRANSLATED
-> CONTEXT: Commonevents/17/136/InlineScript/4:12 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Base/215:15
+> CONTEXT: Scripts/Talk_Sys Base/278:15
+> CONTEXT: Commonevents/17/55/InlineScript/4:12
+> CONTEXT: Commonevents/17/66/InlineScript/4:12
+> CONTEXT: Commonevents/17/127/InlineScript/4:12
+> CONTEXT: Commonevents/17/136/InlineScript/4:12
+"Rank up"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}の\#{tec}愛撫で、\\n\#{speaker}\#{action}"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/419:9 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/419:9
+"\#{t_actor}'s \#{tec} caress, \\n\#{speaker}\#{action}"
 > END STRING
 
 > BEGIN STRING
 "契約"
-> CONTEXT: Scripts/Talk_Sys Base/275:15 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/314:18 < UNTRANSLATED
-> CONTEXT: Commonevents/28/22/InlineScript/4:12 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Base/275:15
+> CONTEXT: Scripts/Talk_Sys Base/314:18
+> CONTEXT: Commonevents/28/22/InlineScript/4:12
+"Contract"
 > END STRING
 
 > BEGIN STRING
@@ -29740,14 +29740,14 @@ and getting fired up."
 
 > BEGIN STRING
 "目掛けて腰を打ちつけた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/425:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/425:14
+" targets the hip!"
 > END STRING
 
 > BEGIN STRING
 "の腰を掴み、力強く突き上げた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/426:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/426:14
+" grabbed her waist and thrusted strongly!"
 > END STRING
 
 > BEGIN STRING
@@ -29768,63 +29768,63 @@ and getting fired up."
 
 > BEGIN STRING
 "\#{t_actor}は更に激しく、\\n\#{speaker}とアソコを擦り合わせた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/429:9 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/429:9
+"\#{t_actor} rubbed her pussy \\nagainst\#{speaker} even harder!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}は更に激しく、\\n\#{speaker}の敏感な部分を攻め立てた！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/431:9 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/431:9
+"\#{t_actor} stimulated\\n\#{speaker} even more intensly!"
 > END STRING
 
 > BEGIN STRING
 "の身体が、\\n弓のように大きくしなる！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/435:13 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/435:13
+"'s body \\nis bending like a bow!"
 > END STRING
 
 > BEGIN STRING
 "の嬌声が、\\nひときわ大きく周囲に響く！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/435:35 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/435:35
+"'s voice resonates loudly around you!"
 > END STRING
 
 > BEGIN STRING
 "の身体が、\\nあまりの快感にきゅっと強張る！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/436:15 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/436:15
+"'s body is stiff from the pleasure!"
 > END STRING
 
 > BEGIN STRING
 "快感で身悶えしている……！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/442:13 < UNTRANSLATED
-> CONTEXT: Commonevents/32/183/InlineScript/6:11 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/442:13
+> CONTEXT: Commonevents/32/183/InlineScript/6:11
+" writhing with pleasure...!"
 > END STRING
 
 > BEGIN STRING
 "蕩けたような表情で悶えている……！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/442:29 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/442:29
+" writhing with a dejected expression...!"
 > END STRING
 
 > BEGIN STRING
 "恍惚とした表情を浮かべている……！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/443:15 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/443:15
+" looks ecstatic...!"
 > END STRING
 
 > BEGIN STRING
 "荒い息をつきながら悶えている……！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/444:15 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/444:15
+" is writhing and breathing heavily...!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}は一呼吸置くと、\\n再び\#{speaker}に覆いかぶさった！"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/450:7 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/450:7
+"\#{t_actor} took a breath, then \\ncovered \#{speaker} again!"
 > END STRING
 
 > BEGIN STRING
