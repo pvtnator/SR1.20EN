@@ -1354,47 +1354,47 @@ but that's what you need in an emergency.
 
 > BEGIN STRING
 ポート機能を使う
-> CONTEXT: Commonevents/27/10/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/27/10/Choice/1
 Use the port function
 > END STRING
 
 > BEGIN STRING
 情報の確認
-> CONTEXT: Commonevents/27/26/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/27/26/Choice/1
 Check information
 > END STRING
 
 > BEGIN STRING
 \\v[3]は\\v[2]との
 契約を引き受けてくれそうだ。
-> CONTEXT: Commonevents/28/29/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/28/29/Dialogue
 Looks like \\v[3] will accept 
 a contract with \\v[2].
 > END STRING
 
 > BEGIN STRING
 \\v[3]と契約しますか？
-> CONTEXT: Commonevents/28/32/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/28/32/Dialogue
 Would you like to sign a contract with \\v[3]?
 > END STRING
 
 > BEGIN STRING
 契約して、ホームに送る
-> CONTEXT: Commonevents/28/35/Choice/0 < UNTRANSLATED
-> CONTEXT: Commonevents/28/45/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/28/35/Choice/0
+> CONTEXT: Commonevents/28/45/Choice/1
 Sign a contract and send to Home
 > END STRING
 
 > BEGIN STRING
 契約を交わさない
-> CONTEXT: Commonevents/28/35/Choice/1 < UNTRANSLATED
-> CONTEXT: Commonevents/28/45/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/28/35/Choice/1
+> CONTEXT: Commonevents/28/45/Choice/2
 Do not sign a contract
 > END STRING
 
 > BEGIN STRING
 契約して、仲間に引き入れる
-> CONTEXT: Commonevents/28/45/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/28/45/Choice/0
 Sign a contract and invite to party
 > END STRING
 
@@ -1402,7 +1402,7 @@ Sign a contract and invite to party
 \\v[3]と契約を交わし、
 パーティに加えます。
 よろしいですか？
-> CONTEXT: Commonevents/28/60/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/28/60/Dialogue
 Make a contract with \\v[3] 
 and add to party.
 Is this OK?
@@ -1411,7 +1411,7 @@ Is this OK?
 > BEGIN STRING
 \\v[3]と契約を交わした！
 \\v[3]がパーティに加わった！
-> CONTEXT: Commonevents/28/99/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/28/99/Dialogue
 Signed a contract with \\v[3]!
 \\v[3] has joined the party!
 > END STRING
@@ -1419,8 +1419,8 @@ Signed a contract with \\v[3]!
 > BEGIN STRING
 夢魔との契約数が上限に達した。
 今の自分では、これ以上夢魔とは契約できなさそうだ。
-> CONTEXT: Commonevents/28/103/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/28/158/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/28/103/Dialogue
+> CONTEXT: Commonevents/28/158/Dialogue
 Reached maximum number of contracts with succubi.
 As of right now, cannot make any more contracts with succubi.
 > END STRING
@@ -1429,7 +1429,7 @@ As of right now, cannot make any more contracts with succubi.
 \\v[3]と契約を交わし、
 ホームへ送ります。
 よろしいですか？
-> CONTEXT: Commonevents/28/115/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/28/115/Dialogue
 Make a contract with \\v[3] 
 and send to Home.
 Is it OK?
@@ -1438,7 +1438,7 @@ Is it OK?
 > BEGIN STRING
 \\v[3]と契約を交わした！
 \\v[3]をホームに迎え入れた！
-> CONTEXT: Commonevents/28/154/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/28/154/Dialogue
 Signed a contract with \\v[3]!
 Welcomed \\v[3] to Home!
 > END STRING
@@ -1446,14 +1446,14 @@ Welcomed \\v[3] to Home!
 > BEGIN STRING
 \\v[3]とは契約しません。
 よろしいですか？
-> CONTEXT: Commonevents/28/170/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/28/170/Dialogue
 Don't make a contract with \\v[3].
 Is it OK?
 > END STRING
 
 > BEGIN STRING
 \\v[3]と契約しませんでした。
-> CONTEXT: Commonevents/28/178/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/28/178/Dialogue
 Did not sign a contract with \\v[3].
 > END STRING
 
@@ -1491,8 +1491,8 @@ Did not sign a contract with \\v[3].
 
 > BEGIN STRING
 "イってしまった！"
-> CONTEXT: Commonevents/32/158/InlineScript/4:11 < UNTRANSLATED
-> CONTEXT: Commonevents/32/198/InlineScript/4:11 < UNTRANSLATED
+> CONTEXT: Commonevents/32/158/InlineScript/4:11
+> CONTEXT: Commonevents/32/198/InlineScript/4:11
 "I'm cumming!"
 > END STRING
 

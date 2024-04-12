@@ -2243,7 +2243,7 @@
 > CONTEXT: Commonevents/61/12/InlineScript/2:27
 > CONTEXT: Scripts/SR_Util Files/244:34
 > CONTEXT: Scripts/SR_Util Files/245:29
-"Determined"
+"Focused"
 > END STRING
 
 > BEGIN STRING
@@ -2659,7 +2659,7 @@
 > CONTEXT: Scripts/RPG::Skilltext/651:23
 > CONTEXT: Map227/events/1/pages/0/44/InlineScript/1:33
 > CONTEXT: Commonevents/2/33/InlineScript/1:33
-"Mischievous"
+"Naughty"
 > END STRING
 
 > BEGIN STRING
@@ -2914,30 +2914,30 @@
 
 > BEGIN STRING
 "仲間脱衣"
-> CONTEXT: Scripts/RPG::Statetext/38:56
-> CONTEXT: Scripts/RPG::Statetext/55:55
-> CONTEXT: Scripts/Talk_Sys Base/674:18
-> CONTEXT: Scripts/Talk_Sys Talk/209:20
-> CONTEXT: Scripts/Talk_Sys Talk/261:18
-> CONTEXT: Scripts/Talk_Sys Talk/740:90
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/55:10
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/750:10
-"Undress companion"
+> CONTEXT: Scripts/RPG::Statetext/38:56 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Statetext/55:55 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Base/674:18 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Talk/209:20 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Talk/261:18 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Talk/740:90 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/55:10 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/750:10 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "夢魔脱衣"
-> CONTEXT: Scripts/RPG::Statetext/41:57
-> CONTEXT: Scripts/RPG::Statetext/58:56
-> CONTEXT: Scripts/Talk_Sys Base/674:25
-> CONTEXT: Scripts/Talk_Sys Talk/160:16
-> CONTEXT: Scripts/Talk_Sys Talk/209:27
-> CONTEXT: Scripts/Talk_Sys Talk/261:25
-> CONTEXT: Scripts/Talk_Sys Talk/753:10
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/65:10
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/756:10
-> CONTEXT: Scripts/口上メソッド（基本）(2)/3101:10
-"Undress succubus"
+> CONTEXT: Scripts/RPG::Statetext/41:57 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Statetext/58:56 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Base/674:25 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Talk/160:16 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Talk/209:27 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Talk/261:25 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Talk/753:10 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/65:10 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/756:10 < UNTRANSLATED
+> CONTEXT: Scripts/口上メソッド（基本）(2)/3101:10 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -3045,8 +3045,7 @@
 > BEGIN STRING
 "\#{myname}の陰核が肥大化を始める……！\\n\\m\#{myname}の股間にペニスが出現した！"
 > CONTEXT: Scripts/RPG::Statetext/108:18
-"\#{myname}'s penis begins to grow...!
-\\m\#{myname}'s penis is showing!"
+"\#{myname}'s penis begins to grow...!\\n\\m\#{myname}'s penis is showing!"
 > END STRING
 
 > BEGIN STRING
@@ -4597,8 +4596,7 @@
 > BEGIN STRING
 "別の夢魔の姿で戦闘に出る。クライシスになると元に戻る。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/230:24
-"Goes to battle in a different succubus form. 
-Returns to normal when a crisis occurs."
+"Goes to battle in a different succubus form. \\nReturns to normal when a crisis occurs."
 > END STRING
 
 > BEGIN STRING
@@ -4620,8 +4618,7 @@ Returns to normal when a crisis occurs."
 > BEGIN STRING
 "戦闘中、【小悪魔の統率】を持つ仲間のスキルを使用できる。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/234:24
-"In battle, you can use the skills of 
-allies with [Imp leadership]."
+"In battle, you can use the skills of \\nallies with [Imp leadership]."
 > END STRING
 
 > BEGIN STRING
@@ -4635,8 +4632,7 @@ allies with [Imp leadership]."
 > BEGIN STRING
 "戦闘中、【小悪魔の連携】を持つ仲間が自分と同じスキルを使用できる。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/237:24
-"In battle, allies with [Imp co-operation] 
-can use the same skills as you."
+"In battle, allies with [Imp co-operation] \\ncan use the same skills as you."
 > END STRING
 
 > BEGIN STRING
@@ -4679,8 +4675,7 @@ can use the same skills as you."
 > BEGIN STRING
 "この夢魔の体液に触れると、状態異常になる。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/245:24
-"Receive status ailments from being in 
-contact with this succubus' body fluids"
+"Receive status ailments from being in \\ncontact with this succubus' body fluids"
 > END STRING
 
 > BEGIN STRING
@@ -4761,8 +4756,7 @@ contact with this succubus' body fluids"
 > BEGIN STRING
 "自分がターン中まだ行動していない時、被SS確率が下がる。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/265:24
-"When you have not taken any action during your turn, 
-the probability of receiving SS decreases."
+"When you have not taken any action during your turn, \\nthe probability of receiving SS decreases."
 > END STRING
 
 > BEGIN STRING
@@ -5842,7 +5836,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/Scene_Battle HoldEffect/260:12
 > CONTEXT: Scripts/Scene_Battle HoldEffect/309:12
 > CONTEXT: Scripts/RPG::Skilltext/175:12
-
+"Insert"
 > END STRING
 
 > BEGIN STRING
@@ -5875,7 +5869,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/RPG::Skilltext/175:29
 > CONTEXT: Scripts/Scene_Battle RandomAction/12:61
 > CONTEXT: Scripts/Scene_Battle RandomAction/684:52
-
+"Accept"
 > END STRING
 
 > BEGIN STRING
@@ -5892,7 +5886,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/Scene_Battle RandomAction/13:61
 > CONTEXT: Scripts/Scene_Battle RandomAction/638:52
 > CONTEXT: Scripts/Scene_Battle RandomAction/710:52
-
+"Shell match"
 > END STRING
 
 > BEGIN STRING
@@ -5907,7 +5901,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/Scene_Battle RandomAction/14:61
 > CONTEXT: Scripts/Scene_Battle RandomAction/646:52
 > CONTEXT: Scripts/Scene_Battle RandomAction/737:50
-
+"Excite view"
 > END STRING
 
 > BEGIN STRING
@@ -5923,7 +5917,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/Scene_Battle RandomAction/39:63
 > CONTEXT: Scripts/Scene_Battle RandomAction/642:52
 > CONTEXT: Scripts/Scene_Battle RandomAction/733:50
-
+"Embrace"
 > END STRING
 
 > BEGIN STRING
@@ -5947,7 +5941,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/RPG::Skilltext/388:12
 > CONTEXT: Scripts/Scene_Battle RandomAction/21:61
 > CONTEXT: Scripts/Scene_Battle RandomAction/693:52
-
+"Periscope"
 > END STRING
 
 > BEGIN STRING
@@ -5958,7 +5952,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/RPG::Skilltext/396:12
 > CONTEXT: Scripts/RPG::Skilltext/412:12
 > CONTEXT: Scripts/Scene_Battle RandomAction/22:61
-
+"Heavenly feel"
 > END STRING
 
 > BEGIN STRING
@@ -5968,7 +5962,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/Scene_Battle Resist/111:12
 > CONTEXT: Scripts/RPG::Skilltext/363:12
 > CONTEXT: Scripts/Scene_Battle RandomAction/17:61
-
+"Flattenize"
 > END STRING
 
 > BEGIN STRING
@@ -6184,7 +6178,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/★Scene_Title （$data改変）/567:5
 > CONTEXT: Scripts/Game_Battler 3/293:12
 > CONTEXT: Scripts/RPG::Skilltext/155:12
-
+"Strip"
 > END STRING
 
 > BEGIN STRING
@@ -6192,7 +6186,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/★Scene_Title （$data改変）/568:5
 > CONTEXT: Scripts/Game_Battler 3/290:12
 > CONTEXT: Scripts/RPG::Skilltext/167:12
-
+"Undress"
 > END STRING
 
 > BEGIN STRING
@@ -6202,21 +6196,21 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/Scene_Battle 3/1376:44
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/388:27
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/428:8
-
+"Scratch"
 > END STRING
 
 > BEGIN STRING
 "ブレス"
 > CONTEXT: Scripts/★Scene_Title （$data改変）/571:5
 > CONTEXT: Scripts/Game_Battler 4/355:35
-
+"Breath"
 > END STRING
 
 > BEGIN STRING
 "ウェイト"
 > CONTEXT: Scripts/★Scene_Title （$data改変）/572:5
 > CONTEXT: Scripts/SR_Util other/759:27
-
+"Wait"
 > END STRING
 
 > BEGIN STRING
@@ -9395,13 +9389,13 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "トーク"
-> CONTEXT: Scripts/Window_Skill_Battle/102:53 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 5/1832:56 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 4/1442:50 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 4/2341:50 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 4/2346:34 < UNTRANSLATED
-> CONTEXT: Scripts/口上メソッド（基本）(2)/3126:16 < UNTRANSLATED
-
+> CONTEXT: Scripts/Window_Skill_Battle/102:53
+> CONTEXT: Scripts/Scene_Battle 5/1832:56
+> CONTEXT: Scripts/Scene_Battle 4/1442:50
+> CONTEXT: Scripts/Scene_Battle 4/2341:50
+> CONTEXT: Scripts/Scene_Battle 4/2346:34
+> CONTEXT: Scripts/口上メソッド（基本）(2)/3126:16
+"Talk"
 > END STRING
 
 > BEGIN STRING
@@ -9427,10 +9421,9 @@ the probability of receiving SS decreases."
 > BEGIN STRING
 "ピロートーク"
 > CONTEXT: Scripts/Window_Skill_Battle/103:51
+> CONTEXT: Scripts/Scene_Battle 5/1834:31
+> CONTEXT: Scripts/口上メソッド（基本）(2)/3124:16
 "Pillow Talk"
-> CONTEXT: Scripts/Scene_Battle 5/1834:31 < UNTRANSLATED
-> CONTEXT: Scripts/口上メソッド（基本）(2)/3124:16 < UNTRANSLATED
-
 > END STRING
 
 > BEGIN STRING
@@ -11804,7 +11797,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/Window_NameEdit（ランダム名）/83:7
 > CONTEXT: Scripts/Window_NameEdit（ランダム名）/93:7
 > CONTEXT: Scripts/Talk_Sys Base/155:10
-"Rowlatt"
+"Lauratt"
 > END STRING
 
 > BEGIN STRING
@@ -12910,7 +12903,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/Scene_Battle 3/1430:44
 > CONTEXT: Scripts/RPG::Skilltext/420:12
 > CONTEXT: Scripts/Scene_Battle 5/1513:25
-
+"Release"
 > END STRING
 
 > BEGIN STRING
@@ -12921,22 +12914,22 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "レックレス"
-> CONTEXT: Scripts/Arrow_Enemy/24:19
-"Regress"
+> CONTEXT: Scripts/Arrow_Enemy/24:19 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "インタラプト"
-> CONTEXT: Scripts/Arrow_Enemy/37:12
-> CONTEXT: Scripts/Game_BattlerHold/427:10
-> CONTEXT: Scripts/Scene_Battle Resist/48:28
-> CONTEXT: Scripts/Scene_Battle Resist/237:26
-> CONTEXT: Scripts/Scene_Battle HoldEffect/34:50
-> CONTEXT: Scripts/Scene_Battle HoldEffect/59:53
-> CONTEXT: Scripts/Scene_Battle HoldEffect/81:20
-> CONTEXT: Scripts/Scene_Battle HoldEffect/294:12
-> CONTEXT: Scripts/RPG::Skilltext/425:12
-> CONTEXT: Scripts/Scene_Battle 5/1513:50
+> CONTEXT: Scripts/Arrow_Enemy/37:12 < UNTRANSLATED
+> CONTEXT: Scripts/Game_BattlerHold/427:10 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/48:28 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/237:26 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle HoldEffect/34:50 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle HoldEffect/59:53 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle HoldEffect/81:20 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle HoldEffect/294:12 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Skilltext/425:12 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 5/1513:50 < UNTRANSLATED
 
 > END STRING
 
@@ -14674,130 +14667,130 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "主人公が夢魔を脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/175:14
-> CONTEXT: Scripts/Scene_Battle Other/196:14
-> CONTEXT: Scripts/Scene_Battle Resist/153:22
-"Player undresses succubus"
+> CONTEXT: Scripts/Scene_Battle Other/175:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/196:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/153:22 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "パートナーが夢魔を脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/175:26
-> CONTEXT: Scripts/Scene_Battle Other/196:26
-> CONTEXT: Scripts/Scene_Battle Resist/157:22
-"Ally undresses succubus"
+> CONTEXT: Scripts/Scene_Battle Other/175:26 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/196:26 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/157:22 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "主人公が夢魔をホールド"
-> CONTEXT: Scripts/Scene_Battle Other/177:14
-> CONTEXT: Scripts/Scene_Battle Other/198:14
-> CONTEXT: Scripts/Scene_Battle Resist/38:22
-> CONTEXT: Scripts/Scene_Battle Resist/50:22
-> CONTEXT: Scripts/Scene_Battle Resist/72:22
-"Player holds succubus"
+> CONTEXT: Scripts/Scene_Battle Other/177:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/198:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/38:22 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/50:22 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/72:22 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "パートナーが夢魔をホールド"
-> CONTEXT: Scripts/Scene_Battle Other/177:28
-> CONTEXT: Scripts/Scene_Battle Other/198:28
-> CONTEXT: Scripts/Scene_Battle Resist/43:22
-> CONTEXT: Scripts/Scene_Battle Resist/55:22
-> CONTEXT: Scripts/Scene_Battle Resist/76:22
-"Ally holds succubus"
+> CONTEXT: Scripts/Scene_Battle Other/177:28 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/198:28 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/43:22 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/55:22 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/76:22 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "自分ホールド解除"
-> CONTEXT: Scripts/Scene_Battle Other/178:30
-> CONTEXT: Scripts/Scene_Battle Other/199:30
-> CONTEXT: Scripts/Scene_Battle Resist/39:26
-> CONTEXT: Scripts/Scene_Battle Resist/44:26
-"Self hold release"
+> CONTEXT: Scripts/Scene_Battle Other/178:30 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/199:30 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/39:26 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/44:26 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "仲間ホールド解除"
-> CONTEXT: Scripts/Scene_Battle Other/178:60
-> CONTEXT: Scripts/Scene_Battle Other/199:60
-> CONTEXT: Scripts/Scene_Battle Resist/51:26
-> CONTEXT: Scripts/Scene_Battle Resist/56:26
-"Ally hold release"
+> CONTEXT: Scripts/Scene_Battle Other/178:60 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/199:60 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/51:26 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/56:26 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "夢魔が主人公を脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/186:14
-> CONTEXT: Scripts/Scene_Battle Other/207:14
-> CONTEXT: Scripts/Scene_Battle Resist/143:22
-"Succubus undresses player"
+> CONTEXT: Scripts/Scene_Battle Other/186:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/207:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/143:22 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "夢魔がパートナーを脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/186:26
-> CONTEXT: Scripts/Scene_Battle Other/207:26
-> CONTEXT: Scripts/Scene_Battle Resist/147:22
-"Succubus undresses ally"
+> CONTEXT: Scripts/Scene_Battle Other/186:26 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/207:26 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/147:22 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "夢魔が主人公をホールド"
-> CONTEXT: Scripts/Scene_Battle Other/188:14
-> CONTEXT: Scripts/Scene_Battle Other/209:14
-> CONTEXT: Scripts/Scene_Battle Resist/62:22
-"Succubus holds player"
+> CONTEXT: Scripts/Scene_Battle Other/188:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/209:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/62:22 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "夢魔がパートナーをホールド"
-> CONTEXT: Scripts/Scene_Battle Other/188:28
-> CONTEXT: Scripts/Scene_Battle Other/209:28
-> CONTEXT: Scripts/Scene_Battle Resist/66:22
-"Succubus holds ally"
+> CONTEXT: Scripts/Scene_Battle Other/188:28 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Other/209:28 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/66:22 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "夢魔が自ら脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/217:12
-> CONTEXT: Scripts/Scene_Battle 4/1285:24
-"Succubus undresses self"
+> CONTEXT: Scripts/Scene_Battle Other/217:12 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 4/1285:24 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "夢魔が仲間夢魔を脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/217:22
-> CONTEXT: Scripts/Scene_Battle 4/1284:24
-"Succubus undresses ally succubus"
+> CONTEXT: Scripts/Scene_Battle Other/217:22 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 4/1284:24 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "主人公が自ら脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/219:12
-> CONTEXT: Scripts/Scene_Battle 4/1301:28
-"Player undresses self"
+> CONTEXT: Scripts/Scene_Battle Other/219:12 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 4/1301:28 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "パートナーが自ら脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/219:23
-> CONTEXT: Scripts/Scene_Battle 4/1312:28
-"Ally undresses self"
+> CONTEXT: Scripts/Scene_Battle Other/219:23 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 4/1312:28 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "主人公がパートナーを脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/221:12
-> CONTEXT: Scripts/Scene_Battle 4/1308:28
-"Player undresses ally"
+> CONTEXT: Scripts/Scene_Battle Other/221:12 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 4/1308:28 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "パートナーが主人公を脱衣"
-> CONTEXT: Scripts/Scene_Battle Other/221:27
-> CONTEXT: Scripts/Scene_Battle 4/1297:28
-"Ally undresses player"
+> CONTEXT: Scripts/Scene_Battle Other/221:27 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 4/1297:28 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -14906,12 +14899,12 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "バックインサート"
-> CONTEXT: Scripts/Game_BattlerHold/211:10
-> CONTEXT: Scripts/Scene_Battle Resist/91:12
-> CONTEXT: Scripts/Scene_Battle HoldEffect/268:12
-> CONTEXT: Scripts/Scene_Battle HoldEffect/333:12
-> CONTEXT: Scripts/RPG::Skilltext/207:12
-"Back insert"
+> CONTEXT: Scripts/Game_BattlerHold/211:10 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/91:12 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle HoldEffect/268:12 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle HoldEffect/333:12 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Skilltext/207:12 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -15469,10 +15462,10 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "寵愛不足"
-> CONTEXT: Scripts/Window_PromiseRight/41:35
-> CONTEXT: Scripts/Window_PromiseRight/113:29
-> CONTEXT: Scripts/Window_PromiseRight/181:30
-"Insufficient favor"
+> CONTEXT: Scripts/Window_PromiseRight/41:35 < UNTRANSLATED
+> CONTEXT: Scripts/Window_PromiseRight/113:29 < UNTRANSLATED
+> CONTEXT: Scripts/Window_PromiseRight/181:30 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -15483,18 +15476,18 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\#{supporter}はイリスペタルを詠唱した！"
-> CONTEXT: Scripts/Scene_Battle 6/59:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 6/59:19
+"\#{supporter} has cast Iris Petal!"
 > END STRING
 
 > BEGIN STRING
 "レベル不足"
-> CONTEXT: Scripts/Window_PromiseRight/48:35
-> CONTEXT: Scripts/Window_PromiseRight/105:29
-> CONTEXT: Scripts/Window_PromiseRight/186:33
-> CONTEXT: Scripts/Window_Petname_Change/139:30
-> CONTEXT: Scripts/Window_PromiseRight/239:30
-"Insufficient level"
+> CONTEXT: Scripts/Window_PromiseRight/48:35 < UNTRANSLATED
+> CONTEXT: Scripts/Window_PromiseRight/105:29 < UNTRANSLATED
+> CONTEXT: Scripts/Window_PromiseRight/186:33 < UNTRANSLATED
+> CONTEXT: Scripts/Window_Petname_Change/139:30 < UNTRANSLATED
+> CONTEXT: Scripts/Window_PromiseRight/239:30 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -15511,12 +15504,12 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "好感度不足"
-> CONTEXT: Scripts/Window_PromiseRight/55:35
-> CONTEXT: Scripts/Window_PromiseRight/109:29
-> CONTEXT: Scripts/Window_PromiseRight/191:33
-> CONTEXT: Scripts/Window_Petname_Change/142:30
-> CONTEXT: Scripts/Window_PromiseRight/242:30
-"Insufficient likeability"
+> CONTEXT: Scripts/Window_PromiseRight/55:35 < UNTRANSLATED
+> CONTEXT: Scripts/Window_PromiseRight/109:29 < UNTRANSLATED
+> CONTEXT: Scripts/Window_PromiseRight/191:33 < UNTRANSLATED
+> CONTEXT: Scripts/Window_Petname_Change/142:30 < UNTRANSLATED
+> CONTEXT: Scripts/Window_PromiseRight/242:30 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -15527,10 +15520,10 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "指輪不足"
-> CONTEXT: Scripts/Window_PromiseRight/62:35
-> CONTEXT: Scripts/Window_PromiseRight/117:29
-> CONTEXT: Scripts/Window_PromiseRight/196:33
-"Missing ring"
+> CONTEXT: Scripts/Window_PromiseRight/62:35 < UNTRANSLATED
+> CONTEXT: Scripts/Window_PromiseRight/117:29 < UNTRANSLATED
+> CONTEXT: Scripts/Window_PromiseRight/196:33 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -16171,8 +16164,7 @@ the probability of receiving SS decreases."
 > BEGIN STRING
 "\#{active.name}は\#{brk}自分のアソコに、\\n\#{target.name}のペニスを挿入した！"
 > CONTEXT: Scripts/Scene_Battle HoldEffect/263:16
-"\#{active.name} \#{brk}inserted penis in \\n\#{target.name}
-s vagina!"
+"\#{active.name} \#{brk}inserted penis in \\n\#{target.name}'s vagina!"
 > END STRING
 
 > BEGIN STRING
@@ -16276,8 +16268,7 @@ s vagina!"
 > BEGIN STRING
 "ルーンは一度刻印してしまうと再利用する事ができません。\\n刻印しますか？"
 > CONTEXT: Scripts/Scene_Box(Equip)/147:18
-"Once a rune is engraved, it cannot be reused.
-Engrave it?"
+"Once a rune is engraved, it cannot be reused.\\nEngrave it?"
 > END STRING
 
 > BEGIN STRING
@@ -16755,8 +16746,7 @@ Engrave it?"
 > BEGIN STRING
 "\#{target.name}は自ら脚を広げ、\\n\#{active.name}のディルドの挿入を迎え入れた！"
 > CONTEXT: Scripts/Scene_Battle HoldEffect/395:18
-"\#{target.name} spreads her legs and welcomes
-\#{active.name}'s dildo!"
+"\#{target.name} spreads her legs and welcomes\\n\#{active.name}'s dildo!"
 > END STRING
 
 > BEGIN STRING
@@ -16826,8 +16816,7 @@ Engrave it?"
 > BEGIN STRING
 "ホームがいっぱいです！\\nホームを空けてから預けてください！"
 > CONTEXT: Scripts/Scene_Box(処理まとめ)/191:35
-"Home is full!
-Please make room before leaving!"
+"Home is full!\\nPlease make room before leaving!"
 > END STRING
 
 > BEGIN STRING
@@ -17065,8 +17054,7 @@ Please make room before leaving!"
 > BEGIN STRING
 "エラー：この行は横文字数を超過しています。\\n文字数：\#{(x/14)-1}/26　横幅：\#{4 + x}/\#{self.contents.width}"
 > CONTEXT: Scripts/Window_BattleLog/294:15
-"Error: Too many characters on a line. 
-Number of characters: \#{(x/14)-1}/26　Width: \#{4 + x}/\#{self.contents.width }"
+"Error: Too many characters on a line.\\nNumber of characters: \#{(x/14)-1}/26　Width: \#{4 + x}/\#{self.contents.width }"
 > END STRING
 
 > BEGIN STRING
@@ -17145,8 +17133,8 @@ Number of characters: \#{(x/14)-1}/26　Width: \#{4 + x}/\#{self.contents.width 
 
 > BEGIN STRING
 /キッス/
-> CONTEXT: Scripts/Mood_System/154:88 < UNTRANSLATED
-
+> CONTEXT: Scripts/Mood_System/154:88
+/Kiss/
 > END STRING
 
 > BEGIN STRING
@@ -18219,8 +18207,7 @@ Number of characters: \#{(x/14)-1}/26　Width: \#{4 + x}/\#{self.contents.width 
 > BEGIN STRING
 "\#{myname}の纏っている粘液が弾け飛び、\\n豊満な裸体が露わになった！"
 > CONTEXT: Scripts/RPG::Skilltext/172:18
-"\#{myname}'s sticky liquid bursts away, 
-revealing her voluptuous naked body!"
+"\#{myname}'s sticky liquid bursts away,\\nrevealing her voluptuous naked body!"
 > END STRING
 
 > BEGIN STRING
@@ -18909,8 +18896,7 @@ revealing her voluptuous naked body!"
 > BEGIN STRING
 "体勢を変えて、\#{pantsu}越しに\\n\\m口で\#{targetname}のお尻を\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/544:32
-" changed position and 
-\\mcaressed \#{targetname}'s ass with mouth \#{brk2}through \#{pantsu}!"
+" changed position and \\n\\mcaressed \#{targetname}'s ass with mouth \#{brk2}through \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
@@ -19696,8 +19682,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/RPG::Skilltext/928:30
 > CONTEXT: Scripts/RPG::Skilltext/964:30
 > CONTEXT: Scripts/RPG::Skilltext/997:32
-" suddenly remembering it,\\m
-hurriedly started fixing clothes..."
+" suddenly remembering it,\\n\\mhurriedly started fixing clothes..."
 > END STRING
 
 > BEGIN STRING
@@ -20267,7 +20252,7 @@ hurriedly started fixing clothes..."
 > BEGIN STRING
 "満面の笑顔で、\\n\\m\#{targetname}の顔を覗き込んでいる……"
 > CONTEXT: Scripts/RPG::Skilltext/1083:32
-" is looking at \\n\\m\\{targetname}'s face with a big smile..."
+" is looking at \\n\\m\\\#{targetname}'s face with a big smile..."
 > END STRING
 
 > BEGIN STRING
@@ -21764,8 +21749,8 @@ hurriedly started fixing clothes..."
 
 > BEGIN STRING
 "\#{pantsu}越しに、\\n\\m\#{targetname}のペニスを舐め上げてきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1497:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1497:30
+" licked \\n\\m\#{targetname}'s penis through \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
@@ -22074,14 +22059,14 @@ hurriedly started fixing clothes..."
 
 > BEGIN STRING
 "舌で、\\n\\m\#{targetname}のお尻を舐め上げてきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1637:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1637:30
+" licked \\n\\m\#{targetname}'s ass!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}越しに、\\n\\m\#{targetname}のお尻を舐め上げてきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1639:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1639:30
+" licked \\n\\m\#{targetname}'s ass through \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
@@ -22104,8 +22089,8 @@ hurriedly started fixing clothes..."
 
 > BEGIN STRING
 "\#{pantsu}を口でずらし、\\n\\m\#{targetname}のお尻を舐め回してきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1651:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1651:30
+" moved \#{pantsu} with mouth \\n\\mand licked \#{targetname}'s ass!"
 > END STRING
 
 > BEGIN STRING
@@ -22212,7 +22197,7 @@ hurriedly started fixing clothes..."
 > BEGIN STRING
 "\#{targetname}に甘く囁いた！"
 > CONTEXT: Scripts/RPG::Skilltext/1720:28
-" sweetly whispered to \#{targetname}!"
+" sweetly whispered \\nto \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
@@ -22881,7 +22866,7 @@ hurriedly started fixing clothes..."
 > BEGIN STRING
 "遅い"
 > CONTEXT: Scripts/Window_SystemLeft/108:68
-" is slowly"
+"Slow"
 > END STRING
 
 > BEGIN STRING
@@ -23661,7 +23646,7 @@ hurriedly started fixing clothes..."
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/616:24
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/624:24
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/656:21
-"Bold "
+"boldly"
 > END STRING
 
 > BEGIN STRING
@@ -23684,7 +23669,7 @@ hurriedly started fixing clothes..."
 > CONTEXT: Scripts/RPG::Skilltext/2371:24
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/235:32
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/242:26
-"Grand"
+"in a big way"
 > END STRING
 
 > BEGIN STRING
@@ -23710,7 +23695,7 @@ hurriedly started fixing clothes..."
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/315:27
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/616:38
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/656:27
-"Intense"
+"intensely"
 > END STRING
 
 > BEGIN STRING
@@ -24016,8 +24001,7 @@ hurriedly started fixing clothes..."
 > BEGIN STRING
 "ルーンは一度刻印していまうと再利用する事ができません。\\n刻印しますか？"
 > CONTEXT: Scripts/Scene_Menu(Party_status_equip)/185:18
-"Once engraved, it cannot be reused.
-Engrave it?"
+"Once engraved, it cannot be reused.\\nEngrave it?"
 > END STRING
 
 > BEGIN STRING
@@ -25138,8 +25122,7 @@ Engrave it?"
 > BEGIN STRING
 "\#{name}は、腕まくりをして\\n気合を入れている。"
 > CONTEXT: Scripts/Window_Cook_Cooking/137:12
-"\#{name} is rolling up his sleeves
-and getting fired up."
+"\#{name} is rolling up his sleeves\\nand getting fired up."
 > END STRING
 
 > BEGIN STRING
@@ -27151,7 +27134,7 @@ and getting fired up."
 > BEGIN STRING
 "\#{$msg.t_target.name}は堪えきれず、\\m\\n\#{enemy.name}の\#{enemy.bustsize}に\#{brk2}精を吐き出してしまった！"
 > CONTEXT: Scripts/SR_Util spam/172:28
-"\#{$msg.t_target.name} couldn't hold back \\m\\nand cum spewed out into \\m\\n\#{enemy.name}'s \#{enemy.bustsize}! "
+"\#{$msg.t_target.name} couldn't hold back　\\m\\nand cum spewed out into　\\m\\n\#{enemy.name}'s \#{enemy.bustsize}! "
 > END STRING
 
 > BEGIN STRING
@@ -30778,50 +30761,50 @@ and getting fired up."
 
 > BEGIN STRING
 "\#{speaker}は快感に溺れている……！\\m\\n今は話が出来る状態ではない……！"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/29:13 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/29:13
+"\#{speaker} is drowning in pleasure...!\\m\\nIt's no use talking right now...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は笑みを浮かべている……！\\m\\n今は話を聞いてもらえそうにない……！"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/31:13 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/31:13
+"\#{speaker} is smiling...!\\m\\nI don't think I will be listened to right now...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は快感に身悶えしている……！\\m\\n今は話が出来る状態ではない……"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/33:13 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/33:13
+"\#{speaker} is writhing in pleasure...!\\m\\nIt's no use talking right now..."
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}はどうやら、\\m\\nこれ以上話を聞いてくれそうにない……"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/35:13 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/35:13
+"\#{speaker} doesn't seem　\\m\\nto want to listen to me any more..."
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は放心している……！\\m\\n今は話が出来る状態ではない……！"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/37:13 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/37:13
+"\#{speaker} is absentminded...!\\m\\nIt's no use, I would be talking to deaf ears...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は意味深な笑みを浮かべている……！\\m\\n今は話を聞いてもらえそうにない……！"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/38:13 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/38:13
+"\#{speaker} has a suggestive smile...!\\m\\nIt's no use, I would be talking to deaf ears...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は極度に興奮している……！\\m\\n今は話が出来る状態ではない……！"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/40:13 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/40:13
+"\#{speaker} is extremely aroused...!\\m\\nCan't talk right now...!"
 > END STRING
 
 > BEGIN STRING
 "\#{master}は\#{speaker}の言う通りに、\\m\\n自ら服を脱いだ！"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/48:13 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/48:13
+"\#{master} did as \#{speaker} said and　\\m\\ngot undressed!"
 > END STRING
 
 > BEGIN STRING
@@ -31524,7 +31507,7 @@ and getting fired up."
 > BEGIN STRING
 "\#{speaker}は足の指で、\\m\\n\#{master}のペニスを焦らすように弄んできた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/470:21
-"\#{speaker} teased \\m\\n\#{master}'s penis with toes!"
+"\#{speaker} teased　\\m\\n\#{master}'s penis with toes!"
 > END STRING
 
 > BEGIN STRING
@@ -31545,7 +31528,7 @@ and getting fired up."
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/507:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/518:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/526:21
-"\#{speaker} is fondling \#{master}'s penis \\m\\nwith \#{$msg.t_enemy.bustsize}!"
+"\#{speaker} is fondling \#{master}'s penis　\\m\\nwith \#{$msg.t_enemy.bustsize}!"
 > END STRING
 
 > BEGIN STRING
@@ -31554,7 +31537,7 @@ and getting fired up."
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/508:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/519:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/527:21
-"\#{speaker} rubbed \#{$msg.t_enemy.bustsize} on \\m\\n\#{master}'s penis!"
+"\#{speaker} rubbed \#{$msg.t_enemy.bustsize} on　\\m\\n\#{master}'s penis!"
 > END STRING
 
 > BEGIN STRING
@@ -31564,7 +31547,7 @@ and getting fired up."
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/510:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/521:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/529:21
-"\#{speaker} is squeezing \#{master}'s penis \\m\\nwith \#{$msg.t_enemy.bustsize}!"
+"\#{speaker} is squeezing \#{master}'s penis　\\m\\nwith \#{$msg.t_enemy.bustsize}!"
 > END STRING
 
 > BEGIN STRING
@@ -31574,49 +31557,49 @@ and getting fired up."
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/511:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/522:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/530:21
-"\#{speaker} pushed \#{$msg.t_enemy.bustsize} onto \\m\\n\#{master}'s dick!"
+"\#{speaker} pushed \#{$msg.t_enemy.bustsize} onto　\\m\\n\#{master}'s dick!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は反応を楽しむかのように、\\m\\n\#{$msg.t_enemy.bustsize}をペニスに擦り付けてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/495:23
-"\#{speaker} enjoyed the reaction \\m\\nand started rubbing \#{$msg.t_enemy.bustsize} on his penis!"
+"\#{speaker} enjoyed the reaction　\\m\\nand started rubbing \#{$msg.t_enemy.bustsize} on his penis!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は愛おしむかのように、\\m\\n\#{$msg.t_enemy.bustsize}をペニスに擦り付けてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/496:23
-"\#{speaker} rubbed \\m\\n\#{$msg.t_enemy.bustsize} on his penis like she loves it!"
+"\#{speaker} rubbed　\\m\\n\#{$msg.t_enemy.bustsize} on his penis like she loves it!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は反応を楽しむかのように、\\m\\n\#{$msg.t_enemy.bustsize}でペニスを艶かしく愛撫してきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/498:23
-"\#{speaker} enjoyed the reaction \\m\\nand caressed the penis with \#{$msg.t_enemy.bustsize}!"
+"\#{speaker} enjoyed the reaction　\\m\\nand caressed the penis with \#{$msg.t_enemy.bustsize}!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は愛おしむかのように、\\m\\n\#{$msg.t_enemy.bustsize}でペニスを艶かしく愛撫してきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/499:23
-"\#{speaker} seductively caressed my penis with \\m\\n\#{$msg.t_enemy.bustsize} like she loves it!"
+"\#{speaker} seductively caressed my penis with　\\m\\n\#{$msg.t_enemy.bustsize} like she loves it!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は反応を楽しむかのように、\\m\\n\#{master}のペニスの上で腰を振ってきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/541:21
-"\#{speaker} started shaking hips \\m\\non \#{master}'s penis, enjoying the reaction!"
+"\#{speaker} started shaking hips　\\m\\non \#{master}'s penis, enjoying the reaction!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は愛おしむかのように、\\m\\n\#{master}のペニスの上で腰を振ってきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/542:21
-"\#{speaker} started shaking hips \\m\\non \#{master}'s penis like she loves it!"
+"\#{speaker} started shaking hips　\\m\\non \#{master}'s penis like she loves it!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は心得た腰使いで、\\m\\n\#{master}のペニスにアソコを擦り付けてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/544:21
-"\#{speaker} is rubbing \\m\\nher pussy against \#{master}'s penis!"
+"\#{speaker} is rubbing　\\m\\nher pussy against \#{master}'s penis!"
 > END STRING
 
 > BEGIN STRING
@@ -31628,7 +31611,7 @@ and getting fired up."
 > BEGIN STRING
 "\#{speaker}は自分のアソコを、\\m\\n\#{master}のペニスに激しく擦り付けてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/550:21
-"\#{speaker} is rubbing \\m\\nher pussy hard against \#{master}'s penis!"
+"\#{speaker} is rubbing　\\m\\nher pussy hard against \#{master}'s penis!"
 > END STRING
 
 > BEGIN STRING
@@ -31642,7 +31625,7 @@ and getting fired up."
 "\#{speaker}は自分のアソコを、\\m\\n\#{master}のペニスに擦り付けてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/559:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/565:21
-"\#{speaker} rubbed her pussy \\m\\nagainst \#{master}'s penis!"
+"\#{speaker} rubbed her pussy　\\m\\nagainst \#{master}'s penis!"
 > END STRING
 
 > BEGIN STRING
@@ -31654,39 +31637,39 @@ and getting fired up."
 > BEGIN STRING
 "\#{speaker}は愛おしむかのように、\\m\\n\#{master}のペニスを尻尾でしごいてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/577:21
-"\#{speaker} stroked \\m\\n\#{master}'s penis by tail like she loves it!"
+"\#{speaker} stroked　\\m\\n\#{master}'s penis by tail like she loves it!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は慣れた腰使いで、\\m\\n\#{master}のペニスを尻尾で弄んできた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/579:21
-"\#{speaker} played with \#{master}'s penis \\m\\n\\with practiced hips, using the tail!"
+"\#{speaker} played with \#{master}'s penis　\\m\\n\\with practiced hips, using the tail!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は尻尾をくねらせ、\\m\\n\#{master}のペニスを間断なくしごき上げてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/583:21
-"\#{speaker} wiggled the tail \\m\\nand jerked \#{master}'s penis continuously!"
+"\#{speaker} wiggled the tail　\\m\\nand jerked \#{master}'s penis continuously!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は尻尾を巧みに使い、\\m\\n\#{master}のペニスをしごき上げてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/585:21
-"\#{speaker} skillfully used her tail \\m\\nto jerk \#{master}'s penis!"
+"\#{speaker} skillfully used her tail　\\m\\nto jerk \#{master}'s penis!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}はリズミカルに、\\m\\n尻尾で\#{master}のペニスをしごき上げてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/592:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/598:21
-"\#{speaker} rhythmically \\m\\njerked \#{master}'s penis with tail!"
+"\#{speaker} rhythmically　\\m\\njerked \#{master}'s penis with tail!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は自分の尻尾を、\\m\\n\#{master}のペニスに巻き付けてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/594:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/600:21
-"\#{speaker} wrapped tail \\m\\naround \#{master}'s penis!"
+"\#{speaker} wrapped tail　\\m\\naround \#{master}'s penis!"
 > END STRING
 
 > BEGIN STRING
@@ -31704,37 +31687,37 @@ and getting fired up."
 > BEGIN STRING
 "\#{speaker}は\#{master}の胸元に、\\m\\n意味ありげな視線を向けてきた……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/745:11
-"\#{speaker} took a suggestive look at \\m\\n\#{master}'s chest...!"
+"\#{speaker} took a suggestive look at　\\m\\n\#{master}'s chest...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は\#{master}の胸元を、\\m\\n落ち着かない様子でちらちらと伺っている！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/746:11
-"\#{speaker} is glancing at \\m\\n\#{master}'s chest uncomfortably!"
+"\#{speaker} is glancing at　\\m\\n\#{master}'s chest uncomfortably!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は含みのある表情で、\\m\\n\#{servant}を見つめている……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/751:11
-"\#{speaker} is looking at \\m\\n\#{servant} with a thoughtful expression...!"
+"\#{speaker} is looking at　\\m\\n\#{servant} with a thoughtful expression...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は意味ありげな表情で、\\m\\n\#{servant}を見つめている……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/752:11
-"\#{speaker} is looking at \\m\\n\#{servant} with a suggestive expression...!"
+"\#{speaker} is looking at　\\m\\n\#{servant} with a suggestive expression...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は服の合わせ目をはだけ、\\m\\n\#{master}に艶っぽい表情を向けた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/757:11
-"\#{speaker} exposed a seam of clothes \\m\\nand gave \#{master} a seductive look!"
+"\#{speaker} exposed a seam of clothes　\\m\\nand gave \#{master} a seductive look!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は服の合わせ目をはだけ、\\m\\n\#{master}に意味ありげな表情を向けた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/758:11
-"\#{speaker} exposed a seam of clothes \\m\\nand gave \#{master} a suggestive look!"
+"\#{speaker} exposed a seam of clothes　\\m\\nand gave \#{master} a suggestive look!"
 > END STRING
 
 > BEGIN STRING
@@ -31746,25 +31729,25 @@ and getting fired up."
 > BEGIN STRING
 "\#{speaker}は目を閉じて、\\m\\n\#{master}の唇に顔を近づけてきた……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/764:11
-"\#{speaker} closed eyes \\m\\nand got closer to \#{master}'s lips...!"
+"\#{speaker} closed eyes　\\m\\nand got closer to \#{master}'s lips...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は笑みを浮かべ、\\m\\n\#{master}の唇に顔を近づけてきた……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/765:11
-"\#{speaker} smiled and \\m\\ngot closer to \#{master}'s lips...!"
+"\#{speaker} smiled and　\\m\\ngot closer to \#{master}'s lips...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は目を閉じて、\\m\\n\#{master}のペニスに顔を近づけてきた……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/770:11
-"\#{speaker} closed eyes and \\m\\ngot closer to \#{master}'s penis...!"
+"\#{speaker} closed eyes and　\\m\\ngot closer to \#{master}'s penis...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は笑みを浮かべ、\\m\\n\#{master}のペニスに顔を近づけてきた……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/771:11
-"\#{speaker} smiled and \\m\\ngot closer to \#{master}'s penis...!"
+"\#{speaker} smiled and　\\m\\ngot closer to \#{master}'s penis...!"
 > END STRING
 
 > BEGIN STRING
@@ -31773,25 +31756,25 @@ and getting fired up."
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/855:19
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/875:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/914:19
-" with a mischievous smile"
+"with a mischievous smile"
 > END STRING
 
 > BEGIN STRING
 "ちらちらとこちらを伺いながら"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/783:19
-" while glancing at you"
+"while glancing at you"
 > END STRING
 
 > BEGIN STRING
 "恥ずかしげに顔を伏せつつも"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/785:19
-" looking down in shame"
+"looking down in shame"
 > END STRING
 
 > BEGIN STRING
 "にやりと挑発的に口元を歪め"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/787:19
-" grinning provocatively."
+"grinning provocatively."
 > END STRING
 
 > BEGIN STRING
@@ -31899,14 +31882,14 @@ and getting fired up."
 > BEGIN STRING
 "\#{speaker}は\#{emotion}、\\m\\n\#{master}のペニスを見つめている！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/859:11 < UNTRANSLATED
-
+"\#{speaker} \#{emotion}, \\m\\nis staring at \#{master}'s penis!"
 > END STRING
 
 > BEGIN STRING
 "潤んだ瞳で"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/871:21 < UNTRANSLATED
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/910:19 < UNTRANSLATED
-
+"with moist eyes"
 > END STRING
 
 > BEGIN STRING
@@ -32832,11 +32815,5 @@ and getting fired up."
 > BEGIN STRING
 "くすっ"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3344:15 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-/[a-zA-Z ]/
-> CONTEXT: None < UNUSED
 
 > END STRING
