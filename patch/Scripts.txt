@@ -3734,7 +3734,7 @@
 "\#{myname}は消極的になってしまった！"
 > CONTEXT: Scripts/RPG::Statetext/208:20
 > CONTEXT: Scripts/RPG::Statetext/210:20
-"\#{myname} has become passive!"
+"\#{myname} has become half-hearted!"
 > END STRING
 
 > BEGIN STRING
@@ -3806,7 +3806,7 @@
 > BEGIN STRING
 "\#{myname}は消極的になっている！"
 > CONTEXT: Scripts/RPG::Statetext/213:18
-"\#{myname} is becoming more passive!"
+"\#{myname} is becoming more half-hearted!"
 > END STRING
 
 > BEGIN STRING
@@ -5842,7 +5842,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/Scene_Battle HoldEffect/260:12
 > CONTEXT: Scripts/Scene_Battle HoldEffect/309:12
 > CONTEXT: Scripts/RPG::Skilltext/175:12
-"Insert"
+
 > END STRING
 
 > BEGIN STRING
@@ -5875,7 +5875,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/RPG::Skilltext/175:29
 > CONTEXT: Scripts/Scene_Battle RandomAction/12:61
 > CONTEXT: Scripts/Scene_Battle RandomAction/684:52
-"Accept"
+
 > END STRING
 
 > BEGIN STRING
@@ -5892,7 +5892,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/Scene_Battle RandomAction/13:61
 > CONTEXT: Scripts/Scene_Battle RandomAction/638:52
 > CONTEXT: Scripts/Scene_Battle RandomAction/710:52
-"Shell match"
+
 > END STRING
 
 > BEGIN STRING
@@ -5907,7 +5907,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/Scene_Battle RandomAction/14:61
 > CONTEXT: Scripts/Scene_Battle RandomAction/646:52
 > CONTEXT: Scripts/Scene_Battle RandomAction/737:50
-"Excite view"
+
 > END STRING
 
 > BEGIN STRING
@@ -5923,7 +5923,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/Scene_Battle RandomAction/39:63
 > CONTEXT: Scripts/Scene_Battle RandomAction/642:52
 > CONTEXT: Scripts/Scene_Battle RandomAction/733:50
-"Embrace"
+
 > END STRING
 
 > BEGIN STRING
@@ -5947,7 +5947,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/RPG::Skilltext/388:12
 > CONTEXT: Scripts/Scene_Battle RandomAction/21:61
 > CONTEXT: Scripts/Scene_Battle RandomAction/693:52
-"Periscope"
+
 > END STRING
 
 > BEGIN STRING
@@ -5958,7 +5958,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/RPG::Skilltext/396:12
 > CONTEXT: Scripts/RPG::Skilltext/412:12
 > CONTEXT: Scripts/Scene_Battle RandomAction/22:61
-"Heavenly feel"
+
 > END STRING
 
 > BEGIN STRING
@@ -5968,7 +5968,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/Scene_Battle Resist/111:12
 > CONTEXT: Scripts/RPG::Skilltext/363:12
 > CONTEXT: Scripts/Scene_Battle RandomAction/17:61
-"Flattanize"
+
 > END STRING
 
 > BEGIN STRING
@@ -6184,7 +6184,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/★Scene_Title （$data改変）/567:5
 > CONTEXT: Scripts/Game_Battler 3/293:12
 > CONTEXT: Scripts/RPG::Skilltext/155:12
-"Strip"
+
 > END STRING
 
 > BEGIN STRING
@@ -6192,7 +6192,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/★Scene_Title （$data改変）/568:5
 > CONTEXT: Scripts/Game_Battler 3/290:12
 > CONTEXT: Scripts/RPG::Skilltext/167:12
-"Undress"
+
 > END STRING
 
 > BEGIN STRING
@@ -6202,21 +6202,21 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/Scene_Battle 3/1376:44
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/388:27
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/428:8
-"Scratch"
+
 > END STRING
 
 > BEGIN STRING
 "ブレス"
 > CONTEXT: Scripts/★Scene_Title （$data改変）/571:5
 > CONTEXT: Scripts/Game_Battler 4/355:35
-"Breath"
+
 > END STRING
 
 > BEGIN STRING
 "ウェイト"
 > CONTEXT: Scripts/★Scene_Title （$data改変）/572:5
 > CONTEXT: Scripts/SR_Util other/759:27
-"Wait"
+
 > END STRING
 
 > BEGIN STRING
@@ -6414,22 +6414,22 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\#{myname}は快感を受けなかった！"
-> CONTEXT: Scripts/Game_Battler Textmake/135:18 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler Textmake/135:18
+"\#{myname} did not experience pleasure!"
 > END STRING
 
 > BEGIN STRING
 "\#{myname}のＥＰが \#{(damage.abs).to_s} 回復した！"
-> CONTEXT: Scripts/Game_Battler Textmake/145:16 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler Textmake/221:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler Textmake/145:16
+> CONTEXT: Scripts/Game_Battler Textmake/221:14
+"\#{myname}'s EP restored by \#{(damage.abs).to_s}!"
 > END STRING
 
 > BEGIN STRING
 "\#{$game_actors[101].name}は不幸になってしまった！\\w\\q"
-> CONTEXT: Scripts/Game_Battler Textmake/182:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 4/1418:18 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler Textmake/182:14
+> CONTEXT: Scripts/Scene_Battle 4/1418:18
+"\#{$game_actors[101].name} is out of luck!\\w\\q"
 > END STRING
 
 > BEGIN STRING
@@ -6458,8 +6458,8 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\#{myname}のＥＰが \#{(damage.abs).to_s} 回復した！\\q"
-> CONTEXT: Scripts/Game_Battler Textmake/216:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler Textmake/216:14
+"\#{myname}'s EP restored by \#{(damage.abs).to_s}!\\q"
 > END STRING
 
 > BEGIN STRING
@@ -6471,9 +6471,9 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\#{myname}のＶＰが \#{(recover_sp).to_s} 回復した！"
-> CONTEXT: Scripts/Game_Battler Textmake/217:14 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler Textmake/225:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler Textmake/217:14
+> CONTEXT: Scripts/Game_Battler Textmake/225:14
+"\#{myname}'s VP restored by \#{(recover_sp).to_s}!"
 > END STRING
 
 > BEGIN STRING
@@ -7758,8 +7758,8 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\#{@name}は\\nお腹が空いてきたようだ……"
-> CONTEXT: Scripts/Game_Actor/708:16 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Actor/708:16
+"\#{@name}\\nIs getting hungry..."
 > END STRING
 
 > BEGIN STRING
@@ -8302,14 +8302,14 @@ the probability of receiving SS decreases."
 "胸板"
 > CONTEXT: Scripts/Game_Battler 2/86:14
 > CONTEXT: Scripts/RPG::Skilltext/503:26
-"breats"
+"breasts"
 > END STRING
 
 > BEGIN STRING
 "膨らみかけの胸"
 > CONTEXT: Scripts/Game_Battler 2/88:14
 > CONTEXT: Scripts/RPG::Skilltext/504:26
-"growing breasts"
+"small breasts"
 > END STRING
 
 > BEGIN STRING
@@ -8345,7 +8345,7 @@ the probability of receiving SS decreases."
 "迫力ある胸"
 > CONTEXT: Scripts/Game_Battler 2/96:14
 > CONTEXT: Scripts/RPG::Skilltext/508:26
-"intense breasts"
+"powerful breasts"
 > END STRING
 
 > BEGIN STRING
@@ -9395,13 +9395,13 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "トーク"
-> CONTEXT: Scripts/Window_Skill_Battle/102:53
-> CONTEXT: Scripts/Scene_Battle 5/1832:56
-> CONTEXT: Scripts/Scene_Battle 4/1442:50
-> CONTEXT: Scripts/Scene_Battle 4/2341:50
-> CONTEXT: Scripts/Scene_Battle 4/2346:34
-> CONTEXT: Scripts/口上メソッド（基本）(2)/3126:16
-"Talk"
+> CONTEXT: Scripts/Window_Skill_Battle/102:53 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 5/1832:56 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 4/1442:50 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 4/2341:50 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 4/2346:34 < UNTRANSLATED
+> CONTEXT: Scripts/口上メソッド（基本）(2)/3126:16 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -9427,9 +9427,10 @@ the probability of receiving SS decreases."
 > BEGIN STRING
 "ピロートーク"
 > CONTEXT: Scripts/Window_Skill_Battle/103:51
-> CONTEXT: Scripts/Scene_Battle 5/1834:31
-> CONTEXT: Scripts/口上メソッド（基本）(2)/3124:16
-"Pillow talk"
+"Pillow Talk"
+> CONTEXT: Scripts/Scene_Battle 5/1834:31 < UNTRANSLATED
+> CONTEXT: Scripts/口上メソッド（基本）(2)/3124:16 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -12909,7 +12910,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/Scene_Battle 3/1430:44
 > CONTEXT: Scripts/RPG::Skilltext/420:12
 > CONTEXT: Scripts/Scene_Battle 5/1513:25
-"Release"
+
 > END STRING
 
 > BEGIN STRING
@@ -12936,7 +12937,7 @@ the probability of receiving SS decreases."
 > CONTEXT: Scripts/Scene_Battle HoldEffect/294:12
 > CONTEXT: Scripts/RPG::Skilltext/425:12
 > CONTEXT: Scripts/Scene_Battle 5/1513:50
-"Interrupt"
+
 > END STRING
 
 > BEGIN STRING
@@ -15343,7 +15344,7 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "\\w\\q\#{a.name}は経験値を多めに貰った！"
-> CONTEXT: Scripts/Scene_Battle 2/554:21 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 2/554:21
 "\\w\\q\#{a.name} received lots of experience points!"
 > END STRING
 
@@ -15355,13 +15356,13 @@ the probability of receiving SS decreases."
 
 > BEGIN STRING
 "ワイルドカード"
-> CONTEXT: Scripts/Scene_Battle 2/566:27 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 2/566:27
 "Wildcard" 
 > END STRING
 
 > BEGIN STRING
 "\\w\\q\#{actor.name}の装備していた\\w\\nワイルドカードが無くなってしまった……"
-> CONTEXT: Scripts/Scene_Battle 2/568:20 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 2/568:20
 "\\w\\q\#{actor.name}'s equipped\\w\\nwildcard disappeared..."
 > END STRING
 
@@ -18528,8 +18529,8 @@ revealing her voluptuous naked body!"
 
 > BEGIN STRING
 "、\\n\\m\#{targetname}に語りかけた！"
-> CONTEXT: Scripts/RPG::Skilltext/451:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/451:30
+",\\n\\mspoke to \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
@@ -18949,8 +18950,8 @@ revealing her voluptuous naked body!"
 
 > BEGIN STRING
 "口で、\\n\\m\#{targetname}のアソコを\#{brk2}愛撫した！"
-> CONTEXT: Scripts/RPG::Skilltext/577:32 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/577:32
+" caressed \\n\\m\#{targetname}'s pussy \#{brk2}with mouth!"
 > END STRING
 
 > BEGIN STRING
@@ -19596,8 +19597,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "身体が思うように動かない！"
-> CONTEXT: Scripts/RPG::Skilltext/891:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/891:28
+"' body doesn't move as wanted!"
 > END STRING
 
 > BEGIN STRING
@@ -21721,7 +21722,7 @@ hurriedly started fixing clothes..."
 > BEGIN STRING
 "\#{pantsu}の上から、\\n\\m\#{targetname}の股間にそっとキスしてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1481:30
-"Gently kissed \\n\\m\#{targetname}'s crotch from above \#{pantsu}!"
+" gently kissed \\n\\m\#{targetname}'s crotch from above \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
@@ -22732,7 +22733,7 @@ hurriedly started fixing clothes..."
 > BEGIN STRING
 "しかし回りこまれてしまった！\\q"
 > CONTEXT: Scripts/Scene_Battle 5/245:37
-"But it got turned around!\\q"
+"But got turned around!\\q"
 > END STRING
 
 > BEGIN STRING
@@ -31703,7 +31704,7 @@ and getting fired up."
 > BEGIN STRING
 "\#{speaker}は\#{master}の胸元に、\\m\\n意味ありげな視線を向けてきた……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/745:11
-"\#{speaker} took a suggestive look at \#{master}'s chest...!"
+"\#{speaker} took a suggestive look at \\m\\n\#{master}'s chest...!"
 > END STRING
 
 > BEGIN STRING

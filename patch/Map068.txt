@@ -1,17 +1,18 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "白ウサギ"
-> CONTEXT: Map068/events/2/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map018/events/66/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map068/events/2/pages/0/0/InlineScript/1:22
+> CONTEXT: Map018/events/66/pages/0/0/InlineScript/1:22
+"White Rabbit"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 夢魔の中には、こちらの事を見つけると動く者もいるよ。
-> CONTEXT: Map068/events/2/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map018/events/66/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map068/events/2/pages/0/1/Dialogue
+> CONTEXT: Map018/events/66/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Some succubi act when they see you.
 > END STRING
 
 > BEGIN STRING
@@ -19,22 +20,25 @@
 そういう夢魔がこちらに気付いた時は、まずは一旦引いて\\_
 様子を見るか、\\n通りすぎて一気に駆け抜けるかで、\\_
 兎も角は距離を離してみることだね。
-> CONTEXT: Map068/events/2/pages/0/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map018/events/66/pages/0/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map068/events/2/pages/0/3/Dialogue
+> CONTEXT: Map018/events/66/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+When such a succubus notices you, you should either back away
+and see what's going on, or run and keep your distance.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 彼女たちへの振り切り方の、多少なりとも参考になるはず\\_
 だから。
-> CONTEXT: Map068/events/2/pages/0/7/Dialogue < UNTRANSLATED
-> CONTEXT: Map018/events/66/pages/0/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map068/events/2/pages/0/7/Dialogue
+> CONTEXT: Map018/events/66/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+That should help you deal with them.
 > END STRING
 
 > BEGIN STRING
 ←変な泉　出口→
-> CONTEXT: Map068/events/3/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map068/events/3/pages/0/0/Dialogue
+←Peculiar fountain   Exit→
 > END STRING
