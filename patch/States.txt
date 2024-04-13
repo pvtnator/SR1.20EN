@@ -1,8 +1,8 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 失神
-> CONTEXT: States/1/name/ < UNTRANSLATED
-
+> CONTEXT: States/1/name/
+Fainted
 > END STRING
 
 > BEGIN STRING
@@ -13,27 +13,27 @@
 
 > BEGIN STRING
 絶頂
-> CONTEXT: States/3/name/ < UNTRANSLATED
-> CONTEXT: States/11/name/ < UNTRANSLATED
-
+> CONTEXT: States/3/name/
+> CONTEXT: States/11/name/
+Climax
 > END STRING
 
 > BEGIN STRING
 半裸
-> CONTEXT: States/4/name/ < UNTRANSLATED
-
+> CONTEXT: States/4/name/
+Half-naked
 > END STRING
 
 > BEGIN STRING
 全裸
-> CONTEXT: States/5/name/ < UNTRANSLATED
-
+> CONTEXT: States/5/name/
+Naked
 > END STRING
 
 > BEGIN STRING
 クライシス
-> CONTEXT: States/6/name/ < UNTRANSLATED
-
+> CONTEXT: States/6/name/
+Crisis
 > END STRING
 
 > BEGIN STRING
@@ -68,8 +68,8 @@
 
 > BEGIN STRING
 ディレイ
-> CONTEXT: States/13/name/ < UNTRANSLATED
-
+> CONTEXT: States/13/name/
+Delay
 > END STRING
 
 > BEGIN STRING
@@ -86,8 +86,8 @@
 
 > BEGIN STRING
 スタン
-> CONTEXT: States/16/name/ < UNTRANSLATED
-
+> CONTEXT: States/16/name/
+Stun
 > END STRING
 
 > BEGIN STRING
@@ -191,70 +191,70 @@ Lotion
 
 > BEGIN STRING
 恍惚
-> CONTEXT: States/34/name/ < UNTRANSLATED
-> CONTEXT: Map204/events/3/pages/0/69/Choice/0 < UNTRANSLATED
-> CONTEXT: Map158/events/23/pages/0/119/Choice/0 < UNTRANSLATED
-
+> CONTEXT: States/34/name/
+> CONTEXT: Map204/events/3/pages/0/69/Choice/0
+> CONTEXT: Map158/events/23/pages/0/119/Choice/0
+Ecstasy
 > END STRING
 
 > BEGIN STRING
 欲情
-> CONTEXT: States/35/name/ < UNTRANSLATED
-> CONTEXT: Map204/events/3/pages/0/69/Choice/1 < UNTRANSLATED
-> CONTEXT: Map158/events/23/pages/0/119/Choice/1 < UNTRANSLATED
-
+> CONTEXT: States/35/name/
+> CONTEXT: Map204/events/3/pages/0/69/Choice/1
+> CONTEXT: Map158/events/23/pages/0/119/Choice/1
+Lust
 > END STRING
 
 > BEGIN STRING
 暴走
-> CONTEXT: States/36/name/ < UNTRANSLATED
-> CONTEXT: Map204/events/3/pages/0/69/Choice/2 < UNTRANSLATED
-> CONTEXT: Map158/events/23/pages/0/119/Choice/2 < UNTRANSLATED
-
+> CONTEXT: States/36/name/
+> CONTEXT: Map204/events/3/pages/0/69/Choice/2
+> CONTEXT: Map158/events/23/pages/0/119/Choice/2
+Berserk
 > END STRING
 
 > BEGIN STRING
 虚脱
-> CONTEXT: States/37/name/ < UNTRANSLATED
-> CONTEXT: Map204/events/3/pages/0/138/Choice/0 < UNTRANSLATED
-> CONTEXT: Map158/events/23/pages/0/188/Choice/0 < UNTRANSLATED
-
+> CONTEXT: States/37/name/
+> CONTEXT: Map204/events/3/pages/0/138/Choice/0
+> CONTEXT: Map158/events/23/pages/0/188/Choice/0
+Collapse
 > END STRING
 
 > BEGIN STRING
 畏怖
-> CONTEXT: States/38/name/ < UNTRANSLATED
-> CONTEXT: Map204/events/3/pages/0/138/Choice/1 < UNTRANSLATED
-> CONTEXT: Map158/events/23/pages/0/188/Choice/1 < UNTRANSLATED
-
+> CONTEXT: States/38/name/
+> CONTEXT: Map204/events/3/pages/0/138/Choice/1
+> CONTEXT: Map158/events/23/pages/0/188/Choice/1
+Awe
 > END STRING
 
 > BEGIN STRING
 麻痺
-> CONTEXT: States/39/name/ < UNTRANSLATED
-> CONTEXT: Map204/events/3/pages/0/138/Choice/2 < UNTRANSLATED
-> CONTEXT: Map158/events/23/pages/0/188/Choice/2 < UNTRANSLATED
-
+> CONTEXT: States/39/name/
+> CONTEXT: Map204/events/3/pages/0/138/Choice/2
+> CONTEXT: Map158/events/23/pages/0/188/Choice/2
+Paralysis
 > END STRING
 
 > BEGIN STRING
 散漫
-> CONTEXT: States/40/name/ < UNTRANSLATED
-> CONTEXT: Map204/events/3/pages/0/138/Choice/3 < UNTRANSLATED
-> CONTEXT: Map158/events/23/pages/0/188/Choice/3 < UNTRANSLATED
-
+> CONTEXT: States/40/name/
+> CONTEXT: Map204/events/3/pages/0/138/Choice/3
+> CONTEXT: Map158/events/23/pages/0/188/Choice/3
+Distracted
 > END STRING
 
 > BEGIN STRING
 高揚
-> CONTEXT: States/41/name/ < UNTRANSLATED
-
+> CONTEXT: States/41/name/
+Uplifted
 > END STRING
 
 > BEGIN STRING
 沈着
-> CONTEXT: States/42/name/ < UNTRANSLATED
-
+> CONTEXT: States/42/name/
+Calm
 > END STRING
 
 > BEGIN STRING
@@ -517,8 +517,8 @@ Lotion
 
 > BEGIN STRING
 魔法陣
-> CONTEXT: States/98/name/ < UNTRANSLATED
-
+> CONTEXT: States/98/name/
+Magic Circle
 > END STRING
 
 > BEGIN STRING

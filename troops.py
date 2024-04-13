@@ -62,6 +62,6 @@ def process_file(input_file, output_file):
                     pending_line = line
 
 if __name__ == "__main__":
-    input_file = "troops.txt"  # Change to your input file name
-    output_file = "newtroops.txt"  # Change to your output file name
+    input_file = "patch/Enemies.txt"  # Change to your input file name
+    output_file = "patch/NewEnemies.txt"  # Change to your output file name
     process_file(input_file, output_file)
