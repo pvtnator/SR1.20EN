@@ -1582,87 +1582,94 @@ Did not sign a contract with \\v[3].
 
 > BEGIN STRING
 \\v[3]のお腹が満たされた！
-> CONTEXT: Commonevents/41/157/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/41/157/Dialogue
+\\v[3]'s stomach is full!
 > END STRING
 
 > BEGIN STRING
 \\v[2]は\\v[3]に精を献上した！
 \\v[2]はVPを\\v[4]消費した！
 \\v[3]のお腹が満たされた！
-> CONTEXT: Commonevents/41/179/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/41/179/Dialogue
+\\v[2] offered his semen to \\v[3]!
+\\v[2] consumed \\v[4] VP!
+\\v[3]'s stomach is full!
 > END STRING
 
 > BEGIN STRING
 \\v[3]は空腹に堪え切れず、
 \\v[2]に襲いかかってきた！
-> CONTEXT: Commonevents/43/50/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/43/50/Dialogue
+\\v[3] could not bear her hunger,
+\\v[2] is getting attacked!
 > END STRING
 
 > BEGIN STRING
 \\v[3]たちは空腹に堪え切れず、
 \\v[2]に襲いかかってきた！
-> CONTEXT: Commonevents/43/89/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/43/129/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/43/89/Dialogue
+> CONTEXT: Commonevents/43/129/Dialogue
+\\v[3] couldn't bear their hunger,
+\\v[2] is getting attacked!
 > END STRING
 
 > BEGIN STRING
 満腹度処理でエラーが発生したのですよ。
 至急修繕おにーさんたちは直しに行ってくださいな。
-> CONTEXT: Commonevents/43/141/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/43/141/Dialogue
+An error occurred while processing the hunger level.
+Repair men, please go and fix it as soon as possible.
 > END STRING
 
 > BEGIN STRING
 デバッグルームへ
-> CONTEXT: Commonevents/49/1/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Commonevents/49/1/Choice/0
+To debug room
 > END STRING
 
 > BEGIN STRING
 手動デバッグの切り替え
-> CONTEXT: Commonevents/49/1/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Commonevents/49/1/Choice/1
+Toggle manual debugging
 > END STRING
 
 > BEGIN STRING
 なにこれ？
-> CONTEXT: Commonevents/49/1/Choice/2 < UNTRANSLATED
-
+> CONTEXT: Commonevents/49/1/Choice/2
+What's this?
 > END STRING
 
 > BEGIN STRING
 現在はON状態です。OFFにしますか？
-> CONTEXT: Commonevents/49/10/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/49/10/Dialogue
+It is currently ON. Would you like to turn it off?
 > END STRING
 
 > BEGIN STRING
 OFFにしました。
-> CONTEXT: Commonevents/49/14/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/49/14/Dialogue
+Turned it off.
 > END STRING
 
 > BEGIN STRING
 現在はOFF状態です。ONにしますか？
-> CONTEXT: Commonevents/49/21/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/49/21/Dialogue
+It is currently OFF. Would you like to turn it on?
 > END STRING
 
 > BEGIN STRING
 ONにしました。
-> CONTEXT: Commonevents/49/25/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/49/25/Dialogue
+Turned it on.
 > END STRING
 
 > BEGIN STRING
 デバッグ用アイテムです。
 持ってるだけで夢の魔力の色んな扉を完全通過できます。
-> CONTEXT: Commonevents/49/35/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/49/35/Dialogue
+This is a debugging item.
+Just by having it, you can completely pass through 
+various doors of dream magic.
 > END STRING
 
 > BEGIN STRING
@@ -1674,8 +1681,8 @@ ONにしました。
 
 > BEGIN STRING
 \\v[2]は\\v[3]にランクアップした！
-> CONTEXT: Commonevents/59/15/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/59/15/Dialogue
+\\v[2] ranked up to \\v[3]!
 > END STRING
 
 > BEGIN STRING

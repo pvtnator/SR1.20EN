@@ -2710,7 +2710,7 @@
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/985:12
 > CONTEXT: Map098/events/1/pages/0/81/InlineScript/3:6
 > CONTEXT: Map098/events/1/pages/1/29/InlineScript/3:6
-"Self-righteous"
+"Cocky"
 > END STRING
 
 > BEGIN STRING
@@ -2844,7 +2844,7 @@
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/265:137
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/282:136
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/362:138
-"Self-deprecating"
+"Fool"
 > END STRING
 
 > BEGIN STRING
@@ -4950,7 +4950,7 @@
 > BEGIN STRING
 "虚脱状態になりにくい。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/302:24
-"Resistant to collapse"
+"Resistant to lethargy"
 > END STRING
 
 > BEGIN STRING
@@ -11388,7 +11388,7 @@
 > BEGIN STRING
 /./
 > CONTEXT: Scripts/Window_BattleLog/123:29
-/[a-pA-Pr-zR-Z ][my]|[mwqyH][\\!\\?\\.\\,\\:\\;\\-\\']|./
+/[a-pA-Pr-zR-Z ][my]|[mwqyH][a-pA-Pr-zR-Z \\!\\?\\.\\,\\:\\;\\-\\']|./
 > CONTEXT: Scripts/Window_Message/95:31 < UNTRANSLATED
 > CONTEXT: Scripts/Window_BattleBackLog/74:29 < UNTRANSLATED
 > CONTEXT: Scripts/メッセージ表示フルグレードアップX /790:30 < UNTRANSLATED
@@ -18541,31 +18541,31 @@
 > BEGIN STRING
 "\#{held}、\\n\\m\#{targetname}の唇を強引に奪った！"
 > CONTEXT: Scripts/RPG::Skilltext/464:32
-" \#{held} and \\n\\mforcibly captured \#{targetname}'s lips!"
+" \#{held}\\n\\mforcibly captured \#{targetname}'s lips!"
 > END STRING
 
 > BEGIN STRING
 "\#{held}、\\n\\m\#{targetname}と情熱的なキスを交わした！"
 > CONTEXT: Scripts/RPG::Skilltext/466:32
-" \#{held} and \\n\\mpassionately kissed \#{targetname}!"
+" \#{held}\\n\\mpassionately kissed \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
 "\#{held}、\\n\\m\#{targetname}の唇に、そっと唇を重ねた！"
 > CONTEXT: Scripts/RPG::Skilltext/468:32
-" \#{held} and \\n\\mgently placed lips on \#{targetname}'s lips!"
+" \#{held}\\n\\mgently placed lips on \#{targetname}'s lips!"
 > END STRING
 
 > BEGIN STRING
 "\#{held}、\\n\\m\#{targetname}と濃厚なキスを交わした！"
 > CONTEXT: Scripts/RPG::Skilltext/470:32
-" \#{held} and kissed \\n\\m\#{targetname} sensually!"
+" \#{held}\\n\\mkissed\#{targetname} sensually!"
 > END STRING
 
 > BEGIN STRING
 "\#{held}、\\n\\m\#{targetname}とキスを交わした！"
 > CONTEXT: Scripts/RPG::Skilltext/473:30
-" \#{held} and\\n\\mkissed \#{targetname}!"
+" \#{held}\\n\\mkissed \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
@@ -23741,6 +23741,11 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "艶かしく"
+> CONTEXT: Scripts/Talk_Sys Text(Map)/64:32
+> CONTEXT: Scripts/Talk_Sys Text(Map)/75:32
+> CONTEXT: Scripts/Talk_Sys Text(Map)/106:33
+> CONTEXT: Scripts/Talk_Sys Text(Map)/118:33
+"Sexily"
 > CONTEXT: Scripts/RPG::Skilltext/2050:20
 > CONTEXT: Scripts/RPG::Skilltext/2060:20
 > CONTEXT: Scripts/RPG::Skilltext/2076:20
@@ -23748,10 +23753,6 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/RPG::Skilltext/2101:20
 > CONTEXT: Scripts/RPG::Skilltext/2110:20
 > CONTEXT: Scripts/RPG::Skilltext/2158:20
-> CONTEXT: Scripts/Talk_Sys Text(Map)/64:32
-> CONTEXT: Scripts/Talk_Sys Text(Map)/75:32
-> CONTEXT: Scripts/Talk_Sys Text(Map)/106:33
-> CONTEXT: Scripts/Talk_Sys Text(Map)/118:33
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/218:25
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/236:37
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/243:28
@@ -24081,7 +24082,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "（"
 > CONTEXT: Scripts/Scene_Menu(Party_select)/300:21 < UNTRANSLATED
-
+""
 > END STRING
 
 > BEGIN STRING
@@ -24093,7 +24094,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "消費します）"
 > CONTEXT: Scripts/Scene_Menu(Party_select)/300:71
-"\\)"
+""
 > END STRING
 
 > BEGIN STRING
@@ -24148,7 +24149,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{targetname}のペニスを、\\n\\m口で咥えたまま舌で舐め回してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/2183:28 < UNTRANSLATED
-
+" kept \#{targetname}'s penis \\n\\min the mouth and licked it!"
 > END STRING
 
 > BEGIN STRING
@@ -27814,7 +27815,7 @@ Instinct Awakening
 > BEGIN STRING
 "\#{speaker}は"
 > CONTEXT: Scripts/Talk_Sys Text(Map)/30:15 < UNTRANSLATED
-
+"\#{speaker} "
 > END STRING
 
 > BEGIN STRING
@@ -27983,7 +27984,7 @@ Instinct Awakening
 > CONTEXT: Scripts/Talk_Sys Text(Map)/166:24 < UNTRANSLATED
 > CONTEXT: Scripts/Talk_Sys Text(Map)/200:24 < UNTRANSLATED
 > CONTEXT: Scripts/Talk_Sys Text(Map)/223:24 < UNTRANSLATED
-
+" squeezed my penis with her hand!"
 > END STRING
 
 > BEGIN STRING
@@ -27993,13 +27994,13 @@ Instinct Awakening
 > CONTEXT: Scripts/Talk_Sys Text(Map)/166:40 < UNTRANSLATED
 > CONTEXT: Scripts/Talk_Sys Text(Map)/200:40 < UNTRANSLATED
 > CONTEXT: Scripts/Talk_Sys Text(Map)/223:40 < UNTRANSLATED
-
+" licked my penis with her tongue!"
 > END STRING
 
 > BEGIN STRING
 "澄ました表情で"
 > CONTEXT: Scripts/Talk_Sys Text(Map)/81:22 < UNTRANSLATED
-
+" looking unruffled"
 > END STRING
 
 > BEGIN STRING
@@ -28060,7 +28061,7 @@ Instinct Awakening
 "服を脱ぐように\#{master}に言うと、"
 > CONTEXT: Scripts/Talk_Sys Text(Map)/101:21 < UNTRANSLATED
 > CONTEXT: Scripts/Talk_Sys Text(Map)/113:21 < UNTRANSLATED
-
+"told \#{master} to take off clothes,"
 > END STRING
 
 > BEGIN STRING
@@ -28881,7 +28882,7 @@ Instinct Awakening
 > CONTEXT: Scripts/Talk_Sys Text(Map)/266:50 < UNTRANSLATED
 > CONTEXT: Scripts/Talk_Sys Text(Map)/281:50 < UNTRANSLATED
 > CONTEXT: Scripts/Talk_Sys Text(Map)/285:50 < UNTRANSLATED
-
+"swallowed \#{master}'s semen..."
 > END STRING
 
 > BEGIN STRING

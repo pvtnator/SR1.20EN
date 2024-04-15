@@ -1,50 +1,52 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 本は固く閉じられている･･･。
-> CONTEXT: Map129/events/13/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map129/events/14/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map129/events/15/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map125/events/3/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map129/events/26/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map129/events/27/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map128/events/20/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map118/events/20/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map118/events/21/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map117/events/23/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map117/events/24/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map121/events/15/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map118/events/28/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map118/events/31/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map121/events/16/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map121/events/17/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map117/events/35/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map117/events/36/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map121/events/37/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map121/events/38/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map121/events/39/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map121/events/40/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map121/events/41/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map121/events/42/pages/0/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map129/events/13/pages/0/2/Dialogue
+> CONTEXT: Map129/events/14/pages/0/2/Dialogue
+> CONTEXT: Map129/events/15/pages/0/2/Dialogue
+> CONTEXT: Map125/events/3/pages/0/2/Dialogue
+> CONTEXT: Map129/events/26/pages/0/2/Dialogue
+> CONTEXT: Map129/events/27/pages/0/2/Dialogue
+> CONTEXT: Map128/events/20/pages/0/2/Dialogue
+> CONTEXT: Map118/events/20/pages/0/2/Dialogue
+> CONTEXT: Map118/events/21/pages/0/2/Dialogue
+> CONTEXT: Map117/events/23/pages/0/2/Dialogue
+> CONTEXT: Map117/events/24/pages/0/2/Dialogue
+> CONTEXT: Map121/events/15/pages/0/2/Dialogue
+> CONTEXT: Map118/events/28/pages/0/2/Dialogue
+> CONTEXT: Map118/events/31/pages/0/2/Dialogue
+> CONTEXT: Map121/events/16/pages/0/2/Dialogue
+> CONTEXT: Map121/events/17/pages/0/2/Dialogue
+> CONTEXT: Map117/events/35/pages/0/2/Dialogue
+> CONTEXT: Map117/events/36/pages/0/2/Dialogue
+> CONTEXT: Map121/events/37/pages/0/2/Dialogue
+> CONTEXT: Map121/events/38/pages/0/2/Dialogue
+> CONTEXT: Map121/events/39/pages/0/2/Dialogue
+> CONTEXT: Map121/events/40/pages/0/2/Dialogue
+> CONTEXT: Map121/events/41/pages/0/2/Dialogue
+> CONTEXT: Map121/events/42/pages/0/2/Dialogue
+The book is tightly closed...
 > END STRING
 
 > BEGIN STRING
 "女神官"
-> CONTEXT: Map129/events/16/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map118/events/22/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map129/events/16/pages/0/0/InlineScript/1:22
+> CONTEXT: Map118/events/22/pages/0/0/InlineScript/1:22
+"Priestess"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 鐘楼の鐘はいつも３回鳴らしています。
-> CONTEXT: Map129/events/16/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map129/events/16/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+The bell in the belfry always rings three times.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 １、２回しか鳴らさないと少々寂しいものですから。
-> CONTEXT: Map129/events/16/pages/0/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map129/events/16/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+It's feels lonely when it only rings once or twice.
 > END STRING

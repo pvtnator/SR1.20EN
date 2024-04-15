@@ -200,7 +200,7 @@ Heart earrings/6/-2
 > BEGIN STRING
 ハート型のピアス。夢魔が愛用して身に着けていることが多い。虚脱耐性。
 > CONTEXT: Armors/35/description/
-Often worn by succubi. Collapse resistance.
+Often worn by succubi. Lethargy resistance.
 > END STRING
 
 > BEGIN STRING
@@ -301,14 +301,14 @@ A rosary used for prayers. Disable runaway.
 
 > BEGIN STRING
 淑女のカメオ/0/7
-> CONTEXT: Armors/44/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/44/name/
+Lady Cameo/0/7
 > END STRING
 
 > BEGIN STRING
 欲情に耐性が付く、淑女が彫られたカメオ。しかしレジストが弱くなる。
-> CONTEXT: Armors/44/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/44/description/
+Carving of a lady. Resistance to lust, weaker resist.
 > END STRING
 
 > BEGIN STRING
@@ -584,7 +584,7 @@ Herb Crown/18/0
 > BEGIN STRING
 薬草を編んで作った冠。虚脱、麻痺、散漫の耐性を付ける。
 > CONTEXT: Armors/67/description/
-Woven from medicinal herbs. Resistant to collapse, paralysis, and distraction.
+Woven from medicinal herbs. Resistant to lethargy, paralysis, and distraction.
 > END STRING
 
 > BEGIN STRING
@@ -1083,7 +1083,7 @@ Vibrant rune
 > BEGIN STRING
 [○] 虚脱耐性が上がる。このルーンの効果は重複しない。
 > CONTEXT: Armors/136/description/
-[○] Increases collapse resistance. Effect doesn't stack.
+[○] Increases lethargy resistance. Effect doesn't stack.
 > END STRING
 
 > BEGIN STRING
@@ -1449,7 +1449,7 @@ Resist rune
 > BEGIN STRING
 [◇] 敵１人を中確率で虚脱させる魔法スキルを習得する。
 > CONTEXT: Armors/221/description/
-[◇] Learn a spell that has a medium chance to inflict collapse.
+[◇] Learn a spell that has a medium chance to inflict lethargy.
 > END STRING
 
 > BEGIN STRING
@@ -1479,7 +1479,7 @@ Resist rune
 > BEGIN STRING
 [◇] 味方１人の虚脱・畏怖・麻痺・散漫を解除する魔法スキルを習得する。
 > CONTEXT: Armors/227/description/
-[◇] Learn a spell that cures collapse, fear, paralysis and distraction.
+[◇] Learn a spell that cures lethargy, fear, paralysis and distraction.
 > END STRING
 
 > BEGIN STRING
