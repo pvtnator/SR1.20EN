@@ -839,7 +839,7 @@
 > BEGIN STRING
 "\#{targetname}に\\n\\m\#{itemname}を渡した！"
 > CONTEXT: Scripts/RPG::Itemtext /26:24
-"\#{targetname} was given\\n\\m\#{itemname}!"
+"\#{targetname} was given\\n​m​\#{itemname}!"
 > END STRING
 
 > BEGIN STRING
@@ -2870,13 +2870,13 @@
 > BEGIN STRING
 "\#{myname}は気力を振り絞り立ち上がった！"
 > CONTEXT: Scripts/RPG::Statetext/24:19
-"\#{myname} gathered all his strength and stood up!"
+"\#{myname} fully gathered strength and stood up!"
 > END STRING
 
 > BEGIN STRING
 "\#{myname}は射精の余韻で力が入らない！"
 > CONTEXT: Scripts/RPG::Statetext/25:18
-"\#{myname} has no strength from the afterglow of ejaculation!"
+"\#{myname} has no strength \\nfrom the afterglow of ejaculation!"
 > END STRING
 
 > BEGIN STRING
@@ -3057,7 +3057,7 @@
 > BEGIN STRING
 "\#{myname}の陰核が肥大化を始める……！\\n\\m\#{myname}の股間にペニスが出現した！"
 > CONTEXT: Scripts/RPG::Statetext/108:18
-"\#{myname}'s penis begins to grow...!\\n\\m\#{myname}'s penis is showing!"
+"\#{myname}'s penis begins to grow...!\\n​m​\#{myname}'s penis is showing!"
 > END STRING
 
 > BEGIN STRING
@@ -3118,7 +3118,7 @@
 > BEGIN STRING
 "\#{myname}のアソコから愛液が溢れ出ている！"
 > CONTEXT: Scripts/RPG::Statetext/129:18
-"\#{myname}'s vagina is overflowing　\\m　\\nwith love juices!"
+"\#{myname}'s vagina is overflowing ​m​　\\nwith love juices!"
 > END STRING
 
 > BEGIN STRING
@@ -4526,7 +4526,7 @@
 > BEGIN STRING
 "強化"
 > CONTEXT: Scripts/RPG::Statetext/282:24
-"Enhancement"
+"enhanced"
 > END STRING
 
 > BEGIN STRING
@@ -4539,7 +4539,7 @@
 > BEGIN STRING
 "更に強化"
 > CONTEXT: Scripts/RPG::Statetext/282:29
-"Further enhancement"
+"enhanced further"
 > END STRING
 
 > BEGIN STRING
@@ -4699,7 +4699,7 @@
 > BEGIN STRING
 "弱体化"
 > CONTEXT: Scripts/RPG::Statetext/304:24
-"Weakening"
+"weakened"
 > END STRING
 
 > BEGIN STRING
@@ -4715,7 +4715,7 @@
 > BEGIN STRING
 "更に弱体化"
 > CONTEXT: Scripts/RPG::Statetext/304:30
-"Further weakened"
+"weakened further"
 > END STRING
 
 > BEGIN STRING
@@ -5127,7 +5127,7 @@
 > BEGIN STRING
 "\#{myname}の\#{myself.marking_battler.name}への\\m\\n"
 > CONTEXT: Scripts/RPG::Statetext/365:19
-"\#{myself.marking_battler.name}'s\\m\\n"
+"\#{myself.marking_battler.name}'s​m​\\n"
 > END STRING
 
 > BEGIN STRING
@@ -6290,9 +6290,6 @@
 > CONTEXT: Scripts/Scene_Battle 4/1291:49 < UNTRANSLATED
 > CONTEXT: Scripts/Scene_Battle 4/1320:49 < UNTRANSLATED
 > CONTEXT: Scripts/Scene_Battle 4/1336:56 < UNTRANSLATED
-> CONTEXT: Scripts/Window_BattleLog/375:45 < UNTRANSLATED
-> CONTEXT: Scripts/Window_BattleLog/379:50 < UNTRANSLATED
-> CONTEXT: Scripts/Window_BattleLog/382:16 < UNTRANSLATED
 > CONTEXT: Scripts/SR_Util other/250:14 < UNTRANSLATED
 > CONTEXT: Scripts/Incense_System/299:54 < UNTRANSLATED
 > CONTEXT: Scripts/Incense_System/321:52 < UNTRANSLATED
@@ -6314,6 +6311,9 @@
 > CONTEXT: Scripts/Talk_Sys Talk/840:21 < UNTRANSLATED
 > CONTEXT: Scripts/Talk_Sys Talk/845:21 < UNTRANSLATED
 > CONTEXT: Scripts/Talk_Sys Talk/850:21 < UNTRANSLATED
+> CONTEXT: Scripts/Window_BattleLog/375:45 < UNTRANSLATED
+> CONTEXT: Scripts/Window_BattleLog/379:50 < UNTRANSLATED
+> CONTEXT: Scripts/Window_BattleLog/382:16 < UNTRANSLATED
 
 > END STRING
 
@@ -6352,11 +6352,11 @@
 
 > BEGIN STRING
 "\\q"
+> CONTEXT: Scripts/Scene_Battle 2/34:42 < UNTRANSLATED
 > CONTEXT: Scripts/Game_Battler Textmake/87:21 < UNTRANSLATED
 > CONTEXT: Scripts/Game_Battler Textmake/201:21 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 2/34:42 < UNTRANSLATED
-> CONTEXT: Scripts/Window_BattleLog/244:15 < UNTRANSLATED
 > CONTEXT: Scripts/Scene_Box/342:22 < UNTRANSLATED
+> CONTEXT: Scripts/Window_BattleLog/244:15 < UNTRANSLATED
 
 > END STRING
 
@@ -6368,9 +6368,9 @@
 
 > BEGIN STRING
 "Sensual Stroke！\\w\\q"
-> CONTEXT: Scripts/Game_Battler Textmake/109:17 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/433:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler Textmake/109:17
+> CONTEXT: Scripts/Talk_Sys Talk/433:17
+"Sensual Stroke!\\w\\q"
 > END STRING
 
 > BEGIN STRING
@@ -6440,8 +6440,8 @@
 
 > BEGIN STRING
 "闇を裁く閃光の鉄槌が、悪しき者どもを貫く！！\\w\\q"
-> CONTEXT: Scripts/Game_Battler Textmake/188:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler Textmake/188:14
+"The flashing hammer \\nthat judges the darkness will pierce the wicked!\\w\\q"
 > END STRING
 
 > BEGIN STRING
@@ -9581,44 +9581,44 @@
 
 > BEGIN STRING
 "尻尾"
-> CONTEXT: Scripts/Game_Battler 1/601:47 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/655:46 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/708:45 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle PluralAttack/88:14 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/242:38 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/245:37 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/248:36 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/113:16 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/171:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/508:26 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/570:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/280:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/288:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/288:27 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/288:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/288:37 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/288:42 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/311:48 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/312:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/312:27 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/312:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/312:37 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/312:42 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/313:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/313:27 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/313:32 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/313:37 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/313:42 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/313:47 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/313:52 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/313:57 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/313:62 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/313:67 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/455:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/589:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/592:67 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/595:67 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 1/601:47
+> CONTEXT: Scripts/Game_Battler 1/655:46
+> CONTEXT: Scripts/Game_Battler 1/708:45
+> CONTEXT: Scripts/Scene_Battle PluralAttack/88:14
+> CONTEXT: Scripts/Game_BattlerHold/242:38
+> CONTEXT: Scripts/Game_BattlerHold/245:37
+> CONTEXT: Scripts/Game_BattlerHold/248:36
+> CONTEXT: Scripts/RPG::Skilltext/113:16
+> CONTEXT: Scripts/Scene_Battle RandomAction/171:12
+> CONTEXT: Scripts/Scene_Battle RandomAction/508:26
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/570:14
+> CONTEXT: Scripts/Talk_Sys Talk/280:20
+> CONTEXT: Scripts/Talk_Sys Talk/288:22
+> CONTEXT: Scripts/Talk_Sys Talk/288:27
+> CONTEXT: Scripts/Talk_Sys Talk/288:32
+> CONTEXT: Scripts/Talk_Sys Talk/288:37
+> CONTEXT: Scripts/Talk_Sys Talk/288:42
+> CONTEXT: Scripts/Talk_Sys Talk/311:48
+> CONTEXT: Scripts/Talk_Sys Talk/312:22
+> CONTEXT: Scripts/Talk_Sys Talk/312:27
+> CONTEXT: Scripts/Talk_Sys Talk/312:32
+> CONTEXT: Scripts/Talk_Sys Talk/312:37
+> CONTEXT: Scripts/Talk_Sys Talk/312:42
+> CONTEXT: Scripts/Talk_Sys Talk/313:22
+> CONTEXT: Scripts/Talk_Sys Talk/313:27
+> CONTEXT: Scripts/Talk_Sys Talk/313:32
+> CONTEXT: Scripts/Talk_Sys Talk/313:37
+> CONTEXT: Scripts/Talk_Sys Talk/313:42
+> CONTEXT: Scripts/Talk_Sys Talk/313:47
+> CONTEXT: Scripts/Talk_Sys Talk/313:52
+> CONTEXT: Scripts/Talk_Sys Talk/313:57
+> CONTEXT: Scripts/Talk_Sys Talk/313:62
+> CONTEXT: Scripts/Talk_Sys Talk/313:67
+> CONTEXT: Scripts/Talk_Sys Talk/455:28
+> CONTEXT: Scripts/Talk_Sys Talk/589:10
+> CONTEXT: Scripts/Talk_Sys Talk/592:67
+> CONTEXT: Scripts/Talk_Sys Talk/595:67
+"tail"
 > END STRING
 
 > BEGIN STRING
@@ -11388,7 +11388,7 @@
 > BEGIN STRING
 /./
 > CONTEXT: Scripts/Window_BattleLog/123:29
-/[a-pA-Pr-zR-Z ][my]|[mwqyH][a-pA-Pr-zR-Z \\!\\?\\.\\,\\:\\;\\-\\']|./
+/[a-zA-Z ][mqw][a-z\\!\\?\\.\\,\\:\\;\\-\\']|[a-pA-Pr-zR-Z ][my]|[yH][a-pA-Pr-zR-Z \\!\\?\\.\\,\\:\\;\\-\\']|./
 > CONTEXT: Scripts/Window_Message/95:31 < UNTRANSLATED
 > CONTEXT: Scripts/Window_BattleBackLog/74:29 < UNTRANSLATED
 > CONTEXT: Scripts/メッセージ表示フルグレードアップX /790:30 < UNTRANSLATED
@@ -14674,7 +14674,6 @@
 /[\\n\\q]/
 > CONTEXT: Scripts/Scene_Battle Other/144:30 < UNTRANSLATED
 > CONTEXT: Scripts/SR_Util other/466:23 < UNTRANSLATED
-
 > END STRING
 
 > BEGIN STRING
@@ -15379,8 +15378,8 @@
 
 > BEGIN STRING
 "\\w\\q\#{actor.name}の装備していた\\n手作りミサンガが切れた！"
-> CONTEXT: Scripts/Scene_Battle 2/576:22 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 2/576:22
+"\\w\\q\#{actor.name}'s equipped\\nhandmade misanga has expired!"
 > END STRING
 
 > BEGIN STRING
@@ -18097,7 +18096,7 @@
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/617:43
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/657:30
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/78:24
-" without hurry!"
+"without hurry"
 > END STRING
 
 > BEGIN STRING
@@ -18177,25 +18176,25 @@
 > BEGIN STRING
 "、\\n\\m\#{targetname}の服を脱がせようと試みた！"
 > CONTEXT: Scripts/RPG::Skilltext/157:30
-",\\n\\mis attempting to undress \#{targetname}!"
+",\\n​m​is attempting to undress \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
 "、\\n\\m\#{targetname}が纏う粘液を落とそうと試みた！"
 > CONTEXT: Scripts/RPG::Skilltext/159:30
-",\\n\\mis attempting to remove the slime from \#{targetname}!"
+",\\n​m​is attempting to remove the slime from \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
 "、\\n\\m\#{targetname}の服を脱がせようとした！"
 > CONTEXT: Scripts/RPG::Skilltext/161:30
-",\\n\\mis attempting to undress \#{targetname}!"
+",\\n​m​is attempting to undress \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
 "、\\n\\m\#{targetname}が纏う粘液を落とそうとしてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/163:30
-",\\n\\m\#{targetname} is trying to remove the slime!"
+",\\n​m​\#{targetname} is trying to remove the slime!"
 > END STRING
 
 > BEGIN STRING
@@ -18228,7 +18227,7 @@
 > CONTEXT: Scripts/RPG::Skilltext/213:34
 > CONTEXT: Scripts/RPG::Skilltext/258:34
 > CONTEXT: Scripts/RPG::Skilltext/307:34
-",\\n\\mis pinning down \#{targetname}'s small body from above!"
+",\\n​m​is pinning down \#{targetname}'s small body from above!"
 > END STRING
 
 > BEGIN STRING
@@ -18237,7 +18236,7 @@
 > CONTEXT: Scripts/RPG::Skilltext/215:34
 > CONTEXT: Scripts/RPG::Skilltext/260:34
 > CONTEXT: Scripts/RPG::Skilltext/309:34
-",\\n\\mis squashing \#{targetname}'s delicate frame from above!"
+",\\n​m​is getting on \#{targetname}'s delicate body from above!"
 > END STRING
 
 > BEGIN STRING
@@ -18246,7 +18245,7 @@
 > CONTEXT: Scripts/RPG::Skilltext/217:34
 > CONTEXT: Scripts/RPG::Skilltext/262:34
 > CONTEXT: Scripts/RPG::Skilltext/311:34
-",\\n\\mis getting on \#{targetname} from above!"
+",\\n​m​is getting on \#{targetname} from above!"
 > END STRING
 
 > BEGIN STRING
@@ -18255,7 +18254,7 @@
 > CONTEXT: Scripts/RPG::Skilltext/222:34
 > CONTEXT: Scripts/RPG::Skilltext/267:34
 > CONTEXT: Scripts/RPG::Skilltext/316:34
-",\\n\\mpushed down \#{targetname}'s small frame!"
+",\\n​m​pushed down \#{targetname}'s small frame!"
 > END STRING
 
 > BEGIN STRING
@@ -18264,7 +18263,7 @@
 > CONTEXT: Scripts/RPG::Skilltext/224:34
 > CONTEXT: Scripts/RPG::Skilltext/269:34
 > CONTEXT: Scripts/RPG::Skilltext/318:34
-",\\n\\mpushed down \#{targetname}'s delicate frame!"
+",\\n​m​pushed down \#{targetname}'s delicate frame!"
 > END STRING
 
 > BEGIN STRING
@@ -18273,46 +18272,46 @@
 > CONTEXT: Scripts/RPG::Skilltext/226:34
 > CONTEXT: Scripts/RPG::Skilltext/271:34
 > CONTEXT: Scripts/RPG::Skilltext/320:34
-",\\n\\mpushed \#{targetname} down!"
+",\\n​m​pushed \#{targetname} down!"
 > END STRING
 
 > BEGIN STRING
 "\#{targetname}は、\\n\\m\#{myname}に組み伏せられてしまった！"
 > CONTEXT: Scripts/RPG::Skilltext/200:22
 > CONTEXT: Scripts/RPG::Skilltext/232:22
-"\#{targetname} is getting \\n\\mpinned down by \#{myname}!"
+"\#{targetname} is getting \\n​m​pinned down by \#{myname}!"
 > END STRING
 
 > BEGIN STRING
 "\#{targetname}は、\\n\\m\#{myname}に押し倒された！"
 > CONTEXT: Scripts/RPG::Skilltext/202:22
 > CONTEXT: Scripts/RPG::Skilltext/234:22
-"\#{targetname} is getting \\n\\mpushed down by \#{myname}!"
+"\#{targetname} is getting \\n​m​pushed down by \#{myname}!"
 > END STRING
 
 > BEGIN STRING
 "、そそり勃つ\#{penis_word}を\\n\\m\#{targetname}の口元に突きつけた！"
 > CONTEXT: Scripts/RPG::Skilltext/246:30
-", thrust erect \#{penis_word} \\n\\mat \#{targetname}'s mouth!"
+", thrust erect \#{penis_word} \\n​m​at \#{targetname}'s mouth!"
 > END STRING
 
 > BEGIN STRING
 "、そそり勃つ\#{penis_word}を\\n\\m\#{targetname}の口元に突き出した！"
 > CONTEXT: Scripts/RPG::Skilltext/248:30
-", thrust erect \#{penis_word} \\n\\min \#{targetname}'s mouth!"
+", thrust erect \#{penis_word} \\n​m​in \#{targetname}'s mouth!"
 > END STRING
 
 > BEGIN STRING
 "\#{targetname}の視界いっぱいに、\\n\\m指で開かれた\#{myname}のアソコが映る！"
 > CONTEXT: Scripts/RPG::Skilltext/278:24
-"\#{myname} is spreading \\n\\mher pussy at \#{targetname}'s face!"
+"\#{myname} is spreading \\n​m​her pussy at \#{targetname}'s face!"
 > END STRING
 
 > BEGIN STRING
 "\#{targetname}の視界いっぱいに、\\n\\m\#{myname}のアソコが映る！"
 > CONTEXT: Scripts/RPG::Skilltext/280:24
 > CONTEXT: Scripts/RPG::Skilltext/295:24
-"\#{myname} is shoving her pussy \\n\\min \#{targetname}'s face!"
+"\#{myname} is shoving her pussy \\n​m​in \#{targetname}'s face!"
 > END STRING
 
 > BEGIN STRING
@@ -18324,19 +18323,19 @@
 > BEGIN STRING
 "\#{targetname}の視界いっぱいに、\\n\\m\#{myname}のアソコを覆う小さな布地が映る！"
 > CONTEXT: Scripts/RPG::Skilltext/287:24
-"\#{targetname} can see a \\n\\msmall piece of fabric covering \#{myname}'s pussy!"
+"\#{targetname} can see a \\n​m​small piece of fabric covering \#{myname}'s pussy!"
 > END STRING
 
 > BEGIN STRING
 "\#{targetname}の視界いっぱいに、\\n\\m\#{myname}の健康的な脚が映る！"
 > CONTEXT: Scripts/RPG::Skilltext/289:24
-"\#{targetname} can see \\n\\m\#{myname}'s fit legs!"
+"\#{targetname} can see \\n​m​\#{myname}'s fit legs!"
 > END STRING
 
 > BEGIN STRING
 "\#{targetname}の視界いっぱいに、\\n\\m半透明の粘液に覆われた\#{myname}のアソコが映る！"
 > CONTEXT: Scripts/RPG::Skilltext/291:24
-"\#{targetname}'s view \\n\\mis filled with \#{myname}'s vagina in translucent mucus!"
+"\#{targetname}'s view \\n​m​is filled with \#{myname}'s vagina in translucent mucus!"
 > END STRING
 
 > BEGIN STRING
@@ -18349,14 +18348,14 @@
 "\#{targetname}の目の前に、\\n\\m\#{myname}のお尻が迫ってきた！"
 > CONTEXT: Scripts/RPG::Skilltext/326:22
 > CONTEXT: Scripts/RPG::Skilltext/328:22
-"\#{targetname} has \\n\\m\#{myname}'s ass right in front!"
+"\#{targetname} has \\n​m​\#{myname}'s ass right in front!"
 > END STRING
 
 > BEGIN STRING
 "、\\n\\m\#{targetname}の両足を左右に開かせた！"
 > CONTEXT: Scripts/RPG::Skilltext/335:30
 > CONTEXT: Scripts/RPG::Skilltext/350:30
-",\\n\\m\#{targetname}'s legs are spread to the left and right!"
+",\\n​m​\#{targetname}'s legs are spread to the left and right!"
 > END STRING
 
 > BEGIN STRING
@@ -18381,7 +18380,7 @@
 > BEGIN STRING
 "\#{targetname}のアソコに顔を近づけ、\\n\\m\#{myname}は\#{emotion}！"
 > CONTEXT: Scripts/RPG::Skilltext/344:20
-" approached \#{targetname}'s pussy,\\n\\m\#{emotion}!"
+" approached \#{targetname}'s pussy,\\n​m​\#{emotion}!"
 > END STRING
 
 > BEGIN STRING
@@ -18399,7 +18398,7 @@
 > BEGIN STRING
 "\#{targetname}のペニスに顔を近づけ、\\n\\m\#{myname}は\#{emotion}！"
 > CONTEXT: Scripts/RPG::Skilltext/359:20
-" approaching \#{targetname}'s penis,\\n\\m\#{myname} \#{emotion}!"
+" approaching \#{targetname}'s penis,\\n​m​\#{myname} \#{emotion}!"
 > END STRING
 
 > BEGIN STRING
@@ -18504,7 +18503,7 @@
 > BEGIN STRING
 "\#{partner.name}を抱き寄せ、\\n\\m密着している\#{targetname}と離そうと試みた！"
 > CONTEXT: Scripts/RPG::Skilltext/432:30
-" grabbed \#{partner.name}\\n\\mand tried to separate her from \#{targetname}!"
+" grabbed \#{partner.name}\\n​m​and tried to separate her from \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
@@ -18529,7 +18528,7 @@
 > BEGIN STRING
 "、\\n\\m\#{targetname}に語りかけた！"
 > CONTEXT: Scripts/RPG::Skilltext/451:30
-",\\n\\mspoke to \#{targetname}!"
+",\\n​m​spoke to \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
@@ -18541,49 +18540,49 @@
 > BEGIN STRING
 "\#{held}、\\n\\m\#{targetname}の唇を強引に奪った！"
 > CONTEXT: Scripts/RPG::Skilltext/464:32
-" \#{held}\\n\\mforcibly captured \#{targetname}'s lips!"
+" \#{held}\\n​m​forcibly captured \#{targetname}'s lips!"
 > END STRING
 
 > BEGIN STRING
 "\#{held}、\\n\\m\#{targetname}と情熱的なキスを交わした！"
 > CONTEXT: Scripts/RPG::Skilltext/466:32
-" \#{held}\\n\\mpassionately kissed \#{targetname}!"
+" \#{held}\\n​m​passionately kissed \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
 "\#{held}、\\n\\m\#{targetname}の唇に、そっと唇を重ねた！"
 > CONTEXT: Scripts/RPG::Skilltext/468:32
-" \#{held}\\n\\mgently placed lips on \#{targetname}'s lips!"
+" \#{held}\\n​m​gently placed lips on \#{targetname}'s lips!"
 > END STRING
 
 > BEGIN STRING
 "\#{held}、\\n\\m\#{targetname}と濃厚なキスを交わした！"
 > CONTEXT: Scripts/RPG::Skilltext/470:32
-" \#{held}\\n\\mkissed\#{targetname} sensually!"
+" \#{held}\\n​m​kissed \#{targetname} sensually!"
 > END STRING
 
 > BEGIN STRING
 "\#{held}、\\n\\m\#{targetname}とキスを交わした！"
 > CONTEXT: Scripts/RPG::Skilltext/473:30
-" \#{held}\\n\\mkissed \#{targetname}!"
+" \#{held}\\n​m​kissed \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
 "手で、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/481:32
-" caressed \\n\\m\#{targetname}'s \#{target.bustsize} by hand !"
+" caressed \\n​m​\#{targetname}'s \#{target.bustsize} by hand !"
 > END STRING
 
 > BEGIN STRING
 "手を伸ばし、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/482:32
-" reached out and \\n\\mcaressed \#{targetname}'s \#{target.bustsize}!"
+" reached out and \\n​m​caressed \#{targetname}'s \#{target.bustsize}!"
 > END STRING
 
 > BEGIN STRING
 "口で、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/484:32
-" caressed \\n\\m\#{targetname}'s \#{target.bustsize} \#{brk2}with mouth!"
+" caressed \\n​m​\#{targetname}'s \#{target.bustsize} \#{brk2}with mouth!"
 > END STRING
 
 > BEGIN STRING
@@ -18595,25 +18594,25 @@
 > BEGIN STRING
 "手で、服越しに\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/489:32
-" caressed \\n\\m\#{targetname}'s \#{target.bustsize} through clothes!"
+" caressed \\n​m​\#{targetname}'s \#{target.bustsize} through clothes!"
 > END STRING
 
 > BEGIN STRING
 "手を伸ばし、服越しに\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/490:32
-" reached out and caressed \\n\\m\#{targetname}'s \#{target.bustsize} through clothes!"
+" reached out and caressed \\n​m​\#{targetname}'s \#{target.bustsize} through clothes!"
 > END STRING
 
 > BEGIN STRING
 "口で、服越しに\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/492:32
-" caressed \\n\\m\#{targetname}'s \#{target.bustsize} \\n\\mthrough clothes by mouth!"
+" caressed \\n​m​\#{targetname}'s \#{target.bustsize} \\n​m​through clothes by mouth!"
 > END STRING
 
 > BEGIN STRING
 "体勢を変えて、服越しに\\n\\m口で\#{targetname}の\#{target.bustsize}を\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/493:32
-" changed position and \\n\\mcaressed \#{targetname}'s \#{target.bustsize} by mouth through clothes!"
+" changed position and \\n​m​caressed \#{targetname}'s \#{target.bustsize} by mouth through clothes!"
 > END STRING
 
 > BEGIN STRING
@@ -18806,7 +18805,7 @@
 > BEGIN STRING
 "手で、\\n\\m\#{targetname}のお尻を愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/532:32
-" caressed \\n\\m\#{targetname}'s butt by hand!"
+" caressed \\n​m​\#{targetname}'s butt by hand!"
 > END STRING
 
 > BEGIN STRING
@@ -18826,7 +18825,7 @@
 > BEGIN STRING
 "手を伸ばし、\\n\\m\#{targetname}のお尻を愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/533:32
-"Reached out and caressed \\n\\m\#{targetname}'s butt!"
+"Reached out and caressed \\n​m​\#{targetname}'s butt!"
 > END STRING
 
 > BEGIN STRING
@@ -18842,7 +18841,7 @@
 > BEGIN STRING
 "口で、\\n\\m\#{targetname}のお尻を愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/535:32
-" caressed \\n\\m\#{targetname}'s ass with mouth!"
+" caressed \\n​m​\#{targetname}'s ass with mouth!"
 > END STRING
 
 > BEGIN STRING
@@ -18861,19 +18860,19 @@
 > BEGIN STRING
 "体勢を変えて、\\n\\m口で\#{targetname}のお尻を\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/536:32
-" changed position \\n\\mand caressed \#{targetname}'s ass \#{brk2}by mouth!"
+" changed position \\n​m​and caressed \#{targetname}'s ass \#{brk2}by mouth!"
 > END STRING
 
 > BEGIN STRING
 "手で、\#{pantsu}越しに\\n\\m\#{targetname}のお尻を愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/540:32
-" caressed \\n\\m\#{targetname}'s butt through \#{pantsu} by hand!"
+" caressed \\n​m​\#{targetname}'s butt through \#{pantsu} by hand!"
 > END STRING
 
 > BEGIN STRING
 "手を伸ばし、\#{pantsu}越しに\\n\\m\#{targetname}のお尻を愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/541:32
-" reached out and caressed \\n\\m\#{targetname}'s butt through \#{pantsu}!"
+" reached out and caressed \\n​m​\#{targetname}'s butt through \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
@@ -18893,7 +18892,7 @@
 > BEGIN STRING
 "口で、\#{pantsu}越しに\\n\\m\#{targetname}のお尻を愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/543:32
-" caressed\\n\\m\#{targetname}'s ass through \#{pantsu} with mouth!"
+" caressed\\n​m​\#{targetname}'s ass through \#{pantsu} with mouth!"
 > END STRING
 
 > BEGIN STRING
@@ -18908,7 +18907,7 @@
 > BEGIN STRING
 "体勢を変えて、\#{pantsu}越しに\\n\\m口で\#{targetname}のお尻を\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/544:32
-" changed position and caressed \\n\\m\#{targetname}'s ass with mouth \#{brk2}through \#{pantsu}!"
+" changed position and caressed \\n​m​\#{targetname}'s ass with mouth \#{brk2}through \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
@@ -18937,19 +18936,19 @@
 > BEGIN STRING
 "手で、\\n\\m\#{targetname}のアソコを\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/574:32
-" caressed \\n\\m\#{targetname}'s pussy by hand!"
+" caressed \\n​m​\#{targetname}'s pussy by hand!"
 > END STRING
 
 > BEGIN STRING
 "手を伸ばし、\\n\\m\#{targetname}のアソコを\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/575:32
-" reached out and caressed\\n\\m\#{targetname}'s pussy!"
+" reached out and caressed\\n​m​\#{targetname}'s pussy!"
 > END STRING
 
 > BEGIN STRING
 "口で、\\n\\m\#{targetname}のアソコを\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/577:32
-" caressed \\n\\m\#{targetname}'s pussy \#{brk2}with mouth!"
+" caressed \\n​m​\#{targetname}'s pussy \#{brk2}with mouth!"
 > END STRING
 
 > BEGIN STRING
@@ -18970,7 +18969,7 @@
 > BEGIN STRING
 "体勢を変えて、\\n\\m口で\#{targetname}のアソコを\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/578:32
-" changed position \\n\\mand caressed \#{targetname}'s \#{brk2}pussy by mouth!"
+" changed position \\n​m​and caressed \#{targetname}'s \#{brk2}pussy by mouth!"
 > END STRING
 
 > BEGIN STRING
@@ -18989,7 +18988,7 @@
 > BEGIN STRING
 "手で、\#{pantsu}越しに\\n\\m\#{targetname}のアソコを\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/582:32
-" caressed \\n\\m\#{targetname}'s pussy through \#{pantsu} \#{brk2}by hand!"
+" caressed \\n​m​\#{targetname}'s pussy through \#{pantsu} \#{brk2}by hand!"
 > END STRING
 
 > BEGIN STRING
@@ -19011,7 +19010,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "手を伸ばし、\#{pantsu}越しに\\n\\m\#{targetname}のアソコを\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/583:32
-"Reached out and caressed \\n\\m\#{targetname}'s pussy \#{brk2}through \#{pantsu}!"
+"Reached out and caressed \\n​m​\#{targetname}'s pussy \#{brk2}through \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
@@ -19037,13 +19036,13 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "口で、\#{pantsu}越しに\\n\\m\#{targetname}のアソコを\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/585:32
-" caressed \\n\\m\#{targetname}'s pussy through \#{pantsu} \#{brk2}by mouth!"
+" caressed \\n​m​\#{targetname}'s pussy through \#{pantsu} \#{brk2}by mouth!"
 > END STRING
 
 > BEGIN STRING
 "体勢を変えて、\#{pantsu}越しに\\n\\m口で\#{targetname}のアソコを\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/586:32
-" changed position and caressed \\n\\m\#{targetname}'s pussy by mouth through \#{pantsu}!"
+" changed position and caressed \\n​m​\#{targetname}'s pussy by mouth through \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
@@ -19226,8 +19225,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{brk}\#{targetname}にまたがったまま、\\n\\m艶かしく腰を振った！"
-> CONTEXT: Scripts/RPG::Skilltext/667:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/667:30
+"\#{brk} shook hips seductively \\n\\mwhile straddling \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
@@ -19264,25 +19263,25 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "腰を落とし、\\n\\m\#{targetname}の口にアソコを押し付けた！"
 > CONTEXT: Scripts/RPG::Skilltext/681:32
-" bent down and \\n\\mpressed my vagina against \#{targetname}'s mouth!"
+" bent down and \\n​m​pressed my vagina against \#{targetname}'s mouth!"
 > END STRING
 
 > BEGIN STRING
 "\#{myself.bustsize}の谷間を、\\n\\m\#{targetname}の顔に押し付けた！"
 > CONTEXT: Scripts/RPG::Skilltext/689:30
-" shoved \#{myself.bustsize}'s cleavage into \\n\\m\#{targetname}'s face!"
+" shoved \#{myself.bustsize}'s cleavage into \\n​m​\#{targetname}'s face!"
 > END STRING
 
 > BEGIN STRING
 "\#{myself.bustsize}の谷間で、\\n\\m\#{targetname}の顔を包み込んだ！"
 > CONTEXT: Scripts/RPG::Skilltext/691:30
-"'s \#{myself.bustsize} hugged \\n\\m\#{targetname}'s face!"
+"'s \#{myself.bustsize} hugged \\n​m​\#{targetname}'s face!"
 > END STRING
 
 > BEGIN STRING
 "、\\n\\m\#{targetname}のアソコを舌で突き上げた！"
 > CONTEXT: Scripts/RPG::Skilltext/698:32
-",\\n\\mstuck tongue up \#{targetname}'s pussy!"
+",\\n​m​stuck tongue up \#{targetname}'s pussy!"
 > END STRING
 
 > BEGIN STRING
@@ -19306,7 +19305,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{pantsu}越しに、\\n\\m\#{targetname}のアソコを舌で突き上げた！"
 > CONTEXT: Scripts/RPG::Skilltext/713:32
-" thrusted tongue up \\n\\m\#{targetname}'s pussy through \#{pantsu}!"
+" thrusted tongue up \\n​m​\#{targetname}'s pussy through \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
@@ -19324,7 +19323,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "手を伸ばし、\\n\\m\#{targetname}のアソコを愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/730:30
-" reached out and caressed \\n\\m\#{targetname}'s pussy!"
+" reached out and caressed \\n​m​\#{targetname}'s pussy!"
 > END STRING
 
 > BEGIN STRING
@@ -19342,31 +19341,31 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "抱きしめたまま、\\n\\m\#{targetname}の\#{target.bustsize}を刺激した！"
 > CONTEXT: Scripts/RPG::Skilltext/734:30
-" stimulated \#{targetname}'s\\n\\m\#{target.bustsize} while holding!"
+" stimulated \#{targetname}'s\\n​m​\#{target.bustsize} while holding!"
 > END STRING
 
 > BEGIN STRING
 "後ろ手で、\\n\\m\#{targetname}のアソコの愛撫を試みた！"
 > CONTEXT: Scripts/RPG::Skilltext/741:30
-" tried to caress \\n\\m\#{targetname}'s pussy from behind!"
+" tried to caress \\n​m​\#{targetname}'s pussy from behind!"
 > END STRING
 
 > BEGIN STRING
 "振り向いて、\\n\\m\#{targetname}とキスを試みた！"
 > CONTEXT: Scripts/RPG::Skilltext/742:30
-" turned around and tried to kiss \\n\\m\#{targetname}!"
+" turned around and tried to kiss \\n​m​\#{targetname}!"
 > END STRING
 
 > BEGIN STRING
 "後ろ手で、\\n\\m\#{targetname}の太股を優しく撫で回した！"
 > CONTEXT: Scripts/RPG::Skilltext/744:30
-" hands behind back, \\n\\mgently caressed \#{targetname}'s thighs!"
+" hands behind back, \\n​m​gently caressed \#{targetname}'s thighs!"
 > END STRING
 
 > BEGIN STRING
 "体をよじり、\\n\\m\#{targetname}の\#{target.bustsize}を刺激した！"
 > CONTEXT: Scripts/RPG::Skilltext/745:30
-" twisted around \\n\\mand stimulated \#{targetname}'s \#{target.bustsize}!"
+" twisted around \\n​m​and stimulated \#{targetname}'s \#{target.bustsize}!"
 > END STRING
 
 > BEGIN STRING
@@ -19397,25 +19396,25 @@ this succubus will no longer be at Home.
 "身をよじり、\\n\\m体勢を変えようと試みた！"
 > CONTEXT: Scripts/RPG::Skilltext/760:28
 > CONTEXT: Scripts/RPG::Skilltext/2618:28
-" twisted \\n\\mand tried to reposition!"
+" twisted \\n​m​and tried to reposition!"
 > END STRING
 
 > BEGIN STRING
 "、\\n\\m\#{targetname}を焦らすように愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/764:28
-",\\n\\mcaressed \#{targetname} teasingly!"
+",\\n​m​caressed \#{targetname} teasingly!"
 > END STRING
 
 > BEGIN STRING
 "、\\n\\m\#{targetname}の不意をつき翻弄した！"
 > CONTEXT: Scripts/RPG::Skilltext/768:28
-",\\n\\mcaught by surprised and toyed with \#{targetname}!"
+",\\n​m​caught by surprised and toyed with \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
 "貪るように、\\n\\m\#{targetname}の体躯をまさぐった！"
 > CONTEXT: Scripts/RPG::Skilltext/772:28
-"Greedily \\n\\mgroped \#{targetname}'s body!"
+"Greedily \\n​m​groped \#{targetname}'s body!"
 > END STRING
 
 > BEGIN STRING
@@ -19451,25 +19450,25 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{myname}は意識を集中し、\\n\\m自身の状態変化を全て打ち消した！"
 > CONTEXT: Scripts/RPG::Skilltext/796:18
-"\#{myname} focused and \\n\\mcanceled all changes in own state!"
+"\#{myname} focused and \\n​m​canceled all changes in own state!"
 > END STRING
 
 > BEGIN STRING
 "、\\n\\m\#{targetname}の事を調べた！"
 > CONTEXT: Scripts/RPG::Skilltext/800:28
-",\\n\\manalyzed \#{targetname}!"
+",\\n​m​analyzed \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
 "、\\n\\m\#{targetname}の事を隅々まで調べた！"
 > CONTEXT: Scripts/RPG::Skilltext/804:28
-",\\n\\m assessed everything about \#{targetname}!"
+",\\n​m​ assessed everything about \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
 "、\\n\\m\#{targetname}に艶めかしく体躯を魅せつけた！"
 > CONTEXT: Scripts/RPG::Skilltext/808:28
-",\\n\\mshowed off her voluptuous body to \#{targetname}!"
+",\\n​m​showed off her voluptuous body to \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
@@ -19548,7 +19547,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\\n\\m\#{targetname}の体をなぞり品定めをした！"
 > CONTEXT: Scripts/RPG::Skilltext/867:28
-"\\n\\mtraced and assessed \#{targetname}'s body!"
+"\\n​m​traced and assessed \#{targetname}'s body!"
 > END STRING
 
 > BEGIN STRING
@@ -19604,14 +19603,14 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/RPG::Skilltext/896:30
 > CONTEXT: Scripts/RPG::Skilltext/905:30
 > CONTEXT: Scripts/RPG::Skilltext/979:30
-",\\n\\mis skipping about around \#{targetname}..."
+",\\n​m​is skipping about around \#{targetname}..."
 > END STRING
 
 > BEGIN STRING
 "、\\n\\m羽根を動かして遊んでいる……"
 > CONTEXT: Scripts/RPG::Skilltext/897:30
 > CONTEXT: Scripts/RPG::Skilltext/906:30
-",\\n\\mis idly moving her wings..."
+",\\n​m​is idly moving her wings..."
 > END STRING
 
 > BEGIN STRING
@@ -19621,49 +19620,49 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/RPG::Skilltext/973:30
 > CONTEXT: Scripts/RPG::Skilltext/980:30
 > CONTEXT: Scripts/RPG::Skilltext/1011:32
-"Smiling seductively..."
+" is smiling seductively..."
 > END STRING
 
 > BEGIN STRING
 "自分の尻尾の手入れをしている……"
-> CONTEXT: Scripts/RPG::Skilltext/900:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/903:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/900:30
+> CONTEXT: Scripts/RPG::Skilltext/903:30
+" is grooming her tail..."
 > END STRING
 
 > BEGIN STRING
 "値踏みをするように、\\n\\m\#{targetname}を観察している……"
-> CONTEXT: Scripts/RPG::Skilltext/908:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/911:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/931:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/934:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/957:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/976:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/990:32 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/908:30
+> CONTEXT: Scripts/RPG::Skilltext/911:30
+> CONTEXT: Scripts/RPG::Skilltext/931:30
+> CONTEXT: Scripts/RPG::Skilltext/934:30
+> CONTEXT: Scripts/RPG::Skilltext/957:30
+> CONTEXT: Scripts/RPG::Skilltext/976:30
+> CONTEXT: Scripts/RPG::Skilltext/990:32
+" is watching \\n​m​\#{targetname} wishfully..."
 > END STRING
 
 > BEGIN STRING
 "\#{targetname}に、\\n\\m妖しげな笑みを向けている……"
-> CONTEXT: Scripts/RPG::Skilltext/909:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/912:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/958:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/1008:32 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/909:30
+> CONTEXT: Scripts/RPG::Skilltext/912:30
+> CONTEXT: Scripts/RPG::Skilltext/958:30
+> CONTEXT: Scripts/RPG::Skilltext/1008:32
+" is giving\\n​m​\#{targetname} a mysterious smile..."
 > END STRING
 
 > BEGIN STRING
 "身体をぷるぷる振るわせている……"
-> CONTEXT: Scripts/RPG::Skilltext/914:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/917:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/914:30
+> CONTEXT: Scripts/RPG::Skilltext/917:30
+" is shaking her body..."
 > END STRING
 
 > BEGIN STRING
 "、\\n\\m自分の身体を色々な形に変えて遊んでいる……"
-> CONTEXT: Scripts/RPG::Skilltext/915:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/918:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/915:30
+> CONTEXT: Scripts/RPG::Skilltext/918:30
+" is playing around,\\n​m​changing her form in various ways..."
 > END STRING
 
 > BEGIN STRING
@@ -19675,7 +19674,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "眠そうな瞳で、\\n\\m\#{targetname}の顔を見つめている……"
 > CONTEXT: Scripts/RPG::Skilltext/921:30
-", with sleepy eyes stares at\\n\\m\#{targetname}'s face..."
+" is staring at \\n​m​\#{targetname}'s face with dreamy eyes..."
 > END STRING
 
 > BEGIN STRING
@@ -19694,7 +19693,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/RPG::Skilltext/928:30
 > CONTEXT: Scripts/RPG::Skilltext/964:30
 > CONTEXT: Scripts/RPG::Skilltext/997:32
-" suddenly remembering it,\\n\\mhurriedly started fixing clothes..."
+" suddenly remembering it,\\n​m​hurriedly started fixing clothes..."
 > END STRING
 
 > BEGIN STRING
@@ -19722,7 +19721,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{targetname}の様子を窺い、\\n\\m何やら考え込んでいる……"
 > CONTEXT: Scripts/RPG::Skilltext/937:30
-"\#{targetname} is watching, \\n\\mdeep in thought..."
+"\#{targetname} is watching, \\n​m​deep in thought..."
 > END STRING
 
 > BEGIN STRING
@@ -19794,7 +19793,7 @@ this succubus will no longer be at Home.
 "真っ直ぐに、\\n\\m\#{targetname}の顔を見つめている……"
 > CONTEXT: Scripts/RPG::Skilltext/948:30
 > CONTEXT: Scripts/RPG::Skilltext/951:30
-" is staring \\n\\mstraight at \#{targetname}'s face..."
+" is staring \\n​m​straight at \#{targetname}'s face..."
 > END STRING
 
 > BEGIN STRING
@@ -19813,7 +19812,7 @@ this succubus will no longer be at Home.
 "冷淡な目つきで、\\n\\m\#{targetname}を見つめている……"
 > CONTEXT: Scripts/RPG::Skilltext/955:30
 > CONTEXT: Scripts/RPG::Skilltext/971:30
-" stares at\\n\\m\#{targetname} with cold eyes..."
+" stares at\\n​m​\#{targetname} with cold eyes..."
 > END STRING
 
 > BEGIN STRING
@@ -19844,7 +19843,7 @@ this succubus will no longer be at Home.
 "警戒するように、\\n\\m\#{targetname}を観察している……"
 > CONTEXT: Scripts/RPG::Skilltext/970:30
 > CONTEXT: Scripts/RPG::Skilltext/995:32
-" is observing\\n\\m\#{targetname} with caution..."
+" is observing\\n​m​\#{targetname} with caution..."
 > END STRING
 
 > BEGIN STRING
@@ -19869,7 +19868,7 @@ this succubus will no longer be at Home.
 "挑発的な目つきで、\\n\\m\#{targetname}を見ている……"
 > CONTEXT: Scripts/RPG::Skilltext/992:32
 > CONTEXT: Scripts/RPG::Skilltext/1016:32
-" is looking \\n\\mprovocatively at \#{targetname}..."
+" is looking \\n​m​provocatively at \#{targetname}..."
 > END STRING
 
 > BEGIN STRING
@@ -19907,7 +19906,7 @@ this succubus will no longer be at Home.
 "自分も混ざりたそうに、\\n\\m\#{targetname}達の行為を見つめている……"
 > CONTEXT: Scripts/RPG::Skilltext/1030:32
 > CONTEXT: Scripts/RPG::Skilltext/1081:32
-" is watching \\n\\m\#{targetname}'s actions as if she was involved..."
+" is watching \\n​m​\#{targetname}'s actions as if she was involved..."
 > END STRING
 
 > BEGIN STRING
@@ -20096,7 +20095,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "微笑を浮かべて、\\n\\m\#{targetname}達の行為を見つめている……"
 > CONTEXT: Scripts/RPG::Skilltext/1059:32
-" is smiling, watching\\n\\m\#{targetname}'s actions..."
+" is smiling, watching\\n​m​\#{targetname}'s actions..."
 > END STRING
 
 > BEGIN STRING
@@ -20108,7 +20107,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "先を越されたとばかりに、\\n\\m\#{targetname}達を見て悔しがっている……"
 > CONTEXT: Scripts/RPG::Skilltext/1065:32
-" is looking at \\n\\m\#{targetname} frustrated because she got beaten to it..."
+" is looking at \\n​m​\#{targetname} frustrated because she got beaten to it..."
 > END STRING
 
 > BEGIN STRING
@@ -20120,7 +20119,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "挑むような目で、\\n\\m\#{targetname}の様子を伺っている……"
 > CONTEXT: Scripts/RPG::Skilltext/1067:32
-" is checking on \\n\\m\#{targetname} with competitive eyes..."
+" is checking on \\n​m​\#{targetname} with competitive eyes..."
 > END STRING
 
 > BEGIN STRING
@@ -20264,7 +20263,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "満面の笑顔で、\\n\\m\#{targetname}の顔を覗き込んでいる……"
 > CONTEXT: Scripts/RPG::Skilltext/1083:32
-" is looking at \\n\\m\#{targetname}'s face with a big smile..."
+" is looking at \\n​m​\#{targetname}'s face with a big smile..."
 > END STRING
 
 > BEGIN STRING
@@ -20382,7 +20381,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "自信満々の顔で、\\n\\m不敵な笑みを浮かべている……"
 > CONTEXT: Scripts/RPG::Skilltext/1105:32
-" has a confident face \\n\\mand a fearless smile..."
+" has a confident face \\n​m​and a fearless smile..."
 > END STRING
 
 > BEGIN STRING
@@ -20504,7 +20503,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "、\\n\\m\#{targetname}の唇にそっと唇を重ねてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1147:30
-",\\n\\mgently placed lips on \#{targetname}'s lips!"
+",\\n​m​gently placed lips on \#{targetname}'s lips!"
 > END STRING
 
 > BEGIN STRING
@@ -20522,7 +20521,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "、\\n\\m\#{targetname}にそっとキスをしてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1149:30
-", kissed \\n\\m\#{targetname} softly!"
+", kissed \\n​m​\#{targetname} softly!"
 > END STRING
 
 > BEGIN STRING
@@ -20534,7 +20533,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "目を閉じて、\\n\\m\#{targetname}にそっとキスをしてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1154:30
-" closed eyes \\n\\mand kissed \#{targetname} softly!"
+" closed eyes \\n​m​and kissed \#{targetname} softly!"
 > END STRING
 
 > BEGIN STRING
@@ -20546,7 +20545,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "、\\n\\m\#{targetname}にキスをしてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1156:30
-", kissed \\n\\m\#{targetname}!"
+", kissed \\n​m​\#{targetname}!"
 > END STRING
 
 > BEGIN STRING
@@ -20564,7 +20563,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "目を閉じて、\\n\\m\#{targetname}と何度もキスを繰り返してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1161:30
-" closed eyes and kissed\\n\\m\#{targetname} over and over!"
+" closed eyes and kissed\\n​m​\#{targetname} over and over!"
 > END STRING
 
 > BEGIN STRING
@@ -20577,7 +20576,7 @@ this succubus will no longer be at Home.
 "舌を絡めるように、\\n\\m\#{targetname}に情熱的なキスをしてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1163:30
 > CONTEXT: Scripts/RPG::Skilltext/1170:30
-" kissed \\n\\m\#{targetname} passionately, locking tongues!"
+" kissed \\n​m​\#{targetname} passionately, locking tongues!"
 > END STRING
 
 > BEGIN STRING
@@ -20601,7 +20600,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "うるんだ瞳で、\\n\\m貪るように\#{targetname}にキスをしてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1168:30
-" with tearful eyes,\\n\\mgreedily kissed\#{targetname}!"
+" with tearful eyes,\\n​m​greedily kissed \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
@@ -20631,7 +20630,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "上目遣いに、\\n\\m何度も\#{targetname}にキスを重ねてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1175:30
-" looked up at \\n\\m\#{targetname} and kissed over and over!"
+" looked up at \\n​m​\#{targetname} and kissed over and over!"
 > END STRING
 
 > BEGIN STRING
@@ -20652,7 +20651,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "なおも激しく、\\n\\m\#{targetname}に情熱的なキスを重ねてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1177:30
-" continued to kiss \\n\\m\#{targetname} passionately!"
+" continued to kiss \\n​m​\#{targetname} passionately!"
 > END STRING
 
 > BEGIN STRING
@@ -20672,7 +20671,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "可愛らしく微笑んで、\\n\\m\#{targetname}にそっとキスをしてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1180:28
-" smiled adorably and kissed \\n\\m\#{targetname} softly!"
+" smiled adorably and kissed \\n​m​\#{targetname} softly!"
 > END STRING
 
 > BEGIN STRING
@@ -20684,7 +20683,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "微笑みを浮かべ、\\n\\m\#{targetname}と情熱的なキスを交わした！"
 > CONTEXT: Scripts/RPG::Skilltext/1182:28
-" smiled and passionately kissed \\n\\m\#{targetname}!"
+" smiled and passionately kissed \\n​m​\#{targetname}!"
 > END STRING
 
 > BEGIN STRING
@@ -20737,7 +20736,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "手で、\\n\\m\#{targetname}のペニスに優しく触れてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1190:30
-" gently touched \\n\\m\#{targetname}'s penis!"
+" gently touched \\n​m​\#{targetname}'s penis!"
 > END STRING
 
 > BEGIN STRING
@@ -20749,7 +20748,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "指で、\\n\\m\#{targetname}のペニスに優しく触れてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1191:30
-" gently touched \\n\\m\#{targetname}'s penis with fingers!"
+" gently touched \\n​m​\#{targetname}'s penis with fingers!"
 > END STRING
 
 > BEGIN STRING
@@ -20771,7 +20770,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/RPG::Skilltext/1733:19
 > CONTEXT: Scripts/RPG::Skilltext/1823:19
 > CONTEXT: Scripts/RPG::Skilltext/1842:21
-"\\n\\mThe slimy penis fills me with pleasure!"
+"\\n​m​The slimy penis fills me with pleasure!"
 > END STRING
 
 > BEGIN STRING
@@ -20783,7 +20782,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{pantsu}の上から、\\n\\m\#{targetname}のペニスにそっと触れてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1194:30
-" gently touched\\n\\m\#{targetname}'s penis from above \#{pantsu}!"
+" gently touched\\n​m​\#{targetname}'s penis from above \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
@@ -20796,14 +20795,14 @@ this succubus will no longer be at Home.
 "手で、\\n\\m\#{targetname}のペニスを撫でてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1198:30
 > CONTEXT: Scripts/RPG::Skilltext/2436:30
-" stroked \\n\\m\#{targetname}'s penis by hand!"
+" stroked \\n​m​\#{targetname}'s penis by hand!"
 > END STRING
 
 > BEGIN STRING
 "指先で、\\n\\m\#{targetname}のペニスを撫でてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1199:30
 > CONTEXT: Scripts/RPG::Skilltext/2437:30
-" stroked \\n\\m\#{targetname}'s penis with fingertips!"
+" stroked \\n​m​\#{targetname}'s penis with fingertips!"
 > END STRING
 
 > BEGIN STRING
@@ -20836,7 +20835,7 @@ this succubus will no longer be at Home.
 "\#{pantsu}の上から、\\n\\m\#{targetname}のペニスを撫でてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1202:30
 > CONTEXT: Scripts/RPG::Skilltext/2440:30
-" stroked \\n\\m\#{targetname}'s penis from above \#{pantsu}!"
+" stroked \\n​m​\#{targetname}'s penis from above \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
@@ -20847,8 +20846,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m手で\#{targetname}のペニスを撫で回した！"
-> CONTEXT: Scripts/RPG::Skilltext/1207:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1207:30
+" stroked \\n​m​\#{targetname}'s penis by hand \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -20859,8 +20858,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\指先で\#{targetname}のペニスを撫で回した！"
-> CONTEXT: Scripts/RPG::Skilltext/1208:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1208:30
+" stroked \\n​m​\#{targetname}'s penis with fingertips \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -20894,7 +20893,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/RPG::Skilltext/2256:19
 > CONTEXT: Scripts/RPG::Skilltext/2259:19
 > CONTEXT: Scripts/RPG::Skilltext/2263:19
-"\\n\\mThe slimy penis gives strong pleasure!"
+"\\n​m​The slimy penis gives strong pleasure!"
 > END STRING
 
 > BEGIN STRING
@@ -20950,7 +20949,7 @@ this succubus will no longer be at Home.
 "\#{pantsu}に手を滑り込ませ、\\n\\m\#{targetname}のペニスを撫で回した！"
 > CONTEXT: Scripts/RPG::Skilltext/1212:30
 > CONTEXT: Scripts/RPG::Skilltext/1220:30
-" slipped hand into \#{pantsu} \\n\\mand stroked \#{targetname}'s penis!"
+" slipped hand into \#{pantsu} \\n​m​and stroked \#{targetname}'s penis!"
 > END STRING
 
 > BEGIN STRING
@@ -20967,8 +20966,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}のペニスを思うまま弄ぶ！"
-> CONTEXT: Scripts/RPG::Skilltext/1216:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1216:30
+" is playing with \\n​m​\#{targetname}'s penis \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -20993,7 +20992,7 @@ this succubus will no longer be at Home.
 "手で、\\n\\m\#{targetname}の袋を優しくさすってきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1224:30
 > CONTEXT: Scripts/RPG::Skilltext/2444:30
-" gently rubbed \\n\\m\#{targetname}'s sack!"
+" gently rubbed \\n​m​\#{targetname}'s sack!"
 > END STRING
 
 > BEGIN STRING
@@ -21025,7 +21024,7 @@ this succubus will no longer be at Home.
 "\#{pantsu}に手を滑り込ませ、\\n\\m\#{targetname}の袋を手でさすってきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1227:30
 > CONTEXT: Scripts/RPG::Skilltext/2447:30
-"Slipped hand into \#{pantsu} \\n\\mand began to rub \#{targetname}'s sack by hand!"
+"Slipped hand into \#{pantsu} \\n​m​and began to rub \#{targetname}'s sack by hand!"
 > END STRING
 
 > BEGIN STRING
@@ -21043,7 +21042,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "手で、\\n\\m\#{targetname}の袋を撫で回してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1231:30
-" strokes \\n\\m\#{targetname}'s sack with by hand!"
+" strokes \\n​m​\#{targetname}'s sack with by hand!"
 > END STRING
 
 > BEGIN STRING
@@ -21068,7 +21067,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{pantsu}に手を滑り込ませ、\\n\\m\#{targetname}の袋を手で撫で回した！"
 > CONTEXT: Scripts/RPG::Skilltext/1234:30
-"Slipped hand into \#{pantsu} \\n\\mand fondled \#{targetname}'s sack by hand!"
+"Slipped hand into \#{pantsu} \\n​m​and fondled \#{targetname}'s sack by hand!"
 > END STRING
 
 > BEGIN STRING
@@ -21085,8 +21084,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}のペニスを更に愛撫した！"
-> CONTEXT: Scripts/RPG::Skilltext/1238:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1238:30
+" caressed \\n​m​\#{targetname}'s penis \#{tec} even more!"
 > END STRING
 
 > BEGIN STRING
@@ -21104,7 +21103,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "滑り込ませた手で、\\n\\m\#{targetname}のペニスを更に弄ってきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1241:30
-" slipped hand in \\n\\mand began to play with \#{targetname}'s penis more!"
+" slipped hand in \\n​m​and began to play with \#{targetname}'s penis more!"
 > END STRING
 
 > BEGIN STRING
@@ -21128,8 +21127,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の袋を更に撫で回してきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1245:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1245:30
+" is stroking \\n​m​\#{targetname}'s sack \#{tec} even more!"
 > END STRING
 
 > BEGIN STRING
@@ -21147,7 +21146,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "滑り込ませた手で、\\n\\m\#{targetname}の袋を更に撫で回してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1247:30
-" slipped hand into \\n\\m\#{targetname}'s sack even more!"
+" slipped hand into \\n​m​\#{targetname}'s sack even more!"
 > END STRING
 
 > BEGIN STRING
@@ -21159,7 +21158,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "手で、\\n\\m\#{targetname}の\#{target.bustsize}に\#{brk3}優しく触れてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1252:30
-" touched \\n\\m\#{targetname}'s \#{target.bustsize} \#{brk3}by hand!"
+" touched \\n​m​\#{targetname}'s \#{target.bustsize} \#{brk3}by hand!"
 > END STRING
 
 > BEGIN STRING
@@ -21175,7 +21174,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "手で、\\n\\m\#{targetname}の乳首に優しく触れてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1253:30
-" gently touched \\n\\m\#{targetname}'s nipples with hands!"
+" gently touched \\n​m​\#{targetname}'s nipples with hands!"
 > END STRING
 
 > BEGIN STRING
@@ -21189,7 +21188,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "服の上から、\\n\\m\#{targetname}の\#{target.bustsize}に\#{brk3}手で優しく触れてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1255:30
-" gently touched \\n\\m\#{targetname}'s \#{target.bustsize} \#{brk3}over the clothes!"
+" gently touched \\n​m​\#{targetname}'s \#{target.bustsize} \#{brk3}over the clothes!"
 > END STRING
 
 > BEGIN STRING
@@ -21229,7 +21228,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "服の上から、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk3}手で撫で回してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1267:30
-" caressed \\n\\m\#{targetname}'s \#{target.bustsize} \#{brk3}over the clothes!"
+" caressed \\n​m​\#{targetname}'s \#{target.bustsize} \#{brk3}over the clothes!"
 > END STRING
 
 > BEGIN STRING
@@ -21254,38 +21253,38 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "服に手を滑り込ませ、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk3}揉みしだいてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1279:30
-" slipped hand under clothes \\n\\mand began to massage \#{targetname}'s \#{brk3}\#{target.bustsize}!"
+" slipped hand under clothes \\n​m​and began to massage \#{targetname}'s \#{brk3}\#{target.bustsize}!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk3}思うまま弄ぶ！"
 > CONTEXT: Scripts/RPG::Skilltext/1288:30
-"\#{tec}, \\n\\mplayed with \#{targetname}'s \#{target.bustsize} \#{brk3}to heart's content!"
+"\#{tec}, \\n​m​played with \#{targetname}'s \#{target.bustsize} \#{brk3}to heart's content!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の乳首を巧みに刺激してきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1289:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/1297:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1289:30
+> CONTEXT: Scripts/RPG::Skilltext/1297:30
+" is skillfully stimulating \\n​m​\#{targetname}'s nipples \#{tec}!"
 > END STRING
 
 > BEGIN STRING
 "服に手を滑り込ませ、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk3}思うまま弄ぶ！"
 > CONTEXT: Scripts/RPG::Skilltext/1292:30
-" slipped hands into clothes \\n\\mand played with\#{targetname}'s \#{target.bustsize} \#{brk3}to heart's content!"
+" slipped hands into clothes \\n​m​and played with\#{targetname}'s \#{target.bustsize} \#{brk3}to heart's content!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk3}更に揉みしだいた！"
 > CONTEXT: Scripts/RPG::Skilltext/1296:30
-"\#{tec}, \\n\\m\#{targetname}'s \#{target.bustsize} \#{brk3}got rubbed even more!"
+"\#{tec}, \\n​m​\#{targetname}'s \#{target.bustsize} \#{brk3}got rubbed even more!"
 > END STRING
 
 > BEGIN STRING
 "服に滑り込ませた手で、\\n\\m\#{targetname}の\#{target.bustsize}を更に弄ぶ！"
 > CONTEXT: Scripts/RPG::Skilltext/1299:30
-" played more with \\n\\m\#{targetname}'s \#{target.bustsize}!"
+" played more with \\n​m​\#{targetname}'s \#{target.bustsize}!"
 > END STRING
 
 > BEGIN STRING
@@ -21303,20 +21302,20 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "手で、\\n\\m\#{targetname}のアソコに優しく触れてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1309:30
-" gently touched \\n\\m\#{targetname}'s pussy by hand!"
+" gently touched \\n​m​\#{targetname}'s pussy by hand!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}の上から、\\n\\m\#{targetname}のアソコに優しく触れてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1311:30
-" gently touched \\n\\m\#{targetname}'s pussy from above \#{pantsu}!"
+" gently touched \\n​m​\#{targetname}'s pussy from above \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
 "手で、\\n\\m\#{targetname}のアソコを撫でてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1315:30
 > CONTEXT: Scripts/RPG::Skilltext/2423:30
-" stroked \\n\\m\#{targetname}'s pussy by hand!"
+" stroked \\n​m​\#{targetname}'s pussy by hand!"
 > END STRING
 
 > BEGIN STRING
@@ -21330,7 +21329,7 @@ this succubus will no longer be at Home.
 "\#{pantsu}の上から、\\n\\m\#{targetname}のアソコを撫でてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1318:30
 > CONTEXT: Scripts/RPG::Skilltext/2426:30
-" stroked \#{targetname}'s pussy \\n\\mfrom above \#{pantsu}!"
+" stroked \#{targetname}'s pussy \\n​m​from above \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
@@ -21342,14 +21341,14 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{pantsu}に手を滑り込ませ、\\n\\m\#{targetname}のアソコを指で愛撫してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1324:30
-" slipped hand into \#{pantsu} \\n\\mand caressed \#{targetname}'s pussy!"
+" slipped hand into \#{pantsu} \\n​m​and caressed \#{targetname}'s pussy!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}のアソコを思うまま弄ぶ！"
-> CONTEXT: Scripts/RPG::Skilltext/1328:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/1593:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1328:30
+> CONTEXT: Scripts/RPG::Skilltext/1593:30
+" is playing with\\n​m​\#{targetname}'s pussy \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -21380,7 +21379,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{pantsu}に手を滑り込ませ、\\n\\m\#{targetname}のアソコを思うまま弄ぶ！"
 > CONTEXT: Scripts/RPG::Skilltext/1332:30
-" slipped hand into \#{pantsu} \\n\\mand played with \#{targetname}'s pussy to heart's content!"
+" slipped hand into \#{pantsu} \\n​m​and played with \#{targetname}'s pussy to heart's content!"
 > END STRING
 
 > BEGIN STRING
@@ -21392,7 +21391,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{pantsu}の上から、\\n\\m\#{targetname}の陰核を優しく撫でてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1338:30
-" gently stroked \\n\\m\#{targetname}'s clitoris from above \#{pantsu}!"
+" gently stroked \\n​m​\#{targetname}'s clitoris from above \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
@@ -21406,105 +21405,105 @@ this succubus will no longer be at Home.
 "\#{pantsu}に手を滑り込ませ、\\n\\m\#{targetname}の陰核を刺激してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1344:30
 > CONTEXT: Scripts/RPG::Skilltext/2432:30
-" slipped hand into \#{pantsu} \\n\\mand stimulated \#{targetname}'s clitoris!"
+" slipped hand into \#{pantsu} \\n​m​and stimulated \#{targetname}'s clitoris!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の陰核を指で思うまま弄ぶ！"
-> CONTEXT: Scripts/RPG::Skilltext/1348:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1348:30
+" is playing with \\n​m​\#{targetname}'s clit with fingers \#{tec}!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}に手を滑り込ませ、\\n\\m\#{targetname}の陰核を指先でつまみあげた！"
 > CONTEXT: Scripts/RPG::Skilltext/1350:30
-" slipped hand into \#{pantsu} \\n\\mand grabbed \#{targetname}'s clitoris by fingertips!"
+" slipped hand into \#{pantsu} \\n​m​and grabbed \#{targetname}'s clitoris by fingertips!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}のアソコを更に攻め立てる！"
-> CONTEXT: Scripts/RPG::Skilltext/1354:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1354:30
+" is attacking \\n​m​\#{targetname}'s pussy \#{tec} even more!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}に滑り込ませた手で、\\n\\m\#{targetname}のアソコを更に弄ぶ！"
 > CONTEXT: Scripts/RPG::Skilltext/1356:30
-" with a hand in \#{pantsu},\\n\\mplayed with \#{targetname}'s pussy more!"
+" with a hand in \#{pantsu},\\n​m​played with \#{targetname}'s pussy more!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の陰核を指先で弄ぶ！"
-> CONTEXT: Scripts/RPG::Skilltext/1360:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1360:30
+" is playing with\\n​m​\#{targetname}'s clit with fingertips \#{tec}!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}に滑り込ませた指先で、\\n\\m\#{targetname}の陰核を更に弄ぶ！"
 > CONTEXT: Scripts/RPG::Skilltext/1362:30
-" with the fingertips in \#{pantsu},\\n\\mplayed with \#{targetname}'s clitoris more!"
+" with the fingertips in \#{pantsu},\\n​m​played with \#{targetname}'s clitoris more!"
 > END STRING
 
 > BEGIN STRING
 "手で、\\n\\m\#{targetname}のお尻をするりと撫でてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1367:30
-" stroked \\n\\m\#{targetname}'s butt by hand!"
+" stroked \\n​m​\#{targetname}'s butt by hand!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}越しに、\\n\\m\#{targetname}のお尻をするりと撫でてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1369:30
-" stroked \#{targetname}'s \\n\\mbutt through \#{pantsu}!"
+" stroked \#{targetname}'s \\n​m​butt through \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
 "手で、\\n\\m\#{targetname}のお尻を揉みしだいてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1373:30
-" started massaging \\n\\m\#{targetname}'s ass with hands!"
+" started massaging \\n​m​\#{targetname}'s ass with hands!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}越しに、\\n\\m\#{targetname}のお尻を揉みしだいてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1375:30
-" started massaging \\n\\m\#{targetname}'s ass through \#{pantsu}!"
+" started massaging \\n​m​\#{targetname}'s ass through \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
 "両手で、\\n\\m\#{targetname}のお尻を強く揉みしだいてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1379:30
-" squeezed\\n\\m\#{targetname}'s ass hard with both hands!"
+" squeezed\\n​m​\#{targetname}'s ass hard with both hands!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}に手を滑り込ませ、\\n\\m\#{targetname}のお尻を揉みしだいてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1381:30
-" slipped hand into \#{pantsu} \\n\\mand started massaging \#{targetname}'s ass!"
+" slipped hand into \#{pantsu} \\n​m​and started massaging \#{targetname}'s ass!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}のお尻を思うまま弄ぶ！"
-> CONTEXT: Scripts/RPG::Skilltext/1385:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1385:30
+" is playing with\\n\\m\#{targetname}'s ass \#{tec}!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}に手を滑り込ませ、\\n\\m\#{targetname}のお尻を思うまま弄ぶ！"
 > CONTEXT: Scripts/RPG::Skilltext/1388:30
-" slipped hand into \#{pantsu}\\n\\mand played with\#{targetname}'s ass to heart's content!"
+" slipped hand into \#{pantsu}\\n​m​and played with\#{targetname}'s ass to heart's content!"
 > END STRING
 
 > BEGIN STRING
 "指先で、\\n\\m\#{targetname}の菊座を刺激してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1392:30
 > CONTEXT: Scripts/RPG::Skilltext/1410:30
-" stimulated \\n\\m\#{targetname}'s anus by fingertips!"
+" stimulated \\n​m​\#{targetname}'s anus by fingertips!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}に手を滑り込ませ、\\n\\m\#{targetname}の菊座を刺激してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1394:30
 > CONTEXT: Scripts/RPG::Skilltext/1412:30
-" slipped hand into \#{pantsu}\\n\\mand stimulated \#{targetname}'s anus!"
+" slipped hand into \#{pantsu}\\n​m​and stimulated \#{targetname}'s anus!"
 > END STRING
 
 > BEGIN STRING
@@ -21518,13 +21517,13 @@ this succubus will no longer be at Home.
 "\#{pantsu}に手を滑り込ませ、\\n\\m\#{targetname}の菊門を指で刺激してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1400:30
 > CONTEXT: Scripts/RPG::Skilltext/1418:30
-" slipped hand into \#{pantsu}\\n\\mand stimulated \#{targetname}'s anus with fingers!"
+" slipped hand into \#{pantsu}\\n​m​and stimulated \#{targetname}'s anus with fingers!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の菊門を指で愛撫してきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1404:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1404:30
+" caressed \\n\\m\#{targetname}'s anus with fingers \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -21545,34 +21544,34 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の菊門を指で愛撫してきた！！"
-> CONTEXT: Scripts/RPG::Skilltext/1422:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1422:30
+" caressed \\n\\m\#{targetname}'s anus with fingers \#{tec}!!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m両手で\#{targetname}のお尻を弄ぶ！"
-> CONTEXT: Scripts/RPG::Skilltext/1428:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1428:30
+" is playing with\\n\\m\#{targetname}'s ass with both hands \#{tec}!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}に滑り込ませた手で、\\n\\m\#{targetname}のお尻を更に弄ぶ！"
 > CONTEXT: Scripts/RPG::Skilltext/1430:30
-" slid hand into \#{pantsu} \\n\\mand played with\#{targetname}'s ass more!"
+" slid hand into \#{pantsu} \\n​m​and played with\#{targetname}'s ass more!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m指で\#{targetname}の菊門を更に愛撫してきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1434:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/1440:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1434:30
+> CONTEXT: Scripts/RPG::Skilltext/1440:30
+" caressed\\n\\m\#{targetname}'s anus with fingers \#{tec}!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}に滑り込ませた指で、\\n\\m\#{targetname}の菊門を更に愛撫してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1436:30
 > CONTEXT: Scripts/RPG::Skilltext/1442:30
-" caressed \#{targetname}'s anus \\n\\mfurther ith the fingers in \#{pantsu}!"
+" caressed \#{targetname}'s anus \\n​m​further ith the fingers in \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
@@ -21663,19 +21662,19 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "ひんやりした手で、\\n\\m\#{targetname}の\#{points}を愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/1454:28
-" caressed \#{targetname}'s\\n\\m\#{points} with cool hands!"
+" caressed \#{targetname}'s\\n​m​\#{points} with cool hands!"
 > END STRING
 
 > BEGIN STRING
 "ひんやりした指先で、\\n\\m\#{targetname}の\#{points}を愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/1455:28
-" caressed \#{targetname}'s\\n\\m\#{points} with cool fingertips!"
+" caressed \#{targetname}'s\\n​m​\#{points} with cool fingertips!"
 > END STRING
 
 > BEGIN STRING
 "意地悪な手つきで、\\n\\m\#{targetname}を愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/1459:28
-" caressed\\n\\m\#{targetname} with a malicious move!"
+" caressed\\n​m​\#{targetname} with a malicious move!"
 > END STRING
 
 > BEGIN STRING
@@ -21713,37 +21712,37 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "舌先で、\\n\\m\#{targetname}のペニスをそっと舐めてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1478:30
-" gently licked \\n\\m\#{targetname}'s penis with tip of tongue!"
+" gently licked \\n​m​\#{targetname}'s penis with tip of tongue!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}の上から、\\n\\m\#{targetname}の股間にそっとキスしてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1481:30
-" gently kissed \\n\\m\#{targetname}'s crotch from above \#{pantsu}!"
+" gently kissed \\n​m​\#{targetname}'s crotch from above \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
 "舌で、\\n\\m\#{targetname}のペニスを舐めてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1485:30
-" licked \\n\\m\#{targetname}'s penis!"
+" licked \\n​m​\#{targetname}'s penis!"
 > END STRING
 
 > BEGIN STRING
 "舌先で、\\n\\m\#{targetname}のペニスを舐めてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1486:30
-" licked \\n\\m\#{targetname}'s penis with the tip of tongue!"
+" licked \\n​m​\#{targetname}'s penis with the tip of tongue!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}の上から、\\n\\m\#{targetname}の股間にキスしてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1489:30
-" kissed \#{targetname}'s\\n\\mcrotch from above \#{pantsu}!"
+" kissed \#{targetname}'s\\n​m​crotch from above \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}のペニスの先端を\#{brk4}舐め回してきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1493:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1493:30
+" is licking \\n\\mthe tip of \#{targetname}'s penis \#{brk4}\#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -21762,19 +21761,19 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{pantsu}越しに、\\n\\m\#{targetname}のペニスを舐め上げてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1497:30
-" licked \\n\\m\#{targetname}'s penis through \#{pantsu}!"
+" licked \\n​m​\#{targetname}'s penis through \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}のペニスを\#{brk4}根元から舐め上げてきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1501:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1501:30
+" licked\\n\\m\#{targetname}'s penis \#{brk4}from the base \#{tec}!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}越しに、\\n\\m\#{targetname}のペニスを舐め回してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1505:30
-" licked \#{targetname}'s penis \\n\\mthrough \#{targetname}'s \#{pantsu}!"
+" licked \#{targetname}'s penis \\n​m​through \#{targetname}'s \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
@@ -21786,13 +21785,13 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{pantsu}越しに、\\n\\m\#{targetname}の袋にキスしてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1511:30
-" kissed \\n\\m\#{targetname}'s sack through \#{pantsu}!"
+" kissed \\n​m​\#{targetname}'s sack through \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の袋を舐め回してきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1515:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1515:30
+" is licking \\n\\m\#{targetname}'s sack \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -21803,20 +21802,20 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}のペニスを更に舐め上げてきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1522:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1522:30
+" is licking\\n\\m\#{targetname}'s penis \#{tec} even more!"
 > END STRING
 
 > BEGIN STRING
 "なおも\#{pantsu}越しに、\\n\\m\#{targetname}のペニスを舐め回してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1525:30
-" kept licking \\n\\m\#{targetname}'s penis through \#{pantsu}!"
+" kept licking \\n​m​\#{targetname}'s penis through \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の袋を更に舐め上げてきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1529:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1529:30
+" keeps licking\\n\\m\#{targetname}'s bag \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -21834,13 +21833,13 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "服の上から、\\n\\m\#{targetname}の\#{target.bustsize}に\#{brk3}そっとキスしてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1538:30
-" started kissing \\n\\m\#{targetname}'s \#{target.bustsize} \#{brk3}softly over clothes!"
+" started kissing \\n​m​\#{targetname}'s \#{target.bustsize} \#{brk3}softly over clothes!"
 > END STRING
 
 > BEGIN STRING
 "舌で、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk3}なぞってきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1542:30
-" traced \#{target.bustsize} of \\n\\m\#{targetname} \#{brk3}by tongue!"
+" traced \#{target.bustsize} of \\n​m​\#{targetname} \#{brk3}by tongue!"
 > END STRING
 
 > BEGIN STRING
@@ -21860,13 +21859,13 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "舌先で、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk3}舐めてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1543:30
-" licked \\n\\m\#{targetname}'s \#{target.bustsize} with tip of tongue!"
+" licked \\n​m​\#{targetname}'s \#{target.bustsize} with tip of tongue!"
 > END STRING
 
 > BEGIN STRING
 "服の上から、\\n\\m\#{targetname}の\#{target.bustsize}にキスしてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1545:30
-" kissed \\n\\m\#{targetname}'s \#{target.bustsize} over clothes!"
+" kissed \\n​m​\#{targetname}'s \#{target.bustsize} over clothes!"
 > END STRING
 
 > BEGIN STRING
@@ -21897,62 +21896,62 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の乳首を舐め回してきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1550:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1550:30
+" is licking\\n\\m\#{targetname}'s nipples \#{tec}!"
 > END STRING
 
 > BEGIN STRING
 "服の隙間から、\\n\\m\#{targetname}の\#{target.bustsize}を舐め回してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1553:30
-"Licked \\n\\m\#{targetname}'s \#{target.bustsize} through a gap in clothes!"
+"Licked \\n​m​\#{targetname}'s \#{target.bustsize} through a gap in clothes!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk3}強く吸い上げてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1557:30
-"\#{tec}, \\n\\m\#{targetname}'s \#{target.bustsize} \#{brk3}has been strongly absorbed!"
+"\#{tec}, \\n​m​\#{targetname}'s \#{target.bustsize} \#{brk3}has been strongly absorbed!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の乳首を強く吸い上げてきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1558:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1558:30
+" sucked hard on \\n\\m\#{targetname}'s nipples \#{tec}!"
 > END STRING
 
 > BEGIN STRING
 "服の隙間から、\\n\\m\#{targetname}の\#{target.bustsize}を強く吸ってきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1561:30
-"sucked on \\n\\m\#{targetname}'s \#{target.bustsize} through a gap in clothes!"
+"sucked on \\n​m​\#{targetname}'s \#{target.bustsize} through a gap in clothes!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk3}更に舐め回した！"
 > CONTEXT: Scripts/RPG::Skilltext/1565:30
-"\#{tec},\\n\\m\#{targetname}'s \#{target.bustsize} \#{brk3}got licked even more!"
+"\#{tec},\\n​m​\#{targetname}'s \#{target.bustsize} \#{brk3}got licked even more!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の乳首を更に吸い上げた！"
-> CONTEXT: Scripts/RPG::Skilltext/1566:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1566:30
+" sucked \\n\\m\#{targetname}'s nipples \#{tec} even more!"
 > END STRING
 
 > BEGIN STRING
 "服の隙間から、\\n\\m\#{targetname}の\#{target.bustsize}を更に強く吸ってきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1568:30
-" started sucking on \\n\\m\#{targetname}'s \#{target.bustsize} harder through gap in clothes!"
+" started sucking on \\n​m​\#{targetname}'s \#{target.bustsize} harder through gap in clothes!"
 > END STRING
 
 > BEGIN STRING
 "唇で、\\n\\m\#{targetname}のアソコにそっとキスしてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1573:30
-" gently kissed \\n\\m\#{targetname}'s pussy!"
+" gently kissed \\n​m​\#{targetname}'s pussy!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}の上から、\\n\\m\#{targetname}のアソコにそっとキスしてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1575:30
-" gently kissed \\n\\m\#{targetname}'s pussy from above \#{pantsu}!"
+" gently kissed \\n​m​\#{targetname}'s pussy from above \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
@@ -21964,13 +21963,13 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "唇で、\\n\\m\#{targetname}のアソコにキスをしてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1580:30
-" kissed \\n\\m\#{targetname}'s pussy!"
+" kissed \\n​m​\#{targetname}'s pussy!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}の上から、\\n\\m\#{targetname}のアソコを舐めてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1582:30
-" licked \#{targetname}'s \\n\\mpussy from above \#{pantsu}!"
+" licked \#{targetname}'s \\n​m​pussy from above \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
@@ -21981,8 +21980,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}のアソコを強く吸い上げた！"
-> CONTEXT: Scripts/RPG::Skilltext/1587:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1587:30
+" sucked \\n\\m\#{targetname}'s pussy hard \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -22023,8 +22022,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の陰核を思うまま弄ぶ！"
-> CONTEXT: Scripts/RPG::Skilltext/1612:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1612:30
+" is playing with\\n\\m\#{targetname}'s clit \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -22035,50 +22034,50 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}のアソコを執拗に舐め上げる！"
-> CONTEXT: Scripts/RPG::Skilltext/1618:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1618:30
+" is licking\\n\\m\#{targetname}'s pussy relentlessly \#{tec}!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}のアソコを\#{pantsu}越しに弄ぶ！"
-> CONTEXT: Scripts/RPG::Skilltext/1620:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1620:30
+" is playing with\\n\\m\#{targetname}'s pussy through \#{pantsu} \#{tec}!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m舌先で\#{targetname}の陰核を執拗に弄ぶ！"
-> CONTEXT: Scripts/RPG::Skilltext/1624:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1624:30
+" is relentlessly playing with\\n\\m\#{targetname}'s clitoris with tip of tongue \#{tec}!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{pantsu}ごと\#{targetname}の陰核を唇で吸い上げる！"
-> CONTEXT: Scripts/RPG::Skilltext/1626:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1626:30
+" is sucking on\\n\\m\#{targetname}'s clit from above \#{pantsu} \#{tec}!"
 > END STRING
 
 > BEGIN STRING
 "唇で、\\n\\m\#{targetname}のお尻にそっとキスをしてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1631:30
-" gently kissed\\n\\m\#{targetname}'s ass!"
+" gently kissed\\n​m​\#{targetname}'s ass!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}越しに、\\n\\m\#{targetname}のお尻にそっとキスをしてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1633:30
-" gently kissed \\n\\m\#{targetname}'s ass through \#{pantsu}!"
+" gently kissed \\n​m​\#{targetname}'s ass through \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
 "舌で、\\n\\m\#{targetname}のお尻を舐め上げてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1637:30
-" licked \\n\\m\#{targetname}'s ass!"
+" licked \\n​m​\#{targetname}'s ass!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}越しに、\\n\\m\#{targetname}のお尻を舐め上げてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1639:30
-" licked \\n\\m\#{targetname}'s ass through \#{pantsu}!"
+" licked \\n​m​\#{targetname}'s ass through \#{pantsu}!"
 > END STRING
 
 > BEGIN STRING
@@ -22096,13 +22095,13 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}のお尻を舐め回してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1649:30
-" is licking \\n\\m\#{targetname}'s ass \#{tec}!"
+" is licking \\n​m​\#{targetname}'s ass \#{tec}!"
 > END STRING
 
 > BEGIN STRING
 "\#{pantsu}を口でずらし、\\n\\m\#{targetname}のお尻を舐め回してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1651:30
-" moved \#{pantsu} with mouth \\n\\mand licked \#{targetname}'s ass!"
+" moved \#{pantsu} with mouth \\n​m​and licked \#{targetname}'s ass!"
 > END STRING
 
 > BEGIN STRING
@@ -22133,9 +22132,9 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の菊門の奥まで舌を入れてきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1667:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/1686:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1667:30
+> CONTEXT: Scripts/RPG::Skilltext/1686:30
+" put tongue deep inside\\n\\m\#{targetname}'s anus!"
 > END STRING
 
 > BEGIN STRING
@@ -22159,20 +22158,20 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m舌で\#{targetname}のお尻を執拗に舐め回す！"
-> CONTEXT: Scripts/RPG::Skilltext/1693:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1693:30
+" relentlessly licked \\n\\m\#{targetname}'s ass \#{tec}!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}のお尻を更に舐め回してきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1695:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1695:30
+" is licking\\n\\m\#{targetname}'s ass \#{tec} even more!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の菊門を舌で愛撫してきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1699:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1699:30
+" caressed \\n\\m\#{targetname}'s anus by tongue \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -22183,8 +22182,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m更に\#{targetname}の菊門を舌で愛撫してきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1705:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1705:30
+" caressed\\n\\m\#{targetname}'s anus by tongue \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -22244,14 +22243,14 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{myself.bustsize}の谷間にペニスを挟み、\\n\\m\#{targetname}の反応を楽しみながら弄ぶ！"
-> CONTEXT: Scripts/RPG::Skilltext/1741:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1741:28
+" placed \#{targetname}'s penis \\n\\mbetween her \#{myself.bustsize} and played with it \#{tec}\\n\\mwhile enjoying \#{targetname}'s reaction!"
 > END STRING
 
 > BEGIN STRING
 "\#{myself.bustsize}を、\\n\\m\#{targetname}のペニスに擦り付けてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1744:28
-" rubbed \#{myself.bustsize} on \\n\\m\#{targetname}'s penis!"
+" rubbed \#{myself.bustsize} on \\n​m​\#{targetname}'s penis!"
 > END STRING
 
 > BEGIN STRING
@@ -22280,26 +22279,26 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{myself.bustsize}に挟まれたペニスを弄ぶ！"
-> CONTEXT: Scripts/RPG::Skilltext/1752:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1752:28
+" is playing with\\n\\mthe penis between \#{self.bustsize} \#{tec}!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{myself.bustsize}で更にペニスを擦り上げてきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1758:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1758:30
+" rubbed the penis\\n\\mwith \#{myself.bustsize} \#{tec} even more!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{myself.bustsize}を更にペニスに擦り付けてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1760:30
-"is rubbing on my penis \\n\\m\#{tec} even more with \#{myself.bustsize}!"
+"is rubbing on my penis \\n​m​\#{tec} even more with \#{myself.bustsize}!"
 > END STRING
 
 > BEGIN STRING
 "\#{myself.bustsize}の谷間を、\\n\\m\#{targetname}の顔に押し付けてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1766:30
-" pushed \#{myself.bustsize} in \\n\\m\#{targetname}'s face!"
+" pushed \#{myself.bustsize} in \\n​m​\#{targetname}'s face!"
 > END STRING
 
 > BEGIN STRING
@@ -22337,13 +22336,13 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{myself.bustsize}の谷間で、\\n\\m\#{targetname}の顔を包み込んできた！"
 > CONTEXT: Scripts/RPG::Skilltext/1780:28
-"'s \#{myself.bustsize} hugged \\n\\m\#{targetname}'s face!"
+"'s \#{myself.bustsize} hugged \\n​m​\#{targetname}'s face!"
 > END STRING
 
 > BEGIN STRING
 "\#{myself.bustsize}の谷間に、\\n\\m\#{targetname}の顔を挟んで抱き締めてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1782:28
-" hugged \#{targetname}'s face \\n\\min between \#{myself.bustsize}!"
+" hugged \#{targetname}'s face \\n​m​in between \#{myself.bustsize}!"
 > END STRING
 
 > BEGIN STRING
@@ -22355,39 +22354,39 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{myself.bustsize}で、\\n\\m\#{targetname}の顔に抱きついてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1786:28
-" hugged \#{targetname}'s face \\n\\mwith \#{myself.bustsize}!"
+" hugged \#{targetname}'s face \\n​m​with \#{myself.bustsize}!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{myself.bustsize}の谷間を更に押し付けてきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1788:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1788:28
+" is pushing\\n\\mwith \#{myself.bustsize} \#{tec} even more!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{myself.bustsize}で更に抱きしめてきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1793:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1793:30
+" hugged with\\n\\m\#{myself.bustsize} \#{tec} even more!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{myself.bustsize}を更に押し当ててきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1795:30
-" pushed with \\n\\m\#{myself.bustsize} \#{tec} even more!"
+" pushed with \\n​m​\#{myself.bustsize} \#{tec} even more!"
 > END STRING
 
 > BEGIN STRING
 "\#{myself.bustsize}を、\\n\\m\#{targetname}の\#{target.bustsize}に\#{brk3}押し当ててきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1799:28
 > CONTEXT: Scripts/RPG::Skilltext/1807:28
-"pushed \#{myself.bustsize} to \\n\\m\#{targetname}'s \#{target.bustsize}!"
+"pushed \#{myself.bustsize} to \\n​m​\#{targetname}'s \#{target.bustsize}!"
 > END STRING
 
 > BEGIN STRING
 "\#{myself.bustsize}を、\\n\\m\#{targetname}の\#{target.bustsize}に\#{brk3}擦り付けてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1801:28
 > CONTEXT: Scripts/RPG::Skilltext/1809:28
-"rubbed \#{myself.bustsize} \\n\\magainst \#{targetname}'s \#{target.bustsize}!"
+"rubbed \#{myself.bustsize} \\n​m​against \#{targetname}'s \#{target.bustsize}!"
 > END STRING
 
 > BEGIN STRING
@@ -22404,39 +22403,39 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{myself.bustsize}と\#{target.bustsize}を\#{brk2}互いに擦り付け合う！"
-> CONTEXT: Scripts/RPG::Skilltext/1813:28 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/1817:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1813:28
+> CONTEXT: Scripts/RPG::Skilltext/1817:28
+" is rubbing \\n\\m\#{myself.bustsize} against \#{target.bustsize} \#{brk2}\#{tec}!"
 > END STRING
 
 > BEGIN STRING
 "アソコを押し付け、\\n\\m\#{targetname}のペニスをゆっくり擦ってきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1822:28
-" pressed pussy against \\n\\m\#{targetname}'s penis slowly!"
+" pressed pussy against \\n​m​\#{targetname}'s penis slowly!"
 > END STRING
 
 > BEGIN STRING
 "アソコを押し付け、\\n\\m\#{targetname}のペニスをしごいてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1825:28
-" pressed pussy against \\n\\m\#{targetname}'s penis!"
+" pressed pussy against \\n​m​\#{targetname}'s penis!"
 > END STRING
 
 > BEGIN STRING
 "アソコを押し付け、\\n\\m\#{targetname}のペニスをしごき上げてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1828:28
-" rubbed pussy up on \\n\\m\#{targetname}'s penis!"
+" rubbed pussy up on \\n​m​\#{targetname}'s penis!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}に馬乗りになり\#{brk4}ペニスを弄んでいる！"
-> CONTEXT: Scripts/RPG::Skilltext/1831:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1831:28
+" is riding \\n\\m\#{targetname} and \#{brk4}playing with the penis \#{tec}!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}に馬乗りのまま\#{brk4}ペニスを弄んでいる！"
-> CONTEXT: Scripts/RPG::Skilltext/1834:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1834:28
+" is riding \\n\\m\#{targetname} and \#{brk4}playing with the penis \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -22448,13 +22447,13 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "服の上から、\\n\\m\#{targetname}のペニスを足の裏で\#{brk4}刺激してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1844:30
-" stimulated\\n\\m\#{targetname}'s penis with feet soles \#{brk4}over clothes!"
+" stimulated\\n​m​\#{targetname}'s penis with feet soles \#{brk4}over clothes!"
 > END STRING
 
 > BEGIN STRING
 "足の指で、\\n\\m\#{targetname}のペニスを愛撫してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1848:30
-" caressed \\n\\m\#{targetname}'s penis with toes!"
+" caressed \\n​m​\#{targetname}'s penis with toes!"
 > END STRING
 
 > BEGIN STRING
@@ -22465,8 +22464,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}のペニスを足で思うまま弄ぶ！"
-> CONTEXT: Scripts/RPG::Skilltext/1855:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1855:30
+" played with\\n\\m\#{targetname}'s penis with feet \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -22477,8 +22476,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}のペニスを更に足で攻め立てる！"
-> CONTEXT: Scripts/RPG::Skilltext/1862:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1862:30
+" attacked \\n\\m\#{targetname}'s penis with feet \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -22496,7 +22495,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "服の上から、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk3}足裏で刺激してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1872:30
-" stimulated \\n\\m\#{targetname}'s \#{target.bustsize} \#{brk3}with soles over clothes!"
+" stimulated \\n​m​\#{targetname}'s \#{target.bustsize} \#{brk3}with soles over clothes!"
 > END STRING
 
 > BEGIN STRING
@@ -22508,37 +22507,37 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "足の指で、\\n\\m\#{targetname}の乳首を強く捻り上げてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1877:30
-" used toes to twist \\n\\m\#{targetname}'s nipples hard!"
+" used toes to twist \\n​m​\#{targetname}'s nipples hard!"
 > END STRING
 
 > BEGIN STRING
 "服の上から、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk3}足の指で刺激してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1879:30
-" stimulated \\n\\m\#{targetname}'s \#{target.bustsize} with toes \#{brk3}over the clothes!"
+" stimulated \\n​m​\#{targetname}'s \#{target.bustsize} with toes \#{brk3}over the clothes!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk3}足で思うまま弄ぶ！"
 > CONTEXT: Scripts/RPG::Skilltext/1883:30
-"\#{tec}, \\n\\mplays with \#{targetname}'s \#{target.bustsize} \#{brk3}with feet!"
+"\#{tec}, \\n​m​plays with \#{targetname}'s \#{target.bustsize} \#{brk3}with feet!"
 > END STRING
 
 > BEGIN STRING
 "服の隙間から足先をねじ入れ、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk3}思うまま弄ぶ！"
 > CONTEXT: Scripts/RPG::Skilltext/1885:30
-" put toes through the gap in the clothes \\n\\mand played with \#{targetname}'s \#{target.bustsize} to heart's content!"
+" put toes through the gap in the clothes \\n​m​and played with \#{targetname}'s \#{target.bustsize} to heart's content!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk3}足で更に攻め立てる！"
 > CONTEXT: Scripts/RPG::Skilltext/1889:30
-"\#{tec}, \\n\\m\#{targetname}'s \#{target.bustsize} is \#{brk3}further attacked with feett!"
+"\#{tec}, \\n​m​\#{targetname}'s \#{target.bustsize} is \#{brk3}further attacked with feett!"
 > END STRING
 
 > BEGIN STRING
 "服の隙間から足先をねじ込み、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk3}足で更に刺激してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1891:30
-" inserted toes through the gap between clothes \\n\\mand stimulated \#{targetname}'s \#{target.bustsize} \#{brk3}more with feet!"
+" inserted toes through the gap between clothes \\n​m​and stimulated \#{targetname}'s \#{target.bustsize} \#{brk3}more with feet!"
 > END STRING
 
 > BEGIN STRING
@@ -22556,7 +22555,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "足の指で、\\n\\m\#{targetname}のアソコをぐりぐり刺激してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1902:30
-" is stimulating \\n\\m\#{targetname}'s pussy with toes!"
+" is stimulating \\n​m​\#{targetname}'s pussy with toes!"
 > END STRING
 
 > BEGIN STRING
@@ -22567,8 +22566,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}のアソコを足指で思うまま弄ぶ！"
-> CONTEXT: Scripts/RPG::Skilltext/1908:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1908:30
+" played with\\n\\m\#{targetname}'s pussy with toes \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -22579,8 +22578,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{targetname}のアソコを\#{brk4}足指でなおも攻め立てる！"
-> CONTEXT: Scripts/RPG::Skilltext/1914:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1914:30
+" continues to attack \\n\\m\#{targetname}'s pussy \#{brk4}with toes \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -22604,7 +22603,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "舌先で、\\n\\m\#{targetname}の首筋をつうっとなぞってきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1924:30
-"Traced the\\n\\mtip of the tongue down \#{targetname}'s neck!"
+"Traced the\\n​m​tip of the tongue down \#{targetname}'s neck!"
 > END STRING
 
 > BEGIN STRING
@@ -22670,7 +22669,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "、\\n\\m\#{targetname}の額にそっとキスをした！"
 > CONTEXT: Scripts/RPG::Skilltext/1928:30
-",\\n\\mkissed \#{targetname} softly on the forehead!"
+",\\n​m​kissed \#{targetname} softly on the forehead!"
 > END STRING
 
 > BEGIN STRING
@@ -22694,7 +22693,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "、\\n\\m\#{targetname}の頬にそっとキスをした！"
 > CONTEXT: Scripts/RPG::Skilltext/1930:30
-", kissed \\n\\m\#{targetname} softly on the cheek!"
+", kissed \\n​m​\#{targetname} softly on the cheek!"
 > END STRING
 
 > BEGIN STRING
@@ -22718,7 +22717,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "手で、\\n\\m\#{targetname}の背中を優しく撫でてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1935:30
-" caressed \\n\\m\#{targetname}'s back gently by hand!"
+" caressed \\n​m​\#{targetname}'s back gently by hand!"
 > END STRING
 
 > BEGIN STRING
@@ -22755,7 +22754,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "舌先で、\\n\\m\#{targetname}のへその周りを舐めてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1937:30
-" licked around \\n\\m\#{targetname}'s belly button with tip of tongue!"
+" licked around \\n​m​\#{targetname}'s belly button with tip of tongue!"
 > END STRING
 
 > BEGIN STRING
@@ -22884,7 +22883,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "手で、\\n\\m\#{targetname}の太ももを撫でてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1948:30
-" stroked \\n\\m\#{targetname}'s thigh by hand!"
+" stroked \\n​m​\#{targetname}'s thigh by hand!"
 > END STRING
 
 > BEGIN STRING
@@ -23028,7 +23027,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{targetname}の\#{pantsu}の中に、\\n\\m\#{tail}を潜り込ませペニスを愛撫してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1961:28
-"slipped \#{tail} into \#{targetname}'s \\n\\m\#{pantsu} and caressed the penis!"
+"slipped \#{tail} into \#{targetname}'s \\n​m​\#{pantsu} and caressed the penis!"
 > END STRING
 
 > BEGIN STRING
@@ -23052,7 +23051,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{targetname}のペニスに、\\n\\m\#{tail}を絡めて擦り上げてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1962:28
-" wrapped \#{targetname}'s penis \\n\\maround \#{tail} and rubbed it!"
+" wrapped \#{targetname}'s penis \\n​m​around \#{tail} and rubbed it!"
 > END STRING
 
 > BEGIN STRING
@@ -23064,7 +23063,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{tail}を使い、\\n\\m服の間から\#{targetname}の\#{brk3}\#{target.bustsize}を愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/1965:28
-" caressed \#{targetname}'s \\n\\m\#{target.bustsize} \#{brk3}through clothes with \#{tail}!"
+" caressed \#{targetname}'s \\n​m​\#{target.bustsize} \#{brk3}through clothes with \#{tail}!"
 > END STRING
 
 > BEGIN STRING
@@ -23149,7 +23148,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{targetname}のアソコに、\\n\\m\#{tail}を擦り付けて愛撫してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1970:28
-"Rubbed and caressed \\n\\m\#{targetname}'s vagina with \#{tail}!"
+"Rubbed and caressed \\n​m​\#{targetname}'s vagina with \#{tail}!"
 > END STRING
 
 > BEGIN STRING
@@ -23215,7 +23214,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "身体の粘液を手に取り、\\n\\m\#{targetname}の服の隙間から流し入れてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1981:28
-" took mucus from her own body \\n\\mand poured it through \#{targetname}'s clothes!"
+" took mucus from her own body \\n​m​and poured it through \#{targetname}'s clothes!"
 > END STRING
 
 > BEGIN STRING
@@ -23442,7 +23441,6 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/RPG::Skilltext/2279:18
 > CONTEXT: Scripts/RPG::Skilltext/2313:18
 > CONTEXT: Scripts/RPG::Skilltext/2347:18
-"slowly"
 > CONTEXT: Scripts/Talk_Sys Text(Map)/151:30
 > CONTEXT: Scripts/Talk_Sys Text(Map)/189:30
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/252:26
@@ -23453,7 +23451,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/635:24
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/643:24
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/663:21
-"Slow"
+"slowly"
 > END STRING
 
 > BEGIN STRING
@@ -23493,12 +23491,13 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "焦らすように"
+> CONTEXT: Scripts/Talk_Sys Text(Map)/106:40
+> CONTEXT: Scripts/Talk_Sys Text(Map)/118:40
+"in a teasing way"
 > CONTEXT: Scripts/RPG::Skilltext/2035:20
 > CONTEXT: Scripts/RPG::Skilltext/2281:20
 > CONTEXT: Scripts/RPG::Skilltext/2315:20
 > CONTEXT: Scripts/RPG::Skilltext/2349:20
-> CONTEXT: Scripts/Talk_Sys Text(Map)/106:40
-> CONTEXT: Scripts/Talk_Sys Text(Map)/118:40
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/253:28
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/260:28
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/295:26
@@ -23513,13 +23512,14 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "おずおずと"
+> CONTEXT: Scripts/Talk_Sys Text(Map)/179:21
+> CONTEXT: Scripts/Talk_Sys Text(Map)/187:21
+> CONTEXT: Scripts/Talk_Sys Text(Map)/196:21
+"timidly"
 > CONTEXT: Scripts/RPG::Skilltext/2036:20
 > CONTEXT: Scripts/RPG::Skilltext/2282:20
 > CONTEXT: Scripts/RPG::Skilltext/2316:20
 > CONTEXT: Scripts/RPG::Skilltext/2350:20
-> CONTEXT: Scripts/Talk_Sys Text(Map)/179:21
-> CONTEXT: Scripts/Talk_Sys Text(Map)/187:21
-> CONTEXT: Scripts/Talk_Sys Text(Map)/196:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/296:26
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/304:26
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/324:23
@@ -23745,7 +23745,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Map)/75:32
 > CONTEXT: Scripts/Talk_Sys Text(Map)/106:33
 > CONTEXT: Scripts/Talk_Sys Text(Map)/118:33
-"Sexily"
+"sexily"
 > CONTEXT: Scripts/RPG::Skilltext/2050:20
 > CONTEXT: Scripts/RPG::Skilltext/2060:20
 > CONTEXT: Scripts/RPG::Skilltext/2076:20
@@ -23946,7 +23946,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/RPG::Skilltext/2310:28
 > CONTEXT: Scripts/RPG::Skilltext/2344:28
 > CONTEXT: Scripts/RPG::Skilltext/2378:28
-"\#{tec}, \\n\\mMoreover, shaking hips \#{waist}!"
+"\#{tec}, \\n​m​Moreover, shaking hips \#{waist}!"
 > END STRING
 
 > BEGIN STRING
@@ -23970,7 +23970,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{brk}\#{targetname}と脚を絡めあい、\\n\\mアソコ同士を押し当てた！"
 > CONTEXT: Scripts/RPG::Skilltext/2085:28
-" and \#{brk}\#{targetname} intertwined legs\\n\\m, their pussies pressed against each other!"
+" and \#{brk}\#{targetname} intertwined legs\\n​m​, their pussies pressed against each other!"
 > END STRING
 
 > BEGIN STRING
@@ -23991,7 +23991,7 @@ this succubus will no longer be at Home.
 "\#{brk}\#{targetname}と脚を絡めあい、\\n\\mアソコ同士を\#{waist}擦り合わせた！"
 > CONTEXT: Scripts/RPG::Skilltext/2096:28
 > CONTEXT: Scripts/RPG::Skilltext/2105:28
-" \#{brk}and \#{targetname} intertwined legs \\n\\mand rubbed pussies together\#{waist}!"
+" \#{brk}and \#{targetname} intertwined legs \\n​m​and rubbed pussies together\#{waist}!"
 > END STRING
 
 > BEGIN STRING
@@ -24009,7 +24009,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{brk}\#{targetname}の脚を抱え、\\n\\m更にアソコ同士を\#{waist}擦り合わせた！"
 > CONTEXT: Scripts/RPG::Skilltext/2114:28
-" held \#{brk}\#{targetname}'s legs \\n\\mand rubbed their pussies \#{waist}!"
+" held \#{brk}\#{targetname}'s legs \\n​m​and rubbed their pussies \#{waist}!"
 > END STRING
 
 > BEGIN STRING
@@ -24021,7 +24021,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{brk}\#{targetname}にまたがったまま、\\n\\mアソコを口に押し付けてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/2118:30
-"\#{brk}continued to straddle \#{targetname} \\n\\mand pushed pussy into her mouth!"
+"\#{brk}continued to straddle \#{targetname} \\n​m​and pushed pussy into her mouth!"
 > END STRING
 
 > BEGIN STRING
@@ -24039,7 +24039,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/RPG::Skilltext/2143:32
 > CONTEXT: Scripts/RPG::Skilltext/2145:32
 > CONTEXT: Scripts/RPG::Skilltext/2151:32
-" bent down and \\n\\mpressed \#{pantsu} into \#{targetname}'s mouth!"
+" bent down and \\n​m​pressed \#{pantsu} into \#{targetname}'s mouth!"
 > END STRING
 
 > BEGIN STRING
@@ -24052,7 +24052,7 @@ this succubus will no longer be at Home.
 "腰を落とし、\\n\\m\#{targetname}の口に\#{pantsu}越しのアソコを押し付けた！"
 > CONTEXT: Scripts/RPG::Skilltext/2130:32
 > CONTEXT: Scripts/RPG::Skilltext/2149:32
-" bent down and \\n\\mpressed pussy through \#{pantsu} into \#{targetname}'s mouth!"
+" bent down and \\n​m​pressed pussy through \#{pantsu} into \#{targetname}'s mouth!"
 > END STRING
 
 > BEGIN STRING
@@ -24081,7 +24081,7 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "（"
-> CONTEXT: Scripts/Scene_Menu(Party_select)/300:21 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Menu(Party_select)/300:21
 ""
 > END STRING
 
@@ -24112,7 +24112,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{brk}\#{targetname}に見せ付けるように、\\n\\m顔の上で\#{waist}腰を振ってきた！"
 > CONTEXT: Scripts/RPG::Skilltext/2162:28
-" \#{brk}\#{targetname} swung hips \#{waist} \\n\\mover your face!"
+" \#{brk}\#{targetname} swung hips \#{waist} \\n​m​over your face!"
 > END STRING
 
 > BEGIN STRING
@@ -24124,7 +24124,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{brk}\#{targetname}に馬乗りのまま、\\n\\m更に\#{waist}腰を前後に振ってきた！"
 > CONTEXT: Scripts/RPG::Skilltext/2171:28
-" \#{brk}\#{targetname} continued to ride,\\n\\mand shook hips \#{waist}!"
+" \#{brk}\#{targetname} continued to ride,\\n​m​and shook hips \#{waist}!"
 > END STRING
 
 > BEGIN STRING
@@ -24137,7 +24137,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{targetname}のペニスを、\\n\\m口で咥えたままゆっくりと舌を這わせてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/2179:28
-" held \#{targetname}'s penis \\n\\min the mouth and slowly moved tongue around it!"
+" held \#{targetname}'s penis \\n​m​in the mouth and slowly moved tongue around it!"
 > END STRING
 
 > BEGIN STRING
@@ -24148,8 +24148,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{targetname}のペニスを、\\n\\m口で咥えたまま舌で舐め回してきた！"
-> CONTEXT: Scripts/RPG::Skilltext/2183:28 < UNTRANSLATED
-" kept \#{targetname}'s penis \\n\\min the mouth and licked it!"
+> CONTEXT: Scripts/RPG::Skilltext/2183:28
+" kept \#{targetname}'s penis \\n​m​in the mouth and licked it!"
 > END STRING
 
 > BEGIN STRING
@@ -24185,7 +24185,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{targetname}のアソコを、\\n\\m口全体でゆっくりと吸い上げてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/2196:28
-" slowly sucked \\n\\m\#{targetname}'s pussy with the entire mouth!"
+" slowly sucked \\n​m​\#{targetname}'s pussy with the entire mouth!"
 > END STRING
 
 > BEGIN STRING
@@ -24322,26 +24322,26 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m密着したまま\#{targetname}に\#{brk4}キスの雨を降らせた！"
-> CONTEXT: Scripts/RPG::Skilltext/2239:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/2239:30
+" is staying close\\n\\mand raining kisses \#{brk4}on\#{targetname} \#{tec}!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m密着したまま\#{targetname}のペニスを\#{brk4}指で弄ぶ！"
-> CONTEXT: Scripts/RPG::Skilltext/2240:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/2240:30
+" is playing with\\n\\m\#{targetname}'s penis with fingers \#{tec}, \#{brk4}remaining in close contact!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m密着したまま\#{targetname}の\#{target.bustsize}を\#{brk4}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/2242:30
-"\#{tec},\\n\\mcaressed \#{targetname}'s \#{target.bustsize}\#{brk4} in close contact!"
+"\#{tec},\\n​m​caressed \#{targetname}'s \#{target.bustsize}\#{brk4} in close contact!"
 > END STRING
 
 > BEGIN STRING
 "\#{tec}、\\n\\m密着したまま\#{targetname}のアソコを\#{brk4}指で弄んだ！"
 > CONTEXT: Scripts/RPG::Skilltext/2243:30
-"\#{tec}, \\n\\mstimulated \#{targetname}'s pussy with \#{brk4} fingers in close contact!"
+"\#{tec}, \\n​m​stimulated \#{targetname}'s pussy with \#{brk4} fingers in close contact!"
 > END STRING
 
 > BEGIN STRING
@@ -24541,56 +24541,56 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "舌先で、\\n\\m\#{targetname}のアソコを下から突き上げた！"
-> CONTEXT: Scripts/RPG::Skilltext/2400:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/2400:28
+" pushed tip of tongue in\\n\\m\#{targetname}'s pussy from below!"
 > END STRING
 
 > BEGIN STRING
 "舌で、\\n\\m\#{targetname}のアソコを舐め回した！"
-> CONTEXT: Scripts/RPG::Skilltext/2401:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/2401:28
+" licked {targetname}'s pussy!"
 > END STRING
 
 > BEGIN STRING
 "舌先で、\\n\\m\#{targetname}の菊門を下から突き上げた！"
-> CONTEXT: Scripts/RPG::Skilltext/2403:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/2403:28
+" pushed tip of tongue in \\n\\m\#{targetname}'s anus from below!"
 > END STRING
 
 > BEGIN STRING
 "舌で、\\n\\m\#{targetname}の菊座を舐め回した！"
-> CONTEXT: Scripts/RPG::Skilltext/2404:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/2404:28
+" licked \\n\\m\#{targetname}'s anus!"
 > END STRING
 
 > BEGIN STRING
 "自由に動かせる手で、\\n\\m\#{targetname}の\#{target.bustsize}を鷲掴みにした！"
 > CONTEXT: Scripts/RPG::Skilltext/2406:28
-" grabbed \#{targetname}'s \#{target.bustsize}\\n\\mwith a free hand!"
+" grabbed \#{targetname}'s \#{target.bustsize}\\n​m​with a free hand!"
 > END STRING
 
 > BEGIN STRING
 "自由に動かせる手で、\\n\\m\#{targetname}の\#{target.bustsize}を下から鷲掴みにした！"
 > CONTEXT: Scripts/RPG::Skilltext/2407:28
-" grabbed \#{targetname}'s \\n\\m\#{target.bustsize} with a free hand from below!"
+" grabbed \#{targetname}'s \\n​m​\#{target.bustsize} with a free hand from below!"
 > END STRING
 
 > BEGIN STRING
 "自由に動かせる指で、\\n\\m\#{targetname}の乳首を摘み上げた！"
 > CONTEXT: Scripts/RPG::Skilltext/2408:28
-" used free fingers \\n\\mto pick \#{targetname}'s nipples!"
+" used free fingers \\n​m​to pick \#{targetname}'s nipples!"
 > END STRING
 
 > BEGIN STRING
 "自由に動かせる手で、\\n\\m\#{targetname}のお尻を鷲掴みにした！"
 > CONTEXT: Scripts/RPG::Skilltext/2410:28
-" grabbed \#{targetname}'s ass\\n\\mwith a free hand!"
+" grabbed \#{targetname}'s ass\\n​m​with a free hand!"
 > END STRING
 
 > BEGIN STRING
 "自由に動かせる指で、\\n\\m\#{targetname}の菊門を刺激した！"
 > CONTEXT: Scripts/RPG::Skilltext/2411:28
-" stimulated\\n\\m\#{targetname}'s anus with free fingers!"
+" stimulated\\n​m​\#{targetname}'s anus with free fingers!"
 > END STRING
 
 > BEGIN STRING
@@ -24608,13 +24608,13 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "顔を近づけ、\\n\\m\#{targetname}にキスをした！"
 > CONTEXT: Scripts/RPG::Skilltext/2416:28
-" brought face closer and kissed \\n\\m\#{targetname}!"
+" brought face closer and kissed \\n​m​\#{targetname}!"
 > END STRING
 
 > BEGIN STRING
 "顔を近づけ、\\n\\m\#{targetname}と艶めかしく舌を絡ませた！"
 > CONTEXT: Scripts/RPG::Skilltext/2417:28
-" brought face \\n\\mclose to\#{targetname} and entwined tongues!"
+" brought face \\n​m​close to\#{targetname} and entwined tongues!"
 > END STRING
 
 > BEGIN STRING
@@ -24739,8 +24739,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{tec}、\\n\\m更に\#{targetname}を愛撫してきた！"
-> CONTEXT: Scripts/RPG::Skilltext/2496:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/2496:28
+" is fondling\\n\\m\#{targetname} \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -25313,49 +25313,49 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\\n\\m刺激を受けるたびに、アソコから愛蜜の水飛沫が上がる…！"
 > CONTEXT: Scripts/RPG::Skilltext/2669:21
-"\\n\\mOn every stimulation, \\nlove nectar comes from the vagina...!"
+"\\n​m​On every stimulation, \\nlove nectar comes from the vagina...!"
 > END STRING
 
 > BEGIN STRING
 "\\n\\m\#{targetname}の\#{pantsu}から愛蜜が滴り落ちる…！"
 > CONTEXT: Scripts/RPG::Skilltext/2670:21
-"\\n\\mLove honey is dripping from \\n\#{targetname}'s \#{pantsu}...!"
+"\\n​m​Love honey is dripping from \\n\#{targetname}'s \#{pantsu}...!"
 > END STRING
 
 > BEGIN STRING
 "\\n\\mアソコの淫らな水音がより大きくなってきた…！"
 > CONTEXT: Scripts/RPG::Skilltext/2672:21
-"\\n\\mThe lewd sound of pussy is getting louder...!"
+"\\n​m​The lewd sound of pussy is getting louder...!"
 > END STRING
 
 > BEGIN STRING
 "\\n\\m\#{targetname}の\#{pantsu}は愛蜜で濡れている…！"
 > CONTEXT: Scripts/RPG::Skilltext/2673:21
-"\\n\\m\#{targetname}'s \#{pantsu} is wet with love honey...!"
+"\\n​m​\#{targetname}'s \#{pantsu} is wet with love honey...!"
 > END STRING
 
 > BEGIN STRING
 "\\n\\m\#{targetname}の内股を愛蜜がつぅっと流れる…！"
 > CONTEXT: Scripts/RPG::Skilltext/2675:21
-"\\n\\mLove nectar flows through \\n\#{targetname}'s inner thighs...!"
+"\\n​m​Love nectar flows through \\n\#{targetname}'s inner thighs...!"
 > END STRING
 
 > BEGIN STRING
 "\\n\\m\#{targetname}の\#{pantsu}の染みが濃くなってきた…！"
 > CONTEXT: Scripts/RPG::Skilltext/2676:21
-"\\n\\mThe stain on \#{targetname}'s \#{pantsu} is getting darker...!"
+"\\n​m​The stain on \#{targetname}'s \#{pantsu} is getting darker...!"
 > END STRING
 
 > BEGIN STRING
 "\\n\\mアソコから淫らな水音が漏れ聞こえてくる…！"
 > CONTEXT: Scripts/RPG::Skilltext/2678:21
-"\\n\\mThere's a lewd wet sound from vagina...!"
+"\\n​m​There's a lewd wet sound from vagina...!"
 > END STRING
 
 > BEGIN STRING
 "\\n\\m\#{targetname}の\#{pantsu}に染みが浮き出てきた…！"
 > CONTEXT: Scripts/RPG::Skilltext/2679:21
-"\\n\\mThere are stains on \#{targetname}'s \#{pantsu}...!"
+"\\n​m​There are stains on \#{targetname}'s \#{pantsu}...!"
 > END STRING
 
 > BEGIN STRING
@@ -27148,13 +27148,13 @@ Instinct Awakening
 > BEGIN STRING
 "\#{$msg.t_target.name}は堪えきれず、\\m\\n\#{enemy.name}の\#{enemy.bustsize}に\#{brk2}精を吐き出してしまった！"
 > CONTEXT: Scripts/SR_Util spam/172:28
-"\#{$msg.t_target.name} couldn't hold back　\\m\\nand cum spewed out into　\\m\\n\#{enemy.name}'s \#{enemy.bustsize}! "
+"\#{$msg.t_target.name} couldn't hold back ​m​\\nand cum spewed out into ​m​\\n\#{enemy.name}'s \#{enemy.bustsize}! "
 > END STRING
 
 > BEGIN STRING
 "\#{$msg.t_target.name}は堪えきれず、\\m\\n\#{$msg.t_enemy.name}に精を吐き出してしまった！"
-> CONTEXT: Scripts/SR_Util spam/194:20 < UNTRANSLATED
-
+> CONTEXT: Scripts/SR_Util spam/194:20
+"\#{$msg.t_target.name} couldn't hold back anymore \\m\\nand shot cum on \#{$msg.t_enemy.name}!"
 > END STRING
 
 > BEGIN STRING
@@ -27814,8 +27814,8 @@ Instinct Awakening
 
 > BEGIN STRING
 "\#{speaker}は"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/30:15 < UNTRANSLATED
-"\#{speaker} "
+> CONTEXT: Scripts/Talk_Sys Text(Map)/30:15
+"\#{speaker}"
 > END STRING
 
 > BEGIN STRING
@@ -27860,7 +27860,7 @@ Instinct Awakening
 > CONTEXT: Scripts/Talk_Sys Text(Map)/189:24
 > CONTEXT: Scripts/Talk_Sys Text(Map)/198:24
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/80:23
-" politely"
+"politely"
 > END STRING
 
 > BEGIN STRING
@@ -27979,28 +27979,28 @@ Instinct Awakening
 
 > BEGIN STRING
 "ペニスを手でしごいてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/77:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/120:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/166:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/200:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/223:24 < UNTRANSLATED
-" squeezed my penis with her hand!"
+> CONTEXT: Scripts/Talk_Sys Text(Map)/77:24
+> CONTEXT: Scripts/Talk_Sys Text(Map)/120:24
+> CONTEXT: Scripts/Talk_Sys Text(Map)/166:24
+> CONTEXT: Scripts/Talk_Sys Text(Map)/200:24
+> CONTEXT: Scripts/Talk_Sys Text(Map)/223:24
+"squeezed my penis with her hand!"
 > END STRING
 
 > BEGIN STRING
 "ペニスを舌で舐め回してきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/77:40 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/120:40 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/166:40 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/200:40 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/223:40 < UNTRANSLATED
-" licked my penis with her tongue!"
+> CONTEXT: Scripts/Talk_Sys Text(Map)/77:40
+> CONTEXT: Scripts/Talk_Sys Text(Map)/120:40
+> CONTEXT: Scripts/Talk_Sys Text(Map)/166:40
+> CONTEXT: Scripts/Talk_Sys Text(Map)/200:40
+> CONTEXT: Scripts/Talk_Sys Text(Map)/223:40
+"licked my penis with her tongue!"
 > END STRING
 
 > BEGIN STRING
 "澄ました表情で"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/81:22 < UNTRANSLATED
-" looking unruffled"
+> CONTEXT: Scripts/Talk_Sys Text(Map)/81:22
+"looking unruffled"
 > END STRING
 
 > BEGIN STRING
@@ -28008,7 +28008,7 @@ Instinct Awakening
 > CONTEXT: Scripts/Talk_Sys Text(Map)/81:32
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/282:18
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/362:20
-" grinning"
+"while grinning"
 > END STRING
 
 > BEGIN STRING
@@ -28021,7 +28021,7 @@ Instinct Awakening
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/71:18
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/279:18
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/359:20
-" with a bewitching smile"
+"with a bewitching smile"
 > END STRING
 
 > BEGIN STRING
@@ -28059,8 +28059,8 @@ Instinct Awakening
 
 > BEGIN STRING
 "服を脱ぐように\#{master}に言うと、"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/101:21 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/113:21 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Text(Map)/101:21
+> CONTEXT: Scripts/Talk_Sys Text(Map)/113:21
 "told \#{master} to take off clothes,"
 > END STRING
 
@@ -28196,7 +28196,7 @@ Instinct Awakening
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/85:15
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/181:15
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/209:15
-" started shaking hips!"
+" started shaking hips"
 > END STRING
 
 > BEGIN STRING
@@ -28204,7 +28204,7 @@ Instinct Awakening
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/85:26
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/181:26
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/209:26
-" is moving hips!"
+" is moving hips"
 > END STRING
 
 > BEGIN STRING
@@ -28212,7 +28212,7 @@ Instinct Awakening
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/88:15
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/184:15
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/212:15
-" is licking \#{t_actor}'s penis!"
+" is licking \#{t_actor}'s penis"
 > END STRING
 
 > BEGIN STRING
@@ -28235,7 +28235,7 @@ Instinct Awakening
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/117:17
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/184:41
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/212:41
-" is sucking \#{t_actor}'s penis!"
+" is sucking \#{t_actor}'s penis"
 > END STRING
 
 > BEGIN STRING
@@ -28250,7 +28250,7 @@ Instinct Awakening
 "\#{t_actor}を愛撫してきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/91:14
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/187:14
-" caressing \#{t_actor}!"
+" caressing \#{t_actor}"
 > END STRING
 
 > BEGIN STRING
@@ -28271,7 +28271,7 @@ Instinct Awakening
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/93:9
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/190:9
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/218:9
-"\#{speaker} is \#{action} \#{text} \#{emotion}"
+"\#{speaker} is \#{text}\\n\#{emotion} \#{action}!"
 > END STRING
 
 > BEGIN STRING
@@ -28672,7 +28672,7 @@ Instinct Awakening
 > BEGIN STRING
 "\#{t_actor}を抱き寄せ、熱いキスを交わした！"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/146:17
-"Hugged \#{t_actor} and gave a passionate kiss!"
+" hugged \#{t_actor} and gave a passionate kiss!"
 > END STRING
 
 > BEGIN STRING
@@ -28714,7 +28714,7 @@ Instinct Awakening
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/274:9
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/343:9
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/370:11
-"\#{speaker} \#{action} \#{emotion}"
+"\#{speaker} \#{action} \#{emotion}..!"
 > END STRING
 
 > BEGIN STRING
@@ -28792,8 +28792,8 @@ Instinct Awakening
 
 > BEGIN STRING
 "\#{text1}\#{text2}、\\n\#{text3}\\n\#{text4}\#{text5}"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/227:13 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Map)/227:13
+"\#{text1}, \#{text2},\\n\#{text3}\\nand \#{text4} \#{text5}"
 > END STRING
 
 > BEGIN STRING
@@ -28827,22 +28827,22 @@ Instinct Awakening
 
 > BEGIN STRING
 "満足げに"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/234:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/271:22 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Map)/234:22
+> CONTEXT: Scripts/Talk_Sys Text(Map)/271:22
+"satisfied"
 > END STRING
 
 > BEGIN STRING
 "満ち足りた表情で"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/234:29 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/271:29 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Map)/234:29
+> CONTEXT: Scripts/Talk_Sys Text(Map)/271:29
+"looking satisfied"
 > END STRING
 
 > BEGIN STRING
 "微笑み"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/234:51 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Map)/234:51
+"while smiling"
 > END STRING
 
 > BEGIN STRING
@@ -28865,23 +28865,23 @@ Instinct Awakening
 
 > BEGIN STRING
 "\#{master}の精を指で舐め取っている……"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/244:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/248:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/262:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/266:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/281:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/285:24 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Map)/244:24
+> CONTEXT: Scripts/Talk_Sys Text(Map)/248:24
+> CONTEXT: Scripts/Talk_Sys Text(Map)/262:24
+> CONTEXT: Scripts/Talk_Sys Text(Map)/266:24
+> CONTEXT: Scripts/Talk_Sys Text(Map)/281:24
+> CONTEXT: Scripts/Talk_Sys Text(Map)/285:24
+"is licking \#{master}'s semen using fingers..."
 > END STRING
 
 > BEGIN STRING
 "\#{master}の精をごくりと飲み込んだ……"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/244:50 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/248:50 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/262:50 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/266:50 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/281:50 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/285:50 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Text(Map)/244:50
+> CONTEXT: Scripts/Talk_Sys Text(Map)/248:50
+> CONTEXT: Scripts/Talk_Sys Text(Map)/262:50
+> CONTEXT: Scripts/Talk_Sys Text(Map)/266:50
+> CONTEXT: Scripts/Talk_Sys Text(Map)/281:50
+> CONTEXT: Scripts/Talk_Sys Text(Map)/285:50
 "swallowed \#{master}'s semen..."
 > END STRING
 
@@ -28939,7 +28939,7 @@ Instinct Awakening
 > BEGIN STRING
 "\#{t_actor}を攻め立てた！"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/215:14
-" attacked \#{t_actor}!"
+"attacking \#{t_actor}"
 > END STRING
 
 > BEGIN STRING
@@ -28951,7 +28951,7 @@ Instinct Awakening
 > BEGIN STRING
 "くすくすと笑っている……！"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/221:34
-" giggling...!"
+"giggling...!"
 > END STRING
 
 > BEGIN STRING
@@ -28992,8 +28992,8 @@ Instinct Awakening
 
 > BEGIN STRING
 "\#{text1}\#{text2}、\\n\#{text3}"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/289:13 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Map)/289:13
+"\#{text1}, \#{text2},\\n\#{text3}"
 > END STRING
 
 > BEGIN STRING
@@ -29265,14 +29265,14 @@ Instinct Awakening
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/281:18
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/357:18
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/361:20
-" giggles"
+"while giggling"
 > END STRING
 
 > BEGIN STRING
 "満足げな表情で"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/262:18
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/263:18
-" with a satisfied look"
+"with a satisfied look"
 > END STRING
 
 > BEGIN STRING
@@ -29284,25 +29284,25 @@ Instinct Awakening
 > BEGIN STRING
 "意地悪げな笑みを浮かべ"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/265:18
-" with a wicked smile"
+"with a wicked smile"
 > END STRING
 
 > BEGIN STRING
 "名残惜しそうに"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/266:16
-" reluctantly"
+"reluctantly"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}から離れた……！"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/269:15
-" released \#{t_actor}...!"
+" released \#{t_actor}"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}にそっと口付けすると、\\n\#{t_actor}を解放した……！"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/270:17
-" gently kissed and released \\n\#{t_actor}"
+"gently kissed and released \\n\#{t_actor}"
 > END STRING
 
 > BEGIN STRING
@@ -29314,14 +29314,14 @@ Instinct Awakening
 > BEGIN STRING
 "休む暇も無く"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/280:18
-" without rest"
+"without rest"
 > END STRING
 
 > BEGIN STRING
 "熱に浮かされたように"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/283:27
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/363:29
-" feverishly"
+"feverishly"
 > END STRING
 
 > BEGIN STRING
@@ -29652,7 +29652,7 @@ Instinct Awakening
 > BEGIN STRING
 "\#{t_actor}の\#{tec}口付けで、\\n\#{speaker}\#{action}"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/407:9
-"With \#{t_actor}'s \#{tec} kiss,\\n\#{speaker}\#{action}"
+" with \#{t_actor}'s \#{tec} kiss,\\n\#{speaker}\#{action}"
 > END STRING
 
 > BEGIN STRING
@@ -30776,49 +30776,49 @@ Instinct Awakening
 > BEGIN STRING
 "\#{speaker}は快感に溺れている……！\\m\\n今は話が出来る状態ではない……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/29:13
-"\#{speaker} is drowning in pleasure...!\\m\\nIt's no use talking right now...!"
+"\#{speaker} is drowning in pleasure...!​m​\\nIt's no use talking right now...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は笑みを浮かべている……！\\m\\n今は話を聞いてもらえそうにない……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/31:13
-"\#{speaker} is smiling...!\\m\\nI don't think I will be listened to right now...!"
+"\#{speaker} is smiling...!​m​\\nI don't think I will be listened to right now...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は快感に身悶えしている……！\\m\\n今は話が出来る状態ではない……"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/33:13
-"\#{speaker} is writhing in pleasure...!\\m\\nIt's no use talking right now..."
+"\#{speaker} is writhing in pleasure...!​m​\\nIt's no use talking right now..."
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}はどうやら、\\m\\nこれ以上話を聞いてくれそうにない……"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/35:13
-"\#{speaker} doesn't seem　\\m\\nto want to listen to me any more..."
+"\#{speaker} doesn't seem ​m​\\nto want to listen to me any more..."
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は放心している……！\\m\\n今は話が出来る状態ではない……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/37:13
-"\#{speaker} is absentminded...!\\m\\nIt's no use, I would be talking to deaf ears...!"
+"\#{speaker} is absentminded...!​m​\\nIt's no use, I would be talking to deaf ears...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は意味深な笑みを浮かべている……！\\m\\n今は話を聞いてもらえそうにない……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/38:13
-"\#{speaker} has a suggestive smile...!\\m\\nIt's no use, I would be talking to deaf ears...!"
+"\#{speaker} has a suggestive smile...!​m​\\nIt's no use, I would be talking to deaf ears...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は極度に興奮している……！\\m\\n今は話が出来る状態ではない……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/40:13
-"\#{speaker} is extremely aroused...!\\m\\nCan't talk right now...!"
+"\#{speaker} is extremely aroused...!​m​\\nCan't talk right now...!"
 > END STRING
 
 > BEGIN STRING
 "\#{master}は\#{speaker}の言う通りに、\\m\\n自ら服を脱いだ！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/48:13
-"\#{master} did as \#{speaker} said and　\\m\\ngot undressed!"
+"\#{master} did as \#{speaker} said and ​m​\\ngot undressed!"
 > END STRING
 
 > BEGIN STRING
@@ -30830,7 +30830,7 @@ Instinct Awakening
 > BEGIN STRING
 "\#{master}は\#{speaker}の言う通りに、\\m\\n\#{servant}の服を脱がせた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/58:13
-"\#{master} did as \#{speaker} said \\m\\nand undressed \#{servant}!"
+"\#{master} did as \#{speaker} said ​m​\\nand undressed \#{servant}!"
 > END STRING
 
 > BEGIN STRING
@@ -30844,31 +30844,31 @@ Instinct Awakening
 > BEGIN STRING
 "\#{master}は言う通りに、\\m\\n\#{speaker}の脱ぐ様子を見続けた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/68:13
-"\#{master} did as told and \\m\\ncontinued to watch \#{speaker} undress!"
+"\#{master} did as told and ​m​\\ncontinued to watch \#{speaker} undress!"
 > END STRING
 
 > BEGIN STRING
 "\#{master}は思わず、\\m\\n\#{speaker}の脱ぐ様子を見続けてしまった！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/69:13
-"\#{master} couldn't help but \\m\\nkeep watching \#{speaker} undress!"
+"\#{master} couldn't help but ​m​\\nkeep watching \#{speaker} undress!"
 > END STRING
 
 > BEGIN STRING
 "\#{master}は食い入るように、\\m\\n\#{speaker}の脱ぐ様子を見続けた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/70:13
-"\#{master} watched \\m\\n\#{speaker} undress with great interest!"
+"\#{master} watched ​m​\\n\#{speaker} undress with great interest!"
 > END STRING
 
 > BEGIN STRING
 "\#{master}は思いとどまり、\\m\\n\#{speaker}から目を逸らした！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/72:13
-"\#{master} resisted and looked away from \\m\\n\#{speaker}!"
+"\#{master} resisted and looked away from ​m​\\n\#{speaker}!"
 > END STRING
 
 > BEGIN STRING
 "\#{master}は\#{speaker}に唇を奪われた！\\m\\n\#{master}の身体から力が抜けていく……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/80:13
-"\#{speaker} stole a kiss from \#{master}!\\m\\n\#{master}'s body is losing its strength...!"
+"\#{speaker} stole a kiss from \#{master}!​m​\\n\#{master}'s body is losing its strength...!"
 > END STRING
 
 > BEGIN STRING
@@ -30904,7 +30904,7 @@ Instinct Awakening
 > BEGIN STRING
 "\#{speaker}は、\\m\\n自らの身体を慰めている……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/112:13
-"\#{speaker} is \\m\\ncomforting her own body...!"
+"\#{speaker} is ​m​\\ncomforting her own body...!"
 > END STRING
 
 > BEGIN STRING
@@ -31051,7 +31051,7 @@ Instinct Awakening
 > BEGIN STRING
 "\#{master}は\#{action}、\\m\\n\#{speaker}と口内で舌を絡めあった！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/172:15
-"\#{master} and \#{speaker} \\m\\nintertwined tongues in their mouths \#{action}!"
+"\#{master} and \#{speaker} ​m​\\nintertwined tongues in their mouths \#{action}!"
 > END STRING
 
 > BEGIN STRING
@@ -31180,8 +31180,8 @@ Instinct Awakening
 
 > BEGIN STRING
 "を見つめながら"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/250:26 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/250:26
+"while staring at"
 > END STRING
 
 > BEGIN STRING
@@ -31192,8 +31192,8 @@ Instinct Awakening
 
 > BEGIN STRING
 "\#{speaker}は\#{master}\#{action}、\\m\\n\#{waist}腰を振ってきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/265:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/265:17
+"\#{speaker} \#{action} \#{master},\\m\\nand \#{waist} started shaking hips！"
 > END STRING
 
 > BEGIN STRING
@@ -31424,14 +31424,14 @@ Instinct Awakening
 
 > BEGIN STRING
 "\#{speaker}は手で、\\m\\n\#{master}のペニスをしごいてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/406:21 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/406:21
+"\#{speaker} squeezed \\m\\n\#{master}'s penis by hand!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は反応を楽しむかのように、\\m\\n\#{master}のペニスを根元から舐め上げてきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/417:21 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/417:21
+"\#{speaker} seemed to enjoy the reaction \\m\\nand licked \#{master}'s penis from the base!"
 > END STRING
 
 > BEGIN STRING
@@ -31479,7 +31479,7 @@ Instinct Awakening
 > BEGIN STRING
 "\#{speaker}は舌で、\\m\\n\#{master}のペニスを舐め上げてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/441:21
-"\#{speaker} licked \\m\\n\#{master}'s penis!"
+"\#{speaker} licked ​m​\\n\#{master}'s penis!"
 > END STRING
 
 > BEGIN STRING
@@ -31521,7 +31521,7 @@ Instinct Awakening
 > BEGIN STRING
 "\#{speaker}は足の指で、\\m\\n\#{master}のペニスを焦らすように弄んできた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/470:21
-"\#{speaker} teased　\\m\\n\#{master}'s penis with toes!"
+"\#{speaker} teased ​m​\\n\#{master}'s penis with toes!"
 > END STRING
 
 > BEGIN STRING
@@ -31542,7 +31542,7 @@ Instinct Awakening
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/507:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/518:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/526:21
-"\#{speaker} is fondling \#{master}'s penis　\\m\\nwith \#{$msg.t_enemy.bustsize}!"
+"\#{speaker} is fondling \#{master}'s penis ​m​\\nwith \#{$msg.t_enemy.bustsize}!"
 > END STRING
 
 > BEGIN STRING
@@ -31551,7 +31551,7 @@ Instinct Awakening
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/508:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/519:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/527:21
-"\#{speaker} rubbed \#{$msg.t_enemy.bustsize} on　\\m\\n\#{master}'s penis!"
+"\#{speaker} rubbed \#{$msg.t_enemy.bustsize} on ​m​\\n\#{master}'s penis!"
 > END STRING
 
 > BEGIN STRING
@@ -31561,7 +31561,7 @@ Instinct Awakening
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/510:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/521:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/529:21
-"\#{speaker} is squeezing \#{master}'s penis　\\m\\nwith \#{$msg.t_enemy.bustsize}!"
+"\#{speaker} is squeezing \#{master}'s penis ​m​\\nwith \#{$msg.t_enemy.bustsize}!"
 > END STRING
 
 > BEGIN STRING
@@ -31571,61 +31571,61 @@ Instinct Awakening
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/511:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/522:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/530:21
-"\#{speaker} pushed \#{$msg.t_enemy.bustsize} onto　\\m\\n\#{master}'s dick!"
+"\#{speaker} pushed \#{$msg.t_enemy.bustsize} onto ​m​\\n\#{master}'s dick!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は反応を楽しむかのように、\\m\\n\#{$msg.t_enemy.bustsize}をペニスに擦り付けてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/495:23
-"\#{speaker} enjoyed the reaction　\\m\\nand started rubbing \#{$msg.t_enemy.bustsize} on his penis!"
+"\#{speaker} enjoyed the reaction ​m​\\nand started rubbing \#{$msg.t_enemy.bustsize} on his penis!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は愛おしむかのように、\\m\\n\#{$msg.t_enemy.bustsize}をペニスに擦り付けてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/496:23
-"\#{speaker} rubbed　\\m\\n\#{$msg.t_enemy.bustsize} on his penis like she loves it!"
+"\#{speaker} rubbed ​m​\\n\#{$msg.t_enemy.bustsize} on his penis like she loves it!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は反応を楽しむかのように、\\m\\n\#{$msg.t_enemy.bustsize}でペニスを艶かしく愛撫してきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/498:23
-"\#{speaker} enjoyed the reaction　\\m\\nand caressed the penis with \#{$msg.t_enemy.bustsize}!"
+"\#{speaker} enjoyed the reaction ​m​\\nand caressed the penis with \#{$msg.t_enemy.bustsize}!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は愛おしむかのように、\\m\\n\#{$msg.t_enemy.bustsize}でペニスを艶かしく愛撫してきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/499:23
-"\#{speaker} seductively caressed my penis with　\\m\\n\#{$msg.t_enemy.bustsize} like she loves it!"
+"\#{speaker} seductively caressed my penis with ​m​\\n\#{$msg.t_enemy.bustsize} like she loves it!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は反応を楽しむかのように、\\m\\n\#{master}のペニスの上で腰を振ってきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/541:21
-"\#{speaker} started shaking hips　\\m\\non \#{master}'s penis, enjoying the reaction!"
+"\#{speaker} started shaking hips ​m​\\non \#{master}'s penis, enjoying the reaction!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は愛おしむかのように、\\m\\n\#{master}のペニスの上で腰を振ってきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/542:21
-"\#{speaker} started shaking hips　\\m\\non \#{master}'s penis like she loves it!"
+"\#{speaker} started shaking hips ​m​\\non \#{master}'s penis like she loves it!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は心得た腰使いで、\\m\\n\#{master}のペニスにアソコを擦り付けてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/544:21
-"\#{speaker} is rubbing　\\m\\nher pussy against \#{master}'s penis!"
+"\#{speaker} is rubbing ​m​\\nher pussy against \#{master}'s penis!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は腰を前後にくねらせ、\\m\\n\#{master}のペニスをアソコで擦り上げてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/548:21
-"\#{speaker} wiggles hips back and forth,\\m\\n\#{master}'s penis rubs up against her!"
+"\#{speaker} wiggles hips back and forth,​m​\\n\#{master}'s penis rubs up against her!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は自分のアソコを、\\m\\n\#{master}のペニスに激しく擦り付けてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/550:21
-"\#{speaker} is rubbing　\\m\\nher pussy hard against \#{master}'s penis!"
+"\#{speaker} is rubbing ​m​\\nher pussy hard against \#{master}'s penis!"
 > END STRING
 
 > BEGIN STRING
@@ -31639,57 +31639,57 @@ Instinct Awakening
 "\#{speaker}は自分のアソコを、\\m\\n\#{master}のペニスに擦り付けてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/559:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/565:21
-"\#{speaker} rubbed her pussy　\\m\\nagainst \#{master}'s penis!"
+"\#{speaker} rubbed her pussy ​m​\\nagainst \#{master}'s penis!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は反応を楽しむかのように、\\m\\n\#{master}のペニスを尻尾でしごいてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/576:21
-"\#{speaker} is enjoying the reaction\\m\\nand starts squeezing \#{master}'s penis by tail!"
+"\#{speaker} is enjoying the reaction​m​\\nand starts squeezing \#{master}'s penis by tail!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は愛おしむかのように、\\m\\n\#{master}のペニスを尻尾でしごいてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/577:21
-"\#{speaker} stroked　\\m\\n\#{master}'s penis by tail like she loves it!"
+"\#{speaker} stroked ​m​\\n\#{master}'s penis by tail like she loves it!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は慣れた腰使いで、\\m\\n\#{master}のペニスを尻尾で弄んできた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/579:21
-"\#{speaker} played with \#{master}'s penis　\\m\\n\\with practiced hips, using the tail!"
+"\#{speaker} played with \#{master}'s penis ​m​\\n\\with practiced hips, using the tail!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は尻尾をくねらせ、\\m\\n\#{master}のペニスを間断なくしごき上げてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/583:21
-"\#{speaker} wiggled the tail　\\m\\nand jerked \#{master}'s penis continuously!"
+"\#{speaker} wiggled the tail ​m​\\nand jerked \#{master}'s penis continuously!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は尻尾を巧みに使い、\\m\\n\#{master}のペニスをしごき上げてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/585:21
-"\#{speaker} skillfully used her tail　\\m\\nto jerk \#{master}'s penis!"
+"\#{speaker} skillfully used her tail ​m​\\nto jerk \#{master}'s penis!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}はリズミカルに、\\m\\n尻尾で\#{master}のペニスをしごき上げてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/592:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/598:21
-"\#{speaker} rhythmically　\\m\\njerked \#{master}'s penis with tail!"
+"\#{speaker} rhythmically ​m​\\njerked \#{master}'s penis with tail!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は自分の尻尾を、\\m\\n\#{master}のペニスに巻き付けてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/594:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/600:21
-"\#{speaker} wrapped tail　\\m\\naround \#{master}'s penis!"
+"\#{speaker} wrapped tail ​m​\\naround \#{master}'s penis!"
 > END STRING
 
 > BEGIN STRING
 "\#{master}は誘われるまま、\\m\\n\#{speaker}のアソコにペニスを突き入れた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/711:15
-"\#{master} was invited to stick his penis\\m\\ninto \#{speaker}'s pussy!"
+"\#{master} was invited to stick his penis​m​\\ninto \#{speaker}'s pussy!"
 > END STRING
 
 > BEGIN STRING
@@ -31701,67 +31701,67 @@ Instinct Awakening
 > BEGIN STRING
 "\#{speaker}は\#{master}の胸元に、\\m\\n意味ありげな視線を向けてきた……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/745:11
-"\#{speaker} took a suggestive look at　\\m\\n\#{master}'s chest...!"
+"\#{speaker} took a suggestive look at ​m​\\n\#{master}'s chest...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は\#{master}の胸元を、\\m\\n落ち着かない様子でちらちらと伺っている！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/746:11
-"\#{speaker} is glancing at　\\m\\n\#{master}'s chest uncomfortably!"
+"\#{speaker} is glancing at ​m​\\n\#{master}'s chest uncomfortably!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は含みのある表情で、\\m\\n\#{servant}を見つめている……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/751:11
-"\#{speaker} is looking at　\\m\\n\#{servant} with a thoughtful expression...!"
+"\#{speaker} is looking at ​m​\\n\#{servant} with a thoughtful expression...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は意味ありげな表情で、\\m\\n\#{servant}を見つめている……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/752:11
-"\#{speaker} is looking at　\\m\\n\#{servant} with a suggestive expression...!"
+"\#{speaker} is looking at ​m​\\n\#{servant} with a suggestive expression...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は服の合わせ目をはだけ、\\m\\n\#{master}に艶っぽい表情を向けた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/757:11
-"\#{speaker} exposed a seam of clothes　\\m\\nand gave \#{master} a seductive look!"
+"\#{speaker} exposed a seam of clothes ​m​\\nand gave \#{master} a seductive look!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は服の合わせ目をはだけ、\\m\\n\#{master}に意味ありげな表情を向けた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/758:11
-"\#{speaker} exposed a seam of clothes　\\m\\nand gave \#{master} a suggestive look!"
+"\#{speaker} exposed a seam of clothes ​m​\\nand gave \#{master} a suggestive look!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}の身体を覆う粘液が、\\m\\n\#{master}の視線の先で揺れている……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/759:11
-"The mucus covering \#{speaker}'s body\\m\\nis shaking in \#{master}'s view...!"
+"The mucus covering \#{speaker}'s body​m​\\nis shaking in \#{master}'s view...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は目を閉じて、\\m\\n\#{master}の唇に顔を近づけてきた……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/764:11
-"\#{speaker} closed eyes　\\m\\nand got closer to \#{master}'s lips...!"
+"\#{speaker} closed eyes ​m​\\nand got closer to \#{master}'s lips...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は笑みを浮かべ、\\m\\n\#{master}の唇に顔を近づけてきた……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/765:11
-"\#{speaker} smiled and　\\m\\ngot closer to \#{master}'s lips...!"
+"\#{speaker} smiled and ​m​\\ngot closer to \#{master}'s lips...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は目を閉じて、\\m\\n\#{master}のペニスに顔を近づけてきた……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/770:11
-"\#{speaker} closed eyes and　\\m\\ngot closer to \#{master}'s penis...!"
+"\#{speaker} closed eyes and ​m​\\ngot closer to \#{master}'s penis...!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は笑みを浮かべ、\\m\\n\#{master}のペニスに顔を近づけてきた……！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/771:11
-"\#{speaker} smiled and　\\m\\ngot closer to \#{master}'s penis...!"
+"\#{speaker} smiled and ​m​\\ngot closer to \#{master}'s penis...!"
 > END STRING
 
 > BEGIN STRING
@@ -31875,10 +31875,10 @@ Instinct Awakening
 
 > BEGIN STRING
 "柔らかい笑みを浮かべ"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/847:19 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/867:21 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/906:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/847:19
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/867:21
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/906:19
+"with a soft smile"
 > END STRING
 
 > BEGIN STRING
@@ -31896,7 +31896,7 @@ Instinct Awakening
 > BEGIN STRING
 "\#{speaker}は\#{emotion}、\\m\\n\#{master}のペニスを見つめている！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/859:11
-"\#{speaker} \#{emotion}, \\m\\nis staring at \#{master}'s penis!"
+"\#{speaker} is staring at​m​\\n\#{master}'s penis \#{emotion}!"
 > END STRING
 
 > BEGIN STRING
@@ -31915,9 +31915,9 @@ Instinct Awakening
 
 > BEGIN STRING
 "の背に腕を回してきた"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/884:23 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/923:21 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/884:23
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/923:21
+"put arm around back of"
 > END STRING
 
 > BEGIN STRING
@@ -31954,7 +31954,7 @@ Instinct Awakening
 "\#{speaker}は\#{emotion}、\\m\\n\#{master}\#{action}！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/895:13
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/934:11
-"\#{speaker}\#{master}\\m\\n\#{action}\#{emotion}"
+"\#{speaker} \#{action}​m​\\n\#{master} \#{emotion}"
 > END STRING
 
 > BEGIN STRING
