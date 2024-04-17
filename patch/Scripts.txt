@@ -4223,7 +4223,7 @@
 > BEGIN STRING
 "\#{myname}の能力を強化した！"
 > CONTEXT: Scripts/RPG::Statetext/265:18
-"\#{myname}'s abilities have been enhanced!"
+"\#{myname}'s ability has been enhanced!"
 > END STRING
 
 > BEGIN STRING
@@ -4241,7 +4241,7 @@
 > BEGIN STRING
 "\#{myname}の能力が強化された！"
 > CONTEXT: Scripts/RPG::Statetext/266:18
-"\#{myname}'s abilities have been enhanced!"
+"\#{myname}'s ability has been enhanced!"
 > END STRING
 
 > BEGIN STRING
@@ -4292,7 +4292,7 @@
 > CONTEXT: Scripts/RPG::Statetext/297:24
 > CONTEXT: Scripts/RPG::Statetext/299:24
 > CONTEXT: Scripts/RPG::Statetext/301:24
-"abilities"
+"ability"
 > END STRING
 
 > BEGIN STRING
@@ -4319,7 +4319,7 @@
 > CONTEXT: Scripts/Game_Actor（再定義）/195:27
 > CONTEXT: Scripts/Game_Actor（再定義）/371:28
 > CONTEXT: Scripts/Game_Dish（料理）/145:19
-"Endurance"
+"endurance"
 > END STRING
 
 > BEGIN STRING
@@ -4353,7 +4353,7 @@
 > CONTEXT: Scripts/Game_Actor（再定義）/108:27
 > CONTEXT: Scripts/Game_Actor（再定義）/371:34
 > CONTEXT: Scripts/Game_Dish（料理）/188:19
-"Energy"
+"energy"
 > END STRING
 
 > BEGIN STRING
@@ -4399,7 +4399,7 @@
 > CONTEXT: Scripts/Game_Actor（再定義）/118:27
 > CONTEXT: Scripts/Game_Actor（再定義）/371:39
 > CONTEXT: Scripts/Game_Dish（料理）/221:19
-"Dexterity"
+"dexterity"
 > END STRING
 
 > BEGIN STRING
@@ -4434,7 +4434,7 @@
 > CONTEXT: Scripts/Game_Actor（再定義）/371:45
 > CONTEXT: Scripts/Game_Dish（料理）/155:19
 > CONTEXT: Scripts/Game_Dish（料理）/177:19
-"Agility"
+"agility"
 > END STRING
 
 > BEGIN STRING
@@ -4488,7 +4488,7 @@
 > CONTEXT: Scripts/Game_Actor（再定義）/138:27
 > CONTEXT: Scripts/Game_Actor（再定義）/371:51
 > CONTEXT: Scripts/Game_Dish（料理）/210:19
-"Spirit"
+"spirit"
 > END STRING
 
 > BEGIN STRING
@@ -4551,7 +4551,7 @@
 > BEGIN STRING
 "\#{myname}の能力を弱体化させた！"
 > CONTEXT: Scripts/RPG::Statetext/287:18
-"\#{myname}'s abilities have been weakened!"
+"\#{myname}'s ability has been weakened!"
 > END STRING
 
 > BEGIN STRING
@@ -4570,7 +4570,7 @@
 > BEGIN STRING
 "\#{myname}は能力を弱体化させられた！"
 > CONTEXT: Scripts/RPG::Statetext/288:18
-"\#{myname}'s abilities have been weakened!"
+"\#{myname}'s ability has been weakened!"
 > END STRING
 
 > BEGIN STRING
@@ -4850,7 +4850,7 @@
 > BEGIN STRING
 "\#{myname}の能力弱体化を解除した！"
 > CONTEXT: Scripts/RPG::Statetext/328:18
-"\#{myname}'s ability weakening has been removed!"
+"\#{myname}'s ability reduction has been removed!"
 > END STRING
 
 > BEGIN STRING
@@ -4868,7 +4868,7 @@
 > BEGIN STRING
 "\#{myname}の能力弱体化が解除された！"
 > CONTEXT: Scripts/RPG::Statetext/329:18
-"\#{myname}'s ability weakening has been removed!"
+"\#{myname}'s ability reduction has been removed!"
 > END STRING
 
 > BEGIN STRING
