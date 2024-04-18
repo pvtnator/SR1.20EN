@@ -261,6 +261,7 @@ I had no idea that this evil cult existed in the dream world.
 魔女たちの密教会。
 > CONTEXT: Commonevents/13/47/Dialogue
 > CONTEXT: Commonevents/13/290/Dialogue
+\\name[\\v[7]]\\_
 A secret church of witches who worship depravity 
 and work with the devil to propagate depravity to others.
 > END STRING
@@ -727,51 +728,59 @@ existed in the dream world.
 > BEGIN STRING
 \\name[\\v[7]]\\_
 やはり、夢世界のこの教会こそが･･･。
-> CONTEXT: Commonevents/13/296/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/296/Dialogue
+\\name[\\v[7]]\\_
+After all, this church in the dream world is...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[7]]\\_
 ･･･恐ろしいものを見てしまった。
-> CONTEXT: Commonevents/13/304/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/304/Dialogue
+\\name[\\v[7]]\\_
+...I saw something horrifying.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[7]]\\_
 何だあれは。何が目的なのだ？
-> CONTEXT: Commonevents/13/306/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/306/Dialogue
+\\name[\\v[7]]\\_
+What is it? What do they want?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[7]]\\_
 遠目でよく見ることが出来なかったが、
 どうやら金色の夢魔が主導しているようだ。
-> CONTEXT: Commonevents/13/308/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/308/Dialogue
+\\name[\\v[7]]\\_
+Although I couldn't see it well from a distance,
+It seems that a golden succubus is leading the charge.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[7]]\\_
 気分が悪い･･･。
-> CONTEXT: Commonevents/13/311/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/311/Dialogue
+\\name[\\v[7]]\\_
+I don't feel well...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[7]]\\_
 この教会は一体何をやっている･･･？
-> CONTEXT: Commonevents/13/313/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/313/Dialogue
+\\name[\\v[7]]\\_
+What on earth is this church doing...?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[7]]\\_
 やはりここは酷く吐き気のする場所だ。
-> CONTEXT: Commonevents/13/321/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/321/Dialogue
+\\name[\\v[7]]\\_
+After all, this place makes me feel sick.
 > END STRING
 
 > BEGIN STRING
@@ -1543,13 +1552,13 @@ Did not sign a contract with \\v[3].
 > BEGIN STRING
 "\#{$msg.t_target.name}は、"
 > CONTEXT: Commonevents/32/183/InlineScript/2:9
-"\#{$msg.t_target.name},"
+"\#{$msg.t_target.name} "
 > END STRING
 
 > BEGIN STRING
 "意識が朦朧としている……！"
 > CONTEXT: Commonevents/32/183/InlineScript/4:11
-" is unconcious...!"
+"is unconcious...!"
 > END STRING
 
 > BEGIN STRING
