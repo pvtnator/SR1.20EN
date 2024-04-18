@@ -8,7 +8,7 @@ def process_file(input_file, output_file):
                 if line.startswith(">"):
                     outfile.write(line)
                 else:
-                    outfile.write(line.replace("\\\\q", "​q​"))
+                    outfile.write(line.replace("\\\\q", "​q​").replace("\\\\m", "​m​"))
                     begin_string_found = False
             else:
                 if line.strip() == "> BEGIN STRING":
