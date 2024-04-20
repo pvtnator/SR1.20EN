@@ -1,16 +1,18 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 １号室＋２号室＋３号室＋４号室＋５号室＋６号室　＝　？
-> CONTEXT: Map359/events/1/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map359/events/1/pages/0/0/Dialogue
+Room 1 ＋ Room 2 ＋ Room 3 ＋ Room 4 ＋ Room 5 ＋ Room 6 = ?
 > END STRING
 
 > BEGIN STRING
 \\name[宝箱]\\_
 ちゃんと「全部」調べたかい？
 奥へ行く鍵は僕が持ってるからね。
-> CONTEXT: Map359/events/1/pages/0/20/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map359/events/1/pages/0/20/Dialogue
+\\name[Treasure Chest]\\_
+Did you check "everything" properly?
+The key is to the back of the room.
 > END STRING
 
 > BEGIN STRING

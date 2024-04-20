@@ -397,14 +397,14 @@ Carving of a lady. Resistance to lust, weaker resist.
 
 > BEGIN STRING
 ワイルドカード/20/0
-> CONTEXT: Armors/52/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/52/name/
+Wildcard/20/0
 > END STRING
 
 > BEGIN STRING
 能力値が大きく上がるカード。しかし戦闘に勝利すると無くなってしまう。
-> CONTEXT: Armors/52/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/52/description/
+Greatly increases your abilities. Disappears upon winning a battle.
 > END STRING
 
 > BEGIN STRING
@@ -765,7 +765,7 @@ It was once called a "dream."
 > BEGIN STRING
 魅力のルーン/3
 > CONTEXT: Armors/101/name/
-Charm rune/3
+Charm Rune/3
 > END STRING
 
 > BEGIN STRING
@@ -777,7 +777,7 @@ Charm rune/3
 > BEGIN STRING
 魔性のルーン/6
 > CONTEXT: Armors/102/name/
-Magic rune/6
+Magic Rune/6
 > END STRING
 
 > BEGIN STRING
@@ -789,7 +789,7 @@ Magic rune/6
 > BEGIN STRING
 妖艶のルーン/10
 > CONTEXT: Armors/103/name/
-Bewitching rune/10
+Bewitching Rune/10
 > END STRING
 
 > BEGIN STRING
@@ -801,7 +801,7 @@ Bewitching rune/10
 > BEGIN STRING
 イングのルーン/18
 > CONTEXT: Armors/104/name/
-Ing rune/18
+Ing Rune/18
 > END STRING
 
 > BEGIN STRING
@@ -813,7 +813,7 @@ Ing rune/18
 > BEGIN STRING
 忍耐のルーン/0/3
 > CONTEXT: Armors/106/name/
-Endurance rune/0/3
+Endurance Rune/0/3
 > END STRING
 
 > BEGIN STRING
@@ -825,7 +825,7 @@ Endurance rune/0/3
 > BEGIN STRING
 不屈のルーン/0/6
 > CONTEXT: Armors/107/name/
-Unyielding rune/0/6
+Unyielding Rune/0/6
 > END STRING
 
 > BEGIN STRING
@@ -837,7 +837,7 @@ Unyielding rune/0/6
 > BEGIN STRING
 堅忍のルーン/0/10
 > CONTEXT: Armors/108/name/
-Perseverance rune/0/10
+Perseverance Rune/0/10
 > END STRING
 
 > BEGIN STRING
@@ -849,7 +849,7 @@ Perseverance rune/0/10
 > BEGIN STRING
 エイワズのルーン/0/18
 > CONTEXT: Armors/109/name/
-Ehwaz rune/0/18
+Ehwaz Rune/0/18
 > END STRING
 
 > BEGIN STRING
@@ -879,7 +879,7 @@ Bold Rune
 > BEGIN STRING
 絶倫のルーン
 > CONTEXT: Armors/113/name/
-Unrivaled rune
+Unrivaled Rune
 > END STRING
 
 > BEGIN STRING
@@ -891,7 +891,7 @@ Unrivaled rune
 > BEGIN STRING
 ウルズのルーン
 > CONTEXT: Armors/114/name/
-Uruz rune
+Uruz Rune
 > END STRING
 
 > BEGIN STRING
@@ -921,7 +921,7 @@ Skilled Rune
 > BEGIN STRING
 熟達のルーン
 > CONTEXT: Armors/118/name/
-Mastery rune
+Mastery Rune
 > END STRING
 
 > BEGIN STRING
@@ -963,7 +963,7 @@ Gale Rune
 > BEGIN STRING
 刹那のルーン
 > CONTEXT: Armors/123/name/
-Instant rune
+Instant Rune
 > END STRING
 
 > BEGIN STRING
@@ -975,7 +975,7 @@ Instant rune
 > BEGIN STRING
 ラグズのルーン
 > CONTEXT: Armors/124/name/
-Rags rune
+Rags Rune
 > END STRING
 
 > BEGIN STRING
@@ -993,7 +993,7 @@ Rags rune
 > BEGIN STRING
 意思のルーン
 > CONTEXT: Armors/127/name/
-Will rune
+Will Rune
 > END STRING
 
 > BEGIN STRING
@@ -1005,7 +1005,7 @@ Will rune
 > BEGIN STRING
 霊感のルーン
 > CONTEXT: Armors/128/name/
-Afflatus rune
+Afflatus Rune
 > END STRING
 
 > BEGIN STRING
@@ -1017,7 +1017,7 @@ Afflatus rune
 > BEGIN STRING
 シギルのルーン
 > CONTEXT: Armors/129/name/
-Sigel rune
+Sigel Rune
 > END STRING
 
 > BEGIN STRING
@@ -1041,7 +1041,7 @@ Divinity Rune/10/10
 > BEGIN STRING
 意識のルーン
 > CONTEXT: Armors/133/name/
-Conciousness rune
+Conciousness Rune
 > END STRING
 
 > BEGIN STRING
@@ -1053,7 +1053,7 @@ Conciousness rune
 > BEGIN STRING
 抑制のルーン
 > CONTEXT: Armors/134/name/
-Restraint rune
+Restraint Rune
 > END STRING
 
 > BEGIN STRING
@@ -1065,7 +1065,7 @@ Restraint rune
 > BEGIN STRING
 理性のルーン
 > CONTEXT: Armors/135/name/
-Reason rune
+Reason Rune
 > END STRING
 
 > BEGIN STRING
@@ -1077,7 +1077,7 @@ Reason rune
 > BEGIN STRING
 活気のルーン
 > CONTEXT: Armors/136/name/
-Vibrant rune
+Vibrant Rune
 > END STRING
 
 > BEGIN STRING
@@ -1089,7 +1089,7 @@ Vibrant rune
 > BEGIN STRING
 胆力のルーン
 > CONTEXT: Armors/137/name/
-Courage rune
+Courage Rune
 > END STRING
 
 > BEGIN STRING
@@ -1101,7 +1101,7 @@ Courage rune
 > BEGIN STRING
 柔軟のルーン
 > CONTEXT: Armors/138/name/
-Flexibility rune
+Flexibility Rune
 > END STRING
 
 > BEGIN STRING
@@ -1113,7 +1113,7 @@ Flexibility rune
 > BEGIN STRING
 一心のルーン
 > CONTEXT: Armors/139/name/
-Isshin rune
+Isshin Rune
 > END STRING
 
 > BEGIN STRING
@@ -1125,7 +1125,7 @@ Isshin rune
 > BEGIN STRING
 無敵のルーン
 > CONTEXT: Armors/141/name/
-Invincible rune
+Invincible Rune
 > END STRING
 
 > BEGIN STRING
@@ -1137,7 +1137,7 @@ Invincible rune
 > BEGIN STRING
 安息のルーン
 > CONTEXT: Armors/143/name/
-Repose rune
+Repose Rune
 > END STRING
 
 > BEGIN STRING
@@ -1149,7 +1149,7 @@ Repose rune
 > BEGIN STRING
 信頼のルーン
 > CONTEXT: Armors/145/name/
-Trust rune
+Trust Rune
 > END STRING
 
 > BEGIN STRING
@@ -1161,7 +1161,7 @@ Trust rune
 > BEGIN STRING
 調理のルーン
 > CONTEXT: Armors/146/name/
-Chef rune
+Chef Rune
 > END STRING
 
 > BEGIN STRING
@@ -1173,7 +1173,7 @@ Chef rune
 > BEGIN STRING
 節制のルーン
 > CONTEXT: Armors/147/name/
-Temperance rune
+Temperance Rune
 > END STRING
 
 > BEGIN STRING
@@ -1185,7 +1185,7 @@ Temperance rune
 > BEGIN STRING
 美食のルーン
 > CONTEXT: Armors/148/name/
-Gourmet rune
+Gourmet Rune
 > END STRING
 
 > BEGIN STRING
@@ -1197,7 +1197,7 @@ Gourmet rune
 > BEGIN STRING
 暴食のルーン
 > CONTEXT: Armors/149/name/
-Gluttony rune
+Gluttony Rune
 > END STRING
 
 > BEGIN STRING
@@ -1209,7 +1209,7 @@ Gluttony rune
 > BEGIN STRING
 淫紋のルーン/20/-50
 > CONTEXT: Armors/150/name/
-Lewd rune/20/-50
+Lewd Rune/20/-50
 > END STRING
 
 > BEGIN STRING
@@ -1221,7 +1221,7 @@ Lewd rune/20/-50
 > BEGIN STRING
 強引のルーン
 > CONTEXT: Armors/152/name/
-Force rune
+Force Rune
 > END STRING
 
 > BEGIN STRING
@@ -1233,7 +1233,7 @@ Force rune
 > BEGIN STRING
 抵抗のルーン
 > CONTEXT: Armors/153/name/
-Resist rune
+Resist Rune
 > END STRING
 
 > BEGIN STRING
@@ -1527,7 +1527,7 @@ Resist rune
 > BEGIN STRING
 【目聡い採取】
 > CONTEXT: Armors/261/name/
-【Clever harvest】
+【Smart harvest】
 > END STRING
 
 > BEGIN STRING

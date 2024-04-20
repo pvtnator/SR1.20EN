@@ -481,7 +481,7 @@ Hard scratch
 ライディング
 > CONTEXT: Skills/55/name/
 > CONTEXT: Skills/767/name/
-Riding
+Ride
 > END STRING
 
 > BEGIN STRING
@@ -1590,7 +1590,7 @@ Trim Roots
 > BEGIN STRING
 [魔法] 味方１人の恍惚・欲情・暴走を解除する。
 > CONTEXT: Skills/215/description/
-[Magic] Cancels ecstasy, lust, and recklessness from one ally.
+[Magic] Cancels ecstasy, lust, and berserk from one ally.
 > END STRING
 
 > BEGIN STRING
@@ -2603,26 +2603,26 @@ Attack the penis effectively. High SS rate.
 
 > BEGIN STRING
 セットサークル
-> CONTEXT: Skills/359/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/359/name/
+Set circle
 > END STRING
 
 > BEGIN STRING
 [手→] ３ターンの間、自分が使用する魔法の消費ＶＰが０になる。
-> CONTEXT: Skills/359/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/359/description/
+[Hand→]For 3 turns, the VP consumption of your magic becomes 0.
 > END STRING
 
 > BEGIN STRING
 コールドタッチ
-> CONTEXT: Skills/360/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/360/name/
+Cold Touch
 > END STRING
 
 > BEGIN STRING
 [手→体] 冷たい手で愛撫する。[追加：ディレイ]
-> CONTEXT: Skills/360/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/360/description/
+[Hand→Body]Caress with cold hands.[Added: Delay]
 > END STRING
 
 > BEGIN STRING
@@ -2639,15 +2639,15 @@ Attack the penis effectively. High SS rate.
 
 > BEGIN STRING
 プライスオブハレム
-> CONTEXT: Skills/362/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/362/name/
+Price of Harem
 > END STRING
 
 > BEGIN STRING
 [手→体] 敵全員を攻める。[条件：ムード30]
-> CONTEXT: Skills/362/description/ < UNTRANSLATED
-> CONTEXT: Skills/363/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/362/description/
+> CONTEXT: Skills/363/description/
+[Hand→Body]Attack all enemies.[Condition: Mood 30]
 > END STRING
 
 > BEGIN STRING
@@ -2920,19 +2920,19 @@ Howling
 > BEGIN STRING
 [口→] 自身の精力を強める。
 > CONTEXT: Skills/415/description/
-[Mouth →] Increase your own energy.
+[Mouth→]Increase your own energy.
 > END STRING
 
 > BEGIN STRING
 魔性の口付け
-> CONTEXT: Skills/416/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/416/name/
+Magical kiss
 > END STRING
 
 > BEGIN STRING
 [口→口] 味方に口付けをする。[追加：魅力↑]
-> CONTEXT: Skills/416/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/416/description/
+[Mouth→Mouth]Kiss an ally.[Added: Charm↑]
 > END STRING
 
 > BEGIN STRING
@@ -2949,27 +2949,27 @@ Howling
 
 > BEGIN STRING
 スイートウィスパー
-> CONTEXT: Skills/418/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/418/name/
+Sweet whisper
 > END STRING
 
 > BEGIN STRING
 [口→耳] 相手1人の感度を上げ、ムードアップさせる。
-> CONTEXT: Skills/418/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/418/description/
+[Mouth→Ear]Increas the sensitivity of one opponent and mood.
 > END STRING
 
 > BEGIN STRING
 アンラッキーロア
-> CONTEXT: Skills/419/name/ < UNTRANSLATED
-> CONTEXT: Skills/420/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/419/name/
+> CONTEXT: Skills/420/name/
+Unlucky roar
 > END STRING
 
 > BEGIN STRING
 [口→耳] 相手全員を不幸状態にする。（敵用）
-> CONTEXT: Skills/419/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/419/description/
+[Mouth→Ear]Makes all opponents unhappy. (for enemy)
 > END STRING
 
 > BEGIN STRING
@@ -3821,8 +3821,8 @@ A張型で攻める。相手が[尻張型]時のみ使用可能
 
 > BEGIN STRING
 スライミーリキッド
-> CONTEXT: Skills/587/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/587/name/
+Slimy Liquid
 > END STRING
 
 > BEGIN STRING
@@ -3895,14 +3895,14 @@ Cheer
 
 > BEGIN STRING
 自分を焦燥状態にする。（精力素早さ↑器用さ精神力↓）
-> CONTEXT: Skills/599/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/599/description/
+Get impatient. (Energy, agility↑ dexterity, spirit↓)
 > END STRING
 
 > BEGIN STRING
 自分を専心状態にする。（器用さ精神力↑精力素早さ↓）
-> CONTEXT: Skills/600/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/600/description/
+Get focused. (dexterity, spirit↑ energy, agility↓)
 > END STRING
 
 > BEGIN STRING
@@ -4009,8 +4009,8 @@ Passion Beat
 
 > BEGIN STRING
 ウィークスポア
-> CONTEXT: Skills/619/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/619/name/
+Weak spore
 > END STRING
 
 > BEGIN STRING
@@ -4021,14 +4021,14 @@ Passion Beat
 
 > BEGIN STRING
 威迫
-> CONTEXT: Skills/620/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/620/name/
+Intimidate
 > END STRING
 
 > BEGIN STRING
 [場：敵] ５ターンの間、敵全員のレジストを弱化させる。
-> CONTEXT: Skills/620/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/620/description/
+[Scene: Enemy]Weakens the resistance of all enemies for 5 turns.
 > END STRING
 
 > BEGIN STRING
@@ -4069,8 +4069,8 @@ Heart Steal
 
 > BEGIN STRING
 スライムフィールド
-> CONTEXT: Skills/626/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/626/name/
+Slime field
 > END STRING
 
 > BEGIN STRING
@@ -5746,7 +5746,7 @@ Interfere with a hold. Cannot be used if you are in a hold.
 > CONTEXT: Skills/981/description/
 > CONTEXT: Skills/983/description/
 > CONTEXT: Skills/985/description/
-Limited to reckless situations. Consumes VP and causes heavy damage.
+Limited to berserk. Consumes VP and causes heavy damage.
 > END STRING
 
 > BEGIN STRING
@@ -5760,7 +5760,7 @@ Limited to reckless situations. Consumes VP and causes heavy damage.
 > CONTEXT: Skills/982/description/
 > CONTEXT: Skills/984/description/
 > CONTEXT: Skills/986/description/
-Limited to reckless situations. For follow-ups.
+Limited to berserk. For follow-ups.
 > END STRING
 
 > BEGIN STRING
@@ -5797,7 +5797,7 @@ Limited to reckless situations. For follow-ups.
 暴走時限定。消費するVPが無い場合の行動。
 > CONTEXT: Skills/987/description/
 > CONTEXT: Skills/988/description/
-Limited to reckless situations. When there is no VP to consume.
+Limited to berserk. When there is no VP to consume.
 > END STRING
 
 > BEGIN STRING

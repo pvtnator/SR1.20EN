@@ -422,8 +422,8 @@ compile things into books, might prove to be allies.
 友好的に接することができる相手だった。
 > CONTEXT: Commonevents/13/128/Dialogue
 \\name[\\v[7]]\\_
-The young lady of this mansion was a succubus
-I knew who I could interact with on a friendly basis.
+The young lady of this mansion is a succubus
+I knew I could interact with on a friendly basis.
 > END STRING
 
 > BEGIN STRING
@@ -446,7 +446,7 @@ she appears as someone who does not cheapen herself.
 \\name[\\v[7]]\\_
 She is interested in other people's stories, 
 and in return for stories, people use her unique 
-connections to arrange various deals with her.
+connections to arrange various deals.
 > END STRING
 
 > BEGIN STRING
@@ -470,7 +470,7 @@ I got a glimpse of what they were really after.
 \\name[\\v[7]]\\_
 ...However, even if she sees the current corruption in 
 the Palfis Secret Church, she just enjoys watching it, 
-and her laissez-faire attitude is a bit troublesome.
+and her noninterfering attitude is a bit bothersome.
 > END STRING
 
 > BEGIN STRING
@@ -756,7 +756,7 @@ What is it? What do they want?
 > CONTEXT: Commonevents/13/308/Dialogue
 \\name[\\v[7]]\\_
 Although I couldn't see it well from a distance,
-It seems that a golden succubus is leading the charge.
+It seems that Golden Succubus is leading the charge.
 > END STRING
 
 > BEGIN STRING
@@ -780,7 +780,7 @@ What on earth is this church doing...?
 やはりここは酷く吐き気のする場所だ。
 > CONTEXT: Commonevents/13/321/Dialogue
 \\name[\\v[7]]\\_
-After all, this place makes me feel sick.
+This place makes me feel sick.
 > END STRING
 
 > BEGIN STRING
@@ -788,8 +788,11 @@ After all, this place makes me feel sick.
 あの子たちも教会で引き取られた孤児だろう。
 しかし彼女らの待遇は良い様には見えない。\\_
 まさに奴隷のようだ。
-> CONTEXT: Commonevents/13/323/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/323/Dialogue
+\\name[\\v[7]]\\_
+Those children must also be orphans taken in by the church.
+However, their treatment does not seem to be good. 
+It's like being a slave.
 > END STRING
 
 > BEGIN STRING
@@ -797,23 +800,28 @@ After all, this place makes me feel sick.
 しかし、嘗て関わったパルフィス密教会で引き取ることに\\_
 なった孤児は、
 他の孤児も含めて教育自体は充分と為されていたはず･･･。
-> CONTEXT: Commonevents/13/327/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/327/Dialogue
+\\name[\\v[7]]\\_
+However, the orphans influenced by Palfis Secret Church 
+along with other orphans, must have been sufficiently educated...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[7]]\\_
 パルフィス密教会は、昔と何かが変わっている？
-> CONTEXT: Commonevents/13/331/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/331/Dialogue
+\\name[\\v[7]]\\_
+Has something changed at Palfis Secret Church from the past?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[7]]\\_
 どうやら今のパルフィス密教会は嘗ての主導者カオシアが\\_
 不在らしい。
-> CONTEXT: Commonevents/13/339/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/339/Dialogue
+\\name[\\v[7]]\\_
+Apparently, the current leader of Palfis Secret Church, 
+Chaosia, is absent.
 > END STRING
 
 > BEGIN STRING
@@ -821,8 +829,11 @@ After all, this place makes me feel sick.
 今はあの集会を取り仕切っていた、ヴェルミィーナという
 金色の夢魔が主導者を務めているようだ。
 夢魔がトップの組織なぞ腐敗して当然なはずだ。
-> CONTEXT: Commonevents/13/342/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/342/Dialogue
+\\name[\\v[7]]\\_
+It seems that the Golden Succubus named Vermina is now in charge
+of the organization. It's only natural that an organization 
+with a succubus at the top would be corrupt.
 > END STRING
 
 > BEGIN STRING
@@ -830,8 +841,11 @@ After all, this place makes me feel sick.
 とはいえ、想像以上にこの教会は根を張っている。
 今分かっているこの教会の現実世界の支部を解体していく\\_
 程度では、\\n逆に警戒を強めてしまうだけだろう。
-> CONTEXT: Commonevents/13/346/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/346/Dialogue
+\\name[\\v[7]]\\_
+However, this church has more roots than I expected.
+Dismantling the real-world branches of this church 
+as we know it will only make people more wary.
 > END STRING
 
 > BEGIN STRING
@@ -839,15 +853,19 @@ After all, this place makes me feel sick.
 堕落的とはいえ、ここは優秀な魔女も多い。
 魔女にとって絶好の研究施設にもなっているこの教会を、
 安易に敵に回してしまうのも危険だ。
-> CONTEXT: Commonevents/13/350/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/350/Dialogue
+\\name[\\v[7]]\\_
+Although it is corrupt, there are many talented witches here.
+It would be dangerous to make an enemy of this church, 
+which also serves as a perfect research facility for witches.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[7]]\\_
 しかしそうなると、一体どうすれば･･･？
-> CONTEXT: Commonevents/13/354/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/354/Dialogue
+\\name[\\v[7]]\\_
+But if that happens, what should I do?
 > END STRING
 
 > BEGIN STRING
@@ -1353,14 +1371,15 @@ After all, this place makes me feel sick.
 > BEGIN STRING
 \\v[2]は新たな姿にランクアップしそうだ……
 ランクアップを行わせますか？
-> CONTEXT: Commonevents/17/62/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/17/62/Dialogue
+\\v[2] will rank up with a new appearance...
+Do you want to rank up?
 > END STRING
 
 > BEGIN STRING
 \\v[2]は、\\v[3]にランクアップした！
-> CONTEXT: Commonevents/17/126/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/17/126/Dialogue
+\\v[2] has ranked up to \\v[3]!
 > END STRING
 
 > BEGIN STRING
@@ -1372,8 +1391,9 @@ After all, this place makes me feel sick.
 > BEGIN STRING
 開かない。
 扉には日食の紋様が描かれている。
-> CONTEXT: Commonevents/20/67/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/20/67/Dialogue
+Won't open.
+The pattern of a solar eclipse is painted on the door.
 > END STRING
 
 > BEGIN STRING
@@ -1543,10 +1563,10 @@ Did not sign a contract with \\v[3].
 
 > BEGIN STRING
 "\\q\\m"
-> CONTEXT: Commonevents/32/158/InlineScript/8:39 < UNTRANSLATED
-> CONTEXT: Commonevents/32/198/InlineScript/8:39 < UNTRANSLATED
-> CONTEXT: Commonevents/34/118/InlineScript/2:8 < UNTRANSLATED
-
+> CONTEXT: Commonevents/32/158/InlineScript/8:39
+> CONTEXT: Commonevents/32/198/InlineScript/8:39
+> CONTEXT: Commonevents/34/118/InlineScript/2:8
+"​q​m​"
 > END STRING
 
 > BEGIN STRING
@@ -1558,7 +1578,7 @@ Did not sign a contract with \\v[3].
 > BEGIN STRING
 "意識が朦朧としている……！"
 > CONTEXT: Commonevents/32/183/InlineScript/4:11
-"is unconcious...!"
+"fell unconcious...!"
 > END STRING
 
 > BEGIN STRING
@@ -1570,7 +1590,7 @@ Did not sign a contract with \\v[3].
 > BEGIN STRING
 "\#{$msg.t_enemy.name}を絶頂させた！"
 > CONTEXT: Commonevents/34/105/InlineScript/2:8
-" made \#{$msg.t_enemy.name} cum!"
+"Made \#{$msg.t_enemy.name} orgasm!"
 > END STRING
 
 > BEGIN STRING
@@ -1581,8 +1601,8 @@ Did not sign a contract with \\v[3].
 
 > BEGIN STRING
 "まだ物足りない様子だ……！"
-> CONTEXT: Commonevents/34/118/InlineScript/4:9 < UNTRANSLATED
-
+> CONTEXT: Commonevents/34/118/InlineScript/4:9
+" has not had enough yet...!"
 > END STRING
 
 > BEGIN STRING
@@ -2161,15 +2181,17 @@ Continue watching for a while?
 \\name[\\v[2]]\\_
 \\g\\v[5]
 \\v[6]Lps.ダ。買うカイ？
-> CONTEXT: Commonevents/131/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/131/3/Dialogue
+\\name[\\v[2]]\\_
+\\g\\v[5]
+\\v[6]Lps. Buy?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 毎度アリッ！
-> CONTEXT: Commonevents/131/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/131/12/Dialogue
+Thanks as always!
 > END STRING
 
 > BEGIN STRING
