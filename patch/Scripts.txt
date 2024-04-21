@@ -1791,15 +1791,14 @@
 > CONTEXT: Map209/events/19/pages/1/0/InlineScript/1:22
 > CONTEXT: Map143/events/1/pages/0/0/InlineScript/1:22
 > CONTEXT: Map143/events/11/pages/0/7/InlineScript/1:22
+> CONTEXT: Scripts/RPG::Class（ボーナス）/498:14
+> CONTEXT: Scripts/RPG::Class（習得スキル）/783:14
+> CONTEXT: Scripts/Game_Enemy (設定用)/190:12
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1004:28
+> CONTEXT: Scripts/RPG::Skilltext/108:21
+> CONTEXT: Scripts/RPG::Skilltext/988:16
+> CONTEXT: Scripts/Talk_Sys Base/159:10
 "Rigeo"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/498:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/783:14 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/190:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1004:28 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/108:21 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/988:16 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/159:10 < UNTRANSLATED
-
 > END STRING
 
 > BEGIN STRING
@@ -6390,10 +6389,10 @@
 
 > BEGIN STRING
 "\#{myname}の身体が快感で大きく跳ねる！"
-> CONTEXT: Scripts/Game_Battler Textmake/123:18 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler Textmake/127:18 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler Textmake/141:18 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler Textmake/123:18
+> CONTEXT: Scripts/Game_Battler Textmake/127:18
+> CONTEXT: Scripts/Game_Battler Textmake/141:18
+"\#{myname}'s body jumps with pleasure!"
 > END STRING
 
 > BEGIN STRING
@@ -18023,8 +18022,8 @@
 
 > BEGIN STRING
 "華奢な尻尾"
-> CONTEXT: Scripts/RPG::Skilltext/109:16 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/109:16
+"delicate tail"
 > END STRING
 
 > BEGIN STRING
@@ -18512,9 +18511,9 @@
 
 > BEGIN STRING
 "思わせぶりな態度で、\\n\\m\#{targetname}の気を逸らそうと試みた！"
-> CONTEXT: Scripts/RPG::Skilltext/434:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/438:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/434:30
+> CONTEXT: Scripts/RPG::Skilltext/438:30
+" attempts to distract\\n​m​\#{targetname} with suggestive behavior!"
 > END STRING
 
 > BEGIN STRING
@@ -19568,8 +19567,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\\n\\m\#{targetname}のお尻を勢い良く叩いた！"
-> CONTEXT: Scripts/RPG::Skilltext/876:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/876:28
+"\\n​m​ slapped \#{targetname}'s ass hard!"
 > END STRING
 
 > BEGIN STRING
@@ -20692,13 +20691,13 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "独占欲"
-> CONTEXT: Scripts/装備拡張 /652:16 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Actor（再定義）/170:19 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Actor（再定義）/188:19 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Actor（再定義）/238:29 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Actor（再定義）/438:20 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Actor（再定義）/444:20 < UNTRANSLATED
-
+> CONTEXT: Scripts/装備拡張 /652:16
+> CONTEXT: Scripts/Game_Actor（再定義）/170:19
+> CONTEXT: Scripts/Game_Actor（再定義）/188:19
+> CONTEXT: Scripts/Game_Actor（再定義）/238:29
+> CONTEXT: Scripts/Game_Actor（再定義）/438:20
+> CONTEXT: Scripts/Game_Actor（再定義）/444:20
+"Possessiveness"
 > END STRING
 
 > BEGIN STRING
@@ -20709,12 +20708,12 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "一匹狼の誡"
-> CONTEXT: Scripts/装備拡張 /653:16 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Actor（再定義）/171:19 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Actor（再定義）/189:19 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Actor（再定義）/426:20 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Actor（再定義）/432:20 < UNTRANSLATED
-
+> CONTEXT: Scripts/装備拡張 /653:16
+> CONTEXT: Scripts/Game_Actor（再定義）/171:19
+> CONTEXT: Scripts/Game_Actor（再定義）/189:19
+> CONTEXT: Scripts/Game_Actor（再定義）/426:20
+> CONTEXT: Scripts/Game_Actor（再定義）/432:20
+"Lone Wolf"
 > END STRING
 
 > BEGIN STRING
@@ -20725,10 +20724,10 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "眠り窮鼠"
-> CONTEXT: Scripts/装備拡張 /654:16 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Actor（再定義）/172:19 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Actor（再定義）/190:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/装備拡張 /654:16
+> CONTEXT: Scripts/Game_Actor（再定義）/172:19
+> CONTEXT: Scripts/Game_Actor（再定義）/190:19
+"Sleeping Rat"
 > END STRING
 
 > BEGIN STRING
@@ -22546,8 +22545,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "足裏で、\\n\\m\#{targetname}のアソコを小刻みに刺激してきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1896:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1896:30
+" is stimulating \\n​m​\#{targetname}'s pussy bit by bit with feet soles!"
 > END STRING
 
 > BEGIN STRING
@@ -22817,8 +22816,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "舌先で、\\n\\m\#{targetname}の脇をつぅっとなぞってきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1941:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1941:30
+" traced the side of \\n​m​\#{targetname} with the tip of tongue!"
 > END STRING
 
 > BEGIN STRING
@@ -23152,7 +23151,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{targetname}のアソコに、\\n\\m\#{tail}を擦り付けて愛撫してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1970:28
-"Rubbed and caressed \\n​m​\#{targetname}'s vagina with \#{tail}!"
+" rubbed and caressed \\n​m​\#{targetname}'s vagina with \#{tail}!"
 > END STRING
 
 > BEGIN STRING
@@ -23470,7 +23469,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/324:31
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/637:34
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/665:31
-"Modest"
+"modestly"
 > END STRING
 
 > BEGIN STRING
@@ -23484,7 +23483,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/323:32
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/636:35
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/664:32
-"Relaxed"
+"relaxedly"
 > END STRING
 
 > BEGIN STRING
@@ -23506,12 +23505,11 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/644:26
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/664:23
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/78:15
-"in a teasing way"
 > CONTEXT: Scripts/RPG::Skilltext/2035:20
 > CONTEXT: Scripts/RPG::Skilltext/2281:20
 > CONTEXT: Scripts/RPG::Skilltext/2315:20
 > CONTEXT: Scripts/RPG::Skilltext/2349:20
-"Teasing"
+"teasingly"
 > END STRING
 
 > BEGIN STRING
@@ -24059,8 +24057,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{brk}\#{targetname}にまたがったまま、\\n\\mゆっくりと腰を前後に振ってきた！"
-> CONTEXT: Scripts/RPG::Skilltext/2137:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/2137:30
+" \#{brk}slowly moved hips back and forth \\n​m​while straddling \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
@@ -24768,7 +24766,7 @@ this succubus will no longer be at Home.
 "大成功"
 > CONTEXT: Scripts/SR_Util dish_system/29:20
 > CONTEXT: Scripts/Window_Cook_Cooking/62:48
-"Great success"
+"Great: "
 > END STRING
 
 > BEGIN STRING
@@ -24959,8 +24957,8 @@ this succubus will no longer be at Home.
 > END STRING
 
 > BEGIN STRING
-"\#{word}\#{@dish.name}"
-> CONTEXT: Scripts/Window_Cook_Recipe（設定）/125:18 < UNTRANSLATED
+"\#{word} \#{@dish.name}"
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -25083,7 +25081,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "調理技能"
 > CONTEXT: Scripts/Window_Cook_Cooking/61:46
-"Cooking skills"
+"Skill:"
 > END STRING
 
 > BEGIN STRING
@@ -25254,7 +25252,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "消費VP"
 > CONTEXT: Scripts/Window_Cook_Recipe/80:65
-"Consumed VP"
+"VP Use"
 > END STRING
 
 > BEGIN STRING
@@ -25542,8 +25540,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "食材を選ぶ"
-> CONTEXT: Scripts/Scene_Cook/23:47 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Cook/23:47
+"Ingredients"
 > END STRING
 
 > BEGIN STRING
@@ -25554,14 +25552,14 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "トッピングする"
-> CONTEXT: Scripts/Scene_Cook/25:47 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Cook/25:47
+"Toppings"
 > END STRING
 
 > BEGIN STRING
 "調理する"
-> CONTEXT: Scripts/Scene_Cook/27:47 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Cook/27:47
+"Cook"
 > END STRING
 
 > BEGIN STRING
@@ -25572,8 +25570,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "調理をやめますか？\\n"
-> CONTEXT: Scripts/Scene_Cook/124:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Cook/124:14
+"Do you want to stop cooking?\\n"
 > END STRING
 
 > BEGIN STRING
@@ -25609,8 +25607,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "食材を選択してください。"
-> CONTEXT: Scripts/Scene_Cook/246:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Cook/246:17
+"Please select your ingredients."
 > END STRING
 
 > BEGIN STRING
@@ -26880,8 +26878,8 @@ Instinct Awakening
 
 > BEGIN STRING
 "\#{actor.name}はパーティに\\n\#{@name}を振る舞った！"
-> CONTEXT: Scripts/Game_Dish（料理）/453:20 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Dish（料理）/453:20
+"\#{actor.name} treated the party\\nto \#{@name}!"
 > END STRING
 
 > BEGIN STRING
@@ -26910,26 +26908,26 @@ Instinct Awakening
 
 > BEGIN STRING
 "全員"
-> CONTEXT: Scripts/Game_Dish（料理）/501:20 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Dish（料理）/501:20
+"everyone"
 > END STRING
 
 > BEGIN STRING
 "\#{who_word}の\#{things_text}が\#{level_ward}\#{heal_word}した！"
-> CONTEXT: Scripts/Game_Dish（料理）/508:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Dish（料理）/508:17
+"\#{who_word}'s \#{things_text} received \#{level_ward} \#{heal_word}!"
 > END STRING
 
 > BEGIN STRING
 "\#{who_word}の\#{things_text}の\#{type_text}が\#{level_ward}\#{plus_word}した！"
-> CONTEXT: Scripts/Game_Dish（料理）/511:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Dish（料理）/511:19
+"\#{who_word}'s \#{type_text} of \#{things_text} got a \#{level_ward} \#{plus_word}!"
 > END STRING
 
 > BEGIN STRING
 "\#{who_word}の\#{things_text}が\#{level_ward}\#{plus_word}した！"
-> CONTEXT: Scripts/Game_Dish（料理）/513:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Dish（料理）/513:19
+"\#{who_word}'s \#{things_text} got a \#{level_ward} \#{plus_word}!"
 > END STRING
 
 > BEGIN STRING
@@ -26967,8 +26965,8 @@ Instinct Awakening
 
 > BEGIN STRING
 "\#{dish_name}の\\n効果が切れた！"
-> CONTEXT: Scripts/歩数増加に伴うエフェクト/14:26 < UNTRANSLATED
-
+> CONTEXT: Scripts/歩数増加に伴うエフェクト/14:26
+"\#{dish_name}'s\\neffect has expired!"
 > END STRING
 
 > BEGIN STRING
@@ -32844,4 +32842,10 @@ Instinct Awakening
 "\#{emotion}\\n\\m\#{targetname}を優しく愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/2499:28
 " gently caressed \\n​m​\#{targetname} \#{emotion}!"
+> END STRING
+
+> BEGIN STRING
+"\#{word}\#{@dish.name}"
+> CONTEXT: Scripts/Window_Cook_Recipe（設定）/125:18 < UNTRANSLATED
+
 > END STRING
