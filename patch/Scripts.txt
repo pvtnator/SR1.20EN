@@ -1548,6 +1548,11 @@
 
 > BEGIN STRING
 "ゴブリン"
+> CONTEXT: Map371/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map150/events/65/pages/0/0/InlineScript/1:22
+> CONTEXT: Map150/events/72/pages/0/0/InlineScript/1:22
+> CONTEXT: Map150/events/73/pages/0/0/InlineScript/1:22
+"Goblin"
 > CONTEXT: Scripts/RPG::Class（ボーナス）/280:12 < UNTRANSLATED
 > CONTEXT: Scripts/★Scene_Title （$data改変）/318:17 < UNTRANSLATED
 > CONTEXT: Scripts/RPG::Class（習得スキル）/430:12 < UNTRANSLATED
@@ -1567,11 +1572,7 @@
 > CONTEXT: Scripts/RPG::Skilltext/306:34 < UNTRANSLATED
 > CONTEXT: Scripts/RPG::Skilltext/315:34 < UNTRANSLATED
 > CONTEXT: Scripts/RPG::Skilltext/946:14 < UNTRANSLATED
-> CONTEXT: Map371/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
 > CONTEXT: Scripts/Talk_Sys Base/579:19 < UNTRANSLATED
-> CONTEXT: Map150/events/65/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map150/events/72/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map150/events/73/pages/0/0/InlineScript/1:22 < UNTRANSLATED
 > CONTEXT: Scripts/Game_Actor（再定義）/344:15 < UNTRANSLATED
 
 > END STRING
@@ -6499,8 +6500,8 @@
 
 > BEGIN STRING
 "器用さ－"
-> CONTEXT: Scripts/Game_Battler Magiceffect/158:22 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler Magiceffect/158:22
+"Dexterity-"
 > END STRING
 
 > BEGIN STRING
@@ -8146,11 +8147,11 @@
 
 > BEGIN STRING
 "アイヴィクローズ"
-> CONTEXT: Scripts/HoldPop_Sprite/69:19 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/273:10 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/286:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/417:12 < UNTRANSLATED
-
+> CONTEXT: Scripts/HoldPop_Sprite/69:19
+> CONTEXT: Scripts/Game_BattlerHold/273:10
+> CONTEXT: Scripts/Scene_Battle HoldEffect/286:12
+> CONTEXT: Scripts/Scene_Battle HoldEffect/417:12
+"Ivy rose"
 > END STRING
 
 > BEGIN STRING
@@ -8390,9 +8391,9 @@
 
 > BEGIN STRING
 "ストレンジスポア"
-> CONTEXT: Scripts/Game_Battler 2/981:64 < UNTRANSLATED
-> CONTEXT: Scripts/Incense_System/99:10 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 2/981:64
+> CONTEXT: Scripts/Incense_System/99:10
+"Strange spore"
 > END STRING
 
 > BEGIN STRING
@@ -8407,14 +8408,14 @@
 
 > BEGIN STRING
 "蜻蛉のブローチ"
-> CONTEXT: Scripts/Game_Battler 2/992:39 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 2/992:39
+"Dragonfly brooch"
 > END STRING
 
 > BEGIN STRING
 "蝶のブローチ"
-> CONTEXT: Scripts/Game_Battler 2/993:39 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 2/993:39
+"Butterfly brooch"
 > END STRING
 
 > BEGIN STRING
@@ -15717,7 +15718,7 @@
 > CONTEXT: Scripts/Scene_Battle 6/181:38
 > CONTEXT: Scripts/Scene_Battle 6/204:10
 > CONTEXT: Scripts/Incense_System/139:10
-"Love Fragrance"
+"Love fragrance"
 > END STRING
 
 > BEGIN STRING
@@ -16672,7 +16673,7 @@
 > BEGIN STRING
 "\#{target.name}のペニスは、\\n\#{active.name}の胸の谷間に飲み込まれた！！"
 > CONTEXT: Scripts/Scene_Battle HoldEffect/373:18
-"\#{target.name}'s penis \\ngot swallowed by\#{active.name}'s cleavage!!"
+"\#{target.name}'s penis \\ngot swallowed by \#{active.name}'s cleavage!!"
 > END STRING
 
 > BEGIN STRING
@@ -17309,14 +17310,14 @@
 
 > BEGIN STRING
 "\#{actors_word}の魅力が上昇した！"
-> CONTEXT: Scripts/Incense_System/61:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/61:27
+"\#{actors_word}'s charm has increased!"
 > END STRING
 
 > BEGIN STRING
 "\#{actors_word}は甘い香りに包まれている……！"
-> CONTEXT: Scripts/Incense_System/62:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/62:27
+"\#{actors_word} is surrounded by a sweet scent...!"
 > END STRING
 
 > BEGIN STRING
@@ -17399,32 +17400,32 @@
 
 > BEGIN STRING
 "\#{enemies_word}は状態異常に弱くなった！"
-> CONTEXT: Scripts/Incense_System/101:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/101:27
+"\#{enemies_word} has become weaker to abnormal conditions!"
 > END STRING
 
 > BEGIN STRING
 "\#{enemies_word}に奇妙な胞子が漂っている……！"
-> CONTEXT: Scripts/Incense_System/102:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/102:27
+"Strange spores are floating around \#{enemies_word}...!"
 > END STRING
 
 > BEGIN STRING
 "\#{enemies_word}に漂う奇妙な胞子が無くなった！"
-> CONTEXT: Scripts/Incense_System/103:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/103:27
+"The strange spores \\nfloating around \#{enemies_word} are gone!"
 > END STRING
 
 > BEGIN STRING
 "\#{enemies_word}に薄暗く胞子が漂い始めた！"
-> CONTEXT: Scripts/Incense_System/108:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/108:27
+"Spores have begun to drift dimly over \#{enemies_word}!"
 > END STRING
 
 > BEGIN STRING
 "\#{enemies_word}に薄暗く胞子が漂っている……！"
-> CONTEXT: Scripts/Incense_System/109:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/109:27
+"There are spores floating in the dark \\naround \#{enemies_word}...!"
 > END STRING
 
 > BEGIN STRING
@@ -17471,14 +17472,14 @@
 
 > BEGIN STRING
 "\#{enemies_word}はレジストに弱くなった！"
-> CONTEXT: Scripts/Incense_System/119:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/119:27
+"\#{enemies_word}'s resist is weak!"
 > END STRING
 
 > BEGIN STRING
 "\#{enemies_word}は威迫されている……！"
-> CONTEXT: Scripts/Incense_System/120:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/120:27
+"\#{enemies_word} is being intimidated...!"
 > END STRING
 
 > BEGIN STRING
@@ -17594,8 +17595,8 @@
 
 > BEGIN STRING
 "\#{field_word}に官能的な香りが立ち込める！"
-> CONTEXT: Scripts/Incense_System/140:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/140:27
+"\#{field_word} has a sensual scent!"
 > END STRING
 
 > BEGIN STRING
@@ -17607,8 +17608,8 @@
 
 > BEGIN STRING
 "\#{field_word}は官能的な香りに包まれている……！"
-> CONTEXT: Scripts/Incense_System/141:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/141:27
+"\#{field_word} has a sensual scent...!"
 > END STRING
 
 > BEGIN STRING
@@ -17637,8 +17638,8 @@
 
 > BEGIN STRING
 "\#{field_word}に粘液が広がった！"
-> CONTEXT: Scripts/Incense_System/146:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/146:27
+"\#{field_word} got spread by mucus!"
 > END STRING
 
 > BEGIN STRING
@@ -17657,8 +17658,8 @@
 
 > BEGIN STRING
 "\#{field_word}は粘液が広がっている……！"
-> CONTEXT: Scripts/Incense_System/147:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/147:27
+"\#{field_word} is covered in mucus...!"
 > END STRING
 
 > BEGIN STRING
@@ -17923,8 +17924,8 @@
 
 > BEGIN STRING
 "すぅっと目を細めると、"
-> CONTEXT: Scripts/RPG::Skilltext/71:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/71:19
+"squinted"
 > END STRING
 
 > BEGIN STRING
@@ -18500,7 +18501,7 @@
 > BEGIN STRING
 "身体をよじり、\\n\\m\#{targetname}から何とか離れようと試みた！"
 > CONTEXT: Scripts/RPG::Skilltext/422:28
-" twisted and tried to \\n​m​get away from\#{targetname}!"
+" twisted and tried to \\n​m​get away from \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
@@ -18591,7 +18592,7 @@
 > BEGIN STRING
 "体勢を変えて、\\n\\m口で\#{targetname}の\#{target.bustsize}を\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/485:32
-" changed position and caressed \#{targetname}'s \#{target.bustsize} \#{brk2}with mouth!"
+" changed position and caressed \\n​m​\#{targetname}'s \#{target.bustsize} \#{brk2}with mouth!"
 > END STRING
 
 > BEGIN STRING
@@ -20007,8 +20008,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "見下すような視線で、\\n\\m\#{targetname}を睨んでいる…！"
-> CONTEXT: Scripts/RPG::Skilltext/1046:32 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1046:32
+" is glaring down at\\n​m​\#{targetname}...!"
 > END STRING
 
 > BEGIN STRING
@@ -20241,8 +20242,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "もじもじしながら、\\n\\m\#{targetname}を見つめている……"
-> CONTEXT: Scripts/RPG::Skilltext/1077:32 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1077:32
+" is staring at\\n​m​\#{targetname}, fidgeting..."
 > END STRING
 
 > BEGIN STRING
@@ -20444,8 +20445,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "興味津々の目で、\\n\\m\#{targetname}を見つめている……"
-> CONTEXT: Scripts/RPG::Skilltext/1119:32 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1119:32
+" is looking at \\n​m​\#{targetname} with curious eyes..."
 > END STRING
 
 > BEGIN STRING
@@ -20816,16 +20817,16 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\\n\\mぬめりを帯びたペニスに快感が走る！"
-> CONTEXT: Scripts/RPG::Skilltext/1200:21 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/1487:21 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/1736:19 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/1826:19 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/1849:21 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2249:19 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2252:19 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2438:21 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2451:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1200:21
+> CONTEXT: Scripts/RPG::Skilltext/1487:21
+> CONTEXT: Scripts/RPG::Skilltext/1736:19
+> CONTEXT: Scripts/RPG::Skilltext/1826:19
+> CONTEXT: Scripts/RPG::Skilltext/1849:21
+> CONTEXT: Scripts/RPG::Skilltext/2249:19
+> CONTEXT: Scripts/RPG::Skilltext/2252:19
+> CONTEXT: Scripts/RPG::Skilltext/2438:21
+> CONTEXT: Scripts/RPG::Skilltext/2451:19
+"\\n​m​The slimy penis enhances the pleasure!"
 > END STRING
 
 > BEGIN STRING
@@ -21006,9 +21007,9 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "指先で、\\n\\m\#{targetname}の袋を優しく撫でてきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1225:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2445:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1225:30
+> CONTEXT: Scripts/RPG::Skilltext/2445:30
+" gently caressed \\n​m​\#{targetname}'s sack with fingertips!"
 > END STRING
 
 > BEGIN STRING
@@ -21063,8 +21064,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "指先で、\\n\\m\#{targetname}の袋を優しく揉んできた！"
-> CONTEXT: Scripts/RPG::Skilltext/1232:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1232:30
+" gently rubbed \\n​m​\#{targetname}'s sack with fingertips!"
 > END STRING
 
 > BEGIN STRING
@@ -21197,7 +21198,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "さすって"
 > CONTEXT: Scripts/RPG::Skilltext/1260:24
-" rubbing"
+" stroking"
 > END STRING
 
 > BEGIN STRING
@@ -21625,25 +21626,25 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "首筋"
 > CONTEXT: Scripts/RPG::Skilltext/1448:19
-" neck"
+"neck"
 > END STRING
 
 > BEGIN STRING
 "背中"
 > CONTEXT: Scripts/RPG::Skilltext/1448:24
-" back"
+"back"
 > END STRING
 
 > BEGIN STRING
 "太もも"
 > CONTEXT: Scripts/RPG::Skilltext/1448:29
-" thighs"
+"thighs"
 > END STRING
 
 > BEGIN STRING
 "袋"
 > CONTEXT: Scripts/RPG::Skilltext/1450:29
-" sack"
+"sack"
 > END STRING
 
 > BEGIN STRING
@@ -21781,8 +21782,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "唇で、\\n\\m\#{targetname}の袋を優しく吸い上げてきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1509:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1509:30
+" gently sucked \\n​m​\#{targetname}'s sack with lips!"
 > END STRING
 
 > BEGIN STRING
@@ -22229,7 +22230,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{myself.bustsize}の谷間で、\\n\\m\#{targetname}のペニスを挟んできた！"
 > CONTEXT: Scripts/RPG::Skilltext/1732:28
-"\#{targetname}'s penis got caught \\n​m​in \#{myself.bustsize}!"
+" caught \#{targetname}'s penis \\n​m​in \#{myself.bustsize}!"
 > END STRING
 
 > BEGIN STRING
@@ -22283,7 +22284,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{myself.bustsize}に挟まれたペニスを弄ぶ！"
 > CONTEXT: Scripts/RPG::Skilltext/1752:28
-" is playing with\\n​m​the penis between \#{self.bustsize} \#{tec}!"
+" is playing with\\n​m​the penis between \#{myself.bustsize} \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -22295,7 +22296,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{myself.bustsize}を更にペニスに擦り付けてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1760:30
-"is rubbing on my penis \\n​m​\#{tec} even more with \#{myself.bustsize}!"
+" rubbed the penis \\n​m​\#{tec} even more with \#{myself.bustsize}!"
 > END STRING
 
 > BEGIN STRING
@@ -23247,14 +23248,14 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "、\\n\\m\#{targetname}に胞子を吹きかけた！"
-> CONTEXT: Scripts/RPG::Skilltext/1986:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1986:28
+",\\n​m​sprayed spores on \#{targetname}!"
 > END STRING
 
 > BEGIN STRING
 "辺り一面に胞子を振りまいた！"
-> CONTEXT: Scripts/RPG::Skilltext/1988:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1988:28
+" is spreading spores all over the place!"
 > END STRING
 
 > BEGIN STRING
@@ -23265,8 +23266,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "しなる蔦を、\\n\\m\#{targetname}の身体に巻き付けた！"
-> CONTEXT: Scripts/RPG::Skilltext/1990:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1990:28
+" wrapped the bending vines \\n​m​around \#{targetname}'s body!"
 > END STRING
 
 > BEGIN STRING
@@ -23289,8 +23290,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "自分を急き立てた！"
-> CONTEXT: Scripts/RPG::Skilltext/1994:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1994:28
+" is rushing!"
 > END STRING
 
 > BEGIN STRING
@@ -23332,14 +23333,14 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "甘い香りを振りまいた！"
-> CONTEXT: Scripts/RPG::Skilltext/2005:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/2005:28
+" is spreading a sweet scent!"
 > END STRING
 
 > BEGIN STRING
 "鼓舞し、やる気を高めた！"
 > CONTEXT: Scripts/RPG::Skilltext/2007:28
-" is encouraging and raising motivation!"
+" is raising motivation!"
 > END STRING
 
 > BEGIN STRING
@@ -23368,14 +23369,14 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "奇妙な胞子を振りまいた！"
-> CONTEXT: Scripts/RPG::Skilltext/2013:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/2013:28
+" spread strange spores!"
 > END STRING
 
 > BEGIN STRING
 "胞子を振りまいた！"
-> CONTEXT: Scripts/RPG::Skilltext/2015:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/2015:28
+" spread spores!"
 > END STRING
 
 > BEGIN STRING
@@ -23410,8 +23411,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "ピンク色の香りを振りまいた！"
-> CONTEXT: Scripts/RPG::Skilltext/2023:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/2023:28
+" is spreading pink scent!"
 > END STRING
 
 > BEGIN STRING
@@ -24155,8 +24156,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{targetname}のペニスを、\\n\\m口で咥えたまま艶かしく舐め回してきた！"
-> CONTEXT: Scripts/RPG::Skilltext/2185:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/2185:28
+" held \#{targetname}'s penis in mouth \\n​m​and licked it seductively!"
 > END STRING
 
 > BEGIN STRING
@@ -28860,8 +28861,8 @@ Instinct Awakening
 
 > BEGIN STRING
 "くすりと小さく笑い"
-> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/193:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/193:27
+"chuckling,"
 > END STRING
 
 > BEGIN STRING

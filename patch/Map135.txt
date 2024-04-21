@@ -1,16 +1,18 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "雄ゴブリン"
-> CONTEXT: Map135/events/11/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map135/events/11/pages/0/0/InlineScript/1:22
+"Male Goblin"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 「焦燥」「専心」ってスキルがあるけどさ。
 なんと８ターンも持つんだよ、これ。
-> CONTEXT: Map135/events/11/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map135/events/11/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+There are skills called "Impatience" and "Focus".
+They last a whopping 8 turns.
 > END STRING
 
 > BEGIN STRING
@@ -18,21 +20,27 @@
 上手い使い方としては、戦闘中に素早さを変えられること\\_
 だな。\\n早いほうが有利ってのはそうなんだが、
 遅くても有利なこともあるんだよ。
-> CONTEXT: Map135/events/11/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map135/events/11/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+A good way to use it is to change your speed during battle.
+It's true that being early is good, 
+but there are times when being slow is an advantage.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あと、焦燥は使った時に「畏怖」を、
 専心は使った時に「散漫」を直してくれる効果もある。
-> CONTEXT: Map135/events/11/pages/0/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map135/events/11/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+Also, when you use impatience, it gives you "Fear".
+Focus also has the effect of curing "Distraction" when used.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 使いこなしてみよ―ぜ、少年。
-> CONTEXT: Map135/events/11/pages/0/11/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map135/events/11/pages/0/11/Dialogue
+\\name[\\v[2]]\\_
+Try using it, boy.
 > END STRING

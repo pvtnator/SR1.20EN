@@ -1,16 +1,19 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "倒れている男"
-> CONTEXT: Map296/events/5/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map296/events/5/pages/0/0/InlineScript/1:22
+"Fallen man"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 相手を弱化させすぎたり、味方を強化させすぎたりして
 相手全員と味方全員の強化度に大きな差が出てしまうと･･･。
-> CONTEXT: Map296/events/5/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map296/events/5/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+If you weaken your opponent a lot or strengthen your 
+allies a lot, there will be a big difference in the 
+strength levels of all your opponents and all your allies...
 > END STRING
 
 > BEGIN STRING
@@ -18,27 +21,33 @@
 相手の強化やこちらの弱化だけを一気に打ち消せるスキル\\_
 なんかや、\\n相手を拘束状態にするスキル、自分の体以外\\_
 でホールドするスキルなんかを\\n使いすぎたりすると･･･。
-> CONTEXT: Map296/events/5/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map296/events/5/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Skills that can negate the opponent's ability changes at once, 
+skills that restrain the opponent, 
+or skills that hold the opponent might lead to...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あぁ･･･なんてことだ･･･、そんなことしてくるなんて･･･。
-> CONTEXT: Map296/events/5/pages/0/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map296/events/5/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+Oh gosh..I can't they would do that...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 普通の夢魔たちにしてもそんなことはなかったのに･･･。
-> CONTEXT: Map296/events/5/pages/0/10/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map296/events/5/pages/0/10/Dialogue
+\\name[\\v[2]]\\_
+Even with normal succubi, this wouldn't have happened...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 不幸だ･･･。
-> CONTEXT: Map296/events/5/pages/0/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map296/events/5/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+It's a disaster...
 > END STRING
