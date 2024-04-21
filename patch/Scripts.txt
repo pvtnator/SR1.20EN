@@ -15352,9 +15352,9 @@
 > END STRING
 
 > BEGIN STRING
-"\\w​\\w"
+"\\w\\w"
 > CONTEXT: None < UNUSED
-
+"\\w​\\w"
 > END STRING
 
 > BEGIN STRING
@@ -24742,7 +24742,7 @@ this succubus will no longer be at Home.
 > END STRING
 
 > BEGIN STRING
-" \#{emotion}\\n\\m\#{targetname}を優しく愛撫した！"
+"\#{emotion}\\n\\m\#{targetname}を優しく愛撫した！"
 > CONTEXT: None < UNUSED
 " \#{emotion} and\\n​m​gently caressed \#{targetname}!"
 > END STRING
@@ -24955,9 +24955,9 @@ this succubus will no longer be at Home.
 > END STRING
 
 > BEGIN STRING
-"\#{word} \#{@dish.name}"
+"\#{word}\#{@dish.name}"
 > CONTEXT: None < UNUSED
-
+"\#{word} \#{@dish.name}"
 > END STRING
 
 > BEGIN STRING
@@ -32827,23 +32827,5 @@ Instinct Awakening
 > BEGIN STRING
 "くすっ"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3344:15 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-"\\w\\w"
-> CONTEXT: Scripts/Scene_Battle 2/562:46 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-"\#{emotion}\\n\\m\#{targetname}を優しく愛撫した！"
-> CONTEXT: Scripts/RPG::Skilltext/2499:28
-" gently caressed \\n​m​\#{targetname} \#{emotion}!"
-> END STRING
-
-> BEGIN STRING
-"\#{word}\#{@dish.name}"
-> CONTEXT: Scripts/Window_Cook_Recipe（設定）/125:18 < UNTRANSLATED
 
 > END STRING
