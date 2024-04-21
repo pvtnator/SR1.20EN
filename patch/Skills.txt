@@ -2610,7 +2610,7 @@ Set circle
 > BEGIN STRING
 [手→] ３ターンの間、自分が使用する魔法の消費ＶＰが０になる。
 > CONTEXT: Skills/359/description/
-[Hand→]For 3 turns, the VP consumption of your magic becomes 0.
+[Hand→] For 3 turns, the VP consumption of your magic becomes 0.
 > END STRING
 
 > BEGIN STRING
@@ -2622,7 +2622,7 @@ Cold Touch
 > BEGIN STRING
 [手→体] 冷たい手で愛撫する。[追加：ディレイ]
 > CONTEXT: Skills/360/description/
-[Hand→Body]Caress with cold hands.[Added: Delay]
+[Hand→Body] Caress with cold hands. [Added: Delay]
 > END STRING
 
 > BEGIN STRING
@@ -2647,7 +2647,7 @@ Price of Harem
 [手→体] 敵全員を攻める。[条件：ムード30]
 > CONTEXT: Skills/362/description/
 > CONTEXT: Skills/363/description/
-[Hand→Body]Attack all enemies.[Condition: Mood 30]
+[Hand→Body] Attack all enemies. [Condition: Mood 30]
 > END STRING
 
 > BEGIN STRING
@@ -2937,14 +2937,14 @@ Magical kiss
 
 > BEGIN STRING
 祝福の口付け
-> CONTEXT: Skills/417/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/417/name/
+Blessing Kiss
 > END STRING
 
 > BEGIN STRING
 [口→口] 味方に口付けをする。[追加：状態異常耐性↑]
-> CONTEXT: Skills/417/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/417/description/
+[Mouth→Mouth] Kiss an ally. [Added: Status resistance↑]
 > END STRING
 
 > BEGIN STRING
@@ -3985,14 +3985,14 @@ Passion Beat
 
 > BEGIN STRING
 レッドカーペット
-> CONTEXT: Skills/615/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/615/name/
+Red Carpet
 > END STRING
 
 > BEGIN STRING
 [場：自] ５ターンの間、交代後の仲間の魅力と素早さを強化する。
-> CONTEXT: Skills/615/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/615/description/
+[Field: Self] For 5 turns, strengthens charm and agility on replaced ally.
 > END STRING
 
 > BEGIN STRING
@@ -4004,7 +4004,7 @@ Strange spore
 > BEGIN STRING
 [胞子 場：敵] ５ターンの間、敵全員の状態異常耐性を下げる。
 > CONTEXT: Skills/618/description/
-[Spore Field: Enemy]Lowers all enemies' status ailment resistance for 5 turns.
+[Spore Field: Enemy] Lowers all enemies' status ailment resistance for 5 turns.
 > END STRING
 
 > BEGIN STRING
@@ -4015,8 +4015,8 @@ Weak spore
 
 > BEGIN STRING
 [胞子 場：敵] ５ターンの間、状態異常の敵の被SS率が上がる。
-> CONTEXT: Skills/619/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/619/description/
+[Spore Field: Enemy] For 5 turns, SS rate against enemies with status ailments increases.
 > END STRING
 
 > BEGIN STRING
@@ -4028,7 +4028,7 @@ Intimidate
 > BEGIN STRING
 [場：敵] ５ターンの間、敵全員のレジストを弱化させる。
 > CONTEXT: Skills/620/description/
-[Field: Enemy]Weakens the resistance of all enemies for 5 turns.
+[Field: Enemy] Weakens the resistance of all enemies for 5 turns.
 > END STRING
 
 > BEGIN STRING

@@ -1013,8 +1013,11 @@ There may be some clues.
 悪用する者、自堕落のためだけに使う者が必ず出現する\\_
 だろうこの世界。\\n公言するべくではないと私１人で\\_
 ここまで探索してきていたが･･･。
-> CONTEXT: Commonevents/13/404/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/404/Dialogue
+\\name[\\v[7]]\\_
+In this world, there will be those who abuse it, and those 
+who use it for self-degradation. I've been exploring this far 
+by myself, thinking I shouldn't declare it publicly, but...
 > END STRING
 
 > BEGIN STRING
@@ -1022,16 +1025,21 @@ There may be some clues.
 もはやそれも限界が近づいている。
 少し休息を置いてからなんとか対策班を組み、\\_
 考えるべきだろう。
-> CONTEXT: Commonevents/13/408/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/408/Dialogue
+\\name[\\v[7]]\\_
+It is now approaching its limit.
+I think we should take a little break, 
+form a countermeasures team, and think about it.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[7]]\\_
 とはいえ、この地区のポートの設置だけは完了しておきたい\\_
 ものだ。
-> CONTEXT: Commonevents/13/412/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/412/Dialogue
+\\name[\\v[7]]\\_
+However, I would like to complete the installation 
+of the port in this area.
 > END STRING
 
 > BEGIN STRING
@@ -1039,53 +1047,65 @@ There may be some clues.
 私と同じポート登録機からホームポートを設置すれば、
 このポートを視認することも出来、\\_
 夢世界も歩き回りやすくはなるはず。
-> CONTEXT: Commonevents/13/415/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/415/Dialogue
+\\name[\\v[7]]\\_
+By setting up a Home port using the same port registration 
+machine as me, you will be able to visually check this port, 
+and it should be easier to walk around in the dream world.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[7]]\\_
 まさかこんな所で彼女と対面することになるとは。
 いや、それよりも重要なことが分かってしまった。
-> CONTEXT: Commonevents/13/425/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/425/Dialogue
+\\name[\\v[7]]\\_
+I never expected to meet her in a place like this.
+Well, I realized something more important than that.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[7]]\\_
 魔王を夢に幽閉した滞在機に「致命的な欠陥」があるのだと。
 そしてそれを悪用される可能性があるということを。
-> CONTEXT: Commonevents/13/428/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/428/Dialogue
+\\name[\\v[7]]\\_
+The Staying Machine that imprisoned the Demon Lord in dreams 
+has a "fatal flaw." And it could be exploited.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[7]]\\_
 すぐにでも滞在機の置かれている魔王のホームへと向かう\\_
 必要がある。
-> CONTEXT: Commonevents/13/431/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/431/Dialogue
+\\name[\\v[7]]\\_
+I need to head to the Demon Lord's Home where the 
+Staying Machine is located as soon as possible.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[7]]\\_
 彼女が動けない以上、私の精神をすり減らしてでも。
-> CONTEXT: Commonevents/13/434/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/434/Dialogue
+\\name[\\v[7]]\\_
+Even if she can't move, my mind is wearing away.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[7]]\\_
 滞在機を破壊しなければ。
-> CONTEXT: Commonevents/13/436/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/436/Dialogue
+\\name[\\v[7]]\\_
+Unless we destroy the Staying Machine.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[7]]\\_
 魔王のホームへと遂に来た。
-> CONTEXT: Commonevents/13/444/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/444/Dialogue
+\\name[\\v[7]]\\_
+I finally arrived at the Demon Lord's Home.
 > END STRING
 
 > BEGIN STRING
@@ -1806,50 +1826,55 @@ various doors of dream magic.
 
 > BEGIN STRING
 "使用人"
-> CONTEXT: Commonevents/105/4/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Commonevents/105/4/InlineScript/1:22
+"Servant"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 お待たせ致しました、シルフェお嬢様。
-> CONTEXT: Commonevents/105/5/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/105/5/Dialogue
+\\name[\\v[2]]\\_
+Sorry to have kept you waiting, Lady Silfe.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 何なりとご用件をお申し付け下さい。
-> CONTEXT: Commonevents/105/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/105/8/Dialogue
+\\name[\\v[2]]\\_
+Please let us know what you need.
 > END STRING
 
 > BEGIN STRING
 アイテムを買う
-> CONTEXT: Commonevents/105/10/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Commonevents/105/10/Choice/0
+Buy items
 > END STRING
 
 > BEGIN STRING
 食事にする
-> CONTEXT: Commonevents/105/10/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Commonevents/105/10/Choice/1
+Make a meal
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 承知しました。すぐに手配致します。
-> CONTEXT: Commonevents/105/12/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/105/22/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/105/12/Dialogue
+> CONTEXT: Commonevents/105/22/Dialogue
+\\name[\\v[2]]\\_
+Got it. It will be arranged right away.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 承知しました。
 また何か御座いましたら、いつでもお呼び下さい。
-> CONTEXT: Commonevents/105/34/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/105/34/Dialogue
+\\name[\\v[2]]\\_
+Got it.
+If you need anything else, please call us anytime.
 > END STRING
 
 > BEGIN STRING

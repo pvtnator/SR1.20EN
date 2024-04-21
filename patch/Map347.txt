@@ -300,7 +300,7 @@ People like you will continue to arrive.
 きていない夢に飲み込まれてしまえば、
 待ち受けるのは精神の崩壊のみだ。
 > CONTEXT: Map347/events/1/pages/1/121/Dialogue
-\\name[\\v[2]]
+\\name[\\v[2]]\\_
 Fortunately, you can register at ports, but other's can't.
 If you are engulfed by a dream that is not lucid, 
 the only thing that awaits you is a mental breakdown.
@@ -337,7 +337,7 @@ what's important to you.
 > CONTEXT: Map347/events/1/pages/1/132/Dialogue
 \\name[\\v[2]]\\_
 Abuse of Staying Machine is carried out by those with a 
-lot of magical power who installed Staying Machine
+lot of magical power, who installed the Staying Machine
 and those with a large amount of real magical power.
 > END STRING
 
@@ -961,10 +961,10 @@ Please come anytime.
 > END STRING
 
 > BEGIN STRING
-\\name[Fiery Orb]\\_
+\\name[火の玉]\\_
 ･･･リジェオ？
-> CONTEXT: None < UNUSED
-\\name[Fireball]\\_
+> CONTEXT: Map347/events/5/pages/0/4/Dialogue
+\\name[Fiery orb]\\_
 ...Rigeo?
 > END STRING
 
@@ -1145,11 +1145,4 @@ That's a sentiment from me, to you.
 > CONTEXT: Map347/events/5/pages/0/101/Dialogue
 \\name[Ligeo]\\_
 Thank you for your continued support, \\n[101].
-> END STRING
-
-> BEGIN STRING
-\\name[火の玉]\\_
-･･･リジェオ？
-> CONTEXT: Map347/events/5/pages/0/4/Dialogue < UNTRANSLATED
-
 > END STRING
