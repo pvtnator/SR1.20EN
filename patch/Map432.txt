@@ -1,10 +1,10 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 戦闘前までスキップしますか？
-> CONTEXT: Map432/events/22/pages/0/7/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/22/pages/1/8/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/28/pages/0/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/0/7/Dialogue
+> CONTEXT: Map432/events/22/pages/1/8/Dialogue
+> CONTEXT: Map432/events/28/pages/0/7/Dialogue
+Skip to pre-battle?
 > END STRING
 
 > BEGIN STRING
@@ -29,72 +29,86 @@ Save
 彼女の愛に溺れてしまえば、\\.
 彼女の欲と混じりあってしまえば、\\.
 彼女の事を否定しなければ。
-> CONTEXT: Map432/events/22/pages/0/36/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/22/pages/1/53/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/0/36/Dialogue
+> CONTEXT: Map432/events/22/pages/1/53/Dialogue
+\\name[\\v[3]]\\_
+If he drowns in her love,\\.
+If he joins in her desire,\\.
+If he doesn't deny her.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 彼女も貴方もいつまでも幸せだったというのに。
-> CONTEXT: Map432/events/22/pages/0/40/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/22/pages/1/57/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/0/40/Dialogue
+> CONTEXT: Map432/events/22/pages/1/57/Dialogue
+\\name[\\v[3]]\\_
+He and she could be happy forever.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 何故そんな悲しそうな目をするのかしら？\\.
 くすくす･･･\\H
-> CONTEXT: Map432/events/22/pages/0/42/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/22/pages/1/59/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/0/42/Dialogue
+> CONTEXT: Map432/events/22/pages/1/59/Dialogue
+\\name[\\v[3]]\\_
+Why do you look so sad? \\.
+Ksks...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 間違っているなんて、冗談ね。これは彼女が望んだこと。\\.
 それに偽りなどは無いもの。
-> CONTEXT: Map432/events/22/pages/0/45/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/22/pages/1/62/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/0/45/Dialogue
+> CONTEXT: Map432/events/22/pages/1/62/Dialogue
+\\name[\\v[3]]\\_
+How amusing, but you're wrong. This is what she wanted. \\.
+There is nothing false about that.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ただ薄っぺらい潔癖で、\\.それを隠していただけ。
-> CONTEXT: Map432/events/22/pages/0/48/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/22/pages/1/65/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/0/48/Dialogue
+> CONTEXT: Map432/events/22/pages/1/65/Dialogue
+\\name[\\v[3]]\\_
+Hidden, \\.merely under some flimsy innocence.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 貴方もそうでしょう？\\|　\\n[101]。
-> CONTEXT: Map432/events/22/pages/0/50/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/0/50/Dialogue
+\\name[\\v[3]]\\_
+Aren't you the same?\\| \\n[101].
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ･･･ふふ、お喋りはおしまい。
 私ももう待ちきれない･･････。
-> CONTEXT: Map432/events/22/pages/0/53/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/0/53/Dialogue
+\\name[\\v[3]]\\_
+...Hehe, no more talking.
+I can't wait anymore...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ･･･くすくす\\H
-> CONTEXT: Map432/events/22/pages/0/56/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/0/56/Dialogue
+\\name[\\v[3]]\\_
+...Ksks\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 あなたはこんなにも、壊し甲斐がある人間なんだもの\\H
-> CONTEXT: Map432/events/22/pages/0/58/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/0/58/Dialogue
+\\name[\\v[3]]\\_
+You are such a person worth breaking\\H
 > END STRING
 
 > BEGIN STRING
@@ -109,84 +123,97 @@ Save
 > BEGIN STRING
 \\name[\\v[3]]\\_
 あぁっ･･････\\H
-> CONTEXT: Map432/events/22/pages/0/98/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/22/pages/1/256/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/0/98/Dialogue
+> CONTEXT: Map432/events/22/pages/1/256/Dialogue
+\\name[\\v[3]]\\_
+Ahhh...\\H
 > END STRING
 
 > BEGIN STRING
 ･･････何かが落ちている。
-> CONTEXT: Map432/events/22/pages/0/103/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/0/103/Dialogue
+... Something is falling.
 > END STRING
 
 > BEGIN STRING
 "ラーミルキャスト"
-> CONTEXT: Map432/events/22/pages/1/0/InlineScript/3:22 < UNTRANSLATED
-> CONTEXT: Map432/events/22/pages/1/28/InlineScript/3:22 < UNTRANSLATED
-> CONTEXT: Map432/events/22/pages/1/49/InlineScript/3:22 < UNTRANSLATED
-> CONTEXT: Map432/events/22/pages/1/224/InlineScript/3:22 < UNTRANSLATED
-> CONTEXT: Map214/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/0/InlineScript/3:22
+> CONTEXT: Map432/events/22/pages/1/28/InlineScript/3:22
+> CONTEXT: Map432/events/22/pages/1/49/InlineScript/3:22
+> CONTEXT: Map432/events/22/pages/1/224/InlineScript/3:22
+> CONTEXT: Map214/events/4/pages/0/0/InlineScript/1:22
+"Ramil-cast"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 貴方もそうでしょう？\\|　\\n[101]。\\|\\|\\|
-> CONTEXT: Map432/events/22/pages/1/69/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/69/Dialogue
+\\name[\\v[3]]\\_
+Aren't you the same?\\| \\n[101]. \\|\\|\\|
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 憧れのお師匠様との交わりは、
 随分と脳にこびり付いたんじゃないかしら？
-> CONTEXT: Map432/events/22/pages/1/71/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/71/Dialogue
+\\name[\\v[3]]\\_
+Communicating with the master you admire,
+it got stuck in your brain for quite some time?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 くすくすくす、
 もう、あなたも、欲望の虜･･････\\H
-> CONTEXT: Map432/events/22/pages/1/76/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/76/Dialogue
+\\name[\\v[3]]\\_
+Ksksks,
+You too are now a prisoner of desire...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 あなたも彼女のように、
 自らの渇求に溺れて壊れていくの･･････\\H
-> CONTEXT: Map432/events/22/pages/1/79/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/79/Dialogue
+\\name[\\v[3]]\\_
+Just like her, you will drown 
+in your own desires and break down... \\ H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 あはっ、あはははははっ\\H\\|\\|
-> CONTEXT: Map432/events/22/pages/1/94/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/94/Dialogue
+\\name[\\v[3]]\\_
+Ahaha, ahahahaha\\H\\|\\|
 > END STRING
 
 > BEGIN STRING
 \\name[？？？]\\_
 ･･･それは違います。
-> CONTEXT: Map432/events/22/pages/1/98/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/98/Dialogue
+\\name[???]\\_
+...Something's off.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[4]]\\_
 \\n[101]は･･･、私を、私たちを受け入れてくれました。
-> CONTEXT: Map432/events/22/pages/1/122/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/122/Dialogue
+\\name[\\v[4]]\\_
+\\n[101]... accepted me, and us.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[4]]\\_
 愛欲の存在を理解した上で、彼女の妄執に答えました。
-> CONTEXT: Map432/events/22/pages/1/124/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/124/Dialogue
+\\name[\\v[4]]\\_
+After understanding the existence of her lust, 
+he responded to her delusion.
 > END STRING
 
 > BEGIN STRING
@@ -194,158 +221,193 @@ Save
 私は知っています。
 \\n[101]が夢世界を旅して多くの夢魔と関わり、
 そして彼女たちの事を、自分の事を知ったことを。
-> CONTEXT: Map432/events/22/pages/1/126/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/126/Dialogue
+\\name[\\v[4]]\\_
+I know this. \\n[101] traveled through the dream world, 
+interacted with many succubi, 
+and learned about them and himself.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[4]]\\_
 今更、こんな幻どもに溺れるわけありません。
-> CONTEXT: Map432/events/22/pages/1/130/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/130/Dialogue
+\\name[\\v[4]]\\_
+There's no way I'm drowning in an illusion like this now.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ･･･へぇ、貴女、ただの「キャスト」じゃないのね。
-> CONTEXT: Map432/events/22/pages/1/135/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/135/Dialogue
+\\name[\\v[3]]\\_
+...Hey, you're not just a "Cast", are you?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 まるで自我でも芽生えてしまったよう。
 何か急激な記憶と設定の齟齬でも生まれたのかしら。
-> CONTEXT: Map432/events/22/pages/1/140/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/140/Dialogue
+\\name[\\v[3]]\\_
+It's as if she has sprouted an ego.
+I wonder if some sudden discrepancy 
+between memory and settings has arisen.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[4]]\\_
 ･･･\\n[101]、私に名前を付けてください。
-> CONTEXT: Map432/events/22/pages/1/144/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/144/Dialogue
+\\name[\\v[4]]\\_
+...\\n[101], Please give me a name.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[4]]\\_
 夢の賑やかしでも記憶の演者でもない、
 \\n[101]、あなたの味方である私がここにいるという現を･･･
-> CONTEXT: Map432/events/22/pages/1/146/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/146/Dialogue
+\\name[\\v[4]]\\_
+I'm not a lively dream or an actor of a memory.
+\\n[101], the fact that I'm here on your side...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[4]]\\_
 確かなものにするために！
-> CONTEXT: Map432/events/22/pages/1/149/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/149/Dialogue
+\\name[\\v[4]]\\_
+Makes me strong!
 > END STRING
 
 > BEGIN STRING
 \\n[122]に決めますか？
-> CONTEXT: Map432/events/22/pages/1/154/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/154/Dialogue
+Decide on \\n[122]?
 > END STRING
 
 > BEGIN STRING
 \\name[\\n[122]]\\_
 \\n[122]･･･、\\n[122]･･･。
 ･･･うん、うん。素敵な響き･･････。
-> CONTEXT: Map432/events/22/pages/1/162/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/162/Dialogue
+\\name[\\n[122]]\\_
+\\n[122]... \\n[122]....
+...Yes Yes. It sounds lovely...
 > END STRING
 
 > BEGIN STRING
 \\name[\\n[122]]\\_
 これで私は、\\n[101]の助けになれます。
-> CONTEXT: Map432/events/22/pages/1/165/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/165/Dialogue
+\\name[\\n[122]]\\_
+Now I can help \\n[101].
 > END STRING
 
 > BEGIN STRING
 \\name[\\n[122]]\\_
 さぁ、対峙しましょう。\\n[101]。
-> CONTEXT: Map432/events/22/pages/1/167/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/167/Dialogue
+\\name[\\n[122]]\\_
+Now, let's face it. \\n[101].
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ･･･くすくす。
 それにしても、幻どもね。尚、そう言うのね。
-> CONTEXT: Map432/events/22/pages/1/172/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/172/Dialogue
+\\name[\\v[3]]\\_
+...Ksks.
+Even so, you're just a fleeting illusion.
+More or less, anyway.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 貴女は違っても、この他のお師匠様たちはどうかしら？
 \\n[101]、これは紛れも無く貴方が考えていることの具現よ。
-> CONTEXT: Map432/events/22/pages/1/175/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/175/Dialogue
+\\name[\\v[3]]\\_
+Even if you are different, what about the other masters?
+\\n[101], this is the embodiment of what you are thinking.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 貴方の情欲も、本物のお師匠様の愛欲も、\\_
 否定しようと言うの？
-> CONTEXT: Map432/events/22/pages/1/178/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/178/Dialogue
+\\name[\\v[3]]\\_
+Are you trying to deny both your lust and 
+your true master's lust?
 > END STRING
 
 > BEGIN STRING
 \\name[\\n[122]]\\_
 否定するのが目的ではありません。受け入れるのです。
-> CONTEXT: Map432/events/22/pages/1/181/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/181/Dialogue
+\\name[\\n[122]]\\_
+Not deny it. Accept it.
 > END STRING
 
 > BEGIN STRING
 \\name[\\n[122]]\\_
 受け入れて、打ち勝つ。
 ･･･そうですよね、\\n[101]。
-> CONTEXT: Map432/events/22/pages/1/183/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/183/Dialogue
+\\name[\\n[122]]\\_
+Accept it and overcome it.
+...That's right, \\n[101].
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ･･･くすくす。
 本当に、それができるのかしら？　\\n[101]。
-> CONTEXT: Map432/events/22/pages/1/189/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/189/Dialogue
+\\name[\\v[3]]\\_
+...Ksks.
+Is that really possible? \\n[101].
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 もしできると言うのなら、
 そんな、理性も、虚栄も、体裁も、我慢も、秩序も･･･
-> CONTEXT: Map432/events/22/pages/1/192/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/192/Dialogue
+\\name[\\v[3]]\\_
+Supposing you can,
+reason, vanity, appearance, patience, order...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 私が全部まとめて、壊してあげる･･･\\H
-> CONTEXT: Map432/events/22/pages/1/196/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/196/Dialogue
+\\name[\\v[3]]\\_
+I'll break all of it at once...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ･･･ふふ、本気出しちゃった。
 でも、叶わないのね。私の望みは。
-> CONTEXT: Map432/events/22/pages/1/258/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/258/Dialogue
+\\name[\\v[3]]\\_
+...Hehe, you got serious.
+But that won't happen. What I want, will.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ･･･やろうと思えばまた長い年月をかけて、\\_
 同じことはできるの。
-> CONTEXT: Map432/events/22/pages/1/261/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/261/Dialogue
+\\name[\\v[3]]\\_
+...If you want to, 
+you can do the same thing for years.
 > END STRING
 
 > BEGIN STRING
@@ -353,8 +415,11 @@ Save
 でも今、なんだか私、満足しちゃった。
 誰かに気持ちをこんなにぶつけて、
 受け入れてくれたなんて、私、初めてだもの。
-> CONTEXT: Map432/events/22/pages/1/264/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/264/Dialogue
+\\name[\\v[3]]\\_
+But now, somehow, I'm satisfied.
+This is the first time I've expressed 
+my feelings to someone and had them accept me.
 > END STRING
 
 > BEGIN STRING
@@ -362,8 +427,10 @@ Save
 ふふ、とても清々しい気分だわ･･･。
 甘美な堕落を乗り越える何かを、\\_
 貴方達は真に持っていたのね。
-> CONTEXT: Map432/events/22/pages/1/268/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/268/Dialogue
+\\name[\\v[3]]\\_
+Hehe, I feel so refreshed...
+You guys truly had something to overcome this sweet depravity.
 > END STRING
 
 > BEGIN STRING
@@ -371,8 +438,11 @@ Save
 ･･･夢世界の侵食が終わってしまえば、
 貴方達の求める日常はまた帰ってくる。\\nちょっと長い夢を\\_
 見た程度で済むでしょうね。安心すると良いわ。
-> CONTEXT: Map432/events/22/pages/1/272/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/272/Dialogue
+\\name[\\v[3]]\\_
+...Once the dream world's erosion is over,
+the daily life you all seek will return again.
+Like waking up from a long dream. You can rest easy.
 > END STRING
 
 > BEGIN STRING
@@ -380,102 +450,121 @@ Save
 ただ忘れないで。貴方達はよくても、\\_
 人はいつか欲望に溺れるもの。
 私が、夢魔が、夢が、何もしなくとも。
-> CONTEXT: Map432/events/22/pages/1/276/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/276/Dialogue
+\\name[\\v[3]]\\_
+Just don't forget. No matter how good you are, 
+people will drown in their desires someday.
+Even if I, a succubus, or the dreams don't do anything.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 そこの本物のお師匠様のようにね。
 ･･･それだけは覚えておきなさい。
-> CONTEXT: Map432/events/22/pages/1/280/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/280/Dialogue
+\\name[\\v[3]]\\_
+Even the real master.
+...just remember that.
 > END STRING
 
 > BEGIN STRING
 \\name[\\n[122]]\\_
 ･･･大丈夫ですよ。
 \\n[101]は、あの【秩序の魔女】の唯一の弟子なのですから。
-> CONTEXT: Map432/events/22/pages/1/283/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/283/Dialogue
+\\name[\\n[122]]\\_
+...It's okay.
+\\n[101] is the only disciple of the [Witch of Order].
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ･･･くす、そうね。
-> CONTEXT: Map432/events/22/pages/1/286/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/286/Dialogue
+\\name[\\v[3]]\\_
+...Tsk, that's right.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ふふっ。
-> CONTEXT: Map432/events/22/pages/1/288/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/288/Dialogue
+\\name[\\v[3]]\\_
+Hehe.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ありがとう。\\n[101]。
-> CONTEXT: Map432/events/22/pages/1/290/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/290/Dialogue
+\\name[\\v[3]]\\_
+Thank you. \\n[101].
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 すごく素敵な夢の終わりだったわ。
-> CONTEXT: Map432/events/22/pages/1/292/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/292/Dialogue
+\\name[\\v[3]]\\_
+It's the end of a wonderful dream.
 > END STRING
 
 > BEGIN STRING
 ･･････何か落ちている。
-> CONTEXT: Map432/events/22/pages/1/310/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/22/pages/1/310/Dialogue
+...Something is falling.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あんっ･･････はん･･････っ･･･\\H
-> CONTEXT: Map432/events/28/pages/0/47/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/50/pages/1/133/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/47/Dialogue
+> CONTEXT: Map432/events/50/pages/1/133/Dialogue
+\\name[\\v[2]]\\_
+Anh...Hnn...n...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ふふっ、もうすっかり蕩けちゃって･･･\\H
-> CONTEXT: Map432/events/28/pages/0/49/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/49/Dialogue
+\\name[\\v[3]]\\_
+Hehe, completely charmed...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 そう、それがあなたのしたかった事。
-> CONTEXT: Map432/events/28/pages/0/51/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/51/Dialogue
+\\name[\\v[3]]\\_
+Yes, that's what you wanted.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 この夢世界を歩き回り、
 自らもそうなりたかった欲の果て。
-> CONTEXT: Map432/events/28/pages/0/53/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/53/Dialogue
+\\name[\\v[3]]\\_
+Walking around this dream world,
+losing to your own desire like that.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 我慢することで狂い、壊れ、溺れていった愚かな人の性。
-> CONTEXT: Map432/events/28/pages/0/56/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/56/Dialogue
+\\name[\\v[3]]\\_
+Silly human nature, falling to madness from self-restraint, 
+breaking and drowning.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 くす、それも大いに結構。
-> CONTEXT: Map432/events/28/pages/0/59/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/59/Dialogue
+\\name[\\v[3]]\\_
+Tsk, that's fine by me.
 > END STRING
 
 > BEGIN STRING
@@ -483,114 +572,136 @@ Save
 自分を偽り、綺麗事で覆い、
 欺瞞と虚構に塗れた厚顔無恥なあなた達には、
 ここは素敵な楽園でしょう？
-> CONTEXT: Map432/events/28/pages/0/61/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/61/Dialogue
+\\name[\\v[3]]\\_
+Isn't this a wonderful paradise for you shameless people,
+who lie about yourself, cover yourself with pretense, 
+and cover yourself with deceit and lies?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 くすくすくすくす･･･\\H
-> CONTEXT: Map432/events/28/pages/0/65/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/65/Dialogue
+\\name[\\v[3]]\\_
+Ksksksks...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 さぁ、愛おしき狂おしきラーミル様。\\|
 待ち望んだ主賓のご来場よ。
-> CONTEXT: Map432/events/28/pages/0/67/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/67/Dialogue
+\\name[\\v[3]]\\_
+Come now, dear mad Ramil. \\|
+It's the long-awaited arrival of the guest of honor.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･\\n[101]･･････？
-> CONTEXT: Map432/events/28/pages/0/92/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/50/pages/1/52/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/50/pages/1/182/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/50/pages/1/303/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/92/Dialogue
+> CONTEXT: Map432/events/50/pages/1/52/Dialogue
+> CONTEXT: Map432/events/50/pages/1/182/Dialogue
+> CONTEXT: Map432/events/50/pages/1/303/Dialogue
+\\name[\\v[2]]\\_
+...\\n[101]...？
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 \\n[101]･･････あぁ･･････\\H\\|
 本当、の･･･\\n[101]･･････\\H
-> CONTEXT: Map432/events/28/pages/0/101/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/101/Dialogue
+\\name[\\v[2]]\\_
+\\n[101]...Aaa.......\\H\\|
+It's really...\\n[101]...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 会いたかった･･･\\H
 ずっと、ずっと、ずっと･･････。
-> CONTEXT: Map432/events/28/pages/0/104/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/104/Dialogue
+\\name[\\v[2]]\\_
+I wanted to meet you...\\H
+So, so, much...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 私も･･･こんな風になれました･･････\\H
 \\n[101]･･･あなたのことを考えるだけで･･･私･･････\\H
-> CONTEXT: Map432/events/28/pages/0/109/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/109/Dialogue
+\\name[\\v[2]]\\_
+I too...became like this...\\H
+\\n[101]...Just thinking about you...I...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ねぇ･･･\\n[101]･･･。私、もう待ちきれなくて･･･\\H\\|
 はやく･･･私に･･････私と･･････\\H
-> CONTEXT: Map432/events/28/pages/0/114/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/114/Dialogue
+\\name[\\v[2]]\\_
+Hey...\\n[101]...I...can't wait anymore...\\H\\|
+Hurry...to me...with me...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ふふっ。さぁ、\\n[101]。
-> CONTEXT: Map432/events/28/pages/0/119/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/119/Dialogue
+\\name[\\v[3]]\\_
+Hehe. Come on, \\n[101].
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 彼女の餞になる準備はできているかしら？
-> CONTEXT: Map432/events/28/pages/0/122/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/122/Dialogue
+\\name[\\v[3]]\\_
+Are you ready to give her your parting gift?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あぁっ･･････\\H
-> CONTEXT: Map432/events/28/pages/0/153/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/153/Dialogue
+\\name[\\v[2]]\\_
+Ahhh...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･\\n[101]･･････。
-> CONTEXT: Map432/events/28/pages/0/155/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/155/Dialogue
+\\name[\\v[2]]\\_
+...\\n[101]....
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 私･･････。
-> CONTEXT: Map432/events/28/pages/0/157/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/157/Dialogue
+\\name[\\v[2]]\\_
+I......
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今とても･･････。
-> CONTEXT: Map432/events/28/pages/0/159/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/159/Dialogue
+\\name[\\v[2]]\\_
+Right now...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 幸せ･･････\\H
-> CONTEXT: Map432/events/28/pages/0/161/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/28/pages/0/161/Dialogue
+\\name[\\v[2]]\\_
+Happy...\\H
 > END STRING
 
 > BEGIN STRING
@@ -626,97 +737,111 @@ Unconcious
 > BEGIN STRING
 \\name[\\v[2]]\\_
 うぅ･･････ん･･････。
-> CONTEXT: Map432/events/50/pages/1/14/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/14/Dialogue
+\\name[\\v[2]]\\_
+Uuu...mmm...
 > END STRING
 
 > BEGIN STRING
 「忘却の古印」をラーミルに刻印し、
 これまでの事をすべて忘れさせますか？
-> CONTEXT: Map432/events/50/pages/1/18/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/18/Dialogue
+Will you engrave the "Old Seal of Oblivion" on Ramil 
+and make her forget everything that happened so far?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ん･･････っ。
-> CONTEXT: Map432/events/50/pages/1/40/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/50/pages/1/172/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/50/pages/1/292/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/40/Dialogue
+> CONTEXT: Map432/events/50/pages/1/172/Dialogue
+> CONTEXT: Map432/events/50/pages/1/292/Dialogue
+\\name[\\v[2]]\\_
+Mmm......
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふ･･････\\H
-> CONTEXT: Map432/events/50/pages/1/54/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/50/pages/1/305/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/54/Dialogue
+> CONTEXT: Map432/events/50/pages/1/305/Dialogue
+\\name[\\v[2]]\\_
+Hehe......\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 \\n[101]、\\n[101]なのですね･･････\\H
-> CONTEXT: Map432/events/50/pages/1/57/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/50/pages/1/307/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/57/Dialogue
+> CONTEXT: Map432/events/50/pages/1/307/Dialogue
+\\name[\\v[2]]\\_
+\\n[101], \\n[101]...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あぁ･･･、夢みたい･･････\\H
-> CONTEXT: Map432/events/50/pages/1/59/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/50/pages/1/309/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/59/Dialogue
+> CONTEXT: Map432/events/50/pages/1/309/Dialogue
+\\name[\\v[2]]\\_
+Ah... it's like a dream...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ねぇ･･･\\n[101]･･･。\\|もう一回しましょう･･･？
-> CONTEXT: Map432/events/50/pages/1/68/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/68/Dialogue
+\\name[\\v[2]]\\_
+Hey...\\n[101]... \\|Let's do it again...?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 いえ、もう一回なんて言わずに、もうこのまま一生･･･\\H
-> CONTEXT: Map432/events/50/pages/1/70/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/70/Dialogue
+\\name[\\v[2]]\\_
+No, I won't say it again, 
+I'll stay like this for the rest of my life...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 好きなだけ私のことも犯して下さい･･･\\H
-> CONTEXT: Map432/events/50/pages/1/79/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/79/Dialogue
+\\name[\\v[2]]\\_
+Please violate me as much as you like...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 好きなだけあなたのことを犯させて下さい･･･\\H
-> CONTEXT: Map432/events/50/pages/1/81/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/81/Dialogue
+\\name[\\v[2]]\\_
+Please let me violate you as much as I like...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 何回も･･････何回も･･････何回も････････････\\H
-> CONTEXT: Map432/events/50/pages/1/83/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/83/Dialogue
+\\name[\\v[2]]\\_
+Many times... Many times... Many times...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ねぇ･･････。
-> CONTEXT: Map432/events/50/pages/1/85/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/85/Dialogue
+\\name[\\v[2]]\\_
+Hey......
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 いいでしょう･･･？　\\n[101]･･･\\H
-> CONTEXT: Map432/events/50/pages/1/87/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/87/Dialogue
+\\name[\\v[2]]\\_
+Isn't it okay...? \\n[101]...\\H
 > END STRING
 
 > BEGIN STRING
@@ -724,144 +849,167 @@ Unconcious
 お師匠様はもう手遅れ。\\|
 抑圧されていた情欲は暴走し、もはや自分で止めることは\\_
 できませんの。
-> CONTEXT: Map432/events/50/pages/1/99/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/99/Dialogue
+\\name[\\v[3]]\\_
+It's already too late for your master. \\|
+The suppressed passion has gone out of control 
+and it can no longer be stopped.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 自らの身体が、頭が。
 溶かし、溺れるような快楽を覚えてしまいましたから･･･。
-> CONTEXT: Map432/events/50/pages/1/103/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/103/Dialogue
+\\name[\\v[3]]\\_
+Her own body and head.
+Melting and drowning in pleasure...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 例え滞在機を止め、現に帰ることができたとしても、
-> CONTEXT: Map432/events/50/pages/1/106/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/106/Dialogue
+\\name[\\v[3]]\\_
+Even if stopped the Staying Machine and returned home,
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 お師匠様の精神が元に戻ることはなく、
-> CONTEXT: Map432/events/50/pages/1/108/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/108/Dialogue
+\\name[\\v[3]]\\_
+Your master's mind will never return to normal,
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 貴方はお師匠様のそんな壊れた愛を受け入れ続けるしか、
-> CONTEXT: Map432/events/50/pages/1/110/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/110/Dialogue
+\\name[\\v[3]]\\_
+All you can do is continue to accept your master's broken love.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 救う方法は無いのですわ。
-> CONTEXT: Map432/events/50/pages/1/112/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/112/Dialogue
+\\name[\\v[3]]\\_
+There's no way to save her.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ･･･ふふっ、ですがご覧下さいまし。
-> CONTEXT: Map432/events/50/pages/1/114/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/114/Dialogue
+\\name[\\v[3]]\\_
+...Hehe, but please take a look.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 \\n[101]･･････\\n[101]･･････\\H
-> CONTEXT: Map432/events/50/pages/1/135/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/135/Dialogue
+\\name[\\v[2]]\\_
+\\n[101]......\\n[101]......\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 気持ち良い･･････\\H
 もっと･･････もっと･･･っ･･････\\H
-> CONTEXT: Map432/events/50/pages/1/137/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/137/Dialogue
+\\name[\\v[2]]\\_
+Feels good...\\H
+More......more......\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 くすくす･･････\\|
 彼女、\\|とっても幸せそうじゃありませんこと？
-> CONTEXT: Map432/events/50/pages/1/147/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/147/Dialogue
+\\name[\\v[3]]\\_
+Ksks...\\|
+Doesn't she look very happy?
 > END STRING
 
 > BEGIN STRING
 ラーミルに忘却の古印を刻印した。
-> CONTEXT: Map432/events/50/pages/1/166/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/166/Dialogue
+I imprinted the Old Seal of Oblivion on Ramil.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あれ･･････。
-> CONTEXT: Map432/events/50/pages/1/191/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/191/Dialogue
+\\name[\\v[2]]\\_
+Wha......
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 私は今まで･･･何を･･･？
-> CONTEXT: Map432/events/50/pages/1/193/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/193/Dialogue
+\\name[\\v[2]]\\_
+What have I... been doing?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あれ･･･。
-> CONTEXT: Map432/events/50/pages/1/195/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/195/Dialogue
+\\name[\\v[2]]\\_
+Uhh...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 なんだか･･･、
-> CONTEXT: Map432/events/50/pages/1/197/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/197/Dialogue
+\\name[\\v[2]]\\_
+What...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 とても、疲れていて･･･。
-> CONTEXT: Map432/events/50/pages/1/199/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/199/Dialogue
+\\name[\\v[2]]\\_
+I'm very tired...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ごめんなさい\\n[101]･･･。
 少しだけ休ませて貰えませんか･･･？
-> CONTEXT: Map432/events/50/pages/1/201/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/201/Dialogue
+\\name[\\v[2]]\\_
+I'm sorry \\n[101]...
+Could you please let me rest for a while...?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 すぐに、起きますから･･･。
-> CONTEXT: Map432/events/50/pages/1/204/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/204/Dialogue
+\\name[\\v[2]]\\_
+I'll wake up soon...
 > END STRING
 
 > BEGIN STRING
 \\n[101]は滞在機に鍵をはめ込んだ。
-> CONTEXT: Map432/events/50/pages/1/226/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/50/pages/1/550/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/226/Dialogue
+> CONTEXT: Map432/events/50/pages/1/550/Dialogue
+\\n[101] put the key into the Staying Machine.
 > END STRING
 
 > BEGIN STRING
 滞在機を破壊した。
-> CONTEXT: Map432/events/50/pages/1/245/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/50/pages/1/569/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/245/Dialogue
+> CONTEXT: Map432/events/50/pages/1/569/Dialogue
+Stopped the Staying Machine.
 > END STRING
 
 > BEGIN STRING
@@ -869,8 +1017,11 @@ Unconcious
 滞在機を止めたことによって、
 現実の世界も夢世界の侵食が無くなり、\\_
 元の状態へと戻り始める。
-> CONTEXT: Map432/events/50/pages/1/249/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/249/Dialogue
+\\name[\\v[3]]\\_
+By stopping the Staying Machine, the real world is no longer 
+eroded by the dream world, 
+and begins to return to its original state.
 > END STRING
 
 > BEGIN STRING
@@ -878,51 +1029,63 @@ Unconcious
 ヴェルミィーナ率いるパルフィス密教会は、
 夢世界の侵食が阻止されたために、しばらくは鳴りを\\_
 潜めることでしょう。
-> CONTEXT: Map432/events/50/pages/1/253/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/253/Dialogue
+\\name[\\v[3]]\\_
+The Palfis Secret Church, led by Vermina, 
+will be quiet for a while because 
+the dream world's erosion has been stopped.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 お師匠様の記憶を封じたことで、夢から覚めた後は
 昔と同じような生活を送ることはできるはずですわ。
-> CONTEXT: Map432/events/50/pages/1/257/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/257/Dialogue
+\\name[\\v[3]]\\_
+By sealing away your master's memories, 
+you should be able to live your life as before 
+after you wake up from your dream.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 いつか忘れられる影の現。
-> CONTEXT: Map432/events/50/pages/1/260/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/260/Dialogue
+\\name[\\v[3]]\\_
+A trace that will be forgotten someday.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 欲望も、過ちも、私たち夢魔も、この夢世界の一時も。
-> CONTEXT: Map432/events/50/pages/1/262/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/262/Dialogue
+\\name[\\v[3]]\\_
+Desires, mistakes, us succubi, 
+and the moments of this dream world.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 皆、すべて夢だったと。
-> CONTEXT: Map432/events/50/pages/1/264/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/264/Dialogue
+\\name[\\v[3]]\\_
+Everyone will say it was all a dream.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 忘れられることですわ。
-> CONTEXT: Map432/events/50/pages/1/266/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/266/Dialogue
+\\name[\\v[3]]\\_
+You'll forget about it.
 > END STRING
 
 > BEGIN STRING
 \\name[\\n[122]]\\_
 ･･･彼女が、本当のお師匠様なんですね。
-> CONTEXT: Map432/events/50/pages/1/312/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/312/Dialogue
+\\name[\\n[122]]\\_
+...She is your true master.
 > END STRING
 
 > BEGIN STRING
@@ -930,244 +1093,286 @@ Unconcious
 彼女を演じていたから分かります。
 彼女は厳しくも優しく、爛れた性交渉に対して過度に潔癖で、
 あなたと一線を超えようとするとは思いもしなかった人。
-> CONTEXT: Map432/events/50/pages/1/314/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/314/Dialogue
+\\name[\\n[122]]\\_
+I can tell from her performance.
+She's strict yet kind, extremely chaste when it comes to sex, 
+and you never thought she'd cross the line with you.
 > END STRING
 
 > BEGIN STRING
 \\name[\\n[122]]\\_
 ･･･それが、この有様。
-> CONTEXT: Map432/events/50/pages/1/318/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/318/Dialogue
+\\name[\\n[122]]\\_
+...So, that's how it is.
 > END STRING
 
 > BEGIN STRING
 \\name[\\n[122]]\\_
 今や錯乱と自暴自棄に狂い、
 ただ歪んだ\\n[101]への愛欲を貪るだけの雌。
-> CONTEXT: Map432/events/50/pages/1/320/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/320/Dialogue
+\\name[\\n[122]]\\_
+Now mad with confusion and desperation,
+A woman who just lusts after a distorted \\n[101].
 > END STRING
 
 > BEGIN STRING
 \\name[\\n[122]]\\_
 ･･･\\n[101]、彼女をどうするつもりですか？
-> CONTEXT: Map432/events/50/pages/1/323/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/323/Dialogue
+\\name[\\n[122]]\\_
+...\\n[101], what are you planning to do with her?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･\\n[101]･･････\\H
-> CONTEXT: Map432/events/50/pages/1/326/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/326/Dialogue
+\\name[\\v[2]]\\_
+...\\n[101].....\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･え･･････？
-> CONTEXT: Map432/events/50/pages/1/364/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/364/Dialogue
+\\name[\\v[2]]\\_
+...eh......?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･････あ･･･
-> CONTEXT: Map432/events/50/pages/1/366/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/366/Dialogue
+\\name[\\v[2]]\\_
+.....a...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･\\n[101]･･････
-> CONTEXT: Map432/events/50/pages/1/387/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/387/Dialogue
+\\name[\\v[2]]\\_
+...\\n[101].....
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･私･･････
-> CONTEXT: Map432/events/50/pages/1/389/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/389/Dialogue
+\\name[\\v[2]]\\_
+...I......
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･････････
-> CONTEXT: Map432/events/50/pages/1/391/Dialogue < UNTRANSLATED
-> CONTEXT: Map432/events/50/pages/1/397/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/391/Dialogue
+> CONTEXT: Map432/events/50/pages/1/397/Dialogue
+\\name[\\v[2]]\\_
+........
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･････････ううっ。
-> CONTEXT: Map432/events/50/pages/1/393/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/393/Dialogue
+\\name[\\v[2]]\\_
+.......Ugh.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･\\n[101]･･････っ
-> CONTEXT: Map432/events/50/pages/1/395/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/395/Dialogue
+\\name[\\v[2]]\\_
+....\\n[101].....
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ごめん、なさい･･････。
-> CONTEXT: Map432/events/50/pages/1/406/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/406/Dialogue
+\\name[\\v[2]]\\_
+Sorry.....
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･････何も、言えません。
-> CONTEXT: Map432/events/50/pages/1/417/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/417/Dialogue
+\\name[\\v[2]]\\_
+...I couldn't say.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 私が犯した過ちは、あまりに多く、大きすぎました。
-> CONTEXT: Map432/events/50/pages/1/419/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/419/Dialogue
+\\name[\\v[2]]\\_
+The mistakes I made were too many and too big.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 師匠、失格です。･･･１人の、人間としても。
-> CONTEXT: Map432/events/50/pages/1/421/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/421/Dialogue
+\\name[\\v[2]]\\_
+Master, disqualified....even as a human being.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 夢の中で理性が無かっただなんて言い訳です。
-> CONTEXT: Map432/events/50/pages/1/424/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/424/Dialogue
+\\name[\\v[2]]\\_
+My excuse was that I was irrational in the dream.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 本当は、何もかも分かっていたんです。
 許してください･･･なんて言えません。
-> CONTEXT: Map432/events/50/pages/1/426/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/426/Dialogue
+\\name[\\v[2]]\\_
+The truth is, I knew everything.
+Please forgive me...for not saying.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ごめんなさい、\\n[101]。辛い思いをさせてしまって。
-> CONTEXT: Map432/events/50/pages/1/430/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/430/Dialogue
+\\name[\\v[2]]\\_
+I'm sorry, \\n[101]. That you had to go through that.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･そしてありがとう、こんな私でも抱いてくれて。
-> CONTEXT: Map432/events/50/pages/1/432/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/432/Dialogue
+\\name[\\v[2]]\\_
+...and thank you for hugging me even though I'm like this.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･あなたも、ありがとう。
 頼りない私の代わりに、\\n[101]を助けてくれて。
-> CONTEXT: Map432/events/50/pages/1/441/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/441/Dialogue
+\\name[\\v[2]]\\_
+...Also, thank you.
+For substituting and helping \\n[101] when I was unreliable.
 > END STRING
 
 > BEGIN STRING
 \\name[\\n[122]]\\_
 ･･･いいえ。
-> CONTEXT: Map432/events/50/pages/1/445/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/445/Dialogue
+\\name[\\n[122]]\\_
+...No.
 > END STRING
 
 > BEGIN STRING
 \\name[\\n[122]]\\_
 あなたの普段の振る舞いがあったからこその私です。
-> CONTEXT: Map432/events/50/pages/1/447/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/447/Dialogue
+\\name[\\n[122]]\\_
+I am who I am because of you.
 > END STRING
 
 > BEGIN STRING
 \\name[\\n[122]]\\_
 例え間違いを犯したとしても、
 あなたは省みることができる人間だと思っています。
-> CONTEXT: Map432/events/50/pages/1/449/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/449/Dialogue
+\\name[\\n[122]]\\_
+Even if you make a mistake, 
+I believe you are a person who can reflect on it.
 > END STRING
 
 > BEGIN STRING
 \\name[\\n[122]]\\_
 ･･･そうですよね？　\\n[101]。
-> CONTEXT: Map432/events/50/pages/1/452/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/452/Dialogue
+\\name[\\n[122]]\\_
+Isn't that right? \\n[101].
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･ありがとう。\\.\\.
 私も、あなたのようになれるかしら。
-> CONTEXT: Map432/events/50/pages/1/455/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/455/Dialogue
+\\name[\\v[2]]\\_
+...Thank you. \\.\\.
+I wonder if I could be like you too.
 > END STRING
 
 > BEGIN STRING
 \\name[\\n[122]]\\_
 ･･･私とあなたは違いますよ。
 あなたは、あなた自身のものですから。
-> CONTEXT: Map432/events/50/pages/1/458/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/458/Dialogue
+\\name[\\n[122]]\\_
+...You and I are different.
+Because you are your own.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･ふふ、それもそうですね。
-> CONTEXT: Map432/events/50/pages/1/461/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/461/Dialogue
+\\name[\\v[2]]\\_
+...Hehe, that's true too.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･さぁ、起きましょうか、\\n[101]。
-> CONTEXT: Map432/events/50/pages/1/469/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/469/Dialogue
+\\name[\\v[2]]\\_
+...Let's get up, \\n[101].
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 目を覚まして、夜明けを、朝を、迎えましょう。
-> CONTEXT: Map432/events/50/pages/1/472/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/472/Dialogue
+\\name[\\v[2]]\\_
+Wake up and welcome the dawn and the morning.
 > END STRING
 
 > BEGIN STRING
 \\name[\\n[122]]\\_
 \\n[101]。
-> CONTEXT: Map432/events/50/pages/1/508/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/508/Dialogue
+\\name[\\n[122]]\\_
+\\n[101]。
 > END STRING
 
 > BEGIN STRING
 \\name[\\n[122]]\\_
 ･･･また。
-> CONTEXT: Map432/events/50/pages/1/512/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/512/Dialogue
+\\name[\\n[122]]\\_
+...Also.
 > END STRING
 
 > BEGIN STRING
 \\name[\\n[122]]\\_
 また、夢で会いましょう。
-> CONTEXT: Map432/events/50/pages/1/536/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/50/pages/1/536/Dialogue
+\\name[\\n[122]]\\_
+Let's meet again in a dream.
 > END STRING
 
 > BEGIN STRING
 \\name[\\n[122]]\\_
 ･･････あとは、彼女だけですね。
-> CONTEXT: Map432/events/52/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map432/events/52/pages/0/0/Dialogue
+\\name[\\n[122]]\\_
+....Now all that's left is her.
 > END STRING
