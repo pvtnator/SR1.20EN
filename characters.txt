@@ -1,4 +1,19 @@
 > BEGIN STRING
+""
+> CONTEXT: 00_System\Base_05.rb
+> CONTEXT: 00_System\Base_06.rb
+> CONTEXT: 00_System\Base_10.rb
+> CONTEXT: 00_System\Base_100.rb
+> CONTEXT: 00_System\Base_101.rb
+> CONTEXT: 00_System\Base_104.rb
+> CONTEXT: 00_System\Base_105.rb
+> CONTEXT: 00_System\Base_108.rb
+> CONTEXT: 00_System\Base_11.rb
+> CONTEXT: 00_System\Base_111.rb
+
+> END STRING
+
+> BEGIN STRING
 "お兄さん"
 > CONTEXT: 00_System\Base_05.rb
 > CONTEXT: 00_System\Base_06.rb
@@ -1821,21 +1836,6 @@
 > END STRING
 
 > BEGIN STRING
-"" + "
-> CONTEXT: 05_LesserSuccubus_00\C_MapChat.rb
-> CONTEXT: 05_LesserSuccubus_07\C_MapChat.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_MapChat.rb
-> CONTEXT: 100_Werewolf_11\C_MapChat.rb
-> CONTEXT: 100_Werewolf_13\C_MapChat.rb
-> CONTEXT: 101_Werewolf_OFE05\C_MapChat.rb
-> CONTEXT: 104_Werecat_08\C_MapChat.rb
-> CONTEXT: 104_Werecat_09\C_MapChat.rb
-> CONTEXT: 105_Werecat_OFE14\C_MapChat.rb
-> CONTEXT: 108_Goblin_07\C_MapChat.rb
-
-> END STRING
-
-> BEGIN STRING
 "ポート空間"
 > CONTEXT: 05_LesserSuccubus_00\C_MapChat.rb
 > CONTEXT: 05_LesserSuccubus_07\C_MapChat.rb
@@ -3356,15 +3356,15 @@
 > BEGIN STRING
 "対象：尻"
 > CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
+> CONTEXT: 05_LesserSuccubus_00\F_Attack.rb
+> CONTEXT: 05_LesserSuccubus_00\F_Attack_bedin.rb
+> CONTEXT: 05_LesserSuccubus_00\M_Attack.rb
+> CONTEXT: 05_LesserSuccubus_00\M_Attack_bedin.rb
 > CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_Talk.rb
-> CONTEXT: 100_Werewolf_11\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\(置換済)\C_Talk.rb
-> CONTEXT: 101_Werewolf_OFE05\C_Talk.rb
-> CONTEXT: 104_Werecat_08\C_Talk.rb
-> CONTEXT: 104_Werecat_09\C_Talk.rb
-> CONTEXT: 105_Werecat_OFE14\C_Talk.rb
+> CONTEXT: 05_LesserSuccubus_07\F_Attack.rb
+> CONTEXT: 05_LesserSuccubus_07\F_Attack_bedin.rb
+> CONTEXT: 05_LesserSuccubus_07\M_Attack.rb
+> CONTEXT: 05_LesserSuccubus_07\M_Attack_bedin.rb
 
 > END STRING
 
@@ -3387,15 +3387,15 @@
 > BEGIN STRING
 "対象：陰核"
 > CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
+> CONTEXT: 05_LesserSuccubus_00\F_Attack.rb
+> CONTEXT: 05_LesserSuccubus_00\F_Attack_bedin.rb
 > CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
+> CONTEXT: 05_LesserSuccubus_07\F_Attack.rb
+> CONTEXT: 05_LesserSuccubus_07\F_Attack_bedin.rb
 > CONTEXT: 06_LesserSuccubus_OFE00\C_Talk.rb
+> CONTEXT: 06_LesserSuccubus_OFE00\F_Attack.rb
+> CONTEXT: 06_LesserSuccubus_OFE00\F_Attack_bedin.rb
 > CONTEXT: 100_Werewolf_11\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\(置換済)\C_Talk.rb
-> CONTEXT: 101_Werewolf_OFE05\C_Talk.rb
-> CONTEXT: 104_Werecat_08\C_Talk.rb
-> CONTEXT: 104_Werecat_09\C_Talk.rb
-> CONTEXT: 105_Werecat_OFE14\C_Talk.rb
 
 > END STRING
 
@@ -3835,21 +3835,6 @@
 > END STRING
 
 > BEGIN STRING
-"" if $msg.at_parts == "
-> CONTEXT: 05_LesserSuccubus_00\F_Attack.rb
-> CONTEXT: 05_LesserSuccubus_00\F_Attack_bedin.rb
-> CONTEXT: 05_LesserSuccubus_00\M_Attack.rb
-> CONTEXT: 05_LesserSuccubus_00\M_Attack_bedin.rb
-> CONTEXT: 05_LesserSuccubus_07\F_Attack.rb
-> CONTEXT: 05_LesserSuccubus_07\F_Attack_bedin.rb
-> CONTEXT: 05_LesserSuccubus_07\M_Attack.rb
-> CONTEXT: 05_LesserSuccubus_07\M_Attack_bedin.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\F_Attack.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\F_Attack_bedin.rb
-
-> END STRING
-
-> BEGIN STRING
 "「押しのけてもいいんだよぉ？\n　それともひょっとして……\n　このままされるのが良いとかぁ？\\H」"
 > CONTEXT: 05_LesserSuccubus_00\F_Attack.rb
 > CONTEXT: 05_LesserSuccubus_00\F_Attack_bedin.rb
@@ -4046,14 +4031,14 @@
 "キッス"
 > CONTEXT: 05_LesserSuccubus_00\F_Attack.rb
 > CONTEXT: 05_LesserSuccubus_00\F_Attack_bedin.rb
+> CONTEXT: 05_LesserSuccubus_00\F_Ecstasy_Self.rb
 > CONTEXT: 05_LesserSuccubus_00\F_Resist_hold.rb
 > CONTEXT: 05_LesserSuccubus_00\M_Attack.rb
 > CONTEXT: 05_LesserSuccubus_00\M_Attack_bedin.rb
+> CONTEXT: 05_LesserSuccubus_00\M_Ecstasy_Self.rb
 > CONTEXT: 05_LesserSuccubus_00\M_Resist_hold.rb
 > CONTEXT: 05_LesserSuccubus_07\F_Attack.rb
 > CONTEXT: 05_LesserSuccubus_07\F_Attack_bedin.rb
-> CONTEXT: 05_LesserSuccubus_07\F_Resist_hold.rb
-> CONTEXT: 05_LesserSuccubus_07\M_Attack.rb
 
 > END STRING
 
@@ -4116,14 +4101,14 @@
 "バスト"
 > CONTEXT: 05_LesserSuccubus_00\F_Attack.rb
 > CONTEXT: 05_LesserSuccubus_00\F_Attack_bedin.rb
+> CONTEXT: 05_LesserSuccubus_00\F_Ecstasy_Self.rb
 > CONTEXT: 05_LesserSuccubus_00\M_Attack.rb
 > CONTEXT: 05_LesserSuccubus_00\M_Attack_bedin.rb
+> CONTEXT: 05_LesserSuccubus_00\M_Ecstasy_Self.rb
 > CONTEXT: 05_LesserSuccubus_07\F_Attack.rb
 > CONTEXT: 05_LesserSuccubus_07\F_Attack_bedin.rb
+> CONTEXT: 05_LesserSuccubus_07\F_Ecstasy_Self.rb
 > CONTEXT: 05_LesserSuccubus_07\M_Attack.rb
-> CONTEXT: 05_LesserSuccubus_07\M_Attack_bedin.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\F_Attack.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\F_Attack_bedin.rb
 
 > END STRING
 
@@ -4168,14 +4153,14 @@
 "ヒップ"
 > CONTEXT: 05_LesserSuccubus_00\F_Attack.rb
 > CONTEXT: 05_LesserSuccubus_00\F_Attack_bedin.rb
+> CONTEXT: 05_LesserSuccubus_00\F_Ecstasy_Self.rb
 > CONTEXT: 05_LesserSuccubus_00\M_Attack.rb
 > CONTEXT: 05_LesserSuccubus_00\M_Attack_bedin.rb
+> CONTEXT: 05_LesserSuccubus_00\M_Ecstasy_Self.rb
 > CONTEXT: 05_LesserSuccubus_07\F_Attack.rb
 > CONTEXT: 05_LesserSuccubus_07\F_Attack_bedin.rb
+> CONTEXT: 05_LesserSuccubus_07\F_Ecstasy_Self.rb
 > CONTEXT: 05_LesserSuccubus_07\M_Attack.rb
-> CONTEXT: 05_LesserSuccubus_07\M_Attack_bedin.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\F_Attack.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\F_Attack_bedin.rb
 
 > END STRING
 
@@ -4228,14 +4213,14 @@
 "クロッチ"
 > CONTEXT: 05_LesserSuccubus_00\F_Attack.rb
 > CONTEXT: 05_LesserSuccubus_00\F_Attack_bedin.rb
+> CONTEXT: 05_LesserSuccubus_00\F_Ecstasy_Self.rb
 > CONTEXT: 05_LesserSuccubus_00\M_Attack.rb
 > CONTEXT: 05_LesserSuccubus_00\M_Attack_bedin.rb
+> CONTEXT: 05_LesserSuccubus_00\M_Ecstasy_Self.rb
 > CONTEXT: 05_LesserSuccubus_07\F_Attack.rb
 > CONTEXT: 05_LesserSuccubus_07\F_Attack_bedin.rb
+> CONTEXT: 05_LesserSuccubus_07\F_Ecstasy_Self.rb
 > CONTEXT: 05_LesserSuccubus_07\M_Attack.rb
-> CONTEXT: 05_LesserSuccubus_07\M_Attack_bedin.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\F_Attack.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\F_Attack_bedin.rb
 
 > END STRING
 
@@ -4333,14 +4318,14 @@
 "スクラッチ"
 > CONTEXT: 05_LesserSuccubus_00\F_Attack.rb
 > CONTEXT: 05_LesserSuccubus_00\F_Attack_bedin.rb
+> CONTEXT: 05_LesserSuccubus_00\F_Ecstasy_Self.rb
 > CONTEXT: 05_LesserSuccubus_07\F_Attack.rb
 > CONTEXT: 05_LesserSuccubus_07\F_Attack_bedin.rb
+> CONTEXT: 05_LesserSuccubus_07\F_Ecstasy_Self.rb
 > CONTEXT: 06_LesserSuccubus_OFE00\F_Attack.rb
 > CONTEXT: 06_LesserSuccubus_OFE00\F_Attack_bedin.rb
+> CONTEXT: 06_LesserSuccubus_OFE00\F_Ecstasy_Self.rb
 > CONTEXT: 100_Werewolf_11\F_Attack.rb
-> CONTEXT: 100_Werewolf_11\F_Attack_bedin.rb
-> CONTEXT: 100_Werewolf_13\F_Attack.rb
-> CONTEXT: 100_Werewolf_13\F_Attack_bedin.rb
 
 > END STRING
 
@@ -4634,21 +4619,6 @@
 > END STRING
 
 > BEGIN STRING
-"" if $msg.t_enemy.ecstasy_emotion == "
-> CONTEXT: 05_LesserSuccubus_00\F_Ecstasy.rb
-> CONTEXT: 05_LesserSuccubus_00\F_Ecstasy_Hold.rb
-> CONTEXT: 05_LesserSuccubus_00\M_Ecstasy.rb
-> CONTEXT: 05_LesserSuccubus_00\M_Ecstasy_Hold.rb
-> CONTEXT: 05_LesserSuccubus_07\F_Ecstasy.rb
-> CONTEXT: 05_LesserSuccubus_07\F_Ecstasy_Hold.rb
-> CONTEXT: 05_LesserSuccubus_07\M_Ecstasy.rb
-> CONTEXT: 05_LesserSuccubus_07\M_Ecstasy_Hold.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\F_Ecstasy.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\F_Ecstasy_Hold.rb
-
-> END STRING
-
-> BEGIN STRING
 "「#{giggle}\n　ちゃんとイくまでどいてあげないからね\\H」"
 > CONTEXT: 05_LesserSuccubus_00\F_Ecstasy.rb
 > CONTEXT: 05_LesserSuccubus_00\F_Ecstasy_Hold.rb
@@ -4792,21 +4762,6 @@
 > CONTEXT: 05_LesserSuccubus_07\M_Ecstasy.rb
 > CONTEXT: 06_LesserSuccubus_OFE00\F_Ecstasy.rb
 > CONTEXT: 06_LesserSuccubus_OFE00\M_Attack.rb
-
-> END STRING
-
-> BEGIN STRING
-"" if @doppel_cp == true and $msg.t_enemy.ecstasy_emotion == "
-> CONTEXT: 05_LesserSuccubus_00\F_Ecstasy.rb
-> CONTEXT: 05_LesserSuccubus_00\F_Ecstasy_Hold.rb
-> CONTEXT: 05_LesserSuccubus_00\M_Ecstasy.rb
-> CONTEXT: 05_LesserSuccubus_00\M_Ecstasy_Hold.rb
-> CONTEXT: 05_LesserSuccubus_07\F_Ecstasy.rb
-> CONTEXT: 05_LesserSuccubus_07\F_Ecstasy_Hold.rb
-> CONTEXT: 05_LesserSuccubus_07\M_Ecstasy.rb
-> CONTEXT: 05_LesserSuccubus_07\M_Ecstasy_Hold.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\F_Ecstasy.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\F_Ecstasy_Hold.rb
 
 > END STRING
 
@@ -4969,21 +4924,6 @@
 > CONTEXT: 05_LesserSuccubus_07\M_Ecstasy_Self.rb
 > CONTEXT: 06_LesserSuccubus_OFE00\F_Ecstasy_Self.rb
 > CONTEXT: 06_LesserSuccubus_OFE00\M_Ecstasy_Self.rb
-
-> END STRING
-
-> BEGIN STRING
-"" if $msg.at_type == "
-> CONTEXT: 05_LesserSuccubus_00\F_Ecstasy_Self.rb
-> CONTEXT: 05_LesserSuccubus_00\M_Ecstasy_Self.rb
-> CONTEXT: 05_LesserSuccubus_07\F_Ecstasy_Self.rb
-> CONTEXT: 05_LesserSuccubus_07\M_Ecstasy_Self.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\F_Ecstasy_Self.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\M_Ecstasy_Self.rb
-> CONTEXT: 100_Werewolf_11\F_Ecstasy_Self.rb
-> CONTEXT: 100_Werewolf_11\M_Ecstasy_Self.rb
-> CONTEXT: 100_Werewolf_13\F_Ecstasy_Self.rb
-> CONTEXT: 100_Werewolf_13\M_Ecstasy_Self.rb
 
 > END STRING
 
@@ -5882,7 +5822,7 @@
 > END STRING
 
 > BEGIN STRING
-"" if $msg.tag == "
+"対象：睾丸"
 > CONTEXT: 05_LesserSuccubus_00\M_Attack.rb
 > CONTEXT: 05_LesserSuccubus_00\M_Attack_bedin.rb
 > CONTEXT: 05_LesserSuccubus_07\M_Attack.rb
@@ -6081,14 +6021,14 @@
 "スウィング"
 > CONTEXT: 05_LesserSuccubus_00\M_Attack.rb
 > CONTEXT: 05_LesserSuccubus_00\M_Attack_bedin.rb
+> CONTEXT: 05_LesserSuccubus_00\M_Ecstasy_Self.rb
 > CONTEXT: 05_LesserSuccubus_07\M_Attack.rb
 > CONTEXT: 05_LesserSuccubus_07\M_Attack_bedin.rb
+> CONTEXT: 05_LesserSuccubus_07\M_Ecstasy_Self.rb
 > CONTEXT: 06_LesserSuccubus_OFE00\M_Attack.rb
 > CONTEXT: 06_LesserSuccubus_OFE00\M_Attack_bedin.rb
+> CONTEXT: 06_LesserSuccubus_OFE00\M_Ecstasy_Self.rb
 > CONTEXT: 100_Werewolf_11\M_Attack.rb
-> CONTEXT: 100_Werewolf_11\M_Attack_bedin.rb
-> CONTEXT: 100_Werewolf_13\M_Attack.rb
-> CONTEXT: 100_Werewolf_13\M_Attack_bedin.rb
 
 > END STRING
 
@@ -6096,14 +6036,14 @@
 "ヘヴィスウィング"
 > CONTEXT: 05_LesserSuccubus_00\M_Attack.rb
 > CONTEXT: 05_LesserSuccubus_00\M_Attack_bedin.rb
+> CONTEXT: 05_LesserSuccubus_00\M_Ecstasy_Self.rb
 > CONTEXT: 05_LesserSuccubus_07\M_Attack.rb
 > CONTEXT: 05_LesserSuccubus_07\M_Attack_bedin.rb
+> CONTEXT: 05_LesserSuccubus_07\M_Ecstasy_Self.rb
 > CONTEXT: 06_LesserSuccubus_OFE00\M_Attack.rb
 > CONTEXT: 06_LesserSuccubus_OFE00\M_Attack_bedin.rb
+> CONTEXT: 06_LesserSuccubus_OFE00\M_Ecstasy_Self.rb
 > CONTEXT: 100_Werewolf_11\M_Attack.rb
-> CONTEXT: 100_Werewolf_11\M_Attack_bedin.rb
-> CONTEXT: 100_Werewolf_13\M_Attack.rb
-> CONTEXT: 100_Werewolf_13\M_Attack_bedin.rb
 
 > END STRING
 
@@ -6516,21 +6456,6 @@
 > CONTEXT: 05_LesserSuccubus_00\M_Ecstasy_Hold.rb
 > CONTEXT: 05_LesserSuccubus_07\M_Ecstasy_Hold.rb
 > CONTEXT: 06_LesserSuccubus_OFE00\M_Ecstasy_Hold.rb
-
-> END STRING
-
-> BEGIN STRING
-" or $msg.at_type == "
-> CONTEXT: 05_LesserSuccubus_00\M_Ecstasy_Self.rb
-> CONTEXT: 05_LesserSuccubus_07\M_Ecstasy_Self.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\M_Ecstasy_Self.rb
-> CONTEXT: 100_Werewolf_11\M_Ecstasy_Self.rb
-> CONTEXT: 100_Werewolf_13\M_Ecstasy_Self.rb
-> CONTEXT: 101_Werewolf_OFE05\M_Ecstasy_Self.rb
-> CONTEXT: 104_Werecat_08\M_Ecstasy_Self.rb
-> CONTEXT: 104_Werecat_09\M_Ecstasy_Self.rb
-> CONTEXT: 105_Werecat_OFE14\M_Ecstasy_Self.rb
-> CONTEXT: 10_Succubus_00\M_Ecstasy_Self.rb
 
 > END STRING
 
@@ -32705,7 +32630,7 @@
 > END STRING
 
 > BEGIN STRING
-""#{speaker}は頬を朱に染めながら、\n#{master}に腕を絡ませ、ぴたりと寄り添った…"
+"# + "
 > CONTEXT: 137_DarkAngel_04\C_MapChat.rb
 > CONTEXT: 137_DarkAngel_08\C_MapChat.rb
 
@@ -34134,21 +34059,6 @@
 > END STRING
 
 > BEGIN STRING
-"対象：睾丸"
-> CONTEXT: 137_DarkAngel_04\M_Attack.rb
-> CONTEXT: 137_DarkAngel_04\M_Attack_bedin.rb
-> CONTEXT: 137_DarkAngel_08\M_Attack.rb
-> CONTEXT: 137_DarkAngel_08\M_Attack_bedin.rb
-> CONTEXT: 145_Mimic_07\M_Attack.rb
-> CONTEXT: 145_Mimic_07\M_Attack_bedin.rb
-> CONTEXT: 145_Mimic_08\M_Attack.rb
-> CONTEXT: 145_Mimic_08\M_Attack_bedin.rb
-> CONTEXT: 146_Mimic_OFE14\M_Attack.rb
-> CONTEXT: 146_Mimic_OFE14\M_Attack_bedin.rb
-
-> END STRING
-
-> BEGIN STRING
 "「ふふっ\\h\n　#{target}が#{myname}の中で熱く感じますわ\\H」"
 > CONTEXT: 137_DarkAngel_04\M_Attack.rb
 > CONTEXT: 137_DarkAngel_04\M_Attack_bedin.rb
@@ -34955,21 +34865,6 @@
 "「少しだけだ、いいだろ？　優男さんよ」"
 > CONTEXT: 141_Gargoyle_02\C_Talk.rb
 > CONTEXT: 141_Gargoyle_05\C_Talk.rb
-
-> END STRING
-
-> BEGIN STRING
-""  if $msg.tag == "
-> CONTEXT: 141_Gargoyle_02\C_Talk.rb
-> CONTEXT: 141_Gargoyle_05\C_Talk.rb
-> CONTEXT: 255_Youganot\C_Talk.rb
-> CONTEXT: 257_Rarmil\C_Talk.rb
-> CONTEXT: 258_Vermiena\C_Talk.rb
-> CONTEXT: 54_Cast_EVENT00\C_Talk.rb
-> CONTEXT: omake\999_template\テンプレート00_好色\C_Talk.rb
-> CONTEXT: omake\999_template\テンプレート01_上品\C_Talk.rb
-> CONTEXT: omake\999_template\テンプレート02_高慢\C_Talk.rb
-> CONTEXT: omake\999_template\テンプレート03_淡泊\C_Talk.rb
 
 > END STRING
 
@@ -107809,14 +107704,6 @@
 
 > BEGIN STRING
 "「#{pleasure_l}\n　こんな、こんな……っ！\n　#{myname}がこうも簡単に……っ\\H」"
-> CONTEXT: 96_Familiar_03\F_Ecstasy_Self.rb
-> CONTEXT: 96_Familiar_10\F_Ecstasy_Self.rb
-> CONTEXT: 97_Familiar_OFE12\F_Ecstasy_Self.rb
-
-> END STRING
-
-> BEGIN STRING
-"" if @doppel == true and $msg.t_enemy.ecstasy_emotion == "
 > CONTEXT: 96_Familiar_03\F_Ecstasy_Self.rb
 > CONTEXT: 96_Familiar_10\F_Ecstasy_Self.rb
 > CONTEXT: 97_Familiar_OFE12\F_Ecstasy_Self.rb

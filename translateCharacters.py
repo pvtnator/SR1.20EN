@@ -15,7 +15,7 @@ def extract_strings(folder_path, output_file, update={}):
                     content = f.read()
                 
                 # Find all strings in the file
-                found_strings = re.findall(r'".{1,}?"', content)
+                found_strings = re.findall(r'".*?"', content)
                 
                 # Add found strings to the dictionary with their contexts
                 for string in found_strings:
@@ -79,7 +79,7 @@ if __name__ == "__main__":
                 i += 1
 
     print(translations)
-    mode = "apply"
+    mode = "extract"
     if mode == "extract":
         extract_strings(folder_path, translations_file, translations)
         print("Extraction completed.")
