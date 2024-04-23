@@ -3,7 +3,7 @@ import re
 
 def replace_strings_in_files(folder_path, mod_path, replace_dict):
     for filename in os.listdir(folder_path):
-        if filename.startswith("Map") and os.path.isfile(os.path.join(folder_path, filename)):
+        if (filename.startswith("Map") or filename.startswith("Common")) and os.path.isfile(os.path.join(folder_path, filename)):
             with open(os.path.join(folder_path, filename), 'rb') as file:
                 content = file.read()
 

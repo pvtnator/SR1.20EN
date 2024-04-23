@@ -1105,8 +1105,8 @@ Familiar/96/10*2, Petite Witch/37/10
 
 > BEGIN STRING
 【BOSS】フルビュア
-> CONTEXT: Troops/133/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/133/name/
+【BOSS】Fulbeua
 > END STRING
 
 > BEGIN STRING
@@ -2702,8 +2702,8 @@ Lesser Succubus/5/33*3
 
 > BEGIN STRING
 【BOSS】ユーガノット/255/47
-> CONTEXT: Troops/478/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/478/name/
+【BOSS】Yuganot/255/47
 > END STRING
 
 > BEGIN STRING
@@ -2972,43 +2972,49 @@ Succubus/10/44*2, Mimic/145/45
 
 > BEGIN STRING
 【BOSS】フルビュア/253/50
-> CONTEXT: Troops/549/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/549/name/
+【BOSS】Fulbeua/253/50
 > END STRING
 
 > BEGIN STRING
 【BOSS】ギルゴーン/254/30
-> CONTEXT: Troops/550/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/550/name/
+【BOSS】Gilgorn/254/30
 > END STRING
 
 > BEGIN STRING
 見えない壁が貼られており、
 ギルゴーンに触れることができない！
-> CONTEXT: Troops/550/pages/0/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/550/pages/0/2/Dialogue
+An invisible wall is up,
+I can't touch Gilgorn!
 > END STRING
 
 > BEGIN STRING
 \\name[ギルゴーン]\\_
 「ふははははっ！　之は『現の壁』よ！」
-> CONTEXT: Troops/550/pages/0/5/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/550/pages/0/5/Dialogue
+\\name[Gilgorn]\\_
+「Hahahahaha! That's the "Reality Barrier"!」
 > END STRING
 
 > BEGIN STRING
 \\name[ギルゴーン]\\_
 「この壁は夢世界の理を無視した『物理的結界』！」
-> CONTEXT: Troops/550/pages/0/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/550/pages/0/7/Dialogue
+\\name[Gilgorn]\\_
+「This wall is a "physical barrier" that ignores 
+the principles of the dream world!」
 > END STRING
 
 > BEGIN STRING
 \\name[ギルゴーン]\\_
 「さぁ、貴様らには打つ手なしだろう？
 　尻尾を巻いて引き返すのだな！」
-> CONTEXT: Troops/550/pages/0/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/550/pages/0/9/Dialogue
+\\name[Gilgorn]\\_
+「Now, can't do anything about it, can you?
+Turn tail and run!」
 > END STRING
 
 > BEGIN STRING
@@ -3419,8 +3425,8 @@ Rigeo
 
 > BEGIN STRING
 フルビュア
-> CONTEXT: Troops/946/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/946/name/
+Fulbeua
 > END STRING
 
 > BEGIN STRING
