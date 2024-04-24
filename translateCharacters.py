@@ -44,7 +44,7 @@ def apply_translations(folder_path, translations, mustinclude=""):
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
 
-                pattern = re.compile("|".join(re.escape(key) for key in translations.keys()))
+                pattern = re.compile("|".join(re.escape(key) for key in sorted(translations.keys(), key=len, reverse=True)))
                 content = pattern.sub(lambda match: translations[match.group(0)], content)
                 
                 #for string, translation in translations.items():
@@ -80,7 +80,7 @@ if __name__ == "__main__":
                 i += 1
 
     print(translations)
-    mode = "extract"
+    mode = "apply"
     if mode == "extract":
         extract_strings(folder_path, translations_file, translations)
         print("Extraction completed.")
