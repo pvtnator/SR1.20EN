@@ -2069,7 +2069,7 @@ I'll fuck out of you...\\H」\\T
 > CONTEXT: Commonevents/119/69/Dialogue
 \\name[Vermina]\\_
 「Now, all that remains is to fall by sweet drowning.
-Or is it that precious sense of reason...」
+Or that precious sense of reason...」
 > END STRING
 
 > BEGIN STRING
@@ -2459,36 +2459,41 @@ Would you like to open the treasure chest?
 > BEGIN STRING
 \\center　　\\c[12]制作ツール\\c[0]
 \\center　　RPGツクールXP\\v[2]
-> CONTEXT: Commonevents/206/14/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/206/14/Dialogue
+\\center　　\\c[12]Production tools\\c[0]
+\\center　　RPG Maker XP\\v[2]
 > END STRING
 
 > BEGIN STRING
 \\center　　\\c[12]グラフィック・シナリオ・システム\\c[0]
 \\center　　wiz\\v[2]
-> CONTEXT: Commonevents/206/18/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/206/18/Dialogue
+\\center　　\\c[12]Graphic/Scenario/System\\c[0]
+\\center　　wiz\\v[2]
 > END STRING
 
 > BEGIN STRING
 \\center　　\\c[12]システム・口上\\c[0]
 \\center　　Lily\\v[2]
-> CONTEXT: Commonevents/206/22/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/206/22/Dialogue
+\\center　　\\c[12]System/Dialog\\c[0]
+\\center　　Lily\\v[2]
 > END STRING
 
 > BEGIN STRING
 \\center　　\\c[12]ドットグラフィック\\c[0]
 \\center　　mikecat\\v[2]
-> CONTEXT: Commonevents/206/26/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/206/26/Dialogue
+\\center　　\\c[12]Pixelart\\c[0]
+\\center　　mikecat\\v[2]
 > END STRING
 
 > BEGIN STRING
 \\center　　\\c[12]音楽\\c[0]
 \\center　　cres.\\v[2]
-> CONTEXT: Commonevents/206/30/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/206/30/Dialogue
+\\center　　\\c[12]Music\\c[0]
+\\center　　cres.\\v[2]
 > END STRING
 
 > BEGIN STRING
@@ -2496,15 +2501,19 @@ Would you like to open the treasure chest?
 \\center　　建設中の茶柱
 \\center　　Whitecat
 \\center　　Mutation Genes Simulation 技術開発研究所\\v[2]
-> CONTEXT: Commonevents/206/34/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/206/34/Dialogue
+\\center　　\\c[12]Graphic materials\\c[0]
+\\center　　建設中の茶柱
+\\center　　Whitecat
+\\center　　Mutation Genes Simulation 技術開発研究所\\v[2]
 > END STRING
 
 > BEGIN STRING
 \\center　　\\c[12]アニメーション素材\\c[0]
 \\center　　謎の研究所ふらいんぐぱんけーき\\v[2]
-> CONTEXT: Commonevents/206/40/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/206/40/Dialogue
+\\center　　\\c[12]Animation material\\c[0]
+\\center　　謎の研究所ふらいんぐぱんけーき\\v[2]
 > END STRING
 
 > BEGIN STRING
@@ -2512,15 +2521,19 @@ Would you like to open the treasure chest?
 \\center　　魔王魂
 \\center　　White:island
 \\center　　くらげ工匠\\v[2]
-> CONTEXT: Commonevents/206/44/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/206/44/Dialogue
+\\center　　\\c[12]Music/sound effect resources\\c[0]
+\\center　　魔王魂
+\\center　　White:island
+\\center　　くらげ工匠\\v[2]
 > END STRING
 
 > BEGIN STRING
 \\center　　\\c[12]音楽・効果音素材\\c[0]
 \\center　　H/MIX GALLERY\\v[2]
-> CONTEXT: Commonevents/206/50/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/206/50/Dialogue
+\\center　　\\c[12]Music/sound effect resources\\c[0]
+\\center　　H/MIX GALLERY\\v[2]
 > END STRING
 
 > BEGIN STRING
@@ -2528,8 +2541,11 @@ Would you like to open the treasure chest?
 \\center　　歯車の城
 \\center　　KAMESOFT
 \\center　　ちいさな本屋\\v[2]
-> CONTEXT: Commonevents/206/54/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/206/54/Dialogue
+\\center　\\c[12]Script resources\\c[0]
+\\center　　歯車の城
+\\center　　KAMESOFT
+\\center　　ちいさな本屋\\v[2]
 > END STRING
 
 > BEGIN STRING
@@ -2537,15 +2553,19 @@ Would you like to open the treasure chest?
 \\center　　kanikama
 \\center　　mao
 \\center　　音速ねこぱんち\\v[2]
-> CONTEXT: Commonevents/206/60/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/206/60/Dialogue
+\\center　　\\c[12]Dialog help\\c[0]
+\\center　　kanikama
+\\center　　mao
+\\center　　音速ねこぱんち\\v[2]
 > END STRING
 
 > BEGIN STRING
 \\center　　\\c[12]口上協力\\c[0]
 \\center　　super sylph\\v[2]
-> CONTEXT: Commonevents/206/66/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/206/66/Dialogue
+\\center　　\\c[12]Dialog help\\c[0]
+\\center　　super sylph\\v[2]
 > END STRING
 
 > BEGIN STRING
@@ -2553,8 +2573,11 @@ Would you like to open the treasure chest?
 \\center　　metal
 \\center　　macdalen
 \\center　　dokuro72\\v[2]
-> CONTEXT: Commonevents/206/70/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/206/70/Dialogue
+\\center　　\\c[12]Play test help\\c[0]
+\\center　　metal
+\\center　　macdalen
+\\center　　dokuro72\\v[2]
 > END STRING
 
 > BEGIN STRING
@@ -2562,22 +2585,27 @@ Would you like to open the treasure chest?
 \\center　　hiryki
 \\center　　紅太郎
 \\center　　黒野すらる\\v[2]
-> CONTEXT: Commonevents/206/76/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/206/76/Dialogue
+\\center　　\\c[12]Play test help\\c[0]
+\\center　　hiryki
+\\center　　紅太郎
+\\center　　黒野すらる\\v[2]
 > END STRING
 
 > BEGIN STRING
 \\center　　\\c[12]リスペクト\\c[0]
 \\center　　S.Q.D.T\\v[2]
-> CONTEXT: Commonevents/206/82/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/206/82/Dialogue
+\\center　　\\c[12]Respect\\c[0]
+\\center　　S.Q.D.T\\v[2]
 > END STRING
 
 > BEGIN STRING
 \\center　　\\c[12]制作\\c[0]
 \\center　　Dreamania\\v[2]
-> CONTEXT: Commonevents/206/86/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/206/86/Dialogue
+\\center　　\\c[12]Production\\c[0]
+\\center　　Dreamania\\v[2]
 > END STRING
 
 > BEGIN STRING

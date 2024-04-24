@@ -74,7 +74,8 @@ if __name__ == "__main__":
                 while(lines[i][0] == ">"):
                     i += 1
                 if lines[i].strip():
-                    translations[string] = lines[i].strip()
+                    translations["\""+string+"\""] = "\""+lines[i].strip()+"\""
+                    translations["「"+string+"」"] = "「"+lines[i].strip()+"」"
                 i += 2
             else:
                 i += 1
