@@ -37,6 +37,7 @@ def extract_strings(folder_path, output_file, update={}):
             outfile.write("\n> END STRING\n\n")
 
 def apply_translations(folder_path, translations, mustinclude=""):
+    glpattern = re.compile("|".join(re.escape(key) for key in sorted(translations["global"].keys(), key=len, reverse=True)))
     for root, dirs, files in os.walk(folder_path):
         for file in files:
             if file.endswith(".rb") and mustinclude in root:
@@ -44,8 +45,11 @@ def apply_translations(folder_path, translations, mustinclude=""):
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
 
-                pattern = re.compile("|".join(re.escape(key) for key in sorted(translations.keys(), key=len, reverse=True)))
-                content = pattern.sub(lambda match: translations[match.group(0)], content)
+                context = file_path[len(folder_path)+1:]
+
+                pattern = re.compile("|".join(re.escape(key) for key in sorted(translations[context].keys(), key=len, reverse=True)))
+                content = pattern.sub(lambda match: translations[context][match.group(0)], content)
+                content = glpattern.sub(lambda match: translations["global"][match.group(0)], content)
                 
                 #for string, translation in translations.items():
                 #    content = content.replace(string, translation)
@@ -71,11 +75,21 @@ if __name__ == "__main__":
                 i += 1
                 string = lines[i].strip()
                 i += 2
+                contexts = []
                 while(lines[i][0] == ">"):
+                    context = lines[i][11:]
+                    contexts.append(context)
+                    if not context in translations:
+                        translations[context] = {}
                     i += 1
                 if lines[i].strip():
-                    translations["\""+string+"\""] = "\""+lines[i].strip()+"\""
-                    translations["「"+string+"」"] = "「"+lines[i].strip()+"」"
+                    if len(contexts)>=10:
+                        translations["global"]["\""+string+"\""] = "\""+lines[i].strip()+"\""
+                        translations["global"]["「"+string+"」"] = "「"+lines[i].strip()+"」"
+                    else:
+                        for c in contexts:
+                            translations[c]["\""+string+"\""] = "\""+lines[i].strip()+"\""
+                            translations[c]["「"+string+"」"] = "「"+lines[i].strip()+"」"
                 i += 2
             else:
                 i += 1
