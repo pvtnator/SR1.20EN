@@ -3,6 +3,8 @@ Mostly edited MTL using a combination of many tools and some basic understanding
 If you encounter issues, please read below so you understand what are relevant bugs to report.
 In general, please report game logic bugs (from a fresh save), but it's unnecessary to report untranslated lines.
 
+### Original work by Dreamania. The official game is required to apply this patch.
+
 ## Progress
 ### What's done
 - Main story (NPC texts in maps)
