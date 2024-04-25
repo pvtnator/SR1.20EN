@@ -46,9 +46,9 @@ def apply_translations(folder_path, translations, mustinclude=""):
                     content = f.read()
 
                 context = file_path[len(folder_path)+1:]
-
-                pattern = re.compile("|".join(re.escape(key) for key in sorted(translations[context].keys(), key=len, reverse=True)))
-                content = pattern.sub(lambda match: translations[context][match.group(0)], content)
+                if context in translations:
+                    pattern = re.compile("|".join(re.escape(key) for key in sorted(translations[context].keys(), key=len, reverse=True)))
+                    content = pattern.sub(lambda match: translations[context][match.group(0)], content)
                 content = glpattern.sub(lambda match: translations["global"][match.group(0)], content)
                 
                 #for string, translation in translations.items():
@@ -65,7 +65,7 @@ if __name__ == "__main__":
     folder_name = current_dir.split("\\")[-1].replace("_patch", "_translated")
     folder_path = os.path.join(parent_dir, folder_name+"\\System\\talk")
     translations_file = "characters.txt"
-    translations = {}
+    translations = {"global": {}}
 
     with open(translations_file, 'r', encoding='utf-8') as trans_file:
         lines = trans_file.readlines()
@@ -74,13 +74,11 @@ if __name__ == "__main__":
             if lines[i].strip() == "> BEGIN STRING":
                 i += 1
                 string = lines[i].strip()
-                i += 2
+                i += 1
                 contexts = []
                 while(lines[i][0] == ">"):
-                    context = lines[i][11:]
+                    context = lines[i][11:].strip()
                     contexts.append(context)
-                    if not context in translations:
-                        translations[context] = {}
                     i += 1
                 if lines[i].strip():
                     if len(contexts)>=10:
@@ -88,13 +86,15 @@ if __name__ == "__main__":
                         translations["global"]["「"+string+"」"] = "「"+lines[i].strip()+"」"
                     else:
                         for c in contexts:
+                            if not c in translations:
+                                translations[c] = {}
                             translations[c]["\""+string+"\""] = "\""+lines[i].strip()+"\""
                             translations[c]["「"+string+"」"] = "「"+lines[i].strip()+"」"
                 i += 2
             else:
                 i += 1
 
-    print(translations)
+    print(translations["global"])
     mode = "apply"
     if mode == "extract":
         extract_strings(folder_path, translations_file, translations)
