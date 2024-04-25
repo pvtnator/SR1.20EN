@@ -820,9 +820,8 @@
 > BEGIN STRING
 "\#{myname}は"
 > CONTEXT: Scripts/RPG::Itemtext /16:13
-"\#{myname}"
 > CONTEXT: Scripts/RPG::Skilltext/22:17
-"[\#{skill.name}]\\n\#{myname}"
+"\#{myname}"
 > END STRING
 
 > BEGIN STRING
@@ -1036,142 +1035,141 @@
 "レッサーサキュバス"
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/93:17
 > CONTEXT: Scripts/RPG::Class（ボーナス）/35:12
+> CONTEXT: Scripts/★Scene_Title （$data改変）/310:20
+> CONTEXT: Scripts/RPG::Class（習得スキル）/90:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/102:50
+> CONTEXT: Scripts/Game_Enemy (設定用)/48:10
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/100:10
+> CONTEXT: Scripts/RPG::Skilltext/100:12
+> CONTEXT: Scripts/RPG::Skilltext/286:18
+> CONTEXT: Scripts/RPG::Skilltext/672:16
+> CONTEXT: Scripts/RPG::Skilltext/821:14
+> CONTEXT: Scripts/RPG::Skilltext/895:14
+> CONTEXT: Scripts/RPG::Skilltext/2123:16
+> CONTEXT: Scripts/RPG::Skilltext/2142:16
 "Lesser Succubus"
-> CONTEXT: Scripts/★Scene_Title （$data改変）/310:20 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/90:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/102:50 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/48:10 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/100:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/100:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/286:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/672:16 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/821:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/895:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2123:16 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2142:16 < UNTRANSLATED
-
 > END STRING
 
 > BEGIN STRING
 "サキュバス"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/35:24 < UNTRANSLATED
-> CONTEXT: Scripts/★Scene_Title （$data改変）/311:17 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/90:24 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/118:50 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/48:22 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/124:17 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1191:17 < UNTRANSLATED
-> CONTEXT: Scripts/BattlePop_Hold/143:12 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/117:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/100:24 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/286:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/672:28 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/823:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/898:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2123:28 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2142:28 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/576:10 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/35:24
+> CONTEXT: Scripts/★Scene_Title （$data改変）/311:17
+> CONTEXT: Scripts/RPG::Class（習得スキル）/90:24
+> CONTEXT: Scripts/RPG::Class（習得スキル）/118:50
+> CONTEXT: Scripts/Game_Enemy (設定用)/48:22
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/124:17
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1191:17
+> CONTEXT: Scripts/BattlePop_Hold/143:12
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/117:10
+> CONTEXT: Scripts/RPG::Skilltext/100:24
+> CONTEXT: Scripts/RPG::Skilltext/286:30
+> CONTEXT: Scripts/RPG::Skilltext/672:28
+> CONTEXT: Scripts/RPG::Skilltext/823:14
+> CONTEXT: Scripts/RPG::Skilltext/898:14
+> CONTEXT: Scripts/RPG::Skilltext/2123:28
+> CONTEXT: Scripts/RPG::Skilltext/2142:28
+> CONTEXT: Scripts/Talk_Sys Base/576:10
+"Succubus"
 > END STRING
 
 > BEGIN STRING
 "サキュバスロード"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/35:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/59:51 < UNTRANSLATED
-> CONTEXT: Scripts/★Scene_Title （$data改変）/312:17 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/90:32 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/48:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/155:17 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/133:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/106:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/901:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/573:10 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/35:32
+> CONTEXT: Scripts/RPG::Class（ボーナス）/59:51
+> CONTEXT: Scripts/★Scene_Title （$data改変）/312:17
+> CONTEXT: Scripts/RPG::Class（習得スキル）/90:32
+> CONTEXT: Scripts/Game_Enemy (設定用)/48:30
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/155:17
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/133:10
+> CONTEXT: Scripts/RPG::Skilltext/106:32
+> CONTEXT: Scripts/RPG::Skilltext/901:14
+> CONTEXT: Scripts/Talk_Sys Base/573:10
+"Succubus Lord"
 > END STRING
 
 > BEGIN STRING
 "インプ"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/66:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/82:55 < UNTRANSLATED
-> CONTEXT: Scripts/★Scene_Title （$data改変）/313:17 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/122:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/132:50 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/55:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/190:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/73:29 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/150:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/102:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/120:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/180:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/189:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/212:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/221:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/257:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/266:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/288:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/306:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/315:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/674:16 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/825:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/904:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2125:16 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2144:16 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Load/205:19 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Load/209:19 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Actor（再定義）/344:9 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/66:12
+> CONTEXT: Scripts/RPG::Class（ボーナス）/82:55
+> CONTEXT: Scripts/★Scene_Title （$data改変）/313:17
+> CONTEXT: Scripts/RPG::Class（習得スキル）/122:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/132:50
+> CONTEXT: Scripts/Game_Enemy (設定用)/55:10
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/190:17
+> CONTEXT: Scripts/Game_Battler 2/73:29
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/150:10
+> CONTEXT: Scripts/RPG::Skilltext/102:12
+> CONTEXT: Scripts/RPG::Skilltext/120:12
+> CONTEXT: Scripts/RPG::Skilltext/180:18
+> CONTEXT: Scripts/RPG::Skilltext/189:18
+> CONTEXT: Scripts/RPG::Skilltext/212:18
+> CONTEXT: Scripts/RPG::Skilltext/221:18
+> CONTEXT: Scripts/RPG::Skilltext/257:18
+> CONTEXT: Scripts/RPG::Skilltext/266:18
+> CONTEXT: Scripts/RPG::Skilltext/288:18
+> CONTEXT: Scripts/RPG::Skilltext/306:18
+> CONTEXT: Scripts/RPG::Skilltext/315:18
+> CONTEXT: Scripts/RPG::Skilltext/674:16
+> CONTEXT: Scripts/RPG::Skilltext/825:14
+> CONTEXT: Scripts/RPG::Skilltext/904:14
+> CONTEXT: Scripts/RPG::Skilltext/2125:16
+> CONTEXT: Scripts/RPG::Skilltext/2144:16
+> CONTEXT: Scripts/Scene_Load/205:19
+> CONTEXT: Scripts/Scene_Load/209:19
+> CONTEXT: Scripts/Game_Actor（再定義）/344:9
+"Imp"
 > END STRING
 
 > BEGIN STRING
 "デビル"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/66:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/68:50 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/84:55 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/86:51 < UNTRANSLATED
-> CONTEXT: Scripts/★Scene_Title （$data改変）/314:17 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/122:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/136:50 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/142:72 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/144:50 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/150:50 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/55:16 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/221:17 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/163:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/102:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/120:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/288:24 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/674:22 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/827:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/907:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2125:22 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2144:22 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Load/205:25 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Load/209:25 < UNTRANSLATED
-> CONTEXT: Scripts/SR_Util Files/243:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/66:18
+> CONTEXT: Scripts/RPG::Class（ボーナス）/68:50
+> CONTEXT: Scripts/RPG::Class（ボーナス）/84:55
+> CONTEXT: Scripts/RPG::Class（ボーナス）/86:51
+> CONTEXT: Scripts/★Scene_Title （$data改変）/314:17
+> CONTEXT: Scripts/RPG::Class（習得スキル）/122:18
+> CONTEXT: Scripts/RPG::Class（習得スキル）/136:50
+> CONTEXT: Scripts/RPG::Class（習得スキル）/142:72
+> CONTEXT: Scripts/RPG::Class（習得スキル）/144:50
+> CONTEXT: Scripts/RPG::Class（習得スキル）/150:50
+> CONTEXT: Scripts/Game_Enemy (設定用)/55:16
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/221:17
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/163:10
+> CONTEXT: Scripts/RPG::Skilltext/102:18
+> CONTEXT: Scripts/RPG::Skilltext/120:18
+> CONTEXT: Scripts/RPG::Skilltext/288:24
+> CONTEXT: Scripts/RPG::Skilltext/674:22
+> CONTEXT: Scripts/RPG::Skilltext/827:14
+> CONTEXT: Scripts/RPG::Skilltext/907:14
+> CONTEXT: Scripts/RPG::Skilltext/2125:22
+> CONTEXT: Scripts/RPG::Skilltext/2144:22
+> CONTEXT: Scripts/Scene_Load/205:25
+> CONTEXT: Scripts/Scene_Load/209:25
+> CONTEXT: Scripts/SR_Util Files/243:30
+"Devil"
 > END STRING
 
 > BEGIN STRING
 "デーモン"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/66:24 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/68:72 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/84:77 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/86:73 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/92:51 < UNTRANSLATED
-> CONTEXT: Scripts/★Scene_Title （$data改変）/315:17 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/122:24 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/136:72 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/142:94 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/144:72 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/55:22 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/252:17 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/176:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/120:24 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/910:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/576:18 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Load/205:31 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Load/209:31 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/66:24
+> CONTEXT: Scripts/RPG::Class（ボーナス）/68:72
+> CONTEXT: Scripts/RPG::Class（ボーナス）/84:77
+> CONTEXT: Scripts/RPG::Class（ボーナス）/86:73
+> CONTEXT: Scripts/RPG::Class（ボーナス）/92:51
+> CONTEXT: Scripts/★Scene_Title （$data改変）/315:17
+> CONTEXT: Scripts/RPG::Class（習得スキル）/122:24
+> CONTEXT: Scripts/RPG::Class（習得スキル）/136:72
+> CONTEXT: Scripts/RPG::Class（習得スキル）/142:94
+> CONTEXT: Scripts/RPG::Class（習得スキル）/144:72
+> CONTEXT: Scripts/Game_Enemy (設定用)/55:22
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/252:17
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/176:10
+> CONTEXT: Scripts/RPG::Skilltext/120:24
+> CONTEXT: Scripts/RPG::Skilltext/910:14
+> CONTEXT: Scripts/Talk_Sys Base/576:18
+> CONTEXT: Scripts/Scene_Load/205:31
+> CONTEXT: Scripts/Scene_Load/209:31
+"Demon"
 > END STRING
 
 > BEGIN STRING
@@ -1216,65 +1214,65 @@
 
 > BEGIN STRING
 "プチウィッチ"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/98:12 < UNTRANSLATED
-> CONTEXT: Scripts/★Scene_Title （$data改変）/316:17 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/158:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/178:50 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/62:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/287:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/43:10 < UNTRANSLATED
-> CONTEXT: Scripts/BattlePop_Hold/145:12 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/192:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/182:26 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/191:26 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/214:26 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/223:26 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/259:26 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/268:26 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/284:33 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/308:26 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/317:26 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/670:31 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/836:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/930:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2121:31 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2140:31 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/579:10 < UNTRANSLATED
-> CONTEXT: Map274/events/2/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map274/events/2/pages/0/249/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map274/events/2/pages/0/280/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/98:12
+> CONTEXT: Scripts/★Scene_Title （$data改変）/316:17
+> CONTEXT: Scripts/RPG::Class（習得スキル）/158:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/178:50
+> CONTEXT: Scripts/Game_Enemy (設定用)/62:10
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/287:17
+> CONTEXT: Scripts/Game_Battler 2/43:10
+> CONTEXT: Scripts/BattlePop_Hold/145:12
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/192:10
+> CONTEXT: Scripts/RPG::Skilltext/182:26
+> CONTEXT: Scripts/RPG::Skilltext/191:26
+> CONTEXT: Scripts/RPG::Skilltext/214:26
+> CONTEXT: Scripts/RPG::Skilltext/223:26
+> CONTEXT: Scripts/RPG::Skilltext/259:26
+> CONTEXT: Scripts/RPG::Skilltext/268:26
+> CONTEXT: Scripts/RPG::Skilltext/284:33
+> CONTEXT: Scripts/RPG::Skilltext/308:26
+> CONTEXT: Scripts/RPG::Skilltext/317:26
+> CONTEXT: Scripts/RPG::Skilltext/670:31
+> CONTEXT: Scripts/RPG::Skilltext/836:14
+> CONTEXT: Scripts/RPG::Skilltext/930:14
+> CONTEXT: Scripts/RPG::Skilltext/2121:31
+> CONTEXT: Scripts/RPG::Skilltext/2140:31
+> CONTEXT: Scripts/Talk_Sys Base/579:10
+> CONTEXT: Map274/events/2/pages/0/0/InlineScript/1:22
+> CONTEXT: Map274/events/2/pages/0/249/InlineScript/1:22
+> CONTEXT: Map274/events/2/pages/0/280/InlineScript/1:22
+"Petite Witch"
 > END STRING
 
 > BEGIN STRING
 "ウィッチ"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/98:22 < UNTRANSLATED
-> CONTEXT: Scripts/★Scene_Title （$data改変）/317:17 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/158:21 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/62:19 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/317:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/43:19 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/207:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/284:42 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/670:40 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/838:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/933:14 < UNTRANSLATED
-> CONTEXT: Map429/events/2/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map429/events/2/pages/0/6/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map429/events/2/pages/0/26/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map429/events/3/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2121:40 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2140:40 < UNTRANSLATED
-> CONTEXT: Map429/events/3/pages/0/6/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map429/events/3/pages/0/28/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/576:25 < UNTRANSLATED
-> CONTEXT: Map274/events/1/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map274/events/1/pages/0/6/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map274/events/1/pages/0/25/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map010/events/6/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map010/events/6/pages/0/6/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map010/events/6/pages/0/25/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/98:22
+> CONTEXT: Scripts/★Scene_Title （$data改変）/317:17
+> CONTEXT: Scripts/RPG::Class（習得スキル）/158:21
+> CONTEXT: Scripts/Game_Enemy (設定用)/62:19
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/317:17
+> CONTEXT: Scripts/Game_Battler 2/43:19
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/207:10
+> CONTEXT: Scripts/RPG::Skilltext/284:42
+> CONTEXT: Scripts/RPG::Skilltext/670:40
+> CONTEXT: Scripts/RPG::Skilltext/838:14
+> CONTEXT: Scripts/RPG::Skilltext/933:14
+> CONTEXT: Map429/events/2/pages/0/0/InlineScript/1:22
+> CONTEXT: Map429/events/2/pages/0/6/InlineScript/1:22
+> CONTEXT: Map429/events/2/pages/0/26/InlineScript/1:22
+> CONTEXT: Map429/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Scripts/RPG::Skilltext/2121:40
+> CONTEXT: Scripts/RPG::Skilltext/2140:40
+> CONTEXT: Map429/events/3/pages/0/6/InlineScript/1:22
+> CONTEXT: Map429/events/3/pages/0/28/InlineScript/1:22
+> CONTEXT: Scripts/Talk_Sys Base/576:25
+> CONTEXT: Map274/events/1/pages/0/0/InlineScript/1:22
+> CONTEXT: Map274/events/1/pages/0/6/InlineScript/1:22
+> CONTEXT: Map274/events/1/pages/0/25/InlineScript/1:22
+> CONTEXT: Map010/events/6/pages/0/0/InlineScript/1:22
+> CONTEXT: Map010/events/6/pages/0/6/InlineScript/1:22
+> CONTEXT: Map010/events/6/pages/0/25/InlineScript/1:22
+"Witch"
 > END STRING
 
 > BEGIN STRING
@@ -1293,169 +1291,168 @@
 "キャスト"
 > CONTEXT: Map425/events/3/pages/0/78/InlineScript/1:22
 > CONTEXT: Map425/events/3/pages/0/13/InlineScript/1:22
+> CONTEXT: Scripts/RPG::Class（ボーナス）/134:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/202:12
+> CONTEXT: Scripts/Game_Enemy (設定用)/69:10
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/351:17
+> CONTEXT: Scripts/Game_Battler 2/43:26
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/225:10
+> CONTEXT: Scripts/RPG::Skilltext/182:18
+> CONTEXT: Scripts/RPG::Skilltext/191:18
+> CONTEXT: Scripts/RPG::Skilltext/214:18
+> CONTEXT: Scripts/RPG::Skilltext/223:18
+> CONTEXT: Scripts/RPG::Skilltext/259:18
+> CONTEXT: Scripts/RPG::Skilltext/268:18
+> CONTEXT: Scripts/RPG::Skilltext/284:18
+> CONTEXT: Scripts/RPG::Skilltext/308:18
+> CONTEXT: Scripts/RPG::Skilltext/317:18
+> CONTEXT: Scripts/RPG::Skilltext/670:16
+> CONTEXT: Scripts/RPG::Skilltext/833:14
+> CONTEXT: Scripts/RPG::Skilltext/922:14
+> CONTEXT: Scripts/RPG::Skilltext/2121:16
+> CONTEXT: Scripts/RPG::Skilltext/2140:16
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/69:103
 "Cast"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/134:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/202:12 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/69:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/351:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/43:26 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/225:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/182:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/191:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/214:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/223:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/259:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/268:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/284:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/308:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/317:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/670:16 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/833:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/922:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2121:16 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2140:16 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/69:103 < UNTRANSLATED
-
 > END STRING
 
 > BEGIN STRING
 "スレイヴ"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/156:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/230:12 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/77:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/388:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/43:33 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/246:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/182:43 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/191:43 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/214:43 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/223:43 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/259:43 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/268:43 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/308:43 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/317:43 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/926:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/570:28 < UNTRANSLATED
-> CONTEXT: Map006/events/9/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map006/events/10/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/156:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/230:12
+> CONTEXT: Scripts/Game_Enemy (設定用)/77:10
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/388:17
+> CONTEXT: Scripts/Game_Battler 2/43:33
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/246:10
+> CONTEXT: Scripts/RPG::Skilltext/182:43
+> CONTEXT: Scripts/RPG::Skilltext/191:43
+> CONTEXT: Scripts/RPG::Skilltext/214:43
+> CONTEXT: Scripts/RPG::Skilltext/223:43
+> CONTEXT: Scripts/RPG::Skilltext/259:43
+> CONTEXT: Scripts/RPG::Skilltext/268:43
+> CONTEXT: Scripts/RPG::Skilltext/308:43
+> CONTEXT: Scripts/RPG::Skilltext/317:43
+> CONTEXT: Scripts/RPG::Skilltext/926:14
+> CONTEXT: Scripts/Talk_Sys Base/570:28
+> CONTEXT: Map006/events/9/pages/0/0/InlineScript/1:22
+> CONTEXT: Map006/events/10/pages/0/0/InlineScript/1:22
+"Slave"
 > END STRING
 
 > BEGIN STRING
 "ナイトメア"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/166:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/252:12 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/83:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/418:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/1053:10 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/261:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/122:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/292:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/678:16 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/710:16 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/831:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/919:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2129:16 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2148:16 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/573:34 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/166:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/252:12
+> CONTEXT: Scripts/Game_Enemy (設定用)/83:10
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/418:17
+> CONTEXT: Scripts/Game_Battler 1/1053:10
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/261:10
+> CONTEXT: Scripts/RPG::Skilltext/122:12
+> CONTEXT: Scripts/RPG::Skilltext/292:18
+> CONTEXT: Scripts/RPG::Skilltext/678:16
+> CONTEXT: Scripts/RPG::Skilltext/710:16
+> CONTEXT: Scripts/RPG::Skilltext/831:14
+> CONTEXT: Scripts/RPG::Skilltext/919:14
+> CONTEXT: Scripts/RPG::Skilltext/2129:16
+> CONTEXT: Scripts/RPG::Skilltext/2148:16
+> CONTEXT: Scripts/Talk_Sys Base/573:34
+"Nightmare"
 > END STRING
 
 > BEGIN STRING
 "スライム"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/188:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/196:51 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/198:56 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/204:51 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/208:51 < UNTRANSLATED
-> CONTEXT: Scripts/★Scene_Title （$data改変）/320:17 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/286:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/304:50 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/318:50 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/320:50 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/90:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/452:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/54:10 < UNTRANSLATED
-> CONTEXT: Scripts/BattlePop_Hold/147:12 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/279:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/126:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/290:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/523:47 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/676:16 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/708:16 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/829:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/913:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2127:16 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2146:16 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2686:47 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/570:10 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/188:12
+> CONTEXT: Scripts/RPG::Class（ボーナス）/196:51
+> CONTEXT: Scripts/RPG::Class（ボーナス）/198:56
+> CONTEXT: Scripts/RPG::Class（ボーナス）/204:51
+> CONTEXT: Scripts/RPG::Class（ボーナス）/208:51
+> CONTEXT: Scripts/★Scene_Title （$data改変）/320:17
+> CONTEXT: Scripts/RPG::Class（習得スキル）/286:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/304:50
+> CONTEXT: Scripts/RPG::Class（習得スキル）/318:50
+> CONTEXT: Scripts/RPG::Class（習得スキル）/320:50
+> CONTEXT: Scripts/Game_Enemy (設定用)/90:10
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/452:17
+> CONTEXT: Scripts/Game_Battler 2/54:10
+> CONTEXT: Scripts/BattlePop_Hold/147:12
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/279:10
+> CONTEXT: Scripts/RPG::Skilltext/126:12
+> CONTEXT: Scripts/RPG::Skilltext/290:18
+> CONTEXT: Scripts/RPG::Skilltext/523:47
+> CONTEXT: Scripts/RPG::Skilltext/676:16
+> CONTEXT: Scripts/RPG::Skilltext/708:16
+> CONTEXT: Scripts/RPG::Skilltext/829:14
+> CONTEXT: Scripts/RPG::Skilltext/913:14
+> CONTEXT: Scripts/RPG::Skilltext/2127:16
+> CONTEXT: Scripts/RPG::Skilltext/2146:16
+> CONTEXT: Scripts/RPG::Skilltext/2686:47
+> CONTEXT: Scripts/Talk_Sys Base/570:10
+"Slime"
 > END STRING
 
 > BEGIN STRING
 "クイーンスライム"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/188:19 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/196:74 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/198:79 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/204:74 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/208:74 < UNTRANSLATED
-> CONTEXT: Scripts/★Scene_Title （$data改変）/321:17 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/286:19 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/304:73 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/318:73 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/90:17 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/477:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/54:28 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/294:10 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/188:19
+> CONTEXT: Scripts/RPG::Class（ボーナス）/196:74
+> CONTEXT: Scripts/RPG::Class（ボーナス）/198:79
+> CONTEXT: Scripts/RPG::Class（ボーナス）/204:74
+> CONTEXT: Scripts/RPG::Class（ボーナス）/208:74
+> CONTEXT: Scripts/★Scene_Title （$data改変）/321:17
+> CONTEXT: Scripts/RPG::Class（習得スキル）/286:19
+> CONTEXT: Scripts/RPG::Class（習得スキル）/304:73
+> CONTEXT: Scripts/RPG::Class（習得スキル）/318:73
+> CONTEXT: Scripts/Game_Enemy (設定用)/90:17
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/477:17
+> CONTEXT: Scripts/Game_Battler 2/54:28
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/294:10
+"Queen Slime"
 > END STRING
 
 > BEGIN STRING
 "ゴールドスライム"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/188:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/190:50 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/200:51 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/286:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/292:49 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/294:49 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/96:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/506:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/54:17 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/307:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/126:20 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/916:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/570:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/188:30
+> CONTEXT: Scripts/RPG::Class（ボーナス）/190:50
+> CONTEXT: Scripts/RPG::Class（ボーナス）/200:51
+> CONTEXT: Scripts/RPG::Class（習得スキル）/286:30
+> CONTEXT: Scripts/RPG::Class（習得スキル）/292:49
+> CONTEXT: Scripts/RPG::Class（習得スキル）/294:49
+> CONTEXT: Scripts/Game_Enemy (設定用)/96:10
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/506:17
+> CONTEXT: Scripts/Game_Battler 2/54:17
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/307:10
+> CONTEXT: Scripts/RPG::Skilltext/126:20
+> CONTEXT: Scripts/RPG::Skilltext/916:14
+> CONTEXT: Scripts/Talk_Sys Base/570:17
+"Gold Slime"
 > END STRING
 
 > BEGIN STRING
 "ファミリア"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/218:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/324:12 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/102:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/536:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/67:53 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/323:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/108:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/180:25 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/189:25 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/212:25 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/221:25 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/257:25 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/266:25 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/284:25 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/306:25 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/315:25 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/670:23 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/840:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/936:14 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2121:23 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/2140:23 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/570:35 < UNTRANSLATED
-> CONTEXT: Map044/events/8/pages/2/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map044/events/8/pages/2/9/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map044/events/8/pages/2/17/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/218:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/324:12
+> CONTEXT: Scripts/Game_Enemy (設定用)/102:10
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/536:17
+> CONTEXT: Scripts/Game_Battler 2/67:53
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/323:10
+> CONTEXT: Scripts/RPG::Skilltext/108:12
+> CONTEXT: Scripts/RPG::Skilltext/180:25
+> CONTEXT: Scripts/RPG::Skilltext/189:25
+> CONTEXT: Scripts/RPG::Skilltext/212:25
+> CONTEXT: Scripts/RPG::Skilltext/221:25
+> CONTEXT: Scripts/RPG::Skilltext/257:25
+> CONTEXT: Scripts/RPG::Skilltext/266:25
+> CONTEXT: Scripts/RPG::Skilltext/284:25
+> CONTEXT: Scripts/RPG::Skilltext/306:25
+> CONTEXT: Scripts/RPG::Skilltext/315:25
+> CONTEXT: Scripts/RPG::Skilltext/670:23
+> CONTEXT: Scripts/RPG::Skilltext/840:14
+> CONTEXT: Scripts/RPG::Skilltext/936:14
+> CONTEXT: Scripts/RPG::Skilltext/2121:23
+> CONTEXT: Scripts/RPG::Skilltext/2140:23
+> CONTEXT: Scripts/Talk_Sys Base/570:35
+> CONTEXT: Map044/events/8/pages/2/0/InlineScript/1:22
+> CONTEXT: Map044/events/8/pages/2/9/InlineScript/1:22
+> CONTEXT: Map044/events/8/pages/2/17/InlineScript/1:22
+"Familiar"
 > END STRING
 
 > BEGIN STRING
@@ -1485,30 +1482,28 @@
 > BEGIN STRING
 "ワーウルフ"
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/572:17
+> CONTEXT: Scripts/RPG::Class（ボーナス）/238:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/368:12
+> CONTEXT: Scripts/Game_Enemy (設定用)/109:10
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/338:10
+> CONTEXT: Scripts/RPG::Skilltext/104:21
+> CONTEXT: Scripts/RPG::Skilltext/124:12
+> CONTEXT: Scripts/RPG::Skilltext/940:14
+> CONTEXT: Scripts/Talk_Sys Base/582:10
 "Werewolf"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/238:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/368:12 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/109:10 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/338:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/104:21 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/124:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/940:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/582:10 < UNTRANSLATED
-
 > END STRING
 
 > BEGIN STRING
 "ワーキャット"
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/607:17
+> CONTEXT: Scripts/RPG::Class（ボーナス）/260:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/400:12
+> CONTEXT: Scripts/Game_Enemy (設定用)/116:10
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/353:10
+> CONTEXT: Scripts/RPG::Skilltext/104:12
+> CONTEXT: Scripts/RPG::Skilltext/124:21
+> CONTEXT: Scripts/RPG::Skilltext/943:14
 "Werecat"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/260:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/400:12 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/116:10 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/353:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/104:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/124:21 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/943:14 < UNTRANSLATED
-
 > END STRING
 
 > BEGIN STRING
@@ -1553,182 +1548,180 @@
 > CONTEXT: Map150/events/65/pages/0/0/InlineScript/1:22
 > CONTEXT: Map150/events/72/pages/0/0/InlineScript/1:22
 > CONTEXT: Map150/events/73/pages/0/0/InlineScript/1:22
+> CONTEXT: Scripts/RPG::Class（ボーナス）/280:12
+> CONTEXT: Scripts/★Scene_Title （$data改変）/318:17
+> CONTEXT: Scripts/RPG::Class（習得スキル）/430:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/432:48
+> CONTEXT: Scripts/RPG::Class（習得スキル）/450:50
+> CONTEXT: Scripts/Game_Enemy (設定用)/123:10
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/642:17
+> CONTEXT: Scripts/Game_Battler 2/73:10
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/368:10
+> CONTEXT: Scripts/RPG::Skilltext/120:32
+> CONTEXT: Scripts/RPG::Skilltext/180:34
+> CONTEXT: Scripts/RPG::Skilltext/189:34
+> CONTEXT: Scripts/RPG::Skilltext/212:34
+> CONTEXT: Scripts/RPG::Skilltext/221:34
+> CONTEXT: Scripts/RPG::Skilltext/257:34
+> CONTEXT: Scripts/RPG::Skilltext/266:34
+> CONTEXT: Scripts/RPG::Skilltext/306:34
+> CONTEXT: Scripts/RPG::Skilltext/315:34
+> CONTEXT: Scripts/RPG::Skilltext/946:14
+> CONTEXT: Scripts/Talk_Sys Base/579:19
+> CONTEXT: Scripts/Game_Actor（再定義）/344:15
 "Goblin"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/280:12 < UNTRANSLATED
-> CONTEXT: Scripts/★Scene_Title （$data改変）/318:17 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/430:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/432:48 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/450:50 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/123:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/642:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/73:10 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/368:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/120:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/180:34 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/189:34 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/212:34 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/221:34 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/257:34 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/266:34 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/306:34 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/315:34 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/946:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/579:19 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Actor（再定義）/344:15 < UNTRANSLATED
-
 > END STRING
 
 > BEGIN STRING
 "ギャングコマンダー"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/280:19 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/286:51 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/288:52 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（ボーナス）/290:56 < UNTRANSLATED
-> CONTEXT: Scripts/★Scene_Title （$data改変）/319:17 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/430:19 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/434:48 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/452:50 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/454:50 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/456:50 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/123:18 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/667:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/73:17 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/381:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/120:40 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/180:42 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/189:42 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/212:42 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/221:42 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/257:42 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/266:42 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/306:42 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/315:42 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/949:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/280:19
+> CONTEXT: Scripts/RPG::Class（ボーナス）/286:51
+> CONTEXT: Scripts/RPG::Class（ボーナス）/288:52
+> CONTEXT: Scripts/RPG::Class（ボーナス）/290:56
+> CONTEXT: Scripts/★Scene_Title （$data改変）/319:17
+> CONTEXT: Scripts/RPG::Class（習得スキル）/430:19
+> CONTEXT: Scripts/RPG::Class（習得スキル）/434:48
+> CONTEXT: Scripts/RPG::Class（習得スキル）/452:50
+> CONTEXT: Scripts/RPG::Class（習得スキル）/454:50
+> CONTEXT: Scripts/RPG::Class（習得スキル）/456:50
+> CONTEXT: Scripts/Game_Enemy (設定用)/123:18
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/667:17
+> CONTEXT: Scripts/Game_Battler 2/73:17
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/381:10
+> CONTEXT: Scripts/RPG::Skilltext/120:40
+> CONTEXT: Scripts/RPG::Skilltext/180:42
+> CONTEXT: Scripts/RPG::Skilltext/189:42
+> CONTEXT: Scripts/RPG::Skilltext/212:42
+> CONTEXT: Scripts/RPG::Skilltext/221:42
+> CONTEXT: Scripts/RPG::Skilltext/257:42
+> CONTEXT: Scripts/RPG::Skilltext/266:42
+> CONTEXT: Scripts/RPG::Skilltext/306:42
+> CONTEXT: Scripts/RPG::Skilltext/315:42
+> CONTEXT: Scripts/RPG::Skilltext/949:14
+"Gang Commander"
 > END STRING
 
 > BEGIN STRING
 "プリーステス"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/308:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/464:12 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/129:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/697:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/45:10 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/396:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/952:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/585:10 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/308:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/464:12
+> CONTEXT: Scripts/Game_Enemy (設定用)/129:10
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/697:17
+> CONTEXT: Scripts/Game_Battler 2/45:10
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/396:10
+> CONTEXT: Scripts/RPG::Skilltext/952:14
+> CONTEXT: Scripts/Talk_Sys Base/585:10
+"Priestess"
 > END STRING
 
 > BEGIN STRING
 "カースメイガス"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/328:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/498:12 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/135:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/727:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/45:19 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/411:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/956:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/582:18 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/328:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/498:12
+> CONTEXT: Scripts/Game_Enemy (設定用)/135:10
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/727:17
+> CONTEXT: Scripts/Game_Battler 2/45:19
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/411:10
+> CONTEXT: Scripts/RPG::Skilltext/956:14
+> CONTEXT: Scripts/Talk_Sys Base/582:18
+"Curse Magus"
 > END STRING
 
 > BEGIN STRING
 "アルラウネ"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/348:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/530:12 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/141:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/757:17 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/426:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/959:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/576:32 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/348:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/530:12
+> CONTEXT: Scripts/Game_Enemy (設定用)/141:10
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/757:17
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/426:10
+> CONTEXT: Scripts/RPG::Skilltext/959:14
+> CONTEXT: Scripts/Talk_Sys Base/576:32
+"Alraune"
 > END STRING
 
 > BEGIN STRING
 "マタンゴ"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/364:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/570:12 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/148:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/791:17 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/441:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/962:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/364:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/570:12
+> CONTEXT: Scripts/Game_Enemy (設定用)/148:10
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/791:17
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/441:10
+> CONTEXT: Scripts/RPG::Skilltext/962:14
+"Matango"
 > END STRING
 
 > BEGIN STRING
 "ダークエンジェル"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/382:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/598:12 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/154:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/821:17 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/458:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/966:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/382:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/598:12
+> CONTEXT: Scripts/Game_Enemy (設定用)/154:10
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/821:17
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/458:10
+> CONTEXT: Scripts/RPG::Skilltext/966:14
+"Dark Angel"
 > END STRING
 
 > BEGIN STRING
 "ガーゴイル"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/402:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/630:12 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/160:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/851:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/62:53 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/474:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/110:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/128:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/969:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/579:26 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/402:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/630:12
+> CONTEXT: Scripts/Game_Enemy (設定用)/160:10
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/851:17
+> CONTEXT: Scripts/Game_Battler 2/62:53
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/474:10
+> CONTEXT: Scripts/RPG::Skilltext/110:12
+> CONTEXT: Scripts/RPG::Skilltext/128:12
+> CONTEXT: Scripts/RPG::Skilltext/969:14
+> CONTEXT: Scripts/Talk_Sys Base/579:26
+"Gargoyle"
 > END STRING
 
 > BEGIN STRING
 "ミミック"
 > CONTEXT: Map406/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Scripts/RPG::Class（ボーナス）/418:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/654:12
+> CONTEXT: Scripts/Game_Enemy (設定用)/166:10
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/882:17
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/488:10
+> CONTEXT: Scripts/RPG::Skilltext/972:14
+> CONTEXT: Scripts/Talk_Sys Base/573:27
 "Mimic"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/418:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/654:12 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/166:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/882:17 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/488:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/972:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/573:27 < UNTRANSLATED
-
 > END STRING
 
 > BEGIN STRING
 "タマモ"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/434:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/692:12 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/173:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/916:17 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/504:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/104:29 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/124:31 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/975:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/573:21 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/434:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/692:12
+> CONTEXT: Scripts/Game_Enemy (設定用)/173:10
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/916:17
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/504:10
+> CONTEXT: Scripts/RPG::Skilltext/104:29
+> CONTEXT: Scripts/RPG::Skilltext/124:31
+> CONTEXT: Scripts/RPG::Skilltext/975:14
+> CONTEXT: Scripts/Talk_Sys Base/573:21
+"Tamamo"
 > END STRING
 
 > BEGIN STRING
 "リリム"
-> CONTEXT: Scripts/RPG::Class（ボーナス）/452:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Class（習得スキル）/720:12 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Enemy (設定用)/179:10 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/947:17 < UNTRANSLATED
-> CONTEXT: Scripts/Window_NameEdit（ランダム名）/522:10 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Actor（戦闘中スキル）/126:43 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/182:36 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/191:36 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/214:36 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/223:36 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/259:36 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/268:36 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/308:36 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/317:36 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/978:14 < UNTRANSLATED
-> CONTEXT: Scripts/口上メソッド（基本）(2)/3333:10 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Class（ボーナス）/452:12
+> CONTEXT: Scripts/RPG::Class（習得スキル）/720:12
+> CONTEXT: Scripts/Game_Enemy (設定用)/179:10
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/947:17
+> CONTEXT: Scripts/Window_NameEdit（ランダム名）/522:10
+> CONTEXT: Scripts/Game_Actor（戦闘中スキル）/126:43
+> CONTEXT: Scripts/RPG::Skilltext/182:36
+> CONTEXT: Scripts/RPG::Skilltext/191:36
+> CONTEXT: Scripts/RPG::Skilltext/214:36
+> CONTEXT: Scripts/RPG::Skilltext/223:36
+> CONTEXT: Scripts/RPG::Skilltext/259:36
+> CONTEXT: Scripts/RPG::Skilltext/268:36
+> CONTEXT: Scripts/RPG::Skilltext/308:36
+> CONTEXT: Scripts/RPG::Skilltext/317:36
+> CONTEXT: Scripts/RPG::Skilltext/978:14
+> CONTEXT: Scripts/口上メソッド（基本）(2)/3333:10
+"Lilim"
 > END STRING
 
 > BEGIN STRING
@@ -5498,14 +5491,14 @@
 
 > BEGIN STRING
 "淫魔の体質"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/408:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/408:17
+"Devil's constitution"
 > END STRING
 
 > BEGIN STRING
 "欲情状態の時、ターンの終了時毎にＶＰが自動回復する。"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/409:24 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/409:24
+"VP automatically recovers at the end turn when in a lustful state."
 > END STRING
 
 > BEGIN STRING
@@ -5540,9 +5533,9 @@
 
 > BEGIN STRING
 "マゾスイッチ"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/418:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 4/667:49 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/418:17
+> CONTEXT: Scripts/Game_Battler 4/667:49
+"Maso Switch"
 > END STRING
 
 > BEGIN STRING
@@ -5553,9 +5546,9 @@
 
 > BEGIN STRING
 "エクスタシーボム"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/422:17 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 6/580:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/422:17
+> CONTEXT: Scripts/Scene_Battle 6/580:36
+"Ecstasy Bomb"
 > END STRING
 
 > BEGIN STRING
@@ -5566,40 +5559,40 @@
 
 > BEGIN STRING
 "封印の呪い"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/425:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/425:17
+"Sealing Curse"
 > END STRING
 
 > BEGIN STRING
 "快楽を受けるまで動けず、封印を解いてもしばらくすればまた封印される。"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/426:24 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/426:24
+"Cannot move until you receive pleasure, and even then, seal will apply again after a while."
 > END STRING
 
 > BEGIN STRING
 "ＥＰヒーリング"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/432:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Actor（再定義）/590:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/432:17
+> CONTEXT: Scripts/Game_Actor（再定義）/590:19
+"EP Healing"
 > END STRING
 
 > BEGIN STRING
 "戦闘勝利時にパーティ全員のＥＰを小回復する。"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/433:24 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/433:24
+"Recovers a small amount of EP for all party members upon victory in battle."
 > END STRING
 
 > BEGIN STRING
 "ＶＰヒーリング"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/435:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Actor（再定義）/593:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/435:17
+> CONTEXT: Scripts/Game_Actor（再定義）/593:19
+"VP Healing"
 > END STRING
 
 > BEGIN STRING
 "戦闘勝利時にパーティ全員のＶＰを小回復する。"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/436:24 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/436:24
+"Recovers a small amount of VP for all party members upon victory in battle."
 > END STRING
 
 > BEGIN STRING
@@ -5630,15 +5623,15 @@
 
 > BEGIN STRING
 "生命力"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/445:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Actor（再定義）/227:34 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/445:17
+> CONTEXT: Scripts/Game_Actor（再定義）/227:34
+"Vitality"
 > END STRING
 
 > BEGIN STRING
 "自動回復するＶＰ量が少し上がる。"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/446:24 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/446:24
+"Automatic VP recovery increases slightly."
 > END STRING
 
 > BEGIN STRING
@@ -5646,7 +5639,7 @@
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/448:17
 > CONTEXT: Map011/events/7/pages/0/3/InlineScript/1:18
 > CONTEXT: Scripts/Game_Actor（再定義）/545:37
-"Overflowing life"
+"Overflowing vitality"
 > END STRING
 
 > BEGIN STRING
@@ -5657,15 +5650,15 @@
 
 > BEGIN STRING
 "経験活用力"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/452:17 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Actor（再定義）/582:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/452:17
+> CONTEXT: Scripts/Game_Actor（再定義）/582:19
+"Learner"
 > END STRING
 
 > BEGIN STRING
 "戦闘終了時の取得経験値量が増える。"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/453:24 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/453:24
+"The amount of experience points gained at the end of a battle will increase."
 > END STRING
 
 > BEGIN STRING
@@ -5696,38 +5689,38 @@
 
 > BEGIN STRING
 "風音への利き耳"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/461:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/461:17
+"Sharp senses"
 > END STRING
 
 > BEGIN STRING
 "隠し通路などの近くにマーカーがぼんやりと現れる。"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/462:24 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/462:24
+"Markers will appear vaguely near hidden passages."
 > END STRING
 
 > BEGIN STRING
 "ダウジング"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/464:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/464:17
+"Dowsing"
 > END STRING
 
 > BEGIN STRING
 "マップ上で見えないアイテムの上を通るとマーカーが現れる。"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/465:24 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/465:24
+"A marker will appear when you pass over an item that is invisible on the map."
 > END STRING
 
 > BEGIN STRING
 "シールスタンプ"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/467:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/467:17
+"Seal stamp"
 > END STRING
 
 > BEGIN STRING
 "パーティが受けるダメージ床からの快感を軽減する。"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/468:24 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/468:24
+"Reduces the pleasure the party receives at minimum."
 > END STRING
 
 > BEGIN STRING
@@ -5823,14 +5816,14 @@
 
 > BEGIN STRING
 "非表示素質テスト"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/495:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/495:17
+"Hidden aptitude"
 > END STRING
 
 > BEGIN STRING
 "非表示素質テストです。hiddenが真の素質は表示されません"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/496:24 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/496:24
+"Hidden aptitude test. True hidden aptitudes will not be displayed."
 > END STRING
 
 > BEGIN STRING
@@ -6042,15 +6035,15 @@
 
 > BEGIN STRING
 "バインドマスタリー"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/564:17 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/38:42 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/564:17
+> CONTEXT: Scripts/Scene_Battle RandomAction/38:42
+"Bind Mastery"
 > END STRING
 
 > BEGIN STRING
 "拘束ホールドを強化する"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/565:24 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/565:24
+"Strengthen the restraint hold"
 > END STRING
 
 > BEGIN STRING
@@ -6064,8 +6057,8 @@
 
 > BEGIN STRING
 "この夢魔は料理ができない。"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/572:24 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/572:24
+"This succubus can't cook."
 > END STRING
 
 > BEGIN STRING
@@ -6185,7 +6178,7 @@
 > CONTEXT: Scripts/★Scene_Title （$data改変）/567:5
 > CONTEXT: Scripts/Game_Battler 3/293:12
 > CONTEXT: Scripts/RPG::Skilltext/155:12
-"Strip"
+"Undress"
 > END STRING
 
 > BEGIN STRING
@@ -6193,7 +6186,7 @@
 > CONTEXT: Scripts/★Scene_Title （$data改変）/568:5
 > CONTEXT: Scripts/Game_Battler 3/290:12
 > CONTEXT: Scripts/RPG::Skilltext/167:12
-"Undress"
+"Strip"
 > END STRING
 
 > BEGIN STRING
@@ -6486,9 +6479,9 @@
 
 > BEGIN STRING
 "衰弱"
-> CONTEXT: Scripts/Game_Battler Textmake/218:45 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler Textmake/222:45 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler Textmake/218:45
+> CONTEXT: Scripts/Game_Battler Textmake/222:45
+"Weak"
 > END STRING
 
 > BEGIN STRING
@@ -6707,7 +6700,7 @@
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/341:32
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1186:30
 > CONTEXT: Scripts/Window_Petname_Change/174:6
-"my friend"
+"you"
 > END STRING
 
 > BEGIN STRING
@@ -7228,7 +7221,7 @@
 "あなた"
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/841:32
 > CONTEXT: Scripts/Window_Petname_Change/171:6
-"dear"
+"Dear"
 > END STRING
 
 > BEGIN STRING
@@ -11384,9 +11377,9 @@
 > BEGIN STRING
 /./
 > CONTEXT: Scripts/Window_BattleLog/123:29
-/[wW]ith|m[a-z]m|[a-vA-Z ][mqw][ a-z\\!\\?\\.\\,\\:\\;\\-\\']|[a-pA-Pr-zR-Z ][my]|[yH][a-pA-Pr-zR-Z \\!\\?\\.\\,\\:\\;\\-\\']|./
+> CONTEXT: Scripts/Window_BattleBackLog/74:29
+/[wW]ith|m[a-z][a-z]|[a-vA-Z ][mqw][ a-z\\!\\?\\.\\,\\:\\;\\-\\']|[a-pA-Pr-zR-Z ][my]|[yH][a-pA-Pr-zR-Z \\!\\?\\.\\,\\:\\;\\-\\']|./
 > CONTEXT: Scripts/Window_Message/95:31 < UNTRANSLATED
-> CONTEXT: Scripts/Window_BattleBackLog/74:29 < UNTRANSLATED
 > CONTEXT: Scripts/メッセージ表示フルグレードアップX /790:30 < UNTRANSLATED
 > CONTEXT: Scripts/Window_Announce/165:37 < UNTRANSLATED
 > CONTEXT: Scripts/Window_Cook_Cooking/145:29 < UNTRANSLATED
@@ -14226,12 +14219,12 @@
 
 > BEGIN STRING
 "尻挿入：ペニス側"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/66:14
-> CONTEXT: Scripts/Scene_Battle PluralAttack/106:14
-> CONTEXT: Scripts/Scene_Battle RandomAction/280:14
-> CONTEXT: Scripts/Scene_Battle RandomAction/1207:23
-> CONTEXT: Scripts/Scene_Battle RandomAction/1395:27
-"Ass insertion: penis side"
+> CONTEXT: Scripts/Scene_Battle PluralAttack/66:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/106:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/280:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/1207:23 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/1395:27 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -14246,12 +14239,12 @@
 
 > BEGIN STRING
 "騎乗：アソコ側"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/68:14
-> CONTEXT: Scripts/Scene_Battle PluralAttack/112:14
-> CONTEXT: Scripts/Scene_Battle RandomAction/286:14
-> CONTEXT: Scripts/Scene_Battle RandomAction/1234:23
-> CONTEXT: Scripts/Scene_Battle RandomAction/1450:27
-"Riding: vagina side"
+> CONTEXT: Scripts/Scene_Battle PluralAttack/68:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/112:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/286:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/1234:23 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/1450:27 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -14395,11 +14388,11 @@
 
 > BEGIN STRING
 "♀挿入：ペニス側"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/100:14
-> CONTEXT: Scripts/Scene_Battle RandomAction/264:14
-> CONTEXT: Scripts/Scene_Battle RandomAction/1201:23
-> CONTEXT: Scripts/Scene_Battle RandomAction/1386:27
-"♀Insert: penis side"
+> CONTEXT: Scripts/Scene_Battle PluralAttack/100:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/264:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/1201:23 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/1386:27 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -14414,21 +14407,21 @@
 
 > BEGIN STRING
 "触手♀挿入"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/100:33
-> CONTEXT: Scripts/Scene_Battle Resist/126:24
-> CONTEXT: Scripts/Scene_Battle RandomAction/318:14
-> CONTEXT: Scripts/Scene_Battle RandomAction/1261:23
-> CONTEXT: Scripts/Scene_Battle RandomAction/1409:27
-"Tentacle♀insert"
+> CONTEXT: Scripts/Scene_Battle PluralAttack/100:33 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/126:24 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/318:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/1261:23 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/1409:27 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "口挿入：ペニス側"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/103:14
-> CONTEXT: Scripts/Scene_Battle RandomAction/272:14
-> CONTEXT: Scripts/Scene_Battle RandomAction/1204:23
-> CONTEXT: Scripts/Scene_Battle RandomAction/1389:27
-"Mouth insertion: penis side"
+> CONTEXT: Scripts/Scene_Battle PluralAttack/103:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/272:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/1204:23 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/1389:27 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -14454,32 +14447,32 @@
 
 > BEGIN STRING
 "背面拘束"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/115:14
-> CONTEXT: Scripts/Scene_Battle Resist/100:24
-> CONTEXT: Scripts/Scene_Battle RandomAction/300:14
-> CONTEXT: Scripts/Scene_Battle RandomAction/1244:23
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/330:14
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/671:14
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/889:14
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/928:12
-> CONTEXT: Scripts/Talk_Sys Talk/124:27
-> CONTEXT: Scripts/Talk_Sys Talk/472:31
-"Back restraint"
+> CONTEXT: Scripts/Scene_Battle PluralAttack/115:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle Resist/100:24 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/300:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/1244:23 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/330:14 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/671:14 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/889:14 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/928:12 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Talk/124:27 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Talk/472:31 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "開脚拘束"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/115:21
-> CONTEXT: Scripts/Scene_Battle RandomAction/302:14
-> CONTEXT: Scripts/Scene_Battle RandomAction/1247:23
-"Leg restraint"
+> CONTEXT: Scripts/Scene_Battle PluralAttack/115:21 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/302:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/1247:23 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "触手開脚拘束"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/115:35
-> CONTEXT: Scripts/Scene_Battle RandomAction/1273:23
-"Tentacle leg restraint"
+> CONTEXT: Scripts/Scene_Battle PluralAttack/115:35 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/1273:23 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -15150,56 +15143,56 @@
 
 > BEGIN STRING
 "♀挿入：♂側"
-> CONTEXT: Scripts/Scene_Battle Resist/84:24
-"♀In：♂"
+> CONTEXT: Scripts/Scene_Battle Resist/84:24 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "♀挿入：♀側"
-> CONTEXT: Scripts/Scene_Battle Resist/86:24
-"♀In：♀"
+> CONTEXT: Scripts/Scene_Battle Resist/86:24 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "口挿入：♂側"
-> CONTEXT: Scripts/Scene_Battle Resist/88:24
-"Mouth in：♂"
+> CONTEXT: Scripts/Scene_Battle Resist/88:24 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "Ａ挿入：♂側"
-> CONTEXT: Scripts/Scene_Battle Resist/92:24
-"ＡIn：♂"
+> CONTEXT: Scripts/Scene_Battle Resist/92:24 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "Ａ挿入：Ａ側"
-> CONTEXT: Scripts/Scene_Battle Resist/94:24
-"ＡIn：Ａ"
+> CONTEXT: Scripts/Scene_Battle Resist/94:24 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "尻尾Ａ挿入"
-> CONTEXT: Scripts/Scene_Battle Resist/118:24
-"TailＡIn"
+> CONTEXT: Scripts/Scene_Battle Resist/118:24 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "ディルドインディルド"
-> CONTEXT: Scripts/Scene_Battle Resist/121:12
-"Dildo in dildo"
+> CONTEXT: Scripts/Scene_Battle Resist/121:12 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "触手Ａ挿入"
-> CONTEXT: Scripts/Scene_Battle Resist/130:24
-"TentacleＡIn"
+> CONTEXT: Scripts/Scene_Battle Resist/130:24 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "汎用レジスト"
-> CONTEXT: Scripts/Scene_Battle Resist/167:18
-"General resist"
+> CONTEXT: Scripts/Scene_Battle Resist/167:18 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -16995,10 +16988,9 @@
 
 > BEGIN STRING
 "\\n\\m"
-> CONTEXT: Scripts/SR_Util spam/125:52
-> CONTEXT: Scripts/SR_Util spam/175:54
-> CONTEXT: Scripts/SR_Util spam/195:50
-"\\n​m​"
+> CONTEXT: Scripts/SR_Util spam/125:52 < UNTRANSLATED
+> CONTEXT: Scripts/SR_Util spam/175:54 < UNTRANSLATED
+> CONTEXT: Scripts/SR_Util spam/195:50 < UNTRANSLATED
 > CONTEXT: Scripts/Scene_Battle HoldEffect/533:10 < UNTRANSLATED
 > CONTEXT: Scripts/Scene_Battle HoldEffect/535:10 < UNTRANSLATED
 > CONTEXT: Scripts/Scene_Battle HoldEffect/537:10 < UNTRANSLATED
@@ -17569,8 +17561,8 @@
 
 > BEGIN STRING
 "\#{enemies_word}の鮮明さが弱まった！"
-> CONTEXT: Scripts/Incense_System/133:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/133:27
+"\#{enemies_word} is less vivid!"
 > END STRING
 
 > BEGIN STRING
@@ -17614,8 +17606,8 @@
 
 > BEGIN STRING
 "\#{field_word}から官能的な香りが薄れた！"
-> CONTEXT: Scripts/Incense_System/142:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/142:27
+"The sensual scent has faded from \#{field_word}!"
 > END STRING
 
 > BEGIN STRING
@@ -17840,7 +17832,7 @@
 > BEGIN STRING
 "\#{skill_name}の魔法を詠唱した！"
 > CONTEXT: Scripts/RPG::Skilltext/38:28
-" casted \#{skill_name}!"
+" cast \#{skill_name}!"
 > END STRING
 
 > BEGIN STRING
@@ -20475,9 +20467,9 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{targetname}の視線に気付き、\\n\\m一人納得したように微笑んだ……"
-> CONTEXT: Scripts/RPG::Skilltext/1129:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/1131:32 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1129:32
+> CONTEXT: Scripts/RPG::Skilltext/1131:32
+" noticed \#{targetname}'s gaze,\\n​m​and smiled understandingly..."
 > END STRING
 
 > BEGIN STRING
@@ -21643,18 +21635,18 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "騎乗：口側"
-> CONTEXT: Scripts/Scene_Battle RandomAction/288:14
-> CONTEXT: Scripts/Scene_Battle RandomAction/1214:23
-> CONTEXT: Scripts/Scene_Battle RandomAction/1432:27
-"Riding: mouth side"
+> CONTEXT: Scripts/Scene_Battle RandomAction/288:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/1214:23 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/1432:27 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 "尻騎乗：口側"
-> CONTEXT: Scripts/Scene_Battle RandomAction/292:14
-> CONTEXT: Scripts/Scene_Battle RandomAction/1217:23
-> CONTEXT: Scripts/Scene_Battle RandomAction/1435:27
-"Ass riding: Mouth side"
+> CONTEXT: Scripts/Scene_Battle RandomAction/292:14 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/1217:23 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/1435:27 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -21869,7 +21861,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "舌先で、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk3}舐め回してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/1549:30
-" licked \#{targetname}'s \#{target.bustsize} \#{brk3} with tip of tongue!"
+" licked \#{targetname}'s \\n​m​\#{target.bustsize} \#{brk3}with tip of tongue!"
 > END STRING
 
 > BEGIN STRING
@@ -22636,8 +22628,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "唇で、\\n\\m\#{targetname}の耳たぶを甘噛みしてきた！"
-> CONTEXT: Scripts/RPG::Skilltext/1926:30 < UNTRANSLATED
-
+> CONTEXT: Scripts/RPG::Skilltext/1926:30
+" bit \\n​m​\#{targetname}'s earlobe with lips!"
 > END STRING
 
 > BEGIN STRING
@@ -23859,7 +23851,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "もがく"
 > CONTEXT: Scripts/Scene_Battle 5/1315:14
-"Struggling"
+"Struggle"
 > END STRING
 
 > BEGIN STRING
@@ -24699,7 +24691,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{emotion}\\n\\m身動き取れない\#{targetname}のペニスを\\n舌先で舐め上げてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/2482:30
-" \#{emotion},\\n​m​licked \#{targetname}'s penis \\nwith the tip of tongue while he can't move!"
+" \#{emotion},\\n​m​licked \#{targetname}'s penis with\\nthe tip of tongue while he can't move!"
 > END STRING
 
 > BEGIN STRING
@@ -28013,11 +28005,10 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/857:19
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/877:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/916:19
-"with a bewitching smile"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/71:18
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/279:18
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/359:20
-"\\nwith a bewitching smile"
+"with a bewitching smile"
 > END STRING
 
 > BEGIN STRING
@@ -28149,7 +28140,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "蔑むような表情で"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/74:18
-"with a look of disdain."
+"with a look of disdain"
 > END STRING
 
 > BEGIN STRING
@@ -28515,7 +28506,7 @@ this succubus will no longer be at Home.
 "激しく腰を動かしてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/114:34
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/120:34
-" is moving hips hard!"
+"is moving hips hard!"
 > END STRING
 
 > BEGIN STRING
@@ -28523,7 +28514,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Map)/153:40
 > CONTEXT: Scripts/Talk_Sys Text(Map)/191:40
 > CONTEXT: Scripts/Talk_Sys Text(Map)/218:40
-" took penis in the mouth and caressed it!"
+"took penis in the mouth and caressed it!"
 > END STRING
 
 > BEGIN STRING
@@ -28535,23 +28526,23 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "アソコでペニスを愛撫してきた！"
-> CONTEXT: Scripts/Talk_Sys Text(Map)/153:75 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/191:75 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Map)/218:75 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Map)/153:75
+> CONTEXT: Scripts/Talk_Sys Text(Map)/191:75
+> CONTEXT: Scripts/Talk_Sys Text(Map)/218:75
+"caressed the penis with her pussy!"
 > END STRING
 
 > BEGIN STRING
 "艶かしく腰を振ってきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/114:82
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/120:81
-" shook hips seductively!"
+"shook hips seductively!"
 > END STRING
 
 > BEGIN STRING
 "\#{t_actor}のペニスを口内で舐め回した！"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/117:43
-" licked \#{t_actor}'s penis inside mouth!"
+"licked \#{t_actor}'s penis inside mouth!"
 > END STRING
 
 > BEGIN STRING
@@ -28662,7 +28653,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{t_actor}とアソコを密着させたまま、\\n腰をくねらせてアソコを刺激してきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/143:19
-"kept vaginas in close contact \\nwith \#{t_actor} and twisted hips!"
+"kept vaginas in close contact with\\n\#{t_actor} and twisted hips!"
 > END STRING
 
 > BEGIN STRING
@@ -29385,19 +29376,19 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "絶頂したばかりの\#{t_actor}のペニスを、\\nその\#{$msg.t_enemy.bustsize}で弄び続けている……！"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/307:17
-"continued to play with \#{t_actor}'s penis \\nwith \#{$msg.t_enemy.bustsize} after the climax...!"
+"continued to play with \#{t_actor}'s penis with\\n\#{$msg.t_enemy.bustsize} after the climax...!"
 > END STRING
 
 > BEGIN STRING
 "胸に放たれた精を舐め取ると、\\n続けて\#{$msg.t_enemy.bustsize}で挟み込んできた！"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/308:19
-"continued to squeeze more sperm \\nwith \#{$msg.t_enemy.bustsize} while licking it off!"
+"continued to squeeze more sperm with\\n\#{$msg.t_enemy.bustsize} while licking it off!"
 > END STRING
 
 > BEGIN STRING
 "絶頂したばかりの\#{t_actor}の顔を、\\nその\#{$msg.t_enemy.bustsize}で更に抱きしめてきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/311:17
-"hugged \#{t_actor}'s face \\nwith \#{$msg.t_enemy.bustsize} right after climax!"
+"hugged \#{t_actor}'s face with\\n\#{$msg.t_enemy.bustsize} right after climax!"
 > END STRING
 
 > BEGIN STRING
@@ -29513,13 +29504,13 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "から一際大きな嬌声が漏れる！"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/390:17
-"A particularly loud voice leaks out!"
+" leaks particularly loud voice!"
 > END STRING
 
 > BEGIN STRING
 "から言葉にならない嬌声が漏れる！"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/391:17
-"A voice that cannot be put into words leaks out!"
+" leaks a a voice that can't be put to words!"
 > END STRING
 
 > BEGIN STRING
@@ -30563,7 +30554,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "対象："
 > CONTEXT: Scripts/Talk_Sys Talk/354:23
-"Subject: "
+"Target: "
 > END STRING
 
 > BEGIN STRING
@@ -30701,8 +30692,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "【リリスの神性】"
-> CONTEXT: Scripts/SR_Util other/1028:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/SR_Util other/1028:27
+"【Lilith Divinity】"
 > END STRING
 
 > BEGIN STRING
@@ -30959,21 +30950,21 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{speaker}は\#{emotion}、\\m\\n自分の乳首を指でこね回している！"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/134:17 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/137:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/134:17
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/137:17
+"\#{speaker} is \#{emotion},​m​\\nkneading her own nipples with fingers!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は\#{emotion}、\\m\\n自分の\#{$msg.t_enemy.bustsize}を揉みしだいている！"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/136:17 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/136:17
+"\#{speaker}\#{emotion}, ​m​\\nmassaging her \#{$msg.t_enemy.bustsize}!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は\#{emotion}、\\m\\nアソコに指を抜き挿ししている！"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/141:15 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/141:15
+"\#{speaker}\#{emotion},​m​\\ninserting her finger in and out of her pussy!"
 > END STRING
 
 > BEGIN STRING
@@ -31121,14 +31112,14 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "きゅっと"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/218:32 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/218:32
+"tightened"
 > END STRING
 
 > BEGIN STRING
 "ぎゅっと"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/218:39 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/218:39
+"tightened"
 > END STRING
 
 > BEGIN STRING
@@ -31140,26 +31131,26 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "締め上げる"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/220:31 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/220:31
+""
 > END STRING
 
 > BEGIN STRING
 "絞り上げる"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/220:39 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/220:39
+""
 > END STRING
 
 > BEGIN STRING
 "菊門"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/227:20 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/227:20
+"anus"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}の\#{hole}が、\\m\\n\#{master}のペニスを\#{action}\#{move}！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/228:17
-"\#{speaker} \#{action} \#{hole},​m​\\non \#{master}'s penis \#{move}！"
+"\#{speaker}'s \#{hole}\#{action},​m​\\non \#{master}'s penis \#{move}！"
 > END STRING
 
 > BEGIN STRING
@@ -31170,8 +31161,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "に身体を預け"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/240:26 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/240:26
+"entrusted her body to"
 > END STRING
 
 > BEGIN STRING
@@ -31538,7 +31529,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/507:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/518:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/526:21
-"\#{speaker} is fondling \#{master}'s penis ​m​\\nwith \#{$msg.t_enemy.bustsize}!"
+"\#{speaker} is fondling \#{master}'s penis with​m​\\n\#{$msg.t_enemy.bustsize}!"
 > END STRING
 
 > BEGIN STRING
@@ -31557,7 +31548,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/510:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/521:21
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/529:21
-"\#{speaker} is squeezing \#{master}'s penis ​m​\\nwith \#{$msg.t_enemy.bustsize}!"
+"\#{speaker} is squeezing \#{master}'s penis with​m​\\n\#{$msg.t_enemy.bustsize}!"
 > END STRING
 
 > BEGIN STRING
@@ -31801,14 +31792,14 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "見せ付けるかのように"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/795:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/795:19
+"as if to show off"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は\#{emotion}、\\m\\n自分の\#{$msg.t_enemy.bustsize}に指を這わせた！"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/801:13 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/801:13
+"\#{speaker} \#{emotion},​m​\\nput fingers on \#{$msg.t_enemy.bustsize}！"
 > END STRING
 
 > BEGIN STRING
@@ -32207,7 +32198,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "……ちゅっ\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3163:13
-"...Wait\\\\H"
+"...chu\\\\H"
 > END STRING
 
 > BEGIN STRING
@@ -32219,7 +32210,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "ちゅっ……\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3165:13
-"Wait...\\\\H"
+"Chu...\\\\H"
 > END STRING
 
 > BEGIN STRING
@@ -32232,73 +32223,73 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "……んっ……ちゅっ……\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3168:13
-"...mm...wait...\\\\H"
+"...mm...chu...\\\\H"
 > END STRING
 
 > BEGIN STRING
 "……ちゅっ……れろ……\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3169:13
-"...Wait...rer\\\\H"
+"...Chu...rr\\\\H"
 > END STRING
 
 > BEGIN STRING
 "んっ……ちゅっ……\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3170:13
-"Mm...Wait...\\\\H"
+"Mm...chu...\\\\H"
 > END STRING
 
 > BEGIN STRING
 "ちゅっ……れろ……\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3171:13
-"Wait...rer...\\\\H"
+"Chu...rr...\\\\H"
 > END STRING
 
 > BEGIN STRING
 "……ちゅっ……ぷぁ……んっ\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3172:13
-"...Wait...puh...mh\\\\H"
+"...Chu...puh...mh\\\\H"
 > END STRING
 
 > BEGIN STRING
 "ちゅっ……ちゅくっ……んふ……っ\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3173:13
-"Wait...wait..."
+"Chu...chuk...mmm...\\\\H"
 > END STRING
 
 > BEGIN STRING
 "ちゅっ……んっ……ぷぁっ\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3174:13
-"Wait...m...puh\\\\H"
+"Chu...m...puh\\\\H"
 > END STRING
 
 > BEGIN STRING
 "……ちゅくっ……ちゅっ……\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3175:13
-"...Wait...wa...\\\\H"
+"...Chuk...wa...\\\\H"
 > END STRING
 
 > BEGIN STRING
 "……ぁむ……れろ……ちゅっ……\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3176:13
-"...Mu...rer...wa...\\\\H"
+"...Uhm...rr...chu...\\\\H"
 > END STRING
 
 > BEGIN STRING
 "……ちゅっ……くちゅ……んっ……\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3177:13
-"...Wa...it...mh...\\\\H"
+"...Chu...ch...mh...\\\\H"
 > END STRING
 
 > BEGIN STRING
 "んちゅ……ん……ふうっ……\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3178:13
-"Wait...m...huhh...\\\\H"
+"Chu...m...huhh...\\\\H"
 > END STRING
 
 > BEGIN STRING
 "んっ……れろ……ちゅ……\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3179:13
-"Mm...rer...ch...\\\\H"
+"Mm...rr...ch...\\\\H"
 > END STRING
 
 > BEGIN STRING

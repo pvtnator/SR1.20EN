@@ -9,21 +9,21 @@
 服を脱がす
 > CONTEXT: Skills/2/name/
 > CONTEXT: Skills/257/name/
-Strip
+Undress
 > END STRING
 
 > BEGIN STRING
 [レジスト] 相手の服を脱がせる。
 > CONTEXT: Skills/2/description/
 > CONTEXT: Skills/257/description/
-[Resist] Strip
+[Resist] Undress someone
 > END STRING
 
 > BEGIN STRING
 服を脱ぐ
 > CONTEXT: Skills/4/name/
 > CONTEXT: Skills/251/name/
-Undress
+Strip
 > END STRING
 
 > BEGIN STRING
@@ -32,7 +32,7 @@ Undress
 > CONTEXT: Skills/251/description/
 > CONTEXT: Skills/252/description/
 > CONTEXT: Skills/253/description/
-Undress self
+Strip your own clothes
 > END STRING
 
 > BEGIN STRING
@@ -4669,14 +4669,14 @@ Heavenly Feel
 
 > BEGIN STRING
 エナジードレイン
-> CONTEXT: Skills/772/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/772/name/
+Energy drain
 > END STRING
 
 > BEGIN STRING
 [×××] 腰を振る。[インサート(LvMAX)][VPドレイン]
-> CONTEXT: Skills/772/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/772/description/
+[×××] Shake your hips. [Insert (LvMAX)] [VP Drain]
 > END STRING
 
 > BEGIN STRING
@@ -5719,14 +5719,14 @@ Interfere with a hold. Cannot be used if you are in a hold.
 
 > BEGIN STRING
 もがく
-> CONTEXT: Skills/971/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/971/name/
+Struggle
 > END STRING
 
 > BEGIN STRING
 もがいて抵抗する。
-> CONTEXT: Skills/971/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/971/description/
+Struggle and resist.
 > END STRING
 
 > BEGIN STRING
