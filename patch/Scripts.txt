@@ -25939,9 +25939,9 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\\052"
-> CONTEXT: Scripts/メッセージ表示フルグレードアップX /587:34 < UNTRANSLATED
-> CONTEXT: Scripts/メッセージ表示フルグレードアップX /1073:10 < UNTRANSLATED
-
+> CONTEXT: Scripts/メッセージ表示フルグレードアップX /587:34
+> CONTEXT: Scripts/メッセージ表示フルグレードアップX /1073:10
+"\\034"
 > END STRING
 
 > BEGIN STRING
@@ -28993,7 +28993,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{enemy}の艶やかな嬌声を子守唄に、\\n"
 > CONTEXT: Scripts/Talk_Sys Text(Map)/316:14 < UNTRANSLATED
-
+"\#{enemy}'s mesmerizing voice becomes a lullaby\\n"
 > END STRING
 
 > BEGIN STRING
@@ -29042,7 +29042,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{myname}の意識はまどろみに落ちて行った……\\n"
 > CONTEXT: Scripts/Talk_Sys Text(Map)/323:12 < UNTRANSLATED
-
+"\#{myname}'s consciousness fell into a slumber...\\n"
 > END STRING
 
 > BEGIN STRING
@@ -29060,7 +29060,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "夜はまだ、当分明けそうにない……"
 > CONTEXT: Scripts/Talk_Sys Text(Map)/326:14 < UNTRANSLATED
-
+"The night isn't over for a while yet..."
 > END STRING
 
 > BEGIN STRING
@@ -29481,7 +29481,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{t_actor}に近づいてくる……！"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/366:17
-"\#{t_actor} is getting close"
+" is approaching \#{t_actor}"
 > END STRING
 
 > BEGIN STRING
@@ -32338,7 +32338,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "んんっ……あっ……\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3190:13
-"Mmmh...Ah...\\\\H"
+"Mmmh...ah...\\\\H"
 > END STRING
 
 > BEGIN STRING
@@ -32368,7 +32368,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "あっ、あっ……あぁっ……！\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3196:13
-"Ah, ah...Aaah!\\\\H"
+"Ah, ah...aaah!\\\\H"
 > END STRING
 
 > BEGIN STRING
@@ -32380,25 +32380,25 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "あんっ、あんっ……ああぁんっ！\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3198:13
-"Ah, Ah...aaaahh!\\\\H"
+"Ah, ah...aaaahh!\\\\H"
 > END STRING
 
 > BEGIN STRING
 "んんっ、あっ……！\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3199:13
-"Mmm...Ah...!\\\\H"
+"Mmm...ah...!\\\\H"
 > END STRING
 
 > BEGIN STRING
 "あんっ……あっ、ああっ！\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3200:13
-"Ahh...Ah, ahh!\\\\H"
+"Ahh...ah, ahh!\\\\H"
 > END STRING
 
 > BEGIN STRING
 "ひぃんっ……あぁっ……やっ……！\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3201:13
-"Hngg...Aah...Yah...!\\\\H"
+"Hngg...aah...ah...!\\\\H"
 > END STRING
 
 > BEGIN STRING
@@ -32416,7 +32416,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "やぁ……っ\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3207:15
-"Ya...h\\\\H"
+"Aa...h\\\\H"
 > END STRING
 
 > BEGIN STRING
@@ -32428,19 +32428,19 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "あっ……やぁ……っ\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3209:15
-"Ah...ya...h\\\\H"
+"Ah...aa...h\\\\H"
 > END STRING
 
 > BEGIN STRING
 "ああっ……やぁっ……\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3210:15
-"Aaa...Yaa...\\\\H"
+"Aaa...aah...\\\\H"
 > END STRING
 
 > BEGIN STRING
 "やっ……あぁ……っ！\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3211:15
-"Ya...aa...!\\\\H"
+"Ah...aa...!\\\\H"
 > END STRING
 
 > BEGIN STRING
@@ -32458,7 +32458,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "やっ……やぁっ……はぁぁっ！\\\\H"
 > CONTEXT: Scripts/口上メソッド（基本）(2)/3214:15
-"Ya...yah...Haa!\\\\H"
+"Ah...aah...haa!\\\\H"
 > END STRING
 
 > BEGIN STRING
