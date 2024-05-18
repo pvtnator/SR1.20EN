@@ -52,16 +52,17 @@ def autotranslate(translations_file, lines):
                 context = lines[i][11:].strip()
                 contexts.append(context)
                 i += 1
-            if lines[i].strip() == "" and len(contexts)<10 and len(string)>3:
+            if lines[i].strip() == "" and len(string)>3:
                 batchi.append(i)
                 batcht += string.replace("#{myname}", "私").replace("#{target}", "あなた")
-                if len(batchi)>=50:
+                if len(batchi)>=100 or i > len(lines)-10:
+                    batcht = batcht.strip()
                     print("\n"+batcht+"\n")
                     pyperclip.copy(batcht)
                     while(pyperclip.paste() == batcht or len(pyperclip.paste().split("\n")) != len(batcht.split("\n"))):
                         time.sleep(0.5)
                     trlines = pyperclip.paste().split("\n")
-                    for j in range(50):
+                    for j in range(len(trlines)):
                         translated = trlines[j].strip()
                         if len(translated) > 3:
                             print(translated)
@@ -69,6 +70,7 @@ def autotranslate(translations_file, lines):
                                 translated = translated[:-1]
                             translated = translated.replace("\\n", "\\n　")
                             translated = translated.replace("　　", "　").replace("　 ", "　")
+                            translated = translated.replace("……", "...")
                             #translated = re.sub("[^\.]\\\\H", "\\\\H", translated)
                             lines[batchi[j]] = translated+"\n"
                             print(lines[batchi[j]])
@@ -108,7 +110,7 @@ if __name__ == "__main__":
     parent_dir = os.path.abspath(os.path.join(current_dir, os.pardir))
     folder_name = current_dir.split("\\")[-1].replace("_patch", "_translated")
     folder_path = os.path.join(parent_dir, folder_name+"\\System\\talk")
-    translations_file = "characterstest.txt"
+    translations_file = "characters.txt"
     translations = {"global": {}}
 
     lines = []
@@ -140,7 +142,7 @@ if __name__ == "__main__":
             i += 1
 
     print(translations["global"])
-    mode = "autotranslate"
+    mode = "apply"
     if mode == "extract":
         extract_strings(folder_path, translations_file, translations)
         print("Extraction completed.")
