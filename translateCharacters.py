@@ -1,6 +1,7 @@
 import os
 import re
-import translator as tr
+import pyperclip
+import time
 from pathlib import Path
 
 def extract_strings(folder_path, output_file, update={}):
@@ -39,10 +40,12 @@ def extract_strings(folder_path, output_file, update={}):
 
 def autotranslate(translations_file, lines):
     i = 0
+    batchi = []
+    batcht = ""
     while i < len(lines):
         if lines[i].strip() == "> BEGIN STRING":
             i += 1
-            string = lines[i].strip()
+            string = lines[i]
             i += 1
             contexts = []
             while(lines[i][0] == ">"):
@@ -50,23 +53,32 @@ def autotranslate(translations_file, lines):
                 contexts.append(context)
                 i += 1
             if lines[i].strip() == "" and len(contexts)<10 and len(string)>3:
-                string = string.replace("#{myname}", "私").replace("#{target}", "あなた")
-                print(string)
-                translated = tr.TRnslte(string, "en")
-                if len(translated) > 3:
-                    print(translated)
-                    if translated[-1] == "." and translated[-2] != ".":
-                        translated = translated[:-1]
-                    translated = re.sub("\\n[^　]", "\\n　", translated)
-                    translated = re.sub("[^\.]\\\\H", "\\\\H", translated)
-                    lines[i] = translated+"\n"
-                    print(lines[i])
-                    return
+                batchi.append(i)
+                batcht += string.replace("#{myname}", "私").replace("#{target}", "あなた")
+                if len(batchi)>=50:
+                    print("\n"+batcht+"\n")
+                    pyperclip.copy(batcht)
+                    while(pyperclip.paste() == batcht or len(pyperclip.paste().split("\n")) != len(batcht.split("\n"))):
+                        time.sleep(0.5)
+                    trlines = pyperclip.paste().split("\n")
+                    for j in range(50):
+                        translated = trlines[j].strip()
+                        if len(translated) > 3:
+                            print(translated)
+                            if translated[-1] == "." and translated[-2] != ".":
+                                translated = translated[:-1]
+                            translated = translated.replace("\\n", "\\n　")
+                            translated = translated.replace("　　", "　").replace("　 ", "　")
+                            #translated = re.sub("[^\.]\\\\H", "\\\\H", translated)
+                            lines[batchi[j]] = translated+"\n"
+                            print(lines[batchi[j]])
+                    batchi.clear()
+                    batcht = ""
+                    with open(translations_file, 'w', encoding='utf-8') as trans_file:
+                        trans_file.writelines(lines)
             i += 2
         else:
             i += 1
-    with open(translations_file, 'w', encoding='utf-8') as trans_file:
-        trans_file.writelines(lines)
 
 def apply_translations(folder_path, translations, mustinclude=""):
     glpattern = re.compile("|".join(re.escape(key) for key in sorted(translations["global"].keys(), key=len, reverse=True)))
