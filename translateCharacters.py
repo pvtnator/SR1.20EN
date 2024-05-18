@@ -1,5 +1,6 @@
 import os
 import re
+import translator as tr
 from pathlib import Path
 
 def extract_strings(folder_path, output_file, update={}):
@@ -36,6 +37,37 @@ def extract_strings(folder_path, output_file, update={}):
                 outfile.write(update[string])
             outfile.write("\n> END STRING\n\n")
 
+def autotranslate(translations_file, lines):
+    i = 0
+    while i < len(lines):
+        if lines[i].strip() == "> BEGIN STRING":
+            i += 1
+            string = lines[i].strip()
+            i += 1
+            contexts = []
+            while(lines[i][0] == ">"):
+                context = lines[i][11:].strip()
+                contexts.append(context)
+                i += 1
+            if lines[i].strip() == "" and len(contexts)<10 and len(string)>3:
+                string = string.replace("#{myname}", "私").replace("#{target}", "あなた")
+                print(string)
+                translated = tr.TRnslte(string, "en")
+                if len(translated) > 3:
+                    print(translated)
+                    if translated[-1] == "." and translated[-2] != ".":
+                        translated = translated[:-1]
+                    translated = re.sub("\\n[^　]", "\\n　", translated)
+                    translated = re.sub("[^\.]\\\\H", "\\\\H", translated)
+                    lines[i] = translated+"\n"
+                    print(lines[i])
+                    return
+            i += 2
+        else:
+            i += 1
+    with open(translations_file, 'w', encoding='utf-8') as trans_file:
+        trans_file.writelines(lines)
+
 def apply_translations(folder_path, translations, mustinclude=""):
     glpattern = re.compile("|".join(re.escape(key) for key in sorted(translations["global"].keys(), key=len, reverse=True)))
     for root, dirs, files in os.walk(folder_path):
@@ -64,41 +96,45 @@ if __name__ == "__main__":
     parent_dir = os.path.abspath(os.path.join(current_dir, os.pardir))
     folder_name = current_dir.split("\\")[-1].replace("_patch", "_translated")
     folder_path = os.path.join(parent_dir, folder_name+"\\System\\talk")
-    translations_file = "characters.txt"
+    translations_file = "characterstest.txt"
     translations = {"global": {}}
 
+    lines = []
     with open(translations_file, 'r', encoding='utf-8') as trans_file:
         lines = trans_file.readlines()
-        i = 0
-        while i < len(lines):
-            if lines[i].strip() == "> BEGIN STRING":
+    i = 0
+    while i < len(lines):
+        if lines[i].strip() == "> BEGIN STRING":
+            i += 1
+            string = lines[i].strip()
+            i += 1
+            contexts = []
+            while(lines[i][0] == ">"):
+                context = lines[i][11:].strip()
+                contexts.append(context)
                 i += 1
-                string = lines[i].strip()
-                i += 1
-                contexts = []
-                while(lines[i][0] == ">"):
-                    context = lines[i][11:].strip()
-                    contexts.append(context)
-                    i += 1
-                if lines[i].strip():
-                    if len(contexts)>=10:
-                        translations["global"]["\""+string+"\""] = "\""+lines[i].strip()+"\""
-                        translations["global"]["「"+string+"」"] = "「"+lines[i].strip()+"」"
-                    else:
-                        for c in contexts:
-                            if not c in translations:
-                                translations[c] = {}
-                            translations[c]["\""+string+"\""] = "\""+lines[i].strip()+"\""
-                            translations[c]["「"+string+"」"] = "「"+lines[i].strip()+"」"
-                i += 2
-            else:
-                i += 1
+            if lines[i].strip():
+                if len(contexts)>=10:
+                    translations["global"]["\""+string+"\""] = "\""+lines[i].strip()+"\""
+                    translations["global"]["「"+string+"」"] = "「"+lines[i].strip()+"」"
+                else:
+                    for c in contexts:
+                        if not c in translations:
+                            translations[c] = {}
+                        translations[c]["\""+string+"\""] = "\""+lines[i].strip()+"\""
+                        translations[c]["「"+string+"」"] = "「"+lines[i].strip()+"」"
+            i += 2
+        else:
+            i += 1
 
     print(translations["global"])
-    mode = "apply"
+    mode = "autotranslate"
     if mode == "extract":
         extract_strings(folder_path, translations_file, translations)
         print("Extraction completed.")
     elif mode == "apply":       
         apply_translations(folder_path, translations)
         print("Translations applied.")
+    elif mode == "autotranslate":
+        autotranslate(translations_file, lines)
+        print("Autotranslate done.")
