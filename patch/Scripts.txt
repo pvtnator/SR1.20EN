@@ -11378,7 +11378,7 @@
 /./
 > CONTEXT: Scripts/Window_BattleLog/123:29
 > CONTEXT: Scripts/Window_BattleBackLog/74:29
-/[wW]ith|m[a-z][a-z]|[a-vA-Z ][mqw][ a-z\\!\\?\\.\\,\\:\\;\\-\\']|[a-pA-Pr-zR-Z ][my]|[yH][a-pA-Pr-zR-Z \\!\\?\\.\\,\\:\\;\\-\\']|./
+/[wW][ih]|m[a-z][a-z]|[a-vA-Z ][mqw][ a-z\\!\\?\\.\\,\\:\\;\\-\\']|[a-pA-Pr-zR-Z ][my]|[yH][a-pA-Pr-zR-Z \\!\\?\\.\\,\\:\\;\\-\\']|./
 > CONTEXT: Scripts/Window_Message/95:31 < UNTRANSLATED
 > CONTEXT: Scripts/メッセージ表示フルグレードアップX /790:30 < UNTRANSLATED
 > CONTEXT: Scripts/Window_Announce/165:37 < UNTRANSLATED
@@ -23934,7 +23934,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/RPG::Skilltext/2310:28
 > CONTEXT: Scripts/RPG::Skilltext/2344:28
 > CONTEXT: Scripts/RPG::Skilltext/2378:28
-" is \#{tec} \\n​m​shaking hips \#{waist}!"
+" is shaking hips\\n​m​\#{waist} \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -28698,11 +28698,12 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{speaker}は\#{emotion}、\\n\#{action}"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/163:9
+"\#{speaker} \#{action}\#{emotion}!"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/257:9
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/274:9
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/343:9
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/370:11
-"\#{speaker} \#{action}\#{emotion}!"
+"\#{speaker} \#{action}\\n\#{emotion}!"
 > END STRING
 
 > BEGIN STRING
@@ -29481,7 +29482,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{t_actor}に近づいてくる……！"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/366:17
-" is approaching \#{t_actor}"
+"is approaching \#{t_actor}"
 > END STRING
 
 > BEGIN STRING
@@ -31039,7 +31040,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{master}は\#{action}、\\m\\n\#{speaker}と口内で舌を絡めあった！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/172:15
-"\#{master} and \#{speaker} ​m​\\nintertwined tongues in their mouths \#{action}!"
+"\#{master} and \#{speaker} ​m​\\nintertwined tongues in their mouths\#{action}!"
 > END STRING
 
 > BEGIN STRING
@@ -31157,31 +31158,31 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "を押さえ込み"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/233:26
-"held down"
+"held down \#{master}, and"
 > END STRING
 
 > BEGIN STRING
 "に身体を預け"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/240:26
-"entrusted her body to"
+" entrusted her body to \#{master}, and"
 > END STRING
 
 > BEGIN STRING
 "を見つめながら"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/250:26
-"while staring at"
+", while staring at \#{master},"
 > END STRING
 
 > BEGIN STRING
 "に動きを合わせ"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/257:26
-"adjusted movements to"
+" adjusted movements to \#{master}, and"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は\#{master}\#{action}、\\m\\n\#{waist}腰を振ってきた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/265:17
-"\#{speaker} \#{action} \#{master},​m​\\nand \#{waist} started shaking hips！"
+"\#{speaker}\#{action}​m​\\nstarted shaking hips \#{waist}!"
 > END STRING
 
 > BEGIN STRING
@@ -31241,7 +31242,7 @@ this succubus will no longer be at Home.
 "挟んできた"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/320:22
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/661:22
-"in between"
+"sandwiched"
 > END STRING
 
 > BEGIN STRING
@@ -31255,7 +31256,7 @@ this succubus will no longer be at Home.
 "\#{speaker}は\#{$msg.t_enemy.bustsize}で、\\m\\n\#{master}のペニスを\#{bust}\#{action}！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/328:15
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/669:15
-"\#{speaker} \#{action} ​m​\\n\#{master}'s penis with \#{$msg.t_enemy.bustsize} \#{bust}!"
+"\#{speaker} \#{action} \#{master}'s penis​m​\\nwith \#{$msg.t_enemy.bustsize} and moved \#{bust}!"
 > END STRING
 
 > BEGIN STRING
