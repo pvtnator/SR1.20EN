@@ -8,7 +8,7 @@ In general, please report game logic bugs (from a fresh save), but it's unnecess
 ## Progress
 ### What's done
 - Main story (NPC texts in maps)
-- Most UI elements (Skills, items, menus, systems, enemies)
+- UI elements (Skills, items, menus, systems, enemies)
 - Most combat text (descriptions of skills and events in battle)
 - Some character specific combat dialog
 
@@ -19,7 +19,6 @@ In general, please report game logic bugs (from a fresh save), but it's unnecess
 - Making texts that are generated from multiple parts more fluent
 - Testing (there might still be bugs; inconsistent translations tend to cause bugs in how the game operates)
 - Ensure main story is translated correctly (some parts have been difficult to translate, fluent Japanese speaker could help)
-- Add translations for location name images
 - Modify save files to match translations
 
 ### Future
