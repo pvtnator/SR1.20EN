@@ -6979,8 +6979,8 @@
 
 > BEGIN STRING
 "おにーさん"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/438:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/442:32 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/438:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/442:32
 "Buddy"
 > END STRING
 
@@ -7120,8 +7120,8 @@
 
 > BEGIN STRING
 "おにぃさん"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/628:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/632:32 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/628:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/632:32
 "Buddy"
 > END STRING
 
@@ -7158,7 +7158,7 @@
 
 > BEGIN STRING
 "にーさま"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/687:32 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/687:32
 "Buddy"
 > END STRING
 
@@ -7170,7 +7170,7 @@
 
 > BEGIN STRING
 "貴公"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/717:32 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/717:32
 "Sir"
 > END STRING
 
@@ -7250,7 +7250,7 @@
 
 > BEGIN STRING
 "坊っちゃん"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/906:32 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/906:32
 "Boy"
 > END STRING
 
@@ -7268,7 +7268,7 @@
 
 > BEGIN STRING
 "そなた"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/937:32 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/937:32
 "Guy"
 > END STRING
 
@@ -7335,7 +7335,7 @@
 
 > BEGIN STRING
 "主人公名様"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1115:30 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1115:30
 "Mr. 主人公名"
 > END STRING
 
@@ -11378,7 +11378,7 @@
 /./
 > CONTEXT: Scripts/Window_BattleLog/123:29
 > CONTEXT: Scripts/Window_BattleBackLog/74:29
-/[wW][ih]|m[a-z][a-z]|[a-vA-Z ][mqw][ a-z\\!\\?\\.\\,\\:\\;\\-\\']|[a-pA-Pr-zR-Z ][my]|[yH][a-pA-Pr-zR-Z \\!\\?\\.\\,\\:\\;\\-\\']|./
+/[wW][a-pr-v]|m[a-z][a-z]|[a-vA-Z ][mqw][ a-z\\!\\?\\.\\,\\:\\;\\-\\']|[a-pA-Pr-zR-Z ][my]|[yH][a-pA-Pr-zR-Z \\!\\?\\.\\,\\:\\;\\-\\']|./
 > CONTEXT: Scripts/Window_Message/95:31 < UNTRANSLATED
 > CONTEXT: Scripts/メッセージ表示フルグレードアップX /790:30 < UNTRANSLATED
 > CONTEXT: Scripts/Window_Announce/165:37 < UNTRANSLATED
@@ -15356,7 +15356,7 @@
 > BEGIN STRING
 "\\w\\q\#{actor.name}の装備していた\\w\\nワイルドカードが無くなってしまった……"
 > CONTEXT: Scripts/Scene_Battle 2/568:20
-"\\w​q​\#{actor.name}'s equipped\\w\\nWildcard disappeared..."
+"\\w​q​\#{actor.name}'s equipped\\w​\\nWildcard disappeared..."
 > END STRING
 
 > BEGIN STRING
@@ -18603,7 +18603,7 @@
 > BEGIN STRING
 "体勢を変えて、服越しに\\n\\m口で\#{targetname}の\#{target.bustsize}を\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/493:32
-" changed position and \\n​m​caressed \#{targetname}'s \#{target.bustsize} by mouth through clothes!"
+" changed position and caressed\\n​m​\#{targetname}'s \#{target.bustsize} by mouth through clothes!"
 > END STRING
 
 > BEGIN STRING
@@ -22672,7 +22672,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "と\\w\\n入れ替わった！\\w\\q"
 > CONTEXT: Scripts/Scene_Battle 5/184:75
-"\\w\\nswitched!\\w​q​"
+"\\w​\\nswitched!\\w​q​"
 > END STRING
 
 > BEGIN STRING
@@ -23387,7 +23387,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "全ては現だと思い知らせた！"
 > CONTEXT: Scripts/RPG::Skilltext/2021:28
-" realized that everything is real!"
+" made you think that everything is real!"
 > END STRING
 
 > BEGIN STRING
@@ -24698,31 +24698,31 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{emotion}\\n\\m身動き取れない\#{targetname}のペニスを\\n手でしごいてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/2483:30
-" \#{emotion},\\n​m​and squeezed \#{targetname}'s penis by hand\\nwhile he couldn't move!"
+" \#{emotion},\\n​m​and squeezed \#{targetname}'s penis by hand\\nas he couldn't move!"
 > END STRING
 
 > BEGIN STRING
 "\#{emotion}\\n\\m後ろを犯される\#{targetname}の睾丸を\\n舌先で舐め上げてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/2488:30
-" \#{emotion},\\n​m​licked \#{targetname}'s balls with the tip of tongue \\nwhile he was being fucked from behind!"
+" \#{emotion},\\n​m​licked \#{targetname}'s balls with the tip of tongue \\nas he was being fucked from behind!"
 > END STRING
 
 > BEGIN STRING
 "\#{emotion}\\n\\m後ろを犯される\#{targetname}の睾丸を\\n指で愛撫してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/2489:30
-" \#{emotion},\\n​m​caressed \#{targetname}'s balls with fingers \\nwhile he was being fucked from behind!"
+" \#{emotion},\\n​m​caressed \#{targetname}'s balls with fingers \\nas he was being fucked from behind!"
 > END STRING
 
 > BEGIN STRING
 "\#{emotion}\\n\\m身動き取れない\#{targetname}の睾丸を\\n舌先で舐め上げてきた！"
 > CONTEXT: Scripts/RPG::Skilltext/2492:30
-" \#{emotion},\\n​m​licked \#{targetname}'s balls with the tip of tongue\\nwhile he couldn't move!"
+" \#{emotion},\\n​m​licked \#{targetname}'s balls with the tip of tongue\\nas he couldn't move!"
 > END STRING
 
 > BEGIN STRING
 "\#{emotion}\\n\\m身動き取れない\#{targetname}の睾丸を\\n指で愛撫してきた！"
 > CONTEXT: Scripts/RPG::Skilltext/2493:30
-" \#{emotion},\\n​m​caressed \#{targetname}'s balls with fingers\\nwhile he couldn't move!"
+" \#{emotion},\\n​m​caressed \#{targetname}'s balls with fingers\\nas he couldn't move!"
 > END STRING
 
 > BEGIN STRING
@@ -25289,13 +25289,13 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{targetname}を愛撫した！\\nしかし、興奮のあまり手元が定まらない！\\w\\n\#{targetname}は快感を受けていない！"
 > CONTEXT: Scripts/RPG::Skilltext/2661:28
-" caressed \#{targetname}!\\nToo excited to move properly,\\w\\n\#{targetname} did not receive any pleasure!"
+" caressed \#{targetname}!\\nToo excited to move properly,\\w​\\n\#{targetname} did not receive any pleasure!"
 > END STRING
 
 > BEGIN STRING
 "\#{targetname}を愛撫した！\\nしかし、興奮のあまり身体がうまく動かない！\\w\\n\#{targetname}は快感を受けていない！"
 > CONTEXT: Scripts/RPG::Skilltext/2662:28
-" caressed \#{targetname}!\\nToo excited to move properly,\\w\\n\#{targetname} did not receive any pleasure!"
+" caressed \#{targetname}!\\nToo excited to move properly,\\w​\\n\#{targetname} did not receive any pleasure!"
 > END STRING
 
 > BEGIN STRING
@@ -31646,7 +31646,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{speaker}は慣れた腰使いで、\\m\\n\#{master}のペニスを尻尾で弄んできた！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/579:21
-"\#{speaker} played with \#{master}'s penis ​m​\\n\\with practiced hips, using the tail!"
+"\#{speaker} played with \#{master}'s penis ​m​\\nwith practiced hips, using the tail!"
 > END STRING
 
 > BEGIN STRING
