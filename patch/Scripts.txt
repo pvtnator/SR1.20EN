@@ -4139,7 +4139,7 @@
 > BEGIN STRING
 "\#{myname}は胸への快感に敏感になった！"
 > CONTEXT: Scripts/RPG::Statetext/252:18
-"\#{myname}'s breasts have become more sensitive!"
+"\#{myname}'s chest has become more sensitive!"
 > END STRING
 
 > BEGIN STRING
@@ -6700,7 +6700,7 @@
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/341:32
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1186:30
 > CONTEXT: Scripts/Window_Petname_Change/174:6
-"Pal"
+"Boy"
 > END STRING
 
 > BEGIN STRING
@@ -6757,7 +6757,7 @@
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/996:30
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1091:30
 > CONTEXT: Scripts/Window_Petname_Change/173:6
-"Pal"
+"Buddy"
 > END STRING
 
 > BEGIN STRING
@@ -6981,7 +6981,7 @@
 "おにーさん"
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/438:32 < UNTRANSLATED
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/442:32 < UNTRANSLATED
-
+"Buddy"
 > END STRING
 
 > BEGIN STRING
@@ -7122,7 +7122,7 @@
 "おにぃさん"
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/628:32 < UNTRANSLATED
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/632:32 < UNTRANSLATED
-
+"Buddy"
 > END STRING
 
 > BEGIN STRING
@@ -7159,7 +7159,7 @@
 > BEGIN STRING
 "にーさま"
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/687:32 < UNTRANSLATED
-
+"Buddy"
 > END STRING
 
 > BEGIN STRING
@@ -7171,7 +7171,7 @@
 > BEGIN STRING
 "貴公"
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/717:32 < UNTRANSLATED
-
+"Sir"
 > END STRING
 
 > BEGIN STRING
@@ -7251,7 +7251,7 @@
 > BEGIN STRING
 "坊っちゃん"
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/906:32 < UNTRANSLATED
-
+"Boy"
 > END STRING
 
 > BEGIN STRING
@@ -7269,7 +7269,7 @@
 > BEGIN STRING
 "そなた"
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/937:32 < UNTRANSLATED
-
+"Guy"
 > END STRING
 
 > BEGIN STRING
@@ -7311,7 +7311,7 @@
 > BEGIN STRING
 "貴様"
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1067:30
-"you bitch"
+"Idiot"
 > END STRING
 
 > BEGIN STRING
@@ -7336,7 +7336,7 @@
 > BEGIN STRING
 "主人公名様"
 > CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1115:30 < UNTRANSLATED
-
+"Mr. 主人公名"
 > END STRING
 
 > BEGIN STRING
@@ -7475,91 +7475,91 @@
 
 > BEGIN STRING
 "拠点"
-> CONTEXT: Scripts/Game_Map/163:17
+> CONTEXT: Scripts/Game_Map/163:17 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "ポート空間"
-> CONTEXT: Scripts/Game_Map/164:17
+> CONTEXT: Scripts/Game_Map/164:17 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "酒場"
-> CONTEXT: Scripts/Game_Map/165:17
+> CONTEXT: Scripts/Game_Map/165:17 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "混濁した夢世界"
-> CONTEXT: Scripts/Game_Map/166:17
+> CONTEXT: Scripts/Game_Map/166:17 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "体験版教会"
-> CONTEXT: Scripts/Game_Map/167:17
+> CONTEXT: Scripts/Game_Map/167:17 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "浅き夢の瀬"
-> CONTEXT: Scripts/Game_Map/168:17
+> CONTEXT: Scripts/Game_Map/168:17 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "月明かりの樹海"
-> CONTEXT: Scripts/Game_Map/169:17
+> CONTEXT: Scripts/Game_Map/169:17 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "魔城トゥーロマンサ"
-> CONTEXT: Scripts/Game_Map/170:17
+> CONTEXT: Scripts/Game_Map/170:17 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "闇洞窟"
-> CONTEXT: Scripts/Game_Map/171:17
+> CONTEXT: Scripts/Game_Map/171:17 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "獄界オルデオ"
-> CONTEXT: Scripts/Game_Map/172:17
+> CONTEXT: Scripts/Game_Map/172:17 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "教会図書館"
-> CONTEXT: Scripts/Game_Map/173:17
+> CONTEXT: Scripts/Game_Map/173:17 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "パルフィス密教会"
-> CONTEXT: Scripts/Game_Map/174:17
+> CONTEXT: Scripts/Game_Map/174:17 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "混濁したレンディカ"
-> CONTEXT: Scripts/Game_Map/175:17
+> CONTEXT: Scripts/Game_Map/175:17 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "ラーミルテリトリー"
-> CONTEXT: Scripts/Game_Map/176:17
+> CONTEXT: Scripts/Game_Map/176:17 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "シルフェ屋敷"
-> CONTEXT: Scripts/Game_Map/177:17
+> CONTEXT: Scripts/Game_Map/177:17 < UNTRANSLATED
 
 > END STRING
 
@@ -8384,12 +8384,12 @@
 
 > BEGIN STRING
 "鎮静の紫水晶"
-> CONTEXT: Scripts/Game_Battler 2/991:39 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/1001:39 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/1010:39 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/1032:39 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/1053:39 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 2/991:39
+> CONTEXT: Scripts/Game_Battler 2/1001:39
+> CONTEXT: Scripts/Game_Battler 2/1010:39
+> CONTEXT: Scripts/Game_Battler 2/1032:39
+> CONTEXT: Scripts/Game_Battler 2/1053:39
+"Calming Amethyst"
 > END STRING
 
 > BEGIN STRING
@@ -8518,41 +8518,41 @@
 
 > BEGIN STRING
 "先ほど食事をしたばかりだ！"
-> CONTEXT: Scripts/Game_Battler 3/106:34 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/106:34
+"Just ate recently!"
 > END STRING
 
 > BEGIN STRING
 "ハートのピアス"
-> CONTEXT: Scripts/Game_Battler 2/1022:39 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 2/1022:39
+"Heart earrings"
 > END STRING
 
 > BEGIN STRING
 "薬草の冠"
-> CONTEXT: Scripts/Game_Battler 2/1023:39 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/1044:39 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/1055:39 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 2/1023:39
+> CONTEXT: Scripts/Game_Battler 2/1044:39
+> CONTEXT: Scripts/Game_Battler 2/1055:39
+"Herb Crown"
 > END STRING
 
 > BEGIN STRING
 "すでに不幸になっている！"
-> CONTEXT: Scripts/Game_Battler 3/111:34 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/111:34
+"Already unhappy!"
 > END STRING
 
 > BEGIN STRING
 "信念のドッグタグ"
-> CONTEXT: Scripts/Game_Battler 2/1024:39 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 2/1035:39 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 2/1024:39
+> CONTEXT: Scripts/Game_Battler 2/1035:39
+"Devotee Dog Tag"
 > END STRING
 
 > BEGIN STRING
 "パートナーをホールドしている夢魔がいない！"
-> CONTEXT: Scripts/Game_Battler 3/133:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/133:36
+"Ally is not in a hold!"
 > END STRING
 
 > BEGIN STRING
@@ -8563,22 +8563,22 @@
 
 > BEGIN STRING
 "活力の炎"
-> CONTEXT: Scripts/Game_Battler 2/1026:44 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 2/1026:44
+"Vitality Flame"
 > END STRING
 
 > BEGIN STRING
 "彼女から逃げてはいけない！"
-> CONTEXT: Scripts/Game_Battler 3/138:38 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 3/160:38 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 3/846:37 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/138:38
+> CONTEXT: Scripts/Game_Battler 3/160:38
+> CONTEXT: Scripts/Scene_Battle 3/846:37
+"Can't run away from her!"
 > END STRING
 
 > BEGIN STRING
 "ホールド中でなければ使う意味が無い！"
-> CONTEXT: Scripts/Game_Battler 3/145:34 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/145:34
+"There's no point outside of a hold!"
 > END STRING
 
 > BEGIN STRING
@@ -8589,20 +8589,20 @@
 
 > BEGIN STRING
 "銀剣のアミュレット"
-> CONTEXT: Scripts/Game_Battler 2/1033:39 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 2/1033:39
+"S. Sword amulet"
 > END STRING
 
 > BEGIN STRING
 "ホールド中の対象にしか使用できない！"
-> CONTEXT: Scripts/Game_Battler 3/155:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/155:36
+"Can only be used on targets that are in a hold!"
 > END STRING
 
 > BEGIN STRING
 "金剣のアミュレット"
-> CONTEXT: Scripts/Game_Battler 2/1034:39 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 2/1034:39
+"G. Sword amulet"
 > END STRING
 
 > BEGIN STRING
@@ -8631,8 +8631,8 @@
 
 > BEGIN STRING
 "ホールド中でなければ使えない！"
-> CONTEXT: Scripts/Game_Battler 3/167:34 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/167:34
+"Can't use it if not in a hold!"
 > END STRING
 
 > BEGIN STRING
@@ -8643,8 +8643,8 @@
 
 > BEGIN STRING
 "意識を集中できないので使えない！"
-> CONTEXT: Scripts/Game_Battler 3/172:34 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/172:34
+"Can't concentrate on it!"
 > END STRING
 
 > BEGIN STRING
@@ -8655,8 +8655,8 @@
 
 > BEGIN STRING
 "蝙蝠羽のバッジ"
-> CONTEXT: Scripts/Game_Battler 2/1045:39 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 2/1045:39
+"Batwing badge"
 > END STRING
 
 > BEGIN STRING
@@ -8667,8 +8667,8 @@
 
 > BEGIN STRING
 "ホールド中は魔法を使用できない！"
-> CONTEXT: Scripts/Game_Battler 3/178:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/178:36
+"Can't use magic while in a hold!"
 > END STRING
 
 > BEGIN STRING
@@ -8686,14 +8686,14 @@
 
 > BEGIN STRING
 "女豹のエンブレム"
-> CONTEXT: Scripts/Game_Battler 2/1047:44 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 2/1047:44
+"Leopard emblem"
 > END STRING
 
 > BEGIN STRING
 "魔法に意識を集中できないので使えない！"
-> CONTEXT: Scripts/Game_Battler 3/182:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/182:36
+"Can't concentrate on magic!"
 > END STRING
 
 > BEGIN STRING
@@ -8705,14 +8705,14 @@
 
 > BEGIN STRING
 "パートナーがいない！"
-> CONTEXT: Scripts/Game_Battler 3/196:38 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/196:38
+"You don't have an ally!"
 > END STRING
 
 > BEGIN STRING
 "星のピアス"
-> CONTEXT: Scripts/Game_Battler 2/1054:39 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 2/1054:39
+"Star earrings"
 > END STRING
 
 > BEGIN STRING
@@ -8723,8 +8723,8 @@
 
 > BEGIN STRING
 "足を使用することが出来ない！"
-> CONTEXT: Scripts/Game_Battler 3/214:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/214:36
+"Can't use legs!"
 > END STRING
 
 > BEGIN STRING
@@ -8873,177 +8873,177 @@
 
 > BEGIN STRING
 "アソコは既に\#{em.name}と繋がっている！"
-> CONTEXT: Scripts/Game_Battler 3/434:38 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/434:38
+"Vagina is already connected to \#{em.name}!"
 > END STRING
 
 > BEGIN STRING
 "既に\#{em.name}に騎乗している！"
-> CONTEXT: Scripts/Game_Battler 3/435:38 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 3/464:38 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/435:38
+> CONTEXT: Scripts/Game_Battler 3/464:38
+"Already riding \#{em.name}!"
 > END STRING
 
 > BEGIN STRING
 "挿入されていなければ使えない！"
-> CONTEXT: Scripts/Game_Battler 3/443:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/443:36
+"Can't use it unless inserted!"
 > END STRING
 
 > BEGIN STRING
 "騎乗中でなければ使えない！"
-> CONTEXT: Scripts/Game_Battler 3/448:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/448:36
+"You can't use it unless riding!"
 > END STRING
 
 > BEGIN STRING
 "貝合わせ中でなければ使えない！"
-> CONTEXT: Scripts/Game_Battler 3/453:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/453:36
+"Can't use it outside of shell match!"
 > END STRING
 
 > BEGIN STRING
 "菊座は既に\#{em.name}と繋がっている！"
-> CONTEXT: Scripts/Game_Battler 3/463:38 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/463:38
+"Anus is already connected to \#{em.name}!"
 > END STRING
 
 > BEGIN STRING
 "菊座に挿入中でなければ使えない！"
-> CONTEXT: Scripts/Game_Battler 3/472:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/472:36
+"Cannot be used outside anal insertion!"
 > END STRING
 
 > BEGIN STRING
 "騎乗状態でなければ使えない！"
-> CONTEXT: Scripts/Game_Battler 3/477:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/477:36
+"Cannot be used unless mounted!"
 > END STRING
 
 > BEGIN STRING
 "\#{em.name}を押さえ込むため今は使えない！"
-> CONTEXT: Scripts/Game_Battler 3/487:38 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/487:38
+"Can't use it on \#{em.name} due to being pinned down!"
 > END STRING
 
 > BEGIN STRING
 "\#{em.name}に押さえ込まれている！"
-> CONTEXT: Scripts/Game_Battler 3/488:38 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/488:38
+"Being held down by \#{em.name}!"
 > END STRING
 
 > BEGIN STRING
 "相手のペニスを胸で挟んでいない！"
-> CONTEXT: Scripts/Game_Battler 3/501:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/501:36
+"Penis is not between breasts!"
 > END STRING
 
 > BEGIN STRING
 "相手の顔を胸で挟んでいない！"
-> CONTEXT: Scripts/Game_Battler 3/506:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/506:36
+"Face is not between breasts!"
 > END STRING
 
 > BEGIN STRING
 "尻尾は既に\#{em.name}に使ってしまっている！"
-> CONTEXT: Scripts/Game_Battler 3/516:38 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/516:38
+"Tail is already used on \#{em.name}!"
 > END STRING
 
 > BEGIN STRING
 "尻尾を挿入中でなければ使えない！"
-> CONTEXT: Scripts/Game_Battler 3/524:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/524:36
+"Cannot be used unless the tail is inserted!"
 > END STRING
 
 > BEGIN STRING
 "尻尾で口淫中でなければ使えない！"
-> CONTEXT: Scripts/Game_Battler 3/529:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/529:36
+"Cannot be used unless eating out with the tail!"
 > END STRING
 
 > BEGIN STRING
 "尻尾で肛姦中でなければ使えない！"
-> CONTEXT: Scripts/Game_Battler 3/534:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/534:36
+"Cannot be used unless the tail is in anus!"
 > END STRING
 
 > BEGIN STRING
 "触手を挿入中でなければ使えない！"
-> CONTEXT: Scripts/Game_Battler 3/545:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/545:36
+"Cannot be used unless the tentacle is inserted!"
 > END STRING
 
 > BEGIN STRING
 "触手で口淫中でなければ使えない！"
-> CONTEXT: Scripts/Game_Battler 3/550:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/550:36
+"Cannot be used unless eating out with tentacles!"
 > END STRING
 
 > BEGIN STRING
 "触手で肛姦中でなければ使えない！"
-> CONTEXT: Scripts/Game_Battler 3/555:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/555:36
+"Cannot be used unless tentacle is in anus!"
 > END STRING
 
 > BEGIN STRING
 "触手で拘束していなければ使えない！"
-> CONTEXT: Scripts/Game_Battler 3/560:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/560:36
+"Cannot be used outside of tentacle restraint!"
 > END STRING
 
 > BEGIN STRING
 "触手で更に拘束しなければ使えない！"
-> CONTEXT: Scripts/Game_Battler 3/565:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/565:36
+"Cannot be used outside of stronger tentacle restraint!"
 > END STRING
 
 > BEGIN STRING
 "触手は既に\#{em.name}に使ってしまっている！"
-> CONTEXT: Scripts/Game_Battler 3/575:38 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/575:38
+"Tentacles already used on \#{em.name}!"
 > END STRING
 
 > BEGIN STRING
 "ディルドは既に\#{em.name}に使ってしまっている！"
-> CONTEXT: Scripts/Game_Battler 3/585:38 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/585:38
+"The dildo is already used on \#{em.name}!"
 > END STRING
 
 > BEGIN STRING
 "ディルド挿入中でなければ使えない！"
-> CONTEXT: Scripts/Game_Battler 3/593:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/593:36
+"Can't use unless the dildo is inserted!"
 > END STRING
 
 > BEGIN STRING
 "ディルドで口淫中でなければ使えない！"
-> CONTEXT: Scripts/Game_Battler 3/598:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/598:36
+"Can't use unless the dildo is in mouth!"
 > END STRING
 
 > BEGIN STRING
 "ディルドで肛姦中でなければ使えない！"
-> CONTEXT: Scripts/Game_Battler 3/603:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/603:36
+"Can't use unless the dildo is in anus!"
 > END STRING
 
 > BEGIN STRING
 "相手が着衣中だと使えない！"
-> CONTEXT: Scripts/Game_Battler 3/629:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/629:36
+"Cannot be used if the opponent is clothed!"
 > END STRING
 
 > BEGIN STRING
 "相手が裸では使えない！"
-> CONTEXT: Scripts/Game_Battler 3/663:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/663:36
+"Can't use if the other person is naked!"
 > END STRING
 
 > BEGIN STRING
 "相手が挿入中だと使えない！"
-> CONTEXT: Scripts/Game_Battler 3/679:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/679:36
+"Can't use if the other person is inserted!"
 > END STRING
 
 > BEGIN STRING
@@ -9054,8 +9054,8 @@
 
 > BEGIN STRING
 "相手の口が塞がれてしまっていて使えない！"
-> CONTEXT: Scripts/Game_Battler 3/691:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/691:36
+"Can't use when the other person's mouth is covered!"
 > END STRING
 
 > BEGIN STRING
@@ -9067,33 +9067,33 @@
 
 > BEGIN STRING
 "相手のアソコが見える位置に無いので使えない！"
-> CONTEXT: Scripts/Game_Battler 3/703:36 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 3/751:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/703:36
+> CONTEXT: Scripts/Game_Battler 3/751:36
+"Can't use because no vagina is visible!"
 > END STRING
 
 > BEGIN STRING
 "相手のお尻が見える位置に無いので使えない！"
-> CONTEXT: Scripts/Game_Battler 3/715:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/715:36
+"Can't use because no ass is visible!"
 > END STRING
 
 > BEGIN STRING
 "相手が押さえ込まれていて使えない！"
-> CONTEXT: Scripts/Game_Battler 3/727:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/727:36
+"Can't use because opponent is pinned down!"
 > END STRING
 
 > BEGIN STRING
 "相手の尻尾は既に使用されている！"
-> CONTEXT: Scripts/Game_Battler 3/739:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/739:36
+"Opponent's tail is already in use!"
 > END STRING
 
 > BEGIN STRING
 "現の壁に阻まれて使用できない！"
-> CONTEXT: Scripts/Game_Battler 3/1183:38 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 3/1183:38
+"Blocked by the Reality Barrier!"
 > END STRING
 
 > BEGIN STRING
@@ -15911,7 +15911,7 @@
 > BEGIN STRING
 "お前"
 > CONTEXT: Scripts/Window_Petname_Change/175:6
-"you"
+"\#{$game_actors[101].name}"
 > END STRING
 
 > BEGIN STRING
@@ -15923,13 +15923,13 @@
 > BEGIN STRING
 "兄ちゃん"
 > CONTEXT: Scripts/Window_Petname_Change/179:6
-"sweetie"
+"Sweetie"
 > END STRING
 
 > BEGIN STRING
 "お兄ちゃん"
 > CONTEXT: Scripts/Window_Petname_Change/180:6
-"sweetie"
+"Sweetie"
 > END STRING
 
 > BEGIN STRING
@@ -19405,7 +19405,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "貪るように、\\n\\m\#{targetname}の体躯をまさぐった！"
 > CONTEXT: Scripts/RPG::Skilltext/772:28
-"Greedily \\n​m​groped \#{targetname}'s body!"
+" greedily \\n​m​groped \#{targetname}'s body!"
 > END STRING
 
 > BEGIN STRING
