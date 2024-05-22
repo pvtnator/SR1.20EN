@@ -1,7 +1,8 @@
 # Succubus Rhapsodia translation project.
 Mostly edited MTL using a combination of many tools and some basic understanding of Japanese.
 If you encounter issues, please read below so you understand what are relevant bugs to report.
-In general, please report game logic bugs (from a fresh save), but it's unnecessary to report untranslated lines.
+In general, please report game logic bugs (from a fresh save).
+If you want translations to be improved, look at the help section below.
 
 ### Original work by Dreamania. The official game is required to apply this patch.
 
@@ -9,16 +10,14 @@ In general, please report game logic bugs (from a fresh save), but it's unnecess
 ### What's done
 - Main story (NPC texts in maps)
 - UI elements (Skills, items, menus, systems, enemies)
-- Most combat text (descriptions of skills and events in battle)
-- Some character specific combat dialog
+- Combat text (descriptions of skills and events in battle)
+- Character specific combat dialog (Bosses are edited, regular enemies are not)
 
 ### Work in progress
-- Character specific combat/map dialog (the .rb files in the talk folder)
-- Translating rarer UI elements and combat text
-- Succubus pronoun system
+- Improving character specific combat/map dialog
 - Making texts that are generated from multiple parts more fluent
-- Testing (there might still be bugs; inconsistent translations tend to cause bugs in how the game operates)
-- Ensure main story is translated correctly (some parts have been difficult to translate, fluent Japanese speaker could help)
+- Testing (there might be bugs caused by the translation)
+- Hunting down remaining untranslated parts
 - Modify save files to match translations
 
 ### Future
@@ -49,10 +48,10 @@ In other words, it's best to start a new save after applying this mod, although 
 Note also that when you load a save, the current map is loaded from the save and changes won't be applied until you re-enter that map.
 
 ## Help
-If you want to help, consider the points under "Work in progress". However, if you wish to start translating, make sure you understand
-what the correct formatting is, and if the translated strings are used elsewhere, especially for control logic, make sure it's consistent.
-For combat text, various formatting of text exists. The locations of whitespaces may vary depending on needs, and it might be inconsistent without a good reason too.
-In any case, this area is tricky, so take care.
-You must also take care with text wrapping. It's easy to make it overflow. Though perhaps automatic adjusting of font or extending text boxes could be applied later.
-The easiest thing for anyone to start working on is the characters.txt. Maybe pick a character you like and translate all the lines! 
-Note that I'm not sure yet how to handle the pronouns/name system yet. In many cases, it may be best not to use the myname and target variables.
+If you want to help, the most helpful thing would be translating/editing character specific dialog in characters.txt. 
+However, if you wish to start translating, make sure you understand what the correct formatting is, 
+and if the translated strings are used elsewhere, especially for control logic, make sure it's consistent.
+You must also take care with text wrapping. It's easy to make it overflow.
+Note that #{myname} is not used, since in English there isn't much else to say than "I".
+For #{target}, it will either have the character's name or some kind of nickname, 
+but in Japanese, a lot of the time it's "you", so sentence structure needs to be edited in that regard.
