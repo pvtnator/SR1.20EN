@@ -52,7 +52,7 @@ def autotranslate(translations_file, lines):
                 context = lines[i][11:].strip()
                 contexts.append(context)
                 i += 1
-            if lines[i].strip() == "" and len(string)>3:
+            if lines[i].strip() == "" and len(string)>3 and len(contexts)<10:
                 batchi.append(i)
                 batcht += string.replace("#{myname}", "私").replace("#{target}", "あなた")
                 if len(batchi)>=100 or i > len(lines)-10:

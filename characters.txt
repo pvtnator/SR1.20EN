@@ -1,19 +1,4 @@
 > BEGIN STRING
-
-> CONTEXT: 00_System\Base_05.rb
-> CONTEXT: 00_System\Base_06.rb
-> CONTEXT: 00_System\Base_10.rb
-> CONTEXT: 00_System\Base_100.rb
-> CONTEXT: 00_System\Base_101.rb
-> CONTEXT: 00_System\Base_104.rb
-> CONTEXT: 00_System\Base_105.rb
-> CONTEXT: 00_System\Base_108.rb
-> CONTEXT: 00_System\Base_11.rb
-> CONTEXT: 00_System\Base_111.rb
-
-> END STRING
-
-> BEGIN STRING
 お兄さん
 > CONTEXT: 00_System\Base_05.rb
 > CONTEXT: 00_System\Base_06.rb
@@ -50,7 +35,7 @@ Dear
 > CONTEXT: 00_System\Base_156.rb
 > CONTEXT: 00_System\Base_37.rb
 > CONTEXT: 00_System\Base_38.rb
-
+Miss
 > END STRING
 
 > BEGIN STRING
@@ -65,7 +50,7 @@ Dear
 > CONTEXT: 00_System\Base_108.rb
 > CONTEXT: 00_System\Base_11.rb
 > CONTEXT: 00_System\Base_118.rb
-
+#{$msg.short_name($msg.t_partner)}
 > END STRING
 
 > BEGIN STRING
@@ -80,7 +65,7 @@ Dear
 > CONTEXT: 00_System\Base_137.rb
 > CONTEXT: 00_System\Base_156.rb
 > CONTEXT: 00_System\Base_21.rb
-
+#{$msg.short_name($msg.t_partner)}-chan
 > END STRING
 
 > BEGIN STRING
@@ -95,7 +80,7 @@ Dear
 > CONTEXT: 00_System\Base_38.rb
 > CONTEXT: 00_System\Base_53.rb
 > CONTEXT: 00_System\Base_54.rb
-
+#{$msg.short_name($msg.t_partner)}-san
 > END STRING
 
 > BEGIN STRING
@@ -110,7 +95,7 @@ Dear
 > CONTEXT: 00_System\Base_108.rb
 > CONTEXT: 00_System\Base_11.rb
 > CONTEXT: 00_System\Base_118.rb
-
+#{$msg.short_name($msg.t_target)}
 > END STRING
 
 > BEGIN STRING
@@ -125,7 +110,7 @@ Dear
 > CONTEXT: 00_System\Base_137.rb
 > CONTEXT: 00_System\Base_156.rb
 > CONTEXT: 00_System\Base_21.rb
-
+#{$msg.short_name($msg.t_target)}-chan
 > END STRING
 
 > BEGIN STRING
@@ -140,7 +125,7 @@ Dear
 > CONTEXT: 00_System\Base_38.rb
 > CONTEXT: 00_System\Base_53.rb
 > CONTEXT: 00_System\Base_54.rb
-
+#{$msg.short_name($msg.t_target)}-san
 > END STRING
 
 > BEGIN STRING
@@ -155,7 +140,7 @@ Dear
 > CONTEXT: 00_System\Base_108.rb
 > CONTEXT: 00_System\Base_11.rb
 > CONTEXT: 00_System\Base_118.rb
-
+#{$msg.short_name($msg.coop_leader)}
 > END STRING
 
 > BEGIN STRING
@@ -170,7 +155,7 @@ Dear
 > CONTEXT: 00_System\Base_137.rb
 > CONTEXT: 00_System\Base_156.rb
 > CONTEXT: 00_System\Base_21.rb
-
+#{$msg.short_name($msg.coop_leader)}-chan
 > END STRING
 
 > BEGIN STRING
@@ -185,7 +170,7 @@ Dear
 > CONTEXT: 00_System\Base_38.rb
 > CONTEXT: 00_System\Base_53.rb
 > CONTEXT: 00_System\Base_54.rb
-
+#{$msg.short_name($msg.coop_leader)}-san
 > END STRING
 
 > BEGIN STRING
@@ -200,7 +185,7 @@ Dear
 > CONTEXT: 00_System\Base_38.rb
 > CONTEXT: omake\999_template\Base.rb
 > CONTEXT: omake\999_template0925\Base.rb
-Pal
+Buddy
 > END STRING
 
 > BEGIN STRING
@@ -211,7 +196,7 @@ Pal
 > CONTEXT: 00_System\Base_11.rb
 > CONTEXT: 00_System\Base_145.rb
 > CONTEXT: 00_System\Base_146.rb
-
+Girl
 > END STRING
 
 > BEGIN STRING
@@ -220,69 +205,69 @@ Pal
 > CONTEXT: 00_System\Base_101.rb
 > CONTEXT: 00_System\Base_108.rb
 > CONTEXT: 00_System\Base_22.rb
-
+Sir
 > END STRING
 
 > BEGIN STRING
 ちび
 > CONTEXT: 00_System\Base_100.rb
 > CONTEXT: 00_System\Base_101.rb
-
+Kid
 > END STRING
 
 > BEGIN STRING
 ねえさん
 > CONTEXT: 00_System\Base_100.rb
 > CONTEXT: 00_System\Base_101.rb
-
+Girl
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.t_partner)}ねえさん
 > CONTEXT: 00_System\Base_100.rb
 > CONTEXT: 00_System\Base_101.rb
-
+#{$msg.short_name($msg.t_partner)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.t_target)}ねえさん
 > CONTEXT: 00_System\Base_100.rb
 > CONTEXT: 00_System\Base_101.rb
-
+#{$msg.short_name($msg.t_target)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.coop_leader)}ねえさん
 > CONTEXT: 00_System\Base_100.rb
 > CONTEXT: 00_System\Base_101.rb
-
+#{$msg.short_name($msg.coop_leader)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.t_partner)}姉さん
 > CONTEXT: 00_System\Base_104.rb
 > CONTEXT: 00_System\Base_105.rb
-
+#{$msg.short_name($msg.t_partner)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.t_target)}姉さん
 > CONTEXT: 00_System\Base_104.rb
 > CONTEXT: 00_System\Base_105.rb
-
+#{$msg.short_name($msg.t_target)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.coop_leader)}姉さん
 > CONTEXT: 00_System\Base_104.rb
 > CONTEXT: 00_System\Base_105.rb
-
+#{$msg.short_name($msg.coop_leader)}
 > END STRING
 
 > BEGIN STRING
 にーちゃん
 > CONTEXT: 00_System\Base_108.rb
-
+Girl
 > END STRING
 
 > BEGIN STRING
@@ -292,37 +277,37 @@ Pal
 > CONTEXT: 00_System\Base_26.rb
 > CONTEXT: 00_System\Base_31.rb
 > CONTEXT: 00_System\Base_32.rb
-
+Dude
 > END STRING
 
 > BEGIN STRING
 ねーちゃん
 > CONTEXT: 00_System\Base_108.rb
-
+Nee-chan
 > END STRING
 
 > BEGIN STRING
 ギャングリーダー
 > CONTEXT: 00_System\Base_108.rb
-
+Gang Leader
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.t_partner)}ねーちゃん
 > CONTEXT: 00_System\Base_108.rb
-
+#{$msg.short_name($msg.t_partner)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.t_target)}ねーちゃん
 > CONTEXT: 00_System\Base_108.rb
-
+#{$msg.short_name($msg.t_target)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.coop_leader)}ねーちゃん
 > CONTEXT: 00_System\Base_108.rb
-
+#{$msg.short_name($msg.coop_leader)}
 > END STRING
 
 > BEGIN STRING
@@ -331,7 +316,7 @@ Pal
 > CONTEXT: 00_System\Base_74.rb
 > CONTEXT: 00_System\Base_75.rb
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Onii-san
 > END STRING
 
 > BEGIN STRING
@@ -354,31 +339,31 @@ Dear
 > CONTEXT: 00_System\Base_111.rb
 > CONTEXT: 00_System\Base_74.rb
 > CONTEXT: 00_System\Base_75.rb
-
+Onee-san
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.t_partner)}ねーさま
 > CONTEXT: 00_System\Base_111.rb
-
+Mr. #{$msg.short_name($msg.t_partner)}
 > END STRING
 
 > BEGIN STRING
 ねーさま
 > CONTEXT: 00_System\Base_111.rb
-
+Nee-sama
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.t_target)}ねーさま
 > CONTEXT: 00_System\Base_111.rb
-
+#{$msg.short_name($msg.t_target)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.coop_leader)}ねーさま
 > CONTEXT: 00_System\Base_111.rb
-
+#{$msg.short_name($msg.coop_leader)}
 > END STRING
 
 > BEGIN STRING
@@ -403,19 +388,19 @@ Honey
 > CONTEXT: 00_System\Base_258.rb
 > CONTEXT: 00_System\Base_42.rb
 > CONTEXT: 00_System\Base_43.rb
-
+Lady
 > END STRING
 
 > BEGIN STRING
 貴女様
 > CONTEXT: 00_System\Base_118.rb
-
+Mrs. Lady
 > END STRING
 
 > BEGIN STRING
 ダークエンジェル
 > CONTEXT: 00_System\Base_118.rb
-
+Dark Angel
 > END STRING
 
 > BEGIN STRING
@@ -423,7 +408,7 @@ Honey
 > CONTEXT: 00_System\Base_118.rb
 > CONTEXT: 00_System\Base_42.rb
 > CONTEXT: 00_System\Base_43.rb
-
+#{$msg.short_name($msg.t_partner)}
 > END STRING
 
 > BEGIN STRING
@@ -431,7 +416,7 @@ Honey
 > CONTEXT: 00_System\Base_118.rb
 > CONTEXT: 00_System\Base_96.rb
 > CONTEXT: 00_System\Base_97.rb
-
+#{$msg.short_name($msg.t_partner)}
 > END STRING
 
 > BEGIN STRING
@@ -439,7 +424,7 @@ Honey
 > CONTEXT: 00_System\Base_118.rb
 > CONTEXT: 00_System\Base_42.rb
 > CONTEXT: 00_System\Base_43.rb
-
+#{$msg.short_name($msg.t_target)}
 > END STRING
 
 > BEGIN STRING
@@ -447,7 +432,7 @@ Honey
 > CONTEXT: 00_System\Base_118.rb
 > CONTEXT: 00_System\Base_96.rb
 > CONTEXT: 00_System\Base_97.rb
-
+#{$msg.short_name($msg.t_target)}
 > END STRING
 
 > BEGIN STRING
@@ -455,7 +440,7 @@ Honey
 > CONTEXT: 00_System\Base_118.rb
 > CONTEXT: 00_System\Base_42.rb
 > CONTEXT: 00_System\Base_43.rb
-
+#{$msg.short_name($msg.coop_leader)}
 > END STRING
 
 > BEGIN STRING
@@ -463,21 +448,21 @@ Honey
 > CONTEXT: 00_System\Base_118.rb
 > CONTEXT: 00_System\Base_96.rb
 > CONTEXT: 00_System\Base_97.rb
-
+#{$msg.short_name($msg.coop_leader)}
 > END STRING
 
 > BEGIN STRING
 彼女
 > CONTEXT: 00_System\Base_126.rb
 > CONTEXT: 00_System\Base_16.rb
-
+Girl
 > END STRING
 
 > BEGIN STRING
 彼
 > CONTEXT: 00_System\Base_126.rb
 > CONTEXT: 00_System\Base_16.rb
-
+Boy
 > END STRING
 
 > BEGIN STRING
@@ -489,28 +474,28 @@ Mister
 > BEGIN STRING
 お姉様
 > CONTEXT: 00_System\Base_127.rb
-
+Onee-sama
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.t_partner)}姉様
 > CONTEXT: 00_System\Base_127.rb
 > CONTEXT: 00_System\Base_63.rb
-
+#{$msg.short_name($msg.t_partner)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.t_target)}姉様
 > CONTEXT: 00_System\Base_127.rb
 > CONTEXT: 00_System\Base_63.rb
-
+#{$msg.short_name($msg.t_target)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.coop_leader)}姉様
 > CONTEXT: 00_System\Base_127.rb
 > CONTEXT: 00_System\Base_63.rb
-
+#{$msg.short_name($msg.coop_leader)}
 > END STRING
 
 > BEGIN STRING
@@ -521,25 +506,25 @@ Mister
 > CONTEXT: 00_System\Base_15.rb
 > CONTEXT: 00_System\Base_16.rb
 > CONTEXT: 00_System\Base_90.rb
-
+Lady
 > END STRING
 
 > BEGIN STRING
 ネイジュレンジ様
 > CONTEXT: 00_System\Base_133.rb
-
+Neijurange
 > END STRING
 
 > BEGIN STRING
 ネイジュレンジ
 > CONTEXT: 00_System\Base_133.rb
-
+Neijurange
 > END STRING
 
 > BEGIN STRING
 ネイ様
 > CONTEXT: 00_System\Base_133.rb
-
+Nei
 > END STRING
 
 > BEGIN STRING
@@ -552,7 +537,7 @@ Mister
 > CONTEXT: 00_System\Base_85.rb
 > CONTEXT: omake\999_template\Base.rb
 > CONTEXT: omake\999_template0925\Base.rb
-
+Succubus
 > END STRING
 
 > BEGIN STRING
@@ -561,44 +546,44 @@ Mister
 > CONTEXT: 00_System\Base_27.rb
 > CONTEXT: 00_System\Base_31.rb
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-you
+#{$msg.short_name($msg.t_target)}
 > END STRING
 
 > BEGIN STRING
 あいつ
 > CONTEXT: 00_System\Base_141.rb
 > CONTEXT: 00_System\Base_31.rb
-
+Dude
 > END STRING
 
 > BEGIN STRING
 そなた
 > CONTEXT: 00_System\Base_152.rb
-
+#{$msg.short_name($msg.t_partner)}
 > END STRING
 
 > BEGIN STRING
 童
 > CONTEXT: 00_System\Base_152.rb
-
+Kid
 > END STRING
 
 > BEGIN STRING
 おぬし
 > CONTEXT: 00_System\Base_152.rb
-
+#{$msg.short_name($msg.t_partner)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.t_partner)}どの
 > CONTEXT: 00_System\Base_152.rb
-
+#{$msg.short_name($msg.t_partner)}
 > END STRING
 
 > BEGIN STRING
 奥方
 > CONTEXT: 00_System\Base_152.rb
-
+Lady
 > END STRING
 
 > BEGIN STRING
@@ -619,87 +604,87 @@ Important person
 > BEGIN STRING
 #{$msg.short_name($msg.t_target)}どの
 > CONTEXT: 00_System\Base_152.rb
-
+#{$msg.short_name($msg.t_target)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.coop_leader)}どの
 > CONTEXT: 00_System\Base_152.rb
-
+#{$msg.short_name($msg.coop_leader)}
 > END STRING
 
 > BEGIN STRING
 あの子
 > CONTEXT: 00_System\Base_156.rb
-
+Girl
 > END STRING
 
 > BEGIN STRING
 おにーちゃん
 > CONTEXT: 00_System\Base_21.rb
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Onii-chan
 > END STRING
 
 > BEGIN STRING
 おねーちゃん
 > CONTEXT: 00_System\Base_21.rb
-
+Onee-chan
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.t_partner)}おねーちゃん
 > CONTEXT: 00_System\Base_21.rb
-
+#{$msg.short_name($msg.t_partner)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.t_target)}おねーちゃん
 > CONTEXT: 00_System\Base_21.rb
-
+#{$msg.short_name($msg.t_target)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.coop_leader)}おねーちゃん
 > CONTEXT: 00_System\Base_21.rb
-
+#{$msg.short_name($msg.coop_leader)}
 > END STRING
 
 > BEGIN STRING
 デビル
 > CONTEXT: 00_System\Base_22.rb
-
+Devil
 > END STRING
 
 > BEGIN STRING
 デーモン
 > CONTEXT: 00_System\Base_22.rb
 > CONTEXT: 00_System\Base_27.rb
-
+Demon
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.t_partner)}さま
 > CONTEXT: 00_System\Base_22.rb
-
+#{$msg.short_name($msg.t_partner)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.t_target)}さま
 > CONTEXT: 00_System\Base_22.rb
-
+#{$msg.short_name($msg.t_target)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.coop_leader)}さま
 > CONTEXT: 00_System\Base_22.rb
-
+#{$msg.short_name($msg.coop_leader)}
 > END STRING
 
 > BEGIN STRING
 アンタ
 > CONTEXT: 00_System\Base_252.rb
-
+Dude
 > END STRING
 
 > BEGIN STRING
@@ -707,7 +692,7 @@ Important person
 > CONTEXT: 00_System\Base_253.rb
 > CONTEXT: 00_System\Base_258.rb
 > CONTEXT: 00_System\Base_54.rb
-
+#{$msg.t_partner.name}
 > END STRING
 
 > BEGIN STRING
@@ -716,62 +701,62 @@ Important person
 > CONTEXT: 00_System\Base_257.rb
 > CONTEXT: 00_System\Base_258.rb
 > CONTEXT: 00_System\Base_54.rb
-
+#{$msg.t_target.name}
 > END STRING
 
 > BEGIN STRING
 #{$msg.coop_leader.name}
 > CONTEXT: 00_System\Base_253.rb
 > CONTEXT: 00_System\Base_258.rb
-
+#{$msg.coop_leader.name}
 > END STRING
 
 > BEGIN STRING
 貴様
 > CONTEXT: 00_System\Base_254.rb
-you bitch
+Idiot
 > END STRING
 
 > BEGIN STRING
 #{$msg.t_target.name}様
 > CONTEXT: 00_System\Base_256.rb
-
+#{$msg.t_target.name}
 > END STRING
 
 > BEGIN STRING
 #{$msg.t_partner.name}様
 > CONTEXT: 00_System\Base_256.rb
-
+#{$msg.t_partner.name}
 > END STRING
 
 > BEGIN STRING
 #{$msg.coop_leader.name}様
 > CONTEXT: 00_System\Base_256.rb
-
+#{$msg.coop_leader.name}
 > END STRING
 
 > BEGIN STRING
 #{$game_actors[101].name}
 > CONTEXT: 00_System\Base_257.rb
-
+#{$game_actors[101].name}
 > END STRING
 
 > BEGIN STRING
 #{$msg.t_partner}
 > CONTEXT: 00_System\Base_258.rb
-
+#{$msg.t_partner}
 > END STRING
 
 > BEGIN STRING
 #{$msg.t_target}
 > CONTEXT: 00_System\Base_258.rb
-
+#{$msg.t_target}
 > END STRING
 
 > BEGIN STRING
 #{$msg.coop_leader}
 > CONTEXT: 00_System\Base_258.rb
-
+#{$msg.coop_leader}
 > END STRING
 
 > BEGIN STRING
@@ -779,7 +764,7 @@ you bitch
 > CONTEXT: 00_System\Base_259.rb
 > CONTEXT: 00_System\Base_42.rb
 > CONTEXT: 00_System\Base_43.rb
-Pal
+Boy
 > END STRING
 
 > BEGIN STRING
@@ -793,47 +778,47 @@ Lad
 > CONTEXT: 00_System\Base_26.rb
 > CONTEXT: 00_System\Base_31.rb
 > CONTEXT: 00_System\Base_32.rb
-
+Miss
 > END STRING
 
 > BEGIN STRING
 姐さん
 > CONTEXT: 00_System\Base_26.rb
 > CONTEXT: 00_System\Base_27.rb
-
+Nee-san
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.t_partner)}姐さん
 > CONTEXT: 00_System\Base_26.rb
 > CONTEXT: 00_System\Base_27.rb
-
+#{$msg.short_name($msg.t_partner)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.t_target)}姐さん
 > CONTEXT: 00_System\Base_26.rb
 > CONTEXT: 00_System\Base_27.rb
-
+#{$msg.short_name($msg.t_target)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.coop_leader)}姐さん
 > CONTEXT: 00_System\Base_26.rb
 > CONTEXT: 00_System\Base_27.rb
-
+#{$msg.short_name($msg.coop_leader)}
 > END STRING
 
 > BEGIN STRING
 おチビ
 > CONTEXT: 00_System\Base_27.rb
-
+Kid
 > END STRING
 
 > BEGIN STRING
 インプ
 > CONTEXT: 00_System\Base_27.rb
-
+Imp
 > END STRING
 
 > BEGIN STRING
@@ -848,14 +833,14 @@ Boy
 先生
 > CONTEXT: 00_System\Base_37.rb
 > CONTEXT: 00_System\Base_38.rb
-
+"Sensei"
 > END STRING
 
 > BEGIN STRING
 ウィッチ
 > CONTEXT: 00_System\Base_37.rb
 > CONTEXT: 00_System\Base_38.rb
-
+Witch
 > END STRING
 
 > BEGIN STRING
@@ -864,7 +849,7 @@ Boy
 > CONTEXT: 00_System\Base_38.rb
 > CONTEXT: 00_System\Base_42.rb
 > CONTEXT: 00_System\Base_43.rb
-
+#{$msg.short_name($msg.t_partner)}
 > END STRING
 
 > BEGIN STRING
@@ -873,7 +858,7 @@ Boy
 > CONTEXT: 00_System\Base_38.rb
 > CONTEXT: 00_System\Base_42.rb
 > CONTEXT: 00_System\Base_43.rb
-
+#{$msg.short_name($msg.t_target)}
 > END STRING
 
 > BEGIN STRING
@@ -882,40 +867,40 @@ Boy
 > CONTEXT: 00_System\Base_38.rb
 > CONTEXT: 00_System\Base_42.rb
 > CONTEXT: 00_System\Base_43.rb
-
+#{$msg.short_name($msg.coop_leader)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.t_partner)}君
 > CONTEXT: 00_System\Base_42.rb
 > CONTEXT: 00_System\Base_43.rb
-
+#{$msg.short_name($msg.t_partner)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.t_target)}君
 > CONTEXT: 00_System\Base_42.rb
 > CONTEXT: 00_System\Base_43.rb
-
+#{$msg.short_name($msg.t_target)}
 > END STRING
 
 > BEGIN STRING
 #{$msg.short_name($msg.coop_leader)}君
 > CONTEXT: 00_System\Base_42.rb
 > CONTEXT: 00_System\Base_43.rb
-
+#{$msg.short_name($msg.coop_leader)}
 > END STRING
 
 > BEGIN STRING
 ご主人様
 > CONTEXT: 00_System\Base_63.rb
-My lord
+My Lord
 > END STRING
 
 > BEGIN STRING
 姉様
 > CONTEXT: 00_System\Base_63.rb
-
+Ane-sama
 > END STRING
 
 > BEGIN STRING
@@ -923,28 +908,28 @@ My lord
 > CONTEXT: 00_System\Base_80.rb
 > CONTEXT: 00_System\Base_85.rb
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Onii-san
 > END STRING
 
 > BEGIN STRING
 おねえさん
 > CONTEXT: 00_System\Base_80.rb
 > CONTEXT: 00_System\Base_85.rb
-
+Onee-san
 > END STRING
 
 > BEGIN STRING
 おちびさん
 > CONTEXT: 00_System\Base_80.rb
 > CONTEXT: 00_System\Base_85.rb
-
+Girl
 > END STRING
 
 > BEGIN STRING
 お客様
 > CONTEXT: 00_System\Base_96.rb
 > CONTEXT: 00_System\Base_97.rb
-
+Client
 > END STRING
 
 > BEGIN STRING
@@ -952,45 +937,45 @@ My lord
 > CONTEXT: 00_System\Base_96.rb
 > CONTEXT: 00_System\Base_97.rb
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+I
 > END STRING
 
 > BEGIN STRING
 お嬢様
 > CONTEXT: 00_System\Base_96.rb
 > CONTEXT: 00_System\Base_97.rb
-
+Lady
 > END STRING
 
 > BEGIN STRING
 奥様
 > CONTEXT: 00_System\Base_96.rb
 > CONTEXT: 00_System\Base_97.rb
-
+Lady
 > END STRING
 
 > BEGIN STRING
 好色
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Lewd
 > END STRING
 
 > BEGIN STRING
 あたし
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+I
 > END STRING
 
 > BEGIN STRING
 主人公名くん
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+主人公名
 > END STRING
 
 > BEGIN STRING
 陽気
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Cheerful
 > END STRING
 
 > BEGIN STRING
@@ -1002,205 +987,205 @@ I
 > BEGIN STRING
 わたし
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+I
 > END STRING
 
 > BEGIN STRING
 主人公名
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+主人公名
 > END STRING
 
 > BEGIN STRING
 わたくし
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+I
 > END STRING
 
 > BEGIN STRING
 アタシ
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+I
 > END STRING
 
 > BEGIN STRING
 勝ち気
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Focused
 > END STRING
 
 > BEGIN STRING
 虚勢
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Braggy
 > END STRING
 
 > BEGIN STRING
 あたい
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+I
 > END STRING
 
 > BEGIN STRING
 高慢
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Proud
 > END STRING
 
 > BEGIN STRING
 わらわ
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+I
 > END STRING
 
 > BEGIN STRING
 おれ
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+I
 > END STRING
 
 > BEGIN STRING
 兄貴
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Big Brother
 > END STRING
 
 > BEGIN STRING
 我
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+I
 > END STRING
 
 > BEGIN STRING
 上品
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Classy
 > END STRING
 
 > BEGIN STRING
 先輩
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Senpai
 > END STRING
 
 > BEGIN STRING
 淡泊
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Chill
 > END STRING
 
 > BEGIN STRING
 ぼく
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+I
 > END STRING
 
 > BEGIN STRING
 僕
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+I
 > END STRING
 
 > BEGIN STRING
 主人公名君
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+主人公名
 > END STRING
 
 > BEGIN STRING
 自分
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+I
 > END STRING
 
 > BEGIN STRING
 内気
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Shy
 > END STRING
 
 > BEGIN STRING
 主人公名さん
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+主人公名
 > END STRING
 
 > BEGIN STRING
 従順
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Obedient
 > END STRING
 
 > BEGIN STRING
 主人公短縮名兄様
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+主人公短縮名
 > END STRING
 
 > BEGIN STRING
 倒錯
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Perverted
 > END STRING
 
 > BEGIN STRING
 不思議
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Mysterious
 > END STRING
 
 > BEGIN STRING
 うち
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+I
 > END STRING
 
 > BEGIN STRING
 主人公名氏
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+主人公名
 > END STRING
 
 > BEGIN STRING
 天然
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Natural
 > END STRING
 
 > BEGIN STRING
 夢魔名
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+夢魔名
 > END STRING
 
 > BEGIN STRING
 主人公名ちゃん
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+主人公名
 > END STRING
 
 > BEGIN STRING
 柔和
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Gentle
 > END STRING
 
 > BEGIN STRING
 ますたー
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Master
 > END STRING
 
 > BEGIN STRING
 くいーん
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Queen
 > END STRING
 
 > BEGIN STRING
 ますたーさま
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Master
 > END STRING
 
 > BEGIN STRING
@@ -1212,7 +1197,7 @@ Master
 > BEGIN STRING
 主人公名様
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+主人公名
 > END STRING
 
 > BEGIN STRING
@@ -1224,109 +1209,109 @@ Husband
 > BEGIN STRING
 甘え性
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Spoiled
 > END STRING
 
 > BEGIN STRING
 おれさま
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+I
 > END STRING
 
 > BEGIN STRING
 意地悪
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Mean
 > END STRING
 
 > BEGIN STRING
 お兄さま
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Boy
 > END STRING
 
 > BEGIN STRING
 貴殿
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+主人公名
 > END STRING
 
 > BEGIN STRING
 卿
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Lord
 > END STRING
 
 > BEGIN STRING
 アタイ
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+I
 > END STRING
 
 > BEGIN STRING
 主人公短縮名ちゃん
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+主人公短縮名
 > END STRING
 
 > BEGIN STRING
 主上
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+King
 > END STRING
 
 > BEGIN STRING
 私め
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+I
 > END STRING
 
 > BEGIN STRING
 主人公名殿
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+主人公名
 > END STRING
 
 > BEGIN STRING
 小生
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+I
 > END STRING
 
 > BEGIN STRING
 旦那
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Daddy
 > END STRING
 
 > BEGIN STRING
 わっち
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+I
 > END STRING
 
 > BEGIN STRING
 あるじ様
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+Master
 > END STRING
 
 > BEGIN STRING
 夢魔短縮名
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+夢魔短縮名
 > END STRING
 
 > BEGIN STRING
 主人公短縮名兄ちゃん
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+主人公短縮名
 > END STRING
 
 > BEGIN STRING
 主人公短縮名くん
 > CONTEXT: 00_System\Talk_Sys_Defaultname.rb
-
+主人公短縮名
 > END STRING
 
 > BEGIN STRING
@@ -1341,112 +1326,7 @@ Husband
 > CONTEXT: 104_Werecat_09\C_BattleEvent.rb
 > CONTEXT: 105_Werecat_OFE14\C_BattleEvent.rb
 > CONTEXT: 108_Goblin_07\C_BattleEvent.rb
-
-> END STRING
-
-> BEGIN STRING
-md
-> CONTEXT: 05_LesserSuccubus_00\C_BattleEvent.rb
-> CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
-> CONTEXT: 05_LesserSuccubus_00\F_Crisis.rb
-> CONTEXT: 05_LesserSuccubus_00\F_Resist_hold.rb
-> CONTEXT: 05_LesserSuccubus_00\F_Resist_undress.rb
-> CONTEXT: 05_LesserSuccubus_00\M_Crisis.rb
-> CONTEXT: 05_LesserSuccubus_00\M_Resist_hold.rb
-> CONTEXT: 05_LesserSuccubus_00\M_Resist_undress.rb
-> CONTEXT: 05_LesserSuccubus_07\C_BattleEvent.rb
-> CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
-
-> END STRING
-
-> BEGIN STRING
-12
-> CONTEXT: 05_LesserSuccubus_00\C_BattleEvent.rb
-> CONTEXT: 05_LesserSuccubus_00\F_Resist_hold.rb
-> CONTEXT: 05_LesserSuccubus_00\M_Resist_hold.rb
-> CONTEXT: 05_LesserSuccubus_07\C_BattleEvent.rb
-> CONTEXT: 05_LesserSuccubus_07\F_Resist_hold.rb
-> CONTEXT: 05_LesserSuccubus_07\M_Resist_hold.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_BattleEvent.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\F_Resist_hold.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\M_Resist_hold.rb
-> CONTEXT: 100_Werewolf_11\C_BattleEvent.rb
-
-> END STRING
-
-> BEGIN STRING
-14
-> CONTEXT: 05_LesserSuccubus_00\C_BattleEvent.rb
-> CONTEXT: 05_LesserSuccubus_07\C_BattleEvent.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_BattleEvent.rb
-> CONTEXT: 100_Werewolf_11\C_BattleEvent.rb
-> CONTEXT: 100_Werewolf_13\C_BattleEvent.rb
-> CONTEXT: 101_Werewolf_OFE05\C_BattleEvent.rb
-> CONTEXT: 104_Werecat_08\C_BattleEvent.rb
-> CONTEXT: 104_Werecat_09\C_BattleEvent.rb
-> CONTEXT: 105_Werecat_OFE14\C_BattleEvent.rb
-> CONTEXT: 108_Goblin_07\C_BattleEvent.rb
-
-> END STRING
-
-> BEGIN STRING
-0
-> CONTEXT: 05_LesserSuccubus_00\C_BattleEvent.rb
-> CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
-> CONTEXT: 05_LesserSuccubus_07\C_BattleEvent.rb
-> CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_BattleEvent.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_Talk.rb
-> CONTEXT: 100_Werewolf_11\C_BattleEvent.rb
-> CONTEXT: 100_Werewolf_11\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\C_BattleEvent.rb
-> CONTEXT: 100_Werewolf_13\C_Talk.rb
-
-> END STRING
-
-> BEGIN STRING
-13
-> CONTEXT: 05_LesserSuccubus_00\C_BattleEvent.rb
-> CONTEXT: 05_LesserSuccubus_07\C_BattleEvent.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_BattleEvent.rb
-> CONTEXT: 100_Werewolf_11\C_BattleEvent.rb
-> CONTEXT: 100_Werewolf_13\C_BattleEvent.rb
-> CONTEXT: 101_Werewolf_OFE05\C_BattleEvent.rb
-> CONTEXT: 104_Werecat_08\C_BattleEvent.rb
-> CONTEXT: 104_Werecat_09\C_BattleEvent.rb
-> CONTEXT: 105_Werecat_OFE14\C_BattleEvent.rb
-> CONTEXT: 108_Goblin_07\C_BattleEvent.rb
-
-> END STRING
-
-> BEGIN STRING
-11
-> CONTEXT: 05_LesserSuccubus_00\C_BattleEvent.rb
-> CONTEXT: 05_LesserSuccubus_00\F_Resist_undress.rb
-> CONTEXT: 05_LesserSuccubus_00\M_Resist_hold.rb
-> CONTEXT: 05_LesserSuccubus_00\M_Resist_undress.rb
-> CONTEXT: 05_LesserSuccubus_07\C_BattleEvent.rb
-> CONTEXT: 05_LesserSuccubus_07\F_Resist_undress.rb
-> CONTEXT: 05_LesserSuccubus_07\M_Resist_hold.rb
-> CONTEXT: 05_LesserSuccubus_07\M_Resist_undress.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_BattleEvent.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\F_Resist_undress.rb
-
-> END STRING
-
-> BEGIN STRING
-tx1
-> CONTEXT: 05_LesserSuccubus_00\C_BattleEvent.rb
-> CONTEXT: 05_LesserSuccubus_00\C_MapChat.rb
-> CONTEXT: 05_LesserSuccubus_00\C_MapEvent.rb
-> CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
-> CONTEXT: 05_LesserSuccubus_00\F_Attack.rb
-> CONTEXT: 05_LesserSuccubus_00\F_Attack_bedin.rb
-> CONTEXT: 05_LesserSuccubus_00\F_Crisis.rb
-> CONTEXT: 05_LesserSuccubus_00\F_Ecstasy.rb
-> CONTEXT: 05_LesserSuccubus_00\F_Ecstasy_Hold.rb
-> CONTEXT: 05_LesserSuccubus_00\F_Ecstasy_Self.rb
-
+Combat start
 > END STRING
 
 > BEGIN STRING
@@ -1546,21 +1426,6 @@ tx1
 > END STRING
 
 > BEGIN STRING
-3
-> CONTEXT: 05_LesserSuccubus_00\C_BattleEvent.rb
-> CONTEXT: 05_LesserSuccubus_00\F_Crisis.rb
-> CONTEXT: 05_LesserSuccubus_00\F_Resist_hold.rb
-> CONTEXT: 05_LesserSuccubus_00\F_Resist_undress.rb
-> CONTEXT: 05_LesserSuccubus_00\M_Crisis.rb
-> CONTEXT: 05_LesserSuccubus_00\M_Resist_hold.rb
-> CONTEXT: 05_LesserSuccubus_00\M_Resist_undress.rb
-> CONTEXT: 05_LesserSuccubus_07\C_BattleEvent.rb
-> CONTEXT: 05_LesserSuccubus_07\F_Crisis.rb
-> CONTEXT: 05_LesserSuccubus_07\F_Resist_hold.rb
-
-> END STRING
-
-> BEGIN STRING
 契約
 > CONTEXT: 05_LesserSuccubus_00\C_BattleEvent.rb
 > CONTEXT: 05_LesserSuccubus_07\C_BattleEvent.rb
@@ -1578,21 +1443,6 @@ tx1
 > BEGIN STRING
 ねぇねぇ、#{target}……？\n　#{myname}も連れてってくれないかなぁ\\H
 > CONTEXT: 05_LesserSuccubus_00\C_BattleEvent.rb
-
-> END STRING
-
-> BEGIN STRING
-tx2
-> CONTEXT: 05_LesserSuccubus_00\C_BattleEvent.rb
-> CONTEXT: 05_LesserSuccubus_00\C_MapEvent.rb
-> CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
-> CONTEXT: 05_LesserSuccubus_00\F_Ecstasy_Hold.rb
-> CONTEXT: 05_LesserSuccubus_00\F_Ecstasy_Self.rb
-> CONTEXT: 05_LesserSuccubus_00\M_Ecstasy.rb
-> CONTEXT: 05_LesserSuccubus_00\M_Ecstasy_Hold.rb
-> CONTEXT: 05_LesserSuccubus_00\M_Ecstasy_Self.rb
-> CONTEXT: 05_LesserSuccubus_07\C_BattleEvent.rb
-> CONTEXT: 05_LesserSuccubus_07\C_MapEvent.rb
 
 > END STRING
 
@@ -1635,40 +1485,10 @@ tx2
 > END STRING
 
 > BEGIN STRING
-tx4
-> CONTEXT: 05_LesserSuccubus_00\C_MapChat.rb
-> CONTEXT: 05_LesserSuccubus_00\C_MapEvent.rb
-> CONTEXT: 05_LesserSuccubus_07\C_MapChat.rb
-> CONTEXT: 05_LesserSuccubus_07\C_MapEvent.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_MapChat.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_MapEvent.rb
-> CONTEXT: 100_Werewolf_11\C_MapChat.rb
-> CONTEXT: 100_Werewolf_11\C_MapEvent.rb
-> CONTEXT: 100_Werewolf_13\C_MapChat.rb
-> CONTEXT: 100_Werewolf_13\C_MapEvent.rb
-
-> END STRING
-
-> BEGIN STRING
 #{speaker}は、\n#{master}の下半身を熱い視線で見ている……！
 > CONTEXT: 05_LesserSuccubus_00\C_MapChat.rb
 > CONTEXT: 05_LesserSuccubus_07\C_MapChat.rb
 > CONTEXT: 06_LesserSuccubus_OFE00\C_MapChat.rb
-
-> END STRING
-
-> BEGIN STRING
-TALKTEXT
-> CONTEXT: 05_LesserSuccubus_00\C_MapChat.rb
-> CONTEXT: 05_LesserSuccubus_00\C_MapEvent.rb
-> CONTEXT: 05_LesserSuccubus_07\C_MapChat.rb
-> CONTEXT: 05_LesserSuccubus_07\C_MapEvent.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_MapChat.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_MapEvent.rb
-> CONTEXT: 100_Werewolf_11\C_MapChat.rb
-> CONTEXT: 100_Werewolf_11\C_MapEvent.rb
-> CONTEXT: 100_Werewolf_13\C_MapChat.rb
-> CONTEXT: 100_Werewolf_13\C_MapEvent.rb
 
 > END STRING
 
@@ -1766,21 +1586,6 @@ Favorite
 > CONTEXT: 05_LesserSuccubus_00\C_MapChat.rb
 > CONTEXT: 05_LesserSuccubus_07\C_MapChat.rb
 > CONTEXT: 06_LesserSuccubus_OFE00\C_MapChat.rb
-
-> END STRING
-
-> BEGIN STRING
-tx3
-> CONTEXT: 05_LesserSuccubus_00\C_MapChat.rb
-> CONTEXT: 05_LesserSuccubus_00\C_MapEvent.rb
-> CONTEXT: 05_LesserSuccubus_07\C_MapChat.rb
-> CONTEXT: 05_LesserSuccubus_07\C_MapEvent.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_BattleEvent.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_MapChat.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_MapEvent.rb
-> CONTEXT: 100_Werewolf_11\C_BattleEvent.rb
-> CONTEXT: 100_Werewolf_11\C_MapEvent.rb
-> CONTEXT: 100_Werewolf_13\C_BattleEvent.rb
 
 > END STRING
 
@@ -2311,7 +2116,7 @@ tx3
 > CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
 > CONTEXT: 05_LesserSuccubus_07\F_Ecstasy.rb
 > CONTEXT: 05_LesserSuccubus_07\F_Ecstasy_Hold.rb
-
+#{giggle}
 > END STRING
 
 > BEGIN STRING
@@ -2323,37 +2128,7 @@ tx3
 > END STRING
 
 > BEGIN STRING
-22
-> CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
-> CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_Talk.rb
-> CONTEXT: 100_Werewolf_11\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\(置換済)\C_Talk.rb
-> CONTEXT: 101_Werewolf_OFE05\C_Talk.rb
-> CONTEXT: 104_Werecat_08\C_Talk.rb
-> CONTEXT: 104_Werecat_09\C_Talk.rb
-> CONTEXT: 105_Werecat_OFE14\C_Talk.rb
-
-> END STRING
-
-> BEGIN STRING
 不成立
-> CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
-> CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_Talk.rb
-> CONTEXT: 100_Werewolf_11\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\(置換済)\C_Talk.rb
-> CONTEXT: 101_Werewolf_OFE05\C_Talk.rb
-> CONTEXT: 104_Werecat_08\C_Talk.rb
-> CONTEXT: 104_Werecat_09\C_Talk.rb
-> CONTEXT: 105_Werecat_OFE14\C_Talk.rb
-
-> END STRING
-
-> BEGIN STRING
-27
 > CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
 > CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
 > CONTEXT: 06_LesserSuccubus_OFE00\C_Talk.rb
@@ -2443,21 +2218,6 @@ tx3
 > END STRING
 
 > BEGIN STRING
-24
-> CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
-> CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_Talk.rb
-> CONTEXT: 100_Werewolf_11\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\(置換済)\C_Talk.rb
-> CONTEXT: 101_Werewolf_OFE05\C_Talk.rb
-> CONTEXT: 104_Werecat_08\C_Talk.rb
-> CONTEXT: 104_Werecat_09\C_Talk.rb
-> CONTEXT: 105_Werecat_OFE14\C_Talk.rb
-
-> END STRING
-
-> BEGIN STRING
 主人公脱衣
 > CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
 > CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
@@ -2474,21 +2234,6 @@ tx3
 
 > BEGIN STRING
 夢魔脱衣
-> CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
-> CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_Talk.rb
-> CONTEXT: 100_Werewolf_11\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\(置換済)\C_Talk.rb
-> CONTEXT: 101_Werewolf_OFE05\C_Talk.rb
-> CONTEXT: 104_Werecat_08\C_Talk.rb
-> CONTEXT: 104_Werecat_09\C_Talk.rb
-> CONTEXT: 105_Werecat_OFE14\C_Talk.rb
-
-> END STRING
-
-> BEGIN STRING
-23
 > CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
 > CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
 > CONTEXT: 06_LesserSuccubus_OFE00\C_Talk.rb
@@ -2533,21 +2278,6 @@ Semen: genitals
 > END STRING
 
 > BEGIN STRING
-25
-> CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
-> CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_Talk.rb
-> CONTEXT: 100_Werewolf_11\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\(置換済)\C_Talk.rb
-> CONTEXT: 101_Werewolf_OFE05\C_Talk.rb
-> CONTEXT: 104_Werecat_08\C_Talk.rb
-> CONTEXT: 104_Werecat_09\C_Talk.rb
-> CONTEXT: 105_Werecat_OFE14\C_Talk.rb
-
-> END STRING
-
-> BEGIN STRING
 交合
 > CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
 > CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
@@ -2560,51 +2290,6 @@ Semen: genitals
 > CONTEXT: 104_Werecat_09\C_Talk.rb
 > CONTEXT: 105_Werecat_OFE14\C_Talk.rb
 Mating
-> END STRING
-
-> BEGIN STRING
-26
-> CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
-> CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_Talk.rb
-> CONTEXT: 100_Werewolf_11\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\(置換済)\C_Talk.rb
-> CONTEXT: 101_Werewolf_OFE05\C_Talk.rb
-> CONTEXT: 104_Werecat_08\C_Talk.rb
-> CONTEXT: 104_Werecat_09\C_Talk.rb
-> CONTEXT: 105_Werecat_OFE14\C_Talk.rb
-
-> END STRING
-
-> BEGIN STRING
-20
-> CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
-> CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_Talk.rb
-> CONTEXT: 100_Werewolf_11\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\(置換済)\C_Talk.rb
-> CONTEXT: 101_Werewolf_OFE05\C_Talk.rb
-> CONTEXT: 104_Werecat_08\C_Talk.rb
-> CONTEXT: 104_Werecat_09\C_Talk.rb
-> CONTEXT: 105_Werecat_OFE14\C_Talk.rb
-
-> END STRING
-
-> BEGIN STRING
-21
-> CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
-> CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_Talk.rb
-> CONTEXT: 100_Werewolf_11\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\(置換済)\C_Talk.rb
-> CONTEXT: 101_Werewolf_OFE05\C_Talk.rb
-> CONTEXT: 104_Werecat_08\C_Talk.rb
-> CONTEXT: 104_Werecat_09\C_Talk.rb
-> CONTEXT: 105_Werecat_OFE14\C_Talk.rb
-
 > END STRING
 
 > BEGIN STRING
@@ -2632,21 +2317,6 @@ Mating
 > END STRING
 
 > BEGIN STRING
-28
-> CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
-> CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_Talk.rb
-> CONTEXT: 100_Werewolf_11\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\(置換済)\C_Talk.rb
-> CONTEXT: 101_Werewolf_OFE05\C_Talk.rb
-> CONTEXT: 104_Werecat_08\C_Talk.rb
-> CONTEXT: 104_Werecat_09\C_Talk.rb
-> CONTEXT: 105_Werecat_OFE14\C_Talk.rb
-
-> END STRING
-
-> BEGIN STRING
 主人公クライシス
 > CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
 > CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
@@ -2666,21 +2336,6 @@ Mating
 > CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
 > CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
 > CONTEXT: 06_LesserSuccubus_OFE00\C_Talk.rb
-
-> END STRING
-
-> BEGIN STRING
-29
-> CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
-> CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_Talk.rb
-> CONTEXT: 100_Werewolf_11\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\(置換済)\C_Talk.rb
-> CONTEXT: 101_Werewolf_OFE05\C_Talk.rb
-> CONTEXT: 104_Werecat_08\C_Talk.rb
-> CONTEXT: 104_Werecat_09\C_Talk.rb
-> CONTEXT: 105_Werecat_OFE14\C_Talk.rb
 
 > END STRING
 
@@ -2709,21 +2364,6 @@ Mating
 
 > BEGIN STRING
 夢魔恍惚中
-> CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
-> CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
-> CONTEXT: 06_LesserSuccubus_OFE00\C_Talk.rb
-> CONTEXT: 100_Werewolf_11\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\C_Talk.rb
-> CONTEXT: 100_Werewolf_13\(置換済)\C_Talk.rb
-> CONTEXT: 101_Werewolf_OFE05\C_Talk.rb
-> CONTEXT: 104_Werecat_08\C_Talk.rb
-> CONTEXT: 104_Werecat_09\C_Talk.rb
-> CONTEXT: 105_Werecat_OFE14\C_Talk.rb
-
-> END STRING
-
-> BEGIN STRING
-30
 > CONTEXT: 05_LesserSuccubus_00\C_Talk.rb
 > CONTEXT: 05_LesserSuccubus_07\C_Talk.rb
 > CONTEXT: 06_LesserSuccubus_OFE00\C_Talk.rb
@@ -109635,16 +109275,3 @@ Hoo... That's pretty ballsy. \n　*Giggle*, what, I'm complimenting you \n　on 
 > CONTEXT: 97_Familiar_OFE12\C_MapEvent.rb
 
 > END STRING
-
-> BEGIN STRING
-tx●
-> CONTEXT: omake\manual.rb
-
-> END STRING
-
-> BEGIN STRING
-�u�c�c�c�c\H�v
-> CONTEXT: omake\999_template\テンプレート11_虚勢\C_BattleEvent.rb
-
-> END STRING
-
