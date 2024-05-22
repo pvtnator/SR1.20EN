@@ -6715,11 +6715,11 @@
 
 > BEGIN STRING
 "アタシ"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/114:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/119:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/145:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/150:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/746:32 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/114:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/119:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/145:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/150:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/746:32
 "I"
 > END STRING
 
@@ -6873,10 +6873,10 @@
 
 > BEGIN STRING
 "あたし"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/242:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/272:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/686:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/995:30 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/242:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/272:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/686:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/995:30
 "I"
 > END STRING
 
@@ -6951,10 +6951,10 @@
 
 > BEGIN STRING
 "わたし"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/370:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/407:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/525:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/776:32 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/370:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/407:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/525:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/776:32
 "I"
 > END STRING
 
@@ -7021,9 +7021,9 @@
 
 > BEGIN STRING
 "わたくし"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/496:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/840:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/905:32 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/496:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/840:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/905:32
 "I"
 > END STRING
 
@@ -7047,8 +7047,8 @@
 
 > BEGIN STRING
 "私め"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/556:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/560:32 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/556:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/560:32
 "I"
 > END STRING
 
@@ -7081,7 +7081,7 @@
 
 > BEGIN STRING
 "ぼく"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/592:32 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/592:32
 "I"
 > END STRING
 
@@ -7101,7 +7101,7 @@
 
 > BEGIN STRING
 "おれ"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/596:32 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/596:32
 "I"
 > END STRING
 
@@ -7139,8 +7139,8 @@
 
 > BEGIN STRING
 "あたい"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/662:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/871:32 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/662:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/871:32
 "I"
 > END STRING
 
@@ -7262,7 +7262,7 @@
 
 > BEGIN STRING
 "わらわ"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/936:32 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/936:32
 "I"
 > END STRING
 
@@ -15298,10 +15298,10 @@
 
 > BEGIN STRING
 "戦闘開始"
-> CONTEXT: Scripts/Scene_Battle 2/181:20 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 2/192:22 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 2/210:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/274:15 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 2/181:20
+> CONTEXT: Scripts/Scene_Battle 2/192:22
+> CONTEXT: Scripts/Scene_Battle 2/210:22
+> CONTEXT: Scripts/Talk_Sys Base/274:15
 "Combat start"
 > END STRING
 
@@ -23428,12 +23428,13 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "ゆっくりと"
+> CONTEXT: Scripts/Talk_Sys Text(Map)/151:30
+> CONTEXT: Scripts/Talk_Sys Text(Map)/189:30
+"slowly "
 > CONTEXT: Scripts/RPG::Skilltext/2033:18
 > CONTEXT: Scripts/RPG::Skilltext/2279:18
 > CONTEXT: Scripts/RPG::Skilltext/2313:18
 > CONTEXT: Scripts/RPG::Skilltext/2347:18
-> CONTEXT: Scripts/Talk_Sys Text(Map)/151:30
-> CONTEXT: Scripts/Talk_Sys Text(Map)/189:30
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/252:26
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/259:26
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/294:24
@@ -23484,6 +23485,7 @@ this succubus will no longer be at Home.
 "焦らすように"
 > CONTEXT: Scripts/Talk_Sys Text(Map)/106:40
 > CONTEXT: Scripts/Talk_Sys Text(Map)/118:40
+"teasingly "
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/253:28
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/260:28
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/295:26
@@ -23505,6 +23507,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Map)/179:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/187:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/196:21
+"timidly "
 > CONTEXT: Scripts/RPG::Skilltext/2036:20
 > CONTEXT: Scripts/RPG::Skilltext/2282:20
 > CONTEXT: Scripts/RPG::Skilltext/2316:20
@@ -23753,6 +23756,11 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "一所懸命に"
+> CONTEXT: Scripts/Talk_Sys Text(Map)/151:38
+> CONTEXT: Scripts/Talk_Sys Text(Map)/164:38
+> CONTEXT: Scripts/Talk_Sys Text(Map)/189:38
+> CONTEXT: Scripts/Talk_Sys Text(Map)/198:38
+"diligently "
 > CONTEXT: Scripts/RPG::Skilltext/2051:20
 > CONTEXT: Scripts/RPG::Skilltext/2061:20
 > CONTEXT: Scripts/RPG::Skilltext/2077:20
@@ -23767,10 +23775,6 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/RPG::Skilltext/2341:20
 > CONTEXT: Scripts/RPG::Skilltext/2365:20
 > CONTEXT: Scripts/RPG::Skilltext/2375:20
-> CONTEXT: Scripts/Talk_Sys Text(Map)/151:38
-> CONTEXT: Scripts/Talk_Sys Text(Map)/164:38
-> CONTEXT: Scripts/Talk_Sys Text(Map)/189:38
-> CONTEXT: Scripts/Talk_Sys Text(Map)/198:38
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/237:28
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/244:28
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/277:26
@@ -25523,7 +25527,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Scene_Menu(2)/167:34
 > CONTEXT: Scripts/Talk_Sys Base/277:15
 > CONTEXT: Commonevents/41/39/InlineScript/4:12
-"Give offering"
+"Semen offering"
 > END STRING
 
 > BEGIN STRING
@@ -27123,8 +27127,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "\#{$msg.t_target.name}は堪えきれず、\\m\\n\#{enemy.name}の口内に精を吐き出してしまった！"
-> CONTEXT: Scripts/SR_Util spam/163:28 < UNTRANSLATED
-
+> CONTEXT: Scripts/SR_Util spam/163:28
+"\#{$msg.t_target.name} couldn't hold back​m​\\nand launched his semen into ​m​\\n\#{enemy.name}'s mouth!"
 > END STRING
 
 > BEGIN STRING
@@ -27831,7 +27835,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Map)/48:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/58:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/69:21
-"with a practiced hand"
+"skillfully "
 > END STRING
 
 > BEGIN STRING
@@ -27847,6 +27851,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Map)/164:24
 > CONTEXT: Scripts/Talk_Sys Text(Map)/189:24
 > CONTEXT: Scripts/Talk_Sys Text(Map)/198:24
+"politely "
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/80:23
 "politely"
 > END STRING
@@ -27856,7 +27861,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Map)/50:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/60:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/71:21
-"vigorously"
+"vigorously "
 > END STRING
 
 > BEGIN STRING
@@ -27864,7 +27869,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Map)/51:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/61:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/72:21
-"pleasurably"
+"pleasurably "
 > END STRING
 
 > BEGIN STRING
@@ -27875,7 +27880,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Map)/177:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/185:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/194:21
-"relaxedly"
+"relaxedly "
 > END STRING
 
 > BEGIN STRING
@@ -27888,7 +27893,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Map)/188:22
 > CONTEXT: Scripts/Talk_Sys Text(Map)/211:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/216:21
-" while taking clothes off,"
+"took clothes off,"
 > END STRING
 
 > BEGIN STRING
@@ -27962,7 +27967,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Map)/163:22
 > CONTEXT: Scripts/Talk_Sys Text(Map)/197:22
 > CONTEXT: Scripts/Talk_Sys Text(Map)/221:21
-" while undressing \#{master},"
+"undressed \#{master},"
 > END STRING
 
 > BEGIN STRING
@@ -28214,7 +28219,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Map)/131:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/143:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/156:21
-"skillfully"
+"skillfully "
 > END STRING
 
 > BEGIN STRING
@@ -28231,7 +28236,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Map)/132:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/144:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/157:21
-"indifferently"
+"indifferently "
 > END STRING
 
 > BEGIN STRING
@@ -28249,6 +28254,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Map)/149:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/158:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/162:21
+"flawlessly "
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/304:34
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/645:34
 "flawlessly"
@@ -28267,7 +28273,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Map)/134:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/146:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/159:21
-"quickly"
+"quickly "
 > END STRING
 
 > BEGIN STRING
@@ -28275,7 +28281,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Map)/135:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/147:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/160:21
-"carefully"
+"carefully "
 > END STRING
 
 > BEGIN STRING
@@ -28603,7 +28609,7 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/Talk_Sys Text(Map)/178:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/186:21
 > CONTEXT: Scripts/Talk_Sys Text(Map)/195:21
-"slowly"
+"slowly "
 > END STRING
 
 > BEGIN STRING
@@ -28782,7 +28788,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{text1}\#{text2}、\\n\#{text3}\\n\#{text4}\#{text5}"
 > CONTEXT: Scripts/Talk_Sys Text(Map)/227:13
-"\#{text1}, \#{text2},\\n\#{text3}\\nand \#{text4} \#{text5}"
+"\#{text1}, \#{text2},\\n\#{text3}\\n\#{text4}\#{text5}"
 > END STRING
 
 > BEGIN STRING
@@ -29536,8 +29542,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "ロウ"
-> CONTEXT: Scripts/Talk_Sys Base/156:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Base/156:14
+"Lau"
 > END STRING
 
 > BEGIN STRING
@@ -29556,8 +29562,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "ネイジー"
-> CONTEXT: Scripts/Talk_Sys Base/158:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Base/158:14
+"Nei"
 > END STRING
 
 > BEGIN STRING
@@ -29576,8 +29582,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "リズ"
-> CONTEXT: Scripts/Talk_Sys Base/160:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Base/160:14
+"Rij"
 > END STRING
 
 > BEGIN STRING
@@ -29596,8 +29602,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "ルビィ"
-> CONTEXT: Scripts/Talk_Sys Base/162:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Base/162:14
+"Beu"
 > END STRING
 
 > BEGIN STRING
@@ -29615,8 +29621,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "ユーノ"
-> CONTEXT: Scripts/Talk_Sys Base/164:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Base/164:14
+"Yuu"
 > END STRING
 
 > BEGIN STRING
@@ -29634,8 +29640,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "ギル"
-> CONTEXT: Scripts/Talk_Sys Base/166:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Base/166:14
+"Gil"
 > END STRING
 
 > BEGIN STRING
@@ -29646,8 +29652,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "ミィーナ"
-> CONTEXT: Scripts/Talk_Sys Base/172:14 < UNTRANSLATED
-
+> CONTEXT: Scripts/Talk_Sys Base/172:14
+"Mina"
 > END STRING
 
 > BEGIN STRING
@@ -29756,7 +29762,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{t_actor}は更に激しく、\\n\#{speaker}とアソコを擦り合わせた！"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/429:9
-"\#{t_actor} rubbed her pussy \\nagainst\#{speaker} even harder!"
+"\#{t_actor} rubbed her pussy \\nagainst \#{speaker} even harder!"
 > END STRING
 
 > BEGIN STRING

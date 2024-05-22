@@ -56,9 +56,10 @@ def autotranslate(translations_file, lines):
                 batchi.append(i)
                 string = string.replace("#{myname}", "私").replace("#{target}", "あなた")
                 string = string.replace("アソコ", "おまんこ").replace("ココ", "おまんこ")
+                
                 string = "女："+string
                 batcht += string
-                if len(batchi)>=100 or i > len(lines)-10:
+                if i > len(lines)-10 or len(batcht)>4700:
                     batcht = batcht.strip()
                     #print("\n"+batcht+"\n")
                     print(str(100*i/len(lines))+"%\n")
@@ -72,6 +73,7 @@ def autotranslate(translations_file, lines):
                             #print(translated)
                             if translated[-1] == "." and translated[-2] != ".":
                                 translated = translated[:-1]
+                            translated = translated[7:]
                             translated = translated.replace("\\n", "\\n　")
                             translated = translated.replace("　　", "　").replace("　 ", "　")
                             translated = translated.replace("…", "...")
@@ -80,15 +82,16 @@ def autotranslate(translations_file, lines):
                             translated = translated.replace(".\\\\H", "\\\\H")
                             translated = translated.replace("Giggle", "*Giggle*")
                             translated = re.sub("\.{2,}", "...", translated)
+                            translated = re.sub("a{3,}", "aaa", translated)
+                            translated = re.sub("o{3,}", "ooo", translated)
                             #translated = re.sub(r"([^\.])\.\\H", r"\1\\H", translated)
                             parts = translated.split("\\n")
                             translated = ""
                             for p in parts:
-                                if len(p) > 50:
+                                if len(p) > 50 and p.find(" ", 40) >= 0:
                                     p = p[:p.find(" ", 40)]+"\\n　"+p[p.find(" ", 40)+1:]
                                 translated += p if translated=="" else "\\n"+p
                                     
-                            translated = translated[7:]
                             lines[batchi[j]] = translated+"\n"
                             #print(lines[batchi[j]])
                     batchi.clear()
@@ -159,7 +162,7 @@ if __name__ == "__main__":
             i += 1
 
     print(translations["global"])
-    mode = "autotranslate"
+    mode = "apply"
     if mode == "extract":
         extract_strings(folder_path, translations_file, translations)
         print("Extraction completed.")
