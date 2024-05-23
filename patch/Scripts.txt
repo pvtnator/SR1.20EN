@@ -8370,9 +8370,9 @@
 
 > BEGIN STRING
 "マイルドパフューム"
-> CONTEXT: Scripts/Game_Battler 2/980:64 < UNTRANSLATED
-> CONTEXT: Scripts/Incense_System/77:10 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Battler 2/980:64
+> CONTEXT: Scripts/Incense_System/77:10
+"Mild perfume"
 > END STRING
 
 > BEGIN STRING
@@ -17309,8 +17309,8 @@
 
 > BEGIN STRING
 "\#{actors_word}から甘い香りが薄れた！"
-> CONTEXT: Scripts/Incense_System/63:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/63:27
+"\#{actors_word}'s sweet scent has faded!"
 > END STRING
 
 > BEGIN STRING
@@ -17339,50 +17339,50 @@
 
 > BEGIN STRING
 "\#{actors_word}は状態異常に強くなった！"
-> CONTEXT: Scripts/Incense_System/79:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/79:27
+"\#{actors_word} became stronger against status ailments!"
 > END STRING
 
 > BEGIN STRING
 "\#{actors_word}は柔かな香りを纏っている……！"
-> CONTEXT: Scripts/Incense_System/80:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/80:27
+"\#{actors_word} has a soft scent...!"
 > END STRING
 
 > BEGIN STRING
 "\#{actors_word}から柔かな香りが薄れた！"
-> CONTEXT: Scripts/Incense_System/81:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/81:27
+"The soft scent has faded from \#{actors_word}!"
 > END STRING
 
 > BEGIN STRING
 "\#{actors_word}は仲間の出番の準備を整えた！"
-> CONTEXT: Scripts/Incense_System/85:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/85:27
+"\#{actors_word} prepared friends for their turn!"
 > END STRING
 
 > BEGIN STRING
 "\#{actors_word}は\#{brk_word}仲間の出番の準備が整っている！"
-> CONTEXT: Scripts/Incense_System/86:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/86:27
+"\#{actors_word} is \#{brk_word}ready for the turn of friends!"
 > END STRING
 
 > BEGIN STRING
 "\#{actors_word}の\#{brk_word}レッドカーペットが無くなった！"
-> CONTEXT: Scripts/Incense_System/87:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/87:27
+"\#{actors_word}'s \#{brk_word}red carpet is gone!"
 > END STRING
 
 > BEGIN STRING
 "安穏の時"
-> CONTEXT: Scripts/Incense_System/90:10 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/90:10
+"Calm time"
 > END STRING
 
 > BEGIN STRING
 "\#{actors_word}は身体を休めている……！"
-> CONTEXT: Scripts/Incense_System/91:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/91:27
+"\#{actors_word} is resting...!"
 > END STRING
 
 > BEGIN STRING
@@ -17435,8 +17435,8 @@
 
 > BEGIN STRING
 "戦慄き"
-> CONTEXT: Scripts/Incense_System/113:10 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/113:10
+"Shudder"
 > END STRING
 
 > BEGIN STRING
@@ -17447,8 +17447,8 @@
 
 > BEGIN STRING
 "\#{enemies_word}は緊張感に包まれている……！"
-> CONTEXT: Scripts/Incense_System/114:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/114:27
+"\#{enemies_word} is surrounded by tension...!"
 > END STRING
 
 > BEGIN STRING
@@ -17471,8 +17471,8 @@
 
 > BEGIN STRING
 "この夢魔とは替わることができない！"
-> CONTEXT: Scripts/Scene_Battle 3/476:39 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/476:39
+"Can't replace this succubus!"
 > END STRING
 
 > BEGIN STRING
@@ -17483,14 +17483,14 @@
 
 > BEGIN STRING
 "後ろ髪を引かれていて交代することができない！"
-> CONTEXT: Scripts/Scene_Battle 3/485:39 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/485:39
+"Can't take a turn due to being held back!"
 > END STRING
 
 > BEGIN STRING
 "ホールド中は交代することができない！"
-> CONTEXT: Scripts/Scene_Battle 3/494:39 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/494:39
+"Can't switch while in a hold!"
 > END STRING
 
 > BEGIN STRING
@@ -17501,11 +17501,11 @@
 
 > BEGIN STRING
 "相手が服を脱いでいないと使用できません！"
-> CONTEXT: Scripts/Scene_Battle 3/612:40 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 3/623:37 < UNTRANSLATED
-> CONTEXT: Scripts/SR_Util Storage/73:40 < UNTRANSLATED
-> CONTEXT: Scripts/SR_Util Storage/79:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/612:40
+> CONTEXT: Scripts/Scene_Battle 3/623:37
+> CONTEXT: Scripts/SR_Util Storage/73:40
+> CONTEXT: Scripts/SR_Util Storage/79:36
+"Cannot be used unless opponent takes off clothes!"
 > END STRING
 
 > BEGIN STRING
@@ -17522,16 +17522,16 @@
 
 > BEGIN STRING
 "相手が服を着ていないと使用できません！"
-> CONTEXT: Scripts/Scene_Battle 3/635:37 < UNTRANSLATED
-> CONTEXT: Scripts/SR_Util Storage/97:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/635:37
+> CONTEXT: Scripts/SR_Util Storage/97:36
+"Cannot be used if opponent is not wearing clothes!"
 > END STRING
 
 > BEGIN STRING
 "相手のペニスが既に占有されているため使用できません！"
-> CONTEXT: Scripts/Scene_Battle 3/647:37 < UNTRANSLATED
-> CONTEXT: Scripts/SR_Util Storage/133:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/647:37
+> CONTEXT: Scripts/SR_Util Storage/133:36
+"Cannot be used because opponent's penis is already occupied!"
 > END STRING
 
 > BEGIN STRING
@@ -17542,9 +17542,9 @@
 
 > BEGIN STRING
 "相手の口が既に占有されているため使用できません！"
-> CONTEXT: Scripts/Scene_Battle 3/658:37 < UNTRANSLATED
-> CONTEXT: Scripts/SR_Util Storage/173:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/658:37
+> CONTEXT: Scripts/SR_Util Storage/173:36
+"Cannot be used because opponent's mouth is already occupied!"
 > END STRING
 
 > BEGIN STRING
@@ -17555,9 +17555,9 @@
 
 > BEGIN STRING
 "相手のお尻が既に占有されているため使用できません！"
-> CONTEXT: Scripts/Scene_Battle 3/669:37 < UNTRANSLATED
-> CONTEXT: Scripts/SR_Util Storage/227:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/669:37
+> CONTEXT: Scripts/SR_Util Storage/227:36
+"Cannot be used because opponent's butt is already occupied!"
 > END STRING
 
 > BEGIN STRING
@@ -17568,16 +17568,16 @@
 
 > BEGIN STRING
 "相手のアソコが既に占有されているため使用できません！"
-> CONTEXT: Scripts/Scene_Battle 3/680:37 < UNTRANSLATED
-> CONTEXT: Scripts/SR_Util Storage/260:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/680:37
+> CONTEXT: Scripts/SR_Util Storage/260:36
+"Cannot be used because opponent's vagina is already occupied!"
 > END STRING
 
 > BEGIN STRING
 "相手の上半身が既に占有されているため使用できません！"
-> CONTEXT: Scripts/Scene_Battle 3/691:37 < UNTRANSLATED
-> CONTEXT: Scripts/SR_Util Storage/299:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/691:37
+> CONTEXT: Scripts/SR_Util Storage/299:36
+"Cannot be used because opponent's upper body is already occupied!"
 > END STRING
 
 > BEGIN STRING
@@ -17588,9 +17588,9 @@
 
 > BEGIN STRING
 "相手の尻尾が既に占有されているため使用できません！"
-> CONTEXT: Scripts/Scene_Battle 3/702:37 < UNTRANSLATED
-> CONTEXT: Scripts/SR_Util Storage/345:36 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/702:37
+> CONTEXT: Scripts/SR_Util Storage/345:36
+"Cannot be used because opponent's tail is already occupied!"
 > END STRING
 
 > BEGIN STRING
@@ -17601,8 +17601,8 @@
 
 > BEGIN STRING
 "相手と挿入中でないと使えません！"
-> CONTEXT: Scripts/Scene_Battle 3/714:37 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/714:37
+"Cannot be used unless inserted!"
 > END STRING
 
 > BEGIN STRING
@@ -17613,14 +17613,14 @@
 
 > BEGIN STRING
 "相手と口淫中でないと使えません！"
-> CONTEXT: Scripts/Scene_Battle 3/725:37 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/725:37
+"Cannot use outside of oral sex!"
 > END STRING
 
 > BEGIN STRING
 "相手と肛姦中でないと使えません！"
-> CONTEXT: Scripts/Scene_Battle 3/736:37 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/736:37
+"Cannot use outside of anal sex!"
 > END STRING
 
 > BEGIN STRING
@@ -17631,16 +17631,16 @@
 
 > BEGIN STRING
 "相手が騎乗中でないと使えません！"
-> CONTEXT: Scripts/Scene_Battle 3/747:37 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 3/769:37 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/747:37
+> CONTEXT: Scripts/Scene_Battle 3/769:37
+"Cannot be used unless opponent is mounted!"
 > END STRING
 
 > BEGIN STRING
 "相手に騎乗中でないと使えません！"
-> CONTEXT: Scripts/Scene_Battle 3/758:37 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle 3/780:37 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/758:37
+> CONTEXT: Scripts/Scene_Battle 3/780:37
+"Cannot be used unless opponent is mounted!"
 > END STRING
 
 > BEGIN STRING
@@ -17651,20 +17651,20 @@
 
 > BEGIN STRING
 "\#{field_word}に広がっていた粘液が無くなった！"
-> CONTEXT: Scripts/Incense_System/148:27 < UNTRANSLATED
-
+> CONTEXT: Scripts/Incense_System/148:27
+"The mucus is gone from \#{field_word}!"
 > END STRING
 
 > BEGIN STRING
 "相手と貝合わせ中でないと使えません！"
-> CONTEXT: Scripts/Scene_Battle 3/791:37 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/791:37
+"Can't use outside of shell match!"
 > END STRING
 
 > BEGIN STRING
 "相手に口淫中でないと使えません！"
-> CONTEXT: Scripts/Scene_Battle 3/802:37 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/802:37
+"Can't use outside of oral sex!"
 > END STRING
 
 > BEGIN STRING
@@ -17675,14 +17675,14 @@
 
 > BEGIN STRING
 "相手を抱擁中でないと使えません！"
-> CONTEXT: Scripts/Scene_Battle 3/824:37 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/824:37
+"Can't use outside of close contact!"
 > END STRING
 
 > BEGIN STRING
 "相手と密着中でないと使えません！"
-> CONTEXT: Scripts/Scene_Battle 3/835:37 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 3/835:37
+"Can't use outside of close contact!"
 > END STRING
 
 > BEGIN STRING
@@ -22271,7 +22271,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{tec}、\\n\\m\#{myself.bustsize}に挟まれたペニスを弄ぶ！"
 > CONTEXT: Scripts/RPG::Skilltext/1752:28
-" is playing with\\n​m​the penis between \#{myself.bustsize} \#{tec}!"
+" is playing with the penis\\n​m​between \#{myself.bustsize} \#{tec}!"
 > END STRING
 
 > BEGIN STRING
@@ -22958,7 +22958,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "非表示"
 > CONTEXT: Scripts/Window_SystemLeft/136:62
-"Hide"
+"Skip"
 > END STRING
 
 > BEGIN STRING
