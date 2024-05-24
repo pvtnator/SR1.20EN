@@ -52,14 +52,14 @@ def autotranslate(translations_file, lines):
                 context = lines[i][11:].strip()
                 contexts.append(context)
                 i += 1
-            if lines[i].strip() == "" and len(string)>3 and len(contexts)<10:
+            if lines[i].strip() == "" and len(string)>10:
                 batchi.append(i)
                 string = string.replace("#{myname}", "私").replace("#{target}", "あなた")
                 string = string.replace("アソコ", "おまんこ").replace("ココ", "おまんこ")
                 
                 string = "女："+string
                 batcht += string
-                if i > len(lines)-10 or len(batcht)>4700:
+                if i > len(lines)-10 or len(batcht)>500:
                     batcht = batcht.strip()
                     #print("\n"+batcht+"\n")
                     print(str(100*i/len(lines))+"%\n")
@@ -162,7 +162,7 @@ if __name__ == "__main__":
             i += 1
 
     print(translations["global"])
-    mode = "apply"
+    mode = "autotranslate"
     if mode == "extract":
         extract_strings(folder_path, translations_file, translations)
         print("Extraction completed.")
