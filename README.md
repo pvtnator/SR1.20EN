@@ -34,14 +34,16 @@ In addition, some python scripts. Make sure to have up to date Python installed 
 2. With RPGMaker Trans, choose the .exe of the game, and have this repository in a folder next to the game, with "_patch" appended to the folder name
    (e.g. Succubus Rhapsodia 1.20 is the game folder, Succubus Rhapsodia 1.20_patch contains this repository)
    This should generate a folder with "_translated" appended to its name, containing the translated game.
-3. Run the python script "mapConditionReplace.py". It should print several character names. This is replacing some inline strings in maps where it checks
-   if you have certain characters in your party to match the translation. The modified maps will be in the Mods folder of the translated game
-4. Run the python script "translateCharacters.py". It should print some common terms and their translations. This is applying translations to the
-   character specific .rb files in the talk folder and putting the modified files into the mod folder of the translated game.
-   This includes translating some common terms that are used for control logic (these must match the rest of the game)
-   This also includes character specific dialog. These translations are defined in the characters.txt file.
-5. After updates, if anything in the patch folder was changed, RPGMaker Trans must be run. If maps that contain checks of character names were changed,
-   mapConditionReplace.py must be run again. If characters.txt was modified, translateCharacters.py must be run again.
+3. Run the "runpatches.bat", which will execute "mapConditionReplace.py" and "translateCharacters.py"
+   with python3. You can also run those scripts directly yourself.
+4. After updates, apply the patches in the same order. No need to delete the game or anything, normally at least.
+
+Explanation: "mapConditionReplace.py" is replacing some inline strings in maps where it checks
+if you have certain characters in your party to match the translation. The modified maps will be in the Mods folder of the translated game
+"translateCharacters.py" is applying translations to the character specific .rb files in the talk folder and 
+putting the modified files into the mod folder of the translated game.
+This includes translating some common terms that are used for control logic (these must match the rest of the game)
+This also includes character specific dialog. These translations are defined in the characters.txt file.
 
 Note that as things are, this won't modify your saves, and your saves contain some strings, which would lead to discrepency and then bugs.
 In other words, it's best to start a new save after applying this mod, although it may work to certain extent, or you could manually modify your saves to match.
