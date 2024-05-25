@@ -8,34 +8,44 @@ def extract_strings(folder_path, output_file, update={}):
     strings = {}
 
     # Walk through all files in the folder and its subfolders
-    for root, dirs, files in os.walk(folder_path):
-        for file in files:
-            if file.endswith(".rb"):
-                file_path = os.path.join(root, file)
-                context = file_path[len(folder_path)+1:]
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    content = f.read()
-                
-                # Find all strings in the file
-                found_strings = re.findall(r'"「(.*?)」"', content)
-                
-                # Add found strings to the dictionary with their contexts
-                for string in found_strings:
-                    if string:
-                        if string not in strings:
-                            strings[string] = [context]
-                        elif not context in strings[string]:
-                            strings[string].append(context)
+    for file in folder_path.rglob("*.rb"):
+        relative = file.relative_to(folder_path)
+        context = relative.as_posix()
+        with file.open(encoding='utf-8') as f:
+            content = f.read()
+        
+        # Find all strings in the file
+        found_strings = re.findall(r'"「{0,}(.*?)」{0,}"', content)
+        
+        # Add found strings to the dictionary with their contexts
+        for string in found_strings:
+            if string:
+                try:
+                    string.encode("utf-8").decode("ascii")
+                except UnicodeDecodeError:
+                    if string not in strings:
+                        strings[string] = [context]
+                    elif not context in strings[string]:
+                        strings[string].append(context)
     
     # Write the strings and their contexts to the output file
     with open(output_file, 'w', encoding='utf-8') as outfile:
         for string, contexts in strings.items():
             outfile.write("> BEGIN STRING\n")
             outfile.write(f'{string}\n')
-            for context in contexts[:10]:
-                outfile.write(f"> CONTEXT: {context}\n")
-            if string in update:
-                outfile.write(update[string])
+            if len(contexts) > 30:
+                outfile.write(f"> CONTEXT: global\n")
+            else:
+                for context in contexts:
+                    outfile.write(f"> CONTEXT: {context}\n")
+                    
+            qstring = "\""+string+"\""
+            if (contexts[0] in update and qstring in update[contexts[0]]):
+                outfile.write(update[contexts[0]][qstring][1:-1])
+            elif qstring in update["global"]:
+                outfile.write(update["global"][qstring][1:-1])
+            else:
+                print(string)
             outfile.write("\n> END STRING\n\n")
 
 def autotranslate(translations_file, lines):
@@ -115,7 +125,7 @@ def apply_translations(folder_path, apply_path, translations, mustinclude=""):
             with file.open(encoding='utf-8') as f:
                 content = f.read()
 
-            context = str(relative)
+            context = relative.as_posix()
             if context in translations:
                 pattern = re.compile("|".join(re.escape(key) for key in sorted(translations[context].keys(), key=len, reverse=True)))
                 content = pattern.sub(lambda match: translations[context][match.group(0)], content)
@@ -148,6 +158,7 @@ if __name__ == "__main__":
             contexts = []
             while(lines[i][0] == ">"):
                 context = lines[i][11:].strip()
+                context = context.replace("\\", "/")
                 contexts.append(context)
                 i += 1
             if lines[i].strip():
