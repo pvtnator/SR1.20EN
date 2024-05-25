@@ -1,6 +1,5 @@
 import os
 import re
-import pyperclip
 import time
 from pathlib import Path
 
@@ -49,6 +48,7 @@ def extract_strings(folder_path, output_file, update={}):
             outfile.write("\n> END STRING\n\n")
 
 def autotranslate(translations_file, lines):
+    import pyperclip
     i = 0
     batchi = []
     batcht = ""

@@ -57,3 +57,5 @@ You must also take care with text wrapping. It's easy to make it overflow.
 Note that #{myname} is not used, since in English there isn't much else to say than "I".
 For #{target}, it will either have the character's name or some kind of nickname, 
 but in Japanese, a lot of the time it's "you", so sentence structure needs to be edited in that regard.
+If you want to use the autotranslate feature, you must install the python module pyperclip
+by running "pip install pyperclip" in powershell
