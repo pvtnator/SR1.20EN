@@ -35,7 +35,7 @@ In addition, some python scripts. Make sure to have up to date Python installed 
    (e.g. Succubus Rhapsodia 1.20 is the game folder, Succubus Rhapsodia 1.20_patch contains this repository)
    This should generate a folder with "_translated" appended to its name, containing the translated game.
 3. Run the "runpatches.bat", which will execute "mapConditionReplace.py" and "translateCharacters.py"
-   with python3. You can also run those scripts directly yourself.
+   with python. If your python goes by "python3", try editing the .bat. You can also run those scripts directly yourself.
 4. After updates, apply the patches in the same order. No need to delete the game or anything, normally at least.
 
 Explanation: "mapConditionReplace.py" is replacing some inline strings in maps where it checks
