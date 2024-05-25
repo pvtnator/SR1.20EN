@@ -102,36 +102,39 @@ def autotranslate(translations_file, lines):
         else:
             i += 1
 
-def apply_translations(folder_path, translations, mustinclude=""):
+def apply_translations(folder_path, apply_path, translations, mustinclude=""):
     glpattern = re.compile("|".join(re.escape(key) for key in sorted(translations["global"].keys(), key=len, reverse=True)))
-    for root, dirs, files in os.walk(folder_path):
-        for file in files:
-            if file.endswith(".rb") and mustinclude in root:
-                file_path = os.path.join(root, file)
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    content = f.read()
+    for file in folder_path.rglob("*"):
+        relative = file.relative_to(folder_path)
+        target_path = apply_path / relative
+        if file.is_dir():
+            print(target_path)
+            target_path.mkdir(parents=True, exist_ok=True)
+        elif mustinclude in file.name and ".rb" in file.name:
+            #file_path = Path.join(root, file)
+            with file.open(encoding='utf-8') as f:
+                content = f.read()
 
-                context = file_path[len(folder_path)+1:]
-                if context in translations:
-                    pattern = re.compile("|".join(re.escape(key) for key in sorted(translations[context].keys(), key=len, reverse=True)))
-                    content = pattern.sub(lambda match: translations[context][match.group(0)], content)
-                content = glpattern.sub(lambda match: translations["global"][match.group(0)], content)
-                
-                #for string, translation in translations.items():
-                #    content = content.replace(string, translation)
+            context = str(relative)
+            if context in translations:
+                pattern = re.compile("|".join(re.escape(key) for key in sorted(translations[context].keys(), key=len, reverse=True)))
+                content = pattern.sub(lambda match: translations[context][match.group(0)], content)
+            content = glpattern.sub(lambda match: translations["global"][match.group(0)], content)
+            
+            #for string, translation in translations.items():
+            #    content = content.replace(string, translation)
 
-                outpath = file_path.replace("System\\talk", "Mod\\Mod_Talk")
-                Path(outpath).parent.mkdir(parents=True, exist_ok=True)
-                with open(outpath, 'w', encoding='utf-8') as outfile:
-                    outfile.write(content)
+            with target_path.open(mode='w', encoding='utf-8') as outfile:
+                outfile.write(content)
 
 if __name__ == "__main__":
-    current_dir = os.path.dirname(os.path.realpath(__file__))
-    parent_dir = os.path.abspath(os.path.join(current_dir, os.pardir))
-    folder_name = current_dir.split("\\")[-1].replace("_patch", "_translated")
-    folder_path = os.path.join(parent_dir, folder_name+"\\System\\talk")
+    current_dir = Path.cwd()
+    translated_dir = current_dir.parent / Path().resolve().name.replace("patch","translated")
+    talk_dir = translated_dir / "System" / "talk"
+    modtalk_dir = translated_dir / "Mod" / "Mod_Talk"
     translations_file = "characters.txt"
     translations = {"global": {}}
+    print(talk_dir)
 
     lines = []
     with open(translations_file, 'r', encoding='utf-8') as trans_file:
@@ -161,13 +164,14 @@ if __name__ == "__main__":
         else:
             i += 1
 
-    print(translations["global"])
+    #print(translations["global"])
     mode = "apply"
+    print("Mode: "+mode+"\nThis might take a minute")
     if mode == "extract":
-        extract_strings(folder_path, translations_file, translations)
+        extract_strings(talk_dir, translations_file, translations)
         print("Extraction completed.")
     elif mode == "apply":       
-        apply_translations(folder_path, translations)
+        apply_translations(talk_dir, modtalk_dir, translations)
         print("Translations applied.")
     elif mode == "autotranslate":
         autotranslate(translations_file, lines)
