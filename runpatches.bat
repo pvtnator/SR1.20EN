@@ -1,3 +1,3 @@
-python3 ./mapConditionReplace.py
-python3 ./translateCharacters.py
+python ./mapConditionReplace.py
+python ./translateCharacters.py
 pause
