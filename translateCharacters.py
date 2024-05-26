@@ -116,11 +116,13 @@ def apply_translations(folder_path, apply_path, regexes, translations, mustinclu
     glpattern = re.compile("|".join(re.escape(key) for key in sorted(regexes["global"], key=len, reverse=True)))
     for file in folder_path.rglob("*"):
         relative = file.relative_to(folder_path)
+        if "omake" in relative.as_posix():
+            continue
         target_path = apply_path / relative
         if file.is_dir():
             print(target_path)
             target_path.mkdir(parents=True, exist_ok=True)
-        elif mustinclude in file.name and ".rb" in file.name and not "omake" in relative.as_posix():
+        elif mustinclude in file.name and ".rb" in file.name:
             #file_path = Path.join(root, file)
             with file.open(encoding='utf-8') as f:
                 content = f.read()
