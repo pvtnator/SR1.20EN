@@ -155,7 +155,8 @@ Hehe, you understand now, right?
 > CONTEXT: Troops/31/pages/0/17/Dialogue
 > CONTEXT: Troops/138/pages/0/15/Dialogue
 \\name[\\v[2]]\\_
-The only thing that can be done is to “exhaust” the succubus.
+The only thing that can be done is to 
+“exhaust” the succubus.
 It's a way to counter them\\H
 > END STRING
 
@@ -177,7 +178,8 @@ and lead you to climax.
 > CONTEXT: Troops/31/pages/0/23/Dialogue
 > CONTEXT: Troops/138/pages/0/21/Dialogue
 \\name[\\v[2]]\\_
-And “beind defeated” in the dream world means drowning.
+And “beind defeated” in the dream world
+means drowning.
 > END STRING
 
 > BEGIN STRING
@@ -246,8 +248,8 @@ you will faint and become unable to fight.
 > CONTEXT: Troops/31/pages/0/43/Dialogue
 > CONTEXT: Troops/138/pages/0/41/Dialogue
 \\name[\\v[2]]\\_
-The consumption of VP due to climax is extremely large.
-A lower-class incubus like you would probably 
+The loss of VP due to climax is extremely large.
+A lower-class succubus would probably 
 faint immediately after climaxing...
 > END STRING
 
@@ -258,7 +260,7 @@ faint immediately after climaxing...
 > CONTEXT: Troops/31/pages/0/47/Dialogue
 > CONTEXT: Troops/138/pages/0/45/Dialogue
 \\name[\\v[2]]\\_
-Some of "skills" require VP to use.
+Some "skills" require VP to use.
 > END STRING
 
 > BEGIN STRING
@@ -301,7 +303,7 @@ Seems like your opponent can't wait anymore...\\H
 \\name[\\v[2]]\\_
 If you don't know what to do, 
 it's a good idea to start with a kiss 
-and get in the mood.\\H
+and get in the mood\\H
 > END STRING
 
 > BEGIN STRING
@@ -311,7 +313,8 @@ and get in the mood.\\H
 > CONTEXT: Troops/31/pages/1/3/Dialogue
 > CONTEXT: Troops/138/pages/1/3/Dialogue
 \\name[\\v[2]]\\_
-Pardon me for getting in the way of your pleasure once more.
+Pardon me,
+for getting in the way of your pleasure once more.
 There's something I forgot to mention.
 > END STRING
 
@@ -397,7 +400,7 @@ Hehe, the resist skill was successful\\H
 > CONTEXT: Troops/138/pages/1/34/Dialogue
 > CONTEXT: Troops/138/pages/1/68/Dialogue
 \\name[\\v[2]]\\_
-Oh, my resist skill failed.
+Oh, the resist skill failed.
 > END STRING
 
 > BEGIN STRING
@@ -1125,16 +1128,20 @@ Werewolf/100/10*3
 \\name[\\v[2]]\\_
 快楽を受ける毎に「\\c[12]ＥＰ\\c[0]」、
 つまり快楽への許容量が減少しますわ。
-> CONTEXT: Troops/138/pages/0/31/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/138/pages/0/31/Dialogue
+\\name[\\v[2]]\\_
+Every time you receive pleasure, your \\c[12]EP\\c[0], 
+which is tolerance for pleasure, decreases.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ＥＰが０になってしまえば絶頂し、その時には
 「\\c[12]ＶＰ\\c[0]」が大きく減少してしまいますの。
-> CONTEXT: Troops/138/pages/0/34/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/138/pages/0/34/Dialogue
+\\name[\\v[2]]\\_
+If your EP reaches 0, you will reach the climax, 
+and then your \\c[12]VP\\c[0] will decrease significantly.
 > END STRING
 
 > BEGIN STRING
@@ -1142,8 +1149,10 @@ Werewolf/100/10*3
 そしてこのＶＰこそが生命力。
 \\c[12]これが０になることで倒れてしまい、
 戦闘不能となりますわ\\c[0]。
-> CONTEXT: Troops/138/pages/0/37/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/138/pages/0/37/Dialogue
+\\name[\\v[2]]\\_
+And VP is life force. \\c[12]If this becomes 0, 
+you will faint and become unable to fight\\c[0].
 > END STRING
 
 > BEGIN STRING
@@ -1151,8 +1160,11 @@ Werewolf/100/10*3
 何をしたら良いのか分からない時は、
 まずはキスから始めてみて、「\\c[12]ムード\\c[0]」を上げると
 良い事ですわね\\H
-> CONTEXT: Troops/138/pages/0/58/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/138/pages/0/58/Dialogue
+\\name[\\v[2]]\\_
+If you don't know what to do, 
+it's a good idea to start with a \\c[12]kiss\\c[0]
+and get in the mood\\H
 > END STRING
 
 > BEGIN STRING
@@ -1160,24 +1172,30 @@ Werewolf/100/10*3
 スキルの中に\\c[12][レジスト]\\c[0]と書かれたものが\\_
 あるのに
 お気付きになられましたかしら？
-> CONTEXT: Troops/138/pages/1/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/138/pages/1/7/Dialogue
+\\name[\\v[2]]\\_
+Some of the skills have \\c[12][Resist]\\c[0] written on them.
+Have you noticed?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そういった「\\c[12]レジストスキル\\c[0]」の結果は、
 貴方次第で決まりますの。
-> CONTEXT: Troops/138/pages/1/11/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/138/pages/1/11/Dialogue
+\\name[\\v[2]]\\_
+The results of such \\c[12]resist skills\\c[0] 
+are determined by you.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 やり方は簡単ですわ。\\c[12]表示された矢印を
 時間内に左から順番に押していくだけ\\c[0]。
-> CONTEXT: Troops/138/pages/1/14/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/138/pages/1/14/Dialogue
+\\name[\\v[2]]\\_
+It's easy to do. \\c[12]Just press the displayed arrows 
+in order from the left within the time limit\\c[0].
 > END STRING
 
 > BEGIN STRING
