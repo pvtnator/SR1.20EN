@@ -112,27 +112,24 @@ def autotranslate(translations_file, lines):
         else:
             i += 1
 
-def apply_translations(folder_path, apply_path, translations, mustinclude=""):
-    glpattern = re.compile("|".join(re.escape(key) for key in sorted(translations["global"].keys(), key=len, reverse=True)))
+def apply_translations(folder_path, apply_path, regexes, translations, mustinclude=""):
+    glpattern = re.compile("|".join(re.escape(key) for key in sorted(regexes["global"], key=len, reverse=True)))
     for file in folder_path.rglob("*"):
         relative = file.relative_to(folder_path)
         target_path = apply_path / relative
         if file.is_dir():
             print(target_path)
             target_path.mkdir(parents=True, exist_ok=True)
-        elif mustinclude in file.name and ".rb" in file.name:
+        elif mustinclude in file.name and ".rb" in file.name and not "omake" in relative.as_posix():
             #file_path = Path.join(root, file)
             with file.open(encoding='utf-8') as f:
                 content = f.read()
 
             context = relative.as_posix()
             if context in translations:
-                pattern = re.compile("|".join(re.escape(key) for key in sorted(translations[context].keys(), key=len, reverse=True)))
+                pattern = re.compile("|".join(key for key in sorted(regexes[context], key=len, reverse=True)))
                 content = pattern.sub(lambda match: translations[context][match.group(0)], content)
             content = glpattern.sub(lambda match: translations["global"][match.group(0)], content)
-            
-            #for string, translation in translations.items():
-            #    content = content.replace(string, translation)
 
             with target_path.open(mode='w', encoding='utf-8') as outfile:
                 outfile.write(content)
@@ -144,6 +141,7 @@ if __name__ == "__main__":
     modtalk_dir = translated_dir / "Mod" / "Mod_Talk"
     translations_file = "characters.txt"
     translations = {"global": {}}
+    regexes = {"global": []}
     print(talk_dir)
 
     lines = []
@@ -162,15 +160,14 @@ if __name__ == "__main__":
                 contexts.append(context)
                 i += 1
             if lines[i].strip():
-                if len(contexts)>=10:
-                    translations["global"]["\""+string+"\""] = "\""+lines[i].strip()+"\""
-                    translations["global"]["「"+string+"」"] = "「"+lines[i].strip()+"」"
-                else:
-                    for c in contexts:
-                        if not c in translations:
-                            translations[c] = {}
-                        translations[c]["\""+string+"\""] = "\""+lines[i].strip()+"\""
-                        translations[c]["「"+string+"」"] = "「"+lines[i].strip()+"」"
+                for c in contexts:
+                    if not c in translations:
+                        translations[c] = {}
+                        regexes[c] = []
+                    regexes[c].append(re.escape(string))
+                    translations[c][string] = lines[i].strip()
+                    #print(string)
+                    #print(r'"「{0,}('+re.escape(string)+r')」{0,}"')
             i += 2
         else:
             i += 1
@@ -182,7 +179,7 @@ if __name__ == "__main__":
         extract_strings(talk_dir, translations_file, translations)
         print("Extraction completed.")
     elif mode == "apply":       
-        apply_translations(talk_dir, modtalk_dir, translations)
+        apply_translations(talk_dir, modtalk_dir, regexes, translations)
         print("Translations applied.")
     elif mode == "autotranslate":
         autotranslate(translations_file, lines)
