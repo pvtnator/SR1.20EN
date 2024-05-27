@@ -36,6 +36,8 @@ This is to avoid providing game data files directly, and to be consistent with t
 Alternatively, you can just setup the patching according to instructions below.
 
 ## Patching Instructions
+If you wish to do the patching yourself, follow these instructions.
+If you just want to play, you're likely better off downloading the release version according to the instructions above.
 This project uses RPGMaker Trans https://rpgmakertrans.bitbucket.io/index.html
 In addition, some python scripts. Make sure to have up to date Python installed (3.5+ is fine I think)
 
