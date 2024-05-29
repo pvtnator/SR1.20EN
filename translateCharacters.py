@@ -10,7 +10,7 @@ def extract_strings(folder_path, output_file, update={}):
     for file in folder_path.rglob("*.rb"):
         relative = file.relative_to(folder_path)
         context = relative.as_posix()
-        with file.open(encoding='utf-8') as f:
+        with file.open(encoding='utf-8', errors='replace') as f:
             content = f.read()
         
         # Find all strings in the file
@@ -37,14 +37,16 @@ def extract_strings(folder_path, output_file, update={}):
             else:
                 for context in contexts:
                     outfile.write(f"> CONTEXT: {context}\n")
-                    
-            qstring = "\""+string+"\""
-            if (contexts[0] in update and qstring in update[contexts[0]]):
-                outfile.write(update[contexts[0]][qstring][1:-1])
-            elif qstring in update["global"]:
-                outfile.write(update["global"][qstring][1:-1])
+
+            if string in update["global"]:
+                outfile.write(update["global"][string])
             else:
-                print(string)
+                for c in contexts:
+                    if (c in update and string in update[c]):
+                        outfile.write(update[c][string])
+                        break
+            #else:
+            #    print(string)
             outfile.write("\n> END STRING\n\n")
 
 def autotranslate(translations_file, lines):
