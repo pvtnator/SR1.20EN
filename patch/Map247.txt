@@ -7,42 +7,34 @@ There's a switch on the wall. Press it?
 
 > BEGIN STRING
 ここでアイテムの採取ができそうだ。
-> CONTEXT: Map247/events/11/pages/0/1/Dialogue
 > CONTEXT: Map001/events/5/pages/0/2/Dialogue
 > CONTEXT: Map027/events/88/pages/0/3/Dialogue
 > CONTEXT: Map001/events/5/pages/2/0/Dialogue
 > CONTEXT: Commonevents/15/2/Dialogue
+> CONTEXT: Map247/events/11/pages/0/12/Dialogue
 Looks like you can harvest items here.
 > END STRING
 
 > BEGIN STRING
 採取する
-> CONTEXT: Map247/events/11/pages/0/2/Choice/0
 > CONTEXT: Map001/events/5/pages/0/3/Choice/0
 > CONTEXT: Map027/events/88/pages/0/4/Choice/0
 > CONTEXT: Map001/events/5/pages/0/16/Choice/0
 > CONTEXT: Map001/events/5/pages/2/1/Choice/0
 > CONTEXT: Map001/events/5/pages/2/10/Choice/0
 > CONTEXT: Commonevents/15/3/Choice/0
+> CONTEXT: Map247/events/11/pages/0/13/Choice/0
+> CONTEXT: Map247/events/11/pages/0/13/Choice/0
 Harvest
 > END STRING
 
 > BEGIN STRING
 今はしない
-> CONTEXT: Map247/events/11/pages/0/2/Choice/1
 > CONTEXT: Map001/events/5/pages/0/3/Choice/1
 > CONTEXT: Map027/events/88/pages/0/4/Choice/1
 > CONTEXT: Map001/events/5/pages/2/1/Choice/1
 > CONTEXT: Commonevents/15/3/Choice/1
+> CONTEXT: Map247/events/11/pages/0/13/Choice/1
+> CONTEXT: Map247/events/11/pages/0/13/Choice/1
 Not now
-> END STRING
-
-> BEGIN STRING
-\\v[5]
-> CONTEXT: Map247/events/11/pages/0/11/Dialogue < UNTRANSLATED
-> CONTEXT: Map027/events/88/pages/0/12/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/12/23/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/12/59/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/15/8/Dialogue < UNTRANSLATED
-
 > END STRING

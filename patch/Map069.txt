@@ -7,8 +7,16 @@
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
+よぉねーちゃん。この扉の事が知りたいんだろう？
+> CONTEXT: Map069/events/1/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map069/events/1/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
 よぉにーちゃん。この扉の事が知りたいんだろう？
-> CONTEXT: Map069/events/1/pages/0/1/Dialogue
+> CONTEXT: Map069/events/1/pages/0/11/Dialogue
 \\name[\\v[2]]\\_
 Yo, man. 
 You want to know about this door, right?
@@ -18,7 +26,7 @@ You want to know about this door, right?
 \\name[\\v[2]]\\_
 これは開く者の持つ「\\c[12]夢の魔力\\c[0]」に反応して\\_
 開く扉だ。
-> CONTEXT: Map069/events/1/pages/0/5/Dialogue
+> CONTEXT: Map069/events/1/pages/0/19/Dialogue
 \\name[\\v[2]]\\_
 This door opens in response to the "\\c[12]dream magic\\c[0]"
 possessed by the person opening it.
@@ -28,7 +36,7 @@ possessed by the person opening it.
 \\name[\\v[2]]\\_
 よくは知らんが、夢の魔力ってのはどうやら\\_
 夢魔が持っている力らしい。
-> CONTEXT: Map069/events/1/pages/0/8/Dialogue
+> CONTEXT: Map069/events/1/pages/0/22/Dialogue
 \\name[\\v[2]]\\_
 I don't know much about it, 
 but dream magic seems to be a 
@@ -39,7 +47,7 @@ power possessed by succubi.
 \\name[\\v[2]]\\_
 そんで夢魔と契約すると、そいつの夢の魔力を
 少しだけ分けてくれるっつー話だ。
-> CONTEXT: Map069/events/1/pages/0/11/Dialogue
+> CONTEXT: Map069/events/1/pages/0/25/Dialogue
 \\name[\\v[2]]\\_
 The way it goes, is that if you make a contract 
 with a succubus, she will share a small amount 
@@ -50,7 +58,7 @@ of her dream magic.
 \\name[\\v[2]]\\_
 つまり、\\c[12]夢魔と契約しまくって夢の魔力を集めれば、
 この扉を開くことができる\\c[0]ってわけよ。
-> CONTEXT: Map069/events/1/pages/0/14/Dialogue
+> CONTEXT: Map069/events/1/pages/0/28/Dialogue
 \\name[\\v[2]]\\_
 In other words, if you make many contracts 
 and collect dream magic, you can open this door.
@@ -60,7 +68,7 @@ and collect dream magic, you can open this door.
 \\name[\\v[2]]\\_
 しかも夢の魔力があるだけで反応するから、
 持ってる夢の魔力が消費される、ってこともないぜ。
-> CONTEXT: Map069/events/1/pages/0/17/Dialogue
+> CONTEXT: Map069/events/1/pages/0/31/Dialogue
 \\name[\\v[2]]\\_
 Moreover, since it reacts just by having dream magic, 
 it does not need to get consumed.
@@ -69,7 +77,7 @@ it does not need to get consumed.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 どーよ、ためになっただろ？
-> CONTEXT: Map069/events/1/pages/0/20/Dialogue
+> CONTEXT: Map069/events/1/pages/0/34/Dialogue
 \\name[\\v[2]]\\_
 Well, useful info, wasn't it?
 > END STRING
@@ -77,7 +85,7 @@ Well, useful info, wasn't it?
 > BEGIN STRING
 \\name[\\v[2]]\\_
 なんだ、つまんねえの。
-> CONTEXT: Map069/events/1/pages/0/24/Dialogue
+> CONTEXT: Map069/events/1/pages/0/38/Dialogue
 \\name[\\v[2]]\\_
 What, that's lame.
 > END STRING
@@ -85,7 +93,7 @@ What, that's lame.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ちなみにこの先は「\\c[12]闇洞窟\\c[0]」に続いてるのさ。
-> CONTEXT: Map069/events/1/pages/0/28/Dialogue
+> CONTEXT: Map069/events/1/pages/0/42/Dialogue
 \\name[\\v[2]]\\_
 By the way, this continues to "\\c[12]Dark Cave\\c[0]".
 > END STRING
@@ -93,7 +101,7 @@ By the way, this continues to "\\c[12]Dark Cave\\c[0]".
 > BEGIN STRING
 \\name[\\v[2]]\\_
 暗い暗い洞窟だよ。
-> CONTEXT: Map069/events/1/pages/0/30/Dialogue
+> CONTEXT: Map069/events/1/pages/0/44/Dialogue
 \\name[\\v[2]]\\_
 It's a dark, dark cave.
 > END STRING
@@ -128,7 +136,6 @@ It's called "\\c[12]OFE\\c[0] (Over Fascinate Enemy)", but...
 こんな辺鄙な所じゃ場違いな程、彼女たちのレベルは\\_
 高い･･･。
 > CONTEXT: Map069/events/3/pages/0/6/Dialogue
-> CONTEXT: Map015/events/47/pages/0/7/Dialogue
 \\name[\\v[2]]\\_
 It is better not to mess with them.
 Their level is so high, they're out of place here...
@@ -136,10 +143,17 @@ Their level is so high, they're out of place here...
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
+そして簡易戦闘も無効化される……。
+半端なく強いから他の相手との経験が生きないんだ。
+> CONTEXT: Map069/events/3/pages/0/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
 よーく動きを観察して、上手く避けて通るんだ。
 僕もさっきからここで様子を伺っている。
-> CONTEXT: Map069/events/3/pages/0/10/Dialogue
-> CONTEXT: Map015/events/47/pages/0/11/Dialogue
+> CONTEXT: Map069/events/3/pages/0/13/Dialogue
 \\name[\\v[2]]\\_
 Observe their movements carefully and dodge them.
 I've been watching here for a while now as well.
@@ -149,8 +163,7 @@ I've been watching here for a while now as well.
 \\name[\\v[2]]\\_
 け、決して、決して彼女たちの魅力にあてられたとかで、
 腰が抜けて動けないわけじゃあないんだ。
-> CONTEXT: Map069/events/3/pages/0/13/Dialogue
-> CONTEXT: Map015/events/47/pages/0/14/Dialogue
+> CONTEXT: Map069/events/3/pages/0/16/Dialogue
 \\name[\\v[2]]\\_
 I never, ever fell for their charm,
 It's not like I'm weak and can't move.
@@ -159,8 +172,7 @@ It's not like I'm weak and can't move.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ないんだ･･･。
-> CONTEXT: Map069/events/3/pages/0/16/Dialogue
-> CONTEXT: Map015/events/47/pages/0/17/Dialogue
+> CONTEXT: Map069/events/3/pages/0/19/Dialogue
 \\name[\\v[2]]\\_
 Not at all...
 > END STRING
@@ -169,7 +181,7 @@ Not at all...
 \\name[\\v[2]]\\_
 そういえばさっき夢魔たちが通りすぎていったけど、
 その中にもああいう危なそうな夢魔がいたね･･･。
-> CONTEXT: Map069/events/3/pages/0/18/Dialogue
+> CONTEXT: Map069/events/3/pages/0/21/Dialogue
 \\name[\\v[2]]\\_
 Come to think of it, there was one 
 dangerous looking succubus passing by earlier...
@@ -178,7 +190,7 @@ dangerous looking succubus passing by earlier...
 > BEGIN STRING
 \\name[\\v[2]]\\_
 恐ろしい恐ろしい･･･。
-> CONTEXT: Map069/events/3/pages/0/21/Dialogue
+> CONTEXT: Map069/events/3/pages/0/24/Dialogue
 \\name[\\v[2]]\\_
 Horrible, terrifying...
 > END STRING

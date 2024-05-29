@@ -1,0 +1,462 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+\\name[ボックス管理係]こちらはボックス管理係です。\\_
+何か御用ですか？
+> CONTEXT: Map003/events/6/pages/0/0/Dialogue
+> CONTEXT: Map583/events/1/pages/0/0/Dialogue
+\\name[Box Manager]This is the Box Manager.
+Do you need something?
+> END STRING
+
+> BEGIN STRING
+項目を選択してください。
+> CONTEXT: Map583/events/3/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map583/events/6/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レベルのリセット
+> CONTEXT: Map583/events/3/pages/0/1/Choice/0 < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+契約の珠のリセット
+> CONTEXT: Map583/events/3/pages/0/1/Choice/1 < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+好感度のリセット
+> CONTEXT: Map583/events/3/pages/0/1/Choice/2 < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/1/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レベルを1に戻し、スキルや素質もリセットします。
+（契約の珠で習得したものはリセットされません）
+> CONTEXT: Map583/events/3/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+主人公
+> CONTEXT: Map583/events/3/pages/0/5/Choice/0 < UNTRANSLATED
+> CONTEXT: Map583/events/6/pages/0/4/Choice/0 < UNTRANSLATED
+> CONTEXT: Map583/events/6/pages/0/81/Choice/0 < UNTRANSLATED
+> CONTEXT: Map583/events/6/pages/0/147/Choice/0 < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/5/Choice/0 < UNTRANSLATED
+> CONTEXT: Map583/events/7/pages/0/2/Choice/0 < UNTRANSLATED
+> CONTEXT: Map582/events/14/pages/0/2/Choice/0 < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/4/Choice/0 < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/81/Choice/0 < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/147/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パーティの夢魔
+> CONTEXT: Map583/events/3/pages/0/5/Choice/1 < UNTRANSLATED
+> CONTEXT: Map583/events/3/pages/0/65/Choice/0 < UNTRANSLATED
+> CONTEXT: Map583/events/3/pages/0/115/Choice/0 < UNTRANSLATED
+> CONTEXT: Map583/events/6/pages/0/4/Choice/1 < UNTRANSLATED
+> CONTEXT: Map583/events/6/pages/0/81/Choice/1 < UNTRANSLATED
+> CONTEXT: Map583/events/6/pages/0/147/Choice/1 < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/5/Choice/1 < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/65/Choice/0 < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/115/Choice/0 < UNTRANSLATED
+> CONTEXT: Map583/events/7/pages/0/2/Choice/1 < UNTRANSLATED
+> CONTEXT: Map582/events/14/pages/0/2/Choice/1 < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/4/Choice/1 < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/81/Choice/1 < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/147/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ボックスの夢魔
+> CONTEXT: Map583/events/3/pages/0/5/Choice/2 < UNTRANSLATED
+> CONTEXT: Map583/events/3/pages/0/65/Choice/1 < UNTRANSLATED
+> CONTEXT: Map583/events/3/pages/0/115/Choice/1 < UNTRANSLATED
+> CONTEXT: Map583/events/6/pages/0/4/Choice/2 < UNTRANSLATED
+> CONTEXT: Map583/events/6/pages/0/81/Choice/2 < UNTRANSLATED
+> CONTEXT: Map583/events/6/pages/0/147/Choice/2 < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/5/Choice/2 < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/65/Choice/1 < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/115/Choice/1 < UNTRANSLATED
+> CONTEXT: Map583/events/7/pages/0/2/Choice/2 < UNTRANSLATED
+> CONTEXT: Map582/events/14/pages/0/2/Choice/2 < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/4/Choice/2 < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/81/Choice/2 < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/147/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+全員
+> CONTEXT: Map583/events/3/pages/0/5/Choice/3 < UNTRANSLATED
+> CONTEXT: Map583/events/3/pages/0/65/Choice/2 < UNTRANSLATED
+> CONTEXT: Map583/events/3/pages/0/115/Choice/2 < UNTRANSLATED
+> CONTEXT: Map583/events/6/pages/0/4/Choice/3 < UNTRANSLATED
+> CONTEXT: Map583/events/6/pages/0/81/Choice/3 < UNTRANSLATED
+> CONTEXT: Map583/events/6/pages/0/147/Choice/3 < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/5/Choice/3 < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/65/Choice/2 < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/115/Choice/2 < UNTRANSLATED
+> CONTEXT: Map583/events/7/pages/0/2/Choice/3 < UNTRANSLATED
+> CONTEXT: Map582/events/14/pages/0/2/Choice/3 < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/4/Choice/3 < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/81/Choice/3 < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/147/Choice/3 < UNTRANSLATED
+> CONTEXT: Commonevents/280/127/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/153/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/179/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/205/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/237/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/263/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/289/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/315/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/347/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/377/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/407/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/433/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/467/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/539/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/565/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/606/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/660/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/686/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/718/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/755/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/808/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1163/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1189/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1215/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1241/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1273/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1299/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1325/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1351/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1383/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1413/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1443/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1469/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1503/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1575/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1601/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1642/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1696/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1722/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1754/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1791/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1844/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+主人公のレベルをリセットしました。
+> CONTEXT: Map583/events/3/pages/0/8/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パーティの夢魔のレベルをリセットしました。
+> CONTEXT: Map583/events/3/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/15/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ボックスの夢魔のレベルをリセットしました。
+> CONTEXT: Map583/events/3/pages/0/25/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/25/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+全員のレベルをリセットしました。
+> CONTEXT: Map583/events/3/pages/0/38/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/38/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+契約の珠を初期値に戻し、
+契約の珠で習得したスキルや素質もリセットします。
+> CONTEXT: Map583/events/3/pages/0/63/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/63/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パーティの夢魔の契約の珠をリセットしました。
+> CONTEXT: Map583/events/3/pages/0/68/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/68/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ボックスの夢魔の契約の珠をリセットしました。
+> CONTEXT: Map583/events/3/pages/0/78/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/78/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+全員の契約の珠をリセットしました。
+> CONTEXT: Map583/events/3/pages/0/91/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/91/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+好感度を初期値に戻します。
+（寵愛や大切な人もリセットされます）
+> CONTEXT: Map583/events/3/pages/0/113/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/113/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パーティの夢魔の好感度をリセットしました。
+> CONTEXT: Map583/events/3/pages/0/118/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/118/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ボックスの夢魔の好感度をリセットしました。
+> CONTEXT: Map583/events/3/pages/0/130/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/130/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+全員の好感度をリセットしました。
+> CONTEXT: Map583/events/3/pages/0/145/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/13/pages/0/145/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ロウラットの性格を変えますか？
+> CONTEXT: Map583/events/4/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+真面目
+> CONTEXT: Map583/events/4/pages/0/3/Choice/0 < UNTRANSLATED
+> CONTEXT: Map034/events/66/pages/0/1/Choice/0 < UNTRANSLATED
+> CONTEXT: Map034/events/422/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+腕白
+> CONTEXT: Map583/events/4/pages/0/3/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+冷静
+> CONTEXT: Map583/events/4/pages/0/3/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+助平
+> CONTEXT: Map583/events/4/pages/0/3/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"助平"
+> CONTEXT: Map583/events/4/pages/0/14/InlineScript/1:33 < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/229/InlineScript/1:33 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+名前を変更しますか？
+> CONTEXT: Map583/events/5/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+出産経験のリセット
+> CONTEXT: Map583/events/6/pages/0/1/Choice/0 < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+性開発度のリセット
+> CONTEXT: Map583/events/6/pages/0/1/Choice/1 < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+性経験のリセット
+> CONTEXT: Map583/events/6/pages/0/1/Choice/2 < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/1/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+妊娠回数、妊娠素質、子持ち素質をリセットします。
+> CONTEXT: Map583/events/6/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+主人公の出産経験をリセットしました。
+> CONTEXT: Map583/events/6/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パーティの夢魔の出産経験をリセットしました。
+> CONTEXT: Map583/events/6/pages/0/17/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/17/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ボックスの夢魔の出産経験をリセットしました。
+> CONTEXT: Map583/events/6/pages/0/30/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/30/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+全員の出産経験をリセットしました。
+> CONTEXT: Map583/events/6/pages/0/46/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/46/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+性開発度素質をリセットします。
+> CONTEXT: Map583/events/6/pages/0/80/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/80/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+主人公の性開発度をリセットしました。
+> CONTEXT: Map583/events/6/pages/0/84/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/84/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パーティの夢魔の性開発度をリセットしました。
+> CONTEXT: Map583/events/6/pages/0/92/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/92/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ボックスの夢魔の性開発度をリセットしました。
+> CONTEXT: Map583/events/6/pages/0/103/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/103/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+全員の性開発度をリセットしました。
+> CONTEXT: Map583/events/6/pages/0/117/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/117/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベッドイン回数をリセットし、処女/童貞素質を付けます。
+（出産経験と性開発度もリセットされます）
+> CONTEXT: Map583/events/6/pages/0/145/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/145/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+主人公の性経験をリセットしました。
+> CONTEXT: Map583/events/6/pages/0/150/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/150/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パーティの夢魔の性経験をリセットしました。
+> CONTEXT: Map583/events/6/pages/0/174/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/174/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ボックスの夢魔の性経験をリセットしました。
+> CONTEXT: Map583/events/6/pages/0/212/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/212/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+全員の性経験をリセットしました。
+> CONTEXT: Map583/events/6/pages/0/269/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/17/pages/0/269/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ボーナス習得したスキルや素質をリセットできます。
+（購入したスキルや素質もリセットされます）
+> CONTEXT: Map583/events/7/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/14/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+主人公のボーナスをリセットしました。
+> CONTEXT: Map583/events/7/pages/0/5/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/14/pages/0/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パーティの夢魔のボーナスをリセットしました。
+> CONTEXT: Map583/events/7/pages/0/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/14/pages/0/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ボックスの夢魔のボーナスをリセットしました。
+> CONTEXT: Map583/events/7/pages/0/20/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/14/pages/0/20/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+全員のボーナスをリセットしました。
+> CONTEXT: Map583/events/7/pages/0/32/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/14/pages/0/32/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+特別なアイテムの販売
+> CONTEXT: Map583/events/8/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map582/events/16/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING

@@ -1,14 +1,5 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-"妖精"
-> CONTEXT: Map188/events/5/pages/0/0/InlineScript/1:22
-> CONTEXT: Map197/events/16/pages/1/0/InlineScript/1:22
-> CONTEXT: Map188/events/6/pages/0/0/InlineScript/1:22
-> CONTEXT: Map198/events/5/pages/1/0/InlineScript/1:22
-"Fairy"
-> END STRING
-
-> BEGIN STRING
 \\name[\\v[2]]\\_
 おかえり、\\v[3]。
 > CONTEXT: Map188/events/5/pages/0/2/Dialogue
@@ -63,17 +54,4 @@ What kind of research has Ramil been doing?
 Maybe an experiment failed...
 Now that the nursing care has calmed down a bit,\\n\\_
 let's check out the laboratory properly.
-> END STRING
-
-> BEGIN STRING
-特に目新しい郵便物は無いようだ。
-> CONTEXT: Map188/events/9/pages/0/0/Dialogue
-There doesn't seem to be any new mail.
-> END STRING
-
-> BEGIN STRING
-010-River01
-> CONTEXT: Map188/bgs/name/ < UNTRANSLATED
-> CONTEXT: Map046/bgs/name/ < UNTRANSLATED
-
 > END STRING

@@ -1,55 +1,7 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-\\name[\\v[2]]\\_
-左にあるような「採取ポイント」じゃ、調べてみると
-何か落ちてるものを拾えるよ。
-> CONTEXT: Map012/events/37/pages/0/2/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-あと、こういう地道な事は普通の夢魔よりかは、
-人間の方が得意みたいだよ。
-> CONTEXT: Map012/events/37/pages/0/12/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-"双子白猫"
-> CONTEXT: Map012/events/38/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map012/events/73/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-夢魔たちのいる世界はどうだい少年。
-> CONTEXT: Map012/events/38/pages/0/2/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-出会う彼女たち全員と相手し続けるのも良いが、
-あんまり無理に相手しまくってると死んじまうぜ？
-> CONTEXT: Map012/events/38/pages/0/4/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-いいかい少年。逃げることも避けることも大事な事だ。
-無用な相手は避けて然るべきだぜ。
-> CONTEXT: Map012/events/38/pages/0/7/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
 "親切な鶏"
 > CONTEXT: Map012/events/65/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/2/0/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
 
@@ -57,220 +9,36 @@
 \\name[\\v[2]]\\_
 やぁやぁ、ここからは夢世界の魔の領域さ。
 > CONTEXT: Map012/events/65/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/1/4/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/2/2/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-この鶏めの忠告を聞いていくかい？
+この辺りの夢魔はとても手強い上に
+続けて相手をしてるとどんどん辛くなる。
 > CONTEXT: Map012/events/65/pages/0/4/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/1/6/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/2/4/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-そこら辺でうろうろしている夢魔が見えるか？
-触っちまうと、戦闘になっちまうよ。
-> CONTEXT: Map012/events/65/pages/0/8/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/1/10/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/2/8/Dialogue < UNTRANSLATED
+しかも負けたらただじゃ済まないらしい。
+無理だと感じたら退くのも大事だよ。
+> CONTEXT: Map012/events/65/pages/0/7/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-まぁこの辺の夢魔は弱い方だし平和なもんだから、
-お前さんみたいなのなら返り討ちにできるとは思うけどね。
-> CONTEXT: Map012/events/65/pages/0/11/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/1/13/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/2/11/Dialogue < UNTRANSLATED
+そうそう、この辺りは特殊な力が働いてて
+夢魔との契約はできないから気を付けてね。
+> CONTEXT: Map012/events/65/pages/0/10/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-･･･ところで、お前さんは走るのは得意かい。
-「決定キー」を押しながら移動することで走れるんだが･･･。
-> CONTEXT: Map012/events/65/pages/0/14/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/1/16/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/2/14/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-おっと、お前さんはいつも走ってるのかい。
-> CONTEXT: Map012/events/65/pages/0/18/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/1/20/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/2/18/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-その時に捕まっちまうなよ。\\.\\.
-走ってる時は走ってることに集中しちまってるからな。
-夢魔に捕まっちまえば先手を取られる事は必至だよ。
-> CONTEXT: Map012/events/65/pages/0/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/1/24/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/2/22/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ちなみに夢魔の後ろさえ取れれば、こっちが先制できるのさ。
-> CONTEXT: Map012/events/65/pages/0/26/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/1/28/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/2/26/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-狙えるなら夢魔の背後から襲っちまうことだよ。
-> CONTEXT: Map012/events/65/pages/0/28/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/1/30/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/2/28/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-あぁあとそうだ。
-お前さん、仲間に夢魔はいるかい？
-> CONTEXT: Map012/events/65/pages/0/30/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/1/32/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/2/30/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ここからじゃ、ある程度歩く毎に仲間の夢魔の「満腹度」が\\_
-下がっちまうんだ。
-> CONTEXT: Map012/events/65/pages/0/33/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/1/35/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/2/33/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-あまりに下がっちまうと空腹になっちまって
-仲間の夢魔が弱くなっちまうのもそうだが･･･。
-> CONTEXT: Map012/events/65/pages/0/36/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/1/38/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/2/36/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-０になっちまうと空腹の限界で、
-契約しているお前さんが襲われることになっちまうのさ。
-> CONTEXT: Map012/events/65/pages/0/39/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/1/41/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/2/39/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-そうならないためにも、仲間の夢魔が空腹になっちまったら、
-ちゃんと「精を献上」してやることだな。
-もしくはポートを見つけて回復する事。
-> CONTEXT: Map012/events/65/pages/0/42/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/1/44/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/2/42/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-誰かが空腹になった時にはアイコンが出るが、
-「キャンセルキー」を押せば、お前さんたちの状態も分かる\\_
-から、\\n適度にチェックしたりするんだな。
-> CONTEXT: Map012/events/65/pages/0/46/Dialogue
-> CONTEXT: Map012/events/65/pages/1/48/Dialogue
-> CONTEXT: Map012/events/65/pages/2/46/Dialogue
-\\name[\\v[2]]\\_
-When someone is hungry, an icon will appear, 
-but you can check your status by pressing the "cancel" key.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-そうかいそうかい、がんばんな。
-> CONTEXT: Map012/events/65/pages/0/52/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/1/54/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/2/52/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-そうだ、私からこれをあげよう。
-> CONTEXT: Map012/events/65/pages/0/56/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/1/58/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-これは使うと一瞬で君たちの拠点まで戻してくれるものさ。
-緊急事態などに使うといい。最低１つは持っておくべきだね。
-> CONTEXT: Map012/events/65/pages/0/65/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/1/67/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-では、達者でな。
-> CONTEXT: Map012/events/65/pages/0/68/Dialogue < UNTRANSLATED
-> CONTEXT: Map012/events/65/pages/1/70/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-どんなコでも話さなきゃ心は開いてくれねぇもんだ。
-うまく会話が弾めば好かれるもんさ。
-> CONTEXT: Map012/events/73/pages/0/4/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-この子をオトしたい！って時なんかは、
-「トーク」と「ムード」は特に重要だぜ。
-> CONTEXT: Map012/events/73/pages/0/7/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-あと、仲間の夢魔とも、マップ中で「Ａボタン」を押せば\\_
-話しかけれるぜ。
-> CONTEXT: Map012/events/73/pages/0/10/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-･･･何？　「Ａボタン」が分からない？
-> CONTEXT: Map012/events/73/pages/0/13/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-そんな時は一度「F1キー」を押してみな。
-> CONTEXT: Map012/events/73/pages/0/15/Dialogue < UNTRANSLATED
+･･･ふふふ\\H
+> CONTEXT: Map012/events/65/pages/0/15/Dialogue < UNTRANSLATED
 
 > END STRING

@@ -9,7 +9,8 @@
 "ポートの小悪魔"
 > CONTEXT: Map272/events/3/pages/0/0/InlineScript/1:22
 > CONTEXT: Map272/events/3/pages/1/0/InlineScript/1:22
-> CONTEXT: Map016/events/25/pages/0/0/InlineScript/1:22
+> CONTEXT: Map272/events/3/pages/2/0/InlineScript/1:22
+> CONTEXT: Map016/events/2/pages/0/0/InlineScript/1:22
 "Port Devil"
 > END STRING
 
@@ -29,7 +30,6 @@ Nice to meet you.
 ここはポート空間ダ。
 一度ポートを起動させれば、ポートから行き来ができるゼ。
 > CONTEXT: Map272/events/3/pages/0/4/Dialogue
-> CONTEXT: Map016/events/25/pages/0/4/Dialogue
 \\name[\\v[2]]\\_
 This is the port area.
 Once you activate a port, you can go back and forth from the port.
@@ -51,7 +51,6 @@ Just in case, you can also do it in your own room at Home.
 夢魔の持つ「契約の珠」を消費して、夢魔にボーナスを
 付けることも、そこでできるんダ。
 > CONTEXT: Map272/events/3/pages/0/11/Dialogue
-> CONTEXT: Map016/events/25/pages/0/11/Dialogue
 \\name[\\v[2]]\\_
 You can also consume the "contract beads" of succubi to give them bonuses.
 > END STRING
@@ -62,7 +61,6 @@ You can also consume the "contract beads" of succubi to give them bonuses.
 満腹度を
 全回復できるゼ。
 > CONTEXT: Map272/events/3/pages/0/14/Dialogue
-> CONTEXT: Map016/events/25/pages/0/14/Dialogue
 \\name[\\v[2]]\\_
 Also, just by touching a port, you can fully recover everyone's
 EP, VP, and succubi's satiety levels.
@@ -73,7 +71,6 @@ EP, VP, and succubi's satiety levels.
 キッキッキッ。どうだ、頼りになるダロ？
 > CONTEXT: Map272/events/3/pages/0/18/Dialogue
 > CONTEXT: Map272/events/3/pages/1/9/Dialogue
-> CONTEXT: Map016/events/25/pages/0/18/Dialogue
 \\name[\\v[2]]\\_
 Kik-kik-ki. What do you think, reliable aren't I?
 > END STRING
@@ -107,6 +104,129 @@ It might be useful when the number of succubi increases!
 > END STRING
 
 > BEGIN STRING
+\\name[\\v[2]]\\_
+キッキッキッ。行き先を選びナ。
+> CONTEXT: Map272/events/3/pages/2/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map016/events/2/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+追憶のポート空間
+> CONTEXT: Map272/events/3/pages/2/3/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おっと、そこには契約者がいなけりゃ行けないナ。
+> CONTEXT: Map272/events/3/pages/2/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"薄暗い地下墓所の入り口が見える"
+> CONTEXT: Map272/events/7/pages/0/1/InlineScript/5:9 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+爛柯の里に移動しますか？
+> CONTEXT: Map272/events/10/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+平原の丘に移動しますか？
+> CONTEXT: Map272/events/14/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+丘の平原に移動しますか？
+> CONTEXT: Map272/events/14/pages/1/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+平原と丘に移動しますか？
+> CONTEXT: Map272/events/14/pages/2/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"進化の家臣"
+> CONTEXT: Map272/events/19/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map209/events/90/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ああいばいーあおえいー（私は進化の家臣）
+いーあおばいみーあえおの（進化の間に見入られし者……）
+> CONTEXT: Map272/events/19/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map209/events/90/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+きみにこの『進化の間』のしんずいをおしえよう！
+この『赤いポート』にふれると『進化の間』にいけるんだ！
+そこではきみの『能力を強化』することができるんだよ！
+> CONTEXT: Map272/events/19/pages/0/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+でも無制限に強くなれるワケじゃないけどね
+特別な夢魔を倒したり、各マップをクリアするごとに
+水晶が光り輝くようになり、その力を解放できるんだ！
+> CONTEXT: Map272/events/19/pages/0/17/Dialogue < UNTRANSLATED
+> CONTEXT: Map209/events/90/pages/0/17/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+まぁものは試し、なんでもやってみる事だね
+今のキミなら何らかの力を解放できるかもしれないよ
+> CONTEXT: Map272/events/19/pages/0/24/Dialogue < UNTRANSLATED
+> CONTEXT: Map209/events/90/pages/0/24/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ちなみに強化状態は任意で解除もできるぞ
+自ら縛りプレイをしたい者も安心して強化に励むがよい……
+> CONTEXT: Map272/events/19/pages/0/30/Dialogue < UNTRANSLATED
+> CONTEXT: Map209/events/90/pages/0/30/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+雪原の隠れ里に移動しますか？
+> CONTEXT: Map272/events/22/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"Freeze_Library"
+> CONTEXT: Map272/events/22/pages/0/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map272/events/209/pages/0/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map209/events/66/pages/0/8/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map209/events/66/pages/1/8/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map128/events/27/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map128/events/27/pages/1/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Commonevents/12/61/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Commonevents/12/106/InlineScript/1:27 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 "小さな家が映っている。"
 > CONTEXT: Map272/events/164/pages/0/1/InlineScript/5:9
 "A small house is shown."
@@ -115,19 +235,15 @@ It might be useful when the number of succubi increases!
 > BEGIN STRING
 "教会の中庭が見える。"
 > CONTEXT: Map272/events/165/pages/0/1/InlineScript/5:9
+> CONTEXT: Map016/events/22/pages/0/2/InlineScript/5:9
 "You can see the church courtyard."
 > END STRING
 
 > BEGIN STRING
 "厳かなお屋敷が映っている。"
 > CONTEXT: Map272/events/166/pages/0/1/InlineScript/5:9
+> CONTEXT: Map016/events/24/pages/0/2/InlineScript/5:9
 "A solemn mansion is shown."
-> END STRING
-
-> BEGIN STRING
-ホームにいる夢魔を確認できます。
-> CONTEXT: Map272/events/167/pages/0/1/Dialogue
-You can check the dream demons at Home.
 > END STRING
 
 > BEGIN STRING
@@ -235,6 +351,7 @@ You can check the dream demons at Home.
 > BEGIN STRING
 "魔城の昇降口近くが映っている。"
 > CONTEXT: Map272/events/185/pages/0/1/InlineScript/5:9
+> CONTEXT: Map016/events/23/pages/0/2/InlineScript/5:9
 "The area near the entrance to the Demon Castle is shown."
 > END STRING
 
@@ -248,172 +365,6 @@ You can check the dream demons at Home.
 "混濁したレンディカが先に映っている。"
 > CONTEXT: Map272/events/187/pages/0/1/InlineScript/5:9
 "A muddled Rendica is visible ahead."
-> END STRING
-
-> BEGIN STRING
-"猫"
-> CONTEXT: Map272/events/188/pages/0/0/InlineScript/1:22
-"Cat"
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-夢世界には慣れてきた？
-そろそろ君も他の攻められ方にも目覚めて来たと思うんだ。
-僕に今の君のトレンドってものを教えてくれよ。
-> CONTEXT: Map272/events/188/pages/0/2/Dialogue
-\\name[\\v[2]]\\_
-Have you gotten used to the dream world? It's about time 
-you became aware of other ways of being attacked.
-Tell me what you want to know about.
-> END STRING
-
-> BEGIN STRING
-基本の弱点を教える
-> CONTEXT: Map272/events/188/pages/0/6/Choice/0
-Basic weaknesses
-> END STRING
-
-> BEGIN STRING
-特殊な弱点を教える
-> CONTEXT: Map272/events/188/pages/0/6/Choice/1
-Special weaknesses
-> END STRING
-
-> BEGIN STRING
-何も教えない
-> CONTEXT: Map272/events/188/pages/0/6/Choice/2
-Nothing
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふふふ、こっちは１つ以上は必ず申告してもらうよ。
-> CONTEXT: Map272/events/188/pages/0/8/Dialogue
-\\name[\\v[2]]\\_
-Hehehe, I'll definitely have you declare at least one of these.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-口で攻められるのは好き？
-> CONTEXT: Map272/events/188/pages/0/13/Dialogue
-\\name[\\v[2]]\\_
-Do you like being attacked by mouth?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-手で攻められるのは好き？
-> CONTEXT: Map272/events/188/pages/0/26/Dialogue
-\\name[\\v[2]]\\_
-Do you like being attacked by hands?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-胸で攻められるのは好き？
-> CONTEXT: Map272/events/188/pages/0/39/Dialogue
-\\name[\\v[2]]\\_
-Do you like being attacked by breasts?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-アソコで攻められるのは好き？
-> CONTEXT: Map272/events/188/pages/0/52/Dialogue
-\\name[\\v[2]]\\_
-Do you like being attacked by genitals?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふぅん･･････。
-> CONTEXT: Map272/events/188/pages/0/68/Dialogue
-> CONTEXT: Map272/events/188/pages/0/116/Dialogue
-\\name[\\v[2]]\\_
-Hmm......
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ありがとう、なるほどねぇ。
-君はそういうのが好きなんだな。
-> CONTEXT: Map272/events/188/pages/0/71/Dialogue
-> CONTEXT: Map272/events/188/pages/0/119/Dialogue
-\\name[\\v[2]]\\_
-Thank you, I see.
-You like that kind of thing.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-なんだ、１つくらいあるだろう。教えてくれよな。
-> CONTEXT: Map272/events/188/pages/0/76/Dialogue
-\\name[\\v[2]]\\_
-Well, probably at least one of them applies. Please tell me.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふふふ、こっちは１つも無いならないで良いよ。
-> CONTEXT: Map272/events/188/pages/0/82/Dialogue
-\\name[\\v[2]]\\_
-Hehehe, if none of these apply, you don't have to say anything.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-挿入中に攻められるのは好き？
-> CONTEXT: Map272/events/188/pages/0/87/Dialogue
-\\name[\\v[2]]\\_
-Do you like being attacked through sexual intercourse?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-足とかで嗜虐的に攻められるのは好き？
-> CONTEXT: Map272/events/188/pages/0/100/Dialogue
-\\name[\\v[2]]\\_
-Do you like being attacked sadistically by feet?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ちぇ。なんだ、１つもないんだ。
-> CONTEXT: Map272/events/188/pages/0/125/Dialogue
-\\name[\\v[2]]\\_
-Hey. What, none of these apply?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-そうそう、痛いのはそういう素質が無くても、
-段々と慣れてきちゃうんだよ。
-> CONTEXT: Map272/events/188/pages/0/129/Dialogue
-\\name[\\v[2]]\\_
-That's right, the painful part is that 
-even if you don't have those qualities,
-you gradually grow into it.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-され続けてたらいつの間にか快感になってたりするかもな。
-調教済みってことさ。
-> CONTEXT: Map272/events/188/pages/0/132/Dialogue
-\\name[\\v[2]]\\_
-If you keep doing something, 
-it might become more pleasant before you know it.
-That means it's been trained.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-いつでも教えてくれよな。
-> CONTEXT: Map272/events/188/pages/0/137/Dialogue
-\\name[\\v[2]]\\_
-I can teach you at any time.
 > END STRING
 
 > BEGIN STRING
@@ -444,4 +395,281 @@ but if you equip multiple of them, they become quite powerful.
 > CONTEXT: Map272/events/189/pages/0/14/Dialogue
 \\name[\\v[2]]\\_
 You can specialize in what you want this way.
+> END STRING
+
+> BEGIN STRING
+"変な鏡"
+> CONTEXT: Map272/events/194/pages/0/1/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map272/events/194/pages/1/1/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やあやあ、初めまして。
+私は魔法の鏡さ。
+> CONTEXT: Map272/events/194/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+さっそくだけど君、自分がもう一人いれば
+なんて思ったことないかい？
+> CONTEXT: Map272/events/194/pages/0/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もしよろしければ私の力で
+もう一人の君を生み出してあげようか？
+> CONTEXT: Map272/events/194/pages/0/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+頼んでみますか？
+> CONTEXT: Map272/events/194/pages/0/14/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふむ。どうやらホームがいっぱいのようだね。
+また後で来るといい。
+> CONTEXT: Map272/events/194/pages/0/19/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+もう一人の自分と契約を交わした！
+> CONTEXT: Map272/events/194/pages/0/26/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+服の下は鏡には映らないから
+適当に決めさせてもらったよ。
+> CONTEXT: Map272/events/194/pages/0/35/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+自分は男だって？
+いいじゃないか、君は君さ。
+> CONTEXT: Map272/events/194/pages/0/38/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+もう一人の自分をホームに迎え入れた！
+> CONTEXT: Map272/events/194/pages/0/43/Dialogue < UNTRANSLATED
+> CONTEXT: Map272/events/194/pages/0/54/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+もう一人の自分がパーティに加わった！
+> CONTEXT: Map272/events/194/pages/0/50/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうかい。
+ま、気が向いたらまた来てくれ。
+> CONTEXT: Map272/events/194/pages/0/63/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+さすがにもう一人は欲張りすぎじゃないかい。
+> CONTEXT: Map272/events/194/pages/1/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+出張サービスだ、なんか食っていってくれ。
+> CONTEXT: Map272/events/206/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"クィーンスライムベス"
+> CONTEXT: Map272/events/207/pages/1/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今までに戦ったユニークともう一度戦いに行く？
+> CONTEXT: Map272/events/207/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それじゃあ、ご案内ー。
+> CONTEXT: Map272/events/207/pages/1/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+反応がない。
+> CONTEXT: Map272/events/208/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+反応がない。
+どうやら一人でないと使えないようだ。
+> CONTEXT: Map272/events/208/pages/1/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map272/events/208/pages/2/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map272/events/208/pages/3/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"甘い雰囲気がする街が映っている。"
+> CONTEXT: Map272/events/208/pages/1/7/InlineScript/5:9 < UNTRANSLATED
+> CONTEXT: Map272/events/208/pages/2/7/InlineScript/5:9 < UNTRANSLATED
+> CONTEXT: Map272/events/208/pages/3/7/InlineScript/5:9 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+氷結図書館に移動しますか？
+> CONTEXT: Map272/events/209/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ロウラット邸に移動しますか？
+> CONTEXT: Map272/events/211/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+天上界に移動しますか？
+> CONTEXT: Map272/events/212/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+銀色の都市に移動しますか？
+> CONTEXT: Map272/events/213/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+常夜の街に移動しますか？
+> CONTEXT: Map272/events/214/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"裏レベル換金屋"
+> CONTEXT: Map272/events/216/pages/0/12/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+俺は裏レベル換金屋だ。
+金さえもらえれば、お前のレベルを一つ上げてやるぜ。
+> CONTEXT: Map272/events/216/pages/0/18/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･あー、金がなければレベルは上げられんな。
+金貯めてからまた来いよ。
+> CONTEXT: Map272/events/216/pages/0/27/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+次のお前のレベルは\\v[3]だな。これなら代金は\\v[4]Lps.だ。
+１レベル上げるかい？
+> CONTEXT: Map272/events/216/pages/0/33/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そらよ。レベルを上げたぜ。それじゃあ代金をいただくぜ。
+> CONTEXT: Map272/events/216/pages/0/46/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+よう兄ちゃん。久しぶりだな。
+良いもんあったらアイテム交換でやるよ。
+> CONTEXT: Map272/events/218/pages/0/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ファントム"
+> CONTEXT: Map272/events/219/pages/0/1/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ひとり・・・一つまで・・・
+使ったら・・・また来て
+> CONTEXT: Map272/events/219/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map272/events/219/pages/0/29/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+どんな場所でもぐっすり元気なテント・・・
+ほしい・・・？
+> CONTEXT: Map272/events/219/pages/0/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+一つ300Lps.・・・
+> CONTEXT: Map272/events/219/pages/0/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テントを買いますか？
+> CONTEXT: Map272/events/219/pages/0/13/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+足りない・・・
+> CONTEXT: Map272/events/219/pages/0/17/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そう・・・なんだ・・・
+> CONTEXT: Map272/events/219/pages/0/34/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+出張サービスです。
+何かご入用であればお買い求めください。
+> CONTEXT: Map272/events/221/pages/0/2/Dialogue < UNTRANSLATED
+
 > END STRING

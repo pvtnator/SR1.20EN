@@ -2,6 +2,7 @@
 > BEGIN STRING
 "悪くないスライム"
 > CONTEXT: Map218/events/1/pages/0/0/InlineScript/1:22
+> CONTEXT: Map221/events/54/pages/0/0/InlineScript/1:22
 "Non-hostile Slime"
 > END STRING
 
@@ -10,6 +11,7 @@
 戦闘でスライムの粘液を受けると、
 マップでの移動速度がしばらく落ちちゃうんだ。
 > CONTEXT: Map218/events/1/pages/0/1/Dialogue
+> CONTEXT: Map221/events/54/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
 If you get slime on you in battle, your movement speed 
 on the map will be reduced for a while.
@@ -20,6 +22,7 @@ on the map will be reduced for a while.
 ぼくたちスライムは動きが遅いけど、
 ぬるぬるになったら掴まっちゃうかもね。
 > CONTEXT: Map218/events/1/pages/0/4/Dialogue
+> CONTEXT: Map221/events/54/pages/0/4/Dialogue
 \\name[\\v[2]]\\_
 We slimes move slowly, but when someone is slimy,
 we might be able to catch them.
@@ -28,6 +31,8 @@ we might be able to catch them.
 > BEGIN STRING
 "カエル"
 > CONTEXT: Map218/events/46/pages/0/0/InlineScript/1:22
+> CONTEXT: Map221/events/63/pages/0/0/InlineScript/1:22
+> CONTEXT: Map052/events/25/pages/0/0/InlineScript/1:22
 "Frog"
 > END STRING
 
@@ -37,6 +42,7 @@ we might be able to catch them.
 これがあるだけで採取はかなり楽になる。\\_
 ３、４人いればほんと一瞬さ。
 > CONTEXT: Map218/events/46/pages/0/1/Dialogue
+> CONTEXT: Map221/events/63/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
 Are you using the [Easy harvest] rune?
 This alone makes harvesting much easier. 
@@ -48,6 +54,7 @@ With 3 or 4 people, it will take but a moment.
 採取はお金になるものが出てきたり、
 良いアイテムと交換できたりすることが多いんだ。
 > CONTEXT: Map218/events/46/pages/0/5/Dialogue
+> CONTEXT: Map221/events/63/pages/0/5/Dialogue
 \\name[\\v[2]]\\_
 Collecting often yields things that can be made 
 into money or can be exchanged for better items.
@@ -59,6 +66,7 @@ into money or can be exchanged for better items.
 その合間にやっとくのがいいよ。
 塵も積もればってやつさ。
 > CONTEXT: Map218/events/46/pages/0/8/Dialogue
+> CONTEXT: Map221/events/63/pages/0/8/Dialogue
 \\name[\\v[2]]\\_
 If you're likely to visit an area several times while exploring, 
 it's best to stop by in between. This stuff accumulates.

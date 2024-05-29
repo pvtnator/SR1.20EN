@@ -1,32 +1,82 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-レッサーサキュバス/3/3
-> CONTEXT: Troops/1/name/
-Lesser Succubus/3/3
-> END STRING
-
-> BEGIN STRING
-テスト用/3/3
-> CONTEXT: Troops/2/name/ < UNTRANSLATED
+【BOSS】ヒュプノス
+> CONTEXT: Troops/1/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-バトルテスト用
+【BOSS】ベルカとベルナ
+> CONTEXT: Troops/5/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】セイレーン
+> CONTEXT: Troops/6/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】アドウェルサ
+> CONTEXT: Troops/7/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】エインヘリヤル
+> CONTEXT: Troops/8/name/ < UNTRANSLATED
+> CONTEXT: Troops/906/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ネフィリム
+> CONTEXT: Troops/9/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】シェムハザ
+> CONTEXT: Troops/10/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】アガレス
 > CONTEXT: Troops/13/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-レッサーサキュバス/5/1
-> CONTEXT: Troops/16/name/
-> CONTEXT: Troops/34/name/
-> CONTEXT: Troops/141/name/
-> CONTEXT: Enemies/31/name/
-> CONTEXT: Enemies/32/name/
-> CONTEXT: Enemies/81/name/
-> CONTEXT: Enemies/84/name/
-Lesser Succubus/5/1
+テストエネミー
+> CONTEXT: Troops/14/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テストエネミー2
+> CONTEXT: Troops/15/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テストエネミー3
+> CONTEXT: Troops/16/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】カーリー
+> CONTEXT: Troops/17/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】セラフィエル
+> CONTEXT: Troops/19/name/ < UNTRANSLATED
+> CONTEXT: Troops/1552/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -60,30 +110,670 @@ Lesser Succubus/5/1
 > END STRING
 
 > BEGIN STRING
-■ここから実装
+ランダム戦
+> CONTEXT: Troops/25/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ランダム1/6/1
+> CONTEXT: Troops/26/name/ < UNTRANSLATED
+> CONTEXT: Enemies/391/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ランダム1/6/1, ランダム2/6/1
+> CONTEXT: Troops/27/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ランダム1/6/1, ランダム2/6/1, ランダ
+> CONTEXT: Troops/28/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホーム夢魔ランダム
+> CONTEXT: Troops/29/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+味方8人
 > CONTEXT: Troops/30/name/ < UNTRANSLATED
-> CONTEXT: Enemies/30/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■夢のかけら
+> CONTEXT: Troops/34/name/ < UNTRANSLATED
+> CONTEXT: Enemies/453/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/6/60, レッサーサキュ
+> CONTEXT: Troops/35/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/60, サキュバスロー
+> CONTEXT: Troops/36/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/60*2, レッサーサキ
+> CONTEXT: Troops/37/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/6/60, サキュバスロー
+> CONTEXT: Troops/38/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィッチ/43/60*2, レッサーサキュバス/6/6
+> CONTEXT: Troops/39/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバス/10/60, デビル/26/60, 氷の妖精
+> CONTEXT: Troops/40/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバス/10/60, カースメイガス/122/60*
+> CONTEXT: Troops/41/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバス/11/60, デビル/27/60, マタンゴ
+> CONTEXT: Troops/42/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバス/11/60*2, スレイヴ/63/60
+> CONTEXT: Troops/43/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバスロード/15/60, デーモン/31/60,
+> CONTEXT: Troops/44/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバスロード/15/60, スレイヴ/63/60*4
+> CONTEXT: Troops/45/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバスロード/16/60, ワーウルフ/100/6
+> CONTEXT: Troops/46/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバスロード/16/60, リリム/163/60*2,
+> CONTEXT: Troops/47/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インプ/21/60, プチウィッチ/37/60, プチウ
+> CONTEXT: Troops/48/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インプ/21/60, デーモン/31/60, デビル/26/
+> CONTEXT: Troops/49/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デビル/26/60*2, ゴブリン/108/60
+> CONTEXT: Troops/50/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デビル/26/60, ワーキャット/105/60*2
+> CONTEXT: Troops/51/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デーモン/31/60, ダークエンジェル/162/60
+> CONTEXT: Troops/52/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デーモン/31/60, リリム/165/60*2
+> CONTEXT: Troops/53/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インプ/22/60, ゴブリン/108/60, ギャング
+> CONTEXT: Troops/54/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インプ/22/60, デーモン/32/60, デビル/27/
+> CONTEXT: Troops/55/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デビル/27/60, ファミリア/97/60, キャスト
+> CONTEXT: Troops/56/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デビル/27/60, ウィッチ/43/60, プチウィッ
+> CONTEXT: Troops/57/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デーモン/32/60, ダークエンジェル/137/60
+> CONTEXT: Troops/58/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デーモン/32/60, ガーゴイル/141/60*2
+> CONTEXT: Troops/59/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチウィッチ/37/60, ウィッチ/42/60, ゴー
+> CONTEXT: Troops/60/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチウィッチ/37/60, アルラウネ/126/60,
+> CONTEXT: Troops/61/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カースメイガス/122/60*2, プチウィッチ/38
+> CONTEXT: Troops/62/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーキャット/105/60, ウィッチ/42/60, ワ
+> CONTEXT: Troops/63/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ナイトメア/74/60*2, ウィッチ/42/60
+> CONTEXT: Troops/64/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチデビル/167/60, ウィッチ/43/60, フェ
+> CONTEXT: Troops/65/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キャスト/53/60, スライム/80/60*2
+> CONTEXT: Troops/66/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キャスト/53/60*2, マタンゴ/133/60
+> CONTEXT: Troops/67/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スレイヴ/63/60*8
+> CONTEXT: Troops/68/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ナイトメア/74/60*2, ナイトメア/75/60
+> CONTEXT: Troops/69/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ナイトメア/74/60, プリーステス/118/60*2
+> CONTEXT: Troops/70/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ナイトメア/75/60, ワーキャット/104/60*2
+> CONTEXT: Troops/71/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スライム/80/60*4, ゴールドスライム/90/60
+> CONTEXT: Troops/72/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スライム/80/60*2, アルラウネ/127/60
+> CONTEXT: Troops/73/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミミック/145/60*2, ゴールドスライム/90/6
+> CONTEXT: Troops/74/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/169/60, ファミリア/96
+> CONTEXT: Troops/75/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/96/60*2, ファミリア/97/60
+> CONTEXT: Troops/76/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/96/60*2, マタンゴ/133/60
+> CONTEXT: Troops/77/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/97/60, プリーステス/161/60*2
+> CONTEXT: Troops/78/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーウルフ/100/60, ゴブリン/108/60, リリ
+> CONTEXT: Troops/79/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーウルフ/101/60, ワーキャット/105/60,
+> CONTEXT: Troops/80/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーウルフ/101/60, ギャングコマンダー/11
+> CONTEXT: Troops/81/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーウルフ/101/60, カースメイガス/122/60
+> CONTEXT: Troops/82/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ギャングコマンダー/111/60*2, プリーステ
+> CONTEXT: Troops/83/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ゴブリン/108/60*6, ギャングコマンダー/11
+> CONTEXT: Troops/84/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プリーステス/118/60*2, プリーステス/161/
+> CONTEXT: Troops/85/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プリーステス/118/60, リリム/156/60, ダー
+> CONTEXT: Troops/86/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カースメイガス/122/60, プチデビル/167/60
+> CONTEXT: Troops/87/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルラウネ/126/60*2, アルラウネ/127/60
+> CONTEXT: Troops/88/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マタンゴ/133/60*2, アルラウネ/126/60
+> CONTEXT: Troops/89/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ガーゴイル/141/60*2, ミミック/146/60
+> CONTEXT: Troops/90/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ガーゴイル/141/60*2, 氷の妖精/166/60
+> CONTEXT: Troops/91/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミミック/145/60*2, ミミック/146/60
+> CONTEXT: Troops/92/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミミック/145/60, インプ/22/60*2
+> CONTEXT: Troops/93/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリム/165/60*2, ミミック/146/60
+> CONTEXT: Troops/94/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+タマモ/152/60*2, ワーウルフ/100/60
+> CONTEXT: Troops/95/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリム/156/60, リリム/163/60, リリム/165
+> CONTEXT: Troops/96/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/169/60*2, リリム/156/
+> CONTEXT: Troops/97/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリム/163/60, 氷の妖精/166/60, キャスト
+> CONTEXT: Troops/98/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチデビル/167/60, フェアリー/168/60, ダ
+> CONTEXT: Troops/99/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ラーミルキャスト/208/50
+> CONTEXT: Troops/100/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリス/209/60, リリム/163/60, リリム/165
+> CONTEXT: Troops/101/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/96/60, ファミリア/210/65, フ
+> CONTEXT: Troops/102/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スリーピィ/221/60, フェアリー/168/60
+> CONTEXT: Troops/103/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スリーピィ/222/50, 氷の妖精/166/60
+> CONTEXT: Troops/104/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリス/219/60, フェアリー/168/60
+> CONTEXT: Troops/105/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチウィッチ/211/60, ウィッチ/212/60
+> CONTEXT: Troops/106/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スレイヴ/214/60, ドッペルゲンガー/225/60
+> CONTEXT: Troops/107/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ロウラット/226/60, ダークエンジェル/162/
+> CONTEXT: Troops/108/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリム/227/60, レッサーサキュバス/169/60
+> CONTEXT: Troops/109/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スリーピィ/228/60
+> CONTEXT: Troops/110/name/ < UNTRANSLATED
+> CONTEXT: Troops/1658/name/ < UNTRANSLATED
+> CONTEXT: Enemies/511/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミミック/223/60, ミミック/145/60, ミミッ
+> CONTEXT: Troops/111/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シスターサキュバス/216/60
+> CONTEXT: Troops/112/name/ < UNTRANSLATED
+> CONTEXT: Troops/1671/name/ < UNTRANSLATED
+> CONTEXT: Enemies/522/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークエンジェル/229/60, アルラウネ/126/
+> CONTEXT: Troops/113/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークエンジェル/231/60, プリーステス/16
+> CONTEXT: Troops/114/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イマジナリーフレンド/233/60
+> CONTEXT: Troops/115/name/ < UNTRANSLATED
+> CONTEXT: Troops/806/name/ < UNTRANSLATED
+> CONTEXT: Enemies/418/name/ < UNTRANSLATED
+> CONTEXT: Enemies/525/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キキーモラ/337/60
+> CONTEXT: Troops/116/name/ < UNTRANSLATED
+> CONTEXT: Enemies/530/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マタンゴ/245/60, マタンゴ/133/60
+> CONTEXT: Troops/117/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/96/60
+> CONTEXT: Troops/119/name/ < UNTRANSLATED
+> CONTEXT: Enemies/476/name/ < UNTRANSLATED
+> CONTEXT: Enemies/529/name/ < UNTRANSLATED
+> CONTEXT: Enemies/624/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】シルキー*2
+> CONTEXT: Troops/120/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ミカエル
+> CONTEXT: Troops/124/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シスターキャスト/236/60, キャスト/164/60
+> CONTEXT: Troops/126/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エテルヌス/160/60
+> CONTEXT: Troops/128/name/ < UNTRANSLATED
+> CONTEXT: Enemies/515/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドッペルゲンガー/172/60*2
+> CONTEXT: Troops/129/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドッペルゲンガー/226/60, ドッペルゲンガ
+> CONTEXT: Troops/130/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】クイーンスライム
+> CONTEXT: Troops/131/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ゴブリン/108/60, ヴィレッジャ/243/60, ギ
+> CONTEXT: Troops/132/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マーメイド/244/60
+> CONTEXT: Troops/133/name/ < UNTRANSLATED
+> CONTEXT: Troops/1664/name/ < UNTRANSLATED
+> CONTEXT: Enemies/514/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トイフェル/326/70*2
+> CONTEXT: Troops/134/name/ < UNTRANSLATED
+> CONTEXT: Troops/1247/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルビノ/323/71
+> CONTEXT: Troops/135/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1198/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メアリー/322/70
+> CONTEXT: Troops/136/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1186/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■■■製品版実装
+> CONTEXT: Troops/137/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 チュートリアル
-> CONTEXT: Troops/31/name/ < UNTRANSLATED
 > CONTEXT: Troops/138/name/ < UNTRANSLATED
+> CONTEXT: Map878/events/4/pages/0/114/Choice/1 < UNTRANSLATED
+> CONTEXT: Map878/events/4/pages/0/114/Choice/1 < UNTRANSLATED
+> CONTEXT: Map600/events/1/pages/0/200/Choice/1 < UNTRANSLATED
+> CONTEXT: Map600/events/1/pages/0/200/Choice/1 < UNTRANSLATED
+> CONTEXT: Map586/events/11/pages/0/200/Choice/1 < UNTRANSLATED
+> CONTEXT: Map586/events/11/pages/0/200/Choice/1 < UNTRANSLATED
+> CONTEXT: Map472/events/7/pages/0/201/Choice/1 < UNTRANSLATED
+> CONTEXT: Map472/events/7/pages/0/201/Choice/1 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 チュートリアルを聞きますか？
-> CONTEXT: Troops/31/pages/0/2/Dialogue
 > CONTEXT: Troops/138/pages/0/2/Dialogue
 Listen to a tutorial?
 > END STRING
 
 > BEGIN STRING
 "誰かの声"
-> CONTEXT: Troops/31/pages/0/6/InlineScript/1:22
-> CONTEXT: Troops/31/pages/1/2/InlineScript/1:22
 > CONTEXT: Troops/138/pages/0/6/InlineScript/1:22
 > CONTEXT: Troops/138/pages/1/2/InlineScript/1:22
 > CONTEXT: Map226/events/1/pages/0/3/InlineScript/1:22
@@ -92,36 +782,22 @@ Listen to a tutorial?
 > CONTEXT: Map226/events/2/pages/0/3/InlineScript/1:22
 > CONTEXT: Map224/events/2/pages/0/5/InlineScript/1:22
 > CONTEXT: Map198/events/3/pages/0/27/InlineScript/1:22
-> CONTEXT: Map198/events/3/pages/0/66/InlineScript/1:22
-> CONTEXT: Map198/events/3/pages/0/91/InlineScript/1:22
 > CONTEXT: Map197/events/10/pages/1/3/InlineScript/1:22
 > CONTEXT: Map197/events/11/pages/1/4/InlineScript/1:22
 > CONTEXT: Map197/events/14/pages/1/3/InlineScript/1:22
 > CONTEXT: Map197/events/15/pages/1/3/InlineScript/1:22
 > CONTEXT: Map193/events/14/pages/1/3/InlineScript/1:22
-> CONTEXT: Map198/events/3/pages/0/161/InlineScript/1:22
-> CONTEXT: Map198/events/3/pages/0/226/InlineScript/1:22
-> CONTEXT: Map198/events/3/pages/0/241/InlineScript/1:22
 > CONTEXT: Map040/events/1/pages/0/50/InlineScript/1:22
-> CONTEXT: Map033/events/8/pages/1/87/InlineScript/1:22
-> CONTEXT: Map033/events/8/pages/1/112/InlineScript/1:22
-> CONTEXT: Map035/events/8/pages/1/85/InlineScript/1:22
-> CONTEXT: Map035/events/8/pages/1/109/InlineScript/1:22
-> CONTEXT: Map033/events/8/pages/1/182/InlineScript/1:22
-> CONTEXT: Map033/events/8/pages/1/246/InlineScript/1:22
-> CONTEXT: Map033/events/8/pages/1/260/InlineScript/1:22
 > CONTEXT: Commonevents/2/0/InlineScript/1:22
 > CONTEXT: Commonevents/207/0/InlineScript/1:22
+> CONTEXT: Map198/events/3/pages/0/70/InlineScript/1:22
+> CONTEXT: Map198/events/3/pages/0/95/InlineScript/1:22
+> CONTEXT: Map198/events/3/pages/0/199/InlineScript/1:22
+> CONTEXT: Map198/events/3/pages/0/280/InlineScript/1:22
+> CONTEXT: Map227/events/1/pages/1/10/InlineScript/1:22
+> CONTEXT: Map198/events/3/pages/0/405/InlineScript/1:22
+> CONTEXT: Map198/events/3/pages/0/425/InlineScript/1:22
 "Someone's voice"
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-この世界に蔓延る「夢魔」の事はご存知でしょう？
-> CONTEXT: Troops/31/pages/0/8/Dialogue
-\\name[\\v[2]]\\_
-You know about the "succubi" 
-that are rampant in this world, right?
 > END STRING
 
 > BEGIN STRING
@@ -129,7 +805,6 @@ that are rampant in this world, right?
 夢世界の夢魔は快楽と共に在る者。\\.\\.
 普通の魔物に対しての有効打となる野蛮な攻撃などは
 一切受け付けず、その身に受けられるは快楽のみ･･･。
-> CONTEXT: Troops/31/pages/0/10/Dialogue
 > CONTEXT: Troops/138/pages/0/8/Dialogue
 \\name[\\v[2]]\\_
 The succubi exist in a world of pleasure. 
@@ -141,7 +816,6 @@ but all they can receive is pleasure...
 \\name[\\v[2]]夢魔に抗う手段は、
 接吻を、\\.愛撫を、\\.そして交合を･･･\\H\\.\\.
 ふふっ、もうお分かりでしょう？
-> CONTEXT: Troops/31/pages/0/14/Dialogue
 > CONTEXT: Troops/138/pages/0/12/Dialogue
 \\name[\\v[2]]The means to resist succubi are
 kisses, \\.caresses, \\.and intercourse...\\H\\.\\.
@@ -152,7 +826,6 @@ Hehe, you understand now, right?
 \\name[\\v[2]]\\_
 夢魔を「果てさせる」事のみが、
 彼女たちへの対抗手段ですわ\\H
-> CONTEXT: Troops/31/pages/0/17/Dialogue
 > CONTEXT: Troops/138/pages/0/15/Dialogue
 \\name[\\v[2]]\\_
 The only thing that can be done is to 
@@ -164,7 +837,6 @@ It's a way to counter them\\H
 \\name[\\v[2]]\\_
 勿論、彼女たちも貴方を巧みに攻め立て、
 貴方を絶頂へと導きますの。
-> CONTEXT: Troops/31/pages/0/20/Dialogue
 > CONTEXT: Troops/138/pages/0/18/Dialogue
 \\name[\\v[2]]\\_
 Of course, they will also skillfully attack you,
@@ -175,7 +847,6 @@ and lead you to climax.
 \\name[\\v[2]]\\_
 そして「貴方が倒れた時」こそ、
 この夢世界に置いての、溺死を意味しますわ。
-> CONTEXT: Troops/31/pages/0/23/Dialogue
 > CONTEXT: Troops/138/pages/0/21/Dialogue
 \\name[\\v[2]]\\_
 And “beind defeated” in the dream world
@@ -185,7 +856,6 @@ means drowning.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 くれぐれも、快楽に溺れてしまわないよう･･･\\H
-> CONTEXT: Troops/31/pages/0/26/Dialogue
 > CONTEXT: Troops/138/pages/0/24/Dialogue
 \\name[\\v[2]]\\_
 Try not to drown in pleasure...\\H
@@ -194,7 +864,6 @@ Try not to drown in pleasure...\\H
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ここまでは宜しいかしら？
-> CONTEXT: Troops/31/pages/0/28/Dialogue
 > CONTEXT: Troops/138/pages/0/26/Dialogue
 \\name[\\v[2]]\\_
 Is this clear so far?
@@ -202,926 +871,11 @@ Is this clear so far?
 
 > BEGIN STRING
 もう一度聞く
-> CONTEXT: Troops/31/pages/0/30/Choice/1
-> CONTEXT: Troops/31/pages/0/30/Choice/1
 > CONTEXT: Troops/138/pages/0/28/Choice/1
 > CONTEXT: Troops/138/pages/0/28/Choice/1
+> CONTEXT: Troops/1201/pages/0/32/Choice/1
+> CONTEXT: Troops/1201/pages/0/32/Choice/1
 Listen again
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-快楽を受ける毎にＥＰ、
-つまり快楽への許容量が減少しますわ。
-> CONTEXT: Troops/31/pages/0/33/Dialogue
-\\name[\\v[2]]\\_
-Every time you receive pleasure, your EP, 
-which is tolerance for pleasure, decreases.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ＥＰが０になってしまえば絶頂し、その時には
-ＶＰが大きく減少してしまいますの。
-> CONTEXT: Troops/31/pages/0/36/Dialogue
-\\name[\\v[2]]\\_
-If your EP reaches 0, you will reach the climax, 
-and then your VP will decrease significantly.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-そしてこのＶＰこそが生命力。
-これが０になることで倒れてしまい、
-戦闘不能となりますわ。
-> CONTEXT: Troops/31/pages/0/39/Dialogue
-\\name[\\v[2]]\\_
-And VP is life force. If this becomes 0, 
-you will faint and become unable to fight.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-絶頂によるＶＰの消耗は非常に大きなものですわ。
-今の貴方や下級の夢魔でしたら、絶頂してしまえば
-すぐに倒れてしまうことでしょう･･･。
-> CONTEXT: Troops/31/pages/0/43/Dialogue
-> CONTEXT: Troops/138/pages/0/41/Dialogue
-\\name[\\v[2]]\\_
-The loss of VP due to climax is extremely large.
-A lower-class succubus would probably 
-faint immediately after climaxing...
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-「スキル」の中には、使用するためにＶＰを
-消費するものも幾つかありますわ。
-> CONTEXT: Troops/31/pages/0/47/Dialogue
-> CONTEXT: Troops/138/pages/0/45/Dialogue
-\\name[\\v[2]]\\_
-Some "skills" require VP to use.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-そういったものは、使い過ぎないよう
-ご注意くださいませ。
-> CONTEXT: Troops/31/pages/0/50/Dialogue
-> CONTEXT: Troops/138/pages/0/48/Dialogue
-\\name[\\v[2]]\\_
-Don't overuse these skills
-Please be careful.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ここまでのお話は大丈夫かしら？
-> CONTEXT: Troops/31/pages/0/53/Dialogue
-> CONTEXT: Troops/138/pages/0/51/Dialogue
-\\name[\\v[2]]\\_
-Is everything clear so far?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-･･･ふふ、さぁ、あまり焦らしてもいけませんわね\\H
-もう相手方も、待ちきれない様子ですし･･･\\H
-> CONTEXT: Troops/31/pages/0/57/Dialogue
-> CONTEXT: Troops/138/pages/0/55/Dialogue
-\\name[\\v[2]]\\_
-...Hehe, come on, you shouldn't worry too much\\H
-Seems like your opponent can't wait anymore...\\H
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-何をしたら良いのか分からない時は、
-まずはキスから始めてみて、ムードを上げると
-良い事ですわね\\H
-> CONTEXT: Troops/31/pages/0/60/Dialogue
-\\name[\\v[2]]\\_
-If you don't know what to do, 
-it's a good idea to start with a kiss 
-and get in the mood\\H
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-お愉しみ中、再度御免遊ばせ。
-言い忘れていたことがございましたの。
-> CONTEXT: Troops/31/pages/1/3/Dialogue
-> CONTEXT: Troops/138/pages/1/3/Dialogue
-\\name[\\v[2]]\\_
-Pardon me,
-for getting in the way of your pleasure once more.
-There's something I forgot to mention.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-スキルの中に[レジスト]と書かれたものがあるのに
-お気付きになられましたかしら？
-> CONTEXT: Troops/31/pages/1/7/Dialogue
-\\name[\\v[2]]\\_
-Some of the skills have [Resist] written on them.
-Have you noticed?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-そういった「レジストスキル」の結果は、
-貴方次第で決まりますの。
-> CONTEXT: Troops/31/pages/1/10/Dialogue
-\\name[\\v[2]]\\_
-The results of such "resist skills" 
-are determined by you.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-やり方は簡単ですわ。表示された矢印を
-時間内に左から順番に押していくだけ。
-> CONTEXT: Troops/31/pages/1/13/Dialogue
-\\name[\\v[2]]\\_
-It's easy to do. Just press the displayed arrows 
-in order from the left within the time limit.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふふっ、言っても分かりませんわね。
-･･･実際に始めてみましょう\\H
-> CONTEXT: Troops/31/pages/1/16/Dialogue
-> CONTEXT: Troops/138/pages/1/17/Dialogue
-\\name[\\v[2]]\\_
-Hehe, don't understand?
-...Let's try it out\\H
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ではいきますわよ･･･。
-３、\\.２、\\.１･･･
-> CONTEXT: Troops/31/pages/1/19/Dialogue
-> CONTEXT: Troops/31/pages/1/53/Dialogue
-> CONTEXT: Troops/138/pages/1/20/Dialogue
-> CONTEXT: Troops/138/pages/1/54/Dialogue
-\\name[\\v[2]]\\_
-Let's go...
-3, \\.2, \\.1...
-> END STRING
-
-> BEGIN STRING
-レジストスキル中です。
-左から順番に矢印の方向を押してください。
-> CONTEXT: Troops/31/pages/1/25/Dialogue
-> CONTEXT: Troops/138/pages/1/26/Dialogue
-Resist skill in progress.
-Press the arrow key in order from the left.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふふっ、レジストスキル成功ですわ\\H
-> CONTEXT: Troops/31/pages/1/29/Dialogue
-> CONTEXT: Troops/31/pages/1/63/Dialogue
-> CONTEXT: Troops/138/pages/1/30/Dialogue
-> CONTEXT: Troops/138/pages/1/64/Dialogue
-\\name[\\v[2]]\\_
-Hehe, the resist skill was successful\\H
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-あらあら、レジストスキル失敗ですわね。
-> CONTEXT: Troops/31/pages/1/33/Dialogue
-> CONTEXT: Troops/31/pages/1/67/Dialogue
-> CONTEXT: Troops/138/pages/1/34/Dialogue
-> CONTEXT: Troops/138/pages/1/68/Dialogue
-\\name[\\v[2]]\\_
-Oh, the resist skill failed.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-こちらからレジストスキルを行った時は、
-成功するとその行為に成功しますの。\\.\\.
-失敗した時はそのまま失敗になりますわ。
-> CONTEXT: Troops/31/pages/1/37/Dialogue
-> CONTEXT: Troops/138/pages/1/38/Dialogue
-\\name[\\v[2]]\\_
-When you perform a resist skill, you must succeed
-to resist, otherwise it will fail.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-逆に、相手からレジストスキルを使われた場合は、
-成功すると「抵抗に」成功することになりますの。\\.\\.
-失敗した時は、「抵抗に」失敗することになりますわ。
-> CONTEXT: Troops/31/pages/1/41/Dialogue
-> CONTEXT: Troops/138/pages/1/42/Dialogue
-\\name[\\v[2]]\\_
-On the other hand, if your opponent uses a resist skill, 
-you must succeed in order to defend against it,\\.\\.
-otherwise you will be affected by the skill.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-その点、ご注意くださいませ。
-> CONTEXT: Troops/31/pages/1/45/Dialogue
-> CONTEXT: Troops/138/pages/1/46/Dialogue
-\\name[\\v[2]]\\_
-Please be careful about that.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ここまでのお話、ご理解頂けましたでしょうか？
-> CONTEXT: Troops/31/pages/1/47/Dialogue
-> CONTEXT: Troops/138/pages/1/48/Dialogue
-\\name[\\v[2]]\\_
-Did you understand everything so far?
-> END STRING
-
-> BEGIN STRING
-もう一度レジストをしたい
-> CONTEXT: Troops/31/pages/1/49/Choice/1
-> CONTEXT: Troops/31/pages/1/49/Choice/1
-> CONTEXT: Troops/138/pages/1/50/Choice/1
-> CONTEXT: Troops/138/pages/1/50/Choice/1
-I want to resist again
-> END STRING
-
-> BEGIN STRING
-もう一度説明を聞きたい
-> CONTEXT: Troops/31/pages/1/49/Choice/2
-> CONTEXT: Troops/31/pages/1/49/Choice/2
-> CONTEXT: Troops/138/pages/1/50/Choice/2
-> CONTEXT: Troops/138/pages/1/50/Choice/2
-Hear it again
-> END STRING
-
-> BEGIN STRING
-レジストスキル中です。
-左から順番に押してください。
-> CONTEXT: Troops/31/pages/1/59/Dialogue
-> CONTEXT: Troops/138/pages/1/60/Dialogue
-Resist skill in progress.
-Press them in order from the left.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-･･･ふふっ、これで心置きなく
-愛し合う事ができますわね\\H
-> CONTEXT: Troops/31/pages/1/76/Dialogue
-> CONTEXT: Troops/138/pages/1/77/Dialogue
-\\name[\\v[2]]\\_
-...hehe, now we can love each other 
-without any reservations\\H
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-お邪魔して申し訳ありませんわ。
-引き続き、お愉しみ下さいませ\\H
-> CONTEXT: Troops/31/pages/1/79/Dialogue
-> CONTEXT: Troops/138/pages/1/80/Dialogue
-\\name[\\v[2]]\\_
-Sorry to disturb you.
-Please continue to enjoy\\H
-> END STRING
-
-> BEGIN STRING
-■混濁Lv1
-> CONTEXT: Troops/33/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-インプ/21/1
-> CONTEXT: Troops/35/name/
-> CONTEXT: Troops/142/name/
-> CONTEXT: Enemies/41/name/
-> CONTEXT: Enemies/85/name/
-Imp/21/1
-> END STRING
-
-> BEGIN STRING
-キャスト/53/1
-> CONTEXT: Troops/36/name/
-> CONTEXT: Troops/143/name/
-> CONTEXT: Troops/555/name/
-> CONTEXT: Enemies/47/name/
-> CONTEXT: Enemies/86/name/
-Cast/53/1
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス/5/1*2
-> CONTEXT: Troops/37/name/
-> CONTEXT: Troops/144/name/
-Lesser Succubus/5/1*2
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス/5/1, インプ/21/1
-> CONTEXT: Troops/38/name/
-> CONTEXT: Troops/145/name/
-Lesser Succubus/5/1, Imp/21/1
-> END STRING
-
-> BEGIN STRING
-インプ/21/1*2
-> CONTEXT: Troops/39/name/
-> CONTEXT: Troops/146/name/
-Imp/21/1*2
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス/5/1, キャスト/53/1
-> CONTEXT: Troops/40/name/
-> CONTEXT: Troops/147/name/
-Lesser Succubus/5/1, Cast/53/1
-> END STRING
-
-> BEGIN STRING
-キャスト/53/1, インプ/21/1
-> CONTEXT: Troops/41/name/
-Cast/53/1, Imp/21/1
-> END STRING
-
-> BEGIN STRING
-キャスト/53/1*2
-> CONTEXT: Troops/42/name/
-> CONTEXT: Troops/148/name/
-Cast/53/1*2
-> END STRING
-
-> BEGIN STRING
-【OFE】レッサーサキュバス/6/10*3
-> CONTEXT: Troops/43/name/
-> CONTEXT: Troops/149/name/
-【OFE】Lesser Succubus/6/10*3
-> END STRING
-
-> BEGIN STRING
-■混濁Lv3
-> CONTEXT: Troops/45/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス/5/3
-> CONTEXT: Troops/46/name/
-> CONTEXT: Troops/152/name/
-> CONTEXT: Enemies/33/name/
-> CONTEXT: Enemies/91/name/
-Lesser Succubus/5/3
-> END STRING
-
-> BEGIN STRING
-インプ/21/3
-> CONTEXT: Troops/47/name/
-> CONTEXT: Troops/153/name/
-> CONTEXT: Enemies/42/name/
-> CONTEXT: Enemies/92/name/
-Imp/21/3
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス/5/3, インプ/21/3
-> CONTEXT: Troops/48/name/
-> CONTEXT: Troops/156/name/
-Lesser Succubus/5/3, Imp/21/3
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス/5/3*2
-> CONTEXT: Troops/49/name/
-> CONTEXT: Troops/155/name/
-Lesser Succubus/5/3*2
-> END STRING
-
-> BEGIN STRING
-インプ/21/3*2, レッサーサキュバス/5/3
-> CONTEXT: Troops/50/name/
-Imp/21/3*2, Lesser Succubus/5/3
-> END STRING
-
-> BEGIN STRING
-ナイトメア/74/4
-> CONTEXT: Troops/51/name/
-> CONTEXT: Troops/154/name/
-> CONTEXT: Enemies/50/name/
-> CONTEXT: Enemies/93/name/
-Nightmare/74/4
-> END STRING
-
-> BEGIN STRING
-ナイトメア/74/4, レッサーサキュバス/5/3
-> CONTEXT: Troops/52/name/
-Nightmare/74/4, Lesser Succubus/5/3
-> END STRING
-
-> BEGIN STRING
-インプ/21/3, ナイトメア/74/4
-> CONTEXT: Troops/53/name/
-Imp/21/3, Nightmare/74/4
-> END STRING
-
-> BEGIN STRING
-インプ/21/3*2, ナイトメア/74/6
-> CONTEXT: Troops/54/name/
-Imp/21/3*2, Nightmare/74/6
-> END STRING
-
-> BEGIN STRING
-【R】レッサーサキュバス/5/6
-> CONTEXT: Troops/55/name/
-【R】Lesser Succubus/5/6
-> END STRING
-
-> BEGIN STRING
-【R】インプ/21/1*5
-> CONTEXT: Troops/56/name/
-【R】Imp/21/1*5
-> END STRING
-
-> BEGIN STRING
-■混濁Lv5
-> CONTEXT: Troops/58/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス/5/6
-> CONTEXT: Troops/59/name/
-> CONTEXT: Troops/163/name/
-> CONTEXT: Enemies/34/name/
-> CONTEXT: Enemies/99/name/
-Lesser Succubus/5/6
-> END STRING
-
-> BEGIN STRING
-インプ/21/5*2
-> CONTEXT: Troops/60/name/
-Imp/21/5*2
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス/5/6*2
-> CONTEXT: Troops/61/name/
-> CONTEXT: Troops/165/name/
-Lesser Succubus/5/6*2
-> END STRING
-
-> BEGIN STRING
-インプ/21/5*2, レッサーサキュバス/5/6
-> CONTEXT: Troops/62/name/
-Imp/21/5*2, Lesser Succubus/5/6
-> END STRING
-
-> BEGIN STRING
-インプ/21/5*3
-> CONTEXT: Troops/63/name/
-Imp/21/5*3
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス/5/6, キャスト/53/3
-> CONTEXT: Troops/64/name/
-Lesser Succubus/5/6, Cast/53/3
-> END STRING
-
-> BEGIN STRING
-キャスト/53/3, インプ/21/5*2
-> CONTEXT: Troops/65/name/
-Cast/53/3, Imp/21/5*2
-> END STRING
-
-> BEGIN STRING
-ナイトメア/74/6
-> CONTEXT: Troops/66/name/
-> CONTEXT: Enemies/51/name/
-Nightmare/74/6
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス/5/6, ナイトメア/74/6
-> CONTEXT: Troops/67/name/
-Lesser Succubus/5/6, Nightmare/74/6
-> END STRING
-
-> BEGIN STRING
-インプ/21/5, ナイトメア/74/6
-> CONTEXT: Troops/68/name/
-Imp/21/5, Nightmare/74/6
-> END STRING
-
-> BEGIN STRING
-ナイトメア/74/6*2
-> CONTEXT: Troops/69/name/
-Nightmare/74/6*2
-> END STRING
-
-> BEGIN STRING
-スライム/80/6
-> CONTEXT: Troops/70/name/
-> CONTEXT: Troops/169/name/
-> CONTEXT: Enemies/55/name/
-> CONTEXT: Enemies/101/name/
-Slime/80/6
-> END STRING
-
-> BEGIN STRING
-スライム/80/6*2
-> CONTEXT: Troops/71/name/
-> CONTEXT: Troops/170/name/
-Slime/80/6*2
-> END STRING
-
-> BEGIN STRING
-スライム/80/6, レッサーサキュバス/5/6
-> CONTEXT: Troops/72/name/
-Slime/80/6, Lesser Succubus/5/6
-> END STRING
-
-> BEGIN STRING
-【R】レッサーサキュバス/5/3*4
-> CONTEXT: Troops/73/name/
-【R】Lesser Succubus/5/3*4
-> END STRING
-
-> BEGIN STRING
-【R】インプ/21/3*3, ナイトメア/74/4
-> CONTEXT: Troops/74/name/
-【R】Imp/21/3*3, Nightmare/74/4
-> END STRING
-
-> BEGIN STRING
-【R】スライム/80/6*3
-> CONTEXT: Troops/75/name/
-> CONTEXT: Troops/173/name/
-【R】Slime/80/6*3
-> END STRING
-
-> BEGIN STRING
-■パルフィスLv8
-> CONTEXT: Troops/77/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス/5/8
-> CONTEXT: Troops/78/name/
-> CONTEXT: Enemies/35/name/
-Lesser Succubus/5/8
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス/5/8*2
-> CONTEXT: Troops/79/name/
-Lesser Succubus/5/8*2
-> END STRING
-
-> BEGIN STRING
-インプ/21/8*2
-> CONTEXT: Troops/80/name/
-> CONTEXT: Troops/176/name/
-Imp/21/8*2
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス/5/8, インプ/21/8
-> CONTEXT: Troops/81/name/
-Lesser Succubus/5/8, Imp/21/8
-> END STRING
-
-> BEGIN STRING
-プチウィッチ/37/8, レッサーサキュバス/5/
-> CONTEXT: Troops/82/name/
-Petite Witch/37/8, Lesser Succubus/5/
-> END STRING
-
-> BEGIN STRING
-プチウィッチ/37/8*2, レッサーサキュバス/
-> CONTEXT: Troops/83/name/
-Petite Witch/37/8*2, Lesser Succubus/
-> END STRING
-
-> BEGIN STRING
-インプ/21/8*3
-> CONTEXT: Troops/84/name/
-> CONTEXT: Troops/179/name/
-Imp/21/8*3
-> END STRING
-
-> BEGIN STRING
-インプ/21/8, プチウィッチ/37/8
-> CONTEXT: Troops/85/name/
-Imp/21/8, Petite Witch/37/8
-> END STRING
-
-> BEGIN STRING
-インプ/21/8*2, プチウィッチ/37/8
-> CONTEXT: Troops/86/name/
-Imp/21/8*2, Petite Witch/37/8
-> END STRING
-
-> BEGIN STRING
-プチウィッチ/37/8
-> CONTEXT: Troops/87/name/
-> CONTEXT: Enemies/59/name/
-Petite Witch/37/8
-> END STRING
-
-> BEGIN STRING
-プチウィッチ/37/8*2
-> CONTEXT: Troops/88/name/
-Petite Witch/37/8*2
-> END STRING
-
-> BEGIN STRING
-ウィッチ/42/12
-> CONTEXT: Troops/89/name/
-> CONTEXT: Enemies/62/name/
-Witch/42/12
-> END STRING
-
-> BEGIN STRING
-ウィッチ/42/12, プチウィッチ/37/8
-> CONTEXT: Troops/90/name/
-Witch/42/12, Petite Witch/37/8
-> END STRING
-
-> BEGIN STRING
-ウィッチ/42/12, レッサーサキュバス/5/8
-> CONTEXT: Troops/91/name/
-Witch/42/12, Lesser Succubus/5/8
-> END STRING
-
-> BEGIN STRING
-ナイトメア/74/8
-> CONTEXT: Troops/92/name/
-> CONTEXT: Enemies/52/name/
-Nightmare/74/8
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス/5/8, ナイトメア/74/8
-> CONTEXT: Troops/93/name/
-Lesser Succubus/5/8, Nightmare/74/8
-> END STRING
-
-> BEGIN STRING
-ナイトメア/74/8*2
-> CONTEXT: Troops/94/name/
-> CONTEXT: Troops/181/name/
-Nightmare/74/8*2
-> END STRING
-
-> BEGIN STRING
-プチウィッチ/37/8*2, ナイトメア/74/8
-> CONTEXT: Troops/95/name/
-Petite Witch/37/8*2, Nightmare/74/8
-> END STRING
-
-> BEGIN STRING
-ナイトメア/74/8, スライム/80/9
-> CONTEXT: Troops/96/name/
-Nightmare/74/8, Slime/80/9
-> END STRING
-
-> BEGIN STRING
-スライム/80/9*2
-> CONTEXT: Troops/97/name/
-Slime/80/9*2
-> END STRING
-
-> BEGIN STRING
-スライム/80/9, レッサーサキュバス/5/8
-> CONTEXT: Troops/98/name/
-Slime/80/9, Lesser Succubus/5/8
-> END STRING
-
-> BEGIN STRING
-サキュバス/10/10
-> CONTEXT: Troops/99/name/
-Succubus/10/10
-> END STRING
-
-> BEGIN STRING
-プチウィッチ/37/8, サキュバス/10/10
-> CONTEXT: Troops/100/name/
-Petite Witch/37/8, Succubus/10/10
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス/5/8, サキュバス/10/10
-> CONTEXT: Troops/101/name/
-Lesser Succubus/5/8, Succubus/10/10
-> END STRING
-
-> BEGIN STRING
-【R】レッサーサキュバス/5/8*4
-> CONTEXT: Troops/102/name/
-【R】Lesser Succubus/5/8*4
-> END STRING
-
-> BEGIN STRING
-【R】インプ/21/3*4, レッサキュ/5/6
-> CONTEXT: Troops/103/name/
-【R】Imp/21/3*4, レッサキュ/5/6
-> END STRING
-
-> BEGIN STRING
-【R】プチウィッチ/37/4*4
-> CONTEXT: Troops/104/name/
-【R】Petite Witch/37/4*4
-> END STRING
-
-> BEGIN STRING
-【OFE】レッサキュ/6/16*2, サキュ/11
-> CONTEXT: Troops/105/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-■パルフィスLv10
-> CONTEXT: Troops/107/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス/5/10
-> CONTEXT: Troops/108/name/
-> CONTEXT: Enemies/36/name/
-> CONTEXT: Enemies/95/name/
-Lesser Succubus/5/10
-> END STRING
-
-> BEGIN STRING
-インプ/21/10*2
-> CONTEXT: Troops/109/name/
-> CONTEXT: Troops/190/name/
-Imp/21/10*2
-> END STRING
-
-> BEGIN STRING
-プチウィッチ/37/10
-> CONTEXT: Troops/110/name/
-> CONTEXT: Enemies/60/name/
-Petite Witch/37/10
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス/5/10*2
-> CONTEXT: Troops/111/name/
-Lesser Succubus/5/10*2
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス/5/10, インプ/21/10*2
-> CONTEXT: Troops/112/name/
-Lesser Succubus/5/10, Imp/21/10*2
-> END STRING
-
-> BEGIN STRING
-プチウィッチ/37/10, レッサーサキュバス/5
-> CONTEXT: Troops/113/name/
-Petite Witch/37/10, Lesser Succubus/5
-> END STRING
-
-> BEGIN STRING
-インプ/21/10*3
-> CONTEXT: Troops/114/name/
-> CONTEXT: Troops/193/name/
-Imp/21/10*3
-> END STRING
-
-> BEGIN STRING
-ナイトメア/74/10*2
-> CONTEXT: Troops/115/name/
-> CONTEXT: Troops/195/name/
-Nightmare/74/10*2
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス/5/10*2, ナイトメア/74
-> CONTEXT: Troops/116/name/
-Lesser Succubus/5/10*2, Nightmare/74
-> END STRING
-
-> BEGIN STRING
-プチウィッチ/37/10*2
-> CONTEXT: Troops/117/name/
-Petite Witch/37/10*2
-> END STRING
-
-> BEGIN STRING
-ウィッチ/42/15*2
-> CONTEXT: Troops/118/name/
-Witch/42/15*2
-> END STRING
-
-> BEGIN STRING
-ウィッチ/42/15, プチウィッチ/37/10*2
-> CONTEXT: Troops/119/name/
-Witch/42/15, Petite Witch/37/10*2
-> END STRING
-
-> BEGIN STRING
-ウィッチ/42/15, サキュバス/10/15
-> CONTEXT: Troops/120/name/
-Witch/42/15, Succubus/10/15
-> END STRING
-
-> BEGIN STRING
-サキュバス/10/15*2
-> CONTEXT: Troops/121/name/
-Succubus/10/15*2
-> END STRING
-
-> BEGIN STRING
-サキュバス/10/15, レッサーサキュバス/5/1
-> CONTEXT: Troops/122/name/
-Succubus/10/15, Lesser Succubus/5/1
-> END STRING
-
-> BEGIN STRING
-サキュバス/10/15, プチウィッチ/37/10*2
-> CONTEXT: Troops/123/name/
-Succubus/10/15, Petite Witch/37/10*2
-> END STRING
-
-> BEGIN STRING
-【R】レッサキュ/5/6*4, サキュ/10/
-> CONTEXT: Troops/124/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-【R】インプ/21/3*8
-> CONTEXT: Troops/125/name/
-【R】Imp/21/3*8
-> END STRING
-
-> BEGIN STRING
-【R】プチウィッチ/37/4*6
-> CONTEXT: Troops/126/name/
-【R】Petite Witch/37/4*6
-> END STRING
-
-> BEGIN STRING
-【BOSS】デビル/26/18, サキュバス/10/18
-> CONTEXT: Troops/127/name/
-【BOSS】Devil/26/18, Succubus/10/18
-> END STRING
-
-> BEGIN STRING
-ファミリア/96/10*2
-> CONTEXT: Troops/129/name/
-Familiar/96/10*2
-> END STRING
-
-> BEGIN STRING
-ファミリア/96/10*3
-> CONTEXT: Troops/130/name/
-Familiar/96/10*3
-> END STRING
-
-> BEGIN STRING
-ファミリア/96/10*2, プチウィッチ/37/10
-> CONTEXT: Troops/131/name/
-Familiar/96/10*2, Petite Witch/37/10
-> END STRING
-
-> BEGIN STRING
-【OFE】プチウィッチ/38/10*2, ウィッチ
-> CONTEXT: Troops/132/name/
-【OFE】Petite Witch/38/10*2, Witch
-> END STRING
-
-> BEGIN STRING
-【BOSS】フルビュア
-> CONTEXT: Troops/133/name/
-【BOSS】Fulbeua
-> END STRING
-
-> BEGIN STRING
-ワーウルフ/100/10*3
-> CONTEXT: Troops/135/name/
-Werewolf/100/10*3
-> END STRING
-
-> BEGIN STRING
-■■■製品版実装
-> CONTEXT: Troops/137/name/ < UNTRANSLATED
-
 > END STRING
 
 > BEGIN STRING
@@ -1157,6 +911,55 @@ you will faint and become unable to fight\\c[0].
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
+絶頂によるＶＰの消耗は非常に大きなものですわ。
+今の貴方や下級の夢魔でしたら、絶頂してしまえば
+すぐに倒れてしまうことでしょう･･･。
+> CONTEXT: Troops/138/pages/0/41/Dialogue
+\\name[\\v[2]]\\_
+The loss of VP due to climax is extremely large.
+A lower-class succubus would probably 
+faint immediately after climaxing...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「スキル」の中には、使用するためにＶＰを
+消費するものも幾つかありますわ。
+> CONTEXT: Troops/138/pages/0/45/Dialogue
+\\name[\\v[2]]\\_
+Some "skills" require VP to use.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そういったものは、使い過ぎないよう
+ご注意くださいませ。
+> CONTEXT: Troops/138/pages/0/48/Dialogue
+\\name[\\v[2]]\\_
+Don't overuse these skills
+Please be careful.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここまでのお話は大丈夫かしら？
+> CONTEXT: Troops/138/pages/0/51/Dialogue
+\\name[\\v[2]]\\_
+Is everything clear so far?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･ふふ、さぁ、あまり焦らしてもいけませんわね\\H
+もう相手方も、待ちきれない様子ですし･･･\\H
+> CONTEXT: Troops/138/pages/0/55/Dialogue
+\\name[\\v[2]]\\_
+...Hehe, come on, you shouldn't worry too much\\H
+Seems like your opponent can't wait anymore...\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
 何をしたら良いのか分からない時は、
 まずはキスから始めてみて、「\\c[12]ムード\\c[0]」を上げると
 良い事ですわね\\H
@@ -1165,6 +968,17 @@ you will faint and become unable to fight\\c[0].
 If you don't know what to do, 
 it's a good idea to start with a \\c[12]kiss\\c[0]
 and get in the mood\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お愉しみ中、再度御免遊ばせ。
+言い忘れていたことがございましたの。
+> CONTEXT: Troops/138/pages/1/3/Dialogue
+\\name[\\v[2]]\\_
+Pardon me,
+for getting in the way of your pleasure once more.
+There's something I forgot to mention.
 > END STRING
 
 > BEGIN STRING
@@ -1199,9 +1013,203 @@ in order from the left within the time limit\\c[0].
 > END STRING
 
 > BEGIN STRING
+\\name[\\v[2]]\\_
+ふふっ、言っても分かりませんわね。
+･･･実際に始めてみましょう\\H
+> CONTEXT: Troops/138/pages/1/17/Dialogue
+\\name[\\v[2]]\\_
+Hehe, don't understand?
+...Let's try it out\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ではいきますわよ･･･。
+３、\\.２、\\.１･･･
+> CONTEXT: Troops/138/pages/1/20/Dialogue
+> CONTEXT: Troops/138/pages/1/54/Dialogue
+\\name[\\v[2]]\\_
+Let's go...
+3, \\.2, \\.1...
+> END STRING
+
+> BEGIN STRING
+レジストスキル中です。
+左から順番に矢印の方向を押してください。
+> CONTEXT: Troops/138/pages/1/26/Dialogue
+Resist skill in progress.
+Press the arrow key in order from the left.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふっ、レジストスキル成功ですわ\\H
+> CONTEXT: Troops/138/pages/1/30/Dialogue
+> CONTEXT: Troops/138/pages/1/64/Dialogue
+\\name[\\v[2]]\\_
+Hehe, the resist skill was successful\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あらあら、レジストスキル失敗ですわね。
+> CONTEXT: Troops/138/pages/1/34/Dialogue
+> CONTEXT: Troops/138/pages/1/68/Dialogue
+\\name[\\v[2]]\\_
+Oh, the resist skill failed.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こちらからレジストスキルを行った時は、
+成功するとその行為に成功しますの。\\.\\.
+失敗した時はそのまま失敗になりますわ。
+> CONTEXT: Troops/138/pages/1/38/Dialogue
+\\name[\\v[2]]\\_
+When you perform a resist skill, you must succeed
+to resist, otherwise it will fail.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+逆に、相手からレジストスキルを使われた場合は、
+成功すると「抵抗に」成功することになりますの。\\.\\.
+失敗した時は、「抵抗に」失敗することになりますわ。
+> CONTEXT: Troops/138/pages/1/42/Dialogue
+\\name[\\v[2]]\\_
+On the other hand, if your opponent uses a resist skill, 
+you must succeed in order to defend against it,\\.\\.
+otherwise you will be affected by the skill.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+その点、ご注意くださいませ。
+> CONTEXT: Troops/138/pages/1/46/Dialogue
+\\name[\\v[2]]\\_
+Please be careful about that.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここまでのお話、ご理解頂けましたでしょうか？
+> CONTEXT: Troops/138/pages/1/48/Dialogue
+\\name[\\v[2]]\\_
+Did you understand everything so far?
+> END STRING
+
+> BEGIN STRING
+もう一度レジストをしたい
+> CONTEXT: Troops/138/pages/1/50/Choice/1
+> CONTEXT: Troops/138/pages/1/50/Choice/1
+I want to resist again
+> END STRING
+
+> BEGIN STRING
+もう一度説明を聞きたい
+> CONTEXT: Troops/138/pages/1/50/Choice/2
+> CONTEXT: Troops/138/pages/1/50/Choice/2
+Hear it again
+> END STRING
+
+> BEGIN STRING
+レジストスキル中です。
+左から順番に押してください。
+> CONTEXT: Troops/138/pages/1/60/Dialogue
+Resist skill in progress.
+Press them in order from the left.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･ふふっ、これで心置きなく
+愛し合う事ができますわね\\H
+> CONTEXT: Troops/138/pages/1/77/Dialogue
+\\name[\\v[2]]\\_
+...hehe, now we can love each other 
+without any reservations\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お邪魔して申し訳ありませんわ。
+引き続き、お愉しみ下さいませ\\H
+> CONTEXT: Troops/138/pages/1/80/Dialogue
+\\name[\\v[2]]\\_
+Sorry to disturb you.
+Please continue to enjoy\\H
+> END STRING
+
+> BEGIN STRING
 ■月明かりの樹海Lv1
 > CONTEXT: Troops/140/name/ < UNTRANSLATED
 > CONTEXT: Enemies/83/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/1
+> CONTEXT: Troops/141/name/
+> CONTEXT: Enemies/81/name/
+> CONTEXT: Enemies/84/name/
+Lesser Succubus/5/1
+> END STRING
+
+> BEGIN STRING
+インプ/21/1
+> CONTEXT: Troops/142/name/
+> CONTEXT: Enemies/85/name/
+Imp/21/1
+> END STRING
+
+> BEGIN STRING
+キャスト/53/1
+> CONTEXT: Troops/143/name/
+> CONTEXT: Troops/555/name/
+> CONTEXT: Enemies/86/name/
+Cast/53/1
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/1*2
+> CONTEXT: Troops/144/name/
+Lesser Succubus/5/1*2
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/1, インプ/21/1
+> CONTEXT: Troops/145/name/
+Lesser Succubus/5/1, Imp/21/1
+> END STRING
+
+> BEGIN STRING
+インプ/21/1*2
+> CONTEXT: Troops/146/name/
+Imp/21/1*2
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/1, キャスト/53/1
+> CONTEXT: Troops/147/name/
+Lesser Succubus/5/1, Cast/53/1
+> END STRING
+
+> BEGIN STRING
+キャスト/53/1*2
+> CONTEXT: Troops/148/name/
+Cast/53/1*2
+> END STRING
+
+> BEGIN STRING
+【OFE】レッサーサキュバス/6/12*3
+> CONTEXT: Troops/149/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エテルヌス/160/1
+> CONTEXT: Troops/150/name/ < UNTRANSLATED
+> CONTEXT: Enemies/87/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -1210,6 +1218,39 @@ in order from the left within the time limit\\c[0].
 > CONTEXT: Troops/151/name/ < UNTRANSLATED
 > CONTEXT: Enemies/90/name/ < UNTRANSLATED
 
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/3
+> CONTEXT: Troops/152/name/
+> CONTEXT: Enemies/91/name/
+Lesser Succubus/5/3
+> END STRING
+
+> BEGIN STRING
+インプ/21/3
+> CONTEXT: Troops/153/name/
+> CONTEXT: Enemies/92/name/
+Imp/21/3
+> END STRING
+
+> BEGIN STRING
+ナイトメア/74/4
+> CONTEXT: Troops/154/name/
+> CONTEXT: Enemies/93/name/
+Nightmare/74/4
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/3*2
+> CONTEXT: Troops/155/name/
+Lesser Succubus/5/3*2
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/3, インプ/21/3
+> CONTEXT: Troops/156/name/
+Lesser Succubus/5/3, Imp/21/3
 > END STRING
 
 > BEGIN STRING
@@ -1231,9 +1272,20 @@ Nightmare/74/4*2
 > END STRING
 
 > BEGIN STRING
-【BOSS】インプ/21/6, レッサーサキュバス/
-> CONTEXT: Troops/160/name/
-【BOSS】Imp/21/6, Lesser Succubus/
+【BOSS】/夢魔たち
+> CONTEXT: Troops/160/name/ < UNTRANSLATED
+> CONTEXT: Troops/235/name/ < UNTRANSLATED
+> CONTEXT: Troops/548/name/ < UNTRANSLATED
+> CONTEXT: Troops/590/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マーメイド/244/6
+> CONTEXT: Troops/161/name/ < UNTRANSLATED
+> CONTEXT: Troops/174/name/ < UNTRANSLATED
+> CONTEXT: Enemies/102/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -1244,10 +1296,23 @@ Nightmare/74/4*2
 > END STRING
 
 > BEGIN STRING
+レッサーサキュバス/5/6
+> CONTEXT: Troops/163/name/
+> CONTEXT: Enemies/99/name/
+Lesser Succubus/5/6
+> END STRING
+
+> BEGIN STRING
 インプ/21/6
 > CONTEXT: Troops/164/name/
 > CONTEXT: Enemies/100/name/
 Imp/21/6
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/6*2
+> CONTEXT: Troops/165/name/
+Lesser Succubus/5/6*2
 > END STRING
 
 > BEGIN STRING
@@ -1269,6 +1334,22 @@ Imp/21/6*2, Lesser Succubus/5/6
 > END STRING
 
 > BEGIN STRING
+スライム/80/6
+> CONTEXT: Troops/169/name/
+> CONTEXT: Enemies/101/name/
+> CONTEXT: Troops/636/name/
+> CONTEXT: Enemies/332/name/
+Slime/80/6
+> END STRING
+
+> BEGIN STRING
+スライム/80/6*2
+> CONTEXT: Troops/170/name/
+> CONTEXT: Troops/637/name/
+Slime/80/6*2
+> END STRING
+
+> BEGIN STRING
 レッサーサキュバス/5/6, スライム/80/6
 > CONTEXT: Troops/171/name/
 Lesser Succubus/5/6, Slime/80/6
@@ -1281,9 +1362,21 @@ Imp/21/6, Slime/80/6
 > END STRING
 
 > BEGIN STRING
+【R】スライム/80/6*3
+> CONTEXT: Troops/173/name/
+【R】Slime/80/6*3
+> END STRING
+
+> BEGIN STRING
 ■闇洞窟Lv8
 > CONTEXT: Troops/175/name/ < UNTRANSLATED
 
+> END STRING
+
+> BEGIN STRING
+インプ/21/8*2
+> CONTEXT: Troops/176/name/
+Imp/21/8*2
 > END STRING
 
 > BEGIN STRING
@@ -1299,9 +1392,21 @@ Imp/21/8, Nightmare/74/8
 > END STRING
 
 > BEGIN STRING
+インプ/21/8*3
+> CONTEXT: Troops/179/name/
+Imp/21/8*3
+> END STRING
+
+> BEGIN STRING
 インプ/21/8*2, ナイトメア/74/8
 > CONTEXT: Troops/180/name/
 Imp/21/8*2, Nightmare/74/8
+> END STRING
+
+> BEGIN STRING
+ナイトメア/74/8*2
+> CONTEXT: Troops/181/name/
+Nightmare/74/8*2
 > END STRING
 
 > BEGIN STRING
@@ -1347,6 +1452,12 @@ Werewolf/100/8*2
 > END STRING
 
 > BEGIN STRING
+インプ/21/10*2
+> CONTEXT: Troops/190/name/
+Imp/21/10*2
+> END STRING
+
+> BEGIN STRING
 レッサーサキュバス/5/10, インプ/21/10
 > CONTEXT: Troops/191/name/
 Lesser Succubus/5/10, Imp/21/10
@@ -1359,9 +1470,21 @@ Nightmare/74/10, Imp/21/10
 > END STRING
 
 > BEGIN STRING
+インプ/21/10*3
+> CONTEXT: Troops/193/name/
+Imp/21/10*3
+> END STRING
+
+> BEGIN STRING
 インプ/21/10*2, ナイトメア/74/10
 > CONTEXT: Troops/194/name/
 Imp/21/10*2, Nightmare/74/10
+> END STRING
+
+> BEGIN STRING
+ナイトメア/74/10*2
+> CONTEXT: Troops/195/name/
+Nightmare/74/10*2
 > END STRING
 
 > BEGIN STRING
@@ -1413,9 +1536,9 @@ Werewolf/100/10, Nightmare/74/10
 > END STRING
 
 > BEGIN STRING
-【BOSS】リジェオ/252/20
-> CONTEXT: Troops/204/name/
-【BOSS】Rigeo/252/20
+【BOSS】/リジェオ/252/20
+> CONTEXT: Troops/204/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -1446,7 +1569,6 @@ Succubus/10/16
 > BEGIN STRING
 キャスト/53/12*2
 > CONTEXT: Troops/210/name/
-> CONTEXT: Troops/556/name/
 Cast/53/12*2
 > END STRING
 
@@ -1473,6 +1595,13 @@ Priestess/118/13
 【R】プリーステス/118/15*2
 > CONTEXT: Troops/214/name/
 【R】Priestess/118/15*2
+> END STRING
+
+> BEGIN STRING
+リリム/227/18
+> CONTEXT: Troops/215/name/ < UNTRANSLATED
+> CONTEXT: Enemies/133/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -1545,9 +1674,9 @@ Familiar/96/16*2
 > END STRING
 
 > BEGIN STRING
-ファミリア/96/16*3
-> CONTEXT: Troops/227/name/
-Familiar/96/16*3
+ファミリア/96/18*2, レッサーサキュバス
+> CONTEXT: Troops/227/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -1593,9 +1722,9 @@ Lesser Succubus/5/18*2, Mimic/145/
 > END STRING
 
 > BEGIN STRING
-【BOSS】デビル/26/15, サキュバス/10/15
-> CONTEXT: Troops/235/name/
-【BOSS】Devil/26/15, Succubus/10/15
+リリム/227/18*2
+> CONTEXT: Troops/236/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -1693,9 +1822,9 @@ Nightmare/74/24*2
 > END STRING
 
 > BEGIN STRING
-【R】ゴブリン/108/24*5
-> CONTEXT: Troops/252/name/
-【R】Goblin/108/24*5
+【R】ゴブリン/108/24*3
+> CONTEXT: Troops/252/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -1705,16 +1834,30 @@ Nightmare/74/24*2
 > END STRING
 
 > BEGIN STRING
-■闇洞窟Lv27
-> CONTEXT: Troops/255/name/ < UNTRANSLATED
-> CONTEXT: Enemies/151/name/ < UNTRANSLATED
+【R】ホブゴブリン/109/22
+> CONTEXT: Troops/254/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-ゴブリン/108/27*3
-> CONTEXT: Troops/256/name/
-Goblin/108/27*3
+味方全員のEPが回復した！
+> CONTEXT: Troops/254/pages/0/8/Dialogue < UNTRANSLATED
+> CONTEXT: Troops/254/pages/1/7/Dialogue < UNTRANSLATED
+> CONTEXT: Troops/254/pages/2/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■闇洞窟Lv27
+> CONTEXT: Troops/255/name/ < UNTRANSLATED
+> CONTEXT: Enemies/150/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ゴブリン/108/27*2, ゴブリンシーフ/110/27
+> CONTEXT: Troops/256/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -1749,9 +1892,10 @@ Goblin/108/27, Gang Commander/111/
 > END STRING
 
 > BEGIN STRING
-ゴブリン/108/27*2, ギャングコマンダー/11
+ゴブリン/108/27
+> CONTEXT: Enemies/152/name/
 > CONTEXT: Troops/262/name/
-Goblin/108/27*2, Gang Commander/11
+Goblin/108/27
 > END STRING
 
 > BEGIN STRING
@@ -1821,6 +1965,12 @@ Nightmare/74/27*2
 【OFE】デビル/27/35, インプ/22/34*2
 > CONTEXT: Troops/273/name/
 【OFE】Devil/27/35, Imp/22/34*2
+> END STRING
+
+> BEGIN STRING
+【OFE】ゴブリンシャーマン
+> CONTEXT: Troops/274/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -2047,9 +2197,15 @@ Matango/133/30*2
 > END STRING
 
 > BEGIN STRING
-【BOSS】ネイジュレンジ/251/40
-> CONTEXT: Troops/315/name/
-【BOSS】Neijurange/251/40
+【BOSS】/ネイジュレンジ/251/40
+> CONTEXT: Troops/315/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】マタンゴ/133/30, マタンゴ/245/40
+> CONTEXT: Troops/316/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -2188,10 +2344,9 @@ Familiar/96/18*2
 > END STRING
 
 > BEGIN STRING
-ファミリア/96/18*3
-> CONTEXT: Troops/341/name/
-> CONTEXT: Troops/377/name/
-Familiar/96/18*3
+ファミリア/96/28, レッサーサキュバス/169
+> CONTEXT: Troops/341/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -2262,6 +2417,12 @@ Lesser Succubus/5/28, Slave/63/20*
 > END STRING
 
 > BEGIN STRING
+リミテッドスレイヴ/412/40, リミテッドス
+> CONTEXT: Troops/352/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 ウィッチ/42/30, プチウィッチ/37/28
 > CONTEXT: Troops/356/name/
 Witch/42/30, Petite Witch/37/28
@@ -2314,6 +2475,12 @@ Familiar/96/30, Succubus/10/30
 > END STRING
 
 > BEGIN STRING
+ファミリア/96/18*3
+> CONTEXT: Troops/377/name/
+Familiar/96/18*3
+> END STRING
+
+> BEGIN STRING
 レッサーサキュバス/5/30, スレイヴ/63/20*
 > CONTEXT: Troops/385/name/
 Lesser Succubus/5/30, Slave/63/20*
@@ -2363,6 +2530,12 @@ Mimic/145/22
 > END STRING
 
 > BEGIN STRING
+【OFE】スレイヴ/214/28*3
+> CONTEXT: Troops/393/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 ■シルフェ屋敷
 > CONTEXT: Troops/394/name/ < UNTRANSLATED
 > CONTEXT: Enemies/211/name/ < UNTRANSLATED
@@ -2370,9 +2543,9 @@ Mimic/145/22
 > END STRING
 
 > BEGIN STRING
-【BOSS】シルフェ/256/40
-> CONTEXT: Troops/395/name/
-【BOSS】Silfe/256/40
+【BOSS】/シルフェ/256/40
+> CONTEXT: Troops/395/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -2719,9 +2892,9 @@ Lesser Succubus/5/33*3
 > END STRING
 
 > BEGIN STRING
-【BOSS】ユーガノット/255/47
-> CONTEXT: Troops/478/name/
-【BOSS】Yuganot/255/47
+【BOSS】/ユーガノット/255/47
+> CONTEXT: Troops/478/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -2856,6 +3029,13 @@ Lilim/156/40, Devil/26/40
 > END STRING
 
 > BEGIN STRING
+キキーモラ/337/40
+> CONTEXT: Troops/513/name/ < UNTRANSLATED
+> CONTEXT: Enemies/253/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 ■魔城トゥーロマンサLv44
 > CONTEXT: Troops/514/name/ < UNTRANSLATED
 > CONTEXT: Enemies/254/name/ < UNTRANSLATED
@@ -2959,9 +3139,9 @@ Succubus/10/44*2, Mimic/145/45
 > END STRING
 
 > BEGIN STRING
-【R】リリム/156/44*4
-> CONTEXT: Troops/544/name/
-【R】Lilim/156/44*4
+リリム/156/44*4
+> CONTEXT: Troops/544/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -2979,25 +3159,20 @@ Succubus/10/44*2, Mimic/145/45
 > BEGIN STRING
 【OFE】ミミック/146/50
 > CONTEXT: Troops/547/name/
+> CONTEXT: Troops/819/name/
 【OFE】Mimic/146/50
 > END STRING
 
 > BEGIN STRING
-【BOSS】サキュバスロード/15/45, デーモン
-> CONTEXT: Troops/548/name/
-【BOSS】Succubus Lord/15/45, Demon
+【BOSS】/フルビュア/253/50
+> CONTEXT: Troops/549/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-【BOSS】フルビュア/253/50
-> CONTEXT: Troops/549/name/
-【BOSS】Fulbeua/253/50
-> END STRING
+【BOSS】/ギルゴーン/254/30
+> CONTEXT: Troops/550/name/ < UNTRANSLATED
 
-> BEGIN STRING
-【BOSS】ギルゴーン/254/30
-> CONTEXT: Troops/550/name/
-【BOSS】Gilgorn/254/30
 > END STRING
 
 > BEGIN STRING
@@ -3036,6 +3211,12 @@ Turn tail and run!」
 > END STRING
 
 > BEGIN STRING
+サキュバス/10/40, キキーモラ/337/40, リ
+> CONTEXT: Troops/551/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 ■外れの地Lv12
 > CONTEXT: Troops/552/name/ < UNTRANSLATED
 > CONTEXT: Enemies/276/name/ < UNTRANSLATED
@@ -3051,9 +3232,15 @@ Lesser Succubus/5/12
 > END STRING
 
 > BEGIN STRING
-レッサーサキュバス/5/12*2
-> CONTEXT: Troops/554/name/
-Lesser Succubus/5/12*2
+レッサーサキュバス/5/12, スリーピィ/221/
+> CONTEXT: Troops/554/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キャスト/53/12, エテルヌス/160/12
+> CONTEXT: Troops/556/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -3064,21 +3251,28 @@ Werecat/104/12
 > END STRING
 
 > BEGIN STRING
-ワーキャット/104/12*2
-> CONTEXT: Troops/559/name/
-Werecat/104/12*2
+ワーキャット/104/12, エテルヌス/160/12
+> CONTEXT: Troops/559/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-レッサーサキュバス/5/12, ワーキャット/10
-> CONTEXT: Troops/560/name/
-Lesser Succubus/5/12, Werecat/10
+ワーキャット/104/12, スリーピィ/221/12
+> CONTEXT: Troops/560/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 キャスト/53/12, ワーキャット/104/12
 > CONTEXT: Troops/561/name/
 Cast/53/12, Werecat/104/12
+> END STRING
+
+> BEGIN STRING
+ヴィレッジャ/243/12
+> CONTEXT: Troops/562/name/ < UNTRANSLATED
+> CONTEXT: Enemies/380/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -3106,6 +3300,80 @@ Lesser Succubus/6/15
 > END STRING
 
 > BEGIN STRING
+エテルヌス/160/12, スリーピィ/221/12
+> CONTEXT: Troops/567/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エテルヌス/160/12
+> CONTEXT: Troops/568/name/ < UNTRANSLATED
+> CONTEXT: Enemies/354/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スリーピィ/221/12
+> CONTEXT: Troops/569/name/ < UNTRANSLATED
+> CONTEXT: Enemies/355/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】スリーピィ/222/18
+> CONTEXT: Troops/570/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スレイヴ/63/12
+> CONTEXT: Troops/571/name/ < UNTRANSLATED
+> CONTEXT: Enemies/357/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーウルフ/100/9*2, スレイヴ/63/9
+> CONTEXT: Troops/572/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】キャスト/164/25
+> CONTEXT: Troops/573/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】キャスト/164/12
+> CONTEXT: Troops/574/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドッペルゲンガー/172/55
+> CONTEXT: Troops/575/name/ < UNTRANSLATED
+> CONTEXT: Enemies/451/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドッペルゲンガー/225/60
+> CONTEXT: Troops/576/name/ < UNTRANSLATED
+> CONTEXT: Troops/578/name/ < UNTRANSLATED
+> CONTEXT: Enemies/517/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドッペルゲンガー/226/60
+> CONTEXT: Troops/577/name/ < UNTRANSLATED
+> CONTEXT: Enemies/446/name/ < UNTRANSLATED
+> CONTEXT: Enemies/518/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 ■混濁した夢世界
 > CONTEXT: Troops/580/name/ < UNTRANSLATED
 > CONTEXT: Enemies/281/name/ < UNTRANSLATED
@@ -3116,7 +3384,6 @@ Lesser Succubus/6/15
 キャスト/53/50
 > CONTEXT: Troops/581/name/
 > CONTEXT: Enemies/282/name/
-> CONTEXT: Enemies/417/name/
 Cast/53/50
 > END STRING
 
@@ -3127,9 +3394,9 @@ Cast/53/50*2
 > END STRING
 
 > BEGIN STRING
-【BOSS】キャスト/53/50
-> CONTEXT: Troops/583/name/
-【BOSS】Cast/53/50
+【BOSS】/キャスト/53/50
+> CONTEXT: Troops/583/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -3164,9 +3431,39 @@ Lilim/156/50*3
 > END STRING
 
 > BEGIN STRING
-【BOSS】サキュバスロード/15/55, デーモ
-> CONTEXT: Troops/590/name/
-【BOSS】Succubus Lord/15/55, デーモ
+【BOSS】/リリス
+> CONTEXT: Troops/592/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ミミック/223/55
+> CONTEXT: Troops/593/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】/カオシア
+> CONTEXT: Troops/594/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリム/165/50, ワーウルフ/100/45, ワーウ
+> CONTEXT: Troops/595/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シスターサキュバス/216/50, プリーステス/
+> CONTEXT: Troops/596/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】シスターサキュバス/216/50
+> CONTEXT: Troops/597/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -3176,16 +3473,19 @@ Lilim/156/50*3
 > END STRING
 
 > BEGIN STRING
-【BOSS】ラーミル/257/60
-> CONTEXT: Troops/601/name/
-【BOSS】Ramil/257/60
+【BOSS】ラーミル
+> CONTEXT: Troops/601/name/ < UNTRANSLATED
+> CONTEXT: Troops/1006/name/ < UNTRANSLATED
+> CONTEXT: Troops/1065/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-【BOSS】ヴェルミィーナ/258/70
-> CONTEXT: Troops/602/name/
-> CONTEXT: Troops/603/name/
-【BOSS】Vermina/258/70
+【BOSS】ヴェルミィーナ
+> CONTEXT: Troops/602/name/ < UNTRANSLATED
+> CONTEXT: Troops/603/name/ < UNTRANSLATED
+> CONTEXT: Troops/1007/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -3214,283 +3514,5269 @@ Lilim/156/50*3
 > END STRING
 
 > BEGIN STRING
-■撮影用
+【BOSS】カオシア
 > CONTEXT: Troops/609/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-キャスト/53/15, ナイトメア/74/12
-> CONTEXT: Troops/610/name/
-Cast/53/15, Nightmare/74/12
+■MOD追加
+> CONTEXT: Troops/612/name/ < UNTRANSLATED
+> CONTEXT: Troops/720/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-■バトルテスト用
+プリーステス/161/17
+> CONTEXT: Troops/613/name/ < UNTRANSLATED
+> CONTEXT: Enemies/352/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ダークエンジェル/162/44
+> CONTEXT: Troops/614/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】リリム/156/44*2, リリム/165/50
+> CONTEXT: Troops/615/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】キャスト/164/10*3
+> CONTEXT: Troops/616/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリム/165/40
+> CONTEXT: Troops/617/name/ < UNTRANSLATED
+> CONTEXT: Enemies/316/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ジャックフロスト/166/30
+> CONTEXT: Troops/618/name/ < UNTRANSLATED
+> CONTEXT: Enemies/317/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチデビル/167/2
+> CONTEXT: Troops/619/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ヴェルミィーナキャスト/168/65
+> CONTEXT: Troops/620/name/ < UNTRANSLATED
+> CONTEXT: Enemies/319/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/169/20
+> CONTEXT: Troops/621/name/ < UNTRANSLATED
+> CONTEXT: Troops/733/name/ < UNTRANSLATED
+> CONTEXT: Enemies/320/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キキーモラ/337/22
+> CONTEXT: Troops/622/name/ < UNTRANSLATED
+> CONTEXT: Enemies/138/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/96/18*2, キキーモラ/337/22
+> CONTEXT: Troops/623/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シルキー/242/18, シルキー/246/18
+> CONTEXT: Troops/624/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■平原と丘
+> CONTEXT: Troops/625/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/5*2
+> CONTEXT: Troops/626/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/5, インプ/21/5
+> CONTEXT: Troops/627/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/5, キャスト/53/5
+> CONTEXT: Troops/628/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ナイトメア/74/6, レッサーサキュバス/5/5
+> CONTEXT: Troops/629/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インプ/21/5*2
+> CONTEXT: Troops/630/name/
+Imp/21/5*2
+> END STRING
+
+> BEGIN STRING
+インプ/21/5, キャスト/53/5
+> CONTEXT: Troops/631/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ナイトメア/74/6, インプ/21/5
+> CONTEXT: Troops/632/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キャスト/53/5*2
+> CONTEXT: Troops/633/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ナイトメア/74/6
+> CONTEXT: Troops/634/name/
+> CONTEXT: Enemies/331/name/
+Nightmare/74/6
+> END STRING
+
+> BEGIN STRING
+ナイトメア/74/6*2
+> CONTEXT: Troops/635/name/
+Nightmare/74/6*2
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/5, スライム/80/6
+> CONTEXT: Troops/638/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スライム/80/6, キャスト/53/5
+> CONTEXT: Troops/639/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【R】レッサキュ/5/5, インプ/21/5, キ
+> CONTEXT: Troops/640/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/14*2
+> CONTEXT: Troops/642/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/14, インプ/21/14
+> CONTEXT: Troops/643/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インプ/21/14*2
+> CONTEXT: Troops/644/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/14, インプ/21/14*2
+> CONTEXT: Troops/645/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリム/156/15
+> CONTEXT: Troops/646/name/ < UNTRANSLATED
+> CONTEXT: Enemies/336/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリム/156/15, レッサーサキュバス/5/14
+> CONTEXT: Troops/647/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリム/156/15*2
+> CONTEXT: Troops/648/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーウルフ/100/15*2
+> CONTEXT: Troops/649/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーウルフ/100/15, レッサーサキュバス/5/
+> CONTEXT: Troops/650/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーウルフ/100/15
+> CONTEXT: Troops/651/name/ < UNTRANSLATED
+> CONTEXT: Enemies/337/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/96/15*2
+> CONTEXT: Troops/652/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/96/15, インプ/21/14
+> CONTEXT: Troops/653/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/96/15
+> CONTEXT: Troops/654/name/ < UNTRANSLATED
+> CONTEXT: Enemies/338/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【R】リリム/156/15*3
+> CONTEXT: Troops/655/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ワーウルフ/101/22*2
+> CONTEXT: Troops/656/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ファミリア/97/22*2
+> CONTEXT: Troops/657/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【R】デビリリサキュ
+> CONTEXT: Troops/658/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スライム/80/22*2
+> CONTEXT: Troops/659/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スライム/80/22
+> CONTEXT: Troops/660/name/ < UNTRANSLATED
+> CONTEXT: Enemies/342/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スライム/80/22, レッサーサキュバス/5/22
+> CONTEXT: Troops/661/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スライム/80/22, インプ/21/22
+> CONTEXT: Troops/662/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/22*3
+> CONTEXT: Troops/663/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/22*2
+> CONTEXT: Troops/664/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/22, サキュバス/10/2
+> CONTEXT: Troops/665/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/22, リリム/156/23
+> CONTEXT: Troops/666/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/22, インプ/21/22
+> CONTEXT: Troops/667/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバス/10/24
+> CONTEXT: Troops/668/name/ < UNTRANSLATED
+> CONTEXT: Enemies/344/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバス/10/24, デビル/26/24
+> CONTEXT: Troops/669/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリム/156/23
+> CONTEXT: Troops/670/name/ < UNTRANSLATED
+> CONTEXT: Enemies/345/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリム/156/23*2
+> CONTEXT: Troops/671/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インプ/21/22, リリム/156/23
+> CONTEXT: Troops/672/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インプ/21/22*3
+> CONTEXT: Troops/673/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インプ/21/22, デビル/26/24
+> CONTEXT: Troops/674/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デビル/26/24
+> CONTEXT: Troops/675/name/ < UNTRANSLATED
+> CONTEXT: Enemies/347/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】タマモ/152/30
+> CONTEXT: Troops/676/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ガーゴイル/141/23*2
+> CONTEXT: Troops/677/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ミリュリエール
+> CONTEXT: Troops/678/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】リリム/156/70*2, リリス/209/85
+> CONTEXT: Troops/680/name/ < UNTRANSLATED
+> CONTEXT: Troops/681/name/ < UNTRANSLATED
+> CONTEXT: Troops/682/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■氷結図書館
+> CONTEXT: Troops/690/name/ < UNTRANSLATED
+> CONTEXT: Enemies/358/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ジャックフロスト/166/25
+> CONTEXT: Troops/691/name/ < UNTRANSLATED
+> CONTEXT: Enemies/359/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ジャックフロスト/166/25*2
+> CONTEXT: Troops/692/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エテルヌス/160/22*2, ジャックフロスト/16
+> CONTEXT: Troops/693/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エテルヌス/160/22*2
+> CONTEXT: Troops/694/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーウルフ/100/25
+> CONTEXT: Troops/695/name/ < UNTRANSLATED
+> CONTEXT: Enemies/362/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーウルフ/100/25*2, エテルヌス/160/22
+> CONTEXT: Troops/696/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【R】コボルト/187/28
+> CONTEXT: Troops/697/name/ < UNTRANSLATED
+> CONTEXT: Troops/709/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スリーピィ/221/25
+> CONTEXT: Troops/698/name/ < UNTRANSLATED
+> CONTEXT: Enemies/366/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スリーピィ/221/25, エテルヌス/160/22
+> CONTEXT: Troops/699/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】キャスト/164/30
+> CONTEXT: Troops/700/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】プリーステス/161/30*2
+> CONTEXT: Troops/701/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イエティ/190/35
+> CONTEXT: Troops/702/name/ < UNTRANSLATED
+> CONTEXT: Enemies/363/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+フロストピロー/224/35
+> CONTEXT: Troops/703/name/ < UNTRANSLATED
+> CONTEXT: Enemies/367/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+コボルト/188/35
+> CONTEXT: Troops/704/name/ < UNTRANSLATED
+> CONTEXT: Enemies/365/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリム/163/25
+> CONTEXT: Troops/705/name/ < UNTRANSLATED
+> CONTEXT: Enemies/369/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリム/163/25*2
+> CONTEXT: Troops/706/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ジャックフロスト/166/25*2, リリム/163/25
+> CONTEXT: Troops/707/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ジャックフロスト/166/25*5
+> CONTEXT: Troops/708/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】キャスト/164/30*4
+> CONTEXT: Troops/710/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】プチウィッチ/211/30*2
+> CONTEXT: Troops/711/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ウィッチ/212/35
+> CONTEXT: Troops/712/name/ < UNTRANSLATED
+> CONTEXT: Troops/718/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチウィッチ/211/22
+> CONTEXT: Troops/713/name/ < UNTRANSLATED
+> CONTEXT: Enemies/372/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチウィッチ/211/22, ウィッチ/212/25
+> CONTEXT: Troops/714/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】プリーステス/161/
+> CONTEXT: Troops/715/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリム/163/25, プチウィッチ/211/22
+> CONTEXT: Troops/716/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィッチ/212/25
+> CONTEXT: Troops/717/name/ < UNTRANSLATED
+> CONTEXT: Enemies/373/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】エテルヌス/288/30
+> CONTEXT: Troops/719/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インプ/21/1, エテルヌス/160/1
+> CONTEXT: Troops/721/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エテルヌス/160/1*2
+> CONTEXT: Troops/722/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【R】エテルヌス/160/1*5
+> CONTEXT: Troops/723/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キャスト/53/1, エテルヌス/160/1
+> CONTEXT: Troops/724/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/3, エテルヌス/160/1
+> CONTEXT: Troops/725/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マーメイド/244/6, スライム/80/6
+> CONTEXT: Troops/726/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マーメイド/244/6*2
+> CONTEXT: Troops/727/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/12, ワーキャット/10
+> CONTEXT: Troops/728/name/
+Lesser Succubus/5/12, Werecat/10
+> END STRING
+
+> BEGIN STRING
+ヴィレッジャ/243/12, エテルヌス/160/12
+> CONTEXT: Troops/729/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キャスト/53/12, ヴィレッジャ/243/12, エ
+> CONTEXT: Troops/730/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エテルヌス/160/12*2, ヴィレッジャ/243/12
+> CONTEXT: Troops/731/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キャスト/53/12, ヴィレッジャ/243/12
+> CONTEXT: Troops/732/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スリーピィ/221/25*2
+> CONTEXT: Troops/734/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キキーモラ/337/28
+> CONTEXT: Troops/735/name/ < UNTRANSLATED
+> CONTEXT: Enemies/375/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キキーモラ/337/28, ワーウルフ/100/25
+> CONTEXT: Troops/736/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キキーモラ/337/28, スリーピィ/221/25
+> CONTEXT: Troops/737/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キキーモラ/337/28, エテルヌス/287/22
+> CONTEXT: Troops/738/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチデビル/167/28, レッサーサキュバス/5/
+> CONTEXT: Troops/739/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバス/10/27, プチデビル/167/28
+> CONTEXT: Troops/740/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチデビル/167/28, アルラウネ/126/30
+> CONTEXT: Troops/741/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ニンフ/168/27
+> CONTEXT: Troops/742/name/ < UNTRANSLATED
+> CONTEXT: Enemies/97/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ニンフ/168/27*2
+> CONTEXT: Troops/743/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【R】ティターニア/289/30
+> CONTEXT: Troops/744/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ニンフ/168/3
+> CONTEXT: Troops/745/name/ < UNTRANSLATED
+> CONTEXT: Enemies/94/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】サンタクロス
+> CONTEXT: Troops/746/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レギオン/278/48*3
+> CONTEXT: Troops/747/name/ < UNTRANSLATED
+> CONTEXT: Troops/1684/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レギオン/278/48*5
+> CONTEXT: Troops/748/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【R】レギオン/278/18*7
+> CONTEXT: Troops/749/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レギオン/278/48*2, コボルト/187/55
+> CONTEXT: Troops/750/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+コボルト/187/55*2
+> CONTEXT: Troops/751/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+コボルト/187/55*3
+> CONTEXT: Troops/752/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチウィッチ/37/30, プチウィッチ/211/22
+> CONTEXT: Troops/753/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークエンジェル/162/52
+> CONTEXT: Troops/754/name/ < UNTRANSLATED
+> CONTEXT: Enemies/435/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ライバルズ
+> CONTEXT: Troops/755/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【R】レギオン/278/73*3
+> CONTEXT: Troops/757/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イエティ/190/78
+> CONTEXT: Troops/759/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1287/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/8/65, インプ/24/65
+> CONTEXT: Troops/760/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】レッサーサキュバス
+> CONTEXT: Troops/761/name/ < UNTRANSLATED
+> CONTEXT: Troops/762/name/ < UNTRANSLATED
+> CONTEXT: Troops/923/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】インプ
+> CONTEXT: Troops/763/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】キャスト
+> CONTEXT: Troops/764/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】エテルヌス
+> CONTEXT: Troops/765/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ティアヴァール
+> CONTEXT: Troops/780/name/ < UNTRANSLATED
+> CONTEXT: Troops/781/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■鏡の世界
+> CONTEXT: Troops/784/name/ < UNTRANSLATED
+> CONTEXT: Enemies/405/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバス/10/44
+> CONTEXT: Enemies/256/name/
+> CONTEXT: Troops/785/name/
+> CONTEXT: Enemies/406/name/
+> CONTEXT: Enemies/426/name/
+Succubus/10/44
+> END STRING
+
+> BEGIN STRING
+サキュバス/10/44*2
+> CONTEXT: Troops/786/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィッチ/42/47, サキュバス/10/44
+> CONTEXT: Troops/787/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デビル/26/45
+> CONTEXT: Troops/788/name/ < UNTRANSLATED
+> CONTEXT: Enemies/407/name/ < UNTRANSLATED
+> CONTEXT: Enemies/427/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デビル/26/45, ウィッチ/42/47
+> CONTEXT: Troops/789/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デビル/26/45*2
+> CONTEXT: Troops/790/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバス/10/44, デビル/26/45
+> CONTEXT: Troops/791/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィッチ/42/47
+> CONTEXT: Enemies/290/name/
+> CONTEXT: Troops/792/name/
+> CONTEXT: Enemies/408/name/
+Witch/42/47
+> END STRING
+
+> BEGIN STRING
+ウィッチ/42/47*2
+> CONTEXT: Troops/793/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/96/50*2
+> CONTEXT: Troops/794/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/96/50*2, レッサーサキュバス/1
+> CONTEXT: Troops/795/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ファミリア/97/52
+> CONTEXT: Troops/796/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/169/50*2
+> CONTEXT: Troops/797/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スレイヴ/63/40*2, レッサーサキュバス/169
+> CONTEXT: Troops/798/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】リリム/165/49
+> CONTEXT: Troops/799/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ファミリア/96/50*2, リリム/165/49
+> CONTEXT: Troops/800/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドッペルゲンガー/226/50, ドッペルゲンガ
+> CONTEXT: Troops/801/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバス/10/44*2, ドッペルゲンガー/226
+> CONTEXT: Troops/802/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デビル/26/45*2, ドッペルゲンガー/225/50
+> CONTEXT: Troops/803/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドッペルゲンガー/225/50, イマジナリーフ
+> CONTEXT: Troops/804/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イマジナリーフレンド/233/60, ドッペルゲ
+> CONTEXT: Troops/805/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドッペルゲンガー/226/50
+> CONTEXT: Troops/807/name/ < UNTRANSLATED
+> CONTEXT: Enemies/414/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドッペルゲンガー/225/50
+> CONTEXT: Troops/808/name/ < UNTRANSLATED
+> CONTEXT: Enemies/415/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミミック/145/46
+> CONTEXT: Enemies/265/name/
+> CONTEXT: Troops/809/name/
+Mimic/145/46
+> END STRING
+
+> BEGIN STRING
+【BOSS】味方３人
+> CONTEXT: Troops/810/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】サキュバス/11/44*2, デビル/26/45
+> CONTEXT: Troops/811/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】スレイヴ/170/50
+> CONTEXT: Troops/812/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】スレイヴ/63/50
+> CONTEXT: Troops/813/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ファミリア/97/55*2
+> CONTEXT: Troops/814/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ロウラット
+> CONTEXT: Troops/815/name/ < UNTRANSLATED
+> CONTEXT: Troops/1120/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】スレイヴ/63/60*2, スレイヴ/170/60
+> CONTEXT: Troops/816/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ゴブリン
+> CONTEXT: Troops/817/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】プリーステス/161/50
+> CONTEXT: Troops/818/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スレイヴ/63/60
+> CONTEXT: Troops/820/name/ < UNTRANSLATED
+> CONTEXT: Troops/1661/name/ < UNTRANSLATED
+> CONTEXT: Troops/1686/name/ < UNTRANSLATED
+> CONTEXT: Enemies/420/name/ < UNTRANSLATED
+> CONTEXT: Enemies/471/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■天上界
+> CONTEXT: Troops/821/name/ < UNTRANSLATED
+> CONTEXT: Enemies/431/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチエンジェル/235/50
+> CONTEXT: Troops/822/name/ < UNTRANSLATED
+> CONTEXT: Enemies/432/name/ < UNTRANSLATED
+> CONTEXT: Enemies/444/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エンジェル/234/52, プチエンジェル/235/50
+> CONTEXT: Troops/823/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークエンジェル/229/52, プチエンジェル/
+> CONTEXT: Troops/824/name/ < UNTRANSLATED
+> CONTEXT: Troops/1043/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチエンジェル/235/50*2, プリーステス/16
+> CONTEXT: Troops/825/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エンジェル/234/52, プリーステス/161/52
+> CONTEXT: Troops/826/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エンジェル/234/52*2, ウィッチ/43/52
+> CONTEXT: Troops/827/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エンジェル/234/52*2, スリーピィ/228/52
+> CONTEXT: Troops/828/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークエンジェル/229/52, ウィッチ/43/52
+> CONTEXT: Troops/829/name/ < UNTRANSLATED
+> CONTEXT: Troops/1041/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークエンジェル/229/52, カースメイガス/
+> CONTEXT: Troops/830/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークエンジェル/229/52, スリーピィ/228/
+> CONTEXT: Troops/831/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィッチ/43/52*2
+> CONTEXT: Troops/832/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィッチ/43/52, カースメイガス/122/52
+> CONTEXT: Troops/833/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィッチ/43/52*2, スリーピィ/228/52
+> CONTEXT: Troops/834/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プリーステス/161/52*2
+> CONTEXT: Troops/835/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プリーステス/161/52, スリーピィ/228/52*2
+> CONTEXT: Troops/836/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プリーステス/161/52, カースメイガス/122/
+> CONTEXT: Troops/837/name/ < UNTRANSLATED
+> CONTEXT: Troops/1042/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スリーピィ/228/52, プチエンジェル/235/50
+> CONTEXT: Troops/838/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シスターサキュバス/216/54, プリーステス/
+> CONTEXT: Troops/839/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シスターサキュバス/216/54, エンジェル/23
+> CONTEXT: Troops/840/name/ < UNTRANSLATED
+> CONTEXT: Troops/841/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シスターキャスト/236/54, プリーステス/16
+> CONTEXT: Troops/842/name/ < UNTRANSLATED
+> CONTEXT: Troops/843/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークエンジェル/229/52*2, シスターキャ
+> CONTEXT: Troops/844/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークエンジェル/229/52, ダークエンジェ
+> CONTEXT: Troops/845/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィッチ/43/52, カースメイガス/122/52,
+> CONTEXT: Troops/846/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】/天使たち
+> CONTEXT: Troops/847/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】/ドッペルゲンガー
+> CONTEXT: Troops/848/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】/ミカエル
+> CONTEXT: Troops/849/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ダークエンジェル/162/55
+> CONTEXT: Troops/850/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エンジェル/234/52, カースメイガス/122/52
+> CONTEXT: Troops/851/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エンジェル/234/52, スリーピィ/228/52
+> CONTEXT: Troops/852/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■学園
+> CONTEXT: Troops/853/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スリーピィ/228/53*2
+> CONTEXT: Troops/854/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スリーピィ/221/54*2, スリーピィ/228/53
+> CONTEXT: Troops/855/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インプ/21/55, プチエンジェル/235/50, イ
+> CONTEXT: Troops/856/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インプ/21/55*2, スリーピィ/228/53
+> CONTEXT: Troops/857/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デビル/26/57, インプ/21/55
+> CONTEXT: Troops/858/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミミック/223/53*2
+> CONTEXT: Troops/859/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/57, ミミック/223/53
+> CONTEXT: Troops/860/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/57*2
+> CONTEXT: Troops/861/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デビル/26/57, レッサーサキュバス/5/57
+> CONTEXT: Troops/862/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチウィッチ/211/55*2
+> CONTEXT: Troops/863/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィッチ/212/57*2
+> CONTEXT: Troops/864/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチウィッチ/211/55, ウィッチ/212/57
+> CONTEXT: Troops/865/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィッチ/212/55, カースメイガス/122/54
+> CONTEXT: Troops/866/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチウィッチ/211/55*2, カースメイガス/12
+> CONTEXT: Troops/867/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カースメイガス/122/54*2
+> CONTEXT: Troops/868/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/96/58*2, アルラウネ/126/53
+> CONTEXT: Troops/869/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルラウネ/126/53*2
+> CONTEXT: Troops/870/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルラウネ/126/53*2, アルラウネ/127/53
+> CONTEXT: Troops/871/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】/シルキー
+> CONTEXT: Troops/872/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】プリーステス
+> CONTEXT: Troops/873/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】シルキー/164/60
+> CONTEXT: Troops/874/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】シスターキャスト*3
+> CONTEXT: Troops/875/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■ボス
+> CONTEXT: Troops/876/name/ < UNTRANSLATED
+> CONTEXT: Enemies/573/name/ < UNTRANSLATED
+> CONTEXT: Enemies/654/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】メリュジーヌ
+> CONTEXT: Troops/877/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】サーヴァント
+> CONTEXT: Troops/878/name/ < UNTRANSLATED
+> CONTEXT: Troops/892/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ノスフェラトゥ
+> CONTEXT: Troops/879/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】レギーナ
+> CONTEXT: Troops/880/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ヘカテー
+> CONTEXT: Troops/881/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】オスクロ
+> CONTEXT: Troops/882/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ティターニア
+> CONTEXT: Troops/883/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ギャングチーフ
+> CONTEXT: Troops/884/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】グラキエース
+> CONTEXT: Troops/885/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ヴィレッジャ
+> CONTEXT: Troops/886/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+しゅうご～う！
+> CONTEXT: Troops/886/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】スクーグスロー
+> CONTEXT: Troops/887/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】サキュバスリリィ
+> CONTEXT: Troops/888/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】シスター
+> CONTEXT: Troops/889/name/ < UNTRANSLATED
+> CONTEXT: Troops/1279/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】サキュバスリリィ/237/62
+> CONTEXT: Troops/890/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】イヴ
+> CONTEXT: Troops/891/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】シルクレディ
+> CONTEXT: Troops/893/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■禁書庫
+> CONTEXT: Troops/894/name/ < UNTRANSLATED
+> CONTEXT: Enemies/559/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ウィッチクラフト
+> CONTEXT: Troops/895/name/ < UNTRANSLATED
+> CONTEXT: Troops/898/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバスクィーン/18/90
+> CONTEXT: Troops/896/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グレーターデーモン/34/90
+> CONTEXT: Troops/897/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】マザーハーロット
+> CONTEXT: Troops/899/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+…さて、お前の準備も終わったであろう？
+そろそろ妾も動くとしよう。
+> CONTEXT: Troops/899/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……早々に果ててくれるなよ？
+> CONTEXT: Troops/899/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+…くく、宴も盛り上がってきたようだな、
+ならば更に乱れ舞うとしよう……！。
+> CONTEXT: Troops/899/pages/3/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お前たちも好きに痴れるとよい…
+無礼講だ…存分に性を貪り踊り狂え。
+> CONTEXT: Troops/899/pages/3/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+…ふむ、求めあうのは悪くはないが…
+ただの攻め合いでは芸がないな、少し手を加えるとしよう。
+> CONTEXT: Troops/899/pages/4/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そういえばあのシスターめが面白い術を用いていたな…
+真似事ではあるが…試してみるとしよう。
+> CONTEXT: Troops/899/pages/4/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■カタコンベ
 > CONTEXT: Troops/900/name/ < UNTRANSLATED
+> CONTEXT: Enemies/565/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-レッサキュ
+レッサーサキュバス/6/66*2
 > CONTEXT: Troops/901/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-レッサキュOFE
+リリム/165/62, スライム/80/66
 > CONTEXT: Troops/902/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-サキュ
+ワーウルフ/101/64
 > CONTEXT: Troops/903/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-サキュOFE
+リリス/209/69
 > CONTEXT: Troops/904/name/ < UNTRANSLATED
+> CONTEXT: Enemies/736/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-サキュロード
+サキュバスクィーン/18/85
 > CONTEXT: Troops/905/name/ < UNTRANSLATED
+> CONTEXT: Enemies/566/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-サキュロードOFE
-> CONTEXT: Troops/906/name/ < UNTRANSLATED
+【BOSS】タナトス
+> CONTEXT: Troops/907/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-インプOFE
-> CONTEXT: Troops/908/name/
-ImpOFE
+【BOSS】エインヘリヤル黄 敗北戦
+> CONTEXT: Troops/908/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-デビルOFE
-> CONTEXT: Troops/910/name/
-DevilOFE
+\\name[エインヘリヤル]\\_
+「人間にはちょっと刺激が強いけど……
+　じっとしてなさいな……\\H」
+> CONTEXT: Troops/908/pages/0/1/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-デーモン
-> CONTEXT: Troops/911/name/
-Demon
+\\name[エインヘリヤル]\\_
+「さぁ……、
+　ゆっくりと楽しませてもらうわ……\\H」
+> CONTEXT: Troops/908/pages/0/6/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-デーモンOFE
-> CONTEXT: Troops/912/name/
-DemonOFE
+\\name[エインヘリヤル]\\_
+「はぁっはあっ……子宮が熱い……っ\\H
+　さあ………、楽しませてもらうわ……\\H」
+> CONTEXT: Troops/908/pages/1/1/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-プチウィッチOFE
-> CONTEXT: Troops/914/name/
-Petite WitchOFE
+■追憶の夢世界
+> CONTEXT: Troops/910/name/ < UNTRANSLATED
+> CONTEXT: Enemies/601/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-ウィッチOFE
-> CONTEXT: Troops/916/name/
-WitchOFE
+レッサーサキュバス/5/82*2
+> CONTEXT: Troops/911/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-スレイヴ
-> CONTEXT: Troops/918/name/
-Slave
+インプ/21/80*2
+> CONTEXT: Troops/912/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-ナイトメアOFE
-> CONTEXT: Troops/920/name/
-NightmareOFE
+キャスト/53/85*2
+> CONTEXT: Troops/913/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-金スライム
-> CONTEXT: Troops/922/name/
-金Slime
+ナイトメア/74/84*2
+> CONTEXT: Troops/914/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-ファミリアOFE
-> CONTEXT: Troops/924/name/
-FamiliarOFE
+レッサーサキュバス/5/82, キャスト/53/85
+> CONTEXT: Troops/915/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-ウルフ
+レッサーサキュバス/5/65, インプ/21/69
+> CONTEXT: Troops/916/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キャスト/53/76, ナイトメア/74/73
+> CONTEXT: Troops/917/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インプ/21/69, ナイトメア/74/73
+> CONTEXT: Troops/918/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/5/82*2, レッサーサキ
+> CONTEXT: Troops/919/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スライム/80/83*2
+> CONTEXT: Troops/920/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スライム/80/83*2, キャスト/53/85
+> CONTEXT: Troops/921/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スライム/80/83*3
+> CONTEXT: Troops/922/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】/ジュエルスライム
+> CONTEXT: Troops/924/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ゴブリン/108/87*3
 > CONTEXT: Troops/925/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-ウルフOFE
+ゴブリン/108/87*2, ギャングコマンダー/11
 > CONTEXT: Troops/926/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-キャット
+ワーウルフ/100/84*2, ギャングコマンダー/
 > CONTEXT: Troops/927/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-キャットOFE
+ワーウルフ/100/84*2
 > CONTEXT: Troops/928/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-ゴブ
+ワーキャット/104/88*2, ワーウルフ/100/84
 > CONTEXT: Troops/929/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-コマンダー＋ゴブ２
+ゴブリン/108/87*2, ワーキャット/104/88
+> CONTEXT: Troops/930/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーキャット/104/88, ギャングコマンダー/
 > CONTEXT: Troops/931/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-プリーステス
-> CONTEXT: Troops/932/name/
-Priestess
+【BOSS】/ナイトメア
+> CONTEXT: Troops/932/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-カスメ
+【BOSS】/ワーキャット
 > CONTEXT: Troops/933/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-アルラウネ
-> CONTEXT: Troops/934/name/
-Alraune
+【BOSS】/マーナガルム
+> CONTEXT: Troops/934/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-アルラウネOFE
-> CONTEXT: Troops/935/name/
-AlrauneOFE
+サキュバス/10/85*2
+> CONTEXT: Troops/935/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-マタンゴ
-> CONTEXT: Troops/936/name/
-Matango
+デビル/26/86*2
+> CONTEXT: Troops/936/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-ダークエンジェル
-> CONTEXT: Troops/937/name/
-Dark Angel
+デビル/26/86, サキュバス/10/85
+> CONTEXT: Troops/937/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-ガーゴイル
-> CONTEXT: Troops/938/name/
-Gargoyle
+プチウィッチ/37/84*2
+> CONTEXT: Troops/938/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-ミミック
-> CONTEXT: Troops/939/name/
-Mimic
+インプ/21/80*2, プチウィッチ/37/84
+> CONTEXT: Troops/939/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-ミミックOFE
-> CONTEXT: Troops/940/name/
-MimicOFE
+プチウィッチ/37/84, ワーキャット/105/92
+> CONTEXT: Troops/940/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-タマモ
-> CONTEXT: Troops/941/name/
-Tamamo
+プリーステス/118/120*2
+> CONTEXT: Troops/941/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-リリム
-> CONTEXT: Troops/942/name/
-Lilim
+キャスト/53/85, プリーステス/118/120
+> CONTEXT: Troops/942/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-ネイジュ
+スライム/80/83*2, プリーステス/118/120
+> CONTEXT: Troops/943/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィッチ/42/88*2
 > CONTEXT: Troops/944/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-リジェオ
-> CONTEXT: Troops/945/name/
-Rigeo
+カースメイガス/122/85*2
+> CONTEXT: Troops/945/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-フルビュア
-> CONTEXT: Troops/946/name/
-Fulbeua
+カースメイガス/122/85, ウィッチ/42/88
+> CONTEXT: Troops/946/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-ギルゴン
+ウィッチ/42/88, デビル/26/86
 > CONTEXT: Troops/947/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-ユー
+サキュバス/10/85, カースメイガス/122/85
 > CONTEXT: Troops/948/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-シルフェ
-> CONTEXT: Troops/949/name/
-Silfe
+ファミリア/96/90*2
+> CONTEXT: Troops/949/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-お師匠
+ファミリア/96/90*2, プリーステス/118/120
 > CONTEXT: Troops/950/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-ヴェル様
+キャスト/53/85*2, ファミリア/96/90
 > CONTEXT: Troops/951/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-黒キャスト
-> CONTEXT: Troops/952/name/
-Black Cast
+ミミック/145/88*2
+> CONTEXT: Troops/952/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-クイーンスライム
-> CONTEXT: Troops/954/name/
-Queen Slime
+ウィッチ/42/88, ミミック/145/88
+> CONTEXT: Troops/953/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-カオシア
+ミミック/145/88*3
+> CONTEXT: Troops/954/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ウィッチ
 > CONTEXT: Troops/955/name/ < UNTRANSLATED
+> CONTEXT: Troops/958/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ファミリア
+> CONTEXT: Troops/956/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ミミック
+> CONTEXT: Troops/957/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】シスターサキュバス
+> CONTEXT: Troops/959/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シルキー/242/92, シルキー/246/92
+> CONTEXT: Troops/960/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マーメイド/244/91
+> CONTEXT: Troops/961/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】追憶のイヴ
+> CONTEXT: Troops/962/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エンジェル/234/88, ダークエンジェル/137/
+> CONTEXT: Troops/963/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シルキー/242/92, ファミリア/96/90
+> CONTEXT: Troops/964/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シスターキャスト/236/99, カースメイガス/
+> CONTEXT: Troops/965/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】追憶のシスター
+> CONTEXT: Troops/966/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドッペルゲンガー/172/74*2
+> CONTEXT: Troops/967/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドッペルゲンガー/172/83*2
+> CONTEXT: Troops/968/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】追憶のヴェルミィーナ
+> CONTEXT: Troops/969/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ガーゴイル/141/93, サキュバスロード/16/9
+> CONTEXT: Troops/970/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバス/10/85, レッサーサキュバス/5/8
+> CONTEXT: Troops/971/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバス/11/86, レッサーサキュバス/6/8
+> CONTEXT: Troops/972/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリム/156/97*2, ミミック/146/94
+> CONTEXT: Troops/973/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバスロード/15/91, デーモン/31/90
+> CONTEXT: Troops/974/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インプ/21/69, デーモン/31/71, デビル/26/
+> CONTEXT: Troops/975/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】追憶のフルビュア
+> CONTEXT: Troops/976/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】追憶のギルゴーン
+> CONTEXT: Troops/977/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インプ/22/87, デーモン/32/93, デビル/27/
+> CONTEXT: Troops/978/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークエンジェル/137/73, タマモ/152/73,
+> CONTEXT: Troops/979/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーウルフ/100/73*2, ワーウルフ/101/72
+> CONTEXT: Troops/980/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークエンジェル/137/73*2
+> CONTEXT: Troops/981/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】追憶のユーガノット
+> CONTEXT: Troops/982/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ナイトメア/75/74*2, キャスト/53/76
+> CONTEXT: Troops/983/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/96/76, ファミリア/97/75
+> CONTEXT: Troops/984/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルラウネ/126/73*2
+> CONTEXT: Troops/985/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミミック/145/71*2, ミミック/146/72
+> CONTEXT: Troops/986/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】追憶のシルフェ
+> CONTEXT: Troops/987/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スライム/80/74*2, ゴールドスライム/90/72
+> CONTEXT: Troops/988/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルラウネ/126/73*2, アルラウネ/127/74
+> CONTEXT: Troops/989/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マタンゴ/133/75, エンジェル/234/69
+> CONTEXT: Troops/990/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチウィッチ/37/73, ワーキャット/105/72,
+> CONTEXT: Troops/991/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】追憶のネイジュレンジ
+> CONTEXT: Troops/992/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スリーピィ/221/80*2, ナイトメア/74/84*2
+> CONTEXT: Troops/993/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ギャングコマンダー/111/94, ノスフェラト
+> CONTEXT: Troops/994/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インプ/22/87*2, グラキエース/239/88
+> CONTEXT: Troops/995/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】追憶のリジェオ
+> CONTEXT: Troops/996/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ディリヘンテ
+> CONTEXT: Troops/997/name/ < UNTRANSLATED
+> CONTEXT: Troops/1010/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】シャッテンベスティ
+> CONTEXT: Troops/998/name/ < UNTRANSLATED
+> CONTEXT: Troops/1000/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】/イヴ&ベスティ
+> CONTEXT: Troops/999/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】リジェオ
+> CONTEXT: Troops/1001/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ネイジュレンジ
+> CONTEXT: Troops/1002/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】シルフェ
+> CONTEXT: Troops/1003/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ユーガノット
+> CONTEXT: Troops/1004/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】フルビュア
+> CONTEXT: Troops/1005/name/
+【BOSS】Fulbeua
+> END STRING
+
+> BEGIN STRING
+【BOSS】追憶のカオシア
+> CONTEXT: Troops/1008/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】/リジェオ&カオシア
+> CONTEXT: Troops/1009/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■深淵の樹海
+> CONTEXT: Troops/1015/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルラウネ/126/68*2, マタンゴ/133/68
+> CONTEXT: Troops/1016/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルラウネ/126/68*2
+> CONTEXT: Troops/1017/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スライム/80/67*2, マタンゴ/133/68
+> CONTEXT: Troops/1018/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マタンゴ/133/68*2, ワーウルフ/101/66
+> CONTEXT: Troops/1019/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スライム/80/67*2
+> CONTEXT: Troops/1020/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーウルフ, レッサーサキュバス
+> CONTEXT: Troops/1021/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マタンゴ/133/64
+> CONTEXT: Troops/1022/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーウルフ/101/66*3
+> CONTEXT: Troops/1023/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/6/66
+> CONTEXT: Troops/1024/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【R】リリム/275/62*2, リリス/276/75
+> CONTEXT: Troops/1025/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリム/275/62*2
+> CONTEXT: Troops/1026/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■常夜の街
+> CONTEXT: Troops/1030/name/ < UNTRANSLATED
+> CONTEXT: Items/340/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバスロード/15/73
+> CONTEXT: Troops/1031/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィッチ/212/72
+> CONTEXT: Troops/1032/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリム/156/71*2, リリス/209/74
+> CONTEXT: Troops/1033/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■戦士館
+> CONTEXT: Troops/1040/name/ < UNTRANSLATED
+> CONTEXT: Enemies/571/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ヴァルキュリヤ
+> CONTEXT: Troops/1044/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レギオン/278/65*2
+> CONTEXT: Troops/1048/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■常夜・ボギー邸
+> CONTEXT: Troops/1050/name/ < UNTRANSLATED
+> CONTEXT: Enemies/764/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/169/67
+> CONTEXT: Troops/1051/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[レッサーサキュバス]\\_
+「ふふふ……\\H
+　じっとしててくださいね～\\H」
+> CONTEXT: Troops/1051/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Troops/1051/pages/1/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/96/68
+> CONTEXT: Troops/1052/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ファミリア]\\_
+「さあ、力を抜いてください\\H
+　苦しいのは最初だけですから\\H」
+> CONTEXT: Troops/1052/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリム/227/57, ファミリア/96/59
+> CONTEXT: Troops/1053/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ファミリア]\\_
+「失礼いたしますね
+　力を抜いてください\\H」
+> CONTEXT: Troops/1053/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[リリム]\\_
+「ふふふ\\H 目を閉じてくださいね\\H」
+> CONTEXT: Troops/1053/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[リリム]\\_
+「んちゅ……ん……ふうっ……\\H」
+> CONTEXT: Troops/1053/pages/0/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ボギー
+> CONTEXT: Troops/1054/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■常夜・リエーヴァ邸
+> CONTEXT: Troops/1056/name/ < UNTRANSLATED
+> CONTEXT: Enemies/771/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバス/11/58, ワーウルフ/100/55
+> CONTEXT: Troops/1057/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デビル/27/58, サキュバス/11/58
+> CONTEXT: Troops/1058/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィッチ/43/58, ワーキャット/104/55
+> CONTEXT: Troops/1059/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーキャット/104/55, ワーウルフ/100/55
+> CONTEXT: Troops/1060/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークエンジェル/162/58, スレイヴ/170/99
+> CONTEXT: Troops/1061/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スレイヴ/63/55*4
+> CONTEXT: Troops/1062/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】スレイヴ/170/99
+> CONTEXT: Troops/1063/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】レッサーサキュバス/6/99
+> CONTEXT: Troops/1064/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】リエーヴァ
+> CONTEXT: Troops/1066/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[リエーヴァ]\\_
+「うふふ、見えるかしら……\\H
+　今からこれが、あなたの中に入るのよ\\H」
+> CONTEXT: Troops/1066/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リエーヴァはそそり立つペニスを
+見せつけながらゆっくりと近づいてきた。
+> CONTEXT: Troops/1066/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[リエーヴァ]\\_
+「まだすぐには入れてあげない\\H
+　ゆっくり、じっくり気持ちよくしてあげる\\H」
+> CONTEXT: Troops/1066/pages/0/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[リエーヴァ]\\_
+「うふふ、もうお預けは必要なさそうね\\H
+　それじゃあ……おかしくなるまで……
+　……犯してあげる\\H」
+> CONTEXT: Troops/1066/pages/0/27/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】リエーヴァ乱交
+> CONTEXT: Troops/1067/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】リエーヴァ（保存用）
+> CONTEXT: Troops/1068/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】リリム/165/80
+> CONTEXT: Troops/1071/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】アルラウネ/126/80
+> CONTEXT: Troops/1072/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ミミック/223/80
+> CONTEXT: Troops/1073/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ファミリア/97/62
+> CONTEXT: Troops/1074/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】シスターキャスト/236/80
+> CONTEXT: Troops/1075/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】スレイヴ/63/80
+> CONTEXT: Troops/1076/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】サキュバスロード/16/80
+> CONTEXT: Troops/1077/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】スレイヴ/214/80
+> CONTEXT: Troops/1078/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】カースメイガス/122/80
+> CONTEXT: Troops/1079/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ワーウルフ/100/80
+> CONTEXT: Troops/1080/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】リリス/209/80
+> CONTEXT: Troops/1081/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】プラーヴァ
+> CONTEXT: Troops/1082/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ネブラ
+> CONTEXT: Troops/1083/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】パンドラ
+> CONTEXT: Troops/1084/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】/ヒュプノス&アフィプニスィ
+> CONTEXT: Troops/1087/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+クイーンスライム/85/63, リリム/163/62
+> CONTEXT: Troops/1088/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スリーピィ/228/64, ダークエンジェル/229/
+> CONTEXT: Troops/1089/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】カグツチ
+> CONTEXT: Troops/1090/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ネメシス
+> CONTEXT: Troops/1091/name/ < UNTRANSLATED
+> CONTEXT: Troops/1182/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】/ヘメレとアイテル
+> CONTEXT: Troops/1092/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】エリス
+> CONTEXT: Troops/1093/name/ < UNTRANSLATED
+> CONTEXT: Troops/1188/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ニュクス
+> CONTEXT: Troops/1094/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ニュクス単体
+> CONTEXT: Troops/1095/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/96/95, シルキー/242/95
+> CONTEXT: Troops/1097/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバスクィーン/18/95, グレーターデー
+> CONTEXT: Troops/1098/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エインヘリヤル/327/95, ヴァルキュリア/35
+> CONTEXT: Troops/1099/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ヴィズリル
+> CONTEXT: Troops/1102/name/ < UNTRANSLATED
+> CONTEXT: Troops/1103/name/ < UNTRANSLATED
+> CONTEXT: Troops/1104/name/ < UNTRANSLATED
+> CONTEXT: Troops/1105/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セリア/373/18
+> CONTEXT: Troops/1107/name/ < UNTRANSLATED
+> CONTEXT: Enemies/851/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ミア
+> CONTEXT: Troops/1108/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ミア]\\_
+「ふふっ、それじゃあ忘れさせてあげるね。
+　わたしのことだけを見てて……」
+
+> CONTEXT: Troops/1108/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\n[101]は記憶を失い童貞になった！
+> CONTEXT: Troops/1108/pages/0/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ミア]\\_
+「どう？　優しくしてあげるから安心していいよ\\H」
+
+> CONTEXT: Troops/1108/pages/0/13/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ミア]\\_
+「クスクス……じゃあまずはお口でしてあげるね……\\H」
+
+> CONTEXT: Troops/1108/pages/1/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ミア]\\_
+「お兄ちゃん気持ちいい？\\H
+　じゃあそろそろ本気でいくよ？\\H」
+
+> CONTEXT: Troops/1108/pages/2/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ミア]\\_
+「ふふ、そろそろ限界かな？\\H」
+
+> CONTEXT: Troops/1108/pages/3/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ミア]\\_
+「それじゃあシちゃおっか……\\H
+　わたしの初めて、お兄ちゃんにあげるね……\\H」
+
+> CONTEXT: Troops/1108/pages/3/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】タナトスとシルクレディ
+> CONTEXT: Troops/1109/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】マスターテリオン
+> CONTEXT: Troops/1110/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【崩落までに掛かる時間は\\v[299]ターンです】
+> CONTEXT: Troops/1110/pages/0/5/Dialogue < UNTRANSLATED
+> CONTEXT: Troops/1111/pages/0/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【崩落まであと\\v[299]ターンです】
+> CONTEXT: Troops/1110/pages/1/11/Dialogue < UNTRANSLATED
+> CONTEXT: Troops/1111/pages/1/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】マスターテリオン(単体)
+> CONTEXT: Troops/1111/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■ふたなりの集落
+> CONTEXT: Troops/1112/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1418/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ヘルマルース
+> CONTEXT: Troops/1113/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】バイギャング
+> CONTEXT: Troops/1114/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】キングマジシャン
+> CONTEXT: Troops/1115/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ゴールデンボックス
+> CONTEXT: Troops/1116/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ダンスファイター
+> CONTEXT: Troops/1117/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】エピセインインプ
+> CONTEXT: Troops/1118/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】インキュバス
+> CONTEXT: Troops/1121/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\n[101]を不思議な力が包み込む！
+> CONTEXT: Troops/1121/pages/1/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+次のレジストは抵抗できなくなった！
+> CONTEXT: Troops/1121/pages/1/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メイジファンガス/411/30, マタンゴ/133/30
+> CONTEXT: Troops/1122/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】バイコボルト
+> CONTEXT: Troops/1123/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インプ/21/33*2, インプ/22/33*2, エピセイ
+> CONTEXT: Troops/1124/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ルシフェル,ラファエル
+> CONTEXT: Troops/1160/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】アヴァリツィア
+> CONTEXT: Troops/1161/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】インヴィディア
+> CONTEXT: Troops/1162/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インヴィディアは自身の能力を低下させた。
+> CONTEXT: Troops/1162/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[インヴィディア]\\_
+「あなたの力、いただきますわぁ\\H
+　弱った力で彼氏さんが奪われるのを
+　眺めててください\\H」
+> CONTEXT: Troops/1162/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ルクスリア
+> CONTEXT: Troops/1163/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】アケディア
+> CONTEXT: Troops/1164/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】イーラ
+> CONTEXT: Troops/1165/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】グーラ
+> CONTEXT: Troops/1166/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】スペルビア
+> CONTEXT: Troops/1167/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】/アトレッツァ＆トゥーラ
+> CONTEXT: Troops/1168/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】オーバーマインド
+> CONTEXT: Troops/1173/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】/ヒュプノス
+> CONTEXT: Troops/1180/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】/アフィプニスィ
+> CONTEXT: Troops/1181/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】キキーモラ
+> CONTEXT: Troops/1183/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ブルヘリア
+> CONTEXT: Troops/1189/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■ハザマノセカイ
+> CONTEXT: Troops/1200/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】イノセント,レヴナント
+> CONTEXT: Troops/1201/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+異世界編・チュートリアルを聞きますか？
+> CONTEXT: Troops/1201/pages/0/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ここからの世界で「インサート」を使うためには、
+ペニスを勃起させる必要があります。
+> CONTEXT: Troops/1201/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+敵や仲間が服を脱いだり、
+ペニスを持つキャラが攻めたり攻められたりする事で
+少しずつ勃起していきます。
+> CONTEXT: Troops/1201/pages/0/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+また、クライシス中は大きく勃起します。
+恍惚や欲情状態でも、勃起しやすくなるので
+これらの状態が時に有効な場面もあるかもしれません。
+> CONTEXT: Troops/1201/pages/0/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ただし、イってしまうとペニスは萎えてしまいます。
+萎えた状態のペニスを挿入しても、
+大した快感は与えられないため、注意しましょう。
+> CONTEXT: Troops/1201/pages/0/15/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+そして、もう１つ注意すべき点があります。
+> CONTEXT: Troops/1201/pages/0/18/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+この先の戦いでは、同じ部位を攻め続けると、
+敵はその部位が好きなのかと勘ぐり、
+その部位を使った攻めを多用してきます。
+> CONTEXT: Troops/1201/pages/0/19/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+例えば、キッスばかりで攻め続けると口、
+バストばかりで攻め続けると胸を使った攻め
+を多用するといった具合に……。
+> CONTEXT: Troops/1201/pages/0/22/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+また、クロッチはアソコやお尻の攻めを誘発し
+ヒップは脚を使った攻めを誘発します。
+> CONTEXT: Troops/1201/pages/0/25/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+こちらが弱点の部位や、夢魔が得意とする部位
+であれば、そのスイッチは入りやすくなります。
+> CONTEXT: Troops/1201/pages/0/27/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+それを期待して攻め続けるのも良いですが、
+何事もほどほどに……。
+> CONTEXT: Troops/1201/pages/0/29/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+説明は宜しいですか？
+> CONTEXT: Troops/1201/pages/0/31/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レヴナント/438/68, メデイア/212/66
+> CONTEXT: Troops/1202/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イノセント/429/67, レヴナント/438/68
+> CONTEXT: Troops/1203/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レヴナント/438/68, ワンダーボックス/333/
+> CONTEXT: Troops/1204/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イノセント/429/67, メデイア/212/66
+> CONTEXT: Troops/1205/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イノセント/429/68
+> CONTEXT: Troops/1206/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1151/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レヴナント/438/69
+> CONTEXT: Troops/1207/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1152/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メデイア/212/66, ワンダーボックス/333/70
+> CONTEXT: Troops/1208/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワンダーボックス/333/70*2
+> CONTEXT: Troops/1209/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メデイア/212/66
+> CONTEXT: Troops/1210/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1159/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワンダーボックス/333/70*3
+> CONTEXT: Troops/1211/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワンダーボックス/333/70, イノセント/429/
+> CONTEXT: Troops/1212/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ラプチーナ
+> CONTEXT: Troops/1213/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ナハト
+> CONTEXT: Troops/1214/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ニュイ
+> CONTEXT: Troops/1215/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ナハト＆ニュイ
+> CONTEXT: Troops/1216/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】アトレッツァ＆トゥーラ
+> CONTEXT: Troops/1217/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■アジトへの道
+> CONTEXT: Troops/1219/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1171/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+コボルト/100/70*2
+> CONTEXT: Troops/1220/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+コボルト/100/70, シルフ/137/70
+> CONTEXT: Troops/1221/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+コボルト/100/70, メア/74/71
+> CONTEXT: Troops/1222/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シルフ/137/70*2
+> CONTEXT: Troops/1223/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドライアド/126/65, シルフ/137/70
+> CONTEXT: Troops/1224/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドライアド/126/65, メア/74/71
+> CONTEXT: Troops/1225/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■強欲-探求城塞
+> CONTEXT: Troops/1227/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1185/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルプ/22/73, ワーキャット/105/72
+> CONTEXT: Troops/1228/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルプ/22/73, ワーウルフ/101/66
+> CONTEXT: Troops/1229/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メアリー/322/70, ワーキャット/105/72
+> CONTEXT: Troops/1230/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メアリー/322/70, ワーウルフ/101/66
+> CONTEXT: Troops/1231/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルプ/22/73, メアリー/322/70
+> CONTEXT: Troops/1232/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■嫉妬-幻想樹海
+> CONTEXT: Troops/1234/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1191/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファントム/6/72
+> CONTEXT: Troops/1235/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1192/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファントム/6/72, ウィッチ/212/66
+> CONTEXT: Troops/1236/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファントム/6/72*2
+> CONTEXT: Troops/1237/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファントム/6/72*2, ウィッチ/212/66
+> CONTEXT: Troops/1238/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アスカフロア/127/70
+> CONTEXT: Troops/1239/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1194/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アスカフロア/127/70*2
+> CONTEXT: Troops/1240/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■色欲-亜空迷宮
+> CONTEXT: Troops/1242/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1197/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルビノ/323/71*2
+> CONTEXT: Troops/1243/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルビノ/323/71, リリム/165/70
+> CONTEXT: Troops/1244/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/6/70, アルビノ/323/71
+> CONTEXT: Troops/1245/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルビノ/323/71, トイフェル/326/70
+> CONTEXT: Troops/1246/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/6/70, トイフェル/326/
+> CONTEXT: Troops/1248/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■怠惰-月夜海岸
+> CONTEXT: Troops/1250/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1203/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+バンシー/63/73*2
+> CONTEXT: Troops/1251/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カトゥルス/105/71, バンシー/63/73, ワー
+> CONTEXT: Troops/1252/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+バンシー/63/73, スライム/80/72
+> CONTEXT: Troops/1253/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カトゥルス/105/71, バンシー/63/73
+> CONTEXT: Troops/1254/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カトゥルス/105/71*2
+> CONTEXT: Troops/1255/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーウルフ/100/71*2, カトゥルス/105/71
+> CONTEXT: Troops/1256/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■憤怒-崩壊洋館
+> CONTEXT: Troops/1258/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1209/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アートルム/108/72, スリーピィ/222/70
+> CONTEXT: Troops/1259/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アートルム/108/72, インプ/21/70
+> CONTEXT: Troops/1260/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アートルム/108/72, スカサハ/26/72
+> CONTEXT: Troops/1261/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スカサハ/26/72
+> CONTEXT: Troops/1262/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スカサハ/26/72, インプ/21/70
+> CONTEXT: Troops/1263/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■暴食-秋風森林
+> CONTEXT: Troops/1265/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1215/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホロウスレイヴ/63/56
+> CONTEXT: Troops/1266/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホロウスレイヴ/63/56*2
+> CONTEXT: Troops/1267/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホロウスレイヴ/63/56*3
+> CONTEXT: Troops/1268/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カプリスシャトン/105/72
+> CONTEXT: Troops/1269/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1217/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カプリスシャトン/105/72*2
+> CONTEXT: Troops/1270/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■傲慢-氷結渓谷
+> CONTEXT: Troops/1272/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1221/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/97/71, ソーサラー/43/72
+> CONTEXT: Troops/1273/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レギオン/22/73, ソーサラー/43/72
+> CONTEXT: Troops/1274/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レギオン/22/73*2
+> CONTEXT: Troops/1275/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レギオン/22/73*3
+> CONTEXT: Troops/1276/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ソーサラー/432/72
+> CONTEXT: Troops/1277/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1222/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】モリガン
+> CONTEXT: Troops/1280/name/ < UNTRANSLATED
+> CONTEXT: Troops/1550/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■悠久の庭園
+> CONTEXT: Troops/1282/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メアリー/322/75
+> CONTEXT: Troops/1283/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1233/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルビノ/323/75
+> CONTEXT: Troops/1284/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1234/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トイフェル/326/75
+> CONTEXT: Troops/1285/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1235/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スカサハ/181/75
+> CONTEXT: Troops/1286/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1236/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+コボルト/187/75
+> CONTEXT: Troops/1287/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1237/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+コボルト/188/76
+> CONTEXT: Troops/1288/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1292/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アモーレ/177/80
+> CONTEXT: Troops/1289/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1239/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ピアチェレ/178/80
+> CONTEXT: Troops/1290/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1240/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1335/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イエティ/190/80
+> CONTEXT: Troops/1291/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1241/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ユキンコ/191/80
+> CONTEXT: Troops/1292/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1242/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グラキエース/196/77
+> CONTEXT: Troops/1293/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1290/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+フロストピロー/224/76
+> CONTEXT: Troops/1294/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1289/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドロフォノス/321/80
+> CONTEXT: Troops/1295/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1355/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ユキジョロウ/171/79
+> CONTEXT: Troops/1296/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1298/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ニウェウス/230/80
+> CONTEXT: Troops/1297/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1300/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ビショップ/232/72
+> CONTEXT: Troops/1298/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1326/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セルウス/63/73
+> CONTEXT: Troops/1299/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ジョロウグモ/176/80
+> CONTEXT: Troops/1300/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1281/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アティーナ/183/79
+> CONTEXT: Troops/1301/name/ < UNTRANSLATED
+> CONTEXT: Troops/1372/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1307/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アートルム/332/72
+> CONTEXT: Troops/1302/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1210/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】アヴァリツィア
+> CONTEXT: Troops/1311/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】インヴィディア
+> CONTEXT: Troops/1312/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ルクスリア
+> CONTEXT: Troops/1313/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】アケディア
+> CONTEXT: Troops/1314/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】イーラ
+> CONTEXT: Troops/1315/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】グーラ
+> CONTEXT: Troops/1316/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】スペルビア
+> CONTEXT: Troops/1317/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■静寂の里
+> CONTEXT: Troops/1330/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1275/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ツキヨダケ/133/75, カグヤ/152/76
+> CONTEXT: Troops/1331/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ユキンコ/239/76, カグヤ/152/76
+> CONTEXT: Troops/1332/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ユキンコ/239/76, ツキヨダケ/133/75
+> CONTEXT: Troops/1333/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カグヤ/152/76*2
+> CONTEXT: Troops/1334/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ツキヨダケ/133/75*2
+> CONTEXT: Troops/1335/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+クノイチ/175/78
+> CONTEXT: Troops/1336/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1279/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+クノイチ/175/78*2
+> CONTEXT: Troops/1337/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+クノイチ/175/78*3
+> CONTEXT: Troops/1338/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ジョロウグモ
+> CONTEXT: Troops/1341/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】黒麒麟
+> CONTEXT: Troops/1342/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■ジェノン雪渓
+> CONTEXT: Troops/1344/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1286/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イエティ/100/78*2
+> CONTEXT: Troops/1345/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イエティ/100/78, アイスコボルト/100/76
+> CONTEXT: Troops/1346/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グラキエース/239/77, イエティ/100/78
+> CONTEXT: Troops/1347/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アイスコボルト/100/76*2
+> CONTEXT: Troops/1348/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アイスコボルト/100/76, フロストピロー/22
+> CONTEXT: Troops/1349/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アイスコボルト/100/76, グラキエース/239/
+> CONTEXT: Troops/1350/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+フロストピロー/222/76*2
+> CONTEXT: Troops/1351/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グラキエース/239/77, フロストピロー/222/
+> CONTEXT: Troops/1352/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グラキエース/239/77*2
+> CONTEXT: Troops/1353/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イエティ/100/78*3
+> CONTEXT: Troops/1354/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イエティ/100/78, フロストピロー/222/76
+> CONTEXT: Troops/1355/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ユキンコ/239/76*2
+> CONTEXT: Troops/1357/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ユキンコ/239/76*3
+> CONTEXT: Troops/1358/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ユキジョロウ/152/79*2
+> CONTEXT: Troops/1359/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ニウェウス/326/80*2
+> CONTEXT: Troops/1360/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グラキエース/239/77, ニウェウス/326/80
+> CONTEXT: Troops/1361/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ユキンコ/239/76, ユキジョロウ/152/79
+> CONTEXT: Troops/1362/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ユキジョロウ/152/79, ニウェウス/326/80
+> CONTEXT: Troops/1363/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+フロストピロー/222/76, ニウェウス/326/80
+> CONTEXT: Troops/1364/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】氷術師コンビ
+> CONTEXT: Troops/1367/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ジェノシンドレ
+> CONTEXT: Troops/1368/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■深海宮殿
+> CONTEXT: Troops/1370/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1304/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ゴブリンガード/111/76, ゴブリンガード/23
+> CONTEXT: Troops/1371/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マリンヘア/105/80, アティーナ/183/79
+> CONTEXT: Troops/1373/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+バンシー/63/78, ネーレイス/126/78
+> CONTEXT: Troops/1374/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ネーレイス/126/78, アティーナ/183/79
+> CONTEXT: Troops/1375/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+バンシー/63/78*2, ネーレイス/126/78
+> CONTEXT: Troops/1376/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+バンシー/63/78*3
+> CONTEXT: Troops/1377/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ネーレイス/126/78*2
+> CONTEXT: Troops/1378/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ゴブリンガード/111/76, ネーレイス/126/78
+> CONTEXT: Troops/1379/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ゴブリンガード/111/76, マリンヘア/105/80
+> CONTEXT: Troops/1380/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マリンヘア/105/80, ネーレイス/126/78
+> CONTEXT: Troops/1381/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+バンシー/63/78, マリンヘア/105/80
+> CONTEXT: Troops/1382/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マリンヘア/105/80*2
+> CONTEXT: Troops/1383/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ファフニール
+> CONTEXT: Troops/1386/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】マーリ
+> CONTEXT: Troops/1387/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■聖地ラハスヤ
+> CONTEXT: Troops/1391/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アモーレ/177/75*2
+> CONTEXT: Troops/1392/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アモーレ/177/75, ピアチェレ/178/79
+> CONTEXT: Troops/1393/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ピアチェレ/178/79*2
+> CONTEXT: Troops/1394/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マモン/223/80*2
+> CONTEXT: Troops/1395/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マモン/223/80*3
+> CONTEXT: Troops/1396/name/ < UNTRANSLATED
+> CONTEXT: Troops/1447/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セルウス/63/73*3
+> CONTEXT: Troops/1397/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アセト/156/72*2
+> CONTEXT: Troops/1398/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アセト/156/72, アモーレ/177/75
+> CONTEXT: Troops/1399/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アセト/156/72, ピアチェレ/178/79
+> CONTEXT: Troops/1400/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マモン/223/80, ピアチェレ/178/79
+> CONTEXT: Troops/1401/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ビショップ/38/72, ハイビショップ/43/78
+> CONTEXT: Troops/1402/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マモン/223/80, ハイビショップ/43/78
+> CONTEXT: Troops/1403/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ビショップ/38/72, アモーレ/177/75
+> CONTEXT: Troops/1404/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セルウス/63/73*2, ビショップ/38/72
+> CONTEXT: Troops/1405/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ハイビショップ/43/78, ピアチェレ/178/79
+> CONTEXT: Troops/1406/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セルウス/63/73*2, アモーレ/177/75
+> CONTEXT: Troops/1407/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■砂上の遺跡
+> CONTEXT: Troops/1411/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スフィンクス/141/73, アモーレ/177/75
+> CONTEXT: Troops/1412/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スフィンクス/141/73, ピアチェレ/178/79
+> CONTEXT: Troops/1413/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スフィンクス/141/73*2
+> CONTEXT: Troops/1414/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スフィンクス/141/73, アサシン/175/78
+> CONTEXT: Troops/1415/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アサシン/175/78*2
+> CONTEXT: Troops/1416/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アセト/156/72, アサシン/175/78
+> CONTEXT: Troops/1417/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アモーレ/177/75, アサシン/175/78
+> CONTEXT: Troops/1418/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アサシン/175/78, ピアチェレ/178/79
+> CONTEXT: Troops/1419/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マモン/223/80, イシス/219/80
+> CONTEXT: Troops/1420/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アセト/156/72, イシス/219/80
+> CONTEXT: Troops/1421/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イシス/219/80
+> CONTEXT: Troops/1422/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アサシン/175/78*3
+> CONTEXT: Troops/1423/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】バステト
+> CONTEXT: Troops/1433/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】アスタルテ
+> CONTEXT: Troops/1434/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】マイェストレ
+> CONTEXT: Troops/1435/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】バステト＆アスタルテ
+> CONTEXT: Troops/1436/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】スルガト
+> CONTEXT: Troops/1438/name/ < UNTRANSLATED
+> CONTEXT: Troops/1551/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あたりに魔性の芳香が漂い始める……！
+> CONTEXT: Troops/1438/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[スルガト]\\_
+「くす……わたくしの香りを嗅ぎながら、
+　これまでの行いを悔い改めなさい……\\H」
+> CONTEXT: Troops/1438/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔性の芳香に誘われて、
+ベルフェゴールが現れた！
+> CONTEXT: Troops/1438/pages/1/17/Dialogue < UNTRANSLATED
+> CONTEXT: Troops/1438/pages/1/37/Dialogue < UNTRANSLATED
+> CONTEXT: Troops/1438/pages/1/57/Dialogue < UNTRANSLATED
+> CONTEXT: Troops/1438/pages/1/77/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】スルガト単体
+> CONTEXT: Troops/1439/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■秘密の書庫
+> CONTEXT: Troops/1440/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1349/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テネシティ/324/75*3
+> CONTEXT: Troops/1441/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テネシティ/324/75*2, アルケミスト/122/80
+> CONTEXT: Troops/1442/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テネシティ/324/75*2, ゴブリンウィザード/
+> CONTEXT: Troops/1443/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ゴブリンウィザード/43/76, アルケミスト/1
+> CONTEXT: Troops/1444/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マモン/223/80*2, ドロフォノス/321/80
+> CONTEXT: Troops/1448/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アル厶ヌス/247/77, ドロフォノス/321/80
+> CONTEXT: Troops/1449/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ゴブリンウィザード/43/76, アル厶ヌス/247
+> CONTEXT: Troops/1450/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ゴブリンウィザード/43/76, ドロフォノス/3
+> CONTEXT: Troops/1451/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ガーディアン
+> CONTEXT: Troops/1453/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】魔法使いサキュバスコンビ
+> CONTEXT: Troops/1454/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ナルルース・デネルース
+> CONTEXT: Troops/1455/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】アウルム１戦目
+> CONTEXT: Troops/1456/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ドクター・ゼノア
+> CONTEXT: Troops/1457/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】アランシア
+> CONTEXT: Troops/1458/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ルーバー
+> CONTEXT: Troops/1459/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】アウルム２戦目
+> CONTEXT: Troops/1460/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+どこからか声が聞こえてくる……。
+> CONTEXT: Troops/1460/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Troops/1551/pages/0/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"聞き覚えのある声"
+> CONTEXT: Troops/1460/pages/0/3/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map241/events/26/pages/0/0/InlineScript/2:22 < UNTRANSLATED
+> CONTEXT: Map096/events/57/pages/0/190/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+苦戦しているようですね、\\n[101]……。
+> CONTEXT: Troops/1460/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今のアウルムは、闇のオーラを纏い、
+まさに無敵の状態……。
+> CONTEXT: Troops/1460/pages/0/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ……、\\|
+どうやら……。
+> CONTEXT: Troops/1460/pages/0/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+最後の仕事を……\\|
+果たす時が……\\|来たようですね……\\H
+> CONTEXT: Troops/1460/pages/0/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】アウルム３戦目
+> CONTEXT: Troops/1461/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】アウルム敗北戦
+> CONTEXT: Troops/1462/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シュレム/22/80*3
+> CONTEXT: Troops/1464/name/ < UNTRANSLATED
+> CONTEXT: Troops/1472/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベルフェゴール/184/84*3
+> CONTEXT: Troops/1465/name/ < UNTRANSLATED
+> CONTEXT: Troops/1477/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■淫界
+> CONTEXT: Troops/1470/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1437/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シュレム/22/80*2
+> CONTEXT: Troops/1471/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベルフェゴール/184/84, シュレム/22/80
+> CONTEXT: Troops/1473/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サテュリオン/80/83, シュレム/22/80
+> CONTEXT: Troops/1474/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サテュリオン/80/83, スロウス/384/80
+> CONTEXT: Troops/1475/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベルフェゴール/184/84*2
+> CONTEXT: Troops/1476/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サテュリオン/80/83*2
+> CONTEXT: Troops/1478/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベルフェゴール/184/84, サテュリオン/80/8
+> CONTEXT: Troops/1479/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベルフェゴール/184/84, スロウス/384/80
+> CONTEXT: Troops/1480/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スロウス/384/80*2
+> CONTEXT: Troops/1481/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベルゼビュート/180/86, スロウス/384/80
+> CONTEXT: Troops/1482/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベルゼビュート/180/86, シュレム/22/80
+> CONTEXT: Troops/1483/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベルフェゴール/184/84, ベルゼビュート/18
+> CONTEXT: Troops/1484/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベルゼビュート/180/86, サテュリオン/80/8
+> CONTEXT: Troops/1485/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■黄昏の王宮
+> CONTEXT: Troops/1486/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1473/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】？？？？
+> CONTEXT: Troops/1487/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベルフェゴール/184/90*3
+> CONTEXT: Troops/1488/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スロウス/347/90*3
+> CONTEXT: Troops/1489/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベルフェゴール/184/90*2, テンタクルリリ
+> CONTEXT: Troops/1490/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スロウス/347/90*2, アモーレ/177/90
+> CONTEXT: Troops/1491/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベルフェゴール/184/90*2, アモーレ/177/90
+> CONTEXT: Troops/1492/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テンタクルリリム/165/90*2, アモーレ/177/
+> CONTEXT: Troops/1493/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベルフェゴール/184/90, アモーレ/177/90,
+> CONTEXT: Troops/1494/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■審判の塔
+> CONTEXT: Troops/1502/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ルシフェル・ラファエル
+> CONTEXT: Troops/1503/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ドS天使敗北戦
+> CONTEXT: Troops/1504/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ルシフェル]\\_
+「くくっ……懲罰の時間だ。
+　生前の行い、せいぜい懺悔しな\\H」
+> CONTEXT: Troops/1504/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[ラファエル]\\_
+「アタシ達の裁きは
+　ちょ～キツイわよぉ～\\H」
+> CONTEXT: Troops/1504/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■審判の塔 下層
+> CONTEXT: Troops/1507/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1486/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グローア/74/89, サイレント/53/89
+> CONTEXT: Troops/1508/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グローア/74/89, スクラーヴェ/53/89
+> CONTEXT: Troops/1509/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レヴナント/231/91, グローア/74/89
+> CONTEXT: Troops/1510/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サイレント/53/89, スクラーヴェ/53/89
+> CONTEXT: Troops/1511/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レヴナント/231/91, サイレント/53/89
+> CONTEXT: Troops/1512/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レヴナント/231/91, スクラーヴェ/53/89
+> CONTEXT: Troops/1513/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■審判の塔 中層
+> CONTEXT: Troops/1517/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1493/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イノセント/27/92, レヴナント/231/92
+> CONTEXT: Troops/1518/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レヴナント/231/92, スクラーヴェ/53/89
+> CONTEXT: Troops/1519/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レヴナント/231/92, プチエンジェル/235/90
+> CONTEXT: Troops/1520/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イノセント/27/92, スクラーヴェ/53/89
+> CONTEXT: Troops/1521/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イノセント/27/92, プチエンジェル/235/90
+> CONTEXT: Troops/1522/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スクラーヴェ/53/89, プチエンジェル/235/9
+> CONTEXT: Troops/1523/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■審判の塔 上層
+> CONTEXT: Troops/1527/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1500/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イノセント/27/93, エンジェル/234/91
+> CONTEXT: Troops/1528/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イノセント/27/93, プチエンジェル/235/91
+> CONTEXT: Troops/1529/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イノセント/27/93, ミカエル/248/92
+> CONTEXT: Troops/1530/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エンジェル/234/91, プチエンジェル/235/91
+> CONTEXT: Troops/1531/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エンジェル/234/91, ミカエル/248/92
+> CONTEXT: Troops/1532/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミカエル/248/92, プチエンジェル/235/91
+> CONTEXT: Troops/1533/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■大天使の城ボス
+> CONTEXT: Troops/1537/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ラビス
+> CONTEXT: Troops/1538/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ガブリエル
+> CONTEXT: Troops/1539/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+騒ぎを聞きつけ、ミカエルが現れた！
+> CONTEXT: Troops/1539/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Troops/1539/pages/0/34/Dialogue < UNTRANSLATED
+> CONTEXT: Troops/1539/pages/0/53/Dialogue < UNTRANSLATED
+> CONTEXT: Troops/1539/pages/0/72/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ヒラルス・アルミルス
+> CONTEXT: Troops/1540/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ヒラルス単体
+> CONTEXT: Troops/1541/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】アルミルス単体
+> CONTEXT: Troops/1542/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ノーブル
+> CONTEXT: Troops/1543/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ベル
+> CONTEXT: Troops/1544/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】アコライト
+> CONTEXT: Troops/1545/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】シヴィリアン
+> CONTEXT: Troops/1546/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】高位天使三姉妹
+> CONTEXT: Troops/1547/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"セラフィエル"
+> CONTEXT: Troops/1551/pages/0/3/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+これ以上の戦いは危険ですわ。
+一度体制を立て直しましょう……。
+> CONTEXT: Troops/1551/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】エウプロシュネー単体
+> CONTEXT: Troops/1553/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】アグライアー単体
+> CONTEXT: Troops/1554/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】妖蝶三姉妹
+> CONTEXT: Troops/1555/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ニューオメガ
+> CONTEXT: Troops/1556/name/ < UNTRANSLATED
+> CONTEXT: Troops/1559/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ジャヒー
+> CONTEXT: Troops/1557/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】キュシオン
+> CONTEXT: Troops/1560/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーキャット/104/60*2
+> CONTEXT: Troops/1650/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーキャット/104/60*3
+> CONTEXT: Troops/1651/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーキャット/104/60, ワーウルフ/100/60
+> CONTEXT: Troops/1652/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーウルフ/100/60*2
+> CONTEXT: Troops/1653/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーウルフ/100/60*3
+> CONTEXT: Troops/1654/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィッチ/42/60*2
+> CONTEXT: Troops/1655/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィッチ/42/60, カースメイガス/122/60
+> CONTEXT: Troops/1656/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カースメイガス/122/60
+> CONTEXT: Troops/1657/name/ < UNTRANSLATED
+> CONTEXT: Enemies/485/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スリーピィ/228/60*2
+> CONTEXT: Troops/1659/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スリーピィ/228/60, カースメイガス/122/60
+> CONTEXT: Troops/1660/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スレイヴ/63/60*3
+> CONTEXT: Troops/1662/name/ < UNTRANSLATED
+> CONTEXT: Troops/1687/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スレイヴ/63/60*6, カースメイガス/122/60
+> CONTEXT: Troops/1663/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マーメイド/244/60*2
+> CONTEXT: Troops/1665/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マーメイド/244/60, サキュバス/10/60
+> CONTEXT: Troops/1666/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバス/10/60
+> CONTEXT: Troops/1667/name/ < UNTRANSLATED
+> CONTEXT: Enemies/456/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバス/10/60*2
+> CONTEXT: Troops/1668/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバス/10/60, ガーゴイル/141/60
+> CONTEXT: Troops/1669/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ガーゴイル/141/60
+> CONTEXT: Troops/1670/name/ < UNTRANSLATED
+> CONTEXT: Enemies/490/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シスターサキュバス/216/60, シルキー/242/
+> CONTEXT: Troops/1672/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シスターサキュバス/216/60, シスターキャ
+> CONTEXT: Troops/1673/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シルキー/242/45, シルキー/246/45
+> CONTEXT: Troops/1674/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/96/60, シルキー/242/45, シル
+> CONTEXT: Troops/1675/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/96/60*3
+> CONTEXT: Troops/1676/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シルキー/242/45
+> CONTEXT: Troops/1677/name/ < UNTRANSLATED
+> CONTEXT: Enemies/527/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シルキー/246/45
+> CONTEXT: Troops/1678/name/ < UNTRANSLATED
+> CONTEXT: Enemies/528/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シスターキャスト/236/60, ファミリア/96/6
+> CONTEXT: Troops/1679/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シスターキャスト/236/60
+> CONTEXT: Troops/1680/name/ < UNTRANSLATED
+> CONTEXT: Enemies/526/name/ < UNTRANSLATED
+> CONTEXT: Enemies/554/name/ < UNTRANSLATED
+> CONTEXT: Enemies/599/name/ < UNTRANSLATED
+> CONTEXT: Enemies/795/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーキャット/104/60, シルキー/246/45
+> CONTEXT: Troops/1681/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーキャット/104/60, ファミリア/96/60
+> CONTEXT: Troops/1682/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シルキー/242/45, レギオン/278/65
+> CONTEXT: Troops/1683/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【R】レギオン/278/48*7
+> CONTEXT: Troops/1685/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■爛柯の里
+> CONTEXT: Troops/1700/name/ < UNTRANSLATED
+> CONTEXT: Classes/450/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1700/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ライジェロ
+> CONTEXT: Troops/1701/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】プティ
+> CONTEXT: Troops/1710/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■テスト用単体トループ
+> CONTEXT: Troops/1739/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グレムリン/532/80
+> CONTEXT: Troops/1740/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1908/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】カイン＆アベル
+> CONTEXT: Troops/1741/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】アンテノーラ
+> CONTEXT: Troops/1742/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】トロメーア
+> CONTEXT: Troops/1743/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ジュデッカ
+> CONTEXT: Troops/1744/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】魔縁
+> CONTEXT: Troops/1745/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】金華猫
+> CONTEXT: Troops/1746/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ドゥーロン
+> CONTEXT: Troops/1747/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドゥーロンは周りに淫毒をまき散らした！
+> CONTEXT: Troops/1747/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\n[101]たちは淫毒を浴びてしまった！
+> CONTEXT: Troops/1747/pages/0/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ローズ
+> CONTEXT: Troops/1748/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ルビカンテ
+> CONTEXT: Troops/1769/name/ < UNTRANSLATED
+> CONTEXT: Troops/1784/name/ < UNTRANSLATED
+> CONTEXT: Troops/1801/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】アズライグ＆グウィバー
+> CONTEXT: Troops/1770/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】アズライグ
+> CONTEXT: Troops/1771/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】グウィバー
+> CONTEXT: Troops/1772/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+◆強化マレブランケ
+> CONTEXT: Troops/1773/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1583/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ドラギニャッツォ
+> CONTEXT: Troops/1774/name/ < UNTRANSLATED
+> CONTEXT: Troops/1791/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】リビコッコ
+> CONTEXT: Troops/1775/name/ < UNTRANSLATED
+> CONTEXT: Troops/1792/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ファルファレルロ
+> CONTEXT: Troops/1776/name/ < UNTRANSLATED
+> CONTEXT: Troops/1793/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】カニャッツォ
+> CONTEXT: Troops/1777/name/ < UNTRANSLATED
+> CONTEXT: Troops/1794/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】グラッフィアカーネ
+> CONTEXT: Troops/1778/name/ < UNTRANSLATED
+> CONTEXT: Troops/1795/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】チリアット
+> CONTEXT: Troops/1779/name/ < UNTRANSLATED
+> CONTEXT: Troops/1796/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】バルバリッチャ
+> CONTEXT: Troops/1780/name/ < UNTRANSLATED
+> CONTEXT: Troops/1800/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】アリキーノ
+> CONTEXT: Troops/1781/name/ < UNTRANSLATED
+> CONTEXT: Troops/1798/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】カルカブリーナ
+> CONTEXT: Troops/1782/name/ < UNTRANSLATED
+> CONTEXT: Troops/1799/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】スカルミリオーネ
+> CONTEXT: Troops/1785/name/ < UNTRANSLATED
+> CONTEXT: Troops/1802/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】サーベラス
+> CONTEXT: Troops/1786/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】カンビアーレ
+> CONTEXT: Troops/1787/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】オノスケリス
+> CONTEXT: Troops/1788/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】茨木童子
+> CONTEXT: Troops/1789/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】善狐
+> CONTEXT: Troops/1790/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】マラコーダ
+> CONTEXT: Troops/1797/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】カンビオン
+> CONTEXT: Troops/1803/name/ < UNTRANSLATED
 
 > END STRING

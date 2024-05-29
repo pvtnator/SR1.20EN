@@ -138,7 +138,7 @@ def apply_translations(folder_path, apply_path, regexes, translations, mustinclu
 
 if __name__ == "__main__":
     current_dir = Path.cwd()
-    translated_dir = current_dir.parent / Path().resolve().name.replace("patch","translated")
+    translated_dir = current_dir.parent / Path().resolve().name.replace("patch","mod_translated")
     talk_dir = translated_dir / "System" / "talk"
     modtalk_dir = translated_dir / "Mod" / "Mod_Talk"
     translations_file = "characters.txt"
@@ -175,7 +175,7 @@ if __name__ == "__main__":
             i += 1
 
     #print(translations["global"])
-    mode = "apply"
+    mode = "extract"
     print("Mode: "+mode+"\nThis might take a minute")
     if mode == "extract":
         extract_strings(talk_dir, translations_file, translations)

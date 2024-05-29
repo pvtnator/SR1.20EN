@@ -79,8 +79,24 @@ As things are, I'm not making progress...
 
 > BEGIN STRING
 \\name[夢魔]\\_
+アナタ、さっきのお姉さんとお知り合い？
+> CONTEXT: Map072/events/33/pages/0/12/Dialogue < UNTRANSLATED
+> CONTEXT: Map072/events/33/pages/0/19/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[夢魔]\\_
+だったらぁ･･･、さっきのお姉さんに助けに来てもらおっか♪
+> CONTEXT: Map072/events/33/pages/0/14/Dialogue < UNTRANSLATED
+> CONTEXT: Map072/events/33/pages/0/21/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[夢魔]\\_
 お兄さん、さっきのお姉さんとお知り合い？
-> CONTEXT: Map072/events/33/pages/0/11/Dialogue
+> CONTEXT: Map072/events/33/pages/0/25/Dialogue
 \\name[Succubus]\\_
 Boy, do you know the girl from earlier?
 > END STRING
@@ -88,7 +104,7 @@ Boy, do you know the girl from earlier?
 > BEGIN STRING
 \\name[夢魔]\\_
 だったらぁ･･･、お姉さんに助けに来てもらおっか♪
-> CONTEXT: Map072/events/33/pages/0/13/Dialogue
+> CONTEXT: Map072/events/33/pages/0/27/Dialogue
 \\name[Succubus]\\_
 In that case, why don't you help me?♪
 > END STRING
@@ -96,7 +112,67 @@ In that case, why don't you help me?♪
 > BEGIN STRING
 \\name[夢魔]\\_
 いい声で鳴いてねぇ\\H
-> CONTEXT: Map072/events/33/pages/0/15/Dialogue
+> CONTEXT: Map072/events/33/pages/0/33/Dialogue
 \\name[Succubus]\\_
 Make some nice sounds, ok?\\H
+> END STRING
+
+> BEGIN STRING
+"倒れている人"
+> CONTEXT: Map072/events/35/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+うう・・・
+暴走した時に仕掛けるホールドのレジストは
+自動で成功する・・・。
+> CONTEXT: Map072/events/35/pages/0/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+駄目だと思ったが身体が勝手に・・・。
+> CONTEXT: Map072/events/35/pages/0/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+うう・・・
+暴走した時に仕掛けるホールドのレジストは
+成功するとホールドする･･･。
+> CONTEXT: Map072/events/35/pages/0/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今はヤバイと思って必死にレジストしたら
+挿入しちまった･･･。
+> CONTEXT: Map072/events/35/pages/0/14/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"獣人の剣士"
+> CONTEXT: Map072/events/81/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+採取ポイントの中には稀に罠もあるんだ
+> CONTEXT: Map072/events/81/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+【ダウト】の素質があれば見破ることもできるけど\\_
+見破れないと……\\n考えただけでも恐ろしいッ！
+> CONTEXT: Map072/events/81/pages/0/3/Dialogue < UNTRANSLATED
+
 > END STRING

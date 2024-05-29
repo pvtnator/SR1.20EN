@@ -74,6 +74,53 @@
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
+そういえばラーミル様にはお会いできましたか？
+> CONTEXT: Map002/events/4/pages/0/70/Dialogue
+\\name[\\v[2]]\\_
+By the way, have you met Ramil?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私も末端なため、あのような上位の方との関わりは無い\\_
+もので。\\nここに来てるとしても、どこにいるかというのは
+私も分からないんです。
+> CONTEXT: Map002/events/4/pages/0/72/Dialogue < UNTRANSLATED
+> CONTEXT: Map002/events/4/pages/1/63/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+でも、ここ何度かこの教会へ来ているみたいですよ。
+何のご用件かは想像も付きませんが･･････。
+> CONTEXT: Map002/events/4/pages/0/76/Dialogue < UNTRANSLATED
+> CONTEXT: Map002/events/4/pages/1/67/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ルーンを買う
+> CONTEXT: Map002/events/4/pages/1/3/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ラーミル様にはお会いできましたか？
+> CONTEXT: Map002/events/4/pages/1/61/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふっ、欲しければまたお越しくださいね♪
+> CONTEXT: Map002/events/4/pages/1/72/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
 どれが欲しい？
 > CONTEXT: Map002/events/5/pages/0/17/Dialogue < UNTRANSLATED
 > CONTEXT: Map002/events/5/pages/0/129/Dialogue < UNTRANSLATED
@@ -263,6 +310,10 @@ Spirit rune
 > BEGIN STRING
 最初へ
 > CONTEXT: Map002/events/5/pages/0/265/Choice/3 < UNTRANSLATED
+> CONTEXT: Commonevents/102/190/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/102/190/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/102/381/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/102/381/Choice/2 < UNTRANSLATED
 
 > END STRING
 

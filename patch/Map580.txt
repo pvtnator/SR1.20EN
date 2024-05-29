@@ -1,0 +1,284 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+人の気配がしない。
+どうやら空き家のようだ。
+> CONTEXT: Map580/events/1/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map580/events/8/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あぁ君か、縁があってこちらで店を出すことにしたんだ。
+> CONTEXT: Map580/events/2/pages/1/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あぁ君か、いらっしゃい。何か必要かね？
+> CONTEXT: Map159/events/10/pages/0/14/Dialogue
+> CONTEXT: Map580/events/2/pages/1/7/Dialogue
+> CONTEXT: Map158/events/30/pages/0/14/Dialogue
+\\name[\\v[2]]\\_
+Oh you, you're welcome. Do you need anything?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+良ければまた来てくれ。
+君のようなルーンを必要とするような子がいると、
+私も研究に精が出るんでな。
+> CONTEXT: Map159/events/10/pages/0/24/Dialogue
+> CONTEXT: Map580/events/2/pages/1/17/Dialogue
+> CONTEXT: Map158/events/30/pages/0/24/Dialogue
+\\name[\\v[2]]\\_
+Please come again if you like.
+When there's someone like you who needs runes, 
+I also work hard at research.
+> END STRING
+
+> BEGIN STRING
+"使い魔"
+> CONTEXT: Map406/events/6/pages/0/0/InlineScript/1:22
+> CONTEXT: Map362/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Map362/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map362/events/4/pages/0/17/InlineScript/1:22
+> CONTEXT: Map362/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Map362/events/7/pages/0/0/InlineScript/1:22
+> CONTEXT: Map272/events/189/pages/0/0/InlineScript/1:22
+> CONTEXT: Map159/events/27/pages/0/0/InlineScript/1:22
+> CONTEXT: Map580/events/4/pages/1/0/InlineScript/1:22
+> CONTEXT: Map272/events/221/pages/0/1/InlineScript/1:22
+> CONTEXT: Map158/events/31/pages/0/0/InlineScript/1:22
+"Familiar"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おス。何か食材買っていきます？
+> CONTEXT: Map362/events/7/pages/0/1/Dialogue
+> CONTEXT: Map159/events/27/pages/0/1/Dialogue
+> CONTEXT: Map580/events/4/pages/1/1/Dialogue
+> CONTEXT: Map158/events/31/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Oh, do you want to buy some ingredients?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+クッキングは使ってます？
+> CONTEXT: Map159/events/27/pages/0/9/Dialogue
+> CONTEXT: Map580/events/4/pages/1/9/Dialogue
+> CONTEXT: Map158/events/31/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+Do you use cooking?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+仲間の精の献上でＶＰがなんとかならないって思ったら、
+クッキングでＶＰを回復するのがお手軽ですよ。
+トッピングで追加効果を付けることも出来ますし。
+> CONTEXT: Map159/events/27/pages/0/11/Dialogue
+> CONTEXT: Map580/events/4/pages/1/11/Dialogue
+> CONTEXT: Map158/events/31/pages/0/11/Dialogue
+\\name[\\v[2]]\\_
+If you feel like you don't have enough VP to offer semen 
+to your friends, it's easy to recover VP by cooking.
+You can also add additional effects with toppings.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+契約者の方がウェイクアップを飲むのも手ですけれど、
+あれは取っときたいアイテムでしょうし、緊急用にしたい\\_
+ですね。
+> CONTEXT: Map159/events/27/pages/0/15/Dialogue
+> CONTEXT: Map580/events/4/pages/1/15/Dialogue
+> CONTEXT: Map158/events/31/pages/0/15/Dialogue
+\\name[\\v[2]]\\_
+Alternatively, a contractor could use a Wake Up, 
+but you'll probably want to save that for emergencies.
+> END STRING
+
+> BEGIN STRING
+"露出狂"
+> CONTEXT: Map580/events/18/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふっ……\\H
+あなたもこの解放感、味わってみない？
+病みつきになっちゃうよ\\H
+> CONTEXT: Map580/events/18/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……なぁんだ、アナタも露出仲間だったんだ\\H
+『服を脱ぐ・服を着る』があれば
+どこでも服が脱げるんだもの
+> CONTEXT: Map580/events/18/pages/0/8/Dialogue < UNTRANSLATED
+> CONTEXT: Map580/events/18/pages/0/47/Dialogue < UNTRANSLATED
+> CONTEXT: Map580/events/18/pages/0/86/Dialogue < UNTRANSLATED
+> CONTEXT: Map580/events/18/pages/0/125/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それがあればいつでも……
+どこでだって服が脱げるよ\\H
+この解放感、ぜひ味わってみてね\\H
+> CONTEXT: Map580/events/18/pages/0/20/Dialogue < UNTRANSLATED
+> CONTEXT: Map580/events/18/pages/0/59/Dialogue < UNTRANSLATED
+> CONTEXT: Map580/events/18/pages/0/98/Dialogue < UNTRANSLATED
+> CONTEXT: Map580/events/18/pages/0/137/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+…なぁんだ、アナタもヘンタイ仲間だったんだ\\H
+『発情エキス』があれば
+空腹の仲間夢魔とエッチできるからね
+> CONTEXT: Map580/events/18/pages/0/27/Dialogue < UNTRANSLATED
+> CONTEXT: Map580/events/18/pages/0/66/Dialogue < UNTRANSLATED
+> CONTEXT: Map580/events/18/pages/0/105/Dialogue < UNTRANSLATED
+> CONTEXT: Map580/events/18/pages/0/144/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それがあれば空腹の夢魔といつでも……\\H
+空腹の仲間に是非使ってみてね\\H
+> CONTEXT: Map580/events/18/pages/0/39/Dialogue < UNTRANSLATED
+> CONTEXT: Map580/events/18/pages/0/78/Dialogue < UNTRANSLATED
+> CONTEXT: Map580/events/18/pages/0/117/Dialogue < UNTRANSLATED
+> CONTEXT: Map580/events/18/pages/0/156/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+キミもヤるねぇ……\\H
+> CONTEXT: Map580/events/18/pages/0/163/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やあやあ、おねーさん。
+噂は聞いてますよ。
+たくさんの夢魔と契約してるって
+> CONTEXT: Map580/events/40/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map580/events/40/pages/0/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やあやあ、お兄さん。
+噂は聞いてますよ。
+たくさんの夢魔と契約してるって
+> CONTEXT: Map580/events/40/pages/0/15/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そろそろ今のホームじゃ手狭じゃないですか
+よければいい家を紹介しますよ？
+> CONTEXT: Map580/events/40/pages/0/23/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+新築、地下・庭付きで2000Lps
+どうです？お買い得でしょ？
+> CONTEXT: Map580/events/40/pages/0/26/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+お金で払う
+> CONTEXT: Map580/events/40/pages/0/30/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+体で払う
+> CONTEXT: Map580/events/40/pages/0/30/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おねーさん、お金が足りないよ。
+> CONTEXT: Map580/events/40/pages/0/36/Dialogue < UNTRANSLATED
+> CONTEXT: Map580/events/40/pages/0/41/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お兄さん、お金が足りないよ。
+> CONTEXT: Map580/events/40/pages/0/45/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おねーさん、いい買い物をしたね。
+場所はここから西に行った場所だよ。
+> CONTEXT: Map580/events/40/pages/0/56/Dialogue < UNTRANSLATED
+> CONTEXT: Map580/events/40/pages/0/62/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お兄さん、いい買い物をしたね。
+場所はここから西に行った場所だよ。
+> CONTEXT: Map580/events/40/pages/0/67/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+う～ん、魅力的な提案だけど
+商売だからさすがにそれはね。
+> CONTEXT: Map580/events/40/pages/0/88/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そう、残念。
+僕はしばらくここにいるから気が変わったらまた来てね
+> CONTEXT: Map580/events/40/pages/0/94/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やあ、おねーさん。
+いろいろそろってるよ。
+> CONTEXT: Map580/events/40/pages/1/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map580/events/40/pages/1/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やあ、お兄さん。
+いろいろそろってるよ。
+> CONTEXT: Map580/events/40/pages/1/13/Dialogue < UNTRANSLATED
+
+> END STRING
