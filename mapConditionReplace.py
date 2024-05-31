@@ -15,9 +15,16 @@ def replace_strings_in_files(folder_path, mod_path, replace_dict):
                 if replacement:
                     diff = len(part)-len(replace_dict[part])
                     replacement += " ".encode('utf-8')*diff
-                    print(replacement.decode('utf-8'))
+                    print(filename)
                     replaced = True
                     content = content.replace(part, replacement)
+
+            newContent = content.replace("ギルゴーン".encode(), "Gilgorn".encode())
+            newContent = newContent.replace("ロウラット".encode(), "Lauratt".encode())
+            if newContent != content:
+                content = newContent
+                replaced = True
+                print("special case: "+filename)
                 
             if replaced:
                 with open(os.path.join(mod_path, filename), 'wb') as modified_file:
