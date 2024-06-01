@@ -1,6 +1,7 @@
 import os
 import re
 import time
+import sys
 from pathlib import Path
 
 def extract_strings(folder_path, output_file, update={}):
@@ -126,24 +127,28 @@ def apply_translations(folder_path, apply_path, regexes, translations, mustinclu
             target_path.mkdir(parents=True, exist_ok=True)
         elif mustinclude in file.name and ".rb" in file.name:
             #file_path = Path.join(root, file)
-            with file.open(encoding='utf-8') as f:
+            with file.open(encoding='utf-8', errors='surrogateescape') as f:
                 content = f.read()
 
             context = relative.as_posix()
             if context in translations:
                 pattern = re.compile("|".join(key for key in sorted(regexes[context], key=len, reverse=True)))
                 content = pattern.sub(lambda match: translations[context][match.group(0)], content)
-            content = glpattern.sub(lambda match: translations["global"][match.group(0)], content)
+            if translations["global"]:
+                content = glpattern.sub(lambda match: translations["global"][match.group(0)], content)
 
-            with target_path.open(mode='w', encoding='utf-8') as outfile:
+            with target_path.open(mode='w', encoding='utf-8', errors='surrogateescape') as outfile:
                 outfile.write(content)
 
 if __name__ == "__main__":
     current_dir = Path.cwd()
+    mode = sys.argv[1]
+    source = sys.argv[2] if len(sys.argv)>2 else "talk"
+    dest = sys.argv[3] if len(sys.argv)>3 else "Mod_talk"
     translated_dir = current_dir.parent / Path().resolve().name.replace("patch","translated")
-    talk_dir = translated_dir / "System" / "talk"
-    modtalk_dir = translated_dir / "Mod" / "Mod_Talk"
-    translations_file = "characters.txt"
+    talk_dir = translated_dir / "System" / source
+    modtalk_dir = translated_dir / "Mod" / dest
+    translations_file = source+".txt"
     translations = {"global": {}}
     regexes = {"global": []}
     print(talk_dir)
@@ -168,8 +173,13 @@ if __name__ == "__main__":
                     if not c in translations:
                         translations[c] = {}
                         regexes[c] = []
-                    regexes[c].append(re.escape(string))
-                    translations[c][string] = lines[i].strip()
+                    if source == "mod_scripts":
+                        string = '"'+string+'"'
+                        regexes[c].append(re.escape(string))
+                        translations[c][string] = '"'+lines[i].strip()+'"'
+                    else:
+                        regexes[c].append(re.escape(string))
+                        translations[c][string] = lines[i].strip()
                     #print(string)
                     #print(r'"「{0,}('+re.escape(string)+r')」{0,}"')
             i += 2
@@ -177,7 +187,6 @@ if __name__ == "__main__":
             i += 1
 
     #print(translations["global"])
-    mode = "extract"
     print("Mode: "+mode+"\nThis might take a minute")
     if mode == "extract":
         extract_strings(talk_dir, translations_file, translations)
