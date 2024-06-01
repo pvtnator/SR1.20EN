@@ -1601,6 +1601,10 @@
 > CONTEXT: Map034/events/419/pages/0/12/InlineScript/3:6
 > CONTEXT: Map034/events/466/pages/0/12/InlineScript/3:6
 > CONTEXT: Map034/events/468/pages/0/12/InlineScript/3:6
+> CONTEXT: Map034/events/78/pages/0/12/InlineScript/3:6
+> CONTEXT: Map034/events/80/pages/0/12/InlineScript/3:6
+> CONTEXT: Map034/events/81/pages/0/12/InlineScript/3:6
+> CONTEXT: Map034/events/88/pages/0/12/InlineScript/3:6
 "Focused"
 > END STRING
 
@@ -1939,6 +1943,7 @@
 > CONTEXT: Map034/events/124/pages/0/12/InlineScript/3:6
 > CONTEXT: Map034/events/337/pages/0/12/InlineScript/3:6
 > CONTEXT: Map034/events/452/pages/0/12/InlineScript/3:6
+> CONTEXT: Map034/events/91/pages/0/12/InlineScript/3:6
 "Obedient"
 > END STRING
 
@@ -2108,6 +2113,7 @@
 > CONTEXT: Map034/events/154/pages/0/12/InlineScript/3:6
 > CONTEXT: Map034/events/444/pages/0/12/InlineScript/3:6
 > CONTEXT: Map034/events/445/pages/0/12/InlineScript/3:6
+> CONTEXT: Map034/events/79/pages/0/12/InlineScript/3:6
 "Spoiled"
 > END STRING
 
@@ -2494,18 +2500,18 @@
 
 > BEGIN STRING
 "夢魔脱衣"
-> CONTEXT: Scripts/RPG::Statetext/41:57 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Statetext/58:56 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/674:25 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/65:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/756:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/160:16 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/209:27 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/261:25 < UNTRANSLATED
-> CONTEXT: Scripts/口上メソッド（基本）(2)/3101:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/753:10 < UNTRANSLATED
-> CONTEXT: Commonevents/102/258/InlineScript/2:12 < UNTRANSLATED
-> CONTEXT: Commonevents/102/433/InlineScript/2:12 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Statetext/41:57
+> CONTEXT: Scripts/RPG::Statetext/58:56
+> CONTEXT: Scripts/Talk_Sys Base/674:25
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/65:10
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/756:10
+> CONTEXT: Scripts/Talk_Sys Talk/160:16
+> CONTEXT: Scripts/Talk_Sys Talk/209:27
+> CONTEXT: Scripts/Talk_Sys Talk/261:25
+> CONTEXT: Scripts/口上メソッド（基本）(2)/3101:10
+> CONTEXT: Scripts/Talk_Sys Talk/753:10
+> CONTEXT: Commonevents/102/258/InlineScript/2:12
+> CONTEXT: Commonevents/102/433/InlineScript/2:12
 "Succubus undress"
 > END STRING
 
@@ -6239,13 +6245,13 @@
 
 > BEGIN STRING
 "自制心"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/405:17 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/405:17
 "Self-control"
 > END STRING
 
 > BEGIN STRING
 "欲情になるとＶＰを５０消費し、精神力を上げて欲情を回復する。"
-> CONTEXT: Scripts/RPG::Ability（素質・設定用）/406:24 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::Ability（素質・設定用）/406:24
 "When inflicted, cure lust and increase spirit for 50 VP."
 > END STRING
 
@@ -6938,7 +6944,7 @@
 
 > BEGIN STRING
 "\#{myname}の精が限界を超えて絞られる！"
-> CONTEXT: Scripts/Game_Battler Textmake/129:18 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Battler Textmake/129:18
 "\#{myname}'s semen will be squeezed beyond limits!"
 > END STRING
 
@@ -6956,7 +6962,7 @@
 
 > BEGIN STRING
 "\#{myname}に快感を与えられない！"
-> CONTEXT: Scripts/Game_Battler Textmake/133:18 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Battler Textmake/133:18
 "\#{myname} can't take any pleasure!"
 > END STRING
 
@@ -7091,8 +7097,8 @@
 
 > BEGIN STRING
 "しかし今は効果が無かった！"
-> CONTEXT: Scripts/Game_Battler Textmake/218:14 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler Textmake/222:14 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Battler Textmake/218:14
+> CONTEXT: Scripts/Game_Battler Textmake/222:14
 "But now it didn't work!"
 > END STRING
 
@@ -7147,7 +7153,7 @@
 
 > BEGIN STRING
 "\#{myname}は思わせぶりに微笑んだ……！"
-> CONTEXT: Scripts/Game_Battler Textmake/248:14 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Battler Textmake/248:14
 "\#{myname} smiled flirtatiously...!"
 > END STRING
 
@@ -7189,7 +7195,7 @@
 
 > BEGIN STRING
 "\#{myname}は喜んでいるようだ……！"
-> CONTEXT: Scripts/Game_Battler Textmake/269:14 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Battler Textmake/269:14
 "\#{myname} seems happy...!"
 > END STRING
 
@@ -7864,7 +7870,7 @@
 
 > BEGIN STRING
 "おにーちゃん"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/212:32 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/212:32
 "Onii-chan"
 > END STRING
 
@@ -7886,16 +7892,16 @@
 
 > BEGIN STRING
 "主人公名"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/217:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/248:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/277:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/378:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/968:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1020:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1138:30 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1162:30 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/1525:16 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/1557:16 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/217:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/248:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/277:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/378:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/968:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1020:30
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1138:30
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/1162:30
+> CONTEXT: Scripts/Game_Battler 1/1525:16
+> CONTEXT: Scripts/Game_Battler 1/1557:16
 "主人公名"
 > END STRING
 
@@ -8042,8 +8048,8 @@
 
 > BEGIN STRING
 "おにいさん"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/473:32 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/777:32 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/473:32
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/777:32
 "Onii-san"
 > END STRING
 
@@ -8181,7 +8187,7 @@
 
 > BEGIN STRING
 "にーちゃん"
-> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/663:32 < UNTRANSLATED
+> CONTEXT: Scripts/RPG::SDB（種族値・設定用）/663:32
 "Nee-chan"
 > END STRING
 
@@ -8843,7 +8849,7 @@
 
 > BEGIN STRING
 "自制のロザリオ"
-> CONTEXT: Scripts/Game_Battler 2/1016:44 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Battler 2/1016:44
 "Restraint Rosary"
 > END STRING
 
@@ -8978,33 +8984,33 @@
 
 > BEGIN STRING
 "口挿入"
-> CONTEXT: Scripts/HoldPop_Sprite/48:10 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/622:70 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/627:68 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/632:76 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/644:80 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/655:79 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/656:79 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/200:44 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/201:42 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/203:42 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/204:44 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/244:43 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/245:43 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/262:47 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/263:43 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/461:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/484:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/512:18 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/519:18 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/527:18 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1046:80 < UNTRANSLATED
-> CONTEXT: Scripts/SR_Util other/281:24 < UNTRANSLATED
-> CONTEXT: Scripts/口上メソッド（基本）(2)/3110:12 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/605:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/608:67 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/611:67 < UNTRANSLATED
-> CONTEXT: Commonevents/102/195/InlineScript/5:8 < UNTRANSLATED
+> CONTEXT: Scripts/HoldPop_Sprite/48:10
+> CONTEXT: Scripts/Game_Battler 1/622:70
+> CONTEXT: Scripts/Game_Battler 1/627:68
+> CONTEXT: Scripts/Game_Battler 1/632:76
+> CONTEXT: Scripts/Game_Battler 1/644:80
+> CONTEXT: Scripts/Game_Battler 1/655:79
+> CONTEXT: Scripts/Game_Battler 1/656:79
+> CONTEXT: Scripts/Game_BattlerHold/200:44
+> CONTEXT: Scripts/Game_BattlerHold/201:42
+> CONTEXT: Scripts/Game_BattlerHold/203:42
+> CONTEXT: Scripts/Game_BattlerHold/204:44
+> CONTEXT: Scripts/Game_BattlerHold/244:43
+> CONTEXT: Scripts/Game_BattlerHold/245:43
+> CONTEXT: Scripts/Game_BattlerHold/262:47
+> CONTEXT: Scripts/Game_BattlerHold/263:43
+> CONTEXT: Scripts/Scene_Battle HoldEffect/461:12
+> CONTEXT: Scripts/Scene_Battle HoldEffect/484:12
+> CONTEXT: Scripts/Scene_Battle HoldEffect/512:18
+> CONTEXT: Scripts/Scene_Battle HoldEffect/519:18
+> CONTEXT: Scripts/Scene_Battle HoldEffect/527:18
+> CONTEXT: Scripts/Scene_Battle RandomAction/1046:80
+> CONTEXT: Scripts/SR_Util other/281:24
+> CONTEXT: Scripts/口上メソッド（基本）(2)/3110:12
+> CONTEXT: Scripts/Talk_Sys Talk/605:10
+> CONTEXT: Scripts/Talk_Sys Talk/608:67
+> CONTEXT: Scripts/Talk_Sys Talk/611:67
+> CONTEXT: Commonevents/102/195/InlineScript/5:8
 "mouth insert"
 > END STRING
 
@@ -9080,25 +9086,25 @@
 
 > BEGIN STRING
 "インモラルビュー"
-> CONTEXT: Scripts/HoldPop_Sprite/55:19 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/220:10 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/97:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/351:12 < UNTRANSLATED
-> CONTEXT: Scripts/RPG::Skilltext/301:12 < UNTRANSLATED
+> CONTEXT: Scripts/HoldPop_Sprite/55:19
+> CONTEXT: Scripts/Game_BattlerHold/220:10
+> CONTEXT: Scripts/Scene_Battle Resist/97:12
+> CONTEXT: Scripts/Scene_Battle HoldEffect/351:12
+> CONTEXT: Scripts/RPG::Skilltext/301:12
 "Immoral view"
 > END STRING
 
 > BEGIN STRING
 "拘束"
-> CONTEXT: Scripts/HoldPop_Sprite/56:10 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/851:70 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/856:70 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/224:43 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/225:43 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/268:47 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/269:42 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/505:12 < UNTRANSLATED
-> CONTEXT: Scripts/SR_Util other/293:24 < UNTRANSLATED
+> CONTEXT: Scripts/HoldPop_Sprite/56:10
+> CONTEXT: Scripts/Game_Battler 1/851:70
+> CONTEXT: Scripts/Game_Battler 1/856:70
+> CONTEXT: Scripts/Game_BattlerHold/224:43
+> CONTEXT: Scripts/Game_BattlerHold/225:43
+> CONTEXT: Scripts/Game_BattlerHold/268:47
+> CONTEXT: Scripts/Game_BattlerHold/269:42
+> CONTEXT: Scripts/Scene_Battle HoldEffect/505:12
+> CONTEXT: Scripts/SR_Util other/293:24
 "Restraint"
 > END STRING
 
@@ -9120,10 +9126,10 @@
 
 > BEGIN STRING
 "エキシビジョン"
-> CONTEXT: Scripts/HoldPop_Sprite/59:19 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/226:10 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/101:12 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle HoldEffect/363:12 < UNTRANSLATED
+> CONTEXT: Scripts/HoldPop_Sprite/59:19
+> CONTEXT: Scripts/Game_BattlerHold/226:10
+> CONTEXT: Scripts/Scene_Battle Resist/101:12
+> CONTEXT: Scripts/Scene_Battle HoldEffect/363:12
 "Exhibition"
 > END STRING
 
@@ -9192,19 +9198,19 @@
 
 > BEGIN STRING
 "ディルド口挿入"
-> CONTEXT: Scripts/HoldPop_Sprite/64:10 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/637:70 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/650:73 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/657:81 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle PluralAttack/103:41 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle PluralAttack/106:41 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/253:42 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/254:45 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/122:24 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/314:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1279:23 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1422:27 < UNTRANSLATED
-> CONTEXT: Scripts/SR_Util other/313:24 < UNTRANSLATED
+> CONTEXT: Scripts/HoldPop_Sprite/64:10
+> CONTEXT: Scripts/Game_Battler 1/637:70
+> CONTEXT: Scripts/Game_Battler 1/650:73
+> CONTEXT: Scripts/Game_Battler 1/657:81
+> CONTEXT: Scripts/Scene_Battle PluralAttack/103:41
+> CONTEXT: Scripts/Scene_Battle PluralAttack/106:41
+> CONTEXT: Scripts/Game_BattlerHold/253:42
+> CONTEXT: Scripts/Game_BattlerHold/254:45
+> CONTEXT: Scripts/Scene_Battle Resist/122:24
+> CONTEXT: Scripts/Scene_Battle RandomAction/314:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/1279:23
+> CONTEXT: Scripts/Scene_Battle RandomAction/1422:27
+> CONTEXT: Scripts/SR_Util other/313:24
 "Dildo mouth insert"
 > END STRING
 
@@ -9221,18 +9227,18 @@
 
 > BEGIN STRING
 "ディルド尻挿入"
-> CONTEXT: Scripts/HoldPop_Sprite/66:10 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/691:72 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/703:71 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/710:79 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle PluralAttack/66:41 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/256:44 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/257:44 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/124:24 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/316:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1282:23 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1425:27 < UNTRANSLATED
-> CONTEXT: Scripts/SR_Util other/316:24 < UNTRANSLATED
+> CONTEXT: Scripts/HoldPop_Sprite/66:10
+> CONTEXT: Scripts/Game_Battler 1/691:72
+> CONTEXT: Scripts/Game_Battler 1/703:71
+> CONTEXT: Scripts/Game_Battler 1/710:79
+> CONTEXT: Scripts/Scene_Battle PluralAttack/66:41
+> CONTEXT: Scripts/Game_BattlerHold/256:44
+> CONTEXT: Scripts/Game_BattlerHold/257:44
+> CONTEXT: Scripts/Scene_Battle Resist/124:24
+> CONTEXT: Scripts/Scene_Battle RandomAction/316:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/1282:23
+> CONTEXT: Scripts/Scene_Battle RandomAction/1425:27
+> CONTEXT: Scripts/SR_Util other/316:24
 "Dildo ass insert"
 > END STRING
 
@@ -9291,13 +9297,13 @@
 
 > BEGIN STRING
 "触手吸引"
-> CONTEXT: Scripts/HoldPop_Sprite/72:10 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/893:78 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Battler 1/898:71 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/280:47 < UNTRANSLATED
-> CONTEXT: Scripts/Game_BattlerHold/281:43 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/134:24 < UNTRANSLATED
-> CONTEXT: Scripts/SR_Util other/319:24 < UNTRANSLATED
+> CONTEXT: Scripts/HoldPop_Sprite/72:10
+> CONTEXT: Scripts/Game_Battler 1/893:78
+> CONTEXT: Scripts/Game_Battler 1/898:71
+> CONTEXT: Scripts/Game_BattlerHold/280:47
+> CONTEXT: Scripts/Game_BattlerHold/281:43
+> CONTEXT: Scripts/Scene_Battle Resist/134:24
+> CONTEXT: Scripts/SR_Util other/319:24
 "Tentacle suction"
 > END STRING
 
@@ -10546,7 +10552,7 @@
 
 > BEGIN STRING
 "明晰の手鏡"
-> CONTEXT: Scripts/Game_Battler 4/517:48 < UNTRANSLATED
+> CONTEXT: Scripts/Game_Battler 4/517:48
 "Clarity Mirror"
 > END STRING
 
@@ -13631,7 +13637,7 @@
 
 > BEGIN STRING
 "レックレス"
-> CONTEXT: Scripts/Arrow_Enemy/24:19 < UNTRANSLATED
+> CONTEXT: Scripts/Arrow_Enemy/24:19
 "Reckless"
 > END STRING
 
@@ -15081,17 +15087,17 @@
 
 > BEGIN STRING
 "口挿入：口側"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/62:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle PluralAttack/109:25 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle Resist/90:24 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/274:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1211:23 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1392:27 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/269:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/610:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/886:14 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/925:12 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/116:27 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/62:14
+> CONTEXT: Scripts/Scene_Battle PluralAttack/109:25
+> CONTEXT: Scripts/Scene_Battle Resist/90:24
+> CONTEXT: Scripts/Scene_Battle RandomAction/274:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/1211:23
+> CONTEXT: Scripts/Scene_Battle RandomAction/1392:27
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/269:14
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/610:14
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/886:14
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/925:12
+> CONTEXT: Scripts/Talk_Sys Talk/116:27
 "mouth insert: mouth side"
 > END STRING
 
@@ -15122,11 +15128,11 @@
 
 > BEGIN STRING
 "尻尾尻挿入"
-> CONTEXT: Scripts/Scene_Battle PluralAttack/66:25 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle PluralAttack/106:25 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/310:14 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1257:23 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1405:27 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle PluralAttack/66:25
+> CONTEXT: Scripts/Scene_Battle PluralAttack/106:25
+> CONTEXT: Scripts/Scene_Battle RandomAction/310:14
+> CONTEXT: Scripts/Scene_Battle RandomAction/1257:23
+> CONTEXT: Scripts/Scene_Battle RandomAction/1405:27
 "Tail ass insert"
 > END STRING
 
@@ -16162,7 +16168,7 @@
 
 > BEGIN STRING
 "手作りミサンガ"
-> CONTEXT: Scripts/Scene_Battle 2/571:27 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 2/571:27
 "Friendship Bracelet"
 > END STRING
 
@@ -16186,7 +16192,7 @@
 
 > BEGIN STRING
 "友好のメダル"
-> CONTEXT: Scripts/Scene_Battle 2/732:33 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle 2/732:33
 "Friendship Medal"
 > END STRING
 
@@ -22645,8 +22651,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "触手♂吸引"
-> CONTEXT: Scripts/Scene_Battle RandomAction/1285:23 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1441:27 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/1285:23
+> CONTEXT: Scripts/Scene_Battle RandomAction/1441:27
 "Tentacle ♂ Suction"
 > END STRING
 
@@ -22658,8 +22664,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "触手♀吸引"
-> CONTEXT: Scripts/Scene_Battle RandomAction/1288:23 < UNTRANSLATED
-> CONTEXT: Scripts/Scene_Battle RandomAction/1444:27 < UNTRANSLATED
+> CONTEXT: Scripts/Scene_Battle RandomAction/1288:23
+> CONTEXT: Scripts/Scene_Battle RandomAction/1444:27
 "Tentacle ♀ Suction"
 > END STRING
 
@@ -30594,12 +30600,12 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "ランクアップ"
-> CONTEXT: Scripts/Talk_Sys Base/215:15 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Base/278:15 < UNTRANSLATED
-> CONTEXT: Commonevents/17/55/InlineScript/4:12 < UNTRANSLATED
-> CONTEXT: Commonevents/17/73/InlineScript/4:12 < UNTRANSLATED
-> CONTEXT: Commonevents/17/134/InlineScript/4:12 < UNTRANSLATED
-> CONTEXT: Commonevents/17/143/InlineScript/4:12 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Base/215:15
+> CONTEXT: Scripts/Talk_Sys Base/278:15
+> CONTEXT: Commonevents/17/55/InlineScript/4:12
+> CONTEXT: Commonevents/17/73/InlineScript/4:12
+> CONTEXT: Commonevents/17/134/InlineScript/4:12
+> CONTEXT: Commonevents/17/143/InlineScript/4:12
 "Rank up"
 > END STRING
 
@@ -31591,16 +31597,16 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "主人公脱衣"
-> CONTEXT: Scripts/Talk_Sys Base/674:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/45:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/744:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/140:16 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/209:12 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/261:10 < UNTRANSLATED
-> CONTEXT: Scripts/口上メソッド（基本）(2)/3097:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/729:10 < UNTRANSLATED
-> CONTEXT: Commonevents/102/387/InlineScript/2:12 < UNTRANSLATED
-> CONTEXT: Commonevents/102/437/InlineScript/2:12 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Base/674:10
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/45:10
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/744:10
+> CONTEXT: Scripts/Talk_Sys Talk/140:16
+> CONTEXT: Scripts/Talk_Sys Talk/209:12
+> CONTEXT: Scripts/Talk_Sys Talk/261:10
+> CONTEXT: Scripts/口上メソッド（基本）(2)/3097:10
+> CONTEXT: Scripts/Talk_Sys Talk/729:10
+> CONTEXT: Commonevents/102/387/InlineScript/2:12
+> CONTEXT: Commonevents/102/437/InlineScript/2:12
 "MC undress"
 > END STRING
 
@@ -31670,27 +31676,27 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "愛撫・通常"
-> CONTEXT: Scripts/Talk_Sys Base/675:7 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/364:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/841:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/115:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/119:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/123:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/127:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/130:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/163:18 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/207:12 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/219:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/234:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/276:20 < UNTRANSLATED
-> CONTEXT: Scripts/口上メソッド（基本）(2)/3041:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/430:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/438:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/688:10 < UNTRANSLATED
-> CONTEXT: Commonevents/102/70/InlineScript/2:12 < UNTRANSLATED
-> CONTEXT: Commonevents/102/230/InlineScript/2:12 < UNTRANSLATED
-> CONTEXT: Commonevents/102/276/InlineScript/2:12 < UNTRANSLATED
-> CONTEXT: Commonevents/102/409/InlineScript/2:12 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Base/675:7
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/364:10
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/841:10
+> CONTEXT: Scripts/Talk_Sys Talk/115:22
+> CONTEXT: Scripts/Talk_Sys Talk/119:22
+> CONTEXT: Scripts/Talk_Sys Talk/123:22
+> CONTEXT: Scripts/Talk_Sys Talk/127:22
+> CONTEXT: Scripts/Talk_Sys Talk/130:22
+> CONTEXT: Scripts/Talk_Sys Talk/163:18
+> CONTEXT: Scripts/Talk_Sys Talk/207:12
+> CONTEXT: Scripts/Talk_Sys Talk/219:10
+> CONTEXT: Scripts/Talk_Sys Talk/234:10
+> CONTEXT: Scripts/Talk_Sys Talk/276:20
+> CONTEXT: Scripts/口上メソッド（基本）(2)/3041:10
+> CONTEXT: Scripts/Talk_Sys Talk/430:10
+> CONTEXT: Scripts/Talk_Sys Talk/438:24
+> CONTEXT: Scripts/Talk_Sys Talk/688:10
+> CONTEXT: Commonevents/102/70/InlineScript/2:12
+> CONTEXT: Commonevents/102/230/InlineScript/2:12
+> CONTEXT: Commonevents/102/276/InlineScript/2:12
+> CONTEXT: Commonevents/102/409/InlineScript/2:12
 "Caress-normal"
 > END STRING
 
@@ -31702,19 +31708,19 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "愛撫・性交"
-> CONTEXT: Scripts/Talk_Sys Base/675:15 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/203:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/900:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/106:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/207:20 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/219:18 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/234:18 < UNTRANSLATED
-> CONTEXT: Scripts/口上メソッド（基本）(2)/3052:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/430:18 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/442:27 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/457:27 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/471:10 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/688:18 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Base/675:15
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/203:10
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/900:10
+> CONTEXT: Scripts/Talk_Sys Talk/106:20
+> CONTEXT: Scripts/Talk_Sys Talk/207:20
+> CONTEXT: Scripts/Talk_Sys Talk/219:18
+> CONTEXT: Scripts/Talk_Sys Talk/234:18
+> CONTEXT: Scripts/口上メソッド（基本）(2)/3052:10
+> CONTEXT: Scripts/Talk_Sys Talk/430:18
+> CONTEXT: Scripts/Talk_Sys Talk/442:27
+> CONTEXT: Scripts/Talk_Sys Talk/457:27
+> CONTEXT: Scripts/Talk_Sys Talk/471:10
+> CONTEXT: Scripts/Talk_Sys Talk/688:18
 "Caress-intercourse"
 > END STRING
 
@@ -31804,9 +31810,9 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "夢魔恍惚中"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/36:12 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/22:22 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/33:22 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/36:12
+> CONTEXT: Scripts/Talk_Sys Talk/22:22
+> CONTEXT: Scripts/Talk_Sys Talk/33:22
 "Succubus ecstacy"
 > END STRING
 
@@ -31821,8 +31827,8 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "夢魔絶頂中"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/32:12 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/28:22 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/32:12
+> CONTEXT: Scripts/Talk_Sys Talk/28:22
 "Succubus climax"
 > END STRING
 
@@ -31837,15 +31843,15 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "夢魔暴走中"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/39:12 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/38:22 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/39:12
+> CONTEXT: Scripts/Talk_Sys Talk/38:22
 "Succubus berserk"
 > END STRING
 
 > BEGIN STRING
 "主人公クライシス"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/30:12 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/49:26 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/30:12
+> CONTEXT: Scripts/Talk_Sys Talk/49:26
 "MC crisis"
 > END STRING
 
@@ -31860,22 +31866,22 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "夢魔クライシス"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/28:12 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/78:24 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/28:12
+> CONTEXT: Scripts/Talk_Sys Talk/78:24
 "Succubus crisis"
 > END STRING
 
 > BEGIN STRING
 "試行過多"
-> CONTEXT: Scripts/Talk_Sys Text(Talk)/34:12 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/89:24 < UNTRANSLATED
-> CONTEXT: Scripts/Talk_Sys Talk/185:26 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Text(Talk)/34:12
+> CONTEXT: Scripts/Talk_Sys Talk/89:24
+> CONTEXT: Scripts/Talk_Sys Talk/185:26
 "Too many"
 > END STRING
 
 > BEGIN STRING
 "前口上"
-> CONTEXT: Scripts/Talk_Sys Talk/101:18 < UNTRANSLATED
+> CONTEXT: Scripts/Talk_Sys Talk/101:18
 "Introduction"
 > END STRING
 
@@ -32032,25 +32038,25 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "魔導の首飾り"
-> CONTEXT: Scripts/SR_Util other/756:39 < UNTRANSLATED
+> CONTEXT: Scripts/SR_Util other/756:39
 "Magic necklace"
 > END STRING
 
 > BEGIN STRING
 "フリーアクション"
-> CONTEXT: Scripts/SR_Util other/760:20 < UNTRANSLATED
+> CONTEXT: Scripts/SR_Util other/760:20
 "Free action"
 > END STRING
 
 > BEGIN STRING
 "エモーション"
-> CONTEXT: Scripts/SR_Util other/761:20 < UNTRANSLATED
+> CONTEXT: Scripts/SR_Util other/761:20
 "Emotion"
 > END STRING
 
 > BEGIN STRING
 "小休止"
-> CONTEXT: Scripts/SR_Util other/762:20 < UNTRANSLATED
+> CONTEXT: Scripts/SR_Util other/762:20
 "Break"
 > END STRING
 
