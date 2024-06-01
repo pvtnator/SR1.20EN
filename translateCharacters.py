@@ -140,7 +140,7 @@ def apply_translations(folder_path, apply_path, regexes, translations, mustinclu
 
 if __name__ == "__main__":
     current_dir = Path.cwd()
-    translated_dir = current_dir.parent / Path().resolve().name.replace("patch","mod_translated")
+    translated_dir = current_dir.parent / Path().resolve().name.replace("patch","translated")
     talk_dir = translated_dir / "System" / "talk"
     modtalk_dir = translated_dir / "Mod" / "Mod_Talk"
     translations_file = "characters.txt"
