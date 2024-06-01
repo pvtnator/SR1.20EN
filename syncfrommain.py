@@ -3,53 +3,62 @@ import re
 import time
 from pathlib import Path
 
-def sync(mod_files, update, txstrdir=0):
-    for file in mod_files:
-        lines = []
+def sync(file, update, txstrdir=0):
+    lines = []
+    try:
         with file.open(encoding='utf-8', errors='replace') as f:
             lines = f.readlines()
-    
-        with file.open('w', encoding='utf-8') as outfile:
-            i = 0
-            while i < len(lines):
-                if lines[i].strip() == "> BEGIN STRING":
-                    i += 1
-                    string = lines[i]
-                    i += 1
-                    while(lines[i][0] != ">"):
-                        string += lines[i]
-                        i += 1
-                    while(lines[i][0] == ">"):
-                        i += 1
-                    trans = update.get(string)
-                    if trans and lines[i].strip() and lines[i]!=trans:
-                        print(lines[i].strip()+" replaced by "+trans.strip())
-                        lines[i] = trans
+    except FileNotFoundError:
+        print("File not found")
+        return
 
-                    i += 2
-                else:
+    with file.open('w', encoding='utf-8') as outfile:
+        i = 0
+        while i < len(lines):
+            if lines[i].strip() == "> BEGIN STRING":
+                i += 1
+                string = lines[i]
+                i += 1
+                while(lines[i][0] != ">"):
+                    string += lines[i]
                     i += 1
-                
-            outfile.writelines(lines)
+                while(lines[i][0] == ">"):
+                    i += 1
+                trans = update.get(string)
+                old = lines[i]
+                for k in range(5):
+                    if lines[i+k][0]!=">":
+                        old+=lines[i+k]
+                    else:
+                        break
+                if trans and old!=trans:
+                    #print(string+" replaced by "+trans)
+                    lines[i] = trans
+                    i+=1
+                    while(lines[i][0] != ">"):
+                        lines[i]=""
+                        i += 1
+
+                i += 1
+            else:
+                i += 1
+            
+        outfile.writelines(lines)
 
 if __name__ == "__main__":
     current_dir = Path.cwd()
     main_dir = current_dir.parent / Path().resolve().name.replace("mod_patch","patch")
-    translations = {}
 
     main_files = [main_dir / "characters.txt"]
-    mod_files = [current_dir / "characters.txt"]
     for file in (main_dir / "patch").rglob("*.txt"):
         main_files.append(file)
-    for file in (current_dir / "patch").rglob("*.txt"):
-        if not "Unused" in str(file):
-            mod_files.append(file)
 
-    print("===Reading current translations===")
-    for translations_file in main_files:
-        print(translations_file.as_posix())
+    #print("===Reading current translations===")
+    for file in main_files:
+        translations = {}
+        print(file.as_posix())
         lines = []
-        with translations_file.open('r', encoding='utf-8') as trans_file:
+        with file.open('r', encoding='utf-8') as trans_file:
             lines = trans_file.readlines()
         i = 0
         while i < len(lines):
@@ -66,12 +75,13 @@ if __name__ == "__main__":
                     if string in translations.keys() and translations[string] != lines[i]:
                         print(translations[string].strip()+" replaced by "+lines[i].strip())
                     translations[string] = lines[i]
-                    #print(string.strip()+" = "+lines[i].strip())
-
-                i += 2
+                    i+=1
+                    while(lines[i][0] != ">"):
+                        translations[string] += lines[i]
+                        i+=1
+                i += 1
             else:
                 i += 1
 
-    print("===Updating mod translations===")
-    sync(mod_files, translations, 0)
-    sync(mod_files, translations, 1)
+        #print("===Updating mod translations===")
+        sync(current_dir / file.relative_to(main_dir), translations)
