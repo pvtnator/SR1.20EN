@@ -26,6 +26,8 @@ def sync(file, update, txstrdir=0):
                     i += 1
                 trans = update.get(string)
                 if not trans and txstrdir!=0:
+                    string = string.replace(r'\\\\H', r'\\H')
+                    string = re.sub(r'\\([a-z])', '\\1', string)
                     withquote = '"'+string.strip()+'"'+"\n"
                     #print(withquote)
                     trans = update.get(withquote)
@@ -90,9 +92,9 @@ if __name__ == "__main__":
                 i += 1
 
         #print("===Updating mod translations===")
-        if "characters" in file.as_posix():
-            sync(current_dir / "talk.txt", translations)
-        #else:
+        #if "characters" in file.as_posix():
+        #    sync(current_dir / "talk.txt", translations)
+        else:
             #sync(current_dir / file.relative_to(main_dir), translations)
-            #if "Scripts" in file.as_posix():
-            #    sync(current_dir / "mod_scripts.txt", translations, 1)
+            if "Scripts" in file.as_posix():
+                sync(current_dir / "mod_scripts.txt", translations, 1)

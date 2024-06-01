@@ -173,10 +173,9 @@ if __name__ == "__main__":
                     if not c in translations:
                         translations[c] = {}
                         regexes[c] = []
-                    if source == "mod_scripts":
-                        string = '"'+string+'"'
-                        regexes[c].append(re.escape(string))
-                        translations[c][string] = '"'+lines[i].strip()+'"'
+                    if source == "mod_scripts" and mode=="apply":
+                        regexes[c].append(re.escape('"'+string+'"'))
+                        translations[c]['"'+string+'"'] = '"'+lines[i].strip()+'"'
                     else:
                         regexes[c].append(re.escape(string))
                         translations[c][string] = lines[i].strip()
