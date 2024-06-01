@@ -3,7 +3,7 @@ import re
 import time
 from pathlib import Path
 
-def sync(files, update):
+def sync(files, update, txstrdir=0):
     for file in files:
         lines = []
         with file.open(encoding='utf-8', errors='replace') as f:
@@ -25,6 +25,19 @@ def sync(files, update):
                     if trans and lines[i]!=trans:
                         print(lines[i].strip()+" replaced by "+trans.strip())
                         lines[i] = trans
+                    else:
+                        if string[0]=='"' and txstrdir==0:
+                            noquote = string.replace('"','')
+                            trans = update.get(noquote)
+                            if trans:
+                                lines[i] = string.replace(noquote.strip(), trans.strip())
+                                print("Text to string: "+lines[i].strip())
+                        elif txstrdir!=0:
+                            withquote = '"'+string.strip()+'"'+"\n"
+                            trans = update.get(withquote)
+                            if trans:
+                                lines[i] = trans.replace('"','')
+                                print("String to text: "+lines[i].strip())
 
                     i += 2
                 else:
@@ -36,8 +49,8 @@ if __name__ == "__main__":
     current_dir = Path.cwd()
     translations = {}
 
-    main_files = [main_dir / "characters.txt"]
-    for file in (main_dir / "patch").rglob("*.txt"):
+    main_files = [current_dir / "characters.txt"]
+    for file in (current_dir / "patch").rglob("*.txt"):
         main_files.append(file)
 
     print("===Reading current translations===")
@@ -68,4 +81,5 @@ if __name__ == "__main__":
                 i += 1
 
     print("===Updating mod translations===")
-    sync(main_files, translations)
+    sync(main_files, translations, 0)
+    sync(main_files, translations, 1)
