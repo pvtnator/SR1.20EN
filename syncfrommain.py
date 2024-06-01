@@ -3,11 +3,9 @@ import re
 import time
 from pathlib import Path
 
-def sync(mod_files, update):
+def sync(mod_files, update, txstrdir=0):
     for file in mod_files:
         lines = []
-        relative = file.relative_to(folder_path)
-        context = relative.as_posix()
         with file.open(encoding='utf-8', errors='replace') as f:
             lines = f.readlines()
     
@@ -17,12 +15,15 @@ def sync(mod_files, update):
                 if lines[i].strip() == "> BEGIN STRING":
                     i += 1
                     string = lines[i]
-                    trans = update.get(string)
                     i += 1
+                    while(lines[i][0] != ">"):
+                        string += lines[i]
+                        i += 1
                     while(lines[i][0] == ">"):
                         i += 1
-                    if trans and string!=trans:
-                        print(lines[i].strip()+" replaced by "+trans.strip()
+                    trans = update.get(string)
+                    if trans and lines[i].strip() and lines[i]!=trans:
+                        print(lines[i].strip()+" replaced by "+trans.strip())
                         lines[i] = trans
 
                     i += 2
@@ -33,7 +34,7 @@ def sync(mod_files, update):
 
 if __name__ == "__main__":
     current_dir = Path.cwd()
-    main_dir = current_dir.parent / Path().resolve().name.replace("patch","mod_patch")
+    main_dir = current_dir.parent / Path().resolve().name.replace("mod_patch","patch")
     translations = {}
 
     main_files = [main_dir / "characters.txt"]
@@ -41,10 +42,12 @@ if __name__ == "__main__":
     for file in (main_dir / "patch").rglob("*.txt"):
         main_files.append(file)
     for file in (current_dir / "patch").rglob("*.txt"):
-        mod_files.append(file)
+        if not "Unused" in str(file):
+            mod_files.append(file)
 
     print("===Reading current translations===")
     for translations_file in main_files:
+        print(translations_file.as_posix())
         lines = []
         with translations_file.open('r', encoding='utf-8') as trans_file:
             lines = trans_file.readlines()
@@ -54,16 +57,21 @@ if __name__ == "__main__":
                 i += 1
                 string = lines[i]
                 i += 1
+                while(lines[i][0] != ">"):
+                    string += lines[i]
+                    i += 1
                 while(lines[i][0] == ">"):
                     i += 1
                 if lines[i].strip():
-                    if string in translations:
-                        print(translations[string]+" replaced by "+lines[i].strip()
+                    if string in translations.keys() and translations[string] != lines[i]:
+                        print(translations[string].strip()+" replaced by "+lines[i].strip())
                     translations[string] = lines[i]
+                    #print(string.strip()+" = "+lines[i].strip())
 
                 i += 2
             else:
                 i += 1
 
     print("===Updating mod translations===")
-    sync(mod_files, translations)
+    sync(mod_files, translations, 0)
+    sync(mod_files, translations, 1)
