@@ -140,8 +140,8 @@ def apply_translations(folder_path, apply_path, regexes, translations, mustinclu
 if __name__ == "__main__":
     current_dir = Path.cwd()
     mode = sys.argv[1] if len(sys.argv)>1 else "apply"
-    source = sys.argv[2] if len(sys.argv)>2 else "talk"
-    dest = sys.argv[3] if len(sys.argv)>3 else "Mod_talk"
+    source = sys.argv[2] if len(sys.argv)>2 else "mod_scripts"
+    dest = sys.argv[3] if len(sys.argv)>3 else "Mod_Scripts"
     translated_dir = current_dir.parent / Path().resolve().name.replace("patch","translated")
     talk_dir = translated_dir / "System" / source
     modtalk_dir = translated_dir / "Mod" / dest
@@ -157,7 +157,7 @@ if __name__ == "__main__":
     while i < len(lines):
         if lines[i].strip() == "> BEGIN STRING":
             i += 1
-            string = lines[i].strip()
+            string = lines[i].rstrip()
             i += 1
             contexts = []
             while(lines[i][0] == ">"):
@@ -172,10 +172,10 @@ if __name__ == "__main__":
                         regexes[c] = []
                     if source == "mod_scripts" and mode=="apply" and string[0]!='/':
                         regexes[c].append(re.escape('"'+string+'"'))
-                        translations[c]['"'+string+'"'] = '"'+lines[i].strip()+'"'
+                        translations[c]['"'+string+'"'] = '"'+lines[i].rstrip()+'"'
                     else:
                         regexes[c].append(re.escape(string))
-                        translations[c][string] = lines[i].strip()
+                        translations[c][string] = lines[i].rstrip()
                     #print(string)
                     #print(r'"「{0,}('+re.escape(string)+r')」{0,}"')
             i += 2

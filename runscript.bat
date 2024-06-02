@@ -1,0 +1,1 @@
+python ./translateCharacters.py apply mod_scripts Mod_Scripts
