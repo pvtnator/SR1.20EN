@@ -15,18 +15,16 @@ def extract_strings(folder_path, output_file, update={}):
             content = f.read()
         
         # Find all strings in the file
-        found_strings = re.findall(r'"「{0,}(.*?)」{0,}"|/.*?/', content)
+        found_strings = re.findall(r'"「{0,}(.*?)」{0,}"', content)
+        found_strings += re.findall(r'\/.*?\/', content)
         
         # Add found strings to the dictionary with their contexts
         for string in found_strings:
             if string:
-                try:
-                    string.encode("utf-8").decode("ascii")
-                except UnicodeDecodeError:
-                    if string not in strings:
-                        strings[string] = [context]
-                    elif not context in strings[string]:
-                        strings[string].append(context)
+                if string not in strings:
+                    strings[string] = [context]
+                elif not context in strings[string]:
+                    strings[string].append(context)
     
     # Write the strings and their contexts to the output file
     with open(output_file, 'w', encoding='utf-8') as outfile:
