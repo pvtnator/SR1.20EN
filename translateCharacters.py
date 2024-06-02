@@ -142,7 +142,7 @@ if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv)>1 else "apply"
     source = sys.argv[2] if len(sys.argv)>2 else "mod_scripts"
     dest = sys.argv[3] if len(sys.argv)>3 else "Mod_Scripts"
-    translated_dir = current_dir.parent / Path().resolve().name.replace("patch","translated")
+    translated_dir = Path(sys.argv[4]) if len(sys.argv)>4 else current_dir.parent / Path().resolve().name.replace("patch","translated")
     talk_dir = translated_dir / "System" / source
     modtalk_dir = translated_dir / "Mod" / dest
     translations_file = source+".txt"
