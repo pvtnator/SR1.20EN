@@ -120,7 +120,7 @@ Make some nice sounds, ok?\\H
 > BEGIN STRING
 "倒れている人"
 > CONTEXT: Map072/events/35/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+"Fallen Person"
 > END STRING
 
 > BEGIN STRING
@@ -129,14 +129,18 @@ Make some nice sounds, ok?\\H
 暴走した時に仕掛けるホールドのレジストは
 自動で成功する・・・。
 > CONTEXT: Map072/events/35/pages/0/2/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Ugh...
+The hold resist when berserked 
+is automatically successful...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 駄目だと思ったが身体が勝手に・・・。
 > CONTEXT: Map072/events/35/pages/0/6/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+I knew it was no good, but my body just kept doing it...
 > END STRING
 
 > BEGIN STRING
@@ -145,7 +149,10 @@ Make some nice sounds, ok?\\H
 暴走した時に仕掛けるホールドのレジストは
 成功するとホールドする･･･。
 > CONTEXT: Map072/events/35/pages/0/10/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Ugh...
+If the hold resist when berserked is successful, 
+it will hold...
 > END STRING
 
 > BEGIN STRING
@@ -153,20 +160,23 @@ Make some nice sounds, ok?\\H
 今はヤバイと思って必死にレジストしたら
 挿入しちまった･･･。
 > CONTEXT: Map072/events/35/pages/0/14/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+I knew it was dangerous 
+so I tried to resist but ended up inserting it...
 > END STRING
 
 > BEGIN STRING
 "獣人の剣士"
 > CONTEXT: Map072/events/81/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+"Beastman Swordsman"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 採取ポイントの中には稀に罠もあるんだ
 > CONTEXT: Map072/events/81/pages/0/1/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+There are occasionally traps in collection points
 > END STRING
 
 > BEGIN STRING
@@ -174,5 +184,8 @@ Make some nice sounds, ok?\\H
 【ダウト】の素質があれば見破ることもできるけど\\_
 見破れないと……\\n考えただけでも恐ろしいッ！
 > CONTEXT: Map072/events/81/pages/0/3/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+If you have [Doubt], you can see through it, 
+but if you can't...
+It's scary just to think about it!
 > END STRING
