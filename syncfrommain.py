@@ -26,13 +26,12 @@ def sync(file, update, txstrdir=0):
                     i += 1
                 trans = update.get(string)
                 if not trans and txstrdir!=0:
-                    string = string.replace(r'\\\\H', r'\\H')
-                    string = re.sub(r'\\([a-z])', '\\1', string)
+                    string = string.replace('\\', '\\\\')
                     withquote = '"'+string.strip()+'"'+"\n"
                     #print(withquote)
                     trans = update.get(withquote)
                     if trans:
-                        trans = trans.replace('"','')
+                        trans = trans.replace('"','').replace('\\\\', '\\')
                 old = lines[i]
                 for k in range(5):
                     if lines[i+k+1][0]!=">":

@@ -15,7 +15,7 @@ def extract_strings(folder_path, output_file, update={}):
             content = f.read()
         
         # Find all strings in the file
-        found_strings = re.findall(r'"「{0,}(.*?)」{0,}"', content)
+        found_strings = re.findall(r'"「{0,}(.*?)」{0,}"|/.*?/', content)
         
         # Add found strings to the dictionary with their contexts
         for string in found_strings:
@@ -173,7 +173,7 @@ if __name__ == "__main__":
                     if not c in translations:
                         translations[c] = {}
                         regexes[c] = []
-                    if source == "mod_scripts" and mode=="apply":
+                    if source == "mod_scripts" and mode=="apply" and string[0]!='/':
                         regexes[c].append(re.escape('"'+string+'"'))
                         translations[c]['"'+string+'"'] = '"'+lines[i].strip()+'"'
                     else:
