@@ -16379,7 +16379,7 @@ Unique Witch
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Class_ボーナス.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
-
+Unique Sister
 > END STRING
 
 > BEGIN STRING
@@ -16395,14 +16395,14 @@ Unique Lilith
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+Unique Machina
 > END STRING
 
 > BEGIN STRING
 ユニークエンジェル
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
-
+Unique Angel
 > END STRING
 
 > BEGIN STRING
@@ -16411,7 +16411,7 @@ Unique Lilith
 > CONTEXT: O_MOD_RPG_Class_ボーナス.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: O_MOD_Scene_Title_data改変.rb
-
+Unique Child
 > END STRING
 
 > BEGIN STRING
@@ -16420,7 +16420,7 @@ Unique Lilith
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Succubus species
 > END STRING
 
 > BEGIN STRING
@@ -24007,13 +24007,13 @@ An absolute queen.
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Human species
 > END STRING
 
 > BEGIN STRING
 純粋な人間種族。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+A pure human race.
 > END STRING
 
 > BEGIN STRING
@@ -24032,7 +24032,7 @@ An absolute queen.
 > BEGIN STRING
 夢魔の種族。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+A species of succubi
 > END STRING
 
 > BEGIN STRING
@@ -47759,43 +47759,43 @@ Check party members
 > BEGIN STRING
 A/Sキー切り替え
 > CONTEXT: O_MOD_Scene_Menu.rb
-
+A/S key switch
 > END STRING
 
 > BEGIN STRING
 <　道具アイテム　>
 > CONTEXT: O_MOD_Scene_Menu.rb
-
+<　Tools　>
 > END STRING
 
 > BEGIN STRING
 <　回復アイテム　>
 > CONTEXT: O_MOD_Scene_Menu.rb
-
+<　Recovery　>
 > END STRING
 
 > BEGIN STRING
 <　素材アイテム　>
 > CONTEXT: O_MOD_Scene_Menu.rb
-
+<　Materials　>
 > END STRING
 
 > BEGIN STRING
 <　　　防具　　　>
 > CONTEXT: O_MOD_Scene_Menu.rb
-
+<　　　Armor　　　>
 > END STRING
 
 > BEGIN STRING
 <　　 ルーン 　　>
 > CONTEXT: O_MOD_Scene_Menu.rb
-
+<　　　Runes　　　>
 > END STRING
 
 > BEGIN STRING
 <　 エクストラ 　>
 > CONTEXT: O_MOD_Scene_Menu.rb
-
+<　 Extra 　>
 > END STRING
 
 > BEGIN STRING
@@ -47840,7 +47840,7 @@ This item cannot be used for #{$game_actors[101].name}
 > BEGIN STRING
 #{target.name}は服を持ってない
 > CONTEXT: O_MOD_Scene_Menu_Item.rb
-
+#{target.name} has no clothes
 > END STRING
 
 > BEGIN STRING
@@ -74059,9 +74059,9 @@ To next level
 > END STRING
 
 > BEGIN STRING
-あと 
+"あと "
 > CONTEXT: P_H_MOD_Window_MenuStatus.rb
-
+""
 > END STRING
 
 > BEGIN STRING
@@ -75447,7 +75447,7 @@ Y(S)ボタンでベッド戦専用と切り替え
 > BEGIN STRING
 次のレベルまで あと 
 > CONTEXT: Window_Status.rb
-
+Next level in 
 > END STRING
 
 > BEGIN STRING
@@ -75471,61 +75471,61 @@ Engraved Runes
 > BEGIN STRING
 エクストラ
 > CONTEXT: Window_Status.rb
-
+Extra
 > END STRING
 
 > BEGIN STRING
 修行ポイント
 > CONTEXT: Window_Status.rb
-
+Training points
 > END STRING
 
 > BEGIN STRING
 忍耐
 > CONTEXT: Window_Status.rb
-
+Endurance
 > END STRING
 
 > BEGIN STRING
 ホールド差分
 > CONTEXT: Window_Status.rb
-
+Hold image
 > END STRING
 
 > BEGIN STRING
 一人称
 > CONTEXT: Window_Status.rb
-
+1st pronoun
 > END STRING
 
 > BEGIN STRING
 ニ人称
 > CONTEXT: Window_Status.rb
-
+Calls you
 > END STRING
 
 > BEGIN STRING
 ベッドイン回数
 > CONTEXT: Window_Status.rb
-
+Taken to bed
 > END STRING
 
 > BEGIN STRING
 バストサイズ
 > CONTEXT: Window_Status.rb
-
+Bust size
 > END STRING
 
 > BEGIN STRING
 大切な人伝授
 > CONTEXT: Window_Status.rb
-
+Inherent
 > END STRING
 
 > BEGIN STRING
 個性的
 > CONTEXT: Window_Status.rb
-
+Personality
 > END STRING
 
 > BEGIN STRING
@@ -75543,7 +75543,7 @@ Engraved Runes
 > BEGIN STRING
 Z(A)ボタンで切り替え
 > CONTEXT: Window_Status.rb
-
+Switch with Z(A) button
 > END STRING
 
 > BEGIN STRING
