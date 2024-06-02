@@ -114,7 +114,7 @@ def autotranslate(translations_file, lines):
             i += 1
 
 def apply_translations(folder_path, apply_path, regexes, translations, mustinclude=""):
-    glpattern = re.compile("|".join(re.escape(key) for key in sorted(regexes["global"], key=len, reverse=True)))
+    glpattern = re.compile("|".join(key for key in sorted(regexes["global"], key=len, reverse=True)))
     for file in folder_path.rglob("*"):
         relative = file.relative_to(folder_path)
         if "omake" in relative.as_posix():
@@ -134,13 +134,12 @@ def apply_translations(folder_path, apply_path, regexes, translations, mustinclu
                 content = pattern.sub(lambda match: translations[context][match.group(0)], content)
             if translations["global"]:
                 content = glpattern.sub(lambda match: translations["global"][match.group(0)], content)
-
             with target_path.open(mode='w', encoding='utf-8', errors='surrogateescape') as outfile:
                 outfile.write(content)
 
 if __name__ == "__main__":
     current_dir = Path.cwd()
-    mode = sys.argv[1]
+    mode = sys.argv[1] if len(sys.argv)>1 else "apply"
     source = sys.argv[2] if len(sys.argv)>2 else "talk"
     dest = sys.argv[3] if len(sys.argv)>3 else "Mod_talk"
     translated_dir = current_dir.parent / Path().resolve().name.replace("patch","translated")
