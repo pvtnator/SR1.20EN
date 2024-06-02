@@ -60,6 +60,9 @@ if __name__ == "__main__":
     for file in (main_dir / "patch").rglob("*.txt"):
         main_files.append(file)
 
+    #override
+    main_files = [current_dir / "patch" / "Scripts.txt"]
+
     #print("===Reading current translations===")
     for file in main_files:
         translations = {}
@@ -97,3 +100,4 @@ if __name__ == "__main__":
             #sync(current_dir / file.relative_to(main_dir), translations)
             if "Scripts" in file.as_posix():
                 sync(current_dir / "mod_scripts.txt", translations, 1)
+                sync(current_dir / "talk.txt", translations, 1)
