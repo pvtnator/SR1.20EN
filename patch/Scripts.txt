@@ -11378,7 +11378,7 @@
 /./
 > CONTEXT: Scripts/Window_BattleLog/123:29
 > CONTEXT: Scripts/Window_BattleBackLog/74:29
-/[wW][a-pr-v]|m[a-z][a-z]|[a-vA-Z ][mqw][ a-z\\!\\?\\.\\,\\:\\;\\-\\']|[a-pA-Pr-zR-Z ][my]|[yH][a-pA-Pr-zR-Z \\!\\?\\.\\,\\:\\;\\-\\']|./
+/[wW][a-pr-v]|mo|m[a-z][a-z]|[a-vA-Z ][mqw][ a-z\\!\\?\\.\\,\\:\\;\\-\\']|[a-pA-Pr-zR-Z ][my]|[yH][a-pA-Pr-zR-Z \\!\\?\\.\\,\\:\\;\\-\\']|./
 > CONTEXT: Scripts/Window_Message/95:31 < UNTRANSLATED
 > CONTEXT: Scripts/メッセージ表示フルグレードアップX /790:30 < UNTRANSLATED
 > CONTEXT: Scripts/Window_Announce/165:37 < UNTRANSLATED
@@ -15911,7 +15911,7 @@
 > BEGIN STRING
 "お前"
 > CONTEXT: Scripts/Window_Petname_Change/175:6
-"\#{$game_actors[101].name}"
+"Guy"
 > END STRING
 
 > BEGIN STRING
