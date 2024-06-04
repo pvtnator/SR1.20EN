@@ -31,16 +31,21 @@
 \\name[\\v[2]]\\_
 左はお店だな。道具屋と魔法屋がいる。
 買い物はここでやるんだね。
-> CONTEXT: Map209/events/10/pages/0/16/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/10/pages/0/16/Dialogue
+\\name[\\v[2]]\\_
+On the left are the shops. There's a tool shop and a magic shop.
+This is where you do your shopping.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 上の建物は酒場と図書館と娼館になっているのさ。
 人がいっぱい集まるから色んなことが聞けると思うよ。
-> CONTEXT: Map209/events/10/pages/0/21/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/10/pages/0/21/Dialogue
+\\name[\\v[2]]\\_
+The building above is a bar, a library, and a brothel.
+It's a place where a lot of people gather, 
+so I think you'll be able to hear a lot of things.
 > END STRING
 
 > BEGIN STRING
@@ -340,40 +345,42 @@ to the right and proceed further to the right.
 
 > BEGIN STRING
 "庭の女の子"
-> CONTEXT: Map209/events/39/pages/0/2/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map209/events/39/pages/1/2/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map209/events/39/pages/2/2/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map209/events/39/pages/3/2/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map209/events/39/pages/4/2/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map209/events/39/pages/5/2/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map209/events/39/pages/0/2/InlineScript/1:22
+> CONTEXT: Map209/events/39/pages/1/2/InlineScript/1:22
+> CONTEXT: Map209/events/39/pages/2/2/InlineScript/1:22
+> CONTEXT: Map209/events/39/pages/3/2/InlineScript/1:22
+> CONTEXT: Map209/events/39/pages/4/2/InlineScript/1:22
+> CONTEXT: Map209/events/39/pages/5/2/InlineScript/1:22
+"Garden Girl"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 シーシーシー♪
-> CONTEXT: Map209/events/39/pages/0/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map209/events/39/pages/1/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map209/events/39/pages/2/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map209/events/39/pages/3/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map209/events/39/pages/4/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map209/events/39/pages/5/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/39/pages/0/3/Dialogue
+> CONTEXT: Map209/events/39/pages/1/3/Dialogue
+> CONTEXT: Map209/events/39/pages/2/3/Dialogue
+> CONTEXT: Map209/events/39/pages/3/3/Dialogue
+> CONTEXT: Map209/events/39/pages/4/3/Dialogue
+> CONTEXT: Map209/events/39/pages/5/3/Dialogue
+\\name[\\v[2]]\\_
+*whistling*♪
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 お花をどうぞ♪
-> CONTEXT: Map209/events/39/pages/0/12/Dialogue < UNTRANSLATED
-> CONTEXT: Map209/events/39/pages/2/12/Dialogue < UNTRANSLATED
-> CONTEXT: Map209/events/39/pages/4/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/39/pages/0/12/Dialogue
+> CONTEXT: Map209/events/39/pages/2/12/Dialogue
+> CONTEXT: Map209/events/39/pages/4/12/Dialogue
+\\name[\\v[2]]\\_
+Here's some flowers♪
 > END STRING
 
 > BEGIN STRING
 ……。
-> CONTEXT: Map209/events/52/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/52/pages/0/0/Dialogue
+...
 > END STRING
 
 > BEGIN STRING
@@ -385,96 +392,111 @@ to the right and proceed further to the right.
 
 > BEGIN STRING
 鏡を調べると設定マップに行けます。
-> CONTEXT: Map209/events/56/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/56/pages/0/0/Dialogue
+Examining the mirror takes you to the setting map.
 > END STRING
 
 > BEGIN STRING
 "リセットメイド"
-> CONTEXT: Map209/events/58/pages/0/1/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map209/events/58/pages/0/1/InlineScript/1:22
+"Reset Maid"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 過去のバージョンで習得したスキルや素質などを
 現在の状態に合わせて更新します
-> CONTEXT: Map209/events/58/pages/0/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/58/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+Skills and qualities acquired in previous versions
+will be updated to match the current state.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 更新が完了しました
-> CONTEXT: Map209/events/58/pages/0/10/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/304/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/58/pages/0/10/Dialogue
+> CONTEXT: Commonevents/304/12/Dialogue
+\\name[\\v[2]]\\_
+Update completed
 > END STRING
 
 > BEGIN STRING
 夢魔の街
-> CONTEXT: Map209/events/60/pages/0/0/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Map209/events/60/pages/0/0/Choice/1
+Succubus City
 > END STRING
 
 > BEGIN STRING
 銀色の都市
-> CONTEXT: Map209/events/60/pages/0/0/Choice/2 < UNTRANSLATED
-
+> CONTEXT: Map209/events/60/pages/0/0/Choice/2
+Silver City
 > END STRING
 
 > BEGIN STRING
 "夢見る羊さん"
-> CONTEXT: Map209/events/61/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/0/0/InlineScript/1:22
+"Dream Sheep"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そこの君、ボーナス取得は使っているかな？
-> CONTEXT: Map209/events/61/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hey you, are you using the bonus acquisition?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 夢魔たちと同じように
 君自身も個性をつけれるようになったんだよ。
-> CONTEXT: Map209/events/61/pages/0/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+Just like the succubi,
+you too can now have your own personality.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 さらに名うての夢魔と契約することで
 その夢魔の力を借りることが出来るようなるんだ。
-> CONTEXT: Map209/events/61/pages/0/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+Furthermore, by making contracts with notorious succubi,
+you can borrow their power.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 スキルやステータスもがらりと変わるから
 君の好みに合ったのを師事するのもいいだろう。
-> CONTEXT: Map209/events/61/pages/0/10/Dialogue < UNTRANSLATED
-> CONTEXT: Map209/events/61/pages/0/16/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/0/10/Dialogue
+> CONTEXT: Map209/events/61/pages/0/16/Dialogue
+\\name[\\v[2]]\\_
+Your skills and stats will change dramatically, 
+so it might be a good idea to study under someone 
+who suits your tastes.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 おっと、この先はまた今度にしようか。
 まずはこの世界をよく探索することだね。
-> CONTEXT: Map209/events/61/pages/0/21/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/0/21/Dialogue
+\\name[\\v[2]]\\_
+Oh, I guess I'll leave that for another time.
+First, you need to explore this world thoroughly.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ナンダイアンタ、またユメセカイに
 迷い込んじまったのカ
-> CONTEXT: Map209/events/61/pages/1/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+What's up, 
+have you gotten lost in the dream world again?
 > END STRING
 
 > BEGIN STRING
@@ -482,23 +504,28 @@ to the right and proceed further to the right.
 またユメセカイを回るのも大変ダロ？
 特別に無料で情報を教えてやるヨ。
 キキッ！
-> CONTEXT: Map209/events/61/pages/1/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/1/4/Dialogue
+\\name[\\v[2]]\\_
+Is it hard to travel around the Dream World again?
+I'll give you some special information for free.
+Kiki!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 アヤシイところは今のところ二つだナ
-> CONTEXT: Map209/events/61/pages/1/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/1/8/Dialogue
+\\name[\\v[2]]\\_
+There are two suspicious things so far.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 一つはここから東へ行ったところに出来た
 デッカイ遊技場ダ。
-> CONTEXT: Map209/events/61/pages/1/10/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/1/10/Dialogue
+\\name[\\v[2]]\\_
+One is a big amusement park that was built east of here.
 > END STRING
 
 > BEGIN STRING
@@ -506,8 +533,10 @@ to the right and proceed further to the right.
 ナンデモ夢魔の追いかけっこをショーとして
 提供してるらしいが、オーナーは
 かなり力を持った夢魔ダ。
-> CONTEXT: Map209/events/61/pages/1/13/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/1/13/Dialogue
+\\name[\\v[2]]\\_
+It seems to be a show for all kinds of succubi, 
+but the owner is a pretty powerful succubus.
 > END STRING
 
 > BEGIN STRING
@@ -515,24 +544,29 @@ to the right and proceed further to the right.
 とはいえ、こっちは密教会とは縁遠いし
 可能性は低いガナ
 本命はもう一つのほうダ
-> CONTEXT: Map209/events/61/pages/1/17/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/1/17/Dialogue
+\\name[\\v[2]]\\_
+However, this one is far removed from the Secret Church, 
+so the chances are low. The other one is the better option.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 闇洞窟の裏手から行ける外れの地ってとこで
 怪しい奴らがウロウロしてたって話だ。
-> CONTEXT: Map209/events/61/pages/1/21/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/1/21/Dialogue
+\\name[\\v[2]]\\_
+I heard there were some suspicious people wandering around 
+in the outskirts that you can reach from behind the Dark Cave.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 なんかシスターみたいなカッコした奴が
 いたとかでキナクセーことこの上ないナ。
-> CONTEXT: Map209/events/61/pages/1/24/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/1/24/Dialogue
+\\name[\\v[2]]\\_
+I was so excited to see someone who looked like a nun.
 > END STRING
 
 > BEGIN STRING
@@ -540,9 +574,12 @@ to the right and proceed further to the right.
 情報はこんなもんダ。
 まあ、健闘を祈るゼ。
 キキッ！
-> CONTEXT: Map209/events/61/pages/1/27/Dialogue < UNTRANSLATED
-> CONTEXT: Map209/events/61/pages/3/84/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/1/27/Dialogue
+> CONTEXT: Map209/events/61/pages/3/84/Dialogue
+\\name[\\v[2]]\\_
+That's all the information I have.
+Well, I wish you the best of luck.
+Kiki!
 > END STRING
 
 > BEGIN STRING
@@ -550,8 +587,11 @@ to the right and proceed further to the right.
 俺は情報屋サ。本来なら金をとるが
 特別に無料で情報を教えてやるヨ。
 何が知りたい？キキッ！
-> CONTEXT: Map209/events/61/pages/2/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/2/1/Dialogue
+\\name[\\v[2]]\\_
+I'm an information broker. Normally I'd charge money,
+but as a special favor I'll give you the information for free.
+What do you want to know? Kiki!
 > END STRING
 
 > BEGIN STRING
@@ -1082,9 +1122,9 @@ to the right and proceed further to the right.
 
 > BEGIN STRING
 "怪しいメイド"
-> CONTEXT: Map209/events/92/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Commonevents/141/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map209/events/92/pages/0/0/InlineScript/1:22
+> CONTEXT: Commonevents/141/0/InlineScript/1:22
+"Suspicious Maid"
 > END STRING
 
 > BEGIN STRING

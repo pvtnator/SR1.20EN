@@ -56,30 +56,31 @@ you can increase the number of succubi you can contract\\c[0].
 
 > BEGIN STRING
 "支配人"
-> CONTEXT: Map524/events/3/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map524/events/3/pages/0/24/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map096/events/9/pages/0/5/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map096/events/9/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map096/events/9/pages/2/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map096/events/9/pages/3/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map096/events/9/pages/5/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map096/events/11/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map524/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Map524/events/3/pages/0/24/InlineScript/1:22
+> CONTEXT: Map096/events/9/pages/0/5/InlineScript/1:22
+> CONTEXT: Map096/events/9/pages/1/0/InlineScript/1:22
+> CONTEXT: Map096/events/9/pages/2/0/InlineScript/1:22
+> CONTEXT: Map096/events/9/pages/3/0/InlineScript/1:22
+> CONTEXT: Map096/events/9/pages/5/0/InlineScript/1:22
+> CONTEXT: Map096/events/11/pages/0/0/InlineScript/1:22
+"Manager"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 フリールームをご利用ですか？
-> CONTEXT: Map524/events/3/pages/0/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/3/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+Would you like to use the free room?
 > END STRING
 
 > BEGIN STRING
 ※注意
 フリールームから戻ってくることはできません。
 注意ください。
-> CONTEXT: Map524/events/3/pages/0/5/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/3/pages/0/5/Dialogue
+*Please note that you cannot return from the free room.
 > END STRING
 
 > BEGIN STRING
@@ -92,62 +93,75 @@ you can increase the number of succubi you can contract\\c[0].
 \\name[\\v[2]]\\_
 かしこまりました。
 では、こちらへ。
-> CONTEXT: Map524/events/3/pages/0/25/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/3/pages/0/25/Dialogue
+\\name[\\v[2]]\\_
+I understand.
+Here you go.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 いらっしゃいませ。ここはファータの娼館。
 一夜の許された、甘い一時を提供する宿。
-> CONTEXT: Map524/events/4/pages/0/5/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/4/pages/1/5/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/4/pages/2/5/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/4/pages/3/5/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/0/5/Dialogue
+> CONTEXT: Map524/events/4/pages/1/5/Dialogue
+> CONTEXT: Map524/events/4/pages/2/5/Dialogue
+> CONTEXT: Map524/events/4/pages/3/5/Dialogue
+\\name[\\v[2]]\\_
+Welcome. This is Fata's brothel.
+A lodging offering a sweet moment for one permitted night.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ご利用のお客様でしょうか？
-> CONTEXT: Map524/events/4/pages/0/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+Are you a customer?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 かしこまりました。
-> CONTEXT: Map524/events/4/pages/0/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+I understand.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 お名前をうかがってもよろしいですか？
-> CONTEXT: Map524/events/4/pages/0/14/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/0/14/Dialogue
+\\name[\\v[2]]\\_
+May I ask your name?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 \\n[101]様でございますね。
-> CONTEXT: Map524/events/4/pages/0/16/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/0/16/Dialogue
+\\name[\\v[2]]\\_
+\\nThis is [101].
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 通常であれば利用料をいただくのですが
 現在パルフィス密教会のご計らいで無料となっております。
-> CONTEXT: Map524/events/4/pages/0/18/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/4/pages/0/18/Dialogue
+\\name[\\v[2]]\\_
 
+Normally, a usage fee would be charged, but currently, 
+thanks to the arrangements of the Palfis Secret Church, 
+it is free.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 こちらが会員証となっております。
-> CONTEXT: Map524/events/4/pages/0/21/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/0/21/Dialogue
+\\name[\\v[2]]\\_
+This is your membership card.
 > END STRING
 
 > BEGIN STRING
@@ -155,206 +169,248 @@ you can increase the number of succubi you can contract\\c[0].
 ひとつ注意点ですが、
 本娼館では契約済みの夢魔の方のご利用は
 控えさせてもらっています。
-> CONTEXT: Map524/events/4/pages/0/37/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/0/37/Dialogue
+\\name[\\v[2]]\\_
+One thing to note is that this brothel 
+does not accept contracted succubus customers.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ご了承くださいませ。
-> CONTEXT: Map524/events/4/pages/0/41/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/0/41/Dialogue
+\\name[\\v[2]]\\_
+Thank you for your understanding.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 それでは、よき一夜を。
-> CONTEXT: Map524/events/4/pages/0/43/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/0/43/Dialogue
+\\name[\\v[2]]\\_
+Enjoy the night.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そうですか。興味がわきましたらまたのご来店を
-> CONTEXT: Map524/events/4/pages/0/47/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/0/47/Dialogue
+\\name[\\v[2]]\\_
+I see. If you're interested, please come visit us again.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 申し訳ございません。
 契約済みの夢魔の方のご利用はできません。
-> CONTEXT: Map524/events/4/pages/2/8/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/4/pages/4/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/2/8/Dialogue
+> CONTEXT: Map524/events/4/pages/4/9/Dialogue
+\\name[\\v[2]]\\_
+Sorry.
+This service is not available to contracted succubi users.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 申し訳ございません。
 現在は準備中のためご利用出来ません。
-> CONTEXT: Map524/events/4/pages/3/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/3/8/Dialogue
+\\name[\\v[2]]\\_
+Sorry.
+This service is currently unavailable due to preparation.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 いらっしゃいませ。ここはファータの娼館。
 一夜の許された、甘い愛と悦楽を提供する宿。
-> CONTEXT: Map524/events/4/pages/4/5/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/5/Dialogue
+\\name[\\v[2]]\\_
+Welcome. This is Fata's brothel.
+A lodging offering sweet love and pleasure for one night only.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 \\n[101]様、
 今夜はどの一夜を楽しまれますか？
-> CONTEXT: Map524/events/4/pages/4/15/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/15/Dialogue
+\\name[\\v[2]]\\_
+\\n[101]-sama,
+Which night will you enjoy tonight?
 > END STRING
 
 > BEGIN STRING
 アモーレの一夜
-> CONTEXT: Map524/events/4/pages/4/19/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/19/Choice/0
+A Night of Amore
 > END STRING
 
 > BEGIN STRING
 ハーレムの一夜
-> CONTEXT: Map524/events/4/pages/4/19/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/19/Choice/1
+A Harem Night 
 > END STRING
 
 > BEGIN STRING
 バッカナールの一夜
-> CONTEXT: Map524/events/4/pages/4/19/Choice/2 < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/19/Choice/2
+A Bacchanal Night 
 > END STRING
 
 > BEGIN STRING
 サバトの一夜
-> CONTEXT: Map524/events/4/pages/4/19/Choice/3 < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/19/Choice/3
+A Sabbath Night
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 この一夜では一人の姫と一晩中、
 じっくりと愛し合うことができます。
-> CONTEXT: Map524/events/4/pages/4/26/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/26/Dialogue
+\\name[\\v[2]]\\_
+In this night, 
+you can make love to one princess all night long.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 アモーレの一夜を楽しまれますか？
-> CONTEXT: Map524/events/4/pages/4/29/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/29/Dialogue
+\\name[\\v[2]]\\_
+Would you like to enjoy a night of amore?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 かしこまりました。
 それではお部屋のほうに・・・
-> CONTEXT: Map524/events/4/pages/4/34/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/4/pages/4/73/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/34/Dialogue
+> CONTEXT: Map524/events/4/pages/4/73/Dialogue
+\\name[\\v[2]]\\_
+Understood.
+Now, let's head to the room...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 遊べるのはおひとりさまだけです。
 パーティを減らしてからお越しください。
-> CONTEXT: Map524/events/4/pages/4/54/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/4/pages/4/93/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/4/pages/4/189/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/54/Dialogue
+> CONTEXT: Map524/events/4/pages/4/93/Dialogue
+> CONTEXT: Map524/events/4/pages/4/189/Dialogue
+\\name[\\v[2]]\\_
+Only one person can play.
+Please reduce your party size before coming.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 この一夜では同時に三人の姫たちと
 愛し合うことができます。
-> CONTEXT: Map524/events/4/pages/4/65/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/65/Dialogue
+\\name[\\v[2]]\\_
+In this one night, 
+you can make love to three princesses at the same time.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ハーレムの一夜を楽しまれますか？
-> CONTEXT: Map524/events/4/pages/4/68/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/68/Dialogue
+\\name[\\v[2]]\\_
+Would you like to enjoy a harem night?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 この一夜はおひとりでは遊べません。
 お仲間を連れてお越しください。
-> CONTEXT: Map524/events/4/pages/4/105/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/105/Dialogue
+\\name[\\v[2]]\\_
+You won't be able to play alone this night.
+Bring some friends along.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 この一夜は当館が提供する乱交の宴。
 十二の姫と心行くまで悦楽をお貪り下さい。
-> CONTEXT: Map524/events/4/pages/4/111/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/111/Dialogue
+\\name[\\v[2]]\\_
+This night is an orgy party provided by our hotel.
+Enjoy the pleasures to your heart's content 
+with the twelve princesses.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 宴をより盛り上げていただくため、
 お仲間を連れてのご参加をお願いしております。
-> CONTEXT: Map524/events/4/pages/4/114/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/114/Dialogue
+\\name[\\v[2]]\\_
+To make the party even more exciting, 
+we ask that you bring along some friends.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 バッカナールの一夜を楽しまれますか？
-> CONTEXT: Map524/events/4/pages/4/117/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/117/Dialogue
+\\name[\\v[2]]\\_
+Would you like to enjoy a bacchanal night?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 かしこまりました。
 それでは宴の場へ・・・
-> CONTEXT: Map524/events/4/pages/4/122/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/122/Dialogue
+\\name[\\v[2]]\\_
+I understand.
+Now, let's move on to the party...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 この一夜では、お客様には
 一人の姫と一対一で愛し合っていただきますが、
-> CONTEXT: Map524/events/4/pages/4/147/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/147/Dialogue
+\\name[\\v[2]]\\_
+During this night, 
+you will have a one-on-one love affair with a princess.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 一人愛し終えても次の姫、次の姫、が
 休むことなくお相手を致します。
-> CONTEXT: Map524/events/4/pages/4/150/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/150/Dialogue
+\\name[\\v[2]]\\_
+Even after you've loved one, the next princess, 
+and the next princess, will continue to serve you without rest.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 途中でやめにすることはできず、
 朝を迎えられるか、お客様が力尽きるまで続けられます。
-> CONTEXT: Map524/events/4/pages/4/153/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/153/Dialogue
+\\name[\\v[2]]\\_
+You cannot stop midway through,
+and the game will continue until morning comes 
+or until you run out of energy.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 三十人程との交わりを終えれば、
 朝になると思いますが・・・
-> CONTEXT: Map524/events/4/pages/4/156/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/156/Dialogue
+\\name[\\v[2]]\\_
+Once you've finished with about 30 people,
+it will probably be morning...
 > END STRING
 
 > BEGIN STRING
@@ -362,23 +418,29 @@ you can increase the number of succubi you can contract\\c[0].
 その前にお客様が力尽きた場合でも
 特にデメリットはございませんので、
 朝までぐっすりお休みください。
-> CONTEXT: Map524/events/4/pages/4/159/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/159/Dialogue
+\\name[\\v[2]]\\_
+Even if you run out of energy before then,
+there is no particular disadvantage, 
+so please rest soundly until morning.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 サバトの一夜を楽しまれますか？
-> CONTEXT: Map524/events/4/pages/4/163/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/163/Dialogue
+\\name[\\v[2]]\\_
+Are you enjoying a sabbath night?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 かしこまりました。
 それでは特別室へご案内いたします・・・
-> CONTEXT: Map524/events/4/pages/4/169/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/4/pages/4/169/Dialogue
+\\name[\\v[2]]\\_
+Understood.
+I will now show you to your special room...
 > END STRING
 
 > BEGIN STRING
@@ -671,8 +733,11 @@ Shall I tell you?
 \\name[\\v[2]]\\_
 \\c[12]行動選択画面で、Changeから\\_
 交代したい相手を選ぶだけ。\\c[0]簡単でしょ？
-> CONTEXT: Map524/events/9/pages/0/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/9/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]On the action selection screen, 
+just select the person you want to switch with from Change.\\c[0]
+Easy, right?
 > END STRING
 
 > BEGIN STRING
@@ -680,8 +745,10 @@ Shall I tell you?
 ただし、交代したらその子の番は終わりよ
 交代しながらスキルを使うなんてことはできないから
 注意が必要ね。
-> CONTEXT: Map524/events/9/pages/0/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/9/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+However, once you switch, that girl's turn ends.
+You can't use skills while switching, so be careful.
 > END STRING
 
 > BEGIN STRING
@@ -767,8 +834,11 @@ It's also important to escape when necessary.
 ただ、中には普段現れない
 珍しい夢魔が紛れている事もある。
 余裕があるなら狙ってみてもいいかもしれないな！
-> CONTEXT: Map524/events/10/pages/0/17/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/10/pages/0/17/Dialogue
+\\name[\\v[2]]\\_
+However, there may be rare succubi hidden among them 
+that don't usually appear.
+If you have the time, it might be worth a try!
 > END STRING
 
 > BEGIN STRING
@@ -1484,7 +1554,7 @@ The clitoris is an erogenous zone. Agility \\v[4].
 > CONTEXT: Map524/events/17/pages/1/182/Dialogue
 [Witch of Order]
 Breasts are erogenous zones. Agility \\v[3].
-[Golden dream demon]
+[Golden succubus]
 The clitoris is an erogenous zone. Agility \\v[4].
 > END STRING
 
@@ -2855,37 +2925,45 @@ in this state can cure the ailment.
 
 > BEGIN STRING
 "盗賊の男"
-> CONTEXT: Map524/events/33/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map524/events/33/pages/0/0/InlineScript/1:22
+"Thief Man"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]素早さってのは、\\_
 先に行動したり逃げたりするのに必要ってのもそうだが、
 素早さが高いほど、相手から捕まえられにくくなるんだぜ。
-> CONTEXT: Map524/events/33/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/33/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Speed is not only necessary for acting first or escaping, 
+but the higher your speed, the harder it is for your opponent 
+to catch you.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]相手が手足を縛ってくるのが辛い、なんて時は
 素早さを上げる魔法なんかで対策ができるのさ。
-> CONTEXT: Map524/events/33/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/33/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+If you're having trouble getting arms and legs bound, 
+you can counter it with magic that increases your speed.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]逆に、相手を捕まえたいって時は、
 相手の素早さを下げるってのも有効だな。
-> CONTEXT: Map524/events/33/pages/0/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/33/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+On the other hand, if you want to catch your opponent,
+lowering their speed is effective.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]しかしまぁ、あんまり「早い」ってのは
 女の子には嫌われちまうなぁ･･･。
-> CONTEXT: Map524/events/33/pages/0/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/33/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+But, girls might not like you if you're too "early"...
 > END STRING
 
 > BEGIN STRING
@@ -3139,71 +3217,76 @@ I slack off more.
 追記.
 虚脱していると眠りにかかりやすくなるようです。
 おかげで早眠り新記録を達成しました。
-> CONTEXT: Map524/events/37/pages/0/28/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/37/pages/0/28/Dialogue
+P.S.
+It seems that it's easier to fall asleep when you're exhausted.
+Thanks to that, I've set a new record for falling asleep early.
 > END STRING
 
 > BEGIN STRING
 PS.
 虚脱していると眠りにかかりやすくなるようです。
 おかげで早眠り新記録を達成しました。
-> CONTEXT: Map524/events/37/pages/1/25/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/37/pages/1/25/Dialogue
+PS.
+It seems that it's easier to fall asleep when you're exhausted.
+Thanks to that, I set a new record for falling asleep early.
 > END STRING
 
 > BEGIN STRING
 "金髪の子"
-> CONTEXT: Map524/events/38/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map524/events/38/pages/0/0/InlineScript/1:22
+"Blonde Girl"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 わわっ……えっと、リクエストですか？
-> CONTEXT: Map524/events/38/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/38/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Wah...um, you have a request?
 > END STRING
 
 > BEGIN STRING
 レンディカ
-> CONTEXT: Map524/events/38/pages/0/3/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Map524/events/38/pages/0/3/Choice/0
+Rendica
 > END STRING
 
 > BEGIN STRING
 夢への道
-> CONTEXT: Map524/events/38/pages/0/3/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Map524/events/38/pages/0/3/Choice/1
+Road to Dreams
 > END STRING
 
 > BEGIN STRING
 バトル
-> CONTEXT: Map524/events/38/pages/0/14/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Map524/events/38/pages/0/14/Choice/0
+Battle
 > END STRING
 
 > BEGIN STRING
 空腹度のエラーを修正します。
-> CONTEXT: Map524/events/43/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/43/pages/0/0/Dialogue
+Fix hunger error.
 > END STRING
 
 > BEGIN STRING
 "奴隷商人"
-> CONTEXT: Map524/events/49/pages/0/4/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/0/30/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/0/63/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/1/4/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/1/32/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/1/65/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/2/4/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/2/38/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/2/71/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/3/4/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/3/36/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/4/4/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/4/42/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/0/4/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/0/30/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/0/63/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/1/4/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/1/32/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/1/65/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/2/4/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/2/38/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/2/71/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/3/4/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/3/36/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/4/4/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/4/42/InlineScript/1:22
+"Slave Trader"
 > END STRING
 
 > BEGIN STRING
@@ -3211,176 +3294,205 @@ PS.
 はぁい、そこの人ぉ。
 奴隷の子とか欲しくない？
 いまなら500Lpsよ
-> CONTEXT: Map524/events/49/pages/0/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+Hey, you there.
+Do you want a slave girl?
+Right now it's 500Lps
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あらぁ。お金が足りないみたいね。
-> CONTEXT: Map524/events/49/pages/0/12/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/1/14/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/2/20/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/3/18/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/4/24/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/0/12/Dialogue
+> CONTEXT: Map524/events/49/pages/1/14/Dialogue
+> CONTEXT: Map524/events/49/pages/2/20/Dialogue
+> CONTEXT: Map524/events/49/pages/3/18/Dialogue
+> CONTEXT: Map524/events/49/pages/4/24/Dialogue
+\\name[\\v[2]]\\_
+Oh no. Looks like you don't have enough money.
 > END STRING
 
 > BEGIN STRING
 奴隷を買いますか？
-> CONTEXT: Map524/events/49/pages/0/17/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/1/19/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/2/25/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/3/23/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/4/29/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/0/17/Dialogue
+> CONTEXT: Map524/events/49/pages/1/19/Dialogue
+> CONTEXT: Map524/events/49/pages/2/25/Dialogue
+> CONTEXT: Map524/events/49/pages/3/23/Dialogue
+> CONTEXT: Map524/events/49/pages/4/29/Dialogue
+Buy a slave?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あらぁ。どうやらホームがいっぱいみたいね。
 また後で来てね。
-> CONTEXT: Map524/events/49/pages/0/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/1/24/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/2/30/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/3/28/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/4/34/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/0/22/Dialogue
+> CONTEXT: Map524/events/49/pages/1/24/Dialogue
+> CONTEXT: Map524/events/49/pages/2/30/Dialogue
+> CONTEXT: Map524/events/49/pages/3/28/Dialogue
+> CONTEXT: Map524/events/49/pages/4/34/Dialogue
+\\name[\\v[2]]\\_
+Oh. Looks like your Home is full.
+Come back later.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 契約成立ね
-> CONTEXT: Map524/events/49/pages/0/31/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/1/33/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/2/39/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/3/37/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/4/43/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/0/31/Dialogue
+> CONTEXT: Map524/events/49/pages/1/33/Dialogue
+> CONTEXT: Map524/events/49/pages/2/39/Dialogue
+> CONTEXT: Map524/events/49/pages/3/37/Dialogue
+> CONTEXT: Map524/events/49/pages/4/43/Dialogue
+\\name[\\v[2]]\\_
+The deal is done.
 > END STRING
 
 > BEGIN STRING
 スレイヴと契約を交わした！
-> CONTEXT: Map524/events/49/pages/0/34/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/1/36/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/2/42/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/3/40/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/4/46/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/0/34/Dialogue
+> CONTEXT: Map524/events/49/pages/1/36/Dialogue
+> CONTEXT: Map524/events/49/pages/2/42/Dialogue
+> CONTEXT: Map524/events/49/pages/3/40/Dialogue
+> CONTEXT: Map524/events/49/pages/4/46/Dialogue
+I made a contract with Slave!
 > END STRING
 
 > BEGIN STRING
 スレイヴをホームに迎え入れた！
-> CONTEXT: Map524/events/49/pages/0/45/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/0/56/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/1/47/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/1/58/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/2/53/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/2/64/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/3/51/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/3/62/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/4/57/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/4/68/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/0/45/Dialogue
+> CONTEXT: Map524/events/49/pages/0/56/Dialogue
+> CONTEXT: Map524/events/49/pages/1/47/Dialogue
+> CONTEXT: Map524/events/49/pages/1/58/Dialogue
+> CONTEXT: Map524/events/49/pages/2/53/Dialogue
+> CONTEXT: Map524/events/49/pages/2/64/Dialogue
+> CONTEXT: Map524/events/49/pages/3/51/Dialogue
+> CONTEXT: Map524/events/49/pages/3/62/Dialogue
+> CONTEXT: Map524/events/49/pages/4/57/Dialogue
+> CONTEXT: Map524/events/49/pages/4/68/Dialogue
+Welcomed Slave into your Home!
 > END STRING
 
 > BEGIN STRING
 スレイヴがパーティに加わった！
-> CONTEXT: Map524/events/49/pages/0/52/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/1/54/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/2/60/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/3/58/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/4/64/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/0/52/Dialogue
+> CONTEXT: Map524/events/49/pages/1/54/Dialogue
+> CONTEXT: Map524/events/49/pages/2/60/Dialogue
+> CONTEXT: Map524/events/49/pages/3/58/Dialogue
+> CONTEXT: Map524/events/49/pages/4/64/Dialogue
+Slave has joined the party!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 しばらくしたら新しい子を連れてくるから
 ときどき顔を出してね
-> CONTEXT: Map524/events/49/pages/0/64/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/1/66/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/2/72/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/0/64/Dialogue
+> CONTEXT: Map524/events/49/pages/1/66/Dialogue
+> CONTEXT: Map524/events/49/pages/2/72/Dialogue
+\\name[\\v[2]]\\_
+I'll bring a new one soon,
+so drop by from time to time.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あら、残念ね。
 気が向いたらまた来てね。
-> CONTEXT: Map524/events/49/pages/0/69/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/1/71/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/2/77/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/3/72/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/4/77/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/0/69/Dialogue
+> CONTEXT: Map524/events/49/pages/1/71/Dialogue
+> CONTEXT: Map524/events/49/pages/2/77/Dialogue
+> CONTEXT: Map524/events/49/pages/3/72/Dialogue
+> CONTEXT: Map524/events/49/pages/4/77/Dialogue
+\\name[\\v[2]]\\_
+Oh, that's too bad.
+Come again when you feel like it.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ごめんなさい。
 まだ用意が出来てないの。
-> CONTEXT: Map524/events/49/pages/0/76/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/1/78/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/2/84/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/49/pages/3/79/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/0/76/Dialogue
+> CONTEXT: Map524/events/49/pages/1/78/Dialogue
+> CONTEXT: Map524/events/49/pages/2/84/Dialogue
+> CONTEXT: Map524/events/49/pages/3/79/Dialogue
+\\name[\\v[2]]\\_
+Sorry.
+I'm not ready yet.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あら、いらっしゃい。
 また来てくれたのね。
-> CONTEXT: Map524/events/49/pages/1/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/1/6/Dialogue
+\\name[\\v[2]]\\_
+Oh, welcome.
+You've come again.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今回は前回と性格が違う子を連れてきたわ。
 値段はそうねぇ…1000Lpsでどうかしら？
-> CONTEXT: Map524/events/49/pages/1/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/1/9/Dialogue
+\\name[\\v[2]]\\_
+This time I brought a character with a different personality 
+from last time. As for the price, I wonder... 
+how about 1000Lps?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あら、いらっしゃい。
 あなたも好きねぇ。
-> CONTEXT: Map524/events/49/pages/2/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/2/6/Dialogue
+\\name[\\v[2]]\\_
+Oh, welcome.
+I like you too.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 いつも来てくれるあなたには
 少し変わった子を紹介してあげるわ。
-> CONTEXT: Map524/events/49/pages/2/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/2/9/Dialogue
+\\name[\\v[2]]\\_
+Since you're a regular visitor,
+I'll introduce you to a slightly unusual girl.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 この子はワーウルフに育てられた子で
 少し気性が荒いんだけど素直でいい子よ
-> CONTEXT: Map524/events/49/pages/2/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/2/12/Dialogue
+\\name[\\v[2]]\\_
+This girl was raised by werewolves
+and is a little temperamental, 
+but she's a good, obedient girl.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 値段はそうねぇ…
 特別な子だから3000Lpsでどうかしら？
-> CONTEXT: Map524/events/49/pages/2/15/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/2/15/Dialogue
+\\name[\\v[2]]\\_
+The price is...
+Since it's a special one, how about 3000Lps?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あら、いらっしゃい。
 いい子が見つかったわよ。
-> CONTEXT: Map524/events/49/pages/3/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/3/6/Dialogue
+\\name[\\v[2]]\\_
+Oh, welcome.
+I found a nice girl.
 > END STRING
 
 > BEGIN STRING
@@ -3388,40 +3500,50 @@ PS.
 この子は
 とある富豪が無くなった際に私が引き取った子で
 いい子だけどちょっと性欲が強い子なの
-> CONTEXT: Map524/events/49/pages/3/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/3/9/Dialogue
+\\name[\\v[2]]\\_
+I took her in when a certain wealthy man passed away. 
+She's a good girl, but has a bit of a strong libido.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 値段はそうねぇ…
 10000Lpsでどうかしら？
-> CONTEXT: Map524/events/49/pages/3/13/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/3/13/Dialogue
+\\name[\\v[2]]\\_
+The price is...
+How about 10,000Lps?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あら、いらっしゃい。
 お金で女の子を買うのにハマっちゃった？
-> CONTEXT: Map524/events/49/pages/4/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/4/6/Dialogue
+\\name[\\v[2]]\\_
+Oho, welcome.
+Are you addicted to buying girls with money?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 でも残念ね今日紹介する子で
 あなたに紹介できる子は最後なの。
-> CONTEXT: Map524/events/49/pages/4/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/4/9/Dialogue
+\\name[\\v[2]]\\_
+But unfortunately, the one I'm introducing today
+is the last one I can introduce to you.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 色々な人に奴隷の良さを分かってほしいの。
 だからごめんなさいね。
-> CONTEXT: Map524/events/49/pages/4/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/4/12/Dialogue
+\\name[\\v[2]]\\_
+I want more people to learn the goodness of slaves.
+So I'm sorry.
 > END STRING
 
 > BEGIN STRING
@@ -3429,23 +3551,28 @@ PS.
 それでこの子なんだけど
 ちょっと意地悪な子だけど
 素直でいい子よ。
-> CONTEXT: Map524/events/49/pages/4/15/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/4/15/Dialogue
+\\name[\\v[2]]\\_
+So, this girl
+She's a little mean, but she's also a good, obedient girl.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 値段はそうねぇ…
 最期だし5000Lpsでどうかしら？
-> CONTEXT: Map524/events/49/pages/4/19/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/4/19/Dialogue
+\\name[\\v[2]]\\_
+The price is...
+It's the last one, so how about 5000Lps?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あら、いらっしゃい。
-> CONTEXT: Map524/events/49/pages/4/84/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map524/events/49/pages/4/84/Dialogue
+\\name[\\v[2]]\\_
+Oho, welcome.
 > END STRING
 
 > BEGIN STRING

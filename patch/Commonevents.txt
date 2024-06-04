@@ -2858,14 +2858,15 @@ Thanks as always!
 > BEGIN STRING
 \\name[\\v[2]]\\_
 やあ、ステートを変化させたいなら私に言ってくれ
-> CONTEXT: Commonevents/135/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/135/0/Dialogue
+\\name[\\v[2]]\\_
+Hey, if you want to change your state, let me know.
 > END STRING
 
 > BEGIN STRING
 ステートを変更しますか？
-> CONTEXT: Commonevents/135/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/135/2/Dialogue
+Do you want to change your state?
 > END STRING
 
 > BEGIN STRING
@@ -2873,65 +2874,72 @@ Thanks as always!
 何をつけるんだい？
 １回戦闘するとたいていは元に戻るから。
 面倒だが戦闘したらまた来てくれ。
-> CONTEXT: Commonevents/135/5/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/135/5/Dialogue
+\\name[\\v[2]]\\_
+What do you want?
+It usually goes back to normal after one battle.
+It's a pain, but come back after a battle.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 わかった、やめるんだな？
-> CONTEXT: Commonevents/135/25/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/135/25/Dialogue
+\\name[\\v[2]]\\_
+Okay, you're going to stop?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そうかい？
 用があったらまた来てくれ。
-> CONTEXT: Commonevents/135/31/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/135/31/Dialogue
+\\name[\\v[2]]\\_
+Is that so?
+Come again if you need anything.
 > END STRING
 
 > BEGIN STRING
 先頭のキャラクターの何をリセットしますか？
-> CONTEXT: Commonevents/136/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/136/0/Dialogue
+What do you want to reset for the first character?
 > END STRING
 
 > BEGIN STRING
 弱点をリセット
-> CONTEXT: Commonevents/136/1/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Commonevents/136/1/Choice/0
+Reset weakness
 > END STRING
 
 > BEGIN STRING
 ボーナスをリセット
-> CONTEXT: Commonevents/136/1/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Commonevents/136/1/Choice/1
+Reset bonuses
 > END STRING
 
 > BEGIN STRING
 弱点をリセットしました。
-> CONTEXT: Commonevents/136/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/136/9/Dialogue
+Weaknesses reset.
 > END STRING
 
 > BEGIN STRING
 ボーナスをリセットしました。
-> CONTEXT: Commonevents/136/18/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/136/18/Dialogue
+Bonuses reset.
 > END STRING
 
 > BEGIN STRING
 別世界にいる間は性別を変更できません。
-> CONTEXT: Commonevents/137/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/137/1/Dialogue
+You cannot change your gender 
+while in the alternate reality.
 > END STRING
 
 > BEGIN STRING
 "ジュデンシア"
-> CONTEXT: Commonevents/138/0/InlineScript/1:26 < UNTRANSLATED
-
+> CONTEXT: Commonevents/138/0/InlineScript/1:26
+"Judencia"
 > END STRING
 
 > BEGIN STRING
@@ -2988,113 +2996,125 @@ Thanks as always!
 \\name[\\v[2]]\\_
 体の開発に関するお悩みなら、
 いつでも聞いてくれよ！
-> CONTEXT: Commonevents/139/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/1/Dialogue
+\\name[\\v[2]]\\_
+If you have any concerns about sensitization,
+feel free to ask me anytime!
 > END STRING
 
 > BEGIN STRING
 体を開発されたい！
-> CONTEXT: Commonevents/139/4/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/4/Choice/0
+Sensitize my body!
 > END STRING
 
 > BEGIN STRING
 開発された体をリセットしたい！
-> CONTEXT: Commonevents/139/4/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/4/Choice/1
+Reset sensitization!
 > END STRING
 
 > BEGIN STRING
 体を開発ってなあに？
-> CONTEXT: Commonevents/139/4/Choice/2 < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/4/Choice/2
+What is sensitization?
 > END STRING
 
 > BEGIN STRING
 "開発度ON＋後遺症ON"
-> CONTEXT: Commonevents/139/8/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/8/InlineScript/1:22
+"Sensitization ON + Aftereffects ON"
 > END STRING
 
 > BEGIN STRING
 "開発度ON"
-> CONTEXT: Commonevents/139/11/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/11/InlineScript/1:22
+"Sensitization ON"
 > END STRING
 
 > BEGIN STRING
 "開発度OFF"
-> CONTEXT: Commonevents/139/16/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/16/InlineScript/1:22
+"Aftereffects OFF"
 > END STRING
 
 > BEGIN STRING
 "※開発度強制ON中です。"
-> CONTEXT: Commonevents/139/20/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/20/InlineScript/1:22
+"※Sensitization forced ON"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今は「\\v[3]」になってるよ。
 \\c[12]\\v[4]\\c[0]
-> CONTEXT: Commonevents/139/26/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/26/Dialogue
+\\name[\\v[2]]\\_
+It's now "\\v[3]".
+\\c[12]\\v[4]\\c[0]
 > END STRING
 
 > BEGIN STRING
 開発度ON
-> CONTEXT: Commonevents/139/29/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/29/Choice/0
+Sensitization ON
 > END STRING
 
 > BEGIN STRING
 開発度ON＋後遺症ON
-> CONTEXT: Commonevents/139/29/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/29/Choice/1
+Sensitization ON＋Aftereffects ON
 > END STRING
 
 > BEGIN STRING
 開発度OFF
-> CONTEXT: Commonevents/139/29/Choice/2 < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/29/Choice/2
+Sensitization OFF
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 「開発度ON」に変更したよ。
-> CONTEXT: Commonevents/139/34/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/34/Dialogue
+\\name[\\v[2]]\\_
+Changed it to "Sensitization ON".
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 「開発度ON＋後遺症ON」に変更したよ。
-> CONTEXT: Commonevents/139/41/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/41/Dialogue
+\\name[\\v[2]]\\_
+Changed to "Sensitization ON ＋ Aftereffects ON".
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 「開発度OFF」に変更したよ。
-> CONTEXT: Commonevents/139/48/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/48/Dialogue
+\\name[\\v[2]]\\_
+Changed to "Sensitization OFF".
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 体を責められると、性感帯に目覚めていく事があるだろう？
 その状態を\\c[12]開発された状態\\c[0]って言うんだ！
-> CONTEXT: Commonevents/139/68/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/68/Dialogue
+\\name[\\v[2]]\\_
+When your body is stimulated, 
+your erogenous zones might awaken, right?
+That state is called\\c[12]sensitized state\\c[0]!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 \\c[12]開発度\\c[0]をONにすると、みるみる性感帯が
 開発されていって楽しいぜ！
-> CONTEXT: Commonevents/139/71/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/71/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]When you turn on sensitization\\c[0], 
+your erogenous zones will develop in no time, and it's fun!
 > END STRING
 
 > BEGIN STRING
@@ -3102,8 +3122,11 @@ Thanks as always!
 また、性感帯だけじゃなく、キスや挿入といった
 行為も、開発されていくぜ！
 どうだ、たまんねえだろう？
-> CONTEXT: Commonevents/139/74/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/74/Dialogue
+\\name[\\v[2]]\\_
+And not only the erogenous zones, but acts like kissing 
+and penetration will also undergo sensitization!
+How is it, isn't it exciting?
 > END STRING
 
 > BEGIN STRING
@@ -3111,8 +3134,11 @@ Thanks as always!
 更に、\\c[12]後遺症\\c[0]をONにすれば、戦いが終わっても
 開発された性感帯を持続できるんだぜ！
 ゾクゾクするよな！
-> CONTEXT: Commonevents/139/78/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/78/Dialogue
+\\name[\\v[2]]\\_
+Plus, if you turn on \\c[12]Aftereffects\\c[0], 
+your sensitized erogenous zones will continue 
+even after the battle is over! It's thrilling!
 > END STRING
 
 > BEGIN STRING
@@ -3120,15 +3146,19 @@ Thanks as always!
 開発されすぎて後遺症に悩まされるなら、
 僕に言ってくれればリセットできるからな。
 いつでも頼ってくれよな！
-> CONTEXT: Commonevents/139/82/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/82/Dialogue
+\\name[\\v[2]]\\_
+If you're suffering from the aftereffects of sensitization,
+just let me know and I'll reset it for you.
+You can always rely on me!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 それじゃ、ぐっどらっく！
-> CONTEXT: Commonevents/139/88/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/139/88/Dialogue
+\\name[\\v[2]]\\_
+Well then, good luck!
 > END STRING
 
 > BEGIN STRING
@@ -3198,21 +3228,23 @@ Thanks as always!
 \\name[\\v[2]]\\_
 ゲーム難易度を変更できます。
 現在の設定は「\\v[3]」です。
-> CONTEXT: Commonevents/141/13/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/141/13/Dialogue
+\\name[\\v[2]]\\_
+You can change the game difficulty.
+The current setting is "\\v[3]".
 > END STRING
 
 > BEGIN STRING
 変更する
-> CONTEXT: Commonevents/141/16/Choice/0 < UNTRANSLATED
-> CONTEXT: Commonevents/144/63/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Commonevents/141/16/Choice/0
+> CONTEXT: Commonevents/144/63/Choice/0
+Change
 > END STRING
 
 > BEGIN STRING
 変更しない
-> CONTEXT: Commonevents/141/16/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Commonevents/141/16/Choice/1
+Don't change
 > END STRING
 
 > BEGIN STRING
@@ -3225,47 +3257,52 @@ Thanks as always!
 \\name[\\v[2]]\\_
 変更を中止しました。
 現在の設定は「\\v[3]」です。
-> CONTEXT: Commonevents/141/21/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/141/21/Dialogue
+\\name[\\v[2]]\\_
+Changes canceled.
+Current setting is "\\v[3]".
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ゲーム難易度を変更しました。
 現在の設定は「\\v[3]」です。
-> CONTEXT: Commonevents/141/49/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/141/49/Dialogue
+\\name[\\v[2]]\\_
+Game difficulty has been changed.
+The current setting is "\\v[3]".
 > END STRING
 
 > BEGIN STRING
 "知りたがりなメイド"
-> CONTEXT: Commonevents/142/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/0/InlineScript/1:22
+"Curious Maid"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ、貴方の好みの女性を教えて下さらない？
-> CONTEXT: Commonevents/142/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/3/Dialogue
+\\name[\\v[2]]\\_
+Hehe, can you tell me what kind of women you like?
 > END STRING
 
 > BEGIN STRING
 好みの年齢を教える
-> CONTEXT: Commonevents/142/5/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/5/Choice/0
+Preferred age
 > END STRING
 
 > BEGIN STRING
 好みの胸のサイズを教える
-> CONTEXT: Commonevents/142/5/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/5/Choice/1
+Preferred breast size
 > END STRING
 
 > BEGIN STRING
 好みをリセットしたい
-> CONTEXT: Commonevents/142/5/Choice/2 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/5/Choice/2
+Reset preferences
 > END STRING
 
 > BEGIN STRING
@@ -3282,330 +3319,358 @@ Nothing
 > BEGIN STRING
 \\name[\\v[2]]\\_
 どんな年齢層の女性が好みかしら？
-> CONTEXT: Commonevents/142/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/7/Dialogue
+\\name[\\v[2]]\\_
+What age range of women do you prefer?
 > END STRING
 
 > BEGIN STRING
 年上が好み
-> CONTEXT: Commonevents/142/9/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/9/Choice/0
+Prefer older
 > END STRING
 
 > BEGIN STRING
 同い年が好み
-> CONTEXT: Commonevents/142/9/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/9/Choice/1
+Prefer same age
 > END STRING
 
 > BEGIN STRING
 年下が好み
-> CONTEXT: Commonevents/142/9/Choice/2 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/9/Choice/2
+Prefer younger
 > END STRING
 
 > BEGIN STRING
 やっぱり教えない
-> CONTEXT: Commonevents/142/9/Choice/3 < UNTRANSLATED
-> CONTEXT: Commonevents/142/109/Choice/2 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/9/Choice/3
+> CONTEXT: Commonevents/142/109/Choice/2
+Can't say
 > END STRING
 
 > BEGIN STRING
 "年上が好み"
-> CONTEXT: Commonevents/142/11/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Commonevents/142/88/InlineScript/1:26 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/11/InlineScript/1:22
+> CONTEXT: Commonevents/142/88/InlineScript/1:26
+"Prefer older"
 > END STRING
 
 > BEGIN STRING
 "同い年が好み"
-> CONTEXT: Commonevents/142/14/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Commonevents/142/88/InlineScript/3:29 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/14/InlineScript/1:22
+> CONTEXT: Commonevents/142/88/InlineScript/3:29
+"Prefer same age"
 > END STRING
 
 > BEGIN STRING
 "年下が好み"
-> CONTEXT: Commonevents/142/17/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Commonevents/142/88/InlineScript/5:29 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/17/InlineScript/1:22
+> CONTEXT: Commonevents/142/88/InlineScript/5:29
+"Prefer younger"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ、また教えてね！
-> CONTEXT: Commonevents/142/20/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/142/129/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/142/144/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/20/Dialogue
+> CONTEXT: Commonevents/142/129/Dialogue
+> CONTEXT: Commonevents/142/144/Dialogue
+\\name[\\v[2]]\\_
+Hehe, let me know again!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ、\\c[12]\\v[3]\\c[0]なのね。
 いいこと聞いちゃった♪
-> CONTEXT: Commonevents/142/25/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/25/Dialogue
+\\name[\\v[2]]\\_
+Hehe, it's \\c[12]\\v[3]\\c[0].
+That's good to hear♪
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 よかったら、苦手なタイプも
 教えてくださらない？
-> CONTEXT: Commonevents/142/29/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/29/Dialogue
+\\name[\\v[2]]\\_
+If you don't mind, 
+could you tell me what types you don't like?
 > END STRING
 
 > BEGIN STRING
 年上が苦手
-> CONTEXT: Commonevents/142/32/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/32/Choice/0
+Older
 > END STRING
 
 > BEGIN STRING
 同い年が苦手
-> CONTEXT: Commonevents/142/32/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/32/Choice/1
+Same age
 > END STRING
 
 > BEGIN STRING
 年下が苦手
-> CONTEXT: Commonevents/142/32/Choice/2 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/32/Choice/2
+Younger
 > END STRING
 
 > BEGIN STRING
 特にないよ
-> CONTEXT: Commonevents/142/32/Choice/3 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/32/Choice/3
+Nothing
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 それはさっき好みだって言ったばっかりよ？
 どっちかハッキリしなさい。
-> CONTEXT: Commonevents/142/35/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/142/47/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/142/59/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/35/Dialogue
+> CONTEXT: Commonevents/142/47/Dialogue
+> CONTEXT: Commonevents/142/59/Dialogue
+\\name[\\v[2]]\\_
+I just said it was a matter of preference.
+Make it clear which one it is.
 > END STRING
 
 > BEGIN STRING
 "年上が苦手"
-> CONTEXT: Commonevents/142/41/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Commonevents/142/95/InlineScript/1:26 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/41/InlineScript/1:22
+> CONTEXT: Commonevents/142/95/InlineScript/1:26
+"Prefer older"
 > END STRING
 
 > BEGIN STRING
 "同い年が苦手"
-> CONTEXT: Commonevents/142/53/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Commonevents/142/95/InlineScript/3:29 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/53/InlineScript/1:22
+> CONTEXT: Commonevents/142/95/InlineScript/3:29
+"Prefer same age"
 > END STRING
 
 > BEGIN STRING
 "年下が苦手"
-> CONTEXT: Commonevents/142/65/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Commonevents/142/95/InlineScript/5:29 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/65/InlineScript/1:22
+> CONTEXT: Commonevents/142/95/InlineScript/5:29
+"Prefer younger"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あら。どの年齢層でもイケちゃうなんて
 ストライクゾーンが広いのねぇ\\H
-> CONTEXT: Commonevents/142/74/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/74/Dialogue
+\\name[\\v[2]]\\_
+Oho. You're popular with all age groups, 
+so you have a wide strike zone\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ、\\c[12]\\v[4]\\c[0]なんだ♪
-> CONTEXT: Commonevents/142/79/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/79/Dialogue
+\\name[\\v[2]]\\_
+Hehe, it's \\c[12]\\v[4]\\c[0]♪
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 聞かせてくれて、ありがとう\\H
-> CONTEXT: Commonevents/142/103/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/142/116/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/142/125/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/103/Dialogue
+> CONTEXT: Commonevents/142/116/Dialogue
+> CONTEXT: Commonevents/142/125/Dialogue
+\\name[\\v[2]]\\_
+Thank you for letting me hear it\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 どういう胸の女性が好みかしら？
-> CONTEXT: Commonevents/142/107/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/107/Dialogue
+\\name[\\v[2]]\\_
+What kind of breasts do you like in women?
 > END STRING
 
 > BEGIN STRING
 巨乳が好み
-> CONTEXT: Commonevents/142/109/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/109/Choice/0
+Prefer big
 > END STRING
 
 > BEGIN STRING
 貧乳が好み
-> CONTEXT: Commonevents/142/109/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/109/Choice/1
+Prefer small
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 貴方の好みは一旦忘れましょう。
 また教えてね\\H
-> CONTEXT: Commonevents/142/139/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/142/139/Dialogue
+\\name[\\v[2]]\\_
+Let's forget about your preferences for now.
+Tell me again later\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ホールドスキルの反動を変更してみない？
 いつもとは違った趣向もいいと思うのよ。
-> CONTEXT: Commonevents/143/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/143/0/Dialogue
+\\name[\\v[2]]\\_
+Why not try changing the recoil of the hold skill?
+I think it would be nice 
+to try something different from the usual.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今の味方の反動は標準みたいね。
-> CONTEXT: Commonevents/143/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/143/4/Dialogue
+\\name[\\v[2]]\\_
+The recoil for allies is standard.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今の味方の反動は増量みたいね。
-> CONTEXT: Commonevents/143/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/143/9/Dialogue
+\\name[\\v[2]]\\_
+The recoil for allies is increased.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今の味方の反動は特大みたいね。
-> CONTEXT: Commonevents/143/14/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/143/14/Dialogue
+\\name[\\v[2]]\\_
+The recoil for allies is huge.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今の敵の反動は標準みたいね。
-> CONTEXT: Commonevents/143/19/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/143/19/Dialogue
+\\name[\\v[2]]\\_
+The recoil for enemies is standard.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今の敵の反動は増量みたいね。
-> CONTEXT: Commonevents/143/24/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/143/24/Dialogue
+\\name[\\v[2]]\\_
+The recoil for enemies is increased.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今の敵の反動は特大みたいね。
-> CONTEXT: Commonevents/143/29/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/143/29/Dialogue
+\\name[\\v[2]]\\_
+The recoil for enemies is huge.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 じゃあ味方と敵、どっちの反動を調整する？
-> CONTEXT: Commonevents/143/33/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/143/33/Dialogue
+\\name[\\v[2]]\\_
+So, which recoil should we adjust, 
+for allies or enemies?
 > END STRING
 
 > BEGIN STRING
 味方の反動を調整
-> CONTEXT: Commonevents/143/35/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Commonevents/143/35/Choice/0
+Ally recoil
 > END STRING
 
 > BEGIN STRING
 敵の反動を調整
-> CONTEXT: Commonevents/143/35/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Commonevents/143/35/Choice/1
+Enemy recoil
 > END STRING
 
 > BEGIN STRING
 両方を一括で調整
-> CONTEXT: Commonevents/143/35/Choice/2 < UNTRANSLATED
-
+> CONTEXT: Commonevents/143/35/Choice/2
+Adjust both
 > END STRING
 
 > BEGIN STRING
 標準
-> CONTEXT: Commonevents/143/37/Choice/0 < UNTRANSLATED
-> CONTEXT: Commonevents/143/50/Choice/0 < UNTRANSLATED
-> CONTEXT: Commonevents/143/63/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Commonevents/143/37/Choice/0
+> CONTEXT: Commonevents/143/50/Choice/0
+> CONTEXT: Commonevents/143/63/Choice/0
+Standard
 > END STRING
 
 > BEGIN STRING
 増量
-> CONTEXT: Commonevents/143/37/Choice/1 < UNTRANSLATED
-> CONTEXT: Commonevents/143/50/Choice/1 < UNTRANSLATED
-> CONTEXT: Commonevents/143/63/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Commonevents/143/37/Choice/1
+> CONTEXT: Commonevents/143/50/Choice/1
+> CONTEXT: Commonevents/143/63/Choice/1
+Increased
 > END STRING
 
 > BEGIN STRING
 特大
-> CONTEXT: Commonevents/143/37/Choice/2 < UNTRANSLATED
-> CONTEXT: Commonevents/143/50/Choice/2 < UNTRANSLATED
-> CONTEXT: Commonevents/143/63/Choice/2 < UNTRANSLATED
-
+> CONTEXT: Commonevents/143/37/Choice/2
+> CONTEXT: Commonevents/143/50/Choice/2
+> CONTEXT: Commonevents/143/63/Choice/2
+Huge
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 変更したよ、じゃあお楽しみに。
-> CONTEXT: Commonevents/143/82/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/143/82/Dialogue
+\\name[\\v[2]]\\_
+I've made the changes, so look forward to it.
 > END STRING
 
 > BEGIN STRING
 "敵味方ともにON"
-> CONTEXT: Commonevents/144/2/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Commonevents/144/21/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Commonevents/144/40/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/2/InlineScript/1:22
+> CONTEXT: Commonevents/144/21/InlineScript/1:22
+> CONTEXT: Commonevents/144/40/InlineScript/1:22
+"Both friend and foe are ON"
 > END STRING
 
 > BEGIN STRING
 "味方のみON"
-> CONTEXT: Commonevents/144/5/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Commonevents/144/24/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Commonevents/144/43/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/5/InlineScript/1:22
+> CONTEXT: Commonevents/144/24/InlineScript/1:22
+> CONTEXT: Commonevents/144/43/InlineScript/1:22
+"Only allies ON"
 > END STRING
 
 > BEGIN STRING
 "敵のみON"
-> CONTEXT: Commonevents/144/11/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Commonevents/144/30/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Commonevents/144/49/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/11/InlineScript/1:22
+> CONTEXT: Commonevents/144/30/InlineScript/1:22
+> CONTEXT: Commonevents/144/49/InlineScript/1:22
+"Only enemies are on"
 > END STRING
 
 > BEGIN STRING
 "敵味方ともにOFF"
-> CONTEXT: Commonevents/144/14/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Commonevents/144/33/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Commonevents/144/52/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/14/InlineScript/1:22
+> CONTEXT: Commonevents/144/33/InlineScript/1:22
+> CONTEXT: Commonevents/144/52/InlineScript/1:22
+"OFF for both friends and foes"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 特殊絶頂設定を変更されますか？
-> CONTEXT: Commonevents/144/57/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/57/Dialogue
+\\name[\\v[2]]\\_
+Would you like to change the special climax settings?
 > END STRING
 
 > BEGIN STRING
@@ -3613,72 +3678,83 @@ Nothing
 \\c[12]自爆絶頂\\c[0]は「\\v[3]」、
 \\c[12]相互絶頂\\c[0]は「\\v[4]」、
 \\c[12]瞬間絶頂\\c[0]は「\\v[5]」が現在の設定ですわ。
-> CONTEXT: Commonevents/144/59/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/59/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]Self climax\\c[0] is currently set to "\\v[3]",
+\\c[12]Mutual climax\\c[0] is currently set to "\\v[4]",
+\\c[12]Instant climax\\c[0] is currently set to "\\v[5]".
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 \\c[12]自爆絶頂\\c[0]の設定は如何なさいますか？
 現在の設定は「\\v[3]」ですわ。
-> CONTEXT: Commonevents/144/65/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/65/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]What would you like to set for Self Climax\\c[0]?
+The current setting is "\\v[3]".
 > END STRING
 
 > BEGIN STRING
 味方のみON
-> CONTEXT: Commonevents/144/68/Choice/0 < UNTRANSLATED
-> CONTEXT: Commonevents/144/91/Choice/0 < UNTRANSLATED
-> CONTEXT: Commonevents/144/114/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/68/Choice/0
+> CONTEXT: Commonevents/144/91/Choice/0
+> CONTEXT: Commonevents/144/114/Choice/0
+Only allies
 > END STRING
 
 > BEGIN STRING
 敵のみON
-> CONTEXT: Commonevents/144/68/Choice/1 < UNTRANSLATED
-> CONTEXT: Commonevents/144/91/Choice/1 < UNTRANSLATED
-> CONTEXT: Commonevents/144/114/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/68/Choice/1
+> CONTEXT: Commonevents/144/91/Choice/1
+> CONTEXT: Commonevents/144/114/Choice/1
+Only enemies
 > END STRING
 
 > BEGIN STRING
 敵味方ともにON
-> CONTEXT: Commonevents/144/68/Choice/2 < UNTRANSLATED
-> CONTEXT: Commonevents/144/91/Choice/2 < UNTRANSLATED
-> CONTEXT: Commonevents/144/114/Choice/2 < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/68/Choice/2
+> CONTEXT: Commonevents/144/91/Choice/2
+> CONTEXT: Commonevents/144/114/Choice/2
+Both
 > END STRING
 
 > BEGIN STRING
 敵味方ともにOFF
-> CONTEXT: Commonevents/144/68/Choice/3 < UNTRANSLATED
-> CONTEXT: Commonevents/144/91/Choice/3 < UNTRANSLATED
-> CONTEXT: Commonevents/144/114/Choice/3 < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/68/Choice/3
+> CONTEXT: Commonevents/144/91/Choice/3
+> CONTEXT: Commonevents/144/114/Choice/3
+None
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 \\c[12]相互絶頂\\c[0]の設定は如何なさいますか？
 現在の設定は「\\v[4]」ですわ。
-> CONTEXT: Commonevents/144/88/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/88/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]What would you like to set Mutual Climax\\c[0]?
+The current setting is "\\v[4]".
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 \\c[12]瞬間絶頂\\c[0]の設定は如何なさいますか？
 現在の設定は「\\v[5]」ですわ。
-> CONTEXT: Commonevents/144/111/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/111/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]What would you like to set for Instant Climax\\c[0]?
+The current setting is "\\v[5]".
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 変更しましたわ。
 それでは、よき夢を。
-> CONTEXT: Commonevents/144/135/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/135/Dialogue
+\\name[\\v[2]]\\_
+I've made the changes.
+Sweet dreams.
 > END STRING
 
 > BEGIN STRING
@@ -3686,16 +3762,21 @@ Nothing
 \\c[12]自爆絶頂\\c[0]とは、自分が攻めている最中に
 その反動で自分が先に達してしまうというものですわ。
 殿方としては少し情けないことになりますわね。
-> CONTEXT: Commonevents/144/140/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/140/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]Self climax\\c[0] is when you are attacking 
+and the recoil causes you to reach orgasm first.
+It's a bit embarrassing for a man.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 これはスウィングのような「自分に反動があるスキル」で
 自分のEPが0になった瞬間に発生しますわ。
-> CONTEXT: Commonevents/144/144/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/144/Dialogue
+\\name[\\v[2]]\\_
+This occurs when your EP hits 0 with a skill 
+that has a recoil effect on you, such as Swing.
 > END STRING
 
 > BEGIN STRING
@@ -3703,8 +3784,11 @@ Nothing
 ただ、絶頂のタイミングは相手の方が僅かに先ですの。
 相手が絶頂する場合、自分はEP1で耐えられますわ。
 例外は、相互絶頂が有効になっている場合ですわね。
-> CONTEXT: Commonevents/144/147/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/147/Dialogue
+\\name[\\v[2]]\\_
+However, the other person will climax first.
+If the other person climaxes, you can withstand it with 1 EP.
+The exception to this is when mutual climax is enabled.
 > END STRING
 
 > BEGIN STRING
@@ -3712,8 +3796,11 @@ Nothing
 ちなみに、単独自爆ということもできますわ。
 自爆絶頂が有効な場合のみ
 自慰スキルで自分のEPを0にすることができますの。
-> CONTEXT: Commonevents/144/151/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/151/Dialogue
+\\name[\\v[2]]\\_
+By the way, you can also do a solo climax.
+Only if the self climax is active, you can use 
+the masturbation skill to reduce your own EP to 0.
 > END STRING
 
 > BEGIN STRING
@@ -3721,8 +3808,11 @@ Nothing
 \\c[12]相互絶頂\\c[0]とは、自分の攻めによって
 自分と相手が同時に達するというものですわ。
 双方が満足する、とても素敵な展開ですわね。
-> CONTEXT: Commonevents/144/155/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/155/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]Mutual climax\\c[0] is when you and your opponent 
+reach orgasm at the same time through your attack.
+It's a wonderful situation that satisfies both parties.
 > END STRING
 
 > BEGIN STRING
@@ -3730,8 +3820,12 @@ Nothing
 これはタイミングが大事ですの。
 条件は「自分に反動があるスキル」で相手を絶頂させ、
 その時に自分がクライシス状態になっていることですわ。
-> CONTEXT: Commonevents/144/159/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/159/Dialogue
+\\name[\\v[2]]\\_
+Timing is important here.
+The condition is to make the opponent climax 
+with a skill that has recoil
+and to be in a crisis state at the same time.
 > END STRING
 
 > BEGIN STRING
@@ -3739,8 +3833,11 @@ Nothing
 この時のVPダメージは攻め側の方が少なくなりますの。
 絶頂が避けられないのなら
 相打ちを覚悟で攻め切ってしまうというのも手ですわね。
-> CONTEXT: Commonevents/144/163/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/163/Dialogue
+\\name[\\v[2]]\\_
+At this time, the attacking side will take less VP damage.
+If the climax is unavoidable, it's a good idea 
+to go all out and attack, even if it means a draw.
 > END STRING
 
 > BEGIN STRING
@@ -3748,8 +3845,11 @@ Nothing
 とはいえ、攻め切れなければ自爆してしまう可能性も。
 自分と相手の力量を見極めること･･･
 つまり、お互いの理解が大事ということですわね。
-> CONTEXT: Commonevents/144/167/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/167/Dialogue
+\\name[\\v[2]]\\_
+However, if you can't keep up your attack, you may just 
+self climax. Assess your and your opponent's strengths...
+In other words, mutual understanding is important.
 > END STRING
 
 > BEGIN STRING
@@ -3757,8 +3857,11 @@ Nothing
 \\c[12]瞬間絶頂\\c[0]とは、自分が僅かなEPの時に
 ある部位をホールドするか、ある部位をホールドされた時に
 達してしまうというものですわ。
-> CONTEXT: Commonevents/144/171/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/171/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]Instantaneous climax\\c[0] is when you hold a certain part 
+of your body or have a certain part of your body held 
+when you have very little EP.
 > END STRING
 
 > BEGIN STRING
@@ -3766,8 +3869,10 @@ Nothing
 対象となる部位は「ペニス、アソコ、アナル」の\\_
 いずれかですわ。
 ……少し恥ずかしいですわね。
-> CONTEXT: Commonevents/144/175/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/175/Dialogue
+\\name[\\v[2]]\\_
+The target body parts are either "penis, vagina, or anus".
+...It's a little embarrassing.
 > END STRING
 
 > BEGIN STRING
@@ -3775,8 +3880,10 @@ Nothing
 例えばインサートならどちらも
 絶頂する可能性がありますけど、
 オーラルインサートでは♂側しか絶頂しないのですわ。
-> CONTEXT: Commonevents/144/179/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/179/Dialogue
+\\name[\\v[2]]\\_
+For example, with insertion, both partners could climax, 
+but with oral insertion, only ♂ can climax.
 > END STRING
 
 > BEGIN STRING
@@ -3784,24 +3891,32 @@ Nothing
 EPの目安としては「100以下」かつ
 「最大EPの10分の1以下」になっていることですわ。
 ギリギリの時は挿入するのを控えたほうが宜しいですわね。
-> CONTEXT: Commonevents/144/183/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/183/Dialogue
+\\name[\\v[2]]\\_
+The EP should be "less than 100" and
+"less than 1/10 of the maximum EP."
+If it's on the edge, it's best to refrain from inserting.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ちなみにどちらもホールド瞬間絶頂したときには、
 同時絶頂の設定に関係なく同時に達しますわ。
-> CONTEXT: Commonevents/144/187/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/187/Dialogue
+\\name[\\v[2]]\\_
+By the way, if you hold both and climax instantly,
+you will climax at the same time regardless of 
+the mutual climax setting.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そのままで宜しいのですわね。
 それでは、よき夢を。
-> CONTEXT: Commonevents/144/192/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/144/192/Dialogue
+\\name[\\v[2]]\\_
+So it's fine as is.
+Sweet dreams.
 > END STRING
 
 > BEGIN STRING
@@ -3827,44 +3942,53 @@ EPの目安としては「100以下」かつ
 ホールド変更機能は\\v[3]
 ホールド強奪機能は\\v[5]
 だよ。設定を変えたいかい？
-> CONTEXT: Commonevents/145/18/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/145/18/Dialogue
+\\name[\\v[2]]\\_
+The hold change function is \\v[3]
+The hold steal function is \\v[5]
+Want to change the settings?
 > END STRING
 
 > BEGIN STRING
 ホールド変更機能を\\v[4]にする
-> CONTEXT: Commonevents/145/22/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Commonevents/145/22/Choice/0
+Change hold function to \\v[4]
 > END STRING
 
 > BEGIN STRING
 ホールド強奪機能を\\v[6]にする
-> CONTEXT: Commonevents/145/22/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Commonevents/145/22/Choice/1
+Hold steal function to \\v[6]
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 \\v[4]にしたよ。
 変えたくなったらまた話しかけてね。
-> CONTEXT: Commonevents/145/32/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/145/32/Dialogue
+\\name[\\v[2]]\\_
+I changed it to \\v[4].
+If you want to change it, talk to me again.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 \\v[6]にしたよ。
 変えたくなったらまた話しかけてね。
-> CONTEXT: Commonevents/145/45/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/145/45/Dialogue
+\\name[\\v[2]]\\_
+I changed it to \\v[6].
+If you want to change it, talk to me again.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ホールド状態でイかされた時に
 そのままホールドが継続されることがあるよね？
-> CONTEXT: Commonevents/145/50/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/145/50/Dialogue
+\\name[\\v[2]]\\_
+When you're held and made to cum,
+it's possible for the hold to continue, right?
 > END STRING
 
 > BEGIN STRING
@@ -3872,8 +3996,11 @@ EPの目安としては「100以下」かつ
 一方的に攻められるのはイイけど
 違うホールド技でも攻められてみたい･･･
 そんなアナタにぴったりな機能だよ。
-> CONTEXT: Commonevents/145/53/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/145/53/Dialogue
+\\name[\\v[2]]\\_
+It's nice to be attacked one-sidedly, but
+you'd like to be attacked with different hold techniques...
+This is the perfect feature for you.
 > END STRING
 
 > BEGIN STRING
@@ -3881,8 +4008,11 @@ EPの目安としては「100以下」かつ
 \\c[12]ホールド変更機能\\c[0]がONになってると
 アナタがイかされてへろへろになってる間に
 相手が別のホールド技を掛け直してくれるの。
-> CONTEXT: Commonevents/145/57/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/145/57/Dialogue
+\\name[\\v[2]]\\_
+When the \\c[12]Hold change\\c[0] is ON
+while you're exhausted from a climax, 
+your opponent can reapply a different hold technique.
 > END STRING
 
 > BEGIN STRING
@@ -3890,8 +4020,11 @@ EPの目安としては「100以下」かつ
 お口でイかせたら、次はアソコで･･･って感じ。
 体勢的に難しいのもあるから
 ホールドによって変化先はある程度決まってるよ。
-> CONTEXT: Commonevents/145/61/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/145/61/Dialogue
+\\name[\\v[2]]\\_
+If you cum in the mouth, then next is down there...
+Some positions are difficult,
+so the changes are somewhat determined by the hold.
 > END STRING
 
 > BEGIN STRING
@@ -3899,8 +4032,11 @@ EPの目安としては「100以下」かつ
 あと、\\c[12]ホールド強奪機能\\c[0]がONになってると
 相手が複数の場合、夢魔同士でホールドの奪い合いが
 発生することもあるよ。
-> CONTEXT: Commonevents/145/65/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/145/65/Dialogue
+\\name[\\v[2]]\\_
+Also, if \\c[12]Hold steal\\c[0] is ON, 
+if there are multiple opponents, 
+succubi may fight over the holds.
 > END STRING
 
 > BEGIN STRING
@@ -3908,23 +4044,29 @@ EPの目安としては「100以下」かつ
 ホールドを引き剥がして自分に挿入させる･･･って感じ。
 相手の友好度が高かったり
 精を受けた回数に差が出たりすると発生しやすくなるよ。
-> CONTEXT: Commonevents/145/69/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/145/69/Dialogue
+\\name[\\v[2]]\\_
+It's like tearing someone off and taking their place.
+This is more likely at higher friendship levels or if 
+there is a difference in the times they've received semen.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 興味があるなら試してみてね。
-> CONTEXT: Commonevents/145/73/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/145/73/Dialogue
+\\name[\\v[2]]\\_
+If you're interested, give it a try.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そのままでいいんだね。
 変えたくなったらまた話しかけてね。
-> CONTEXT: Commonevents/145/77/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/145/77/Dialogue
+\\name[\\v[2]]\\_
+I guess it's fine the way it is.
+If you want to change it, talk to me again.
 > END STRING
 
 > BEGIN STRING
@@ -3959,42 +4101,46 @@ EPの目安としては「100以下」かつ
 えっちなのはいけないと思いませんか？
 （はいを選択すると一部画像に
 　ハートが表示されます）
-> CONTEXT: Commonevents/149/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/149/0/Dialogue
+\\name[\\v[2]]\\_
+Don't you think it's wrong to be naughty?
+(If Yes, hearts will cover some images)
 > END STRING
 
 > BEGIN STRING
 現在は表示ありです
-> CONTEXT: Commonevents/149/5/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/200/5/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/149/5/Dialogue
+> CONTEXT: Commonevents/200/5/Dialogue
+Currently displayed
 > END STRING
 
 > BEGIN STRING
 現在は表示なしです
-> CONTEXT: Commonevents/149/8/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/200/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/149/8/Dialogue
+> CONTEXT: Commonevents/200/8/Dialogue
+Currently not displayed
 > END STRING
 
 > BEGIN STRING
 ハートを表示しますか？
-> CONTEXT: Commonevents/149/11/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/149/11/Dialogue
+Show hearts?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そうでしょう、そうでしょう。
-> CONTEXT: Commonevents/149/15/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/149/15/Dialogue
+\\name[\\v[2]]\\_
+I see, I see.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 えぇぇ・・・
-> CONTEXT: Commonevents/149/20/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/149/20/Dialogue
+\\name[\\v[2]]\\_
+Eeeh...
 > END STRING
 
 > BEGIN STRING
@@ -4014,9 +4160,9 @@ Tell me what you want to know about.
 
 > BEGIN STRING
 弱点を教える
-> CONTEXT: Commonevents/151/4/Choice/0 < UNTRANSLATED
-> CONTEXT: Commonevents/166/4/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Commonevents/151/4/Choice/0
+> CONTEXT: Commonevents/166/4/Choice/0
+Weaknesses
 > END STRING
 
 > BEGIN STRING
@@ -4377,33 +4523,41 @@ EP・VP・魅力・精力・器用さ・素早さ・忍耐力・精神力。
 ここは夢の世界だからね。
 キミが望むならキミを童貞に戻してあげよう。
 どうかな？
-> CONTEXT: Commonevents/154/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/154/4/Dialogue
+\\name[\\v[2]]\\_
+This is a dream world.
+If you want, I can make you a virgin again.
+What do you think?
 > END STRING
 
 > BEGIN STRING
 童貞にしてもらいますか？
-> CONTEXT: Commonevents/154/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/154/8/Dialogue
+Would you like to become a virgin?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 よし、これでオッケー。
 間違っても意中の人以外に奪われるなよ。
-> CONTEXT: Commonevents/154/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/154/12/Dialogue
+\\name[\\v[2]]\\_
+Okay, all good.
+Don't let anyone other 
+than the one you want take it from you.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そうかい。
 ま、その気になったらまた来てくれよ。
-> CONTEXT: Commonevents/154/17/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/157/62/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/158/45/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/159/36/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/154/17/Dialogue
+> CONTEXT: Commonevents/157/62/Dialogue
+> CONTEXT: Commonevents/158/45/Dialogue
+> CONTEXT: Commonevents/159/36/Dialogue
+\\name[\\v[2]]\\_
+Is that so?
+Well, come back when you feel like it.
 > END STRING
 
 > BEGIN STRING
@@ -4472,103 +4626,118 @@ EP・VP・魅力・精力・器用さ・素早さ・忍耐力・精神力。
 \\name[\\v[2]]\\_
 そこのキミ。そう、キミだよキミ。
 ちょっといいかい？
-> CONTEXT: Commonevents/157/1/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/158/1/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/159/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/157/1/Dialogue
+> CONTEXT: Commonevents/158/1/Dialogue
+> CONTEXT: Commonevents/159/1/Dialogue
+\\name[\\v[2]]\\_
+Hey there. Yes, it's you.
+Can I ask you something?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 キミはもし自分が女だったら…
 って考えたことないかい？
-> CONTEXT: Commonevents/157/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/157/4/Dialogue
+\\name[\\v[2]]\\_
+Have you ever wondered 
+what it would be like if you were a woman?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 もしよければキミを女の子にしてあげられるけど、
 興味あるかい？
-> CONTEXT: Commonevents/157/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/157/7/Dialogue
+\\name[\\v[2]]\\_
+If you want, I can turn you into a girl,
+are you interested?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 やあ、また会ったね。
-> CONTEXT: Commonevents/157/13/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/158/13/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/159/13/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/157/13/Dialogue
+> CONTEXT: Commonevents/158/13/Dialogue
+> CONTEXT: Commonevents/159/13/Dialogue
+\\name[\\v[2]]\\_
+Hello, nice to meet you again.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 性別を変えてみるかい？
-> CONTEXT: Commonevents/157/15/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/158/15/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/159/15/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/157/15/Dialogue
+> CONTEXT: Commonevents/158/15/Dialogue
+> CONTEXT: Commonevents/159/15/Dialogue
+\\name[\\v[2]]\\_
+Would you like to change your gender?
 > END STRING
 
 > BEGIN STRING
 女の子にしてもらいますか？
-> CONTEXT: Commonevents/157/19/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/157/19/Dialogue
+Would you like to be a girl?
 > END STRING
 
 > BEGIN STRING
 女の子にしてもらう
-> CONTEXT: Commonevents/157/20/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Commonevents/157/20/Choice/0
+Become girl
 > END STRING
 
 > BEGIN STRING
 ふたなりにしてもらう
-> CONTEXT: Commonevents/157/20/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Commonevents/157/20/Choice/1
+Become futanari
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 おおっと。キミは欲張りなんだね。
-> CONTEXT: Commonevents/157/41/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/157/41/Dialogue
+\\name[\\v[2]]\\_
+Oops. You're greedy.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 キミはもし自分が男だったら…
 って考えたことないかい？
-> CONTEXT: Commonevents/158/4/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/159/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/158/4/Dialogue
+> CONTEXT: Commonevents/159/4/Dialogue
+\\name[\\v[2]]\\_
+Have you ever wondered 
+what it would be like if you were a man?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 もしよければキミを男の子にしてあげられるけど、
 興味あるかい？
-> CONTEXT: Commonevents/158/7/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/159/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/158/7/Dialogue
+> CONTEXT: Commonevents/159/7/Dialogue
+\\name[\\v[2]]\\_
+If you want, I can turn you into a boy.
+Are you interested?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 おっと、キミは妊娠しているようだね。
 妊娠中は男の子になれないよ。
-> CONTEXT: Commonevents/158/20/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/159/20/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/158/20/Dialogue
+> CONTEXT: Commonevents/159/20/Dialogue
+\\name[\\v[2]]\\_
+Oh, it looks like you're pregnant.
+You can't turn into a boy while pregnant.
 > END STRING
 
 > BEGIN STRING
 男の子にしてもらいますか？
-> CONTEXT: Commonevents/158/25/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/159/25/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/158/25/Dialogue
+> CONTEXT: Commonevents/159/25/Dialogue
+Would you like to be a boy?
 > END STRING
 
 > BEGIN STRING
@@ -4576,56 +4745,69 @@ EP・VP・魅力・精力・器用さ・素早さ・忍耐力・精神力。
 これでどこからどう見ても男の子だね。
 経験が無いようだったから
 童貞にしておいたよ。
-> CONTEXT: Commonevents/158/33/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/158/33/Dialogue
+\\name[\\v[2]]\\_
+So no matter how you look at it, you're a boy.
+You didn't seem to have any experience, so
+I decided to keep you a virgin.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 これでどこからどう見ても男の子だね。
-> CONTEXT: Commonevents/158/39/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/159/32/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/158/39/Dialogue
+> CONTEXT: Commonevents/159/32/Dialogue
+\\name[\\v[2]]\\_
+No matter how you look at it, you're a boy.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 \\n[101]、お留守番してみるかい？
 夢魔たちだけで探索ができるようになるよ。
-> CONTEXT: Commonevents/160/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/160/0/Dialogue
+\\name[\\v[2]]\\_
+\\n[101], would you like to stay home and watch?
+You'll be able to explore with the succubi alone.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 代わりに探索してくれる仲間がいないね。
 仲間を連れてきてから、もう一度話し掛けてよ。
-> CONTEXT: Commonevents/160/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/160/7/Dialogue
+\\name[\\v[2]]\\_
+You don't have any companions to explore for you.
+Talk to me again after you bring some companions.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 それじゃあ、いってらっしゃい。
-> CONTEXT: Commonevents/160/17/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/161/18/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/160/17/Dialogue
+> CONTEXT: Commonevents/161/18/Dialogue
+\\name[\\v[2]]\\_
+Well then, have fun.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 おかえり。
 \\n[101]をパーティに戻すかい？
-> CONTEXT: Commonevents/161/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/161/0/Dialogue
+\\name[\\v[2]]\\_
+Welcome back.
+Would you like \\n[101] back in the party?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 パーティがいっぱいだね。
 仲間を預けてから、もう一度話し掛けてよ。
-> CONTEXT: Commonevents/161/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/161/7/Dialogue
+\\name[\\v[2]]\\_
+Your party is full.
+Please leave your companions and talk to me again.
 > END STRING
 
 > BEGIN STRING
@@ -4648,10 +4830,10 @@ Special weaknesses
 
 > BEGIN STRING
 強力な弱点を教える
-> CONTEXT: Commonevents/165/4/Choice/3 < UNTRANSLATED
-> CONTEXT: Commonevents/166/4/Choice/1 < UNTRANSLATED
-> CONTEXT: Commonevents/167/4/Choice/3 < UNTRANSLATED
-
+> CONTEXT: Commonevents/165/4/Choice/3
+> CONTEXT: Commonevents/166/4/Choice/1
+> CONTEXT: Commonevents/167/4/Choice/3
+Strong weaknesses
 > END STRING
 
 > BEGIN STRING
@@ -4812,120 +4994,133 @@ That means it's been trained.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 女性の口は大好き？
-> CONTEXT: Commonevents/165/285/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/166/100/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/167/229/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/165/285/Dialogue
+> CONTEXT: Commonevents/166/100/Dialogue
+> CONTEXT: Commonevents/167/229/Dialogue
+\\name[\\v[2]]\\_
+Do you love a woman's mouth?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 女性の胸は大好き？
-> CONTEXT: Commonevents/165/298/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/166/113/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/167/242/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/165/298/Dialogue
+> CONTEXT: Commonevents/166/113/Dialogue
+> CONTEXT: Commonevents/167/242/Dialogue
+\\name[\\v[2]]\\_
+Do you love women's breasts?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ペニスは大好き？
-> CONTEXT: Commonevents/165/311/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/166/126/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/167/255/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/165/311/Dialogue
+> CONTEXT: Commonevents/166/126/Dialogue
+> CONTEXT: Commonevents/167/255/Dialogue
+\\name[\\v[2]]\\_
+Do you love penises?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 女性のアソコは大好き？
-> CONTEXT: Commonevents/165/324/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/166/139/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/167/268/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/165/324/Dialogue
+> CONTEXT: Commonevents/166/139/Dialogue
+> CONTEXT: Commonevents/167/268/Dialogue
+\\name[\\v[2]]\\_
+Do you love women's genitals?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 女性のお尻は大好き？
-> CONTEXT: Commonevents/165/337/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/166/152/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/167/281/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/165/337/Dialogue
+> CONTEXT: Commonevents/166/152/Dialogue
+> CONTEXT: Commonevents/167/281/Dialogue
+\\name[\\v[2]]\\_
+Do you love women's butts?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 女性の足は大好き？
-> CONTEXT: Commonevents/165/350/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/166/165/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/167/294/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/165/350/Dialogue
+> CONTEXT: Commonevents/166/165/Dialogue
+> CONTEXT: Commonevents/167/294/Dialogue
+\\name[\\v[2]]\\_
+Do you love women's feet?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 尻尾は大好き？
-> CONTEXT: Commonevents/165/363/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/166/178/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/167/307/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/165/363/Dialogue
+> CONTEXT: Commonevents/166/178/Dialogue
+> CONTEXT: Commonevents/167/307/Dialogue
+\\name[\\v[2]]\\_
+Do you love tails?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 触手は大好き？
-> CONTEXT: Commonevents/165/376/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/166/191/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/167/320/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/165/376/Dialogue
+> CONTEXT: Commonevents/166/191/Dialogue
+> CONTEXT: Commonevents/167/320/Dialogue
+\\name[\\v[2]]\\_
+Do you love tentacles?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ありがとう、ふふっ……なるほどねぇ。
-> CONTEXT: Commonevents/165/395/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/166/210/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/167/339/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/165/395/Dialogue
+> CONTEXT: Commonevents/166/210/Dialogue
+> CONTEXT: Commonevents/167/339/Dialogue
+\\name[\\v[2]]\\_
+Thank you, hehe... I see.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 口を攻められるのは好き？
-> CONTEXT: Commonevents/166/11/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/167/140/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/166/11/Dialogue
+> CONTEXT: Commonevents/167/140/Dialogue
+\\name[\\v[2]]\\_
+Do you like having your mouth attacked?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 お尻を攻められるのは好き？
-> CONTEXT: Commonevents/166/24/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/167/153/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/166/24/Dialogue
+> CONTEXT: Commonevents/167/153/Dialogue
+\\name[\\v[2]]\\_
+Do you like having your ass touched?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 胸を攻められるのは好き？
-> CONTEXT: Commonevents/166/37/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/167/166/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/166/37/Dialogue
+> CONTEXT: Commonevents/167/166/Dialogue
+\\name[\\v[2]]\\_
+Do you like having your chest touched?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 アソコを攻められるのは好き？
-> CONTEXT: Commonevents/166/50/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/167/179/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/166/50/Dialogue
+> CONTEXT: Commonevents/167/179/Dialogue
+\\name[\\v[2]]\\_
+Do you like having your private parts attacked?
 > END STRING
 
 > BEGIN STRING
 身体の弱点を教える
-> CONTEXT: Commonevents/167/4/Choice/2 < UNTRANSLATED
-
+> CONTEXT: Commonevents/167/4/Choice/2
+Tell weaknesses
 > END STRING
 
 > BEGIN STRING
@@ -4933,28 +5128,32 @@ That means it's been trained.
 夢魔のホールド中に動きを付けますか？
 （はいを選択すると対応夢魔の
 　ホールドがアニメーションになります）
-> CONTEXT: Commonevents/200/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/200/0/Dialogue
+\\name[\\v[2]]\\_
+Do you want to see animation while holding succubi?
+(If Yes, the corresponding succubi's hold will be animated)
 > END STRING
 
 > BEGIN STRING
 ホールドアニメを表示しますか？
-> CONTEXT: Commonevents/200/11/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/200/11/Dialogue
+Show hold animation?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 表示ありにしました
-> CONTEXT: Commonevents/200/15/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/200/15/Dialogue
+\\name[\\v[2]]\\_
+Displayed
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 表示なしにしました
-> CONTEXT: Commonevents/200/20/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/200/20/Dialogue
+\\name[\\v[2]]\\_
+Don't display
 > END STRING
 
 > BEGIN STRING
@@ -4974,8 +5173,10 @@ Would you like to open the treasure chest?
 > BEGIN STRING
 ･･････！\\|
 この採取ポイントには擬態した夢魔が潜んでいるようだ！
-> CONTEXT: Commonevents/204/23/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/204/23/Dialogue
+...! \\|
+It seems that a disguised succubus 
+is lurking at this collection point!
 > END STRING
 
 > BEGIN STRING
@@ -7620,8 +7821,10 @@ Are you ready? うん！
 \\name[出産ロボ]\\_
 ソレハ「豊穣のルーン」
 妊娠スルコトガ可能ニナル、ルーンデス。
-> CONTEXT: Commonevents/434/123/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/434/123/Dialogue
+\\name[Birthing Robot]\\_
+That's the "Fertility Rune"
+It makes pregnancy possible, rune death.
 > END STRING
 
 > BEGIN STRING

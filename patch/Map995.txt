@@ -1115,12 +1115,13 @@ Won't open
 > BEGIN STRING
 \\name[メイド]\\_
 無事に産まれました！
-> CONTEXT: Map995/events/8/pages/0/99/Dialogue < UNTRANSLATED
-> CONTEXT: Map569/events/7/pages/0/98/Dialogue < UNTRANSLATED
-> CONTEXT: Map624/events/156/pages/0/98/Dialogue < UNTRANSLATED
-> CONTEXT: Map272/events/228/pages/0/81/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/164/99/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map995/events/8/pages/0/99/Dialogue
+> CONTEXT: Map569/events/7/pages/0/98/Dialogue
+> CONTEXT: Map624/events/156/pages/0/98/Dialogue
+> CONTEXT: Map272/events/228/pages/0/81/Dialogue
+> CONTEXT: Commonevents/164/99/Dialogue
+\\name[Maid]\\_
+The baby was born safely!
 > END STRING
 
 > BEGIN STRING
@@ -1128,48 +1129,57 @@ Won't open
 冒険に連れて行かれるのは危ないので、
 お子様は邸宅でお預かりしますね。
 ベビーシッターもお任せください！
-> CONTEXT: Map995/events/8/pages/0/101/Dialogue < UNTRANSLATED
-> CONTEXT: Map569/events/7/pages/0/100/Dialogue < UNTRANSLATED
-> CONTEXT: Map624/events/156/pages/0/100/Dialogue < UNTRANSLATED
-> CONTEXT: Map272/events/228/pages/0/83/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/164/101/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map995/events/8/pages/0/101/Dialogue
+> CONTEXT: Map569/events/7/pages/0/100/Dialogue
+> CONTEXT: Map624/events/156/pages/0/100/Dialogue
+> CONTEXT: Map272/events/228/pages/0/83/Dialogue
+> CONTEXT: Commonevents/164/101/Dialogue
+\\name[Maid]\\_
+It's dangerous to take your children on an adventure,
+so we'll look after them at the mansion.
+We can also babysit for you!
 > END STRING
 
 > BEGIN STRING
 \\name[メイド]\\_
 はわわ……、
 身重で冒険は危ないですよぉ。
-> CONTEXT: Map995/events/8/pages/0/111/Dialogue < UNTRANSLATED
-> CONTEXT: Map569/events/7/pages/0/109/Dialogue < UNTRANSLATED
-> CONTEXT: Map624/events/156/pages/0/109/Dialogue < UNTRANSLATED
-> CONTEXT: Map272/events/228/pages/0/92/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/164/111/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map995/events/8/pages/0/111/Dialogue
+> CONTEXT: Map569/events/7/pages/0/109/Dialogue
+> CONTEXT: Map624/events/156/pages/0/109/Dialogue
+> CONTEXT: Map272/events/228/pages/0/92/Dialogue
+> CONTEXT: Commonevents/164/111/Dialogue
+\\name[Maid]\\_
+Oh no...
+It's dangerous to go on an adventure while pregnant.
 > END STRING
 
 > BEGIN STRING
 \\name[メイド]\\_
 妊娠中は器用さと素早さが下がってます！
 ご注意くださいね。
-> CONTEXT: Map995/events/8/pages/0/114/Dialogue < UNTRANSLATED
-> CONTEXT: Map569/events/7/pages/0/112/Dialogue < UNTRANSLATED
-> CONTEXT: Map624/events/156/pages/0/112/Dialogue < UNTRANSLATED
-> CONTEXT: Map272/events/228/pages/0/95/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/164/114/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map995/events/8/pages/0/114/Dialogue
+> CONTEXT: Map569/events/7/pages/0/112/Dialogue
+> CONTEXT: Map624/events/156/pages/0/112/Dialogue
+> CONTEXT: Map272/events/228/pages/0/95/Dialogue
+> CONTEXT: Commonevents/164/114/Dialogue
+\\name[Maid]\\_
+Dexterity and speed decrease during pregnancy!
+Please be careful.
 > END STRING
 
 > BEGIN STRING
 \\name[メイド]\\_
 そ、それは「豊穣のルーン」！
 妊娠することができるようになるルーンですね！
-> CONTEXT: Map995/events/8/pages/0/122/Dialogue < UNTRANSLATED
-> CONTEXT: Map569/events/7/pages/0/120/Dialogue < UNTRANSLATED
-> CONTEXT: Map624/events/156/pages/0/120/Dialogue < UNTRANSLATED
-> CONTEXT: Map272/events/228/pages/0/103/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/164/122/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map995/events/8/pages/0/122/Dialogue
+> CONTEXT: Map569/events/7/pages/0/120/Dialogue
+> CONTEXT: Map624/events/156/pages/0/120/Dialogue
+> CONTEXT: Map272/events/228/pages/0/103/Dialogue
+> CONTEXT: Commonevents/164/122/Dialogue
+\\name[Maid]\\_
+That's the "Fertility Rune"!
+It's the rune that allows you to become pregnant!
 > END STRING
 
 > BEGIN STRING
@@ -1177,12 +1187,15 @@ Won't open
 とはいえ、ルーンの力をもってしても、
 1回で妊娠できるとは限りません。
 頑張ってください！
-> CONTEXT: Map995/events/8/pages/0/125/Dialogue < UNTRANSLATED
-> CONTEXT: Map569/events/7/pages/0/123/Dialogue < UNTRANSLATED
-> CONTEXT: Map624/events/156/pages/0/123/Dialogue < UNTRANSLATED
-> CONTEXT: Map272/events/228/pages/0/106/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/164/125/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map995/events/8/pages/0/125/Dialogue
+> CONTEXT: Map569/events/7/pages/0/123/Dialogue
+> CONTEXT: Map624/events/156/pages/0/123/Dialogue
+> CONTEXT: Map272/events/228/pages/0/106/Dialogue
+> CONTEXT: Commonevents/164/125/Dialogue
+\\name[Maid]\\_
+However, even with the power of the runes,
+it's not guaranteed that you'll be able to get pregnant in one try.
+Good luck!
 > END STRING
 
 > BEGIN STRING
@@ -1190,52 +1203,59 @@ Won't open
 それと、男性器を持つ夢魔に負けてしまった場合、
 望まぬ妊娠をしてしまうこともありますので、
 そこはご注意くださいねぇ……。
-> CONTEXT: Map995/events/8/pages/0/129/Dialogue < UNTRANSLATED
-> CONTEXT: Map569/events/7/pages/0/127/Dialogue < UNTRANSLATED
-> CONTEXT: Map624/events/156/pages/0/127/Dialogue < UNTRANSLATED
-> CONTEXT: Map272/events/228/pages/0/110/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/164/129/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map995/events/8/pages/0/129/Dialogue
+> CONTEXT: Map569/events/7/pages/0/127/Dialogue
+> CONTEXT: Map624/events/156/pages/0/127/Dialogue
+> CONTEXT: Map272/events/228/pages/0/110/Dialogue
+> CONTEXT: Commonevents/164/129/Dialogue
+\\name[Maid]\\_
+Also, if you lose to a succubus with male genitalia,
+you may end up with an unwanted pregnancy,
+so please be careful...
 > END STRING
 
 > BEGIN STRING
 \\name[メイド]\\_
 夢魔でも妊娠することができるようになる、
 不思議なルーンがあるそうですよ。
-> CONTEXT: Map995/events/8/pages/0/135/Dialogue < UNTRANSLATED
-> CONTEXT: Map569/events/7/pages/0/133/Dialogue < UNTRANSLATED
-> CONTEXT: Map624/events/156/pages/0/133/Dialogue < UNTRANSLATED
-> CONTEXT: Map272/events/228/pages/0/116/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/164/135/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map995/events/8/pages/0/135/Dialogue
+> CONTEXT: Map569/events/7/pages/0/133/Dialogue
+> CONTEXT: Map624/events/156/pages/0/133/Dialogue
+> CONTEXT: Map272/events/228/pages/0/116/Dialogue
+> CONTEXT: Commonevents/164/135/Dialogue
+\\name[Maid]\\_
+There's apparently a mysterious rune that allows even succubi 
+to become pregnant.
 > END STRING
 
 > BEGIN STRING
 \\name[メイド]\\_
 種族を超えた愛の形……、
 なんだかドキドキしてしまいますね！
-> CONTEXT: Map995/events/8/pages/0/138/Dialogue < UNTRANSLATED
-> CONTEXT: Map569/events/7/pages/0/136/Dialogue < UNTRANSLATED
-> CONTEXT: Map624/events/156/pages/0/136/Dialogue < UNTRANSLATED
-> CONTEXT: Map272/events/228/pages/0/119/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/164/138/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map995/events/8/pages/0/138/Dialogue
+> CONTEXT: Map569/events/7/pages/0/136/Dialogue
+> CONTEXT: Map624/events/156/pages/0/136/Dialogue
+> CONTEXT: Map272/events/228/pages/0/119/Dialogue
+> CONTEXT: Commonevents/164/138/Dialogue
+\\name[Maid]\\_
+Love that transcends race...
+It's kind of exciting!
 > END STRING
 
 > BEGIN STRING
 "グラキエース"
-> CONTEXT: Map995/events/9/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map995/events/9/pages/0/70/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map995/events/9/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map995/events/9/pages/1/68/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map712/events/20/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map701/events/11/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map701/events/11/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map686/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map686/events/4/pages/0/86/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map686/events/4/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map686/events/4/pages/1/82/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map995/events/9/pages/0/0/InlineScript/1:22
+> CONTEXT: Map995/events/9/pages/0/70/InlineScript/1:22
+> CONTEXT: Map995/events/9/pages/1/0/InlineScript/1:22
+> CONTEXT: Map995/events/9/pages/1/68/InlineScript/1:22
+> CONTEXT: Map712/events/20/pages/0/0/InlineScript/1:22
+> CONTEXT: Map701/events/11/pages/0/0/InlineScript/1:22
+> CONTEXT: Map701/events/11/pages/1/0/InlineScript/1:22
+> CONTEXT: Map686/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map686/events/4/pages/0/86/InlineScript/1:22
+> CONTEXT: Map686/events/4/pages/1/0/InlineScript/1:22
+> CONTEXT: Map686/events/4/pages/1/82/InlineScript/1:22
+"Grakiace"
 > END STRING
 
 > BEGIN STRING
@@ -1893,11 +1913,11 @@ Check bonus table
 
 > BEGIN STRING
 "カラス"
-> CONTEXT: Map995/events/31/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map876/events/1/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map702/events/14/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map624/events/98/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map995/events/31/pages/0/0/InlineScript/1:22
+> CONTEXT: Map876/events/1/pages/0/0/InlineScript/1:22
+> CONTEXT: Map702/events/14/pages/0/0/InlineScript/1:22
+> CONTEXT: Map624/events/98/pages/0/0/InlineScript/1:22
+"Crow"
 > END STRING
 
 > BEGIN STRING

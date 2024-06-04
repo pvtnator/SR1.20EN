@@ -10203,7 +10203,7 @@ Status:
 なし
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: PR_Window_SystemLeft.rb
-
+No
 > END STRING
 
 > BEGIN STRING
@@ -15303,7 +15303,7 @@ Masochist
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: O_MOD_Scene_Battle_AttackElementChange.rb
 > CONTEXT: PR_Window_SystemLeft.rb
-Usually
+Usual
 > END STRING
 
 > BEGIN STRING
@@ -18879,7 +18879,7 @@ You and this succubus are special to each other.
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_RPG_Class_ボーナス.rb
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Seed of Love
 > END STRING
 
 > BEGIN STRING
@@ -49634,7 +49634,7 @@ VeryEasy
 > BEGIN STRING
 \\>物語を楽しみたい人におすすめの難易度です。\nとても戦闘が簡単になり、一部のバランスブレイカーの制限が取り払われます。\n通常戦闘でもベッド戦専用スキル・素質を使用できます。\nドロップ率が激減。\\<
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+\\>Easy difficulty for enjoying the story. \nCombat becomes much easier, and some restrictions are removed. \nYou can use bed battle skills and talents in normal battles. \nDrop rates are greatly reduced. \\<
 > END STRING
 
 > BEGIN STRING
@@ -49646,7 +49646,7 @@ Easy
 > BEGIN STRING
 \\>物語を楽しみたい人におすすめの難易度です。\n戦闘が簡単になり、一部のバランスブレイカーの制限が取り払われます。\n通常戦闘でもベッド戦専用スキル・素質を使用できます。\nドロップ率が激減。\\<
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+\\>Easy difficulty for enjoying the story. \nCombat becomes easier, and some restrictions are removed. \nYou can use bed battle skills and talents in normal battles. \nDrop rates are greatly reduced. \\<
 > END STRING
 
 > BEGIN STRING
@@ -49658,7 +49658,7 @@ Romance
 > BEGIN STRING
 \\>バランスブレイカーを使用したい人におすすめの難易度です。\n一部のバランスブレイカーの制限が取り払われます。\n通常戦闘でもベッド戦専用スキル・素質を使用できます。\nドロップ率が低下。\\<
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+\\>Recommended for those who want to use Balance Breakers. \nSome Balance Breaker restrictions are removed. \nYou can use bed battle skills and talents in normal battles. \nDrop rates are reduced. \\<
 > END STRING
 
 > BEGIN STRING
@@ -49670,7 +49670,7 @@ Normal
 > BEGIN STRING
 \\>通常の難易度です。\n戦闘と物語をバランスよく楽しめます。
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+\\>Normal difficulty. \nYou can enjoy a good balance between battle and story.
 > END STRING
 
 > BEGIN STRING
@@ -49682,7 +49682,7 @@ Hard
 > BEGIN STRING
 \\>難しめの難易度です。\n敵に高難易度専用の能力が付与されます。\nコマンド難易度、レジスト難易度、ドロップ率がやや増加。\\<
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+\\>Challenging mode. \nEnemies have abilities exclusive to high difficulty levels. \nCommand and resist difficulty and drop rate are slightly increased.\\<
 > END STRING
 
 > BEGIN STRING
@@ -49694,7 +49694,7 @@ Veryhard
 > BEGIN STRING
 \\>難しい難易度です。\nコマンド難易度、レジスト難易度、敵追撃率、状態異常確率\n敵から受ける快感、敵SS率、初期友好度、ドロップ率が少し増加。\\<
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+\\>Very challenging. Command and resist difficulty,\nenemy follow-up and status ailment rate\npleasure, SS rate, initial friendship level, \ndrop rate are slightly increased. \\<
 > END STRING
 
 > BEGIN STRING
@@ -49706,7 +49706,7 @@ Extreme
 > BEGIN STRING
 \\>かなり難しい難易度です。\nコマンド難易度、レジスト難易度、敵追撃率、状態異常確率\n敵から受ける快感、敵SS率、初期友好度、ドロップ率が増加。\\<
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+\\>Very challenging. Command and resist difficulty,\nenemy follow-up and status ailment rate\npleasure, SS rate, initial friendship level, \ndrop rate are increased. \\<
 > END STRING
 
 > BEGIN STRING
@@ -49718,7 +49718,7 @@ Heaven
 > BEGIN STRING
 \\>とても難しい難易度です。\nコマンド難易度、レジスト難易度、敵追撃率、状態異常確率\n敵から受ける快感、敵SS率、初期友好度、ドロップ率が大きく増加。\\<
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+\\>Very challenging. Command and resist difficulty,\nenemy follow-up and status ailment rate\npleasure, SS rate, initial friendship level, \ndrop rate are greatly increased. \\<
 > END STRING
 
 > BEGIN STRING
@@ -49730,13 +49730,13 @@ Real
 > BEGIN STRING
 \\>破滅的難易度です。\nコマンド難易度、レジスト難易度、敵追撃率、状態異常確率\n敵から受ける快感、敵SS率、初期友好度、ドロップ率が激増。\\<
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+\\>Devastating difficulty. Command and resist difficulty,\nenemy follow-up and status ailment rate\npleasure, SS rate, initial friendship level, \ndrop rate are greatly increased. \\<
 > END STRING
 
 > BEGIN STRING
 状態を変更するメンバーを選択してください。
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Select the member whose status you want to change.
 > END STRING
 
 > BEGIN STRING
@@ -57991,7 +57991,7 @@ nothing
 全員
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
 > CONTEXT: PR_Window_SystemLeft.rb
-Everyone
+All
 > END STRING
 
 > BEGIN STRING
@@ -71667,7 +71667,7 @@ Quit the game?
 > BEGIN STRING
 寵愛不足
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Missing favor
 > END STRING
 
 > BEGIN STRING
@@ -71679,26 +71679,26 @@ You need favor from #{@actor.name} to acquire the bonus!
 > BEGIN STRING
 大切な人不足
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Not an [Important person]
 > END STRING
 
 > BEGIN STRING
 ボーナス習得には#{@actor.name}と特別な関係が必要です！
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Need a special relationship with #{@actor.name}!
 > END STRING
 
 > BEGIN STRING
 子作り素質不足
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Can't birth children
 > END STRING
 
 > BEGIN STRING
 レベル不足
 > CONTEXT: PR_Window_PromiseRight.rb
 > CONTEXT: Window_Firstperson_Change.rb
-
+Insufficient level
 > END STRING
 
 > BEGIN STRING
@@ -71710,26 +71710,26 @@ Insufficient levels to acquire the bonus!
 > BEGIN STRING
 夢の魔力不足
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Missing Dream Magic
 > END STRING
 
 > BEGIN STRING
 ボーナス習得に必要な夢の魔力が足りません！
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Not enough Dream Magic!
 > END STRING
 
 > BEGIN STRING
 必要なLps.が足りません！
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Not enough Lps.!
 > END STRING
 
 > BEGIN STRING
 好感度不足
 > CONTEXT: PR_Window_PromiseRight.rb
 > CONTEXT: Window_Firstperson_Change.rb
-
+Missing favor
 > END STRING
 
 > BEGIN STRING
@@ -71748,7 +71748,7 @@ Insufficient contract beads!
 > BEGIN STRING
 指輪不足
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Missing ring
 > END STRING
 
 > BEGIN STRING
@@ -71766,7 +71766,7 @@ Already reached maximum level!
 > BEGIN STRING
 最大レベルを超えてしまいます！
 > CONTEXT: PR_Window_PromiseRight.rb
-
+You're exceeding the maximum level!
 > END STRING
 
 > BEGIN STRING
@@ -71784,7 +71784,7 @@ Already reached maximum level!
 > BEGIN STRING
 #{bonus.name}」を習得
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Learn #{bonus.name}
 > END STRING
 
 > BEGIN STRING
@@ -71796,7 +71796,7 @@ Learn [#{bonus.name}]
 > BEGIN STRING
 【オーラルセックス】を習得
 > CONTEXT: PR_Window_PromiseRight.rb
-
+【Oral sex】 mastery
 > END STRING
 
 > BEGIN STRING
@@ -71808,25 +71808,25 @@ acce_003
 > BEGIN STRING
 【#{@actor.extension_name(@data[index][2])}】を習得
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Learn 【#{@actor.extension_name(@data[index][2])}】
 > END STRING
 
 > BEGIN STRING
 【#{bonus.name}】で素質を消去
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Delete talent [#{bonus.name}]
 > END STRING
 
 > BEGIN STRING
 【#{bonus.name}】を習得し、素質を消去
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Acquire 【#{bonus.name}】 and erase talents
 > END STRING
 
 > BEGIN STRING
 【#{bonus.name} Lv:#{a_lv}】を習得
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Acquire 【#{bonus.name} Lv:#{a_lv}】
 > END STRING
 
 > BEGIN STRING
@@ -71856,13 +71856,13 @@ Raise the level
 > BEGIN STRING
 一人称を変える
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Change your pronoun
 > END STRING
 
 > BEGIN STRING
 二人称を変える
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Change 2nd person
 > END STRING
 
 > BEGIN STRING
@@ -71874,13 +71874,13 @@ Lower the level
 > BEGIN STRING
 レベルを10上げる
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Increase your level by 10
 > END STRING
 
 > BEGIN STRING
 レベルを10下げる
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Lower your level by 10
 > END STRING
 
 > BEGIN STRING
@@ -71910,13 +71910,13 @@ item_032
 > BEGIN STRING
 ？？？　解禁：【大切な人】
 > CONTEXT: PR_Window_PromiseRight.rb
-
+??? Unlock: [Important person]
 > END STRING
 
 > BEGIN STRING
 ？？？　解禁：【愛の胤】
 > CONTEXT: PR_Window_PromiseRight.rb
-
+??? Unlock: [Seed of Love]
 > END STRING
 
 > BEGIN STRING
@@ -71934,7 +71934,7 @@ item_032
 > BEGIN STRING
 ？？？　解禁：夢の魔力#{@data[index][4].to_s}
 > CONTEXT: PR_Window_PromiseRight.rb
-
+??? Unlock: #{@data[index][4].to_s} Dream Magic
 > END STRING
 
 > BEGIN STRING
@@ -71971,7 +71971,7 @@ Raise the level.
 > BEGIN STRING
 この夢魔自身の呼び方を変える。
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Change the way this succubus calls itself.
 > END STRING
 
 > BEGIN STRING
@@ -71983,19 +71983,19 @@ Change what this succubus calls me.
 > BEGIN STRING
 この夢魔のレベルを下げる。
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Lower this succubus' level.
 > END STRING
 
 > BEGIN STRING
 この夢魔のレベルを10上げる。
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Increase this succubus' level by 10.
 > END STRING
 
 > BEGIN STRING
 この夢魔のレベルを10下げる。
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Lowers this succubus' level by 10.
 > END STRING
 
 > BEGIN STRING
@@ -72007,25 +72007,25 @@ Collect 3000 Lps. from this succubus.
 > BEGIN STRING
 この夢魔
 > CONTEXT: PR_Window_PromiseRight.rb
-
+This succubus
 > END STRING
 
 > BEGIN STRING
 #{@actor.name}からの寵愛が必要です。
 > CONTEXT: PR_Window_PromiseRight.rb
-
+I need favor of #{@actor.name}.
 > END STRING
 
 > BEGIN STRING
 #{@actor.name}と特別な関係であることが必要です。
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Must have a special relationship with #{@actor.name}.
 > END STRING
 
 > BEGIN STRING
 あなたと#{@actor.name}の間にはまだ子供がいません。
 > CONTEXT: PR_Window_PromiseRight.rb
-
+You and #{@actor.name} do not have any children yet.
 > END STRING
 
 > BEGIN STRING
@@ -72072,7 +72072,7 @@ CT:#{actor.cooltime_count(skill)}
 > BEGIN STRING
 LR(QW)キーでページ切り替え
 > CONTEXT: PR_Window_SystemLeft.rb
-
+LR(QW) to change pages
 > END STRING
 
 > BEGIN STRING
@@ -72108,19 +72108,19 @@ Ally satiety
 > BEGIN STRING
 献上機会増加
 > CONTEXT: PR_Window_SystemLeft.rb
-
+More offerings
 > END STRING
 
 > BEGIN STRING
 精の献上選択
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Offering choice
 > END STRING
 
 > BEGIN STRING
 簡易戦闘実行設定
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Simple battle
 > END STRING
 
 > BEGIN STRING
@@ -72180,43 +72180,43 @@ Least
 > BEGIN STRING
 絶食
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Fasting
 > END STRING
 
 > BEGIN STRING
 適応
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Yes
 > END STRING
 
 > BEGIN STRING
 未適応
 > CONTEXT: PR_Window_SystemLeft.rb
-
+No
 > END STRING
 
 > BEGIN STRING
 選択
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Choose
 > END STRING
 
 > BEGIN STRING
 押下時
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Press
 > END STRING
 
 > BEGIN STRING
 非押下時
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Don't press
 > END STRING
 
 > BEGIN STRING
 バトル設定（一般）
 > CONTEXT: PR_Window_SystemLeft.rb
-
+General battle settings
 > END STRING
 
 > BEGIN STRING
@@ -72234,7 +72234,7 @@ Message mode
 > BEGIN STRING
 おねだり仕様
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Request
 > END STRING
 
 > BEGIN STRING
@@ -72252,31 +72252,31 @@ Resist time
 > BEGIN STRING
 レジストゲーム拡張
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Resist games
 > END STRING
 
 > BEGIN STRING
 着衣エロ
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Clothed sex
 > END STRING
 
 > BEGIN STRING
 表情変化頻度上昇
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Facial expressions
 > END STRING
 
 > BEGIN STRING
 バトルカットイン表示
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Cut-in display
 > END STRING
 
 > BEGIN STRING
 カットイン優先設定
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Cut-in priority
 > END STRING
 
 > BEGIN STRING
@@ -72312,13 +72312,13 @@ Full-auto
 > BEGIN STRING
 単発
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Once
 > END STRING
 
 > BEGIN STRING
 継続
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Continues
 > END STRING
 
 > BEGIN STRING
@@ -72354,145 +72354,145 @@ Chill
 > BEGIN STRING
 拡張
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Expanded
 > END STRING
 
 > BEGIN STRING
 適用
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Yes
 > END STRING
 
 > BEGIN STRING
 絶頂＋脱衣
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Climax＋Undress
 > END STRING
 
 > BEGIN STRING
 絶頂＋脱衣＋スキル
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Climax＋Undress+Skills
 > END STRING
 
 > BEGIN STRING
 受動側優先
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Passive side
 > END STRING
 
 > BEGIN STRING
 行動側優先
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Active side
 > END STRING
 
 > BEGIN STRING
 自キャラ優先
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Own side
 > END STRING
 
 > BEGIN STRING
 敵キャラ優先
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Opponent side
 > END STRING
 
 > BEGIN STRING
 自キャラのみ
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Only own side
 > END STRING
 
 > BEGIN STRING
 敵キャラのみ
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Only opponent side
 > END STRING
 
 > BEGIN STRING
 バトル設定（ホールド・リバウンド）
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Hold/Rebound Settings 
 > END STRING
 
 > BEGIN STRING
 ホールド使用率
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Hold utilization
 > END STRING
 
 > BEGIN STRING
 ホールド変更
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Hold change
 > END STRING
 
 > BEGIN STRING
 ホールド強奪
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Hold steal
 > END STRING
 
 > BEGIN STRING
 ホールド誘導
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Hold temptation
 > END STRING
 
 > BEGIN STRING
 絶頂時の継続条件
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Climax continuation
 > END STRING
 
 > BEGIN STRING
 リバウンド(味方)
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Rebound(ally)
 > END STRING
 
 > BEGIN STRING
 リバウンド(敵)
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Rebound(opponent)
 > END STRING
 
 > BEGIN STRING
 ホールド逆転
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Hold Reverse
 > END STRING
 
 > BEGIN STRING
 本番多
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Sex
 > END STRING
 
 > BEGIN STRING
 前戯多
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Foreplay
 > END STRING
 
 > BEGIN STRING
 有効
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Yes
 > END STRING
 
 > BEGIN STRING
 無効
 > CONTEXT: PR_Window_SystemLeft.rb
-
+No
 > END STRING
 
 > BEGIN STRING
 継続しない
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Never
 > END STRING
 
 > BEGIN STRING
@@ -72510,79 +72510,79 @@ Lv. 1
 > BEGIN STRING
 常に継続
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Always
 > END STRING
 
 > BEGIN STRING
 増量
 > CONTEXT: PR_Window_SystemLeft.rb
-
+More
 > END STRING
 
 > BEGIN STRING
 特大
 > CONTEXT: PR_Window_SystemLeft.rb
-
+A lot
 > END STRING
 
 > BEGIN STRING
 素質次第
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Talent
 > END STRING
 
 > BEGIN STRING
 バトル設定（特殊絶頂）
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Special climax settings
 > END STRING
 
 > BEGIN STRING
 自爆絶頂(味方)
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Self(ally)
 > END STRING
 
 > BEGIN STRING
 自爆絶頂(敵)
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Self(opponent)
 > END STRING
 
 > BEGIN STRING
 相互絶頂(味方)
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Mutual(ally)
 > END STRING
 
 > BEGIN STRING
 相互絶頂(敵)
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Mutual(opponent)
 > END STRING
 
 > BEGIN STRING
 瞬間絶頂(味方)
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Instant(ally)
 > END STRING
 
 > BEGIN STRING
 瞬間絶頂(敵)
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Instant(opponent)
 > END STRING
 
 > BEGIN STRING
 メディア設定
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Media settings
 > END STRING
 
 > BEGIN STRING
 喘ぎボイス設定
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Moaning voices
 > END STRING
 
 > BEGIN STRING
@@ -72600,37 +72600,37 @@ Semen graphics
 > BEGIN STRING
 精液設定
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Semen settings
 > END STRING
 
 > BEGIN STRING
 戦闘エフェクト強化
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Enhanced effects
 > END STRING
 
 > BEGIN STRING
 ホールドアニメーション
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Hold animation
 > END STRING
 
 > BEGIN STRING
 焦らし時の挙動
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Teasing behavior
 > END STRING
 
 > BEGIN STRING
 吸精スキル発動時の精液
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Semen sucking
 > END STRING
 
 > BEGIN STRING
 ホールドグラフィック変化設定
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Hold image display
 > END STRING
 
 > BEGIN STRING
@@ -72654,73 +72654,73 @@ Show
 > BEGIN STRING
 非表示
 > CONTEXT: PR_Window_SystemLeft.rb
-Skip
+Hide
 > END STRING
 
 > BEGIN STRING
 ぶっかけ
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Bukkake
 > END STRING
 
 > BEGIN STRING
 特殊
 > CONTEXT: PR_Window_SystemLeft.rb
-
+New
 > END STRING
 
 > BEGIN STRING
 吸収
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Absorb
 > END STRING
 
 > BEGIN STRING
 そのまま
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Normal
 > END STRING
 
 > BEGIN STRING
 ボスのみ
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Bosses
 > END STRING
 
 > BEGIN STRING
 キャラクター設定
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Character settings
 > END STRING
 
 > BEGIN STRING
 おっぱいサイズ変化
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Breast size variation
 > END STRING
 
 > BEGIN STRING
 個性的・コスプレ変化
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Cosplay variation
 > END STRING
 
 > BEGIN STRING
 夢魔ふたなり化
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Futanari succubi
 > END STRING
 
 > BEGIN STRING
 半裸適用
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Half-nakedness
 > END STRING
 
 > BEGIN STRING
 幼児化
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Infantilization
 > END STRING
 
 > BEGIN STRING
@@ -72744,13 +72744,13 @@ Suspend game
 > BEGIN STRING
 ウィンドウ
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Window
 > END STRING
 
 > BEGIN STRING
 フルスクリーン
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Full screen
 > END STRING
 
 > BEGIN STRING
@@ -72774,25 +72774,25 @@ Whether 'Save' or 'Teleport' is displayed on top at ports.
 > BEGIN STRING
 パートナー夢魔の空腹度の減り方と吸精量の設定をします。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Hunger rate, and semen absorbed by allied succubi.
 > END STRING
 
 > BEGIN STRING
 ポートで満腹度が回復しなくなり、少しでも満腹度が減っていれば献上できます。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Ports no longer restore satiety. Able to offer semen more.
 > END STRING
 
 > BEGIN STRING
 精の献上方法を選択できるようになります。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Able to choose the semen offering method.
 > END STRING
 
 > BEGIN STRING
 簡易戦闘の実行をXボタン（Aキー）押下時か非押下時か設定します。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Whether X(A) should be pressed or not for simple combat.
 > END STRING
 
 > BEGIN STRING
@@ -72810,7 +72810,7 @@ Change the display time of messages during battle.
 > BEGIN STRING
 おねだりが次ターン以降も継続するか設定します。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Whether requests will continue for following turns.
 > END STRING
 
 > BEGIN STRING
@@ -72822,127 +72822,127 @@ Retain the location of the last skill used during battle.
 > BEGIN STRING
 レジスト猶予時間の設定をします。
 > CONTEXT: PR_Window_SystemLeft.rb
-How much time is available for 'Resist' minigames
+How much time is available for Resist games.
 > END STRING
 
 > BEGIN STRING
 レジストゲームに新しい種類を追加するか設定します。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Add new types of Resist Games
 > END STRING
 
 > BEGIN STRING
 ずらし挿入などの着衣エロの設定をします。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Clothed erotic scenes such as sliding insertion.
 > END STRING
 
 > BEGIN STRING
 戦闘中、一部味方の表情変化が詳細になります。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+More detailed facial expressions on some allies in battle.
 > END STRING
 
 > BEGIN STRING
 戦闘中に一部カットイン画像を表示します。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Some cut-in images will be displayed during battle.
 > END STRING
 
 > BEGIN STRING
 カットイン画像がある時、どれを優先するか設定します。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Choose which to prioritize for cut-in images.
 > END STRING
 
 > BEGIN STRING
 相手夢魔の各ホールド使用率を消耗度によって変動させるか設定します。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Whether opponent's hold usage rate increases when worn down.
 > END STRING
 
 > BEGIN STRING
 ホールド中に絶頂した時、相手が別のホールドスキルを掛け直してきます。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+If you climax in a hold, opponent will use a different hold.
 > END STRING
 
 > BEGIN STRING
 ホールド中に絶頂した時、夢魔同士のホールドの奪い合いが発生します。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+If you climax in a hold, succubi contend over the hold.
 > END STRING
 
 > BEGIN STRING
 ホールド中に絶頂させた時、他の夢魔が誘惑して来ます。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+When you make someone climax, others will tempt you.
 > END STRING
 
 > BEGIN STRING
 絶頂した後ホールドが継続するイニシアチブを設定します。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+The hold level at which it will continue after climax.
 > END STRING
 
 > BEGIN STRING
 味方のリバウンドダメージを調整します。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Adjusts rebound damage for allies.
 > END STRING
 
 > BEGIN STRING
 敵のリバウンドダメージを調整します。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Adjusts enemy rebound damage.
 > END STRING
 
 > BEGIN STRING
 素質次第の場合、ホールドの素質保持が攻守逆転の条件になります。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Able to maintain hold and switch between offense and defense.
 > END STRING
 
 > BEGIN STRING
 リバウンドで味方のEPが0になったとき絶頂するようになります。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+When an ally's EP reaches 0 due to rebound, they will climax.
 > END STRING
 
 > BEGIN STRING
 リバウンドで敵のEPが0になったとき絶頂するようになります。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+When the enemy's EP becomes 0 due to rebound, they will climax.
 > END STRING
 
 > BEGIN STRING
 ホールド中の味方のEPが0になったときの相互絶頂の有無を設定します。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Mutual climax when the EP of a held ally reaches 0.
 > END STRING
 
 > BEGIN STRING
 ホールド中の敵のEPが0になったときの相互絶頂の有無を設定します。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Mutual climax when the EP of a held opponent reaches 0.
 > END STRING
 
 > BEGIN STRING
 味方のEPが残り僅かのとき、ある部位をホールドした瞬間絶頂するようになります。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+An ally at critical EP climaxes upon initiating a hold.
 > END STRING
 
 > BEGIN STRING
 敵のEPが残り僅かのとき、ある部位をホールドした瞬間絶頂するようになります。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+An opponent at critical EP climaxes upon initiating a hold.
 > END STRING
 
 > BEGIN STRING
 戦闘時に喘ぎボイスを発生させるかを設定します。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Whether moan voice effects will be played in battle.
 > END STRING
 
 > BEGIN STRING
@@ -72960,67 +72960,67 @@ Show semen on succubi after main character climaxes while naked.
 > BEGIN STRING
 相手夢魔にかかる精液の設定を変更します。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+How semen is displayed on opponents.
 > END STRING
 
 > BEGIN STRING
 一部スキルのアニメーションが特殊エフェクトになります。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Special animations for some skills.
 > END STRING
 
 > BEGIN STRING
 対応夢魔のホールドがアニメーションするようになります。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Certain succubi have animated hold images.
 > END STRING
 
 > BEGIN STRING
 焦らされた場合、特殊モードになります。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+If you are teased, you will enter a special mode.
 > END STRING
 
 > BEGIN STRING
 インサート時に吸精スキルを受けたとき、結合部の精液が吸収されます。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Sperm sucking skills absorb the semen at the location.
 > END STRING
 
 > BEGIN STRING
 敵とホールドした時に敵のグラフィックが変化します（グラフィックがあるキャラのみ）。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Display hold images (when available).
 > END STRING
 
 > BEGIN STRING
 おっぱいサイズ変更の設定します。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Enable varying breast sizes.
 > END STRING
 
 > BEGIN STRING
 コスプレ衣装変化の設定をします。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Enable cosplay costume variance.
 > END STRING
 
 > BEGIN STRING
 夢魔ふたなり化の設定をします。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Enable futanari succubi.
 > END STRING
 
 > BEGIN STRING
 相手夢魔が脱いだ時の半裸適用の設定をします。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Half-naked state allowed when undressing.
 > END STRING
 
 > BEGIN STRING
 幼児化変更の設定をします。
 > CONTEXT: PR_Window_SystemLeft.rb
-
+Enable infantilization.
 > END STRING
 
 > BEGIN STRING
@@ -75421,7 +75421,7 @@ Check current name
 > BEGIN STRING
 所持Lps.
 > CONTEXT: Window_PromiseLeft.rb
-
+Owned Lps.
 > END STRING
 
 > BEGIN STRING
@@ -75441,13 +75441,13 @@ Semen
 > BEGIN STRING
 Y(S)ボタンでベッド戦専用と切り替え
 > CONTEXT: Window_PromiseLeft.rb
-
+Use the Y(S) button to switch to bed talents
 > END STRING
 
 > BEGIN STRING
-次のレベルまで あと 
+"次のレベルまで あと "
 > CONTEXT: Window_Status.rb
-Next level in 
+"Next level in "
 > END STRING
 
 > BEGIN STRING
