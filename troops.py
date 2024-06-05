@@ -80,6 +80,7 @@ if __name__ == "__main__":
             i += 1
 
     
-    process_file("patch/Enemies.txt")
-    process_file("patch/Classes.txt")
-    process_file("patch/Troops.txt")
+    #process_file("patch/Enemies.txt")
+    #process_file("patch/Classes.txt")
+    #process_file("patch/Troops.txt")
+    process_file("mod_scripts.txt")
