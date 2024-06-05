@@ -1,12 +1,16 @@
 rep = {}
 
-def get_replacement(text):
+def get_replacement(text, allkeys=False):
     parts = text.strip().split("/")
     #if len(parts)>0 and parts[0] in rep:
     #    text = text.replace(parts[0], rep[parts[0]])
-    for p in parts:
-        if p in rep:
-            text = text.replace(p, rep[p], 1)
+    if allkeys:
+        for key in sorted(rep, key=len, reverse=True):
+            text = text.replace(key, rep[key])
+    else:
+        for p in parts:
+            if p in rep:
+                text = text.replace(p, rep[p], 1)
     return text
 
 def process_file(input_file):
@@ -19,7 +23,9 @@ def process_file(input_file):
         context_found = False
         linecount = 0
 
-        for line in lines:
+        i = 0
+        while i < len(lines):
+            line = lines[i]
             if pending_line:
                 if not context_found or line.startswith(">"):
                     outfile.write(line)
@@ -28,8 +34,8 @@ def process_file(input_file):
                     else:
                         linecount += 1
                 elif context_found:
-                    newtext = get_replacement(pending_line)
-                    outfile.write(newtext if newtext!=pending_line else line if line or linecount>0 else "\n")
+                    newtext = get_replacement(pending_line, "Troops" in input_file or "Enemies" in input_file)
+                    outfile.write(newtext if newtext!=pending_line and linecount==1 else line if line or linecount>0 else "\n")
                     pending_line = None
                     begin_string_found = False
                     context_found = False
@@ -41,6 +47,8 @@ def process_file(input_file):
 
                 if line.strip() and begin_string_found and not line.startswith(">"):
                     pending_line = line
+                    linecount = 1
+            i += 1
 
 if __name__ == "__main__":
     lines = []
@@ -50,14 +58,14 @@ if __name__ == "__main__":
     while i < len(lines):
         if lines[i].strip() == "> BEGIN STRING":
             i += 1
-            string = lines[i].strip()
-            parts = string.strip().split("/")
+            string = lines[i]
             i += 1
             while(lines[i][0] != ">"):
                 string += lines[i]
                 i += 1
             while(lines[i][0] == ">"):
                 i += 1
+            parts = string.strip().split("/")
             if lines[i].strip() and len(parts)>1:
                 tparts = lines[i].strip().split("/")
                 if len(parts) == len(tparts):
@@ -74,3 +82,4 @@ if __name__ == "__main__":
     
     process_file("patch/Enemies.txt")
     process_file("patch/Classes.txt")
+    process_file("patch/Troops.txt")
