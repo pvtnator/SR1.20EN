@@ -1,12 +1,12 @@
 rep = {}
 
 def get_replacement(text):
-    parts = text.split("/")
+    parts = text.strip().split("/")
     #if len(parts)>0 and parts[0] in rep:
     #    text = text.replace(parts[0], rep[parts[0]])
     for p in parts:
         if p in rep:
-            text = text.replace(p, rep[p])
+            text = text.replace(p, rep[p], 1)
     return text
 
 def process_file(input_file):
@@ -51,7 +51,7 @@ if __name__ == "__main__":
         if lines[i].strip() == "> BEGIN STRING":
             i += 1
             string = lines[i].strip()
-            parts = string.split("/")
+            parts = string.strip().split("/")
             i += 1
             while(lines[i][0] != ">"):
                 string += lines[i]
@@ -59,12 +59,12 @@ if __name__ == "__main__":
             while(lines[i][0] == ">"):
                 i += 1
             if lines[i].strip() and len(parts)>1:
-                tparts = lines[i].split("/")
+                tparts = lines[i].strip().split("/")
                 if len(parts) == len(tparts):
                     for k in range(len(parts)):
-                        if not parts[k] in rep and tparts[k].isalnum():
-                            rep[parts[k].strip()] = tparts[k].strip()
-                            print(parts[k].strip()+" = "+tparts[k].strip())
+                        if not parts[k] in rep:
+                            rep[parts[k]] = tparts[k]
+                            #print(parts[k]+" = "+tparts[k])
                 #print(string.strip()+" = "+lines[i].strip())
 
             i += 2
