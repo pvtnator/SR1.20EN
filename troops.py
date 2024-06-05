@@ -2,8 +2,10 @@ rep = {}
 
 def get_replacement(text):
     parts = text.split("/")
-    if len(parts)>0 and parts[0] in rep:
-        text = text.replace(parts[0], rep[parts[0]])
+    #if len(parts)>0 and parts[0] in rep:
+    #    text = text.replace(parts[0], rep[parts[0]])
+    for key in sorted(rep, key=len, reverse=True):
+        text = text.replace(key, rep[key])
     return text
 
 def process_file(input_file):
@@ -26,7 +28,7 @@ def process_file(input_file):
                         linecount += 1
                 elif context_found:
                     newtext = get_replacement(pending_line)
-                    outfile.write(newtext.replace("最高の姿", "Ideal form") if newtext!=pending_line and not line.strip() else line if line or linecount>0 else "\n")
+                    outfile.write(newtext if newtext!=pending_line else line if line or linecount>0 else "\n")
                     pending_line = None
                     begin_string_found = False
                     context_found = False
@@ -57,9 +59,11 @@ if __name__ == "__main__":
                 i += 1
             if lines[i].strip() and len(parts)>0:
                 tparts = lines[i].split("/")
-                if len(tparts)>0 and not parts[0] in rep:
-                    rep[parts[0]] = tparts[0]
-                    print(parts[0]+" = "+tparts[0])
+                if len(parts) == len(tparts):
+                    for k in range(len(parts)):
+                        if not parts[k] in rep:
+                            rep[parts[k]] = tparts[k]
+                            print(parts[k]+" = "+tparts[k])
                 #print(string.strip()+" = "+lines[i].strip())
 
             i += 2
