@@ -9088,7 +9088,7 @@ _L
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
 > CONTEXT: 弱点開発MOD.rb
-
+Fallen Slave
 > END STRING
 
 > BEGIN STRING
@@ -9096,7 +9096,7 @@ _L
 > CONTEXT: O_MOD_Game_Battler_1.rb
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+No Guard
 > END STRING
 
 > BEGIN STRING
@@ -9104,7 +9104,7 @@ _L
 > CONTEXT: O_MOD_Game_Battler_1.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: 修正用.rb
-
+Strict
 > END STRING
 
 > BEGIN STRING
@@ -9112,7 +9112,7 @@ _L
 > CONTEXT: O_MOD_Game_Battler_1.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: 修正用.rb
-
+Freehold
 > END STRING
 
 > BEGIN STRING
@@ -9120,7 +9120,7 @@ _L
 > CONTEXT: O_MOD_Game_Battler_1.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: 修正用.rb
-
+Futanari
 > END STRING
 
 > BEGIN STRING
@@ -9129,7 +9129,7 @@ _L
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Easygoing
 > END STRING
 
 > BEGIN STRING
@@ -9138,7 +9138,7 @@ _L
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Genuine
 > END STRING
 
 > BEGIN STRING
@@ -9162,7 +9162,7 @@ Composed
 > CONTEXT: O_MOD_Game_Battler_1.rb
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Aggressive
 > END STRING
 
 > BEGIN STRING
@@ -9170,7 +9170,7 @@ Composed
 > CONTEXT: O_MOD_Game_Battler_1.rb
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Passive
 > END STRING
 
 > BEGIN STRING
@@ -9179,7 +9179,7 @@ Composed
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Dispel Magic
 > END STRING
 
 > BEGIN STRING
@@ -18598,13 +18598,13 @@ Able to learn skills that make full use of your mouth.
 > BEGIN STRING
 [敵対時] 口を駆使したスキルを体得できる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Hostile] Learn skills using your mouth.
 > END STRING
 
 > BEGIN STRING
 \n一部ホールド中に口攻めスキルを使用。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nUses mouth attack skills during some holds.
 > END STRING
 
 > BEGIN STRING
@@ -18640,13 +18640,13 @@ Able to learn caressing skills.
 > BEGIN STRING
 [敵対時] 愛撫のスキルを体得できる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Hostile] Learn caressing skills.
 > END STRING
 
 > BEGIN STRING
 \n一部ホールド中に愛撫スキルを使用。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\n Uses petting skills during some holds.
 > END STRING
 
 > BEGIN STRING
@@ -19255,7 +19255,7 @@ Resistant to paralysis.
 > BEGIN STRING
 散漫系状態（散漫、魅了、誘惑、釘付け）になりにくい。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Less likely to become distracted (distracted, fascinated, seduced, bound).
 > END STRING
 
 > BEGIN STRING
@@ -19770,73 +19770,73 @@ EXP吸収
 > BEGIN STRING
 普通よりちょっとだけ小さい。ちょっとには個人差がある。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Smaller than normal. Depends on the person.
 > END STRING
 
 > BEGIN STRING
 普通よりかなり小さい。かなりには個人差がある。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Much smaller than normal. Depends on the person.
 > END STRING
 
 > BEGIN STRING
 普通よりすごく小さい。すごくには個人差がある。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Much smaller than normal. Depends on the person.
 > END STRING
 
 > BEGIN STRING
 普通よりすっごく小さい。すっごくには個人差がある。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Much smaller than normal. Depends on the person.
 > END STRING
 
 > BEGIN STRING
 普通よりめちゃくちゃ小さい。めちゃくちゃには個人差がある。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Much smaller than normal. Depends on the person.
 > END STRING
 
 > BEGIN STRING
 普通よりちょっとだけ大きい。ちょっとには個人差がある。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Slightly bigger than normal. Depends on the person.
 > END STRING
 
 > BEGIN STRING
 普通よりかなり大きい。かなりには個人差がある。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Much bigger than normal. Depends on the person.
 > END STRING
 
 > BEGIN STRING
 普通よりすごく大きい。すごくには個人差がある。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Much bigger than normal. Depends on the person.
 > END STRING
 
 > BEGIN STRING
 普通よりすっごく大きい。すっごくには個人差がある。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Much bigger than normal. Depends on the person.
 > END STRING
 
 > BEGIN STRING
 普通よりめちゃくちゃ大きい。めちゃくちゃには個人差がある。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Much bigger than normal. Depends on the person.
 > END STRING
 
 > BEGIN STRING
 普通。どこまでも普通。おっぱいサイズと個性素質をリセットする。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Completely normal. Reset breast size and personality traits.
 > END STRING
 
 > BEGIN STRING
 普通。どこまでも普通。サイズ・個性素質を消去する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Completely normal. Reset size and personality traits.
 > END STRING
 
 > BEGIN STRING
@@ -20168,7 +20168,7 @@ Easier to obtain rare items when harvesting
 > BEGIN STRING
 他とはちょっと違う個性を持っている。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Slightly different personality.
 > END STRING
 
 > BEGIN STRING
@@ -20644,265 +20644,265 @@ Deffence側は、腕を使用したスキルを使用できなくなる。
 > BEGIN STRING
 [♂→♀]ホールドを習得。[♀→♂]ホールドが苦手ではなくなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn [♂→♀] hold. [♀→♂] hold is no longer a weakness.
 > END STRING
 
 > BEGIN STRING
 アクセプトを覚える。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn Accept
 > END STRING
 
 > BEGIN STRING
 [♀→♂]ホールドを習得。[♂→♀]ホールドが苦手ではなくなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn [♀→♂] hold. [♂→♀] hold is no longer a weakness.
 > END STRING
 
 > BEGIN STRING
 シェルマッチを覚える。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn Shell Match
 > END STRING
 
 > BEGIN STRING
 [♀→♀]ホールドを習得。[♀→♀]ホールドが苦手ではなくなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Acquire [♀→♀] hold. [♀→♀] hold is no longer a weakness.
 > END STRING
 
 > BEGIN STRING
 エキサイトビューを覚える。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn Excite View.
 > END STRING
 
 > BEGIN STRING
 [♀→口]ホールドを習得。[口→♀]ホールドが苦手ではなくなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn [♀→Mouth] hold. [Mouth→♀] hold is no longer a weakness.
 > END STRING
 
 > BEGIN STRING
 エンブレイスを覚える。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn Embrace.
 > END STRING
 
 > BEGIN STRING
 [→体]ホールドを習得。[→体]ホールドが苦手ではなくなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[→Body] Learn the hold. [→Body] hold is no longer a weakness.
 > END STRING
 
 > BEGIN STRING
 オーラルアクセプトとドロウネクターを覚える。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn Oral Accept and Draw Nectar.
 > END STRING
 
 > BEGIN STRING
 [口→♂・♀]ホールドを習得。[♂・♀→口]ホールドが苦手ではなくなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn [Mouth→♂/♀] hold. [♂/♀→Mouth] hold is no longer a weakness.
 > END STRING
 
 > BEGIN STRING
 \nオーラルアクセプト・ドローネクターを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nLearn Oral Accept・Draw Nectar.
 > END STRING
 
 > BEGIN STRING
 ペリスコープを覚える。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn Periscope.
 > END STRING
 
 > BEGIN STRING
 [胸→♂]ホールドを習得。[♂→胸]ホールドが苦手ではなくなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn [Chest→♂] hold. [♂→Chest] hold is no longer a weakness.
 > END STRING
 
 > BEGIN STRING
 ヘブンリーフィールを覚える。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn the Heavenly Feel.
 > END STRING
 
 > BEGIN STRING
 [胸→口]ホールドを習得。[口→胸]ホールドが苦手ではなくなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn [Chest→Mouth] hold. [Mouth→Chest] hold is no longer a weakness.
 > END STRING
 
 > BEGIN STRING
 フラッタナイズを覚える。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn Flatten.
 > END STRING
 
 > BEGIN STRING
 [口→口]ホールドを習得。[口→口]ホールドが苦手ではなくなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn [Mouth→Mouth] hold. [Mouth→Mouth] hold is no longer a weakness.
 > END STRING
 
 > BEGIN STRING
 アナルを使ったホールドが可能になる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn anal hold
 > END STRING
 
 > BEGIN STRING
 [尻→♂・口]ホールドを習得。[♂・口→尻]ホールドが苦手ではなくなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn [Ass→♂・Mouth] hold. [♂・Mouth→Ass] hold is no longer a weakness.
 > END STRING
 
 > BEGIN STRING
 \nバックアクセプトを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nLearn Back Accept.
 > END STRING
 
 > BEGIN STRING
 \n【エキサイトビュー】習得時、インモラルビューを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nLearn Immoral View along with Excite View.
 > END STRING
 
 > BEGIN STRING
 ペニスを使ったホールドが可能になる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn penis hold
 > END STRING
 
 > BEGIN STRING
 [♂→]ホールドを習得。[♀→♂]ホールドが苦手ではなくなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Acquire [♂→] hold. [♀→♂] Hold is no longer difficult.
 > END STRING
 
 > BEGIN STRING
 インサートを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn Insert
 > END STRING
 
 > BEGIN STRING
 \n【オーラルマーキング】習得時、オーラルインサートを
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nWhen Learn Oral Insert along with Oral Marking
 > END STRING
 
 > BEGIN STRING
 \n【リバースペリスコープ】習得時、リバースペリスコープを
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nLearn Reverse Periscope
 > END STRING
 
 > BEGIN STRING
 \n【アヌスマーキング】習得時、バックインサートを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nLearn Back Insert along with Anus Marking
 > END STRING
 
 > BEGIN STRING
 尻尾を使ったホールドが可能になる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn tail hold
 > END STRING
 
 > BEGIN STRING
 [尻尾→]ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn [Tail→] hold.
 > END STRING
 
 > BEGIN STRING
 \nテイルインサートを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nLearn Tail Insert.
 > END STRING
 
 > BEGIN STRING
 \n【オーラルマーキング】習得時、テイルインマウスを
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nLearn Tail in Mouth along with Oral Marking
 > END STRING
 
 > BEGIN STRING
 \n【アヌスマーキング】習得時、テイルインバックを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nLearn Tail in Back along with Anus Marking
 > END STRING
 
 > BEGIN STRING
 触手を使ったホールドが可能になる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn tentacle hold.
 > END STRING
 
 > BEGIN STRING
 [触手→]ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn [Tentacle→] hold.
 > END STRING
 
 > BEGIN STRING
 吸引ホールド、デモンズアブソーブ・デモンズドロウ・デモンズミルキング
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Suction Hold, Demon Absorb, Demon Draw, Demon Milking
 > END STRING
 
 > BEGIN STRING
 \n挿入ホールド、テンタクルインサートを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nLearn Insert Hold and Tentacle Insert.
 > END STRING
 
 > BEGIN STRING
 \n【オーラルマーキング】習得時、テンタクルインマウスを
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nLearn Tentacle in Mouth along with Oral Marking
 > END STRING
 
 > BEGIN STRING
 \n【アヌスマーキング】習得時、テンタクルインバックを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nLearn Tentacle in Back along with Anus Marking.
 > END STRING
 
 > BEGIN STRING
 ディルドを使ったホールドが可能になる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn dildo hold.
 > END STRING
 
 > BEGIN STRING
 [張子→]ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn [Dildo→] hold.
 > END STRING
 
 > BEGIN STRING
 \nディルドインサート を習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nLearn Dildo Insert.
 > END STRING
 
 > BEGIN STRING
 \n【オーラルマーキング】習得時、ディルドインマウスを
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nLearn Dildo in Mouth along with Oral Marking.
 > END STRING
 
 > BEGIN STRING
 \n【アヌスマーキング】習得時、ディルドインバックを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nLearn Dildo in Back along with Anus Marking.
 > END STRING
 
 > BEGIN STRING
@@ -20914,13 +20914,13 @@ Ivy mastery
 > BEGIN STRING
 フィンガーインバックを覚える。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn Finger in Back.
 > END STRING
 
 > BEGIN STRING
 [敵対時] [指→尻]ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[When hostile] Learn [Finger→Ass] hold.
 > END STRING
 
 > BEGIN STRING
@@ -20990,7 +20990,7 @@ Bind Mastery
 > BEGIN STRING
 [敵対時] [♀→足]拘束ホールド [※+♀→♂+足]複合ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Hostile][♀→Leg] Restraint hold [※+♀→♂+Leg] is acquired.
 > END STRING
 
 > BEGIN STRING
@@ -21158,7 +21158,7 @@ Bind Mastery
 > BEGIN STRING
 アクセプトを除くホールドスキルを全て忘れる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Forget all hold skills except Accept.
 > END STRING
 
 > BEGIN STRING
@@ -27058,19 +27058,19 @@ Woman's Will
 > BEGIN STRING
 夢のたびびと
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Dream Traveler
 > END STRING
 
 > BEGIN STRING
 【A】基本的なステータスになるバランス型ロール。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[A] A balanced role with basic stats.
 > END STRING
 
 > BEGIN STRING
 \n・基本的なスキルを満遍なく習得する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\n・Learn basic skills thoroughly.
 > END STRING
 
 > BEGIN STRING
@@ -27079,19 +27079,19 @@ Woman's Will
 > CONTEXT: O_MOD_RPG_Class_ボーナス.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-
+Mushroom farmer
 > END STRING
 
 > BEGIN STRING
 【A】器用さと素早さが大きく上昇する探索系サポート型ロール。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[A] Explorer support role, greatly increases dexterity and agility.
 > END STRING
 
 > BEGIN STRING
 \n・ブレス系・リラックス系の回復スキルや、採集系素質を習得する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\n・Acquire breath and relaxation recovery skills, and gathering abilities.
 > END STRING
 
 > BEGIN STRING
@@ -27106,13 +27106,13 @@ Witch Apprentice Alliance
 > BEGIN STRING
 【A】素早さと精神力が大きく上昇する魔法系サポート型ロール。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[A] Mage role that greatly increases agility and spirit.
 > END STRING
 
 > BEGIN STRING
 \n・暴走・虚脱などの状態異常スキルやデバフ魔法を習得する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\n・Learn status ailment skills such as berserk and lethargy, and debuffs.
 > END STRING
 
 > BEGIN STRING
@@ -27121,19 +27121,19 @@ Witch Apprentice Alliance
 > CONTEXT: O_MOD_RPG_Class_ボーナス.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-
+Gourmet of Chaos
 > END STRING
 
 > BEGIN STRING
 【A】ＥＰと器用さが大きく上昇する両刀系バランス型ロール。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[A] Balanced role that greatly increases EP and dexterity.
 > END STRING
 
 > BEGIN STRING
 \n・料理系素質や攻撃スキルやブレス系・トリム系の回復スキルを習得する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\n・Acquire cooking aptitude, attack skills, and breath and trim recovery skills.
 > END STRING
 
 > BEGIN STRING
@@ -27142,19 +27142,19 @@ Witch Apprentice Alliance
 > CONTEXT: O_MOD_RPG_Class_ボーナス.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-
+King of Beauty
 > END STRING
 
 > BEGIN STRING
 【A】魅力が非常に大きく上昇するバランス系攻撃型ロール。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[A] Balanced attack role that greatly increases charisma.
 > END STRING
 
 > BEGIN STRING
 \n・攻撃スキルや相手を恍惚・暴走にするスキルを習得する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\n・Learn attack skills and skills that can make opponents go crazy or berserk.
 > END STRING
 
 > BEGIN STRING
@@ -27163,19 +27163,19 @@ Witch Apprentice Alliance
 > CONTEXT: O_MOD_RPG_Class_ボーナス.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-
+Demon Slayer Hero
 > END STRING
 
 > BEGIN STRING
 【A】ＥＰ、ＶＰ、精神力が非常に大きく上昇する魔法系サポート型ロール。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[A] Mage role that greatly increases EP, VP, and spirit.
 > END STRING
 
 > BEGIN STRING
 \n・状態異常、回復、バフ、デバフ魔法を多く習得するが……。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\n・Learn many status ailment, recovery, buff, and debuff spells, but...
 > END STRING
 
 > BEGIN STRING
@@ -27184,19 +27184,19 @@ Witch Apprentice Alliance
 > CONTEXT: O_MOD_RPG_Class_ボーナス.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-
+Elegant Maid
 > END STRING
 
 > BEGIN STRING
 【A】ＥＰ、器用さが大きく上昇する戦闘系サポート型ロール。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[A] Combat role that greatly increases EP and dexterity.
 > END STRING
 
 > BEGIN STRING
 \n・味方のＶＰ消費を減らすスキルやリラックス系回復スキルを習得する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\n・Acquire skills that reduce VP consumption for allies and relaxation recovery skills.
 > END STRING
 
 > BEGIN STRING
@@ -27211,13 +27211,13 @@ Witch of Order Apprentice
 > BEGIN STRING
 【A】忍耐力、精神力が大きく上昇する魔法系サポート型ロール。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[A] Mage role that greatly increases endurance and spirit.
 > END STRING
 
 > BEGIN STRING
 \n・強力なデバフ魔法や回復魔法、相手を欲情・虚脱にする魔法を習得する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\n・Learn powerful debuff, recovery, lust and lethargy magic.
 > END STRING
 
 > BEGIN STRING
@@ -27226,19 +27226,19 @@ Witch of Order Apprentice
 > CONTEXT: O_MOD_RPG_Class_ボーナス.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-
+The Promise
 > END STRING
 
 > BEGIN STRING
 【A】精力が大きく上昇するホールド系攻撃型ロール。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[A] Hold-type attack role that greatly increases energy.
 > END STRING
 
 > BEGIN STRING
 \n・ホールド中の攻撃スキルや、攻撃素質を習得する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\n・Learn attack skills and attack qualities for holds.
 > END STRING
 
 > BEGIN STRING
@@ -27247,19 +27247,19 @@ Witch of Order Apprentice
 > CONTEXT: O_MOD_RPG_Class_ボーナス.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-
+Childhood Memories
 > END STRING
 
 > BEGIN STRING
 【A】能力がバランスよく上昇するバランス型ロール。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[A] Balanced role in which abilities increase in a balanced way.
 > END STRING
 
 > BEGIN STRING
 \n・【夢のたびびと】に加えて上位のスキル、素質を習得する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\n・【Dream Traveler】 with higher level skills and talents
 > END STRING
 
 > BEGIN STRING
@@ -27268,19 +27268,19 @@ Witch of Order Apprentice
 > CONTEXT: O_MOD_RPG_Class_ボーナス.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-
+Impure Scarlet
 > END STRING
 
 > BEGIN STRING
 【A】精神力が大きく上昇する魔法系サポート型ロール。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[A] Mage role that greatly increases spirit.
 > END STRING
 
 > BEGIN STRING
 \n・アナル攻めホールドスキルや、相手を恍惚・麻痺にする魔法を習得する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\n・Acquire anal attack and hold skills, ecstatic and paralysis magic.
 > END STRING
 
 > BEGIN STRING
@@ -27289,7 +27289,7 @@ Witch of Order Apprentice
 > CONTEXT: RPG_Armor.rb
 > CONTEXT: RPG_Item.rb
 > CONTEXT: RPG_Relic.rb
-
+[S]
 > END STRING
 
 > BEGIN STRING
@@ -59704,19 +59704,19 @@ Lps.
 > BEGIN STRING
 #{@now_actor.name}に、素質【#{$data_ability[@bonus[2]].name}】を
 > CONTEXT: PR_MOD_Scene_Box.rb
-Add the ability [#{$data_ability[@bonus[2]].name}] to #{@now_actor.name}
+Add the ability 【#{$data_ability[@bonus[2]].name}】 to #{@now_actor.name}
 > END STRING
 
 > BEGIN STRING
 #{@now_actor.name}に、素質【#{$data_ability[@bonus[2]].name} Lv:#{a_lv}】を
 > CONTEXT: PR_MOD_Scene_Box.rb
-
+#{@now_actor.name} has the ability 【#{$data_ability[@bonus[2]].name} Lv:#{a_lv}】
 > END STRING
 
 > BEGIN STRING
 \n習得させますか？（契約の珠は消費しません）
 > CONTEXT: PR_MOD_Scene_Box.rb
-
+\nLearn it? (This doesn't cost contract beads)
 > END STRING
 
 > BEGIN STRING
@@ -59734,43 +59734,43 @@ Do you want to extract gold from #{@now_actor.name} and get 3000 Lps.?
 > BEGIN STRING
 弱点素質は消去することが出来ません！
 > CONTEXT: PR_MOD_Scene_Box.rb
-
+Can't remove weaknesses!
 > END STRING
 
 > BEGIN STRING
 レベル習得ボーナスは忘れることが出来ません！
 > CONTEXT: PR_MOD_Scene_Box.rb
-
+Can't forget level bonuses!
 > END STRING
 
 > BEGIN STRING
 #{@now_actor.name}の、スキル「#{$data_skills[@bonus[2]].name}」を
 > CONTEXT: PR_MOD_Scene_Box.rb
-
+#{@now_actor.name}'s skill 「#{$data_skills[@bonus[2]].name}」
 > END STRING
 
 > BEGIN STRING
 #{@now_actor.name}の、素質【#{$data_skills[@bonus[2]].name}】を
 > CONTEXT: PR_MOD_Scene_Box.rb
-
+#{@now_actor.name}'s talent 【#{$data_skills[@bonus[2]].name}】
 > END STRING
 
 > BEGIN STRING
 #{@now_actor.name}の、素質【オーラルセックス】を
 > CONTEXT: PR_MOD_Scene_Box.rb
-
+#{@now_actor.name}'s talent for oral sex
 > END STRING
 
 > BEGIN STRING
 \n忘れさせますか？
 > CONTEXT: PR_MOD_Scene_Box.rb
-
+\nWould you like to forget?
 > END STRING
 
 > BEGIN STRING
 #{@now_actor.name}の、素質【#{$data_ability[@bonus[2]].name}】を
 > CONTEXT: PR_MOD_Scene_Box.rb
-
+#{@now_actor.name}'s ability 【#{$data_ability[@bonus[2]].name}】
 > END STRING
 
 > BEGIN STRING
@@ -71874,13 +71874,13 @@ Lower the level
 > BEGIN STRING
 レベルを10上げる
 > CONTEXT: PR_Window_PromiseRight.rb
-Increase your level by 10
+Increase level by 10
 > END STRING
 
 > BEGIN STRING
 レベルを10下げる
 > CONTEXT: PR_Window_PromiseRight.rb
-Lower your level by 10
+Lower level by 10
 > END STRING
 
 > BEGIN STRING
@@ -72045,7 +72045,7 @@ Missing favor for mastery.
 > BEGIN STRING
 習得に必要な夢の魔力が足りない。
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Not enough Dream Magic.
 > END STRING
 
 > BEGIN STRING

@@ -2146,7 +2146,7 @@ Charm
 > BEGIN STRING
 [魔法] 敵１人を高確率で恍惚させる。[精神力]
 > CONTEXT: Skills/200/description/ < UNTRANSLATED
-
+[Magic] High chance of inflicting ecstacy on 1 enemy. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2158,13 +2158,13 @@ Boosted: Charm
 > BEGIN STRING
 [魔法] 敵全員を中確率で恍惚させる。[精神力]
 > CONTEXT: Skills/201/description/ < UNTRANSLATED
-
+[Magic] Chance of inflicting ecstacy on all enemies. [Spirit]
 > END STRING
 
 > BEGIN STRING
 [魔法] 敵１人を高確率で欲情させる。[精神力]
 > CONTEXT: Skills/202/description/ < UNTRANSLATED
-
+[Magic] High chance of making one enemy lustful. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2176,7 +2176,7 @@ Boosted: Lust
 > BEGIN STRING
 [魔法] 敵全員を中確率で欲情させる。[精神力]
 > CONTEXT: Skills/203/description/ < UNTRANSLATED
-
+[Magic] Chance of making all enemies lustful. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2189,7 +2189,7 @@ Fierce
 > BEGIN STRING
 [魔法] 敵１人を高確率で暴走させる。[精神力]
 > CONTEXT: Skills/204/description/ < UNTRANSLATED
-
+[Magic] High chance of inflicting berserk on 1 enemy. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2201,7 +2201,7 @@ Boosted: Fierce
 > BEGIN STRING
 [魔法] 敵全員を中確率で暴走させる。[精神力]
 > CONTEXT: Skills/205/description/ < UNTRANSLATED
-
+[Magic] Chance of inflicting berserk on all enemies. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2214,7 +2214,7 @@ Lethargy
 > BEGIN STRING
 [魔法] 敵１人を高確率で虚脱させる。[精神力]
 > CONTEXT: Skills/206/description/ < UNTRANSLATED
-
+[Magic] High chance of inflicting lethargy on 1 enemy. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2226,7 +2226,7 @@ Boosted: Lethargy
 > BEGIN STRING
 [魔法] 敵全員を中確率で虚脱させる。[精神力]
 > CONTEXT: Skills/207/description/ < UNTRANSLATED
-
+[Magic] Chance of inflicting lethargy on all enemies. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2239,7 +2239,7 @@ Terror
 > BEGIN STRING
 [魔法] 敵１人を高確率で畏怖させる。[精神力]
 > CONTEXT: Skills/208/description/ < UNTRANSLATED
-
+[Magic] High chance of inflicting fear on 1 enemy. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2251,7 +2251,7 @@ Boosted: Terror
 > BEGIN STRING
 [魔法] 敵全員を中確率で畏怖させる。[精神力]
 > CONTEXT: Skills/209/description/ < UNTRANSLATED
-
+[Magic] Chance of inflicting fear on all enemies. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2264,7 +2264,7 @@ Paralyze
 > BEGIN STRING
 [魔法] 敵１人を高確率で麻痺させる。[精神力]
 > CONTEXT: Skills/210/description/ < UNTRANSLATED
-
+[Magic] High chance of paralyzing one enemy. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2276,7 +2276,7 @@ Boosted: Paralyze
 > BEGIN STRING
 [魔法] 敵全員を中確率で麻痺させる。[精神力]
 > CONTEXT: Skills/211/description/ < UNTRANSLATED
-
+[Magic] Chance of paralyzing all enemies. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2289,7 +2289,7 @@ Loosen
 > BEGIN STRING
 [魔法] 敵１人を高確率で意識散漫にさせる。[精神力]
 > CONTEXT: Skills/212/description/ < UNTRANSLATED
-
+[Magic] High chance of making one enemy lose consciousness. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2301,7 +2301,7 @@ Boosted: Loosen
 > BEGIN STRING
 [魔法] 敵全員を中確率で意識散漫にさせる。[精神力]
 > CONTEXT: Skills/213/description/ < UNTRANSLATED
-
+[Magic] Chance of making all enemies lose consciousness. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2314,7 +2314,7 @@ Trim Roots
 > BEGIN STRING
 [魔法] 味方１人の恍惚・欲情・暴走・中毒・魅了を解除する。
 > CONTEXT: Skills/215/description/ < UNTRANSLATED
-
+[Magic] Removes Ecstasy, Lust, Berserk, Poisoning, and Charm from one ally.
 > END STRING
 
 > BEGIN STRING
@@ -2327,7 +2327,7 @@ Trim Stalks
 > BEGIN STRING
 [魔法] 味方１人の虚脱・畏怖・麻痺・散漫・媚薬を解除する。
 > CONTEXT: Skills/216/description/ < UNTRANSLATED
-
+[Magic] Removes Faint, Fear, Paralysis, Distraction, and Aphrodisiac from one ally.
 > END STRING
 
 > BEGIN STRING
@@ -2340,19 +2340,19 @@ Trim vines
 > BEGIN STRING
 [魔法] 味方１人の眠り・骨抜き・拘束･狂乱・虜を解除する。
 > CONTEXT: Skills/217/description/ < UNTRANSLATED
-
+[Magic] Removes Sleep, Weakness, Restraint, Frenzy, and Captivity from one ally.
 > END STRING
 
 > BEGIN STRING
 トリムオール
 > CONTEXT: Skills/218/name/ < UNTRANSLATED
-
+Trim All
 > END STRING
 
 > BEGIN STRING
 [魔法] 味方１人の状態異常を全て解除する。
 > CONTEXT: Skills/218/description/ < UNTRANSLATED
-
+[Magic] Removes all status ailments from one ally.
 > END STRING
 
 > BEGIN STRING
