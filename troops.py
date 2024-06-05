@@ -1,43 +1,22 @@
+rep = {}
+
 def get_replacement(text):
-    rep = {"レッサーサキュバス": "Lesser Succubus",
-           "サキュバスロード": "Succubus Lord",
-       "インプ": "Imp",
-       "プチウィッチ": "Petite Witch",
-       "ナイトメア": "Nightmare",
-       "ウィッチ": "Witch",
-       "ファミリア": "Familiar",
-       "ワーウルフ": "Werewolf",
-       "キャスト": "Cast",
-       "サキュバス": "Succubus",
-       "プリーステス": "Priestess",
-       "ゴブリン": "Goblin",
-       "ギャングコマンダー": "Gang Commander",
-       "デビル": "Devil",
-       "アルラウネ": "Alraune",
-       "マタンゴ": "Matango",
-       "スライム": "Slime",
-       "リリム": "Lilim",
-       "ダークエンジェル": "Dark Angel",
-       "デーモン": "Demon",
-       "ガーゴイル": "Gargoyle",
-       "ミミック": "Mimic",
-       "ワーキャット": "Werecat",
-       "スレイヴ": "Slave",
-       "タマモ": "Tamamo",
-        "カースメイガス": "Curse Magus"}
-    
-    for key in rep.keys():
-        text = text.replace(key, rep[key])
+    parts = text.split("/")
+    if len(parts)>0 and parts[0] in rep:
+        text = text.replace(parts[0], rep[parts[0]])
     return text
 
-def process_file(input_file, output_file):
-    with open(input_file, 'r', encoding='utf-8') as infile, open(output_file, 'w', encoding='utf-8') as outfile:
+def process_file(input_file):
+    lines = []
+    with open(input_file, 'r', encoding='utf-8') as infile:
+        lines = infile.readlines()
+    with open(input_file, 'w', encoding='utf-8') as outfile:
         begin_string_found = False
         pending_line = None
         context_found = False
         linecount = 0
 
-        for line in infile:
+        for line in lines:
             if pending_line:
                 if not context_found or line.startswith(">"):
                     outfile.write(line)
@@ -47,8 +26,7 @@ def process_file(input_file, output_file):
                         linecount += 1
                 elif context_found:
                     newtext = get_replacement(pending_line)
-                    outfile.write(newtext if newtext!=pending_line else line if line or linecount>0 else "\n")
-
+                    outfile.write(newtext.replace("最高の姿", "Ideal form") if newtext!=pending_line and not line.strip() else line if line or linecount>0 else "\n")
                     pending_line = None
                     begin_string_found = False
                     context_found = False
@@ -62,6 +40,32 @@ def process_file(input_file, output_file):
                     pending_line = line
 
 if __name__ == "__main__":
-    input_file = "patch/Enemies.txt"  # Change to your input file name
-    output_file = "patch/NewEnemies.txt"  # Change to your output file name
-    process_file(input_file, output_file)
+    lines = []
+    with open("patch/Classes.txt", 'r', encoding='utf-8') as trans_file:
+        lines = trans_file.readlines()
+    i = 0
+    while i < len(lines):
+        if lines[i].strip() == "> BEGIN STRING":
+            i += 1
+            string = lines[i].strip()
+            parts = string.split("/")
+            i += 1
+            while(lines[i][0] != ">"):
+                string += lines[i]
+                i += 1
+            while(lines[i][0] == ">"):
+                i += 1
+            if lines[i].strip() and len(parts)>0:
+                tparts = lines[i].split("/")
+                if len(tparts)>0 and not parts[0] in rep:
+                    rep[parts[0]] = tparts[0]
+                    print(parts[0]+" = "+tparts[0])
+                #print(string.strip()+" = "+lines[i].strip())
+
+            i += 2
+        else:
+            i += 1
+
+    
+    process_file("patch/Enemies.txt")
+    process_file("patch/Classes.txt")
