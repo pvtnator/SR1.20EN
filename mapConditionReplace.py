@@ -38,16 +38,27 @@ if __name__ == "__main__":
     mod_path = os.path.join(parent_dir, folder_name+"\\Mod\\Mod_Data")
     #mod_path = folder_path
     
-    replacements = {"(\"ネイジュレンジ\")": "(\"Neijurange\")",
-                    "(\"リジェオ\")": "(\"Rigeo\")",
-                    "(\"フルビュア\")": "(\"Fulbeua\")",
-                    "(\"ギルゴーン\")": "(\"Gilgorn\")",
-                    "(\"ユーガノット\")": "(\"Yuganot\")",
-                    "(\"シルフェ\")": "(\"Silfe\")",
-                    "(\"ヴェルミィーナ\")": "(\"Vermina\")",
-                    "(\"ラーミル\")": "(\"Ramil\")",
-                    "(\"カオシア\")": "(\"Chaosia\")",
-                    "(\"童貞\")": "(\"Virgin\")"}
+    replacements = {"(\"ネイジュレンジ\")": "(\"Neijurange\")"}
+
+    lines = []
+    with open("mod_scripts.txt", 'r', encoding='utf-8') as trans_file:
+        lines = trans_file.readlines()
+    i = 0
+    while i < len(lines):
+        if lines[i].strip() == "> BEGIN STRING":
+            i += 1
+            string = lines[i].strip()
+            i += 1
+            while(lines[i][0] == ">"):
+                i += 1
+            if lines[i].strip():
+                rep = "(\""+lines[i].strip()+"\")"
+                replacements["(\""+string+"\")"] = rep
+            i += 2
+        else:
+            i += 1
+
+    
     binary_replacements = {}
     for key in replacements.keys():
         binary_replacements[key.encode('utf-8')] = replacements[key].encode('utf-8')
