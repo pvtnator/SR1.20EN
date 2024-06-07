@@ -1,9 +1,6 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 \\v[2]を味方から外しますか？
-> CONTEXT: Map208/events/1/pages/0/15/Dialogue
-> CONTEXT: Map208/events/3/pages/0/15/Dialogue
-> CONTEXT: Map208/events/5/pages/0/15/Dialogue
 > CONTEXT: Map930/events/1/pages/0/15/Dialogue
 > CONTEXT: Map930/events/3/pages/0/15/Dialogue
 > CONTEXT: Map989/events/5/pages/0/16/Dialogue
@@ -31,6 +28,9 @@
 > CONTEXT: Map468/events/1/pages/0/15/Dialogue
 > CONTEXT: Map468/events/3/pages/0/15/Dialogue
 > CONTEXT: Map468/events/5/pages/0/15/Dialogue
+> CONTEXT: Map090/events/1/pages/0/16/Dialogue
+> CONTEXT: Map090/events/3/pages/0/16/Dialogue
+> CONTEXT: Map090/events/5/pages/0/16/Dialogue
 Do you want to remove \\v[2] from your side?
 > END STRING
 
@@ -40,7 +40,6 @@ Do you want to remove \\v[2] from your side?
 > CONTEXT: Map831/events/2/pages/0/93/InlineScript/6:12 < UNTRANSLATED
 > CONTEXT: Map577/events/2/pages/0/129/InlineScript/6:12 < UNTRANSLATED
 > CONTEXT: Map641/events/253/pages/0/155/InlineScript/6:12 < UNTRANSLATED
-> CONTEXT: Map208/events/2/pages/0/95/InlineScript/6:12 < UNTRANSLATED
 
 > END STRING
 
@@ -68,10 +67,10 @@ Do you want to remove \\v[2] from your side?
 > CONTEXT: Map468/events/4/pages/0/76/Choice/0
 > CONTEXT: Map472/events/7/pages/0/147/Choice/0
 > CONTEXT: Map472/events/7/pages/0/147/Choice/0
-> CONTEXT: Map208/events/4/pages/0/59/Choice/0
-> CONTEXT: Map208/events/4/pages/0/59/Choice/0
-> CONTEXT: Map209/events/60/pages/0/0/Choice/3
-> CONTEXT: Map209/events/60/pages/0/0/Choice/3
+> CONTEXT: Map245/events/60/pages/0/0/Choice/3
+> CONTEXT: Map245/events/60/pages/0/0/Choice/3
+> CONTEXT: Map090/events/4/pages/0/60/Choice/0
+> CONTEXT: Map090/events/4/pages/0/60/Choice/0
 Sea of Trees
 > END STRING
 
@@ -99,8 +98,8 @@ Sea of Trees
 > CONTEXT: Map468/events/4/pages/0/76/Choice/1
 > CONTEXT: Map472/events/7/pages/0/147/Choice/1
 > CONTEXT: Map472/events/7/pages/0/147/Choice/1
-> CONTEXT: Map208/events/4/pages/0/59/Choice/1
-> CONTEXT: Map208/events/4/pages/0/59/Choice/1
+> CONTEXT: Map090/events/4/pages/0/60/Choice/1
+> CONTEXT: Map090/events/4/pages/0/60/Choice/1
 Cave
 > END STRING
 
@@ -128,8 +127,8 @@ Cave
 > CONTEXT: Map468/events/4/pages/0/76/Choice/2
 > CONTEXT: Map472/events/7/pages/0/147/Choice/2
 > CONTEXT: Map472/events/7/pages/0/147/Choice/2
-> CONTEXT: Map208/events/4/pages/0/59/Choice/2
-> CONTEXT: Map208/events/4/pages/0/59/Choice/2
+> CONTEXT: Map090/events/4/pages/0/60/Choice/2
+> CONTEXT: Map090/events/4/pages/0/60/Choice/2
 Church
 > END STRING
 
@@ -146,7 +145,7 @@ Church
 > CONTEXT: Map586/events/11/pages/0/148/Dialogue
 > CONTEXT: Map468/events/4/pages/0/78/Dialogue
 > CONTEXT: Map472/events/7/pages/0/149/Dialogue
-> CONTEXT: Map208/events/4/pages/0/61/Dialogue
+> CONTEXT: Map090/events/4/pages/0/62/Dialogue
 The background has been changed to Sea of Trees.
 > END STRING
 
@@ -163,7 +162,7 @@ The background has been changed to Sea of Trees.
 > CONTEXT: Map586/events/11/pages/0/152/Dialogue
 > CONTEXT: Map468/events/4/pages/0/82/Dialogue
 > CONTEXT: Map472/events/7/pages/0/153/Dialogue
-> CONTEXT: Map208/events/4/pages/0/65/Dialogue
+> CONTEXT: Map090/events/4/pages/0/66/Dialogue
 Changed to cave background.
 > END STRING
 
@@ -180,7 +179,7 @@ Changed to cave background.
 > CONTEXT: Map586/events/11/pages/0/156/Dialogue
 > CONTEXT: Map468/events/4/pages/0/86/Dialogue
 > CONTEXT: Map472/events/7/pages/0/157/Dialogue
-> CONTEXT: Map208/events/4/pages/0/69/Dialogue
+> CONTEXT: Map090/events/4/pages/0/70/Dialogue
 Changed to church background.
 > END STRING
 
@@ -196,6 +195,8 @@ Changed to church background.
 > CONTEXT: Map577/events/4/pages/0/74/Choice/0 < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/160/Choice/0 < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/161/Choice/0 < UNTRANSLATED
+> CONTEXT: Map090/events/4/pages/0/74/Choice/0 < UNTRANSLATED
+> CONTEXT: Map090/events/4/pages/0/74/Choice/0 < UNTRANSLATED
 
 > END STRING
 
@@ -211,6 +212,8 @@ Changed to church background.
 > CONTEXT: Map577/events/4/pages/0/74/Choice/1 < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/160/Choice/1 < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/161/Choice/1 < UNTRANSLATED
+> CONTEXT: Map090/events/4/pages/0/74/Choice/1 < UNTRANSLATED
+> CONTEXT: Map090/events/4/pages/0/74/Choice/1 < UNTRANSLATED
 
 > END STRING
 
@@ -239,6 +242,8 @@ Changed to church background.
 > CONTEXT: Map472/events/7/pages/0/161/Choice/2
 > CONTEXT: Map472/events/7/pages/0/161/Choice/2
 > CONTEXT: Skills/1181/name/
+> CONTEXT: Map090/events/4/pages/0/74/Choice/2
+> CONTEXT: Map090/events/4/pages/0/74/Choice/2
 Lust
 > END STRING
 
@@ -266,8 +271,8 @@ Lust
 > CONTEXT: Map468/events/4/pages/0/76/Choice/3
 > CONTEXT: Map472/events/7/pages/0/161/Choice/3
 > CONTEXT: Map472/events/7/pages/0/161/Choice/3
-> CONTEXT: Map208/events/4/pages/0/59/Choice/3
-> CONTEXT: Map208/events/4/pages/0/59/Choice/3
+> CONTEXT: Map090/events/4/pages/0/74/Choice/3
+> CONTEXT: Map090/events/4/pages/0/74/Choice/3
 Indoors
 > END STRING
 
@@ -283,6 +288,7 @@ Indoors
 > CONTEXT: Map577/events/4/pages/0/76/Dialogue < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/162/Dialogue < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/163/Dialogue < UNTRANSLATED
+> CONTEXT: Map090/events/4/pages/0/76/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -298,6 +304,7 @@ Indoors
 > CONTEXT: Map577/events/4/pages/0/80/Dialogue < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/166/Dialogue < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/167/Dialogue < UNTRANSLATED
+> CONTEXT: Map090/events/4/pages/0/80/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -313,6 +320,7 @@ Indoors
 > CONTEXT: Map577/events/4/pages/0/84/Dialogue < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/170/Dialogue < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/171/Dialogue < UNTRANSLATED
+> CONTEXT: Map090/events/4/pages/0/84/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -329,6 +337,6 @@ Indoors
 > CONTEXT: Map586/events/11/pages/0/174/Dialogue
 > CONTEXT: Map468/events/4/pages/0/90/Dialogue
 > CONTEXT: Map472/events/7/pages/0/175/Dialogue
-> CONTEXT: Map208/events/4/pages/0/73/Dialogue
+> CONTEXT: Map090/events/4/pages/0/88/Dialogue
 Returned it to the indoors background.
 > END STRING

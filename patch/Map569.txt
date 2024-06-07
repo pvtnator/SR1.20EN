@@ -36,8 +36,6 @@
 > CONTEXT: Map569/events/8/pages/1/0/Dialogue
 > CONTEXT: Map624/events/157/pages/0/0/Dialogue
 > CONTEXT: Map624/events/157/pages/1/0/Dialogue
-> CONTEXT: Map272/events/230/pages/0/0/Dialogue
-> CONTEXT: Map272/events/230/pages/1/0/Dialogue
 \\name[White Cat]\\_
 Is there anything you'd like to ask?
 > END STRING
@@ -48,8 +46,6 @@ Is there anything you'd like to ask?
 > CONTEXT: Map569/events/8/pages/1/2/Choice/0
 > CONTEXT: Map624/events/157/pages/0/2/Choice/0
 > CONTEXT: Map624/events/157/pages/1/2/Choice/0
-> CONTEXT: Map272/events/230/pages/0/2/Choice/0
-> CONTEXT: Map272/events/230/pages/1/2/Choice/0
 Birth frequency
 > END STRING
 
@@ -59,8 +55,6 @@ Birth frequency
 > CONTEXT: Map569/events/8/pages/1/2/Choice/1
 > CONTEXT: Map624/events/157/pages/0/2/Choice/1
 > CONTEXT: Map624/events/157/pages/1/2/Choice/1
-> CONTEXT: Map272/events/230/pages/0/2/Choice/1
-> CONTEXT: Map272/events/230/pages/1/2/Choice/1
 About Pregnancy
 > END STRING
 
@@ -70,8 +64,6 @@ About Pregnancy
 > CONTEXT: Map569/events/8/pages/1/2/Choice/2
 > CONTEXT: Map624/events/157/pages/0/2/Choice/2
 > CONTEXT: Map624/events/157/pages/1/2/Choice/2
-> CONTEXT: Map272/events/230/pages/0/2/Choice/2
-> CONTEXT: Map272/events/230/pages/1/2/Choice/2
 About childbirth
 > END STRING
 
@@ -90,12 +82,6 @@ About childbirth
 > CONTEXT: Map624/events/157/pages/1/13/Dialogue
 > CONTEXT: Map624/events/157/pages/1/44/Dialogue
 > CONTEXT: Map624/events/157/pages/1/69/Dialogue
-> CONTEXT: Map272/events/230/pages/0/13/Dialogue
-> CONTEXT: Map272/events/230/pages/0/44/Dialogue
-> CONTEXT: Map272/events/230/pages/0/69/Dialogue
-> CONTEXT: Map272/events/230/pages/1/13/Dialogue
-> CONTEXT: Map272/events/230/pages/1/44/Dialogue
-> CONTEXT: Map272/events/230/pages/1/69/Dialogue
 \\name[White Cat]\\_
 Of whom do you want to check the number of births?
 > END STRING
@@ -119,12 +105,9 @@ Of whom do you want to check the number of births?
 > CONTEXT: Map392/events/16/pages/1/53/Choice/0 < UNTRANSLATED
 > CONTEXT: Map392/events/16/pages/1/70/Choice/0 < UNTRANSLATED
 > CONTEXT: Map392/events/16/pages/1/86/Choice/0 < UNTRANSLATED
-> CONTEXT: Map272/events/230/pages/0/15/Choice/0 < UNTRANSLATED
-> CONTEXT: Map272/events/230/pages/0/46/Choice/0 < UNTRANSLATED
-> CONTEXT: Map272/events/230/pages/0/71/Choice/0 < UNTRANSLATED
-> CONTEXT: Map272/events/230/pages/1/15/Choice/0 < UNTRANSLATED
-> CONTEXT: Map272/events/230/pages/1/46/Choice/0 < UNTRANSLATED
-> CONTEXT: Map272/events/230/pages/1/71/Choice/0 < UNTRANSLATED
+> CONTEXT: Map177/events/5/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: Map177/events/6/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: Map177/events/7/pages/0/9/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -146,12 +129,6 @@ Of whom do you want to check the number of births?
 > CONTEXT: Map392/events/16/pages/1/33/Choice/1 < UNTRANSLATED
 > CONTEXT: Map392/events/16/pages/1/53/Choice/1 < UNTRANSLATED
 > CONTEXT: Map392/events/16/pages/1/70/Choice/1 < UNTRANSLATED
-> CONTEXT: Map272/events/230/pages/0/15/Choice/1 < UNTRANSLATED
-> CONTEXT: Map272/events/230/pages/0/46/Choice/1 < UNTRANSLATED
-> CONTEXT: Map272/events/230/pages/0/71/Choice/1 < UNTRANSLATED
-> CONTEXT: Map272/events/230/pages/1/15/Choice/1 < UNTRANSLATED
-> CONTEXT: Map272/events/230/pages/1/46/Choice/1 < UNTRANSLATED
-> CONTEXT: Map272/events/230/pages/1/71/Choice/1 < UNTRANSLATED
 > CONTEXT: Commonevents/259/20/Choice/0 < UNTRANSLATED
 > CONTEXT: Commonevents/259/41/Choice/0 < UNTRANSLATED
 > CONTEXT: Commonevents/259/65/Choice/0 < UNTRANSLATED
@@ -167,8 +144,6 @@ Of whom do you want to check the number of births?
 > CONTEXT: Map624/events/157/pages/0/15/Choice/3 < UNTRANSLATED
 > CONTEXT: Map624/events/157/pages/1/15/Choice/3 < UNTRANSLATED
 > CONTEXT: Map392/events/16/pages/1/10/Choice/3 < UNTRANSLATED
-> CONTEXT: Map272/events/230/pages/0/15/Choice/3 < UNTRANSLATED
-> CONTEXT: Map272/events/230/pages/1/15/Choice/3 < UNTRANSLATED
 > CONTEXT: Commonevents/259/92/Choice/2 < UNTRANSLATED
 > CONTEXT: Commonevents/259/133/Choice/2 < UNTRANSLATED
 
@@ -185,10 +160,6 @@ Of whom do you want to check the number of births?
 > CONTEXT: Map624/events/157/pages/0/157/Dialogue
 > CONTEXT: Map624/events/157/pages/1/92/Dialogue
 > CONTEXT: Map624/events/157/pages/1/157/Dialogue
-> CONTEXT: Map272/events/230/pages/0/92/Dialogue
-> CONTEXT: Map272/events/230/pages/0/156/Dialogue
-> CONTEXT: Map272/events/230/pages/1/92/Dialogue
-> CONTEXT: Map272/events/230/pages/1/157/Dialogue
 \\name[White Cat]\\_
 Please choose what you want to ask about.
 > END STRING
@@ -199,8 +170,6 @@ Please choose what you want to ask about.
 > CONTEXT: Map569/events/8/pages/1/94/Choice/0
 > CONTEXT: Map624/events/157/pages/0/94/Choice/0
 > CONTEXT: Map624/events/157/pages/1/94/Choice/0
-> CONTEXT: Map272/events/230/pages/0/94/Choice/0
-> CONTEXT: Map272/events/230/pages/1/94/Choice/0
 Conditions for pregnancy
 > END STRING
 
@@ -210,8 +179,6 @@ Conditions for pregnancy
 > CONTEXT: Map569/events/8/pages/1/94/Choice/1
 > CONTEXT: Map624/events/157/pages/0/94/Choice/1
 > CONTEXT: Map624/events/157/pages/1/94/Choice/1
-> CONTEXT: Map272/events/230/pages/0/94/Choice/1
-> CONTEXT: Map272/events/230/pages/1/94/Choice/1
 Pregnancy circumstances
 > END STRING
 
@@ -221,8 +188,6 @@ Pregnancy circumstances
 > CONTEXT: Map569/events/8/pages/1/94/Choice/2
 > CONTEXT: Map624/events/157/pages/0/94/Choice/2
 > CONTEXT: Map624/events/157/pages/1/94/Choice/2
-> CONTEXT: Map272/events/230/pages/0/94/Choice/2
-> CONTEXT: Map272/events/230/pages/1/94/Choice/2
 Pregnancy probability
 > END STRING
 
@@ -232,8 +197,6 @@ Pregnancy probability
 > CONTEXT: Map569/events/8/pages/1/94/Choice/3
 > CONTEXT: Map624/events/157/pages/0/94/Choice/3
 > CONTEXT: Map624/events/157/pages/1/94/Choice/3
-> CONTEXT: Map272/events/230/pages/0/94/Choice/3
-> CONTEXT: Map272/events/230/pages/1/94/Choice/3
 Pregnancy effects
 > END STRING
 
@@ -246,8 +209,6 @@ Pregnancy effects
 > CONTEXT: Map569/events/8/pages/1/96/Dialogue
 > CONTEXT: Map624/events/157/pages/0/96/Dialogue
 > CONTEXT: Map624/events/157/pages/1/96/Dialogue
-> CONTEXT: Map272/events/230/pages/0/96/Dialogue
-> CONTEXT: Map272/events/230/pages/1/96/Dialogue
 \\name[White Cat]\\_
 To impregnate a succubus,
 you need to engrave a special rune.
@@ -262,8 +223,6 @@ A nearby traveling merchant should have one.
 > CONTEXT: Map569/events/8/pages/1/100/Dialogue
 > CONTEXT: Map624/events/157/pages/0/100/Dialogue
 > CONTEXT: Map624/events/157/pages/1/100/Dialogue
-> CONTEXT: Map272/events/230/pages/0/100/Dialogue
-> CONTEXT: Map272/events/230/pages/1/100/Dialogue
 \\name[White Cat]\\_
 Once you've engraved the runes, 
 all you have to do is do what needs to be done.
@@ -279,8 +238,6 @@ I don't think I need to explain that, right?
 > CONTEXT: Map569/events/8/pages/1/103/Dialogue
 > CONTEXT: Map624/events/157/pages/0/103/Dialogue
 > CONTEXT: Map624/events/157/pages/1/103/Dialogue
-> CONTEXT: Map272/events/230/pages/0/103/Dialogue
-> CONTEXT: Map272/events/230/pages/1/103/Dialogue
 \\name[White Cat]\\_
 However, there are no conditions for the sperm donor.
 If you don't choose your partner carefully, you may end up 
@@ -295,8 +252,6 @@ with an unwanted pregnancy. Be careful about that.
 > CONTEXT: Map569/events/8/pages/1/109/Dialogue
 > CONTEXT: Map624/events/157/pages/0/109/Dialogue
 > CONTEXT: Map624/events/157/pages/1/109/Dialogue
-> CONTEXT: Map272/events/230/pages/0/109/Dialogue
-> CONTEXT: Map272/events/230/pages/1/109/Dialogue
 \\name[White Cat]\\_
 If you want to impregnate her yourself, the best thing to do is 
 invite her into the bedroom. You can also battle when she's hungry, 
@@ -312,8 +267,6 @@ but that's not worth the effort.
 > CONTEXT: Map569/events/8/pages/1/112/Dialogue
 > CONTEXT: Map624/events/157/pages/0/112/Dialogue
 > CONTEXT: Map624/events/157/pages/1/112/Dialogue
-> CONTEXT: Map272/events/230/pages/0/112/Dialogue
-> CONTEXT: Map272/events/230/pages/1/112/Dialogue
 \\name[White Cat]\\_
 There's a chance to get pregnant when you offer semen.
 Status will decrease during pregnancy,
@@ -329,8 +282,6 @@ so be careful if you continue exploring.
 > CONTEXT: Map569/events/8/pages/1/116/Dialogue
 > CONTEXT: Map624/events/157/pages/0/116/Dialogue
 > CONTEXT: Map624/events/157/pages/1/116/Dialogue
-> CONTEXT: Map272/events/230/pages/0/116/Dialogue
-> CONTEXT: Map272/events/230/pages/1/116/Dialogue
 \\name[White Cat]\\_
 Of course, you can get pregnant even if you're fighting an enemy.
 As long as you don't receive semen, you're safe,
@@ -345,8 +296,6 @@ but that's not the case if you're wiped out.
 > CONTEXT: Map569/events/8/pages/1/122/Dialogue
 > CONTEXT: Map624/events/157/pages/0/122/Dialogue
 > CONTEXT: Map624/events/157/pages/1/122/Dialogue
-> CONTEXT: Map272/events/230/pages/0/122/Dialogue
-> CONTEXT: Map272/events/230/pages/1/122/Dialogue
 \\name[White Cat]\\_
 Even with the power of runes, you won't necessarily get pregnant 
 in one try. If your goal is to get pregnant, 
@@ -362,8 +311,6 @@ you'll have to try really hard.
 > CONTEXT: Map569/events/8/pages/1/125/Dialogue
 > CONTEXT: Map624/events/157/pages/0/125/Dialogue
 > CONTEXT: Map624/events/157/pages/1/125/Dialogue
-> CONTEXT: Map272/events/230/pages/0/125/Dialogue
-> CONTEXT: Map272/events/230/pages/1/125/Dialogue
 \\name[White Cat]\\_
 In other words, it means you'll be okay if you receive 
 semen from the enemy. However, you should never be overconfident.
@@ -379,8 +326,6 @@ If you fight using penetration, there's always a risk.
 > CONTEXT: Map569/events/8/pages/1/129/Dialogue
 > CONTEXT: Map624/events/157/pages/0/129/Dialogue
 > CONTEXT: Map624/events/157/pages/1/129/Dialogue
-> CONTEXT: Map272/events/230/pages/0/129/Dialogue
-> CONTEXT: Map272/events/230/pages/1/129/Dialogue
 \\name[White Cat]\\_
 Also, the exception is when you get wiped out. In this case, 
 if there is a succubus with a penis among the enemies, 
@@ -396,8 +341,6 @@ everyone will be toyed with until they become pregnant.
 > CONTEXT: Map569/events/8/pages/1/133/Dialogue
 > CONTEXT: Map624/events/157/pages/0/133/Dialogue
 > CONTEXT: Map624/events/157/pages/1/133/Dialogue
-> CONTEXT: Map272/events/230/pages/0/133/Dialogue
-> CONTEXT: Map272/events/230/pages/1/133/Dialogue
 \\name[White Cat]\\_
 Of course, you can't get pregnant without runes.
 It's a shame you can't reuse them,
@@ -409,7 +352,6 @@ but if you're in a pinch, you can always just discard the runes.
 妊娠中はステータスが下がるよ。
 身重になっているってことだね
 > CONTEXT: Map569/events/8/pages/0/139/Dialogue
-> CONTEXT: Map272/events/230/pages/0/139/Dialogue
 \\name[White Cat]\\_
 Your status will decrease during pregnancy.
 That means you're pregnant.
@@ -424,8 +366,6 @@ That means you're pregnant.
 > CONTEXT: Map569/events/8/pages/1/143/Dialogue
 > CONTEXT: Map624/events/157/pages/0/143/Dialogue
 > CONTEXT: Map624/events/157/pages/1/143/Dialogue
-> CONTEXT: Map272/events/230/pages/0/142/Dialogue
-> CONTEXT: Map272/events/230/pages/1/143/Dialogue
 \\name[White Cat]\\_
 Of course, you have to offer your essence while exploring,
 so it might be a bit of a problem if you get pregnant unexpectedly.
@@ -441,8 +381,6 @@ Family planning is important, I guess.
 > CONTEXT: Map569/events/8/pages/1/147/Dialogue
 > CONTEXT: Map624/events/157/pages/0/147/Dialogue
 > CONTEXT: Map624/events/157/pages/1/147/Dialogue
-> CONTEXT: Map272/events/230/pages/0/146/Dialogue
-> CONTEXT: Map272/events/230/pages/1/147/Dialogue
 \\name[White Cat]\\_
 That's right, you produce breast milk during pregnancy.
 This continues even after giving birth. Some succubi are capable of 
@@ -455,8 +393,6 @@ producing milk even when they're not pregnant, though.
 > CONTEXT: Map569/events/8/pages/1/159/Choice/0
 > CONTEXT: Map624/events/157/pages/0/159/Choice/0
 > CONTEXT: Map624/events/157/pages/1/159/Choice/0
-> CONTEXT: Map272/events/230/pages/0/158/Choice/0
-> CONTEXT: Map272/events/230/pages/1/159/Choice/0
 Childbirth method
 > END STRING
 
@@ -466,8 +402,6 @@ Childbirth method
 > CONTEXT: Map569/events/8/pages/1/159/Choice/1
 > CONTEXT: Map624/events/157/pages/0/159/Choice/1
 > CONTEXT: Map624/events/157/pages/1/159/Choice/1
-> CONTEXT: Map272/events/230/pages/0/158/Choice/1
-> CONTEXT: Map272/events/230/pages/1/159/Choice/1
 Childbirth benefits
 > END STRING
 
@@ -480,8 +414,6 @@ Childbirth benefits
 > CONTEXT: Map569/events/8/pages/1/161/Dialogue
 > CONTEXT: Map624/events/157/pages/0/161/Dialogue
 > CONTEXT: Map624/events/157/pages/1/161/Dialogue
-> CONTEXT: Map272/events/230/pages/0/160/Dialogue
-> CONTEXT: Map272/events/230/pages/1/161/Dialogue
 \\name[White Cat]\\_
 If you get pregnant, talk to the maid next to you.
 She's a great girl.
@@ -497,8 +429,6 @@ She'll even take care of your baby.
 > CONTEXT: Map569/events/8/pages/1/165/Dialogue
 > CONTEXT: Map624/events/157/pages/0/165/Dialogue
 > CONTEXT: Map624/events/157/pages/1/165/Dialogue
-> CONTEXT: Map272/events/230/pages/0/164/Dialogue
-> CONTEXT: Map272/events/230/pages/1/165/Dialogue
 \\name[White Cat]\\_
 Your stats will go down during pregnancy,
 so there's no point in leaving it alone.
@@ -513,8 +443,6 @@ Your stats will go back to normal once you give birth.
 > CONTEXT: Map569/events/8/pages/1/169/Dialogue
 > CONTEXT: Map624/events/157/pages/0/169/Dialogue
 > CONTEXT: Map624/events/157/pages/1/169/Dialogue
-> CONTEXT: Map272/events/230/pages/0/168/Dialogue
-> CONTEXT: Map272/events/230/pages/1/169/Dialogue
 \\name[White Cat]\\_
 Well, I guess carrying her around while pregnant 
 is a bit of a problem.
@@ -529,8 +457,6 @@ Hahaha.
 > CONTEXT: Map569/events/8/pages/1/174/Dialogue
 > CONTEXT: Map624/events/157/pages/0/174/Dialogue
 > CONTEXT: Map624/events/157/pages/1/174/Dialogue
-> CONTEXT: Map272/events/230/pages/0/173/Dialogue
-> CONTEXT: Map272/events/230/pages/1/174/Dialogue
 \\name[White Cat]\\_
 Each time you give birth to a child with your contractor,
 your favorability and contract beads will increase slightly.
@@ -545,8 +471,6 @@ your favorability and contract beads will increase slightly.
 > CONTEXT: Map569/events/8/pages/1/177/Dialogue
 > CONTEXT: Map624/events/157/pages/0/177/Dialogue
 > CONTEXT: Map624/events/157/pages/1/177/Dialogue
-> CONTEXT: Map272/events/230/pages/0/176/Dialogue
-> CONTEXT: Map272/events/230/pages/1/177/Dialogue
 \\name[White Cat]\\_
 Also, the more times you give birth to children of contractors,
 the more likely you are to get contract beads in the bedroom.
@@ -562,8 +486,6 @@ This is a small amount, so it's more of a bonus, though.
 > CONTEXT: Map569/events/8/pages/1/181/Dialogue
 > CONTEXT: Map624/events/157/pages/0/181/Dialogue
 > CONTEXT: Map624/events/157/pages/1/181/Dialogue
-> CONTEXT: Map272/events/230/pages/0/180/Dialogue
-> CONTEXT: Map272/events/230/pages/1/181/Dialogue
 \\name[White Cat]\\_
 Also, companions who have given birth to children of contractors 
 should have a slight increase in their charm. This has nothing to do 
@@ -578,8 +500,6 @@ with the number of times, it's just a matter of experience.
 > CONTEXT: Map569/events/8/pages/1/185/Dialogue
 > CONTEXT: Map624/events/157/pages/0/185/Dialogue
 > CONTEXT: Map624/events/157/pages/1/185/Dialogue
-> CONTEXT: Map272/events/230/pages/0/184/Dialogue
-> CONTEXT: Map272/events/230/pages/1/185/Dialogue
 \\name[White Cat]\\_
 There are no special benefits for non-contractors.
 Well, I guess that's a good idea, though. Just kidding.
@@ -589,7 +509,6 @@ Well, I guess that's a good idea, though. Just kidding.
 夢現の源泉について
 > CONTEXT: Map569/events/8/pages/1/2/Choice/3
 > CONTEXT: Map624/events/157/pages/1/2/Choice/3
-> CONTEXT: Map272/events/230/pages/1/2/Choice/3
 Source of Dreams
 > END STRING
 
@@ -601,7 +520,6 @@ Source of Dreams
 > CONTEXT: Map569/events/8/pages/1/139/Dialogue
 > CONTEXT: Map624/events/157/pages/0/139/Dialogue
 > CONTEXT: Map624/events/157/pages/1/139/Dialogue
-> CONTEXT: Map272/events/230/pages/1/139/Dialogue
 \\name[White Cat]\\_
 Your stats will decrease while you're pregnant.
 Specifically, your dexterity and speed will decrease significantly.
@@ -615,7 +533,6 @@ That means you're pregnant.
 ルーンを刻印していない夢魔も妊娠させることができる。
 > CONTEXT: Map569/events/8/pages/1/194/Dialogue
 > CONTEXT: Map624/events/157/pages/1/194/Dialogue
-> CONTEXT: Map272/events/230/pages/1/194/Dialogue
 \\name[White Cat]\\_
 The Source of Dreams is something you equip yourself.
 With the power of the Source, you can impregnate even 
@@ -629,7 +546,6 @@ succubi that do not have runes engraved on them.
 責任を取るかどうかは君次第だね。ははは。
 > CONTEXT: Map569/events/8/pages/1/198/Dialogue
 > CONTEXT: Map624/events/157/pages/1/198/Dialogue
-> CONTEXT: Map272/events/230/pages/1/198/Dialogue
 \\name[White Cat]\\_
 This is effective even on uncontracted incubi.
 You'll find out if she's pregnant when you make the contract.
@@ -643,7 +559,6 @@ It's up to you to take responsibility or not. Hahaha.
 片方だけでもいいし、君の好みで選んでみるといい。
 > CONTEXT: Map569/events/8/pages/1/202/Dialogue
 > CONTEXT: Map624/events/157/pages/1/202/Dialogue
-> CONTEXT: Map272/events/230/pages/1/202/Dialogue
 \\name[White Cat]\\_
 That's right, the this power overlaps with the rune's power.
 If you have both, it will be easier to get pregnant.

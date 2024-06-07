@@ -4,7 +4,7 @@
 最近、樹海で見たことがないような
 夢魔が現れるようになったの
 あなたも気を付けてね
-> CONTEXT: Map209/events/7/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -13,8 +13,7 @@
 ……何よその顔は
 ちょっと見に行ってみようだなんて
 思わない方がいいわよ？
-> CONTEXT: Map209/events/7/pages/0/5/Dialogue < UNTRANSLATED
-> CONTEXT: Map209/events/7/pages/1/5/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -23,7 +22,7 @@
 最近、各地で見たことがないような
 夢魔が現れるようになったの
 あなたも気を付けてね
-> CONTEXT: Map209/events/7/pages/1/1/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -31,7 +30,8 @@
 \\name[\\v[2]]\\_
 左はお店だな。道具屋と魔法屋がいる。
 買い物はここでやるんだね。
-> CONTEXT: Map209/events/10/pages/0/16/Dialogue
+> CONTEXT: Map245/events/10/pages/0/16/Dialogue
+> CONTEXT: Map224/events/17/pages/1/16/Dialogue
 \\name[\\v[2]]\\_
 On the left are the shops. There's a tool shop and a magic shop.
 This is where you do your shopping.
@@ -41,7 +41,8 @@ This is where you do your shopping.
 \\name[\\v[2]]\\_
 上の建物は酒場と図書館と娼館になっているのさ。
 人がいっぱい集まるから色んなことが聞けると思うよ。
-> CONTEXT: Map209/events/10/pages/0/21/Dialogue
+> CONTEXT: Map245/events/10/pages/0/21/Dialogue
+> CONTEXT: Map224/events/17/pages/1/21/Dialogue
 \\name[\\v[2]]\\_
 The building above is a bar, a library, and a brothel.
 It's a place where a lot of people gather, 
@@ -52,8 +53,8 @@ so I think you'll be able to hear a lot of things.
 \\name[\\v[2]]\\_
 ･･･お、これはこれは\\n[101]のあねさん。
 あねさんは確かルーンの刻印を専門としてるんでしたよね。
-> CONTEXT: Map209/events/12/pages/0/12/Dialogue < UNTRANSLATED
-> CONTEXT: Map209/events/12/pages/0/18/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/15/pages/1/12/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/15/pages/1/18/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -61,7 +62,8 @@ so I think you'll be able to hear a lot of things.
 \\name[\\v[2]]\\_
 ･･･お、これはこれは\\n[101]の旦那。
 旦那は確かルーンの刻印を専門としてるんでしたよね。
-> CONTEXT: Map209/events/12/pages/0/23/Dialogue
+> CONTEXT: Map245/events/12/pages/0/11/Dialogue
+> CONTEXT: Map224/events/15/pages/1/23/Dialogue
 \\name[\\v[2]]\\_
 ...Oh, this is master \\n[101]!
 He specializes in rune engravings.
@@ -70,26 +72,29 @@ He specializes in rune engravings.
 > BEGIN STRING
 知ってると便利！　特殊なキーについて！
 どの項を読みますか？
-> CONTEXT: Map209/events/15/pages/0/1/Dialogue
+> CONTEXT: Map245/events/15/pages/0/1/Dialogue
 Useful to know! About special keys on the keyboard!
 Which section do you want to read?
 > END STRING
 
 > BEGIN STRING
 マップでの特殊キー
-> CONTEXT: Map209/events/15/pages/0/3/Choice/0
+> CONTEXT: Map245/events/15/pages/0/3/Choice/0
+> CONTEXT: Map245/events/15/pages/0/3/Choice/0
 Special keys in maps
 > END STRING
 
 > BEGIN STRING
 戦闘中での特殊キー
-> CONTEXT: Map209/events/15/pages/0/3/Choice/1
+> CONTEXT: Map245/events/15/pages/0/3/Choice/1
+> CONTEXT: Map245/events/15/pages/0/3/Choice/1
 Special keys in battle
 > END STRING
 
 > BEGIN STRING
 キーコンフィグ
-> CONTEXT: Map209/events/15/pages/0/3/Choice/2
+> CONTEXT: Map245/events/15/pages/0/3/Choice/2
+> CONTEXT: Map245/events/15/pages/0/3/Choice/2
 Key config
 > END STRING
 
@@ -97,7 +102,7 @@ Key config
 ＜マップ中で使用できる特殊キー＞
 ShiftまたはCキー：仲間の夢魔と会話
 メニュー画面でShiftまたはCキー：マップポーズ
-> CONTEXT: Map209/events/15/pages/0/5/Dialogue
+> CONTEXT: Map245/events/15/pages/0/5/Dialogue
 <Special keys that can be used in the map\>
 Shift or C key: Talk to succubi in party
 Shift or C key on menu screen: Map pause
@@ -106,8 +111,8 @@ Shift or C key on menu screen: Map pause
 > BEGIN STRING
 これらのキーはデフォルト状態の場合となっています。
 変更したい場合は、キーコンフィグができます。
-> CONTEXT: Map209/events/15/pages/0/8/Dialogue
-> CONTEXT: Map209/events/15/pages/0/30/Dialogue
+> CONTEXT: Map245/events/15/pages/0/8/Dialogue
+> CONTEXT: Map245/events/15/pages/0/30/Dialogue
 These are the default keys for these actions.
 If you want to change it, go to key config.
 > END STRING
@@ -116,7 +121,7 @@ If you want to change it, go to key config.
 ＜戦闘中で使用できる特殊キー＞
 行動選択中にShiftまたはCキー：選択中のキャラクター\\_
 情報を確認\\next
-> CONTEXT: Map209/events/15/pages/0/12/Dialogue
+> CONTEXT: Map245/events/15/pages/0/12/Dialogue
 <Special keys that can be used during battle\>
 Shift or C key while selecting an action:\\n\\_
 Check the selected character information
@@ -126,7 +131,7 @@ Check the selected character information
 対象選択中にShiftまたはCキー：対象のキャラクター情報\\_
 を確認
 状態異常や、判明している弱点や性格などを確認できます。
-> CONTEXT: Map209/events/15/pages/0/15/Dialogue
+> CONTEXT: Map245/events/15/pages/0/15/Dialogue
 Shift or C key while selecting target: 
 Check target character information, status abnormalities,\\n\\_
 known weaknesses, personality, etc.
@@ -137,7 +142,7 @@ A・S・Dキー：ポーズ
 それぞれ、通常ポーズ・枠非表示ポーズ・バックログポーズ\\_
 となっています。
 一時停止や、メッセージ履歴確認ができます。
-> CONTEXT: Map209/events/15/pages/0/18/Dialogue
+> CONTEXT: Map245/events/15/pages/0/18/Dialogue
 A, S, D key: Pause
 There is a normal pause, a frame-hide pause, and a backlog pause.
 You can pause or check your message history.
@@ -148,7 +153,7 @@ You can pause or check your message history.
 インサートのような、誰が誰を捕まえているかの状態を\\_
 確認できます。
 ターンが開始されると、自動的に非表示になります。
-> CONTEXT: Map209/events/15/pages/0/22/Dialogue
+> CONTEXT: Map245/events/15/pages/0/22/Dialogue
 Up/down keys while selecting command: Check current hold status
 You can see the status of who is holding who, e.g. an insert.\\n\\_
 It will automatically hide when the turn begins.
@@ -159,7 +164,7 @@ Qキー：メッセージ表示モードの変更
 Wキー：バトルスピードの変更
 表示するメッセージ表示についてや、\\_
 バトルスピードの変更ができます。
-> CONTEXT: Map209/events/15/pages/0/26/Dialogue
+> CONTEXT: Map245/events/15/pages/0/26/Dialogue
 Q key: Change message display mode
 W key: Change battle speed
 You can change the message display and battle speed.
@@ -169,7 +174,7 @@ You can change the message display and battle speed.
 ＜キーコンフィグ＞
 F1キーを押すと、いつでもキーコンフィグができます。
 また、動作オプションもここで変更できます。
-> CONTEXT: Map209/events/15/pages/0/34/Dialogue
+> CONTEXT: Map245/events/15/pages/0/34/Dialogue
 <Key config\>
 You can press F1 to change key configuration at any time.
 You can also change behavior options there.
@@ -178,7 +183,7 @@ You can also change behavior options there.
 > BEGIN STRING
 Altキーを押しながらEnterキー：フルスクリーン化
 画面表示をフルスクリーンにすることができます。
-> CONTEXT: Map209/events/15/pages/0/39/Dialogue
+> CONTEXT: Map245/events/15/pages/0/39/Dialogue
 Alt+Enter: Full screen
 You can display the game in full screen.
 > END STRING
@@ -188,7 +193,7 @@ F12キー：リセット
 すぐにタイトル画面に戻ります。
 次に始める時は最後にセーブした所からとなります。\\_
 ご注意ください。
-> CONTEXT: Map209/events/15/pages/0/41/Dialogue
+> CONTEXT: Map245/events/15/pages/0/41/Dialogue
 F12 key: Reset
 You will be returned to the title screen immediately.
 Note that the next time you start,\\n\\_
@@ -197,13 +202,13 @@ you will start from where you last saved.
 
 > BEGIN STRING
 宝箱の底に何かがある
-> CONTEXT: Map209/events/17/pages/1/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map245/events/17/pages/1/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "動く宝箱"
-> CONTEXT: Map209/events/17/pages/2/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map245/events/17/pages/2/0/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
 
@@ -211,20 +216,22 @@ you will start from where you last saved.
 \\name[\\v[2]]\\_
 なんだぁ
 宝箱が動いてたらおかしいか？
-> CONTEXT: Map209/events/17/pages/2/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map245/events/17/pages/2/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 タルの中に何かがある
-> CONTEXT: Map209/events/28/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map245/events/28/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "魔法屋妹"
-> CONTEXT: Map209/events/34/pages/0/0/InlineScript/1:22
-> CONTEXT: Map209/events/34/pages/1/0/InlineScript/1:22
+> CONTEXT: Map224/events/16/pages/0/0/InlineScript/1:22
+> CONTEXT: Map224/events/16/pages/1/0/InlineScript/1:22
+> CONTEXT: Map245/events/34/pages/0/0/InlineScript/1:22
+> CONTEXT: Map245/events/34/pages/1/0/InlineScript/1:22
 "Mage girl"
 > END STRING
 
@@ -232,8 +239,10 @@ you will start from where you last saved.
 \\name[\\v[2]]\\_
 ルーンの刻印は、メニューのステータスの装備画面で\\_
 できますよ。
-> CONTEXT: Map209/events/34/pages/0/1/Dialogue
-> CONTEXT: Map209/events/34/pages/1/1/Dialogue
+> CONTEXT: Map224/events/16/pages/0/1/Dialogue
+> CONTEXT: Map224/events/16/pages/1/1/Dialogue
+> CONTEXT: Map245/events/34/pages/0/1/Dialogue
+> CONTEXT: Map245/events/34/pages/1/1/Dialogue
 \\name[\\v[2]]\\_
 You can engrave runes on the equipment screen in the status menu.
 > END STRING
@@ -243,7 +252,8 @@ You can engrave runes on the equipment screen in the status menu.
 ただ、ルーンは通常の装備品とは違って消費物のため、
 \\c[12]一度刻印すると外して再度刻印することが\\_
 できません\\c[0]。
-> CONTEXT: Map209/events/34/pages/0/4/Dialogue
+> CONTEXT: Map224/events/16/pages/0/4/Dialogue
+> CONTEXT: Map245/events/34/pages/0/4/Dialogue
 \\name[\\v[2]]\\_
 However, unlike normal equipment, runes are consumable items, so
 \\c[12]Once engraved, it cannot be removed and engraved again\\c[0].
@@ -252,7 +262,8 @@ However, unlike normal equipment, runes are consumable items, so
 > BEGIN STRING
 \\name[\\v[2]]\\_
 貴重なルーンの刻印には慎重になるべきですね。
-> CONTEXT: Map209/events/34/pages/0/8/Dialogue
+> CONTEXT: Map224/events/16/pages/0/8/Dialogue
+> CONTEXT: Map245/events/34/pages/0/8/Dialogue
 \\name[\\v[2]]\\_
 You should be careful about engraving valuable runes.
 > END STRING
@@ -260,7 +271,8 @@ You should be careful about engraving valuable runes.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 良ければこちらをお試しください。
-> CONTEXT: Map209/events/34/pages/0/11/Dialogue
+> CONTEXT: Map224/events/16/pages/0/11/Dialogue
+> CONTEXT: Map245/events/34/pages/0/11/Dialogue
 \\name[\\v[2]]\\_
 Please try it with this if you want.
 > END STRING
@@ -269,7 +281,8 @@ Please try it with this if you want.
 \\name[\\v[2]]\\_
 お渡ししたものはあまり貴重なものではありません。
 そこにいる姉に言えば購入もできますよ。
-> CONTEXT: Map209/events/34/pages/0/20/Dialogue
+> CONTEXT: Map224/events/16/pages/0/20/Dialogue
+> CONTEXT: Map245/events/34/pages/0/20/Dialogue
 \\name[\\v[2]]\\_
 What I gave you is not very valuable.
 You can also buy it from that girl there.
@@ -279,7 +292,8 @@ You can also buy it from that girl there.
 \\name[\\v[2]]\\_
 ･･････って、ラーミル様のお弟子様じゃありませんか！
 あわわわわご存知ですよね、失礼しました！！
-> CONTEXT: Map209/events/34/pages/0/26/Dialogue
+> CONTEXT: Map224/events/16/pages/0/26/Dialogue
+> CONTEXT: Map245/events/34/pages/0/26/Dialogue
 \\name[\\v[2]]\\_
 You are Ramil's disciple!?
 Uwaa! Sorry, I didn't know!!
@@ -289,7 +303,8 @@ Uwaa! Sorry, I didn't know!!
 \\name[\\v[2]]\\_
 パーティにいない仲間の夢魔も、お弟子様が歩いているうちに
 契約の珠が増えていくのはご存知ですか？
-> CONTEXT: Map209/events/34/pages/1/4/Dialogue
+> CONTEXT: Map224/events/16/pages/1/4/Dialogue
+> CONTEXT: Map245/events/34/pages/1/4/Dialogue
 \\name[\\v[2]]\\_
 Did you know that the number of contract beads will increase
 as you walk, even for succubi who are not in your party?
@@ -300,7 +315,8 @@ as you walk, even for succubi who are not in your party?
 これはガラスの指輪や信頼のルーンの効果も影響します\\_
 ので、\\n連れていけないけど強くはしたいって子に\\_
 つけておくとお得ですよ！
-> CONTEXT: Map209/events/34/pages/1/7/Dialogue
+> CONTEXT: Map224/events/16/pages/1/7/Dialogue
+> CONTEXT: Map245/events/34/pages/1/7/Dialogue
 \\name[\\v[2]]\\_
 Things like Glass Ring and Trust Rune are in effect
 even for girls that aren't with you, so it's useful to\\n\\_
@@ -311,7 +327,8 @@ equip them for those that aren't strong enough to take with you!
 \\name[\\v[2]]\\_
 信頼のルーンは当店で取り扱うようになりましたから、
 ご入用の際は是非当魔道具専門店へ！
-> CONTEXT: Map209/events/34/pages/1/11/Dialogue
+> CONTEXT: Map224/events/16/pages/1/11/Dialogue
+> CONTEXT: Map245/events/34/pages/1/11/Dialogue
 \\name[\\v[2]]\\_
 Trust Rune is now available at our store,
 If you want it, please visit our magic tool specialty store!
@@ -319,7 +336,7 @@ If you want it, please visit our magic tool specialty store!
 
 > BEGIN STRING
 小さな虚の中に雪景色が見える･･･。
-> CONTEXT: Map209/events/35/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map245/events/35/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -327,7 +344,7 @@ If you want it, please visit our magic tool specialty store!
 デバッグアイテムを入手しますか？
 （テストプレイ中は持ったままにしないで下さい。
 　また、デバッグアイテムは売却することができます）
-> CONTEXT: Map209/events/37/pages/0/0/Dialogue
+> CONTEXT: Map245/events/37/pages/0/0/Dialogue
 Do you want to get debug items?
 (Please do not use them while playtesting.
 Also, debug items can be sold)
@@ -337,7 +354,7 @@ Also, debug items can be sold)
 デバッグアイテムを使用することで、\\_
 デバッグルームへ直行できます。\\n口上確認用部屋は、\\_
 右側にある扉へ入って、更に右側へ進んで下さい。
-> CONTEXT: Map209/events/37/pages/0/13/Dialogue
+> CONTEXT: Map245/events/37/pages/0/13/Dialogue
 By using debug items, you can go directly to the debug room.
 For the dialog test room, enter the door
 to the right and proceed further to the right.
@@ -345,24 +362,18 @@ to the right and proceed further to the right.
 
 > BEGIN STRING
 "庭の女の子"
-> CONTEXT: Map209/events/39/pages/0/2/InlineScript/1:22
-> CONTEXT: Map209/events/39/pages/1/2/InlineScript/1:22
-> CONTEXT: Map209/events/39/pages/2/2/InlineScript/1:22
-> CONTEXT: Map209/events/39/pages/3/2/InlineScript/1:22
-> CONTEXT: Map209/events/39/pages/4/2/InlineScript/1:22
-> CONTEXT: Map209/events/39/pages/5/2/InlineScript/1:22
+> CONTEXT: Map245/events/39/pages/0/2/InlineScript/1:22
+> CONTEXT: Map245/events/39/pages/1/2/InlineScript/1:22
+> CONTEXT: Map245/events/39/pages/2/2/InlineScript/1:22
 "Garden Girl"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 シーシーシー♪
-> CONTEXT: Map209/events/39/pages/0/3/Dialogue
-> CONTEXT: Map209/events/39/pages/1/3/Dialogue
-> CONTEXT: Map209/events/39/pages/2/3/Dialogue
-> CONTEXT: Map209/events/39/pages/3/3/Dialogue
-> CONTEXT: Map209/events/39/pages/4/3/Dialogue
-> CONTEXT: Map209/events/39/pages/5/3/Dialogue
+> CONTEXT: Map245/events/39/pages/0/3/Dialogue
+> CONTEXT: Map245/events/39/pages/1/3/Dialogue
+> CONTEXT: Map245/events/39/pages/2/3/Dialogue
 \\name[\\v[2]]\\_
 *whistling*♪
 > END STRING
@@ -370,35 +381,38 @@ to the right and proceed further to the right.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 お花をどうぞ♪
-> CONTEXT: Map209/events/39/pages/0/12/Dialogue
-> CONTEXT: Map209/events/39/pages/2/12/Dialogue
-> CONTEXT: Map209/events/39/pages/4/12/Dialogue
+> CONTEXT: Map245/events/39/pages/0/12/Dialogue
+> CONTEXT: Map245/events/39/pages/1/12/Dialogue
+> CONTEXT: Map245/events/39/pages/1/30/Dialogue
+> CONTEXT: Map245/events/39/pages/2/12/Dialogue
+> CONTEXT: Map245/events/39/pages/2/29/Dialogue
+> CONTEXT: Map245/events/39/pages/2/47/Dialogue
 \\name[\\v[2]]\\_
 Here's some flowers♪
 > END STRING
 
 > BEGIN STRING
 ……。
-> CONTEXT: Map209/events/52/pages/0/0/Dialogue
+> CONTEXT: Map245/events/52/pages/0/0/Dialogue
 ...
 > END STRING
 
 > BEGIN STRING
 気絶した男のかたわらに、形容し難い形状の肉塊が転がって
 いる……。
-> CONTEXT: Map209/events/52/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map245/events/52/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 鏡を調べると設定マップに行けます。
-> CONTEXT: Map209/events/56/pages/0/0/Dialogue
+> CONTEXT: Map245/events/56/pages/0/0/Dialogue
 Examining the mirror takes you to the setting map.
 > END STRING
 
 > BEGIN STRING
 "リセットメイド"
-> CONTEXT: Map209/events/58/pages/0/1/InlineScript/1:22
+> CONTEXT: Map245/events/58/pages/0/1/InlineScript/1:22
 "Reset Maid"
 > END STRING
 
@@ -406,7 +420,7 @@ Examining the mirror takes you to the setting map.
 \\name[\\v[2]]\\_
 過去のバージョンで習得したスキルや素質などを
 現在の状態に合わせて更新します
-> CONTEXT: Map209/events/58/pages/0/2/Dialogue
+> CONTEXT: Map245/events/58/pages/0/2/Dialogue
 \\name[\\v[2]]\\_
 Skills and qualities acquired in previous versions
 will be updated to match the current state.
@@ -415,34 +429,36 @@ will be updated to match the current state.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 更新が完了しました
-> CONTEXT: Map209/events/58/pages/0/10/Dialogue
 > CONTEXT: Commonevents/304/12/Dialogue
+> CONTEXT: Map245/events/58/pages/0/10/Dialogue
 \\name[\\v[2]]\\_
 Update completed
 > END STRING
 
 > BEGIN STRING
 夢魔の街
-> CONTEXT: Map209/events/60/pages/0/0/Choice/1
+> CONTEXT: Map245/events/60/pages/0/0/Choice/1
+> CONTEXT: Map245/events/60/pages/0/0/Choice/1
 Succubus City
 > END STRING
 
 > BEGIN STRING
 銀色の都市
-> CONTEXT: Map209/events/60/pages/0/0/Choice/2
+> CONTEXT: Map245/events/60/pages/0/0/Choice/2
+> CONTEXT: Map245/events/60/pages/0/0/Choice/2
 Silver City
 > END STRING
 
 > BEGIN STRING
 "夢見る羊さん"
-> CONTEXT: Map209/events/61/pages/0/0/InlineScript/1:22
+> CONTEXT: None < UNUSED
 "Dream Sheep"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そこの君、ボーナス取得は使っているかな？
-> CONTEXT: Map209/events/61/pages/0/1/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Hey you, are you using the bonus acquisition?
 > END STRING
@@ -451,7 +467,7 @@ Hey you, are you using the bonus acquisition?
 \\name[\\v[2]]\\_
 夢魔たちと同じように
 君自身も個性をつけれるようになったんだよ。
-> CONTEXT: Map209/events/61/pages/0/3/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Just like the succubi,
 you too can now have your own personality.
@@ -461,7 +477,7 @@ you too can now have your own personality.
 \\name[\\v[2]]\\_
 さらに名うての夢魔と契約することで
 その夢魔の力を借りることが出来るようなるんだ。
-> CONTEXT: Map209/events/61/pages/0/6/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Furthermore, by making contracts with notorious succubi,
 you can borrow their power.
@@ -471,8 +487,7 @@ you can borrow their power.
 \\name[\\v[2]]\\_
 スキルやステータスもがらりと変わるから
 君の好みに合ったのを師事するのもいいだろう。
-> CONTEXT: Map209/events/61/pages/0/10/Dialogue
-> CONTEXT: Map209/events/61/pages/0/16/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Your skills and stats will change dramatically, 
 so it might be a good idea to study under someone 
@@ -483,7 +498,7 @@ who suits your tastes.
 \\name[\\v[2]]\\_
 おっと、この先はまた今度にしようか。
 まずはこの世界をよく探索することだね。
-> CONTEXT: Map209/events/61/pages/0/21/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Oh, I guess I'll leave that for another time.
 First, you need to explore this world thoroughly.
@@ -493,7 +508,7 @@ First, you need to explore this world thoroughly.
 \\name[\\v[2]]\\_
 ナンダイアンタ、またユメセカイに
 迷い込んじまったのカ
-> CONTEXT: Map209/events/61/pages/1/1/Dialogue
+> CONTEXT: Map245/events/61/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
 What's up, 
 have you gotten lost in the dream world again?
@@ -504,7 +519,7 @@ have you gotten lost in the dream world again?
 またユメセカイを回るのも大変ダロ？
 特別に無料で情報を教えてやるヨ。
 キキッ！
-> CONTEXT: Map209/events/61/pages/1/4/Dialogue
+> CONTEXT: Map245/events/61/pages/0/4/Dialogue
 \\name[\\v[2]]\\_
 Is it hard to travel around the Dream World again?
 I'll give you some special information for free.
@@ -514,7 +529,7 @@ Kiki!
 > BEGIN STRING
 \\name[\\v[2]]\\_
 アヤシイところは今のところ二つだナ
-> CONTEXT: Map209/events/61/pages/1/8/Dialogue
+> CONTEXT: Map245/events/61/pages/0/8/Dialogue
 \\name[\\v[2]]\\_
 There are two suspicious things so far.
 > END STRING
@@ -523,7 +538,7 @@ There are two suspicious things so far.
 \\name[\\v[2]]\\_
 一つはここから東へ行ったところに出来た
 デッカイ遊技場ダ。
-> CONTEXT: Map209/events/61/pages/1/10/Dialogue
+> CONTEXT: Map245/events/61/pages/0/10/Dialogue
 \\name[\\v[2]]\\_
 One is a big amusement park that was built east of here.
 > END STRING
@@ -533,7 +548,7 @@ One is a big amusement park that was built east of here.
 ナンデモ夢魔の追いかけっこをショーとして
 提供してるらしいが、オーナーは
 かなり力を持った夢魔ダ。
-> CONTEXT: Map209/events/61/pages/1/13/Dialogue
+> CONTEXT: Map245/events/61/pages/0/13/Dialogue
 \\name[\\v[2]]\\_
 It seems to be a show for all kinds of succubi, 
 but the owner is a pretty powerful succubus.
@@ -544,7 +559,7 @@ but the owner is a pretty powerful succubus.
 とはいえ、こっちは密教会とは縁遠いし
 可能性は低いガナ
 本命はもう一つのほうダ
-> CONTEXT: Map209/events/61/pages/1/17/Dialogue
+> CONTEXT: Map245/events/61/pages/0/17/Dialogue
 \\name[\\v[2]]\\_
 However, this one is far removed from the Secret Church, 
 so the chances are low. The other one is the better option.
@@ -554,7 +569,7 @@ so the chances are low. The other one is the better option.
 \\name[\\v[2]]\\_
 闇洞窟の裏手から行ける外れの地ってとこで
 怪しい奴らがウロウロしてたって話だ。
-> CONTEXT: Map209/events/61/pages/1/21/Dialogue
+> CONTEXT: Map245/events/61/pages/0/21/Dialogue
 \\name[\\v[2]]\\_
 I heard there were some suspicious people wandering around 
 in the outskirts that you can reach from behind the Dark Cave.
@@ -564,7 +579,7 @@ in the outskirts that you can reach from behind the Dark Cave.
 \\name[\\v[2]]\\_
 なんかシスターみたいなカッコした奴が
 いたとかでキナクセーことこの上ないナ。
-> CONTEXT: Map209/events/61/pages/1/24/Dialogue
+> CONTEXT: Map245/events/61/pages/0/24/Dialogue
 \\name[\\v[2]]\\_
 I was so excited to see someone who looked like a nun.
 > END STRING
@@ -574,8 +589,7 @@ I was so excited to see someone who looked like a nun.
 情報はこんなもんダ。
 まあ、健闘を祈るゼ。
 キキッ！
-> CONTEXT: Map209/events/61/pages/1/27/Dialogue
-> CONTEXT: Map209/events/61/pages/3/84/Dialogue
+> CONTEXT: Map245/events/61/pages/0/27/Dialogue
 \\name[\\v[2]]\\_
 That's all the information I have.
 Well, I wish you the best of luck.
@@ -587,7 +601,8 @@ Kiki!
 俺は情報屋サ。本来なら金をとるが
 特別に無料で情報を教えてやるヨ。
 何が知りたい？キキッ！
-> CONTEXT: Map209/events/61/pages/2/1/Dialogue
+> CONTEXT: Map224/events/19/pages/1/1/Dialogue
+> CONTEXT: Map245/events/61/pages/1/1/Dialogue
 \\name[\\v[2]]\\_
 I'm an information broker. Normally I'd charge money,
 but as a special favor I'll give you the information for free.
@@ -596,19 +611,32 @@ What do you want to know? Kiki!
 
 > BEGIN STRING
 遊技場の場所
-> CONTEXT: Map209/events/61/pages/2/5/Choice/0 < UNTRANSLATED
+> CONTEXT: Map224/events/19/pages/1/5/Choice/0 < UNTRANSLATED
+> CONTEXT: Map224/events/19/pages/1/5/Choice/0 < UNTRANSLATED
+> CONTEXT: Map245/events/61/pages/1/5/Choice/0 < UNTRANSLATED
+> CONTEXT: Map245/events/61/pages/1/5/Choice/0 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 外れの地の場所
-> CONTEXT: Map209/events/61/pages/2/5/Choice/1 < UNTRANSLATED
+> CONTEXT: Map224/events/19/pages/1/5/Choice/1 < UNTRANSLATED
+> CONTEXT: Map224/events/19/pages/1/5/Choice/1 < UNTRANSLATED
+> CONTEXT: Map245/events/61/pages/1/5/Choice/1 < UNTRANSLATED
+> CONTEXT: Map245/events/61/pages/1/5/Choice/1 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 特にない
-> CONTEXT: Map209/events/61/pages/2/5/Choice/2 < UNTRANSLATED
+> CONTEXT: Map224/events/19/pages/1/5/Choice/2 < UNTRANSLATED
+> CONTEXT: Map224/events/19/pages/1/5/Choice/2 < UNTRANSLATED
+> CONTEXT: Map245/events/61/pages/1/5/Choice/2 < UNTRANSLATED
+> CONTEXT: Map245/events/61/pages/1/5/Choice/2 < UNTRANSLATED
+> CONTEXT: Map135/events/1/pages/0/7/Choice/3 < UNTRANSLATED
+> CONTEXT: Map132/events/1/pages/1/12/Choice/3 < UNTRANSLATED
+> CONTEXT: Map135/events/1/pages/0/7/Choice/3 < UNTRANSLATED
+> CONTEXT: Map132/events/1/pages/1/12/Choice/3 < UNTRANSLATED
 
 > END STRING
 
@@ -616,7 +644,8 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 遊技場はここから東に行ったところだ。
 迷うような場所じゃあないだろ。
-> CONTEXT: Map209/events/61/pages/2/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/19/pages/1/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map245/events/61/pages/1/7/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -624,7 +653,8 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 闇洞窟の裏から行ける崖を降りたところだ。
 アンタならポートからすぐ行けるダロウ。
-> CONTEXT: Map209/events/61/pages/2/12/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/19/pages/1/12/Dialogue < UNTRANSLATED
+> CONTEXT: Map245/events/61/pages/1/12/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -632,7 +662,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 ナンダイその顔ハ
 ナニすりゃイイのかわからないッテ顔だナ。
-> CONTEXT: Map209/events/61/pages/3/1/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -641,7 +671,7 @@ What do you want to know? Kiki!
 オレたちの仲ダ
 特別に無料で情報を教えてやるヨ。
 キキッ！
-> CONTEXT: Map209/events/61/pages/3/4/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -650,7 +680,7 @@ What do you want to know? Kiki!
 一つは常夜の街って呼ばれる暗い街だナ。
 性に関して奔放な場所デ、
 一人で出歩くのは危険ッテ話だゼ。
-> CONTEXT: Map209/events/61/pages/3/8/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -659,7 +689,7 @@ What do you want to know? Kiki!
 銀色の都市を出て南西にある森を抜けると
 たどり着けるらしいガ…
 道中には恐ろしい魔物が住むとも言われているゼ
-> CONTEXT: Map209/events/61/pages/3/12/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -667,7 +697,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 モウ一つハ銀色の都市の懺悔室にある不思議な扉ダ
 キナクセーシスターを連れてそこまで行ってみナ
-> CONTEXT: Map209/events/61/pages/3/19/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -675,7 +705,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 モウ一つハ戦士の館だナ
 キナクセーシスター館にある黒いポートから行けるって噂ダ
-> CONTEXT: Map209/events/61/pages/3/28/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -683,7 +713,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 ココについては詳しい事は知らないナ
 ただ噂では蝶を集める必要があるらしいゼ
-> CONTEXT: Map209/events/61/pages/3/31/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -692,7 +722,7 @@ What do you want to know? Kiki!
 モウ一つハ禁書庫だナ
 貴重なモノが沢山置いテあるって話だゼ
 通い詰めるとナニかが起きるって噂モ……
-> CONTEXT: Map209/events/61/pages/3/37/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -700,7 +730,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 モウ一つハ謎の研究施設だ
 ここじゃ倫理観を無視した恐ろしい研究をしてるって言うゼ
-> CONTEXT: Map209/events/61/pages/3/44/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -709,7 +739,7 @@ What do you want to know? Kiki!
 キナクセーシスターの館に
 蓄積器が置いてある部屋があるだロ？
 そこの青い扉から行けるッテ話ダ
-> CONTEXT: Map209/events/61/pages/3/47/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -718,7 +748,7 @@ What do you want to know? Kiki!
 モウ一つハ禁書庫だナ
 お前の別荘にいる死神に話を聞いてみな
 貴重なモノが沢山置いテあるって話だゼ……
-> CONTEXT: Map209/events/61/pages/3/55/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -727,7 +757,7 @@ What do you want to know? Kiki!
 モウ一つハ墓地だナ、キナクセーシスター館の左にあるゼ
 恐ろしいモノが蠢く場所らしいガ
 深い場所にはお宝ガあるらしイ
-> CONTEXT: Map209/events/61/pages/3/63/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -736,7 +766,7 @@ What do you want to know? Kiki!
 お宝目当てのトレジャーハンターがよく忍び込んで
 返り討ちにあってるって噂ダ
 最深部には死神も潜んでるらしいゼ
-> CONTEXT: Map209/events/61/pages/3/67/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -744,7 +774,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 死神についてダァ？
 お宝を見つけた後でメイド共にでも聞いてみナ！
-> CONTEXT: Map209/events/61/pages/3/71/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -752,13 +782,13 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 鍵が見つからないダッテ？
 浜辺にデモ落ちてるんじゃないのカ？
-> CONTEXT: Map209/events/61/pages/3/75/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "学者"
-> CONTEXT: Map209/events/62/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map245/events/62/pages/0/0/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
 
@@ -767,46 +797,40 @@ What do you want to know? Kiki!
 もしレベル99の味方がいて
 戦闘終了時にエラーが起きるなら
 メンバのレベルをネクストステアに変換しよう
-> CONTEXT: Map209/events/62/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map245/events/62/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 対応してもらいますか？
-> CONTEXT: Map209/events/62/pages/0/5/Dialogue < UNTRANSLATED
+> CONTEXT: Map245/events/62/pages/0/5/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 それならよい
-> CONTEXT: Map209/events/62/pages/0/8/Dialogue < UNTRANSLATED
+> CONTEXT: Map245/events/62/pages/0/8/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 これでよい
-> CONTEXT: Map209/events/62/pages/0/12/Dialogue < UNTRANSLATED
+> CONTEXT: Map245/events/62/pages/0/12/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "覚醒仙人"
-> CONTEXT: Map209/events/62/pages/2/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map209/events/62/pages/3/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map086/events/53/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map086/events/53/pages/1/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 むむ……お主……
-> CONTEXT: Map209/events/62/pages/2/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map209/events/62/pages/3/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map086/events/53/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map086/events/53/pages/1/10/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -814,8 +838,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 まだ『目覚め』ておらんのか？！
 それはさぞかし苦労したじゃろう……
-> CONTEXT: Map209/events/62/pages/2/4/Dialogue < UNTRANSLATED
-> CONTEXT: Map086/events/53/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -823,8 +846,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 すでに『目覚め』ておるようじゃな……！！
 しかしお主……それで満足しているのかね？
-> CONTEXT: Map209/events/62/pages/2/9/Dialogue < UNTRANSLATED
-> CONTEXT: Map086/events/53/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -832,8 +854,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 もっと強くなりたいと思った事はないかね？
 ……いや、言わずともよい、わしにはわかっておる
-> CONTEXT: Map209/events/62/pages/2/12/Dialogue < UNTRANSLATED
-> CONTEXT: Map086/events/53/pages/0/12/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -842,16 +863,14 @@ What do you want to know? Kiki!
 お主にこれを授けよう……
 無限の力を与えてくれる究極のルーン
 『覚醒のルーン』じゃ！！
-> CONTEXT: Map209/events/62/pages/2/17/Dialogue < UNTRANSLATED
-> CONTEXT: Map086/events/53/pages/0/17/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 これも一緒に受け取るがよい
-> CONTEXT: Map209/events/62/pages/2/29/Dialogue < UNTRANSLATED
-> CONTEXT: Map086/events/53/pages/0/29/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -859,8 +878,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 一つ忠告しておくが……
 これらのルーンは最高ランクの者しか扱えぬのだ
-> CONTEXT: Map209/events/62/pages/2/42/Dialogue < UNTRANSLATED
-> CONTEXT: Map086/events/53/pages/0/42/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -869,8 +887,7 @@ What do you want to know? Kiki!
 とどのつまり、【最高の姿】が習得可能な者は
 あらかじめ習得しておかなければ効果を発揮せぬ
 心しておくようにな
-> CONTEXT: Map209/events/62/pages/2/45/Dialogue < UNTRANSLATED
-> CONTEXT: Map086/events/53/pages/0/45/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -879,8 +896,7 @@ What do you want to know? Kiki!
 お主の力をギンギンのビンビンに感じるぞ……
 そうか……『覚醒』したのじゃな……！
 素晴らしいポテンシャルじゃ！
-> CONTEXT: Map209/events/62/pages/3/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map086/events/53/pages/1/12/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -888,8 +904,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 一応もう一度言っておくが……
 これらのルーンは最高ランクの者しか扱えぬ
-> CONTEXT: Map209/events/62/pages/3/7/Dialogue < UNTRANSLATED
-> CONTEXT: Map086/events/53/pages/1/18/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -898,8 +913,7 @@ What do you want to know? Kiki!
 とどのつまり、【最高の姿】が習得可能な者は
 あらかじめ習得しておかなければ効果を発揮せぬのだ
 心しておくように
-> CONTEXT: Map209/events/62/pages/3/10/Dialogue < UNTRANSLATED
-> CONTEXT: Map086/events/53/pages/1/21/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -908,8 +922,7 @@ What do you want to know? Kiki!
 また、常夜の街で手軽に買える『目覚めのルーン』とは異なり
 『覚醒のルーン』は非常に希少じゃ
 そう簡単に手に入りはせぬ
-> CONTEXT: Map209/events/62/pages/3/14/Dialogue < UNTRANSLATED
-> CONTEXT: Map086/events/53/pages/1/25/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -917,8 +930,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 聞いた話によると神秘的な森の最上層と、
 どこかの庭園にあるらしいが……
-> CONTEXT: Map209/events/62/pages/3/19/Dialogue < UNTRANSLATED
-> CONTEXT: Map086/events/53/pages/1/30/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -926,8 +938,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 聞いた話によると
 神秘的な森の最上層にあるらしいが……
-> CONTEXT: Map209/events/62/pages/3/24/Dialogue < UNTRANSLATED
-> CONTEXT: Map086/events/53/pages/1/35/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -935,17 +946,13 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 他にも遊技場の主もこれらを各地から集めていると聞く
 ま、タダで譲ってくれることはないじゃろうが……
-> CONTEXT: Map209/events/62/pages/3/29/Dialogue < UNTRANSLATED
-> CONTEXT: Map086/events/53/pages/1/40/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "目覚めたおじさん"
-> CONTEXT: Map209/events/63/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map209/events/63/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map066/events/82/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map066/events/82/pages/1/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -953,8 +960,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 ねぇ、そこのアナタ……
 そろそろ敵が強くなってきて困ってる頃じゃなぁい？
-> CONTEXT: Map209/events/63/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map066/events/82/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -962,8 +968,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 そんなアナタにピッタリの品があるの\\H
 その名も……『目覚めのルーン』！
-> CONTEXT: Map209/events/63/pages/0/4/Dialogue < UNTRANSLATED
-> CONTEXT: Map066/events/82/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -971,8 +976,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 常夜の街で買えるこれを試しに付けてみたら……
 アタシ、すっごぉいチカラに『目覚め』ちゃったの\\H
-> CONTEXT: Map209/events/63/pages/0/7/Dialogue < UNTRANSLATED
-> CONTEXT: Map066/events/82/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -980,8 +984,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 わかりやすくいうと、すていたす？っていうのかしら？
 それがトンでもなく跳ね上がるのを感じたのよ！
-> CONTEXT: Map209/events/63/pages/0/10/Dialogue < UNTRANSLATED
-> CONTEXT: Map066/events/82/pages/0/10/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -989,8 +992,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 せっかくだからアナタにもあげるワ\\H
 そのチカラ……ぜひ体験してみてね\\H
-> CONTEXT: Map209/events/63/pages/0/13/Dialogue < UNTRANSLATED
-> CONTEXT: Map066/events/82/pages/0/13/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -998,8 +1000,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 あ！一つだけ伝え忘れてたけれど、
 このルーンは最高ランクの者でしか扱えないわよ！
-> CONTEXT: Map209/events/63/pages/0/23/Dialogue < UNTRANSLATED
-> CONTEXT: Map066/events/82/pages/0/23/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1008,24 +1009,21 @@ What do you want to know? Kiki!
 具体的には、【最高の姿】が習得できる子は
 これを習得しておかないと効果を発揮できないってコト！
 身に着ける前にコンディションを最高に高めておくことね\\H
-> CONTEXT: Map209/events/63/pages/0/26/Dialogue < UNTRANSLATED
-> CONTEXT: Map066/events/82/pages/0/26/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ねぇ、そこのアナタ……
-> CONTEXT: Map209/events/63/pages/1/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map066/events/82/pages/1/1/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ……あら？アナタもう目覚めているのね！
-> CONTEXT: Map209/events/63/pages/1/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map066/events/82/pages/1/3/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1034,7 +1032,7 @@ What do you want to know? Kiki!
 ふふ\\H
 『目覚めのルーン』 使ってる？
 もっと欲しいなら常夜の街へ行くといいワ\\H
-> CONTEXT: Map209/events/63/pages/1/5/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1042,8 +1040,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 あ！忘れてはいないと思うけれど、
 最高ランクじゃないと使えないからね！
-> CONTEXT: Map209/events/63/pages/1/9/Dialogue < UNTRANSLATED
-> CONTEXT: Map066/events/82/pages/1/9/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1052,15 +1049,13 @@ What do you want to know? Kiki!
 【最高の姿】が習得できる子は
 これを習得しておかないと効果を発揮できないってことよ！
 身に着ける前にコンディションを最高に高めておいてね\\H
-> CONTEXT: Map209/events/63/pages/1/12/Dialogue < UNTRANSLATED
-> CONTEXT: Map066/events/82/pages/1/12/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 吹き荒ぶ雪原の風が漏れ出ている…。
-> CONTEXT: Map209/events/66/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map209/events/66/pages/1/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map245/events/66/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -1068,20 +1063,20 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 こんにちは！
 私、『銀色の都市』の魔法屋で見習いをやってる者です！
-> CONTEXT: Map209/events/70/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "盗賊"
-> CONTEXT: Map209/events/88/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 キミ、獄界って知ってる？
-> CONTEXT: Map209/events/88/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1089,7 +1084,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 闇洞窟の最下層にあるんだけど、
 封印されていて通常の手段では入れないんだ
-> CONTEXT: Map209/events/88/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1098,8 +1093,7 @@ What do you want to know? Kiki!
 封印を解く方法？
 うーん……洞窟を照らす不思議な水晶があるんだけど、
 それを止めるしかないと思うよ
-> CONTEXT: Map150/events/84/pages/0/6/Dialogue < UNTRANSLATED
-> CONTEXT: Map209/events/88/pages/0/6/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1107,7 +1101,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 でも目の前には手ごわい相手が待ち構えてるって噂だよ…
 間違ってもすぐに挑むのはおススメしないなぁ
-> CONTEXT: Map209/events/88/pages/0/10/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1116,13 +1110,12 @@ What do you want to know? Kiki!
 きみにこの『進化の間』のしんずいをおしえよう！
 『ポート空間』の『赤いポート』にふれるといけるんだ！
 そこではきみの『能力を強化』することができるんだよ！
-> CONTEXT: Map209/events/90/pages/0/10/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "怪しいメイド"
-> CONTEXT: Map209/events/92/pages/0/0/InlineScript/1:22
 > CONTEXT: Commonevents/141/0/InlineScript/1:22
 "Suspicious Maid"
 > END STRING
@@ -1132,7 +1125,7 @@ What do you want to know? Kiki!
 チート能力で無双したいなーとか
 敵が強すぎてどうしようもない！とか……
 誰でも少しは考えたことありますよね？？
-> CONTEXT: Map209/events/92/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1141,7 +1134,7 @@ What do you want to know? Kiki!
 そんなアナタに朗報デス！
 この私が、アナタに
 チート能力を授けちゃいます！
-> CONTEXT: Map209/events/92/pages/0/5/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1150,7 +1143,7 @@ What do you want to know? Kiki!
 敵を弱くすることもできちゃうんですよ！
 具体的にどうするかって？
 いわゆる難易度選択ってやつです！
-> CONTEXT: Map209/events/92/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1159,7 +1152,7 @@ What do you want to know? Kiki!
 『Easy』と『VeryEasy』は敵が弱くなるうえに、
 ベッド戦専用のチート能力が
 自由に使えるようになっちゃいます！
-> CONTEXT: Map209/events/92/pages/0/13/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1167,7 +1160,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 『romance』はチート能力が
 自由に使えますが、敵の強さはそのままです
-> CONTEXT: Map209/events/92/pages/0/17/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1176,7 +1169,7 @@ What do you want to know? Kiki!
 『Hard』以上は敵がどんどん
 強くなって行きます
 イジメられたいマゾの人はどうぞ！
-> CONTEXT: Map209/events/92/pages/0/20/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1184,7 +1177,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 一応レアドロップも狙いやすくなるので、
 チャレンジ精神旺盛な人にも向いてるかも？
-> CONTEXT: Map209/events/92/pages/0/24/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1193,15 +1186,13 @@ What do you want to know? Kiki!
 説明は以上になります！
 難易度を変えたかったら
 是非お声がけくださいね！
-> CONTEXT: Map209/events/92/pages/0/27/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "迷惑な悪魔"
-> CONTEXT: Map209/events/94/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map209/events/94/pages/2/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map209/events/94/pages/3/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1209,9 +1200,7 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 ケッケッケ。
 オレは人が困るのを見るのが好きな悪魔。
-> CONTEXT: Map209/events/94/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map209/events/94/pages/2/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map209/events/94/pages/3/1/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1220,7 +1209,7 @@ What do you want to know? Kiki!
 ケッケッケ。
 獄界オルデオの渓谷に、迷子がいるらしいぜ？
 恐ろしいなぁー、迷子はどうなるんだろうなー？
-> CONTEXT: Map209/events/94/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1229,8 +1218,7 @@ What do you want to know? Kiki!
 オマエ今、この情報を聞いて困っただろ？
 お人好しそうな顔してるもんな。
 ケケケケケケケッ。
-> CONTEXT: Map209/events/94/pages/0/8/Dialogue < UNTRANSLATED
-> CONTEXT: Map209/events/94/pages/2/12/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1239,7 +1227,7 @@ What do you want to know? Kiki!
 ケッケッケ。
 魔城トゥーロマンサに迷子がいるらしいぜ？
 おなかすかせてるかなぁ～、どうだろうなぁ～？
-> CONTEXT: Map209/events/94/pages/2/4/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1248,7 +1236,7 @@ What do you want to know? Kiki!
 ケッケッケ。
 おなかをすかせてるなら、
 食事がある場所や台所にいるかもなぁ～？
-> CONTEXT: Map209/events/94/pages/2/8/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1257,7 +1245,7 @@ What do you want to know? Kiki!
 ケッケッケ。
 お前、迷子たちを連れていったのか？
 駄目だろぉ？　ちゃんと届け出なきゃ。
-> CONTEXT: Map209/events/94/pages/3/4/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1265,6 +1253,6 @@ What do you want to know? Kiki!
 \\name[\\v[2]]\\_
 迷子を捜して、親がカンカンに怒ってるかもな。
 ケケケケケケケッ。
-> CONTEXT: Map209/events/94/pages/3/8/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING

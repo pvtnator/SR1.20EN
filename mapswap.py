@@ -47,8 +47,9 @@ if __name__ == "__main__":
         for m in TempToMap.keys():
             backup_dir.mkdir(exist_ok=True)
             (backup_dir / m).write_bytes((data_dir / m).read_bytes())
+        for m in t_data_dir.glob("*.rxdata"):
             t_backup_dir.mkdir(exist_ok=True)
-            (t_backup_dir / m).write_bytes((t_data_dir / m).read_bytes())
+            (t_backup_dir / m.relative_to(t_data_dir)).write_bytes(m.read_bytes())
         print("Backup done")
         for m in MapToTemp.keys():
             (data_dir / MapToTemp[m]).write_bytes((map_dir / m).read_bytes())
@@ -57,8 +58,8 @@ if __name__ == "__main__":
         for m in TempToMap.keys():
             (t_map_dir / TempToMap[m]).write_bytes((t_data_dir / m).read_bytes())
         print("Copied to correct directories")
-        for m in TempToMap.keys():
-            (t_data_dir / m).write_bytes((t_backup_dir / m).read_bytes())
+        for m in t_backup_dir.glob("*.rxdata"):
+            (t_data_dir / m.relative_to(t_backup_dir)).write_bytes(m.read_bytes())
         print("Reverted the swap")
     elif mode == "revert":
         for m in TempToMap.keys():

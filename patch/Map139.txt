@@ -1,15 +1,13 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 上の層の様子が映っている。覗いてみますか？
-> CONTEXT: Map139/events/18/pages/0/0/Dialogue
-> CONTEXT: Map142/events/156/pages/0/0/Dialogue
+> CONTEXT: None < UNUSED
 Upper floor is shown. Would you like to take a look?
 > END STRING
 
 > BEGIN STRING
 "愛を説く蝙蝠"
-> CONTEXT: Map139/events/23/pages/0/0/InlineScript/1:22
-> CONTEXT: Map142/events/146/pages/0/0/InlineScript/1:22
+> CONTEXT: None < UNUSED
 "Love Expert Bat"
 > END STRING
 
@@ -17,8 +15,7 @@ Upper floor is shown. Would you like to take a look?
 \\name[\\v[2]]\\_
 夢魔がランクアップってのを習得することがあるのさ。
 ランクアップをすると、上位ランクの夢魔に変わるんだよ。
-> CONTEXT: Map139/events/23/pages/0/1/Dialogue
-> CONTEXT: Map142/events/146/pages/0/1/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Sometimes succubi learn to rank up.
 When you rank up, you turn into a higher-ranked succubus.
@@ -28,8 +25,7 @@ When you rank up, you turn into a higher-ranked succubus.
 \\name[\\v[2]]\\_
 上位ランクの夢魔になるとそりゃ魅力もバッチリあがって
 強くなるんだけど･･･。
-> CONTEXT: Map139/events/23/pages/0/4/Dialogue
-> CONTEXT: Map142/events/146/pages/0/4/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 When you become a high-ranking succubus, 
 your charm increases and you become stronger...
@@ -40,8 +36,7 @@ your charm increases and you become stronger...
 空腹率や吸精量はランクアップ前と比べると
 強くなった分、厳しくなっている。
 ランクアップしない選択肢も十二分にあるよ。
-> CONTEXT: Map139/events/23/pages/0/7/Dialogue
-> CONTEXT: Map142/events/146/pages/0/7/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 But their hunger rate and amount of semen consumed also go up.
 There are plenty of reasons not to rank up.
@@ -52,8 +47,7 @@ There are plenty of reasons not to rank up.
 あと、ランクアップしたら元のランクには戻せないんだ。
 どんな子になっても受け入れてあげることだね。
 それが愛だよ。
-> CONTEXT: Map139/events/23/pages/0/11/Dialogue
-> CONTEXT: Map142/events/146/pages/0/11/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Also, once you rank up, you can't go back to your original rank.
 It's about accepting your child no matter what he or she becomes.
@@ -64,8 +58,7 @@ That's love.
 \\name[\\v[2]]\\_
 ただランクアップを使わずに、姿を変えないまま強くする
 方法もあるんだよ。
-> CONTEXT: Map139/events/23/pages/0/15/Dialogue
-> CONTEXT: Map142/events/146/pages/0/15/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 However, you can make them stronger without 
 using rank ups and changing their appearance.
@@ -74,8 +67,155 @@ using rank ups and changing their appearance.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 それも愛だよね。
-> CONTEXT: Map139/events/23/pages/0/18/Dialogue
-> CONTEXT: Map142/events/146/pages/0/18/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 That's also love, isn't it?
+> END STRING
+
+> BEGIN STRING
+不気味なランタン
+> CONTEXT: Map139/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map138/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map137/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map136/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map134/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map135/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map133/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map132/bgm/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+木の洞の中に小さな祠が見える……
+> CONTEXT: Map139/events/4/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map139/events/5/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+手をかざしてみますか？
+> CONTEXT: Map139/events/4/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map139/events/5/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\n[101]は男に戻った！
+> CONTEXT: Map139/events/4/pages/0/10/Dialogue < UNTRANSLATED
+> CONTEXT: Map139/events/5/pages/0/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+よく見ると祠の中に何か置いてある…
+取ってみますか？
+> CONTEXT: Map139/events/4/pages/2/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map139/events/5/pages/2/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インキュバスと再戦しますか？
+（勝利すればまたインキュバスを仲間にできます）
+> CONTEXT: Map139/events/8/pages/1/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インキュバスを仲間にしますか？
+> CONTEXT: Map139/events/8/pages/1/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[？？？]\\_
+あーあ、もう呪い解いちゃったんだ
+> CONTEXT: Map139/events/18/pages/0/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[インキュバス]\\_
+そんなに女の子の身体は嫌だった？
+> CONTEXT: Map139/events/18/pages/0/18/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[インキュバス]\\_
+でもここに来るまでに何度も孕ませられたみたいだね
+> CONTEXT: Map139/events/18/pages/0/21/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[インキュバス]\\_
+実はそんなにまんざらでもなかったんでしょ？\\H
+> CONTEXT: Map139/events/18/pages/0/23/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[インキュバス]\\_
+よくそんなに妊娠もせずにここまで来られたねえ…
+> CONTEXT: Map139/events/18/pages/0/27/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[インキュバス]\\_
+まあいいや、そんなに女の子の快楽が嫌なら……
+> CONTEXT: Map139/events/18/pages/0/31/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[インキュバス]\\_
+オトコノコの良さを教えてあげるよ\\H
+> CONTEXT: Map139/events/18/pages/0/33/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[インキュバス]\\_
+ふああ……\\H
+> CONTEXT: Map139/events/18/pages/0/53/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[インキュバス]\\_
+お兄さん凄いんだね……
+こんなに気持ち良かったの初めて……\\H
+> CONTEXT: Map139/events/18/pages/0/55/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[インキュバス]\\_
+ねえ、ボクもお兄さんについて行っていいかな？
+> CONTEXT: Map139/events/18/pages/0/58/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[インキュバス]\\_
+あは、ありがとうお兄さん\\H
+これからよろしくね
+> CONTEXT: Map139/events/18/pages/0/62/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[インキュバス]\\_
+ふ～ん、そんなこと言っちゃうんだ
+ま、嫌って言ってもついていくんだけどね\\H
+> CONTEXT: Map139/events/18/pages/0/67/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インキュバスが仲間になった！
+> CONTEXT: Map139/events/18/pages/0/73/Dialogue < UNTRANSLATED
+
 > END STRING

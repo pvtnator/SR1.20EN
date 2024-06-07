@@ -43,7 +43,6 @@ Don't show
 "無垢な少女"
 > CONTEXT: Map876/events/4/pages/0/0/InlineScript/1:22
 > CONTEXT: Map582/events/10/pages/0/0/InlineScript/1:22
-> CONTEXT: Map187/events/19/pages/0/0/InlineScript/1:22
 "Innocent Girl"
 > END STRING
 
@@ -75,7 +74,6 @@ OFF
 > CONTEXT: Map876/events/7/pages/0/0/InlineScript/1:22
 > CONTEXT: Map702/events/17/pages/0/0/InlineScript/1:22
 > CONTEXT: Map624/events/100/pages/0/0/InlineScript/1:22
-> CONTEXT: Map272/events/195/pages/0/0/InlineScript/1:22
 "Sheep"
 > END STRING
 
@@ -83,6 +81,10 @@ OFF
 "魔導士"
 > CONTEXT: Map876/events/10/pages/0/0/InlineScript/1:22
 > CONTEXT: Map649/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Map005/events/12/pages/2/0/InlineScript/1:22
+> CONTEXT: Map005/events/16/pages/0/0/InlineScript/1:22
+> CONTEXT: Map002/events/31/pages/0/0/InlineScript/1:22
+> CONTEXT: Map002/events/32/pages/0/0/InlineScript/1:22
 "Sorceress"
 > END STRING
 
@@ -113,7 +115,7 @@ OFF
 黄色の床はダメージ床です。
 EPが減ります。
 > CONTEXT: Map876/events/16/pages/0/0/Dialogue
-> CONTEXT: Map209/events/56/pages/0/1/Dialogue
+> CONTEXT: Map245/events/56/pages/0/1/Dialogue
 Blue tile are hunger tiles.
 Your satiety levels will decrease.
 Yellow tiles are damage tiles.
@@ -129,10 +131,6 @@ EP will decrease.
 > CONTEXT: Map652/events/3/pages/1/7/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Map631/events/18/pages/1/7/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Map566/events/1/pages/1/7/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map272/events/211/pages/0/7/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map272/events/212/pages/0/7/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map272/events/213/pages/0/7/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map272/events/214/pages/0/7/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Commonevents/10/55/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Commonevents/10/68/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Commonevents/12/59/InlineScript/1:27 < UNTRANSLATED
@@ -144,15 +142,64 @@ EP will decrease.
 > CONTEXT: Commonevents/138/53/InlineScript/2:28 < UNTRANSLATED
 > CONTEXT: Commonevents/138/61/InlineScript/2:28 < UNTRANSLATED
 > CONTEXT: Commonevents/341/16/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map280/events/2/pages/0/11/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map286/events/2/pages/0/148/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map267/events/1/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map265/events/4/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map263/events/17/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/15/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map257/events/2/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map259/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map261/events/4/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/32/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/34/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/35/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/36/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/37/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/38/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/41/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/44/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/45/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/49/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/50/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/51/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/52/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/53/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map253/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map251/events/8/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map247/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map249/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map246/events/7/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map242/events/1/pages/0/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map241/events/4/pages/0/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map244/events/1/pages/1/105/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map241/events/4/pages/1/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map225/events/1/pages/0/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map225/events/1/pages/2/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map225/events/1/pages/3/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map200/events/1/pages/0/2/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map214/events/16/pages/2/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map214/events/17/pages/2/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map193/events/12/pages/0/4/InlineScript/2:27 < UNTRANSLATED
+> CONTEXT: Map214/events/18/pages/1/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map141/events/1/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map129/events/23/pages/0/2/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map135/events/1/pages/0/152/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map132/events/1/pages/1/160/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map100/events/2/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map132/events/6/pages/1/11/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map135/events/1/pages/1/151/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map114/events/25/pages/1/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map087/events/13/pages/2/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map047/events/14/pages/0/27/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map142/events/24/pages/0/4/InlineScript/2:27 < UNTRANSLATED
+> CONTEXT: Map007/events/3/pages/0/31/InlineScript/1:27 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "小さなリス"
-> CONTEXT: Map071/events/2/pages/0/0/InlineScript/1:22
-> CONTEXT: Map047/events/3/pages/0/0/InlineScript/1:22
 > CONTEXT: Map876/events/24/pages/0/0/InlineScript/1:22
-> CONTEXT: Map048/events/57/pages/0/0/InlineScript/1:22
 "Small squirrel"
 > END STRING
 
@@ -342,7 +389,6 @@ First time partner
 > CONTEXT: Map876/events/29/pages/0/9/Choice/3
 > CONTEXT: Map624/events/18/pages/0/9/Choice/3
 > CONTEXT: Map582/events/2/pages/0/9/Choice/3
-> CONTEXT: Map057/events/6/pages/2/1/Choice/2
 > CONTEXT: Commonevents/136/1/Choice/2
 Nothing
 > END STRING
@@ -390,6 +436,16 @@ Become non-virgin
 > CONTEXT: Map559/events/6/pages/0/7/Choice/3
 > CONTEXT: Map559/events/7/pages/0/7/Choice/3
 > CONTEXT: Map559/events/8/pages/0/7/Choice/3
+> CONTEXT: Map182/events/5/pages/0/7/Choice/3
+> CONTEXT: Map182/events/5/pages/0/7/Choice/3
+> CONTEXT: Map171/events/2/pages/0/7/Choice/3
+> CONTEXT: Map171/events/2/pages/0/7/Choice/3
+> CONTEXT: Map182/events/8/pages/0/7/Choice/3
+> CONTEXT: Map182/events/8/pages/0/7/Choice/3
+> CONTEXT: Map171/events/3/pages/0/7/Choice/3
+> CONTEXT: Map171/events/3/pages/0/7/Choice/3
+> CONTEXT: Map182/events/9/pages/0/7/Choice/3
+> CONTEXT: Map182/events/9/pages/0/7/Choice/3
 Quit after all
 > END STRING
 

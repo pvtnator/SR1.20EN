@@ -1,22 +1,14 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "map_name_moonbeam"
-> CONTEXT: Map051/events/5/pages/0/11/InlineScript/2:21 < UNTRANSLATED
-> CONTEXT: Map047/events/23/pages/0/9/InlineScript/2:21 < UNTRANSLATED
-> CONTEXT: Map010/events/21/pages/0/14/InlineScript/2:21 < UNTRANSLATED
-> CONTEXT: Map003/events/27/pages/0/18/InlineScript/2:21 < UNTRANSLATED
-> CONTEXT: Map003/events/27/pages/0/29/InlineScript/2:21 < UNTRANSLATED
 > CONTEXT: Commonevents/14/83/InlineScript/2:21 < UNTRANSLATED
 > CONTEXT: Commonevents/14/91/InlineScript/2:21 < UNTRANSLATED
 > CONTEXT: Commonevents/14/99/InlineScript/2:21 < UNTRANSLATED
-> CONTEXT: Map048/events/95/pages/0/9/InlineScript/2:21 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "map_name_castle"
-> CONTEXT: Map051/events/6/pages/0/10/InlineScript/2:21 < UNTRANSLATED
-> CONTEXT: Map003/events/37/pages/0/31/InlineScript/2:21 < UNTRANSLATED
 > CONTEXT: Commonevents/14/203/InlineScript/2:21 < UNTRANSLATED
 > CONTEXT: Commonevents/14/211/InlineScript/2:21 < UNTRANSLATED
 > CONTEXT: Commonevents/14/219/InlineScript/2:21 < UNTRANSLATED
@@ -26,9 +18,6 @@
 
 > BEGIN STRING
 "map_name_cave"
-> CONTEXT: Map051/events/7/pages/0/10/InlineScript/2:21 < UNTRANSLATED
-> CONTEXT: Map003/events/37/pages/0/10/InlineScript/2:21 < UNTRANSLATED
-> CONTEXT: Map003/events/37/pages/0/21/InlineScript/2:21 < UNTRANSLATED
 > CONTEXT: Commonevents/14/107/InlineScript/2:21 < UNTRANSLATED
 > CONTEXT: Commonevents/14/115/InlineScript/2:21 < UNTRANSLATED
 > CONTEXT: Commonevents/14/123/InlineScript/2:21 < UNTRANSLATED
@@ -39,7 +28,6 @@
 
 > BEGIN STRING
 "map_name_hell"
-> CONTEXT: Map051/events/8/pages/0/10/InlineScript/2:21 < UNTRANSLATED
 > CONTEXT: Commonevents/14/171/InlineScript/2:21 < UNTRANSLATED
 > CONTEXT: Commonevents/14/179/InlineScript/2:21 < UNTRANSLATED
 > CONTEXT: Commonevents/14/187/InlineScript/2:21 < UNTRANSLATED
@@ -49,7 +37,6 @@
 
 > BEGIN STRING
 "map_name_church"
-> CONTEXT: Map051/events/10/pages/0/10/InlineScript/2:21 < UNTRANSLATED
 > CONTEXT: Commonevents/14/139/InlineScript/2:21 < UNTRANSLATED
 > CONTEXT: Commonevents/14/147/InlineScript/2:21 < UNTRANSLATED
 > CONTEXT: Commonevents/14/155/InlineScript/2:21 < UNTRANSLATED
@@ -59,67 +46,89 @@
 
 > BEGIN STRING
 "map_name_dreamworld"
-> CONTEXT: Map051/events/11/pages/0/10/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "map_name_shallows"
-> CONTEXT: Map051/events/12/pages/0/10/InlineScript/2:21 < UNTRANSLATED
 > CONTEXT: Commonevents/14/291/InlineScript/2:21 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 闇洞窟　B1
-> CONTEXT: Map051/events/13/pages/0/5/Choice/0 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 闇洞窟　B2
-> CONTEXT: Map051/events/13/pages/0/5/Choice/1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 闇洞窟　B3
-> CONTEXT: Map051/events/13/pages/0/5/Choice/2 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 後半へ
-> CONTEXT: Map051/events/13/pages/0/5/Choice/3 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 闇洞窟　B4
-> CONTEXT: Map051/events/13/pages/0/19/Choice/0 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 闇洞窟　B5
-> CONTEXT: Map051/events/13/pages/0/19/Choice/1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 闇洞窟　B6
-> CONTEXT: Map051/events/13/pages/0/19/Choice/2 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ゴブタウン
-> CONTEXT: Map051/events/13/pages/0/33/Choice/0 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 闇洞窟Ｂ７
-> CONTEXT: Map051/events/13/pages/0/33/Choice/1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+貴方が大天使様が言ってた英雄さん？
+へえ、意外とカワイイじゃん\\H
+> CONTEXT: Map051/events/7/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ようこそ天空城へ！
+> CONTEXT: Map051/events/8/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+※注意
+時間を戻すと大天使の城編の進行が
+リセットされます。
+> CONTEXT: Map051/events/9/pages/0/6/Dialogue < UNTRANSLATED
 
 > END STRING

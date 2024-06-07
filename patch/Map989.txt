@@ -1,7 +1,6 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 062-Slow05
-> CONTEXT: Map208/bgm/name/ < UNTRANSLATED
 > CONTEXT: Map989/bgm/name/ < UNTRANSLATED
 > CONTEXT: Map886/bgm/name/ < UNTRANSLATED
 > CONTEXT: Map881/bgm/name/ < UNTRANSLATED
@@ -19,6 +18,9 @@
 > CONTEXT: Map577/bgm/name/ < UNTRANSLATED
 > CONTEXT: Map472/bgm/name/ < UNTRANSLATED
 > CONTEXT: Map468/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map286/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map239/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map090/bgm/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -35,7 +37,7 @@
 > CONTEXT: Map472/events/7/pages/0/0/Dialogue
 > CONTEXT: Map468/events/4/pages/0/1/Dialogue
 > CONTEXT: Map468/events/4/pages/0/18/Dialogue
-> CONTEXT: Map208/events/4/pages/0/0/Dialogue
+> CONTEXT: Map090/events/4/pages/0/1/Dialogue
 The lamp illuminates the room mildly...
 > END STRING
 
@@ -67,8 +69,8 @@ The lamp illuminates the room mildly...
 > CONTEXT: Map468/events/4/pages/0/2/Choice/0
 > CONTEXT: Map468/events/4/pages/0/19/Choice/0
 > CONTEXT: Map468/events/4/pages/0/19/Choice/0
-> CONTEXT: Map208/events/4/pages/0/1/Choice/0
-> CONTEXT: Map208/events/4/pages/0/1/Choice/0
+> CONTEXT: Map090/events/4/pages/0/2/Choice/0
+> CONTEXT: Map090/events/4/pages/0/2/Choice/0
 Review the notes
 > END STRING
 
@@ -100,8 +102,8 @@ Review the notes
 > CONTEXT: Map468/events/4/pages/0/2/Choice/1
 > CONTEXT: Map468/events/4/pages/0/19/Choice/1
 > CONTEXT: Map468/events/4/pages/0/19/Choice/1
-> CONTEXT: Map208/events/4/pages/0/1/Choice/1
-> CONTEXT: Map208/events/4/pages/0/1/Choice/1
+> CONTEXT: Map090/events/4/pages/0/2/Choice/1
+> CONTEXT: Map090/events/4/pages/0/2/Choice/1
 About the effects of equipment and runes
 > END STRING
 
@@ -131,8 +133,8 @@ About the effects of equipment and runes
 > CONTEXT: Map472/events/7/pages/0/1/Choice/2
 > CONTEXT: Map468/events/4/pages/0/2/Choice/2
 > CONTEXT: Map468/events/4/pages/0/2/Choice/2
-> CONTEXT: Map208/events/4/pages/0/1/Choice/2
-> CONTEXT: Map208/events/4/pages/0/1/Choice/2
+> CONTEXT: Map090/events/4/pages/0/2/Choice/2
+> CONTEXT: Map090/events/4/pages/0/2/Choice/2
 Change the arrangements
 > END STRING
 
@@ -141,7 +143,6 @@ Change the arrangements
 この寝室では、夢魔たちとの逢瀬をより愉しむ為に、
 受ける快感や絶頂時の脱力が、通常のおよそ半分程となる。
 愛し合うには時間も必要だ。
-> CONTEXT: Map208/events/7/pages/0/12/Dialogue
 > CONTEXT: Map989/events/3/pages/0/19/Dialogue
 > CONTEXT: Map930/events/4/pages/0/19/Dialogue
 > CONTEXT: Map886/events/4/pages/0/19/Dialogue
@@ -154,7 +155,7 @@ Change the arrangements
 > CONTEXT: Map586/events/11/pages/0/105/Dialogue
 > CONTEXT: Map468/events/4/pages/0/35/Dialogue
 > CONTEXT: Map472/events/7/pages/0/106/Dialogue
-> CONTEXT: Map208/events/4/pages/0/18/Dialogue
+> CONTEXT: Map090/events/4/pages/0/19/Dialogue
 \\name[How to use the bedroom]\\_
 In the bedroom, to enjoy the encounter with the succubi even more,
 the pleasure you receive and the weakness you experience at climax
@@ -165,7 +166,6 @@ will be about half of normal. Take your time making love.
 \\name[寝室の使用方法]\\_
 また寝室では、自分も夢魔も互いに追撃が出やすくなる。
 お互いの特性を知っておくのも大事だろう。
-> CONTEXT: Map208/events/7/pages/0/16/Dialogue
 > CONTEXT: Map989/events/3/pages/0/23/Dialogue
 > CONTEXT: Map930/events/4/pages/0/23/Dialogue
 > CONTEXT: Map886/events/4/pages/0/23/Dialogue
@@ -178,7 +178,7 @@ will be about half of normal. Take your time making love.
 > CONTEXT: Map586/events/11/pages/0/109/Dialogue
 > CONTEXT: Map468/events/4/pages/0/39/Dialogue
 > CONTEXT: Map472/events/7/pages/0/110/Dialogue
-> CONTEXT: Map208/events/4/pages/0/22/Dialogue
+> CONTEXT: Map090/events/4/pages/0/23/Dialogue
 \\name[How to use the bedroom]\\_
 Also, in the bedroom, both you and the succubi are more likely to
 perform follow-up actions.
@@ -190,7 +190,6 @@ It is also important to know each other's characteristics.
 夢魔を複数人連れている場合、
 「相手する」か「仲間にする」かを選べる。
 一人で複数を相手したり、逆に複数で一人を攻めたりできる。
-> CONTEXT: Map208/events/7/pages/0/19/Dialogue
 > CONTEXT: Map989/events/3/pages/0/26/Dialogue
 > CONTEXT: Map930/events/4/pages/0/26/Dialogue
 > CONTEXT: Map886/events/4/pages/0/26/Dialogue
@@ -203,7 +202,7 @@ It is also important to know each other's characteristics.
 > CONTEXT: Map586/events/11/pages/0/112/Dialogue
 > CONTEXT: Map468/events/4/pages/0/42/Dialogue
 > CONTEXT: Map472/events/7/pages/0/113/Dialogue
-> CONTEXT: Map208/events/4/pages/0/25/Dialogue
+> CONTEXT: Map090/events/4/pages/0/26/Dialogue
 \\name[How to use the bedroom]\\_
 If you have multiple succubi with you, you can choose to
 play with or against them. One can go against multiple people,
@@ -215,7 +214,6 @@ or conversely, multiple people can go against one person.
 一晩を共にした夢魔は、例外なく好意を抱いてくれるが、
 この際、相手をした夢魔のほうが仲間にした夢魔よりも、
 好意を抱く度合が高いようだ。
-> CONTEXT: Map208/events/7/pages/0/23/Dialogue
 > CONTEXT: Map989/events/3/pages/0/30/Dialogue
 > CONTEXT: Map930/events/4/pages/0/30/Dialogue
 > CONTEXT: Map886/events/4/pages/0/30/Dialogue
@@ -228,7 +226,7 @@ or conversely, multiple people can go against one person.
 > CONTEXT: Map586/events/11/pages/0/116/Dialogue
 > CONTEXT: Map468/events/4/pages/0/46/Dialogue
 > CONTEXT: Map472/events/7/pages/0/117/Dialogue
-> CONTEXT: Map208/events/4/pages/0/29/Dialogue
+> CONTEXT: Map090/events/4/pages/0/30/Dialogue
 \\name[How to use the bedroom]\\_
 The succubi you spend the night with become more fond of you,
 but more so the succubi you go against than your companions.
@@ -239,7 +237,6 @@ but more so the succubi you go against than your companions.
 さて、堅苦しいのもここまでだ。
 後は、思うがままに愛を貪りあうといい。
 健闘を祈る。
-> CONTEXT: Map208/events/7/pages/0/27/Dialogue
 > CONTEXT: Map989/events/3/pages/0/34/Dialogue
 > CONTEXT: Map930/events/4/pages/0/34/Dialogue
 > CONTEXT: Map886/events/4/pages/0/34/Dialogue
@@ -252,7 +249,7 @@ but more so the succubi you go against than your companions.
 > CONTEXT: Map586/events/11/pages/0/120/Dialogue
 > CONTEXT: Map468/events/4/pages/0/50/Dialogue
 > CONTEXT: Map472/events/7/pages/0/121/Dialogue
-> CONTEXT: Map208/events/4/pages/0/33/Dialogue
+> CONTEXT: Map090/events/4/pages/0/34/Dialogue
 \\name[How to use the bedroom]\\_
 Well, that's the end of the instructions.
 Now, go and love each other as much as you want.
@@ -275,7 +272,7 @@ I wish you good luck.
 > CONTEXT: Map586/events/11/pages/0/128/Dialogue
 > CONTEXT: Map468/events/4/pages/0/58/Dialogue
 > CONTEXT: Map472/events/7/pages/0/129/Dialogue
-> CONTEXT: Map208/events/4/pages/0/41/Dialogue
+> CONTEXT: Map090/events/4/pages/0/42/Dialogue
 \\name[About equipment effects]\\_
 When you engrave equipment or runes on your allies, some of the
 effects will not work when you use them against your opponent.
@@ -298,7 +295,7 @@ effects will not work when you use them against your opponent.
 > CONTEXT: Map586/events/11/pages/0/131/Dialogue
 > CONTEXT: Map468/events/4/pages/0/61/Dialogue
 > CONTEXT: Map472/events/7/pages/0/132/Dialogue
-> CONTEXT: Map208/events/4/pages/0/44/Dialogue
+> CONTEXT: Map090/events/4/pages/0/45/Dialogue
 \\name[About equipment effects]\\_
 Qualities and skills acquired through status increases and decreases
 and equipment are effective when used against opponents.
@@ -321,7 +318,7 @@ and equipment are effective when used against opponents.
 > CONTEXT: Map586/events/11/pages/0/135/Dialogue
 > CONTEXT: Map468/events/4/pages/0/65/Dialogue
 > CONTEXT: Map472/events/7/pages/0/136/Dialogue
-> CONTEXT: Map208/events/4/pages/0/48/Dialogue
+> CONTEXT: Map090/events/4/pages/0/49/Dialogue
 \\name[About equipment effects]\\_
 Status abnormality resistance and other effects from equipment
 are not in effect when facing an opponent.
@@ -342,7 +339,7 @@ Make note of this.
 > CONTEXT: Map586/events/11/pages/0/143/Dialogue
 > CONTEXT: Map468/events/4/pages/0/73/Dialogue
 > CONTEXT: Map472/events/7/pages/0/144/Dialogue
-> CONTEXT: Map208/events/4/pages/0/56/Dialogue
+> CONTEXT: Map090/events/4/pages/0/57/Dialogue
 What do you want to change?
 > END STRING
 
@@ -372,8 +369,8 @@ What do you want to change?
 > CONTEXT: Map468/events/4/pages/0/74/Choice/0
 > CONTEXT: Map472/events/7/pages/0/145/Choice/0
 > CONTEXT: Map472/events/7/pages/0/145/Choice/0
-> CONTEXT: Map208/events/4/pages/0/57/Choice/0
-> CONTEXT: Map208/events/4/pages/0/57/Choice/0
+> CONTEXT: Map090/events/4/pages/0/58/Choice/0
+> CONTEXT: Map090/events/4/pages/0/58/Choice/0
 Background
 > END STRING
 
@@ -403,8 +400,8 @@ Background
 > CONTEXT: Map468/events/4/pages/0/74/Choice/1
 > CONTEXT: Map472/events/7/pages/0/145/Choice/1
 > CONTEXT: Map472/events/7/pages/0/145/Choice/1
-> CONTEXT: Map208/events/4/pages/0/57/Choice/1
-> CONTEXT: Map208/events/4/pages/0/57/Choice/1
+> CONTEXT: Map090/events/4/pages/0/58/Choice/1
+> CONTEXT: Map090/events/4/pages/0/58/Choice/1
 Music
 > END STRING
 
@@ -434,8 +431,8 @@ Music
 > CONTEXT: Map472/events/7/pages/0/145/Choice/2
 > CONTEXT: Map468/events/4/pages/0/74/Choice/2
 > CONTEXT: Map472/events/7/pages/0/145/Choice/2
-> CONTEXT: Map208/events/4/pages/0/57/Choice/2
-> CONTEXT: Map208/events/4/pages/0/57/Choice/2
+> CONTEXT: Map090/events/4/pages/0/58/Choice/2
+> CONTEXT: Map090/events/4/pages/0/58/Choice/2
 Nothing
 > END STRING
 
@@ -459,7 +456,6 @@ Nothing
 
 > BEGIN STRING
 →次へ
-> CONTEXT: Map204/events/3/pages/0/69/Choice/3
 > CONTEXT: Map989/events/3/pages/0/60/Choice/3
 > CONTEXT: Map989/events/3/pages/0/60/Choice/3
 > CONTEXT: Map930/events/4/pages/0/60/Choice/3
@@ -516,8 +512,8 @@ Nothing
 > CONTEXT: Map472/events/7/pages/0/187/Choice/3
 > CONTEXT: Map472/events/7/pages/0/201/Choice/3
 > CONTEXT: Map472/events/7/pages/0/201/Choice/3
-> CONTEXT: Map158/events/23/pages/0/137/Choice/3
-> CONTEXT: Map158/events/23/pages/0/137/Choice/3
+> CONTEXT: Map090/events/4/pages/0/60/Choice/3
+> CONTEXT: Map090/events/4/pages/0/60/Choice/3
 →Next
 > END STRING
 
@@ -559,17 +555,6 @@ Nothing
 
 > BEGIN STRING
 次へ
-> CONTEXT: Map274/events/2/pages/0/17/Choice/3
-> CONTEXT: Map274/events/2/pages/0/72/Choice/3
-> CONTEXT: Map274/events/2/pages/0/128/Choice/3
-> CONTEXT: Map274/events/2/pages/0/184/Choice/3
-> CONTEXT: Map274/events/51/pages/0/76/Choice/3
-> CONTEXT: Map274/events/51/pages/0/131/Choice/3
-> CONTEXT: Map274/events/51/pages/0/187/Choice/3
-> CONTEXT: Map274/events/51/pages/0/243/Choice/3
-> CONTEXT: Map051/events/13/pages/0/19/Choice/3
-> CONTEXT: Map002/events/5/pages/0/19/Choice/3
-> CONTEXT: Map002/events/5/pages/0/131/Choice/3
 > CONTEXT: Map989/events/3/pages/0/74/Choice/3
 > CONTEXT: Map989/events/3/pages/0/74/Choice/3
 > CONTEXT: Map989/events/3/pages/0/88/Choice/3
@@ -603,21 +588,9 @@ Nothing
 > CONTEXT: Commonevents/259/133/Choice/3
 > CONTEXT: Commonevents/259/133/Choice/3
 > CONTEXT: Commonevents/280/122/Choice/3
-> CONTEXT: Map034/events/466/pages/0/1/Choice/3
-> CONTEXT: Map034/events/466/pages/0/1/Choice/3
-> CONTEXT: Map034/events/466/pages/0/108/Choice/3
 > CONTEXT: Commonevents/280/122/Choice/3
-> CONTEXT: Map034/events/466/pages/0/108/Choice/3
-> CONTEXT: Map034/events/466/pages/0/215/Choice/3
-> CONTEXT: Map034/events/466/pages/0/215/Choice/3
-> CONTEXT: Map034/events/466/pages/0/322/Choice/3
-> CONTEXT: Map034/events/466/pages/0/322/Choice/3
-> CONTEXT: Map034/events/466/pages/0/429/Choice/3
 > CONTEXT: Commonevents/280/868/Choice/3
-> CONTEXT: Map034/events/466/pages/0/429/Choice/3
-> CONTEXT: Map034/events/466/pages/0/578/Choice/3
 > CONTEXT: Commonevents/280/868/Choice/3
-> CONTEXT: Map034/events/466/pages/0/578/Choice/3
 > CONTEXT: Commonevents/280/1158/Choice/3
 > CONTEXT: Commonevents/280/1158/Choice/3
 Next
@@ -724,7 +697,7 @@ Next
 > CONTEXT: Map703/events/4/pages/0/104/Dialogue < UNTRANSLATED
 > CONTEXT: Map625/events/4/pages/0/104/Dialogue < UNTRANSLATED
 > CONTEXT: Map577/events/4/pages/0/104/Dialogue < UNTRANSLATED
-> CONTEXT: Map208/events/4/pages/0/85/Dialogue < UNTRANSLATED
+> CONTEXT: Map090/events/4/pages/0/104/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -737,7 +710,7 @@ BGMの変更をキャンセルしました。
 > CONTEXT: Map703/events/4/pages/0/109/Dialogue < UNTRANSLATED
 > CONTEXT: Map625/events/4/pages/0/109/Dialogue < UNTRANSLATED
 > CONTEXT: Map577/events/4/pages/0/109/Dialogue < UNTRANSLATED
-> CONTEXT: Map208/events/4/pages/0/90/Dialogue < UNTRANSLATED
+> CONTEXT: Map090/events/4/pages/0/109/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -748,13 +721,13 @@ BGMの変更をキャンセルしました。
 > CONTEXT: Map737/events/4/pages/0/112/Dialogue < UNTRANSLATED
 > CONTEXT: Map703/events/4/pages/0/112/Dialogue < UNTRANSLATED
 > CONTEXT: Map577/events/4/pages/0/112/Dialogue < UNTRANSLATED
+> CONTEXT: Map090/events/4/pages/0/112/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 ランプを点けますか？
 （ベッドイン時の追撃発生率が互いに上昇します）
-> CONTEXT: Map208/events/4/pages/1/2/Dialogue
 > CONTEXT: Map989/events/3/pages/1/2/Dialogue
 > CONTEXT: Map930/events/4/pages/1/2/Dialogue
 > CONTEXT: Map886/events/4/pages/1/2/Dialogue
@@ -766,13 +739,13 @@ BGMの変更をキャンセルしました。
 > CONTEXT: Map577/events/4/pages/1/2/Dialogue
 > CONTEXT: Map586/events/11/pages/1/2/Dialogue
 > CONTEXT: Map468/events/4/pages/1/2/Dialogue
+> CONTEXT: Map090/events/4/pages/1/2/Dialogue
 Would you like to turn on the lamp?
 (The probability of follow-up actions in bed increases for everyone)
 > END STRING
 
 > BEGIN STRING
 寝室の説明を再確認する
-> CONTEXT: Map208/events/4/pages/1/4/Choice/2
 > CONTEXT: Map989/events/3/pages/1/4/Choice/2
 > CONTEXT: Map989/events/3/pages/1/4/Choice/2
 > CONTEXT: Map930/events/4/pages/1/4/Choice/2
@@ -795,6 +768,8 @@ Would you like to turn on the lamp?
 > CONTEXT: Map586/events/11/pages/1/4/Choice/2
 > CONTEXT: Map468/events/4/pages/1/4/Choice/2
 > CONTEXT: Map468/events/4/pages/1/4/Choice/2
+> CONTEXT: Map090/events/4/pages/1/4/Choice/2
+> CONTEXT: Map090/events/4/pages/1/4/Choice/2
 Double check the bedroom description
 > END STRING
 
@@ -803,7 +778,6 @@ Double check the bedroom description
 この寝室では、夢魔たちとの逢瀬をより愉しむ為に、
 受ける快感や絶頂時の脱力が、通常のおよそ半分程となる。
 愛し合うには時間も必要だ。
-> CONTEXT: Map208/events/4/pages/1/16/Dialogue
 > CONTEXT: Map989/events/3/pages/1/16/Dialogue
 > CONTEXT: Map930/events/4/pages/1/16/Dialogue
 > CONTEXT: Map886/events/4/pages/1/16/Dialogue
@@ -815,6 +789,7 @@ Double check the bedroom description
 > CONTEXT: Map577/events/4/pages/1/16/Dialogue
 > CONTEXT: Map586/events/11/pages/1/16/Dialogue
 > CONTEXT: Map468/events/4/pages/1/16/Dialogue
+> CONTEXT: Map090/events/4/pages/1/16/Dialogue
 \\name[How to use the bedroom]\\_
 In the bedroom, to enjoy the encounter with the succubi even more,
 the pleasure you receive and the weakness you experience at climax
@@ -826,7 +801,6 @@ will be about half of normal. Take your time making love.
 また、このランプを点灯させることで、お互いの感度が増し、
 自分も夢魔も互いに追撃が出やすくなる。
 ランプを消灯すると感度は元に戻る。活用されたし。
-> CONTEXT: Map208/events/4/pages/1/20/Dialogue
 > CONTEXT: Map989/events/3/pages/1/20/Dialogue
 > CONTEXT: Map930/events/4/pages/1/20/Dialogue
 > CONTEXT: Map886/events/4/pages/1/20/Dialogue
@@ -838,6 +812,7 @@ will be about half of normal. Take your time making love.
 > CONTEXT: Map577/events/4/pages/1/20/Dialogue
 > CONTEXT: Map586/events/11/pages/1/20/Dialogue
 > CONTEXT: Map468/events/4/pages/1/20/Dialogue
+> CONTEXT: Map090/events/4/pages/1/20/Dialogue
 \\name[How to use the bedroom]
 Also, by lighting this lamp, everyone's sensitivity increases,
 making it easier for you and the succubi to perform follow-up actions.
@@ -850,7 +825,6 @@ It is in use.
 夢魔を複数人連れている場合、
 「相手する」か「仲間にする」かを選べる。
 一人で複数を相手したり、逆に複数で一人を攻めたりできる。
-> CONTEXT: Map208/events/4/pages/1/24/Dialogue
 > CONTEXT: Map989/events/3/pages/1/24/Dialogue
 > CONTEXT: Map930/events/4/pages/1/24/Dialogue
 > CONTEXT: Map886/events/4/pages/1/24/Dialogue
@@ -862,6 +836,7 @@ It is in use.
 > CONTEXT: Map577/events/4/pages/1/24/Dialogue
 > CONTEXT: Map586/events/11/pages/1/24/Dialogue
 > CONTEXT: Map468/events/4/pages/1/24/Dialogue
+> CONTEXT: Map090/events/4/pages/1/24/Dialogue
 \\name[How to use the bedroom]\\_
 If you have multiple succubi with you, you can choose to
 play with or against them. One can go against multiple people,
@@ -873,7 +848,6 @@ or conversely, multiple people can go against one person.
 一晩を共にした夢魔は、例外なく好意を抱いてくれるが、
 この際、相手をした夢魔のほうが仲間にした夢魔よりも、
 好意を抱く度合が高いようだ。
-> CONTEXT: Map208/events/4/pages/1/28/Dialogue
 > CONTEXT: Map989/events/3/pages/1/28/Dialogue
 > CONTEXT: Map930/events/4/pages/1/28/Dialogue
 > CONTEXT: Map886/events/4/pages/1/28/Dialogue
@@ -885,6 +859,7 @@ or conversely, multiple people can go against one person.
 > CONTEXT: Map577/events/4/pages/1/28/Dialogue
 > CONTEXT: Map586/events/11/pages/1/28/Dialogue
 > CONTEXT: Map468/events/4/pages/1/28/Dialogue
+> CONTEXT: Map090/events/4/pages/1/28/Dialogue
 \\name[How to use the bedroom]\\_
 The succubi you spend the night with become more fond of you,
 but more so the succubi you go against than your companions.
@@ -894,7 +869,6 @@ but more so the succubi you go against than your companions.
 \\name[寝室の使用方法]
 後は、お互い思うままに愛を貪りあうといい。
 健闘を祈る。
-> CONTEXT: Map208/events/4/pages/1/32/Dialogue
 > CONTEXT: Map989/events/3/pages/1/32/Dialogue
 > CONTEXT: Map930/events/4/pages/1/32/Dialogue
 > CONTEXT: Map886/events/4/pages/1/32/Dialogue
@@ -906,6 +880,7 @@ but more so the succubi you go against than your companions.
 > CONTEXT: Map577/events/4/pages/1/32/Dialogue
 > CONTEXT: Map586/events/11/pages/1/32/Dialogue
 > CONTEXT: Map468/events/4/pages/1/32/Dialogue
+> CONTEXT: Map090/events/4/pages/1/32/Dialogue
 \\name[How to use the bedroom]\\_
 Now, go and love each other as much as you want.
 I wish you good luck.
@@ -913,7 +888,6 @@ I wish you good luck.
 
 > BEGIN STRING
 相手になる夢魔がいません！
-> CONTEXT: Map208/events/2/pages/0/4/Dialogue
 > CONTEXT: Map989/events/4/pages/0/1/Dialogue
 > CONTEXT: Map930/events/2/pages/0/1/Dialogue
 > CONTEXT: Map886/events/2/pages/0/1/Dialogue
@@ -929,13 +903,12 @@ I wish you good luck.
 > CONTEXT: Map641/events/253/pages/0/67/Dialogue
 > CONTEXT: Map472/events/4/pages/0/5/Dialogue
 > CONTEXT: Map468/events/2/pages/0/4/Dialogue
-> CONTEXT: Map238/events/11/pages/0/70/Dialogue
+> CONTEXT: Map090/events/2/pages/0/1/Dialogue
 There are no succubi to deal with!
 > END STRING
 
 > BEGIN STRING
 夢魔と戯れますか？
-> CONTEXT: Map208/events/2/pages/0/0/Dialogue
 > CONTEXT: Map989/events/4/pages/0/5/Dialogue
 > CONTEXT: Map930/events/2/pages/0/5/Dialogue
 > CONTEXT: Map886/events/2/pages/0/11/Dialogue
@@ -950,6 +923,7 @@ There are no succubi to deal with!
 > CONTEXT: Map600/events/2/pages/0/1/Dialogue
 > CONTEXT: Map472/events/4/pages/0/1/Dialogue
 > CONTEXT: Map468/events/2/pages/0/0/Dialogue
+> CONTEXT: Map090/events/2/pages/0/5/Dialogue
 Would you like to play with the succubi?
 > END STRING
 
@@ -972,6 +946,10 @@ Would you like to play with the succubi?
 > CONTEXT: Map625/events/2/pages/0/23/Choice/0 < UNTRANSLATED
 > CONTEXT: Map577/events/2/pages/0/7/Choice/0 < UNTRANSLATED
 > CONTEXT: Map577/events/2/pages/0/23/Choice/0 < UNTRANSLATED
+> CONTEXT: Map090/events/2/pages/0/7/Choice/0 < UNTRANSLATED
+> CONTEXT: Map090/events/2/pages/0/7/Choice/0 < UNTRANSLATED
+> CONTEXT: Map090/events/2/pages/0/23/Choice/0 < UNTRANSLATED
+> CONTEXT: Map090/events/2/pages/0/23/Choice/0 < UNTRANSLATED
 
 > END STRING
 
@@ -1023,6 +1001,10 @@ Would you like to play with the succubi?
 > CONTEXT: Map468/events/4/pages/0/98/Choice/0
 > CONTEXT: Map472/events/7/pages/0/187/Choice/0
 > CONTEXT: Map472/events/7/pages/0/187/Choice/0
+> CONTEXT: Map090/events/2/pages/0/7/Choice/1
+> CONTEXT: Map090/events/2/pages/0/7/Choice/1
+> CONTEXT: Map090/events/2/pages/0/23/Choice/1
+> CONTEXT: Map090/events/2/pages/0/23/Choice/1
 Regular battle
 > END STRING
 
@@ -1045,6 +1027,10 @@ Regular battle
 > CONTEXT: Map625/events/2/pages/0/23/Choice/3 < UNTRANSLATED
 > CONTEXT: Map577/events/2/pages/0/7/Choice/2 < UNTRANSLATED
 > CONTEXT: Map577/events/2/pages/0/23/Choice/3 < UNTRANSLATED
+> CONTEXT: Map090/events/2/pages/0/7/Choice/2 < UNTRANSLATED
+> CONTEXT: Map090/events/2/pages/0/7/Choice/2 < UNTRANSLATED
+> CONTEXT: Map090/events/2/pages/0/23/Choice/3 < UNTRANSLATED
+> CONTEXT: Map090/events/2/pages/0/23/Choice/3 < UNTRANSLATED
 
 > END STRING
 
@@ -1059,6 +1045,8 @@ Regular battle
 > CONTEXT: Map703/events/2/pages/0/23/Choice/2 < UNTRANSLATED
 > CONTEXT: Map625/events/2/pages/0/23/Choice/2 < UNTRANSLATED
 > CONTEXT: Map577/events/2/pages/0/23/Choice/2 < UNTRANSLATED
+> CONTEXT: Map090/events/2/pages/0/23/Choice/2 < UNTRANSLATED
+> CONTEXT: Map090/events/2/pages/0/23/Choice/2 < UNTRANSLATED
 
 > END STRING
 
@@ -1086,22 +1074,14 @@ Regular battle
 > CONTEXT: Map641/events/253/pages/0/77/InlineScript/11:34 < UNTRANSLATED
 > CONTEXT: Map472/events/4/pages/0/21/InlineScript/11:34 < UNTRANSLATED
 > CONTEXT: Map468/events/2/pages/0/22/InlineScript/11:34 < UNTRANSLATED
-> CONTEXT: Map238/events/11/pages/0/80/InlineScript/11:34 < UNTRANSLATED
-> CONTEXT: Map208/events/2/pages/0/24/InlineScript/11:34 < UNTRANSLATED
-> CONTEXT: Map184/events/15/pages/0/158/InlineScript/1:34 < UNTRANSLATED
+> CONTEXT: Map286/events/2/pages/0/44/InlineScript/1:34 < UNTRANSLATED
+> CONTEXT: Map286/events/2/pages/0/115/InlineScript/1:34 < UNTRANSLATED
+> CONTEXT: Map090/events/2/pages/0/55/InlineScript/11:34 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "A"
-> CONTEXT: Map231/events/6/pages/1/5/InlineScript/1:28 < UNTRANSLATED
-> CONTEXT: Map187/events/9/pages/0/0/InlineScript/1:29 < UNTRANSLATED
-> CONTEXT: Map187/events/10/pages/0/0/InlineScript/1:29 < UNTRANSLATED
-> CONTEXT: Map069/events/11/pages/0/5/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map027/events/17/pages/0/4/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map020/events/3/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map013/events/2/pages/0/1/InlineScript/1:28 < UNTRANSLATED
-> CONTEXT: Map013/events/3/pages/0/1/InlineScript/1:28 < UNTRANSLATED
 > CONTEXT: Map930/events/2/pages/0/115/InlineScript/1:28 < UNTRANSLATED
 > CONTEXT: Map989/events/4/pages/0/131/InlineScript/1:28 < UNTRANSLATED
 > CONTEXT: Map925/events/23/pages/0/9/InlineScript/1:29 < UNTRANSLATED
@@ -1199,100 +1179,40 @@ Regular battle
 > CONTEXT: Map641/events/253/pages/0/153/InlineScript/1:28 < UNTRANSLATED
 > CONTEXT: Map472/events/4/pages/0/92/InlineScript/1:28 < UNTRANSLATED
 > CONTEXT: Map468/events/2/pages/0/93/InlineScript/1:28 < UNTRANSLATED
-> CONTEXT: Map272/events/19/pages/0/33/InlineScript/1:31 < UNTRANSLATED
-> CONTEXT: Map272/events/19/pages/0/34/InlineScript/1:31 < UNTRANSLATED
-> CONTEXT: Map238/events/1/pages/0/6/InlineScript/1:32 < UNTRANSLATED
-> CONTEXT: Map238/events/1/pages/0/8/InlineScript/1:32 < UNTRANSLATED
-> CONTEXT: Map238/events/6/pages/0/2/InlineScript/1:32 < UNTRANSLATED
-> CONTEXT: Map238/events/6/pages/0/6/InlineScript/1:32 < UNTRANSLATED
-> CONTEXT: Map238/events/7/pages/0/2/InlineScript/1:32 < UNTRANSLATED
-> CONTEXT: Map238/events/7/pages/0/6/InlineScript/1:32 < UNTRANSLATED
-> CONTEXT: Map229/events/9/pages/0/3/InlineScript/1:32 < UNTRANSLATED
-> CONTEXT: Map229/events/9/pages/0/7/InlineScript/1:32 < UNTRANSLATED
-> CONTEXT: Map238/events/11/pages/0/156/InlineScript/1:28 < UNTRANSLATED
-> CONTEXT: Map238/events/127/pages/1/7/InlineScript/1:32 < UNTRANSLATED
-> CONTEXT: Map208/events/2/pages/0/111/InlineScript/1:28 < UNTRANSLATED
-> CONTEXT: Map238/events/250/pages/0/8/InlineScript/1:32 < UNTRANSLATED
-> CONTEXT: Map209/events/90/pages/0/33/InlineScript/1:31 < UNTRANSLATED
-> CONTEXT: Map209/events/90/pages/0/34/InlineScript/1:31 < UNTRANSLATED
-> CONTEXT: Map064/events/22/pages/0/41/InlineScript/1:29 < UNTRANSLATED
-> CONTEXT: Map029/events/8/pages/0/14/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map042/events/26/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map042/events/26/pages/0/1/InlineScript/2:27 < UNTRANSLATED
-> CONTEXT: Map042/events/26/pages/0/1/InlineScript/3:27 < UNTRANSLATED
-> CONTEXT: Map042/events/26/pages/0/1/InlineScript/4:28 < UNTRANSLATED
-> CONTEXT: Map042/events/26/pages/0/8/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map042/events/26/pages/0/8/InlineScript/2:27 < UNTRANSLATED
-> CONTEXT: Map042/events/26/pages/0/8/InlineScript/3:27 < UNTRANSLATED
-> CONTEXT: Map042/events/26/pages/0/8/InlineScript/4:28 < UNTRANSLATED
-> CONTEXT: Map020/events/9/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map020/events/9/pages/0/1/InlineScript/2:27 < UNTRANSLATED
-> CONTEXT: Map020/events/9/pages/0/1/InlineScript/3:27 < UNTRANSLATED
-> CONTEXT: Map019/events/1/pages/0/0/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map019/events/1/pages/0/0/InlineScript/2:27 < UNTRANSLATED
-> CONTEXT: Map019/events/1/pages/0/0/InlineScript/3:27 < UNTRANSLATED
-> CONTEXT: Map025/events/31/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map025/events/31/pages/0/1/InlineScript/2:28 < UNTRANSLATED
-> CONTEXT: Map020/events/10/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map020/events/10/pages/0/1/InlineScript/2:27 < UNTRANSLATED
-> CONTEXT: Map020/events/10/pages/0/1/InlineScript/3:27 < UNTRANSLATED
-> CONTEXT: Map020/events/11/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map020/events/11/pages/0/1/InlineScript/2:27 < UNTRANSLATED
-> CONTEXT: Map020/events/11/pages/0/1/InlineScript/3:27 < UNTRANSLATED
-> CONTEXT: Map020/events/12/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map020/events/12/pages/0/1/InlineScript/2:27 < UNTRANSLATED
-> CONTEXT: Map020/events/12/pages/0/1/InlineScript/3:27 < UNTRANSLATED
-> CONTEXT: Map019/events/5/pages/1/0/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map019/events/5/pages/1/0/InlineScript/2:27 < UNTRANSLATED
-> CONTEXT: Map019/events/5/pages/1/0/InlineScript/3:27 < UNTRANSLATED
-> CONTEXT: Map020/events/13/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map020/events/13/pages/0/1/InlineScript/2:27 < UNTRANSLATED
-> CONTEXT: Map020/events/13/pages/0/1/InlineScript/3:27 < UNTRANSLATED
-> CONTEXT: Map025/events/31/pages/0/16/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map025/events/31/pages/0/16/InlineScript/2:28 < UNTRANSLATED
-> CONTEXT: Map020/events/14/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map020/events/14/pages/0/1/InlineScript/2:27 < UNTRANSLATED
-> CONTEXT: Map020/events/14/pages/0/1/InlineScript/3:27 < UNTRANSLATED
-> CONTEXT: Map042/events/51/pages/0/55/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map042/events/51/pages/0/55/InlineScript/2:27 < UNTRANSLATED
-> CONTEXT: Map042/events/51/pages/0/55/InlineScript/3:27 < UNTRANSLATED
-> CONTEXT: Map042/events/51/pages/0/55/InlineScript/4:28 < UNTRANSLATED
-> CONTEXT: Map019/events/64/pages/0/1/InlineScript/1:28 < UNTRANSLATED
-> CONTEXT: Map019/events/64/pages/0/1/InlineScript/2:28 < UNTRANSLATED
-> CONTEXT: Map019/events/64/pages/0/1/InlineScript/3:28 < UNTRANSLATED
-> CONTEXT: Map019/events/64/pages/0/1/InlineScript/4:28 < UNTRANSLATED
-> CONTEXT: Map019/events/64/pages/0/1/InlineScript/5:28 < UNTRANSLATED
-> CONTEXT: Map019/events/64/pages/0/8/InlineScript/1:28 < UNTRANSLATED
-> CONTEXT: Map019/events/64/pages/0/8/InlineScript/2:28 < UNTRANSLATED
-> CONTEXT: Map019/events/64/pages/0/8/InlineScript/3:28 < UNTRANSLATED
-> CONTEXT: Map019/events/64/pages/0/8/InlineScript/4:28 < UNTRANSLATED
-> CONTEXT: Map019/events/64/pages/0/8/InlineScript/5:28 < UNTRANSLATED
-> CONTEXT: Map018/events/29/pages/0/1/InlineScript/1:28 < UNTRANSLATED
-> CONTEXT: Map018/events/29/pages/0/1/InlineScript/2:28 < UNTRANSLATED
-> CONTEXT: Map018/events/29/pages/0/5/InlineScript/1:28 < UNTRANSLATED
-> CONTEXT: Map018/events/29/pages/0/5/InlineScript/2:28 < UNTRANSLATED
-> CONTEXT: Map015/events/78/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map015/events/78/pages/0/1/InlineScript/2:28 < UNTRANSLATED
-> CONTEXT: Map015/events/78/pages/0/1/InlineScript/3:28 < UNTRANSLATED
-> CONTEXT: Map015/events/78/pages/0/1/InlineScript/4:28 < UNTRANSLATED
-> CONTEXT: Map015/events/78/pages/0/7/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map015/events/78/pages/0/7/InlineScript/2:28 < UNTRANSLATED
-> CONTEXT: Map015/events/78/pages/0/7/InlineScript/3:28 < UNTRANSLATED
-> CONTEXT: Map015/events/78/pages/0/7/InlineScript/4:28 < UNTRANSLATED
-> CONTEXT: Map027/events/147/pages/0/1/InlineScript/1:28 < UNTRANSLATED
-> CONTEXT: Map027/events/147/pages/0/4/InlineScript/1:28 < UNTRANSLATED
 > CONTEXT: Commonevents/329/19/InlineScript/1:29 < UNTRANSLATED
 > CONTEXT: Commonevents/329/19/InlineScript/3:29 < UNTRANSLATED
 > CONTEXT: Commonevents/329/19/InlineScript/5:29 < UNTRANSLATED
 > CONTEXT: Commonevents/339/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map219/events/23/pages/0/9/InlineScript/1:29 < UNTRANSLATED
+> CONTEXT: Map101/events/4/pages/0/38/InlineScript/1:28 < UNTRANSLATED
+> CONTEXT: Map090/events/2/pages/0/134/InlineScript/1:28 < UNTRANSLATED
+> CONTEXT: Map095/events/16/pages/0/91/InlineScript/1:28 < UNTRANSLATED
+> CONTEXT: Map095/events/16/pages/0/92/InlineScript/1:28 < UNTRANSLATED
+> CONTEXT: Map128/events/170/pages/0/67/InlineScript/1:30 < UNTRANSLATED
+> CONTEXT: Map128/events/170/pages/0/74/InlineScript/1:30 < UNTRANSLATED
+> CONTEXT: Map128/events/170/pages/0/99/InlineScript/1:30 < UNTRANSLATED
+> CONTEXT: Map095/events/18/pages/0/89/InlineScript/1:28 < UNTRANSLATED
+> CONTEXT: Map095/events/18/pages/0/90/InlineScript/1:28 < UNTRANSLATED
+> CONTEXT: Map128/events/190/pages/0/31/InlineScript/1:30 < UNTRANSLATED
+> CONTEXT: Map128/events/190/pages/0/39/InlineScript/1:30 < UNTRANSLATED
+> CONTEXT: Map095/events/19/pages/0/90/InlineScript/1:28 < UNTRANSLATED
+> CONTEXT: Map095/events/19/pages/0/91/InlineScript/1:28 < UNTRANSLATED
+> CONTEXT: Map128/events/195/pages/0/66/InlineScript/1:30 < UNTRANSLATED
+> CONTEXT: Map128/events/195/pages/0/71/InlineScript/1:30 < UNTRANSLATED
+> CONTEXT: Map128/events/195/pages/0/96/InlineScript/1:30 < UNTRANSLATED
+> CONTEXT: Map128/events/197/pages/0/40/InlineScript/1:30 < UNTRANSLATED
+> CONTEXT: Map128/events/198/pages/0/40/InlineScript/1:30 < UNTRANSLATED
+> CONTEXT: Map128/events/200/pages/0/40/InlineScript/1:30 < UNTRANSLATED
+> CONTEXT: Map128/events/201/pages/0/40/InlineScript/1:30 < UNTRANSLATED
+> CONTEXT: Map128/events/202/pages/0/38/InlineScript/1:30 < UNTRANSLATED
+> CONTEXT: Map128/events/203/pages/0/38/InlineScript/1:30 < UNTRANSLATED
+> CONTEXT: Map128/events/204/pages/0/44/InlineScript/1:30 < UNTRANSLATED
+> CONTEXT: Map128/events/205/pages/0/44/InlineScript/1:30 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\v[2]を味方にしますか？
-> CONTEXT: Map208/events/1/pages/0/3/Dialogue
-> CONTEXT: Map208/events/3/pages/0/3/Dialogue
-> CONTEXT: Map208/events/5/pages/0/3/Dialogue
 > CONTEXT: Map930/events/1/pages/0/3/Dialogue
 > CONTEXT: Map930/events/3/pages/0/3/Dialogue
 > CONTEXT: Map989/events/5/pages/0/4/Dialogue
@@ -1320,5 +1240,8 @@ Regular battle
 > CONTEXT: Map468/events/1/pages/0/3/Dialogue
 > CONTEXT: Map468/events/3/pages/0/3/Dialogue
 > CONTEXT: Map468/events/5/pages/0/3/Dialogue
+> CONTEXT: Map090/events/1/pages/0/4/Dialogue
+> CONTEXT: Map090/events/3/pages/0/4/Dialogue
+> CONTEXT: Map090/events/5/pages/0/4/Dialogue
 Would you like to make \\v[2] your ally?
 > END STRING

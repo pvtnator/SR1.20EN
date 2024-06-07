@@ -11,6 +11,11 @@
 > CONTEXT: Map581/events/2/pages/0/0/InlineScript/1:22
 > CONTEXT: Map555/events/11/pages/0/0/InlineScript/1:22
 > CONTEXT: Map559/events/9/pages/0/0/InlineScript/1:22
+> CONTEXT: Map245/events/7/pages/1/0/InlineScript/1:22
+> CONTEXT: Map185/events/4/pages/3/0/InlineScript/1:22
+> CONTEXT: Map182/events/11/pages/0/0/InlineScript/1:22
+> CONTEXT: Map148/events/32/pages/0/0/InlineScript/1:22
+> CONTEXT: Map148/events/48/pages/3/0/InlineScript/1:22
 "Girl"
 > END STRING
 
@@ -24,6 +29,8 @@
 > CONTEXT: Map581/events/2/pages/0/1/Dialogue
 > CONTEXT: Map555/events/11/pages/0/1/Dialogue
 > CONTEXT: Map559/events/9/pages/0/1/Dialogue
+> CONTEXT: Map182/events/11/pages/0/1/Dialogue
+> CONTEXT: Map148/events/32/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
 I'm looking for rune materials, would you have them?
 I'll exchange them for runes I made.
@@ -32,8 +39,6 @@ I'll exchange them for runes I made.
 > BEGIN STRING
 "交換屋"
 > CONTEXT: Map370/events/2/pages/0/0/InlineScript/1:22
-> CONTEXT: Map010/events/1/pages/0/0/InlineScript/1:22
-> CONTEXT: Map002/events/5/pages/0/0/InlineScript/1:22
 > CONTEXT: Map861/events/33/pages/0/0/InlineScript/1:22
 > CONTEXT: Map861/events/35/pages/0/0/InlineScript/1:22
 > CONTEXT: Map861/events/48/pages/1/0/InlineScript/1:22
@@ -50,6 +55,10 @@ I'll exchange them for runes I made.
 > CONTEXT: Map559/events/9/pages/1/0/InlineScript/1:22
 > CONTEXT: Map559/events/9/pages/3/0/InlineScript/1:22
 > CONTEXT: Map524/events/12/pages/0/0/InlineScript/1:22
+> CONTEXT: Map182/events/11/pages/1/0/InlineScript/1:22
+> CONTEXT: Map182/events/11/pages/3/0/InlineScript/1:22
+> CONTEXT: Map148/events/33/pages/0/0/InlineScript/1:22
+> CONTEXT: Map148/events/35/pages/0/0/InlineScript/1:22
 "Exchange shop"
 > END STRING
 
@@ -63,6 +72,8 @@ I'll exchange them for runes I made.
 > CONTEXT: Map584/events/4/pages/0/1/Dialogue
 > CONTEXT: Map555/events/11/pages/1/1/Dialogue
 > CONTEXT: Map559/events/9/pages/1/1/Dialogue
+> CONTEXT: Map182/events/11/pages/1/1/Dialogue
+> CONTEXT: Map148/events/33/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
 We trade here through barter.
 If you want something, bring items!
@@ -77,6 +88,8 @@ If you want something, bring items!
 > CONTEXT: Map584/events/5/pages/0/0/InlineScript/1:22
 > CONTEXT: Map555/events/11/pages/2/0/InlineScript/1:22
 > CONTEXT: Map559/events/9/pages/2/0/InlineScript/1:22
+> CONTEXT: Map182/events/11/pages/2/0/InlineScript/1:22
+> CONTEXT: Map148/events/34/pages/0/0/InlineScript/1:22
 "Castler"
 > END STRING
 
@@ -89,6 +102,7 @@ If you want something, bring items!
 > CONTEXT: Map861/events/48/pages/2/1/Dialogue
 > CONTEXT: Map584/events/2/pages/0/1/Dialogue
 > CONTEXT: Map584/events/5/pages/0/1/Dialogue
+> CONTEXT: Map148/events/34/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
 We do metal work here.
 If you want me to make something, I'll sell it to you!
@@ -104,32 +118,36 @@ If you want me to make something, I'll sell it to you!
 > CONTEXT: Map584/events/5/pages/0/10/Dialogue
 > CONTEXT: Map555/events/11/pages/2/10/Dialogue
 > CONTEXT: Map559/events/9/pages/2/10/Dialogue
+> CONTEXT: Map185/events/4/pages/1/12/Dialogue
+> CONTEXT: Map182/events/11/pages/2/10/Dialogue
+> CONTEXT: Map148/events/34/pages/0/10/Dialogue
+> CONTEXT: Map148/events/48/pages/1/10/Dialogue
 \\name[\\v[2]]\\_
 Please come again.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]キミ･･･使えない道具とか持ってない？
-> CONTEXT: Map010/events/1/pages/0/2/Dialogue
-> CONTEXT: Map002/events/5/pages/0/2/Dialogue
 > CONTEXT: Map861/events/35/pages/0/2/Dialogue
 > CONTEXT: Map861/events/48/pages/3/2/Dialogue
 > CONTEXT: Map555/events/11/pages/3/2/Dialogue
 > CONTEXT: Map559/events/9/pages/3/2/Dialogue
 > CONTEXT: Map524/events/12/pages/0/2/Dialogue
+> CONTEXT: Map182/events/11/pages/3/2/Dialogue
+> CONTEXT: Map148/events/35/pages/0/2/Dialogue
 \\name[\\v[2]]You... do you have any unusable items?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 やぁ･･･。使えない道具とか見つかったかい？
-> CONTEXT: Map010/events/1/pages/0/6/Dialogue
-> CONTEXT: Map002/events/5/pages/0/6/Dialogue
 > CONTEXT: Map861/events/35/pages/0/6/Dialogue
 > CONTEXT: Map861/events/48/pages/3/6/Dialogue
 > CONTEXT: Map555/events/11/pages/3/6/Dialogue
 > CONTEXT: Map559/events/9/pages/3/6/Dialogue
 > CONTEXT: Map524/events/12/pages/0/6/Dialogue
+> CONTEXT: Map182/events/11/pages/3/6/Dialogue
+> CONTEXT: Map148/events/35/pages/0/6/Dialogue
 \\name[\\v[2]]\\_
 Hey... Did you find any unusable items?
 > END STRING
@@ -139,13 +157,13 @@ Hey... Did you find any unusable items?
 たまーに夢魔が落としてくれたり、採取で見つかったり\\_
 するんだけどさ。
 いっぱい持ってたら、良い物と交換してあげるよ。
-> CONTEXT: Map010/events/1/pages/0/10/Dialogue
-> CONTEXT: Map002/events/5/pages/0/10/Dialogue
 > CONTEXT: Map861/events/35/pages/0/10/Dialogue
 > CONTEXT: Map861/events/48/pages/3/10/Dialogue
 > CONTEXT: Map555/events/11/pages/3/10/Dialogue
 > CONTEXT: Map559/events/9/pages/3/10/Dialogue
 > CONTEXT: Map524/events/12/pages/0/10/Dialogue
+> CONTEXT: Map182/events/11/pages/3/10/Dialogue
+> CONTEXT: Map148/events/35/pages/0/10/Dialogue
 \\name[\\v[2]]\\_
 Occasionally, succubi drop them, or they are found through foraging.
 If you have a lot, I'll exchange it for something better.
@@ -154,13 +172,13 @@ If you have a lot, I'll exchange it for something better.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 使えない道具が集まったら、また僕の所へおいで･･･。
-> CONTEXT: Map010/events/1/pages/0/20/Dialogue
-> CONTEXT: Map002/events/5/pages/0/408/Dialogue
 > CONTEXT: Map861/events/35/pages/0/20/Dialogue
 > CONTEXT: Map861/events/48/pages/3/20/Dialogue
 > CONTEXT: Map555/events/11/pages/3/20/Dialogue
 > CONTEXT: Map559/events/9/pages/3/20/Dialogue
 > CONTEXT: Map524/events/12/pages/0/20/Dialogue
+> CONTEXT: Map182/events/11/pages/3/20/Dialogue
+> CONTEXT: Map148/events/35/pages/0/20/Dialogue
 \\name[\\v[2]]\\_
 When you have gathered some unusable items, come back to me...
 > END STRING
@@ -168,12 +186,12 @@ When you have gathered some unusable items, come back to me...
 > BEGIN STRING
 "気味の悪い商人"
 > CONTEXT: Map457/events/12/pages/0/0/InlineScript/1:22
-> CONTEXT: Map179/events/12/pages/0/0/InlineScript/1:22
 > CONTEXT: Map861/events/36/pages/0/0/InlineScript/1:22
 > CONTEXT: Map861/events/48/pages/4/0/InlineScript/1:22
 > CONTEXT: Map555/events/11/pages/4/0/InlineScript/1:22
 > CONTEXT: Map559/events/9/pages/4/0/InlineScript/1:22
-> CONTEXT: Map272/events/202/pages/0/0/InlineScript/1:22
+> CONTEXT: Map182/events/11/pages/4/0/InlineScript/1:22
+> CONTEXT: Map148/events/36/pages/0/0/InlineScript/1:22
 "Creepy Merchant"
 > END STRING
 
@@ -185,8 +203,8 @@ When you have gathered some unusable items, come back to me...
 > CONTEXT: Map861/events/48/pages/4/2/Dialogue < UNTRANSLATED
 > CONTEXT: Map555/events/11/pages/4/2/Dialogue < UNTRANSLATED
 > CONTEXT: Map559/events/9/pages/4/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map272/events/202/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map179/events/12/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map182/events/11/pages/4/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map148/events/36/pages/0/2/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -199,8 +217,8 @@ When you have gathered some unusable items, come back to me...
 > CONTEXT: Map861/events/48/pages/4/7/Dialogue
 > CONTEXT: Map555/events/11/pages/4/7/Dialogue
 > CONTEXT: Map559/events/9/pages/4/7/Dialogue
-> CONTEXT: Map272/events/202/pages/0/7/Dialogue
-> CONTEXT: Map179/events/12/pages/0/7/Dialogue
+> CONTEXT: Map182/events/11/pages/4/7/Dialogue
+> CONTEXT: Map148/events/36/pages/0/7/Dialogue
 \\name[\\v[2]]\\_
 Hehehehe, we have some great stuff.
 Go buy something. Whether it's useful or not is up to you...
@@ -214,8 +232,8 @@ Go buy something. Whether it's useful or not is up to you...
 > CONTEXT: Map861/events/48/pages/4/18/Dialogue
 > CONTEXT: Map555/events/11/pages/4/18/Dialogue
 > CONTEXT: Map559/events/9/pages/4/18/Dialogue
-> CONTEXT: Map272/events/202/pages/0/18/Dialogue
-> CONTEXT: Map179/events/12/pages/0/18/Dialogue
+> CONTEXT: Map182/events/11/pages/4/18/Dialogue
+> CONTEXT: Map148/events/36/pages/0/18/Dialogue
 \\name[\\v[2]]\\_
 Use at your own risk...hehehe.
 > END STRING
@@ -230,19 +248,17 @@ Use at your own risk...hehehe.
 > CONTEXT: Map360/events/2/pages/0/0/InlineScript/1:22
 > CONTEXT: Map371/events/5/pages/0/0/InlineScript/1:22
 > CONTEXT: Map358/events/11/pages/1/0/InlineScript/1:22
-> CONTEXT: Map285/events/6/pages/0/0/InlineScript/1:22
-> CONTEXT: Map285/events/6/pages/1/0/InlineScript/1:22
-> CONTEXT: Map159/events/10/pages/0/0/InlineScript/1:22
-> CONTEXT: Map121/events/11/pages/0/0/InlineScript/1:22
-> CONTEXT: Map120/events/4/pages/0/18/InlineScript/1:22
-> CONTEXT: Map121/events/11/pages/1/0/InlineScript/1:22
 > CONTEXT: Map861/events/48/pages/5/0/InlineScript/1:22
 > CONTEXT: Map861/events/50/pages/0/0/InlineScript/1:22
 > CONTEXT: Map581/events/1/pages/0/0/InlineScript/1:22
 > CONTEXT: Map580/events/2/pages/1/0/InlineScript/1:22
 > CONTEXT: Map555/events/11/pages/5/0/InlineScript/1:22
 > CONTEXT: Map559/events/9/pages/5/0/InlineScript/1:22
-> CONTEXT: Map158/events/30/pages/0/0/InlineScript/1:22
+> CONTEXT: Map182/events/11/pages/5/0/InlineScript/1:22
+> CONTEXT: Map115/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Map114/events/9/pages/0/0/InlineScript/1:22
+> CONTEXT: Map148/events/50/pages/0/0/InlineScript/1:22
+> CONTEXT: Map064/events/8/pages/0/0/InlineScript/1:22
 "Witch"
 > END STRING
 
@@ -254,6 +270,7 @@ Use at your own risk...hehehe.
 > CONTEXT: Map861/events/48/pages/5/1/Dialogue < UNTRANSLATED
 > CONTEXT: Map861/events/50/pages/0/1/Dialogue < UNTRANSLATED
 > CONTEXT: Map581/events/1/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map148/events/50/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -265,6 +282,8 @@ Use at your own risk...hehehe.
 > CONTEXT: Map584/events/3/pages/0/0/InlineScript/1:22
 > CONTEXT: Map555/events/11/pages/6/0/InlineScript/1:22
 > CONTEXT: Map559/events/9/pages/6/0/InlineScript/1:22
+> CONTEXT: Map182/events/11/pages/6/0/InlineScript/1:22
+> CONTEXT: Map148/events/49/pages/0/0/InlineScript/1:22
 "Rune selling witch"
 > END STRING
 
@@ -278,6 +297,8 @@ Use at your own risk...hehehe.
 > CONTEXT: Map584/events/3/pages/0/1/Dialogue
 > CONTEXT: Map555/events/11/pages/6/1/Dialogue
 > CONTEXT: Map559/events/9/pages/6/1/Dialogue
+> CONTEXT: Map182/events/11/pages/6/1/Dialogue
+> CONTEXT: Map148/events/49/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
 Hello, I'm a traveling rune merchant.
 Do you need anything?

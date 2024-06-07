@@ -58,12 +58,6 @@ you can increase the number of succubi you can contract\\c[0].
 "支配人"
 > CONTEXT: Map524/events/3/pages/0/0/InlineScript/1:22
 > CONTEXT: Map524/events/3/pages/0/24/InlineScript/1:22
-> CONTEXT: Map096/events/9/pages/0/5/InlineScript/1:22
-> CONTEXT: Map096/events/9/pages/1/0/InlineScript/1:22
-> CONTEXT: Map096/events/9/pages/2/0/InlineScript/1:22
-> CONTEXT: Map096/events/9/pages/3/0/InlineScript/1:22
-> CONTEXT: Map096/events/9/pages/5/0/InlineScript/1:22
-> CONTEXT: Map096/events/11/pages/0/0/InlineScript/1:22
 "Manager"
 > END STRING
 
@@ -633,7 +627,6 @@ and choose the succubi that will be your companions.
 
 > BEGIN STRING
 "魔法士の青年"
-> CONTEXT: Map152/events/9/pages/0/0/InlineScript/1:22
 > CONTEXT: Map524/events/7/pages/0/0/InlineScript/1:22
 "Young Magician"
 > END STRING
@@ -1057,9 +1050,6 @@ and eat that in the dungeon...
 > CONTEXT: Map524/events/14/pages/0/16/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Map524/events/14/pages/1/7/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Map524/events/14/pages/1/19/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map272/events/14/pages/0/7/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map272/events/14/pages/1/6/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map272/events/14/pages/2/6/InlineScript/1:27 < UNTRANSLATED
 
 > END STRING
 
@@ -1094,10 +1084,10 @@ and eat that in the dungeon...
 
 > BEGIN STRING
 "バーテンダー"
-> CONTEXT: Map152/events/10/pages/0/0/InlineScript/1:22
-> CONTEXT: Map152/events/10/pages/1/0/InlineScript/1:22
 > CONTEXT: Map524/events/16/pages/0/3/InlineScript/1:22
 > CONTEXT: Map524/events/16/pages/1/3/InlineScript/1:22
+> CONTEXT: Map193/events/2/pages/1/3/InlineScript/1:22
+> CONTEXT: Map060/events/1/pages/0/0/InlineScript/1:22
 "Bartender"
 > END STRING
 
@@ -1107,6 +1097,7 @@ and eat that in the dungeon...
 酒は出せねーが、なんか食っていくか？
 > CONTEXT: Map524/events/16/pages/0/5/Dialogue
 > CONTEXT: Map524/events/16/pages/1/5/Dialogue
+> CONTEXT: Map193/events/2/pages/1/5/Dialogue
 \\name[\\v[2]]\\_
 Yo \\v[3].
 I can't serve alcohol, but would you like to eat something?
@@ -1130,9 +1121,9 @@ Is it wrong for a devil to drink alcohol?
 > CONTEXT: Map524/events/17/pages/2/0/InlineScript/1:22
 > CONTEXT: Map524/events/17/pages/3/0/InlineScript/1:22
 > CONTEXT: Map524/events/17/pages/4/0/InlineScript/1:22
-> CONTEXT: Map209/events/61/pages/1/0/InlineScript/1:22
-> CONTEXT: Map209/events/61/pages/2/0/InlineScript/1:22
-> CONTEXT: Map209/events/61/pages/3/0/InlineScript/1:22
+> CONTEXT: Map224/events/19/pages/1/0/InlineScript/1:22
+> CONTEXT: Map245/events/61/pages/0/0/InlineScript/1:22
+> CONTEXT: Map245/events/61/pages/1/0/InlineScript/1:22
 "Informant"
 > END STRING
 
@@ -1208,7 +1199,6 @@ Church library
 > BEGIN STRING
 何も聞かない
 > CONTEXT: Map347/events/1/pages/1/71/Choice/3
-> CONTEXT: Map285/events/6/pages/2/9/Choice/2
 > CONTEXT: Map347/events/1/pages/1/64/Label
 > CONTEXT: Map347/events/1/pages/1/82/Label
 > CONTEXT: Map347/events/1/pages/1/170/Label
@@ -1332,7 +1322,8 @@ so make sure you take good care of their appetite.
 なんだい、勿体無いやつだナ。
 せっかく俺がサービスしてやってるってのによォ？
 > CONTEXT: Map524/events/17/pages/0/66/Dialogue
-> CONTEXT: Map209/events/61/pages/2/17/Dialogue
+> CONTEXT: Map224/events/19/pages/1/17/Dialogue
+> CONTEXT: Map245/events/61/pages/1/17/Dialogue
 \\name[\\v[2]]\\_
 What's that? What a waste.
 I'm the one who's doing the service for you, aren't I?
@@ -1769,7 +1760,6 @@ Oi oi! Not enough money!?
 > BEGIN STRING
 ユニーク夢魔って知ってる？
 夢世界で特別力を持つ変わった夢魔のことなんだけどさ。
-> CONTEXT: Map114/events/27/pages/0/1/Dialogue
 > CONTEXT: Map524/events/18/pages/0/1/Dialogue
 Do you know about unique succubi?
 It's a strange succubus with special powers in the dream world.
@@ -1778,7 +1768,6 @@ It's a strange succubus with special powers in the dream world.
 > BEGIN STRING
 彼女らは「夢の魔力」を他の夢魔の何倍も持つらしいんだ。
 １人でも契約できれば、行ける場所が大きく増えるはずだよ。
-> CONTEXT: Map114/events/27/pages/0/3/Dialogue
 > CONTEXT: Map524/events/18/pages/0/3/Dialogue
 They seem to have much more "dream magic" than other succubi.
 Just one such contract can greatly open up places you can go.
@@ -1788,7 +1777,6 @@ Just one such contract can greatly open up places you can go.
 その分、ユニークの名に恥じぬ力を持ってることが多いん\\_
 だけどね。
 会うことがあったら気をつけておくんだよ。
-> CONTEXT: Map114/events/27/pages/0/5/Dialogue
 > CONTEXT: Map524/events/18/pages/0/5/Dialogue
 However, they often have powers that live up to their title.
 Be careful if you come across one.
@@ -1797,7 +1785,6 @@ Be careful if you come across one.
 > BEGIN STRING
 それに目立つ子たちだし、彼女たちの情報は\\_
 少なからずあるはずさ。
-> CONTEXT: Map114/events/27/pages/0/8/Dialogue
 > CONTEXT: Map524/events/18/pages/0/8/Dialogue
 Besides, they are notable girls, and there should be 
 quite a bit of information about them.
@@ -1805,7 +1792,6 @@ quite a bit of information about them.
 
 > BEGIN STRING
 ま、僕には書いてないんだけどね。
-> CONTEXT: Map114/events/27/pages/0/10/Dialogue
 > CONTEXT: Map524/events/18/pages/0/10/Dialogue
 Well, I have written such things.
 > END STRING
@@ -1813,7 +1799,6 @@ Well, I have written such things.
 > BEGIN STRING
 「魔王」と書かれた本がある。
 読みますか？
-> CONTEXT: Map114/events/7/pages/0/1/Dialogue
 > CONTEXT: Map524/events/20/pages/0/1/Dialogue
 There is a book written "The Demon Lord".
 Do you want to read it?
@@ -1821,7 +1806,6 @@ Do you want to read it?
 
 > BEGIN STRING
 人間と敵対する魔物には、頂点に立つ統率者が存在する。
-> CONTEXT: Map114/events/7/pages/0/5/Dialogue
 > CONTEXT: Map524/events/20/pages/0/5/Dialogue
 For monsters that are hostile to humans, 
 there is a leader who stands at the top.
@@ -1831,7 +1815,6 @@ there is a leader who stands at the top.
 其れは「魔王」と呼ばれ、その力は強大。
 全ての魔物を率い、人を力によって支配しようとする者\\_
 である。
-> CONTEXT: Map114/events/7/pages/0/6/Dialogue
 > CONTEXT: Map524/events/20/pages/0/6/Dialogue
 This leader, called the "Demon Lord", has great power.
 The Demon Lord leads other demons 
@@ -1842,7 +1825,6 @@ and strives to control humans with power.
 人間と魔族の間は長らく戦争状態が続いており、
 魔族の主である魔王を倒すことこそが、人類の悲願と\\_
 なっている。
-> CONTEXT: Map114/events/7/pages/0/9/Dialogue
 > CONTEXT: Map524/events/20/pages/0/9/Dialogue
 Humans and demons have been at war for a long time, 
 and defeating the Demon Lord, the master of the demons, 
@@ -1852,7 +1834,6 @@ has become humanity's earnest desire.
 > BEGIN STRING
 「無害な者　有害な者」と書かれた本がある。
 読みますか？
-> CONTEXT: Map114/events/6/pages/0/1/Dialogue
 > CONTEXT: Map524/events/21/pages/0/1/Dialogue
 There is a book that says "Harmless, Harmful people"
 Do you want to read it?
@@ -1860,7 +1841,6 @@ Do you want to read it?
 
 > BEGIN STRING
 この夢世界、とにかく女性を見かけると身構える。
-> CONTEXT: Map114/events/6/pages/0/5/Dialogue
 > CONTEXT: Map524/events/21/pages/0/5/Dialogue
 In this dream world, brace yourself when you see a woman.
 > END STRING
@@ -1868,7 +1848,6 @@ In this dream world, brace yourself when you see a woman.
 > BEGIN STRING
 一見ただの少女でも、それは夢魔かもしれないからだ。
 彼女らに不用意に接してしまうと戦闘となってしまう。
-> CONTEXT: Map114/events/6/pages/0/6/Dialogue
 > CONTEXT: Map524/events/21/pages/0/6/Dialogue
 Even if she looks like just a girl, she might be a succubus. 
 Careless contanct will cause battle to ensue.
@@ -1877,7 +1856,6 @@ Careless contanct will cause battle to ensue.
 > BEGIN STRING
 しかし、敵か味方かはともかく、「話せる者」である場合は、
 少し近づくと「吹き出し」を出してくれるのだ。
-> CONTEXT: Map114/events/6/pages/0/8/Dialogue
 > CONTEXT: Map524/events/21/pages/0/8/Dialogue
 However, whether she's an enemy or an ally, if you can talk
 with her, a speech bubble will pop up when you get close enough.
@@ -1886,7 +1864,6 @@ with her, a speech bubble will pop up when you get close enough.
 > BEGIN STRING
 逆に言えば、吹き出しを出さない女性は、
 接するとほとんどの場合は戦闘となってしまう。
-> CONTEXT: Map114/events/6/pages/0/10/Dialogue
 > CONTEXT: Map524/events/21/pages/0/10/Dialogue
 Conversely, women who do not put out speech bubbles,
 in most cases, result in battle upon contact.
@@ -1895,7 +1872,6 @@ in most cases, result in battle upon contact.
 > BEGIN STRING
 男やただの動物はこの夢世界では無害である。
 安心して話しかけてくれて良い。
-> CONTEXT: Map114/events/6/pages/0/12/Dialogue
 > CONTEXT: Map524/events/21/pages/0/12/Dialogue
 Men and mere animals are harmless in this dream world.
 You can be at peace talking to them.
@@ -1906,7 +1882,6 @@ You can be at peace talking to them.
 どれだけ外見が恐ろしかろうが現実世界で猛威を振るう\\_
 ような者であろうが、
 夢世界では等しく害は無い。臆せず話しかけて良い。
-> CONTEXT: Map114/events/6/pages/0/14/Dialogue
 > CONTEXT: Map524/events/21/pages/0/14/Dialogue
 "Monsters" that are not feminine are also harmless.
 No matter how frightening or ferocious they seem, they are 
@@ -1916,7 +1891,6 @@ harmless in the dream world. Don't be afraid to talk.
 > BEGIN STRING
 「だいじなだいじな装備品」と書かれた本がある。
 読みますか？
-> CONTEXT: Map114/events/26/pages/0/1/Dialogue
 > CONTEXT: Map524/events/22/pages/0/1/Dialogue
 There is a book that says "Important equipment."
 Do you want to read it?
@@ -1925,7 +1899,6 @@ Do you want to read it?
 > BEGIN STRING
 お金に困ったからと言って、装備品を売却してしまうのは\\_
 危険だ。
-> CONTEXT: Map114/events/26/pages/0/5/Dialogue
 > CONTEXT: Map524/events/22/pages/0/5/Dialogue
 It's risky to sell your equipment 
 just because you're short on money.
@@ -1936,7 +1909,6 @@ just because you're short on money.
 特殊な効果を持ったものは、特にそういった傾向がある。
 宝箱から見つけたものや、誰かからもらったものなどには\\_
 注意が必要だ。
-> CONTEXT: Map114/events/26/pages/0/7/Dialogue
 > CONTEXT: Map524/events/22/pages/0/7/Dialogue
 There are many pieces of equipment that are one of a kind.
 Items with special effects are especially prone to this.
@@ -1948,7 +1920,6 @@ Be careful with things you find in chests or receive from someone.
 したりなど、
 際限なく手に入れられることが分かった場合のみ行うことを\\_
 推奨する。
-> CONTEXT: Map114/events/26/pages/0/11/Dialogue
 > CONTEXT: Map524/events/22/pages/0/11/Dialogue
 Otherwise it may be sold at a store or obtained from a battle.
 It's recommended to only sell if you know it's not unique.
@@ -1957,7 +1928,6 @@ It's recommended to only sell if you know it's not unique.
 > BEGIN STRING
 「能力大全　第１版」と書かれた本がある。
 どの項について調べますか？
-> CONTEXT: Map114/events/4/pages/0/1/Dialogue
 > CONTEXT: Map524/events/23/pages/0/1/Dialogue
 There is a book called "Encyclopedia of Abilities 1"
 Which section would you like to investigate?
@@ -1965,7 +1935,6 @@ Which section would you like to investigate?
 
 > BEGIN STRING
 読まない
-> CONTEXT: Map114/events/4/pages/0/3/Choice/2
 > CONTEXT: Map524/events/23/pages/0/3/Choice/2
 > CONTEXT: Map524/events/23/pages/0/3/Choice/2
 Don't read
@@ -1975,7 +1944,6 @@ Don't read
 魅力は相手に快感を与える際に使われる能力である。
 すべての攻撃スキルに影響する、夢世界では実質的な
 攻撃力となっている。
-> CONTEXT: Map114/events/4/pages/0/5/Dialogue
 > CONTEXT: Map524/events/23/pages/0/5/Dialogue
 Charm is the ability used for giving pleasure to others.
 It affects all attack skills, 
@@ -1987,7 +1955,6 @@ so it's the attack power of the dream world.
 上位の夢魔が使用する「テンプテーション」など、
 自分の魅力が関係するスキルも存在する。
 誘惑をする場合に影響していることが多い。
-> CONTEXT: Map114/events/4/pages/0/8/Dialogue
 > CONTEXT: Map524/events/23/pages/0/8/Dialogue
 There are also particular skills that are based on charm, 
 such as "Two Puffs" and "Temptation" which are 
@@ -2007,7 +1974,6 @@ used by high-ranking succubi. It tends to affect seduction.
 忍耐力は受ける快感を軽減する際に使われる能力である。
 どの攻撃スキルを受ける際にも影響する、
 夢世界では実質的な防御力となっている。
-> CONTEXT: Map114/events/4/pages/0/18/Dialogue
 > CONTEXT: Map524/events/23/pages/0/18/Dialogue
 Endurance is the ability used to reduce pleasure received.
 In the dream world, it is a substantial defensive power 
@@ -2019,7 +1985,6 @@ that is effective against all attack skills.
 高さは非常に重要である。
 自身が戦闘不能になると敗北となってしまう「契約者」は、
 忍耐力を高めることを推奨する。
-> CONTEXT: Map114/events/4/pages/0/21/Dialogue
 > CONTEXT: Map524/events/23/pages/0/21/Dialogue
 Although it doesn't affect your own skills, high endurance 
 is extremely important. It is recommended that "contractors", 
@@ -2029,7 +1994,6 @@ who would lose the battle if defeated, increase their endurance.
 > BEGIN STRING
 「能力大全　第２版」と書かれた本がある。
 どの項について調べますか？
-> CONTEXT: Map114/events/3/pages/0/1/Dialogue
 > CONTEXT: Map524/events/24/pages/0/1/Dialogue
 There is a book called "Encyclopedia of Abilities 2"
 Which section would you like to investigate?
@@ -2039,7 +2003,6 @@ Which section would you like to investigate?
 精力は、力を使う時や、強引な行動を取る時に使われる\\_
 能力であり、
 主に攻撃に必要となる能力である。
-> CONTEXT: Map114/events/3/pages/0/5/Dialogue
 > CONTEXT: Map524/events/24/pages/0/5/Dialogue
 Energy is an ability used when using forceful actions, 
 and is primarily an ability used for attacks.
@@ -2050,7 +2013,6 @@ and is primarily an ability used for attacks.
 「スクラッチ」等の、
 ホールド状態で行うものは、精力が高いほど快感が\\_
 増幅される。
-> CONTEXT: Map114/events/3/pages/0/8/Dialogue
 > CONTEXT: Map524/events/24/pages/0/8/Dialogue
 The more energy you have, the more pleasure 
 you give when using skills in holds, such as 
@@ -2060,8 +2022,6 @@ you give when using skills in holds, such as
 > BEGIN STRING
 また、多くのレジストスキルは、
 精力と器用さが高いほど攻撃側は有利になる。
-> CONTEXT: Map114/events/3/pages/0/12/Dialogue
-> CONTEXT: Map114/events/3/pages/0/21/Dialogue
 > CONTEXT: Map524/events/24/pages/0/12/Dialogue
 > CONTEXT: Map524/events/24/pages/0/21/Dialogue
 Also, for many resist skills, high energy and dexterity 
@@ -2071,7 +2031,6 @@ provides an advantage for the attacker.
 > BEGIN STRING
 器用さは、精密な行動を取る時に使われる能力であり、
 主に攻撃に必要となる能力である。
-> CONTEXT: Map114/events/3/pages/0/16/Dialogue
 > CONTEXT: Map524/events/24/pages/0/16/Dialogue
 Dexterity is the ability used for performing precise actions.
 This ability is mainly used for attacks.
@@ -2081,7 +2040,6 @@ This ability is mainly used for attacks.
 キッス、バスト、ヒップ、クロッチなどのような
 ホールド中以外で行うものは、器用さが高いほど\\_
 快感が増幅される。
-> CONTEXT: Map114/events/3/pages/0/18/Dialogue
 > CONTEXT: Map524/events/24/pages/0/18/Dialogue
 The higher the dexterity, the more pleasure is given with
 skills like Kiss, Bust, Hip, Crotch, etc. 
@@ -2091,7 +2049,6 @@ that are performed outside of holds.
 > BEGIN STRING
 素早さは、手早い行動を行う時に使われる能力であり、
 攻めにも守りにも必要となる能力である。
-> CONTEXT: Map114/events/3/pages/0/25/Dialogue
 > CONTEXT: Map524/events/24/pages/0/25/Dialogue
 Agility is the ability used for performing quick actions.
 This ability is used both offensively and defensively.
@@ -2102,7 +2059,6 @@ This ability is used both offensively and defensively.
 行動順の把握は戦闘の流れを左右するため、素早さを\\_
 調整することも大事だ。
 他にも、素早さは逃走確率にも影響する。
-> CONTEXT: Map114/events/3/pages/0/27/Dialogue
 > CONTEXT: Map524/events/24/pages/0/27/Dialogue
 During battle, actions are taken in descending order of speed.
 Adjusting your speed allows you to control the flow of battle.
@@ -2112,7 +2068,6 @@ In addition, speed also affects escape probability.
 > BEGIN STRING
 また、多くのレジストスキルは、
 素早さが高いほど、防御側は有利になる。
-> CONTEXT: Map114/events/3/pages/0/31/Dialogue
 > CONTEXT: Map524/events/24/pages/0/31/Dialogue
 Also, for many resist skills, high agility
 provides an advantage for the defender.
@@ -2121,7 +2076,6 @@ provides an advantage for the defender.
 > BEGIN STRING
 精神力は、集中が必要な時に使われる能力であり、
 主に守りに必要となる能力である。
-> CONTEXT: Map114/events/3/pages/0/35/Dialogue
 > CONTEXT: Map524/events/24/pages/0/35/Dialogue
 Spirit is an ability for when concentration is required, 
 and is primarily an ability needed for defense.
@@ -2131,7 +2085,6 @@ and is primarily an ability needed for defense.
 精神力は高いほど、成否判定のある魔法の成功確率が\\_
 上昇する。
 他にもブレスの回復量も精神力が高いほど効果がある。
-> CONTEXT: Map114/events/3/pages/0/37/Dialogue
 > CONTEXT: Map524/events/24/pages/0/37/Dialogue
 The higher your spirit, the higher the chance of success 
 for spells that have a chance to fail. In addition, spirit
@@ -2140,7 +2093,6 @@ increases the recovery from Breath.
 
 > BEGIN STRING
 また、状態異常のなりにくさも精神力の高さが影響している。
-> CONTEXT: Map114/events/3/pages/0/40/Dialogue
 > CONTEXT: Map524/events/24/pages/0/40/Dialogue
 Resistance to status abnormalities is also influenced by spirit.
 > END STRING
@@ -2148,7 +2100,6 @@ Resistance to status abnormalities is also influenced by spirit.
 > BEGIN STRING
 「状態異常のススメ　その１　恍惚の章」と書かれた本がある。
 読みますか？
-> CONTEXT: Map114/events/5/pages/0/1/Dialogue
 > CONTEXT: Map524/events/25/pages/0/1/Dialogue
 > CONTEXT: Map524/events/25/pages/1/1/Dialogue
 There is a book titled "Status Abnormalities 1: Ecstasy".
@@ -2157,7 +2108,6 @@ Do you want to read it?
 
 > BEGIN STRING
 皆さんはじめまして。私、アンジュと申します。
-> CONTEXT: Map114/events/5/pages/0/5/Dialogue
 > CONTEXT: Map524/events/25/pages/0/5/Dialogue
 > CONTEXT: Map524/events/25/pages/1/5/Dialogue
 Hello everyone. My name is Anju.
@@ -2166,7 +2116,6 @@ Hello everyone. My name is Anju.
 > BEGIN STRING
 こういったものを書くのは初めてなんですけどね。
 あんまりちゃんとした事は書ける気がしないんですが、何卒。
-> CONTEXT: Map114/events/5/pages/0/6/Dialogue
 > CONTEXT: Map524/events/25/pages/0/6/Dialogue
 > CONTEXT: Map524/events/25/pages/1/6/Dialogue
 This is my first time writing something like this.
@@ -2175,12 +2124,6 @@ I don't think I'm much of a writer, but I'll try.
 
 > BEGIN STRING
 前置きはさておき。
-> CONTEXT: Map270/events/43/pages/0/10/Dialogue
-> CONTEXT: Map232/events/7/pages/0/10/Dialogue
-> CONTEXT: Map214/events/2/pages/0/10/Dialogue
-> CONTEXT: Map161/events/13/pages/0/11/Dialogue
-> CONTEXT: Map117/events/44/pages/0/9/Dialogue
-> CONTEXT: Map114/events/5/pages/0/8/Dialogue
 > CONTEXT: Map524/events/25/pages/0/8/Dialogue
 > CONTEXT: Map524/events/25/pages/1/8/Dialogue
 > CONTEXT: Map524/events/28/pages/0/11/Dialogue
@@ -2205,14 +2148,12 @@ I don't think I'm much of a writer, but I'll try.
 > CONTEXT: Map524/events/56/pages/1/13/Dialogue
 > CONTEXT: Map524/events/57/pages/0/14/Dialogue
 > CONTEXT: Map524/events/57/pages/1/13/Dialogue
-> CONTEXT: Map083/events/20/pages/1/10/Dialogue
 Setting aside the introduction...
 > END STRING
 
 > BEGIN STRING
 「恍惚」は見とれてしまい、動けなくなってしまう\\_
 状態異常ですね。
-> CONTEXT: Map114/events/5/pages/0/9/Dialogue
 > CONTEXT: Map524/events/25/pages/0/9/Dialogue
 > CONTEXT: Map524/events/25/pages/1/9/Dialogue
 "Ecstasy" is an abnormal state in which you become so 
@@ -2223,7 +2164,6 @@ fascinated by what you see that you become unable to move.
 その効果は強力で、恍惚すると本当に何もできなくなります。
 レジストに対しても無力で、抵抗はできるにはできるのですが
 かなり厳しいものとなります。
-> CONTEXT: Map114/events/5/pages/0/11/Dialogue
 > CONTEXT: Map524/events/25/pages/0/11/Dialogue
 > CONTEXT: Map524/events/25/pages/1/11/Dialogue
 The effect is so powerful that when you are in ecstasy, 
@@ -2234,7 +2174,6 @@ It is extremely difficult to resist in this condition.
 > BEGIN STRING
 ただ、新たな快感を少し受けるだけで簡単に解けて\\_
 しまいます。
-> CONTEXT: Map114/events/5/pages/0/14/Dialogue
 > CONTEXT: Map524/events/25/pages/0/14/Dialogue
 > CONTEXT: Map524/events/25/pages/1/14/Dialogue
 However, it can be easily cured 
@@ -2245,7 +2184,6 @@ just by receiving a bit of pleasure.
 恍惚は夢魔に大きな胸を押し付けられたりすると\\_
 なりやすいみたいです。
 サキュバスさんのような方々が得意なのではないでしょうか。
-> CONTEXT: Map114/events/5/pages/0/16/Dialogue
 > CONTEXT: Map524/events/25/pages/0/16/Dialogue
 > CONTEXT: Map524/events/25/pages/1/16/Dialogue
 Ecstasy is more likely to occur when 
@@ -2256,7 +2194,6 @@ Succubi are good at it.
 > BEGIN STRING
 確かに、あの胸は寝心地よさそうですものね。
 恍惚しちゃうのも納得です。
-> CONTEXT: Map114/events/5/pages/0/19/Dialogue
 > CONTEXT: Map524/events/25/pages/0/19/Dialogue
 > CONTEXT: Map524/events/25/pages/1/19/Dialogue
 Such breasts certainly look comfortable to sleep on.
@@ -2266,7 +2203,6 @@ It's no wonder if that makes you ecstatic.
 > BEGIN STRING
 複数相手がいる時に攻撃の手を減らすためや、
 こちらの強化や回復などするための時間稼ぎには有効です。
-> CONTEXT: Map114/events/5/pages/0/21/Dialogue
 > CONTEXT: Map524/events/25/pages/0/21/Dialogue
 > CONTEXT: Map524/events/25/pages/1/21/Dialogue
 This can help buy some time to strengthen and recover by reducing 
@@ -2276,7 +2212,6 @@ the amount of attacks you take when fighting multiple opponents.
 > BEGIN STRING
 「Sensual Stroke!」と書かれた本がある。
 読みますか？
-> CONTEXT: Map114/events/24/pages/0/1/Dialogue
 > CONTEXT: Map524/events/26/pages/0/1/Dialogue
 There's a book called "Sensual Stroke!"
 Do you want to read it?
@@ -2286,7 +2221,6 @@ Do you want to read it?
 夢魔と相対していると、「Sensual Stroke!」と表示されること\\_
 がある。
 これは「官能的な一撃が与えられた」ことを表している。
-> CONTEXT: Map114/events/24/pages/0/5/Dialogue
 > CONTEXT: Map524/events/26/pages/0/5/Dialogue
 When facing a succubus, 
 the message "Sensual Stroke!" may appear.
@@ -2297,7 +2231,6 @@ This means that a strong attack was delivered.
 Sensual Strokeになると与えられる快感が大きくなる他、
 追撃の発生率も上がる。
 攻めのチャンスとなるだろう。積極的に狙いに行くべし。
-> CONTEXT: Map114/events/24/pages/0/8/Dialogue
 > CONTEXT: Map524/events/26/pages/0/8/Dialogue
 Sensual Stroke not only increases the pleasure given, 
 but also increases the chance of follow-up attacks.
@@ -2308,7 +2241,6 @@ This is an opportunity to go on the offensive.
 Sensual Strokeは攻撃側の器用さが高いほど、
 防御側の素早さが低いほど発生しやすくなる。
 また、「チェック」した相手にも発生しやすくなる。
-> CONTEXT: Map114/events/24/pages/0/11/Dialogue
 > CONTEXT: Map524/events/26/pages/0/11/Dialogue
 > CONTEXT: Map524/events/26/pages/0/14/Dialogue
 Sensual Stroke is more likely to occur the higher the dexterity 
@@ -2346,7 +2278,6 @@ It also tends to occur to people you have "checked".
 【ひとこと豆知識】
 Sensual Strokeは略式表記として「SS」と書かれる事も\\_
 あるぞ！
-> CONTEXT: Map114/events/24/pages/0/14/Dialogue
 > CONTEXT: Map524/events/26/pages/0/28/Dialogue
 [One word of trivia]
 Sensual Stroke is abbreviated as "SS"!
@@ -2355,7 +2286,6 @@ Sensual Stroke is abbreviated as "SS"!
 > BEGIN STRING
 「ホールドでがっちり」と書かれた本がある。
 読みますか？
-> CONTEXT: Map114/events/25/pages/0/1/Dialogue
 > CONTEXT: Map524/events/27/pages/0/1/Dialogue
 There is a book that says "Firm Holds"
 Do you want to read it?
@@ -2365,7 +2295,6 @@ Do you want to read it?
 インサート、シェルマッチのような「自分で相手を捕まえる」\\_
 スキルは、
 「ホールドスキル」と呼ばれている。
-> CONTEXT: Map114/events/25/pages/0/5/Dialogue
 > CONTEXT: Map524/events/27/pages/0/5/Dialogue
 Skills such as Insert and Shell Match that allow you to 
 restrain your opponent are called "hold skills."
@@ -2375,7 +2304,6 @@ restrain your opponent are called "hold skills."
 ホールド状態には有利不利があり、
 基本的にはホールドスキルを仕掛けた側が有利側となる。
 また、SSを出すと、SSを出した側に有利状態が傾く。
-> CONTEXT: Map114/events/25/pages/0/8/Dialogue
 > CONTEXT: Map524/events/27/pages/0/8/Dialogue
 Hold status has advantageous and disadvantageous sides, 
 and generally the side that uses the hold skill has the advantage.
@@ -2387,7 +2315,6 @@ Also, delivering SS tilts the advantage for the side that did it.
 スキルの中には有利状態を条件とするスキルもある。
 MAXと書かれたものは、ホールドの有利Lvを３まで上げな\\_
 ければならない。
-> CONTEXT: Map114/events/25/pages/0/11/Dialogue
 > CONTEXT: Map524/events/27/pages/0/11/Dialogue
 This advantage doesn't have a big impact, 
 but some skills require an advantageous state as a condition.
@@ -2398,7 +2325,6 @@ For those marked MAX, hold advantage level 3 is required.
 ちなみに、ホールド状態で名前が黄色のものは、有利状態\\_
 でのみ維持ができ、
 不利になると有利不利が逆転せず、そのまま解除される。
-> CONTEXT: Map114/events/25/pages/0/15/Dialogue
 > CONTEXT: Map524/events/27/pages/0/15/Dialogue
 Also, hold statuses with yellow names require advantageous
 status, and the hold will be cancelled if the advantage is lost,
@@ -2410,7 +2336,6 @@ rather than the advantage switching sides.
 なる。
 リリースで解除する以外にも、他の味方でホールドを仕掛け\\_
 ても\\n解除ができることを覚えておこう。
-> CONTEXT: Map114/events/25/pages/0/18/Dialogue
 > CONTEXT: Map524/events/27/pages/0/18/Dialogue
 Most skills other than Insert and Shell Match are of this type.
 Remember that an alternative way to release such a hold 
@@ -2421,7 +2346,6 @@ is setting up another hold with an ally.
 また、レジスト中にキャンセルキーを押すことで
 相手からのホールドを受け入れる、
 または自分のホールドを思いとどまることができる。
-> CONTEXT: Map114/events/25/pages/0/22/Dialogue
 > CONTEXT: Map524/events/27/pages/0/22/Dialogue
 Also, by pressing the cancel key while resisting, you can 
 accept a hold from your opponent or prevent your own hold.
@@ -2430,7 +2354,6 @@ accept a hold from your opponent or prevent your own hold.
 > BEGIN STRING
 時間切れで失敗した時と受け入れた・思いとどまった際では
 夢魔の反応が違うこともあるようだ。
-> CONTEXT: Map114/events/25/pages/0/25/Dialogue
 > CONTEXT: Map524/events/27/pages/0/25/Dialogue
 The reaction of the succubus may be different 
 depending on if you fail due to running out of time 
@@ -2440,7 +2363,6 @@ or if you accept or are dissuaded.
 > BEGIN STRING
 「状態異常のススメ　その５　畏怖の章」と書かれた本がある。
 読みますか？
-> CONTEXT: Map161/events/13/pages/0/1/Dialogue
 > CONTEXT: Map524/events/28/pages/0/1/Dialogue
 > CONTEXT: Map524/events/28/pages/1/1/Dialogue
 There is a book called "Status Abnormalities 5: Fear"
@@ -2449,7 +2371,6 @@ Do you want to read it?
 
 > BEGIN STRING
 皆さんおそようございます。アンジュです。
-> CONTEXT: Map161/events/13/pages/0/5/Dialogue
 > CONTEXT: Map524/events/28/pages/0/5/Dialogue
 > CONTEXT: Map524/events/28/pages/1/5/Dialogue
 Good morning everyone. This is Ange.
@@ -2459,7 +2380,6 @@ Good morning everyone. This is Ange.
 さぼって寝ていると前のサキュバスの子がお叱りに\\_
 きてしまいました。
 なんだかあんまりサキュバスらしくない子なんですよね。
-> CONTEXT: Map161/events/13/pages/0/6/Dialogue
 > CONTEXT: Map524/events/28/pages/0/6/Dialogue
 > CONTEXT: Map524/events/28/pages/1/6/Dialogue
 When I was slacking off and sleeping, 
@@ -2470,7 +2390,6 @@ She doesn't really look like a succubus.
 > BEGIN STRING
 まだ魔女のおねーさんのがサキュバスっぽいです。\\_
 床上手ですし。
-> CONTEXT: Map161/events/13/pages/0/9/Dialogue
 > CONTEXT: Map524/events/28/pages/0/9/Dialogue
 > CONTEXT: Map524/events/28/pages/1/9/Dialogue
 Witch Girl still looks like a succubus. 
@@ -2480,7 +2399,6 @@ Good in the bed besides.
 > BEGIN STRING
 「畏怖」は不安に駆り立てられ、たまに怯んでしまう\\_
 状態異常です。
-> CONTEXT: Map161/events/13/pages/0/12/Dialogue
 > CONTEXT: Map524/events/28/pages/0/12/Dialogue
 > CONTEXT: Map524/events/28/pages/1/12/Dialogue
 "Fear" is an abnormal state in which a person is 
@@ -2491,7 +2409,6 @@ driven by anxiety and occasionally falters.
 怯んでしまうと、そのターンの間は動くことができません。
 恍惚に比べると確実性はないものの、快感を受けても
 解除されることは無く、長期的に効果が望めます。
-> CONTEXT: Map161/events/13/pages/0/14/Dialogue
 > CONTEXT: Map524/events/28/pages/0/14/Dialogue
 > CONTEXT: Map524/events/28/pages/1/14/Dialogue
 If you falter, you can't move that turn. Although it triggers less 
@@ -2503,7 +2420,6 @@ and can be expected to have long-term effects.
 恍惚同様、相手の手数を減らすのに有効ですが、
 畏怖中の相手には、ムードが高くても多く快感を与える\\_
 ことができません。
-> CONTEXT: Map161/events/13/pages/0/17/Dialogue
 > CONTEXT: Map524/events/28/pages/0/17/Dialogue
 > CONTEXT: Map524/events/28/pages/1/17/Dialogue
 Like ecstasy, it is effective in reducing the number of 
@@ -2514,7 +2430,6 @@ a person with fear will not receive that much pleasure.
 > BEGIN STRING
 ちなみに、畏怖は私ことナイトメアの得意技です。
 十八番です。悪夢ですからね。
-> CONTEXT: Map161/events/13/pages/0/20/Dialogue
 > CONTEXT: Map524/events/28/pages/0/20/Dialogue
 > CONTEXT: Map524/events/28/pages/1/20/Dialogue
 By the way, fear is my specialty as a Nightmare.
@@ -2525,7 +2440,6 @@ It's my forte. That's how nightmare's are, right?
 私としても会った瞬間相手を怖がらせられるようになるのが\\_
 夢です。
 正気度を失いそうな。
-> CONTEXT: Map161/events/13/pages/0/22/Dialogue
 > CONTEXT: Map524/events/28/pages/0/22/Dialogue
 > CONTEXT: Map524/events/28/pages/1/22/Dialogue
 My dream is to be able to scare people the moment I meet them.
@@ -2535,20 +2449,16 @@ See if they lose their minds.
 > BEGIN STRING
 「状態異常のススメ　その６　麻痺の章」と書かれた本がある。
 読みますか？
-> CONTEXT: Map270/events/43/pages/0/1/Dialogue
 > CONTEXT: Map524/events/29/pages/0/1/Dialogue
 > CONTEXT: Map524/events/29/pages/1/1/Dialogue
-> CONTEXT: Map083/events/20/pages/1/1/Dialogue
 There is a book called "Status Abnormalities 6: Paralysis"
 Do you want to read it?
 > END STRING
 
 > BEGIN STRING
 どもども、アンジュです。
-> CONTEXT: Map270/events/43/pages/0/5/Dialogue
 > CONTEXT: Map524/events/29/pages/0/5/Dialogue
 > CONTEXT: Map524/events/29/pages/1/5/Dialogue
-> CONTEXT: Map083/events/20/pages/1/5/Dialogue
 Hey, this is Ange.
 > END STRING
 
@@ -2557,10 +2467,8 @@ Hey, this is Ange.
 サキュバスの子もぴりぴりしてますし。どうしたもの\\_
 でしょうか。
 私には良い枕を紹介することしかできません。
-> CONTEXT: Map270/events/43/pages/0/6/Dialogue
 > CONTEXT: Map524/events/29/pages/0/6/Dialogue
 > CONTEXT: Map524/events/29/pages/1/6/Dialogue
-> CONTEXT: Map083/events/20/pages/1/6/Dialogue
 Witch Girl seems to be in a bit of trouble.
 Succubus Girl is also tense. What happened?
 I can only recommend good pillows.
@@ -2568,10 +2476,8 @@ I can only recommend good pillows.
 
 > BEGIN STRING
 「麻痺」は体が痺れてしまって動きにくくなる状態異常です。
-> CONTEXT: Map270/events/43/pages/0/11/Dialogue
 > CONTEXT: Map524/events/29/pages/0/11/Dialogue
 > CONTEXT: Map524/events/29/pages/1/11/Dialogue
-> CONTEXT: Map083/events/20/pages/1/11/Dialogue
 "Paralysis" is an abnormal condition in which the 
 body becomes paralyzed and has difficulty moving.
 > END STRING
@@ -2589,10 +2495,8 @@ body becomes paralyzed and has difficulty moving.
 更に、麻痺状態の時はレジストに弱くなります。
 単純に矢印の数が上下するのではなく、
 最小数か最大数が変動するタイプですが。
-> CONTEXT: Map270/events/43/pages/0/15/Dialogue
 > CONTEXT: Map524/events/29/pages/0/16/Dialogue
 > CONTEXT: Map524/events/29/pages/1/15/Dialogue
-> CONTEXT: Map083/events/20/pages/1/15/Dialogue
 Furthermore, when you are paralyzed, resist will be harder.
 The number of arrows does not simply go up and down, 
 but the minimum and maximum amount changes.
@@ -2601,10 +2505,8 @@ but the minimum and maximum amount changes.
 > BEGIN STRING
 即時的に効果が現れるので、
 レジストを行う時やレジストに頼る相手に有効ですね。
-> CONTEXT: Map270/events/43/pages/0/18/Dialogue
 > CONTEXT: Map524/events/29/pages/0/19/Dialogue
 > CONTEXT: Map524/events/29/pages/1/18/Dialogue
-> CONTEXT: Map083/events/20/pages/1/18/Dialogue
 Since the effect is immediate, 
 it is effective when you want to resist, or against someone
 who relies on resist.
@@ -2614,10 +2516,8 @@ who relies on resist.
 そういえば麻痺の魔法って使い方次第でマッサージに\\_
 なるって本当ですかね。
 心地よい痺れが身体をほぐすとかなんとか。
-> CONTEXT: Map270/events/43/pages/0/20/Dialogue
 > CONTEXT: Map524/events/29/pages/0/21/Dialogue
 > CONTEXT: Map524/events/29/pages/1/20/Dialogue
-> CONTEXT: Map083/events/20/pages/1/20/Dialogue
 Come to think of it, is it true that numbing magic can be used 
 as a massage depending on how you use it?
 Somehow the pleasant numbness loosens up my body.
@@ -2626,10 +2526,8 @@ Somehow the pleasant numbness loosens up my body.
 > BEGIN STRING
 今度魔女のおねーさんやサキュバスの子に\\_
 試してみようと思います。
-> CONTEXT: Map270/events/43/pages/0/23/Dialogue
 > CONTEXT: Map524/events/29/pages/0/24/Dialogue
 > CONTEXT: Map524/events/29/pages/1/23/Dialogue
-> CONTEXT: Map083/events/20/pages/1/23/Dialogue
 I think I'll try it on Witch Girl and Succubus Girl.
 > END STRING
 
@@ -2637,9 +2535,7 @@ I think I'll try it on Witch Girl and Succubus Girl.
 効果の一つとして、ターン中での行動順番が\\_
 非常に遅くなります。
 行動順の調整に有効な状態異常ですね。
-> CONTEXT: Map270/events/43/pages/0/12/Dialogue
 > CONTEXT: Map524/events/29/pages/1/12/Dialogue
-> CONTEXT: Map083/events/20/pages/1/12/Dialogue
 One of the effects is that your turn order is delayed a lot. 
 It's a status ailment that is useful for 
 adjusting the order of actions.
@@ -2647,7 +2543,6 @@ adjusting the order of actions.
 
 > BEGIN STRING
 「素質いろいろ」と書かれた本がある。読みますか？
-> CONTEXT: Map243/events/6/pages/0/1/Dialogue
 > CONTEXT: Map524/events/30/pages/0/1/Dialogue
 > CONTEXT: Map524/events/30/pages/1/1/Dialogue
 There is a book that says "Various Talents"
@@ -2659,7 +2554,6 @@ Do you want to read it?
 自分がターン中まだ行動していない時、受ける快感が下がる。
 【洞察力】
 攻めた相手をチェックした状態にする。
-> CONTEXT: Map243/events/6/pages/0/4/Dialogue
 > CONTEXT: Map524/events/30/pages/0/4/Dialogue
 > CONTEXT: Map524/events/30/pages/1/4/Dialogue
 【Blocking】
@@ -2673,7 +2567,6 @@ Puts the attacked opponent in a checked state.
 暴走状態の時、忍耐力と精神力が更に下がり精力が\\_
 大幅に上がる。\\n【ロマンチスト】
 ムードが高いほど、与える快感がより大きくなる。
-> CONTEXT: Map243/events/6/pages/0/8/Dialogue
 > CONTEXT: Map524/events/30/pages/0/8/Dialogue
 > CONTEXT: Map524/events/30/pages/1/8/Dialogue
 【Super berserk】
@@ -2687,7 +2580,6 @@ The higher the mood, the greater the pleasure you give.
 着衣状態の時、素早さが下がるが忍耐力が上がる。
 【最高の姿】
 最大ランク時のステータスになる。
-> CONTEXT: Map243/events/6/pages/0/12/Dialogue
 > CONTEXT: Map524/events/30/pages/0/12/Dialogue
 > CONTEXT: Map524/events/30/pages/1/12/Dialogue
 【Thick clothes】
@@ -2699,7 +2591,6 @@ Status matches maximum rank.
 > BEGIN STRING
 「状態異常のススメ　その２　欲情の章」と書かれた本がある。
 読みますか？
-> CONTEXT: Map214/events/2/pages/0/1/Dialogue
 > CONTEXT: Map524/events/31/pages/0/1/Dialogue
 > CONTEXT: Map524/events/31/pages/1/1/Dialogue
 There is a book called 'Status Abnormalities 2: Lust'
@@ -2708,7 +2599,6 @@ Do you want to read it?
 
 > BEGIN STRING
 皆さんこんばんは。アンジュと申します。
-> CONTEXT: Map214/events/2/pages/0/5/Dialogue
 > CONTEXT: Map524/events/31/pages/0/5/Dialogue
 > CONTEXT: Map524/events/31/pages/1/5/Dialogue
 Good evening everyone. My name is Ange.
@@ -2719,7 +2609,6 @@ Good evening everyone. My name is Ange.
 「他の子たちよりも文章が書けるから」と言われたから\\_
 なんです。
 私、結構適当なこと書いてる自覚があるんですけどね。
-> CONTEXT: Map214/events/2/pages/0/6/Dialogue
 > CONTEXT: Map524/events/31/pages/0/6/Dialogue
 > CONTEXT: Map524/events/31/pages/1/6/Dialogue
 I wrote this because Witch Girl said 
@@ -2731,7 +2620,6 @@ I can be quite sloppy at it, however.
 「欲情」は攻撃を受けた時に追撃されやすくなる\\_
 状態異常です。
 効果は見えにくいのですが、シンプルで分かりやすいですね。
-> CONTEXT: Map214/events/2/pages/0/11/Dialogue
 > CONTEXT: Map524/events/31/pages/0/11/Dialogue
 > CONTEXT: Map524/events/31/pages/1/11/Dialogue
 "Lust" is a status abnormality that makes you 
@@ -2742,7 +2630,6 @@ hard to see, but it's simple and easy to understand.
 > BEGIN STRING
 追撃で与える快感は１発目よりも少し小さいのですが、
 それでも連続攻撃になるのは強力です。
-> CONTEXT: Map214/events/2/pages/0/14/Dialogue
 > CONTEXT: Map524/events/31/pages/0/14/Dialogue
 > CONTEXT: Map524/events/31/pages/1/14/Dialogue
 The pleasure given by the follow-up attack is 
@@ -2754,7 +2641,6 @@ but it is still powerful as a continuous attack.
 追撃を利用することによって強力になるものもあります。
 攻撃スキルに追加効果があるようなものは、\\_
 追撃で更にチャンスができますね。
-> CONTEXT: Map214/events/2/pages/0/16/Dialogue
 > CONTEXT: Map524/events/31/pages/0/16/Dialogue
 > CONTEXT: Map524/events/31/pages/1/16/Dialogue
 Depending on the circumstances, it can be very strong.
@@ -2766,7 +2652,6 @@ you'll have more chances to apply them with follow-up attacks.
 欲情はお顔にアソコを擦り付けられた時にたまに\\_
 なるようです。
 こういうのは好色な夢魔の方々が得意みたいですね。
-> CONTEXT: Map214/events/2/pages/0/19/Dialogue
 > CONTEXT: Map524/events/31/pages/0/19/Dialogue
 > CONTEXT: Map524/events/31/pages/1/19/Dialogue
 Lust seems to come from time to time from
@@ -2776,7 +2661,6 @@ Lewd succubi are good at this kind of thing.
 
 > BEGIN STRING
 私は疲れるのであんまりですが。
-> CONTEXT: Map214/events/2/pages/0/22/Dialogue
 > CONTEXT: Map524/events/31/pages/0/22/Dialogue
 > CONTEXT: Map524/events/31/pages/1/22/Dialogue
 I don't like it too much because I get tired.
@@ -2786,7 +2670,6 @@ I don't like it too much because I get tired.
 そういえば、力を得る代わりにずっと欲情状態になる\\_
 装備品があるそうです。
 付ける方は相当物好きと見えますね。
-> CONTEXT: Map214/events/2/pages/0/23/Dialogue
 > CONTEXT: Map524/events/31/pages/0/23/Dialogue
 > CONTEXT: Map524/events/31/pages/1/23/Dialogue
 By the way, there is equipment that makes you 
@@ -2815,7 +2698,6 @@ PS.
 > BEGIN STRING
 「状態異常のススメ　その３　暴走の章」と書かれた本がある。
 読みますか？
-> CONTEXT: Map232/events/7/pages/0/1/Dialogue
 > CONTEXT: Map524/events/32/pages/0/1/Dialogue
 > CONTEXT: Map524/events/32/pages/1/1/Dialogue
 There is a book called 'Status Abnormalities 3: Berserk'
@@ -2824,7 +2706,6 @@ Do you want to read it?
 
 > BEGIN STRING
 皆さんおはようございます。アンジュと申します。
-> CONTEXT: Map232/events/7/pages/0/5/Dialogue
 > CONTEXT: Map524/events/32/pages/0/5/Dialogue
 > CONTEXT: Map524/events/32/pages/1/5/Dialogue
 > CONTEXT: Map524/events/53/pages/0/6/Dialogue
@@ -2839,7 +2720,6 @@ Good morning, ladies and gentlemen. My name is Ange.
 ある程度丸投げして書いてます。
 またおねーさん眉間にしわ寄ってましたね。\\_
 誰のせいでしょうか。
-> CONTEXT: Map232/events/7/pages/0/6/Dialogue
 > CONTEXT: Map524/events/32/pages/0/6/Dialogue
 > CONTEXT: Map524/events/32/pages/1/6/Dialogue
 Witch Girl asked to revise this book, 
@@ -2852,7 +2732,6 @@ There was a wrinkle between her eyebrows again. Who is to blame?
 状態異常です。
 魔法や補助スキルなどは一切使えず、また夢魔の契約者の
 指示を受けることもできません。
-> CONTEXT: Map232/events/7/pages/0/11/Dialogue
 > CONTEXT: Map524/events/32/pages/0/11/Dialogue
 > CONTEXT: Map524/events/32/pages/1/11/Dialogue
 "Berserk" is a status abnormality that forces you to act 
@@ -2865,7 +2744,6 @@ and you cannot receive instructions from the contractor.
 ただ、特定の素質を持っている相手には、
 逆に不利になってしまうこともあるようです。
 > CONTEXT: Map524/events/32/pages/0/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map158/events/23/pages/0/188/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -2874,7 +2752,6 @@ and you cannot receive instructions from the contractor.
 影響するようになります。
 暴走状態の夢魔が与える快感は普段より大きくなっている\\_
 ので、\\n押し切られるのに注意ですね。
-> CONTEXT: Map232/events/7/pages/0/18/Dialogue
 > CONTEXT: Map524/events/32/pages/0/18/Dialogue
 > CONTEXT: Map524/events/32/pages/1/18/Dialogue
 While berserked, attacks are affected by energy 
@@ -2887,7 +2764,6 @@ so be careful not to let it overwhelm you.
 暴走しても相手を押し切るほどの能力が無いことが多い\\_
 ですからね。
 私も相当困ります。
-> CONTEXT: Map232/events/7/pages/0/22/Dialogue
 > CONTEXT: Map524/events/32/pages/0/22/Dialogue
 > CONTEXT: Map524/events/32/pages/1/22/Dialogue
 Since it prevents using magic, it is effective against succubi 
@@ -2897,7 +2773,6 @@ ability to overwhelm their opponents. It's difficult for me too.
 
 > BEGIN STRING
 というか暴走って、治ったあとが怖いんですよ。
-> CONTEXT: Map232/events/7/pages/0/26/Dialogue
 > CONTEXT: Map524/events/32/pages/0/26/Dialogue
 > CONTEXT: Map524/events/32/pages/1/26/Dialogue
 Or rather, I'm scared of what would come after,
@@ -2906,7 +2781,6 @@ if I went berserk and then recover.
 
 > BEGIN STRING
 恥ずかしくなりますから。
-> CONTEXT: Map232/events/7/pages/0/27/Dialogue
 > CONTEXT: Map524/events/32/pages/0/27/Dialogue
 > CONTEXT: Map524/events/32/pages/1/27/Dialogue
 It would be embarrassing.
@@ -2916,7 +2790,6 @@ It would be embarrassing.
 相手の行動を大きく制限することができる状態異常ですね。
 ただ、新たな快感を少しでも受けると、たまに解けてしまう\\_
 ようです。
-> CONTEXT: Map232/events/7/pages/0/15/Dialogue
 > CONTEXT: Map524/events/32/pages/1/15/Dialogue
 It can greatly restrict the opponent's actions.
 However, receiving even a small amount of pleasure
@@ -2969,7 +2842,6 @@ But, girls might not like you if you're too "early"...
 > BEGIN STRING
 「状態異常のススメ　その７　散漫の章」と書かれた本がある。
 読みますか？
-> CONTEXT: Map242/events/5/pages/0/1/Dialogue
 > CONTEXT: Map524/events/36/pages/0/1/Dialogue
 > CONTEXT: Map524/events/36/pages/1/1/Dialogue
 There is a book called 'Status Abnormalities 7: Distraction'
@@ -2978,7 +2850,6 @@ Do you want to read it?
 
 > BEGIN STRING
 ナイトメアのアンジュです。
-> CONTEXT: Map242/events/5/pages/0/5/Dialogue
 > CONTEXT: Map524/events/36/pages/0/5/Dialogue
 > CONTEXT: Map524/events/36/pages/1/5/Dialogue
 This is Nightmare Ange.
@@ -2986,7 +2857,6 @@ This is Nightmare Ange.
 
 > BEGIN STRING
 今回は前置きは無しで、あとがきで書きます。
-> CONTEXT: Map242/events/5/pages/0/6/Dialogue
 > CONTEXT: Map524/events/36/pages/0/6/Dialogue
 > CONTEXT: Map524/events/36/pages/1/6/Dialogue
 No introduction this time, I will write in afterword.
@@ -2995,7 +2865,6 @@ No introduction this time, I will write in afterword.
 > BEGIN STRING
 「散漫」は頭が回らなくなってしまう状態異常です。
 大きい効果としては「魔法が使えなくなる」ことですね。
-> CONTEXT: Map242/events/5/pages/0/7/Dialogue
 > CONTEXT: Map524/events/36/pages/0/7/Dialogue
 > CONTEXT: Map524/events/36/pages/1/7/Dialogue
 "Distraction" is an abnormal state where you can't think clearly.
@@ -3007,7 +2876,6 @@ The big effect is that you won't be able to use magic.
 狭いものの、
 散漫は相手を強化することや快感を受けると治ることもなく、
 使いやすさで勝ります。
-> CONTEXT: Map242/events/5/pages/0/9/Dialogue
 > CONTEXT: Map524/events/36/pages/0/9/Dialogue
 > CONTEXT: Map524/events/36/pages/1/9/Dialogue
 Although its scope is narrower than "Berserk", which can also 
@@ -3018,7 +2886,6 @@ strengthen the opponent or heal when it receives pleasure.
 > BEGIN STRING
 他にも、散漫状態の時はレジストが単純に難しくなります。
 レジストに頼る相手にも効果があり、有効な相手は多いです。
-> CONTEXT: Map242/events/5/pages/0/13/Dialogue
 > CONTEXT: Map524/events/36/pages/0/13/Dialogue
 > CONTEXT: Map524/events/36/pages/1/13/Dialogue
 Other than that, it's harder to resist when you're distracted.
@@ -3030,7 +2897,6 @@ and there are many people for whom it is effective.
 また、精神力の数値も低くなります。
 他の状態異常にもかけやすくなりますね。
 > CONTEXT: Map524/events/36/pages/0/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map158/events/23/pages/0/283/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -3038,7 +2904,6 @@ and there are many people for whom it is effective.
 散漫状態は私にとってはある意味身近ですね。
 起きてしばらくぼーっとしてる時なんかは、
 まさに散漫状態と言っていいでしょう。全然頭が回りません。
-> CONTEXT: Map242/events/5/pages/0/15/Dialogue
 > CONTEXT: Map524/events/36/pages/0/17/Dialogue
 > CONTEXT: Map524/events/36/pages/1/15/Dialogue
 In a sense, the state of distraction is familiar to me.
@@ -3048,7 +2913,6 @@ in a distracted state. You don't function well at all.
 
 > BEGIN STRING
 あとがき
-> CONTEXT: Map242/events/5/pages/0/18/Dialogue
 > CONTEXT: Map524/events/36/pages/0/20/Dialogue
 > CONTEXT: Map524/events/36/pages/1/18/Dialogue
 Afterword
@@ -3058,7 +2922,6 @@ Afterword
 この章で「状態異常のススメ」シリーズは完結です。
 他にも細かい状態異常もあるにはあるんですけどね。
 大きなものは紹介しきりましたから。
-> CONTEXT: Map242/events/5/pages/0/19/Dialogue
 > CONTEXT: Map524/events/36/pages/0/21/Dialogue
 > CONTEXT: Map524/events/36/pages/1/19/Dialogue
 This chapter concludes the "Status Abnormalities" series.
@@ -3069,7 +2932,6 @@ I have already introduced the big ones.
 > BEGIN STRING
 「状態異常のススメ」シリーズ、ご愛読ありがとう\\_
 ございました。
-> CONTEXT: Map242/events/5/pages/0/22/Dialogue
 > CONTEXT: Map524/events/36/pages/0/24/Dialogue
 > CONTEXT: Map524/events/36/pages/1/22/Dialogue
 Thank you for reading the "Status abnormalities" series.
@@ -3080,7 +2942,6 @@ Thank you for reading the "Status abnormalities" series.
 楽しかったものです。
 魔女のおねーさんや、原稿を取りに来るサキュバスの子に
 感謝しなければいけません。
-> CONTEXT: Map242/events/5/pages/0/24/Dialogue
 > CONTEXT: Map524/events/36/pages/0/26/Dialogue
 > CONTEXT: Map524/events/36/pages/1/24/Dialogue
 Surprisingly, writing this has been both fulfilling and fun.
@@ -3091,7 +2952,6 @@ Succubus Girl who came to retrieve the manuscript.
 > BEGIN STRING
 今更ながら、私もせめてもの恩返しに\\_
 色々と動こうと思います。
-> CONTEXT: Map242/events/5/pages/0/28/Dialogue
 > CONTEXT: Map524/events/36/pages/0/30/Dialogue
 > CONTEXT: Map524/events/36/pages/1/28/Dialogue
 Even though it's late, I'm thinking of doing 
@@ -3102,7 +2962,6 @@ something to at least return the favor.
 ではまた、どこかでお会いしましょう。
 
 アンジュ
-> CONTEXT: Map242/events/5/pages/0/30/Dialogue
 > CONTEXT: Map524/events/36/pages/0/32/Dialogue
 > CONTEXT: Map524/events/36/pages/1/30/Dialogue
 Let's meet again somewhere.
@@ -3113,7 +2972,6 @@ Ange
 > BEGIN STRING
 「状態異常のススメ　その４　虚脱の章」と書かれた本がある。
 読みますか？
-> CONTEXT: Map117/events/44/pages/0/0/Dialogue
 > CONTEXT: Map524/events/37/pages/0/1/Dialogue
 > CONTEXT: Map524/events/37/pages/1/1/Dialogue
 There is a book called "Status Abnormalities 4: Lethargy"
@@ -3122,7 +2980,6 @@ Do you want to read it?
 
 > BEGIN STRING
 皆さんこんにちは。アンジュです。
-> CONTEXT: Map117/events/44/pages/0/4/Dialogue
 > CONTEXT: Map524/events/37/pages/0/5/Dialogue
 > CONTEXT: Map524/events/37/pages/1/5/Dialogue
 Hello everyone. This is Ange.
@@ -3133,7 +2990,6 @@ Hello everyone. This is Ange.
 そうです。
 しっかりした感じで、私とは正反対な子みたいです。
 仲良くできればいいのですが。
-> CONTEXT: Map117/events/44/pages/0/5/Dialogue
 > CONTEXT: Map524/events/37/pages/0/6/Dialogue
 > CONTEXT: Map524/events/37/pages/1/6/Dialogue
 Witch Girl seens to have picked up a strange succubus girl.
@@ -3144,7 +3000,6 @@ I hope we can get along.
 > BEGIN STRING
 「虚脱」は身体を動かすのが億劫になってしまう\\_
 状態異常です。
-> CONTEXT: Map117/events/44/pages/0/10/Dialogue
 > CONTEXT: Map524/events/37/pages/0/11/Dialogue
 > CONTEXT: Map524/events/37/pages/1/11/Dialogue
 "Lethargy" is an abnormal state in which a person becomes 
@@ -3155,7 +3010,6 @@ unable to move his or her body.
 行動するために必要なＶＰが増えてしまいます。
 ＶＰが増えないのは動かないことだけです。
 実質的に毒のような効果を持ちますね。
-> CONTEXT: Map117/events/44/pages/0/12/Dialogue
 > CONTEXT: Map524/events/37/pages/0/13/Dialogue
 > CONTEXT: Map524/events/37/pages/1/13/Dialogue
 The VP required to take action will increase.
@@ -3168,7 +3022,6 @@ It's a seriously harmful effect.
 絶頂させた後に復帰させにくくできますし、
 相手のＶＰがもうほとんど無い状態でしたら\\_
 もう動くことはできません。
-> CONTEXT: Map117/events/44/pages/0/15/Dialogue
 > CONTEXT: Map524/events/37/pages/0/16/Dialogue
 > CONTEXT: Map524/events/37/pages/1/16/Dialogue
 The noticable effect is small, but it makes it difficult 
@@ -3180,7 +3033,6 @@ the opponent has almost no VP, they can't move anymore.
 しぶとい相手や忍耐力の高い相手に有効な状態異常です。
 ＶＰがあるうちは効果があまりあるように見えないのが弱点\\_
 ですが。
-> CONTEXT: Map117/events/44/pages/0/19/Dialogue
 > CONTEXT: Map524/events/37/pages/0/20/Dialogue
 > CONTEXT: Map524/events/37/pages/1/20/Dialogue
 This status is effective against stubborn or patient opponents.
@@ -3193,13 +3045,11 @@ still has plenty of VP.
 効果もあります。
 チャンスが来てもだらけてしまうわけですね。
 > CONTEXT: Map524/events/37/pages/0/23/Dialogue < UNTRANSLATED
-> CONTEXT: Map158/events/23/pages/0/222/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 私は虚脱状態になるとそうですね。
-> CONTEXT: Map117/events/44/pages/0/22/Dialogue
 > CONTEXT: Map524/events/37/pages/0/26/Dialogue
 > CONTEXT: Map524/events/37/pages/1/23/Dialogue
 When it comes to lethargy, for me...
@@ -3207,7 +3057,6 @@ When it comes to lethargy, for me...
 
 > BEGIN STRING
 もっとだらけます。
-> CONTEXT: Map117/events/44/pages/0/23/Dialogue
 > CONTEXT: Map524/events/37/pages/0/27/Dialogue
 > CONTEXT: Map524/events/37/pages/1/24/Dialogue
 I slack off more.

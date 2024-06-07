@@ -2,9 +2,6 @@
 > BEGIN STRING
 "木の魔獣"
 > CONTEXT: Map457/events/7/pages/0/0/InlineScript/1:22
-> CONTEXT: Map179/events/7/pages/0/0/InlineScript/1:22
-> CONTEXT: Map010/events/46/pages/0/0/InlineScript/1:22
-> CONTEXT: Map272/events/205/pages/0/0/InlineScript/1:22
 "Magic tree beast"
 > END STRING
 
@@ -13,7 +10,6 @@
 おお、怖がらないでくれ。君を取って食おうとは思っていない。
 私はただ君に聞きたいことがあるだけなんだ。
 > CONTEXT: Map457/events/7/pages/0/2/Dialogue
-> CONTEXT: Map179/events/7/pages/0/2/Dialogue
 \\name[\\v[2]]\\_
 Oh, don't be afraid. I have no intention of eating you.
 I just want to ask you something.
@@ -24,8 +20,6 @@ I just want to ask you something.
 君は迷子になってる妖精を連れてないか？
 夢世界で採取してるとたまに出てくるみたいでな。
 > CONTEXT: Map457/events/7/pages/0/5/Dialogue
-> CONTEXT: Map179/events/7/pages/0/5/Dialogue
-> CONTEXT: Map010/events/46/pages/0/5/Dialogue
 \\name[\\v[2]]\\_
 Do you have a lost fairy with you?
 They sometimes appear when harvesting in the dream world.
@@ -36,7 +30,6 @@ They sometimes appear when harvesting in the dream world.
 彼女らを帰してやるのが私の役目でね。
 もしいたら、私に教えてくれ。勿論謝礼は渡すよ。
 > CONTEXT: Map457/events/7/pages/0/8/Dialogue
-> CONTEXT: Map179/events/7/pages/0/8/Dialogue
 \\name[\\v[2]]\\_
 My job is to bring them home.
 If so, please let me know. Of course, I'll reward you.
@@ -47,9 +40,6 @@ If so, please let me know. Of course, I'll reward you.
 やあ君か。迷子の妖精は見つかったかな？
 夢世界で採取してるとたまに出てくるみたいなんだ。
 > CONTEXT: Map457/events/7/pages/0/14/Dialogue
-> CONTEXT: Map179/events/7/pages/0/14/Dialogue
-> CONTEXT: Map010/events/46/pages/0/14/Dialogue
-> CONTEXT: Map272/events/205/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
 Hey, it's you. Did you find lost fairies?
 They sometimes appear when harvesting in the dream world.
@@ -60,9 +50,6 @@ They sometimes appear when harvesting in the dream world.
 君の協力に感謝する。
 また迷子の妖精を見つけたら私の元へ連れて来てくれ。
 > CONTEXT: Map457/events/7/pages/0/25/Dialogue
-> CONTEXT: Map179/events/7/pages/0/25/Dialogue
-> CONTEXT: Map010/events/46/pages/0/25/Dialogue
-> CONTEXT: Map272/events/205/pages/0/10/Dialogue
 \\name[\\v[2]]\\_
 Thank you for your cooperation.
 If you find another lost fairy, please bring it to me.
@@ -71,8 +58,6 @@ If you find another lost fairy, please bring it to me.
 > BEGIN STRING
 "レベル換金屋"
 > CONTEXT: Map457/events/10/pages/0/0/InlineScript/1:22
-> CONTEXT: Map179/events/10/pages/0/0/InlineScript/1:22
-> CONTEXT: Map272/events/220/pages/0/0/InlineScript/1:22
 "Level exchange shop"
 > END STRING
 
@@ -81,8 +66,6 @@ If you find another lost fairy, please bring it to me.
 俺はレベル換金屋だ。
 お前のレベルを１貰うが、対価として金を払ってるぜ。
 > CONTEXT: Map457/events/10/pages/0/1/Dialogue
-> CONTEXT: Map179/events/10/pages/0/1/Dialogue
-> CONTEXT: Map272/events/220/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
 I'm a level-money exchanger.
 I'll take 1 level, but I'll pay you money in return.
@@ -94,8 +77,6 @@ I'll take 1 level, but I'll pay you money in return.
 ちなみに、習得しているスキルや素質はそのままだ。\\_
 そこは安心しな。
 > CONTEXT: Map457/events/10/pages/0/4/Dialogue
-> CONTEXT: Map179/events/10/pages/0/4/Dialogue
-> CONTEXT: Map272/events/220/pages/0/4/Dialogue
 \\name[\\v[2]]\\_
 The higher your level, the higher the amount will be.
 By the way, the skills and qualities you have acquired 
@@ -107,8 +88,6 @@ will remain the same. Don't worry about that.
 ･･･あー、レベルが１の奴からは買い取れないんだ。
 レベル上げてからまた来いよ。
 > CONTEXT: Map457/events/10/pages/0/12/Dialogue
-> CONTEXT: Map179/events/10/pages/0/12/Dialogue
-> CONTEXT: Map272/events/220/pages/0/12/Dialogue
 \\name[\\v[2]]\\_
 ...Ah, I can't buy from someone whose level is 1.
 Come back after leveling up.
@@ -119,8 +98,6 @@ Come back after leveling up.
 今のお前のレベルは\\v[3]だな。これなら\\v[4]Lps.だ。
 １レベルを換金するかい？
 > CONTEXT: Map457/events/10/pages/0/18/Dialogue
-> CONTEXT: Map179/events/10/pages/0/18/Dialogue
-> CONTEXT: Map272/events/220/pages/0/18/Dialogue
 \\name[\\v[2]]\\_
 Your current level is \\v[3]. This would earn you \\v[4]Lps.
 Do you want to exchange 1 level for cash?
@@ -130,8 +107,6 @@ Do you want to exchange 1 level for cash?
 \\name[\\v[2]]\\_
 そらよ。レベルを貰ったぜ。これは代金だ。
 > CONTEXT: Map457/events/10/pages/0/26/Dialogue
-> CONTEXT: Map179/events/10/pages/0/26/Dialogue
-> CONTEXT: Map272/events/220/pages/0/26/Dialogue
 \\name[\\v[2]]\\_
 There you go. I got the level. This is the payment.
 > END STRING
@@ -140,10 +115,6 @@ There you go. I got the level. This is the payment.
 \\name[\\v[2]]\\_
 また来いよ。
 > CONTEXT: Map457/events/10/pages/0/39/Dialogue
-> CONTEXT: Map179/events/10/pages/0/39/Dialogue
-> CONTEXT: Map028/events/161/pages/0/25/Dialogue
-> CONTEXT: Map272/events/216/pages/0/54/Dialogue
-> CONTEXT: Map272/events/220/pages/0/39/Dialogue
 \\name[\\v[2]]\\_
 Come again.
 > END STRING
@@ -151,7 +122,6 @@ Come again.
 > BEGIN STRING
 "名を馳せた悪魔"
 > CONTEXT: Map457/events/11/pages/0/0/InlineScript/1:22
-> CONTEXT: Map179/events/11/pages/0/0/InlineScript/1:22
 "The famous devil"
 > END STRING
 
@@ -160,7 +130,6 @@ Come again.
 やぁやぁ！　私は嘗て名を馳せた悪魔の中の悪魔！
 サインを希望かい？　いいだろう！　すらすらっと！
 > CONTEXT: Map457/events/11/pages/0/2/Dialogue
-> CONTEXT: Map179/events/11/pages/0/2/Dialogue
 \\name[\\v[2]]\\_
 Hey hey! I am a devil among devils 
 who once made a name for himself!
@@ -172,7 +141,6 @@ Would you like an autograph?  All right! Easy!
 ･･･私のこと知らない？
 あぁうんだよねぇ･･･、今の若い子の世代じゃないよねぇ･･･。
 > CONTEXT: Map457/events/11/pages/0/5/Dialogue
-> CONTEXT: Map179/events/11/pages/0/5/Dialogue
 \\name[\\v[2]]\\_
 ...Don't you know about me?
 Ah, that's right...this is not 
@@ -183,7 +151,6 @@ the current generation of young kids...
 \\name[\\v[2]]\\_
 うむ、だったら君に凄さを教えてあげよう。
 > CONTEXT: Map457/events/11/pages/0/8/Dialogue
-> CONTEXT: Map179/events/11/pages/0/8/Dialogue
 \\name[\\v[2]]\\_
 Hmm, then let me tell you how amazing I am.
 > END STRING
@@ -194,7 +161,6 @@ Hmm, then let me tell you how amazing I am.
 集めたいけど契約できる夢魔の数がいっぱいいっぱい
 だったりしないかい？
 > CONTEXT: Map457/events/11/pages/0/13/Dialogue
-> CONTEXT: Map179/events/11/pages/0/13/Dialogue
 \\name[\\v[2]]\\_
 Have you not collected dream magic?
 Want to collect more, but there aren't 
@@ -207,7 +173,6 @@ many succubi to contract with?
 私の夢の魔力を１つ5000Lps.であげてもいい！
 どうだい、欲しくないかい？
 > CONTEXT: Map457/events/11/pages/0/17/Dialogue
-> CONTEXT: Map179/events/11/pages/0/17/Dialogue
 \\g\\name[\\v[2]]\\_
 For such a person!
 I can give you dream magic for 5000 Lps.!
@@ -217,14 +182,12 @@ What, don't you want it?
 > BEGIN STRING
 欲しい
 > CONTEXT: Map457/events/11/pages/0/21/Choice/0
-> CONTEXT: Map179/events/11/pages/0/21/Choice/0
 Want it
 > END STRING
 
 > BEGIN STRING
 いらない
 > CONTEXT: Map457/events/11/pages/0/21/Choice/1
-> CONTEXT: Map179/events/11/pages/0/21/Choice/1
 No need
 > END STRING
 
@@ -232,7 +195,6 @@ No need
 \\name[\\v[2]]\\_
 それでは･･･ムゥ！！
 > CONTEXT: Map457/events/11/pages/0/26/Dialogue
-> CONTEXT: Map179/events/11/pages/0/26/Dialogue
 \\name[\\v[2]]\\_
 Well then...Muwah!!
 > END STRING
@@ -241,7 +203,6 @@ Well then...Muwah!!
 \\name[\\v[2]]\\_
 はいこれで夢の魔力をあげたよ。
 > CONTEXT: Map457/events/11/pages/0/29/Dialogue
-> CONTEXT: Map179/events/11/pages/0/29/Dialogue
 \\name[\\v[2]]\\_
 Yes, I gave you dream magic.
 > END STRING
@@ -251,7 +212,6 @@ Yes, I gave you dream magic.
 おっと、お金が足りないね。
 流石にお金がなければあげることはできないなぁ。
 > CONTEXT: Map457/events/11/pages/0/33/Dialogue
-> CONTEXT: Map179/events/11/pages/0/33/Dialogue
 \\name[\\v[2]]\\_
 Whoops, not enough money.
 I can't give anything unless you have money.
@@ -261,7 +221,6 @@ I can't give anything unless you have money.
 \\name[\\v[2]]\\_
 あぁそう･･･。
 > CONTEXT: Map457/events/11/pages/0/41/Dialogue
-> CONTEXT: Map179/events/11/pages/0/41/Dialogue
 \\name[\\v[2]]\\_
 Ah I see...
 > END STRING
@@ -272,7 +231,6 @@ Ah I see...
 正直腐る程あるんだ。
 困ったらどんどん頼ってくれていいよ！
 > CONTEXT: Map457/events/11/pages/0/45/Dialogue
-> CONTEXT: Map179/events/11/pages/0/45/Dialogue
 \\name[\\v[2]]\\_
 I have more dream magic than most succubi, and to be honest, 
 it's kind of excessive.

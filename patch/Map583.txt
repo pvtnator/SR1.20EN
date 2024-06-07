@@ -2,7 +2,6 @@
 > BEGIN STRING
 \\name[ボックス管理係]こちらはボックス管理係です。\\_
 何か御用ですか？
-> CONTEXT: Map003/events/6/pages/0/0/Dialogue
 > CONTEXT: Map583/events/1/pages/0/0/Dialogue
 \\name[Box Manager]This is the Box Manager.
 Do you need something?
@@ -255,8 +254,6 @@ Do you need something?
 > BEGIN STRING
 真面目
 > CONTEXT: Map583/events/4/pages/0/3/Choice/0 < UNTRANSLATED
-> CONTEXT: Map034/events/66/pages/0/1/Choice/0 < UNTRANSLATED
-> CONTEXT: Map034/events/422/pages/0/1/Choice/0 < UNTRANSLATED
 
 > END STRING
 
@@ -281,7 +278,6 @@ Do you need something?
 > BEGIN STRING
 "助平"
 > CONTEXT: Map583/events/4/pages/0/14/InlineScript/1:33 < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/229/InlineScript/1:33 < UNTRANSLATED
 
 > END STRING
 

@@ -1,14 +1,14 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 大ホール２階席　→
-> CONTEXT: Map166/events/11/pages/0/0/Dialogue
+> CONTEXT: None < UNUSED
 Large hall 2nd floor seats →
 > END STRING
 
 > BEGIN STRING
 ポート前に転移できる魔法陣がある。
 しかし一方通行のようだ。起動しますか？
-> CONTEXT: Map166/events/18/pages/0/0/Dialogue
+> CONTEXT: None < UNUSED
 There is a magic circle in front of the port that can teleport you.
 But it seems like it's one-way. Do you want to go in?
 > END STRING
@@ -16,8 +16,7 @@ But it seems like it's one-way. Do you want to go in?
 > BEGIN STRING
 あんっ･･････やぁっ･･････\\H
 もっとぉ･･･\\H
-> CONTEXT: Map166/events/20/pages/0/7/Dialogue
-> CONTEXT: Map166/events/21/pages/0/7/Dialogue
+> CONTEXT: None < UNUSED
 Ah...Nng...\\H
 More...\\H
 > END STRING
@@ -25,8 +24,7 @@ More...\\H
 > BEGIN STRING
 ううっ･･･出るっ･･･！
 あああっ･･････！！
-> CONTEXT: Map166/events/20/pages/0/9/Dialogue
-> CONTEXT: Map166/events/21/pages/0/9/Dialogue
+> CONTEXT: None < UNUSED
 Aaaa...coming...!
 Aaaahhh...!!
 > END STRING
@@ -34,8 +32,7 @@ Aaaahhh...!!
 > BEGIN STRING
 やん･･･もっとぉ･･･もっとしてぇ\\H\\|
 次は誰？　あなた？　いいわよ･･･もっとしましょ･･･\\H
-> CONTEXT: Map166/events/20/pages/0/11/Dialogue
-> CONTEXT: Map166/events/21/pages/0/11/Dialogue
+> CONTEXT: None < UNUSED
 Nng...more...more\\H\\|
 Who's next? You? Okay...let's do more...\\H
 > END STRING
@@ -44,7 +41,7 @@ Who's next? You? Okay...let's do more...\\H
 \\name[\\v[2]]\\_
 おス。お前さんとはよく会うな。
 サンドイッチ買っていくかい？
-> CONTEXT: Map166/events/33/pages/0/1/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Oh. I don't see you often.
 Would you like to buy a sandwich?
@@ -54,7 +51,7 @@ Would you like to buy a sandwich?
 \\name[\\v[2]]\\_
 お前さんもそうだが、あいつらもこんな所になんでいるんだ。
 ほら、あいつらだよ、あいつら。
-> CONTEXT: Map166/events/33/pages/0/10/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Why are you and those guys in a place like this?
 I mean, those guys over there.
@@ -63,7 +60,7 @@ I mean, those guys over there.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 俺？　俺はこの教会が仕事場だからいいんだよ。
-> CONTEXT: Map166/events/33/pages/0/13/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Me? I'm fine, I work at this church.
 > END STRING
@@ -72,7 +69,7 @@ Me? I'm fine, I work at this church.
 \\name[\\v[2]]\\_
 しかしそろそろ弟子連中に構ってやらないといかん。
 また会えると良いな。
-> CONTEXT: Map166/events/33/pages/0/15/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 But it's time to leave my apprentices alone.
 See you later.

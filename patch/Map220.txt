@@ -1,14 +1,14 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "暗い男"
-> CONTEXT: Map220/events/10/pages/0/0/InlineScript/1:22
+> CONTEXT: None < UNUSED
 "Dark Man"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 この辺りは暗い･･･暗い･･･暗いねぇ･･･。
-> CONTEXT: Map220/events/10/pages/0/1/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 It's dark around here...dark...it's dark...
 > END STRING
@@ -16,7 +16,7 @@ It's dark around here...dark...it's dark...
 > BEGIN STRING
 \\name[\\v[2]]\\_
 しかもこの先は闇洞窟･･･。お先真っ暗さ･･･。
-> CONTEXT: Map220/events/10/pages/0/3/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Moreover, what lies ahead is a dark cave... It's pitch dark ahead...
 > END STRING
@@ -24,7 +24,7 @@ Moreover, what lies ahead is a dark cave... It's pitch dark ahead...
 > BEGIN STRING
 \\name[夢魔]\\_
 んっ\\H　あンっ\\H
-> CONTEXT: Map220/events/13/pages/0/4/Dialogue
+> CONTEXT: None < UNUSED
 \\name[Succubus]\\_
 Nngh\\H ah\\H
 > END STRING
@@ -33,7 +33,7 @@ Nngh\\H ah\\H
 \\name[兵士]\\_
 うっ･･･っ。
 もう･･･ゆる･･･し･･･
-> CONTEXT: Map220/events/13/pages/0/10/Dialogue
+> CONTEXT: None < UNUSED
 \\name[Soldier]\\_
 Ugh...
 Let...me...ugh...
@@ -42,7 +42,7 @@ Let...me...ugh...
 > BEGIN STRING
 \\name[夢魔]\\_
 んもー、もう終わり？
-> CONTEXT: Map220/events/13/pages/0/13/Dialogue
+> CONTEXT: None < UNUSED
 \\name[Succubus]\\_
 Hmm, is it over already?
 > END STRING
@@ -50,7 +50,7 @@ Hmm, is it over already?
 > BEGIN STRING
 \\name[夢魔]\\_
 ぶー、まだインプ遊び足りないのにぃー。
-> CONTEXT: Map220/events/13/pages/0/15/Dialogue
+> CONTEXT: None < UNUSED
 \\name[Succubus]\\_
 Boo, I haven't played with Imp enough yet.
 > END STRING
@@ -58,7 +58,7 @@ Boo, I haven't played with Imp enough yet.
 > BEGIN STRING
 \\name[夢魔]\\_
 お姉さんもどこいっちゃったか分からなくなったしぃ･･･。
-> CONTEXT: Map220/events/13/pages/0/17/Dialogue
+> CONTEXT: None < UNUSED
 \\name[Succubus]\\_
 I don't know where the girl went either...
 > END STRING
@@ -67,7 +67,7 @@ I don't know where the girl went either...
 \\name[夢魔]\\_
 どうしよっかぁ･･････。\\|
 ･･････
-> CONTEXT: Map220/events/13/pages/0/19/Dialogue
+> CONTEXT: None < UNUSED
 \\name[Succubus]\\_
 What should I do...? \\|
 ...
@@ -76,7 +76,7 @@ What should I do...? \\|
 > BEGIN STRING
 \\name[夢魔・悪魔]\\_
 美味しそうな子み～っけ\\H
-> CONTEXT: Map220/events/13/pages/0/33/Dialogue
+> CONTEXT: None < UNUSED
 \\name[Imp/Succubus]\\_
 Looks delicious!\\H
 > END STRING
@@ -84,15 +84,14 @@ Looks delicious!\\H
 > BEGIN STRING
 \\name[悪魔]\\_
 ねぇ、おねーちゃん。
-> CONTEXT: Map220/events/13/pages/0/40/Dialogue < UNTRANSLATED
-> CONTEXT: Map220/events/13/pages/0/45/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 \\name[悪魔]\\_
 ねぇねぇおにーちゃん。
-> CONTEXT: Map220/events/13/pages/0/49/Dialogue
+> CONTEXT: None < UNUSED
 \\name[Imp]\\_
 Hey, mister.
 > END STRING
@@ -100,7 +99,7 @@ Hey, mister.
 > BEGIN STRING
 \\name[夢魔]\\_
 私たちと遊んでぇ\\H
-> CONTEXT: Map220/events/13/pages/0/59/Dialogue
+> CONTEXT: None < UNUSED
 \\name[Succubus]\\_
 Play with us\\H
 > END STRING
@@ -108,7 +107,7 @@ Play with us\\H
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･････ぬ･･･助かった･･･のか･･･？
-> CONTEXT: Map220/events/16/pages/0/12/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 ...I'm...saved...?
 > END STRING
@@ -116,7 +115,72 @@ Play with us\\H
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･ダメだ･･･また意識が･･･もう･･･ろう･･･と･･･
-> CONTEXT: Map220/events/16/pages/0/24/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 ...I can't...passing out again...dizzy...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+よくここまでたどり着いたね！
+ここは夢の最果てさ！
+> CONTEXT: Map220/events/14/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map220/events/14/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここには自身の強い記憶を
+呼び覚ます不思議な力があるんだ
+> CONTEXT: Map220/events/14/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ただ記憶というものは曖昧だからね！
+完全に記憶通りというわけでもないよ
+> CONTEXT: Map220/events/14/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+たとえばそう、おっぱいとかね！
+> CONTEXT: Map220/events/14/pages/0/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+いったい何の話をしているのかって？
+この家に入ってみればわかる事さ！
+> CONTEXT: Map220/events/14/pages/0/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここには自身の強い記憶を
+呼び覚ます不思議な力があるんだ！
+> CONTEXT: Map220/events/14/pages/1/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ただ、影響が及ぶのは
+どうやらキミだけではないようだよ
+> CONTEXT: Map220/events/14/pages/1/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここに来ることで
+過去の強大な姿を取り戻せる
+夢魔なんかがいるかもしれないね！
+> CONTEXT: Map220/events/14/pages/1/10/Dialogue < UNTRANSLATED
+
 > END STRING

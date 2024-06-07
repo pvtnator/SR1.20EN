@@ -1,29 +1,58 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 鉄格子は開かない！
-> CONTEXT: Map261/events/2/pages/0/4/Dialogue
-> CONTEXT: Map253/events/21/pages/0/4/Dialogue
-> CONTEXT: Map253/events/24/pages/0/4/Dialogue
-> CONTEXT: Map253/events/29/pages/0/4/Dialogue
-> CONTEXT: Map253/events/30/pages/0/4/Dialogue
-> CONTEXT: Map253/events/31/pages/0/4/Dialogue
-> CONTEXT: Map253/events/32/pages/0/4/Dialogue
-> CONTEXT: Map253/events/45/pages/0/4/Dialogue
-> CONTEXT: Map253/events/46/pages/0/4/Dialogue
-> CONTEXT: Map253/events/47/pages/0/4/Dialogue
-> CONTEXT: Map253/events/48/pages/0/4/Dialogue
-> CONTEXT: Map253/events/49/pages/0/4/Dialogue
-> CONTEXT: Map203/events/6/pages/0/4/Dialogue
-> CONTEXT: Map203/events/12/pages/0/4/Dialogue
-> CONTEXT: Map203/events/15/pages/0/4/Dialogue
-> CONTEXT: Map203/events/16/pages/0/4/Dialogue
-> CONTEXT: Map203/events/17/pages/0/4/Dialogue
-> CONTEXT: Map203/events/18/pages/0/4/Dialogue
-> CONTEXT: Map203/events/19/pages/0/4/Dialogue
-> CONTEXT: Map203/events/24/pages/0/4/Dialogue
-> CONTEXT: Map203/events/36/pages/0/4/Dialogue
-> CONTEXT: Map203/events/37/pages/0/4/Dialogue
-> CONTEXT: Map203/events/38/pages/0/4/Dialogue
-> CONTEXT: Map203/events/40/pages/0/4/Dialogue
+> CONTEXT: None < UNUSED
 The iron grate won't open!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+進む者よ。
+汝は夢魔と絆を結びし者か？
+> CONTEXT: Map261/events/1/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……絆を結んだ心を認める。
+> CONTEXT: Map261/events/1/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この地に封印されているのは、カルカブリーナ。
+気品はあるが、内なる激情は恐ろしい奴だ。
+> CONTEXT: Map261/events/3/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+気に入られれば氷漬けにして飾られるかもな。
+ふふふ、気をつけておくことだ。
+> CONTEXT: Map261/events/3/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+カルカブリーナを解放したか。
+相変わらず全てを見下しているような眼だろう。
+……おっと。
+> CONTEXT: Map261/events/3/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サイヤクノヒョウケツ　ココニフウジル
+> CONTEXT: Map261/events/7/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カルカブリーナと再戦しますか？
+> CONTEXT: Map261/events/8/pages/0/0/Dialogue < UNTRANSLATED
+
 > END STRING
