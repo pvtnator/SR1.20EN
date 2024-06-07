@@ -1,1 +1,0 @@
-python mapswap.py revert
