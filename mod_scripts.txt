@@ -3966,16 +3966,7 @@ Woman
 
 > BEGIN STRING
 寵愛
-> CONTEXT: O_MOD_Game_Actor.rb
-> CONTEXT: O_MOD_Game_Battler_1.rb
-> CONTEXT: O_MOD_Game_Battler_4.rb
-> CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-> CONTEXT: O_MOD_RPG_Class_ボーナス.rb
-> CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
-> CONTEXT: O_MOD_SR_Util_other.rb
-> CONTEXT: O_MOD_SR_Util_spam.rb
-> CONTEXT: PR_Scene_Battle PluralAttack.rb
-> CONTEXT: PR_Window_PromiseRight.rb
+> CONTEXT: global
 Favorite
 > END STRING
 
@@ -4046,21 +4037,7 @@ Imp leadership
 
 > BEGIN STRING
 大切な人
-> CONTEXT: O_MOD_Game_Actor.rb
-> CONTEXT: O_MOD_Game_Actor_戦闘中スキル.rb
-> CONTEXT: O_MOD_Game_Battler_1.rb
-> CONTEXT: O_MOD_Game_Battler_2.rb
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-> CONTEXT: O_MOD_RPG_Class_ボーナス.rb
-> CONTEXT: O_MOD_RPG_Skilltext.rb
-> CONTEXT: O_MOD_Scene_Battle_5.rb
-> CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
-> CONTEXT: O_MOD_Scene_Menu_Party_select.rb
-> CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
-> CONTEXT: PR_MOD_Game_Actor_再定義.rb
-> CONTEXT: PR_Scene_Battle PluralAttack.rb
-> CONTEXT: PR_Window_PromiseRight.rb
+> CONTEXT: global
 Important person
 > END STRING
 
@@ -42554,7 +42531,7 @@ Provocative gestures stimulate opponents!
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: O_MOD_Scene_Battle_AttackElementChange.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
-
+Edging
 > END STRING
 
 > BEGIN STRING
@@ -44844,7 +44821,7 @@ battler.hold.#{parts}.battler
 > BEGIN STRING
 効果前口上：
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+Effect introduction:
 > END STRING
 
 > BEGIN STRING
@@ -55047,7 +55024,7 @@ TALKTEXT
 > BEGIN STRING
 Ａ挿入：Ａ側
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+A insertion: A side
 > END STRING
 
 > BEGIN STRING

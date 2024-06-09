@@ -48,9 +48,9 @@ def extract_strings(folder_path, output_file, update={}):
             #    print(string)
             outfile.write("\n> END STRING\n\n")
 
-def autotranslate(translations_file, lines):
+def autotranslate(translations_file, lines, multiline=20):
     import pyperclip
-    i = 0
+    i = 911050
     batchi = []
     batcht = ""
     while i < len(lines):
@@ -71,17 +71,22 @@ def autotranslate(translations_file, lines):
                 string = string.replace("アソコ", "おまんこ").replace("ココ", "おまんこ")
                 string = "[[\""+string.rstrip()+"\"]]\r\n"
                 batcht += string
-                if i > len(lines)-10 or len(batcht)>2500:
+                if i > len(lines)-10 or len(batchi)>=multiline:
                     batcht = batcht.strip()
                     #print("\n"+batcht+"\n")
                     print(str(100*i/len(lines))+"%\n")
                     pyperclip.copy(batcht)
-                    while(pyperclip.paste() == batcht or len(pyperclip.paste().split("\n")) != len(batcht.split("\n"))):
+                    paste = []
+                    while(pyperclip.paste() == batcht or len(paste) != len(batcht.split("\n"))):
                         time.sleep(1)
-                        print(len(pyperclip.paste().split("\n")))
+                        print(len(paste))
                         print(len(batcht.split("\n")))
+                        if len(paste) != len(batcht.split("\n")) and len(paste) > max(multiline-10,10) and pyperclip.paste() != batcht:
+                            print("Switched to 2 lines")
+                            return 2
                         paste = re.findall("\[\[\"(.*)\"\]\]", pyperclip.paste())
-                    trlines = pyperclip.paste().split("\n")
+                    trlines = paste
+                    multiline = 20
                     for j in range(len(trlines)):
                         translated = trlines[j].strip()
                         if len(translated) > 3:
@@ -115,6 +120,7 @@ def autotranslate(translations_file, lines):
             i += 2
         else:
             i += 1
+    return 0
 
 def apply_translations(folder_path, apply_path, regexes, translations, mustinclude=""):
     glpattern = re.compile("|".join(key for key in sorted(regexes["global"], key=len, reverse=True)))
@@ -126,7 +132,7 @@ def apply_translations(folder_path, apply_path, regexes, translations, mustinclu
         if file.is_dir():
             print(target_path)
             target_path.mkdir(parents=True, exist_ok=True)
-        elif mustinclude in file.name and ".rb" in file.name:
+        elif mustinclude in relative.as_posix() and ".rb" in file.name:
             #file_path = Path.join(root, file)
             with file.open(encoding='utf-8', errors='surrogateescape') as f:
                 content = f.read()
@@ -177,6 +183,8 @@ if __name__ == "__main__":
                                                 and not '"' in string:
                         regexes[c].append(re.escape('"'+string+'"'))
                         translations[c]['"'+string+'"'] = '"'+lines[i].rstrip()+'"'
+                        regexes[c].append(re.escape("'"+string+"'"))
+                        translations[c]["'"+string+"'"] = "'"+lines[i].rstrip()+"'"
                     else:
                         regexes[c].append(re.escape(string))
                         translations[c][string] = lines[i].rstrip()
@@ -195,5 +203,7 @@ if __name__ == "__main__":
         apply_translations(talk_dir, modtalk_dir, regexes, translations)
         print("Translations applied.")
     elif mode == "autotranslate":
-        autotranslate(translations_file, lines)
+        multiline = autotranslate(translations_file, lines)
+        while multiline > 0:
+            multiline = autotranslate(translations_file, lines, multiline)
         print("Autotranslate done.")
