@@ -63,14 +63,15 @@ def autotranslate(translations_file, lines):
                 context = lines[i][11:].strip()
                 contexts.append(context)
                 i += 1
-            if lines[i].strip() == "" and ("\\\\H" in string or "\\n" in string or len(contexts)<10):
+            if lines[i].strip() == "" and len(string.strip())>3 and ("\\\\H" in string or "\\n" in string or \
+                                           (not "global" in contexts and not "System" in str(contexts))):
                 batchi.append(i)
                 string = string.replace("#{myname}", "私").replace("#{target}", "あなた")
                 string = string.replace("アソコ", "おまんこ").replace("ココ", "おまんこ")
                 
                 string = "女："+string
                 batcht += string
-                if i > len(lines)-10 or len(batcht)>4500:
+                if i > len(lines)-10 or len(batcht)>500:
                     batcht = batcht.strip()
                     #print("\n"+batcht+"\n")
                     print(str(100*i/len(lines))+"%\n")
@@ -92,15 +93,15 @@ def autotranslate(translations_file, lines):
                             translated = translated.replace(" \\\\H", "\\\\H")
                             translated = translated.replace(".\\\\H", "\\\\H")
                             translated = translated.replace("Giggle", "*Giggle*")
+                            translated = re.sub("\"(.*)\"", "「\1」", translated)
                             translated = re.sub("\.{2,}", "...", translated)
-                            translated = re.sub("a{3,}", "aaa", translated)
-                            translated = re.sub("o{3,}", "ooo", translated)
+                            translated = re.sub("([a-zA-Z])\1{3,}", "\1\1", translated)
                             #translated = re.sub(r"([^\.])\.\\H", r"\1\\H", translated)
                             parts = translated.split("\\n")
                             translated = ""
                             for p in parts:
-                                if len(p) > 50 and p.find(" ", 40) >= 0:
-                                    p = p[:p.find(" ", 40)]+"\\n　"+p[p.find(" ", 40)+1:]
+                                if len(p) > 50 and p.find(",", 40) >= 0:
+                                    p = p[:p.find(",", 40)]+"\\n　"+p[p.find(",", 40)+1:]
                                 translated += p if translated=="" else "\\n"+p
                                     
                             lines[batchi[j]] = translated+"\n"
@@ -139,9 +140,9 @@ def apply_translations(folder_path, apply_path, regexes, translations, mustinclu
 
 if __name__ == "__main__":
     current_dir = Path.cwd()
-    mode = sys.argv[1] if len(sys.argv)>1 else "apply"
-    source = sys.argv[2] if len(sys.argv)>2 else "mod_scripts"
-    dest = sys.argv[3] if len(sys.argv)>3 else "Mod_Scripts"
+    mode = sys.argv[1] if len(sys.argv)>1 else "autotranslate"
+    source = sys.argv[2] if len(sys.argv)>2 else "talk"
+    dest = sys.argv[3] if len(sys.argv)>3 else "Mod_Talk"
     translated_dir = Path(sys.argv[4]) if len(sys.argv)>4 else current_dir.parent / Path().resolve().name.replace("patch","translated")
     talk_dir = translated_dir / "System" / source
     modtalk_dir = translated_dir / "Mod" / dest
