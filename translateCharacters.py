@@ -66,26 +66,30 @@ def autotranslate(translations_file, lines):
             if lines[i].strip() == "" and len(string.strip())>3 and ("\\\\H" in string or "\\n" in string or \
                                            (not "global" in contexts and not "System" in str(contexts))):
                 batchi.append(i)
-                string = string.replace("#{myname}", "私").replace("#{target}", "あなた")
+                string = string.replace("#{myname}", "私").replace("#{target}", "あなた").replace("#{master}", "あなた")
+                string = string.replace("#{$msg.t_target.name}", "あなた")
                 string = string.replace("アソコ", "おまんこ").replace("ココ", "おまんこ")
-                
-                string = "女："+string
+                string = "\"女："+string.rstrip()+"\"\r\n"
                 batcht += string
-                if i > len(lines)-10 or len(batcht)>500:
+                if i > len(lines)-10 or len(batcht)>4500:
                     batcht = batcht.strip()
                     #print("\n"+batcht+"\n")
                     print(str(100*i/len(lines))+"%\n")
                     pyperclip.copy(batcht)
                     while(pyperclip.paste() == batcht or len(pyperclip.paste().split("\n")) != len(batcht.split("\n"))):
-                        time.sleep(0.5)
+                        time.sleep(1)
+                        print(len(pyperclip.paste().split("\n")))
+                        print(len(batcht.split("\n")))
                     trlines = pyperclip.paste().split("\n")
                     for j in range(len(trlines)):
                         translated = trlines[j].strip()
                         if len(translated) > 3:
                             #print(translated)
+                            translated = translated[:-1]
                             if translated[-1] == "." and translated[-2] != ".":
                                 translated = translated[:-1]
-                            translated = translated[7:]
+                            translated = translated.replace("Girl:", "Woman:")
+                            translated = translated[8:]
                             translated = translated.replace("\\n", "\\n　")
                             translated = translated.replace("　　", "　").replace("　 ", "　")
                             translated = translated.replace("…", "...")
@@ -93,15 +97,15 @@ def autotranslate(translations_file, lines):
                             translated = translated.replace(" \\\\H", "\\\\H")
                             translated = translated.replace(".\\\\H", "\\\\H")
                             translated = translated.replace("Giggle", "*Giggle*")
-                            translated = re.sub("\"(.*)\"", "「\1」", translated)
+                            translated = re.sub("\"(.*)\"", "「\\1」", translated)
                             translated = re.sub("\.{2,}", "...", translated)
-                            translated = re.sub("([a-zA-Z])\1{3,}", "\1\1", translated)
+                            translated = re.sub("([a-zA-Z])\\1{3,}", "\\1\\1", translated)
                             #translated = re.sub(r"([^\.])\.\\H", r"\1\\H", translated)
                             parts = translated.split("\\n")
                             translated = ""
                             for p in parts:
-                                if len(p) > 50 and p.find(",", 40) >= 0:
-                                    p = p[:p.find(",", 40)]+"\\n　"+p[p.find(",", 40)+1:]
+                                if len(p) > 50 and p.find(",", 20) >= 0:
+                                    p = p[:p.find(",", 20)]+"\\n　"+p[p.find(",", 20)+1:]
                                 translated += p if translated=="" else "\\n"+p
                                     
                             lines[batchi[j]] = translated+"\n"
