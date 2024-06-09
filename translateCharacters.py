@@ -69,9 +69,9 @@ def autotranslate(translations_file, lines):
                 string = string.replace("#{myname}", "私").replace("#{target}", "あなた").replace("#{master}", "あなた")
                 string = string.replace("#{$msg.t_target.name}", "あなた")
                 string = string.replace("アソコ", "おまんこ").replace("ココ", "おまんこ")
-                string = "\"女："+string.rstrip()+"\"\r\n"
+                string = "[[\""+string.rstrip()+"\"]]\r\n"
                 batcht += string
-                if i > len(lines)-10 or len(batcht)>4500:
+                if i > len(lines)-10 or len(batcht)>2500:
                     batcht = batcht.strip()
                     #print("\n"+batcht+"\n")
                     print(str(100*i/len(lines))+"%\n")
@@ -80,16 +80,14 @@ def autotranslate(translations_file, lines):
                         time.sleep(1)
                         print(len(pyperclip.paste().split("\n")))
                         print(len(batcht.split("\n")))
+                        paste = re.findall("\[\[\"(.*)\"\]\]", pyperclip.paste())
                     trlines = pyperclip.paste().split("\n")
                     for j in range(len(trlines)):
                         translated = trlines[j].strip()
                         if len(translated) > 3:
                             #print(translated)
-                            translated = translated[:-1]
                             if translated[-1] == "." and translated[-2] != ".":
                                 translated = translated[:-1]
-                            translated = translated.replace("Girl:", "Woman:")
-                            translated = translated[8:]
                             translated = translated.replace("\\n", "\\n　")
                             translated = translated.replace("　　", "　").replace("　 ", "　")
                             translated = translated.replace("…", "...")
