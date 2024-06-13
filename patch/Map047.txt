@@ -1,7 +1,6 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "鶏"
-> CONTEXT: Map047/events/2/pages/0/0/InlineScript/1:22
 > CONTEXT: Map048/events/20/pages/0/0/InlineScript/1:22
 "Chicken"
 > END STRING
@@ -9,7 +8,6 @@
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あんた仲間に夢魔はいるか？
-> CONTEXT: Map047/events/2/pages/0/2/Dialogue
 > CONTEXT: Map048/events/20/pages/0/2/Dialogue
 \\name[\\v[2]]\\_
 Do you have a succubus among your friends?
@@ -19,7 +17,6 @@ Do you have a succubus among your friends?
 \\name[\\v[2]]\\_
 ダンジョンでは、ある程度歩く度に
 \\c[12]仲間の夢魔の「満腹度」が下がっちまうんだ\\c[0]。
-> CONTEXT: Map047/events/2/pages/0/4/Dialogue
 > CONTEXT: Map048/events/20/pages/0/4/Dialogue
 \\name[\\v[2]]\\_
 In a dungeon, every time you walk a certain amount
@@ -30,7 +27,6 @@ In a dungeon, every time you walk a certain amount
 \\name[\\v[2]]\\_
 あまりに下がると空腹になっちまって
 仲間の夢魔が弱くなっちまうのもそうだが･･･。
-> CONTEXT: Map047/events/2/pages/0/7/Dialogue
 > CONTEXT: Map048/events/20/pages/0/7/Dialogue
 \\name[\\v[2]]\\_
 If it goes down too much, they get hungry.
@@ -42,7 +38,6 @@ It's also true that they become weaker...
 ０になっちまうと空腹の限界で、
 \\c[12]契約しているお前さんが襲われる\\c[0]ことに\\_
 なっちまうのさ。
-> CONTEXT: Map047/events/2/pages/0/10/Dialogue
 > CONTEXT: Map048/events/20/pages/0/10/Dialogue
 \\name[\\v[2]]\\_
 When it reaches 0, it's the limit of their hunger, and
@@ -54,7 +49,6 @@ When it reaches 0, it's the limit of their hunger, and
 そうならないためにも、仲間の夢魔が空腹になっちまったら、
 ちゃんと\\c[12]「精の献上」をしてやること\\c[0]だな。
 もしくはポートに触って回復することよ。
-> CONTEXT: Map047/events/2/pages/0/14/Dialogue
 > CONTEXT: Map048/events/20/pages/0/14/Dialogue
 \\name[\\v[2]]\\_
 To prevent this, if your fellow succubi get hungry,
@@ -67,7 +61,6 @@ Or touch a port to recover.
 誰かが空腹になった時には教えてくれるが、
 キャンセルキーで開くメニュー画面でお前たちの状態も\\_
 分かる。\\n\\c[12]精の献上もメニュー画面でできる\\c[0]ぜ。
-> CONTEXT: Map047/events/2/pages/0/18/Dialogue
 > CONTEXT: Map048/events/20/pages/0/18/Dialogue
 \\name[\\v[2]]\\_
 You will be notified when someone is hungry, 
@@ -78,7 +71,6 @@ but you can also see the status in the menu. Also,
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･そうだ、俺からこれをあげようじゃないか。
-> CONTEXT: Map047/events/2/pages/0/23/Dialogue
 > CONTEXT: Map048/events/20/pages/0/23/Dialogue
 \\name[\\v[2]]\\_
 ...That's right, let me give you this.
@@ -89,7 +81,6 @@ but you can also see the status in the menu. Also,
 これは使うと一瞬で君のホームまで戻してくれるもんだ。
 腹減りすぎてるけど献上する余裕が無いみたいな\\_
 緊急時に使ういい。
-> CONTEXT: Map047/events/2/pages/0/32/Dialogue
 > CONTEXT: Map048/events/20/pages/0/32/Dialogue
 \\name[\\v[2]]\\_
 Using this will take you back to Home in an instant.
@@ -100,7 +91,6 @@ Good for emergencies where you can't offer any more semen.
 \\name[\\v[2]]\\_
 最低１つは持っておくべきなアイテムだな。
 ホームでも売ってるはずだぜ。
-> CONTEXT: Map047/events/2/pages/0/36/Dialogue
 > CONTEXT: Map048/events/20/pages/0/36/Dialogue
 \\name[\\v[2]]\\_
 It's an item you should always have at least one of.
@@ -111,7 +101,6 @@ It's sold at Home too.
 \\name[\\v[2]]\\_
 下にあるような「\\c[12]採取ポイント\\c[0]」じゃ、調べてみると
 何か落ちてるものを拾えるよ。
-> CONTEXT: Map047/events/3/pages/0/2/Dialogue
 > CONTEXT: Map048/events/57/pages/0/2/Dialogue
 \\name[\\v[2]]\\_
 If you interact with "\\c[12]harvest point\\c[0]" such as below,
@@ -122,7 +111,6 @@ you can pick up some items.
 \\name[\\v[2]]\\_
 ほら、ちょっとそこだけ地面が違ってるでしょ？
 真ん中が光ってたら採取ができるんだ。
-> CONTEXT: Map047/events/3/pages/0/5/Dialogue
 > CONTEXT: Map048/events/57/pages/0/5/Dialogue
 \\name[\\v[2]]\\_
 Look, the ground is a little different there, right?
@@ -133,7 +121,6 @@ Since it's glowing, it means that you can harvest there.
 \\name[\\v[2]]\\_
 たまに夢魔の非常食になるキノコが見つかるんだ。
 そのままじゃ使えないものも、割と見つかるけどね。
-> CONTEXT: Map047/events/3/pages/0/8/Dialogue
 > CONTEXT: Map048/events/57/pages/0/8/Dialogue
 \\name[\\v[2]]\\_
 You might find mushrooms that can be used as food for succubi.
@@ -145,7 +132,6 @@ However, you'll often find things that can't be used as is.
 採取ポイントは一度取っても光っていれば、また採取も\\_
 できるから、
 足を運ぶことがあればその都度採取しておくといいよ。
-> CONTEXT: Map047/events/3/pages/0/11/Dialogue
 > CONTEXT: Map048/events/57/pages/0/11/Dialogue
 \\name[\\v[2]]\\_
 Even if you use a harvest point once, 
@@ -157,7 +143,6 @@ It's a good idea to harvest whenever you pass by.
 \\name[\\v[2]]\\_
 珍しいものもたまーに落ちてるしね。
 物好きな人が好きなんだよ。
-> CONTEXT: Map047/events/3/pages/0/15/Dialogue
 > CONTEXT: Map048/events/57/pages/0/15/Dialogue
 \\name[\\v[2]]\\_
 Rare things also pop out from time to time.
@@ -167,8 +152,6 @@ Curious people like that, don't they?
 > BEGIN STRING
 \\name[夢魔]\\_
 ねぇねぇおねーさんっ♪
-> CONTEXT: Map047/events/21/pages/0/19/Dialogue
-> CONTEXT: Map047/events/22/pages/0/19/Dialogue
 > CONTEXT: Map048/events/40/pages/0/19/Dialogue
 > CONTEXT: Map048/events/41/pages/0/19/Dialogue
 \\name[Succubus]\\_
@@ -178,8 +161,6 @@ Heyhey sister♪
 > BEGIN STRING
 \\name[夢魔]\\_
 私たちとイイコト、しよぉ\\H
-> CONTEXT: Map047/events/21/pages/0/23/Dialogue
-> CONTEXT: Map047/events/22/pages/0/23/Dialogue
 > CONTEXT: Map048/events/40/pages/0/23/Dialogue
 > CONTEXT: Map048/events/41/pages/0/23/Dialogue
 \\name[Succubus]\\_
@@ -189,8 +170,6 @@ Do something nice with us\\H
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･ふん、お断りです。
-> CONTEXT: Map047/events/21/pages/0/25/Dialogue
-> CONTEXT: Map047/events/22/pages/0/25/Dialogue
 > CONTEXT: Map048/events/40/pages/0/25/Dialogue
 > CONTEXT: Map048/events/41/pages/0/25/Dialogue
 \\name[\\v[2]]\\_
@@ -201,8 +180,6 @@ Do something nice with us\\H
 \\name[\\v[2]]\\_
 貴女達のような穢らわしい連中に、\\_
 付き合っていられるものですか。
-> CONTEXT: Map047/events/21/pages/0/27/Dialogue
-> CONTEXT: Map047/events/22/pages/0/27/Dialogue
 > CONTEXT: Map048/events/40/pages/0/27/Dialogue
 > CONTEXT: Map048/events/41/pages/0/27/Dialogue
 \\name[\\v[2]]\\_
@@ -212,8 +189,6 @@ Do you expect me to associate with individuals like you?
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･喰らいなさいッ！
-> CONTEXT: Map047/events/21/pages/0/32/Dialogue
-> CONTEXT: Map047/events/22/pages/0/32/Dialogue
 > CONTEXT: Map048/events/40/pages/0/32/Dialogue
 > CONTEXT: Map048/events/41/pages/0/32/Dialogue
 \\name[\\v[2]]\\_
@@ -224,8 +199,6 @@ Do you expect me to associate with individuals like you?
 \\name[夢魔]\\_
 あははははっ、こっわ～い♪
 ダメだってぇ。そんなことやってもムダだよ～っ\\H
-> CONTEXT: Map047/events/21/pages/0/36/Dialogue
-> CONTEXT: Map047/events/22/pages/0/36/Dialogue
 > CONTEXT: Map048/events/40/pages/0/36/Dialogue
 > CONTEXT: Map048/events/41/pages/0/36/Dialogue
 \\name[Succubus]\\_
@@ -238,8 +211,6 @@ That's no good. There's no point in doing that~\\H
 おねーさんも知ってるんじゃないのぉ？
 ここでできるのはエッチなことだけ\\H\\|
 ぜ～ったい気持ち良くしてあげるから安心して･･･\\H
-> CONTEXT: Map047/events/21/pages/0/39/Dialogue
-> CONTEXT: Map047/events/22/pages/0/39/Dialogue
 > CONTEXT: Map048/events/40/pages/0/39/Dialogue
 > CONTEXT: Map048/events/41/pages/0/39/Dialogue
 \\name[Succubus]\\_
@@ -251,8 +222,6 @@ Don't worry, I'll make you feel good...\\H
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･くっ･･･！
-> CONTEXT: Map047/events/21/pages/0/46/Dialogue
-> CONTEXT: Map047/events/22/pages/0/46/Dialogue
 > CONTEXT: Map048/events/40/pages/0/46/Dialogue
 > CONTEXT: Map048/events/41/pages/0/46/Dialogue
 \\name[\\v[2]]\\_
@@ -262,8 +231,6 @@ Don't worry, I'll make you feel good...\\H
 > BEGIN STRING
 \\name[夢魔]\\_
 ダ～メっ\\H　逃がしてあげないよ～っ\\H
-> CONTEXT: Map047/events/21/pages/0/55/Dialogue
-> CONTEXT: Map047/events/22/pages/0/55/Dialogue
 > CONTEXT: Map048/events/40/pages/0/55/Dialogue
 > CONTEXT: Map048/events/41/pages/0/55/Dialogue
 \\name[Succubus]\\_
@@ -273,8 +240,6 @@ Na-ah!\\H　I won't let you escape~\\H
 > BEGIN STRING
 \\name[夢魔]\\_
 ほらほら～？
-> CONTEXT: Map047/events/21/pages/0/59/Dialogue
-> CONTEXT: Map047/events/22/pages/0/59/Dialogue
 > CONTEXT: Map048/events/40/pages/0/59/Dialogue
 > CONTEXT: Map048/events/41/pages/0/59/Dialogue
 \\name[Succubus]\\_
@@ -284,8 +249,6 @@ See here~?
 > BEGIN STRING
 \\name[夢魔]\\_
 我慢しなくていいんだよぉ？\\H
-> CONTEXT: Map047/events/21/pages/0/63/Dialogue
-> CONTEXT: Map047/events/22/pages/0/63/Dialogue
 > CONTEXT: Map048/events/40/pages/0/63/Dialogue
 > CONTEXT: Map048/events/41/pages/0/63/Dialogue
 \\name[Succubus]\\_
@@ -295,8 +258,6 @@ You don't have to hold back, okay? \\H
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･っ。
-> CONTEXT: Map047/events/21/pages/0/72/Dialogue
-> CONTEXT: Map047/events/22/pages/0/72/Dialogue
 > CONTEXT: Map048/events/40/pages/0/72/Dialogue
 > CONTEXT: Map048/events/41/pages/0/72/Dialogue
 \\name[\\v[2]]\\_
@@ -306,8 +267,6 @@ You don't have to hold back, okay? \\H
 > BEGIN STRING
 \\name[夢魔]\\_
 きゃっ･･･！！
-> CONTEXT: Map047/events/21/pages/0/79/Dialogue
-> CONTEXT: Map047/events/22/pages/0/79/Dialogue
 > CONTEXT: Map048/events/40/pages/0/79/Dialogue
 > CONTEXT: Map048/events/41/pages/0/79/Dialogue
 \\name[Succubus]\\_
@@ -317,8 +276,6 @@ What...!!
 > BEGIN STRING
 \\name[夢魔]\\_
 に、逃げられた～っ！
-> CONTEXT: Map047/events/21/pages/0/100/Dialogue
-> CONTEXT: Map047/events/22/pages/0/100/Dialogue
 > CONTEXT: Map048/events/40/pages/0/100/Dialogue
 > CONTEXT: Map048/events/41/pages/0/100/Dialogue
 \\name[Succubus]\\_
@@ -329,8 +286,6 @@ Damn, she got away!
 \\name[夢魔]\\_
 あっち行ったよね！？
 追いかけなくちゃ！
-> CONTEXT: Map047/events/21/pages/0/105/Dialogue
-> CONTEXT: Map047/events/22/pages/0/105/Dialogue
 > CONTEXT: Map048/events/40/pages/0/105/Dialogue
 > CONTEXT: Map048/events/41/pages/0/105/Dialogue
 \\name[Succubus]\\_
@@ -341,7 +296,6 @@ I have to give chase!
 > BEGIN STRING
 \\name[\\v[2]]\\_
 やぁやぁ、ここから先は夢世界の魔の領域さ。
-> CONTEXT: Map047/events/25/pages/0/2/Dialogue
 > CONTEXT: Map048/events/72/pages/0/2/Dialogue
 \\name[\\v[2]]\\_
 Heyhey, from here on, it's the 
@@ -353,7 +307,6 @@ magical realm of the dream world.
 そこら辺でうろうろしている夢魔が見えるか？
 触っちまうと戦闘になっちまうよ。
 \\!まぁ、この辺の夢魔は弱い方だし平和なもんだが。
-> CONTEXT: Map047/events/25/pages/0/4/Dialogue
 > CONTEXT: Map048/events/72/pages/0/4/Dialogue
 \\name[\\v[2]]\\_
 Can you see the succubus wandering around?
@@ -365,7 +318,6 @@ Upon touching, a battle will ensue.
 \\name[\\v[2]]\\_
 ･･･ところで、あんたは走るのは得意かい？
 決定キーを押しながら移動でダッシュできるはずだが。
-> CONTEXT: Map047/events/25/pages/0/8/Dialogue
 > CONTEXT: Map048/events/72/pages/0/8/Dialogue
 \\name[\\v[2]]\\_
 ...By the way, are you good at running?
@@ -375,7 +327,6 @@ You can dash by holding down the confirm key and moving.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 おっと、あんたはいつも走ってるんだな。
-> CONTEXT: Map047/events/25/pages/0/12/Dialogue
 > CONTEXT: Map048/events/72/pages/0/12/Dialogue
 \\name[\\v[2]]\\_
 Oh, you're always running.
@@ -386,7 +337,6 @@ Oh, you're always running.
 その時に捕まっちまうなよ。
 \\c[12]走ってる時に夢魔に捕まっちまえば先手を取られ\\_
 ちまう\\c[0]。
-> CONTEXT: Map047/events/25/pages/0/16/Dialogue
 > CONTEXT: Map048/events/72/pages/0/16/Dialogue
 \\name[\\v[2]]\\_
 Avoid getting caught then.
@@ -399,10 +349,125 @@ they will take the initiative.\\c[0].
 ちなみに、\\c[12]夢魔の後ろさえ取れれば\\_
 こっちが先制できるのさ\\c[0]。
 狙えるなら夢魔の背後から襲っちまうことだよ。
-> CONTEXT: Map047/events/25/pages/0/20/Dialogue
 > CONTEXT: Map048/events/72/pages/0/20/Dialogue
 \\name[\\v[2]]\\_
 By the way,\\c[12] if you approach succubi from behind,
 you can take initiative\\c[0].
 If you can, try to attack from behind.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+くす……。
+これ以上は行かせませんよ……\\H
+> CONTEXT: Map047/events/10/pages/0/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あの天使長を破るとは、
+さすがですわ……\\H
+> CONTEXT: Map047/events/10/pages/0/38/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+貴方は私達淫魔にとって
+脅威となり得る存在……。
+> CONTEXT: Map047/events/10/pages/0/41/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここで芽を摘んでおく事にしましょう……。
+> CONTEXT: Map047/events/10/pages/0/44/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうですね……。
+自己紹介をしておきましょうか。
+> CONTEXT: Map047/events/10/pages/0/47/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ラビス"
+> CONTEXT: Map047/events/10/pages/0/50/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map047/events/10/pages/0/98/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+淫界の忍、ラビスでございます。
+> CONTEXT: Map047/events/10/pages/0/51/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+結界を張っておきました……。
+貴方の危機に気づく者はおりません……。
+> CONTEXT: Map047/events/10/pages/0/53/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+貴方の精を搾り尽くし、
+死の淵を延々と彷徨って頂きましょう……\\H
+> CONTEXT: Map047/events/10/pages/0/56/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ……。
+どうやら貴方達の事、少し見くびってたみたいね……\\H
+> CONTEXT: Map047/events/10/pages/0/99/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+いいでしょう……。
+今回はこれで撤退させて頂きます。
+> CONTEXT: Map047/events/10/pages/0/102/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やあ、少年。
+今回はここまでなんだ。
+遊んでくれてありがとう。
+> CONTEXT: Map047/events/14/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+一旦、元の世界に戻してあげようか？
+> CONTEXT: Map047/events/14/pages/0/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なら、こいつをあげるよ。
+> CONTEXT: Map047/events/14/pages/0/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そいつを使えば、ここにすぐ戻ってこられるよ。
+それじゃあ、またね！
+> CONTEXT: Map047/events/14/pages/0/15/Dialogue < UNTRANSLATED
+
 > END STRING

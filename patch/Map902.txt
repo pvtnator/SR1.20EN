@@ -635,15 +635,15 @@ M堕ちさせられてしまう、
 
 > BEGIN STRING
 "薄っぺらいプライド"
-> CONTEXT: Map902/events/69/pages/0/7/InlineScript/1:5 < UNTRANSLATED
-> CONTEXT: Map902/events/69/pages/0/47/InlineScript/1:5 < UNTRANSLATED
-
+> CONTEXT: Map902/events/69/pages/0/7/InlineScript/1:5
+> CONTEXT: Map902/events/69/pages/0/47/InlineScript/1:5
+"Shallow Pride"
 > END STRING
 
 > BEGIN STRING
 【薄っぺらいプライド】を忘れました。
-> CONTEXT: Map902/events/69/pages/0/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map902/events/69/pages/0/9/Dialogue
+【Shallow Pride】 unlearned.
 > END STRING
 
 > BEGIN STRING
@@ -674,8 +674,10 @@ M堕ちさせられてしまう、
 全てのステータスが強化されるが、
 絶頂する度に弱体化する。
 \\c[12]\\v[3]\\c[0]
-> CONTEXT: Map902/events/69/pages/0/32/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map902/events/69/pages/0/32/Dialogue
+【Shallow Pride】
+All stats are strengthened, but weakened each time you climax.
+\\c[12]\\v[3]\\c[0]
 > END STRING
 
 > BEGIN STRING
@@ -705,6 +707,7 @@ M堕ちさせられてしまう、
 > BEGIN STRING
 【薄っぺらいプライド】を習得しました。
 \\v[3]
-> CONTEXT: Map902/events/69/pages/0/49/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map902/events/69/pages/0/49/Dialogue
+Acquired [Shallow Pride].
+\\v[3]
 > END STRING

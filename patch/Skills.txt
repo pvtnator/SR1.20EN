@@ -1014,25 +1014,25 @@ Tease/90
 > BEGIN STRING
 ファストレイド/100
 > CONTEXT: Skills/103/name/ < UNTRANSLATED
-
+Fast Raid/100
 > END STRING
 
 > BEGIN STRING
 [手/口→体] 素早く攻める。[先制行動][器用さ]
 > CONTEXT: Skills/103/description/ < UNTRANSLATED
-
+[Hands/Mouth→Body] Attack quickly. [Fast][Dexterity]
 > END STRING
 
 > BEGIN STRING
 トリックレイド/30
-> CONTEXT: Skills/104/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/104/name/
+Trick Raid/30
 > END STRING
 
 > BEGIN STRING
 [手/口→体] 不意打ちする。チェック済みの相手へのSS率が高い。[器用さ]
-> CONTEXT: Skills/104/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/104/description/
+[Hands/Mouth→Body] High SS rate against checked opponents. [Dexterity]
 > END STRING
 
 > BEGIN STRING
@@ -1106,13 +1106,13 @@ Devourer/100
 
 > BEGIN STRING
 プレジャー/40
-> CONTEXT: Skills/111/name/ < UNTRANSLATED
+> CONTEXT: Skills/111/name/
 Pleasure/40
 > END STRING
 
 > BEGIN STRING
 [手→] 自分を慰め、見たものを欲情させる。
-> CONTEXT: Skills/111/description/ < UNTRANSLATED
+> CONTEXT: Skills/111/description/
 [Hands→] Comfort self and arouse others.
 > END STRING
 
@@ -1564,13 +1564,13 @@ For 4 turns, if you have no abnormal status, become targeted.
 > BEGIN STRING
 風のささやき/100
 > CONTEXT: Skills/152/name/ < UNTRANSLATED
-
+Wind Whisper/100
 > END STRING
 
 > BEGIN STRING
 [魔法] 敵全員を風で攻める。時々服を脱がす。[精神力]
-> CONTEXT: Skills/152/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/152/description/
+[Magic] Hit enemies with wind. Sometimes strips clothes. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -1759,8 +1759,8 @@ Iris Flower: Aldar
 
 > BEGIN STRING
 [魔法] 味方全員の能力をランダムで２回強める。
-> CONTEXT: Skills/170/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/170/description/
+[Magic] Randomly strengthens the abilities of all allies twice.
 > END STRING
 
 > BEGIN STRING
@@ -1772,8 +1772,8 @@ Ranunculus Bloom
 
 > BEGIN STRING
 [魔法] 味方１人の魅力を１段階強める。
-> CONTEXT: Skills/171/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/171/description/
+[Magic] Increase one ally's charm by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -1785,8 +1785,8 @@ Ranunculus Bloom: Aldar
 
 > BEGIN STRING
 [魔法] 味方全員の魅力を１段階強める。
-> CONTEXT: Skills/172/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/172/description/
+[Magic] Increases the charm of all allies by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -1798,8 +1798,8 @@ Rananculus Iiza
 
 > BEGIN STRING
 [魔法] 敵１人の魅力を１段階弱める。
-> CONTEXT: Skills/173/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/173/description/
+[Magic] Reduces 1 enemy's charm by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -1811,8 +1811,8 @@ Rananculus Iiza: Aldar
 
 > BEGIN STRING
 [魔法] 敵全員の魅力を１段階弱める。
-> CONTEXT: Skills/174/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/174/description/
+[Magic] Reduces the charm of all enemies by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -1824,8 +1824,8 @@ Nerine Bloom
 
 > BEGIN STRING
 [魔法] 味方１人の忍耐を１段階強める。
-> CONTEXT: Skills/175/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/175/description/
+[Magic] Increase one ally's endurance by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -1837,8 +1837,8 @@ Nerine Bloom: Aldar
 
 > BEGIN STRING
 [魔法] 味方全員の忍耐を１段階強める。
-> CONTEXT: Skills/176/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/176/description/
+[Magic] Increases the endurance of all allies by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -1850,8 +1850,8 @@ Nerine Iiza
 
 > BEGIN STRING
 [魔法] 敵１人の忍耐を１段階弱める。
-> CONTEXT: Skills/177/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/177/description/
+[Magic] Reduces 1 enemy's endurance by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -1863,8 +1863,8 @@ Nerine Iiza: Aldar
 
 > BEGIN STRING
 [魔法] 敵全員の忍耐を１段階弱める。
-> CONTEXT: Skills/178/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/178/description/
+[Magic] Reduces the endurance of all enemies by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -1876,8 +1876,8 @@ Elder Bloom
 
 > BEGIN STRING
 [魔法] 味方１人の精力を１段階強める。
-> CONTEXT: Skills/179/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/179/description/
+[Magic] Increase one ally's energy by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -1889,8 +1889,8 @@ Elder Bloom: Aldar
 
 > BEGIN STRING
 [魔法] 味方全員の精力を１段階強める。
-> CONTEXT: Skills/180/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/180/description/
+[Magic] Increases the energy of all allies by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -1902,8 +1902,8 @@ Elder Iiza
 
 > BEGIN STRING
 [魔法] 敵１人の精力を１段階弱める。
-> CONTEXT: Skills/181/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/181/description/
+[Magic] Reduces 1 enemy's energy by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -1915,8 +1915,8 @@ Elder Iiza: Aldar
 
 > BEGIN STRING
 [魔法] 敵全員の精力を１段階弱める。
-> CONTEXT: Skills/182/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/182/description/
+[Magic] Reduces the energy of all enemies by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -1928,8 +1928,8 @@ Saffron Bloom
 
 > BEGIN STRING
 [魔法] 味方１人の器用さを１段階強める。
-> CONTEXT: Skills/183/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/183/description/
+[Magic] Increase 1 ally's dexterity by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -1941,8 +1941,8 @@ Saffron Bloom: Aldar
 
 > BEGIN STRING
 [魔法] 味方全員の器用さを１段階強める。
-> CONTEXT: Skills/184/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/184/description/
+[Magic] Increases the dexterity of all allies by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -1954,8 +1954,8 @@ Saffron Iiza
 
 > BEGIN STRING
 [魔法] 敵１人の器用さを１段階弱める。
-> CONTEXT: Skills/185/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/185/description/
+[Magic] Reduces 1 enemy's dexterity by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -1967,8 +1967,8 @@ Saffron Iiza: Aldar
 
 > BEGIN STRING
 [魔法] 敵全員の器用さを１段階弱める。
-> CONTEXT: Skills/186/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/186/description/
+[Magic] Reduces the dexterity of all enemies by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -1980,8 +1980,8 @@ Coreopsis Bloom
 
 > BEGIN STRING
 [魔法] 味方１人の素早さを１段階強める。
-> CONTEXT: Skills/187/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/187/description/
+[Magic] Increase 1 ally's agility by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -2006,8 +2006,8 @@ Coreopsis Iiza
 
 > BEGIN STRING
 [魔法] 敵１人の素早さを１段階弱める。
-> CONTEXT: Skills/189/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/189/description/
+[Magic] Reduces 1 enemy's agility by 1 stage.
 > END STRING
 
 > BEGIN STRING
@@ -2019,8 +2019,8 @@ Coreopsis Iiza: Aldar
 
 > BEGIN STRING
 [魔法] 敵全員の素早さを１段階弱める。
-> CONTEXT: Skills/190/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/190/description/
+[Magic] Reduces the agility of all enemies by 1 stage.
 > END STRING
 
 > BEGIN STRING
@@ -2032,8 +2032,8 @@ Aster Bloom
 
 > BEGIN STRING
 [魔法] 味方１人の精神力を１段階強める。
-> CONTEXT: Skills/191/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/191/description/
+[Magic] Increase 1 ally's spirit by one level.
 > END STRING
 
 > BEGIN STRING
@@ -2045,8 +2045,8 @@ Aster Bloom: Aldar
 
 > BEGIN STRING
 [魔法] 味方全員の精神力を１段階強める。
-> CONTEXT: Skills/192/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/192/description/
+[Magic] Increases the spirit of all allies by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -2058,8 +2058,8 @@ Aster Iiza
 
 > BEGIN STRING
 [魔法] 敵１人の精神力を１段階弱める。
-> CONTEXT: Skills/193/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/193/description/
+[Magic] Weaken 1 enemy's spirit by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -2071,8 +2071,8 @@ Aster Iiza: Aldar
 
 > BEGIN STRING
 [魔法] 敵全員の精神力を１段階弱める。
-> CONTEXT: Skills/194/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/194/description/
+[Magic] Weaken the spirit of all enemies by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -2083,8 +2083,8 @@ Strelitzia Bloom
 
 > BEGIN STRING
 [魔法] 味方１人の全ての能力を少し強める。
-> CONTEXT: Skills/195/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/195/description/
+[Magic] Slightly strengthen all abilities of 1 ally.
 > END STRING
 
 > BEGIN STRING
@@ -2107,8 +2107,8 @@ Strelitzia Iiza
 
 > BEGIN STRING
 [魔法] 敵１人の全ての能力を少し弱める。
-> CONTEXT: Skills/197/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/197/description/
+[Magic] Slightly weakens all abilities of 1 enemy.
 > END STRING
 
 > BEGIN STRING
@@ -2119,8 +2119,8 @@ Strelitzia Iiza: Aldar
 
 > BEGIN STRING
 [魔法] 敵全員の全ての能力を少し弱める。
-> CONTEXT: Skills/198/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/198/description/
+[Magic] Slightly weakens all enemies' abilities.
 > END STRING
 
 > BEGIN STRING
@@ -2132,8 +2132,8 @@ Strelitzia Iiza: Aldar
 
 > BEGIN STRING
 [魔法] 敵全員の能力をランダムで２回弱める。
-> CONTEXT: Skills/199/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/199/description/
+[Magic] Randomly weakens all enemies' abilities twice.
 > END STRING
 
 > BEGIN STRING
@@ -2438,8 +2438,8 @@ Wash Flood
 
 > BEGIN STRING
 [魔法] 敵１人を高確率で眠らせる。[精神力]
-> CONTEXT: Skills/228/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/228/description/
+[Magic] High chance of putting 1 enemy to sleep. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2450,8 +2450,8 @@ Wash Flood
 
 > BEGIN STRING
 [魔法] 敵全員を中確率で眠らせる。[精神力]
-> CONTEXT: Skills/229/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/229/description/
+[Magic] Chance of putting all enemies to sleep. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2462,8 +2462,8 @@ Wash Flood
 
 > BEGIN STRING
 [魔法] 敵１人を高確率で短小・貧乳にする。[精神力]
-> CONTEXT: Skills/230/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/230/description/
+[Magic] High chance of making one enemy small and flat. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2474,8 +2474,8 @@ Wash Flood
 
 > BEGIN STRING
 [魔法] 敵全員を中確率で短小・貧乳にする。[精神力]
-> CONTEXT: Skills/231/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/231/description/
+[Magic] Chance to shrink all enemies' penises and breasts. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -3623,14 +3623,14 @@ Set circle
 
 > BEGIN STRING
 サディストカレス/90
-> CONTEXT: Skills/361/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/361/name/
+Sadist caress/90
 > END STRING
 
 > BEGIN STRING
 [手→体] 意地悪に愛撫する。[中確率：畏怖][畏怖の相手：スタン][器用さ]
-> CONTEXT: Skills/361/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/361/description/
+[Hands→Body] Caress spitefully.[Chance: Fear][Fear: Stun][Dex]
 > END STRING
 
 > BEGIN STRING
@@ -9603,8 +9603,8 @@ Hungry Sperm Kiss/80
 
 > BEGIN STRING
 [魔法] 味方１人の全ての能力を１段階強めムードを上げる。
-> CONTEXT: Skills/1210/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1210/description/
+[Magic] Increases all abilities of 1 ally by 1 level and improves mood.
 > END STRING
 
 > BEGIN STRING
@@ -9627,8 +9627,8 @@ Hungry Sperm Kiss/80
 
 > BEGIN STRING
 [魔法] 味方１人のＥＰを特大回復させ、祝福状態にする。
-> CONTEXT: Skills/1212/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1212/description/
+[Magic] Recovers a large amount of EP for 1 ally and blesses them.
 > END STRING
 
 > BEGIN STRING
@@ -11573,8 +11573,8 @@ Corrupt Scratch/100
 
 > BEGIN STRING
 [魔法] 味方１人のＥＰをまちまちに回復させる。
-> CONTEXT: Skills/1424/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1424/description/
+[Magic] Recovers 1 ally's EP moderately.
 > END STRING
 
 > BEGIN STRING
@@ -12009,8 +12009,8 @@ Corrupt Scratch/100
 
 > BEGIN STRING
 [魔法] 味方１人のＥＰを超大回復させる。
-> CONTEXT: Skills/1477/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1477/description/
+[Magic] Recovers a large amount of EP for 1 ally.
 > END STRING
 
 > BEGIN STRING
@@ -12526,8 +12526,8 @@ Corrupt Scratch/100
 
 > BEGIN STRING
 [魔法] 敵全員を触手で愛撫する。[精神力]
-> CONTEXT: Skills/1535/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1535/description/
+[Magic] Caress all enemies with tentacles. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -12538,8 +12538,8 @@ Corrupt Scratch/100
 
 > BEGIN STRING
 [魔法] 敵全員の胸を触手で吸う。[精神力]
-> CONTEXT: Skills/1536/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1536/description/
+[Magic] Suck all enemies' breasts with tentacles. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -12623,8 +12623,8 @@ Corrupt Scratch/100
 
 > BEGIN STRING
 [魔法] 味方１人に炎の力を付与する。精力を自身の精神力に応じて上昇させる。
-> CONTEXT: Skills/1551/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1551/description/
+[Magic] Grants 1 ally the power of fire. Increases energy according to spirit.
 > END STRING
 
 > BEGIN STRING
@@ -12635,8 +12635,8 @@ Corrupt Scratch/100
 
 > BEGIN STRING
 [魔法] 味方１人に氷の力を付与する。器用さを自身の精神力に応じて上昇させる。
-> CONTEXT: Skills/1552/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1552/description/
+[Magic] Grants 1 ally the power of ice. Increases dexterity based on spirit.
 > END STRING
 
 > BEGIN STRING
@@ -12647,8 +12647,8 @@ Corrupt Scratch/100
 
 > BEGIN STRING
 [魔法] 味方１人に風の力を付与する。素早さを自身の精神力に応じて上昇させる。
-> CONTEXT: Skills/1553/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1553/description/
+[Magic] Grants 1 ally the power of wind. Increases agility according to spirit.
 > END STRING
 
 > BEGIN STRING
@@ -12659,8 +12659,8 @@ Corrupt Scratch/100
 
 > BEGIN STRING
 [魔法] 味方１人に地の力を付与する。忍耐力を自身の精神力に応じて上昇させる。
-> CONTEXT: Skills/1554/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1554/description/
+[Magic] Grants 1 ally the power of the earth. Increases endurance according to spirit.
 > END STRING
 
 > BEGIN STRING
@@ -12671,8 +12671,8 @@ Corrupt Scratch/100
 
 > BEGIN STRING
 [魔法] 味方１人に光の力を付与する。精神力を自身の精神力に応じて上昇させる。
-> CONTEXT: Skills/1555/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1555/description/
+[Magic] Grants 1 ally the power of light. Increases spirit according to spirit.
 > END STRING
 
 > BEGIN STRING
@@ -12683,8 +12683,8 @@ Corrupt Scratch/100
 
 > BEGIN STRING
 [魔法] 味方１人に闇の力を付与する。魅力を自身の精神力に応じて上昇させる。
-> CONTEXT: Skills/1556/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1556/description/
+[Magic] Grants 1 ally the power of darkness. Increases charm according to spirit.
 > END STRING
 
 > BEGIN STRING
@@ -12743,8 +12743,8 @@ Corrupt Scratch/100
 
 > BEGIN STRING
 [魔法] 敵全体をゾクゾクするような電流で攻め、体を敏感な状態にさせる。[精神力]
-> CONTEXT: Skills/1564/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1564/description/
+[Magic] Hypersensitizing tingling electric current. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -12755,8 +12755,8 @@ Corrupt Scratch/100
 
 > BEGIN STRING
 [魔法] 敵全体の心に火を付け、低確率で暴走させる。[精神力]
-> CONTEXT: Skills/1566/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1566/description/
+[Magic] Inflicts berserk on all enemies with a low chance. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -12767,8 +12767,8 @@ Corrupt Scratch/100
 
 > BEGIN STRING
 [魔法] 敵全体に暖かい雨を浴びせ、潤滑度を上げる。[精神力]
-> CONTEXT: Skills/1569/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1569/description/
+[Magic] Splashes warm rain, increasing enemies' lubrication. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -12791,8 +12791,8 @@ Corrupt Scratch/100
 
 > BEGIN STRING
 [魔法] 敵全体の周囲に生えた草花が相手をくすぐり、低確率でディレイ状態にする。[精神力]
-> CONTEXT: Skills/1575/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1575/description/
+[Magic] Low chance to delay enemies with tickly grass and flowers. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -12929,7 +12929,7 @@ Temptation・Kiss
 
 > BEGIN STRING
 ハードグラインド/160/6
-> CONTEXT: Skills/1621/name/ < UNTRANSLATED
+> CONTEXT: Skills/1621/name/
 Hard grind/160/6
 > END STRING
 
@@ -15591,8 +15591,8 @@ Melty Press/160/6
 
 > BEGIN STRING
 [魔法] 敵全員を風で攻める。時々ディレイし、服を脱がす。[精神力]
-> CONTEXT: Skills/2302/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2302/description/
+[Magic] Hit enemies with wind. Occasionally delays and strips clothes. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -15603,8 +15603,8 @@ Melty Press/160/6
 
 > BEGIN STRING
 [魔法] 味方１人の魅力・精力・器用さを１段階強める。
-> CONTEXT: Skills/2303/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2303/description/
+[Magic] Increase 1 ally's charm, energy, and dexterity by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -15639,8 +15639,8 @@ Melty Press/160/6
 
 > BEGIN STRING
 [魔法] 味方１人の弱体化を解除し、ＥＰを中回復させる。
-> CONTEXT: Skills/2306/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2306/description/
+[Magic] Removes weakened effects from 1 ally and moderately recovers EP.
 > END STRING
 
 > BEGIN STRING
@@ -15693,8 +15693,8 @@ Melty Press/160/6
 
 > BEGIN STRING
 [魔法] 敵１人の精神力を１段階弱体化させ、高確率で眠らせる。[精神力]
-> CONTEXT: Skills/2312/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2312/description/
+[Magic] Weaken 1 enemy's spirit by 1 level, high chance of sleep. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -16665,8 +16665,8 @@ Melty Press/160/6
 
 > BEGIN STRING
 [魔法] 敵味方全員の強化・弱化効果全てを解除する。
-> CONTEXT: Skills/2546/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2546/description/
+[Magic] Removes all strengthening and weakening effects from allies and enemies.
 > END STRING
 
 > BEGIN STRING

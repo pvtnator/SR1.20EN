@@ -2,6 +2,7 @@
 > BEGIN STRING
 SCRP_BedBattle
 > CONTEXT: Map103/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map122/bgm/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -364,6 +365,8 @@ Get debugging items.
 > BEGIN STRING
 ルビカンテと戦う
 > CONTEXT: Map103/events/59/pages/0/2/Choice/0 < UNTRANSLATED
+> CONTEXT: Map269/events/3/pages/0/1/Choice/0 < UNTRANSLATED
+> CONTEXT: Map269/events/3/pages/0/1/Choice/0 < UNTRANSLATED
 
 > END STRING
 
@@ -520,13 +523,13 @@ Get debugging items.
 
 > BEGIN STRING
 ゼロックの姿が見える……。
-> CONTEXT: None < UNUSED
+> CONTEXT: Map103/events/74/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 ゼロックと戦いますか？
-> CONTEXT: None < UNUSED
+> CONTEXT: Map103/events/74/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -646,12 +649,12 @@ Get debugging items.
 
 > BEGIN STRING
 イヅナの姿が見える……。
-> CONTEXT: Map103/events/74/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 イヅナと戦いますか？
-> CONTEXT: Map103/events/74/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING

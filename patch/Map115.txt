@@ -1,8 +1,6 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "老神父"
-> CONTEXT: Map115/events/1/pages/0/0/InlineScript/1:22
-> CONTEXT: Map115/events/11/pages/0/2/InlineScript/1:22
 > CONTEXT: Map022/events/6/pages/0/0/InlineScript/1:22
 > CONTEXT: Map114/events/31/pages/0/0/InlineScript/1:22
 > CONTEXT: Map114/events/32/pages/0/2/InlineScript/1:22
@@ -13,7 +11,6 @@
 \\name[\\v[2]]\\_
 ほほ、これこれ。
 懺悔でしたらあちらの部屋からお願いしますぞ。
-> CONTEXT: Map115/events/1/pages/0/1/Dialogue
 > CONTEXT: Map114/events/31/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
 Hoho, now now.
@@ -24,8 +21,6 @@ please do so from that room.
 > BEGIN STRING
 神父の日記が置かれている。
 読みますか？
-> CONTEXT: Map115/events/4/pages/0/0/Dialogue
-> CONTEXT: Map115/events/4/pages/1/0/Dialogue
 > CONTEXT: Map114/events/37/pages/0/0/Dialogue
 > CONTEXT: Map114/events/37/pages/1/0/Dialogue
 There is a priest's diary.
@@ -35,7 +30,6 @@ Do you want to read it?
 > BEGIN STRING
 ･･････？\\.\\.
 文字がぼやけていて読めない。
-> CONTEXT: Map115/events/4/pages/0/4/Dialogue
 > CONTEXT: Map114/events/37/pages/0/4/Dialogue
 ...? \\.\\.
 The text is blurry and unreadable.
@@ -43,13 +37,12 @@ The text is blurry and unreadable.
 
 > BEGIN STRING
 もうおわりだ
-> CONTEXT: Map115/events/4/pages/1/4/Dialogue
+> CONTEXT: None < UNUSED
 It's over
 > END STRING
 
 > BEGIN STRING
 なんてことだ。
-> CONTEXT: Map115/events/4/pages/1/6/Dialogue
 > CONTEXT: Map114/events/37/pages/1/4/Dialogue
 What the.
 > END STRING
@@ -58,7 +51,6 @@ What the.
 仮初の教会ではあったが、嘗てはここまで堕落\\_
 していなかった。
 カオシア様の秘匿的だったやり方が裏目に出てしまっている。
-> CONTEXT: Map115/events/4/pages/1/7/Dialogue
 > CONTEXT: Map114/events/37/pages/1/5/Dialogue
 Although it was a temporary church, 
 it has never before depraved so.
@@ -70,7 +62,6 @@ Mrs. Chaosia's secretive methods are backfiring.
 ただ快楽に溺れる。
 そこに発展も希望もない。極めて虚無的なものと\\_
 なってしまった。
-> CONTEXT: Map115/events/4/pages/1/10/Dialogue
 > CONTEXT: Map114/events/37/pages/1/8/Dialogue
 They take advantage of ignorant people, sell their souls 
 to the devil, and indulge in pleasure. There is no 
@@ -81,7 +72,6 @@ growth or hope. It has become extremely nihilistic.
 今や密教会の連中は耳を貸さぬ。
 あの金色の夢魔によって、破滅は徐々に\\_
 広がっていくはずだ。
-> CONTEXT: Map115/events/4/pages/1/14/Dialogue
 > CONTEXT: Map114/events/37/pages/1/12/Dialogue
 Now those in the secret church don't listen.
 Destruction will gradually spread due to Golden Succubus.
@@ -89,14 +79,12 @@ Destruction will gradually spread due to Golden Succubus.
 
 > BEGIN STRING
 私もすぐに、快楽の夢へと溺れてしまうことだろう。
-> CONTEXT: Map115/events/4/pages/1/17/Dialogue
 > CONTEXT: Map114/events/37/pages/1/15/Dialogue
 I too will soon be drowning in a dream of pleasure.
 > END STRING
 
 > BEGIN STRING
 カオシア様亡き私たちには何も･･･。
-> CONTEXT: Map115/events/4/pages/1/18/Dialogue
 > CONTEXT: Map114/events/37/pages/1/16/Dialogue
 After Chaosia passes away, there is nothing left for us...
 > END STRING
@@ -104,7 +92,6 @@ After Chaosia passes away, there is nothing left for us...
 > BEGIN STRING
 懺悔室
 御用の方は左側へお入りください。
-> CONTEXT: Map115/events/8/pages/0/0/Dialogue
 > CONTEXT: Map114/events/30/pages/0/0/Dialogue
 Confession room
 If you are in need, please enter on the left.
@@ -114,7 +101,6 @@ If you are in need, please enter on the left.
 \\name[\\v[2]]\\_
 「この世界は何か」、ですか･･･。
 難しい問いをなさりますな。
-> CONTEXT: Map115/events/11/pages/0/6/Dialogue
 > CONTEXT: Map114/events/32/pages/0/6/Dialogue
 \\name[\\v[2]]\\_
 "What is this world", you ask...?
@@ -125,7 +111,6 @@ You ask difficult questions.
 \\name[\\v[2]]\\_
 少なくとも、人がいて、暮らしがある。
 それはどこにいようと変わらないのではないですかな。
-> CONTEXT: Map115/events/11/pages/0/9/Dialogue
 > CONTEXT: Map114/events/32/pages/0/9/Dialogue
 \\name[\\v[2]]\\_
 There are people and there is life.
@@ -137,9 +122,54 @@ That doesn't change no matter where you are.
 旅をすれば、他者と関わることや書を読むことが\\_
 ありましょう。
 それらは糧となり、あなたにいつか答えを教えることです。
-> CONTEXT: Map115/events/11/pages/0/12/Dialogue
 > CONTEXT: Map114/events/32/pages/0/12/Dialogue
 \\name[\\v[2]]\\_
 When you travel, you may interact with others and read books.
 Those will nourish you, and someday teach you the answer.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やあ、少年
+こんな辺鄙な地に何のようだい？
+> CONTEXT: Map115/events/3/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なるほど…苦労しているんだな
+この奥には貴重なものがある
+役に立ちそうならぜひ持って行ってくれ
+> CONTEXT: Map115/events/3/pages/0/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……もちろんタダではあげられないがな
+対価として君を貰うとしようか
+> CONTEXT: Map115/events/3/pages/0/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"見習い魔女"
+> CONTEXT: Map115/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふっ、こんにちは
+> CONTEXT: Map115/events/4/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+せっかくこんなところまで来てくれたんだし
+楽しんでいってよ
+> CONTEXT: Map115/events/4/pages/0/3/Dialogue < UNTRANSLATED
+
 > END STRING

@@ -3503,31 +3503,31 @@ The mucus is gone from #{field_word}!
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: 修正用.rb
-
+Normal
 > END STRING
 
 > BEGIN STRING
 強敵
 > CONTEXT: MODモジュール_Enemy.rb
-
+Strong
 > END STRING
 
 > BEGIN STRING
 ボス
 > CONTEXT: MODモジュール_Enemy.rb
-
+Boss
 > END STRING
 
 > BEGIN STRING
 ラスボス
 > CONTEXT: MODモジュール_Enemy.rb
-
+Last Boss
 > END STRING
 
 > BEGIN STRING
 フォロワー
 > CONTEXT: MODモジュール_Enemy.rb
-
+Follower
 > END STRING
 
 > BEGIN STRING
@@ -11280,7 +11280,7 @@ Vitality Rune
 悪業の夢魔
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Evil Succubus
 > END STRING
 
 > BEGIN STRING
@@ -20260,7 +20260,7 @@ Slightly different personality.
 > BEGIN STRING
 射精スキルを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Acquire ejaculation skills.
 > END STRING
 
 > BEGIN STRING
@@ -20291,7 +20291,7 @@ Slightly different personality.
 > BEGIN STRING
 [口+♂→口+♀]誘惑・複合ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Mouth+♂→Mouth+♀] Learn the Seduction/Combined Hold.
 > END STRING
 
 > BEGIN STRING
@@ -20315,7 +20315,7 @@ Slightly different personality.
 > BEGIN STRING
 [敵対時] [胸+♀→口+♂]誘惑・複合ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Hostile][Chest+♀→Mouth+♂] Learn Seduction/Combined Hold.
 > END STRING
 
 > BEGIN STRING
@@ -20333,7 +20333,7 @@ Slightly different personality.
 > BEGIN STRING
 [口+♂→口+♀]複合ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Mouth+♂→Mouth+♀] Mastered the combination hold.
 > END STRING
 
 > BEGIN STRING
@@ -20363,7 +20363,7 @@ Slightly different personality.
 > BEGIN STRING
 [口+♂→胸+♀]複合ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Mouth+♂→Chest+♀] Mastered the combination hold.
 > END STRING
 
 > BEGIN STRING
@@ -20381,7 +20381,7 @@ Slightly different personality.
 > BEGIN STRING
 [寝室戦] エンブレイスの派生ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Bed] Learn the derived hold of Embrace.
 > END STRING
 
 > BEGIN STRING
@@ -20393,7 +20393,7 @@ Slightly different personality.
 > BEGIN STRING
 [敵対時] [口+指→♂+尻]複合ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Hostile] Learn the combination hold [Mouth+Finger→♂+Ass].
 > END STRING
 
 > BEGIN STRING
@@ -20423,7 +20423,7 @@ Slightly different personality.
 > BEGIN STRING
 [敵対時] [口+♀→口+♂]複合ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Hostile] Learn the combination hold: [Mouth+♀→Mouth+♂].
 > END STRING
 
 > BEGIN STRING
@@ -20441,7 +20441,7 @@ Slightly different personality.
 > BEGIN STRING
 [敵対時] [胸+♀→口+♂]複合ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Hostile] Learn the combination hold [Chest+♀→Mouth+♂].
 > END STRING
 
 > BEGIN STRING
@@ -20465,7 +20465,7 @@ Slightly different personality.
 > BEGIN STRING
 [敵対時] [♀+羽→♂+体]複合ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Hostile] Learn the combination hold [♀+Wing→♂+Body].
 > END STRING
 
 > BEGIN STRING
@@ -20489,7 +20489,7 @@ Slightly different personality.
 > BEGIN STRING
 [敵対時] [※+腕→口+腕]複合ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Hostile] Learn the combination hold [※+Arm→Mouth+Arm].
 > END STRING
 
 > BEGIN STRING
@@ -20507,7 +20507,7 @@ Deffence側は、腕を使用したスキルを使用できなくなる。
 > BEGIN STRING
 \n【トレインドホール】のいずれかを習得時、使用可能。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nCan be used when you learn either 【Trained Hole】.
 > END STRING
 
 > BEGIN STRING
@@ -20525,7 +20525,7 @@ Deffence側は、腕を使用したスキルを使用できなくなる。
 > BEGIN STRING
 [敵対時] [口+♀→胸+♂]複合ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Hostile] Learn the combination hold [Mouth+♀→Chest+♂].
 > END STRING
 
 > BEGIN STRING
@@ -20543,7 +20543,7 @@ Deffence側は、腕を使用したスキルを使用できなくなる。
 > BEGIN STRING
 [敵対時] [胸+手→口+♂]複合ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Hostile][Chest+Hand→Mouth+♂] Acquires the combination hold.
 > END STRING
 
 > BEGIN STRING
@@ -20567,7 +20567,7 @@ Deffence側は、腕を使用したスキルを使用できなくなる。
 > BEGIN STRING
 [足→足]ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn the [Foot→Foot] hold.
 > END STRING
 
 > BEGIN STRING
@@ -20579,7 +20579,7 @@ Deffence側は、腕を使用したスキルを使用できなくなる。
 > BEGIN STRING
 [→口]挿入ホールドを習得。[口→♂]ホールドが苦手ではなくなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Master the [→Mouth] hold. [Mouth→♂] hold is no longer a weakness.
 > END STRING
 
 > BEGIN STRING
@@ -20591,7 +20591,7 @@ Deffence側は、腕を使用したスキルを使用できなくなる。
 > BEGIN STRING
 [♂→胸]ホールドを習得。[胸→♂]ホールドが苦手ではなくなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Master the [♂→Chest] hold. No longer weak to [Chest→♂] hold.
 > END STRING
 
 > BEGIN STRING
@@ -20603,13 +20603,13 @@ Deffence側は、腕を使用したスキルを使用できなくなる。
 > BEGIN STRING
 [口→胸]ホールドを習得。[胸→口]ホールドが苦手ではなくなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Master the [Mouth→Chest] hold. No longer weak to [Chest→Mouth] hold.
 > END STRING
 
 > BEGIN STRING
 [足→口]ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Master the [Foot→Mouth] hold.
 > END STRING
 
 > BEGIN STRING
@@ -20897,7 +20897,7 @@ Learn Finger in Back.
 > BEGIN STRING
 [敵対時] [指→尻]ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-[When hostile] Learn [Finger→Ass] hold.
+[Hostile] Learn [Finger→Ass] hold.
 > END STRING
 
 > BEGIN STRING
@@ -20909,7 +20909,7 @@ Learn Finger in Back.
 > BEGIN STRING
 [敵対時] [口→尻]ホールドを習得。[尻→口]ホールドが苦手ではなくなる。 
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Hostile] Learn the [Mouth→Ass] hold. No longer weak to [Ass→Mouth] holds.
 > END STRING
 
 > BEGIN STRING
@@ -20921,7 +20921,7 @@ Learn Finger in Back.
 > BEGIN STRING
 [敵対時] [♀→♂]素股ホールドを習得。[♂→♀]素股ホールドが苦手ではなくなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Hostile][♀→♂] Acquire the intercular hold. No longer weak to intercular.
 > END STRING
 
 > BEGIN STRING
@@ -20933,7 +20933,7 @@ Learn Finger in Back.
 > BEGIN STRING
 [オナホ→♂]オナホホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Toy→♂] Learn the masturbator hold.
 > END STRING
 
 > BEGIN STRING
@@ -20945,7 +20945,7 @@ Able to aim for anus with insertion hold
 > BEGIN STRING
 [→尻]挿入ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[→Ass] Master the insertion hold.
 > END STRING
 
 > BEGIN STRING
@@ -20973,7 +20973,7 @@ Bind Mastery
 > BEGIN STRING
 エキサイトバインドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn Excite Bind.
 > END STRING
 
 > BEGIN STRING
@@ -20985,7 +20985,7 @@ Bind Mastery
 > BEGIN STRING
 \n複合ホールドは【オーラルセックス】【ペリスコープ】を習得時、使用可能。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nCompound Hold can be used when you learn [Oral Sex] and [Periscope].
 > END STRING
 
 > BEGIN STRING
@@ -21003,7 +21003,7 @@ Bind Mastery
 > BEGIN STRING
 [口+♀→♀+口] 複合ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Mouth+♀→♀+Mouth] Learn the combination hold.
 > END STRING
 
 > BEGIN STRING
@@ -21033,13 +21033,13 @@ Bind Mastery
 > BEGIN STRING
 [寝室戦] [尻尾→体]ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Bed] Acquire the [Tail→Body] hold.
 > END STRING
 
 > BEGIN STRING
 [寝室戦] [羽→体]ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Bed] Acquire the [Wing→Body] hold.
 > END STRING
 
 > BEGIN STRING
@@ -21051,7 +21051,7 @@ Bind Mastery
 > BEGIN STRING
 [足→♂]ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Acquire the [Foot→♂] hold.
 > END STRING
 
 > BEGIN STRING
@@ -21123,13 +21123,13 @@ Bind Mastery
 > BEGIN STRING
 [腕→♂] 手責めホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Arm→♂] Learn the hand hold.
 > END STRING
 
 > BEGIN STRING
 [♂→♂] 兜合わせホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[♂→♂] Learned the frotting hold.
 > END STRING
 
 > BEGIN STRING
@@ -21147,7 +21147,7 @@ Forget all hold skills except Accept.
 > BEGIN STRING
 [寝室戦] [尻←♂]ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Bed] Acquire [Ass←♂] hold.
 > END STRING
 
 > BEGIN STRING
@@ -21184,31 +21184,31 @@ This succubus can't cook.
 > BEGIN STRING
 [寝室戦] [♀←♂]ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Bed] Acquire [♀←♂] hold.
 > END STRING
 
 > BEGIN STRING
 [寝室戦] [胸←♂]ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Bed] Acquire [Chest←♂] hold.
 > END STRING
 
 > BEGIN STRING
 [寝室戦] [胸←口]ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Bed] Acquire [Chest←Mouth] hold.
 > END STRING
 
 > BEGIN STRING
 [寝室戦] [口←♂]ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Bed] Acquire [Mouth←♂] hold.
 > END STRING
 
 > BEGIN STRING
 [寝室戦][対♂] [口←口]ホールドを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Bed][Against♂] Acquire [Mouth←Mouth] hold.
 > END STRING
 
 > BEGIN STRING
@@ -21570,19 +21570,19 @@ VP消費70以下の魔法のVP消費がなくなる。
 > BEGIN STRING
 ホールド時に使用可能な獣系スキルを習得する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Acquire beastly skills that can be used in holds.
 > END STRING
 
 > BEGIN STRING
 ワイルドスキルを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Acquire wild skills.
 > END STRING
 
 > BEGIN STRING
 一部ホールド時に使用可能なスキルを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Acquire skills that can be used during certain holds.
 > END STRING
 
 > BEGIN STRING
@@ -21606,13 +21606,13 @@ VP消費70以下の魔法のVP消費がなくなる。
 > BEGIN STRING
 ホールド時に使用可能なカウンタースキルを習得する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Acquire counter skills that can be used during a hold.
 > END STRING
 
 > BEGIN STRING
 カウンタースキルを習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn counter skills.
 > END STRING
 
 > BEGIN STRING
@@ -22707,7 +22707,7 @@ Easily attracted to women with small breasts.
 > BEGIN STRING
 \n「抑えきれぬ情欲」を習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nAcquire 「Uncontrollable Passion」
 > END STRING
 
 > BEGIN STRING
@@ -22744,7 +22744,7 @@ Easily attracted to women with small breasts.
 > BEGIN STRING
 \nミラージュ・サークルを習得する
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nLearn Mirage Circle
 > END STRING
 
 > BEGIN STRING
@@ -23173,7 +23173,7 @@ An absolute queen.
 > BEGIN STRING
 【B】ブルム系スキルを習得する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+【B】Acquire Bloom skills.
 > END STRING
 
 > BEGIN STRING
@@ -23235,7 +23235,7 @@ An absolute queen.
 > BEGIN STRING
 【B】イーザ系スキルを習得する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+【B】Acquire Iiza skills.
 > END STRING
 
 > BEGIN STRING
@@ -23296,7 +23296,7 @@ An absolute queen.
 > BEGIN STRING
 【B】夢魔のスキルを習得する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+【B】Acquire succubus skills.
 > END STRING
 
 > BEGIN STRING
@@ -23321,7 +23321,7 @@ An absolute queen.
 > BEGIN STRING
 【B】サポートスキルを習得する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+【B】Acquire support skills.
 > END STRING
 
 > BEGIN STRING
@@ -23346,7 +23346,7 @@ An absolute queen.
 > BEGIN STRING
 【B】回復スキルを習得する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+【B】Acquire recovery skills.
 > END STRING
 
 > BEGIN STRING
@@ -23681,80 +23681,80 @@ An absolute queen.
 > BEGIN STRING
 全てのステータスが強化されるが、絶頂すると元に戻る。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+All stats are strengthened, but will return to normal upon climax.
 > END STRING
 
 > BEGIN STRING
 射精スキルを強化する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Enhances ejaculation skills.
 > END STRING
 
 > BEGIN STRING
 ブレス系スキルの消費ＶＰが多くなるが、回復量も大きく増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Breath skills consume more VP, but recover a lot more.
 > END STRING
 
 > BEGIN STRING
 薄っぺらいプライド
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-
+Shallow Pride
 > END STRING
 
 > BEGIN STRING
 全てのステータスが強化されるが、絶頂する度に弱体化する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+All stats are strengthened, but weakened upon climax.
 > END STRING
 
 > BEGIN STRING
 銀の創界
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Silver Creation
 > END STRING
 
 > BEGIN STRING
 秘められた力を解放する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Unleash your hidden power.
 > END STRING
 
 > BEGIN STRING
 幻夢を漂う
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Dream Drifter
 > END STRING
 
 > BEGIN STRING
 不思議な魅力のある夢魔。個性的Xを習得できる
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+A mysteriously charming succubus. Acquire X personality.
 > END STRING
 
 > BEGIN STRING
 不思議な魅力Y
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Mysterious Charm Y
 > END STRING
 
 > BEGIN STRING
 不思議な魅力のある夢魔。個性的Yを習得できる
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+A mysteriously charming succubus. Acquire Y personality.
 > END STRING
 
 > BEGIN STRING
 不思議な魅力Z
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Mysterious Charm Z
 > END STRING
 
 > BEGIN STRING
 不思議な魅力のある夢魔。個性的Zを習得できる
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+A mysteriously charming succubus. Acquire Z personality.
 > END STRING
 
 > BEGIN STRING
@@ -25494,13 +25494,13 @@ Vagina targeting
 焦熱のギブリ
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Fiery Ghibli
 > END STRING
 
 > BEGIN STRING
 絶頂したとき敵全員の素早さを下げる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Upon climax, reduce agility of all enemies.
 > END STRING
 
 > BEGIN STRING
@@ -33847,7 +33847,7 @@ in turning motion
 > BEGIN STRING
 攻めに対し、じっと耐えている！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ patiently endures the attack!
 > END STRING
 
 > BEGIN STRING
@@ -33877,7 +33877,7 @@ in turning motion
 > BEGIN STRING
 \n\m甘い風を引き起こした！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​Brought forth a sweet breeze!
 > END STRING
 
 > BEGIN STRING
@@ -34537,7 +34537,7 @@ in turning motion
 > BEGIN STRING
 #{targetname}に、\n\mイかせてほしいと懇願してしまった……！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ begged #{targetname}\n​m​to let him cum...!
 > END STRING
 
 > BEGIN STRING
@@ -34825,7 +34825,7 @@ in turning motion
 > BEGIN STRING
 #{targetname}を尻尾で拘束しつつ、\n\m#{target.bustsize}を揉みしだいてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ squeezed #{targetname} with #{target.bustsize}\n​m​while restraining with tail!
 > END STRING
 
 > BEGIN STRING
@@ -35401,7 +35401,7 @@ two overwhelming
 > BEGIN STRING
 #{myself.bustsize}を、\n\m#{targetname}の慎ましい胸に擦り付けてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ rubbed #{myself.bustsize} against \n​m​the modest chest of #{targetname}!
 > END STRING
 
 > BEGIN STRING
@@ -35497,25 +35497,25 @@ two overwhelming
 > BEGIN STRING
 #{targetname}のペニスに\n\mアソコを押し付けてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pressed pussy against \n​m​#{targetname}'s penis!
 > END STRING
 
 > BEGIN STRING
 #{targetname}のペニスに\n\mアソコを擦り付けてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ rubbed pussy against \n​m​#{targetname}'s penis!
 > END STRING
 
 > BEGIN STRING
 #{targetname}のペニスに\n\mアソコを押し付け、しごいてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pressed pussy against \n​m​#{targetname}'s penis and stroked it!
 > END STRING
 
 > BEGIN STRING
 #{targetname}のペニスに\n\mアソコを押し付け、しごきあげてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pressed pussy against \n​m​#{targetname}'s penis and stroked it!
 > END STRING
 
 > BEGIN STRING
@@ -35539,13 +35539,13 @@ two overwhelming
 > BEGIN STRING
 #{targetname}と体を合わせ、\n\mアソコ同士を擦り合わせた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pressed body against #{targetname}'s \n​m​and rubbed private parts together!
 > END STRING
 
 > BEGIN STRING
 #{targetname}と体を合わせ、\n\mアソコ同士を強く擦り合わせた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pressed body against #{targetname}'s \n​m​and rubbed private parts together!
 > END STRING
 
 > BEGIN STRING
@@ -35557,7 +35557,7 @@ two overwhelming
 > BEGIN STRING
 #{targetname}と体を合わせ、\n\m心を折るようにアソコ同士を擦り合わせた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pressed body against #{targetname}'s \n​m​and rubbed private parts to mindbreakingly!
 > END STRING
 
 > BEGIN STRING
@@ -35947,7 +35947,7 @@ two overwhelming
 > BEGIN STRING
 キスをしつつ両手で、\n\m#{targetname}の#{target.bustsize}を#{brk3}揉みしだいてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ used both hands to squeeze \n​m​#{targetname}'s #{target.bustsize} while kissing!
 > END STRING
 
 > BEGIN STRING
@@ -37396,7 +37396,7 @@ as if to break in
 > BEGIN STRING
 #{targetname}の脚を抱え、\n\m更にアソコ同士を#{waist}擦り合わせた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ held #{targetname}'s legs and \n​m​rubbed genitals together!
 > END STRING
 
 > BEGIN STRING
@@ -37690,7 +37690,7 @@ as if dancing
 > BEGIN STRING
 #{targetname}を押さえつけ、\n\mアソコ同士を激しく擦り合わせた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ held #{targetname} down and \n​m​rubbed genitals together!
 > END STRING
 
 > BEGIN STRING
@@ -42561,7 +42561,7 @@ Edging
 > BEGIN STRING
 は#{target.name}を焦らしている！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+ is teasing #{target.name}! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -42687,7 +42687,7 @@ Edging
 > BEGIN STRING
 風のささやき
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Wind Whisper
 > END STRING
 
 > BEGIN STRING
@@ -45753,13 +45753,13 @@ Berserk behavior
 > BEGIN STRING
 #{active.name}は#{brk}#{target.name}のペニスと自分のペニスを擦り合わせた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} #{brk}rubbed penis against #{target.name}'s penis!
 > END STRING
 
 > BEGIN STRING
 #{active.name}は#{target.name}の\n下着をずらし、ペニス同士擦り合わせた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} pushed aside #{target.name}'s\nunderwear and rubbed penises together!
 > END STRING
 
 > BEGIN STRING
@@ -53437,7 +53437,7 @@ is enjoying the afterglow
 > BEGIN STRING
 #{coop_leader}と笑顔を向け合っている……！
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
- and #{coop_leader} are smiling at each other
+and #{coop_leader} are smiling at each other
 > END STRING
 
 > BEGIN STRING
@@ -62360,13 +62360,13 @@ Succubi
 > BEGIN STRING
 寸止め(
 > CONTEXT: PR_MOD_Window_Base .rb
-
+Edge(
 > END STRING
 
 > BEGIN STRING
 寸止め
 > CONTEXT: PR_MOD_Window_Base .rb
-
+Edge
 > END STRING
 
 > BEGIN STRING
@@ -71760,21 +71760,21 @@ You're exceeding the maximum level!
 > END STRING
 
 > BEGIN STRING
-#{bonus.name}」を習得
+「#{bonus.name}」を習得
 > CONTEXT: PR_Window_PromiseRight.rb
-Learn #{bonus.name}
+Learn 「#{bonus.name}」
 > END STRING
 
 > BEGIN STRING
 【#{bonus.name}】を習得
 > CONTEXT: PR_Window_PromiseRight.rb
-Learn [#{bonus.name}]
+Learn 【#{bonus.name}】
 > END STRING
 
 > BEGIN STRING
 【オーラルセックス】を習得
 > CONTEXT: PR_Window_PromiseRight.rb
-【Oral sex】 mastery
+Learn 【Oral sex】
 > END STRING
 
 > BEGIN STRING

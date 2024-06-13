@@ -472,14 +472,14 @@ Sensual Stroke率が上がる。
 ファストレイド（8000Lps.）
 > CONTEXT: Map649/events/7/pages/0/4/Choice/1 < UNTRANSLATED
 > CONTEXT: Map649/events/24/pages/0/2/Choice/1 < UNTRANSLATED
-
+Fast Raid(8000Lps.)
 > END STRING
 
 > BEGIN STRING
 トリックレイド（10000Lps.）
-> CONTEXT: Map649/events/7/pages/0/4/Choice/2 < UNTRANSLATED
-> CONTEXT: Map649/events/24/pages/0/2/Choice/2 < UNTRANSLATED
-
+> CONTEXT: Map649/events/7/pages/0/4/Choice/2
+> CONTEXT: Map649/events/24/pages/0/2/Choice/2
+Trick Raid(10000Lps.)
 > END STRING
 
 > BEGIN STRING
@@ -534,9 +534,9 @@ Sensual Stroke率が上がる。
 
 > BEGIN STRING
 「トリックレイド」を習得しました。
-> CONTEXT: Map649/events/7/pages/0/74/Dialogue < UNTRANSLATED
-> CONTEXT: Map649/events/7/pages/1/55/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map649/events/7/pages/0/74/Dialogue
+> CONTEXT: Map649/events/7/pages/1/55/Dialogue
+Mastered 「Trick Raid」
 > END STRING
 
 > BEGIN STRING
@@ -560,7 +560,7 @@ Sensual Stroke率が上がる。
 > CONTEXT: Armors/168/name/
 > CONTEXT: Map649/events/7/pages/1/4/Choice/1
 > CONTEXT: Map649/events/7/pages/1/4/Choice/1
-Fast raid
+Fast Raid
 > END STRING
 
 > BEGIN STRING
@@ -568,7 +568,7 @@ Fast raid
 > CONTEXT: Armors/169/name/
 > CONTEXT: Map649/events/7/pages/1/4/Choice/2
 > CONTEXT: Map649/events/7/pages/1/4/Choice/2
-Trick raid
+Trick Raid
 > END STRING
 
 > BEGIN STRING
@@ -821,12 +821,12 @@ Awaken Instinct
 
 > BEGIN STRING
 "女戦士"
-> CONTEXT: Map152/events/6/pages/0/0/InlineScript/1:22
 > CONTEXT: Map649/events/23/pages/0/0/InlineScript/1:22
 > CONTEXT: Map524/events/9/pages/0/0/InlineScript/1:22
 > CONTEXT: Map083/events/36/pages/0/0/InlineScript/1:22
 > CONTEXT: Map083/events/36/pages/1/0/InlineScript/1:22
 > CONTEXT: Map083/events/36/pages/2/0/InlineScript/1:22
+> CONTEXT: Map060/events/6/pages/0/0/InlineScript/1:22
 "Female warrior"
 > END STRING
 
@@ -880,7 +880,7 @@ Awaken Instinct
 > BEGIN STRING
 「ファストレイド」を取得しました。
 > CONTEXT: Map649/events/24/pages/0/44/Dialogue < UNTRANSLATED
-
+Acquired 「Fast Raid」.
 > END STRING
 
 > BEGIN STRING
@@ -894,8 +894,8 @@ Awaken Instinct
 
 > BEGIN STRING
 「トリックレイド」を取得しました。
-> CONTEXT: Map649/events/24/pages/0/72/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map649/events/24/pages/0/72/Dialogue
+Got 「Trick Raid」
 > END STRING
 
 > BEGIN STRING

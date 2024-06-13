@@ -129,6 +129,7 @@ Stun
 > CONTEXT: Commonevents/280/958/Choice/0 < UNTRANSLATED
 > CONTEXT: Commonevents/280/1630/Choice/1 < UNTRANSLATED
 > CONTEXT: Commonevents/280/1630/Choice/1 < UNTRANSLATED
+> CONTEXT: Items/400/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -229,7 +230,6 @@ Lotion
 > BEGIN STRING
 恍惚
 > CONTEXT: States/34/name/
-> CONTEXT: Map204/events/3/pages/0/69/Choice/0
 > CONTEXT: Map158/events/23/pages/0/137/Choice/0
 > CONTEXT: Map158/events/23/pages/0/137/Choice/0
 > CONTEXT: Commonevents/280/124/Choice/0
@@ -244,7 +244,6 @@ Ecstasy
 > BEGIN STRING
 欲情
 > CONTEXT: States/35/name/
-> CONTEXT: Map204/events/3/pages/0/69/Choice/1
 > CONTEXT: Map158/events/23/pages/0/137/Choice/1
 > CONTEXT: Map158/events/23/pages/0/137/Choice/1
 > CONTEXT: Commonevents/280/124/Choice/1
@@ -259,7 +258,6 @@ Lust
 > BEGIN STRING
 暴走
 > CONTEXT: States/36/name/
-> CONTEXT: Map204/events/3/pages/0/69/Choice/2
 > CONTEXT: Map600/events/1/pages/0/13/Choice/1
 > CONTEXT: Map600/events/1/pages/0/13/Choice/1
 > CONTEXT: Map600/events/1/pages/0/57/Choice/1
@@ -286,7 +284,6 @@ Berserk
 > BEGIN STRING
 虚脱
 > CONTEXT: States/37/name/
-> CONTEXT: Map204/events/3/pages/0/138/Choice/0
 > CONTEXT: Map158/events/23/pages/0/205/Choice/0
 > CONTEXT: Map158/events/23/pages/0/205/Choice/0
 > CONTEXT: Commonevents/280/124/Choice/3
@@ -301,7 +298,6 @@ Lethargy
 > BEGIN STRING
 畏怖
 > CONTEXT: States/38/name/
-> CONTEXT: Map204/events/3/pages/0/138/Choice/1
 > CONTEXT: Map158/events/23/pages/0/205/Choice/1
 > CONTEXT: Map158/events/23/pages/0/205/Choice/1
 > CONTEXT: Commonevents/280/234/Choice/0
@@ -316,7 +312,6 @@ Fear
 > BEGIN STRING
 麻痺
 > CONTEXT: States/39/name/
-> CONTEXT: Map204/events/3/pages/0/138/Choice/2
 > CONTEXT: States/322/name/
 > CONTEXT: Map158/events/23/pages/0/205/Choice/2
 > CONTEXT: Map158/events/23/pages/0/205/Choice/2
@@ -332,7 +327,6 @@ Paralysis
 > BEGIN STRING
 散漫
 > CONTEXT: States/40/name/
-> CONTEXT: Map204/events/3/pages/0/138/Choice/3
 > CONTEXT: Map158/events/23/pages/0/205/Choice/3
 > CONTEXT: Map158/events/23/pages/0/205/Choice/3
 > CONTEXT: Commonevents/280/234/Choice/2

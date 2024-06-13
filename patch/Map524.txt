@@ -633,7 +633,6 @@ and choose the succubi that will be your companions.
 
 > BEGIN STRING
 "魔法士の青年"
-> CONTEXT: Map152/events/9/pages/0/0/InlineScript/1:22
 > CONTEXT: Map524/events/7/pages/0/0/InlineScript/1:22
 "Young Magician"
 > END STRING
@@ -1094,10 +1093,10 @@ and eat that in the dungeon...
 
 > BEGIN STRING
 "バーテンダー"
-> CONTEXT: Map152/events/10/pages/0/0/InlineScript/1:22
-> CONTEXT: Map152/events/10/pages/1/0/InlineScript/1:22
 > CONTEXT: Map524/events/16/pages/0/3/InlineScript/1:22
 > CONTEXT: Map524/events/16/pages/1/3/InlineScript/1:22
+> CONTEXT: Map193/events/2/pages/1/3/InlineScript/1:22
+> CONTEXT: Map060/events/1/pages/0/0/InlineScript/1:22
 "Bartender"
 > END STRING
 
@@ -1107,6 +1106,7 @@ and eat that in the dungeon...
 酒は出せねーが、なんか食っていくか？
 > CONTEXT: Map524/events/16/pages/0/5/Dialogue
 > CONTEXT: Map524/events/16/pages/1/5/Dialogue
+> CONTEXT: Map193/events/2/pages/1/5/Dialogue
 \\name[\\v[2]]\\_
 Yo \\v[3].
 I can't serve alcohol, but would you like to eat something?

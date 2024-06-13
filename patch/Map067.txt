@@ -3,8 +3,83 @@
 「迷いの森」
 
 ↓　出口
-> CONTEXT: Map067/events/30/pages/0/0/Dialogue
+> CONTEXT: None < UNUSED
 "Lost Forest"
 
 ↓ Exit
+> END STRING
+
+> BEGIN STRING
+"魔法見習い"
+> CONTEXT: Map067/events/5/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map067/events/5/pages/1/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map067/events/5/pages/2/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map067/events/5/pages/3/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+集中しているようだ。
+そっとしておこう。
+> CONTEXT: Map067/events/5/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+……邪魔しない方がよさそうだ。
+> CONTEXT: Map067/events/5/pages/1/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なんだね？
+さっきから私の周りをこそこそと。
+> CONTEXT: Map067/events/5/pages/2/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そんなに私と\\c[12]イイコト\\c[0]したいなら
+相手してあげるよ？
+> CONTEXT: Map067/events/5/pages/2/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ベル"
+> CONTEXT: Map067/events/5/pages/2/45/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map067/events/5/pages/4/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふっ……\\H
+今日のところは、これぐらいにしておきましょう……\\H
+> CONTEXT: Map067/events/5/pages/2/46/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふっ。
+今日のところは、これぐらいにしておきましょう……\\H
+> CONTEXT: Map067/events/5/pages/3/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+またキミ達か……。
+今度は何の用だい？
+> CONTEXT: Map067/events/5/pages/4/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+再戦しますか？
+> CONTEXT: Map067/events/5/pages/4/4/Dialogue < UNTRANSLATED
+
 > END STRING
