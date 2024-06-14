@@ -50,7 +50,7 @@ def extract_strings(folder_path, output_file, update={}):
 
 def autotranslate(translations_file, lines, multiline=20):
     import pyperclip
-    i = 911050
+    i = 918755
     batchi = []
     batcht = ""
     while i < len(lines):
@@ -78,10 +78,10 @@ def autotranslate(translations_file, lines, multiline=20):
                     pyperclip.copy(batcht)
                     paste = []
                     while(pyperclip.paste() == batcht or len(paste) != len(batcht.split("\n"))):
-                        time.sleep(1)
-                        print(len(paste))
-                        print(len(batcht.split("\n")))
-                        if len(paste) != len(batcht.split("\n")) and len(paste) > max(multiline-10,10) and pyperclip.paste() != batcht:
+                        time.sleep(0.2)
+                        #print(len(paste))
+                        #print(len(batcht.split("\n")))
+                        if len(paste) != len(batcht.split("\n")) and len(paste) > max(multiline-15,5) and pyperclip.paste() != batcht:
                             print("Switched to 2 lines")
                             return 2
                         paste = re.findall("\[\[\"(.*)\"\]\]", pyperclip.paste())
@@ -107,8 +107,8 @@ def autotranslate(translations_file, lines, multiline=20):
                             parts = translated.split("\\n")
                             translated = ""
                             for p in parts:
-                                if len(p) > 50 and p.find(",", 20) >= 0:
-                                    p = p[:p.find(",", 20)]+"\\n　"+p[p.find(",", 20)+1:]
+                                if len(p) > 60 and p.find(",", 30) >= 0:
+                                    p = p[:p.find(",", 30)+1]+"\\n　"+p[p.find(",", 30)+2:]
                                 translated += p if translated=="" else "\\n"+p
                                     
                             lines[batchi[j]] = translated+"\n"

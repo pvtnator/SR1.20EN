@@ -135,9 +135,11 @@ Let's do it again!
 \\name[\\v[2]]\\_
 ふふーん！　おねーちゃんもまだまだだね！
 またいつでも挑戦しに来ていいよっ！
-> CONTEXT: Map150/events/73/pages/0/93/Dialogue < UNTRANSLATED
-> CONTEXT: Map150/events/73/pages/0/99/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map150/events/73/pages/0/93/Dialogue
+> CONTEXT: Map150/events/73/pages/0/99/Dialogue
+\\name[\\v[2]]\\_
+Hmm! You still have a long way to go, big sister!
+You can come and try again anytime!
 > END STRING
 
 > BEGIN STRING
@@ -152,63 +154,72 @@ You can come and try again anytime!
 
 > BEGIN STRING
 "変わったゴブリン"
-> CONTEXT: Map150/events/75/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map150/events/79/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map150/events/75/pages/0/0/InlineScript/1:22
+> CONTEXT: Map150/events/79/pages/0/0/InlineScript/1:22
+"Strange Goblin"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 うう……穴があったら入りたい……
-> CONTEXT: Map150/events/75/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map150/events/75/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Ugh... I wish there was a hole to crawl into...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 この子はあたいたちゴブリンの中でも
 トクベツな才能があるホブゴブリンなんだ！
-> CONTEXT: Map150/events/76/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map150/events/78/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map150/events/76/pages/0/1/Dialogue
+> CONTEXT: Map150/events/78/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+You're a hobgoblin 
+with a special talent among us goblins!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 だからみんなからも大事にされてるんだよ！
-> CONTEXT: Map150/events/76/pages/0/4/Dialogue < UNTRANSLATED
-> CONTEXT: Map150/events/78/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map150/events/76/pages/0/4/Dialogue
+> CONTEXT: Map150/events/78/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+That's why everyone cares about you!
 > END STRING
 
 > BEGIN STRING
 "呪術師のゴブリン"
-> CONTEXT: Map150/events/77/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map150/events/77/pages/0/0/InlineScript/1:22
+"Sorcerer Goblin"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 才能があったとしても、
 それが必ず開花するとは限らないよね……
-> CONTEXT: Map150/events/77/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map150/events/77/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Even if you have talent,
+it doesn't necessarily mean it will blossom...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 洗濯をしてると、なんだか
 心まで洗われてくような気がするよね……
-> CONTEXT: Map150/events/79/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map150/events/79/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+When I do the laundry, 
+I feel like my heart is being cleansed as well...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 よしよし、今日も大漁だ♪
-> CONTEXT: Map150/events/81/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map150/events/81/pages/1/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map150/events/81/pages/0/1/Dialogue
+> CONTEXT: Map150/events/81/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+Great, great catch today too♪
 > END STRING
 
 > BEGIN STRING
@@ -216,17 +227,22 @@ You can come and try again anytime!
 ……うん？あんたも稼ぎたいの？
 なら、私みたいに探索が得意な子を
 連れて行くといいよ！
-> CONTEXT: Map150/events/81/pages/0/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map150/events/81/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+...Huh? You want to earn some money too?
+Then bring along someone 
+who's good at exploring, like me!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 【蒐集】は珍しい物が手に入りやすくなるし、
 【金運】はお金が多めに貰えるようになるからね
-> CONTEXT: Map150/events/81/pages/0/7/Dialogue < UNTRANSLATED
-> CONTEXT: Map150/events/81/pages/1/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map150/events/81/pages/0/7/Dialogue
+> CONTEXT: Map150/events/81/pages/1/7/Dialogue
+\\name[\\v[2]]\\_
+【Collecting】 makes it easier to get rare items,
+【Fortune】 allows you to receive more money.
 > END STRING
 
 > BEGIN STRING
@@ -234,9 +250,12 @@ You can come and try again anytime!
 珍しい物が採取しやすくなる【目聡い採取】や、
 一度に沢山採取できるようになる【集中採取】
 なんかも悪くないと思うよ！
-> CONTEXT: Map150/events/81/pages/0/10/Dialogue < UNTRANSLATED
-> CONTEXT: Map150/events/81/pages/1/10/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map150/events/81/pages/0/10/Dialogue
+> CONTEXT: Map150/events/81/pages/1/10/Dialogue
+\\name[\\v[2]]\\_
+Things like 【Smart Harvest】, which makes it easier 
+to gather rare items, and 【Intense Harvest】, 
+which lets you gather a lot at once, are not bad either!
 > END STRING
 
 > BEGIN STRING
@@ -244,29 +263,35 @@ You can come and try again anytime!
 ……うん？あんたも稼ぎたいの？
 なら、私みたいに探索が得意な
 娘を連れて行くといいよ！
-> CONTEXT: Map150/events/81/pages/1/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map150/events/81/pages/1/3/Dialogue
+\\name[\\v[2]]\\_
+...Huh? You want to earn some money too?
+Then you should bring along a girl 
+who's good at exploring like me!
 > END STRING
 
 > BEGIN STRING
 "雰囲気の違うゴブリン"
-> CONTEXT: Map150/events/84/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map150/events/84/pages/0/0/InlineScript/1:22
+"Goblin who stands out"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 獄界ってしってる？
-> CONTEXT: Map150/events/84/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map150/events/84/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Do you know about hell?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 この洞窟の最下層にあるんだけど、
 封印されていて通常の手段では入れないんだ
-> CONTEXT: Map150/events/84/pages/0/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map150/events/84/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+It's at the very bottom of this cave, 
+but it's sealed off and can't be entered by normal means.
 > END STRING
 
 > BEGIN STRING
@@ -274,6 +299,9 @@ You can come and try again anytime!
 触れば簡単に止めれると思うけど……
 私たちの生活に関わるから
 間違っても勝手に止めないでよね？！
-> CONTEXT: Map150/events/84/pages/0/10/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map150/events/84/pages/0/10/Dialogue
+\\name[\\v[2]]\\_
+I think it would be easy to stop it if you touched it...
+It affects our lives, 
+so please don't stop it by yourself, okay?!
 > END STRING

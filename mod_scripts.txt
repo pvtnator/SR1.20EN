@@ -4070,7 +4070,7 @@ Barbarian's collar
 > BEGIN STRING
 #{@name}は\n空腹の限界だ！
 > CONTEXT: O_MOD_Game_Actor.rb
-
+#{@name} is\nstarving!
 > END STRING
 
 > BEGIN STRING
@@ -6446,7 +6446,7 @@ Interrupt
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: O_MOD_SR_Util_Skill使用判定.rb
-
+Request
 > END STRING
 
 > BEGIN STRING
@@ -8635,7 +8635,7 @@ Super berserk
 > CONTEXT: O_MOD_Game_Battler_1.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Beast Greed
 > END STRING
 
 > BEGIN STRING
@@ -8804,7 +8804,7 @@ Thick clothes
 ピュアスキーマー
 > CONTEXT: O_MOD_Game_Battler_1.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Pure Schemer
 > END STRING
 
 > BEGIN STRING
@@ -18170,20 +18170,20 @@ Virgin rate
 集中採取
 > CONTEXT: O_MOD_Game_Party.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Intense Harvest
 > END STRING
 
 > BEGIN STRING
 大量採取
 > CONTEXT: O_MOD_Game_Party.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Mass harvest
 > END STRING
 
 > BEGIN STRING
 \n\\T[#{id}]#{$data_items[id].name}　を２つ手に入れた！
 > CONTEXT: O_MOD_Game_Party.rb
-
+\n2 \\T[#{id}]#{$data_items[id].name} obtained!
 > END STRING
 
 > BEGIN STRING
@@ -19214,7 +19214,7 @@ Lubrication level of the vagina is hard to increase.
 > BEGIN STRING
 虚脱系状態（虚脱、骨抜き）になりにくい。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Less likely to get inflicted with lethargy or bone loss.
 > END STRING
 
 > BEGIN STRING
@@ -19262,7 +19262,7 @@ Increased endurance and reduced speed when clothed.
 > BEGIN STRING
 胞子の影響を受けず、毒にも強い。媚薬にも耐性を得る。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Unaffected by spores, resistant to poison and love potions.
 > END STRING
 
 > BEGIN STRING
@@ -20067,7 +20067,7 @@ Easier to obtain rare items when harvesting
 > BEGIN STRING
 採取回数が多くなりやすい。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Able to harvest more.
 > END STRING
 
 > BEGIN STRING
@@ -23358,7 +23358,7 @@ An absolute queen.
 > BEGIN STRING
 \n　　　  イリスシード・アルダ～イリスフラウ・アルダ
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\n　　　Iris Seed: Aldar ~ Iris Flower: Aldar
 > END STRING
 
 > BEGIN STRING
@@ -25506,13 +25506,13 @@ Upon climax, reduce agility of all enemies.
 > BEGIN STRING
 状態異常ではない時、魅力・忍耐力・素早さが上がる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+When not under a status abnormality, charm, patience and agility are increased.
 > END STRING
 
 > BEGIN STRING
 主人公とキスすると、魅力と精力が上がる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Kissing the main character increases your charm and energy.
 > END STRING
 
 > BEGIN STRING
@@ -25935,7 +25935,7 @@ Prefers women
 > BEGIN STRING
 主人公とキスすると忍耐力が減少し、精力と器用さが上がる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Kissing the protagonist reduces endurance and increases energy and dexterity.
 > END STRING
 
 > BEGIN STRING
@@ -27056,7 +27056,7 @@ Dream Traveler
 > CONTEXT: O_MOD_RPG_Class_ボーナス.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-Mushroom farmer
+Mushroom Farmer
 > END STRING
 
 > BEGIN STRING
@@ -28701,19 +28701,19 @@ Anus
 > BEGIN STRING
 、\n\m#{targetname}に懇願した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+,\n​m​begged #{targetname}!
 > END STRING
 
 > BEGIN STRING
 、\n\m#{targetname}におねだりした！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+,\n​m​requested #{targetname}!
 > END STRING
 
 > BEGIN STRING
 、\n\mおねだりを中断した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+,\n​m​Begging interrupted!
 > END STRING
 
 > BEGIN STRING
@@ -29436,7 +29436,7 @@ shook hips hard
 > BEGIN STRING
 \n\m待ち構えていた#{targetname}の膣が\n\mペニスを急激に締め上げてくる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​#{targetname}'s vagina, which had been waiting for me,\n​m​suddenly tightens around my penis!
 > END STRING
 
 > BEGIN STRING
@@ -29694,7 +29694,7 @@ with a bewitched look
 > BEGIN STRING
 \n\m#{targetname}の待ち構えていた膣が\n\mペニスを急激に締め上げてくる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​#{targetname}'s waiting vagina\n​m​suddenly tightens around the penis!
 > END STRING
 
 > BEGIN STRING
@@ -31950,7 +31950,7 @@ seems flustered...
 > BEGIN STRING
 イリスシード・アルダの魔法を詠唱した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+Iris Seed: Aldar has been cast!
 > END STRING
 
 > BEGIN STRING
@@ -34621,7 +34621,7 @@ in turning motion
 > BEGIN STRING
 #{activename}は触手で焦らすように\n\m#{targetname}のアソコを撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+#{activename} used tentacles \n​m​to tease #{targetname}'s genitals!
 > END STRING
 
 > BEGIN STRING
@@ -34645,7 +34645,7 @@ in turning motion
 > BEGIN STRING
 #{activename}は触手を服の中に滑り込ませ\n\m#{targetname}のアソコを撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+#{activename} slipped a tentacle under \n​m​#{targetname}'s clothes and caressed her vagina!
 > END STRING
 
 > BEGIN STRING
@@ -35125,13 +35125,13 @@ in turning motion
 > BEGIN STRING
 #{tec}、\n\m#{targetname}の#{brk4}ペニスを弄んでいる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ is playing with \n​m​#{targetname}'s #{brk4}penis#{tec}!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の股の間に足を滑り込ませ、\n\mアソコを小刻みに刺激してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ slipped foot between #{targetname}'s legs \n​m​and gave her a quick nudge!
 > END STRING
 
 > BEGIN STRING
@@ -35413,7 +35413,7 @@ two overwhelming
 > BEGIN STRING
 強く抱き合い、\n\m#{targetname}に#{myself.bustsize}を擦りつけてきた！\n\m互いの胸が淫らに歪み踊る！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ and #{targetname} embraced each other tightly \n​m​and rubbed their #{myself.bustsize} together! \n​m​Their breasts danced erotically!
 > END STRING
 
 > BEGIN STRING
@@ -35521,7 +35521,7 @@ two overwhelming
 > BEGIN STRING
 #{tec}、\n\m#{targetname}に馬乗りのままペニスを弄んでいる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ is riding #{targetname} and \n​m​playing with his penis#{tec}!
 > END STRING
 
 > BEGIN STRING
@@ -35653,7 +35653,7 @@ two overwhelming
 > BEGIN STRING
 #{targetname}の\n\m#{target.bustsize}を、足の指で小刻みに刺激してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ gently rubbed #{targetname}'s\n​m​#{target.bustsize} with toes!
 > END STRING
 
 > BEGIN STRING
@@ -35695,7 +35695,7 @@ two overwhelming
 > BEGIN STRING
 #{tec}、\n\m#{targetname}の#{target.bustsize}を足で更に攻め立てる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ further attacks #{target.bustsize} \n​m​of #{targetname} with feet#{tec}!
 > END STRING
 
 > BEGIN STRING
@@ -35707,7 +35707,7 @@ two overwhelming
 > BEGIN STRING
 足の裏で、\n\m#{targetname}のアソコを小刻みに刺激してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ gently stimulated \n​m​#{targetname}'s genitals with foot soles!
 > END STRING
 
 > BEGIN STRING
@@ -35965,7 +35965,7 @@ two overwhelming
 > BEGIN STRING
 キスをしつつ手で、\n\m#{targetname}のアソコを撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ stroked \n​m​#{targetname}'s genitals by hand while kissing!
 > END STRING
 
 > BEGIN STRING
@@ -35977,7 +35977,7 @@ two overwhelming
 > BEGIN STRING
 キスをしつつ#{targetpantsu}の上から、\n\m#{targetname}のアソコを撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ caressed her vagina \n​m​over her #{targetpantsu} while kissing!
 > END STRING
 
 > BEGIN STRING
@@ -36013,25 +36013,25 @@ two overwhelming
 > BEGIN STRING
 \n\m手で、#{targetname}のアソコを撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​stroked #{targetname}'s vagina by hand!
 > END STRING
 
 > BEGIN STRING
 \n\m指先で、#{targetname}のアソコの入り口を愛撫してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ caressed the entrance of \n​m​#{targetname}'s vagina with fingertips!
 > END STRING
 
 > BEGIN STRING
 、#{targetname}の#{target.bustsize}に\n\m#{targetpantsu}の上からキスしつつ、アソコを撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+, kissed #{targetname}'s #{target.bustsize} over\n​m​#{targetpantsu} and stroked her vagina!
 > END STRING
 
 > BEGIN STRING
 見せながら、\n\m#{targetname}の乳首とペニスを攻めた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ attacked \n​m​#{targetname}'s nipples and penis while showing off!
 > END STRING
 
 > BEGIN STRING
@@ -36067,7 +36067,7 @@ two overwhelming
 > BEGIN STRING
 上目遣いで見上げながら
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+while looking up
 > END STRING
 
 > BEGIN STRING
@@ -36091,7 +36091,7 @@ two overwhelming
 > BEGIN STRING
 持ち上げるような姿勢で、\n\m#{targetname}のアソコとお尻を攻めてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ lifted and \n​m​attacked #{targetname}'s vagina and ass!
 > END STRING
 
 > BEGIN STRING
@@ -37390,7 +37390,7 @@ as if to break in
 > BEGIN STRING
 #{targetname}と脚を絡めあい、\n\mアソコ同士を#{waist}擦り合わせた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- entangled legs with #{targetname} and rubbed private parts together#{waist}!
+ entangled legs with #{targetname} \n​m​and rubbed private parts together#{waist}!
 > END STRING
 
 > BEGIN STRING
@@ -38134,19 +38134,19 @@ as if dancing
 > BEGIN STRING
 \n\m#{tec}、ペニスを弄んでいる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​is playing with the penis#{tec}!
 > END STRING
 
 > BEGIN STRING
 \n\m滑り込ませた手で、ペニスを弄んでいる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​slides hand inside and plays with the penis!
 > END STRING
 
 > BEGIN STRING
 \n\m#{tec}、馬乗りでペニスを弄んでいる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​is riding on top and playing with the penis#{tec}!
 > END STRING
 
 > BEGIN STRING
@@ -38704,7 +38704,7 @@ suddenly hugged tightly!
 > BEGIN STRING
 \n\m#{tec}ペニスを弄んでいる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​is playing with the penis#{tec}!
 > END STRING
 
 > BEGIN STRING
@@ -38734,7 +38734,7 @@ suddenly hugged tightly!
 > BEGIN STRING
 \n\m馬乗りでペニスを弄んでいる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​rides and plays with the penis!
 > END STRING
 
 > BEGIN STRING
@@ -38968,7 +38968,7 @@ suddenly hugged tightly!
 > BEGIN STRING
 \n\mなおも舐め回しながら、ペニスを弄んでいる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​ continues licking and playing with the penis!
 > END STRING
 
 > BEGIN STRING
@@ -38980,7 +38980,7 @@ suddenly hugged tightly!
 > BEGIN STRING
 \n\mなおも舐め回しながら、馬乗りでペニスを弄んでいる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​continues licking it all over \nand playing with the penis while riding!
 > END STRING
 
 > BEGIN STRING
@@ -40184,7 +40184,7 @@ Target: penis
 > BEGIN STRING
 #{targetname}を組み伏せ、\n#{myself.bustsize}でペニスを弄んでいる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pinned #{targetname} down and \nplayed with his penis with #{myself.bustsize}!
 > END STRING
 
 > BEGIN STRING
@@ -40652,7 +40652,7 @@ Target: penis
 > BEGIN STRING
 腰をしっかり密着させ、
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ keeps waist tightly in place,
 > END STRING
 
 > BEGIN STRING
@@ -40670,7 +40670,7 @@ Target: penis
 > BEGIN STRING
 \n快楽に備えた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\nand prepares for pleasure!
 > END STRING
 
 > BEGIN STRING
@@ -41532,7 +41532,7 @@ Tender Kiss
 バックピストン
 > CONTEXT: O_MOD_Scene_Battle_3.rb
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
-
+Back Piston
 > END STRING
 
 > BEGIN STRING
@@ -41540,7 +41540,7 @@ Tender Kiss
 > CONTEXT: O_MOD_Scene_Battle_3.rb
 > CONTEXT: O_MOD_Scene_Battle_AttackElementChange.rb
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
-Oral piston
+Oral Piston
 > END STRING
 
 > BEGIN STRING
@@ -41626,7 +41626,7 @@ Demon's Suck
 ラビングピストン
 > CONTEXT: O_MOD_Scene_Battle_3.rb
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
-Rubbing piston
+Rubbing Piston
 > END STRING
 
 > BEGIN STRING
@@ -42134,7 +42134,7 @@ Corrupt Scratch
 > BEGIN STRING
 のアソコがきゅっと締まる！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+'s pussy is tightly squeezed! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -42176,7 +42176,7 @@ Corrupt Scratch
 > BEGIN STRING
 効果後口上：
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Post-effect message:
 > END STRING
 
 > BEGIN STRING
@@ -42384,7 +42384,7 @@ VPブレイク
 > BEGIN STRING
 の体が情欲で狂いだした！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+'s body went wild with lust!
 > END STRING
 
 > BEGIN STRING
@@ -44304,9 +44304,9 @@ Run
 > END STRING
 
 > BEGIN STRING
-は
+"は"
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-Z
+" and "
 > END STRING
 
 > BEGIN STRING
@@ -44330,33 +44330,33 @@ None
 > END STRING
 
 > BEGIN STRING
-に「おねだり
+に「おねだり」
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+ request
 > END STRING
 
 > BEGIN STRING
 継続中の行動：
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+Ongoing actions:
 > END STRING
 
 > BEGIN STRING
 ←→：ページ切り替え
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+←→:Page switching
 > END STRING
 
 > BEGIN STRING
 魅了の香水
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+Enchanting perfume
 > END STRING
 
 > BEGIN STRING
 魅了のルーン
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+Charm Rune
 > END STRING
 
 > BEGIN STRING
@@ -46281,7 +46281,7 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}のペニスは、\n#{active.name}の胸の谷間に飲み込まれた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name}'s penis was swallowed \nbetween #{active.name}'s breasts!
 > END STRING
 
 > BEGIN STRING
@@ -46293,7 +46293,7 @@ Berserk behavior
 > BEGIN STRING
 下着をずらされ、#{target.name}のペニスは\n#{active.name}の胸の谷間に飲み込まれた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name}'s underwear was moved aside \nand penis swallowed between #{active.name}'s breasts!
 > END STRING
 
 > BEGIN STRING
@@ -49719,25 +49719,25 @@ Select the member whose status you want to change.
 > BEGIN STRING
 嗜好の弱点
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Weakness preference
 > END STRING
 
 > BEGIN STRING
 特殊な弱点
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Special weakness
 > END STRING
 
 > BEGIN STRING
 身体の弱点
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Physical weakness
 > END STRING
 
 > BEGIN STRING
 強力な弱点
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Strong weakness
 > END STRING
 
 > BEGIN STRING
@@ -51094,7 +51094,7 @@ GAME_PLAYED
 > END STRING
 
 > BEGIN STRING
-#{map_split}」エリア\n簡易戦闘実行可能！
+「#{map_split}」」エリア\n簡易戦闘実行可能！
 > CONTEXT: O_MOD_SR_Util_other_2.rb
 Simple battles available\n
 in #{map_split} area!
@@ -51462,13 +51462,13 @@ __S
 快感で身悶えしている……！
 > CONTEXT: O_MOD_SR_Util_spam.rb
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
- is writhing with pleasure...!
+writhing with pleasure...!
 > END STRING
 
 > BEGIN STRING
 \q\mしかし#{$msg.t_enemy.name}は、まだ物足りない様子だ……！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+​q​m​But #{$msg.t_enemy.name} still seems unsatisfied...!
 > END STRING
 
 > BEGIN STRING
@@ -51480,7 +51480,7 @@ __S
 > BEGIN STRING
 #{$msg.t_enemy.name}を絶頂させた！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+{$msg.t_enemy.name} was made to climax!
 > END STRING
 
 > BEGIN STRING
@@ -51516,7 +51516,7 @@ __S
 > BEGIN STRING
 しかし#{$msg.t_enemy.name}は、まだ物足りない様子だ……！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+However, #{$msg.t_enemy.name} still seems unsatisfied...!
 > END STRING
 
 > BEGIN STRING
@@ -52623,13 +52623,13 @@ sucking #{t_actor}'s penis
 > BEGIN STRING
 #{t_actor}のペニスを挟んでしごいてきた！
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
-
+squeezing and stroking #{t_actor}'s penis
 > END STRING
 
 > BEGIN STRING
 #{t_actor}のペニスを擦り上げた！
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
-
+rubbing #{t_actor}'s penis
 > END STRING
 
 > BEGIN STRING
@@ -58932,7 +58932,7 @@ But it has no effect on #{battler_one.name}
 > BEGIN STRING
 エンジェルはイリスシード・アルダを詠唱した！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Angel chanted Iris Seed: Aldar!
 > END STRING
 
 > BEGIN STRING
@@ -69792,13 +69792,13 @@ Poison is draining #{myname}'s strength!
 > BEGIN STRING
 #{myname}は意識を集中できなくなった……！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} can no longer concentrate...!
 > END STRING
 
 > BEGIN STRING
 #{myname}の意識を集中できなくなった……！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} can't concentrate anymore...!
 > END STRING
 
 > BEGIN STRING
@@ -69948,7 +69948,7 @@ Aphrodisiac is making #{myname} sensitive!
 > BEGIN STRING
 #{myname}は能力が強化された！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname}'s abilities have been enhanced!
 > END STRING
 
 > BEGIN STRING
@@ -70056,7 +70056,7 @@ enhanced further
 > BEGIN STRING
 \w\n#{myname}は能力が強化された！
 > CONTEXT: PR_RPG_Statetext.rb
-
+​w​\n#{myname}'s abilities have been enhanced!
 > END STRING
 
 > BEGIN STRING
