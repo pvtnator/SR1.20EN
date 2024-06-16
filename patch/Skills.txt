@@ -1163,8 +1163,8 @@ Hard Kiss/100
 
 > BEGIN STRING
 [口→口] 舌を絡めあう激しいキッス。 [ムードアップ・低確率：恍惚][条件：キッス(LvMAX)][精力/魅力]
-> CONTEXT: Skills/116/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/116/description/
+[Mouth→Mouth] Passionate, tongues entwined. [Mood Up, Ecstasy][Req: Kiss (LvMAX)][Energy/Charm]
 > END STRING
 
 > BEGIN STRING
@@ -2432,7 +2432,7 @@ Wash Flood
 
 > BEGIN STRING
 スリープ
-> CONTEXT: Skills/228/name/ < UNTRANSLATED
+> CONTEXT: Skills/228/name/
 Sleep
 > END STRING
 
@@ -2444,7 +2444,7 @@ Sleep
 
 > BEGIN STRING
 ペイド・スリープ
-> CONTEXT: Skills/229/name/ < UNTRANSLATED
+> CONTEXT: Skills/229/name/
 Boosted: Sleep
 > END STRING
 
@@ -2640,7 +2640,7 @@ Put on the clothes you took off
 
 > BEGIN STRING
 品定め/90
-> CONTEXT: Skills/260/name/ < UNTRANSLATED
+> CONTEXT: Skills/260/name/
 Appraisal/90
 > END STRING
 
@@ -3096,50 +3096,50 @@ Lovely Kiss/100/4
 
 > BEGIN STRING
 ロマンスキッス/100/4
-> CONTEXT: Skills/309/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/309/name/
+Romance Kiss/100/4
 > END STRING
 
 > BEGIN STRING
 [口→口][CT:4] キスで攻める。[ムード小・中確率：ドキドキ][器用さ/魅力]
-> CONTEXT: Skills/309/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/309/description/
+[Mouth→Mouth][CT:4] Attack with kisses. [Mood, Arouse][Dexterity/Charm]
 > END STRING
 
 > BEGIN STRING
 ファシネイトキッス/100/4
-> CONTEXT: Skills/310/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/310/name/
+Fascinate Kiss/100/4
 > END STRING
 
 > BEGIN STRING
 [口→口][CT:4] キスで攻める。[ムード中・中確率：恍惚][器用さ/魅力]
-> CONTEXT: Skills/310/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/310/description/
+[Mouth→Mouth][CT:4] Attack with kisses. [Mood, Ecstasy][Dexterity/charm]
 > END STRING
 
 > BEGIN STRING
 フローズンキッス/100/4
-> CONTEXT: Skills/311/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/311/name/
+Frozen Kiss/100/4
 > END STRING
 
 > BEGIN STRING
 [口→口][CT:4] 冷たい唇でキスする。[必中：ディレイ][器用さ/魅力]
-> CONTEXT: Skills/311/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/311/description/
+[Mouth→Mouth][CT:4] Kiss with cold lips. [Guaranteed hit, Delay][Dexterity/Charm]
 > END STRING
 
 > BEGIN STRING
 ドリーミィキッス/100/4
-> CONTEXT: Skills/312/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/312/name/
+Dreamy Kiss/100/4
 > END STRING
 
 > BEGIN STRING
 [口→口][CT:4] キスで攻める。[中確率：眠り][器用さ/魅力]
-> CONTEXT: Skills/312/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/312/description/
+[Mouth→Mouth][CT:4] Attack with a kiss. [Chance: Sleep][Dexterity/Charm]
 > END STRING
 
 > BEGIN STRING
@@ -3983,7 +3983,7 @@ Howling
 
 > BEGIN STRING
 魔性の口付け/10
-> CONTEXT: Skills/416/name/ < UNTRANSLATED
+> CONTEXT: Skills/416/name/
 Devilish Kiss/10
 > END STRING
 
@@ -4068,14 +4068,14 @@ Repentance
 
 > BEGIN STRING
 癒しの口付け/70
-> CONTEXT: Skills/423/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/423/name/
+Healing Kiss/70
 > END STRING
 
 > BEGIN STRING
 [口→口] 味方に口付けをしてＥＰを小回復させ、スタン・恍惚・暴走を解除する。
-> CONTEXT: Skills/423/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/423/description/
+[Mouth→Mouth] Kisses ally to recover a bit of EP, cure stun, ecstasy, and berserk.
 > END STRING
 
 > BEGIN STRING
@@ -5386,7 +5386,7 @@ Make yourself focused. (Dexterity/Spirit↓Energy/Agility↑Lose distraction/agi
 
 > BEGIN STRING
 自身を暴走状態にする。
-> CONTEXT: Skills/601/description/ < UNTRANSLATED
+> CONTEXT: Skills/601/description/
 Put yourself in berserk.
 > END STRING
 
@@ -5398,7 +5398,7 @@ Overconfidence
 
 > BEGIN STRING
 自分の魅力を２段階上げ、高揚状態にし、ムードを上げる。
-> CONTEXT: Skills/602/description/ < UNTRANSLATED
+> CONTEXT: Skills/602/description/
 Increases charm by 2 levels, makes you exalted, and improves mood.
 > END STRING
 
@@ -6607,8 +6607,8 @@ Elekiter Press
 
 > BEGIN STRING
 テンタクルインマウス
-> CONTEXT: Skills/746/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/746/name/
+Tentacle in Mouth
 > END STRING
 
 > BEGIN STRING
@@ -8216,7 +8216,7 @@ Interfere with a hold. Cannot be used if you are in a hold.
 
 > BEGIN STRING
 ホールドしている味方を攻める。自分がホールド中だと使えない。
-> CONTEXT: Skills/967/description/ < UNTRANSLATED
+> CONTEXT: Skills/967/description/
 Attacks the teammate in a hold. Cannot be used if you are in a hold.
 > END STRING
 
@@ -10763,15 +10763,15 @@ Blowkiss
 
 > BEGIN STRING
 キス・マーキング/100/4
-> CONTEXT: Skills/1345/name/ < UNTRANSLATED
-> CONTEXT: Skills/1346/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1345/name/
+> CONTEXT: Skills/1346/name/
+Kiss・Marking/100/4
 > END STRING
 
 > BEGIN STRING
 [口→？][CT:4] キス・マークを付ける。[ムード中・中確率：恍惚] 非ホールド時
-> CONTEXT: Skills/1345/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1345/description/
+[Mouth→?][CT:4] Leaves a kiss mark. [Mood, Ecstatic] When not holding
 > END STRING
 
 > BEGIN STRING
@@ -11544,13 +11544,13 @@ Intercept
 > BEGIN STRING
 回復の口付け/100
 > CONTEXT: Skills/1422/name/ < UNTRANSLATED
-
+Recovery Kiss/100
 > END STRING
 
 > BEGIN STRING
 [口→口] 味方に口付けをしてＥＰをチュー回復させ、スタン、恍惚、暴走、虚脱を解除する。
 > CONTEXT: Skills/1422/description/ < UNTRANSLATED
-
+[Mouth→Mouth] Kiss ally to recover EP, cure stun, ecstasy, berserk, lethargy.
 > END STRING
 
 > BEGIN STRING
@@ -11912,21 +11912,21 @@ Chance of charming the opponent. [Charm]
 
 > BEGIN STRING
 ヘブンリースポイル
-> CONTEXT: Skills/1460/name/ < UNTRANSLATED
-> CONTEXT: Skills/1461/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1460/name/
+> CONTEXT: Skills/1461/name/
+Heavenly Spoil
 > END STRING
 
 > BEGIN STRING
 [レジスト] [手→♂] 授乳させながら、ペニスを手で扱く[条件：ヘブンリーフィール(LvMAX)：相手裸]
-> CONTEXT: Skills/1460/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1460/description/
+[Resist][Hand→♂] Stroke penis while breastfeeding [Req: Heavenly Feel (LvMAX): Naked]
 > END STRING
 
 > BEGIN STRING
 [レジスト] [胸→口] 授乳させながら、ペニスを手で扱く[条件：ランチパッド(LvMAX)：相手裸]
-> CONTEXT: Skills/1461/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1461/description/
+[Resist][Breast→Mouth] Breastfeed while stroking penis [Req: Launchpad (LvMAX): Naked]
 > END STRING
 
 > BEGIN STRING
@@ -12207,14 +12207,14 @@ Chance of charming the opponent. [Charm]
 
 > BEGIN STRING
 激情の眼差し
-> CONTEXT: Skills/1501/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1501/name/
+Passionate Gaze
 > END STRING
 
 > BEGIN STRING
 相手を中確率で暴走させる。[魅力]
-> CONTEXT: Skills/1501/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1501/description/
+Chance of making the opponent go berserk. [Charm]
 > END STRING
 
 > BEGIN STRING
@@ -12833,14 +12833,14 @@ Chance of charming the opponent. [Charm]
 
 > BEGIN STRING
 誘惑・フェラチオ
-> CONTEXT: Skills/1594/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1594/name/
+Seduction・fellatio
 > END STRING
 
 > BEGIN STRING
 [レジスト] 誘惑し自分の口に相手のペニスを挿入させる
-> CONTEXT: Skills/1594/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1594/description/
+[Resist] Seduce and make them insert penis into your mouth
 > END STRING
 
 > BEGIN STRING
@@ -12875,38 +12875,38 @@ Temptation・Kiss
 
 > BEGIN STRING
 ハードスウィング/160/6
-> CONTEXT: Skills/1601/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1601/name/
+Hard Swing/160/6
 > END STRING
 
 > BEGIN STRING
 [♂→♀][CT:6] 腰を強く振る。[精力]
-> CONTEXT: Skills/1601/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1601/description/
+[♂→♀][CT:6] Shake your hips strongly. [Energy]
 > END STRING
 
 > BEGIN STRING
 スクリュースウィング/120/6
-> CONTEXT: Skills/1602/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1602/name/
+Screw Swing/120/6
 > END STRING
 
 > BEGIN STRING
 [♂→♀][CT:6] 腰を回しながら振る。[精力][SSしやすい]
-> CONTEXT: Skills/1602/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1602/description/
+[♂→♀][CT:6] Swings while rotating the hips. [Energy][Easy to SS]
 > END STRING
 
 > BEGIN STRING
 ラッシュスウィング/120/6
-> CONTEXT: Skills/1603/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1603/name/
+Rush Swing/120/6
 > END STRING
 
 > BEGIN STRING
 [♂→♀][CT:6] 腰を連続で振る。[精力][追撃率アップ]
-> CONTEXT: Skills/1603/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1603/description/
+[♂→♀][CT:6] Swing your hips continuously. [Energy][Increased follow-up rate]
 > END STRING
 
 > BEGIN STRING
@@ -13502,8 +13502,8 @@ Screw Kiss/160/6
 
 > BEGIN STRING
 [口→口][CT:6] 舌を舐るキッス。 [精力/魅力][SSしやすい]
-> CONTEXT: Skills/1781/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1781/description/
+[Mouth→Mouth][CT:6] Tongue-licking kiss. [Energy/Charm][Easy to SS]
 > END STRING
 
 > BEGIN STRING
@@ -13514,8 +13514,8 @@ Charm Kiss/50
 
 > BEGIN STRING
 [口→口] 見つめあい、虜にするキッス。 [中：恍惚][精力/魅力]
-> CONTEXT: Skills/1782/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1782/description/
+[Mouth→Mouth] Eye contact and a captivating kiss. [Ecstasy][Energy/Charm]
 > END STRING
 
 > BEGIN STRING
@@ -13526,44 +13526,44 @@ Love Love Kiss/120/6
 
 > BEGIN STRING
 [口→口][CT:6] 激しく相手を求めるようなキッス。 [ムードアップ大][精力/魅力]
-> CONTEXT: Skills/1783/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1783/description/
+[Mouth→Mouth][CT:6] Show passionate desire. [Large mood][Energy/Charm]
 > END STRING
 
 > BEGIN STRING
 ヴォーテクスキッス/120/6
-> CONTEXT: Skills/1784/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1784/name/
+Vortex Kiss/120/6
 > END STRING
 
 > BEGIN STRING
 [口→口][CT:6] 吸いつくすようなキッス。相手の忍耐力を吸収する。[精力/魅力]
-> CONTEXT: Skills/1784/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1784/description/
+[Mouth→Mouth][CT:6] A kiss that sucks the other person's endurance. [Energy/Charm]
 > END STRING
 
 > BEGIN STRING
 メロメロキッス/50
-> CONTEXT: Skills/1785/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1785/name/
+Lovely Kiss/50
 > END STRING
 
 > BEGIN STRING
 [口→口] 唇を這わせ、心を奪うキッス。 [高：魅了][精力/魅力]
-> CONTEXT: Skills/1785/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1785/description/
+[Mouth→Mouth] Steal heart with lips. [Chance: Charm][Energy/Charm]
 > END STRING
 
 > BEGIN STRING
 メルティキッス/160/6
-> CONTEXT: Skills/1786/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1786/name/
+Melty Kiss/160/6
 > END STRING
 
 > BEGIN STRING
 [口→口][CT:6] やわらかく蕩けさせるキッス。 [ガード貫通][器用さ/魅力]
-> CONTEXT: Skills/1786/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1786/description/
+[Mouth→Mouth][CT:6] A soft, melting kiss. [Ignore Guard][Dexterity/Charm]
 > END STRING
 
 > BEGIN STRING
@@ -13904,13 +13904,13 @@ Melty Press/160/6
 
 > BEGIN STRING
 ハードカレス/160/6
-> CONTEXT: Skills/1901/name/ < UNTRANSLATED
+> CONTEXT: Skills/1901/name/
 Hard Caress/160/6
 > END STRING
 
 > BEGIN STRING
 [→全身][CT:6] 密着した相手を激しく愛撫する。[器用さ]
-> CONTEXT: Skills/1901/description/ < UNTRANSLATED
+> CONTEXT: Skills/1901/description/
 [→Body][CT:6] Intensely caress in close contact. [Dexterity]
 > END STRING
 
@@ -15303,7 +15303,7 @@ Protects you from attacks for 6 turns. [Pleasure Decay]
 
 > BEGIN STRING
 [→体] 味方を手ほどきして、魅力と器用さを１段階上げる。
-> CONTEXT: Skills/2243/description/ < UNTRANSLATED
+> CONTEXT: Skills/2243/description/
 [→Body] Mentor an ally and increase their charm and dexterity by 1 stage.
 > END STRING
 

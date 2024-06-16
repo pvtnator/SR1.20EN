@@ -191,6 +191,7 @@ There you can strengthen your abilities!
 水晶が光り輝くようになり、その力を解放できるんだ！
 > CONTEXT: Map272/events/19/pages/0/17/Dialogue
 > CONTEXT: Map209/events/90/pages/0/17/Dialogue
+\\name[\\v[2]]\\_
 However, you can't become infinitely stronger. 
 You can unlock crystals by defeating special succubi 
 or by clearing maps.
@@ -576,7 +577,7 @@ It's a delivery service, make a living.
 
 > BEGIN STRING
 ロウラット邸に移動しますか？
-> CONTEXT: Map272/events/211/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map272/events/211/pages/0/3/Dialogue
 Move into Lauratt House?
 > END STRING
 
@@ -639,7 +640,7 @@ Move into Lauratt House?
 \\name[\\v[2]]\\_
 よう兄ちゃん。久しぶりだな。
 良いもんあったらアイテム交換でやるよ。
-> CONTEXT: Map272/events/218/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map272/events/218/pages/0/2/Dialogue
 \\name[\\v[2]]\\_
 Hey bro. It's been a while.
 If you have anything good, I'll trade items for you.
@@ -647,7 +648,7 @@ If you have anything good, I'll trade items for you.
 
 > BEGIN STRING
 "ファントム"
-> CONTEXT: Map272/events/219/pages/0/1/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map272/events/219/pages/0/1/InlineScript/1:22
 "Phantom"
 > END STRING
 
@@ -699,5 +700,7 @@ If you have anything good, I'll trade items for you.
 出張サービスです。
 何かご入用であればお買い求めください。
 > CONTEXT: Map272/events/221/pages/0/2/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+This is a visiting service.
+If you need anything, please buy it.
 > END STRING
