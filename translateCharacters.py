@@ -50,7 +50,7 @@ def extract_strings(folder_path, output_file, update={}):
 
 def autotranslate(translations_file, lines, multiline=20):
     import pyperclip
-    i = 894391
+    i = 924227
     batchi = []
     batcht = ""
     while i < len(lines):
@@ -100,9 +100,9 @@ def autotranslate(translations_file, lines, multiline=20):
                             translated = translated.replace("#", "").replace("{", "#{")
                             translated = translated.replace("\\ \\", "\\\\")
                             translated = translated.replace(" \\\\H", "\\\\H")
+                            translated = re.sub("([^\\\\])\\\\H", "\\1\\\\\\\\H", translated)
                             translated = translated.replace(".\\\\H", "\\\\H")
                             translated = translated.replace("Giggle", "*Giggle*")
-                            translated = re.sub("([^\\])\\\\H", "\\1\\\\\\\\H", translated)
                             translated = re.sub("\"(.*)\"", "「\\1」", translated)
                             translated = re.sub("\.{2,}", "...", translated)
                             translated = re.sub("([a-zA-Z])\\1{3,}", "\\1\\1", translated)
