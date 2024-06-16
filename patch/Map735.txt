@@ -137,7 +137,7 @@
 > CONTEXT: Map652/events/3/pages/1/4/Dialogue < UNTRANSLATED
 > CONTEXT: Map631/events/18/pages/1/4/Dialogue < UNTRANSLATED
 > CONTEXT: Map566/events/1/pages/1/4/Dialogue < UNTRANSLATED
-
+Go to port space?
 > END STRING
 
 > BEGIN STRING
@@ -293,27 +293,31 @@ OK！OK！これで預かったExpは
 
 > BEGIN STRING
 "怪しい人"
-> CONTEXT: Map735/events/32/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map735/events/32/pages/0/0/InlineScript/1:22
+"Suspicious Person"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ハァハァ
 良いもの…ありますよ。
-> CONTEXT: Map735/events/32/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map585/events/1/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/32/pages/0/1/Dialogue
+> CONTEXT: Map585/events/1/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Haa haa
+There are some good ones...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今後ともごひいきに。
 ハァハァ
-> CONTEXT: Map735/events/32/pages/0/10/Dialogue < UNTRANSLATED
-> CONTEXT: Map585/events/1/pages/0/10/Dialogue < UNTRANSLATED
-> CONTEXT: Map585/events/17/pages/0/11/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/32/pages/0/10/Dialogue
+> CONTEXT: Map585/events/1/pages/0/10/Dialogue
+> CONTEXT: Map585/events/17/pages/0/11/Dialogue
+\\name[\\v[2]]\\_
+Thank you for your continued patronage.
+Hahaha
 > END STRING
 
 > BEGIN STRING
@@ -594,21 +598,23 @@ OK！OK！これで預かったExpは
 
 > BEGIN STRING
 "商人"
-> CONTEXT: Map735/events/38/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map580/events/40/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map580/events/40/pages/0/34/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map580/events/40/pages/0/54/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map580/events/40/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map565/events/20/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map735/events/38/pages/0/0/InlineScript/1:22
+> CONTEXT: Map580/events/40/pages/0/0/InlineScript/1:22
+> CONTEXT: Map580/events/40/pages/0/34/InlineScript/1:22
+> CONTEXT: Map580/events/40/pages/0/54/InlineScript/1:22
+> CONTEXT: Map580/events/40/pages/1/0/InlineScript/1:22
+> CONTEXT: Map565/events/20/pages/0/0/InlineScript/1:22
+"Merchant"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 やあやあ、お兄さん。
 こんなところで会うなんて奇遇だね。
-> CONTEXT: Map735/events/38/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/38/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hey, hey, boy.
+What a coincidence to meet you here.
 > END STRING
 
 > BEGIN STRING

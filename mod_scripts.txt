@@ -502,7 +502,7 @@ Cooking knowledge
 料理人のルーン
 > CONTEXT: Game_Actor（食事用）.rb
 > CONTEXT: Window_Cook_Cooking.rb
-
+Cook Rune
 > END STRING
 
 > BEGIN STRING
@@ -4001,7 +4001,7 @@ ORIGINAL
 > BEGIN STRING
 盗賊のナイフ
 > CONTEXT: O_MOD_Game_Actor.rb
-
+Thief's Knife
 > END STRING
 
 > BEGIN STRING
@@ -5623,7 +5623,7 @@ Gluttony Rune
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: XL_MOD_Battle_Cutin.rb
 > CONTEXT: 修正用.rb
-
+Reverse Periscope
 > END STRING
 
 > BEGIN STRING
@@ -5644,7 +5644,7 @@ Gluttony Rune
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: 修正用.rb
-
+Falling Heaven
 > END STRING
 
 > BEGIN STRING
@@ -5758,7 +5758,7 @@ Tentacle mastery
 奇妙な触手
 > CONTEXT: O_MOD_Game_Actor_戦闘中スキル.rb
 > CONTEXT: 修正用.rb
-
+Strange Tentacle
 > END STRING
 
 > BEGIN STRING
@@ -5987,7 +5987,7 @@ Periscope
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: 修正用.rb
-
+Elekiter Press
 > END STRING
 
 > BEGIN STRING
@@ -9032,7 +9032,7 @@ SS回数
 > BEGIN STRING
 マニアックの心得
 > CONTEXT: O_MOD_Game_Battler_1.rb
-
+Maniac's Guide
 > END STRING
 
 > BEGIN STRING
@@ -13478,7 +13478,7 @@ Blocked by the Reality Barrier!
 隠者の指輪
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Hermit's Ring
 > END STRING
 
 > BEGIN STRING
@@ -14236,7 +14236,7 @@ Hungry Sperm Kiss
 口上テスト用
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
-
+For dialog test
 > END STRING
 
 > BEGIN STRING
@@ -14450,7 +14450,7 @@ Sensitive body
 巧みな連携
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Clever Link
 > END STRING
 
 > BEGIN STRING
@@ -15068,7 +15068,7 @@ Tentacle Queen
 > BEGIN STRING
 サディストウィスパー
 > CONTEXT: O_MOD_Game_Battler_4.rb
-
+Sadist Whisper
 > END STRING
 
 > BEGIN STRING
@@ -15129,13 +15129,13 @@ Sadist caress
 禁断の果実
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Forbidden fruit
 > END STRING
 
 > BEGIN STRING
-テンダーキッス 
+"テンダーキッス "
 > CONTEXT: O_MOD_Game_Battler_4.rb
-
+"Tender Kiss"
 > END STRING
 
 > BEGIN STRING
@@ -18034,7 +18034,7 @@ Learner
 > CONTEXT: O_MOD_Game_Party.rb
 > CONTEXT: PR_MOD_Scene_Battle_2.rb
 > CONTEXT: Simple_Battle.rb
-
+Guidance Rune
 > END STRING
 
 > BEGIN STRING
@@ -19316,7 +19316,7 @@ Cure own status ailments when bringing opponents to climax.
 > BEGIN STRING
 自分以外の味方が絶頂した時、自分の魅力と精力を１段階上げる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Upon ally climaxing, raises own charm and energy by one level.
 > END STRING
 
 > BEGIN STRING
@@ -21364,13 +21364,13 @@ This succubus can't cook.
 滑らかな手練
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Smooth Handling
 > END STRING
 
 > BEGIN STRING
 インタラプトのコマンド難易度が低下する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+The difficulty of interrupt commands is reduced.
 > END STRING
 
 > BEGIN STRING
@@ -21481,7 +21481,7 @@ This succubus can't cook.
 > BEGIN STRING
 複数ホールドしている相手へのSS率が上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increases SS rate against opponents in multiple holds.
 > END STRING
 
 > BEGIN STRING
@@ -26583,13 +26583,13 @@ This succubus has taken your virginity.
 道具知識
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: PR_MOD_Game_Battler_5.rb
-
+Tool knowledge
 > END STRING
 
 > BEGIN STRING
 アイテム使用時の回復量が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increases recovery amount when using items.
 > END STRING
 
 > BEGIN STRING
@@ -27140,7 +27140,7 @@ King of Beauty
 > CONTEXT: O_MOD_RPG_Class_ボーナス.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-Demon Slayer Hero
+Demon Lord Slayer Hero
 > END STRING
 
 > BEGIN STRING
@@ -29244,7 +29244,7 @@ slowly rubbed
 > BEGIN STRING
 #{targetname}と脚を絡めあい、\n\m#{emotion}アソコを擦り合わせた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- and #{targetname} entangled legs and \n​m​rubbed genitals together {emotion}!
+ and #{targetname} entangled legs and \n​m​rubbed genitals together#{emotion}!
 > END STRING
 
 > BEGIN STRING
@@ -30300,7 +30300,7 @@ with a bewitched look
 > BEGIN STRING
 、\n\m#{targetname}の#{target.bustsize}を舌で舐め回した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+,\n​m​licked #{targetname}'s #{target.bustsize}!
 > END STRING
 
 > BEGIN STRING
@@ -33192,13 +33192,13 @@ sucked on \n​m​#{targetname}'s #{target.bustsize} through a gap in clothes!
 > BEGIN STRING
 #{targetname}に意地悪に囁いた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ whispered maliciously to #{targetname}!
 > END STRING
 
 > BEGIN STRING
 #{targetname}に煽るように囁いた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ whispered teasingly to #{targetname}!
 > END STRING
 
 > BEGIN STRING
@@ -35629,7 +35629,7 @@ two overwhelming
 > BEGIN STRING
 服の上から、\n\m#{targetname}のペニスを足の裏で刺激してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ stimulated #{targetname}'s penis \n​m​with foot soles over the clothes!
 > END STRING
 
 > BEGIN STRING
@@ -36511,7 +36511,7 @@ while looking up
 > BEGIN STRING
 、\n\m#{targetname}を妖しく瞳で見つめた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+,\n​m​looked at #{targetname} with seductive eyes!
 > END STRING
 
 > BEGIN STRING
@@ -37450,7 +37450,7 @@ as if to break in
 > BEGIN STRING
 腰を落とし、\n\m#{targetname}のペニスを指で撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- bent down and \n​m​stroked {targetname}'s penis with fingers!
+ bent down and \n​m​stroked #{targetname}'s penis with fingers!
 > END STRING
 
 > BEGIN STRING
@@ -37660,13 +37660,13 @@ as if dancing
 > BEGIN STRING
 #{targetname}のペニスを、\n\m口で咥えたまま絞り取るように吸い上げてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ took #{targetname}'s penis in the mouth \n​m​and sucked it as if squeezing it!
 > END STRING
 
 > BEGIN STRING
 #{targetname}のペニスを、\n\m喉元で締め付け、絞り取るように吸い上げてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ clamped down on #{targetname}'s penis,\​m​squeezing it out!
 > END STRING
 
 > BEGIN STRING
@@ -37684,7 +37684,7 @@ as if dancing
 > BEGIN STRING
 #{myself.bustsize}の谷間にペニスを挟み、\n\m#{targetname}を上目遣いに見ながら吸い上げてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ squeezed penis between her #{myself.bustsize} \n​m​and sucked it while looking up at #{targetname}!
 > END STRING
 
 > BEGIN STRING
@@ -37972,7 +37972,7 @@ as if dancing
 > BEGIN STRING
 #{targetname}と、\n\mゆっくりと互いの舌を重ねあった！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ slowly overlapped \n​m​tongues with #{targetname}!
 > END STRING
 
 > BEGIN STRING
@@ -38512,7 +38512,7 @@ suddenly hugged tightly!
 > BEGIN STRING
 #{myself.bustsize}で、\n\m#{targetname}の顔を抱きしめてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+¨ hugged #{targetname}'s face with #{myself.bustsize}!
 > END STRING
 
 > BEGIN STRING
@@ -39702,7 +39702,7 @@ up and down
 > BEGIN STRING
 #{emotion}\n\m後ろを犯される#{targetname}のペニスを\n舌先で舐め上げてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- #{emotion}\n​m​licked {targetname}'s penis with the tip of tongue \nas he was being fucked from behind!
+ #{emotion}\n​m​licked #{targetname}'s penis with the tip of tongue \nas he was being fucked from behind!
 > END STRING
 
 > BEGIN STRING
@@ -41311,7 +41311,7 @@ The kiss won't reach that person!
 その相手にはヒップが届かない！
 > CONTEXT: O_MOD_Scene_Battle_3.rb
 > CONTEXT: O_MOD_SR_Util_Skill使用判定.rb
-
+Can't reach the target's hips!
 > END STRING
 
 > BEGIN STRING
@@ -41324,7 +41324,7 @@ The kiss won't reach that person!
 その相手にはクロッチが届かない！
 > CONTEXT: O_MOD_Scene_Battle_3.rb
 > CONTEXT: O_MOD_SR_Util_Skill使用判定.rb
-
+Can't reach the target's crotch!
 > END STRING
 
 > BEGIN STRING
@@ -42140,13 +42140,13 @@ Corrupt Scratch
 > BEGIN STRING
 \w快感と共に、
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+​w​Along with the pleasure,
 > END STRING
 
 > BEGIN STRING
 の身体から力が抜ける……！\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-'s strength is waning...!
+'s strength is waning...!q
 > END STRING
 
 > BEGIN STRING
@@ -42213,7 +42213,7 @@ Post-effect message:
  吸収した！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+ absorbed!​w​q
 > END STRING
 
 > BEGIN STRING
@@ -42223,9 +42223,9 @@ Post-effect message:
 > END STRING
 
 > BEGIN STRING
-は精気を 
+"は精気を "
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+" energy "
 > END STRING
 
 > BEGIN STRING
@@ -42263,13 +42263,13 @@ Post-effect message:
 > BEGIN STRING
 #{@active_battler.name}は経験値を#{dif_exp}吸収した！
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{@active_battler.name} absorbed #{dif_exp} EXP!
 > END STRING
 
 > BEGIN STRING
 #{@active_battler.name}は経験値を #{dif_exp} 吸収した！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{@active_battler.name} absorbed #{dif_exp} EXP! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -42919,9 +42919,9 @@ Wind Whisper
 > END STRING
 
 > BEGIN STRING
-しかし
+"しかし "
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-but 
+"but "
 > END STRING
 
 > BEGIN STRING
@@ -42951,7 +42951,7 @@ but
 > BEGIN STRING
 #{target.name}は魔法を吸収した！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{target.name} absorbed magic! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -43181,7 +43181,7 @@ But it had no effect!\w​q​
 > BEGIN STRING
 #{target.name}は精気を#{vp_drain.to_s}失った！
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{target.name} lost #{vp_drain.to_s} energy!
 > END STRING
 
 > BEGIN STRING
@@ -44356,7 +44356,7 @@ Enchanting perfume
 > BEGIN STRING
 魅了のルーン
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-Charm Rune
+Allure Rune
 > END STRING
 
 > BEGIN STRING
@@ -45795,7 +45795,7 @@ Berserk behavior
 > BEGIN STRING
 #{active.name}は#{brk}#{target.name}の唇に吸い付いた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} latched onto #{brk}#{target.name}'s lips!
 > END STRING
 
 > BEGIN STRING
@@ -46515,7 +46515,7 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}は力を抜いて、\n#{active.name}の中に呑み込まれた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} relaxed\nand got swallowed up by #{active.name}!
 > END STRING
 
 > BEGIN STRING
@@ -46623,7 +46623,7 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}は力を抜いて、\n#{active.name}の胸に顔をうずめた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} relaxed and \nburied face in #{active.name}'s chest!
 > END STRING
 
 > BEGIN STRING
@@ -49805,7 +49805,7 @@ Home
 > BEGIN STRING
 主要な拠点に転送いたします。
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Get transported to the main base.
 > END STRING
 
 > BEGIN STRING
@@ -50885,7 +50885,7 @@ slender body
 > BEGIN STRING
 #{active.name}は全能力を吸収した！\w\q
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+#{active.name} absorbed all abilities!​w​q
 > END STRING
 
 > BEGIN STRING
@@ -51419,7 +51419,7 @@ __S
 > BEGIN STRING
 同時に
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+Simultaneously, 
 > END STRING
 
 > BEGIN STRING
@@ -51431,19 +51431,19 @@ __S
 > BEGIN STRING
 #{active.name}はEPを#{$game_temp.ep_drain}吸収した！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+#{active.name} absorbed #{$game_temp.ep_drain} EP!
 > END STRING
 
 > BEGIN STRING
 #{active.name}はVPを#{$game_temp.vp_drain}吸収した！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+#{active.name} absorbed #{$game_temp.vp_drain} VP!
 > END STRING
 
 > BEGIN STRING
 #{active.name}はEXPを#{$game_temp.exp_drain}吸収した！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+#{active.name} absorbed #{$game_temp.exp_drain} EXP!
 > END STRING
 
 > BEGIN STRING
@@ -51480,7 +51480,7 @@ writhing with pleasure...!
 > BEGIN STRING
 #{$msg.t_enemy.name}を絶頂させた！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-{$msg.t_enemy.name} was made to climax!
+#{$msg.t_enemy.name} was made to climax!
 > END STRING
 
 > BEGIN STRING
@@ -51553,7 +51553,7 @@ However, #{$msg.t_enemy.name} still seems unsatisfied...!
 > BEGIN STRING
 #{enemy.name}は精気を #{plus_sp} 吸収した！\w\q
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+#{enemy.name} absorbed #{plus_sp} energy! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -51631,7 +51631,7 @@ However, #{$msg.t_enemy.name} still seems unsatisfied...!
 > BEGIN STRING
 菊門で絞り取った！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+squeezed with anal passage!
 > END STRING
 
 > BEGIN STRING
@@ -51649,7 +51649,7 @@ However, #{$msg.t_enemy.name} still seems unsatisfied...!
 > BEGIN STRING
 足で絞り取った！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+squeezed with feet!
 > END STRING
 
 > BEGIN STRING
@@ -51661,7 +51661,7 @@ However, #{$msg.t_enemy.name} still seems unsatisfied...!
 > BEGIN STRING
 #{enemy.name}は\n#{$msg.t_target.name}の精を#{emotion}
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+#{enemy.name} absorbed #{$msg.t_target.name}'s semen #{emotion}
 > END STRING
 
 > BEGIN STRING
@@ -51673,7 +51673,7 @@ However, #{$msg.t_enemy.name} still seems unsatisfied...!
 > BEGIN STRING
 手で絞り取った！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+squeezed by hand!
 > END STRING
 
 > BEGIN STRING
@@ -51691,7 +51691,7 @@ However, #{$msg.t_enemy.name} still seems unsatisfied...!
 > BEGIN STRING
 体内で絞り取った！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+squeezed from inside the body!
 > END STRING
 
 > BEGIN STRING
@@ -51733,7 +51733,7 @@ However, #{$msg.t_enemy.name} still seems unsatisfied...!
 > BEGIN STRING
 触手で絞り取った！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+squeezed with tentacles!
 > END STRING
 
 > BEGIN STRING
@@ -51751,7 +51751,7 @@ However, #{$msg.t_enemy.name} still seems unsatisfied...!
 > BEGIN STRING
 太股で絞り取った！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+squeezed between thighs!
 > END STRING
 
 > BEGIN STRING
@@ -51769,7 +51769,7 @@ However, #{$msg.t_enemy.name} still seems unsatisfied...!
 > BEGIN STRING
 #{drain_enemy.name}は精気を #{plus_sp} 吸収した！\w\q
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+#{drain_enemy.name} absorbed #{plus_sp} energy! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -51781,7 +51781,7 @@ However, #{$msg.t_enemy.name} still seems unsatisfied...!
 > BEGIN STRING
 #{$msg.t_enemy.name}は#{brk}#{$msg.t_target.name}の精を#{emotion}
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+#{$msg.t_enemy.name} absorbed #{brk}#{$msg.t_target.name}'s semen #{emotion}
 > END STRING
 
 > BEGIN STRING
@@ -51793,7 +51793,7 @@ However, #{$msg.t_enemy.name} still seems unsatisfied...!
 > BEGIN STRING
 #{$msg.t_enemy.name}は精気を #{plus_sp} 吸収した！\w\q
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+#{$msg.t_enemy.name} absorbed #{plus_sp} energy! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -51835,7 +51835,7 @@ However, #{$msg.t_enemy.name} still seems unsatisfied...!
 > BEGIN STRING
 #{target.name}は#{brk}#{$msg.t_enemy.name}の精を#{emotion}
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+#{target.name} absorbed #{brk}#{$msg.t_enemy.name}'s semen #{emotion}
 > END STRING
 
 > BEGIN STRING
@@ -51853,7 +51853,7 @@ However, #{$msg.t_enemy.name} still seems unsatisfied...!
 > BEGIN STRING
 #{target.name}は#{$msg.t_enemy.name}の精を\n\m#{target.bustsize}で受け止めた！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+#{target.name} received \n​m​#{$msg.t_enemy.name}'s semen with #{target.bustsize}!
 > END STRING
 
 > BEGIN STRING
@@ -51889,31 +51889,31 @@ However, #{$msg.t_enemy.name} still seems unsatisfied...!
 > BEGIN STRING
 #{$msg.t_target.name}は#{brk}#{$msg.t_enemy.name}の精を#{emotion}
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+#{$msg.t_target.name} absorbed #{brk}#{$msg.t_enemy.name}'s spirit #{emotion}
 > END STRING
 
 > BEGIN STRING
 #{$msg.t_enemy.name}は堪えきれず、\n\m#{$msg.t_target.name}に精を吐き出してしまった！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+#{$msg.t_enemy.name} couldn't hold it in any longer \n​m​and ejaculated on #{$msg.t_target.name}!
 > END STRING
 
 > BEGIN STRING
 #{active_battler.name}はＥＰを #{$game_temp.ep_drain} 吸収した！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+#{active_battler.name} absorbed #{$game_temp.ep_drain} EP!
 > END STRING
 
 > BEGIN STRING
 #{active_battler.name}は精気を #{$game_temp.vp_drain} 吸収した！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+#{active_battler.name} absorbed #{$game_temp.vp_drain} energy!
 > END STRING
 
 > BEGIN STRING
 #{active_battler.name}は経験値を #{$game_temp.exp_drain} 吸収した！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+#{active_battler.name} absorbed #{$game_temp.exp_drain} EXP!
 > END STRING
 
 > BEGIN STRING
@@ -53316,7 +53316,7 @@ looking down at\n#{t_actor} with contemptuous eyes...!
 > BEGIN STRING
 にやにやと笑いながら、\n#{t_actor}を見下ろしている……！
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
-grinning and \nlooking down at#{t_actor}...!
+grinning and \nlooking down at #{t_actor}...!
 > END STRING
 
 > BEGIN STRING
@@ -53570,7 +53570,7 @@ is enjoying the aftertaste of the essence
 > BEGIN STRING
 #{t_actor}の上に倒れ込んできた……！
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
- collapsed on top of #{t_actor}...!
+collapsed on top of #{t_actor}...!
 > END STRING
 
 > BEGIN STRING
@@ -57944,13 +57944,13 @@ nothing
 > BEGIN STRING
 #{actor.name}は#{@name}を調理し食した！
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+#{actor.name} cooked and ate #{@name}!
 > END STRING
 
 > BEGIN STRING
 \n今回の調理は非常に上手くいったようだ！
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+\nThis cooking seems to have gone extremely well!
 > END STRING
 
 > BEGIN STRING
@@ -58620,7 +58620,7 @@ But it has no effect on #{battler_one.name}
 > BEGIN STRING
 \w\q#{battler_one.name}のＥＰが #{heal_one.to_s} 回復した！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+\w​q​#{battler_one.name} recovered #{heal_one.to_s} EP!
 > END STRING
 
 > BEGIN STRING
@@ -58632,7 +58632,7 @@ But it has no effect on #{battler_one.name}
 > BEGIN STRING
 \w\q#{target_one.name}のＥＰが #{heal_one.to_s} 回復した！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+\w​q​#{target_one.name} recovered #{heal_one.to_s} EP!
 > END STRING
 
 > BEGIN STRING
@@ -58782,25 +58782,25 @@ But it has no effect on #{battler_one.name}
 > BEGIN STRING
 #{target.name}の精力が吸われていく……！\w\q#{battler.name}は精力を #{str_drain.to_s} 吸収した！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{target.name}'s energy is being sucked away...!w​q​#{battler.name} absorbed #{str_drain.to_s}
 > END STRING
 
 > BEGIN STRING
 #{target.name}の精神力が吸われていく……！\w\q#{battler.name}は精神力を #{int_drain.to_s} 吸収した！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{target.name}'s spirit is being sucked away...!w​q​#{battler.name} absorbed #{int_drain.to_s}
 > END STRING
 
 > BEGIN STRING
 #{target.name}の忍耐力が吸われていく……！\w\q#{battler.name}は忍耐力を #{pdef_drain.to_s} 吸収した！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{target.name}'s endurance is being sucked away...!w​q​#{battler.name} absorbed #{pdef_drain.to_s} dexterity!
 > END STRING
 
 > BEGIN STRING
 #{target.name}の器用さが吸われていく……！\w\q#{battler.name}は器用さを #{dex_drain.to_s} 吸収した！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{target.name}'s dexterity is being sucked away...!w​q​#{battler.name} absorbed #{dex_drain.to_s} dexterity!
 > END STRING
 
 > BEGIN STRING
@@ -59148,7 +59148,7 @@ Audio/SE/139-Darkness02
 > BEGIN STRING
 #{battler.name}は味方の絶頂を見て昂った！\w\q
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{battler.name} was excited to see teammate climax!​w​q
 > END STRING
 
 > BEGIN STRING
@@ -60248,19 +60248,19 @@ coated her body with #{master}'s semen...
 > BEGIN STRING
 胸を広げ、#{master}の精を見せつけている……
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-
+spread her chest, showing off the essence of #{master}...
 > END STRING
 
 > BEGIN STRING
 口を開き、#{master}の精を見せつけている……
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-
+opened mouth, showing off the essence of #{master}...
 > END STRING
 
 > BEGIN STRING
 足を上げ、#{master}の精を見せつけている……
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-
+lifted leg and shows off #{master}'s essence...
 > END STRING
 
 > BEGIN STRING
@@ -61010,13 +61010,13 @@ While in close contact, ​m​\n#{speaker} #{action}
 > BEGIN STRING
 #{speaker}は反応を楽しむかのように、\m\n#{master}のペニスを艶かしく指で弄ぶ！
 > CONTEXT: PR_MOD_Talk_Sys Text_Talk.rb
-#{speaker} played with {master}'s penis ​m​\nseductively with fingers, enjoying the reaction!
+#{speaker} played with #{master}'s penis ​m​\nseductively with fingers, enjoying the reaction!
 > END STRING
 
 > BEGIN STRING
 #{speaker}は愛おしむかのように、\m\n#{master}のペニスを艶かしく指で弄ぶ！
 > CONTEXT: PR_MOD_Talk_Sys Text_Talk.rb
-#{speaker} played with {master}'s penis ​m​\nseductively with fingers, like she loves it!
+#{speaker} played with #{master}'s penis ​m​\nseductively with fingers, like she loves it!
 > END STRING
 
 > BEGIN STRING
@@ -75025,7 +75025,7 @@ Error: Too many characters on a line.\nNumber of characters: #{(x/14)-1}/26　Wi
 > BEGIN STRING
 /./
 > CONTEXT: Window_BattleLog.rb
-/[wW][a-pr-v]|m[a-z][a-z]|[a-vA-Z ][mqw][ a-z\\!\\?\\.\\,\\:\\;\\-\\']|[a-pA-Pr-zR-Z ][my]|[yH][a-pA-Pr-zR-Z \\!\\?\\.\\,\\:\\;\\-\\']|./
+/[wW][a-pr-v]|mo|m[a-z][a-z]|[a-vA-Z ][mqw][ a-z\\!\\?\\.\\,\\:\\;\\-\\']|[a-pA-Pr-zR-Z ][my]|[yH][a-pA-Pr-zR-Z \\!\\?\\.\\,\\:\\;\\-\\']|./
 > END STRING
 
 > BEGIN STRING
@@ -75067,7 +75067,7 @@ Chef Rune x1.3
 > BEGIN STRING
 料理人のルーン ×1.7
 > CONTEXT: Window_Cook_Cooking.rb
-
+Cook Rune x1.7
 > END STRING
 
 > BEGIN STRING

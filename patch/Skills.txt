@@ -286,29 +286,29 @@ Dildo in back
 
 > BEGIN STRING
 リバースペリスコープ
-> CONTEXT: Skills/23/name/ < UNTRANSLATED
-> CONTEXT: Armors/185/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/23/name/
+> CONTEXT: Armors/185/name/
+Reverse Periscope
 > END STRING
 
 > BEGIN STRING
 [レジスト] [♂→胸] パイズリさせる。[条件：双方裸]
-> CONTEXT: Skills/23/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/23/description/
+[Resist][♂→Chest] Make her do a titjob. [Req: Both naked]
 > END STRING
 
 > BEGIN STRING
 フォーリンヘブン
-> CONTEXT: Skills/24/name/ < UNTRANSLATED
-> CONTEXT: Skills/727/name/ < UNTRANSLATED
-> CONTEXT: Armors/186/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/24/name/
+> CONTEXT: Skills/727/name/
+> CONTEXT: Armors/186/name/
+Falling Heaven
 > END STRING
 
 > BEGIN STRING
 [レジスト] [口→胸] 相手の胸に顔をうずめる。[条件：相手裸]
-> CONTEXT: Skills/24/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/24/description/
+[Resist][Mouth→Chest] Bury face in opponent's chest. [Req: opponent naked]
 > END STRING
 
 > BEGIN STRING
@@ -820,13 +820,13 @@ Tender Kiss/50
 > BEGIN STRING
 [口→口] 舌を絡めあうキッスをする・・・[追加：ムードアップ][精力/魅力]
 > CONTEXT: Skills/75/description/
-[Mouth→Mouth] Kiss with tongues entwined... [Mood Up] [Energy/Charm]
+[Mouth→Mouth] Kiss with tongues entwined... [Mood Up][Energy/Charm]
 > END STRING
 
 > BEGIN STRING
 [口→胸] ぱふぱふ中の相手の胸を攻める。[器用さ]
-> CONTEXT: Skills/76/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/76/description/
+[Mouth→Chest] Attack the opponent's chest. [Dexterity]
 > END STRING
 
 > BEGIN STRING
@@ -1137,8 +1137,8 @@ Flattenize
 
 > BEGIN STRING
 [レジスト] [口→口]互いに唇を貪りあう。
-> CONTEXT: Skills/114/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/114/description/
+[Resist][Mouth→Mouth] Devour each other's lips.
 > END STRING
 
 > BEGIN STRING
@@ -1151,8 +1151,8 @@ Deep Kiss/90
 
 > BEGIN STRING
 [口→口] 舌を絡めあうキッス。 [ムードアップ・低確率：恍惚][精力/魅力]
-> CONTEXT: Skills/115/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/115/description/
+[Mouth→Mouth] Tongues entwined. [Mood up, low chance: Ecstasy][Energy/Charm]
 > END STRING
 
 > BEGIN STRING
@@ -1466,13 +1466,13 @@ Chance to make opponent ecstatic. [Charm]
 
 > BEGIN STRING
 諦める
-> CONTEXT: Skills/143/name/ < UNTRANSLATED
+> CONTEXT: Skills/143/name/
 Surrender
 > END STRING
 
 > BEGIN STRING
 EP・VPが１になる。
-> CONTEXT: Skills/143/description/ < UNTRANSLATED
+> CONTEXT: Skills/143/description/
 EP and VP become 1.
 > END STRING
 
@@ -1660,7 +1660,7 @@ Iris Seed
 > BEGIN STRING
 [魔法] 味方１人のＥＰを小回復させる。
 > CONTEXT: Skills/161/description/
-[Magic] Recovers a small amount of EP for one ally.
+[Magic] Recovers a small amount of EP for 1 ally.
 > END STRING
 
 > BEGIN STRING
@@ -1673,7 +1673,7 @@ Iris Petal
 > BEGIN STRING
 [魔法] 味方１人のＥＰを中回復させる。
 > CONTEXT: Skills/162/description/
-[Magic] Recovers a moderate amount of EP for one ally.
+[Magic] Recovers a moderate amount of EP for 1 ally.
 > END STRING
 
 > BEGIN STRING
@@ -1686,7 +1686,7 @@ Iris Flower
 > BEGIN STRING
 [魔法] 味方１人のＥＰを大回復させる。
 > CONTEXT: Skills/163/description/
-[Magic] Greatly restores one ally's EP.
+[Magic] Greatly restores 1 ally's EP.
 > END STRING
 
 > BEGIN STRING
@@ -1699,7 +1699,7 @@ Iris Corona
 > BEGIN STRING
 [魔法] 味方１人のＥＰを超回復させる。
 > CONTEXT: Skills/164/description/
-[Magic] Super recovers one ally's EP.
+[Magic] Super recovers 1 ally's EP.
 > END STRING
 
 > BEGIN STRING
@@ -1752,9 +1752,9 @@ Iris Flower: Aldar
 
 > BEGIN STRING
 ゼラニブルム・アルダ
-> CONTEXT: Skills/170/name/ < UNTRANSLATED
-> CONTEXT: Armors/215/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/170/name/
+> CONTEXT: Armors/215/name/
+Geranium Bloom: Aldar
 > END STRING
 
 > BEGIN STRING
@@ -1773,7 +1773,7 @@ Ranunculus Bloom
 > BEGIN STRING
 [魔法] 味方１人の魅力を１段階強める。
 > CONTEXT: Skills/171/description/
-[Magic] Increase one ally's charm by 1 level.
+[Magic] Increase 1 ally's charm by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -1825,7 +1825,7 @@ Nerine Bloom
 > BEGIN STRING
 [魔法] 味方１人の忍耐を１段階強める。
 > CONTEXT: Skills/175/description/
-[Magic] Increase one ally's endurance by 1 level.
+[Magic] Increase 1 ally's endurance by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -1877,7 +1877,7 @@ Elder Bloom
 > BEGIN STRING
 [魔法] 味方１人の精力を１段階強める。
 > CONTEXT: Skills/179/description/
-[Magic] Increase one ally's energy by 1 level.
+[Magic] Increase 1 ally's energy by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -2033,7 +2033,7 @@ Aster Bloom
 > BEGIN STRING
 [魔法] 味方１人の精神力を１段階強める。
 > CONTEXT: Skills/191/description/
-[Magic] Increase 1 ally's spirit by one level.
+[Magic] Increase 1 ally's spirit by 1 level.
 > END STRING
 
 > BEGIN STRING
@@ -2125,9 +2125,9 @@ Strelitzia Iiza: Aldar
 
 > BEGIN STRING
 ゼラニイーザ・アルダ
-> CONTEXT: Skills/199/name/ < UNTRANSLATED
-> CONTEXT: Armors/216/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/199/name/
+> CONTEXT: Armors/216/name/
+Geranium Iiza: Aldar
 > END STRING
 
 > BEGIN STRING
@@ -2164,7 +2164,7 @@ Boosted: Charm
 > BEGIN STRING
 [魔法] 敵１人を高確率で欲情させる。[精神力]
 > CONTEXT: Skills/202/description/
-[Magic] High chance of making one enemy lustful. [Spirit]
+[Magic] High chance of making 1 enemy lustful. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2264,7 +2264,7 @@ Paralyze
 > BEGIN STRING
 [魔法] 敵１人を高確率で麻痺させる。[精神力]
 > CONTEXT: Skills/210/description/
-[Magic] High chance of paralyzing one enemy. [Spirit]
+[Magic] High chance of paralyzing 1 enemy. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2289,7 +2289,7 @@ Loosen
 > BEGIN STRING
 [魔法] 敵１人を高確率で意識散漫にさせる。[精神力]
 > CONTEXT: Skills/212/description/
-[Magic] High chance of making one enemy lose consciousness. [Spirit]
+[Magic] High chance of making 1 enemy lose consciousness. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2314,7 +2314,7 @@ Trim Roots
 > BEGIN STRING
 [魔法] 味方１人の恍惚・欲情・暴走・中毒・魅了を解除する。
 > CONTEXT: Skills/215/description/
-[Magic] Removes Ecstasy, Lust, Berserk, Poisoning, and Charm from one ally.
+[Magic] Removes Ecstasy, Lust, Berserk, Poisoning, and Charm from 1 ally.
 > END STRING
 
 > BEGIN STRING
@@ -2327,7 +2327,7 @@ Trim Stalks
 > BEGIN STRING
 [魔法] 味方１人の虚脱・畏怖・麻痺・散漫・媚薬を解除する。
 > CONTEXT: Skills/216/description/
-[Magic] Removes Faint, Fear, Paralysis, Distraction, and Aphrodisiac from one ally.
+[Magic] Removes Faint, Fear, Paralysis, Distraction, and Aphrodisiac from 1 ally.
 > END STRING
 
 > BEGIN STRING
@@ -2340,7 +2340,7 @@ Trim vines
 > BEGIN STRING
 [魔法] 味方１人の眠り・骨抜き・拘束･狂乱・虜を解除する。
 > CONTEXT: Skills/217/description/
-[Magic] Removes Sleep, Weakness, Restraint, Frenzy, and Captivity from one ally.
+[Magic] Removes Sleep, Weakness, Restraint, Frenzy, and Captivity from 1 ally.
 > END STRING
 
 > BEGIN STRING
@@ -2352,7 +2352,7 @@ Trim All
 > BEGIN STRING
 [魔法] 味方１人の状態異常を全て解除する。
 > CONTEXT: Skills/218/description/
-[Magic] Removes all status ailments from one ally.
+[Magic] Removes all status ailments from 1 ally.
 > END STRING
 
 > BEGIN STRING
@@ -2365,7 +2365,7 @@ Bloom Curl
 > BEGIN STRING
 [魔法] 敵１人の強化効果全てを解除する。
 > CONTEXT: Skills/219/description/
-[Magic] Removes all strengthening effects of one opponent.
+[Magic] Removes all strengthening effects of 1 opponent.
 > END STRING
 
 > BEGIN STRING
@@ -2390,7 +2390,7 @@ Iiza Curl
 > BEGIN STRING
 [魔法] 味方１人の弱化効果全てを解除する。
 > CONTEXT: Skills/221/description/
-[Magic] Removes all weaking effects from one ally.
+[Magic] Removes all weaking effects from 1 ally.
 > END STRING
 
 > BEGIN STRING
@@ -2433,7 +2433,7 @@ Wash Flood
 > BEGIN STRING
 スリープ
 > CONTEXT: Skills/228/name/ < UNTRANSLATED
-
+Sleep
 > END STRING
 
 > BEGIN STRING
@@ -2445,7 +2445,7 @@ Wash Flood
 > BEGIN STRING
 ペイド・スリープ
 > CONTEXT: Skills/229/name/ < UNTRANSLATED
-
+Boosted: Sleep
 > END STRING
 
 > BEGIN STRING
@@ -2463,7 +2463,7 @@ Wash Flood
 > BEGIN STRING
 [魔法] 敵１人を高確率で短小・貧乳にする。[精神力]
 > CONTEXT: Skills/230/description/
-[Magic] High chance of making one enemy small and flat. [Spirit]
+[Magic] High chance of making 1 enemy small and flat. [Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -2641,7 +2641,7 @@ Put on the clothes you took off
 > BEGIN STRING
 品定め/90
 > CONTEXT: Skills/260/name/ < UNTRANSLATED
-
+Appraisal/90
 > END STRING
 
 > BEGIN STRING
@@ -3670,7 +3670,7 @@ Persona Break
 > BEGIN STRING
 [手→] 相手１人を破面状態にする。
 > CONTEXT: Skills/364/description/
-[Hand→] Puts one opponent in a broken state.
+[Hand→] Puts 1 opponent in a broken state.
 > END STRING
 
 > BEGIN STRING
@@ -3984,25 +3984,25 @@ Howling
 > BEGIN STRING
 魔性の口付け/10
 > CONTEXT: Skills/416/name/ < UNTRANSLATED
-
+Devilish Kiss/10
 > END STRING
 
 > BEGIN STRING
 [口→口] 味方に口付けし、魅力を上げる。[追加：魅力↑]
-> CONTEXT: Skills/416/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/416/description/
+[Mouth→Mouth] Kiss an ally and increases their charm. [Charm↑]
 > END STRING
 
 > BEGIN STRING
 祝福の口付け/10
-> CONTEXT: Skills/417/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/417/name/
+Blessing Kiss/10
 > END STRING
 
 > BEGIN STRING
 [口→口] 味方に口付けをし、祝福を与える。[追加：状態異常耐性↑]
-> CONTEXT: Skills/417/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/417/description/
+[Mouth→Mouth] Kisses an ally a blessing. [Status Resistance↑]
 > END STRING
 
 > BEGIN STRING
@@ -4014,7 +4014,7 @@ Sweet whisper
 > BEGIN STRING
 [口→耳] 相手1人の感度を上げ、ムードアップさせる。
 > CONTEXT: Skills/418/description/
-[Mouth→Ear]Increas the sensitivity of one opponent and mood.
+[Mouth→Ear] Increase the mood and sensitivity of 1 opponent.
 > END STRING
 
 > BEGIN STRING
@@ -4051,7 +4051,7 @@ Repentance
 > BEGIN STRING
 [口→耳] 相手1人を低確率で虚脱にする。
 > CONTEXT: Skills/421/description/
-[Mouth→Ear] Causes lethargy to one opponent with low probability.
+[Mouth→Ear] Causes lethargy to 1 opponent with low probability.
 > END STRING
 
 > BEGIN STRING
@@ -4130,14 +4130,14 @@ Repentance
 
 > BEGIN STRING
 サディストウィスパー
-> CONTEXT: Skills/429/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/429/name/
+Sadist Whisper
 > END STRING
 
 > BEGIN STRING
 [口→耳] 言葉責めで、相手を被虐に弱くさせる。
-> CONTEXT: Skills/429/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/429/description/
+[Mouth→Ear] Verbal abuse makes the other person weak to abuse.
 > END STRING
 
 > BEGIN STRING
@@ -5387,7 +5387,7 @@ Make yourself focused. (Dexterity/Spirit↓Energy/Agility↑Lose distraction/agi
 > BEGIN STRING
 自身を暴走状態にする。
 > CONTEXT: Skills/601/description/ < UNTRANSLATED
-
+Put yourself in berserk.
 > END STRING
 
 > BEGIN STRING
@@ -5399,7 +5399,7 @@ Overconfidence
 > BEGIN STRING
 自分の魅力を２段階上げ、高揚状態にし、ムードを上げる。
 > CONTEXT: Skills/602/description/ < UNTRANSLATED
-
+Increases charm by 2 levels, makes you exalted, and improves mood.
 > END STRING
 
 > BEGIN STRING
@@ -5471,8 +5471,8 @@ Relax time
 
 > BEGIN STRING
 [場：自] ５ターンの間、味方全員を微回復する。
-> CONTEXT: Skills/611/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/611/description/
+[Field: Auto] Slightly heal all allies for 5 turns.
 > END STRING
 
 > BEGIN STRING
@@ -6475,14 +6475,14 @@ Insult tree
 
 > BEGIN STRING
 エレキテルプレス
-> CONTEXT: Skills/729/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/729/name/
+Elekiter Press
 > END STRING
 
 > BEGIN STRING
 [レジスト] 自分の足で相手のペニスを踏みつける
-> CONTEXT: Skills/729/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/729/description/
+[Resist] Stomp on someone's penis with your foot
 > END STRING
 
 > BEGIN STRING
@@ -8217,7 +8217,7 @@ Interfere with a hold. Cannot be used if you are in a hold.
 > BEGIN STRING
 ホールドしている味方を攻める。自分がホールド中だと使えない。
 > CONTEXT: Skills/967/description/ < UNTRANSLATED
-
+Attacks the teammate in a hold. Cannot be used if you are in a hold.
 > END STRING
 
 > BEGIN STRING
@@ -10320,8 +10320,8 @@ Wild Scratch/100
 
 > BEGIN STRING
 ゼラニブルム・オーラ
-> CONTEXT: Skills/1292/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1292/name/
+Geranium Bloom: Aura
 > END STRING
 
 > BEGIN STRING
@@ -11814,14 +11814,14 @@ Intercept
 
 > BEGIN STRING
 魅惑の眼差し
-> CONTEXT: Skills/1449/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1449/name/
+Captivating Gaze
 > END STRING
 
 > BEGIN STRING
 相手を中確率で魅了させる。[魅力]
-> CONTEXT: Skills/1449/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1449/description/
+Chance of charming the opponent. [Charm]
 > END STRING
 
 > BEGIN STRING
@@ -13905,13 +13905,13 @@ Melty Press/160/6
 > BEGIN STRING
 ハードカレス/160/6
 > CONTEXT: Skills/1901/name/ < UNTRANSLATED
-
+Hard Caress/160/6
 > END STRING
 
 > BEGIN STRING
 [→全身][CT:6] 密着した相手を激しく愛撫する。[器用さ]
 > CONTEXT: Skills/1901/description/ < UNTRANSLATED
-
+[→Body][CT:6] Intensely caress in close contact. [Dexterity]
 > END STRING
 
 > BEGIN STRING
@@ -15304,7 +15304,7 @@ Protects you from attacks for 6 turns. [Pleasure Decay]
 > BEGIN STRING
 [→体] 味方を手ほどきして、魅力と器用さを１段階上げる。
 > CONTEXT: Skills/2243/description/ < UNTRANSLATED
-
+[→Body] Mentor an ally and increase their charm and dexterity by 1 stage.
 > END STRING
 
 > BEGIN STRING

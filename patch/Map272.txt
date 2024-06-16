@@ -577,7 +577,7 @@ It's a delivery service, make a living.
 > BEGIN STRING
 ロウラット邸に移動しますか？
 > CONTEXT: Map272/events/211/pages/0/3/Dialogue < UNTRANSLATED
-
+Move into Lauratt House?
 > END STRING
 
 > BEGIN STRING
@@ -640,13 +640,15 @@ It's a delivery service, make a living.
 よう兄ちゃん。久しぶりだな。
 良いもんあったらアイテム交換でやるよ。
 > CONTEXT: Map272/events/218/pages/0/2/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Hey bro. It's been a while.
+If you have anything good, I'll trade items for you.
 > END STRING
 
 > BEGIN STRING
 "ファントム"
 > CONTEXT: Map272/events/219/pages/0/1/InlineScript/1:22 < UNTRANSLATED
-
+"Phantom"
 > END STRING
 
 > BEGIN STRING

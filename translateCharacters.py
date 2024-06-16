@@ -50,7 +50,7 @@ def extract_strings(folder_path, output_file, update={}):
 
 def autotranslate(translations_file, lines, multiline=20):
     import pyperclip
-    i = 918755
+    i = 894391
     batchi = []
     batcht = ""
     while i < len(lines):
@@ -69,6 +69,7 @@ def autotranslate(translations_file, lines, multiline=20):
                 string = string.replace("#{myname}", "私").replace("#{target}", "あなた").replace("#{master}", "あなた")
                 string = string.replace("#{$msg.t_target.name}", "あなた")
                 string = string.replace("アソコ", "おまんこ").replace("ココ", "おまんこ")
+                string = string.replace(r"\\H", r".\\H")
                 string = "[[\""+string.rstrip()+"\"]]\r\n"
                 batcht += string
                 if i > len(lines)-10 or len(batchi)>=multiline:
@@ -97,9 +98,11 @@ def autotranslate(translations_file, lines, multiline=20):
                             translated = translated.replace("　　", "　").replace("　 ", "　")
                             translated = translated.replace("…", "...")
                             translated = translated.replace("#", "").replace("{", "#{")
+                            translated = translated.replace("\\ \\", "\\\\")
                             translated = translated.replace(" \\\\H", "\\\\H")
                             translated = translated.replace(".\\\\H", "\\\\H")
                             translated = translated.replace("Giggle", "*Giggle*")
+                            translated = re.sub("([^\\])\\\\H", "\\1\\\\\\\\H", translated)
                             translated = re.sub("\"(.*)\"", "「\\1」", translated)
                             translated = re.sub("\.{2,}", "...", translated)
                             translated = re.sub("([a-zA-Z])\\1{3,}", "\\1\\1", translated)
