@@ -263,7 +263,7 @@ Herb tea
 > BEGIN STRING
 [茶] ＥＰが微回復する。乾燥したハーブを煮出して飲用としたお茶。
 > CONTEXT: Items/21/description/ < UNTRANSLATED
-
+[Tea] Recovers EP slightly. Made by boiling dried herbs.
 > END STRING
 
 > BEGIN STRING
@@ -309,7 +309,7 @@ Earl Grey
 > BEGIN STRING
 [茶] ＥＰが小回復する。ベルガモットの独特の甘い香りがする着香茶。
 > CONTEXT: Items/22/description/ < UNTRANSLATED
-
+[Tea] Restores a bit of EP. Scented with the unique sweet scent of bergamot.
 > END STRING
 
 > BEGIN STRING
@@ -329,7 +329,7 @@ Apitoyu blend
 > BEGIN STRING
 [茶] ＥＰが中回復する。香りが良く飲みやすいが、深みがある茶。
 > CONTEXT: Items/23/description/ < UNTRANSLATED
-
+[Tea] Moderate EP recovery. Fragrant, easy-to-drink, with deep flavor.
 > END STRING
 
 > BEGIN STRING
@@ -355,7 +355,7 @@ Lemon peal
 > BEGIN STRING
 [菓] ＥＰが微回復する。菓子は戦闘中でも使用できる。
 > CONTEXT: Items/26/description/ < UNTRANSLATED
-
+[Snack] Restores EP slightly. Candy can be used even during battle.
 > END STRING
 
 > BEGIN STRING
@@ -367,7 +367,7 @@ Dry Apricot
 > BEGIN STRING
 [菓] ＥＰが小回復する。干すことで甘みが凝縮されたアプリコット。
 > CONTEXT: Items/27/description/ < UNTRANSLATED
-
+[Snack] Restore EP a bit. Sweetness is concentrated by drying.
 > END STRING
 
 > BEGIN STRING
@@ -380,19 +380,19 @@ Fruit Tart
 [菓] ＥＰが超回復する。上品な味わいで人気な一口サイズのタルト。
 > CONTEXT: Items/28/description/ < UNTRANSLATED
 > CONTEXT: Items/42/description/ < UNTRANSLATED
-
+[Snack] Restores EP greatly. Popular tart with an elegant taste.
 > END STRING
 
 > BEGIN STRING
 シルクタルト
 > CONTEXT: Items/29/name/ < UNTRANSLATED
-
+Silk Tart
 > END STRING
 
 > BEGIN STRING
 [菓] ＥＰが超大回復する。メイドを極めた夢魔が作れる極上の菓子。
 > CONTEXT: Items/29/description/ < UNTRANSLATED
-
+[Snack] Super EP recovery. Exquisite, can only be made by a master maid.
 > END STRING
 
 > BEGIN STRING
@@ -404,7 +404,7 @@ Wake up
 > BEGIN STRING
 [茶] 仲間を完全回復させる妙薬。失神した仲間にも効果がある。
 > CONTEXT: Items/30/description/ < UNTRANSLATED
-
+[Tea] Completely restores allies. Applies on fainted allies.
 > END STRING
 
 > BEGIN STRING
@@ -507,37 +507,37 @@ Restores satiety fully. Milk that's too strong for humans to drink
 > BEGIN STRING
 チョコレート
 > CONTEXT: Items/39/name/ < UNTRANSLATED
-
+Chocolate
 > END STRING
 
 > BEGIN STRING
 [菓] 全員のＥＰを小回復する。二つに割ってお裾分けしよう。
 > CONTEXT: Items/39/description/ < UNTRANSLATED
-
+[Snack] Recovers a bit of EP for everyone. Split it in two and share.
 > END STRING
 
 > BEGIN STRING
 ツインマカロン
 > CONTEXT: Items/40/name/ < UNTRANSLATED
-
+Twin Macaron
 > END STRING
 
 > BEGIN STRING
 [菓] 全員のＥＰを中回復する。色違いのセットでカップルに人気。
 > CONTEXT: Items/40/description/ < UNTRANSLATED
-
+[Snack] Recovers everyone's EP. Set of different colors, popular with couples.
 > END STRING
 
 > BEGIN STRING
 パキっこ
 > CONTEXT: Items/41/name/ < UNTRANSLATED
-
+Pakik
 > END STRING
 
 > BEGIN STRING
 [菓] 全員のＥＰを大回復する。パキっと割って、二人で食べよう！
 > CONTEXT: Items/41/description/ < UNTRANSLATED
-
+[Snack] Greatly recovers everyone's EP. Crack it open and eat it together!
 > END STRING
 
 > BEGIN STRING
@@ -549,13 +549,13 @@ Restores satiety fully. Milk that's too strong for humans to drink
 > BEGIN STRING
 ウェイクアップ・ミニ
 > CONTEXT: Items/43/name/ < UNTRANSLATED
-
+Wake Up Mini
 > END STRING
 
 > BEGIN STRING
 [茶] 仲間を回復させる妙薬。失神した仲間にも効果がある。
 > CONTEXT: Items/43/description/ < UNTRANSLATED
-
+[Tea] A miracle drug that heals allies. Also effective on allies who have fainted.
 > END STRING
 
 > BEGIN STRING
@@ -3297,6 +3297,6 @@ Are you ready? うん！
 
 > BEGIN STRING
 没アイテム
-> CONTEXT: None < UNUSED
+> CONTEXT: Items/400/name/ < UNTRANSLATED
 
 > END STRING

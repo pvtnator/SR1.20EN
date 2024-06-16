@@ -217,7 +217,7 @@ you will start from where you last saved.
 
 > BEGIN STRING
 タルの中に何かがある
-> CONTEXT: Map209/events/28/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map209/events/28/pages/0/0/Dialogue
 There's something in the barrel
 > END STRING
 
@@ -609,8 +609,6 @@ What do you want to know? Kiki!
 > BEGIN STRING
 特にない
 > CONTEXT: Map209/events/61/pages/2/5/Choice/2 < UNTRANSLATED
-> CONTEXT: Map132/events/1/pages/1/12/Choice/3 < UNTRANSLATED
-> CONTEXT: Map132/events/1/pages/1/12/Choice/3 < UNTRANSLATED
 
 > END STRING
 
@@ -1077,14 +1075,15 @@ What do you want to know? Kiki!
 > BEGIN STRING
 "盗賊"
 > CONTEXT: Map209/events/88/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+"Bandit"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 キミ、獄界って知ってる？
 > CONTEXT: Map209/events/88/pages/0/1/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Do you know about hell?
 > END STRING
 
 > BEGIN STRING
@@ -1092,7 +1091,9 @@ What do you want to know? Kiki!
 闇洞窟の最下層にあるんだけど、
 封印されていて通常の手段では入れないんだ
 > CONTEXT: Map209/events/88/pages/0/3/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+It's at the bottom of the Dark Cave,
+but it's sealed and you can't get in by normal means.
 > END STRING
 
 > BEGIN STRING
@@ -1102,7 +1103,10 @@ What do you want to know? Kiki!
 それを止めるしかないと思うよ
 > CONTEXT: Map150/events/84/pages/0/6/Dialogue < UNTRANSLATED
 > CONTEXT: Map209/events/88/pages/0/6/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+How to break the seal?
+Hmm... there's a mysterious crystal that lights up the cave,
+I think the only way is to stop it.
 > END STRING
 
 > BEGIN STRING
@@ -1110,7 +1114,9 @@ What do you want to know? Kiki!
 でも目の前には手ごわい相手が待ち構えてるって噂だよ…
 間違ってもすぐに挑むのはおススメしないなぁ
 > CONTEXT: Map209/events/88/pages/0/10/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+But I hear there's a formidable opponent waiting...
+I wouldn't recommend taking on the enemy right away.
 > END STRING
 
 > BEGIN STRING

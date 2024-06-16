@@ -3,17 +3,19 @@
 扉の反対側がつっかえていて開くことが出来ない！
 > CONTEXT: Map027/events/2/pages/0/2/Dialogue
 > CONTEXT: Map158/events/29/pages/0/2/Dialogue
+> CONTEXT: Map164/events/3/pages/0/3/Dialogue
+> CONTEXT: Map159/events/2/pages/0/2/Dialogue
 The other side of the door is stuck and I can't open it!
 > END STRING
 
 > BEGIN STRING
 【転移魔法陣実験室】
-> CONTEXT: None < UNUSED
+> CONTEXT: Map164/events/4/pages/0/0/Dialogue
 [Transfer magic circle laboratory]
 > END STRING
 
 > BEGIN STRING
 【自動移動床実験室】
-> CONTEXT: None < UNUSED
+> CONTEXT: Map164/events/5/pages/0/0/Dialogue
 [Automatic moving floor laboratory]
 > END STRING

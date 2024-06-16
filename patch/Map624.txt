@@ -7,6 +7,7 @@ SCRP_Rendica
 > CONTEXT: Map624/bgm/name/ < UNTRANSLATED
 > CONTEXT: Map046/bgm/name/ < UNTRANSLATED
 > CONTEXT: Map034/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map152/bgm/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -33,8 +34,6 @@ SCRP_Rendica
 "gradation177"
 > CONTEXT: Map624/events/15/pages/0/15/InlineScript/2:1 < UNTRANSLATED
 > CONTEXT: Map046/events/29/pages/0/20/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map237/events/2/pages/0/21/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map230/events/2/pages/0/12/InlineScript/2:1 < UNTRANSLATED
 
 > END STRING
 
@@ -826,8 +825,8 @@ Reset food effects?
 
 > BEGIN STRING
 眠り状態付与で戦う
-> CONTEXT: Map624/events/382/pages/0/1/Choice/2 < UNTRANSLATED
-> CONTEXT: Map624/events/382/pages/0/1/Choice/2 < UNTRANSLATED
+> CONTEXT: Map624/events/382/pages/0/1/Choice/1 < UNTRANSLATED
+> CONTEXT: Map624/events/382/pages/0/1/Choice/1 < UNTRANSLATED
 
 > END STRING
 
@@ -891,30 +890,35 @@ Reset food effects?
 
 > BEGIN STRING
 マーナガルム単体と戦う
-> CONTEXT: None < UNUSED
+> CONTEXT: Map624/events/152/pages/0/1/Choice/2 < UNTRANSLATED
+> CONTEXT: Map624/events/152/pages/0/1/Choice/2 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 ジュエルスライム単体と戦う
-> CONTEXT: None < UNUSED
+> CONTEXT: Map624/events/152/pages/0/1/Choice/3 < UNTRANSLATED
+> CONTEXT: Map624/events/152/pages/0/1/Choice/3 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 ガーディアン単体と戦う
-> CONTEXT: None < UNUSED
+> CONTEXT: Map624/events/230/pages/0/1/Choice/1 < UNTRANSLATED
+> CONTEXT: Map624/events/230/pages/0/1/Choice/1 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 ウィッチサキュバス単体と戦う
-> CONTEXT: None < UNUSED
+> CONTEXT: Map624/events/382/pages/0/1/Choice/2 < UNTRANSLATED
+> CONTEXT: Map624/events/382/pages/0/1/Choice/2 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 メイジサキュバス単体と戦う
-> CONTEXT: None < UNUSED
+> CONTEXT: Map624/events/382/pages/0/1/Choice/3 < UNTRANSLATED
+> CONTEXT: Map624/events/382/pages/0/1/Choice/3 < UNTRANSLATED
 
 > END STRING

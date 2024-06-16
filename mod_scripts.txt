@@ -29334,19 +29334,19 @@ slowly rubbed
 > BEGIN STRING
 #{targetname}と見つめあい、\n\m互いの舌を絡めあった！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ and #{targetname} \n​m​looked at each other with tongues entangled!
 > END STRING
 
 > BEGIN STRING
 #{targetname}を求めるように、\n\m互いの舌を絡めあった！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ sought out #{targetname} \n​m​and entangled tongues!
 > END STRING
 
 > BEGIN STRING
 #{targetname}を吸い尽くすように、\n\m互いの舌を絡めあった！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ sucked #{targetname} dry \n​m​with tongues entangled!
 > END STRING
 
 > BEGIN STRING
@@ -34309,13 +34309,13 @@ in turning motion
 > BEGIN STRING
 #{targetname}に唇を奪われた！\m\n快感と共に、#{targetname}の身体から力が抜ける……！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ stole #{targetname}'s lips!​m​\nAlong with the pleasure, #{targetname}'s body loses strength...!
 > END STRING
 
 > BEGIN STRING
 #{targetname}のペニスにしゃぶりついた！\m\n快感と共に、#{targetname}の身体から力が抜ける……！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ sucked on #{targetname}'s penis! ​m​\nAlong with the pleasure, #{targetname}'s body went limp...!
 > END STRING
 
 > BEGIN STRING
@@ -34339,7 +34339,7 @@ in turning motion
 > BEGIN STRING
 \n\m快感と共に、#{targetname}の身体から力が抜ける……！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​Along with the pleasure, #{targetname}'s body relaxes...!
 > END STRING
 
 > BEGIN STRING
@@ -35071,7 +35071,7 @@ in turning motion
 > BEGIN STRING
 密着したまま、\n\m#{targetname}と互いの舌を絡めあった！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ and #{targetname} entangled tongues \n​m​while close together!
 > END STRING
 
 > BEGIN STRING
@@ -35155,13 +35155,13 @@ in turning motion
 > BEGIN STRING
 誘われるままに、\n\m#{targetname}と互いの舌を絡めあった！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ and #{targetname} entangled tongues, \n​m​following the invitation!
 > END STRING
 
 > BEGIN STRING
 絶頂した\m#{targetname}を労るように、\n\m互いの舌を絡めあった！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ entangled tongues with #{targetname} \n​m​who just climaxed, as if to reward!
 > END STRING
 
 > BEGIN STRING
@@ -35917,13 +35917,13 @@ two overwhelming
 > BEGIN STRING
 雪化粧を施した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ covered in snow!
 > END STRING
 
 > BEGIN STRING
 煙幕を張った！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ set up a smokescreen!
 > END STRING
 
 > BEGIN STRING
@@ -35983,7 +35983,7 @@ two overwhelming
 > BEGIN STRING
 キスをしつつ手で、\n\m#{targetname}のペニスを撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ stroked #{targetname}'s penis \n​m​by hand while kissing!
 > END STRING
 
 > BEGIN STRING
@@ -35995,7 +35995,7 @@ two overwhelming
 > BEGIN STRING
 キスをしつつ#{targetpantsu}の上から、\n\m#{targetname}のペニスを撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ stroked #{targetname}'s penis \n​m​over #{targetpantsu} while kissing!
 > END STRING
 
 > BEGIN STRING
@@ -36728,7 +36728,7 @@ teasingly
 > BEGIN STRING
 妖艶に
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+bewitchingly
 > END STRING
 
 > BEGIN STRING
@@ -42146,7 +42146,7 @@ Corrupt Scratch
 > BEGIN STRING
 の身体から力が抜ける……！\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+'s strength is waning...!
 > END STRING
 
 > BEGIN STRING
@@ -42158,7 +42158,7 @@ Corrupt Scratch
 > BEGIN STRING
 はイクことができない……！\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+ can't cum...!q
 > END STRING
 
 > BEGIN STRING
@@ -43477,25 +43477,25 @@ Unlucky roar
 > BEGIN STRING
 の魅力はこれ以上上がらない！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+'s charm can't increase further!​w​q
 > END STRING
 
 > BEGIN STRING
 の魅力が上昇した！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+'s charm increased!​w​q
 > END STRING
 
 > BEGIN STRING
 の精神力はこれ以上上がらない！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+'s spirit can't increase further!​w​q
 > END STRING
 
 > BEGIN STRING
 の精神力が上昇した！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+'s spirit increased!​w​q
 > END STRING
 
 > BEGIN STRING
@@ -44160,7 +44160,7 @@ Brought #{@ecstasy_battlers_count[0].name} to climax!
 > BEGIN STRING
 同時に#{@active_battler.name}もイってしまった！
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+At the same time, #{@active_battler.name} also came!
 > END STRING
 
 > BEGIN STRING
@@ -45909,49 +45909,49 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}は誘われるままに、\n#{active.name}にペニスを挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} accepted the invitation \nand inserted penis into #{active.name}!
 > END STRING
 
 > BEGIN STRING
 #{target.name}は誘われるままに、\n#{active.name}の胸にペニスを挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} was tempted and \ninserted penis into #{active.name}'s chest!
 > END STRING
 
 > BEGIN STRING
 #{target.name}は誘われるままに、\n#{active.name}の胸にペニスを擦り付けた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} was tempted and \nrubbed penis against #{active.name}'s chest!
 > END STRING
 
 > BEGIN STRING
 #{target.name}は誘われるままに、\n#{active.name}の胸に顔をうずめた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} was tempted and \nburied face in #{active.name}'s chest!
 > END STRING
 
 > BEGIN STRING
 #{target.name}は誘われるままに、\n#{active.name}の胸に顔を擦り付けた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} was tempted and \nrubbed face against #{active.name}'s chest!
 > END STRING
 
 > BEGIN STRING
 #{target.name}は誘われるままに、\n#{active.name}の口にペニスを挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} accepted the invitation and \ninserted penis into #{active.name}'s mouth!
 > END STRING
 
 > BEGIN STRING
 #{target.name}は誘われるままに、\n#{active.name}の唇に吸い付いた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} was seduced and \nlatched onto #{active.name}'s lips!
 > END STRING
 
 > BEGIN STRING
 #{target.name}は誘われるままに、\n#{active.name}のアナルにペニスを挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} accepted the invitation and \ninserted penis into #{active.name}'s anus!
 > END STRING
 
 > BEGIN STRING
@@ -46731,31 +46731,31 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}は誘われるままに、\n#{active.name}にペニスを挿入してしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} was tempted and ended up \ninserting penis into #{active.name}!
 > END STRING
 
 > BEGIN STRING
 #{target.name}は誘われるままに、\n#{active.name}の胸にペニスを挿入してしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} was tempted and ended up \ninserting penis into #{active.name}'s chest!
 > END STRING
 
 > BEGIN STRING
 #{target.name}は誘われるままに、\n#{active.name}の胸にペニスを擦り付けてしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} was tempted and ended up \nrubbing penis against #{active.name}'s chest!
 > END STRING
 
 > BEGIN STRING
 #{target.name}は誘われるままに、\n#{active.name}の胸に顔をうずめてしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} was invited and \nburied face in #{active.name}'s chest!
 > END STRING
 
 > BEGIN STRING
 #{target.name}は誘われるままに、\n#{active.name}の胸に顔を擦り付けてしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} was tempted and \nended up rubbing face against #{active.name}'s chest!
 > END STRING
 
 > BEGIN STRING
@@ -46767,19 +46767,19 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}は誘われるままに、\n#{active.name}の口にペニスを挿入してしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} was tempted and ended up \ninserting penis into #{active.name}'s mouth!
 > END STRING
 
 > BEGIN STRING
 #{target.name}は誘われるままに、\n#{active.name}の唇に吸い付いてしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} was seduced and ended up \nsucking onto #{active.name}'s lips!
 > END STRING
 
 > BEGIN STRING
 #{target.name}は誘われるままに、\n#{active.name}のアナルにペニスを挿入してしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} was tempted and ended up \ninserting penis into #{active.name}'s anus!
 > END STRING
 
 > BEGIN STRING
@@ -46797,7 +46797,7 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}は誘われるままに、\n#{active.name}のペニスをアソコに迎え入れた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} was invited and welcomed \n#{active.name}'s penis in vagina!
 > END STRING
 
 > BEGIN STRING
@@ -47193,7 +47193,7 @@ gave her virginity to her first love from long ago, and her last sanity is broke
 > BEGIN STRING
 は限界間近の刺激に耐えられない！！\w\q
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+ can't stand the stimulation so close to limit!!​w​q
 > END STRING
 
 > BEGIN STRING
@@ -47259,7 +47259,7 @@ gave her virginity to her first love from long ago, and her last sanity is broke
 > BEGIN STRING
 #{holder.name}は#{target.name}の精液を胎内に残し、\nアソコからペニスを抜き去った……！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{holder.name} left #{target.name}'s sperm \ninside her womb and pulled out penis...!
 > END STRING
 
 > BEGIN STRING
@@ -50746,7 +50746,7 @@ tiny body
 > BEGIN STRING
 華奢な体躯
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+slender body
 > END STRING
 
 > BEGIN STRING
@@ -51425,7 +51425,7 @@ __S
 > BEGIN STRING
 #{$msg.t_enemy.name}も絶頂した！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+#{$msg.t_enemy.name} also climaxed!
 > END STRING
 
 > BEGIN STRING
@@ -51486,7 +51486,7 @@ writhing with pleasure...!
 > BEGIN STRING
 #{$msg.t_target.name}もイってしまった！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+#{$msg.t_target.name} came too!
 > END STRING
 
 > BEGIN STRING
@@ -53570,7 +53570,7 @@ is enjoying the aftertaste of the essence
 > BEGIN STRING
 #{t_actor}の上に倒れ込んできた……！
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
-
+ collapsed on top of #{t_actor}...!
 > END STRING
 
 > BEGIN STRING

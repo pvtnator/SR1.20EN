@@ -1,25 +1,26 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 この扉を開くためには「実験室の鍵」が必要のようだ。
-> CONTEXT: None < UNUSED
+> CONTEXT: Map193/events/1/pages/0/23/Dialogue
 It seems that "Laboratory key" is required to open this door.
 > END STRING
 
 > BEGIN STRING
 ･･･！
 > CONTEXT: Map121/events/23/pages/0/9/Dialogue
+> CONTEXT: Map193/events/13/pages/0/14/Dialogue
 ...!
 > END STRING
 
 > BEGIN STRING
 師匠の最近の研究記録を見つけた！
-> CONTEXT: None < UNUSED
+> CONTEXT: Map193/events/13/pages/0/15/Dialogue
 I found master's recent research records!
 > END STRING
 
 > BEGIN STRING
 ･･･内容はこれだけだった。
-> CONTEXT: None < UNUSED
+> CONTEXT: Map193/events/13/pages/0/29/Dialogue
 ...That's all there was to it.
 > END STRING
 
@@ -27,27 +28,27 @@ I found master's recent research records!
 師匠らしくもない、極めて雑感のようなことしか\\_
 記されておらず、
 筆跡もかなりたどたどしい。
-> CONTEXT: None < UNUSED
+> CONTEXT: Map193/events/13/pages/0/30/Dialogue
 It doesn't seem like my master, only random impressions are written.
 The handwriting is also quite sloppy.
 > END STRING
 
 > BEGIN STRING
 ･･･何かこの研究が関係している･･･？
-> CONTEXT: None < UNUSED
+> CONTEXT: Map193/events/13/pages/0/33/Dialogue
 ...Is this research somehow related...?
 > END STRING
 
 > BEGIN STRING
 研究記録の側に何かが置いてある。
-> CONTEXT: None < UNUSED
+> CONTEXT: Map193/events/13/pages/0/36/Dialogue
 There is something next to the research records.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ある者は自由を、ある者は悦楽を、ある者は、\\.\\.恐怖を……。
-> CONTEXT: None < UNUSED
+> CONTEXT: Map193/events/14/pages/1/4/Dialogue
 \\name[\\v[2]]\\_
 Some people strive for freedom, some pleasure, some fear...
 > END STRING
@@ -56,7 +57,7 @@ Some people strive for freedom, some pleasure, some fear...
 \\name[\\v[2]]\\_
 退屈で虚無的な世界には無い、
 刺激的な物語を提供してくれるのは、いつだってこの世界。
-> CONTEXT: None < UNUSED
+> CONTEXT: Map193/events/14/pages/1/6/Dialogue
 \\name[\\v[2]]\\_
 This world always offers exciting stories that the 
 boring and nihilistic world doesn't have.
@@ -64,14 +65,13 @@ boring and nihilistic world doesn't have.
 
 > BEGIN STRING
 ・・・演奏が終わってから話しかけてくださいね。
-> CONTEXT: Map193/events/1/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "１０００２１番目の弟子"
-> CONTEXT: Map193/events/2/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map193/events/15/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -80,8 +80,7 @@ boring and nihilistic world doesn't have.
 おス！ここで武者修行させてもらってます！
 何か食べていくっスか？
 超特急で作るっスよ！！
-> CONTEXT: Map193/events/2/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map193/events/15/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -89,27 +88,26 @@ boring and nihilistic world doesn't have.
 \\name[\\v[2]]\\_
 おス！
 それではいってらっしゃいませっ！
-> CONTEXT: Map193/events/2/pages/0/12/Dialogue < UNTRANSLATED
-> CONTEXT: Map193/events/15/pages/0/12/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "ウィッチっぽい女性"
-> CONTEXT: Map193/events/3/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ここでは女性同士の闘いがメインみたいだね。
-> CONTEXT: Map193/events/3/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "サキュバスっぽい夢魔"
-> CONTEXT: Map193/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -117,13 +115,13 @@ boring and nihilistic world doesn't have.
 \\name[\\v[2]]\\_
 ペアコースはルームごとに対戦相手の特色があるみたい。
 誰と楽しむか考えるのも悪くないわね。
-> CONTEXT: Map193/events/4/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "デーモンっぽい悪魔"
-> CONTEXT: Map193/events/5/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -132,14 +130,13 @@ boring and nihilistic world doesn't have.
 ペアルームはタッグマッチでの勝負だ。
 おきにの奴同士で組むのもいいが
 組み合わせを活かして闘うのも戦術の一つだな。
-> CONTEXT: Map193/events/5/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 こちらではお口直し用の美味しいお水をお配りしております。
-> CONTEXT: Map193/events/6/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map193/events/16/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -147,8 +144,7 @@ boring and nihilistic world doesn't have.
 美味しいお水を飲みますか？
 
 ※食事効果がリセットされます
-> CONTEXT: Map193/events/6/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map193/events/16/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -156,20 +152,20 @@ boring and nihilistic world doesn't have.
 ん？
 参加できないのにどうしてここにいるかって？
 僕はただ、勝負に興じる人たちの話を聞くのが好きなのさ。
-> CONTEXT: Map193/events/7/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 それにここだと搾り取られる心配もないしね。
 曰く、「試合前に過度な興奮はするもんじゃない」とさ。
-> CONTEXT: Map193/events/7/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "メイドっぽい従者"
-> CONTEXT: Map193/events/8/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -177,34 +173,33 @@ boring and nihilistic world doesn't have.
 \\name[\\v[2]]\\_
 ふぅ・・・勝負には負けてしまいましたが
 色々吐き出せてすっきりしました。
-> CONTEXT: Map193/events/8/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 対戦相手を教えて欲しいとは言われたけど・・・
 それは流石にフェアじゃないわね。
-> CONTEXT: Map193/events/9/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 こういうのはじょーほーしゅーしゅーが大事と聞いたわ！
-> CONTEXT: Map193/events/10/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ねぇねぇお姉さん！
 あたい達の対戦相手のこと教えて！
-> CONTEXT: Map193/events/11/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "カグヅチ"
-> CONTEXT: Map193/events/14/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map193/events/14/pages/1/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -212,7 +207,7 @@ boring and nihilistic world doesn't have.
 \\name[\\v[2]]\\_
 うむ。ここはセクシバル・・・
 夢魔同士に性闘を重き置いた施設じゃ。
-> CONTEXT: Map193/events/14/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -220,7 +215,7 @@ boring and nihilistic world doesn't have.
 \\name[\\v[2]]\\_
 勝ち抜くとセクシバルバッチを進呈し
 これを用いて例のフルーツとの交換が可能じゃ。
-> CONTEXT: Map193/events/14/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -228,7 +223,7 @@ boring and nihilistic world doesn't have.
 \\name[\\v[2]]\\_
 褒美も潤沢に揃っておる。
 お主たちの参加を待っておるぞ。
-> CONTEXT: Map193/events/14/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -236,21 +231,20 @@ boring and nihilistic world doesn't have.
 \\name[\\v[2]]\\_
 うむ、\\n[101]。
 不思議なフルーツを交換していくかえ？
-> CONTEXT: Map193/events/14/pages/1/1/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 うむ、また来るがよいぞ。
-> CONTEXT: Map193/events/14/pages/1/10/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "受付嬢"
-> CONTEXT: Map193/events/18/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map194/events/7/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -258,14 +252,14 @@ boring and nihilistic world doesn't have.
 \\name[\\v[2]]\\_
 申し訳ございません。
 これより先は人間の男性の入場をお断りしております。
-> CONTEXT: Map193/events/18/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 セクシバルに参加されますか？
-> CONTEXT: Map193/events/18/pages/0/10/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -273,7 +267,7 @@ boring and nihilistic world doesn't have.
 \\name[\\v[2]]\\_
 かしこまりました。
 どうぞこちらへ・・・
-> CONTEXT: Map193/events/18/pages/0/14/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -281,19 +275,19 @@ boring and nihilistic world doesn't have.
 \\name[\\v[2]]\\_
 申し訳ございません。
 ご入場あたっては２名様以下となっております。
-> CONTEXT: Map193/events/18/pages/0/32/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 遊技場入口に移動しますか？
-> CONTEXT: Map193/events/19/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 申し訳ございません。
 これより先は改修作業のため立ち入りをお断りしております。
-> CONTEXT: Map193/events/22/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
