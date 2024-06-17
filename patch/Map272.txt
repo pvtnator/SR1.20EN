@@ -535,30 +535,33 @@ It's a delivery service, make a living.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今までに戦ったユニークともう一度戦いに行く？
-> CONTEXT: Map272/events/207/pages/1/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map272/events/207/pages/1/1/Dialogue
+Would you like to fight again 
+against a Unique you've fought before?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 それじゃあ、ご案内ー。
-> CONTEXT: Map272/events/207/pages/1/5/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map272/events/207/pages/1/5/Dialogue
+\\name[\\v[2]]\\_
+Well then, let me show you around.
 > END STRING
 
 > BEGIN STRING
 反応がない。
-> CONTEXT: Map272/events/208/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map272/events/208/pages/0/0/Dialogue
+No response.
 > END STRING
 
 > BEGIN STRING
 反応がない。
 どうやら一人でないと使えないようだ。
-> CONTEXT: Map272/events/208/pages/1/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map272/events/208/pages/2/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map272/events/208/pages/3/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map272/events/208/pages/1/1/Dialogue
+> CONTEXT: Map272/events/208/pages/2/1/Dialogue
+> CONTEXT: Map272/events/208/pages/3/1/Dialogue
+There's no response.
+It seems that it can only be used by one person.
 > END STRING
 
 > BEGIN STRING
@@ -699,7 +702,7 @@ If you have anything good, I'll trade items for you.
 \\name[\\v[2]]\\_
 出張サービスです。
 何かご入用であればお買い求めください。
-> CONTEXT: Map272/events/221/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map272/events/221/pages/0/2/Dialogue
 \\name[\\v[2]]\\_
 This is a visiting service.
 If you need anything, please buy it.
