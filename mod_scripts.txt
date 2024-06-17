@@ -5675,7 +5675,7 @@ Tail mastery
 > CONTEXT: O_MOD_Scene_Battle_5.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: 修正用.rb
-
+Oral marking
 > END STRING
 
 > BEGIN STRING
@@ -14422,7 +14422,7 @@ Sensitive body
 ヒートアップ
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Heat up
 > END STRING
 
 > BEGIN STRING
@@ -26385,7 +26385,7 @@ This succubus has taken your virginity.
 > BEGIN STRING
 自身がクライシス状態の時に与SS率が上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increases SS rate when in Crisis state.
 > END STRING
 
 > BEGIN STRING
@@ -71382,7 +71382,7 @@ The kiss mark on #{myname}'s lips has disappeared!
 > BEGIN STRING
 #{myname}の頬に付いていたキスマークが消えた！
 > CONTEXT: PR_RPG_Statetext.rb
-
+The kiss mark on #{myname}'s cheek disappeared!
 > END STRING
 
 > BEGIN STRING
@@ -75025,7 +75025,7 @@ Error: Too many characters on a line.\nNumber of characters: #{(x/14)-1}/26　Wi
 > BEGIN STRING
 /./
 > CONTEXT: Window_BattleLog.rb
-/[wW][a-pr-v]|mo|m[a-z][a-z]|[a-vA-Z ][mqw][ a-z\\!\\?\\.\\,\\:\\;\\-\\']|[a-pA-Pr-zR-Z ][my]|[yH][a-pA-Pr-zR-Z \\!\\?\\.\\,\\:\\;\\-\\']|./
+/[wW][a-pr-v]|m[a-lo]|m[a-z][a-z]|[a-vA-Z ][mqw][ a-z\\!\\?\\.\\,\\:\\;\\-\\']|[a-pA-Pr-zR-Z ][my]|[yH][a-pA-Pr-zR-Z \\!\\?\\.\\,\\:\\;\\-\\']|./
 > END STRING
 
 > BEGIN STRING
