@@ -50,9 +50,9 @@ if __name__ == "__main__":
     translations = {}
 
     main_files = [current_dir / "talk.txt"]
-    for file in (current_dir / "patch").rglob("*.txt"):
-        if not "Unused" in str(file) and not "Scripts" in str(file):
-            main_files.append(file)
+    #for file in (current_dir / "patch").rglob("*.txt"):
+    #    if not "Unused" in str(file) and not "Scripts" in str(file):
+    #        main_files.append(file)
 
     print("===Reading current translations===")
     for translations_file in main_files:
