@@ -115,6 +115,9 @@ def autotranslate(translations_file, lines, multiline=50):
                             translated = translated.replace(".\\\\H", "\\\\H")
                             translated = translated.replace("Giggle", "*Giggle*")
                             translated = translated.replace("violent", "intense")
+                            translated = re.sub("\\\\H　{0,}([a-zA-Z])", "\\\\H \\1", translated)
+                            translated = re.sub("[Ss]{0,}[Ww]h{0,}oosh(?=[,\.\\\\])", "*woosh*", translated)
+                            translated = re.sub("[Ll]ick(?=[,\.\\\\])", "*kiss*", translated)
                             translated = re.sub("[Kk]iss(?=[,\.\\\\])", "*kiss*", translated)
                             translated = re.sub("[Ss]mooch(?=[ ,\.\\\\])", "*smooch*", translated)
                             translated = re.sub("[Ss]lurp(?=[ ,\.\\\\])", "*slurp*", translated)
@@ -124,17 +127,17 @@ def autotranslate(translations_file, lines, multiline=50):
                             translated = re.sub("([a-zA-Z])\\1{3,}", "\\1\\1", translated)
                             #translated = re.sub(r"([^\.])\.\\H", r"\1\\H", translated)
                             parts = translated.split("\\n")
-                            brk = "" if "{speaker}" in translated else "　"
+                            brk = "" if "{speaker}" in translated or "{master}" in translated else "　"
                             translated = ""
                             pi = 0
                             while pi < len(parts):
-                                p = parts[pi]
+                                p = parts[pi].replace("　", brk)
                                 splitsymbols = [". ", "! ", "? ", ", ", " "]
                                 for ss in splitsymbols:
                                     spot = 30 if ss==" " else 20
-                                    if len(p) > 50 and p.find(ss, spot) >= 0:
-                                        parts[pi] = p[:p.find(ss, spot)+1]
-                                        parts.insert(pi+1, brk+p[p.find(ss, spot)+len(ss):])
+                                    if len(p) > 50 and p.find(ss, spot, spot+20) >= 0:
+                                        parts[pi] = p[:p.find(ss, spot, spot+20)+1]
+                                        parts.insert(pi+1, brk+p[p.find(ss, spot, spot+20)+len(ss):])
                                         #p = p[:p.find(ss, spot)+1]+brk+p[p.find(ss, spot)+len(ss):]
                                         break
                                 translated += parts[pi] if translated=="" else "\\n"+parts[pi]
