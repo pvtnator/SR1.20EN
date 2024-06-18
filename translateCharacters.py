@@ -92,9 +92,9 @@ def autotranslate(translations_file, lines, multiline=20):
                         if pasted!=batcht:
                             pasted = pasted.replace("\r\n\r\n", "\r\n")
                             pasted = re.sub(r'\r\n(?!\d)', r'\\n', pasted)
-                            paste = re.findall("\d{1,2}\. (.*)(?!\n)", pasted)
-                            #for p in range(len(paste)):
-                            #    print(str(p+1)+". "+paste[p])
+                            paste = re.findall("\d{1,2}\. ([^0-9]*)(?![\n\d])", pasted)
+                            for p in range(len(paste)):
+                                print(str(p+1)+". "+paste[p])
                     trlines = paste
                     multiline = 20
                     for j in range(len(trlines)):
@@ -113,9 +113,9 @@ def autotranslate(translations_file, lines, multiline=20):
                             translated = translated.replace(".\\\\H", "\\\\H")
                             translated = translated.replace("Giggle", "*Giggle*")
                             translated = translated.replace("violent", "intense")
-                            translated = re.sub("[kK]iss", "*kiss*", translated)
-                            translated = re.sub("[Ss]ooch", "*smooch*", translated)
-                            translated = re.sub("[Ss]lurp", "*slurp*", translated)
+                            translated = re.sub("[Kk]iss(?=[ ,\.])", "*kiss*", translated)
+                            translated = re.sub("[Ss]ooch(?=[ ,\.])", "*smooch*", translated)
+                            translated = re.sub("[Ss]lurp(?=[ ,\.])", "*slurp*", translated)
                             translated = re.sub(r"\* \*|\*, \*", ", ", translated)
                             translated = re.sub("\"(.*)\"", "「\\1」", translated)
                             translated = re.sub("\.{2,}", "...", translated)
@@ -129,7 +129,6 @@ def autotranslate(translations_file, lines, multiline=20):
                                 for ss in splitsymbols:
                                     brk = "" if "{speaker}" in p else "　"
                                     spot = 30 if ss==" " else 20
-                                    spot += max(len(p)-70, spot)
                                     if len(p) > 50 and p.find(ss, spot) >= 0:
                                         parts[pi] = p[:p.find(ss, spot)+1]
                                         parts.insert(pi+1, brk+p[p.find(ss, spot)+len(ss):])
