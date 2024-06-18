@@ -70,6 +70,8 @@ def autotranslate(translations_file, lines, multiline=20):
                 string = string.replace("#{$msg.t_target.name}", "あなた")
                 string = string.replace("アソコ", "おまんこ").replace("ココ", "おまんこ")
                 string = string.replace(r"\\H", r".\\H")
+                string = string.replace("…", "...")
+                string = re.sub("\.{2,}", "...", string)
                 numbered = len(batchi)
                 string = str(numbered)+". "+string.rstrip()+"\r\n"
                 batcht += string
@@ -88,10 +90,11 @@ def autotranslate(translations_file, lines, multiline=20):
                             return 2
                         pasted = pyperclip.paste()
                         if pasted!=batcht:
+                            pasted = pasted.replace("\r\n\r\n", "\r\n")
                             pasted = re.sub(r'\r\n(?!\d)', r'\\n', pasted)
-                            paste = pasted.split("\n")
-                            print(paste)
-                    return 0
+                            paste = re.findall("\d{1,2}\. (.*)(?!\n)", pasted)
+                            #for p in range(len(paste)):
+                            #    print(str(p+1)+". "+paste[p])
                     trlines = paste
                     multiline = 20
                     for j in range(len(trlines)):
@@ -109,19 +112,32 @@ def autotranslate(translations_file, lines, multiline=20):
                             translated = re.sub("([^\\\\])\\\\H", "\\1\\\\\\\\H", translated)
                             translated = translated.replace(".\\\\H", "\\\\H")
                             translated = translated.replace("Giggle", "*Giggle*")
+                            translated = translated.replace("violent", "intense")
+                            translated = re.sub("[kK]iss", "*kiss*", translated)
+                            translated = re.sub("[Ss]ooch", "*smooch*", translated)
+                            translated = re.sub("[Ss]lurp", "*slurp*", translated)
+                            translated = re.sub(r"\* \*|\*, \*", ", ", translated)
                             translated = re.sub("\"(.*)\"", "「\\1」", translated)
                             translated = re.sub("\.{2,}", "...", translated)
                             translated = re.sub("([a-zA-Z])\\1{3,}", "\\1\\1", translated)
                             #translated = re.sub(r"([^\.])\.\\H", r"\1\\H", translated)
                             parts = translated.split("\\n")
                             translated = ""
-                            for p in parts:
-                                if len(p) > 60 and p.find(",", 30) >= 0:
-                                    p = p[:p.find(",", 30)+1]+"\\n　"+p[p.find(",", 30)+2:]
-                                translated += p if translated=="" else "\\n"+p
-                                    
+                            for pi in range(len(parts)):
+                                p = parts[pi]
+                                splitsymbols = [". ", "! ", "? ", ", ", " "]
+                                for ss in splitsymbols:
+                                    brk = "" if "{speaker}" in p else "　"
+                                    spot = 30 if ss==" " else 20
+                                    spot += max(len(p)-70, spot)
+                                    if len(p) > 50 and p.find(ss, spot) >= 0:
+                                        parts[pi] = p[:p.find(ss, spot)+1]
+                                        parts.insert(pi+1, brk+p[p.find(ss, spot)+len(ss):])
+                                        #p = p[:p.find(ss, spot)+1]+brk+p[p.find(ss, spot)+len(ss):]
+                                        break
+                                translated += parts[pi] if translated=="" else "\\n"+parts[pi]
+                                
                             lines[batchi[j]] = translated+"\n"
-                            #print(lines[batchi[j]])
                     batchi.clear()
                     batcht = ""
                     with open(translations_file, 'w', encoding='utf-8') as trans_file:
