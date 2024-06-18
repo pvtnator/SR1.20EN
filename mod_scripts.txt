@@ -27914,7 +27914,7 @@ pinned down from above
 > BEGIN STRING
 、\n\m#{targetname}に正面から抱きついた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+,\n​m​hugged #{targetname} from the front!
 > END STRING
 
 > BEGIN STRING
@@ -31074,13 +31074,13 @@ nipples
 > BEGIN STRING
 #{myname}は深く息を吸い込み、\n\m乱れた呼吸を鎮めようとした！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+#{myname} took a deep breath,\n​m​trying to calm ragged breathing!
 > END STRING
 
 > BEGIN STRING
 #{myname}は深く息を吸い込み、\n\m精神を落ち着けた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+#{myname} took a deep breath and calmed down!
 > END STRING
 
 > BEGIN STRING
@@ -45861,7 +45861,7 @@ Berserk behavior
 > BEGIN STRING
 #{active.name}は、#{target.name}の\n#{target.bustsize}の谷間に顔をうずめた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} buried face \nin #{target.name}'s #{target.bustsize}!
 > END STRING
 
 > BEGIN STRING
@@ -57860,37 +57860,37 @@ huge
 > BEGIN STRING
 超大
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+XL
 > END STRING
 
 > BEGIN STRING
 極大
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+XXL
 > END STRING
 
 > BEGIN STRING
 絶大
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Max
 > END STRING
 
 > BEGIN STRING
 絶大★2
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Max★2
 > END STRING
 
 > BEGIN STRING
 絶大★3
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Max★3
 > END STRING
 
 > BEGIN STRING
 絶大★4
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Max★4
 > END STRING
 
 > BEGIN STRING
