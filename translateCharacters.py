@@ -48,9 +48,9 @@ def extract_strings(folder_path, output_file, update={}):
             #    print(string)
             outfile.write("\n> END STRING\n\n")
 
-def autotranslate(translations_file, lines, multiline=50):
+def autotranslate(translations_file, lines, multiline=200):
     import pyperclip
-    i = 938452
+    i = 0
     batchi = []
     batcht = ""
     while i < len(lines):
@@ -63,8 +63,9 @@ def autotranslate(translations_file, lines, multiline=50):
                 context = lines[i][11:].strip()
                 contexts.append(context)
                 i += 1
-            if lines[i].strip() == "" and len(string.strip())>3 and ("\\\\H" in string or "\\n" in string or \
-                                           (not "global" in contexts and not "System" in str(contexts))):
+            if lines[i].strip() == "" and re.search("[a-zA-Z]", string) and not "/" in string and \
+                                    len(string.strip())>3 and ("\\\\H" in string or "\\n" in string or \
+                                    (not "global" in contexts and not "System" in str(contexts))):
                 batchi.append(i)
                 string = string.replace("#{myname}", "私").replace("#{target}", "あなた")
                 string = string.replace("#{$msg.t_target.name}", "あなた")
@@ -75,7 +76,7 @@ def autotranslate(translations_file, lines, multiline=50):
                 numbered = len(batchi)
                 string = str(numbered)+". "+string.rstrip()+"\r\n"
                 batcht += string
-                if i > len(lines)-10 or len(batchi)>=multiline:
+                if i > len(lines)-10 or len(batchi)>=multiline or len(batcht)>4800:
                     batcht = batcht.strip()
                     #print("\n"+batcht+"\n")
                     print(str(100*i/len(lines))+"%\n")
@@ -85,18 +86,18 @@ def autotranslate(translations_file, lines, multiline=50):
                         time.sleep(0.2)
                         #print(len(paste))
                         #print(len(batcht.split("\n")))
-                        if len(paste) != len(batcht.split("\n")) and len(paste) > max(multiline-15,5) and pyperclip.paste() != batcht:
-                            print("Switched to 2 lines")
-                            return 2
+                        if len(paste) != len(batcht.split("\n")) and len(paste) > 5 and pyperclip.paste() != batcht:
+                            print("Switched to 10 lines")
+                            return 10
                         pasted = pyperclip.paste()
                         if pasted!=batcht:
                             pasted = pasted.replace("\r\n\r\n", "\r\n")
                             pasted = re.sub(r'\r\n(?!\d)', r'\\n', pasted)
-                            paste = re.findall("\d{1,2}\. ([^0-9]*)(?![\n\d])", pasted)
+                            paste = re.findall("\d{1,2}\. {0,}([^0-9]*)(?![\n\d])", pasted)
                             #for p in range(len(paste)):
                             #    print(str(p+1)+". "+paste[p])
                     trlines = paste
-                    multiline = 50
+                    multiline = 200
                     for j in range(len(trlines)):
                         translated = trlines[j].strip()
                         if len(translated) > 3:
