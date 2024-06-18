@@ -50,7 +50,7 @@ def extract_strings(folder_path, output_file, update={}):
 
 def autotranslate(translations_file, lines, multiline=20):
     import pyperclip
-    i = 924227
+    i = 930845
     batchi = []
     batcht = ""
     while i < len(lines):
@@ -70,7 +70,8 @@ def autotranslate(translations_file, lines, multiline=20):
                 string = string.replace("#{$msg.t_target.name}", "あなた")
                 string = string.replace("アソコ", "おまんこ").replace("ココ", "おまんこ")
                 string = string.replace(r"\\H", r".\\H")
-                string = "[[\""+string.rstrip()+"\"]]\r\n"
+                numbered = len(batchi)
+                string = str(numbered)+". "+string.rstrip()+"\r\n"
                 batcht += string
                 if i > len(lines)-10 or len(batchi)>=multiline:
                     batcht = batcht.strip()
@@ -85,7 +86,12 @@ def autotranslate(translations_file, lines, multiline=20):
                         if len(paste) != len(batcht.split("\n")) and len(paste) > max(multiline-15,5) and pyperclip.paste() != batcht:
                             print("Switched to 2 lines")
                             return 2
-                        paste = re.findall("\[\[\"(.*)\"\]\]", pyperclip.paste())
+                        pasted = pyperclip.paste()
+                        if pasted!=batcht:
+                            pasted = re.sub(r'\r\n(?!\d)', r'\\n', pasted)
+                            paste = pasted.split("\n")
+                            print(paste)
+                    return 0
                     trlines = paste
                     multiline = 20
                     for j in range(len(trlines)):
