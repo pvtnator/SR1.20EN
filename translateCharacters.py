@@ -48,9 +48,9 @@ def extract_strings(folder_path, output_file, update={}):
             #    print(string)
             outfile.write("\n> END STRING\n\n")
 
-def autotranslate(translations_file, lines, multiline=20):
+def autotranslate(translations_file, lines, multiline=50):
     import pyperclip
-    i = 930845
+    i = 938452
     batchi = []
     batcht = ""
     while i < len(lines):
@@ -96,7 +96,7 @@ def autotranslate(translations_file, lines, multiline=20):
                             #for p in range(len(paste)):
                             #    print(str(p+1)+". "+paste[p])
                     trlines = paste
-                    multiline = 20
+                    multiline = 50
                     for j in range(len(trlines)):
                         translated = trlines[j].strip()
                         if len(translated) > 3:
@@ -104,19 +104,20 @@ def autotranslate(translations_file, lines, multiline=20):
                             if translated[-1] == "." and translated[-2] != ".":
                                 translated = translated[:-1]
                             translated = translated.replace("\\n", "\\n　")
-                            translated = translated.replace("\\n　\\n　", "\\n　")
+                            translated = translated.replace(r"\n　\n　", r"\n　")
                             translated = translated.replace("　　", "　").replace("　 ", "　")
                             translated = translated.replace("…", "...")
                             translated = translated.replace("#", "").replace("{", "#{")
                             translated = translated.replace("\\ \\", "\\\\")
                             translated = translated.replace(" \\\\H", "\\\\H")
+                            translated = translated.replace("\\\\　H", "\\\\H ")
                             translated = re.sub("([^\\\\])\\\\H", "\\1\\\\\\\\H", translated)
                             translated = translated.replace(".\\\\H", "\\\\H")
                             translated = translated.replace("Giggle", "*Giggle*")
                             translated = translated.replace("violent", "intense")
                             translated = re.sub("[Kk]iss(?=[,\.\\\\])", "*kiss*", translated)
-                            translated = re.sub("[Ss]ooch(?=[,\.\\\\])", "*smooch*", translated)
-                            translated = re.sub("[Ss]lurp(?=[,\.\\\\])", "*slurp*", translated)
+                            translated = re.sub("[Ss]mooch(?=[ ,\.\\\\])", "*smooch*", translated)
+                            translated = re.sub("[Ss]lurp(?=[ ,\.\\\\])", "*slurp*", translated)
                             translated = re.sub(r"\* \*|\*, \*", ", ", translated)
                             translated = re.sub("\"(.*)\"", "「\\1」", translated)
                             translated = re.sub("\.{2,}", "...", translated)
@@ -130,7 +131,6 @@ def autotranslate(translations_file, lines, multiline=20):
                                 p = parts[pi]
                                 splitsymbols = [". ", "! ", "? ", ", ", " "]
                                 for ss in splitsymbols:
-                                    brk = "" if "{speaker}" in p else "　"
                                     spot = 30 if ss==" " else 20
                                     if len(p) > 50 and p.find(ss, spot) >= 0:
                                         parts[pi] = p[:p.find(ss, spot)+1]
