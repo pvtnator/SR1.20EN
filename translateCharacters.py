@@ -93,7 +93,7 @@ def autotranslate(translations_file, lines, multiline=200):
                         if pasted!=batcht:
                             pasted = pasted.replace("\r\n\r\n", "\r\n")
                             pasted = re.sub(r'\r\n(?!\d)', r'\\n', pasted)
-                            paste = re.findall("\d{1,2}\. {0,}([^0-9]*)(?![\n\d]\.)", pasted)
+                            paste = re.findall("\d{1,2}\. {0,}([^0-9]*)(?![\n\d])", pasted)
                             #for p in range(len(paste)):
                             #    print(str(p+1)+". "+paste[p])
                     trlines = paste

@@ -14865,7 +14865,7 @@ Queen of Deadly Sins
 厳寒の冷嬢
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Ice Lady
 > END STRING
 
 > BEGIN STRING
@@ -21689,13 +21689,13 @@ Can't kiss when clothed.
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Snow People
 > END STRING
 
 > BEGIN STRING
 雪国出身者。極寒の地でも平気。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Born in a snowy country. Not bothered by extreme cold.
 > END STRING
 
 > BEGIN STRING
@@ -25518,7 +25518,7 @@ Kissing the main character increases your charm and energy.
 > BEGIN STRING
 雪国でこの夢魔から快感を受けると、虚脱状態になる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Inflicts lethargy along with pleasure.
 > END STRING
 
 > BEGIN STRING
@@ -32190,7 +32190,7 @@ Iris Seed: Aldar has been cast!
 > BEGIN STRING
 #{targetname}を抱き寄せ、\n\m冷たい唇で激しくキスをしてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pulled #{targetname} \n​m​and kissed passionately with cold lips!
 > END STRING
 
 > BEGIN STRING
@@ -37305,13 +37305,13 @@ left and right
 > BEGIN STRING
 #{targetname}に\n\m冷たい肌を擦り付けながら、腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ rubbed cold skin against #{targetname} \n​m​and started shaking hips!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の顔を\n\m冷たい乳房で包みながら、腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ wrapped #{targetname}'s face \n​m​in cold breasts and started shaking hips!
 > END STRING
 
 > BEGIN STRING
@@ -38806,7 +38806,7 @@ suddenly hugged tightly!
 > BEGIN STRING
 冷たい肌で\n\m#{targetname}を抱きしめてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ hugged #{targetname} with cold skin!
 > END STRING
 
 > BEGIN STRING
@@ -43640,7 +43640,7 @@ Emotion
 > BEGIN STRING
 #{target.name}は#{drain_p}を吸収されてしまった！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{target.name} absorbed #{drain_p}! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -50764,7 +50764,7 @@ slender body
 > BEGIN STRING
 #{battler.name}の体が少しずつ冷えてきた！
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+#{battler.name}'s body is slowly getting colder!
 > END STRING
 
 > BEGIN STRING
@@ -50909,7 +50909,7 @@ slender body
 > BEGIN STRING
  吸収されてしまった！\w\q
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+ absorbed!​w​q
 > END STRING
 
 > BEGIN STRING
@@ -58662,13 +58662,13 @@ But it has no effect on #{battler_one.name}
 > BEGIN STRING
 あたりは冷気に包まれている……！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+The surroundings are enveloped in cold air...!
 > END STRING
 
 > BEGIN STRING
 辺り一面に妖しい霧が垂れ込めている……！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+A mysterious mist hangs all over the area...!
 > END STRING
 
 > BEGIN STRING
