@@ -17318,7 +17318,7 @@ Master Therion Kura
 プティ
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: PR_MOD_Window_NameEdit_ランダム名.rb
-Puty
+Puti
 > END STRING
 
 > BEGIN STRING
@@ -19003,7 +19003,7 @@ Cause lust on all enemies based on mood upon undressing.
 > BEGIN STRING
 別の夢魔の姿で戦闘に出る。クライシスになると元に戻る。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-Goes to battle in a different succubus form. \nReturns to normal when a crisis occurs.
+Goes to battle in a different succubus form. Revert in crisis.
 > END STRING
 
 > BEGIN STRING
@@ -19085,7 +19085,7 @@ When you enter battle, assess all opponents.
 > BEGIN STRING
 この夢魔の体液に触れると、状態異常になる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-Receive status ailments from being in \ncontact with this succubus' body fluids
+Receive status ailments from contact with body fluids
 > END STRING
 
 > BEGIN STRING
@@ -47925,7 +47925,7 @@ Can't offer your semen to a succubus who isn't hungry!
 > BEGIN STRING
 "消費します）"
 > CONTEXT: O_MOD_Scene_Menu_Party_select.rb
-" "
+""
 > END STRING
 
 > BEGIN STRING
@@ -51468,7 +51468,7 @@ Simultaneously,
 > BEGIN STRING
 \q\mしかし#{$msg.t_enemy.name}は、まだ物足りない様子だ……！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-​q​m​But #{$msg.t_enemy.name} still seems unsatisfied...!
+q​m​But #{$msg.t_enemy.name} still seems unsatisfied...!
 > END STRING
 
 > BEGIN STRING
@@ -58511,7 +58511,7 @@ Ring of the Strong
 > BEGIN STRING
 ワイルドカード
 > CONTEXT: PR_MOD_Scene_Battle_2.rb
-Wildcard
+Wildcard 
 > END STRING
 
 > BEGIN STRING
@@ -74832,7 +74832,7 @@ Got #{gold}Lps.!
 > BEGIN STRING
 大成功
 > CONTEXT: SR_Util dish_system.rb
-Great:
+Great: 
 > END STRING
 
 > BEGIN STRING
