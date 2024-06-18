@@ -63,7 +63,7 @@ def autotranslate(translations_file, lines, multiline=200):
                 context = lines[i][11:].strip()
                 contexts.append(context)
                 i += 1
-            if lines[i].strip() == "" and re.search("[a-zA-Z]", string) and not "/" in string and \
+            if lines[i].strip() == "" and re.search("[ぁ-んァ-ン]", string) and not "/" in string and \
                                     len(string.strip())>3 and ("\\\\H" in string or "\\n" in string or \
                                     (not "global" in contexts and not "System" in str(contexts))):
                 batchi.append(i)
@@ -114,7 +114,7 @@ def autotranslate(translations_file, lines, multiline=200):
                             translated = translated.replace("\\\\　H", "\\\\H ")
                             translated = re.sub("([^\\\\])\\\\H", "\\1\\\\\\\\H", translated)
                             translated = translated.replace(".\\\\H", "\\\\H")
-                            translated = translated.replace("Giggle", "*Giggle*")
+                            translated = re.sub("Giggle|Laughs{0,}|[Ll]ol", "*Giggle*", translated) 
                             translated = translated.replace("violent", "intense")
                             translated = re.sub("\\\\H　{0,}([a-zA-Z])", "\\\\H \\1", translated)
                             translated = re.sub("[Ss]{0,}[Ww]h{0,}oosh(?=[,\.\\\\])", "*woosh*", translated)
