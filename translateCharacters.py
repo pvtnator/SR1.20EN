@@ -182,7 +182,12 @@ if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv)>1 else "autotranslate"
     source = sys.argv[2] if len(sys.argv)>2 else "talk"
     dest = sys.argv[3] if len(sys.argv)>3 else "Mod_Talk"
-    translated_dir = Path(sys.argv[4]) if len(sys.argv)>4 else current_dir.parent / Path().resolve().name.replace("patch","translated")
+    quickpatch = ""
+    translated_dir = current_dir.parent / Path().resolve().name.replace("patch","translated")
+    if mode=="apply":
+        quickpatch = sys.argv[4] if len(sys.argv)>4 else ""
+    else:
+        translated_dir = Path(sys.argv[4]) if len(sys.argv)>4 else current_dir.parent / Path().resolve().name.replace("patch","translated")
     talk_dir = translated_dir / "System" / source
     modtalk_dir = translated_dir / "Mod" / dest
     translations_file = source+".txt"
@@ -231,7 +236,7 @@ if __name__ == "__main__":
         extract_strings(talk_dir, translations_file, translations)
         print("Extraction completed.")
     elif mode == "apply":       
-        apply_translations(talk_dir, modtalk_dir, regexes, translations)
+        apply_translations(talk_dir, modtalk_dir, regexes, translations, quickpatch)
         print("Translations applied.")
     elif mode == "autotranslate":
         multiline = autotranslate(translations_file, lines)
