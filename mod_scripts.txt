@@ -2227,25 +2227,25 @@ Relax time
 ヒーリングタイム
 > CONTEXT: Incense_System.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Healing Time
 > END STRING
 
 > BEGIN STRING
 #{actors_word}に心休まる時が訪れた！
 > CONTEXT: Incense_System.rb
-
+It's time for some peace of mind for #{actors_word}!
 > END STRING
 
 > BEGIN STRING
 #{actors_word}に心休まる時が流れている……！
 > CONTEXT: Incense_System.rb
-
+#{actors_word} is having a relaxing time...!
 > END STRING
 
 > BEGIN STRING
 #{actors_word}の心休まる時が終わった！
 > CONTEXT: Incense_System.rb
-
+#{actors_word}'s time of peace is over!
 > END STRING
 
 > BEGIN STRING
@@ -34099,7 +34099,7 @@ in turning motion
 > BEGIN STRING
 舌舐めずりをしながら、\n\m#{targetname}を誘った！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ invited\n​m​#{targetname}, licking lips!
 > END STRING
 
 > BEGIN STRING
@@ -35023,7 +35023,7 @@ in turning motion
 > BEGIN STRING
 羽で、\n\m#{targetname}のお尻をふわりと撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ gently stroked the backside of \n​m​#{targetname} with feathers!
 > END STRING
 
 > BEGIN STRING
@@ -35683,7 +35683,7 @@ two overwhelming
 > BEGIN STRING
 #{tec}、\n\m#{targetname}の#{target.bustsize}を足で思うまま弄ぶ！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ played with #{targetname}'s \n​m​#{target.bustsize} with feet #{tec}!
 > END STRING
 
 > BEGIN STRING
@@ -36001,7 +36001,7 @@ two overwhelming
 > BEGIN STRING
 舌で、\n\m#{targetname}の#{target.bustsize}をなぞりつつ
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ traced \n​m​#{targetname}'s #{target.bustsize} by tongue
 > END STRING
 
 > BEGIN STRING
@@ -38116,7 +38116,7 @@ as if dancing
 > BEGIN STRING
 なおも激しく、\n\m#{targetname}と舌を絡めあう！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+'s tongue entangles with #{targetname}\n​m​even more passionately!
 > END STRING
 
 > BEGIN STRING
@@ -39594,7 +39594,7 @@ up and down
 > BEGIN STRING
 \n\m#{targetname}のアソコを指で愛撫した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-\n​m​caressed #{targetname}'s pussy with fingers!
+\n​m​caressed #{targetname}'s thing with fingers!
 > END STRING
 
 > BEGIN STRING
@@ -51498,7 +51498,7 @@ q​m​But #{$msg.t_enemy.name} still seems unsatisfied...!
 > BEGIN STRING
 #{$msg.t_target.name}は、意識が朦朧としている……！\q\m
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+#{$msg.t_target.name} is in a daze...! ​q​m
 > END STRING
 
 > BEGIN STRING
@@ -70350,7 +70350,7 @@ The magic circle beneath #{myname}'s feet disappeared!
 > BEGIN STRING
 #{myname}は状態異常を無効化するようになった！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} now has immunity to status effects!
 > END STRING
 
 > BEGIN STRING
@@ -70572,7 +70572,7 @@ The magic circle beneath #{myname}'s feet disappeared!
 > BEGIN STRING
 #{myname}を骨抜きにさせた！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} became weak in the knees!
 > END STRING
 
 > BEGIN STRING
@@ -71244,7 +71244,7 @@ The magic circle beneath #{myname}'s feet disappeared!
 > BEGIN STRING
 #{myname}は口淫の虜にされている！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} is addicted to oral sex!
 > END STRING
 
 > BEGIN STRING
