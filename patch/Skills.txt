@@ -12136,13 +12136,13 @@ Heavenly Spoil
 > BEGIN STRING
 ヒールブレス
 > CONTEXT: Skills/1494/name/ < UNTRANSLATED
-
+Heal Breath
 > END STRING
 
 > BEGIN STRING
 ＥＰを大回復する。
-> CONTEXT: Skills/1494/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1494/description/
+Greatly recovers EP.
 > END STRING
 
 > BEGIN STRING
@@ -12339,38 +12339,38 @@ Chance of making the opponent go berserk. [Charm]
 
 > BEGIN STRING
 トリムストーク・アルダ
-> CONTEXT: Skills/1513/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1513/name/
+Trimstoke: Aldar
 > END STRING
 
 > BEGIN STRING
 [魔法] 味方全員の虚脱・畏怖・麻痺・散漫・媚薬を解除する。
-> CONTEXT: Skills/1513/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1513/description/
+[Magic] Cure lethargy, fear, paralysis, distraction, and aphrodisiac from all allies.
 > END STRING
 
 > BEGIN STRING
 トリムヴァイン・アルダ
-> CONTEXT: Skills/1514/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1514/name/
+Trimvine: Aldar
 > END STRING
 
 > BEGIN STRING
 [魔法] 味方全員の眠り・骨抜き・狂乱・虜を解除する。
-> CONTEXT: Skills/1514/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1514/description/
+[Magic] Cures sleep, weakness, frenzy, and captivity from all allies.
 > END STRING
 
 > BEGIN STRING
 トリムオール・アルダ
-> CONTEXT: Skills/1515/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1515/name/
+Trimall: Aldar
 > END STRING
 
 > BEGIN STRING
 [魔法] 味方全員の状態異常を全て解除する。
-> CONTEXT: Skills/1515/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1515/description/
+[Magic] Removes all status ailments from all allies.
 > END STRING
 
 > BEGIN STRING
@@ -13922,8 +13922,8 @@ Hard Caress/160/6
 
 > BEGIN STRING
 [声][CT:6] 耳元で深呼吸する。忍耐力を下げ、自身の体力を大回復する。[低：スタン][精神力]
-> CONTEXT: Skills/1902/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1902/description/
+[Voice][CT:6]Breath deeply in ear. Lowers patience, restores own endurance[Stun][Spirit]
 > END STRING
 
 > BEGIN STRING
@@ -14961,8 +14961,8 @@ Protects you from attacks for 6 turns. [Pleasure Decay]
 
 > BEGIN STRING
 [場：自] ５ターンの間、味方全員を大回復する。
-> CONTEXT: Skills/2198/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2198/description/
+[Field: Auto] Greatly heal all allies for 5 turns.
 > END STRING
 
 > BEGIN STRING
@@ -15009,8 +15009,8 @@ Protects you from attacks for 6 turns. [Pleasure Decay]
 
 > BEGIN STRING
 [声] 味方単体の状態異常を全て解除し、ＥＰを大回復する。
-> CONTEXT: Skills/2204/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2204/description/
+[Voice] Removes status ailments from an ally and greatly recover EP.
 > END STRING
 
 > BEGIN STRING
