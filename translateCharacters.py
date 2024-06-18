@@ -66,7 +66,7 @@ def autotranslate(translations_file, lines, multiline=20):
             if lines[i].strip() == "" and len(string.strip())>3 and ("\\\\H" in string or "\\n" in string or \
                                            (not "global" in contexts and not "System" in str(contexts))):
                 batchi.append(i)
-                string = string.replace("#{myname}", "私").replace("#{target}", "あなた").replace("#{master}", "あなた")
+                string = string.replace("#{myname}", "私").replace("#{target}", "あなた")
                 string = string.replace("#{$msg.t_target.name}", "あなた")
                 string = string.replace("アソコ", "おまんこ").replace("ココ", "おまんこ")
                 string = string.replace(r"\\H", r".\\H")
@@ -93,8 +93,8 @@ def autotranslate(translations_file, lines, multiline=20):
                             pasted = pasted.replace("\r\n\r\n", "\r\n")
                             pasted = re.sub(r'\r\n(?!\d)', r'\\n', pasted)
                             paste = re.findall("\d{1,2}\. ([^0-9]*)(?![\n\d])", pasted)
-                            for p in range(len(paste)):
-                                print(str(p+1)+". "+paste[p])
+                            #for p in range(len(paste)):
+                            #    print(str(p+1)+". "+paste[p])
                     trlines = paste
                     multiline = 20
                     for j in range(len(trlines)):
@@ -104,6 +104,7 @@ def autotranslate(translations_file, lines, multiline=20):
                             if translated[-1] == "." and translated[-2] != ".":
                                 translated = translated[:-1]
                             translated = translated.replace("\\n", "\\n　")
+                            translated = translated.replace("\\n　\\n　", "\\n　")
                             translated = translated.replace("　　", "　").replace("　 ", "　")
                             translated = translated.replace("…", "...")
                             translated = translated.replace("#", "").replace("{", "#{")
@@ -113,17 +114,19 @@ def autotranslate(translations_file, lines, multiline=20):
                             translated = translated.replace(".\\\\H", "\\\\H")
                             translated = translated.replace("Giggle", "*Giggle*")
                             translated = translated.replace("violent", "intense")
-                            translated = re.sub("[Kk]iss(?=[ ,\.])", "*kiss*", translated)
-                            translated = re.sub("[Ss]ooch(?=[ ,\.])", "*smooch*", translated)
-                            translated = re.sub("[Ss]lurp(?=[ ,\.])", "*slurp*", translated)
+                            translated = re.sub("[Kk]iss(?=[,\.\\\\])", "*kiss*", translated)
+                            translated = re.sub("[Ss]ooch(?=[,\.\\\\])", "*smooch*", translated)
+                            translated = re.sub("[Ss]lurp(?=[,\.\\\\])", "*slurp*", translated)
                             translated = re.sub(r"\* \*|\*, \*", ", ", translated)
                             translated = re.sub("\"(.*)\"", "「\\1」", translated)
                             translated = re.sub("\.{2,}", "...", translated)
                             translated = re.sub("([a-zA-Z])\\1{3,}", "\\1\\1", translated)
                             #translated = re.sub(r"([^\.])\.\\H", r"\1\\H", translated)
                             parts = translated.split("\\n")
+                            brk = "" if "{speaker}" in translated else "　"
                             translated = ""
-                            for pi in range(len(parts)):
+                            pi = 0
+                            while pi < len(parts):
                                 p = parts[pi]
                                 splitsymbols = [". ", "! ", "? ", ", ", " "]
                                 for ss in splitsymbols:
@@ -135,7 +138,7 @@ def autotranslate(translations_file, lines, multiline=20):
                                         #p = p[:p.find(ss, spot)+1]+brk+p[p.find(ss, spot)+len(ss):]
                                         break
                                 translated += parts[pi] if translated=="" else "\\n"+parts[pi]
-                                
+                                pi += 1
                             lines[batchi[j]] = translated+"\n"
                     batchi.clear()
                     batcht = ""
