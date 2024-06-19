@@ -235,55 +235,60 @@ Talent: 【The Promise】 can now be acquired.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･････\\|くすっ\\H
-> CONTEXT: Map425/events/4/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map425/events/4/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+･･････\\|Ksh\\H
 > END STRING
 
 > BEGIN STRING
 キャストと契約しますか？
-> CONTEXT: Map425/events/4/pages/0/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map425/events/4/pages/0/3/Dialogue
+Make a contract with Cast?
 > END STRING
 
 > BEGIN STRING
 キャストと契約を交わした！
-> CONTEXT: Map425/events/4/pages/0/13/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map425/events/4/pages/0/13/Dialogue
+Signed a contract with Cast!
 > END STRING
 
 > BEGIN STRING
 キャストは妊娠しているようだ･･･。
-> CONTEXT: Map425/events/4/pages/0/26/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map425/events/4/pages/0/26/Dialogue
+It seems that Cast is pregnant...
 > END STRING
 
 > BEGIN STRING
 キャストをホームに迎え入れた！
-> CONTEXT: Map425/events/4/pages/0/41/Dialogue < UNTRANSLATED
-> CONTEXT: Map425/events/4/pages/0/52/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map425/events/4/pages/0/41/Dialogue
+> CONTEXT: Map425/events/4/pages/0/52/Dialogue
+Welcomed Cast to Home!
 > END STRING
 
 > BEGIN STRING
 キャストがパーティに加わった！
-> CONTEXT: Map425/events/4/pages/0/48/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map425/events/4/pages/0/48/Dialogue
+Cast has joined the party!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･あら、\\n[101]。暫くぶりね。
 また会えて嬉しいわ。
-> CONTEXT: Map425/events/5/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map425/events/5/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+...Oh, \\n[101]. It's been a while.
+I'm glad to see you again.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 なんでこんな場所にいるのか、ですって？\\|
 ふふっ･･･\\|さぁ、なんでかしら？\\H
-> CONTEXT: Map425/events/5/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map425/events/5/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Why am I in a place like this? \\|
+Hehe...\\|I wonder why? \\H
 > END STRING
 
 > BEGIN STRING
@@ -291,55 +296,63 @@ Talent: 【The Promise】 can now be acquired.
 そんなことより、\\n[101]。
 この広い夢世界を廻るのは大変でしょう？
 私の力が必要なんじゃないかしら？
-> CONTEXT: Map425/events/5/pages/0/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map425/events/5/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+Anyway, \\n[101].
+It must be hard to travel around this vast dream world, right?
+Maybe you need my help?
 > END STRING
 
 > BEGIN STRING
 ヴェルミィーナと契約しますか？
-> CONTEXT: Map425/events/5/pages/0/11/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map425/events/5/pages/0/11/Dialogue
+Would you like to sign a contract with Vermina?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あら、契約がいっぱいなのね。
 ふふっ･･･頑張ってるのね\\H
-> CONTEXT: Map425/events/5/pages/0/16/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map425/events/5/pages/0/16/Dialogue
+\\name[\\v[2]]\\_
+Oh, you have a lot of contracts.
+Hehe... you're working hard\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ･･･宜しくね、\\n[101]。
 大丈夫よ、まだまだ夢に溺れさせてあげるわ\\H
-> CONTEXT: Map425/events/5/pages/0/22/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map425/events/5/pages/0/22/Dialogue
+\\name[\\v[2]]\\_
+Hehe... Nice to meet you, \\n[101].
+Don't worry, 
+I'll let you drown in your dreams for a while longer\\H
 > END STRING
 
 > BEGIN STRING
 ヴェルミィーナと契約を交わした！
-> CONTEXT: Map425/events/5/pages/0/26/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map425/events/5/pages/0/26/Dialogue
+Signed a contract with Vermina!
 > END STRING
 
 > BEGIN STRING
 ヴェルミィーナは妊娠しているようだ･･･。
-> CONTEXT: Map425/events/5/pages/0/39/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map425/events/5/pages/0/39/Dialogue
+Vermina appears to be pregnant...
 > END STRING
 
 > BEGIN STRING
 ヴェルミィーナをホームに迎え入れた！
-> CONTEXT: Map425/events/5/pages/0/45/Dialogue < UNTRANSLATED
-> CONTEXT: Map425/events/5/pages/0/56/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map425/events/5/pages/0/45/Dialogue
+> CONTEXT: Map425/events/5/pages/0/56/Dialogue
+Welcomed Vermina to Home!
 > END STRING
 
 > BEGIN STRING
 ヴェルミィーナがパーティに加わった！
-> CONTEXT: Map425/events/5/pages/0/52/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map425/events/5/pages/0/52/Dialogue
+Vermina has joined the party!
 > END STRING
 
 > BEGIN STRING
@@ -352,20 +365,24 @@ Talent: 【Childhood Memories】 can now be acquired.
 \\name[\\v[2]]\\_
 ふふっ、それならそれでもいいけれど。
 気が変わったら、また来て頂戴\\H
-> CONTEXT: Map425/events/5/pages/0/73/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map425/events/5/pages/0/73/Dialogue
+\\name[\\v[2]]\\_
+Hehe, that's fine.
+If you change your mind, come back again.\\H
 > END STRING
 
 > BEGIN STRING
 何か落ちている……
-> CONTEXT: Map425/events/6/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map425/events/6/pages/0/0/Dialogue
+Something has fallen...
 > END STRING
 
 > BEGIN STRING
 金色の記憶を呼び覚ましている間は
 戦闘終了時や、歩行移動時の
 EP/VPの自動回復量が増加します。
-> CONTEXT: Map425/events/6/pages/0/10/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map425/events/6/pages/0/10/Dialogue
+While Golden Memory is activated, 
+your EP/VP automatic recovery rate increases 
+when you finish combat or walk.
 > END STRING

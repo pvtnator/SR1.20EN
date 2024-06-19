@@ -6212,7 +6212,7 @@ Seduction・Kiss
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_5.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
-
+Mount Hold
 > END STRING
 
 > BEGIN STRING
@@ -6250,7 +6250,7 @@ Absorb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
 > CONTEXT: 修正用.rb
-
+Ring of Love
 > END STRING
 
 > BEGIN STRING
@@ -6641,7 +6641,7 @@ owner.hold.#{parts}
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Deep Accept
 > END STRING
 
 > BEGIN STRING
@@ -6660,7 +6660,7 @@ owner.hold.#{parts}
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Heavenly Accept
 > END STRING
 
 > BEGIN STRING
@@ -13811,7 +13811,7 @@ Crotch proficiency
 不屈
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Unyielding
 > END STRING
 
 > BEGIN STRING
@@ -14858,7 +14858,7 @@ Queen of Deadly Sins
 カースギャンブル
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Curse Gamble
 > END STRING
 
 > BEGIN STRING
@@ -15196,7 +15196,7 @@ Forbidden fruit
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Holy Seal of Resurrection
 > END STRING
 
 > BEGIN STRING
@@ -15264,7 +15264,7 @@ Masochist
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
-
+The Plundering Demon
 > END STRING
 
 > BEGIN STRING
@@ -17836,7 +17836,7 @@ Lustful
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Brute Force
 > END STRING
 
 > BEGIN STRING
@@ -21227,7 +21227,7 @@ This succubus can't cook.
 > BEGIN STRING
 自分が絶頂している回数に応じて、与える快感が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Pleasure given increases with times climaxed.
 > END STRING
 
 > BEGIN STRING
@@ -21701,7 +21701,7 @@ Born in a snowy country. Not bothered by extreme cold.
 > BEGIN STRING
 レジストで抵抗してきた相手の次のレジストを大きく不利にする
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Puts a big disadvantage on the opponent's resist on 2nd attempt
 > END STRING
 
 > BEGIN STRING
@@ -25524,7 +25524,7 @@ Inflicts lethargy along with pleasure.
 > BEGIN STRING
 この夢魔から快感を受けると、低確率で状態異常になる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Low chance that inflict status ailments along with pleasure.
 > END STRING
 
 > BEGIN STRING
@@ -25536,7 +25536,7 @@ Inflicts lethargy along with pleasure.
 > BEGIN STRING
 相手を絶頂させた時、全能力を奪う。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+When the opponent reaches climax, absorb all abilities.
 > END STRING
 
 > BEGIN STRING
@@ -25954,13 +25954,13 @@ Kissing the protagonist reduces endurance and increases energy and dexterity.
 > BEGIN STRING
 一気呵成
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Ruthless
 > END STRING
 
 > BEGIN STRING
 拘束の相手に追撃しやすくなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Makes it easier to follow-up on a restrained opponent.
 > END STRING
 
 > BEGIN STRING
@@ -27433,10 +27433,10 @@ But #{myname} dodged quickly!
 > END STRING
 
 > BEGIN STRING
-たち
+"たち"
 > CONTEXT: O_MOD_RPG_Skilltext.rb
 > CONTEXT: PR_RPG_Statetext.rb
-
+""
 > END STRING
 
 > BEGIN STRING
@@ -29418,13 +29418,13 @@ shook hips hard
 > BEGIN STRING
 \n\m極上の締まりに、腰が抜けそうになる……！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​The exquisite tightness makes me feel like \nmy knees are about to give way...!
 > END STRING
 
 > BEGIN STRING
 \n\m極上の感触に、腰が抜けそうになる……！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​The exquisite sensation makes me feel like \nI'm going to give way...!
 > END STRING
 
 > BEGIN STRING
@@ -32736,7 +32736,7 @@ with fingers
 > BEGIN STRING
 、\n\m#{targetname + rangetext}をあまねく愛撫した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-,\n\mcaressed #{targetname + rangetext} all over!
+,\n​m​caressed #{targetname + rangetext} all over!
 > END STRING
 
 > BEGIN STRING
@@ -33276,7 +33276,7 @@ sucked on \n​m​#{targetname}'s #{target.bustsize} through a gap in clothes!
 > BEGIN STRING
 ゆっくりと、\n\m#{targetname}の#{target.bustsize}に触れた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ touched \n​m​#{targetname}'s #{target.bustsize} slowly!
 > END STRING
 
 > BEGIN STRING
@@ -37612,25 +37612,25 @@ as if dancing
 > BEGIN STRING
 #{targetname}の唇を塞ぎながら、\n\m絞り取るように腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ shook hips as if squeezing dry\n​m​while sealing #{targetname}'s lips!
 > END STRING
 
 > BEGIN STRING
 #{myself.bustsize}を押しつけながら、\n\m絞り取るように腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ shook hips as if squeezing dry\n​m​while pressing with #{myself.bustsize}!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の乳首に吸い付き、\n\m絞り取るように腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ sucked on #{targetname}'s nipples and \n​m​shook hips as if squeezing dry!
 > END STRING
 
 > BEGIN STRING
 #{targetname}を抱きしめながら、\n\m絞り取るように腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ shook hips as if squeezing dry\n​m​while embracing!
 > END STRING
 
 > BEGIN STRING
@@ -37732,31 +37732,31 @@ as if dancing
 > BEGIN STRING
 #{targetname}を押さえつけ、\n\m情熱的に舌を絡めながら、絞り取るように腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ holds #{targetname} down, \n​m​passionately entwines tongues, \nand shakes hips as if squeezing dry!
 > END STRING
 
 > BEGIN STRING
 #{targetname}を押さえつけ、\n\m#{myself.bustsize}で包みながら、絞り取るように腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pressed down on #{targetname}, \n​m​wrapped in #{myself.bustsize}, \nand shook hips as if squeezing it all out!
 > END STRING
 
 > BEGIN STRING
 #{targetname}を押さえつけ、\n\m乳首をしゃぶりながら、絞り取るように腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ held down #{targetname},\n​m​sucked nipples, and shook hips as if squeezing dry!
 > END STRING
 
 > BEGIN STRING
 #{targetname}を押さえつけ、\n\m羽で全身を愛撫しながら、絞り取るように腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ held down and caressed #{targetname}'s body \n​m​with wings, while shaking hips as if squeezing dry!
 > END STRING
 
 > BEGIN STRING
 腰をくねらせながら、\n\m絞り取るように腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ twisted and shook hips as if squeezing dry!
 > END STRING
 
 > BEGIN STRING
@@ -40274,7 +40274,7 @@ Target: penis
 > BEGIN STRING
 #{myself.bustsize}の谷間を、\n\m#{targetname}の顔に押し付け、#{waist}腰を振り始めた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pressed her #{myself.bustsize} \n​m​against #{targetname}'s face and \n​m​started shaking her hips#{waist}!
 > END STRING
 
 > BEGIN STRING
@@ -40286,7 +40286,7 @@ Target: penis
 > BEGIN STRING
 #{myself.bustsize}の谷間を、\n\m#{targetname}の顔に押し付け、#{waist}腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pressed her #{myself.bustsize} against\n​m​#{targetname}'s face and shook her hips#{waist}!
 > END STRING
 
 > BEGIN STRING
@@ -40544,7 +40544,7 @@ Target: penis
 > BEGIN STRING
 #{myname}のアソコが万力のように、\n\mきつく締めつけられていく……！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+#{myname}'s vagina is being squeezed \n​m​tightly like a vice...!
 > END STRING
 
 > BEGIN STRING
@@ -42555,7 +42555,7 @@ Edging
 > BEGIN STRING
 は絶頂をこらえている！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+is holding back from climax!​w​q
 > END STRING
 
 > BEGIN STRING
@@ -42567,7 +42567,7 @@ Edging
 > BEGIN STRING
 #{target.name}は絶頂をこらえている！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{target.name} is holding back from orgasm! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -42753,7 +42753,7 @@ Wind Whisper
 > BEGIN STRING
 #{target.name}のペニスが、きつく締めつけられた！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{target.name}'s penis is squeezed tight! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -46629,7 +46629,7 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}の顔は、\n#{active.name}の胸の谷間に沈み込んだ！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name}'s face sank \ninto \n#{active.name}'s cleavage!
 > END STRING
 
 > BEGIN STRING
@@ -47319,7 +47319,7 @@ gave her virginity to her first love from long ago, and her last sanity is broke
 > BEGIN STRING
 精液まみれの#{target.name}の膣内を激しくかき回すと、
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+Vigorously stirring the semen-covered vagina of #{target.name},
 > END STRING
 
 > BEGIN STRING
@@ -70578,7 +70578,7 @@ The magic circle beneath #{myname}'s feet disappeared!
 > BEGIN STRING
 #{myname}は力を取り戻した！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} has regained powers!
 > END STRING
 
 > BEGIN STRING

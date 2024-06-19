@@ -346,7 +346,7 @@ Interrupt
 > BEGIN STRING
 [レジスト] 対象のホールド妨害を試みる [最遅行動]
 > CONTEXT: Skills/28/description/
-[Resist]Attempt to disrupt the target's hold [Delay]
+[Resist]Attempt to disrupt the target's hold [Act last]
 > END STRING
 
 > BEGIN STRING
@@ -1073,23 +1073,23 @@ Devourer/100
 
 > BEGIN STRING
 リングオブラブ
-> CONTEXT: Skills/108/name/ < UNTRANSLATED
-> CONTEXT: Skills/109/name/ < UNTRANSLATED
-> CONTEXT: Skills/660/name/ < UNTRANSLATED
-> CONTEXT: Skills/661/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/108/name/
+> CONTEXT: Skills/109/name/
+> CONTEXT: Skills/660/name/
+> CONTEXT: Skills/661/name/
+Ring of Love
 > END STRING
 
 > BEGIN STRING
 [レジスト] [口→♀] アソコを吸う。[条件：双方裸]
-> CONTEXT: Skills/108/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/108/description/
+[Resist][Mouth→♀] Suck the genitals. [Condition: Both naked]
 > END STRING
 
 > BEGIN STRING
 [レジスト] [♀→口] 相手の顔に騎乗する。[条件：双方裸]
-> CONTEXT: Skills/109/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/109/description/
+[Resist][♀→Mouth] Ride on the opponents's face. [Condition: both naked]
 > END STRING
 
 > BEGIN STRING
@@ -1369,13 +1369,13 @@ lift your spirits. Cures weakness, boneloss, and calm.
 > BEGIN STRING
 振り払う
 > CONTEXT: Skills/134/name/ < UNTRANSLATED
-
+Shake off
 > END STRING
 
 > BEGIN STRING
 [レジスト] 口へのホールドを解除を試みる [最遅行動]
 > CONTEXT: Skills/134/description/ < UNTRANSLATED
-
+[Resist] Attempt to release hold on mouth [Act last]
 > END STRING
 
 > BEGIN STRING
@@ -8614,36 +8614,36 @@ Caress
 
 > BEGIN STRING
 ディープアクセプト
-> CONTEXT: Skills/1041/name/ < UNTRANSLATED
-> CONTEXT: Skills/1042/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1041/name/
+> CONTEXT: Skills/1042/name/
+Deep Accept
 > END STRING
 
 > BEGIN STRING
 [レジスト] 自分のアソコに相手のペニスを挿入する。キッスから派生
-> CONTEXT: Skills/1041/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1041/description/
+[Resist] Insert the opponent's penis into your vagina. Derived from kissing.
 > END STRING
 
 > BEGIN STRING
 [レジスト] 互いに唇を貪りあう。♀挿入から派生
-> CONTEXT: Skills/1042/description/ < UNTRANSLATED
-> CONTEXT: Skills/1050/description/ < UNTRANSLATED
-> CONTEXT: Skills/1452/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1042/description/
+> CONTEXT: Skills/1050/description/
+> CONTEXT: Skills/1452/description/
+[Resist] Devour each other's lips. ♀Derived from insertion
 > END STRING
 
 > BEGIN STRING
 ヘブンリーアクセプト
-> CONTEXT: Skills/1049/name/ < UNTRANSLATED
-> CONTEXT: Skills/1050/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1049/name/
+> CONTEXT: Skills/1050/name/
+Heavenly Accept
 > END STRING
 
 > BEGIN STRING
 [レジスト] 自分のアソコに相手のペニスを挿入する。ぱふぱふから派生
-> CONTEXT: Skills/1049/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1049/description/
+[Resist] Insert the opponent's penis into your vagina. Derived from Puff Puff.
 > END STRING
 
 > BEGIN STRING
@@ -12911,14 +12911,14 @@ Rush Swing/120/6
 
 > BEGIN STRING
 メルティスウィング/160/6
-> CONTEXT: Skills/1604/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1604/name/
+Melty Swing/160/6
 > END STRING
 
 > BEGIN STRING
 [♂→♀][CT:6] 腰を甘く振る。[ガード貫通][器用さ]
-> CONTEXT: Skills/1604/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1604/description/
+[♂→♀][CT:6] Swing hips sweetly. [Guard penetration][Dexterity]
 > END STRING
 
 > BEGIN STRING
@@ -12965,14 +12965,14 @@ Hard grind/160/6
 
 > BEGIN STRING
 メルティグラインド/160/6
-> CONTEXT: Skills/1624/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1624/name/
+Melty Grind/160/6
 > END STRING
 
 > BEGIN STRING
 [♀→♂][CT:6] 腰を甘く振る。[ガード貫通][器用さ]
-> CONTEXT: Skills/1624/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1624/description/
+[♀→♂][CT:6] Swing hips sweetly. [Guard penetration][Dexterity]
 > END STRING
 
 > BEGIN STRING
@@ -13940,13 +13940,13 @@ Hard Caress/160/6
 
 > BEGIN STRING
 ビハインドハグ/50
-> CONTEXT: Skills/1904/name/ < UNTRANSLATED
+> CONTEXT: Skills/1904/name/
 Behind Hug/50
 > END STRING
 
 > BEGIN STRING
 [→全身] 密着した相手を思い切り抱きしめる。[中：スタン][精力]
-> CONTEXT: Skills/1904/description/ < UNTRANSLATED
+> CONTEXT: Skills/1904/description/
 [→Full body] Hug the person in close contact with might. [Stun][Energy]
 > END STRING
 
