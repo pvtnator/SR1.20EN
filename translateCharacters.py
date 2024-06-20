@@ -93,7 +93,7 @@ def autotranslate(translations_file, lines, multiline=200):
                         if pasted!=batcht:
                             pasted = pasted.replace("\r\n\r\n", "\r\n")
                             pasted = re.sub(r'\r\n(?!\d)', r'\\n', pasted)
-                            paste = re.findall("\d{1,2}\. {0,}([^0-9]*)(?![\n\d])", pasted)
+                            paste = re.findall("\d{1,2}\. ?(.*?(?=\d\.|\n|$))", pasted)
                             #for p in range(len(paste)):
                             #    print(str(p+1)+". "+paste[p])
                     trlines = paste
@@ -153,22 +153,10 @@ def autotranslate(translations_file, lines, multiline=200):
             i += 1
     return 0
 
-def apply_translations(folder_path, apply_path, regexes, translations, mustinclude=""):
-    glpattern = re.compile("|".join(key for key in sorted(regexes["global"], key=len, reverse=True)))
-    for file in folder_path.rglob("*"):
-        relative = file.relative_to(folder_path)
-        if "omake" in relative.as_posix():
-            continue
-        target_path = apply_path / relative
-        if file.is_dir():
-            print(target_path)
-            target_path.mkdir(parents=True, exist_ok=True)
-        elif mustinclude in relative.as_posix() and ".rb" in file.name:
-            #file_path = Path.join(root, file)
-            with file.open(encoding='utf-8', errors='surrogateescape') as f:
-                content = f.read()
-
-            context = relative.as_posix()
+def patch_file(file, context, translations, regexes, glpattern, target_path):
+    with file.open(encoding='utf-8', errors='surrogateescape') as f:
+        content = f.read()
+        try:
             if context in translations:
                 pattern = re.compile("|".join(key for key in sorted(regexes[context], key=len, reverse=True)))
                 content = pattern.sub(lambda match: translations[context][match.group(0)], content)
@@ -176,7 +164,30 @@ def apply_translations(folder_path, apply_path, regexes, translations, mustinclu
                 content = glpattern.sub(lambda match: translations["global"][match.group(0)], content)
             with target_path.open(mode='w', encoding='utf-8', errors='surrogateescape') as outfile:
                 outfile.write(content)
+                #print(context)
+        except Exception as e:
+            print(e)
 
+def apply_translations(folder_path, apply_path, regexes, translations, mustinclude=""):
+    import concurrent.futures
+    glpattern = re.compile("|".join(key for key in sorted(regexes["global"], key=len, reverse=True)))
+    futures = []
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        for file in folder_path.rglob("*"):
+            relative = file.relative_to(folder_path)
+            if "omake" in relative.as_posix():
+                continue
+            target_path = apply_path / relative
+            if file.is_dir():
+                print(target_path)
+                target_path.mkdir(parents=True, exist_ok=True)
+            elif mustinclude in relative.as_posix() and ".rb" in file.name:                
+                futures.append(executor.submit(patch_file, file, relative.as_posix(), \
+                                            translations, regexes, glpattern, target_path))
+    while any(not future.done() for future in futures):
+        time.sleep(1)
+        print("Processing...")
+                
 if __name__ == "__main__":
     current_dir = Path.cwd()
     mode = sys.argv[1] if len(sys.argv)>1 else "autotranslate"

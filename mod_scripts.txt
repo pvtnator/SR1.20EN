@@ -3472,7 +3472,7 @@ The mucus is gone from #{field_word}!
 霧中の空間
 > CONTEXT: Incense_System.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Fog Space
 > END STRING
 
 > BEGIN STRING
@@ -5505,7 +5505,7 @@ Mia
 > CONTEXT: O_MOD_Game_Actor.rb
 > CONTEXT: O_MOD_Game_Battler_1.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Inexhaustible Desire
 > END STRING
 
 > BEGIN STRING
@@ -10744,7 +10744,7 @@ Chaos Hypnosis
 マジックガード
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Magic Guard
 > END STRING
 
 > BEGIN STRING
@@ -21431,7 +21431,7 @@ The difficulty of interrupt commands is reduced.
 > BEGIN STRING
 インセンススキルの持続時間が3ターン伸びる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Extends the duration of incense skills by 3 turns.
 > END STRING
 
 > BEGIN STRING
@@ -26078,7 +26078,7 @@ The pleasure from SS on a feared opponent increases further.
 > BEGIN STRING
 魔法に対する状態異常耐性が上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increases resistance to magical status ailments.
 > END STRING
 
 > BEGIN STRING
@@ -26159,7 +26159,7 @@ The pleasure from SS on a feared opponent increases further.
 > BEGIN STRING
 自分が絶頂している回数に応じて、最大ＥＰが上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Maximum EP increases depending on the number of times you climax.
 > END STRING
 
 > BEGIN STRING
@@ -35743,7 +35743,7 @@ two overwhelming
 > BEGIN STRING
 #{tec}、\n\m#{targetname}のアソコを足指でなおも攻め立てる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ continues to attack \n​m​#{targetname}'s genitals with toes #{tec}!
 > END STRING
 
 > BEGIN STRING
@@ -42919,9 +42919,9 @@ Wind Whisper
 > END STRING
 
 > BEGIN STRING
-"しかし "
+"しかし"
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-"but "
+"But "
 > END STRING
 
 > BEGIN STRING
@@ -69924,31 +69924,31 @@ Aphrodisiac is making #{myname} sensitive!
 > BEGIN STRING
 #{myname}は硬質化した！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} has hardened!
 > END STRING
 
 > BEGIN STRING
 #{myname}は軟化した！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} has softened!
 > END STRING
 
 > BEGIN STRING
 #{myname}は硬化している！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} is hardened!
 > END STRING
 
 > BEGIN STRING
 #{myname}の能力が強化した！
 > CONTEXT: PR_RPG_Statetext.rb
-#{myname}'s abilities have been enhanced!
+#{myname}'s abilities enhanced!
 > END STRING
 
 > BEGIN STRING
 #{myname}は能力が強化された！
 > CONTEXT: PR_RPG_Statetext.rb
-#{myname}'s abilities have been enhanced!
+#{myname}'s abilities enhanced!
 > END STRING
 
 > BEGIN STRING
@@ -69960,13 +69960,13 @@ Charm＋
 > BEGIN STRING
 魅力＋＋
 > CONTEXT: PR_RPG_Statetext.rb
-
+Charm＋＋
 > END STRING
 
 > BEGIN STRING
 能力
 > CONTEXT: PR_RPG_Statetext.rb
-ability
+abilities
 > END STRING
 
 > BEGIN STRING
@@ -69978,7 +69978,7 @@ Endurance＋
 > BEGIN STRING
 忍耐力＋＋
 > CONTEXT: PR_RPG_Statetext.rb
-
+Endurance＋＋
 > END STRING
 
 > BEGIN STRING
@@ -69990,7 +69990,7 @@ Energy＋
 > BEGIN STRING
 精力＋＋
 > CONTEXT: PR_RPG_Statetext.rb
-
+Energy＋＋
 > END STRING
 
 > BEGIN STRING
@@ -70002,7 +70002,7 @@ Dexterity＋
 > BEGIN STRING
 器用さ＋＋
 > CONTEXT: PR_RPG_Statetext.rb
-
+Dexterity＋＋
 > END STRING
 
 > BEGIN STRING
@@ -70014,7 +70014,7 @@ Agility＋
 > BEGIN STRING
 素早さ＋＋
 > CONTEXT: PR_RPG_Statetext.rb
-
+Agility＋＋
 > END STRING
 
 > BEGIN STRING
@@ -70026,7 +70026,7 @@ Spirit＋
 > BEGIN STRING
 精神力＋＋
 > CONTEXT: PR_RPG_Statetext.rb
-
+Spirit＋＋
 > END STRING
 
 > BEGIN STRING
@@ -70038,7 +70038,7 @@ enhanced
 > BEGIN STRING
 限界まで強化
 > CONTEXT: PR_RPG_Statetext.rb
-
+fully enhanced
 > END STRING
 
 > BEGIN STRING
@@ -70050,25 +70050,25 @@ enhanced further
 > BEGIN STRING
 \w\n#{myname}の能力を強化した！
 > CONTEXT: PR_RPG_Statetext.rb
-
+​w​\n#{myname}'s abilities enhanced!
 > END STRING
 
 > BEGIN STRING
 \w\n#{myname}は能力が強化された！
 > CONTEXT: PR_RPG_Statetext.rb
-​w​\n#{myname}'s abilities have been enhanced!
+​w​\n#{myname}'s abilities enhanced!
 > END STRING
 
 > BEGIN STRING
 #{myname}の能力を弱体化させた！
 > CONTEXT: PR_RPG_Statetext.rb
-#{myname}'s ability has been weakened!
+#{myname}'s abilities weakened!
 > END STRING
 
 > BEGIN STRING
 #{myname}は能力を弱体化させられた！
 > CONTEXT: PR_RPG_Statetext.rb
-#{myname}'s ability has been weakened!
+#{myname}'s abilities weakened!
 > END STRING
 
 > BEGIN STRING
@@ -70080,7 +70080,7 @@ Charm－
 > BEGIN STRING
 魅力－－
 > CONTEXT: PR_RPG_Statetext.rb
-
+Charm－－
 > END STRING
 
 > BEGIN STRING
@@ -70092,7 +70092,7 @@ Endurance－
 > BEGIN STRING
 忍耐力－－
 > CONTEXT: PR_RPG_Statetext.rb
-
+Endurance－－
 > END STRING
 
 > BEGIN STRING
@@ -70104,19 +70104,19 @@ Energy－
 > BEGIN STRING
 精力－－
 > CONTEXT: PR_RPG_Statetext.rb
-
+Energy－－
 > END STRING
 
 > BEGIN STRING
 器用さ－
 > CONTEXT: PR_RPG_Statetext.rb
-Dexterity-
+Dexterity－
 > END STRING
 
 > BEGIN STRING
 器用さ－－
 > CONTEXT: PR_RPG_Statetext.rb
-
+Dexterity－－
 > END STRING
 
 > BEGIN STRING
@@ -70128,7 +70128,7 @@ Agility－
 > BEGIN STRING
 素早さ－－
 > CONTEXT: PR_RPG_Statetext.rb
-
+Agility－－
 > END STRING
 
 > BEGIN STRING
@@ -70140,7 +70140,7 @@ Spirit－
 > BEGIN STRING
 精神力－－
 > CONTEXT: PR_RPG_Statetext.rb
-
+Spirit－－
 > END STRING
 
 > BEGIN STRING
@@ -70152,7 +70152,7 @@ weakened
 > BEGIN STRING
 限界まで弱体化
 > CONTEXT: PR_RPG_Statetext.rb
-
+fully weakened
 > END STRING
 
 > BEGIN STRING
@@ -70164,37 +70164,37 @@ weakened further
 > BEGIN STRING
 \w\n#{myname}の能力を弱体化させた！
 > CONTEXT: PR_RPG_Statetext.rb
-
+​w​\n#{myname}'s abilities weakened!
 > END STRING
 
 > BEGIN STRING
 \w\n#{myname}は能力を弱体化させられた！
 > CONTEXT: PR_RPG_Statetext.rb
-
+​w​\n#{myname}'s abilities weakened!
 > END STRING
 
 > BEGIN STRING
 #{myname}の全能力を強化した！
 > CONTEXT: PR_RPG_Statetext.rb
-#{myname}'s all abilities have been enhanced!
+#{myname}'s all abilities enhanced!
 > END STRING
 
 > BEGIN STRING
 #{myname}の全能力が強化された！
 > CONTEXT: PR_RPG_Statetext.rb
-#{myname}'s all abilities have been enhanced!
+#{myname}'s all abilities enhanced!
 > END STRING
 
 > BEGIN STRING
 #{myname}の全能力を弱体化させた！
 > CONTEXT: PR_RPG_Statetext.rb
-#{myname}'s all abilities have been weakened!
+#{myname}'s all abilities weakened!
 > END STRING
 
 > BEGIN STRING
 #{myname}は全能力を弱体化させられた！
 > CONTEXT: PR_RPG_Statetext.rb
-#{myname}'s all abilities have been weakened!
+#{myname}'s all abilities weakened!
 > END STRING
 
 > BEGIN STRING
@@ -70206,37 +70206,37 @@ But it had no effect on #{myname}!
 > BEGIN STRING
 #{myname}の能力強化を解除した！
 > CONTEXT: PR_RPG_Statetext.rb
-#{myname}'s ability enhancement has been removed!
+#{myname}'s ability enhancement removed!
 > END STRING
 
 > BEGIN STRING
 #{myname}の能力強化が解除された！
 > CONTEXT: PR_RPG_Statetext.rb
-#{myname}'s ability enhancement has been removed!
+#{myname}'s ability enhancement removed!
 > END STRING
 
 > BEGIN STRING
 #{myname}の能力弱体化を解除した！
 > CONTEXT: PR_RPG_Statetext.rb
-#{myname}'s ability reduction has been removed!
+#{myname}'s ability reduction removed!
 > END STRING
 
 > BEGIN STRING
 #{myname}の能力弱体化が解除された！
 > CONTEXT: PR_RPG_Statetext.rb
-#{myname}'s ability reduction has been removed!
+#{myname}'s ability reduction removed!
 > END STRING
 
 > BEGIN STRING
 #{myname}の全能力が元に戻った！
 > CONTEXT: PR_RPG_Statetext.rb
-#{myname}'s all abilities have been restored!
+#{myname}'s all abilities restored!
 > END STRING
 
 > BEGIN STRING
 #{myname}の全能力を元に戻された！
 > CONTEXT: PR_RPG_Statetext.rb
-#{myname}'s all abilities have been restored!
+#{myname}'s all abilities restored!
 > END STRING
 
 > BEGIN STRING
