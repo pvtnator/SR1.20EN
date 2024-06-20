@@ -11,7 +11,7 @@
 > CONTEXT: Map182/events/1/pages/0/5/Dialogue < UNTRANSLATED
 > CONTEXT: Map183/events/8/pages/0/5/Dialogue < UNTRANSLATED
 > CONTEXT: Map185/events/16/pages/0/5/Dialogue < UNTRANSLATED
-
+\\v[182] Floors Cleared!
 > END STRING
 
 > BEGIN STRING
@@ -32,7 +32,7 @@
 > CONTEXT: Map555/events/1/pages/0/27/InlineScript/1:22 < UNTRANSLATED
 > CONTEXT: Map182/events/1/pages/0/6/InlineScript/1:22 < UNTRANSLATED
 > CONTEXT: Map182/events/1/pages/0/28/InlineScript/1:22 < UNTRANSLATED
-
+"A voice from somewhere"
 > END STRING
 
 > BEGIN STRING
@@ -49,7 +49,9 @@
 > CONTEXT: Map182/events/1/pages/0/7/Dialogue < UNTRANSLATED
 > CONTEXT: Map183/events/8/pages/0/7/Dialogue < UNTRANSLATED
 > CONTEXT: Map185/events/16/pages/0/7/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Congratulations!
+\\n[101] has safely reached the evacuation point!
 > END STRING
 
 > BEGIN STRING
@@ -65,7 +67,8 @@
 > CONTEXT: Map182/events/1/pages/0/10/Dialogue < UNTRANSLATED
 > CONTEXT: Map183/events/8/pages/0/10/Dialogue < UNTRANSLATED
 > CONTEXT: Map185/events/16/pages/0/10/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+For those \\n[101], we present this!
 > END STRING
 
 > BEGIN STRING
@@ -81,7 +84,10 @@
 > CONTEXT: Map557/events/1/pages/1/24/Dialogue < UNTRANSLATED
 > CONTEXT: Map555/events/1/pages/0/28/Dialogue < UNTRANSLATED
 > CONTEXT: Map182/events/1/pages/0/29/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+So, what will you do?
+You can either escape here,
+or try the next 10 floors...?
 > END STRING
 
 > BEGIN STRING
@@ -99,7 +105,7 @@
 > CONTEXT: Map182/events/1/pages/0/33/Choice/0 < UNTRANSLATED
 > CONTEXT: Map142/events/9/pages/0/19/Choice/0 < UNTRANSLATED
 > CONTEXT: Map142/events/9/pages/0/19/Choice/0 < UNTRANSLATED
-
+Challenge
 > END STRING
 
 > BEGIN STRING
@@ -113,7 +119,7 @@
 > CONTEXT: Map555/events/1/pages/0/32/Choice/1 < UNTRANSLATED
 > CONTEXT: Map182/events/1/pages/0/33/Choice/1 < UNTRANSLATED
 > CONTEXT: Map182/events/1/pages/0/33/Choice/1 < UNTRANSLATED
-
+Escape
 > END STRING
 
 > BEGIN STRING
@@ -128,7 +134,9 @@
 > CONTEXT: Map557/events/1/pages/1/30/Dialogue < UNTRANSLATED
 > CONTEXT: Map555/events/1/pages/0/34/Dialogue < UNTRANSLATED
 > CONTEXT: Map182/events/1/pages/0/35/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Understood!
+Good luck then!
 > END STRING
 
 > BEGIN STRING
@@ -147,5 +155,7 @@
 > CONTEXT: Map182/events/1/pages/0/52/Dialogue < UNTRANSLATED
 > CONTEXT: Map185/events/17/pages/0/15/Dialogue < UNTRANSLATED
 > CONTEXT: Map185/events/17/pages/0/28/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Understood!
+Well done!
 > END STRING
