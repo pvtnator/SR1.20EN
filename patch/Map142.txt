@@ -48,21 +48,22 @@ Especially when fighting strong enemies.
 攻略中データを消去して、挑戦しますか？
 > CONTEXT: Map142/events/4/pages/0/5/Dialogue < UNTRANSLATED
 > CONTEXT: Map142/events/4/pages/1/5/Dialogue < UNTRANSLATED
-
+There is in-progress data.
+Would you like to delete the in-progress data and try again?
 > END STRING
 
 > BEGIN STRING
 データを消して挑戦する
 > CONTEXT: Map142/events/4/pages/0/7/Choice/0 < UNTRANSLATED
 > CONTEXT: Map142/events/4/pages/1/7/Choice/0 < UNTRANSLATED
-
+Delete the data and try again
 > END STRING
 
 > BEGIN STRING
 201階から挑戦する(30000Lps.)
 > CONTEXT: Map142/events/4/pages/0/41/Choice/0 < UNTRANSLATED
 > CONTEXT: Map142/events/4/pages/1/37/Choice/0 < UNTRANSLATED
-
+Challenge from 201st floor (30000Lps.)
 > END STRING
 
 > BEGIN STRING
@@ -71,7 +72,7 @@ Especially when fighting strong enemies.
 > CONTEXT: Map142/events/4/pages/0/72/Choice/0 < UNTRANSLATED
 > CONTEXT: Map142/events/4/pages/1/37/Choice/1 < UNTRANSLATED
 > CONTEXT: Map142/events/4/pages/1/68/Choice/0 < UNTRANSLATED
-
+Challenge from 101st floor (20000Lps.)
 > END STRING
 
 > BEGIN STRING
@@ -82,21 +83,21 @@ Especially when fighting strong enemies.
 > CONTEXT: Map142/events/4/pages/1/37/Choice/2 < UNTRANSLATED
 > CONTEXT: Map142/events/4/pages/1/68/Choice/1 < UNTRANSLATED
 > CONTEXT: Map142/events/4/pages/1/92/Choice/0 < UNTRANSLATED
-
+Challenge from the 31st floor (8000Lps.)
 > END STRING
 
 > BEGIN STRING
 通常コースに挑戦する
 > CONTEXT: Map142/events/4/pages/0/115/Choice/0 < UNTRANSLATED
 > CONTEXT: Map142/events/4/pages/1/111/Choice/0 < UNTRANSLATED
-
+Try the normal course
 > END STRING
 
 > BEGIN STRING
 所持Lps.が足りません！
 > CONTEXT: Map142/events/4/pages/0/133/Dialogue < UNTRANSLATED
 > CONTEXT: Map142/events/4/pages/1/129/Dialogue < UNTRANSLATED
-
+You don't have enough Lps!
 > END STRING
 
 > BEGIN STRING
@@ -106,7 +107,10 @@ Especially when fighting strong enemies.
 タッグモードは予選１試合と決勝の２試合です
 > CONTEXT: Map142/events/5/pages/0/8/Dialogue < UNTRANSLATED
 > CONTEXT: Map142/events/5/pages/1/7/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+The matches are elimination matches,
+in single mode there are 3 matches, and in tag mode 
+there is 1 qualifying match and 2 final matches.
 > END STRING
 
 > BEGIN STRING
@@ -115,7 +119,9 @@ Especially when fighting strong enemies.
 医務室にて介抱致します。
 > CONTEXT: Map142/events/5/pages/0/14/Dialogue < UNTRANSLATED
 > CONTEXT: Map142/events/5/pages/1/17/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+If you are defeated, 
+you will be taken care of in the medical room.
 > END STRING
 
 > BEGIN STRING
@@ -124,7 +130,10 @@ Especially when fighting strong enemies.
 この度エクストラマッチが導入されました。
 タッグモードと同じく予選１試合と決勝の計２試合です。
 > CONTEXT: Map142/events/5/pages/1/11/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Also, in the far right corner, an extra match has been introduced.
+Just like in tag mode, there will be 1 qualifying match 
+and 1 final match, for a total of 2 matches.
 > END STRING
 
 > BEGIN STRING
@@ -132,7 +141,9 @@ Especially when fighting strong enemies.
 おや、チャンピオン。
 お勤めご苦労様です。
 > CONTEXT: Map142/events/5/pages/2/1/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Hey, champion!
+Thank you for your hard work.
 > END STRING
 
 > BEGIN STRING
@@ -141,7 +152,10 @@ Especially when fighting strong enemies.
 セクシアムのタッグコース及びエクストラマッチに
 新しい催しが追加されました。
 > CONTEXT: Map142/events/5/pages/2/4/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+At the manager's suggestion,
+new events have been added to 
+Sexium's tag course and extra match.
 > END STRING
 
 > BEGIN STRING
@@ -149,7 +163,9 @@ Especially when fighting strong enemies.
 試合の内容はそのままですが
 メインイベントが歯応えのあるものになっております。
 > CONTEXT: Map142/events/5/pages/2/8/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+The content of the match remains the same, 
+but the main event is more challenging.
 > END STRING
 
 > BEGIN STRING
@@ -157,7 +173,9 @@ Especially when fighting strong enemies.
 また、純粋に性闘を楽しんでいただくために
 挑戦時はアイテムの使用が制限されます。
 > CONTEXT: Map142/events/5/pages/2/11/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Also, to ensure that you can enjoy the sexual battle purely,
+the use of items will be restricted during the challenge.
 > END STRING
 
 > BEGIN STRING
@@ -165,7 +183,10 @@ Especially when fighting strong enemies.
 僭越ながら、チャレンジする際は
 いつも以上に万全の準備し挑むことをお勧めいたします。
 > CONTEXT: Map142/events/5/pages/2/14/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+I know I may be presumptuous, 
+but I would recommend that you be more thoroughly prepared 
+than usual when taking on this challenge.
 > END STRING
 
 > BEGIN STRING
@@ -174,7 +195,9 @@ Especially when fighting strong enemies.
 見事勝ち切った際の副賞も
 追加されているとのことです。
 > CONTEXT: Map142/events/5/pages/2/17/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Also, the new event will include 
+additional prizes for winners.
 > END STRING
 
 > BEGIN STRING
@@ -183,7 +206,10 @@ Especially when fighting strong enemies.
 チャンピオンが極限まで鍛えた状態ですと、
 特別ゲストが参戦するという噂もあります。
 > CONTEXT: Map142/events/5/pages/2/22/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Furthermore, if the difficulty is increased 
+and the champion is trained to the limit,
+a special guest will join the battle.
 > END STRING
 
 > BEGIN STRING
@@ -191,7 +217,9 @@ Especially when fighting strong enemies.
 敗退された場合、いつも通り
 医務室にて介抱致しますのでご安心を。
 > CONTEXT: Map142/events/5/pages/2/28/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+If you are defeated, rest assured that 
+you will be cared for in the medical room as usual.
 > END STRING
 
 > BEGIN STRING
@@ -199,7 +227,9 @@ Especially when fighting strong enemies.
 預ける：可
 連れて行く：可
 > CONTEXT: Map142/events/6/pages/0/6/Dialogue < UNTRANSLATED
-
+Character formation
+Deposit: Yes
+Take: Yes
 > END STRING
 
 > BEGIN STRING
@@ -207,7 +237,9 @@ Especially when fighting strong enemies.
 アイテムの持ち込み：不可
 銀色の記憶：不可
 > CONTEXT: Map142/events/7/pages/0/3/Dialogue < UNTRANSLATED
-
+Equipment: Yes
+Items: No
+Silver Memory: No
 > END STRING
 
 > BEGIN STRING
@@ -216,7 +248,7 @@ Especially when fighting strong enemies.
 > CONTEXT: Map142/events/11/pages/1/6/Dialogue < UNTRANSLATED
 > CONTEXT: Map142/events/12/pages/0/6/Dialogue < UNTRANSLATED
 > CONTEXT: Map142/events/12/pages/1/6/Dialogue < UNTRANSLATED
-
+You cannot enter while the Silver Memory is active.
 > END STRING
 
 > BEGIN STRING
@@ -224,14 +256,15 @@ Especially when fighting strong enemies.
 エクストラマッチに挑戦しますか？
 > CONTEXT: Map142/events/11/pages/0/12/Dialogue < UNTRANSLATED
 > CONTEXT: Map142/events/11/pages/1/12/Dialogue < UNTRANSLATED
-
+Sexium 
+Would you like to try an extra match?
 > END STRING
 
 > BEGIN STRING
 強くてセクシアム
 > CONTEXT: Map142/events/11/pages/1/15/Choice/2 < UNTRANSLATED
 > CONTEXT: Map142/events/12/pages/1/15/Choice/2 < UNTRANSLATED
-
+Strong and Sexy
 > END STRING
 
 > BEGIN STRING
@@ -244,7 +277,7 @@ Especially when fighting strong enemies.
 > BEGIN STRING
 ……？
 > CONTEXT: Map142/events/15/pages/0/0/Dialogue < UNTRANSLATED
-
+...?
 > END STRING
 
 > BEGIN STRING
@@ -252,7 +285,8 @@ Especially when fighting strong enemies.
 床に何か書かれているようだ。
 > CONTEXT: Map142/events/15/pages/1/0/Dialogue < UNTRANSLATED
 > CONTEXT: Map142/events/15/pages/2/0/Dialogue < UNTRANSLATED
-
+...?
+It looks like something is written on the floor.
 > END STRING
 
 > BEGIN STRING
@@ -260,33 +294,36 @@ Especially when fighting strong enemies.
 　私も参加出来ないかしら……』
 > CONTEXT: Map142/events/15/pages/1/2/Dialogue < UNTRANSLATED
 > CONTEXT: Map142/events/15/pages/2/2/Dialogue < UNTRANSLATED
-
+『Hehe, this sounds like a fun event. 
+I wonder if I can join in too...』
 > END STRING
 
 > BEGIN STRING
 『ふふ、お困りのようですね。
 　私でよければ手伝いますよ？』
 > CONTEXT: Map142/events/15/pages/2/4/Dialogue < UNTRANSLATED
-
+『Fufu, it seems like you're in trouble.
+If you don't mind, I can help you.』
 > END STRING
 
 > BEGIN STRING
 攻略中のデータがあります。
 途中から再開しますか？
 > CONTEXT: Map142/events/16/pages/1/4/Dialogue < UNTRANSLATED
-
+There is in-progress data.
+Would you like to resume from where you left off?
 > END STRING
 
 > BEGIN STRING
 途中から挑戦する
 > CONTEXT: Map142/events/16/pages/1/6/Choice/0 < UNTRANSLATED
-
+Challenge from halfway through
 > END STRING
 
 > BEGIN STRING
 現在200階以上は挑戦出来ません！
 > CONTEXT: Map142/events/16/pages/1/13/Dialogue < UNTRANSLATED
-
+Currently, you cannot challenge floors above 200!
 > END STRING
 
 > BEGIN STRING
@@ -294,8 +331,11 @@ Especially when fighting strong enemies.
 今度は強者達による競演！？
 続報を待て！
 　　　　　　　　　　　　　　　　夢魔の遊技場　広報部
-> CONTEXT: Map142/events/17/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map142/events/17/pages/0/0/Dialogue
+A new project is underway!
+This time, it'll be a competition between the best!?
+Stay tuned for more updates!
+                Succubus Playground Public Relations Department
 > END STRING
 
 > BEGIN STRING
@@ -303,7 +343,9 @@ Especially when fighting strong enemies.
 推奨レベル：80以上
 仲間の連れ込み：不可
 > CONTEXT: Map142/events/17/pages/1/0/Dialogue < UNTRANSLATED
-
+[Sexium: Extra Match]
+Recommended level: 80 or above
+Bring allies: No
 > END STRING
 
 > BEGIN STRING
@@ -311,7 +353,9 @@ Especially when fighting strong enemies.
 銀色の記憶：使用不可
 アイテムの持ち込み：不可
 > CONTEXT: Map142/events/17/pages/1/3/Dialogue < UNTRANSLATED
-
+Equipment: No restrictions
+Silver Memory: Unavailable
+Items: Unavailable
 > END STRING
 
 > BEGIN STRING
@@ -321,7 +365,8 @@ Especially when fighting strong enemies.
 > CONTEXT: Map142/events/21/pages/0/0/Dialogue < UNTRANSLATED
 > CONTEXT: Map142/events/22/pages/0/0/Dialogue < UNTRANSLATED
 > CONTEXT: Map142/events/23/pages/0/0/Dialogue < UNTRANSLATED
-
+We are currently cleaning. 
+Please enjoy yourself at the playground.
 > END STRING
 
 > BEGIN STRING
@@ -329,7 +374,9 @@ Especially when fighting strong enemies.
 お、きよったな\\n[101]はん！
 ティアヴァールはんに言われて交換屋の手伝いに来たで！
 > CONTEXT: Map142/events/19/pages/0/1/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Oh, welcome \\n[101]!
+Tearvoir asked me to come help out at the exchange shop!
 > END STRING
 
 > BEGIN STRING
@@ -337,14 +384,18 @@ Especially when fighting strong enemies.
 ここはな、セクシアムメダルとの交換になっとるで！
 珍しいもんが揃っとるからぜひ見ていってな！
 > CONTEXT: Map142/events/19/pages/0/4/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Here, you can exchange for Sexium Medals!
+There's a lot of rare stuff, 
+so be sure to come and take a look!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ・・・とその前にまずはお近づきの印に、や。
 > CONTEXT: Map142/events/19/pages/0/7/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+...But before that, we wish to make acquintance.
 > END STRING
 
 > BEGIN STRING
@@ -352,7 +403,9 @@ Especially when fighting strong enemies.
 うちの秘蔵コレクションも並べるつもりや！
 ぜひ見に来てやー！
 > CONTEXT: Map142/events/19/pages/0/13/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+I'm also planning to display my treasured collection!
+Come and see!
 > END STRING
 
 > BEGIN STRING
@@ -361,7 +414,9 @@ Especially when fighting strong enemies.
 セクシアムメダルの交換でもしていくかー？
 > CONTEXT: Map142/events/19/pages/1/1/Dialogue < UNTRANSLATED
 > CONTEXT: Map142/events/19/pages/2/1/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Oh, \\n[101],
+Want to exchange Sexium medals?
 > END STRING
 
 > BEGIN STRING
@@ -371,7 +426,10 @@ Especially when fighting strong enemies.
 気になるなら行ってみたらええで！
 > CONTEXT: Map142/events/19/pages/1/13/Dialogue < UNTRANSLATED
 > CONTEXT: Map142/events/19/pages/2/13/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+If you want to know more about Ange Select, 
+Ange-sensei should be able to tell you more about it.
+If you're interested, why not go and check it out!
 > END STRING
 
 > BEGIN STRING
@@ -380,7 +438,9 @@ Especially when fighting strong enemies.
 あのご令嬢、色々詳しそうやし。
 > CONTEXT: Map142/events/19/pages/1/17/Dialogue < UNTRANSLATED
 > CONTEXT: Map142/events/19/pages/2/17/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Maybe Silfe knows about the champion's belt.
+That young lady seems to know a lot about things.
 > END STRING
 
 > BEGIN STRING
@@ -388,7 +448,8 @@ Especially when fighting strong enemies.
 ほな、また来てなー！
 > CONTEXT: Map142/events/19/pages/1/24/Dialogue < UNTRANSLATED
 > CONTEXT: Map142/events/19/pages/2/24/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Well, come again!
 > END STRING
 
 > BEGIN STRING
@@ -397,7 +458,7 @@ Especially when fighting strong enemies.
 > CONTEXT: Map142/events/20/pages/1/0/InlineScript/1:22 < UNTRANSLATED
 > CONTEXT: Map142/events/20/pages/2/0/InlineScript/1:22 < UNTRANSLATED
 > CONTEXT: Map142/events/20/pages/3/0/InlineScript/1:22 < UNTRANSLATED
-
+"Round Girl with Junior Face"
 > END STRING
 
 > BEGIN STRING
@@ -405,7 +466,9 @@ Especially when fighting strong enemies.
 あ、\\n[101]センパイ！
 ティアヴァール様の命で交換屋をはじめました！
 > CONTEXT: Map142/events/20/pages/0/1/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Oh, \\n[101]-senpai!
+I started an exchange shop at Tearvoir's command!
 > END STRING
 
 > BEGIN STRING
@@ -414,7 +477,9 @@ Especially when fighting strong enemies.
 コインはセクシアム各コースを勝ち抜くことで
 手に入れることが出来ます。
 > CONTEXT: Map142/events/20/pages/0/4/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+You can exchange here using Sexium Coins.
+Coins can be obtained by winning each Sexium course.
 > END STRING
 
 > BEGIN STRING
@@ -422,7 +487,9 @@ Especially when fighting strong enemies.
 何回でも挑戦可能ですので
 ぜひとも奮ってご参加ください！
 > CONTEXT: Map142/events/20/pages/0/8/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+You can try as many times as you like, 
+so please come along and join us!
 > END STRING
 
 > BEGIN STRING
@@ -430,7 +497,9 @@ Especially when fighting strong enemies.
 ・・・それと、
 これは一ファンとしてのプレゼントっす。
 > CONTEXT: Map142/events/20/pages/0/11/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+...Also,
+this is a present from me as a fan.
 > END STRING
 
 > BEGIN STRING
@@ -438,7 +507,9 @@ Especially when fighting strong enemies.
 \\n[101]センパイ、
 これからも素晴らしい試合を楽しみにしています！
 > CONTEXT: Map142/events/20/pages/0/18/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+\\n[101]-senpai,
+I look forward to seeing more great matches in the future!
 > END STRING
 
 > BEGIN STRING
@@ -446,7 +517,9 @@ Especially when fighting strong enemies.
 あ、\\n[101]センパイ、
 セクシアムコインの交換をご希望ですか？
 > CONTEXT: Map142/events/20/pages/1/1/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Oh, \\n[101]-senpai,
+do you want to exchange Sexium Coins?
 > END STRING
 
 > BEGIN STRING
@@ -455,7 +528,8 @@ Especially when fighting strong enemies.
 > CONTEXT: Map142/events/20/pages/1/10/Dialogue < UNTRANSLATED
 > CONTEXT: Map142/events/20/pages/2/14/Dialogue < UNTRANSLATED
 > CONTEXT: Map142/events/20/pages/3/10/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Well then, have fun!
 > END STRING
 
 > BEGIN STRING
@@ -463,21 +537,25 @@ Especially when fighting strong enemies.
 あ、\\n[101]センパイ！
 ティアヴァール様が呼んでましたっす！
 > CONTEXT: Map142/events/20/pages/2/1/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Ah, \\n[101]-senpai!
+Lord Tearvoir is calling you!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今ならオーナー室にいるはずです！
 > CONTEXT: Map142/events/20/pages/2/4/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+She should be in the owner's room right now!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 と、その前に交換していきますか？
 > CONTEXT: Map142/events/20/pages/2/6/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Would you like to exchange before that?
 > END STRING
 
 > BEGIN STRING
@@ -485,7 +563,9 @@ Especially when fighting strong enemies.
 あ、\\n[101]センパイ！
 セクシアムコインの交換をご希望ですか？
 > CONTEXT: Map142/events/20/pages/3/1/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Oh, \\n[101]-senpai!
+Would you like to exchange some Sexium Coins?
 > END STRING
 
 > BEGIN STRING
@@ -494,7 +574,10 @@ Especially when fighting strong enemies.
 お主も息災で何よりじゃ。
 ・・・我がここに居るのが不思議かえ？
 > CONTEXT: Map142/events/28/pages/0/1/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Well, \\n[101].
+I'm glad to hear that you're in good health.
+Is it strange that I'm here?
 > END STRING
 
 > BEGIN STRING
@@ -502,7 +585,9 @@ Especially when fighting strong enemies.
 実は前に試したゲームの拡張を考えておってな、
 なにか妙案がないかティアヴァ―ル嬢に相談したのじゃ。
 > CONTEXT: Map142/events/28/pages/0/5/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Actually, I was thinking about expanding a game I tried before,
+so I asked Miss Tearvoir if she had any ideas.
 > END STRING
 
 > BEGIN STRING
@@ -511,7 +596,10 @@ Especially when fighting strong enemies.
 さすがに対価もなしは甘え過ぎかと思い
 交換所の真似事を買って出たわけじゃ。
 > CONTEXT: Map142/events/28/pages/0/8/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+...Well, I was told I could study freely,
+but I thought it would be too much to ask for no compensation,
+so I volunteered to act as an exchange office.
 > END STRING
 
 > BEGIN STRING
@@ -520,7 +608,10 @@ Especially when fighting strong enemies.
 不思議なフルーツが流れてくるのでの、
 母君からもこれを景品にどうかと話もあったのじゃ。
 > CONTEXT: Map142/events/28/pages/0/12/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Also, since strange fruits have been coming 
+from another world recently,
+my mother also suggested that we use them as prizes.
 > END STRING
 
 > BEGIN STRING
@@ -528,7 +619,9 @@ Especially when fighting strong enemies.
 お主のこれからの冒険にも大いに役に立つはずじゃ。
 コインの余裕が出来たら寄ってみるとよいぞ。
 > CONTEXT: Map142/events/28/pages/0/16/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+It should be of great help to you in your future adventures.
+If you have some spare coins, you should stop by.
 > END STRING
 
 > BEGIN STRING
@@ -537,7 +630,9 @@ Especially when fighting strong enemies.
 少し時間が出来たので
 アヴァリツィアの様子を見に来たんですよぉ。
 > CONTEXT: Map142/events/29/pages/0/2/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Kufu, hello \\n[101].
+I had some free time so I came to check on Avarizia.
 > END STRING
 
 > BEGIN STRING
@@ -545,7 +640,9 @@ Especially when fighting strong enemies.
 そういえば知ってますかぁ？
 最近セクシアムに参加したいって娘が増えてましてぇ。
 > CONTEXT: Map142/events/29/pages/0/6/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+By the way, did you know?
+Recently, more and more girls have been wanting to join Sexium.
 > END STRING
 
 > BEGIN STRING
@@ -554,19 +651,22 @@ Especially when fighting strong enemies.
 それに\\n[101]さんのこともよく知っているとかぁ・・・。
 もしかして心当たりぃ、あったりします？
 > CONTEXT: Map142/events/29/pages/0/9/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Apparently, she's highly skilled with the manager's approval.
+And apparently she knows \\n[101] very well...
+Do you have any idea who that might be?
 > END STRING
 
 > BEGIN STRING
 知ってるかも（隠し枠追加）
 > CONTEXT: Map142/events/29/pages/0/13/Choice/0 < UNTRANSLATED
-
+You might know (hidden frame added)
 > END STRING
 
 > BEGIN STRING
 うーん・・・（隠し枠なし）
 > CONTEXT: Map142/events/29/pages/0/13/Choice/1 < UNTRANSLATED
-
+Hmm... (no hidden frame)
 > END STRING
 
 > BEGIN STRING
@@ -575,7 +675,10 @@ Especially when fighting strong enemies.
 \\n[101]さんも隅に置けませんねぇ。
 今度私にも紹介してくださいよぉ・・・\\H
 > CONTEXT: Map142/events/29/pages/0/16/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Kufu, I thought so...
+\\n[101] can't be left in the corner either.
+Please introduce me to her next time...\\H
 > END STRING
 
 > BEGIN STRING
@@ -584,5 +687,8 @@ Especially when fighting strong enemies.
 でぇすぅがぁ・・・\\|
 案外近くにいる方かもしれませんよぉ？
 > CONTEXT: Map142/events/29/pages/0/23/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+I see...
+But...\\|
+Maybe she's actually someone close to you?
 > END STRING

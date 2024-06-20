@@ -1836,121 +1836,121 @@ Breast weakness
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Small breast preference
 > END STRING
 
 > BEGIN STRING
 【快楽の接触】
 > CONTEXT: Game_Playground.rb
-
+【Pleasure Contact】
 > END STRING
 
 > BEGIN STRING
 \nEPドレイン→主人公:#{per}％
 > CONTEXT: Game_Playground.rb
-
+\nEP Drain→Main Character: #{per}%
 > END STRING
 
 > BEGIN STRING
 【夢魔の吸精】
 > CONTEXT: Game_Playground.rb
-
+【Succubus Sperm Sucking】
 > END STRING
 
 > BEGIN STRING
 \nVPドレイン→主人公:#{per}％
 > CONTEXT: Game_Playground.rb
-
+\nVP Drain→Main Character: #{per}%
 > END STRING
 
 > BEGIN STRING
 【破滅の体験】
 > CONTEXT: Game_Playground.rb
-
+【Devastating Experience】
 > END STRING
 
 > BEGIN STRING
 \nEP/VPドレイン→主人公:#{per}％
 > CONTEXT: Game_Playground.rb
-
+\nEP/VP Drain→Main Character: #{per}%
 > END STRING
 
 > BEGIN STRING
 【喪失の悦び】
 > CONTEXT: Game_Playground.rb
-
+【Joy of Loss】
 > END STRING
 
 > BEGIN STRING
 \nレベルドレイン→主人公:#{value}
 > CONTEXT: Game_Playground.rb
-
+\nLevel Drain→Main Character: #{value}
 > END STRING
 
 > BEGIN STRING
 【ひとときの契】
 > CONTEXT: Game_Playground.rb
-
+【Momentary Promise】
 > END STRING
 
 > BEGIN STRING
 \nマネードレイン#{per}％
 > CONTEXT: Game_Playground.rb
-
+\nMoney Drain #{per}%
 > END STRING
 
 > BEGIN STRING
 【忘れ得ぬ淫跡】
 > CONTEXT: Game_Playground.rb
-
+【Unforgettable Lewd Mark】
 > END STRING
 
 > BEGIN STRING
 \n素質付与→パーティ全員:#{$data_ability.data[get].name}
 > CONTEXT: Game_Playground.rb
-
+\nGrant Ability→All Party Members: #{$data_ability.data[get].name}
 > END STRING
 
 > BEGIN STRING
 【忘れ得ぬ淫痕】
 > CONTEXT: Game_Playground.rb
-
+【Unforgettable Ink Mark】
 > END STRING
 
 > BEGIN STRING
 【劣情の開花】
 > CONTEXT: Game_Playground.rb
-
+【Insatiable Passion Blossom】
 > END STRING
 
 > BEGIN STRING
 \n素質付与→#{actor.name}:#{$data_ability.data[get].name}
 > CONTEXT: Game_Playground.rb
-
+\nGrant Ability→#{actor.name}: #{$data_ability.data[get].name}
 > END STRING
 
 > BEGIN STRING
 【淫欲の開花】
 > CONTEXT: Game_Playground.rb
-
+【Lust Blossom】
 > END STRING
 
 > BEGIN STRING
 【足跡の消滅】
 > CONTEXT: Game_Playground.rb
-
+【Footprint Disappearance】
 > END STRING
 
 > BEGIN STRING
 \n素質付与→主人公:#{$data_ability.data[get].name}
 > CONTEXT: Game_Playground.rb
-
+\nGrant Ability→Main Character: #{$data_ability.data[get].name}
 > END STRING
 
 > BEGIN STRING
 【思い出の霧散】
 > CONTEXT: Game_Playground.rb
-
+【Fading Memories】
 > END STRING
 
 > BEGIN STRING
@@ -1964,13 +1964,13 @@ Doubt
 > BEGIN STRING
 【戦闘】
 > CONTEXT: Game_Playground.rb
-
+【Battle】
 > END STRING
 
 > BEGIN STRING
 \n:#{name}など
 > CONTEXT: Game_Playground.rb
-
+\n:#{name} etc.
 > END STRING
 
 > BEGIN STRING
@@ -1982,7 +1982,7 @@ Doubt
 > BEGIN STRING
 【アイテム入手】
 > CONTEXT: Game_Playground.rb
-
+【Item Acquisition】
 > END STRING
 
 > BEGIN STRING
@@ -2000,19 +2000,19 @@ Doubt
 > BEGIN STRING
 \nアイテム × #{@reward_num}
 > CONTEXT: Game_Playground.rb
-
+\nItems × #{@reward_num}
 > END STRING
 
 > BEGIN STRING
 \n装備品 × #{@reward_num}
 > CONTEXT: Game_Playground.rb
-
+\nEquipment × #{@reward_num}
 > END STRING
 
 > BEGIN STRING
 \nルーン × #{@reward_num}
 > CONTEXT: Game_Playground.rb
-
+\nRunes × #{@reward_num}
 > END STRING
 
 > BEGIN STRING
@@ -2021,7 +2021,7 @@ Doubt
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_Game_Party.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Playground friends
 > END STRING
 
 > BEGIN STRING
