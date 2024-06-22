@@ -112,17 +112,17 @@ that works well.
 
 > BEGIN STRING
 \\n[101]は\\v[2]の快感を受けてしまった！
-> CONTEXT: Map186/events/3/pages/0/40/Dialogue < UNTRANSLATED
-> CONTEXT: Map186/events/5/pages/0/40/Dialogue < UNTRANSLATED
-> CONTEXT: Map186/events/6/pages/0/40/Dialogue < UNTRANSLATED
-> CONTEXT: Map186/events/7/pages/0/40/Dialogue < UNTRANSLATED
-> CONTEXT: Map186/events/10/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map186/events/3/pages/0/40/Dialogue
+> CONTEXT: Map186/events/5/pages/0/40/Dialogue
+> CONTEXT: Map186/events/6/pages/0/40/Dialogue
+> CONTEXT: Map186/events/7/pages/0/40/Dialogue
+> CONTEXT: Map186/events/10/pages/0/44/Dialogue
 \\n[101] received \\v[2] pleasure!
 > END STRING
 
 > BEGIN STRING
 は\\v[2]の快感を受けてしまった！
-> CONTEXT: Map186/events/8/pages/0/35/Dialogue < UNTRANSLATED
+> CONTEXT: Map186/events/8/pages/0/35/Dialogue
  experienced \\v[2] pleasure!
 > END STRING
 
@@ -130,10 +130,10 @@ that works well.
 \\name[\\v[2]]\\_
 ふふ……いらっしゃい\\H\\.
 ほら、力を抜いて……\\H
-> CONTEXT: Map186/events/10/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map186/events/11/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map186/events/12/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map186/events/13/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map186/events/10/pages/0/1/Dialogue
+> CONTEXT: Map186/events/11/pages/0/1/Dialogue
+> CONTEXT: Map186/events/12/pages/0/1/Dialogue
+> CONTEXT: Map186/events/13/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
 Hehe... Welcome\\H\\.
 Now, just relax...\\H
@@ -141,21 +141,21 @@ Now, just relax...\\H
 
 > BEGIN STRING
 \\n[101]は\\v[2]のVPを奪われてしまった！
-> CONTEXT: Map186/events/11/pages/0/45/Dialogue < UNTRANSLATED
+> CONTEXT: Map186/events/11/pages/0/45/Dialogue
 \\n[101] lost \\v[2] VP!
 > END STRING
 
 > BEGIN STRING
 \\n[101]は\\v[2]の快感を受けてしまった！
 \\n[101]は\\v[3]のVPを奪われてしまった！
-> CONTEXT: Map186/events/12/pages/0/49/Dialogue < UNTRANSLATED
+> CONTEXT: Map186/events/12/pages/0/49/Dialogue
 \\n[101] received \\v[2] pleasure!
 \\n[101] had \\v[3] VP stolen!
 > END STRING
 
 > BEGIN STRING
 \\n[101]は\\v[2]のレベルを奪われてしまった！
-> CONTEXT: Map186/events/13/pages/0/42/Dialogue < UNTRANSLATED
+> CONTEXT: Map186/events/13/pages/0/42/Dialogue
 \\n[101] has had \\v[2] levels stolen!
 > END STRING
 
@@ -163,7 +163,7 @@ Now, just relax...\\H
 \\name[\\v[2]]\\_
 こんな私に慈悲を……ありがとうございます……
 気持ちよくなってくださいね……\\H
-> CONTEXT: Map186/events/14/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map186/events/14/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
 Thank you for your mercy on me...
 I hope you enjoy it...\\H
@@ -171,7 +171,7 @@ I hope you enjoy it...\\H
 
 > BEGIN STRING
 \\v[2]Lps.を奪われてしまった！
-> CONTEXT: Map186/events/14/pages/0/38/Dialogue < UNTRANSLATED
+> CONTEXT: Map186/events/14/pages/0/38/Dialogue
 \\v[2]Lps. stolen!
 > END STRING
 
@@ -180,10 +180,10 @@ I hope you enjoy it...\\H
 君が被験者か。
 なーに、怯える必要はない。
 フフ、君も気持ち良いのは好きだろう？
-> CONTEXT: Map186/events/15/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map186/events/16/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map186/events/17/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map186/events/18/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map186/events/15/pages/0/1/Dialogue
+> CONTEXT: Map186/events/16/pages/0/1/Dialogue
+> CONTEXT: Map186/events/17/pages/0/1/Dialogue
+> CONTEXT: Map186/events/18/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
 So you're the test subject.
 There's no need to be scared.
@@ -192,10 +192,10 @@ Hehe, you like feeling good too, don't you?
 
 > BEGIN STRING
 \\v[2]は\\v[3]の素質を付与されてしまった！
-> CONTEXT: Map186/events/15/pages/0/36/Dialogue < UNTRANSLATED
-> CONTEXT: Map186/events/16/pages/0/36/Dialogue < UNTRANSLATED
-> CONTEXT: Map186/events/17/pages/0/36/Dialogue < UNTRANSLATED
-> CONTEXT: Map186/events/18/pages/0/36/Dialogue < UNTRANSLATED
+> CONTEXT: Map186/events/15/pages/0/36/Dialogue
+> CONTEXT: Map186/events/16/pages/0/36/Dialogue
+> CONTEXT: Map186/events/17/pages/0/36/Dialogue
+> CONTEXT: Map186/events/18/pages/0/36/Dialogue
 \\v[2] was given the qualities of \\v[3]!
 > END STRING
 
@@ -204,7 +204,7 @@ Hehe, you like feeling good too, don't you?
 あはっ\\H　ようこそ……
 君の初めての記憶……
 私が奪ってあげる……\\H
-> CONTEXT: Map186/events/19/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map186/events/19/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
 Ahh\\H Welcome...
 Your memory of first time...
@@ -213,7 +213,7 @@ I'll take it away...\\H
 
 > BEGIN STRING
 \\v[2]は初めての身体になってしまった！
-> CONTEXT: Map186/events/19/pages/0/36/Dialogue < UNTRANSLATED
+> CONTEXT: Map186/events/19/pages/0/36/Dialogue
 \\v[2] has become my first!
 > END STRING
 
@@ -221,7 +221,7 @@ I'll take it away...\\H
 \\name[\\v[2]]\\_
 ふふ……ようこそ、期待のゲストさん\\H
 君の体と心……、めちゃくちゃにしてあげますねぇ\\H
-> CONTEXT: Map186/events/20/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map186/events/20/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
 Hehe... Welcome, our much anticipated guest\\H
 I'm going to mess up your body and mind...\\H
@@ -229,6 +229,6 @@ I'm going to mess up your body and mind...\\H
 
 > BEGIN STRING
 \\v[2]は\\v[3]になってしまった！
-> CONTEXT: Map186/events/20/pages/0/35/Dialogue < UNTRANSLATED
+> CONTEXT: Map186/events/20/pages/0/35/Dialogue
 \\v[2] has become \\v[3]!
 > END STRING
