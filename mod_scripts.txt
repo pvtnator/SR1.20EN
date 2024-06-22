@@ -672,7 +672,7 @@ Sensual Stroke!\w​q​
 > BEGIN STRING
 #{myname}のＶＰが #{(damage.abs).to_s} 回復した！
 > CONTEXT: Game_Battler_Textmake.rb
-
+#{myname}'s VP recovered by #{(damage.abs).to_s}!
 > END STRING
 
 > BEGIN STRING
@@ -705,7 +705,7 @@ The flashing hammer \nthat judges the darkness will pierce the wicked!\w​q​
 > BEGIN STRING
 #{myname}のＶＰが #{tem.recover_sp.to_s} 回復した！
 > CONTEXT: Game_Battler_Textmake.rb
-
+#{myname}'s VP recovered by #{tem.recover_sp.to_s}!
 > END STRING
 
 > BEGIN STRING
@@ -723,7 +723,7 @@ Weak
 > BEGIN STRING
 #{myname}のＶＰが #{item.recover_sp.to_s} 回復した！
 > CONTEXT: Game_Battler_Textmake.rb
-
+#{myname}'s VP recovered by #{item.recover_sp.to_s}!
 > END STRING
 
 > BEGIN STRING
@@ -28395,7 +28395,7 @@ Anus
 > BEGIN STRING
 勢いよく押さえつけてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+pressed down with force!
 > END STRING
 
 > BEGIN STRING
@@ -28467,7 +28467,7 @@ Anus
 > BEGIN STRING
 態勢を整えると、\n#{targetname}の身体を強引に押さえつけてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ forcefully pinned down \n#{targetname}'s body after preparation!
 > END STRING
 
 > BEGIN STRING
@@ -30366,7 +30366,7 @@ with a bewitched look
 > BEGIN STRING
 、\n\m#{targetname}の#{target.bustsize}を愛撫した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ fondled,\n​m​#{targetname}'s #{target.bustsize}!
 > END STRING
 
 > BEGIN STRING
@@ -30396,7 +30396,7 @@ with a bewitched look
 > BEGIN STRING
 、\n\m#{targetname}の二つの乳首を舌で舐め回した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+,\n​m​licked #{targetname}'s two nipples all over!
 > END STRING
 
 > BEGIN STRING
@@ -30540,7 +30540,7 @@ with a bewitched look
 > BEGIN STRING
 身体を動かし、\n\m#{targetname}を愛撫した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ moved and caressed \n​m​#{targetname}!
 > END STRING
 
 > BEGIN STRING
@@ -31320,7 +31320,7 @@ But it didn't work on #{myname}!
 > BEGIN STRING
 \n\m#{targetname}の頭をそっと撫で甘やかした！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​gently stroked and pampered #{targetname}'s head!
 > END STRING
 
 > BEGIN STRING
@@ -33282,7 +33282,7 @@ sucked on \n​m​#{targetname}'s #{target.bustsize} through a gap in clothes!
 > BEGIN STRING
 羽で、\n\m#{targetname}の#{points}を愛撫した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ caressed \n​m​#{points} of #{targetname} with feathers!
 > END STRING
 
 > BEGIN STRING
@@ -33510,7 +33510,7 @@ sucked on \n​m​#{targetname}'s #{target.bustsize} through a gap in clothes!
 > BEGIN STRING
 抑えきれぬ情欲を解放した！\n\m#{myname}のＥＰは全回復した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ released uncontrollable lust!\n​m​#{myname}'s EP has been fully restored!
 > END STRING
 
 > BEGIN STRING
@@ -33973,85 +33973,85 @@ in turning motion
 > BEGIN STRING
 射精した！\n\m#{targetname}の身体に空しく精が放たれ汚してしまう！！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ ejaculated! \n​m​#{targetname}'s body was soiled with semen in vain!
 > END STRING
 
 > BEGIN STRING
 射精した！\n\m#{targetname}の身体にドロドロの精液が降りかかる！！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ ejaculated!\n​m​#{targetname}'s body is showered with thick semen!!
 > END STRING
 
 > BEGIN STRING
 射精した！\n\m#{targetname}の膣内に大量の精液が注ぎ込まれる！！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ ejaculated! \n​m​A huge amount of semen \nwas poured into #{targetname}'s vagina!!
 > END STRING
 
 > BEGIN STRING
 射精した！\n\m#{targetname}の膣内に精液がドクドクと放たれる！！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ ejaculated! \n​m​Semen shoots out into #{targetname}'s vagina!!
 > END STRING
 
 > BEGIN STRING
 射精した！\n\m#{targetname}の膣内に更に大量の精液が注がれる！！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ ejaculated! \n​m​Another large amount of semen \nis poured into #{targetname}'s vagina!!
 > END STRING
 
 > BEGIN STRING
 胤付けの衝動を抑えられず\n\m再び#{targetname}の膣奥に射精した！！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ ejaculated again \n​m​into the depths of #{targetname}'s vagina,\nunable to suppress the urge to impregnate!!
 > END STRING
 
 > BEGIN STRING
 射精した！\n\m#{targetname}の肛内に大量の精が注ぎ込まれる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ ejaculated! \n\mA huge amount of semen \nwas poured into #{targetname}'s anus!
 > END STRING
 
 > BEGIN STRING
 射精した！\n\m#{targetname}の直腸の奥に さらに大量の精が注ぎ込まれる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ ejaculated! \n​m​Another load of semen is pumped \ndeep into #{targetname}'s rectum!
 > END STRING
 
 > BEGIN STRING
 背徳の快楽を抑えられず\n\m再び#{targetname}の肛内に射精した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ ejaculated into #{targetname}'s anus again,\n​m​unable to suppress the immoral pleasure!
 > END STRING
 
 > BEGIN STRING
 射精した！\n\m#{targetname}の口内に大量の精が注ぎ込まれる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ ejaculated!\n​m​A huge load of semen is poured \ninto #{targetname}'s mouth!
 > END STRING
 
 > BEGIN STRING
 射精した！\n\m#{targetname}の胸が大量の精で白く染まる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ ejaculated! \n​m​#{targetname}'s chest is stained white \nwith a huge amount of semen!
 > END STRING
 
 > BEGIN STRING
 跨りながら絶頂した！\n\m溢れる精気と嬌声が#{targetname}を襲う！！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ climaxed while straddling! \n​m​#{targetname} was assaulted by overflowing energy \nand cries of pleasure!!
 > END STRING
 
 > BEGIN STRING
 抱きしめながら絶頂した！\n\m溢れる精気と嬌声が#{targetname}を襲う！！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ climaxed while holding in arms! \n​m​#{targetname} was assaulted by overflowing energy \nand cries of pleasure!!
 > END STRING
 
 > BEGIN STRING
 絶頂した！\n\m尻尾の先から溢れる精気が#{targetname}を襲う！！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ climaxed!\n​m​The energy overflowing from \nthe tip of the tail attacks #{targetname}!!
 > END STRING
 
 > BEGIN STRING
@@ -34963,19 +34963,19 @@ in turning motion
 > BEGIN STRING
 羽で、\n\m#{targetname}のペニスを優しく包み込んできた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ gently wrapped wings around \n​m​#{targetname}'s penis!
 > END STRING
 
 > BEGIN STRING
 羽で、\n\m#{targetname}のペニスを撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ stroked \n​m​#{targetname}'s penis with feathers!
 > END STRING
 
 > BEGIN STRING
 #{tec}、\n\m#{targetname}のペニスを更に刺激してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ stimulated #{targetname}'s penis \n​m​even more #{tec}!
 > END STRING
 
 > BEGIN STRING
@@ -34993,13 +34993,13 @@ in turning motion
 > BEGIN STRING
 羽で、\n\m#{targetname}の#{target.bustsize}全体を#{brk3}刺激してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ used feathers to stimulate \n​m​#{target.bustsize} of #{targetname}!
 > END STRING
 
 > BEGIN STRING
 羽で、\n\m#{targetname}の乳首を刺激してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ is stimulating \n​m​#{targetname}'s nipples with feathers!
 > END STRING
 
 > BEGIN STRING
@@ -35017,7 +35017,7 @@ in turning motion
 > BEGIN STRING
 羽で、\n\m#{targetname}のアソコを包み込んできた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ wrapped wings around \n​m​#{targetname}'s genitals!
 > END STRING
 
 > BEGIN STRING
@@ -35029,19 +35029,19 @@ in turning motion
 > BEGIN STRING
 羽で、\n\m#{targetname}のお尻全体を刺激してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ is stimulating \n​m​#{targetname}'s butt with feathers!
 > END STRING
 
 > BEGIN STRING
 なおも焦らすように、\n\m羽で#{targetname}のお尻を刺激してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ continued teasing and used feathers \n​m​to stimulate #{targetname}'s buttocks!
 > END STRING
 
 > BEGIN STRING
 羽で、\n\m#{targetname}の背中を優しく撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ gently stroked \n​m​#{targetname}'s back with wings!
 > END STRING
 
 > BEGIN STRING
@@ -35149,7 +35149,7 @@ in turning motion
 > BEGIN STRING
 羽で、\n\m#{targetname}の全身を優しく撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ gently stroked the whole body of \n​m​#{targetname} with wings!
 > END STRING
 
 > BEGIN STRING
@@ -38512,7 +38512,7 @@ suddenly hugged tightly!
 > BEGIN STRING
 #{myself.bustsize}で、\n\m#{targetname}の顔を抱きしめてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-¨ hugged #{targetname}'s face with #{myself.bustsize}!
+ hugged #{targetname}'s face with #{myself.bustsize}!
 > END STRING
 
 > BEGIN STRING
@@ -38752,7 +38752,7 @@ suddenly hugged tightly!
 > BEGIN STRING
 更に#{myself.bustsize}を、\n\m#{targetname}の顔に押し付けこね回す！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pressed #{myself.bustsize} into \n​m​#{targetname}'s face and rubbed it!
 > END STRING
 
 > BEGIN STRING
@@ -42194,7 +42194,7 @@ Post-effect message:
 > BEGIN STRING
  回復した！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+ recovered!​w​q
 > END STRING
 
 > BEGIN STRING
@@ -42957,7 +42957,7 @@ Wind Whisper
 > BEGIN STRING
 #{target.name}のＶＰが #{recover.to_s} 回復した！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{target.name}'s VP recovered by #{recover.to_s}!​w​q
 > END STRING
 
 > BEGIN STRING
@@ -44834,7 +44834,7 @@ Effect introduction:
 > BEGIN STRING
 #{active.name}は#{target.name}の腰を掴み、\nアソコの奥までペニスを突き入れた！
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+#{active.name} grabbed #{target.name}'s waist \nand thrust his penis deep into her pussy!
 > END STRING
 
 > BEGIN STRING
@@ -45417,7 +45417,7 @@ Berserk behavior
 > BEGIN STRING
 #{active.name}は#{target.name}に挿入した！\n度重なる挿入に、#{target.name}は顔を上気させている……！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} inserted into #{target.name}! \n#{target.name}'s face is flushed with excitement \nat the repeated insertions...!
 > END STRING
 
 > BEGIN STRING
@@ -45459,7 +45459,7 @@ Berserk behavior
 > BEGIN STRING
 #{active.name}は#{target.name}に深く挿入した！\n度重なる挿入に、#{target.name}は顔を上気させている……！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} inserted deeply into #{target.name}! \n#{target.name}'s face is flushed with repeated insertions...!
 > END STRING
 
 > BEGIN STRING
@@ -46473,7 +46473,7 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}の足は、\n#{active.name}に押さえつけられてしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name}'s legs have been pinned down by\n#{active.name}!
 > END STRING
 
 > BEGIN STRING
@@ -46863,7 +46863,7 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}の腕は、\n#{active.name}に押さえつけられてしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name}'s arms have been pinned down by\n#{active.name}!
 > END STRING
 
 > BEGIN STRING
@@ -54136,19 +54136,19 @@ TALKTEXT
 > BEGIN STRING
 #{t_actor}は、#{speaker}の股間に跨り、\nアソコを押し付けようとしている……！
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+#{t_actor} is straddling #{speaker}'s crotch,\ntrying to press genitals...!
 > END STRING
 
 > BEGIN STRING
 #{t_actor}は、#{speaker}の口内に\nペニスを咥えさせる……！
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+#{t_actor} makes #{speaker} put his penis in the mouth...!
 > END STRING
 
 > BEGIN STRING
 #{t_actor}は口内に、\n#{speaker}のペニスを飲み込んでいく……！
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+#{t_actor} swallows\n#{speaker}'s penis into the mouth...!
 > END STRING
 
 > BEGIN STRING
@@ -54478,7 +54478,7 @@ is excited!
 > BEGIN STRING
 この状況を愉しんでいるようだ！
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+seems to be enjoying this situation!
 > END STRING
 
 > BEGIN STRING
@@ -54508,7 +54508,7 @@ is excited!
 > BEGIN STRING
 何かを企んでいる様子だ！
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+looks up to something!
 > END STRING
 
 > BEGIN STRING
@@ -54556,7 +54556,7 @@ is excited!
 > BEGIN STRING
 口内にペニスを挿入された#{speaker}は、\n#{emotion}
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+#{speaker}, who had penis inserted in the mouth,\n#{emotion}
 > END STRING
 
 > BEGIN STRING
@@ -54598,7 +54598,7 @@ is excited!
 > BEGIN STRING
 ペニスを#{$msg.t_enemy.bustsize}の谷間に挿入され、\n#{speaker}は#{emotion}
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+The penis is inserted into the \nvalley of #{$msg.t_enemy.bustsize},\n#{speaker} #{emotion}
 > END STRING
 
 > BEGIN STRING
@@ -54640,7 +54640,7 @@ is excited!
 > BEGIN STRING
 #{t_actor}にアソコを吸われ、\n#{speaker}は#{emotion}
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+#{t_actor} is eating out,\n#{speaker} #{emotion}
 > END STRING
 
 > BEGIN STRING
