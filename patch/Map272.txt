@@ -605,7 +605,7 @@ Move into Lauratt House?
 > BEGIN STRING
 "裏レベル換金屋"
 > CONTEXT: Map272/events/216/pages/0/12/InlineScript/1:22 < UNTRANSLATED
-
+"Level-Money Exchanger"
 > END STRING
 
 > BEGIN STRING
@@ -613,7 +613,9 @@ Move into Lauratt House?
 俺は裏レベル換金屋だ。
 金さえもらえれば、お前のレベルを一つ上げてやるぜ。
 > CONTEXT: Map272/events/216/pages/0/18/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+I'm a secret level money exchanger.
+If you give me money, I'll raise your level by one.
 > END STRING
 
 > BEGIN STRING
@@ -621,7 +623,9 @@ Move into Lauratt House?
 ･･･あー、金がなければレベルは上げられんな。
 金貯めてからまた来いよ。
 > CONTEXT: Map272/events/216/pages/0/27/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+...Ah, you can't level up without money.
+Come back after you save up some money.
 > END STRING
 
 > BEGIN STRING
@@ -629,14 +633,18 @@ Move into Lauratt House?
 次のお前のレベルは\\v[3]だな。これなら代金は\\v[4]Lps.だ。
 １レベル上げるかい？
 > CONTEXT: Map272/events/216/pages/0/33/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Your next level is \\v[3]. The cost is \\v[4]Lps.
+Would you like to go up 1 level?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そらよ。レベルを上げたぜ。それじゃあ代金をいただくぜ。
 > CONTEXT: Map272/events/216/pages/0/46/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+There you go. Your level has increased. 
+Now it's time to pay.
 > END STRING
 
 > BEGIN STRING
