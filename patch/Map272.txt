@@ -566,45 +566,45 @@ It seems that it can only be used by one person.
 
 > BEGIN STRING
 "甘い雰囲気がする街が映っている。"
-> CONTEXT: Map272/events/208/pages/1/7/InlineScript/5:9 < UNTRANSLATED
-> CONTEXT: Map272/events/208/pages/2/7/InlineScript/5:9 < UNTRANSLATED
-> CONTEXT: Map272/events/208/pages/3/7/InlineScript/5:9 < UNTRANSLATED
-
+> CONTEXT: Map272/events/208/pages/1/7/InlineScript/5:9
+> CONTEXT: Map272/events/208/pages/2/7/InlineScript/5:9
+> CONTEXT: Map272/events/208/pages/3/7/InlineScript/5:9
+"The photo shows a town with a sweet atmosphere."
 > END STRING
 
 > BEGIN STRING
 氷結図書館に移動しますか？
-> CONTEXT: Map272/events/209/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map272/events/209/pages/0/4/Dialogue
+Move to Frozen Library?
 > END STRING
 
 > BEGIN STRING
 ロウラット邸に移動しますか？
 > CONTEXT: Map272/events/211/pages/0/3/Dialogue
-Move into Lauratt House?
+Move to Lauratt House?
 > END STRING
 
 > BEGIN STRING
 天上界に移動しますか？
-> CONTEXT: Map272/events/212/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map272/events/212/pages/0/4/Dialogue
+Move to heaven?
 > END STRING
 
 > BEGIN STRING
 銀色の都市に移動しますか？
-> CONTEXT: Map272/events/213/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map272/events/213/pages/0/4/Dialogue
+Move to Silver City?
 > END STRING
 
 > BEGIN STRING
 常夜の街に移動しますか？
-> CONTEXT: Map272/events/214/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map272/events/214/pages/0/4/Dialogue
+Move to Night City?
 > END STRING
 
 > BEGIN STRING
 "裏レベル換金屋"
-> CONTEXT: Map272/events/216/pages/0/12/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map272/events/216/pages/0/12/InlineScript/1:22
 "Level-Money Exchanger"
 > END STRING
 
@@ -612,7 +612,7 @@ Move into Lauratt House?
 \\name[\\v[2]]\\_
 俺は裏レベル換金屋だ。
 金さえもらえれば、お前のレベルを一つ上げてやるぜ。
-> CONTEXT: Map272/events/216/pages/0/18/Dialogue < UNTRANSLATED
+> CONTEXT: Map272/events/216/pages/0/18/Dialogue
 \\name[\\v[2]]\\_
 I'm a secret level money exchanger.
 If you give me money, I'll raise your level by one.
@@ -622,7 +622,7 @@ If you give me money, I'll raise your level by one.
 \\name[\\v[2]]\\_
 ･･･あー、金がなければレベルは上げられんな。
 金貯めてからまた来いよ。
-> CONTEXT: Map272/events/216/pages/0/27/Dialogue < UNTRANSLATED
+> CONTEXT: Map272/events/216/pages/0/27/Dialogue
 \\name[\\v[2]]\\_
 ...Ah, you can't level up without money.
 Come back after you save up some money.
@@ -632,7 +632,7 @@ Come back after you save up some money.
 \\name[\\v[2]]\\_
 次のお前のレベルは\\v[3]だな。これなら代金は\\v[4]Lps.だ。
 １レベル上げるかい？
-> CONTEXT: Map272/events/216/pages/0/33/Dialogue < UNTRANSLATED
+> CONTEXT: Map272/events/216/pages/0/33/Dialogue
 \\name[\\v[2]]\\_
 Your next level is \\v[3]. The cost is \\v[4]Lps.
 Would you like to go up 1 level?
@@ -641,7 +641,7 @@ Would you like to go up 1 level?
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そらよ。レベルを上げたぜ。それじゃあ代金をいただくぜ。
-> CONTEXT: Map272/events/216/pages/0/46/Dialogue < UNTRANSLATED
+> CONTEXT: Map272/events/216/pages/0/46/Dialogue
 \\name[\\v[2]]\\_
 There you go. Your level has increased. 
 Now it's time to pay.
@@ -667,43 +667,50 @@ If you have anything good, I'll trade items for you.
 \\name[\\v[2]]\\_
 ひとり・・・一つまで・・・
 使ったら・・・また来て
-> CONTEXT: Map272/events/219/pages/0/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map272/events/219/pages/0/29/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map272/events/219/pages/0/3/Dialogue
+> CONTEXT: Map272/events/219/pages/0/29/Dialogue
+\\name[\\v[2]]\\_
+One person...
+When you use it...
+Come again
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 どんな場所でもぐっすり元気なテント・・・
 ほしい・・・？
-> CONTEXT: Map272/events/219/pages/0/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map272/events/219/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+A tent that lets you sleep soundly and comfortably anywhere...
+Do you want one...?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 一つ300Lps.・・・
-> CONTEXT: Map272/events/219/pages/0/11/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map272/events/219/pages/0/11/Dialogue
+\\name[\\v[2]]\\_
+300Lps each...
 > END STRING
 
 > BEGIN STRING
 テントを買いますか？
-> CONTEXT: Map272/events/219/pages/0/13/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map272/events/219/pages/0/13/Dialogue
+Buy a tent?
 > END STRING
 
 > BEGIN STRING
 足りない・・・
-> CONTEXT: Map272/events/219/pages/0/17/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map272/events/219/pages/0/17/Dialogue
+Not enough...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そう・・・なんだ・・・
-> CONTEXT: Map272/events/219/pages/0/34/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map272/events/219/pages/0/34/Dialogue
+\\name[\\v[2]]\\_
+I see... that's it...
 > END STRING
 
 > BEGIN STRING

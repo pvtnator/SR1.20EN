@@ -1,25 +1,29 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "シスター？"
-> CONTEXT: Map666/events/7/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map655/events/6/pages/0/32/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map666/events/7/pages/0/0/InlineScript/1:22
+> CONTEXT: Map655/events/6/pages/0/32/InlineScript/1:22
+"Sister?"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あら･･･初めてこの街に来られた方ですね。
 ようこそ、銀色の都市へ。
-> CONTEXT: Map666/events/7/pages/0/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/7/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+Oh... this is your first time in town.
+Welcome to Silver City.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 はい、私がこの街の領主を務めております。
 皆からは単に「シスター」と呼ばれておりますが。
-> CONTEXT: Map666/events/7/pages/0/5/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/7/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+Yes, I am the lord of this city.
+Everyone just calls me "Sister."
 > END STRING
 
 > BEGIN STRING
@@ -27,32 +31,39 @@
 ･･･\\|雰囲気が違う、ですか？\\|
 くすっ、おかしなことを仰いますね。
 お会いするのは初めてのはずですよ？
-> CONTEXT: Map666/events/7/pages/0/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/7/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+...\\|I seem different? \\|
+Haha, that's a strange thing to say.
+This is the first time we've met, right?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 悩めるものを救うのが我々の責務です。
 何かあればご相談くださいませ。
-> CONTEXT: Map666/events/7/pages/0/13/Dialogue < UNTRANSLATED
-> CONTEXT: Map666/events/7/pages/0/21/Dialogue < UNTRANSLATED
-> CONTEXT: Map666/events/7/pages/2/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/7/pages/0/13/Dialogue
+> CONTEXT: Map666/events/7/pages/0/21/Dialogue
+> CONTEXT: Map666/events/7/pages/2/1/Dialogue
+\\name[\\v[2]]\\_
+It is our responsibility to help those in trouble.
+Please feel free to contact us if you have any questions.
 > END STRING
 
 > BEGIN STRING
 "シスターキャスト"
-> CONTEXT: Map666/events/7/pages/2/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map666/events/7/pages/2/0/InlineScript/1:22
+"Sister-cast"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 夜の教会も雰囲気があって良いですね。\\|
 こんな所に連れ込んで、一体どうしたというのですか？
-> CONTEXT: Map666/events/8/pages/1/55/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/8/pages/1/55/Dialogue
+\\name[\\v[2]]\\_
+The church at night has a nice atmosphere. \\|
+What on earth did you do to bring me to a place like this?
 > END STRING
 
 > BEGIN STRING
@@ -60,86 +71,107 @@
 くすっ･･･\\H\\|
 黙っていては分かりませんよ？\\|
 ほら、どうされたいのか言ってみてください。
-> CONTEXT: Map666/events/8/pages/1/59/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/8/pages/1/59/Dialogue
+\\name[\\v[2]]\\_
+Haha...\\H\\|
+I won't understand if you keep quiet. \\|
+Come on, tell me what you want me to do to you.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ほら･･･\\H
-> CONTEXT: Map666/events/8/pages/1/63/Dialogue < UNTRANSLATED
-> CONTEXT: Map666/events/8/pages/1/79/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/8/pages/1/63/Dialogue
+> CONTEXT: Map666/events/8/pages/1/79/Dialogue
+\\name[\\v[2]]\\_
+You know...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ほら･･･\\|ほら･･･\\H
-> CONTEXT: Map666/events/8/pages/1/72/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/8/pages/1/72/Dialogue
+\\name[\\v[2]]\\_
+You see...\\|Hehe...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ。言わなくてもわかってます。
 大丈夫ですよ･･･ここなら誰も来ませんから。
-> CONTEXT: Map666/events/8/pages/1/90/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/8/pages/1/90/Dialogue
+\\name[\\v[2]]\\_
+Hehe. I know that without you having to say it.
+It's okay...no one will come here.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 どんな恥ずかしい姿で、どんな痴態を晒してしまっても
 誰にも知られることはありません･･･\\H
-> CONTEXT: Map666/events/8/pages/1/98/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/8/pages/1/98/Dialogue
+\\name[\\v[2]]\\_
+No matter how embarrassing your appearance 
+or how lewd your behavior may be,
+no one will know...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 それに、もし誰かに覗かれてたとしても
 そのほうがより興奮するんじゃないですか･･･？
-> CONTEXT: Map666/events/8/pages/1/121/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/8/pages/1/121/Dialogue
+\\name[\\v[2]]\\_
+Besides, if someone was watching you,
+wouldn't that be even more exciting...?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 くすくす･･･\\H\\|
 すっかりその気になっているようですね？
-> CONTEXT: Map666/events/8/pages/1/130/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/8/pages/1/130/Dialogue
+\\name[\\v[2]]\\_
+Ksks...\\H\\|
+It seems like you're totally into it?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 それでは･･･\\|秘密の時間を共にしましょうか\\H
-> CONTEXT: Map666/events/8/pages/1/133/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/8/pages/1/133/Dialogue
+\\name[\\v[2]]\\_
+Then...\\|Shall we spend some secret time together?\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 はぁ･･･\\|はぁ･･･\\H\\|
 最高･･･\\|でした･･･\\H
-> CONTEXT: Map666/events/8/pages/1/163/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/8/pages/1/163/Dialogue
+\\name[\\v[2]]\\_
+Ahh...\\|Ahh...\\H\\|
+That was the best...\\|\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ･･･\\H　ごちそうさまでした\\H\\|
 \\v[3]も愉しんで頂けましたか？
-> CONTEXT: Map666/events/8/pages/1/180/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/8/pages/1/180/Dialogue
+\\name[\\v[2]]\\_
+Hehe...\\H Thank you for the meal\\H\\|
+Did you enjoy it too \\v[3]?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 \\v[3]との愛の結晶･･･\\|
 大切に育てますわ･･････\\H
-> CONTEXT: Map666/events/8/pages/1/201/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/8/pages/1/201/Dialogue
+\\name[\\v[2]]\\_
+\\v[3] and I are the fruit of our love...\\|
+I will treasure it and raise it...\\H
 > END STRING
 
 > BEGIN STRING
@@ -147,152 +179,183 @@
 この先は懺悔室よ。
 誰が相手してくれてるのかは知らないけど、
 親身になって聞いてくれるわ。
-> CONTEXT: Map666/events/12/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/12/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Up ahead is the confessional.
+I don't know who's there,
+but they'll be happy to listen to you.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 君も礼拝に来たのかい？
 人が多いから気を付けてね。
-> CONTEXT: Map666/events/13/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/13/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Are you here for the service too?
+There will be a lot of people so be careful.
 > END STRING
 
 > BEGIN STRING
 熱心に祈りを捧げている･･･。
-> CONTEXT: Map666/events/14/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map666/events/21/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map666/events/28/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/14/pages/0/0/Dialogue
+> CONTEXT: Map666/events/21/pages/0/0/Dialogue
+> CONTEXT: Map666/events/28/pages/0/0/Dialogue
+Praying fervently...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 俺みたいな犬畜生にも神はいるんだろうか･･･。
-> CONTEXT: Map666/events/16/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/16/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I wonder if there is a god for a bastard like me...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 領主様がシスターっていうのは変だけど･･･
 清廉潔白には違いないから、人望はとてもあるのよ。
-> CONTEXT: Map666/events/17/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/17/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+It's strange for a lord to be a sister, but...
+She is certainly pure and upright, so she is very popular.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 いあいあ･･･くとぅる･･････
 いや、これは違うか･･････。
-> CONTEXT: Map666/events/18/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/18/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Nooooo... it's tiring...
+No, that's not it...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 シスターさん、今日も美しい･･･。
-> CONTEXT: Map666/events/19/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/19/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Sister, you're beautiful today too...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 はっ、いかんいかん･･･
 煩悩に負けてどうする、俺･･･。
-> CONTEXT: Map666/events/19/pages/0/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/19/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+Ah, no, no...
+What will I do if I give in to my worldly desires...?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 奴隷にも神様はいるもん･･･。
 ･･･絶対にいるもん。
-> CONTEXT: Map666/events/20/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/20/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+There are gods among slaves too...
+...there absolutely is.
 > END STRING
 
 > BEGIN STRING
 静かにオルガンを弾いている･･･。
-> CONTEXT: Map666/events/22/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/22/pages/0/0/Dialogue
+The organ is playing quietly.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あのオルガンを弾いてるの、夢魔だよな･･･。
 夢魔のシスターなんているのか･･･。
-> CONTEXT: Map666/events/23/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/23/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+The one playing the organ is a succubus...
+Are there really succubus sisters...?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 だがそれよりも、あの豊満な胸が
 気になって仕方がない･･･。
-> CONTEXT: Map666/events/23/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/23/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+But more than that, 
+I can't help but be curious about her ample breasts...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今日も明日も元気でいられますように･･･。
-> CONTEXT: Map666/events/24/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/24/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I hope you are healthy today and tomorrow.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今日も人が多いわねえ。
 それだけ求心力があるってことなのかしら。
-> CONTEXT: Map666/events/25/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/25/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+There are a lot of people here today.
+Maybe that's because it has a strong following.
 > END STRING
 
 > BEGIN STRING
 "鳥"
-> CONTEXT: Map666/events/26/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map666/events/26/pages/0/0/InlineScript/1:22
+"Bird"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 鳥頭でも礼拝にはこれるんやで！
-> CONTEXT: Map666/events/26/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/26/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Even a bird brain can come to worship!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 毎日礼拝に来とるんじゃが、
 そこの階段を上がるのがちと辛いかのう･･･。
-> CONTEXT: Map666/events/27/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/27/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I come to worship every day,
+but it's a bit hard to climb those stairs...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 大仕事するときは礼拝に来てる。
 事故が起きないように祈りを捧げるのさ。
-> CONTEXT: Map666/events/29/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/29/pages/0/0/Dialogue
+\\name[\\v[2]]\\_
+I come to worship when I have to do a big job.
+I pray so that no accidents will occur.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 えっ、礼拝しないのかって･･･？
 ･･･…堕天した身としては後ろめたいの･･･。
-> CONTEXT: Map666/events/30/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/30/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+What, you're not going to worship?
+...As a fallen angel, I feel guilty...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 研究室に籠ってばかりではいけないからね。
 気分転換に礼拝に来てみたんだ。
-> CONTEXT: Map666/events/31/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/31/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I can't just stay cooped up in the lab all the time.
+I came to worship to change my mood.
 > END STRING
 
 > BEGIN STRING
@@ -300,32 +363,41 @@
 ここの空気は密教会とはまた違うね。
 こんなにも夢魔がいるというのに、
 澄み切った、不思議な感じがするよ。
-> CONTEXT: Map666/events/31/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/31/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+The atmosphere here is different from that of the Secret Church.
+Even though there are so many succubi,
+it feels serene and mysterious.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今日もシスサキュさんのおっぱいを見てきたぜ！
 いやー眼福眼福･･･！
-> CONTEXT: Map666/events/32/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/32/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Today I got to see Sis Succubus's boobs again!
+Wow, what a feast for the eyes...!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 このたびは、ご協力いただき
 ありがとうございました。
-> CONTEXT: Map666/events/39/pages/0/113/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/39/pages/0/113/Dialogue
+\\name[\\v[2]]\\_
+Thank you very much for your cooperation.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 おかげで、夢魔を縛っていた結界の力は消え、
 私たちも以前の生活に戻れるようになりました。
-> CONTEXT: Map666/events/39/pages/0/116/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/39/pages/0/116/Dialogue
+\\name[\\v[2]]\\_
+Thanks to this, the barrier that had been binding 
+the succubi disappeared,
+and we were able to return to our previous lives.
 > END STRING
 
 > BEGIN STRING
@@ -333,21 +405,26 @@
 ですが、これまでの街を気に入っていた者や
 今回の変化に対応しきれていない者もいて、
 すぐに元通りというわけにはいかないようです。
-> CONTEXT: Map666/events/39/pages/0/119/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/39/pages/0/119/Dialogue
+\\name[\\v[2]]\\_
+However, there are people who liked the town as it was,
+and some who are unable to adapt to the changes,
+so it seems things won't go back to normal anytime soon.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ですが、時間が経てば街は落ち着くことでしょう。
-> CONTEXT: Map666/events/39/pages/0/123/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/39/pages/0/123/Dialogue
+\\name[\\v[2]]\\_
+But things will calm down over time.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 改めて、この街を取り戻していただき
 ありがとうございます。
-> CONTEXT: Map666/events/39/pages/0/125/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map666/events/39/pages/0/125/Dialogue
+\\name[\\v[2]]\\_
+Once again, thank you for taking back this city.
 > END STRING
