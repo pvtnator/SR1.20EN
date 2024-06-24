@@ -7,7 +7,7 @@ def replace_strings_in_files(folder_path, mod_path, replace_dict):
             with open(os.path.join(folder_path, filename), 'rb') as file:
                 content = file.read()
 
-            utf8_parts = re.findall(rb'\(\".{3,20}\"\)', content)
+            utf8_parts = re.findall(rb'\(\".{3,30}\"\)', content)
             replaced = False
 
             for part in utf8_parts:
@@ -18,6 +18,11 @@ def replace_strings_in_files(folder_path, mod_path, replace_dict):
                     print(filename+replacement.decode())
                     replaced = True
                     content = content.replace(part, replacement)
+            utf8_parts = re.findall(rb'.\$game_actors\[101\]\.have_ability\?\(".*"\) {0,}', content)
+            for part in utf8_parts:
+                replacement = part[1:]
+                replacement = bytes(chr(len(part)+4),'utf-8')+replacement
+                content = content.replace(part, replacement)
 
             newContent = content.replace("ギルゴーン".encode(), "Gilgorn".encode())
             newContent = newContent.replace("ロウラット".encode(), "Lauratt".encode())
@@ -38,7 +43,7 @@ if __name__ == "__main__":
     mod_path = os.path.join(parent_dir, folder_name+"\\Mod\\Mod_Data")
     #mod_path = folder_path
     
-    replacements = {"(\"ネイジュレンジ\")": "(\"Neijurange\")"}
+    replacements = {}
 
     lines = []
     with open("mod_scripts.txt", 'r', encoding='utf-8') as trans_file:
