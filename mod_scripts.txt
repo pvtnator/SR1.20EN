@@ -5874,7 +5874,7 @@ Trained hole
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: 修正用.rb
-
+Helm Match
 > END STRING
 
 > BEGIN STRING
@@ -6185,7 +6185,7 @@ Deep Insert
 > CONTEXT: O_MOD_RPG_Skilltext.rb
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Foreign Insert
 > END STRING
 
 > BEGIN STRING
@@ -6193,7 +6193,7 @@ Deep Insert
 > CONTEXT: O_MOD_Game_Actor_戦闘中スキル.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
-
+Beast Soul
 > END STRING
 
 > BEGIN STRING
@@ -6201,7 +6201,7 @@ Deep Insert
 > CONTEXT: O_MOD_Game_Actor_戦闘中スキル.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
-
+Counterattack Knowledge
 > END STRING
 
 > BEGIN STRING
@@ -11611,7 +11611,7 @@ Breast slave
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-♂ slave
+♂slave
 > END STRING
 
 > BEGIN STRING
@@ -11619,7 +11619,7 @@ Breast slave
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-♀ slave
+♀slave
 > END STRING
 
 > BEGIN STRING
@@ -12709,7 +12709,7 @@ Not for use by women!
 > BEGIN STRING
 奴隷状態では使用できない！
 > CONTEXT: O_MOD_Game_Battler_3.rb
-
+Cannot be used in slavery!
 > END STRING
 
 > BEGIN STRING
@@ -13574,7 +13574,7 @@ Sadist
 もちもちボディ
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Soft Squishy Body
 > END STRING
 
 > BEGIN STRING
@@ -26340,7 +26340,7 @@ This succubus has taken your virginity.
 > BEGIN STRING
 防御力が高い相手に、与える快感が減りにくい。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Pleasure given is less likely to decrease due to defensive abilities.
 > END STRING
 
 > BEGIN STRING
@@ -26596,13 +26596,13 @@ Increases recovery amount when using items.
 メディカルサポーター
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+Medical Supporter
 > END STRING
 
 > BEGIN STRING
 控えに居る時に、控えに戻った味方の状態異常を回復する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+When on the bench, cure status ailments of allies who return to the bench.
 > END STRING
 
 > BEGIN STRING
@@ -26632,7 +26632,7 @@ The power of Kiss Marking is enhanced.
 > BEGIN STRING
 沈着状態で受ける快感が更に減少する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+The pleasure felt in a calm state is further diminished.
 > END STRING
 
 > BEGIN STRING
@@ -29538,7 +29538,7 @@ shook hips intently
 > BEGIN STRING
 、\n\m密着しながら優しく腰を振った！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ gently shook hips \n​m​while sticking close!
 > END STRING
 
 > BEGIN STRING
@@ -30876,7 +30876,7 @@ nipples
 > BEGIN STRING
 切なげに\n自分の#{myself.bustsize}を手で撫で回しはじめた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ began to \nfondle her #{myself.bustsize} with her hands!
 > END STRING
 
 > BEGIN STRING
@@ -30900,7 +30900,7 @@ nipples
 > BEGIN STRING
 堪えきれず\n自らの胸とアソコに手を伸ばし弄りはじめた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ reaches out to her breasts and vagina \nand begins to play with them, unable to resist!
 > END STRING
 
 > BEGIN STRING
@@ -30954,7 +30954,7 @@ nipples
 > BEGIN STRING
 切なげに\n\mアソコに指を抜き挿ししはじめた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ began to insert her fingers in and out \n​m​of her vagina with a sad look on her face!
 > END STRING
 
 > BEGIN STRING
@@ -32760,7 +32760,7 @@ The dream world has created a past obsession \nfrom the memories of #{$game_acto
 > BEGIN STRING
 奴隷を呼び出した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+Slave was called!
 > END STRING
 
 > BEGIN STRING
@@ -33576,7 +33576,7 @@ sucked on \n​m​#{targetname}'s #{target.bustsize} through a gap in clothes!
 > BEGIN STRING
 #{targetname}の乳首に\n\m強引に吸い付いてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ forcefully sucked on \n​m​#{targetname}'s nipples!
 > END STRING
 
 > BEGIN STRING
@@ -33853,25 +33853,25 @@ in turning motion
 > BEGIN STRING
 性の記憶を忘れ去った！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ forgot sexual memories!
 > END STRING
 
 > BEGIN STRING
 性の記憶を思い出した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ remembered sexual memories!
 > END STRING
 
 > BEGIN STRING
 \n\m#{targetname}に奴隷契約の呪文を唱えた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​cast a slave pact spell on #{targetname}!
 > END STRING
 
 > BEGIN STRING
 監獄の結界を張り巡らせた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ set up the prison barrier!
 > END STRING
 
 > BEGIN STRING
@@ -33961,13 +33961,13 @@ in turning motion
 > BEGIN STRING
 射精する体勢に入った！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ is in position to ejaculate!
 > END STRING
 
 > BEGIN STRING
 何とか射精をこらえた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ somehow managed to hold back from ejaculating!
 > END STRING
 
 > BEGIN STRING
@@ -34141,13 +34141,13 @@ in turning motion
 > BEGIN STRING
 \n\m#{targetname}たちを誘惑した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​seduced #{targetname} and the others!
 > END STRING
 
 > BEGIN STRING
 #{targetname}を鞭で攻め立てた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ attacked #{targetname} with a whip!
 > END STRING
 
 > BEGIN STRING
@@ -34183,7 +34183,7 @@ in turning motion
 > BEGIN STRING
 \n\m#{targetname}の首筋に口づけし、#{brk4}そっと牙を立てた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ kissed #{targetname}'s neck \n​m​and #{brk4}softly bared fangs!
 > END STRING
 
 > BEGIN STRING
@@ -34789,7 +34789,7 @@ in turning motion
 > BEGIN STRING
 手を伸ばしてペニスを指で愛撫してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ reached out and caressed the penis with her fingers!
 > END STRING
 
 > BEGIN STRING
@@ -34819,7 +34819,7 @@ in turning motion
 > BEGIN STRING
 #{targetname}を尻尾で拘束しつつ、\n\m手を伸ばしてペニスを指で愛撫してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ reached out and caressed \n​m​#{targetname}'s penis with her fingers while restraining!
 > END STRING
 
 > BEGIN STRING
@@ -35065,7 +35065,7 @@ in turning motion
 > BEGIN STRING
 密着したまま、\n\m#{targetname}にそっとキスをしてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ gave #{targetname} \n​m​a soft kiss while close!
 > END STRING
 
 > BEGIN STRING
@@ -35113,13 +35113,13 @@ in turning motion
 > BEGIN STRING
 密着したままアソコを押し付け、\n\m#{targetname}のペニスをゆっくり擦ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pressed her genitals against #{targetname} \n​m​and slowly rubbed the penis while close!
 > END STRING
 
 > BEGIN STRING
 密着したままアソコを押し付け、\n\m#{targetname}のペニスをしごいてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pressed her genitals against #{targetname} \n​m​and stroked the penis while close!
 > END STRING
 
 > BEGIN STRING
@@ -35893,13 +35893,13 @@ two overwhelming
 > BEGIN STRING
 #{targetname}の肌に、\n\m#{tail}の先端を突き刺した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ stuck the tip of #{tail}\n​m​into #{targetname}'s skin!
 > END STRING
 
 > BEGIN STRING
 \n\m#{targetname}の身体に怪しげな液体が注入される！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​Mysterious liquid has been injected into #{targetname}'s body!
 > END STRING
 
 > BEGIN STRING
@@ -36145,7 +36145,7 @@ while looking up
 > BEGIN STRING
 、\n\m#{targetname}に霜を吹きかけた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+,\n​m​sprayed frost on #{targetname}!
 > END STRING
 
 > BEGIN STRING
@@ -38146,7 +38146,7 @@ as if dancing
 > BEGIN STRING
 \n\m#{tec}、馬乗りでペニスを弄んでいる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-\n​m​is riding on top and playing with the penis#{tec}!
+\n​m​is riding on top and playing with the penis #{tec}!
 > END STRING
 
 > BEGIN STRING
@@ -38242,19 +38242,19 @@ suddenly hugged tightly!
 > BEGIN STRING
 #{tec}、\n\m密着したまま#{act}
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ #{act} #{tec},\n​m​Staying in close contact
 > END STRING
 
 > BEGIN STRING
 #{tec}、\n\m密着したまま#{targetname}の乳首を弄んできた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ started playing with \n​m​#{targetname}'s nipples while close #{tec}!
 > END STRING
 
 > BEGIN STRING
 #{tec}、\n\m密着したまま#{targetname}の脇腹をくすぐってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ tickled #{targetname}'s sides \n​m​while close #{tec}!
 > END STRING
 
 > BEGIN STRING
@@ -42309,9 +42309,9 @@ VPブレイク
 > END STRING
 
 > BEGIN STRING
-のＥＰが 
+"のＥＰが "
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+"'s EP "
 > END STRING
 
 > BEGIN STRING
@@ -42439,7 +42439,7 @@ Provocative gestures stimulate opponents!
 #{battler.name}は気持ちが昂ぶった！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{battler.name} is excited! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -46551,7 +46551,7 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}の菊座に、\n#{active.name}が吸い付いてきた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} has been attached \nto the anus of #{target.name}!
 > END STRING
 
 > BEGIN STRING
@@ -46659,13 +46659,13 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}の#{target.bustsize}に、\n#{active.name}の唇が吸い付いてきた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name}'s lips are now clinging \nto #{target.name}'s #{target.bustsize}!
 > END STRING
 
 > BEGIN STRING
 #{target.name}の乳首に、\n#{active.name}の唇が吸い付いてきた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name}'s lips are \nsucking on #{target.name}'s nipple!
 > END STRING
 
 > BEGIN STRING
@@ -49767,33 +49767,33 @@ Home
 > BEGIN STRING
 #{$game_actors[101].name}邸
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+#{$game_actors[101].name} Residence
 > END STRING
 
 > BEGIN STRING
 銀色の都市
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: P_H_MOD_Game_Map.rb
-
+Silver City
 > END STRING
 
 > BEGIN STRING
 常夜の街
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: P_H_MOD_Game_Map.rb
-
+City of Everlasting Night
 > END STRING
 
 > BEGIN STRING
 シークレットラボ
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Secret Lab
 > END STRING
 
 > BEGIN STRING
 大天使の城
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Archangel Castle
 > END STRING
 
 > BEGIN STRING
@@ -50939,13 +50939,13 @@ slender body
 > BEGIN STRING
 #{active.name}は器用さを 
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+#{active.name} had dexterity
 > END STRING
 
 > BEGIN STRING
 #{target.name}は器用さを 
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+#{target.name} had dexterity
 > END STRING
 
 > BEGIN STRING
@@ -53648,7 +53648,7 @@ hugged #{t_actor}'s face with\n#{$msg.t_enemy.bustsize} right after climax
 > BEGIN STRING
 絶頂したばかりの#{t_actor}の胸に、\n更に艶かしく吸い付いてきた！
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
-
+ clung even more seductively to the chest \nof #{t_actor} who had just climaxed!
 > END STRING
 
 > BEGIN STRING
@@ -59202,7 +59202,7 @@ The disadvantage got #{battler.name} fired up!
 > BEGIN STRING
 #{battler.name}から抵抗の意思が失われていく……！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{battler.name} is losing the will to resist...!
 > END STRING
 
 > BEGIN STRING
@@ -70488,13 +70488,13 @@ The magic circle beneath #{myname}'s feet disappeared!
 > BEGIN STRING
 #{myname}は服従してしまった！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} has submitted!
 > END STRING
 
 > BEGIN STRING
 #{myname}に奴隷の証が刻み込まれた！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} has been branded with the mark of slavery!
 > END STRING
 
 > BEGIN STRING
