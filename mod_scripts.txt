@@ -39756,7 +39756,7 @@ up and down
 > BEGIN STRING
 #{emotion}\n\m#{targetname}を優しく愛撫し、興奮を高めた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ #{emotion},\n​m​caressed #{targetname} gently, increasing excitement!
 > END STRING
 
 > BEGIN STRING
@@ -50710,13 +50710,13 @@ crotch rock
 > BEGIN STRING
 腰巻
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+loincloth
 > END STRING
 
 > BEGIN STRING
 薄布？
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+thin fabric?
 > END STRING
 
 > BEGIN STRING
