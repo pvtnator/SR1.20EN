@@ -15,7 +15,7 @@ def replace_strings_in_files(folder_path, mod_path, replace_dict):
                 if replacement:
                     diff = len(part)-len(replace_dict[part])
                     replacement += " ".encode('utf-8')*diff
-                    print(filename)
+                    print(filename+replacement.decode())
                     replaced = True
                     content = content.replace(part, replacement)
 

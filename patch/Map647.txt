@@ -4,8 +4,11 @@
 やあ、少年。
 図書館へようこそ。
 わからないことがあったら、何でも聞いてくれたまえ。
-> CONTEXT: Map647/events/3/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hello, boy.
+Welcome to the library.
+If you have any questions, feel free to ask me anything.
 > END STRING
 
 > BEGIN STRING
@@ -13,8 +16,11 @@
 やあ、少年。
 図書館へようこそ。
 この間の続きでもしに来たかな？
-> CONTEXT: Map647/events/3/pages/1/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+Hello, boy.
+Welcome to the library.
+Are you here to continue from the last time?
 > END STRING
 
 > BEGIN STRING
@@ -22,16 +28,22 @@
 嬉しいお誘いだが、日中は仕事があるのでね。
 また夜に来てくれたまえ。
 君なら歓迎させて貰うよ、ふふ\\H
-> CONTEXT: Map647/events/3/pages/1/5/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/1/5/Dialogue
+\\name[\\v[2]]\\_
+That's a nice invitation, but I have work during the day.
+Come back at night.
+You'll be welcome, hehe\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そういえば、今はシスター様の別荘を借りているそうだね？
 私も今度、遊びに行かせて貰おうかな。
-> CONTEXT: Map647/events/3/pages/2/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/2/2/Dialogue
+\\name[\\v[2]]\\_
+By the way, I hear you're currently renting 
+the Sister's villa, right?
+Maybe I should go visit sometime.
 > END STRING
 
 > BEGIN STRING
@@ -39,71 +51,83 @@
 やあ、少年。
 図書館へようこそ。
 領主が変わったとはいえ、ここは相変わらずさ。
-> CONTEXT: Map647/events/3/pages/2/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/2/8/Dialogue
+\\name[\\v[2]]\\_
+Hello, boy. Welcome to the library.
+Even though the lord has changed, 
+this place is still the same.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ああ、日中は仕事があるのでね。
 私の講義を受けたいのであれば、また夜に来てくれたまえ。
-> CONTEXT: Map647/events/3/pages/2/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/2/12/Dialogue
+\\name[\\v[2]]\\_
+Oh, I have work during the day.
+If you want to take my class, come back in the evening.
 > END STRING
 
 > BEGIN STRING
 ヘカテーと契約しますか？
-> CONTEXT: Map647/events/3/pages/2/15/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/2/15/Dialogue
+Make a contract with Hecate?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 おや、私と契約したいのかい？
 ははは、嬉しいことを言ってくれるね。
-> CONTEXT: Map647/events/3/pages/2/24/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/2/24/Dialogue
+\\name[\\v[2]]\\_
+Oh, you want to make a contract with me?
+Haha, that's nice to hear.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 それでは、久々に外へ出るとしよう。
 少年よ、私と共に新たな知識を探求しようじゃないか\\H
-> CONTEXT: Map647/events/3/pages/2/27/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/2/27/Dialogue
+\\name[\\v[2]]\\_
+Well then, it's time to go outside for the first time in a while.
+Boy, come and explore new knowledge with me.\\H
 > END STRING
 
 > BEGIN STRING
 ヘカテーと契約を交わした！\\|\\|
-> CONTEXT: Map647/events/3/pages/2/31/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/2/31/Dialogue
+Made a contract with Hecate! \\|\\|
 > END STRING
 
 > BEGIN STRING
 ヘカテーは妊娠しているようだ･･･。
-> CONTEXT: Map647/events/3/pages/2/44/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/2/44/Dialogue
+Hecate appears to be pregnant...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 君なら歓迎するよ。
 君は色々と、教え甲斐があるからね\\H
-> CONTEXT: Map647/events/3/pages/2/79/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/2/79/Dialogue
+\\name[\\v[2]]\\_
+You'd be welcome.
+You have a lot to teach me, so it's worth it\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 やあ、本の方はどうだったかな？
-> CONTEXT: Map647/events/3/pages/3/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/3/2/Dialogue
+\\name[\\v[2]]\\_
+Hey, how was the book?
 > END STRING
 
 > BEGIN STRING
 預かっていた本を渡した
-> CONTEXT: Map647/events/3/pages/3/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/3/4/Dialogue
+Handed over the book
 > END STRING
 
 > BEGIN STRING
@@ -111,24 +135,31 @@
 ふむ、ちゃんと受け取ったよ。
 先程教会図書館の職員が連絡をしてきてね。
 すごく謝っていたよ、まぁ過ちは誰にだってあるものだ。
-> CONTEXT: Map647/events/3/pages/3/5/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/3/5/Dialogue
+\\name[\\v[2]]\\_
+Hmm, I received it.
+The church library staff contacted me just now.
+They were profusely apologetic, but I guess we all make mistakes.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 いや助かったよ。
 少年には何かお礼をしないとね……
-> CONTEXT: Map647/events/3/pages/3/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/3/9/Dialogue
+\\name[\\v[2]]\\_
+Well, you saved me.
+I need to thank you somehow, boy...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そうだ、少年にはこれをあげよう。
 少年の今後の旅の役に立つはずだ。
-> CONTEXT: Map647/events/3/pages/3/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/3/12/Dialogue
+\\name[\\v[2]]\\_
+Yes, I'll give this to you, boy.
+It will be useful for on your journey.
 > END STRING
 
 > BEGIN STRING
@@ -136,8 +167,11 @@
 そうだな……
 少年には新しく頼み事をしたい。
 これは好きな時にで構わない。
-> CONTEXT: Map647/events/3/pages/3/23/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/3/23/Dialogue
+\\name[\\v[2]]\\_
+That's right...
+I'd like to ask the you for a new favor.
+You can do this whenever you want.
 > END STRING
 
 > BEGIN STRING
@@ -145,8 +179,11 @@
 夢世界の各地で拾える素材を
 私のところに持ってきてくれないだろうか。
 私は図書館の館長をしているが、これでも研究者でね。
-> CONTEXT: Map647/events/3/pages/3/27/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/3/27/Dialogue
+\\name[\\v[2]]\\_
+Could you bring me some materials that you can find 
+in various places in the dream world?
+I'm the director of the library, but I'm also a researcher.
 > END STRING
 
 > BEGIN STRING
@@ -154,8 +191,11 @@
 最近研究が佳境を迎えているのだが
 その研究に必要な研究材料が不足しているんだ。
 そこで少年にはその研究材料を持ってきてもらいたい。
-> CONTEXT: Map647/events/3/pages/3/31/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/3/31/Dialogue
+\\name[\\v[2]]\\_
+Recently, my research has reached a climax, 
+but I am running low on the materials I need for it.
+So I would like you to bring me those materials.
 > END STRING
 
 > BEGIN STRING
@@ -163,24 +203,31 @@
 もちろんタダとは言わない、それに見合った物を渡そう。
 気が向いたら私のところに持ってきてくれ。
 それじゃあ、よろしく頼んだよ。
-> CONTEXT: Map647/events/3/pages/3/35/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/3/35/Dialogue
+\\name[\\v[2]]\\_
+Of course not for free, but I'll give you something worthwhile.
+If you feel like it, bring it to me.
+Well then, I look forward to working with you.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 やあ、確認の方はどうだい？
 できれば、早めに頼むよ。
-> CONTEXT: Map647/events/3/pages/3/44/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/3/44/Dialogue
+\\name[\\v[2]]\\_
+Hey, can you confirm?
+If possible, please do so soon.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 やあ、少年。
 君に折り入って頼みたいことがあるのだが……
-> CONTEXT: Map647/events/3/pages/3/49/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/3/49/Dialogue
+\\name[\\v[2]]\\_
+Hello, boy.
+I have a favor to ask of you...
 > END STRING
 
 > BEGIN STRING
@@ -188,8 +235,11 @@
 実は、最近この図書館と教会図書館は提携を結んでね。
 時折互いの所蔵してる本を交換する手筈になってるのだが
 何故か一向に届く気配がなくてね。
-> CONTEXT: Map647/events/3/pages/3/52/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/3/52/Dialogue
+\\name[\\v[2]]\\_
+This library and the church library have formed a partnership.
+We're supposed to exchange books that we have in our collections,
+but for some reason, there's been no sign of any arrivals.
 > END STRING
 
 > BEGIN STRING
@@ -197,8 +247,11 @@
 本来なら私が確認しに行くべきだが
 日中は仕事が忙しくてね……すまないが
 教会図書館に確認しに行ってもらえないだろうか？
-> CONTEXT: Map647/events/3/pages/3/56/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/3/56/Dialogue
+\\name[\\v[2]]\\_
+I should be the one to check it out, but
+I'm busy with work during the day... Sorry,
+but could you go and check it out at the church library?
 > END STRING
 
 > BEGIN STRING
@@ -206,14 +259,17 @@
 すまないね……
 図書館の職員に私の名前を出せば、わかるはずだ。
 そしてこれが本のリストだ、よろしく頼んだよ。
-> CONTEXT: Map647/events/3/pages/3/62/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/3/62/Dialogue
+\\name[\\v[2]]\\_
+Sorry...
+Just tell the librarian my name and they'll know.
+And here's the list of books, thanks for your help.
 > END STRING
 
 > BEGIN STRING
 本のリストを受け取った
-> CONTEXT: Map647/events/3/pages/3/66/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/3/66/Dialogue
+Received a list of books
 > END STRING
 
 > BEGIN STRING
@@ -221,32 +277,42 @@
 そうか……
 いや、不躾なお願いですまなかった。
 私たちの方で何とかするよ。
-> CONTEXT: Map647/events/3/pages/3/70/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/3/70/Dialogue
+\\name[\\v[2]]\\_
+I see...
+No, sorry for the rude request.
+We'll sort it out somehow.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 やあ、少年。
 もしかして、研究材料を持ってきてくれたのかな？
-> CONTEXT: Map647/events/3/pages/4/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/4/1/Dialogue
+\\name[\\v[2]]\\_
+Hello, boy.
+Maybe you brought some research materials?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 材料が集まったら、また持ってきてくれ。
 日中ならここにいるからね。
-> CONTEXT: Map647/events/3/pages/4/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/4/12/Dialogue
+\\name[\\v[2]]\\_
+When you've gathered all the materials, 
+come back and bring them to me.
+I'll be here during the day.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そうだ少年、少し話を聞いていかないか？
 なに、軽い世間話だ。
-> CONTEXT: Map647/events/3/pages/4/17/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/4/17/Dialogue
+\\name[\\v[2]]\\_
+Hey boy, why don't you come and talk to me for a bit?
+Just some casual conversation.
 > END STRING
 
 > BEGIN STRING
@@ -254,8 +320,11 @@
 メリュジーヌ様の屋敷にある夢魔が訪れているそうだ。
 見た人曰く不思議な魅力を醸し出してるらしい。
 一度その夢魔に話を聞いてみてはどうかな？
-> CONTEXT: Map647/events/3/pages/4/21/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/4/21/Dialogue
+\\name[\\v[2]]\\_
+It seems that a succubus is visiting Lady Melusine's mansion.
+People who have seen it say that it exudes a mysterious charm.
+Why not try talking to the succubus?
 > END STRING
 
 > BEGIN STRING
@@ -263,8 +332,11 @@
 大切な人に首輪をプレゼントされたデビルが
 特別な姿のデーモンになったという記録を最近見つけてね。
 特別な感情というのは不思議なものだと思わされたよ。
-> CONTEXT: Map647/events/3/pages/4/29/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/4/29/Dialogue
+\\name[\\v[2]]\\_
+I recently found a record of a devil who was given a 
+collar by a loved one and turned into a special demon.
+It made me realize that special emotions are mysterious.
 > END STRING
 
 > BEGIN STRING
@@ -272,8 +344,11 @@
 大切な人がいる見習い魔女が『偽典』の知識を応用して
 他の魔女とは異なる方向に力を伸ばしその人を支えた……
 古い魔女の日記の記述なのだが、興味深いものだね。
-> CONTEXT: Map647/events/3/pages/4/37/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/4/37/Dialogue
+\\name[\\v[2]]\\_
+An apprentice witch applied her knowledge of the Pseudo-Scriptures
+to develop powers different from others, and to support her loved one...
+It's an entry from an old witch's diary, but it's an interesting one.
 > END STRING
 
 > BEGIN STRING
@@ -281,8 +356,11 @@
 休暇を利用してゴブリンタウンへ行ったんだが
 盗賊の姿をした変わったゴブリンがいたんだ。
 とあるナイフを携帯していたらその姿になったそうだよ。
-> CONTEXT: Map647/events/3/pages/4/45/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/4/45/Dialogue
+\\name[\\v[2]]\\_
+I went to Goblin Town on vacation and there I met a 
+strange goblin dressed as a thief. Apparently she took on that form 
+when she was carrying a certain knife.
 > END STRING
 
 > BEGIN STRING
@@ -290,8 +368,11 @@
 少年は、異世界というものを信じているかな？
 最近、そこから来たと言われる杖が見つかってね。
 それを持ったゴブリンは不思議な姿になると報告があるぞ。
-> CONTEXT: Map647/events/3/pages/4/53/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/4/53/Dialogue
+\\name[\\v[2]]\\_
+Do you believe in another world, boy? Recently, a wand that is 
+said to have come from there was found. It has been reported that 
+any goblin who possesses it will take on a strange form.
 > END STRING
 
 > BEGIN STRING
@@ -299,8 +380,11 @@
 少年はこの町の鍛冶屋とも戦ったのだろう？
 彼女は元ホブゴブリンでね、素質を有していたから
 『ギャングチーフ』になれたらしい、彼女が言っていたぞ。
-> CONTEXT: Map647/events/3/pages/4/61/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/4/61/Dialogue
+\\name[\\v[2]]\\_
+I guess the boy fought the blacksmith in this town too?
+She was a former hobgoblin, and she said that she had the 
+talent to become a "gang chief."
 > END STRING
 
 > BEGIN STRING
@@ -308,8 +392,11 @@
 ゴブリンタウンの上にある洞窟で取れる水晶には
 鎮静効果があるらしい。　『ギャングチーフ』に渡したら
 まるで人が変わったかのように大人しくなっていたよ。
-> CONTEXT: Map647/events/3/pages/4/69/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/4/69/Dialogue
+\\name[\\v[2]]\\_
+The crystals found in the caves above Goblin Town appear to 
+have a calming effect. When I gave some to the Gang Chief,
+she became so calm, like a completely different person.
 > END STRING
 
 > BEGIN STRING
@@ -317,40 +404,51 @@
 ジャックフロストという夢魔が持つ『氷の杖』は
 非常に強い冷気の魔力が込められている。
 未熟な魔女が持ったら、その魔力を変質させてしまうかもね。
-> CONTEXT: Map647/events/3/pages/4/77/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/4/77/Dialogue
+\\name[\\v[2]]\\_
+The "Ice Staff" held by the succubus Jack Frost
+is imbued with extremely strong cold magic.
+If an inexperienced witch holds it, it may alter the magic.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ、少年といるとつい話しすぎてしまうな。
 また来てくれ、日中ならここにいるからね。
-> CONTEXT: Map647/events/3/pages/4/100/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/4/100/Dialogue
+\\name[\\v[2]]\\_
+Hehe, I always end up talking too much when I'm with you, boy.
+Come again, I'm here during the day.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 やあ、少年。
 夜の図書館へようこそ。
-> CONTEXT: Map647/events/4/pages/0/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/4/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+Hello, boy.
+Welcome to the Night Library.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 日の出ているときには教えられない知識を
 キミに伝授してあげよう。
-> CONTEXT: Map647/events/4/pages/0/5/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/4/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+I will teach you knowledge that 
+cannot be taught during daylight hours.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 さっそくだが、講義を始めるよ。
 しっかりついてきてくれたまえ。
-> CONTEXT: Map647/events/4/pages/0/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/4/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+Without further ado, I'm going to begin the lecture.
+Please follow along closely.
 > END STRING
 
 > BEGIN STRING
@@ -358,71 +456,86 @@
 ははは、どうやらキミには
 講義の必要は無かったようだな。
 だが、私には新しい発見があったよ。
-> CONTEXT: Map647/events/4/pages/0/40/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/4/pages/0/40/Dialogue
+\\name[\\v[2]]\\_
+Haha, it looks like you didn't need a lecture.
+But I did learn something new.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 もし講義に付き合ってくれる気があるなら
 また来てくれ。待っているよ。
-> CONTEXT: Map647/events/4/pages/0/44/Dialogue < UNTRANSLATED
-> CONTEXT: Map647/events/4/pages/1/46/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/4/pages/0/44/Dialogue
+> CONTEXT: Map647/events/4/pages/1/46/Dialogue
+\\name[\\v[2]]\\_
+If you're interested in attending a lecture,
+please come again. I'll be waiting for you.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 やあ、少年。
 また来てくれて嬉しいよ。
-> CONTEXT: Map647/events/4/pages/1/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/4/pages/1/2/Dialogue
+\\name[\\v[2]]\\_
+Hey boy.
+I'm glad you're back.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今宵はどんな発見があるかな？
 とても楽しみだよ\\H
-> CONTEXT: Map647/events/4/pages/1/5/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/4/pages/1/5/Dialogue
+\\name[\\v[2]]\\_
+What will we discover tonight?
+I'm really looking forward to it\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 では、講義を始めよう。
 準備はいいかな？
-> CONTEXT: Map647/events/4/pages/1/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/4/pages/1/8/Dialogue
+\\name[\\v[2]]\\_
+Now, let's begin the lecture.
+Are you ready?
 > END STRING
 
 > BEGIN STRING
 ヘカテーと再戦しますか？
-> CONTEXT: Map647/events/4/pages/1/11/Dialogue < UNTRANSLATED
-> CONTEXT: Map647/events/4/pages/2/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/4/pages/1/11/Dialogue
+> CONTEXT: Map647/events/4/pages/2/1/Dialogue
+Would you like to have a rematch with Hecate?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ははは、やはりキミとの講義は楽しいな。
-> CONTEXT: Map647/events/4/pages/1/44/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/4/pages/1/44/Dialogue
+\\name[\\v[2]]\\_
+Hahaha, lecturing with you is always fun.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そうか、残念だな。
 また気が向いた時にでも来てくれ。待っているよ。
-> CONTEXT: Map647/events/4/pages/1/51/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/4/pages/1/51/Dialogue
+\\name[\\v[2]]\\_
+I see, that's a pity.
+Come again when you feel like it. I'll be waiting.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ここの書物は数こそ少ないが希少な物が多い。
 これを集めた者は、目利きの良い人物であろう。
-> CONTEXT: Map647/events/5/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/5/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+The books here are few in number, but many of them are rare.
+The person who collected them must have a good eye.
 > END STRING
 
 > BEGIN STRING
@@ -430,55 +543,72 @@
 これくらいの規模だと落ち着いて読めますね。
 教会図書館は蔵書量が凄まじいですが、
 圧倒されてなんだか落ち着かないんですよ。
-> CONTEXT: Map647/events/6/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/6/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+A place this size would be nice to read in peace.
+Church libraries have a huge collection of books, but
+I feel overwhelmed and uneasy.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 うーむ、この都市の起源を調べているのだが
 いくら探しても全然見つからない･･･。
-> CONTEXT: Map647/events/7/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/7/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hmm, I'm trying to find out the origins of this city,
+but no matter how hard I look I just can't find anything...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 情報規制でもされているのか、
 それとも別の理由があるのか･･･。
-> CONTEXT: Map647/events/7/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/7/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Is there information censorship?
+Or is there another reason?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 この街の領主は「シスター」と呼ばれているが、
 魔導を極めた魔女でもあるという噂だ。
-> CONTEXT: Map647/events/8/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/8/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+The lord of this town is called "Sister",
+but it is rumored that she is also a witch 
+who has mastered the art of magic.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 魔女にして修道女とはこれ如何に。
 随分な変わり者なのだろうな。
-> CONTEXT: Map647/events/8/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/8/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+What's this about being both a witch and a nun?
+She must be quite an oddball.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 研究に没頭すると、つい栄養補給を忘れてしまう。
-> CONTEXT: Map647/events/9/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/9/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+When you are engrossed in your research, 
+you tend to forget to take in nutrients.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 気が付いたら餓死寸前だったときがあってね。
 あのときは流石に危機感を覚えたよ。
-> CONTEXT: Map647/events/9/pages/0/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/9/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+There was a time when I realized 
+I was on the verge of starvation.
+That was when I really felt a sense of crisis.
 > END STRING
 
 > BEGIN STRING
@@ -486,16 +616,20 @@
 以前、この図書館で
 変な紙切れを見つけたのだけど、
 あれはなんだったのかしら･･･。
-> CONTEXT: Map647/events/10/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/10/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I found a strange piece of paper in this library
+a while ago, but I wonder what it was...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 何か書いてあったみたいなんだけど、
 ぼやけてよく読めなかったのよ。
-> CONTEXT: Map647/events/10/pages/0/5/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/10/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+It looked like there was something written there, 
+but it was blurry and I couldn't read it very well.
 > END STRING
 
 > BEGIN STRING
@@ -503,90 +637,111 @@
 この街にある品物は殆ど現と変わらないけど、
 あれはなんていうか･･･
 夢世界ならではの不思議なものを感じたわ。
-> CONTEXT: Map647/events/10/pages/0/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/10/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+Most of the items in this town are the same as in reality, 
+buthow can I put it...
+I felt something mysterious that is unique to the dream world.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 もっと夢世界に詳しくならないと、
 ああいうのは読めないものなのかしら？
-> CONTEXT: Map647/events/10/pages/0/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/10/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+I wonder if I can't read things like that 
+unless I know more about the dream world?
 > END STRING
 
 > BEGIN STRING
 ある日の出来事だ。
 蓄積器のひとつに変化が起きた。
-> CONTEXT: Map647/events/11/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/11/pages/0/4/Dialogue
+It happened one day.
+A change occurred in one of the accumulators.
 > END STRING
 
 > BEGIN STRING
 蓄積器がまるで胎動するかのように明滅を繰り返し
 熱を放ったかと思うと
 その表面を割り、一人の少女が姿を現したのだ。
-> CONTEXT: Map647/events/11/pages/0/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/11/pages/0/6/Dialogue
+The accumulator blinked repeatedly 
+as if in a fetal state, emitting heat, 
+and then its surface broke open, revealing a young girl.
 > END STRING
 
 > BEGIN STRING
 そのような機能を持たせた覚えはないのだが
 一箇所に集められたエネルギーが偶発的に
 爆発的な作用を引き起こしたのだろうか。
-> CONTEXT: Map647/events/11/pages/0/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/11/pages/0/9/Dialogue
+I don't recall giving it such a function, 
+so perhaps the energy concentrated in one place 
+accidentally caused an explosive effect.
 > END STRING
 
 > BEGIN STRING
 だが、想定外の事態も、それはそれで歓迎である。
 ひとまず、私は生まれた彼女の世話をすることにした。
-> CONTEXT: Map647/events/11/pages/0/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/11/pages/0/12/Dialogue
+However, unexpected circumstances are welcome in their own right.
+For the time being, I decided to take care of the newborn girl.
 > END STRING
 
 > BEGIN STRING
 彼女は純真そのもので、私の言うことはよく聞いてくれた。
 彼女も私を慕っていてくれているようで
 私と彼女は、まるで母娘のような関係を築いていった。
-> CONTEXT: Map647/events/11/pages/0/14/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/11/pages/0/14/Dialogue
+She was innocent and always listened to what I had to say.
+She seemed to adore me, too, and we built a relationship 
+like that of a mother and daughter.
 > END STRING
 
 > BEGIN STRING
 おそらく彼女は元型の影響を強く受けた夢魔であろう。
 傾向から考えて「永遠の少女」か。
-> CONTEXT: Map647/events/11/pages/0/17/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/11/pages/0/17/Dialogue
+She is probably a succubus strongly influenced by an archetype.
+Judging from her tendencies, perhaps she is the "eternal girl."
 > END STRING
 
 > BEGIN STRING
 世話をしてみると、なかなか可愛いものである。
 性的な欲求には乏しいようだが
 依存性があるという意味では夢魔らしいのかもしれない。
-> CONTEXT: Map647/events/11/pages/0/19/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/11/pages/0/19/Dialogue
+Taking care of her, she's quite cute.
+She doesn't seem to have much of a sexual desire,
+but she may be like a succubus in the sense of being addictive.
 > END STRING
 
 > BEGIN STRING
 封印された魔導書がある…
 本の世界に入れそうだが、
 一度入れば\\c[12]簡単には戻れない\\c[0]ようだ…
-> CONTEXT: Map647/events/19/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/19/pages/0/1/Dialogue
+There is a sealed grimoire...
+It seems like you can enter the world of the book,
+but once you're in, it seems like it's not easy to get out...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 こんにちは！
 ヘカテー様の知り合いかな？
-> CONTEXT: Map647/events/22/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/22/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hello!
+Do you know Hecate?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ほぁ……ヘカテー様……\\H
-> CONTEXT: Map647/events/22/pages/1/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/22/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+Oh...Lady Hecate...\\H
 > END STRING
