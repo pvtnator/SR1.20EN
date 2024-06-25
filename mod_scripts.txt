@@ -22842,13 +22842,13 @@ Queen of the Deadly Sins, sucking everything dry with her voluptuous body.
 アールヴァル
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Arval
 > END STRING
 
 > BEGIN STRING
 ルーンに長けた種族の血を受け継いでいる。戦闘中魔法のVP消費を30％減。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Race skilled in runes. Magic VP consumption during battle reduced by 30%.
 > END STRING
 
 > BEGIN STRING
@@ -25414,13 +25414,13 @@ Charm increases.
 力の目覚め
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-
+Awakening of Power
 > END STRING
 
 > BEGIN STRING
 力を引き出し、様々な能力が上昇する。効果のないキャラクターも存在する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Draws out power and increases abilities. Not effective for everyone.
 > END STRING
 
 > BEGIN STRING
@@ -29442,13 +29442,13 @@ shook hips hard
 > BEGIN STRING
 \n\m#{target.bustsize}の谷間が、ペニスに甘美な快感をもたらす！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​#{target.bustsize} brings sweet pleasure to your penis!
 > END STRING
 
 > BEGIN STRING
 \n\m#{target.bustsize}が、ペニスに甘美な快感をもたらす！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​#{target.bustsize} brings sweet pleasure to your penis!
 > END STRING
 
 > BEGIN STRING
@@ -33805,25 +33805,25 @@ in turning motion
 > BEGIN STRING
 #{targetname}を挑発した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ provoked #{targetname}!
 > END STRING
 
 > BEGIN STRING
 拘束を外すよう、\n\m#{targetname}に懇願した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ begged\n​m​#{targetname} to release me from my restraints!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の拘束を外した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+#{targetname} has been released from restraints!
 > END STRING
 
 > BEGIN STRING
 顔を背けて抵抗した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ turned away and resisted!
 > END STRING
 
 > BEGIN STRING
@@ -37287,7 +37287,7 @@ left and right
 > BEGIN STRING
 なおも激しく舌を絡めながら、\n\m#{tec}、更に腰を振り続けている！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ continued moving hips #{tec}\n​m​while passionately entwining tongues!
 > END STRING
 
 > BEGIN STRING
@@ -40220,7 +40220,7 @@ Target: penis
 > BEGIN STRING
 #{targetname}と、\n\m互いの舌を絡めながら、#{waist}腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+intertwined tongues \n​m​with #{targetname} and shook hips #{waist}!
 > END STRING
 
 > BEGIN STRING
@@ -40238,7 +40238,7 @@ Target: penis
 > BEGIN STRING
 なおも激しく舌を絡めながら、\n\m#{tec}、#{waist}腰を前後させてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ began to move hips back and forth #{waist} \n​m​while continuing to passionately entwine tongues!
 > END STRING
 
 > BEGIN STRING
@@ -40382,7 +40382,7 @@ Target: penis
 > BEGIN STRING
 #{targetname}に密着し、\n\m互いの舌を絡めながら、#{waist}腰を動かしてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pressed herself against #{targetname},\n​m​intertwining tongues, and moved her hips #{waist}!
 > END STRING
 
 > BEGIN STRING
@@ -40682,19 +40682,19 @@ Target: penis
 > BEGIN STRING
 #{myname}は何かの液体を口に含むと、\w\n
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+#{myname} put some liquid in her mouth,​w​\n
 > END STRING
 
 > BEGIN STRING
 口移しで#{targetname}に飲ませてきた！\w\n
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+and fed it to #{targetname} by mouth!​w​\n
 > END STRING
 
 > BEGIN STRING
 さらに#{myname}も自ら液体を飲み干した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+Plus, #{myname} drank the liquid herself!
 > END STRING
 
 > BEGIN STRING
@@ -43507,13 +43507,13 @@ Unlucky roar
 > BEGIN STRING
 #{@active_battler.name}は興奮した！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{@active_battler.name} is excited!​w​q
 > END STRING
 
 > BEGIN STRING
 #{@active_battler.name}の子宮が疼き始めた…！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{@active_battler.name}'s uterus is starting to ache...! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -43748,7 +43748,7 @@ Emotion
 > BEGIN STRING
 ハウリング
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Howling
 > END STRING
 
 > BEGIN STRING
@@ -43760,13 +43760,13 @@ Emotion
 > BEGIN STRING
 挑発する
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Provoke
 > END STRING
 
 > BEGIN STRING
 磔拘束解除
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Crucifixion Restraint Release
 > END STRING
 
 > BEGIN STRING
@@ -46611,7 +46611,7 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}は自ら顔を近づけ、\n#{active.name}のキスを受け入れた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} moved closer and \naccepted #{active.name}'s kiss!
 > END STRING
 
 > BEGIN STRING
@@ -51003,15 +51003,15 @@ slender body
 > END STRING
 
 > BEGIN STRING
-#{active.name}は全能力を平均 
+"#{active.name}は全能力を平均 "
 > CONTEXT: O_MOD_SR_Util_other.rb
-#{active.name} average of all abilities
+"#{active.name} average of all abilities "
 > END STRING
 
 > BEGIN STRING
-#{target.name}は全能力を平均 
+"#{target.name}は全能力を平均 "
 > CONTEXT: O_MOD_SR_Util_other.rb
-#{target.name} average of all abilities
+"#{target.name} average of all abilities "
 > END STRING
 
 > BEGIN STRING
@@ -54020,7 +54020,7 @@ adorable
 > BEGIN STRING
 の腰を掴み、力強く突き上げた！
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
- grabbed her waist and thrusted strongly!
+'s waist in your hands, you thrust strongly!
 > END STRING
 
 > BEGIN STRING
@@ -59646,13 +59646,13 @@ Lps.
 > BEGIN STRING
 #{@now_actor.name}の、おっぱいサイズ変更素質と個性素質を
 > CONTEXT: PR_MOD_Scene_Box.rb
-
+#{@now_actor.name}'s breast size change and personality
 > END STRING
 
 > BEGIN STRING
 \n消去しますか？
 > CONTEXT: PR_MOD_Scene_Box.rb
-
+\nReset it?
 > END STRING
 
 > BEGIN STRING
@@ -71106,7 +71106,7 @@ The magic circle beneath #{myname}'s feet disappeared!
 > BEGIN STRING
 #{myname}は手足を拘束され身動きが取れない……！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname}'s hands and feet are tied and can't move...!
 > END STRING
 
 > BEGIN STRING
