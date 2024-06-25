@@ -1,15 +1,16 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "箱"
-> CONTEXT: Map039/events/3/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map039/events/3/pages/0/0/InlineScript/1:22
+"Box"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 へぇ、あの森を抜けれたんだ。
-> CONTEXT: Map039/events/3/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map039/events/3/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Wow, you made it through that forest.
 > END STRING
 
 > BEGIN STRING
@@ -17,6 +18,9 @@
 そういえば、あの森には女性の力を高める
 アイテムが隠されてるって噂なんだけど、
 キミは見つけられたかな？
-> CONTEXT: Map039/events/3/pages/0/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map039/events/3/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+By the way, there's a rumor that there's an item hidden 
+in that forest that enhances women's power.
+Did you find it?
 > END STRING

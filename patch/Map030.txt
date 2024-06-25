@@ -1,8 +1,8 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "怖い魔獣"
-> CONTEXT: Map030/events/50/pages/0/1/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map030/events/50/pages/0/1/InlineScript/1:22
+"Scary monster"
 > END STRING
 
 > BEGIN STRING
@@ -10,13 +10,17 @@
 この先に銀色の都市の秩序あるやり方に
 反発したやつらが作った
 自由をモットーとする街があるらしいが・・・
-> CONTEXT: Map030/events/50/pages/0/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map030/events/50/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+It seems that up ahead there is a city with freedom 
+as its motto, created by people who rebelled against 
+the orderly ways of the Silver City...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 この森は怖すぎる・・・
-> CONTEXT: Map030/events/50/pages/0/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map030/events/50/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+This forest is too scary...
 > END STRING

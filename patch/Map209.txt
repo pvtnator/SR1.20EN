@@ -607,44 +607,51 @@ What do you want to know? Kiki!
 
 > BEGIN STRING
 遊技場の場所
-> CONTEXT: Map209/events/61/pages/2/5/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/2/5/Choice/0
+Playground location
 > END STRING
 
 > BEGIN STRING
 外れの地の場所
-> CONTEXT: Map209/events/61/pages/2/5/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/2/5/Choice/1
+Outlands Location
 > END STRING
 
 > BEGIN STRING
 特にない
-> CONTEXT: Map209/events/61/pages/2/5/Choice/2 < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/2/5/Choice/2
+Nothing
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 遊技場はここから東に行ったところだ。
 迷うような場所じゃあないだろ。
-> CONTEXT: Map209/events/61/pages/2/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/2/7/Dialogue
+\\name[\\v[2]]\\_
+The playground is east of here.
+You can't get lost.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 闇洞窟の裏から行ける崖を降りたところだ。
 アンタならポートからすぐ行けるダロウ。
-> CONTEXT: Map209/events/61/pages/2/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/2/12/Dialogue
+\\name[\\v[2]]\\_
+It's just down the cliff that can be accessed 
+from the back of the Dark Cave.
+You can get there straight away from the port, Darrow.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ナンダイその顔ハ
 ナニすりゃイイのかわからないッテ顔だナ。
-> CONTEXT: Map209/events/61/pages/3/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/3/1/Dialogue
+\\name[\\v[2]]\\_
+What's with that face?
+It's like you don't know what to do.
 > END STRING
 
 > BEGIN STRING
@@ -652,8 +659,11 @@ What do you want to know? Kiki!
 オレたちの仲ダ
 特別に無料で情報を教えてやるヨ。
 キキッ！
-> CONTEXT: Map209/events/61/pages/3/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/3/4/Dialogue
+\\name[\\v[2]]\\_
+We're good friends
+I'll give you the information for free as a special favor.
+Kiki!
 > END STRING
 
 > BEGIN STRING
@@ -661,8 +671,11 @@ What do you want to know? Kiki!
 一つは常夜の街って呼ばれる暗い街だナ。
 性に関して奔放な場所デ、
 一人で出歩くのは危険ッテ話だゼ。
-> CONTEXT: Map209/events/61/pages/3/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/3/8/Dialogue
+\\name[\\v[2]]\\_
+One is a dark town called City of Evernight.
+It's a place with a lot of freedom when it comes to sex,
+and it's said to be dangerous to go out alone.
 > END STRING
 
 > BEGIN STRING
@@ -670,32 +683,42 @@ What do you want to know? Kiki!
 銀色の都市を出て南西にある森を抜けると
 たどり着けるらしいガ…
 道中には恐ろしい魔物が住むとも言われているゼ
-> CONTEXT: Map209/events/61/pages/3/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/3/12/Dialogue
+\\name[\\v[2]]\\_
+It seems that you can reach it by leaving the Silver City 
+and going through the forest to the southwest...
+It is said that terrifying monsters live along the way.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 モウ一つハ銀色の都市の懺悔室にある不思議な扉ダ
 キナクセーシスターを連れてそこまで行ってみナ
-> CONTEXT: Map209/events/61/pages/3/19/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/3/19/Dialogue
+\\name[\\v[2]]\\_
+There's only one more mysterious door 
+in the confessional of the Silver City.
+Take Sister and go there.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 モウ一つハ戦士の館だナ
 キナクセーシスター館にある黒いポートから行けるって噂ダ
-> CONTEXT: Map209/events/61/pages/3/28/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/3/28/Dialogue
+\\name[\\v[2]]\\_
+Warrior's mansion, it's rumored you can get there from the 
+black port in the Sister Mansion
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ココについては詳しい事は知らないナ
 ただ噂では蝶を集める必要があるらしいゼ
-> CONTEXT: Map209/events/61/pages/3/31/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/3/31/Dialogue
+\\name[\\v[2]]\\_
+I don't know much about this place
+But rumor has it that you need to collect butterflies.
 > END STRING
 
 > BEGIN STRING
@@ -703,16 +726,21 @@ What do you want to know? Kiki!
 モウ一つハ禁書庫だナ
 貴重なモノが沢山置いテあるって話だゼ
 通い詰めるとナニかが起きるって噂モ……
-> CONTEXT: Map209/events/61/pages/3/37/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/3/37/Dialogue
+\\name[\\v[2]]\\_
+There's another one, the Forbidden Library I hear there are 
+a lot of valuable things I hear there's a rumor that 
+if you go there too often, something will happen...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 モウ一つハ謎の研究施設だ
 ここじゃ倫理観を無視した恐ろしい研究をしてるって言うゼ
-> CONTEXT: Map209/events/61/pages/3/44/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/3/44/Dialogue
+\\name[\\v[2]]\\_
+It's a mysterious research facility
+They say they're doing horrible research here that ignores ethics
 > END STRING
 
 > BEGIN STRING
@@ -720,8 +748,11 @@ What do you want to know? Kiki!
 キナクセーシスターの館に
 蓄積器が置いてある部屋があるだロ？
 そこの青い扉から行けるッテ話ダ
-> CONTEXT: Map209/events/61/pages/3/47/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/3/47/Dialogue
+\\name[\\v[2]]\\_
+Is there a room in the Sister's mansion
+where the accumulator is located?
+I heard you can get there through the blue door there.
 > END STRING
 
 > BEGIN STRING
@@ -729,8 +760,11 @@ What do you want to know? Kiki!
 モウ一つハ禁書庫だナ
 お前の別荘にいる死神に話を聞いてみな
 貴重なモノが沢山置いテあるって話だゼ……
-> CONTEXT: Map209/events/61/pages/3/55/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/3/55/Dialogue
+\\name[\\v[2]]\\_
+Forbidden library,
+talk to the god of death at your villa
+I heard there are a lot of valuable things stored there...
 > END STRING
 
 > BEGIN STRING
@@ -738,8 +772,11 @@ What do you want to know? Kiki!
 モウ一つハ墓地だナ、キナクセーシスター館の左にあるゼ
 恐ろしいモノが蠢く場所らしいガ
 深い場所にはお宝ガあるらしイ
-> CONTEXT: Map209/events/61/pages/3/63/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/3/63/Dialogue
+\\name[\\v[2]]\\_
+The only other place is the catacombs, to the left in Sister's mansion.
+It's said to be a place where scary things lurk.
+There's supposed to be treasure deep inside.
 > END STRING
 
 > BEGIN STRING
@@ -747,30 +784,37 @@ What do you want to know? Kiki!
 お宝目当てのトレジャーハンターがよく忍び込んで
 返り討ちにあってるって噂ダ
 最深部には死神も潜んでるらしいゼ
-> CONTEXT: Map209/events/61/pages/3/67/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/3/67/Dialogue
+\\name[\\v[2]]\\_
+It's rumored that treasure hunters often sneak in 
+looking for treasure, only to be killed in return
+It seems that the Grim Reaper is also hiding in the deepest part.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 死神についてダァ？
 お宝を見つけた後でメイド共にでも聞いてみナ！
-> CONTEXT: Map209/events/61/pages/3/71/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/3/71/Dialogue
+\\name[\\v[2]]\\_
+About the Grim Reaper?
+Ask the maids about it after you find the treasure!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 鍵が見つからないダッテ？
 浜辺にデモ落ちてるんじゃないのカ？
-> CONTEXT: Map209/events/61/pages/3/75/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/61/pages/3/75/Dialogue
+\\name[\\v[2]]\\_
+Can't find your keys?
+Maybe there's something lying around on the beach?
 > END STRING
 
 > BEGIN STRING
 "学者"
-> CONTEXT: Map209/events/62/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map209/events/62/pages/0/0/InlineScript/1:22
+"Scholar"
 > END STRING
 
 > BEGIN STRING
@@ -1027,17 +1071,19 @@ What do you want to know? Kiki!
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ねぇ、そこのアナタ……
-> CONTEXT: Map209/events/63/pages/1/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map066/events/82/pages/1/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/63/pages/1/1/Dialogue
+> CONTEXT: Map066/events/82/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+Hey, you there...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ……あら？アナタもう目覚めているのね！
-> CONTEXT: Map209/events/63/pages/1/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map066/events/82/pages/1/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/63/pages/1/3/Dialogue
+> CONTEXT: Map066/events/82/pages/1/3/Dialogue
+\\name[\\v[2]]\\_
+...Oh? You're awakened already!
 > END STRING
 
 > BEGIN STRING
@@ -1045,17 +1091,22 @@ What do you want to know? Kiki!
 ふふ\\H
 『目覚めのルーン』 使ってる？
 もっと欲しいなら常夜の街へ行くといいワ\\H
-> CONTEXT: Map209/events/63/pages/1/5/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/63/pages/1/5/Dialogue
+\\name[\\v[2]]\\_
+Hehe\\H
+Are you using the "Awakening Rune"?
+If you want more, go to the Evernight City\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あ！忘れてはいないと思うけれど、
 最高ランクじゃないと使えないからね！
-> CONTEXT: Map209/events/63/pages/1/9/Dialogue < UNTRANSLATED
-> CONTEXT: Map066/events/82/pages/1/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/63/pages/1/9/Dialogue
+> CONTEXT: Map066/events/82/pages/1/9/Dialogue
+\\name[\\v[2]]\\_
+Oh! I'm sure you haven't forgotten, but
+you can only use it at highest rank!
 > END STRING
 
 > BEGIN STRING
@@ -1063,9 +1114,12 @@ What do you want to know? Kiki!
 【最高の姿】が習得できる子は
 これを習得しておかないと効果を発揮できないってことよ！
 身に着ける前にコンディションを最高に高めておいてね\\H
-> CONTEXT: Map209/events/63/pages/1/12/Dialogue < UNTRANSLATED
-> CONTEXT: Map066/events/82/pages/1/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/63/pages/1/12/Dialogue
+> CONTEXT: Map066/events/82/pages/1/12/Dialogue
+\\name[\\v[2]]\\_
+If you are a kid who can learn 【Ideal Form】, 
+you will not be able to use it effectively unless you learn it!
+Make sure you are in top condition before wearing it\\H
 > END STRING
 
 > BEGIN STRING

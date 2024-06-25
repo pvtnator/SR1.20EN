@@ -126,8 +126,10 @@
 \\name[\\v[2]]\\_
 見分け方は扉の色よ。
 夢魔の家は青い扉で統一されてるから。
-> CONTEXT: Map735/events/28/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/28/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+The way to tell them apart is by the color of the door.
+All of the succubi's houses have blue doors.
 > END STRING
 
 > BEGIN STRING
@@ -142,31 +144,35 @@ Go to port space?
 
 > BEGIN STRING
 "変な箱"
-> CONTEXT: Map735/events/31/pages/0/1/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map735/events/31/pages/0/1/InlineScript/1:22
+"Strange Box"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 YO、Hey！
 自分が強くなりすぎて困ってないかい？
-> CONTEXT: Map735/events/31/pages/0/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/31/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+YO, Hey!
+Are you worried that you're getting too strong?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ここの夢魔は銀の都市より少し強い感じDA
 もしかすると物足りないんじゃないか？
-> CONTEXT: Map735/events/31/pages/0/5/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/31/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+The succubi here seem a little stronger than in the Silver City.
+Maybe they're not enough?
 > END STRING
 
 > BEGIN STRING
 "ウザい箱"
-> CONTEXT: Map735/events/31/pages/0/8/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map735/events/31/pages/0/20/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map735/events/31/pages/0/8/InlineScript/1:22
+> CONTEXT: Map735/events/31/pages/0/20/InlineScript/1:22
+"Annoying Box"
 > END STRING
 
 > BEGIN STRING
@@ -174,16 +180,21 @@ YO、Hey！
 だから夢魔達と楽しめるように
 MeがYouのExpを預かってやろうか。
 Oh, Let's try.
-> CONTEXT: Map735/events/31/pages/0/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/31/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+So I'll take care of your Exp 
+so you can have fun with the succubi.
+Oh, Let's try.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ちなみに言っておくがレベル屋と違い
 ウチはスキルもリセットだぜ。
-> CONTEXT: Map735/events/31/pages/0/13/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/31/pages/0/13/Dialogue
+\\name[\\v[2]]\\_
+By the way, unlike the level shop,
+we also reset skills.
 > END STRING
 
 > BEGIN STRING
@@ -191,21 +202,24 @@ Oh, Let's try.
 YO、YO！
 先頭のやつのExpを預かろうかい？
 それとも預けたExpを引き取るかい？
-> CONTEXT: Map735/events/31/pages/0/24/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/31/pages/0/24/Dialogue
+\\name[\\v[2]]\\_
+YO, YO!
+Shall I keep the Exp from the first guy?
+Or take the Exp that was deposited?
 > END STRING
 
 > BEGIN STRING
 預ける
-> CONTEXT: Map735/events/31/pages/0/28/Choice/0 < UNTRANSLATED
-> CONTEXT: Map735/events/31/pages/0/82/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Map735/events/31/pages/0/28/Choice/0
+> CONTEXT: Map735/events/31/pages/0/82/Choice/0
+Deposit
 > END STRING
 
 > BEGIN STRING
 引き取る
-> CONTEXT: Map735/events/31/pages/0/28/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Map735/events/31/pages/0/28/Choice/1
+Withdraw
 > END STRING
 
 > BEGIN STRING
@@ -223,48 +237,58 @@ Stop
 \\name[\\v[2]]\\_
 OK！あんたの今のExpは\\v[3]だYO！
 どんだけ預けんだい？
-> CONTEXT: Map735/events/31/pages/0/30/Dialogue < UNTRANSLATED
-> CONTEXT: Map735/events/31/pages/0/84/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/31/pages/0/30/Dialogue
+> CONTEXT: Map735/events/31/pages/0/84/Dialogue
+\\name[\\v[2]]\\_
+OK! Your current Exp is \\v[3]YO!
+How much do you want to deposit?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 オイオイ、経験値が足りないZE
-> CONTEXT: Map735/events/31/pages/0/37/Dialogue < UNTRANSLATED
-> CONTEXT: Map735/events/31/pages/0/91/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/31/pages/0/37/Dialogue
+> CONTEXT: Map735/events/31/pages/0/91/Dialogue
+\\name[\\v[2]]\\_
+Hey, you don't have enough ExpZE.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 OK！OK！これで預かったExpは
 \\v[4]になったZE
-> CONTEXT: Map735/events/31/pages/0/45/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/31/pages/0/45/Dialogue
+\\name[\\v[2]]\\_
+OK! OK! Now the Exp I received is
+\\v[4]ZE
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今預かってるExpは\\v[4]DA
 どれだけ引き出すんだい？
-> CONTEXT: Map735/events/31/pages/0/52/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/31/pages/0/52/Dialogue
+\\name[\\v[2]]\\_
+How much Exp do you have deposited now \\v[4]DA
+How much will you withdraw?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 オイオイ、そんなに預かってNE-ZO
-> CONTEXT: Map735/events/31/pages/0/59/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/31/pages/0/59/Dialogue
+\\name[\\v[2]]\\_
+Hey, why are you entrusting me with so much?NE-ZO
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 OK！OK！これで残りのExpは
 \\v[4]になったZE
-> CONTEXT: Map735/events/31/pages/0/66/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/31/pages/0/66/Dialogue
+\\name[\\v[2]]\\_
+OK! OK! Now the remaining Exp is
+\\v[4]ZE
 > END STRING
 
 > BEGIN STRING
@@ -279,16 +303,20 @@ Sou
 \\name[\\v[2]]\\_
 YO、YO！
 先頭のやつのExpを預かろうかい？
-> CONTEXT: Map735/events/31/pages/0/79/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/31/pages/0/79/Dialogue
+\\name[\\v[2]]\\_
+YO, YO!
+Shall I take the Exp from the first guy?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 OK！OK！これで預かったExpは
 \\v[335]になったZE
-> CONTEXT: Map735/events/31/pages/0/98/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/31/pages/0/98/Dialogue
+\\name[\\v[2]]\\_
+OK! OK! Now the Exp I received is
+\\v[335]ZE
 > END STRING
 
 > BEGIN STRING
@@ -621,8 +649,10 @@ What a coincidence to meet you here.
 \\name[\\v[2]]\\_
 ちょうどいいから何か買っていく？
 今すごくいいルーンが手に入ったんだ。
-> CONTEXT: Map735/events/38/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/38/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Do you want to buy something?
+I just got really good runes.
 > END STRING
 
 > BEGIN STRING

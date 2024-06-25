@@ -14187,14 +14187,14 @@ Thorough
 受け流し
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Parry
 > END STRING
 
 > BEGIN STRING
 ワイルドカウンター
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
-
+Wild Counter
 > END STRING
 
 > BEGIN STRING
@@ -14202,7 +14202,7 @@ Thorough
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_AttackElementChange.rb
-
+Acrobat
 > END STRING
 
 > BEGIN STRING
@@ -14331,7 +14331,7 @@ Pleasure
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-Valkyrie
+Valkyria
 > END STRING
 
 > BEGIN STRING
@@ -19190,7 +19190,7 @@ Magical knowledge
 > BEGIN STRING
 魔法を使用する時の消費VPが20％減。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Reduces VP consumption when casting magic by 20%.
 > END STRING
 
 > BEGIN STRING
@@ -22581,7 +22581,7 @@ Easily attracted to women with small breasts.
 > BEGIN STRING
 絶頂すると相手を惹きつける。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Attract partner upon climaxing.
 > END STRING
 
 > BEGIN STRING
@@ -23108,7 +23108,7 @@ An absolute queen.
 > BEGIN STRING
 絶頂すると自分の全能力が上がる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+When you climax, all your abilities increase.
 > END STRING
 
 > BEGIN STRING
@@ -26448,19 +26448,19 @@ The faster you are than your opponent, the higher your SS rate.
 > BEGIN STRING
 イニシアチブ不利による被ダメージ増加がなくなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+No more increased damage taken due to initiative disadvantage.
 > END STRING
 
 > BEGIN STRING
 ホールド中の触手使用時のSS率、追撃率が上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increases SS rate and follow-up rate when using tentacles while held.
 > END STRING
 
 > BEGIN STRING
 ホールド中の張型使用時のSS率、追撃率が上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increases SS rate and follow-up rate when using a dildo while held.
 > END STRING
 
 > BEGIN STRING
@@ -29106,7 +29106,7 @@ Clitoris
 > BEGIN STRING
 #{targetname}の頬をひっぱたいた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ slapped #{targetname} on the cheek!
 > END STRING
 
 > BEGIN STRING
@@ -33841,7 +33841,7 @@ in turning motion
 > BEGIN STRING
 攻めを受け入れている！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ is accepting the attack!
 > END STRING
 
 > BEGIN STRING
@@ -34177,7 +34177,7 @@ in turning motion
 > BEGIN STRING
 \n\m重ねた唇から、熱い吐息とともに\n\m#{myname}の感じた快感が流れ込んでくる…！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-With lips together, the pleasure #{myname} felt \n​m​flows into me along with her hot breath...!
+\n​m​With lips together, the pleasure #{myname} felt \n​m​flows into me along with her hot breath...!
 > END STRING
 
 > BEGIN STRING
@@ -34411,7 +34411,7 @@ With lips together, the pleasure #{myname} felt \n​m​flows into me along wit
 > BEGIN STRING
 #{targetname}の体から、\n\m魂ごと精気を搾り取ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ squeezed out life and soul from #{targetname}'s body!
 > END STRING
 
 > BEGIN STRING
@@ -36427,7 +36427,7 @@ while looking up
 > BEGIN STRING
 呪いを唱え始めた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ started chanting curses!
 > END STRING
 
 > BEGIN STRING
@@ -42188,7 +42188,7 @@ Post-effect message:
 > BEGIN STRING
 はＶＰを 
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+", VP, "
 > END STRING
 
 > BEGIN STRING
@@ -42204,9 +42204,9 @@ Post-effect message:
 > END STRING
 
 > BEGIN STRING
-はＥＰを 
+"はＥＰを "
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+", EP, "
 > END STRING
 
 > BEGIN STRING
@@ -54951,13 +54951,13 @@ The penis is inserted into the \nvalley of #{$msg.t_enemy.bustsize},\n#{speaker}
 > BEGIN STRING
 舌打ちをしながら、\nこちらを睨んでいる！
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+ clicks tongue and glares!
 > END STRING
 
 > BEGIN STRING
 #{speaker}は#{emotion}
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+#{speaker} #{emotion}
 > END STRING
 
 > BEGIN STRING
@@ -55107,7 +55107,7 @@ A insertion: A side
 > BEGIN STRING
 #{t_actor}の目の前に、\n#{speaker}の顔が迫ってくる……！
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+The face of #{speaker} is looming \nright in front of #{t_actor}...!
 > END STRING
 
 > BEGIN STRING
