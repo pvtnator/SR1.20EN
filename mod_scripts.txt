@@ -10552,7 +10552,7 @@ Chaos Hypnosis
 美しき魔性の導き
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Beautiful Magical Guidance
 > END STRING
 
 > BEGIN STRING
@@ -14464,7 +14464,7 @@ Clever Link
 突風の刃
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Gust of Wind Blade
 > END STRING
 
 > BEGIN STRING
@@ -14547,7 +14547,7 @@ Witch's Essence
 シャープネス
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Sharpness
 > END STRING
 
 > BEGIN STRING
@@ -19710,32 +19710,32 @@ EP吸収
 VP吸収
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+VP Absorption
 > END STRING
 
 > BEGIN STRING
 自分が相手を絶頂させた時、VPを小回復する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Recover a small amount of VP when you make an opponent climax.
 > END STRING
 
 > BEGIN STRING
 EXP吸収
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+EXP Absorption
 > END STRING
 
 > BEGIN STRING
 自分が相手を絶頂させた時、経験値を吸収する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Absorb EXP when you make an opponent climax.
 > END STRING
 
 > BEGIN STRING
 精液をアソコに受けている時、精力が上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+When semen is received in the vagina, energy increases.
 > END STRING
 
 > BEGIN STRING
@@ -25898,7 +25898,7 @@ Prefers women
 > BEGIN STRING
 ムード100のとき、相手に状態異常をかけやすくなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+When mood is at 100, easier to inflict status ailments on your opponents.
 > END STRING
 
 > BEGIN STRING
@@ -26048,7 +26048,7 @@ In extremely cold areas, the rate of SS is reduced.
 > BEGIN STRING
 相手より素早さが高いほど追撃率が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+The faster you are than your opponent, the higher your follow-up rate.
 > END STRING
 
 > BEGIN STRING
@@ -26410,7 +26410,7 @@ Increases SS rate when in Crisis state.
 > BEGIN STRING
 相手より素早さが高いほど与SS率が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+The faster you are than your opponent, the higher your SS rate.
 > END STRING
 
 > BEGIN STRING
@@ -26823,7 +26823,7 @@ SSを受けない時の被快感が減少する。
 > BEGIN STRING
 弱点を攻める時のSS率が上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increased SS rate when attacking weak points.
 > END STRING
 
 > BEGIN STRING
@@ -51094,10 +51094,9 @@ GAME_PLAYED
 > END STRING
 
 > BEGIN STRING
-「#{map_split}」」エリア\n簡易戦闘実行可能！
+"「#{map_split}」エリア\n簡易戦闘実行可能！"
 > CONTEXT: O_MOD_SR_Util_other_2.rb
-Simple battles available\n
-in #{map_split} area!
+"Simple battles available\nin 「#{map_split}」!"
 > END STRING
 
 > BEGIN STRING
@@ -59370,31 +59369,31 @@ Sort
 > BEGIN STRING
 番号順
 > CONTEXT: PR_MOD_Scene_Box.rb
-
+Numeric order
 > END STRING
 
 > BEGIN STRING
 レベル順
 > CONTEXT: PR_MOD_Scene_Box.rb
-
+Level order
 > END STRING
 
 > BEGIN STRING
 契約順
 > CONTEXT: PR_MOD_Scene_Box.rb
-
+Contract Order
 > END STRING
 
 > BEGIN STRING
 空腹率順
 > CONTEXT: PR_MOD_Scene_Box.rb
-
+Hunger Rate Order
 > END STRING
 
 > BEGIN STRING
 好感度順
 > CONTEXT: PR_MOD_Scene_Box.rb
-
+Favor Order
 > END STRING
 
 > BEGIN STRING
