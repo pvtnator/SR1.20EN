@@ -917,10 +917,10 @@ Slave
 
 > BEGIN STRING
 契約干渉
-> CONTEXT: States/128/name/ < UNTRANSLATED
-> CONTEXT: Commonevents/280/715/Choice/3 < UNTRANSLATED
-> CONTEXT: Commonevents/280/1751/Choice/3 < UNTRANSLATED
-
+> CONTEXT: States/128/name/
+> CONTEXT: Commonevents/280/715/Choice/3
+> CONTEXT: Commonevents/280/1751/Choice/3
+Interference
 > END STRING
 
 > BEGIN STRING
@@ -1552,8 +1552,8 @@ Virgin
 
 > BEGIN STRING
 着衣不可
-> CONTEXT: States/261/name/ < UNTRANSLATED
-
+> CONTEXT: States/261/name/
+No clothes
 > END STRING
 
 > BEGIN STRING
