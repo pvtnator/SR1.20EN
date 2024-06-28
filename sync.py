@@ -63,12 +63,12 @@ def ReduceLinebreaks(file):
                 while(lines[i][0] == ">"):
                     i += 1
                 if lines[i].strip():
-                    if lines[i].count(r"\n")>3:
+                    if lines[i].count("\\n")>3:
                         if "c[" in lines[i]:
-                            lines[i].replace(r"\n　", "", 1)
-                            rindex = lines[i].rfind(r"\n　")
+                            lines[i] = lines[i].replace("\\n　", "", 1)
+                            rindex = lines[i].rfind("\\n　")
                             if len(lines[i])-rindex<20:
-                                lines[i] = lines[i][0:rindex]+lines[i][rindex+2:]
+                                lines[i] = lines[i][0:rindex]+lines[i][rindex+3:]
                         
                 i += 2
             else:
