@@ -7035,7 +7035,7 @@ Exhibition
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Talk.rb
-
+Paizuri
 > END STRING
 
 > BEGIN STRING
@@ -7075,7 +7075,7 @@ Heavenly Feel
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: O_MOD_SR_Util_Skill使用判定.rb
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+Puff-puff
 > END STRING
 
 > BEGIN STRING
@@ -7496,7 +7496,7 @@ Kiss
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-
+Intercrural
 > END STRING
 
 > BEGIN STRING
@@ -27350,7 +27350,7 @@ BEDIN
 > BEGIN STRING
 /イリスペタル/
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+/Iris Petal/
 > END STRING
 
 > BEGIN STRING
@@ -27364,7 +27364,7 @@ BEDIN
 > BEGIN STRING
 ブルヘリア
 > CONTEXT: O_MOD_RPG_Class_ボーナス.rb
-
+Bruhelia
 > END STRING
 
 > BEGIN STRING
@@ -27878,7 +27878,7 @@ pinned down from above
 > BEGIN STRING
 #{myname}は#{targetname}を組み伏せると、
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+#{myname} holds down #{targetname},
 > END STRING
 
 > BEGIN STRING
@@ -29619,13 +29619,13 @@ in a big way
 > END STRING
 
 > BEGIN STRING
-激しく
+"激しく"
 > CONTEXT: O_MOD_RPG_Skilltext.rb
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Talk.rb
-intensely
+"intensly "
 > END STRING
 
 > BEGIN STRING
@@ -30210,13 +30210,13 @@ with a bewitched look
 > BEGIN STRING
 耳元で、#{targetname}に甘く囁いた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ whispered sweetly in #{targetname}'s ear!
 > END STRING
 
 > BEGIN STRING
 抱きしめたまま、\n\m#{targetname}の口内を舌で蹂躙した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ ravaged the inside of \n​m​#{targetname}'s mouth by tongue while close!
 > END STRING
 
 > BEGIN STRING
@@ -31362,7 +31362,7 @@ But it didn't work on #{myname}!
 > BEGIN STRING
 \n\m#{targetname}を驚かした！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​surprised #{targetname}!
 > END STRING
 
 > BEGIN STRING
@@ -35665,7 +35665,7 @@ two overwhelming
 > BEGIN STRING
 #{targetname}の\n\m#{target.bustsize}を、足の指で揉みしだいてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ rubbed #{targetname}'s \n​m​#{target.bustsize} with toes!
 > END STRING
 
 > BEGIN STRING
@@ -36007,7 +36007,7 @@ two overwhelming
 > BEGIN STRING
 舌先で、\n\m#{targetname}の#{target.bustsize}を舐めつつ
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ licked #{targetname}'s #{target.bustsize} \n​m​with the tip of tongue
 > END STRING
 
 > BEGIN STRING
@@ -36151,7 +36151,7 @@ while looking up
 > BEGIN STRING
 仲間の夢魔達と#{targetname}をもみくちゃに攻め立てた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ attacked #{targetname} \nin a frenzy with others!
 > END STRING
 
 > BEGIN STRING
@@ -36722,7 +36722,7 @@ teasingly
 > BEGIN STRING
 味わうように
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+savoringly
 > END STRING
 
 > BEGIN STRING
@@ -37672,13 +37672,13 @@ as if dancing
 > BEGIN STRING
 #{targetname}の顔をがっちりと押さえ、\n\m貪るように口内を蹂躙してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ holds #{targetname}'s face tightly \n​m​and devours the mouth!
 > END STRING
 
 > BEGIN STRING
 \n\m#{targetname}の体から、力が抜けていく……！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​strength is draining from #{targetname}'s body...!
 > END STRING
 
 > BEGIN STRING
@@ -40286,7 +40286,7 @@ intertwined tongues \n​m​with #{targetname} and shook hips #{waist}!
 > BEGIN STRING
 #{myself.bustsize}の谷間を、\n\m#{targetname}の顔に押し付け、#{waist}腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- pressed her #{myself.bustsize} against\n​m​#{targetname}'s face and shook her hips#{waist}!
+ pressed her #{myself.bustsize} against\n​m​#{targetname}'s face and shook her hips #{waist}!
 > END STRING
 
 > BEGIN STRING
@@ -41474,27 +41474,27 @@ Can't use outside of close contact!
 足でホールドしている相手以外には届かない！
 > CONTEXT: O_MOD_Scene_Battle_3.rb
 > CONTEXT: O_MOD_SR_Util_Skill使用判定.rb
-
+Can't be reached by anyone other than \nthe person holding it with their foot!
 > END STRING
 
 > BEGIN STRING
 足の動きを封じられ、ホールドされた相手以外に届かない！
 > CONTEXT: O_MOD_Scene_Battle_3.rb
 > CONTEXT: O_MOD_SR_Util_Skill使用判定.rb
-
+Leg movement is restricted and no one can reach you \nexcept the person being held!
 > END STRING
 
 > BEGIN STRING
 その相手には使えません！
 > CONTEXT: O_MOD_Scene_Battle_3.rb
 > CONTEXT: O_MOD_SR_Util_Skill使用判定.rb
-
+Can't be used against that person!
 > END STRING
 
 > BEGIN STRING
 丸呑み中の相手には使用できません！
 > CONTEXT: O_MOD_Scene_Battle_3.rb
-
+It cannot be used on someone who is being swallowed!
 > END STRING
 
 > BEGIN STRING
@@ -41525,7 +41525,7 @@ Tender Kiss
 ピストン
 > CONTEXT: O_MOD_Scene_Battle_3.rb
 > CONTEXT: O_MOD_Scene_Battle_AttackElementChange.rb
-
+Piston
 > END STRING
 
 > BEGIN STRING
@@ -41607,7 +41607,7 @@ Oral dildo
 バックディルド
 > CONTEXT: O_MOD_Scene_Battle_3.rb
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
-
+Back dildo
 > END STRING
 
 > BEGIN STRING
@@ -41619,7 +41619,7 @@ Demon's Suck
 > BEGIN STRING
 デモンズスロート
 > CONTEXT: O_MOD_Scene_Battle_3.rb
-
+Demon's throat
 > END STRING
 
 > BEGIN STRING
@@ -41632,19 +41632,19 @@ Rubbing Piston
 > BEGIN STRING
 テイルピストン
 > CONTEXT: O_MOD_Scene_Battle_3.rb
-
+Tail piston
 > END STRING
 
 > BEGIN STRING
 オーラルテイル
 > CONTEXT: O_MOD_Scene_Battle_3.rb
-
+Oral Tail
 > END STRING
 
 > BEGIN STRING
 バックテイル
 > CONTEXT: O_MOD_Scene_Battle_3.rb
-
+Back Tail
 > END STRING
 
 > BEGIN STRING
@@ -41662,13 +41662,13 @@ Rubbing Piston
 > BEGIN STRING
 オーラルテンタクル
 > CONTEXT: O_MOD_Scene_Battle_3.rb
-
+Oral Tentacle
 > END STRING
 
 > BEGIN STRING
 バックテンタクル
 > CONTEXT: O_MOD_Scene_Battle_3.rb
-
+Back Tentacle
 > END STRING
 
 > BEGIN STRING
@@ -41697,28 +41697,28 @@ Rubbing Piston
 > CONTEXT: O_MOD_Scene_Battle_AttackElementChange.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-
+Throat
 > END STRING
 
 > BEGIN STRING
 スクイーズ
 > CONTEXT: O_MOD_Scene_Battle_3.rb
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
-
+Squeeze
 > END STRING
 
 > BEGIN STRING
 ストローク
 > CONTEXT: O_MOD_Scene_Battle_3.rb
 > CONTEXT: O_MOD_Scene_Battle_AttackElementChange.rb
-
+Stroke
 > END STRING
 
 > BEGIN STRING
 プレス
 > CONTEXT: O_MOD_Scene_Battle_3.rb
 > CONTEXT: O_MOD_Scene_Battle_AttackElementChange.rb
-
+Press
 > END STRING
 
 > BEGIN STRING
@@ -42229,9 +42229,9 @@ Post-effect message:
 > END STRING
 
 > BEGIN STRING
- 削り、 
+" 削り、 "
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+" reduced, "
 > END STRING
 
 > BEGIN STRING
@@ -45423,19 +45423,19 @@ Berserk behavior
 > BEGIN STRING
 #{active.name}は自分の下着をずらし、\n#{target.name}に挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} pushed aside underwear \nand inserted into #{target.name}!
 > END STRING
 
 > BEGIN STRING
 #{active.name}は#{target.name}の\n下着をずらし、強引に挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} pushed aside #{target.name}'s \nunderwear and forcibly inserted into her!
 > END STRING
 
 > BEGIN STRING
 #{active.name}は互いの下着をずらし、\n#{target.name}に強引に挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} pushed underwear aside and \nforcefully inserted into #{target.name}!
 > END STRING
 
 > BEGIN STRING
@@ -45465,7 +45465,7 @@ Berserk behavior
 > BEGIN STRING
 #{active.name}は慣れた手つきで\n#{target.name}の奥まで一気に挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} inserted it all the way into \n#{target.name}'s vagina with practiced hands!
 > END STRING
 
 > BEGIN STRING
@@ -45501,19 +45501,19 @@ Berserk behavior
 > BEGIN STRING
 #{active.name}は自分の下着をずらし、\n#{target.name}のペニスをアソコに挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} pushed aside underwear and \ninserted #{target.name}'s penis in vagina!
 > END STRING
 
 > BEGIN STRING
 #{active.name}は#{target.name}の\n下着をずらし、ペニスをアソコに挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} pushed aside #{target.name}'s \nunderwear and inserted penis in vagina!
 > END STRING
 
 > BEGIN STRING
 #{active.name}は互いの下着をずらし、\n#{target.name}のペニスをアソコに挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} pushed underwear aside and \ninserted #{target.name}'s penis in vagina!
 > END STRING
 
 > BEGIN STRING
@@ -45531,7 +45531,7 @@ Berserk behavior
 > BEGIN STRING
 #{active.name}は自分の下着をずらし、\n#{target.name}の口に挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} pushed aside underwear and \ninserted it in #{target.name}'s mouth!
 > END STRING
 
 > BEGIN STRING
@@ -45567,25 +45567,25 @@ Berserk behavior
 > BEGIN STRING
 #{active.name}は、\n精液で汚れた#{target.name}のお尻に挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} inserted it in \n#{target.name}'s semen-stained ass!
 > END STRING
 
 > BEGIN STRING
 #{active.name}は自分の下着をずらし、\n#{target.name}のお尻に挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} pushed underwear aside and \ninserted in #{target.name}'s ass!
 > END STRING
 
 > BEGIN STRING
 #{active.name}は#{target.name}の\n下着をずらし、お尻に挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} pushed aside #{target.name}'s \nunderwear and inserted in ass!
 > END STRING
 
 > BEGIN STRING
 #{active.name}は互いの下着をずらし、\n#{target.name}のお尻に挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} pushed underwear aside \nand inserted in #{target.name}'s ass!
 > END STRING
 
 > BEGIN STRING
@@ -45597,19 +45597,19 @@ Berserk behavior
 > BEGIN STRING
 #{active.name}は自分の下着をずらし、\n#{target.name}のペニスをお尻に挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} pushed aside underwear \nand inserted #{target.name}'s penis in ass!
 > END STRING
 
 > BEGIN STRING
 #{active.name}は#{target.name}の\n下着をずらし、ペニスをお尻に挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} pushed aside #{target.name}'s \nunderwear and inserted penis in ass!
 > END STRING
 
 > BEGIN STRING
 #{active.name}は互いの下着をずらし、\n#{target.name}のペニスをお尻に挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} pushed each underwear aside \nand inserted #{target.name}'s penis in asses!
 > END STRING
 
 > BEGIN STRING
@@ -45741,13 +45741,13 @@ Berserk behavior
 > BEGIN STRING
 #{active.name}は#{brk}#{target.name}のペニスをオナホールに挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} inserted #{brk}#{target.name}'s penis into a masturbator!
 > END STRING
 
 > BEGIN STRING
 #{active.name}は#{target.name}の\n下着をずらし、ペニスをオナホールに挿入した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name} moved aside #{target.name}'s \nunderwear and inserted penis into the masturbator!
 > END STRING
 
 > BEGIN STRING
@@ -46065,7 +46065,7 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}は自ら下着をずらし、\n#{active.name}の挿入を迎え入れた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} pushed underwear aside and \nwelcomed #{active.name}'s insertion!
 > END STRING
 
 > BEGIN STRING
@@ -46107,7 +46107,7 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}はニコッとほほ笑み、\n\mペニスにまたがってくる#{active.name}の身体を撫でた……！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} smiled and stroked \n​m​#{active.name}'s body as she straddled the penis...!
 > END STRING
 
 > BEGIN STRING
@@ -46479,7 +46479,7 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}は自らお尻を上げ、\n#{active.name}の指の挿入を迎え入れた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} raised buttocks and \nwelcomed the insertion of #{active.name}'s fingers!
 > END STRING
 
 > BEGIN STRING
@@ -46803,13 +46803,13 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}は力を抜き、\n#{active.name}の挿入を迎え入れた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} relaxed, \nwelcoming the insertion of #{active.name}!
 > END STRING
 
 > BEGIN STRING
 #{target.name}は#{active.name}と舌を絡めながら、\n挿入を迎え入れた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} welcomed the insertion \nwith tongues entwined with #{active.name}!
 > END STRING
 
 > BEGIN STRING
@@ -46821,7 +46821,7 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}は、#{active.name}の胸に\n顔を埋めながら挿入を迎え入れた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} welcomed the insertion \nby burying face in #{active.name}'s chest!
 > END STRING
 
 > BEGIN STRING
@@ -51316,21 +51316,21 @@ The kiss is blocked by #{target_battlers[0].name} and can't reach!
 手コキ
 > CONTEXT: O_MOD_SR_Util_spam.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-
+Handjob
 > END STRING
 
 > BEGIN STRING
 足コキ
 > CONTEXT: O_MOD_SR_Util_spam.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-
+Footjob
 > END STRING
 
 > BEGIN STRING
 尻コキ
 > CONTEXT: O_MOD_SR_Util_spam.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-
+Buttjob
 > END STRING
 
 > BEGIN STRING
@@ -51461,7 +51461,7 @@ __S
 快感で身悶えしている……！
 > CONTEXT: O_MOD_SR_Util_spam.rb
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
- is writhing with pleasure...!
+writhing with pleasure...!
 > END STRING
 
 > BEGIN STRING
@@ -57357,7 +57357,7 @@ A sweet float with vanilla ice cream shaped like a full moon.
 > BEGIN STRING
 冬籠りのスープ
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Winter soup
 > END STRING
 
 > BEGIN STRING
@@ -57369,13 +57369,13 @@ food_032
 > BEGIN STRING
 芳醇な香りがそそる、温かいチーズのコンソメスープ。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Warm cheese consommé soup with a mellow aroma.
 > END STRING
 
 > BEGIN STRING
 熱を加えたことにより柔らかくなった玉葱に、濃厚なチーズが絡む。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+The onions, softened by the heat, are mixed with the rich cheese.
 > END STRING
 
 > BEGIN STRING
@@ -57393,13 +57393,13 @@ food_039
 > BEGIN STRING
 黄金色のプディングを中心に、瑞々しく大ぶりな果実や
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+The golden pudding is topped with fresh, large fruits and
 > END STRING
 
 > BEGIN STRING
 冷たくて甘いホイップクリームなどで贅沢に飾った、至高の逸品。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Lavishly decorated with cold, sweet whipped cream and other toppings.
 > END STRING
 
 > BEGIN STRING
@@ -57418,25 +57418,25 @@ cooking_lilith2
 夢魔契約率
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
 > CONTEXT: PR_MOD_Scene_Battle_2.rb
-
+Succubus Contract Rate
 > END STRING
 
 > BEGIN STRING
 各自が具材を持ち寄り、それを大きな鍋の中でじっくりと煮込む料理。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Everyone brings ingredients, which are then slowly simmered in a large pot.
 > END STRING
 
 > BEGIN STRING
 簡素だが持ち寄る具材で味も変わり、皆で食べれば心地良い時間となる。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Eating it together makes for a pleasant experience.
 > END STRING
 
 > BEGIN STRING
 イチゴ・ホイップ
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Strawberry Whip
 > END STRING
 
 > BEGIN STRING
@@ -57448,19 +57448,19 @@ Other390_cip
 > BEGIN STRING
 生クリームとイチゴをふんだんに使ったクレープの定番メニュー。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+A classic crepe menu item made with plenty of fresh cream and strawberries.
 > END STRING
 
 > BEGIN STRING
 生クリームの甘さとイチゴの酸味の絶妙なバランス。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Exquisite balance of sweetness of cream and sourness of strawberries.
 > END STRING
 
 > BEGIN STRING
 ゴールドトースト
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Gold Toast
 > END STRING
 
 > BEGIN STRING
@@ -57472,19 +57472,19 @@ Other051_cip
 > BEGIN STRING
 卵をたっぷりと使った銀色の都市定番の朝食。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+A silvery, classic city breakfast made with plenty of eggs.
 > END STRING
 
 > BEGIN STRING
 自家製の出汁が使われており、ほっぺたが落ちるような味わいを堪能できる。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Homemade soup stock is used, allowing you to enjoy a mouth-watering flavor.
 > END STRING
 
 > BEGIN STRING
 スティッキケーキ
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Sticky Cake
 > END STRING
 
 > BEGIN STRING
@@ -57496,19 +57496,19 @@ Other387_cip
 > BEGIN STRING
 平原と丘で採れたブルーベリーのレアチーズケーキ。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+A rare cheesecake made with blueberries picked from the plains and hills.
 > END STRING
 
 > BEGIN STRING
 濃厚なチーズに、甘く粘っこいソースがたまらなく癖になる。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+The rich cheese and sweet, sticky sauce are irresistibly addictive.
 > END STRING
 
 > BEGIN STRING
 トリックローズティー
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Trick Rose Tea
 > END STRING
 
 > BEGIN STRING
@@ -57527,19 +57527,19 @@ Satiety
 > BEGIN STRING
 遊技場の看板メニュー。夢魔が飲むとお腹を満たす効果がある。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+When a succubus drinks it, it has the effect of filling up the stomach.
 > END STRING
 
 > BEGIN STRING
 酸味が効きながらも飲みやすく、リラックスしたひとときを過ごせる。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+It has a sour taste but is easy to drink, allowing you to spend a relaxing time.
 > END STRING
 
 > BEGIN STRING
 エンジェリック・パンケーキ
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Angelic Pancakes
 > END STRING
 
 > BEGIN STRING
@@ -57551,19 +57551,19 @@ Other085_cip
 > BEGIN STRING
 天界から伝わったとされる、ふんわりとしたパンケーキ。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+These fluffy pancakes are said to have been brought down from heaven.
 > END STRING
 
 > BEGIN STRING
 とろりとした蜂蜜に、生地は口溶けの良い舌触りでまるで天に昇るような気分に。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+The thick honey and the dough melt in your mouth, making you feel heaven.
 > END STRING
 
 > BEGIN STRING
 桃の液体
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Peach liquid
 > END STRING
 
 > BEGIN STRING
@@ -57575,13 +57575,13 @@ Other046_00
 > BEGIN STRING
 職人が生み出した、なんだかよくわからない液体。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+A mysterious liquid created by a craftsman.
 > END STRING
 
 > BEGIN STRING
 怪しい…。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Suspicious….
 > END STRING
 
 > BEGIN STRING
@@ -57733,7 +57733,7 @@ Other046_11
 > BEGIN STRING
 雪国のクリームシチュー
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Snowland Cream Stew
 > END STRING
 
 > BEGIN STRING
@@ -57745,19 +57745,19 @@ Other073_cip
 > BEGIN STRING
 サンタさんが客人に振る舞うとされるクリームシチュー。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Cream stew is said to be what Santa serves to his guests.
 > END STRING
 
 > BEGIN STRING
 沢山の具に濃厚クリームで、体の芯から温まる。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+With plenty of ingredients and rich cream, it will warm you inside out.
 > END STRING
 
 > BEGIN STRING
 サンタさんの贈り物
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Santa's Gift
 > END STRING
 
 > BEGIN STRING
@@ -57769,13 +57769,13 @@ food_006b
 > BEGIN STRING
 クリスマスに作られる木を模したロールケーキ
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+A Christmas roll cake made to resemble a tree
 > END STRING
 
 > BEGIN STRING
 ふんわりスポンジと甘酸っぱい苺でクリスマスを飾る。
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Decorate for Christmas with fluffy sponge and sweet and sour strawberries.
 > END STRING
 
 > BEGIN STRING
@@ -59141,7 +59141,7 @@ Audio/SE/139-Darkness02
 > BEGIN STRING
 #{battler.name}は相手を驚かせた！\w\q
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{battler.name} surprised the opponent! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -59817,27 +59817,27 @@ with a knowing look
 > END STRING
 
 > BEGIN STRING
-慣れた手つきで
+"慣れた手つきで"
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-skillfully 
+"skillfully "
 > END STRING
 
 > BEGIN STRING
-勢い良く
+"勢い良く"
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-vigorously 
+"vigorously "
 > END STRING
 
 > BEGIN STRING
-楽しげに
+"楽しげに"
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-pleasurably 
+"pleasurably "
 > END STRING
 
 > BEGIN STRING
-のんびりと
+"のんびりと"
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-relaxedly 
+"relaxedly "
 > END STRING
 
 > BEGIN STRING
@@ -69707,7 +69707,7 @@ Poison is draining #{myname}'s strength!
 > BEGIN STRING
 #{myname}はだらけている…
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} is lazy...
 > END STRING
 
 > BEGIN STRING

@@ -540,47 +540,47 @@
 
 > BEGIN STRING
 ヒールクリスタルだ
-> CONTEXT: Map850/events/11/pages/0/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map770/events/64/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map624/events/5/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map622/events/45/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map602/events/6/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map599/events/11/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map598/events/16/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map597/events/10/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map596/events/11/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map595/events/11/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map594/events/12/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map591/events/23/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map593/events/34/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map592/events/90/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map102/events/10/pages/0/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map103/events/27/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map103/events/29/pages/0/17/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map850/events/11/pages/0/3/Dialogue
+> CONTEXT: Map770/events/64/pages/0/0/Dialogue
+> CONTEXT: Map624/events/5/pages/0/0/Dialogue
+> CONTEXT: Map622/events/45/pages/0/0/Dialogue
+> CONTEXT: Map602/events/6/pages/0/0/Dialogue
+> CONTEXT: Map599/events/11/pages/0/0/Dialogue
+> CONTEXT: Map598/events/16/pages/0/0/Dialogue
+> CONTEXT: Map597/events/10/pages/0/0/Dialogue
+> CONTEXT: Map596/events/11/pages/0/0/Dialogue
+> CONTEXT: Map595/events/11/pages/0/0/Dialogue
+> CONTEXT: Map594/events/12/pages/0/0/Dialogue
+> CONTEXT: Map591/events/23/pages/0/0/Dialogue
+> CONTEXT: Map593/events/34/pages/0/0/Dialogue
+> CONTEXT: Map592/events/90/pages/0/0/Dialogue
+> CONTEXT: Map102/events/10/pages/0/3/Dialogue
+> CONTEXT: Map103/events/27/pages/0/0/Dialogue
+> CONTEXT: Map103/events/29/pages/0/17/Dialogue
+Heal Crystal
 > END STRING
 
 > BEGIN STRING
 回復しますか？
-> CONTEXT: Map850/events/11/pages/0/4/Dialogue < UNTRANSLATED
-> CONTEXT: Map770/events/64/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map624/events/5/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map622/events/45/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map602/events/6/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map599/events/11/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map598/events/16/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map597/events/10/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map596/events/11/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map595/events/11/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map594/events/12/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map591/events/23/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map593/events/34/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map592/events/90/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map573/events/45/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map102/events/10/pages/0/4/Dialogue < UNTRANSLATED
-> CONTEXT: Map103/events/27/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map103/events/29/pages/0/18/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map850/events/11/pages/0/4/Dialogue
+> CONTEXT: Map770/events/64/pages/0/1/Dialogue
+> CONTEXT: Map624/events/5/pages/0/1/Dialogue
+> CONTEXT: Map622/events/45/pages/0/1/Dialogue
+> CONTEXT: Map602/events/6/pages/0/1/Dialogue
+> CONTEXT: Map599/events/11/pages/0/1/Dialogue
+> CONTEXT: Map598/events/16/pages/0/1/Dialogue
+> CONTEXT: Map597/events/10/pages/0/1/Dialogue
+> CONTEXT: Map596/events/11/pages/0/1/Dialogue
+> CONTEXT: Map595/events/11/pages/0/1/Dialogue
+> CONTEXT: Map594/events/12/pages/0/1/Dialogue
+> CONTEXT: Map591/events/23/pages/0/1/Dialogue
+> CONTEXT: Map593/events/34/pages/0/1/Dialogue
+> CONTEXT: Map592/events/90/pages/0/1/Dialogue
+> CONTEXT: Map573/events/45/pages/0/1/Dialogue
+> CONTEXT: Map102/events/10/pages/0/4/Dialogue
+> CONTEXT: Map103/events/27/pages/0/1/Dialogue
+> CONTEXT: Map103/events/29/pages/0/18/Dialogue
+Will you recover?
 > END STRING
 
 > BEGIN STRING
@@ -588,18 +588,24 @@
 ご心配をおかけして申し訳ありません。
 これからはあの子がサボらないように
 しっかりと見張りますから。
-> CONTEXT: Map850/events/16/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map850/events/16/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I'm sorry for worrying you.
+I'll make sure to keep a close eye on her 
+from now on so she doesn't slack off.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 警備状況、異常なし。
 干渉対策への監視領域構築、異常なし。
-> CONTEXT: Map850/events/17/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map517/events/3/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map517/events/3/pages/2/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map517/events/3/pages/4/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map096/events/62/pages/1/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map850/events/17/pages/0/1/Dialogue
+> CONTEXT: Map517/events/3/pages/0/1/Dialogue
+> CONTEXT: Map517/events/3/pages/2/1/Dialogue
+> CONTEXT: Map517/events/3/pages/4/1/Dialogue
+> CONTEXT: Map096/events/62/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+Security situation: No abnormalities.
+Construction of surveillance area 
+to prevent interference: No abnormalities.
 > END STRING

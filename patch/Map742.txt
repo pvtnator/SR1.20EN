@@ -1,48 +1,52 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "ネブラ"
-> CONTEXT: Map742/events/28/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map742/events/28/pages/0/33/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map742/events/92/pages/1/29/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map742/events/92/pages/1/110/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map742/events/93/pages/1/29/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map742/events/93/pages/1/110/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map742/events/94/pages/1/29/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map742/events/94/pages/1/110/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map742/events/95/pages/1/29/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map742/events/95/pages/1/110/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map742/events/96/pages/1/29/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map742/events/96/pages/1/110/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map742/events/97/pages/1/29/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map742/events/97/pages/1/110/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map742/events/99/pages/1/29/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map742/events/99/pages/1/110/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map508/events/7/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map508/events/7/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map742/events/28/pages/0/0/InlineScript/1:22
+> CONTEXT: Map742/events/28/pages/0/33/InlineScript/1:22
+> CONTEXT: Map742/events/92/pages/1/29/InlineScript/1:22
+> CONTEXT: Map742/events/92/pages/1/110/InlineScript/1:22
+> CONTEXT: Map742/events/93/pages/1/29/InlineScript/1:22
+> CONTEXT: Map742/events/93/pages/1/110/InlineScript/1:22
+> CONTEXT: Map742/events/94/pages/1/29/InlineScript/1:22
+> CONTEXT: Map742/events/94/pages/1/110/InlineScript/1:22
+> CONTEXT: Map742/events/95/pages/1/29/InlineScript/1:22
+> CONTEXT: Map742/events/95/pages/1/110/InlineScript/1:22
+> CONTEXT: Map742/events/96/pages/1/29/InlineScript/1:22
+> CONTEXT: Map742/events/96/pages/1/110/InlineScript/1:22
+> CONTEXT: Map742/events/97/pages/1/29/InlineScript/1:22
+> CONTEXT: Map742/events/97/pages/1/110/InlineScript/1:22
+> CONTEXT: Map742/events/99/pages/1/29/InlineScript/1:22
+> CONTEXT: Map742/events/99/pages/1/110/InlineScript/1:22
+> CONTEXT: Map508/events/7/pages/0/0/InlineScript/1:22
+> CONTEXT: Map508/events/7/pages/1/0/InlineScript/1:22
+"Nebula"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あれから他の人にも試してみたのですが
 だれもおどろいてはくれませんでした・・・
-> CONTEXT: Map742/events/28/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map742/events/28/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I've tried it on other people since then,
+but no one was surprised...
 > END STRING
 
 > BEGIN STRING
 ネブラと再戦しますか？
-> CONTEXT: Map742/events/28/pages/0/4/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/28/pages/1/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map742/events/28/pages/0/4/Dialogue
+> CONTEXT: Map742/events/28/pages/1/0/Dialogue
+Would you like to fight Nebula again?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ひんやりした手でくびすじを・・・
 いや・・・でも・・・
-> CONTEXT: Map742/events/28/pages/0/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map742/events/28/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+Rub your neck with your cool hands...
+No... but...
 > END STRING
 
 > BEGIN STRING
@@ -50,83 +54,94 @@
 そうですか。
 では私はふたたびおどろかせる方法を
 考えてみます。
-> CONTEXT: Map742/events/28/pages/0/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map742/events/28/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+I see.
+Then I'll think of a way to surprise you again.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 う～む・・・
 もう開き直って落とし穴でも掘りましょうかね？
-> CONTEXT: Map742/events/28/pages/0/34/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map742/events/28/pages/0/34/Dialogue
+\\name[\\v[2]]\\_
+Hmm~...
+Should I just give up and dig a trap?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 う～ら～め～し～や～
-> CONTEXT: Map742/events/92/pages/1/30/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/93/pages/1/30/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/94/pages/1/30/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/95/pages/1/30/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/96/pages/1/30/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/97/pages/1/30/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/99/pages/1/30/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map742/events/92/pages/1/30/Dialogue
+> CONTEXT: Map742/events/93/pages/1/30/Dialogue
+> CONTEXT: Map742/events/94/pages/1/30/Dialogue
+> CONTEXT: Map742/events/95/pages/1/30/Dialogue
+> CONTEXT: Map742/events/96/pages/1/30/Dialogue
+> CONTEXT: Map742/events/97/pages/1/30/Dialogue
+> CONTEXT: Map742/events/99/pages/1/30/Dialogue
+\\name[\\v[2]]\\_
+So~ jealous~
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 おや、おかしいですね？
 あまり驚かれていないようす。
-> CONTEXT: Map742/events/92/pages/1/33/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/93/pages/1/33/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/94/pages/1/33/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/95/pages/1/33/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/96/pages/1/33/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/97/pages/1/33/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/99/pages/1/33/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map742/events/92/pages/1/33/Dialogue
+> CONTEXT: Map742/events/93/pages/1/33/Dialogue
+> CONTEXT: Map742/events/94/pages/1/33/Dialogue
+> CONTEXT: Map742/events/95/pages/1/33/Dialogue
+> CONTEXT: Map742/events/96/pages/1/33/Dialogue
+> CONTEXT: Map742/events/97/pages/1/33/Dialogue
+> CONTEXT: Map742/events/99/pages/1/33/Dialogue
+\\name[\\v[2]]\\_
+Oh, that's strange.
+You don't seem all that surprised.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ならば・・・
-> CONTEXT: Map742/events/92/pages/1/36/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/93/pages/1/36/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/94/pages/1/36/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/95/pages/1/36/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/96/pages/1/36/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/97/pages/1/36/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/99/pages/1/36/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map742/events/92/pages/1/36/Dialogue
+> CONTEXT: Map742/events/93/pages/1/36/Dialogue
+> CONTEXT: Map742/events/94/pages/1/36/Dialogue
+> CONTEXT: Map742/events/95/pages/1/36/Dialogue
+> CONTEXT: Map742/events/96/pages/1/36/Dialogue
+> CONTEXT: Map742/events/97/pages/1/36/Dialogue
+> CONTEXT: Map742/events/99/pages/1/36/Dialogue
+\\name[\\v[2]]\\_
+Then...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 なんとかして驚いてもらいますよ～
-> CONTEXT: Map742/events/92/pages/1/66/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/93/pages/1/66/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/94/pages/1/66/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/95/pages/1/66/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/96/pages/1/66/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/97/pages/1/66/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/99/pages/1/66/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map742/events/92/pages/1/66/Dialogue
+> CONTEXT: Map742/events/93/pages/1/66/Dialogue
+> CONTEXT: Map742/events/94/pages/1/66/Dialogue
+> CONTEXT: Map742/events/95/pages/1/66/Dialogue
+> CONTEXT: Map742/events/96/pages/1/66/Dialogue
+> CONTEXT: Map742/events/97/pages/1/66/Dialogue
+> CONTEXT: Map742/events/99/pages/1/66/Dialogue
+\\name[\\v[2]]\\_
+I'll surprise you somehow~
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 う～む・・・
 なんで驚いてもらえなかったんでしょうね？
-> CONTEXT: Map742/events/92/pages/1/111/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/93/pages/1/111/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/94/pages/1/111/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/95/pages/1/111/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/96/pages/1/111/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/97/pages/1/111/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/99/pages/1/111/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map742/events/92/pages/1/111/Dialogue
+> CONTEXT: Map742/events/93/pages/1/111/Dialogue
+> CONTEXT: Map742/events/94/pages/1/111/Dialogue
+> CONTEXT: Map742/events/95/pages/1/111/Dialogue
+> CONTEXT: Map742/events/96/pages/1/111/Dialogue
+> CONTEXT: Map742/events/97/pages/1/111/Dialogue
+> CONTEXT: Map742/events/99/pages/1/111/Dialogue
+\\name[\\v[2]]\\_
+Hmm...
+I wonder why you weren't surprised?
 > END STRING
 
 > BEGIN STRING
@@ -134,34 +149,39 @@
 ・・・鍵？
 ・・・ああ、忘れてました
 これですね。
-> CONTEXT: Map742/events/92/pages/1/115/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/93/pages/1/115/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/94/pages/1/115/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/95/pages/1/115/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/96/pages/1/115/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/97/pages/1/115/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/99/pages/1/115/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map742/events/92/pages/1/115/Dialogue
+> CONTEXT: Map742/events/93/pages/1/115/Dialogue
+> CONTEXT: Map742/events/94/pages/1/115/Dialogue
+> CONTEXT: Map742/events/95/pages/1/115/Dialogue
+> CONTEXT: Map742/events/96/pages/1/115/Dialogue
+> CONTEXT: Map742/events/97/pages/1/115/Dialogue
+> CONTEXT: Map742/events/99/pages/1/115/Dialogue
+\\name[\\v[2]]\\_
+...Key?
+...Ah, I forgot
+Here it is.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 では、また。
 次はおどろかせますよ…たぶん・・・
-> CONTEXT: Map742/events/92/pages/1/126/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/93/pages/1/126/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/94/pages/1/126/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/95/pages/1/126/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/96/pages/1/126/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/97/pages/1/126/Dialogue < UNTRANSLATED
-> CONTEXT: Map742/events/99/pages/1/126/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map742/events/92/pages/1/126/Dialogue
+> CONTEXT: Map742/events/93/pages/1/126/Dialogue
+> CONTEXT: Map742/events/94/pages/1/126/Dialogue
+> CONTEXT: Map742/events/95/pages/1/126/Dialogue
+> CONTEXT: Map742/events/96/pages/1/126/Dialogue
+> CONTEXT: Map742/events/97/pages/1/126/Dialogue
+> CONTEXT: Map742/events/99/pages/1/126/Dialogue
+\\name[\\v[2]]\\_
+See you next time.
+I'll surprise you next time...maybe...
 > END STRING
 
 > BEGIN STRING
 採取ポイントにワーキャットが潜んでいた！
-> CONTEXT: Map742/events/125/pages/0/36/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map742/events/125/pages/0/36/Dialogue
+A werecat was lurking at the collection point!
 > END STRING
 
 > BEGIN STRING

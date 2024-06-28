@@ -1,23 +1,25 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "教育係"
-> CONTEXT: Map646/events/21/pages/0/1/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map646/events/21/pages/0/1/InlineScript/1:22
+"Education Officer"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そこは滑らかに…次は素早くターンっ！
 表情は柔らかく、流し目も忘れずにですよ。
-> CONTEXT: Map646/events/21/pages/0/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map646/events/21/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+That part should be smooth... and then a quick turn!
+Keep the expression soft, and don't forget to glance sideways.
 > END STRING
 
 > BEGIN STRING
 "ナマケメイド"
-> CONTEXT: Map646/events/22/pages/0/1/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map646/events/24/pages/0/1/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map646/events/22/pages/0/1/InlineScript/1:22
+> CONTEXT: Map646/events/24/pages/0/1/InlineScript/1:22
+"Sloth Maid"
 > END STRING
 
 > BEGIN STRING
@@ -25,14 +27,17 @@
 特訓大変そうですぇ…ボリボリ…
 …見た目だけではアイドルやれないなんて
 世知辛いです…ムシャムシャ…
-> CONTEXT: Map646/events/22/pages/0/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map646/events/22/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+The training seems really hard... crunch crunch...
+...it's a cruel world, 
+you can't be an idol just by looking good... chomp chomp...
 > END STRING
 
 > BEGIN STRING
 "古参メイド"
-> CONTEXT: Map646/events/23/pages/0/1/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map646/events/23/pages/0/1/InlineScript/1:22
+"Veteran Maid"
 > END STRING
 
 > BEGIN STRING
@@ -40,22 +45,26 @@
 メイド長もこちらに赴いて教育して下さいますが
 先代メイド長はいつになられたら
 お戻りになるのでしょうか…
-> CONTEXT: Map646/events/23/pages/0/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map646/events/23/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+The head maid will also come here to train,
+but I wonder when the previous head maid will return...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あぁ、今となってはあの方が語って下さった
 小話が懐かしいです…
-> CONTEXT: Map646/events/23/pages/0/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map646/events/23/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+Ah, now I feel nostalgic for the little stories she told me...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 つ、づがれだ～…
 今日の教育係さん厳しすぎますよぅ…
-> CONTEXT: Map646/events/24/pages/0/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map646/events/24/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+The instructor was too strict today...
 > END STRING

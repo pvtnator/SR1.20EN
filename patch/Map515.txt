@@ -1,16 +1,18 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 エリスと再戦しますか？
-> CONTEXT: Map515/events/5/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/5/pages/0/0/Dialogue
+Would you like to have a rematch with Eris?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ、ようこそ常夜の街の主の家へ。
 歓迎するわよ\\H
-> CONTEXT: Map515/events/6/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hehe, welcome to the home of the Lord of the Evernight City.
+You're welcome\\H
 > END STRING
 
 > BEGIN STRING
@@ -18,8 +20,10 @@
 だけど、あなたの目的のお母様は
 いつもこの上の層にいて
 まだ会うことはできないのよね。
-> CONTEXT: Map515/events/6/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+But mother is always on this upper level, 
+and you still can't meet her.
 > END STRING
 
 > BEGIN STRING
@@ -27,64 +31,79 @@
 ふふふっ、お母様に会いたい？
 大丈夫よ、ちゃんと手順を踏めば
 会わせてあげるわ。
-> CONTEXT: Map515/events/6/pages/0/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+Hehe, do you want to meet mother?
+Don't worry, if you follow the proper procedures
+I'll let you meet her.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 手順といっても難しいことではなくて
 常夜の街の鍵をあと3つ集めるだけでいいの。
-> CONTEXT: Map515/events/6/pages/0/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+The steps aren't difficult,
+you just need to collect 3 more keys Evernight Keys.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そのうち2つは姉妹たちが持ってるのだけど
 色々あって、常夜の街にいないの。
-> CONTEXT: Map515/events/6/pages/0/15/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/0/15/Dialogue
+\\name[\\v[2]]\\_
+Two of them are in the possession of my sisters,
+but due to various reasons, they are not in Evernight City.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 彼女たちは銀色の都市にいることは
 わかってはいるの。
-> CONTEXT: Map515/events/6/pages/0/18/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/0/18/Dialogue
+\\name[\\v[2]]\\_
+I know they're in Silver City.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 だから、探して
 鍵をもらってきてくれないかしら？
-> CONTEXT: Map515/events/6/pages/0/21/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/0/21/Dialogue
+\\name[\\v[2]]\\_
+So, could you go find it and get me the keys?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 2つの鍵を持ってきたら
 最後の鍵について教えるわ。
-> CONTEXT: Map515/events/6/pages/0/24/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/0/24/Dialogue
+\\name[\\v[2]]\\_
+If you bring me the 2 keys,
+I'll tell you about the last key.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 私もお母様も、
 銀色の都市に行ってしまった姉妹たちには困っているのよ。
-> CONTEXT: Map515/events/6/pages/1/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+Both mother and I are troubled 
+by the sisters who went to Silver City.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 彼女たちの場所？
 悪いけど、詳しいことはわからないわ。
-> CONTEXT: Map515/events/6/pages/1/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/1/4/Dialogue
+\\name[\\v[2]]\\_
+Where are they?
+Sorry, I don't know the details.
 > END STRING
 
 > BEGIN STRING
@@ -92,47 +111,57 @@
 だけど、麓の街に銀色の都市から来た
 コウモリがいるって聞いているわ。
 その子なら何か知っているんじゃない？
-> CONTEXT: Map515/events/6/pages/1/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/1/7/Dialogue
+\\name[\\v[2]]\\_
+But I heard there's a bat from Silver City 
+in the town at the foot of the mountain.
+Maybe it knows something about it?
 > END STRING
 
 > BEGIN STRING
 "ブルヘリア"
-> CONTEXT: Map515/events/6/pages/2/0/InlineScript/2:22 < UNTRANSLATED
-> CONTEXT: Map515/events/6/pages/2/61/InlineScript/2:22 < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/2/0/InlineScript/2:22
+> CONTEXT: Map515/events/6/pages/2/61/InlineScript/2:22
+"Bruhelia"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 おかえりなさい\\H
 どうやら無事に鍵が見つかったみたいね。
-> CONTEXT: Map515/events/6/pages/2/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/2/8/Dialogue
+\\name[\\v[2]]\\_
+Welcome back\\H
+It looks like you managed to find the key.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 予想はしてると思うけど
 最後の鍵は私が持ってるわ。
-> CONTEXT: Map515/events/6/pages/2/11/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/2/11/Dialogue
+\\name[\\v[2]]\\_
+As you may have guessed,
+I have the last key.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あなたの実力を私に認めさせなさい。
 そうすれば鍵を渡してあげる。
-> CONTEXT: Map515/events/6/pages/2/14/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/2/14/Dialogue
+\\name[\\v[2]]\\_
+Make me realize your abilities.
+Then I'll give you the key.
 > END STRING
 
 > BEGIN STRING
 \\name[？？？]\\_
 お姉さま。私もそれに参加して
 いいですかぁ？
-> CONTEXT: Map515/events/6/pages/2/17/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/2/17/Dialogue
+\\name[???]\\_
+Sis, can I join in too?
 > END STRING
 
 > BEGIN STRING
@@ -140,8 +169,11 @@
 構わないわよ。
 あなたも最近は仕事ばっかりだったし
 気分転換にちょうどいいでしょう。
-> CONTEXT: Map515/events/6/pages/2/35/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/2/35/Dialogue
+\\name[\\v[2]]\\_
+I don't mind.
+You've been busy with work lately,
+so this will be a good change of pace.
 > END STRING
 
 > BEGIN STRING
@@ -149,31 +181,38 @@
 かしこまりましたぁ\\H
 ふふふっ\\H い～っぱい気持ちよくして
 あげますからねぇ\\H
-> CONTEXT: Map515/events/6/pages/2/41/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/2/41/Dialogue
+\\name[\\v[3]]\\_
+I understand\\H
+Hehehe\\H I'll make you feel great\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 それじゃあ、始めましょう\\H
 ふふっ、楽しくなってきたわ\\H
-> CONTEXT: Map515/events/6/pages/2/45/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/2/45/Dialogue
+\\name[\\v[2]]\\_
+Well then, let's get started\\H
+Hehe, this is getting fun\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 はぁ～、しあわせですぅ～\\H
-> CONTEXT: Map515/events/6/pages/2/63/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/2/63/Dialogue
+\\name[\\v[3]]\\_
+Ahh, I'm so happy\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 やっぱり、お母様が見込んだだけあって
 素晴らしい実力の持ち主ね。
-> CONTEXT: Map515/events/6/pages/2/79/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/2/79/Dialogue
+\\name[\\v[2]]\\_
+As expected, mother had high hopes for you,
+and you have amazing skills.
 > END STRING
 
 > BEGIN STRING
@@ -181,30 +220,37 @@
 それじゃあ、鍵を渡すわね。
 これをもって街の北に行けば
 お母様のいる場所に行けるわ。
-> CONTEXT: Map515/events/6/pages/2/82/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/2/82/Dialogue
+\\name[\\v[2]]\\_
+Well then, I'll give you the key.
+Take this and go north of town
+and you'll be able to get to where mother is.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 お母様によろしくね\\H
-> CONTEXT: Map515/events/6/pages/2/94/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/2/94/Dialogue
+\\name[\\v[2]]\\_
+Please say hello to mother\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ、頑張ってるわね。
-> CONTEXT: Map515/events/6/pages/3/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/3/1/Dialogue
+\\name[\\v[2]]\\_
+Hehe, you're doing great.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あなた、私と契約を結びなさい。
 私の望む時に精を捧げるのよ\\H
-> CONTEXT: Map515/events/6/pages/4/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/4/1/Dialogue
+\\name[\\v[2]]\\_
+You make a contract with me.
+You will give me your energy whenever I want\\H
 > END STRING
 
 > BEGIN STRING
@@ -212,21 +258,26 @@
 ……もちろん対価として、
 このカラダで快楽を与えてあげる\\H
 ふふっ、断ったりしないわよね……？
-> CONTEXT: Map515/events/6/pages/4/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/4/4/Dialogue
+\\name[\\v[2]]\\_
+...Of course, in return,
+I'll give you pleasure with my body\\H
+Hehe, you won't refuse, right...?
 > END STRING
 
 > BEGIN STRING
 ユニークサキュバス、エリスと契約しますか？
-> CONTEXT: Map515/events/6/pages/4/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/4/8/Dialogue
+Would you like to make a contract 
+with the unique succubus, Eris?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\
 あら？契約数がいっぱいじゃない。
-> CONTEXT: Map515/events/6/pages/4/13/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/4/13/Dialogue
+\\name[\\v[2]]\\
+Oh? You have too many contracts.
 > END STRING
 
 > BEGIN STRING
@@ -234,39 +285,44 @@
 ふふ、賢明ね\\H
 何か困っていれば言いなさい。
 私のこの力で助けてあげるわ\\H
-> CONTEXT: Map515/events/6/pages/4/18/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/4/18/Dialogue
+\\name[\\v[2]]\\_
+Fufu, you're wise\\H
+If you're having trouble, tell me.
+I'll use my power to help you\\H
 > END STRING
 
 > BEGIN STRING
 エリスと契約を交わした！\\|\\|
-> CONTEXT: Map515/events/6/pages/4/23/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/4/23/Dialogue
+Made a contract with Eris! \\|\\|
 > END STRING
 
 > BEGIN STRING
 エリスをホームに迎え入れた！
-> CONTEXT: Map515/events/6/pages/4/32/Dialogue < UNTRANSLATED
-> CONTEXT: Map515/events/6/pages/4/43/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/4/32/Dialogue
+> CONTEXT: Map515/events/6/pages/4/43/Dialogue
+Welcomed Eris to Home!
 > END STRING
 
 > BEGIN STRING
 エリスがパーティに加わった！
-> CONTEXT: Map515/events/6/pages/4/39/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/4/39/Dialogue
+Eris has joined the party!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふーん……生意気ね。
 せっかくこの私が同行してあげようと思ったのに…
-> CONTEXT: Map515/events/6/pages/4/55/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/6/pages/4/55/Dialogue
+\\name[\\v[2]]\\_
+Hmm... how rude.
+I was hoping to accompany you...
 > END STRING
 
 > BEGIN STRING
 メイドは淡々と作業をしている。
-> CONTEXT: Map515/events/39/pages/0/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map515/events/39/pages/0/3/Dialogue
+The maid is working calmly.
 > END STRING

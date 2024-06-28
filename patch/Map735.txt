@@ -3,24 +3,31 @@
 \\name[\\v[2]]\\_
 いらっしゃい
 堅苦しいのはなしで、ゆっくりしていきな。
-> CONTEXT: Map735/events/6/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/6/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Welcome
+No need to be strict, just relax and enjoy yourself.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 おやおや、辺鄙なところによくきたねぇ
 見たところ冒険者の坊ちゃんかえ？
-> CONTEXT: Map735/events/7/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/7/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Oh my, you came to such a remote place
+From the looks of it, you're a young adventurer, aren't you?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 寝泊りするところがないなら奥に
 控室があるから好きに使いなさい
-> CONTEXT: Map735/events/7/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/7/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+If you don't have a place to stay, 
+there's a waiting room in the back, 
+so feel free to use it as you like.
 > END STRING
 
 > BEGIN STRING
@@ -28,8 +35,11 @@
 流石に夢魔の家に泊まったら
 骨抜きにされてしまうからねえ…
 フェーフェッフェっ
-> CONTEXT: Map735/events/7/pages/0/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/7/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+If you stay at a succubus' house,
+you'll be completely drained...
+Fee-fe-fe
 > END STRING
 
 > BEGIN STRING
@@ -37,55 +47,68 @@
 どうだい？冒険は順調かね。
 それとも夢魔に魅了されて冒険どころじゃ
 なくなってしまったかね？
-> CONTEXT: Map735/events/7/pages/1/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map735/events/7/pages/2/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/7/pages/1/1/Dialogue
+> CONTEXT: Map735/events/7/pages/2/1/Dialogue
+\\name[\\v[2]]\\_
+How is your adventure going?
+Or have you been so bewitched by succubi 
+that you can't concentrate on your adventure?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 いらっしゃいませ、お客様。
 ご注文をどうぞ
-> CONTEXT: Map735/events/8/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/8/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Welcome, customer.
+Please place your order.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 未開の遺跡があると聞いて来たけれど
 予想通り冒険者が多いわねえ
-> CONTEXT: Map735/events/14/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/14/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I heard there are unexplored ruins here,
+but as expected, there are a lot of adventurers here.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 未開の遺跡には強力な夢魔がいるらしい、
 まあそもそも町にいる夢魔達はその一部だけど
-> CONTEXT: Map735/events/15/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/15/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+It seems that there are powerful succubi in the unexplored ruins,
+though the succubi in the town are just a part of them anyway.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふぅ、ここまで来るのに大変だったよ、
 まずは一服して準備を整えよう
-> CONTEXT: Map735/events/16/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/16/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Phew, it was hard getting here,
+so let's take a break and get ready first.
 > END STRING
 
 > BEGIN STRING
 "衛兵"
-> CONTEXT: Map735/events/18/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map735/events/18/pages/0/0/InlineScript/1:22
+"Guard"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 銀の都市から調査で来ておりますが、
 この街は危険な香りがするであります！
-> CONTEXT: Map735/events/18/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/18/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I've come from the Silver City to investigate,
+and this town smells dangerous!
 > END STRING
 
 > BEGIN STRING
@@ -93,16 +116,21 @@
 ぐるっとこの街を見てきたけど
 自由の街って言っても
 それなりに規律はあるようね
-> CONTEXT: Map735/events/19/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/19/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I've looked around this city,
+but even though it's called the city of freedom,
+it seems like there's still a certain amount of discipline.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 …だからって油断すると
 火傷じゃすまなくなるっぽいけどね
-> CONTEXT: Map735/events/19/pages/0/5/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/19/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+...But if you let your guard down,
+it looks like it might not end with just a burn.
 > END STRING
 
 > BEGIN STRING
@@ -110,16 +138,21 @@
 人間が落ち着いて休める場所はここだけだな
 宿も比較的安全だが、部屋を間違えた時の
 ことを考えるとな…
-> CONTEXT: Map735/events/20/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/20/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+This is the only place where humans can relax and rest.
+The inn is relatively safe, 
+but if you get into the wrong room...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 この街では夢魔の住居に一人で入ったら
 何があっても自己責任だから気を付けて。
-> CONTEXT: Map735/events/28/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/28/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+In this city, if you enter a succubus' dwelling alone,
+you're responsible for anything that happens, so be careful.
 > END STRING
 
 > BEGIN STRING
@@ -352,56 +385,68 @@ Hahaha
 \\name[\\v[2]]\\_
 この街の夢魔達はみんな一人の夢魔から
 生まれたらしいわ。
-> CONTEXT: Map735/events/33/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/33/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+It seems that all the succubi in this town 
+were born from succubi.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 それで親子の絆が契約に近い働きをしていて
 この街の夢魔達とは契約ができないみたい。
-> CONTEXT: Map735/events/33/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/33/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+So the bond between parent and child acts like a contract,
+and it seems like you can't make a contract 
+with the succubi in this town.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 お母さんの許可が下りれば
 契約できるのかしらね？
-> CONTEXT: Map735/events/33/pages/0/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/33/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+I wonder if a contract is possible
+with the mother's permission?
 > END STRING
 
 > BEGIN STRING
 "コウモリ"
-> CONTEXT: Map735/events/34/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map735/events/34/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/0/InlineScript/1:22
+> CONTEXT: Map735/events/34/pages/1/0/InlineScript/1:22
+"Bat"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 おおっと、ご主人。
 情報を集めてきやしたぜ。
-> CONTEXT: Map735/events/34/pages/0/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map735/events/34/pages/0/56/Dialogue < UNTRANSLATED
-> CONTEXT: Map735/events/34/pages/1/10/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/15/Dialogue
+> CONTEXT: Map735/events/34/pages/0/56/Dialogue
+> CONTEXT: Map735/events/34/pages/1/10/Dialogue
+\\name[\\v[2]]\\_
+Oh, master.
+I've gathered some information.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 御苦労。
-> CONTEXT: Map735/events/34/pages/0/18/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/18/Dialogue
+\\name[\\v[3]]\\_
+Thank you for your hard work.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ･･･ああ、こいつは私の使い魔だ。
 なんでも聞くがいい。
-> CONTEXT: Map735/events/34/pages/0/20/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/20/Dialogue
+\\name[\\v[3]]\\_
+...Ah, this is my familiar.
+Ask me anything.
 > END STRING
 
 > BEGIN STRING
@@ -409,87 +454,103 @@ Hahaha
 どういうことかだと？
 なに、私は以前、あのシスターに命じられて
 この街の調査をしていたのだ。
-> CONTEXT: Map735/events/34/pages/0/23/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/23/Dialogue
+\\name[\\v[3]]\\_
+What do you mean?
+I was previously ordered by Sister to investigate this city.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 この街はずっと夜だからな。
 私には非常に合っている。だいぶ過ごしやすかったぞ。
-> CONTEXT: Map735/events/34/pages/0/27/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/27/Dialogue
+\\name[\\v[3]]\\_
+It's always night in this city.
+It suits me very well. I've found it quite comfortable.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 なぜ銀色の都市に戻ったのかだと？
 馬鹿を言え、友人を放っておくわけにもいくまい。
-> CONTEXT: Map735/events/34/pages/0/30/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/30/Dialogue
+\\name[\\v[3]]\\_
+Why return to the Silver City?
+Don't be stupid, I couldn't just abandon my friend.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ケケケッ･･･
 オレはノスフェラトゥ様の使いさ。
-> CONTEXT: Map735/events/34/pages/0/37/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/37/Dialogue
+\\name[\\v[2]]\\_
+Kekekeke...
+I am Nosferatu's servant.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ご主人はあのシスターに命じられて
 この街の調査をしてたんだわ。
-> CONTEXT: Map735/events/34/pages/0/40/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/40/Dialogue
+\\name[\\v[2]]\\_
+Lord was investigating this town at the behest of Sister.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 夜だから過ごしやすかったってのもあるがな。
 ケケッ･･･そう、この街はずーっと夜だ。
-> CONTEXT: Map735/events/34/pages/0/43/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/43/Dialogue
+\\name[\\v[2]]\\_
+It was also comfortable because it was night.
+Hehe... Yes, it's always night in this city.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 いくつか分かったこともあるからな。
 何か聞きたいことがあれば教えてやってもいいぜ。
-> CONTEXT: Map735/events/34/pages/0/46/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/46/Dialogue
+\\name[\\v[2]]\\_
+I've learned a few things.
+If you have any questions, I'll be happy to help.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 御苦労。聞かせてみるがいい。
-> CONTEXT: Map735/events/34/pages/0/59/Dialogue < UNTRANSLATED
-> CONTEXT: Map735/events/34/pages/1/13/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/59/Dialogue
+> CONTEXT: Map735/events/34/pages/1/13/Dialogue
+\\name[\\v[3]]\\_
+Thank you for your hard work. Let me hear it.
 > END STRING
 
 > BEGIN STRING
 この街について
-> CONTEXT: Map735/events/34/pages/0/61/Choice/0 < UNTRANSLATED
-> CONTEXT: Map735/events/34/pages/0/103/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/61/Choice/0
+> CONTEXT: Map735/events/34/pages/0/103/Choice/0
+About this city
 > END STRING
 
 > BEGIN STRING
 遺跡の鍵について
-> CONTEXT: Map735/events/34/pages/0/61/Choice/1 < UNTRANSLATED
-> CONTEXT: Map735/events/34/pages/0/103/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/61/Choice/1
+> CONTEXT: Map735/events/34/pages/0/103/Choice/1
+About the Ruins Key
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 この街は夢の魔力で満たされてるからな。
 夢魔は空腹にならないぜ。
-> CONTEXT: Map735/events/34/pages/0/63/Dialogue < UNTRANSLATED
-> CONTEXT: Map735/events/34/pages/0/105/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/63/Dialogue
+> CONTEXT: Map735/events/34/pages/0/105/Dialogue
+\\name[\\v[2]]\\_
+This town is filled with dream magic.
+Dreams never go hungry.
 > END STRING
 
 > BEGIN STRING
@@ -497,9 +558,12 @@ Hahaha
 まあ、腹は減らずとも襲ってくるのが夢魔だけどな。
 契約者のアンタが世話する必要はないってことだ。
 その点は銀色の都市と同じだな。
-> CONTEXT: Map735/events/34/pages/0/66/Dialogue < UNTRANSLATED
-> CONTEXT: Map735/events/34/pages/0/108/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/66/Dialogue
+> CONTEXT: Map735/events/34/pages/0/108/Dialogue
+\\name[\\v[2]]\\_
+Well, succubi attack even when they're not hungry.
+That means you, as the contractor, don't need to take care of them.
+In that respect, they're just like the Silver City.
 > END STRING
 
 > BEGIN STRING
@@ -507,9 +571,12 @@ Hahaha
 ただ、この街の仕組みは銀色の都市よりもエグいぜ。
 街全体の魔力を賄うため、
 人間やよその夢魔からかなりの量を搾ってるらしい。
-> CONTEXT: Map735/events/34/pages/0/70/Dialogue < UNTRANSLATED
-> CONTEXT: Map735/events/34/pages/0/112/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/70/Dialogue
+> CONTEXT: Map735/events/34/pages/0/112/Dialogue
+\\name[\\v[2]]\\_
+However, the way this town works is even crueler than the Silver City.
+To supply the entire town with magical power, it seems they extract 
+a considerable amount from humans and other succubi.
 > END STRING
 
 > BEGIN STRING
@@ -517,9 +584,12 @@ Hahaha
 気を付けなきゃならんのが、この街では
 \\c[12]快楽に呑まれると立ち上がる力が失われていく\\c[0]
 どんどん快楽に弱くなっちまうってことだ。
-> CONTEXT: Map735/events/34/pages/0/74/Dialogue < UNTRANSLATED
-> CONTEXT: Map735/events/34/pages/0/116/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/74/Dialogue
+> CONTEXT: Map735/events/34/pages/0/116/Dialogue
+\\name[\\v[2]]\\_
+You have to be careful, because in this city
+\\c[12]if you get consumed by pleasure, you lose some strength\\c[0]
+and you become more and more vulnerable to pleasure.
 > END STRING
 
 > BEGIN STRING
@@ -527,9 +597,12 @@ Hahaha
 快楽に溺れ、この街の虜になってしまった･･･
 なんてことの無いようにな。
 まあ、それも一興だが。ケケケッ。
-> CONTEXT: Map735/events/34/pages/0/78/Dialogue < UNTRANSLATED
-> CONTEXT: Map735/events/34/pages/0/120/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/78/Dialogue
+> CONTEXT: Map735/events/34/pages/0/120/Dialogue
+\\name[\\v[2]]\\_
+I hope you don't get addicted to pleasure 
+and become a slave to this city...
+Well, that's fun too. Hehehe.
 > END STRING
 
 > BEGIN STRING
@@ -537,9 +610,12 @@ Hahaha
 遺跡の鍵を握ってる夢魔は沢山いるらしいぜ。
 それぞれが一本ずつ管理して守ってるらしい。
 まあ、それだけあの遺跡が重要ってことなんだろうけどな。
-> CONTEXT: Map735/events/34/pages/0/84/Dialogue < UNTRANSLATED
-> CONTEXT: Map735/events/34/pages/0/126/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/84/Dialogue
+> CONTEXT: Map735/events/34/pages/0/126/Dialogue
+\\name[\\v[2]]\\_
+Apparently, there are many succubi who hold the keys to the ruins.
+Apparently, each one is guarding and protecting one.
+Well, I guess that just shows how important those ruins are.
 > END STRING
 
 > BEGIN STRING
@@ -547,81 +623,101 @@ Hahaha
 大事なのは\\c[12]単独行動\\c[0]をすることだ。
 そうすりゃ向こうから仕掛けてくるはずだぜ。
 アンタ自身でもいいし、信頼できる仲間に任せてもいい。
-> CONTEXT: Map735/events/34/pages/0/88/Dialogue < UNTRANSLATED
-> CONTEXT: Map735/events/34/pages/0/130/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/88/Dialogue
+> CONTEXT: Map735/events/34/pages/0/130/Dialogue
+\\name[\\v[2]]\\_
+The important thing is to \\c[12]act independently\\c[0].
+If you do that, they'll attack you.
+You can do it yourself, or leave it to a trusted ally.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 いま分かってる限りだと、街の中に3体だな。
 あと、遺跡の浅いところにも居るっぽいぜ。
-> CONTEXT: Map735/events/34/pages/0/92/Dialogue < UNTRANSLATED
-> CONTEXT: Map735/events/34/pages/0/134/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/92/Dialogue
+> CONTEXT: Map735/events/34/pages/0/134/Dialogue
+\\name[\\v[2]]\\_
+As far as I know, there are three in the city.
+It seems there are also some in the shallower parts of the ruins.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ケケケッ･･･なにが聞きたい？
-> CONTEXT: Map735/events/34/pages/0/101/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/0/101/Dialogue
+\\name[\\v[2]]\\_
+Kekekeke... What do you want to know?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ケケケッ･･･
 ニュクスの娘たちの場所が知りたいって？
-> CONTEXT: Map735/events/34/pages/1/17/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/1/17/Dialogue
+\\name[\\v[2]]\\_
+Kekekeke...
+You want to know where Nyx girls are?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そりゃ、ネメシスとヘメテルのことだな。
 どちらも銀色の都市の西区画にいるぜ。
-> CONTEXT: Map735/events/34/pages/1/20/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/1/20/Dialogue
+\\name[\\v[2]]\\_
+You're talking about Nemesis and Hemetel.
+They're both in the western section of the Silver City.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ネメシスはまじめで正義感の強いヤツだ。
 人間に紛れて人助けをしてるらしいぜ。
-> CONTEXT: Map735/events/34/pages/1/23/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/1/23/Dialogue
+\\name[\\v[2]]\\_
+Nemesis is a serious girl with a strong sense of justice.
+She seems to help people while blending in with the humans.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ギルドに行けば、見つかるんじゃねえか？
 裏路地の奥にあるから、見つけにくいかもしれないが。
-> CONTEXT: Map735/events/34/pages/1/26/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/1/26/Dialogue
+\\name[\\v[2]]\\_
+Maybe you can find it if you go to the guild?
+It's in the back alley, so it might be hard to find, though.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ヘメテル・・・これは
 双子のヘメレ、アイテルのユニット名だ。
-> CONTEXT: Map735/events/34/pages/1/29/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/1/29/Dialogue
+\\name[\\v[2]]\\_
+Hemetel... This is
+the compound name of the twins Hemer and Aitel.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 アイドルとしてライブ活動とかしているぜ。
 会場はデカい建物だから行けばすぐにわかる。
-> CONTEXT: Map735/events/34/pages/1/32/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/1/32/Dialogue
+\\name[\\v[2]]\\_
+They perform live as idols.
+The venue is a big building so you'll know it when you get there.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 だけど昼間は警備が厳重で会うのは難しい。
 行くなら夜にするべきだな。
-> CONTEXT: Map735/events/34/pages/1/35/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map735/events/34/pages/1/35/Dialogue
+\\name[\\v[2]]\\_
+But security is tight during the day, so it's difficult to meet up.
+If you go, you should go at night.
 > END STRING
 
 > BEGIN STRING
