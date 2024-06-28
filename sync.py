@@ -45,6 +45,37 @@ def sync(files, update, txstrdir=0):
                 
             outfile.writelines(lines)
 
+def ReduceLinebreaks(file):
+    lines = []
+    with file.open(encoding='utf-8', errors='replace') as f:
+        lines = f.readlines()
+
+    with file.open('w', encoding='utf-8') as outfile:
+        i = 0
+        while i < len(lines):
+            if lines[i].strip() == "> BEGIN STRING":
+                i += 1
+                string = lines[i]
+                i += 1
+                while(lines[i][0] != ">"):
+                    string += lines[i]
+                    i += 1
+                while(lines[i][0] == ">"):
+                    i += 1
+                if lines[i].strip():
+                    if lines[i].count(r"\n")>3:
+                        if "c[" in lines[i]:
+                            lines[i].replace(r"\n　", "", 1)
+                            rindex = lines[i].rfind(r"\n　")
+                            if len(lines[i])-rindex<20:
+                                lines[i] = lines[i][0:rindex]+lines[i][rindex+2:]
+                        
+                i += 2
+            else:
+                i += 1
+            
+        outfile.writelines(lines)
+
 if __name__ == "__main__":
     current_dir = Path.cwd()
     translations = {}
@@ -82,7 +113,8 @@ if __name__ == "__main__":
                 i += 1
 
     print("===Updating mod translations===")
-    sync([current_dir / "mod_scripts.txt"], translations, 0)
-    sync([current_dir / "mod_scripts.txt"], translations, 1)
+    ReduceLinebreaks(current_dir / "talk.txt")
+    #sync([current_dir / "mod_scripts.txt"], translations, 0)
+    #sync([current_dir / "mod_scripts.txt"], translations, 1)
     #sync(main_files, translations, 0)
     #sync(main_files, translations, 1)
