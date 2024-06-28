@@ -1,116 +1,131 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "ナハト"
-> CONTEXT: Map897/events/3/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map896/events/5/pages/0/2/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map897/events/3/pages/0/40/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map897/events/3/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map896/events/5/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map896/events/5/pages/2/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map897/events/3/pages/1/36/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map897/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Map896/events/5/pages/0/2/InlineScript/1:22
+> CONTEXT: Map897/events/3/pages/0/40/InlineScript/1:22
+> CONTEXT: Map897/events/3/pages/1/0/InlineScript/1:22
+> CONTEXT: Map896/events/5/pages/1/0/InlineScript/1:22
+> CONTEXT: Map896/events/5/pages/2/0/InlineScript/1:22
+> CONTEXT: Map897/events/3/pages/1/36/InlineScript/1:22
+"Nacht"
 > END STRING
 
 > BEGIN STRING
 "ニュイ"
-> CONTEXT: Map897/events/3/pages/0/0/InlineScript/2:22 < UNTRANSLATED
-> CONTEXT: Map896/events/3/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map896/events/3/pages/2/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map896/events/3/pages/3/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map897/events/3/pages/0/40/InlineScript/2:22 < UNTRANSLATED
-> CONTEXT: Map897/events/3/pages/1/0/InlineScript/2:22 < UNTRANSLATED
-> CONTEXT: Map897/events/3/pages/1/36/InlineScript/2:22 < UNTRANSLATED
-> CONTEXT: Map897/events/5/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map897/events/3/pages/0/0/InlineScript/2:22
+> CONTEXT: Map896/events/3/pages/1/0/InlineScript/1:22
+> CONTEXT: Map896/events/3/pages/2/0/InlineScript/1:22
+> CONTEXT: Map896/events/3/pages/3/0/InlineScript/1:22
+> CONTEXT: Map897/events/3/pages/0/40/InlineScript/2:22
+> CONTEXT: Map897/events/3/pages/1/0/InlineScript/2:22
+> CONTEXT: Map897/events/3/pages/1/36/InlineScript/2:22
+> CONTEXT: Map897/events/5/pages/0/0/InlineScript/1:22
+"Nyui"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 秘密の修練場へようこそ！
 ここは、殿方に力を与える特殊な場所。
-> CONTEXT: Map897/events/3/pages/0/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map897/events/3/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+Welcome to the secret training ground!
+This is a special place that gives men power.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 私たちが、夜に役立つスキルを
 手取り足取り教えてさしあげますわ。
-> CONTEXT: Map897/events/3/pages/0/5/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map897/events/3/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+We'll teach you step-by-step the skills that will be useful at night.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 それでは、準備はよろしいでしょうか？
-> CONTEXT: Map897/events/3/pages/0/8/Dialogue < UNTRANSLATED
-> CONTEXT: Map897/events/3/pages/1/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map897/events/3/pages/0/8/Dialogue
+> CONTEXT: Map897/events/3/pages/1/4/Dialogue
+\\name[\\v[2]]\\_
+So, are you ready?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ、良いお返事ですわ。
-> CONTEXT: Map897/events/3/pages/0/12/Dialogue < UNTRANSLATED
-> CONTEXT: Map897/events/3/pages/1/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map897/events/3/pages/0/12/Dialogue
+> CONTEXT: Map897/events/3/pages/1/8/Dialogue
+\\name[\\v[2]]\\_
+Haha, that's a good reply.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ……ニュイ、行きますよ。
-> CONTEXT: Map897/events/3/pages/0/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map897/events/3/pages/1/18/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map897/events/3/pages/0/22/Dialogue
+> CONTEXT: Map897/events/3/pages/1/18/Dialogue
+\\name[\\v[2]]\\_
+...Nyui, let's go.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 では\\n[101]様、
 頑張って耐えてくださいね\\H
-> CONTEXT: Map897/events/3/pages/0/28/Dialogue < UNTRANSLATED
-> CONTEXT: Map897/events/3/pages/1/24/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map897/events/3/pages/0/28/Dialogue
+> CONTEXT: Map897/events/3/pages/1/24/Dialogue
+\\name[\\v[3]]\\_
+Then, \\n[101],
+please do your best to endure\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ、素晴らしい上達ぶりですわ。
 自信に満ち溢れているでしょう？
-> CONTEXT: Map897/events/3/pages/0/43/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map897/events/3/pages/0/43/Dialogue
+\\name[\\v[2]]\\_
+Hehe, what amazing progress.
+You're full of confidence, aren't you?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あなたはもう、体得したのですよ。
 夜の技を。
-> CONTEXT: Map897/events/3/pages/0/46/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map897/events/3/pages/0/46/Dialogue
+\\name[\\v[2]]\\_
+You have already mastered the art of the night.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今日はもう疲れたでしょう？
 少し休んでいってくださいませ。
-> CONTEXT: Map897/events/3/pages/0/49/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map897/events/3/pages/0/49/Dialogue
+\\name[\\v[2]]\\_
+You must be tired today.
+Please take a little rest.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 では、準備できましたら
 またお声がけください。
-> CONTEXT: Map897/events/3/pages/0/66/Dialogue < UNTRANSLATED
-> CONTEXT: Map897/events/3/pages/1/58/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map897/events/3/pages/0/66/Dialogue
+> CONTEXT: Map897/events/3/pages/1/58/Dialogue
+\\name[\\v[2]]\\_
+Then, please contact us again when you're ready.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今宵も、夜枷の修練を行ってさしあげましょう。
-> CONTEXT: Map897/events/3/pages/1/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map897/events/3/pages/1/2/Dialogue
+\\name[\\v[2]]\\_
+Tonight, let us practice the nightly arts again.
 > END STRING
 
 > BEGIN STRING
@@ -118,8 +133,11 @@
 ふふっ、素晴らしい上達ぶりですわ。
 今日はもう疲れたでしょう？
 少し休んでいってくださいませ。
-> CONTEXT: Map897/events/3/pages/1/39/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map897/events/3/pages/1/39/Dialogue
+\\name[\\v[2]]\\_
+Hehe, you've made amazing progress.
+You must be tired today.
+Please take a short rest.
 > END STRING
 
 > BEGIN STRING
@@ -127,12 +145,14 @@
 ニュイと申します。
 今夜はたっぷりと貴方様の事を
 鍛えてさしあげますわ。
-> CONTEXT: Map897/events/5/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map897/events/5/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+My name is Nyui.
+Tonight I'll give you plenty of training.
 > END STRING
 
 > BEGIN STRING
 下の階に戻りますか？
-> CONTEXT: Map897/events/8/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map897/events/8/pages/0/0/Dialogue
+Do you want to go back downstairs?
 > END STRING

@@ -2987,14 +2987,14 @@ Please come again anytime.
 
 > BEGIN STRING
 "シークレットラボ"
-> CONTEXT: Commonevents/138/61/InlineScript/1:26 < UNTRANSLATED
+> CONTEXT: Commonevents/138/61/InlineScript/1:26
 "Secret Lab"
 > END STRING
 
 > BEGIN STRING
 "大天使の城"
 > CONTEXT: Commonevents/138/69/InlineScript/1:26 < UNTRANSLATED
-"Archangel Castle"
+
 > END STRING
 
 > BEGIN STRING
@@ -5619,7 +5619,7 @@ Proceed to the realm of \\c[12]\\v[2]\\c[0]? \\c[12]\\v[3]\\c[0]
 > BEGIN STRING
 "２Ｆ　居住エリア"
 > CONTEXT: Commonevents/259/1/InlineScript/2:22
-"2nd Floor Residential Area"
+"2F Residential Area"
 > END STRING
 
 > BEGIN STRING
@@ -5631,13 +5631,13 @@ Proceed to the realm of \\c[12]\\v[2]\\c[0]? \\c[12]\\v[3]\\c[0]
 > BEGIN STRING
 "４Ｆ　封印の間"
 > CONTEXT: Commonevents/259/1/InlineScript/4:22
-"4th Floor, Sealed Room"
+"4F, Sealed Room"
 > END STRING
 
 > BEGIN STRING
 "５Ｆ　セキュリティエリア"
 > CONTEXT: Commonevents/259/1/InlineScript/5:22
-"5th Floor Security Area"
+"5F Security Area"
 > END STRING
 
 > BEGIN STRING
@@ -5655,7 +5655,7 @@ Proceed to the realm of \\c[12]\\v[2]\\c[0]? \\c[12]\\v[3]\\c[0]
 > BEGIN STRING
 "\#{$game_variables[2]}階"
 > CONTEXT: Commonevents/259/7/InlineScript/4:24
-"floor \#{$game_variables[2]}"
+"\#{$game_variables[2]}F"
 > END STRING
 
 > BEGIN STRING
