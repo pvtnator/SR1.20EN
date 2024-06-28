@@ -18,7 +18,7 @@ def replace_strings_in_files(folder_path, mod_path, replace_dict):
                     print(filename+replacement.decode())
                     replaced = True
                     content = content.replace(part, replacement)
-            utf8_parts = re.findall(rb'.\$game_actors\[101\]\.have_ability\?\(".*"\) {0,}', content)
+            utf8_parts = re.findall(rb'.\$game_actors\[101\]\.have_ability\?\("[^;]*"\) {0,}', content)
             for part in utf8_parts:
                 replacement = part[1:]
                 replacement = bytes(chr(len(part)+4),'utf-8')+replacement
