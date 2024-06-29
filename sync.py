@@ -80,13 +80,14 @@ if __name__ == "__main__":
     current_dir = Path.cwd()
     translations = {}
 
-    main_files = [current_dir / "talk.txt"]
-    #for file in (current_dir / "patch").rglob("*.txt"):
-    #    if not "Unused" in str(file) and not "Scripts" in str(file):
-    #        main_files.append(file)
+    source_files = [current_dir / "mod_scripts.txt"]
+    dest_files = []
+    for file in (current_dir / "patch").rglob("*.txt"):
+        if not "Unused" in str(file) and not "States" in str(file):
+            dest_files.append(file)
 
     print("===Reading current translations===")
-    for translations_file in main_files:
+    for translations_file in source_files:
         print(translations_file.as_posix())
         lines = []
         with translations_file.open('r', encoding='utf-8') as trans_file:
@@ -113,8 +114,8 @@ if __name__ == "__main__":
                 i += 1
 
     print("===Updating mod translations===")
-    ReduceLinebreaks(current_dir / "talk.txt")
+    #ReduceLinebreaks(current_dir / "talk.txt")
     #sync([current_dir / "mod_scripts.txt"], translations, 0)
     #sync([current_dir / "mod_scripts.txt"], translations, 1)
-    #sync(main_files, translations, 0)
-    #sync(main_files, translations, 1)
+    sync(dest_files, translations, 0)
+    sync(dest_files, translations, 1)
