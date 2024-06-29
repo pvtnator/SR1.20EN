@@ -6440,7 +6440,7 @@ Imp/21/33*2, Imp/22/33*2, エピセイ
 > BEGIN STRING
 インヴィディアは自身の能力を低下させた。
 > CONTEXT: Troops/1162/pages/0/3/Dialogue
-Invidiaは自身の能力を低下させた。
+Invidia has degraded her own capabilities.
 > END STRING
 
 > BEGIN STRING
@@ -6448,8 +6448,11 @@ Invidiaは自身の能力を低下させた。
 「あなたの力、いただきますわぁ\\H
 　弱った力で彼氏さんが奪われるのを
 　眺めててください\\H」
-> CONTEXT: Troops/1162/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/1162/pages/0/4/Dialogue
+\\name[Invidia]\\_
+「I'll take your power\\H
+Please watch as your boyfriend 
+is taken away by my weakened strength\\H」
 > END STRING
 
 > BEGIN STRING
@@ -6783,13 +6786,13 @@ Dryad/126/65, Mea/74/71
 > BEGIN STRING
 アルプ/22/73, ワーキャット/105/72
 > CONTEXT: Troops/1228/name/
-アルプ/22/73, Werecat/105/72
+Alp/22/73, Werecat/105/72
 > END STRING
 
 > BEGIN STRING
 アルプ/22/73, ワーウルフ/101/66
 > CONTEXT: Troops/1229/name/
-アルプ/22/73, Werewolf/101/66
+Alp/22/73, Werewolf/101/66
 > END STRING
 
 > BEGIN STRING
@@ -6807,7 +6810,7 @@ Mary/322/70, Werewolf/101/66
 > BEGIN STRING
 アルプ/22/73, メアリー/322/70
 > CONTEXT: Troops/1232/name/
-アルプ/22/73, Mary/322/70
+Alp/22/73, Mary/322/70
 > END STRING
 
 > BEGIN STRING
@@ -6827,7 +6830,7 @@ Phantom/6/72
 > BEGIN STRING
 ファントム/6/72, ウィッチ/212/66
 > CONTEXT: Troops/1236/name/
-ファントム/6/72, Witch/212/66
+Phantom/6/72, Witch/212/66
 > END STRING
 
 > BEGIN STRING
@@ -6907,20 +6910,20 @@ Banshee/63/73*2
 
 > BEGIN STRING
 カトゥルス/105/71, バンシー/63/73, ワー
-> CONTEXT: Troops/1252/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/1252/name/
+Catullus/105/71, Banshee/63/73, Werewolf
 > END STRING
 
 > BEGIN STRING
 バンシー/63/73, スライム/80/72
 > CONTEXT: Troops/1253/name/
-バンシー/63/73, Slime/80/72
+Banshee/63/73, Slime/80/72
 > END STRING
 
 > BEGIN STRING
 カトゥルス/105/71, バンシー/63/73
-> CONTEXT: Troops/1254/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/1254/name/
+Catullus/105/71, Banshee/63/73
 > END STRING
 
 > BEGIN STRING
@@ -6932,7 +6935,7 @@ Banshee/63/73*2
 > BEGIN STRING
 ワーウルフ/100/71*2, カトゥルス/105/71
 > CONTEXT: Troops/1256/name/
-Werewolf/100/71*2, カトゥルス/105/71
+Werewolf/100/71*2, Catullus/105/71
 > END STRING
 
 > BEGIN STRING
@@ -6999,14 +7002,14 @@ Hollow Slave/63/56*3
 
 > BEGIN STRING
 カプリスシャトン/105/72
-> CONTEXT: Troops/1269/name/ < UNTRANSLATED
-> CONTEXT: Enemies/1217/name/ < UNTRANSLATED
+> CONTEXT: Troops/1269/name/
+> CONTEXT: Enemies/1217/name/
 Caprice Chaton/105/72
 > END STRING
 
 > BEGIN STRING
 カプリスシャトン/105/72*2
-> CONTEXT: Troops/1270/name/ < UNTRANSLATED
+> CONTEXT: Troops/1270/name/
 Caprice Chaton/105/72*2
 > END STRING
 
@@ -7891,10 +7894,10 @@ Goblin Wizard/43/76, Dolophonos/3
 
 > BEGIN STRING
 "聞き覚えのある声"
-> CONTEXT: Troops/1460/pages/0/3/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map241/events/26/pages/0/0/InlineScript/2:22 < UNTRANSLATED
-> CONTEXT: Map096/events/57/pages/0/190/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Troops/1460/pages/0/3/InlineScript/1:22
+> CONTEXT: Map241/events/26/pages/0/0/InlineScript/2:22
+> CONTEXT: Map096/events/57/pages/0/190/InlineScript/1:22
+"Familiar voice"
 > END STRING
 
 > BEGIN STRING

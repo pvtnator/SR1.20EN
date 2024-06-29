@@ -11,20 +11,45 @@ def replace_strings_in_files(folder_path, mod_path, replace_dict):
             utf8_parts += re.findall(rb'== \".{3,30}\"', content)
             replaced = False
 
+            savedspot = -1
+            saveddiff = 0
+
             for part in utf8_parts:
                 replacement = replace_dict.get(part)
                 if replacement:
                     diff = len(part)-len(replace_dict[part])
-                    replacement += " ".encode('utf-8')*diff
+                    #replacement += " ".encode('utf-8')*diff
                     print(filename+replacement.decode())
                     replaced = True
-                    content = content.replace(part, replacement)
-            utf8_parts = re.findall(rb'.\$game_actors\[101\]\.have_ability\?\("[^;]*"\) {0,}', content)
-            utf8_parts += re.findall(rb'.\$game_variables\[2\] {0,}== {0,}"[^;]*" {0,}', content)
-            for part in utf8_parts:
-                replacement = part[1:]
-                replacement = bytes(chr(len(part)+4),'utf-8')+replacement
-                content = content.replace(part, replacement)
+                    lensymbol = content.rfind(rb"$", 0, content.find(part))-1
+                    lensymbol = max(content.rfind(rb"@", 0, content.find(part))-1, lensymbol)
+                    ifspot = content.rfind(rb"if", lensymbol-4, lensymbol)-1
+                    elseifspot = content.rfind(rb"elseif", lensymbol-8, lensymbol)-1
+                    if ifspot > 0:
+                        lensymbol = ifspot
+                        print("ifspot")
+                    if elseifspot > 0:
+                        lensymbol = elseifspot
+                        print("elseifspot")
+                    if ifspot < 0 and savedspot >= 0:
+                        lensymbol = savedspot
+                        savedspot = -1
+                    elif ifspot < 0 and content.find(rb"$", lensymbol+2) < content.find(rb";", lensymbol+2):
+                        savedspot = lensymbol
+                        saveddiff = diff
+                        print(lensymbol)
+                        content = content.replace(part, replacement, 1)
+                        continue
+                    newbyte = bytes(chr(content[lensymbol]-(diff+saveddiff)),'utf-8')
+                    content = content[:lensymbol]+newbyte+content[lensymbol+1:]
+                    content = content.replace(part, replacement, 1)
+                    saveddiff = 0
+            #utf8_parts = re.findall(rb'.\$game_actors\[101\]\.have_ability\?\("[^;]*"\).*?;', content)
+            #utf8_parts += re.findall(rb'.\$game_variables\[\d\] {0,}== {0,}"[^;]*".*?;', content)
+            #for part in utf8_parts:
+            #    replacement = part[1:]
+            #    replacement = bytes(chr(len(part)+3),'utf-8')+replacement
+            #    content = content.replace(part, replacement)
 
             newContent = content.replace("ギルゴーン".encode(), "Gilgorn".encode())
             newContent = newContent.replace("ロウラット".encode(), "Lauratt".encode())
