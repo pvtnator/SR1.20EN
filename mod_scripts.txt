@@ -2460,7 +2460,7 @@ Passion Beat
 > BEGIN STRING
 テクニカルビート
 > CONTEXT: Incense_System.rb
-
+Technical Beat
 > END STRING
 
 > BEGIN STRING
@@ -6402,7 +6402,7 @@ self.enemy.hold.#{parts}.battler
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: O_MOD_SR_Util_Skill使用判定.rb
-
+Shake off
 > END STRING
 
 > BEGIN STRING
@@ -8425,7 +8425,7 @@ Pillow Talk
 > CONTEXT: O_MOD_Game_Battler_1.rb
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_Scene_Battle_AttackElementChange.rb
-
+Energy Drain
 > END STRING
 
 > BEGIN STRING
@@ -8434,7 +8434,7 @@ Pillow Talk
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: O_MOD_Scene_Battle_AttackElementChange.rb
-
+Level Drain
 > END STRING
 
 > BEGIN STRING
@@ -10781,13 +10781,13 @@ Immunity
 テンプテーション
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_Game_Battler_3.rb
-
+Temptation
 > END STRING
 
 > BEGIN STRING
 テンプテッド・エコー
 > CONTEXT: O_MOD_Game_Battler_2.rb
-
+Tempted・Echo
 > END STRING
 
 > BEGIN STRING
@@ -12033,7 +12033,7 @@ Can't concentrate on it!
 雪化粧
 > CONTEXT: O_MOD_Game_Battler_3.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Snow cover
 > END STRING
 
 > BEGIN STRING
@@ -13213,7 +13213,7 @@ Provoke
 > BEGIN STRING
 隠れる
 > CONTEXT: O_MOD_Game_Battler_3.rb
-
+Hide
 > END STRING
 
 > BEGIN STRING
@@ -14219,7 +14219,7 @@ Hungry Sperm Kiss
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Skilltext.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Hungry Sperm Blowjob
 > END STRING
 
 > BEGIN STRING
@@ -14944,7 +14944,7 @@ Hedonistic
 > BEGIN STRING
 スイートウィスパー
 > CONTEXT: O_MOD_Game_Battler_4.rb
-
+Sweet whisper
 > END STRING
 
 > BEGIN STRING
@@ -15074,7 +15074,7 @@ Sadist Whisper
 > BEGIN STRING
 プライスオブシナー
 > CONTEXT: O_MOD_Game_Battler_4.rb
-
+Price of Sinner
 > END STRING
 
 > BEGIN STRING
@@ -15239,7 +15239,7 @@ Masochist
 チェインカレス
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
-
+Chain Caress
 > END STRING
 
 > BEGIN STRING
@@ -42432,7 +42432,7 @@ Provocative gestures stimulate opponents!
 > BEGIN STRING
 アウト・カム
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Auto・Cum
 > END STRING
 
 > BEGIN STRING
@@ -43018,7 +43018,7 @@ Succubus strips
 > BEGIN STRING
 ソウルリーパー
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Soul Reaper
 > END STRING
 
 > BEGIN STRING
@@ -43367,7 +43367,7 @@ Crystal of Pride
 > BEGIN STRING
 リグル
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Wriggle
 > END STRING
 
 > BEGIN STRING
@@ -43501,7 +43501,7 @@ Unlucky roar
 > BEGIN STRING
 アールヴの秘薬
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Alv's Elixir
 > END STRING
 
 > BEGIN STRING
@@ -43519,7 +43519,7 @@ Unlucky roar
 > BEGIN STRING
 ツーパフ
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Double pafu
 > END STRING
 
 > BEGIN STRING
@@ -43531,7 +43531,7 @@ Unlucky roar
 > BEGIN STRING
 甘やかし
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Pamper
 > END STRING
 
 > BEGIN STRING
@@ -43796,7 +43796,7 @@ Crucifixion Restraint Release
 > BEGIN STRING
 シャイニングレイジ
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Shining Rage
 > END STRING
 
 > BEGIN STRING
@@ -44859,7 +44859,7 @@ Anal・Cum
 ホワイトポアー
 > CONTEXT: O_MOD_Scene_Battle_5.rb
 > CONTEXT: XL_MOD_Battle_Cutin.rb
-
+White Pore
 > END STRING
 
 > BEGIN STRING
@@ -44872,7 +44872,7 @@ Anal・Cum
 ホワイトフラッド
 > CONTEXT: O_MOD_Scene_Battle_5.rb
 > CONTEXT: XL_MOD_Battle_Cutin.rb
-
+White Flood
 > END STRING
 
 > BEGIN STRING
@@ -44884,7 +44884,7 @@ Anal・Cum
 > BEGIN STRING
 スミア・カム
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+Smear・Cum
 > END STRING
 
 > BEGIN STRING
@@ -44908,7 +44908,7 @@ Anal・Cum
 > BEGIN STRING
 ブリーディング・カム
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+Breeding・Cum
 > END STRING
 
 > BEGIN STRING
@@ -50034,13 +50034,13 @@ Break
 > BEGIN STRING
 イントラスト
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Interest
 > END STRING
 
 > BEGIN STRING
 諦める
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Surrender
 > END STRING
 
 > BEGIN STRING
@@ -58637,7 +58637,7 @@ But it has no effect on #{battler_one.name}
 > BEGIN STRING
 イリスワーム
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Iris Worm
 > END STRING
 
 > BEGIN STRING

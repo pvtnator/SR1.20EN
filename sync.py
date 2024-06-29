@@ -22,7 +22,9 @@ def sync(files, update, txstrdir=0):
                     while(lines[i][0] == ">"):
                         i += 1
                     trans = update.get(string)
-                    if trans and lines[i]!=trans and lines[i].strip():
+                    if not trans and string.strip() in update:
+                        trans = string.replace(string.strip(),update[string.strip()])
+                    if trans and lines[i]!=trans:
                         print(lines[i].strip()+" replaced by "+trans.strip())
                         lines[i] = trans
                     elif lines[i].strip():
@@ -80,11 +82,12 @@ if __name__ == "__main__":
     current_dir = Path.cwd()
     translations = {}
 
-    source_files = [current_dir / "mod_scripts.txt"]
-    dest_files = []
-    for file in (current_dir / "patch").rglob("*.txt"):
-        if not "Unused" in str(file) and not "States" in str(file):
-            dest_files.append(file)
+    #source_files = [current_dir / "mod_scripts.txt"]
+    source_files = [current_dir / "patch" / "Skills.txt"]
+    dest_files = [current_dir / "mod_scripts.txt"]
+    #for file in (current_dir / "patch").rglob("*.txt"):
+    #    if not "Unused" in str(file) and not "States" in str(file):
+    #        dest_files.append(file)
 
     print("===Reading current translations===")
     for translations_file in source_files:
@@ -106,7 +109,11 @@ if __name__ == "__main__":
                 if lines[i].strip():
                     if string in translations.keys() and translations[string] != lines[i]:
                         print(translations[string].strip()+" replaced by "+lines[i].strip())
-                    translations[string] = lines[i]
+                    if "/" in string and "Skills" in str(translations_file):
+                        translations[string.split("/")[0]] = lines[i].split("/")[0]
+                        #print(string.split("/")[0]+" = "+lines[i].split("/")[0])
+                    else:
+                        translations[string] = lines[i]
                     #print(string.strip()+" = "+lines[i].strip())
 
                 i += 2
