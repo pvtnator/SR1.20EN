@@ -28491,7 +28491,7 @@ pressed down with force!
 > BEGIN STRING
 #{targetname}の口内に、\n\m#{myname}の舌が侵入してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+#{targetname}'s tongue\n​m​invaded #{myname}'s mouth!
 > END STRING
 
 > BEGIN STRING
@@ -28575,13 +28575,13 @@ pressed down with force!
 > BEGIN STRING
 #{targetname}のアソコの中に、\n\m#{myname}の舌が侵入してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+#{targetname}'s tongue \n​m​invaded #{myname}'s vagina!
 > END STRING
 
 > BEGIN STRING
 #{targetname}のアナルの中に、\n\m#{myname}の舌が侵入してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+#{targetname}'s tongue \n​m​invaded #{myname}'s anus!
 > END STRING
 
 > BEGIN STRING
@@ -29424,7 +29424,7 @@ shook hips hard
 > BEGIN STRING
 \n\m極上の感触に、腰が抜けそうになる……！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-\n​m​The exquisite sensation makes me feel like \nI'm going to give way...!
+\n​m​The exquisite sensation makes me feel weak...!
 > END STRING
 
 > BEGIN STRING
@@ -36805,7 +36805,7 @@ left and right
 > BEGIN STRING
 アソコをきゅっと締めながら、\n\m#{targetname}の下腹を撫でまわしてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ caressed the lower abdomen\n​m​while squeezing her vagina tight!
 > END STRING
 
 > BEGIN STRING
@@ -42174,9 +42174,9 @@ Corrupt Scratch
 > END STRING
 
 > BEGIN STRING
-効果後口上：
+"効果後口上："
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-Post-effect message:
+"Post-effect message: "
 > END STRING
 
 > BEGIN STRING
@@ -44819,9 +44819,9 @@ battler.hold.#{parts}.battler
 > END STRING
 
 > BEGIN STRING
-効果前口上：
+"効果前口上："
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-Effect introduction:
+"Effect introduction: "
 > END STRING
 
 > BEGIN STRING
@@ -46905,7 +46905,7 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}の口内に、\n#{active.name}の舌がねじ込まれてしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name}'s tongue has been \nforced into #{target.name}'s mouth!
 > END STRING
 
 > BEGIN STRING
@@ -46935,13 +46935,13 @@ The tip of #{target.name}'s penis \nhas been taken into #{active.name}'s mouth!
 > BEGIN STRING
 #{target.name}のアソコの奥深くまで、\n#{active.name}の舌がねじ込まれてしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name}'s tongue has been forced \ndeep into #{target.name}'s pussy!
 > END STRING
 
 > BEGIN STRING
 #{target.name}のアナルの奥深くまで、\n#{active.name}の舌がねじ込まれてしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{active.name}'s tongue has been forced \ndeep into #{target.name}'s anal cavity!
 > END STRING
 
 > BEGIN STRING
@@ -75024,7 +75024,7 @@ Error: Too many characters on a line.\nNumber of characters: #{(x/14)-1}/26　Wi
 > BEGIN STRING
 /./
 > CONTEXT: Window_BattleLog.rb
-/[wW][a-pr-v]|m[a-lo]|m[a-z][a-z]|[a-vxA-Z ][mqw][ a-z\!\?\.\,\:\;\-\']|[a-pA-Pr-zR-Z ][my]|[yH][a-pA-Pr-zR-Z \!\?\.\,\:\;\-\']|./
+/\\[a-zA-Z]|[wW][a-pr-v]|m[a-lo]|m[a-z][a-z]|[a-vxA-Z ][mqw][ a-z\!\?\.\,\:\;\-\']|[a-pA-Pr-zR-Z ][my]|[yH][a-pA-Pr-zR-Z \!\?\.\,\:\;\-\']|./
 > END STRING
 
 > BEGIN STRING

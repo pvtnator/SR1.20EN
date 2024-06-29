@@ -140,7 +140,7 @@ the world will be hit by a terrible disaster.
 > CONTEXT: Map096/events/9/pages/0/69/Dialogue
 \\name[\\v[2]]\\_
 Please, I beg of you.
-Find the Crystal of Sin and bring it back to this place.
+Find the Crystals of Sin and bring it back to this place.
 > END STRING
 
 > BEGIN STRING
@@ -177,31 +177,37 @@ Let's go back to the room and get ready.
 \\name[\\v[3]]\\_
 どうか、大罪の結晶を見つけて、
 この場所へ取り戻してください。
-> CONTEXT: Map096/events/9/pages/1/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map096/events/9/pages/1/1/Dialogue
+\\name[\\v[3]]\\_
+Please find the Crystals of Sin and bring it back to this place.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ２階にあなたの部屋を手配しておきます。
 そちらを拠点に動かれるとよろしいでしょう。
-> CONTEXT: Map096/events/9/pages/1/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map096/events/9/pages/1/4/Dialogue
+\\name[\\v[3]]\\_
+I'll arrange for a room for you on the second floor.
+You can use that as your base of operations.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 夢世界に閉じ込められた原因……。
-> CONTEXT: Map096/events/9/pages/2/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map096/events/9/pages/2/1/Dialogue
+\\name[\\v[2]]\\_
+The reason you were trapped in the dream world...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 その件については、今すぐに助けになれる事は
 できなさそうです。申し訳ありません。
-> CONTEXT: Map096/events/9/pages/2/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map096/events/9/pages/2/3/Dialogue
+\\name[\\v[2]]\\_
+I don't think I can help you with that right now.
+I'm sorry.
 > END STRING
 
 > BEGIN STRING
@@ -209,17 +215,21 @@ Let's go back to the room and get ready.
 ですが、我々ラボのメンバー総力を挙げて
 調査いたしましょう。
 何か分かった事があれば、すぐにお伝えします！
-> CONTEXT: Map096/events/9/pages/2/6/Dialogue < UNTRANSLATED
-> CONTEXT: Map096/events/11/pages/0/47/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map096/events/9/pages/2/6/Dialogue
+> CONTEXT: Map096/events/11/pages/0/47/Dialogue
+\\name[\\v[2]]\\_
+However, we will use all our lab members to investigate this issue.
+If we find anything, we will let you know right away!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 その鍵を使えば、
 １階にある書庫へと入ることができます。
-> CONTEXT: Map096/events/9/pages/3/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map096/events/9/pages/3/3/Dialogue
+\\name[\\v[2]]\\_
+With that key,
+you can enter the library on the first floor.
 > END STRING
 
 > BEGIN STRING
@@ -227,26 +237,33 @@ Let's go back to the room and get ready.
 そこから顕在機が眠る地下へと通じています。
 他にも様々な資料が保管されているので、
 時間があれば、調べてみてください。
-> CONTEXT: Map096/events/9/pages/3/6/Dialogue < UNTRANSLATED
-> CONTEXT: Map096/events/9/pages/3/65/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map096/events/9/pages/3/6/Dialogue
+> CONTEXT: Map096/events/9/pages/3/65/Dialogue
+\\name[\\v[2]]\\_
+From there, it leads underground to the manifestation machine.
+There are many other documents stored there,
+so if you have time, please check them out.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ティミッドも、書庫への入室を許可します。
 \\n[101]さんの助けになってあげてください。
-> CONTEXT: Map096/events/9/pages/3/10/Dialogue < UNTRANSLATED
-> CONTEXT: Map096/events/9/pages/3/69/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map096/events/9/pages/3/10/Dialogue
+> CONTEXT: Map096/events/9/pages/3/69/Dialogue
+\\name[\\v[2]]\\_
+Timid will also be allowed to enter the archives.
+Please help \\n[101].
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 おお、貴方は！
 私に力になれる事はありますかな？
-> CONTEXT: Map096/events/9/pages/3/22/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map096/events/9/pages/3/22/Dialogue
+\\name[\\v[2]]\\_
+Oh, it's you!
+Is there anything I can help you with?
 > END STRING
 
 > BEGIN STRING
@@ -346,8 +363,9 @@ Let's go back to the room and get ready.
 \\name[\\v[2]]\\_
 大罪の結晶を取り戻してくださり
 ありがとうございます。
-> CONTEXT: Map096/events/11/pages/0/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map096/events/11/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+Thank you for recovering the Crystals of Sin.
 > END STRING
 
 > BEGIN STRING
@@ -355,32 +373,40 @@ Let's go back to the room and get ready.
 ただ、モリガンという者を倒した後に
 現れたという女性の話……、
 少し気がかりではありますな。
-> CONTEXT: Map096/events/11/pages/0/15/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map096/events/11/pages/0/15/Dialogue
+\\name[\\v[2]]\\_
+However, the story of the woman who appeared 
+after defeating someone called Morrigan...
+is a bit worrying.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 何か悪い事が起こらなければ
 良いのですが……。
-> CONTEXT: Map096/events/11/pages/0/19/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map096/events/11/pages/0/19/Dialogue
+\\name[\\v[2]]\\_
+I hope nothing bad happens...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あ、そうそう、そうでした。
 何かお礼をしなければなりませんね。
-> CONTEXT: Map096/events/11/pages/0/23/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map096/events/11/pages/0/23/Dialogue
+\\name[\\v[2]]\\_
+Oh, that's right.
+I need to give you something as thanks.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 もしよければ、何なりとお申し付けください。
 貴方はこの世界の救世主なのですから。
-> CONTEXT: Map096/events/11/pages/0/26/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map096/events/11/pages/0/26/Dialogue
+\\name[\\v[2]]\\_
+If you'd like, please feel free to ask me anything.
+You are the savior of this world.
 > END STRING
 
 > BEGIN STRING
@@ -388,16 +414,21 @@ Let's go back to the room and get ready.
 ふむ……。
 夢世界に閉じ込められた原因を
 探している……と。
-> CONTEXT: Map096/events/11/pages/0/30/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map096/events/11/pages/0/30/Dialogue
+\\name[\\v[2]]\\_
+Hmm...
+They're trying to find out why 
+you were trapped in the dream world...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ……うーん。
 正直、心当たりがないですね……。
-> CONTEXT: Map096/events/11/pages/0/40/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map096/events/11/pages/0/40/Dialogue
+\\name[\\v[2]]\\_
+...Hmm.
+Honestly, I have no idea...
 > END STRING
 
 > BEGIN STRING
@@ -405,8 +436,10 @@ Let's go back to the room and get ready.
 せっかく御礼をしたかったのですが、
 その件については、今すぐに助けになれる事は
 できなさそうです。申し訳ありません。
-> CONTEXT: Map096/events/11/pages/0/43/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map096/events/11/pages/0/43/Dialogue
+\\name[\\v[2]]\\_
+I wanted to thank you, but it looks like 
+I can't help you right now. I'm sorry.
 > END STRING
 
 > BEGIN STRING

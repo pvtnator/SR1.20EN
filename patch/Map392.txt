@@ -3,7 +3,8 @@
 \\name[\\v[3]]\\_
 ボリボリボリ……\\|はっ！？
 > CONTEXT: Map392/events/2/pages/0/12/Dialogue < UNTRANSLATED
-
+\\name[\\v[3]]\\_
+Crunch, crunch, crunch...\\|Huh?!
 > END STRING
 
 > BEGIN STRING
@@ -11,7 +12,9 @@
 こ、、このお菓子は別に……、\\|
 アレっス。
 > CONTEXT: Map392/events/2/pages/0/14/Dialogue < UNTRANSLATED
-
+\\name[\\v[3]]\\_
+Th-this candy is nothing...\\|
+All right.
 > END STRING
 
 > BEGIN STRING
@@ -20,7 +23,10 @@
 あの世界に閉じ込められて、
 生きるために仕方なくっス！
 > CONTEXT: Map392/events/2/pages/0/17/Dialogue < UNTRANSLATED
-
+\\name[\\v[3]]\\_
+Y-yes!
+Trapped in that world,
+I have no choice but to do so in order to survive!
 > END STRING
 
 > BEGIN STRING
@@ -28,7 +34,9 @@
 な、なんスか！
 その人を疑うような眼差しは！
 > CONTEXT: Map392/events/2/pages/0/22/Dialogue < UNTRANSLATED
-
+\\name[\\v[3]]\\_
+Wh-what's going on?!
+You're looking at that person with a suspicious look!
 > END STRING
 
 > BEGIN STRING
@@ -36,45 +44,47 @@
 とにかく、アタシの部屋に戻るっスよ！
 こんな所は早くずらかるっス！
 > CONTEXT: Map392/events/2/pages/0/25/Dialogue < UNTRANSLATED
-
+\\name[\\v[3]]\\_
+Anyway, I'm going back to my room!
+I'm going to get out of this place quickly!
 > END STRING
 
 > BEGIN STRING
 スルガトと戦いますか？
 > CONTEXT: Map392/events/3/pages/0/1/Dialogue < UNTRANSLATED
 > CONTEXT: Map624/events/381/pages/0/0/Dialogue < UNTRANSLATED
-
+Fight Surugato?
 > END STRING
 
 > BEGIN STRING
 スルガト単体と戦う
 > CONTEXT: Map392/events/3/pages/0/2/Choice/3 < UNTRANSLATED
 > CONTEXT: Map624/events/381/pages/0/1/Choice/3 < UNTRANSLATED
-
+Fight Surugato alone
 > END STRING
 
 > BEGIN STRING
 "夢世界の真実"
 > CONTEXT: Map392/events/16/pages/1/1/InlineScript/1:22 < UNTRANSLATED
-
+"Truth of the Dream World"
 > END STRING
 
 > BEGIN STRING
 "顕在機とは？"
 > CONTEXT: Map392/events/16/pages/1/2/InlineScript/1:22 < UNTRANSLATED
-
+"What is the Manifestor?"
 > END STRING
 
 > BEGIN STRING
 "顕在機はどこに？"
 > CONTEXT: Map392/events/16/pages/1/3/InlineScript/1:22 < UNTRANSLATED
-
+"Manifestor location?"
 > END STRING
 
 > BEGIN STRING
 "これからすべきこと"
 > CONTEXT: Map392/events/16/pages/1/4/InlineScript/1:22 < UNTRANSLATED
-
+"What next"
 > END STRING
 
 > BEGIN STRING
@@ -86,7 +96,9 @@
 > CONTEXT: Map392/events/16/pages/1/50/Dialogue < UNTRANSLATED
 > CONTEXT: Map392/events/16/pages/1/67/Dialogue < UNTRANSLATED
 > CONTEXT: Map392/events/16/pages/1/83/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+So...
+what should I tell you about...?
 > END STRING
 
 > BEGIN STRING
@@ -94,7 +106,9 @@
 また聞きたくなったらいつでも
 声を掛けてくださいね……。
 > CONTEXT: Map392/events/16/pages/1/106/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+If you ever want to hear more, 
+please feel free to call me...
 > END STRING
 
 > BEGIN STRING
@@ -102,7 +116,9 @@
 貴方を夢世界へ閉じ込めたとされる、
 滞在機……。
 > CONTEXT: Map392/events/16/pages/1/116/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+The Sojourner that 
+supposedly trapped you in a dream world...
 > END STRING
 
 > BEGIN STRING
@@ -111,7 +127,10 @@
 元の世界へ戻ることができる……。
 果たして、本当にそうでしょうか……？
 > CONTEXT: Map392/events/16/pages/1/119/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+If it was destroyed,
+you could return to your original world...
+But is that really true...?
 > END STRING
 
 > BEGIN STRING
@@ -119,7 +138,9 @@
 貴方が夢を見る者である限り、
 夢世界を訪れてしまった以上……、
 > CONTEXT: Map392/events/16/pages/1/123/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+You are a dreamer, 
+since you have visited the dream world...
 > END STRING
 
 > BEGIN STRING
@@ -128,14 +149,18 @@
 いずれまた、夢世界へと引きずり込まれて
 しまうことでしょう……。
 > CONTEXT: Map392/events/16/pages/1/126/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Even if you were to return to your original world,
+you would probably end up being 
+dragged back into the dream world again...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 この世界に、顕在機が存在している限り……。
 > CONTEXT: Map392/events/16/pages/1/130/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+As long as the Manifestor exists in this world...
 > END STRING
 
 > BEGIN STRING
@@ -143,7 +168,9 @@
 \\c[12]顕在機\\c[0]とは、夢を現実のものへと映す、
 秘密兵器……。
 > CONTEXT: Map392/events/16/pages/1/143/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+\\c[12]The Manifestor\\c[0] is a secret weapon 
+that makes dreams come true...
 > END STRING
 
 > BEGIN STRING
@@ -152,7 +179,10 @@
 滞在機とは対をなす存在といえば、
 少し理解しやすいでしょうか……。
 > CONTEXT: Map392/events/16/pages/1/146/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+If I think of it as the opposite 
+of the Sojourner you have seen,
+it might be easier to understand...
 > END STRING
 
 > BEGIN STRING
@@ -160,7 +190,9 @@
 現実を夢へと引きずり込む滞在機と、
 夢を現実へと映す顕在機……。
 > CONTEXT: Map392/events/16/pages/1/150/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+The Sojourner that drags reality into a dream,
+and the Manifestor that projects the dream into reality...
 > END STRING
 
 > BEGIN STRING
@@ -168,14 +200,17 @@
 相反する２つの兵器が互いに共鳴し合う事で、
 波長が不安定となり、今回の悲劇を招いた……。
 > CONTEXT: Map392/events/16/pages/1/153/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+When the two opposing weapons resonated with each other,
+their wavelengths became unstable, leading to this tragedy...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そう考えるのが、妥当ではないでしょうか……？
 > CONTEXT: Map392/events/16/pages/1/156/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Isn't it reasonable to think so...?
 > END STRING
 
 > BEGIN STRING
@@ -183,7 +218,9 @@
 顕在機は、ここハザマノセカイの
 どこかに存在すると言われています……。
 > CONTEXT: Map392/events/16/pages/1/169/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+It is said that the Manifestor exists 
+somewhere here in the Border World...
 > END STRING
 
 > BEGIN STRING
@@ -191,7 +228,8 @@
 ですが、これは遥か昔に
 開発されたもの……。
 > CONTEXT: Map392/events/16/pages/1/172/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+But this was developed a long time ago...
 > END STRING
 
 > BEGIN STRING
@@ -200,7 +238,9 @@
 どうやらこの世界の記憶からは
 消え去っているようです……。
 > CONTEXT: Map392/events/16/pages/1/175/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+After many years,
+it seems to have vanished from this world's memories...
 > END STRING
 
 > BEGIN STRING
@@ -631,7 +671,8 @@
 占いの館へ、
 ようこそおいでくださいました。
 > CONTEXT: Map392/events/27/pages/0/8/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Welcome to the fortune telling hall.
 > END STRING
 
 > BEGIN STRING
@@ -639,7 +680,9 @@
 せっかくいらして下さったのですから、
 何かおもてなしをしなければいけませんね……。
 > CONTEXT: Map392/events/27/pages/0/11/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Since you've come all the way here,
+I should do something to show you some hospitality...
 > END STRING
 
 > BEGIN STRING
@@ -647,7 +690,9 @@
 くす……逸る気持ちを抑えきれない
 といった感じですわね……？
 > CONTEXT: Map392/events/27/pages/0/15/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Haha... Can't contain excitement...
+Is that how you feel...?
 > END STRING
 
 > BEGIN STRING
@@ -655,7 +700,9 @@
 そう焦る事はありませんわ……。
 時間はたっぷりとあるのですから……。
 > CONTEXT: Map392/events/27/pages/0/18/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+There's no need to be in such a hurry...
+There's plenty of time...
 > END STRING
 
 > BEGIN STRING
@@ -663,7 +710,9 @@
 やれやれ……、
 仕方ありませんわね……。
 > CONTEXT: Map392/events/27/pages/0/22/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Oh dear...
+I guess there's nothing I can do about it...
 > END STRING
 
 > BEGIN STRING
@@ -672,14 +721,17 @@
 貴方には伝えておかなければならない事が
 ございますわ……。
 > CONTEXT: Map392/events/27/pages/0/25/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Before we get to the main topic,
+there's something I need to tell you...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 お帰りなさいませ……。
 > CONTEXT: Map392/events/27/pages/2/6/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Welcome back...
 > END STRING
 
 > BEGIN STRING
