@@ -8,6 +8,7 @@ def replace_strings_in_files(folder_path, mod_path, replace_dict):
                 content = file.read()
 
             utf8_parts = re.findall(rb'\(\".{3,30}\"\)', content)
+            utf8_parts += re.findall(rb'== \".{3,30}\"', content)
             replaced = False
 
             for part in utf8_parts:
@@ -19,6 +20,7 @@ def replace_strings_in_files(folder_path, mod_path, replace_dict):
                     replaced = True
                     content = content.replace(part, replacement)
             utf8_parts = re.findall(rb'.\$game_actors\[101\]\.have_ability\?\("[^;]*"\) {0,}', content)
+            utf8_parts += re.findall(rb'.\$game_variables\[2\] {0,}== {0,}"[^;]*" {0,}', content)
             for part in utf8_parts:
                 replacement = part[1:]
                 replacement = bytes(chr(len(part)+4),'utf-8')+replacement
@@ -59,6 +61,8 @@ if __name__ == "__main__":
             if lines[i].strip():
                 rep = "(\""+lines[i].strip()+"\")"
                 replacements["(\""+string+"\")"] = rep
+                rep = "== \""+lines[i].strip()+"\""
+                replacements["== \""+string+"\""] = rep
             i += 2
         else:
             i += 1
