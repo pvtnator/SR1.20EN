@@ -65,12 +65,17 @@ def ReduceLinebreaks(file):
                 while(lines[i][0] == ">"):
                     i += 1
                 if lines[i].strip():
-                    if lines[i].count("\\n")>3:
-                        if "c[" in lines[i]:
-                            lines[i] = lines[i].replace("\\n　", "", 1)
-                            rindex = lines[i].rfind("\\n　")
-                            if len(lines[i])-rindex<20:
-                                lines[i] = lines[i][0:rindex]+lines[i][rindex+3:]
+                    brk = "\\n　" if "　" in string else "\\n"
+                    if "　" in string:
+                        lines[i] = lines[i].replace("\\n","\\n　")
+                        lines[i] = lines[i].replace("　　","　")
+                    elif "\\n" in string:
+                        lines[i] = lines[i].replace("\\n　","\\n")
+                    if lines[i].count(brk)>3 and False:
+                        #lines[i] = lines[i].replace(brk, "", 1)
+                        rindex = lines[i].rfind(brk)
+                        if len(lines[i])-rindex<20:
+                            lines[i] = lines[i][0:rindex]+lines[i][rindex+3:]
                         
                 i += 2
             else:
@@ -121,8 +126,8 @@ if __name__ == "__main__":
                 i += 1
 
     print("===Updating mod translations===")
-    #ReduceLinebreaks(current_dir / "talk.txt")
+    ReduceLinebreaks(current_dir / "talk.txt")
     #sync([current_dir / "mod_scripts.txt"], translations, 0)
     #sync([current_dir / "mod_scripts.txt"], translations, 1)
-    sync(dest_files, translations, 0)
-    sync(dest_files, translations, 1)
+    #sync(dest_files, translations, 0)
+    #sync(dest_files, translations, 1)
