@@ -2574,7 +2574,7 @@ Technical Beat
 > BEGIN STRING
 ベリーダンス
 > CONTEXT: Incense_System.rb
-
+Belly Dance
 > END STRING
 
 > BEGIN STRING
@@ -2604,7 +2604,7 @@ Everyone's charm has increased!
 > BEGIN STRING
 全員の器用さが上昇した！
 > CONTEXT: Incense_System.rb
-
+Everyone's dexterity has increased!
 > END STRING
 
 > BEGIN STRING
@@ -3163,25 +3163,25 @@ Heart Steal
 アイテムスチール
 > CONTEXT: Incense_System.rb
 > CONTEXT: O_MOD_Scene_Battle_3.rb
-
+Item Steal
 > END STRING
 
 > BEGIN STRING
 #{enemies_word}はアイテムを使用できなくなった！
 > CONTEXT: Incense_System.rb
-
+#{enemies_word} can no longer use items!
 > END STRING
 
 > BEGIN STRING
 #{enemies_word}はアイテムを使えない！
 > CONTEXT: Incense_System.rb
-
+#{enemies_word} can't use items!
 > END STRING
 
 > BEGIN STRING
 #{enemies_word}はアイテムを取り戻した！
 > CONTEXT: Incense_System.rb
-
+#{enemies_word} got items back!
 > END STRING
 
 > BEGIN STRING
@@ -7508,7 +7508,7 @@ Intercrural
 > CONTEXT: O_MOD_Scene_Battle_5.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: O_MOD_SR_Util_Skill使用判定.rb
-
+Puff-puff2
 > END STRING
 
 > BEGIN STRING
@@ -7521,7 +7521,7 @@ Intercrural
 > CONTEXT: O_MOD_Scene_Battle_5.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
-
+Scissor Cross
 > END STRING
 
 > BEGIN STRING
@@ -10813,7 +10813,7 @@ Blowkiss
 > CONTEXT: O_MOD_RPG_Skilltext.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+Kiss Monster
 > END STRING
 
 > BEGIN STRING
@@ -13193,7 +13193,7 @@ Appraisal
 > CONTEXT: O_MOD_Game_Battler_3.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+Attack Order
 > END STRING
 
 > BEGIN STRING
@@ -16273,7 +16273,7 @@ Kiss
 > CONTEXT: O_MOD_Scene_Battle_AttackElementChange.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-
+Blowjob
 > END STRING
 
 > BEGIN STRING
@@ -22880,13 +22880,13 @@ Race skilled in runes. Magic VP consumption during battle reduced by 30%.
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Healing voice
 > END STRING
 
 > BEGIN STRING
 毎ターンEPを回復する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Recovers EP every turn.
 > END STRING
 
 > BEGIN STRING
@@ -31338,7 +31338,7 @@ But it didn't work on #{myname}!
 > BEGIN STRING
 、#{targetname}を指差した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pointed at #{targetname}!
 > END STRING
 
 > BEGIN STRING
@@ -35581,7 +35581,7 @@ two overwhelming
 > BEGIN STRING
 #{targetpantsu}の上から、\n\m#{targetname}の股間にお尻を押し付けてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pressed butt against \n​m​#{targetname}'s crotch over #{targetpantsu}!
 > END STRING
 
 > BEGIN STRING
@@ -36337,13 +36337,13 @@ while looking up
 > BEGIN STRING
 #{targetname + rangetext}の\n\mスキルを盗んできた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ stole \n​m​#{targetname + rangetext}'s skills!
 > END STRING
 
 > BEGIN STRING
 #{targetname + rangetext}の\n\mアイテムを盗んできた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ stole \n​m​#{targetname + rangetext}'s items!
 > END STRING
 
 > BEGIN STRING
@@ -36433,13 +36433,13 @@ while looking up
 > BEGIN STRING
 お尻を突き出し、腰を回し始めた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ stuck out butt and started moving hips!
 > END STRING
 
 > BEGIN STRING
 棒を器用に使い、華麗に舞い始めた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ began to dance gracefully!
 > END STRING
 
 > BEGIN STRING
@@ -36793,13 +36793,13 @@ left and right
 > BEGIN STRING
 アソコをきゅっと締めながら、\n\m#{targetname}の乳首を指で弄ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ played with #{targetname}'s nipples \n​m​with fingers while squeezing her pussy tight!
 > END STRING
 
 > BEGIN STRING
 アソコをきゅっと締めながら、\n\m#{targetname}の脇腹を揉みくすぐってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ rubbed and tickled #{targetname}'s sides \n​m​while squeezing her pussy tightly!
 > END STRING
 
 > BEGIN STRING
@@ -36811,61 +36811,61 @@ left and right
 > BEGIN STRING
 アソコをきゅっと締めながら、\n\m#{targetname}の体を舌でなぞってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ ran her tongue over {targetname}'s body \n​m​while squeezing her pussy tight!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の\n\m乳首を指で弄りながら、#{waist}腰を振り始めた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ began to shake her hips #{waist}\n​m​while playing with #{targetname}'s nipples!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の\n\m下腹をくすぐりながら、#{waist}腰を振り始めた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ began to shake her hips #{waist}\n​m​while tickling #{targetname}'s lower abdomen!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の\n\m脇腹を愛撫しながら、#{waist}腰を振り始めた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ began to shake her hips #{waist}\n​m​while caressing #{targetname}'s side!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の\n\m体に舌を這わせながら、#{waist}腰を振り始めた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ began to shake her hips #{waist}\n​m​while running tongue over #{targetname}!
 > END STRING
 
 > BEGIN STRING
 \n\m腰の動きに合わせて、#{myself.bustsize}が激しく揺れ踊る！！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​#{myself.bustsize} shakes and dances intensly\n in time with the movement of your hips!!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の\n\m乳首を指で弄りながら、#{waist}腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ shook hips #{waist} while playing \n​m​with #{targetname}'s nipples with fingers!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の\n\m脇腹を揉みくすぐりながら、#{waist}腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ shook hips #{waist} while \n​m​rubbing and tickling #{targetname}'s side!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の\n\m体を官能的に愛撫しながら、#{waist}腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ caressed #{targetname}'s body sensually \n​m​and shook hips #{waist}!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の\n\m体を舐め回しながら、#{waist}腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ licked #{targetname}'s body all over \n​m​and shook hips #{waist}!
 > END STRING
 
 > BEGIN STRING
@@ -37131,37 +37131,37 @@ moved hips back and forth #{waist} \n​m​while showering kisses #{tec}!
 > BEGIN STRING
 弄ぶように
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+teasingly
 > END STRING
 
 > BEGIN STRING
 #{emotion}\n\m#{waist}腰をくねらせてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ started wiggling waist \n​m​#{waist} #{emotion}!
 > END STRING
 
 > BEGIN STRING
 #{targetname}と舌を絡めつつ、\n\m#{waist}腰をくねらせてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ wiggled hips #{waist} \n​m​while intertwining tongues with #{targetname}!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の顔を\n\m胸で包みながら、#{waist}腰をくねらせてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ wrapped #{targetname}'s face in her chest \n​m​and wiggled her hips #{waist}!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の乳首を\n\m舌先で転がしつつ、#{waist}腰をくねらせてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ wiggled hips #{waist} while \n​m​rolling #{targetname}'s nipples with the tip of tongue!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の身体を\n\m羽で愛撫しながら、#{waist}腰をくねらせてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ wiggled hips #{waist} while \n​m​caressing #{targetname}'s body with wings!
 > END STRING
 
 > BEGIN STRING
@@ -37191,7 +37191,7 @@ moved hips back and forth #{waist} \n​m​while showering kisses #{tec}!
 > BEGIN STRING
 悩ましい表情を浮かべ、
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+with a troubled expression,
 > END STRING
 
 > BEGIN STRING
@@ -37221,7 +37221,7 @@ moved hips back and forth #{waist} \n​m​while showering kisses #{tec}!
 > BEGIN STRING
 \n\m#{targetname}の性感がみるみる高められていく……！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​#{targetname}'s sexual sensations are increasing rapidly...!
 > END STRING
 
 > BEGIN STRING
@@ -40676,7 +40676,7 @@ intertwined tongues \n​m​with #{targetname} and shook hips #{waist}!
 > BEGIN STRING
 #{myname}は、#{myself.hold.vagina.battler.name}の腰に\n両脚を絡めてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+#{myname} wrapped her legs around \n#{myself.hold.vagina.battler.name}'s waist!
 > END STRING
 
 > BEGIN STRING
@@ -42831,7 +42831,7 @@ Wind Whisper
 > BEGIN STRING
 #{target.name}の腰はロックされてしまった！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{target.name}'s hips are locked! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -42897,13 +42897,13 @@ Wind Whisper
 > BEGIN STRING
 スキルスチール
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Skill Steal
 > END STRING
 
 > BEGIN STRING
 #{target.name}は、#{skill_name}を使えなくなってしまった！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{target.name} can no longer use #{skill_name}! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -47197,15 +47197,15 @@ gave her virginity to her first love from long ago, and her last sanity is broke
 > END STRING
 
 > BEGIN STRING
-夢魔達の狙いが 
+"夢魔達の狙いが "
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+"The succubi's aim was set on "
 > END STRING
 
 > BEGIN STRING
  に定められる！\w\q
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+!​w​q
 > END STRING
 
 > BEGIN STRING
@@ -50396,31 +50396,31 @@ Other
 > BEGIN STRING
 【限定特殊弱点】
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+【Special weakness】
 > END STRING
 
 > BEGIN STRING
 \n使用部位：#{ability_text1}
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+\nArea of use: #{ability_text1}
 > END STRING
 
 > BEGIN STRING
 \n対象部位：#{ability_text2}
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+\nTarget area: #{ability_text2}
 > END STRING
 
 > BEGIN STRING
 \n得意行為：#{ability_text3}
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+\nAbility: #{ability_text3}
 > END STRING
 
 > BEGIN STRING
 【行動傾向素質】
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+【Behavioral Tendency】
 > END STRING
 
 > BEGIN STRING
@@ -50849,7 +50849,7 @@ slender body
 > BEGIN STRING
 は落ち着きを取り戻した！
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+ has regained composure!
 > END STRING
 
 > BEGIN STRING
@@ -58679,13 +58679,13 @@ A mysterious mist hangs all over the area...!
 > BEGIN STRING
 #{enemy.name}は落ち着きを取り戻した！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{enemy.name} has regained composure!
 > END STRING
 
 > BEGIN STRING
 #{i.name}は落ち着きを取り戻した！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{i.name} has regained composure!
 > END STRING
 
 > BEGIN STRING
@@ -58697,7 +58697,7 @@ The echoing singing voice restores everyone's EP...!
 > BEGIN STRING
 #{j.name}は落ち着きを取り戻した！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{j.name} has regained composure!
 > END STRING
 
 > BEGIN STRING
@@ -58853,7 +58853,7 @@ The kiss marks left on #{first_battler_name} and others \n​m​are causing ple
 > BEGIN STRING
 #{battler.name}は落ち着きを取り戻した！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{battler.name} has regained composure!
 > END STRING
 
 > BEGIN STRING
@@ -59111,13 +59111,13 @@ Spores scattered from #{battler.name}! ​w​q
 > BEGIN STRING
 #{target.name} は #{battler.name} に、\w\q【#{$data_ability[select_id].name}】の素質を盗まれてしまった！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{target.name} had w​q​【#{$data_ability[select_id].name}】 ability stolen by #{battler.name}!
 > END STRING
 
 > BEGIN STRING
 #{battler.name}は淫毒を体に溜め始めた！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{battler.name} begun to accumulate aphrodisiac in the body!
 > END STRING
 
 > BEGIN STRING
@@ -70943,25 +70943,25 @@ Time has stopped for #{myname}'s body!
 > BEGIN STRING
 #{myname}は、キッスのスキルを取り戻した！
 > CONTEXT: PR_RPG_Statetext.rb
-#{myname} has regained kissing skills!
+#{myname} has regained Kiss skill!
 > END STRING
 
 > BEGIN STRING
 #{myname}は、バストのスキルを取り戻した！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} has regained Bust skill!
 > END STRING
 
 > BEGIN STRING
 #{myname}は、ヒップのスキルを取り戻した！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} has regained Hip skill!
 > END STRING
 
 > BEGIN STRING
 #{myname}は、クロッチのスキルを取り戻した！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} has regained Crotch skill!
 > END STRING
 
 > BEGIN STRING
@@ -71249,31 +71249,31 @@ The steel slime that was covering #{myname} melted away!
 > BEGIN STRING
 #{myname}は口淫の虜を振り払った！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} has shaken off oral addiction!
 > END STRING
 
 > BEGIN STRING
 #{myname}はキスの虜にされてしまった！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} is hooked on kisses!
 > END STRING
 
 > BEGIN STRING
 #{myname}はキスの虜にされている！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} is addicted to kissing!
 > END STRING
 
 > BEGIN STRING
 #{myname}はキスの虜を振り払った！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} has shaken off the kissing bug!
 > END STRING
 
 > BEGIN STRING
 #{myname}は不思議な光を身にまとう！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} is surrounded by a mysterious light!
 > END STRING
 
 > BEGIN STRING
