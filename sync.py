@@ -71,11 +71,16 @@ def ReduceLinebreaks(file):
                         lines[i] = lines[i].replace("　　","　")
                     elif "\\n" in string:
                         lines[i] = lines[i].replace("\\n　","\\n")
-                    if lines[i].count(brk)>3 and False:
+                    if lines[i].count(brk)>3:
+                        #prevpos = 0
+                        #while True:
+                        #    index = lines[i].find(brk, prevpos)
+                        #    if prevpos+index+lines[i].find(brk, index) < 50:
+                        #        lines[i] = lines[i][0:index]+lines[i][index+3:]
                         #lines[i] = lines[i].replace(brk, "", 1)
                         rindex = lines[i].rfind(brk)
                         if len(lines[i])-rindex<20:
-                            lines[i] = lines[i][0:rindex]+lines[i][rindex+3:]
+                            lines[i] = lines[i][0:rindex]+lines[i][rindex+len(brk):]
                         
                 i += 2
             else:
