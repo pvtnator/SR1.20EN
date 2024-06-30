@@ -26,7 +26,7 @@ def sync(files, update, txstrdir=0):
                         trans = string.replace(string.strip(),update[string.strip()])
                     if trans and lines[i]!=trans:
                         print(lines[i].strip()+" replaced by "+trans.strip())
-                        lines[i] = trans
+                        lines[i] = trans.replace("\n\n","\n")
                     elif lines[i].strip():
                         if string[0]=='"' and txstrdir==0:
                             noquote = string.replace('"','')
@@ -107,6 +107,7 @@ if __name__ == "__main__":
     #source_files = [current_dir / "mod_scripts.txt"]
     source_files = [current_dir / "patch" / "Armors.txt"]
     source_files += [current_dir / "patch" / "Skills.txt"]
+    source_files += [current_dir / "patch" / "Items.txt"]
     dest_files = [current_dir / "mod_scripts.txt"]
     #for file in (current_dir / "patch").rglob("*.txt"):
     #    if not "Unused" in str(file) and not "States" in str(file):
