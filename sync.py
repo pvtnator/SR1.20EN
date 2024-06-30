@@ -52,40 +52,52 @@ def ReduceLinebreaks(file):
     with file.open(encoding='utf-8', errors='replace') as f:
         lines = f.readlines()
 
-    with file.open('w', encoding='utf-8') as outfile:
-        i = 0
-        while i < len(lines):
-            if lines[i].strip() == "> BEGIN STRING":
+    i = 0
+    while i < len(lines):
+        if lines[i].strip() == "> BEGIN STRING":
+            i += 1
+            string = lines[i]
+            i += 1
+            while(lines[i][0] != ">"):
+                string += lines[i]
                 i += 1
-                string = lines[i]
+            while(lines[i][0] == ">"):
                 i += 1
-                while(lines[i][0] != ">"):
-                    string += lines[i]
-                    i += 1
-                while(lines[i][0] == ">"):
-                    i += 1
-                if lines[i].strip():
-                    brk = "\\n　" if "　" in string else "\\n"
-                    if "　" in string:
-                        lines[i] = lines[i].replace("\\n","\\n　")
-                        lines[i] = lines[i].replace("　　","　")
-                    elif "\\n" in string:
-                        lines[i] = lines[i].replace("\\n　","\\n")
-                    if lines[i].count(brk)>3:
-                        #prevpos = 0
-                        #while True:
-                        #    index = lines[i].find(brk, prevpos)
-                        #    if prevpos+index+lines[i].find(brk, index) < 50:
-                        #        lines[i] = lines[i][0:index]+lines[i][index+3:]
-                        #lines[i] = lines[i].replace(brk, "", 1)
-                        rindex = lines[i].rfind(brk)
-                        if len(lines[i])-rindex<20:
-                            lines[i] = lines[i][0:rindex]+lines[i][rindex+len(brk):]
-                        
-                i += 2
-            else:
-                i += 1
-            
+            if lines[i].strip():
+                brk = "\\n　" if "　" in string else "\\n"
+                if "　" in string:
+                    lines[i] = lines[i].replace("\\n","\\n　")
+                    lines[i] = lines[i].replace("　　","　")
+                elif "\\n" in string:
+                    lines[i] = lines[i].replace("\\n　","\\n")
+                if lines[i].count(brk)>3:
+                    prevpos = 0
+                    smallest = 999
+                    smallestIndex = -1
+                    while prevpos < len(lines[i].strip()):
+                        index = lines[i].find(brk, prevpos+1)
+                        newindex = lines[i].find(brk, index+1)
+                        newindex = len(lines[i].strip()) if newindex<0 else newindex
+                        newlen = newindex-prevpos
+                        if newindex-index < smallest and newlen < 60:
+                            smallestIndex = index
+                            smallest = newindex-index
+                        index = newindex
+                        prevpos = index
+                    if smallestIndex >= 0:
+                        index = smallestIndex
+                        lines[i] = lines[i][0:index]+" "+lines[i][index+len(brk):]
+                        lines[i] = lines[i].replace("  ", " ")
+                    #lines[i] = lines[i].replace(brk, "", 1)
+                    #rindex = lines[i].rfind(brk)
+                    #if len(lines[i])-rindex<20:
+                    #    lines[i] = lines[i][0:rindex]+lines[i][rindex+len(brk):]
+                    
+            i += 2
+        else:
+            i += 1
+
+    with file.open('w', encoding='utf-8') as outfile:  
         outfile.writelines(lines)
 
 if __name__ == "__main__":
