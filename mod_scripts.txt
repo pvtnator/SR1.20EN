@@ -2333,7 +2333,7 @@ Lost Impact
 > BEGIN STRING
 呪いが刻まれ、#{actors_word}のSS率が下がった！
 > CONTEXT: Incense_System.rb
-
+ placed curse on #{actors_word}, SS rate decreased!
 > END STRING
 
 > BEGIN STRING
@@ -2357,7 +2357,7 @@ Lost Impact
 > BEGIN STRING
 呪いが刻まれ、全員の精力が下がった！
 > CONTEXT: Incense_System.rb
-
+ placed curse on everyone, lowering energy!
 > END STRING
 
 > BEGIN STRING
@@ -2381,7 +2381,7 @@ Lost Impact
 > BEGIN STRING
 呪いが刻まれ、全員の器用さが下がった！
 > CONTEXT: Incense_System.rb
-
+ placed curse on everyone, lowering dexterity!
 > END STRING
 
 > BEGIN STRING
@@ -3263,19 +3263,19 @@ Everything is real
 マジックバーンフロウ
 > CONTEXT: Incense_System.rb
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+Magic Burn Flow
 > END STRING
 
 > BEGIN STRING
 #{field_word}を魔法に反応する霧が覆った！
 > CONTEXT: Incense_System.rb
-
+#{field_word} has are covered in a magic-sensitive mist!
 > END STRING
 
 > BEGIN STRING
 #{field_word}から魔法に反応する霧が晴れた！
 > CONTEXT: Incense_System.rb
-
+The magic-sensitive fog has cleared from #{field_word}!
 > END STRING
 
 > BEGIN STRING
@@ -3284,43 +3284,43 @@ Everything is real
 > CONTEXT: O_MOD_Game_Battler_3.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Indecent Mist
 > END STRING
 
 > BEGIN STRING
 #{field_word}が妖しい霧に包まれ始めた！
 > CONTEXT: Incense_System.rb
-
+#{field_word} has begun to be enveloped in a mysterious mist!
 > END STRING
 
 > BEGIN STRING
 #{field_word}が更に深い霧に包まれた！
 > CONTEXT: Incense_System.rb
-
+#{field_word} is now shrouded in even thicker fog!
 > END STRING
 
 > BEGIN STRING
 #{field_word}は妖しい霧に包まれている……！
 > CONTEXT: Incense_System.rb
-
+#{field_word} is shrouded in a mysterious mist...!
 > END STRING
 
 > BEGIN STRING
 #{field_word}はとても妖しい霧に包まれている……！
 > CONTEXT: Incense_System.rb
-
+#{field_word} is shrouded in a mysterious mist...!
 > END STRING
 
 > BEGIN STRING
 #{field_word}の妖しい霧が晴れてきた！
 > CONTEXT: Incense_System.rb
-
+The mysterious fog of #{field_word} is clearing!
 > END STRING
 
 > BEGIN STRING
 #{field_word}の妖しい霧が少しだけ晴れた！
 > CONTEXT: Incense_System.rb
-
+The mysterious fog in #{field_word} has cleared up a little!
 > END STRING
 
 > BEGIN STRING
@@ -3401,19 +3401,19 @@ The mucus is gone from #{field_word}!
 > BEGIN STRING
 #{field_word}に花びらが舞い始めた！
 > CONTEXT: Incense_System.rb
-
+Petals have started to fall in #{field_word}!
 > END STRING
 
 > BEGIN STRING
 #{field_word}は花びらが舞っている……！
 > CONTEXT: Incense_System.rb
-
+#{field_word} has petals fluttering in the air...!
 > END STRING
 
 > BEGIN STRING
 #{field_word}に舞っていた花びらが消えた！
 > CONTEXT: Incense_System.rb
-
+The petals fluttering in the air disappeared!
 > END STRING
 
 > BEGIN STRING
@@ -11176,19 +11176,19 @@ Restraint Rosary
 > BEGIN STRING
 貝殻のピアス
 > CONTEXT: O_MOD_Game_Battler_2.rb
-
+Shell Earrings
 > END STRING
 
 > BEGIN STRING
 パールクラウン
 > CONTEXT: O_MOD_Game_Battler_2.rb
-
+Pearl Crown
 > END STRING
 
 > BEGIN STRING
 バニーバンド
 > CONTEXT: O_MOD_Game_Battler_2.rb
-
+Bunny Band
 > END STRING
 
 > BEGIN STRING
@@ -13303,14 +13303,14 @@ Metal Skin
 フロストグラインド
 > CONTEXT: O_MOD_Game_Battler_3.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Frost Grind
 > END STRING
 
 > BEGIN STRING
 雪女の抱擁
 > CONTEXT: O_MOD_Game_Battler_3.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-Snow Girl Hug
+Snowy Embrace
 > END STRING
 
 > BEGIN STRING
@@ -15046,7 +15046,7 @@ Abyss Scratch
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_RPG_Skilltext.rb
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+Vacuum Lip
 > END STRING
 
 > BEGIN STRING
@@ -21413,7 +21413,7 @@ The difficulty of interrupt commands is reduced.
 > BEGIN STRING
 状態異常の時、忍耐力が上がる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increases endurance under status ailments.
 > END STRING
 
 > BEGIN STRING
@@ -22689,13 +22689,13 @@ Attract partner upon climaxing.
 > BEGIN STRING
 脱衣時、忍耐力がほとんど下がらない。寒さにも強くなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Slight decrease to endurance when undressing. Resistant to cold.
 > END STRING
 
 > BEGIN STRING
 着衣時は忍耐力が激増するものの、常時レジストに弱くなる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Endurance increases dramatically when clothed, but vulnerable to Resist.
 > END STRING
 
 > BEGIN STRING
@@ -22713,7 +22713,7 @@ Attract partner upon climaxing.
 > BEGIN STRING
 \n発情状態になり、精力忍耐力が強化されるが器用精神力が弱化する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Enter a state of estrus, energy/endurance↑, dexterity/spirit↓.
 > END STRING
 
 > BEGIN STRING
@@ -33528,19 +33528,19 @@ sucked on \n​m​#{targetname}'s #{target.bustsize} through a gap in clothes!
 > BEGIN STRING
 全身から糸を吐いた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ spat out threads from her entire body!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の影に\n\m自らの影を忍ばせてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ is hiding in the shadow of #{targetname}!
 > END STRING
 
 > BEGIN STRING
 #{myname}の指が、#{targetname}の体を\n\m妖しく這い回る！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+#{myname}'s fingers are creeping mysteriously \n​m​over #{targetname}'s body!
 > END STRING
 
 > BEGIN STRING
@@ -33552,13 +33552,13 @@ sucked on \n​m​#{targetname}'s #{target.bustsize} through a gap in clothes!
 > BEGIN STRING
 分身の術を使った！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ used the clone technique!
 > END STRING
 
 > BEGIN STRING
 ゆっくりと目を閉じ、\n\m瞑想して心を落ち着かせた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ slowly closed eyes \n​m​and meditated to calm mind!
 > END STRING
 
 > BEGIN STRING
@@ -34435,19 +34435,19 @@ in turning motion
 > BEGIN STRING
 魔法に反応する霧を発生させた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ created a mist that reacts to magic!
 > END STRING
 
 > BEGIN STRING
 霧が魔法の発動を阻害した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+The mist prevented the magic from being activated!
 > END STRING
 
 > BEGIN STRING
 妖しい霧を振りまいてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ is spreading a mysterious mist!
 > END STRING
 
 > BEGIN STRING
@@ -35527,7 +35527,7 @@ two overwhelming
 > BEGIN STRING
 #{targetname}と体を合わせ、\n\mアソコ同士を押しつけた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ brought body together with #{targetname} \n​m​and pressed genitals together!
 > END STRING
 
 > BEGIN STRING
@@ -35671,7 +35671,7 @@ two overwhelming
 > BEGIN STRING
 #{targetname}の\n\m乳首を、足の指で強く捻り上げてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ twisted #{targetname}'s\n​m​nipples hard with toes!
 > END STRING
 
 > BEGIN STRING
@@ -41337,14 +41337,14 @@ Can't reach the target's crotch!
 その相手にはリリースが届かない！
 > CONTEXT: O_MOD_Scene_Battle_3.rb
 > CONTEXT: O_MOD_SR_Util_Skill使用判定.rb
-
+The release won't reach that person!
 > END STRING
 
 > BEGIN STRING
 覆面装着中の相手には使用できません！
 > CONTEXT: O_MOD_Scene_Battle_3.rb
 > CONTEXT: O_MOD_SR_Util_Skill使用判定.rb
-
+Cannot be used on people wearing masks!
 > END STRING
 
 > BEGIN STRING
@@ -42299,7 +42299,7 @@ Corrupt Scratch
 > BEGIN STRING
  下がった！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+ reduced! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -42583,9 +42583,9 @@ is holding back from climax!​w​q
 > END STRING
 
 > BEGIN STRING
-の素早さが 
+"の素早さが "
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+"'s agility "
 > END STRING
 
 > BEGIN STRING
@@ -42663,13 +42663,13 @@ is holding back from climax!​w​q
 > BEGIN STRING
 千手観音
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Thousand-Armed Kannon
 > END STRING
 
 > BEGIN STRING
 の忍耐力が 
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+'s endurance
 > END STRING
 
 > BEGIN STRING
@@ -43163,13 +43163,13 @@ But it had no effect!\w​q​
 分身の術
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+Clone Technique
 > END STRING
 
 > BEGIN STRING
 なんと、#{@active_battler.name}がもう１人現れた！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+What, another #{@active_battler.name} has appeared! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -58691,7 +58691,7 @@ A mysterious mist hangs all over the area...!
 > BEGIN STRING
 辺りに響く歌声が全員のＥＰを回復する……！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+The echoing singing voice restores everyone's EP...!
 > END STRING
 
 > BEGIN STRING
@@ -71339,13 +71339,13 @@ The steel slime that was covering #{myname} melted away!
 > BEGIN STRING
 #{myname}の周囲に蜘蛛の巣が張られた！
 > CONTEXT: PR_RPG_Statetext.rb
-
+A spider web has been spun around #{myname}!
 > END STRING
 
 > BEGIN STRING
 #{myname}の周囲から蜘蛛の巣が消えた！
 > CONTEXT: PR_RPG_Statetext.rb
-
+The spider webs disappeared from around #{myname}!
 > END STRING
 
 > BEGIN STRING

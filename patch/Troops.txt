@@ -7257,7 +7257,7 @@ Artrum/332/72
 > BEGIN STRING
 ツキヨダケ/133/75, カグヤ/152/76
 > CONTEXT: Troops/1331/name/
-ツキヨダケ/133/75, Kaguya/152/76
+Tsukiyodake/133/75, Kaguya/152/76
 > END STRING
 
 > BEGIN STRING
@@ -7269,7 +7269,7 @@ Yukinko/239/76, Kaguya/152/76
 > BEGIN STRING
 ユキンコ/239/76, ツキヨダケ/133/75
 > CONTEXT: Troops/1333/name/
-Yukinko/239/76, ツキヨダケ/133/75
+Yukinko/239/76, Tsukiyodake/133/75
 > END STRING
 
 > BEGIN STRING
@@ -7281,7 +7281,7 @@ Kaguya/152/76*2
 > BEGIN STRING
 ツキヨダケ/133/75*2
 > CONTEXT: Troops/1335/name/
-Tsukiyotake/133/75*2
+Tsukiyodake/133/75*2
 > END STRING
 
 > BEGIN STRING
@@ -7458,25 +7458,25 @@ Frost Pillow/222/76, Nieuweus/326/80
 > BEGIN STRING
 ゴブリンガード/111/76, ゴブリンガード/23
 > CONTEXT: Troops/1371/name/
-Goblinガード/111/76, Goblinガード/23
+Goblin Guard/111/76, Goblin Guard/23
 > END STRING
 
 > BEGIN STRING
 マリンヘア/105/80, アティーナ/183/79
 > CONTEXT: Troops/1373/name/
-マリンヘア/105/80, Atina/183/79
+Marinhea/105/80, Atina/183/79
 > END STRING
 
 > BEGIN STRING
 バンシー/63/78, ネーレイス/126/78
-> CONTEXT: Troops/1374/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/1374/name/
+Banshee/63/78, Nereis/126/78
 > END STRING
 
 > BEGIN STRING
 ネーレイス/126/78, アティーナ/183/79
 > CONTEXT: Troops/1375/name/
-ネーレイス/126/78, Atina/183/79
+Nereis/126/78, Atina/183/79
 > END STRING
 
 > BEGIN STRING
@@ -7500,13 +7500,13 @@ Nereis/126/78*2
 > BEGIN STRING
 ゴブリンガード/111/76, ネーレイス/126/78
 > CONTEXT: Troops/1379/name/
-Goblinガード/111/76, ネーレイス/126/78
+Goblin Guard/111/76, Nereis/126/78
 > END STRING
 
 > BEGIN STRING
 ゴブリンガード/111/76, マリンヘア/105/80
 > CONTEXT: Troops/1380/name/
-Goblinガード/111/76, マリンヘア/105/80
+Goblin Guard/111/76, Marinhea/105/80
 > END STRING
 
 > BEGIN STRING
@@ -7651,13 +7651,13 @@ Selous/63/73*2, Amore/177/75
 > BEGIN STRING
 スフィンクス/141/73, アモーレ/177/75
 > CONTEXT: Troops/1412/name/
-スフィンクス/141/73, Amore/177/75
+Sphinx/141/73, Amore/177/75
 > END STRING
 
 > BEGIN STRING
 スフィンクス/141/73, ピアチェレ/178/79
 > CONTEXT: Troops/1413/name/
-スフィンクス/141/73, Piacere/178/79
+Sphinx/141/73, Piacere/178/79
 > END STRING
 
 > BEGIN STRING
@@ -7681,43 +7681,43 @@ Assassin/175/78*2
 > BEGIN STRING
 アセト/156/72, アサシン/175/78
 > CONTEXT: Troops/1417/name/
-Asto/156/72, Assassin/175/78
+Aceto/156/72, Assassin/175/78
 > END STRING
 
 > BEGIN STRING
 アモーレ/177/75, アサシン/175/78
 > CONTEXT: Troops/1418/name/
-Amore/177/75, アサシン/175/78
+Amore/177/75, Assassin/175/78
 > END STRING
 
 > BEGIN STRING
 アサシン/175/78, ピアチェレ/178/79
 > CONTEXT: Troops/1419/name/
-アサシン/175/78, Piacere/178/79
+Aceto/175/78, Piacere/178/79
 > END STRING
 
 > BEGIN STRING
 マモン/223/80, イシス/219/80
-> CONTEXT: Troops/1420/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/1420/name/
+Mammon/223/80, Isis/219/80
 > END STRING
 
 > BEGIN STRING
 アセト/156/72, イシス/219/80
-> CONTEXT: Troops/1421/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/1421/name/
+Aceto/156/72, Isis/219/80
 > END STRING
 
 > BEGIN STRING
 イシス/219/80
-> CONTEXT: Troops/1422/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/1422/name/
+Isis/219/80
 > END STRING
 
 > BEGIN STRING
 アサシン/175/78*3
-> CONTEXT: Troops/1423/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/1423/name/
+Assassin/175/78*3
 > END STRING
 
 > BEGIN STRING
@@ -7753,26 +7753,29 @@ Amore/177/75, アサシン/175/78
 
 > BEGIN STRING
 あたりに魔性の芳香が漂い始める……！
-> CONTEXT: Troops/1438/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/1438/pages/0/1/Dialogue
+A magical fragrance begins to waft around...!
 > END STRING
 
 > BEGIN STRING
 \\name[スルガト]\\_
 「くす……わたくしの香りを嗅ぎながら、
 　これまでの行いを悔い改めなさい……\\H」
-> CONTEXT: Troops/1438/pages/0/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/1438/pages/0/3/Dialogue
+\\name[Surugato]\\_
+「Haha...smell my scent 
+　and repent for your past actions...\\H」
 > END STRING
 
 > BEGIN STRING
 魔性の芳香に誘われて、
 ベルフェゴールが現れた！
-> CONTEXT: Troops/1438/pages/1/17/Dialogue < UNTRANSLATED
-> CONTEXT: Troops/1438/pages/1/37/Dialogue < UNTRANSLATED
-> CONTEXT: Troops/1438/pages/1/57/Dialogue < UNTRANSLATED
-> CONTEXT: Troops/1438/pages/1/77/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/1438/pages/1/17/Dialogue
+> CONTEXT: Troops/1438/pages/1/37/Dialogue
+> CONTEXT: Troops/1438/pages/1/57/Dialogue
+> CONTEXT: Troops/1438/pages/1/77/Dialogue
+Attracted by the enchanting fragrance,
+Belphegor appears!
 > END STRING
 
 > BEGIN STRING
@@ -7797,7 +7800,7 @@ Tenacity/324/75*3
 > BEGIN STRING
 テネシティ/324/75*2, アルケミスト/122/80
 > CONTEXT: Troops/1442/name/
-Tenacity/324/75*2, アルケミスト/122/80
+Tenacity/324/75*2, Alchemist/122/80
 > END STRING
 
 > BEGIN STRING
@@ -7809,25 +7812,25 @@ Tenacity/324/75*2, Goblin Wizard/
 > BEGIN STRING
 ゴブリンウィザード/43/76, アルケミスト/1
 > CONTEXT: Troops/1444/name/
-Goblin Wizard/43/76, アルケミスト/1
+Goblin Wizard/43/76, Alchemist/1
 > END STRING
 
 > BEGIN STRING
 マモン/223/80*2, ドロフォノス/321/80
 > CONTEXT: Troops/1448/name/
-マモン/223/80*2, Dolophonos/321/80
+Mammon/223/80*2, Dolophonos/321/80
 > END STRING
 
 > BEGIN STRING
 アル厶ヌス/247/77, ドロフォノス/321/80
 > CONTEXT: Troops/1449/name/
-アル厶ヌス/247/77, Dolophonos/321/80
+Armunus/247/77, Dolophonos/321/80
 > END STRING
 
 > BEGIN STRING
 ゴブリンウィザード/43/76, アル厶ヌス/247
 > CONTEXT: Troops/1450/name/
-Goblin Wizard/43/76, アル厶ヌス/247
+Goblin Wizard/43/76, Armunus/247
 > END STRING
 
 > BEGIN STRING
@@ -7846,7 +7849,7 @@ Goblin Wizard/43/76, Dolophonos/3
 > BEGIN STRING
 【BOSS】魔法使いサキュバスコンビ
 > CONTEXT: Troops/1454/name/
-【BOSS】魔法使いSuccubusコンビ
+【BOSS】Wizard Succubi
 > END STRING
 
 > BEGIN STRING
@@ -7903,32 +7906,39 @@ Goblin Wizard/43/76, Dolophonos/3
 > BEGIN STRING
 \\name[\\v[2]]\\_
 苦戦しているようですね、\\n[101]……。
-> CONTEXT: Troops/1460/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/1460/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+It looks like you're having a hard time, \\n[101]...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今のアウルムは、闇のオーラを纏い、
 まさに無敵の状態……。
-> CONTEXT: Troops/1460/pages/0/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/1460/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+Aurum is now surrounded by a dark aura,
+making her truly invincible...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふ……、\\|
 どうやら……。
-> CONTEXT: Troops/1460/pages/0/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/1460/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+Hehe... \\|
+It seems...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 最後の仕事を……\\|
 果たす時が……\\|来たようですね……\\H
-> CONTEXT: Troops/1460/pages/0/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/1460/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+It seems the time has come ...\\|
+to complete your final task...\\|\\H
 > END STRING
 
 > BEGIN STRING
@@ -7945,9 +7955,9 @@ Goblin Wizard/43/76, Dolophonos/3
 
 > BEGIN STRING
 シュレム/22/80*3
-> CONTEXT: Troops/1464/name/ < UNTRANSLATED
-> CONTEXT: Troops/1472/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/1464/name/
+> CONTEXT: Troops/1472/name/
+Schrem/22/80*3
 > END STRING
 
 > BEGIN STRING
@@ -7966,26 +7976,26 @@ Belphegor/184/84*3
 
 > BEGIN STRING
 シュレム/22/80*2
-> CONTEXT: Troops/1471/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/1471/name/
+Schrem/22/80*2
 > END STRING
 
 > BEGIN STRING
 ベルフェゴール/184/84, シュレム/22/80
 > CONTEXT: Troops/1473/name/
-Belphegor/184/84, シュレム/22/80
+Belphegor/184/84, Schrem/22/80
 > END STRING
 
 > BEGIN STRING
 サテュリオン/80/83, シュレム/22/80
-> CONTEXT: Troops/1474/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/1474/name/
+Satyrion/80/83, Schrem/22/80
 > END STRING
 
 > BEGIN STRING
 サテュリオン/80/83, スロウス/384/80
-> CONTEXT: Troops/1475/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/1475/name/
+Satyrion/80/83, Slous/384/80
 > END STRING
 
 > BEGIN STRING
@@ -7996,38 +8006,38 @@ Belphegor/184/84*2
 
 > BEGIN STRING
 サテュリオン/80/83*2
-> CONTEXT: Troops/1478/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/1478/name/
+Satyrion/80/83*2
 > END STRING
 
 > BEGIN STRING
 ベルフェゴール/184/84, サテュリオン/80/8
 > CONTEXT: Troops/1479/name/
-Belphegor/184/84, サテュリオン/80/8
+Belphegor/184/84, Satyrion/80/8
 > END STRING
 
 > BEGIN STRING
 ベルフェゴール/184/84, スロウス/384/80
 > CONTEXT: Troops/1480/name/
-Belphegor/184/84, スロウス/384/80
+Belphegor/184/84, Slous/384/80
 > END STRING
 
 > BEGIN STRING
 スロウス/384/80*2
-> CONTEXT: Troops/1481/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/1481/name/
+Slous/384/80*2
 > END STRING
 
 > BEGIN STRING
 ベルゼビュート/180/86, スロウス/384/80
 > CONTEXT: Troops/1482/name/
-Beelzebub/180/86, スロウス/384/80
+Beelzebub/180/86, Slous/384/80
 > END STRING
 
 > BEGIN STRING
 ベルゼビュート/180/86, シュレム/22/80
 > CONTEXT: Troops/1483/name/
-Beelzebub/180/86, シュレム/22/80
+Beelzebub/180/86, Schrem/22/80
 > END STRING
 
 > BEGIN STRING
@@ -8039,7 +8049,7 @@ Belphegor/184/84, Beelzebub/18
 > BEGIN STRING
 ベルゼビュート/180/86, サテュリオン/80/8
 > CONTEXT: Troops/1485/name/
-Beelzebub/180/86, サテュリオン/80/8
+Beelzebub/180/86, Satyrion/80/8
 > END STRING
 
 > BEGIN STRING
@@ -8063,20 +8073,20 @@ Belphegor/184/90*3
 
 > BEGIN STRING
 スロウス/347/90*3
-> CONTEXT: Troops/1489/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/1489/name/
+Slous/347/90*3
 > END STRING
 
 > BEGIN STRING
 ベルフェゴール/184/90*2, テンタクルリリ
 > CONTEXT: Troops/1490/name/
-Belphegor/184/90*2, テンタクルリリ
+Belphegor/184/90*2, Tentacle Lilim
 > END STRING
 
 > BEGIN STRING
 スロウス/347/90*2, アモーレ/177/90
 > CONTEXT: Troops/1491/name/
-スロウス/347/90*2, Amore/177/90
+Slous/347/90*2, Amore/177/90
 > END STRING
 
 > BEGIN STRING
@@ -8088,7 +8098,7 @@ Belphegor/184/90*2, Amore/177/90
 > BEGIN STRING
 テンタクルリリム/165/90*2, アモーレ/177/
 > CONTEXT: Troops/1493/name/
-テンタクルLilim/165/90*2, Amore/177/
+Tentacle Lilim/165/90*2, Amore/177/
 > END STRING
 
 > BEGIN STRING
