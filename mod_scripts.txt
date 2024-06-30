@@ -29642,19 +29642,19 @@ smoothly
 > END STRING
 
 > BEGIN STRING
-艶かしく
+"艶かしく"
 > CONTEXT: O_MOD_RPG_Skilltext.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Talk.rb
-sexily 
+"sexily "
 > END STRING
 
 > BEGIN STRING
-一所懸命に
+"一所懸命に"
 > CONTEXT: O_MOD_RPG_Skilltext.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Talk.rb
-diligently 
+"diligently "
 > END STRING
 
 > BEGIN STRING
@@ -34453,7 +34453,7 @@ in turning motion
 > BEGIN STRING
 凍えるような息吹を\n\m吹き付けてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ blew a frosty blast of breath!
 > END STRING
 
 > BEGIN STRING
@@ -36768,7 +36768,7 @@ embaressedly
 > BEGIN STRING
 #{targetname}と\n\m繋がったまま、腰をつぅっとなぞってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ gently stroked #{targetname}'s waist\n​m​while still connected!
 > END STRING
 
 > BEGIN STRING
@@ -37317,25 +37317,25 @@ moved hips back and forth #{waist} \n​m​while showering kisses #{tec}!
 > BEGIN STRING
 \n\m#{targetname}の体温が奪われていく……！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​#{targetname}'s body heat is being taken away...!
 > END STRING
 
 > BEGIN STRING
 焦らすような腰つきで、\n\mに#{targetname}を追い詰める……！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ corners #{targetname} \n​m​with teasing hips...!
 > END STRING
 
 > BEGIN STRING
 アソコをぎゅっと締めつけ、\n\m搾り取るように腰を打ち付けてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ squeezed pussy tightly \n​m​and slammed hips in as if to squeeze dry!
 > END STRING
 
 > BEGIN STRING
 アソコを押し付け、\n\m#{targetname}のペニスを焦らすように擦ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pressed vagina against #{targetname}, \n​m​rubbing it against his penis, teasing him!
 > END STRING
 
 > BEGIN STRING
@@ -42275,7 +42275,7 @@ Corrupt Scratch
 > BEGIN STRING
 の身体に温もりがこもってきた！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+'s body has started to warm up!​w​q
 > END STRING
 
 > BEGIN STRING
@@ -50758,7 +50758,7 @@ slender body
 > BEGIN STRING
 #{battler.name}の体が更に冷えてきた！
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+#{battler.name}'s body is getting even colder!
 > END STRING
 
 > BEGIN STRING
@@ -58673,7 +58673,7 @@ A mysterious mist hangs all over the area...!
 > BEGIN STRING
 #{enemy.name}はＥＰを #{recover_ep.to_s} 回復させた！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{enemy.name} recovered #{recover_ep.to_s} EP!
 > END STRING
 
 > BEGIN STRING
