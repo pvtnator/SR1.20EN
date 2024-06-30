@@ -481,21 +481,21 @@ Cooking knowledge
 料理達人のルーン
 > CONTEXT: Game_Actor（食事用）.rb
 > CONTEXT: Window_Cook_Cooking.rb
-
+Master Chef Rune
 > END STRING
 
 > BEGIN STRING
 料理長のルーン
 > CONTEXT: Game_Actor（食事用）.rb
 > CONTEXT: Window_Cook_Cooking.rb
-
+Head Chef Rune
 > END STRING
 
 > BEGIN STRING
 副料理長のルーン
 > CONTEXT: Game_Actor（食事用）.rb
 > CONTEXT: Window_Cook_Cooking.rb
-
+Sous Chef Rune
 > END STRING
 
 > BEGIN STRING
@@ -3465,7 +3465,7 @@ The mucus is gone from #{field_word}!
 > BEGIN STRING
 オーバータイム
 > CONTEXT: Incense_System.rb
-
+Overtime
 > END STRING
 
 > BEGIN STRING
@@ -5661,7 +5661,7 @@ Tail mastery
 サキュバステイル
 > CONTEXT: O_MOD_Game_Actor_戦闘中スキル.rb
 > CONTEXT: 修正用.rb
-
+Succubus Tail
 > END STRING
 
 > BEGIN STRING
@@ -6153,7 +6153,7 @@ Temptation・Anal insert
 > BEGIN STRING
 欲望のブローチ
 > CONTEXT: O_MOD_Game_Actor_戦闘中スキル.rb
-
+Brooch of Desire
 > END STRING
 
 > BEGIN STRING
@@ -9026,7 +9026,7 @@ Efficient
 > BEGIN STRING
 時間パスポート
 > CONTEXT: O_MOD_Game_Battler_1.rb
-
+Time Passport
 > END STRING
 
 > BEGIN STRING
@@ -9038,7 +9038,7 @@ Maniac's Guide
 > BEGIN STRING
 ワイルドブック
 > CONTEXT: O_MOD_Game_Battler_1.rb
-
+Wild Book
 > END STRING
 
 > BEGIN STRING
@@ -9282,7 +9282,7 @@ Vitality Flame
 ワルプルギスの灯
 > CONTEXT: O_MOD_Game_Battler_1.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Walpurgis Light
 > END STRING
 
 > BEGIN STRING
@@ -10485,7 +10485,7 @@ Heroic
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Mage's Mark
 > END STRING
 
 > BEGIN STRING
@@ -10819,7 +10819,7 @@ Blowkiss
 > BEGIN STRING
 ルナストーン
 > CONTEXT: O_MOD_Game_Battler_2.rb
-
+Luna Stone
 > END STRING
 
 > BEGIN STRING
@@ -10985,7 +10985,7 @@ Vixen emblem
 > BEGIN STRING
 朽ちた古代のルーン
 > CONTEXT: O_MOD_Game_Battler_2.rb
-
+Decayed Ancient Rune
 > END STRING
 
 > BEGIN STRING
@@ -11261,7 +11261,7 @@ Vitality Rune
 > BEGIN STRING
 竜の息吹
 > CONTEXT: O_MOD_Game_Battler_2.rb
-
+Dragon's Breath
 > END STRING
 
 > BEGIN STRING
@@ -11479,7 +11479,7 @@ Peaceful Rem
 > BEGIN STRING
 ユメサケビドリ
 > CONTEXT: O_MOD_Game_Battler_2.rb
-
+Dream Sake Viper
 > END STRING
 
 > BEGIN STRING
@@ -15341,7 +15341,7 @@ Bottomless Stamina
 突破のルーン
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Breakthrough Rune
 > END STRING
 
 > BEGIN STRING
@@ -20079,7 +20079,7 @@ Able to harvest more.
 > BEGIN STRING
 リバウンドで自分が受ける快感が大幅に上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Pleasure received from rebound increases significantly.
 > END STRING
 
 > BEGIN STRING
@@ -21775,7 +21775,7 @@ Puts a big disadvantage on the opponent's resist on 2nd attempt
 > BEGIN STRING
 一部の夢魔が扱う能力低下が解除されなくなる呪い。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+A curse that prevents the impaired abilities of some succubi from being lifted.
 > END STRING
 
 > BEGIN STRING
@@ -21829,7 +21829,7 @@ Mouth sensitivityⅠ
 > BEGIN STRING
 唇や舌を開発されている。受ける快感が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Lips and tongue are sensitized. Pleasure increases.
 > END STRING
 
 > BEGIN STRING
@@ -21841,7 +21841,7 @@ Mouth sensitivityⅡ
 > BEGIN STRING
 唇や舌を開発されている。受ける快感が大きく増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Lips and tongue are sensitized. Pleasure increases greatly.
 > END STRING
 
 > BEGIN STRING
@@ -21853,7 +21853,7 @@ Chest sensitivityⅠ
 > BEGIN STRING
 胸や乳首を開発されている。受ける快感が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Chest and nipples are sensitized. Pleasure increases.
 > END STRING
 
 > BEGIN STRING
@@ -21865,7 +21865,7 @@ Chest sensitivityⅡ
 > BEGIN STRING
 胸や乳首を開発されている。受ける快感が大きく増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Chest and nipples are sensitized. Pleasure increases greatly.
 > END STRING
 
 > BEGIN STRING
@@ -21877,7 +21877,7 @@ Butt sensitivityⅠ
 > BEGIN STRING
 お尻やアナルを開発されている。受ける快感が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Ass and anus are sensitized. Pleasure increases.
 > END STRING
 
 > BEGIN STRING
@@ -21895,7 +21895,7 @@ Butt sensitivityⅡ
 > BEGIN STRING
 お尻やアナルを開発されている。受ける快感が大きく増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Ass and anus are sensitized. Pleasure increases greatly.
 > END STRING
 
 > BEGIN STRING
@@ -21967,7 +21967,7 @@ Vagina sensitivityⅡ
 > BEGIN STRING
 アソコを開発されている。受ける快感が大きく増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Vagina is sensitized. Pleasure increases greatly.
 > END STRING
 
 > BEGIN STRING
@@ -21979,7 +21979,7 @@ Maso sensitivityⅠ
 > BEGIN STRING
 被虐の虜。被虐で受ける快感が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Captive of masochism. Pleasure from masochism increases.
 > END STRING
 
 > BEGIN STRING
@@ -21991,7 +21991,7 @@ Maso sensitivityⅡ
 > BEGIN STRING
 被虐の虜。被虐で受ける快感が大きく増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Captive of masochism. Pleasure from masochism increases greatly.
 > END STRING
 
 > BEGIN STRING
@@ -22051,7 +22051,7 @@ Abnormal sensitivityⅠ
 > BEGIN STRING
 異形攻めの虜。異形攻めで受ける快感が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Captivated by strange attacks. Pleasure from strange attacks increases.
 > END STRING
 
 > BEGIN STRING
@@ -22063,7 +22063,7 @@ Abnormal sensitivityⅡ
 > BEGIN STRING
 異形攻めの虜。異形攻めで受ける快感が大きく増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Captivated by strange attacks. Pleasure from strange attacks increases greatly.
 > END STRING
 
 > BEGIN STRING
@@ -22075,7 +22075,7 @@ Oral sex sensitivityⅠ
 > BEGIN STRING
 口姦の虜。口姦で受ける快感が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Addicted to oral sex. Pleasure from oral sex increases.
 > END STRING
 
 > BEGIN STRING
@@ -22087,7 +22087,7 @@ Oral sex sensitivityⅡ
 > BEGIN STRING
 口姦の虜。口姦で受ける快感が大きく増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Addicted to oral sex. Pleasure from oral sex increases greatly.
 > END STRING
 
 > BEGIN STRING
@@ -22099,7 +22099,7 @@ Oral sensitivityⅠ
 > BEGIN STRING
 口淫の虜。口淫で受ける快感が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Addicted to oral sex. Pleasure from oral sex increases.
 > END STRING
 
 > BEGIN STRING
@@ -22111,7 +22111,7 @@ Oral sensitivityⅡ
 > BEGIN STRING
 口淫の虜。口淫で受ける快感が大きく増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Addicted to oral sex. Pleasure from oral sex increases greatly.
 > END STRING
 
 > BEGIN STRING
@@ -22123,7 +22123,7 @@ Masturbate sensitivityⅠ
 > BEGIN STRING
 手淫の虜。手淫で受ける快感が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Addicted to masturbation. Pleasure from masturbation increases.
 > END STRING
 
 > BEGIN STRING
@@ -22135,7 +22135,7 @@ Masturbate sensitivityⅡ
 > BEGIN STRING
 手淫の虜。手淫で受ける快感が大きく増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Addicted to masturbation. Pleasure from masturbation increases greatly.
 > END STRING
 
 > BEGIN STRING
@@ -22147,7 +22147,7 @@ Anal sensitivityⅠ
 > BEGIN STRING
 肛姦の虜。肛姦で受ける快感が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Addicted to anal sex. Pleasure from anal sex increases.
 > END STRING
 
 > BEGIN STRING
@@ -22159,7 +22159,7 @@ Anal sensitivityⅡ
 > BEGIN STRING
 肛姦の虜。肛姦で受ける快感が大きく増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Addicted to anal sex. Pleasure from anal sex increases greatly.
 > END STRING
 
 > BEGIN STRING
@@ -22171,7 +22171,7 @@ Insert sensitivity(Ass)Ⅰ
 > BEGIN STRING
 尻挿入の虜。尻挿入で受ける快感が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Addicted to anal sex. Pleasure from anal sex increases.
 > END STRING
 
 > BEGIN STRING
@@ -22183,7 +22183,7 @@ Insert sensitivity(Ass)Ⅱ
 > BEGIN STRING
 尻挿入の虜。尻挿入で受ける快感が大きく増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Addicted to anal sex. Pleasure from anal sex increases greatly.
 > END STRING
 
 > BEGIN STRING
@@ -22195,7 +22195,7 @@ Facesitting sensitivityⅠ
 > BEGIN STRING
 顔面騎乗の虜。顔面騎乗で受ける快感が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Addicted to facesitting. Pleasure from facesitting increases.
 > END STRING
 
 > BEGIN STRING
@@ -22207,7 +22207,7 @@ Facesitting sensitivityⅡ
 > BEGIN STRING
 顔面騎乗の虜。顔面騎乗で受ける快感が大きく増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Addicted to facesitting. Pleasure from facesitting increases greatly.
 > END STRING
 
 > BEGIN STRING
@@ -22219,7 +22219,7 @@ Shell Match sensitivityⅠ
 > BEGIN STRING
 貝合わせの虜。貝合わせで受ける快感が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Addicted to scissoring. Pleasure from scissoring increases.
 > END STRING
 
 > BEGIN STRING
@@ -22231,7 +22231,7 @@ Shell Match sensitivityⅡ
 > BEGIN STRING
 貝合わせの虜。貝合わせで受ける快感が大きく増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Addicted to scissoring. Pleasure from scissoring increases greatly.
 > END STRING
 
 > BEGIN STRING
@@ -22243,7 +22243,7 @@ Paizuri sensitivityⅠ
 > BEGIN STRING
 パイズリの虜。パイズリで受ける快感が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Addicted to paizuri. Pleasure from paizuri increases.
 > END STRING
 
 > BEGIN STRING
@@ -22255,7 +22255,7 @@ Paizuri sensitivityⅡ
 > BEGIN STRING
 パイズリの虜。パイズリで受ける快感が大きく増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Addicted to paizuri. Pleasure from paizuri increases greatly.
 > END STRING
 
 > BEGIN STRING
@@ -22267,7 +22267,7 @@ Puff-puff sensitivityⅠ
 > BEGIN STRING
 ぱふぱふの虜。ぱふぱふで受ける快感が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Addicted to puff-puff. Pleasure from puff-puff increases.
 > END STRING
 
 > BEGIN STRING
@@ -22279,7 +22279,7 @@ Puff-puff sensitivityⅡ
 > BEGIN STRING
 ぱふぱふの虜。ぱふぱふで受ける快感が大きく増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Addicted to puff-puff. Pleasure from puff-puff increases greatly.
 > END STRING
 
 > BEGIN STRING
@@ -22291,7 +22291,7 @@ Caress sensitivityⅠ
 > BEGIN STRING
 愛撫の虜。愛撫で受ける快感が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Captivated by caresses. Pleasure from caresses increases.
 > END STRING
 
 > BEGIN STRING
@@ -22303,7 +22303,7 @@ Caress sensitivityⅡ
 > BEGIN STRING
 愛撫の虜。愛撫で受ける快感が大きく増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Captivated by caresses. Pleasure from caresses increases greatly.
 > END STRING
 
 > BEGIN STRING
@@ -51918,7 +51918,7 @@ Furthermore, #{level_drain_text}​w​q​
 > BEGIN STRING
 昇天のルーン
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+Ascension Rune
 > END STRING
 
 > BEGIN STRING
@@ -58991,7 +58991,7 @@ Audio/SE/059-Applause01
 > BEGIN STRING
 リバースパウダー
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Reverse Powder
 > END STRING
 
 > BEGIN STRING
@@ -59033,7 +59033,7 @@ Audio/SE/059-Applause01
 > BEGIN STRING
 光のオーブ
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Orb of Light
 > END STRING
 
 > BEGIN STRING
@@ -62473,7 +62473,7 @@ Soft
 > BEGIN STRING
 寒気
 > CONTEXT: PR_MOD_Window_Base .rb
-
+Cold
 > END STRING
 
 > BEGIN STRING
@@ -71587,7 +71587,7 @@ Kiss charm
 達人のルーン
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
 > CONTEXT: 装備拡張.rb
-
+Master Rune
 > END STRING
 
 > BEGIN STRING

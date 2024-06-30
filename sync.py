@@ -105,7 +105,7 @@ if __name__ == "__main__":
     translations = {}
 
     #source_files = [current_dir / "mod_scripts.txt"]
-    source_files = [current_dir / "patch" / "Skills.txt"]
+    source_files = [current_dir / "patch" / "Armors.txt"]
     dest_files = [current_dir / "mod_scripts.txt"]
     #for file in (current_dir / "patch").rglob("*.txt"):
     #    if not "Unused" in str(file) and not "States" in str(file):
@@ -143,8 +143,8 @@ if __name__ == "__main__":
                 i += 1
 
     print("===Updating mod translations===")
-    ReduceLinebreaks(current_dir / "talk.txt")
+    #ReduceLinebreaks(current_dir / "talk.txt")
     #sync([current_dir / "mod_scripts.txt"], translations, 0)
     #sync([current_dir / "mod_scripts.txt"], translations, 1)
-    #sync(dest_files, translations, 0)
-    #sync(dest_files, translations, 1)
+    sync(dest_files, translations, 0)
+    sync(dest_files, translations, 1)
