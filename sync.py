@@ -132,7 +132,7 @@ if __name__ == "__main__":
                 if lines[i].strip():
                     if string in translations.keys() and translations[string] != lines[i]:
                         print(translations[string].strip()+" replaced by "+lines[i].strip())
-                    if "/" in string and "Skills" in str(translations_file):
+                    if "/" in string:
                         translations[string.split("/")[0]] = lines[i].split("/")[0]
                         #print(string.split("/")[0]+" = "+lines[i].split("/")[0])
                     else:
