@@ -24,7 +24,7 @@ def sync(files, update, txstrdir=0):
                     trans = update.get(string)
                     if not trans and string.strip() in update:
                         trans = string.replace(string.strip(),update[string.strip()])
-                    if trans and lines[i]!=trans:
+                    if trans and lines[i].strip()!=trans.strip():
                         print(lines[i].strip()+" replaced by "+trans.strip())
                         lines[i] = trans.replace("\n\n","\n")
                     elif lines[i].strip():
