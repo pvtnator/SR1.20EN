@@ -6705,7 +6705,7 @@ Heavenly Accept
 > CONTEXT: O_MOD_Scene_Battle_AnimationDef.rb
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Ouroboros Love
 > END STRING
 
 > BEGIN STRING
@@ -8269,7 +8269,7 @@ Deep Spot
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Portio piston
 > END STRING
 
 > BEGIN STRING
@@ -8286,7 +8286,7 @@ Deep Spot
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Hard Stamp
 > END STRING
 
 > BEGIN STRING
@@ -8303,7 +8303,7 @@ Deep Spot
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
-
+Deep Piston
 > END STRING
 
 > BEGIN STRING
@@ -8322,7 +8322,7 @@ Deep Spot
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Heavenly Drop
 > END STRING
 
 > BEGIN STRING
@@ -8342,7 +8342,7 @@ Deep Spot
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Excite Drop
 > END STRING
 
 > BEGIN STRING
@@ -18117,21 +18117,21 @@ VP Healing
 取得経験値量
 > CONTEXT: O_MOD_Game_Party.rb
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Experience gained
 > END STRING
 
 > BEGIN STRING
 取得Lps.量
 > CONTEXT: O_MOD_Game_Party.rb
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Obtained Lps.
 > END STRING
 
 > BEGIN STRING
 アイテムドロップ率
 > CONTEXT: O_MOD_Game_Party.rb
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Item Drop Rate
 > END STRING
 
 > BEGIN STRING
@@ -18157,7 +18157,7 @@ Virgin rate
 特殊呼称出現率
 > CONTEXT: O_MOD_Game_Party.rb
 > CONTEXT: PR_MOD_Game_Dish_料理.rb
-
+Unique Rate
 > END STRING
 
 > BEGIN STRING
@@ -28635,7 +28635,7 @@ pressed down with force!
 > BEGIN STRING
 \n\m#{targetname}の上で座り直した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​is sitting back down on #{targetname}!
 > END STRING
 
 > BEGIN STRING
@@ -29736,7 +29736,7 @@ with a bewitched look
 > BEGIN STRING
 #{targetname}のペニスを、\n\m口で咥えたまま舌で舐め回した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ took #{targetname}'s penis in the mouth \n​m​and licked it all over!
 > END STRING
 
 > BEGIN STRING
@@ -30414,13 +30414,13 @@ with a bewitched look
 > BEGIN STRING
 、\n\m#{targetname}の#{target.bustsize}を#{brk3}舌で舐め回した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+,\n​m​licked #{targetname}'s #{target.bustsize}!
 > END STRING
 
 > BEGIN STRING
 、\n\m#{targetname}の#{target.bustsize}を#{brk3}舌でなぞった！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+,\n​m​traced #{targetname}'s #{target.bustsize} #{brk3}by tongue!
 > END STRING
 
 > BEGIN STRING
@@ -31620,19 +31620,19 @@ But it didn't work on #{myname}!
 > BEGIN STRING
 優しく微笑んでいる……
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ is smiling gently...
 > END STRING
 
 > BEGIN STRING
 体の変化に戸惑っている！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ is confused about changes in body!
 > END STRING
 
 > BEGIN STRING
 体をうねうねと蠢させている……
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ are wriggling...
 > END STRING
 
 > BEGIN STRING
@@ -33588,55 +33588,55 @@ sucked on \n​m​#{targetname}'s #{target.bustsize} through a gap in clothes!
 > BEGIN STRING
 \n\m唇に付けられたキスマークを拭き取った！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​wiped the kiss mark off the lips!
 > END STRING
 
 > BEGIN STRING
 \n\m胸に付けられたキスマークを拭き取った！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​wiped the kiss mark off the chest!
 > END STRING
 
 > BEGIN STRING
 \n\m頬に付けられたキスマークを拭き取った！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​wiped the kiss mark off the cheek!
 > END STRING
 
 > BEGIN STRING
 闇の波動を放った！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ unleashed a wave of darkness!
 > END STRING
 
 > BEGIN STRING
 、妖しい手つきで\n\m#{targetname + rangetext}を愛撫してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+, caressing \n​m​#{targetname + rangetext} with bewitching hands!
 > END STRING
 
 > BEGIN STRING
 #{targetname}を攻めようとした……！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ tried to attack #{targetname}...!
 > END STRING
 
 > BEGIN STRING
 体をぶるぶると震わせている……！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+'s body is trembling violently...!
 > END STRING
 
 > BEGIN STRING
 、ティミッドに助けを求めた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+, asked Timid for help!
 > END STRING
 
 > BEGIN STRING
 地中から触手達を呼び寄せた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ summoned tentacles from underground!
 > END STRING
 
 > BEGIN STRING
@@ -34057,7 +34057,7 @@ in turning motion
 > BEGIN STRING
 #{myname}の操る触手が、\n\m蠢くように#{targetname}の身体を愛撫してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+#{myname}'s tentacles\n​m​wriggled and caressed #{targetname}'s body!
 > END STRING
 
 > BEGIN STRING
@@ -34417,7 +34417,7 @@ in turning motion
 > BEGIN STRING
 大魔の力を司った指先で\n\m#{targetname}の体を愛撫してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ caressed #{targetname} with fingertips\n​m​that controlled the power of the great demon!
 > END STRING
 
 > BEGIN STRING
@@ -34675,7 +34675,7 @@ The mist prevented the magic from being activated!
 > BEGIN STRING
 #{activename}は触手を暴れさせ、\n\m#{targetname}の全身を激しく攻めてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+#{activename}'s tentacles rampaged,\n​m​#{targetname}'s entire body was intensly attacked!
 > END STRING
 
 > BEGIN STRING
@@ -34801,7 +34801,7 @@ The mist prevented the magic from being activated!
 > BEGIN STRING
 アソコに手を伸ばし指で愛撫してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ reached down to vagina and caressed it with fingers!
 > END STRING
 
 > BEGIN STRING
@@ -34831,7 +34831,7 @@ The mist prevented the magic from being activated!
 > BEGIN STRING
 #{targetname}を尻尾で拘束しつつ、\n\mアソコに手を伸ばし指で愛撫してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ reached down to #{targetname}'s genitals \n​m​and caressed with fingers while restraining with tail!
 > END STRING
 
 > BEGIN STRING
@@ -37016,7 +37016,7 @@ moved hips back and forth #{waist} \n​m​while showering kisses #{tec}!
 > BEGIN STRING
 #{targetname}の尻尾を、\n\m口で咥えたまま舌で舐め回した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ held #{targetname}'s tail in mouth \n​m​and licked it all over!
 > END STRING
 
 > BEGIN STRING
@@ -37107,7 +37107,7 @@ moved hips back and forth #{waist} \n​m​while showering kisses #{tec}!
 > BEGIN STRING
 円を描くように
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+in a circular motion
 > END STRING
 
 > BEGIN STRING
@@ -37426,7 +37426,7 @@ as if to break in
 > BEGIN STRING
 \n\m#{targetname}の口内に愛液が滲み出す！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​Love juice oozes into #{targetname}'s mouth!
 > END STRING
 
 > BEGIN STRING
@@ -39630,7 +39630,7 @@ up and down
 > BEGIN STRING
 尻尾を使い、\n\m死角から#{targetname}の胸を愛撫してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ caressed #{targetname}'s chest \n​m​from a blind spot using tail!
 > END STRING
 
 > BEGIN STRING
@@ -39642,7 +39642,7 @@ up and down
 > BEGIN STRING
 触手を使い、\n\m死角から#{targetname}の胸を愛撫してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ caressed #{targetname}'s breasts \n​m​from a blind spot with tentacles!
 > END STRING
 
 > BEGIN STRING
@@ -39744,7 +39744,7 @@ up and down
 > BEGIN STRING
 #{emotion}\n\m身動きが取れない#{targetname}の睾丸を\n指で愛撫してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ caressed the testicles of #{targetname} \n​m​who was unable to move with fingers #{emotion}!
 > END STRING
 
 > BEGIN STRING
@@ -42281,7 +42281,7 @@ Corrupt Scratch
 > BEGIN STRING
 は魔性の香りを吸ってしまった！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+ inhaled the magic scent!​w​q
 > END STRING
 
 > BEGIN STRING
@@ -42445,7 +42445,7 @@ Auto・Cum
 > BEGIN STRING
 ハングリードレイン
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Hungry Drain
 > END STRING
 
 > BEGIN STRING
@@ -42487,7 +42487,7 @@ Auto・Cum
 > BEGIN STRING
 の精神が混濁していく…\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+'s mind becomes clouded...​w​q
 > END STRING
 
 > BEGIN STRING
@@ -42723,13 +42723,13 @@ Wind Whisper
 > BEGIN STRING
 は精力を 
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+'s energy
 > END STRING
 
 > BEGIN STRING
 は恍惚になってしまった！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
- was in ecstasy!​w​q
+ is in ecstasy!​w​q
 > END STRING
 
 > BEGIN STRING
@@ -42909,7 +42909,7 @@ Skill Steal
 > BEGIN STRING
 堕淫の波動
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Waves of Depravity
 > END STRING
 
 > BEGIN STRING
@@ -43054,7 +43054,7 @@ Evil Potion
 > BEGIN STRING
 #{target.name}は魔の粘液まみれになってしまった！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{target.name} is covered in demonic slime! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -43604,7 +43604,7 @@ Emotion
 > BEGIN STRING
 #{target.name}の体はパウダーまみれになってしまった！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{target.name}'s body is covered in powder! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -43778,7 +43778,7 @@ Crucifixion Restraint Release
 > BEGIN STRING
 堕落する手練
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Corrupted Skill
 > END STRING
 
 > BEGIN STRING
@@ -43803,27 +43803,27 @@ Shining Rage
 アウルムの触手達を麻痺させた！
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Paralyzed Aurum's tentacles!
 > END STRING
 
 > BEGIN STRING
 アウルムの触手を麻痺させた！
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Paralyzed Aurum's tentacles!
 > END STRING
 
 > BEGIN STRING
 しかし、効果がなかった！
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+But it didn't work!
 > END STRING
 
 > BEGIN STRING
 ティミッドは触手の拘束を外し始めた！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Timid begins to remove the tentacle restraints! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -43835,7 +43835,7 @@ Shining Rage
 > BEGIN STRING
 #{battler_one.name}は童貞になってしまった！
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{battler_one.name} is now a virgin!
 > END STRING
 
 > BEGIN STRING
@@ -45633,7 +45633,7 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}の淫蕩な香りを吸い込んでしまう！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+Inhaled the sensual scent of #{target.name}!
 > END STRING
 
 > BEGIN STRING
@@ -46233,7 +46233,7 @@ Berserk behavior
 > BEGIN STRING
 #{active.name}の淫蕩な香りを吸い込んでしまう！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+Inhaled the sensual scent of #{active.name}!
 > END STRING
 
 > BEGIN STRING
@@ -46377,7 +46377,7 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}のアソコに、\n#{activename}の触手が突き入れられた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{activename}'s tentacles thrusted \ninto #{target.name}'s vagina!
 > END STRING
 
 > BEGIN STRING
@@ -46401,7 +46401,7 @@ Berserk behavior
 > BEGIN STRING
 #{target.name}の菊座に、\n#{activename}の触手が突き入れられた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{activename}'s tentacles thrusted into #{target.name}'s anus!
 > END STRING
 
 > BEGIN STRING
@@ -46965,13 +46965,13 @@ The tip of #{target.name}'s penis \nhas been taken into #{active.name}'s mouth!
 > BEGIN STRING
 #{target.name}は、#{active.name}の胸に\n口と鼻を塞がれ、息ができなくなってしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name}'s mouth and nose are covered \nwith #{active.name}'s chest, making it impossible to breathe!
 > END STRING
 
 > BEGIN STRING
 #{target.name}は、#{active.name}のアソコに\n口と鼻を塞がれ、息ができなくなってしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name}'s mouth and nose are covered \nwith #{active.name}'s pussy, making it impossible to breathe!
 > END STRING
 
 > BEGIN STRING
@@ -50788,7 +50788,7 @@ slender body
 > BEGIN STRING
 #{battler.name}は完全に無防備になってしまった！\w\q
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+#{battler.name} is now completely defenseless! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -50879,7 +50879,7 @@ A magical fragrance begins to waft around...!
 > BEGIN STRING
 #{target.name}はLv.#{target.level.to_s}になってしまった！\w\q
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+#{target.name} is now Level #{target.level.to_s}! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -50921,13 +50921,13 @@ A magical fragrance begins to waft around...!
 > BEGIN STRING
 #{active.name}は精力を 
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+#{active.name}'s energy
 > END STRING
 
 > BEGIN STRING
 #{target.name}は精力を 
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+#{target.name}'s energy
 > END STRING
 
 > BEGIN STRING
@@ -50975,13 +50975,13 @@ A magical fragrance begins to waft around...!
 > BEGIN STRING
 #{active.name}は精神力を 
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+#{active.name}'s spirit
 > END STRING
 
 > BEGIN STRING
 #{target.name}は精神力を 
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+#{target.name}'s spirit
 > END STRING
 
 > BEGIN STRING
@@ -53072,7 +53072,7 @@ moved hips back and forth seductively, \nenjoying #{t_actor}'s reaction
 > BEGIN STRING
 足に騎乗したまま#{t_actor}を愛撫してきた！
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
-
+ caressed #{t_actor} while riding legs!
 > END STRING
 
 > BEGIN STRING
@@ -58805,49 +58805,49 @@ Magical power is overflowing from under #{first_battler_name}'s feet...!
 > BEGIN STRING
 ティミッドは触手の拘束を外そうと試みた！\w\q
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Timid attempts to get free from the tentacle restraints!​w​q
 > END STRING
 
 > BEGIN STRING
 #{help_actor.name}を拘束していた触手が外れた！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+The tentacles holding #{help_actor.name} back have been released!
 > END STRING
 
 > BEGIN STRING
 #{help_actor.name}の拘束を少しだけ解いた！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{help_actor.name}'s restraints have been slightly relieved!
 > END STRING
 
 > BEGIN STRING
 ティミッドはイリスフラウを詠唱した！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Timid chanted Iris Flower!
 > END STRING
 
 > BEGIN STRING
 ティミッドはシャイニングレイジの魔法を詠唱した！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Timid cast Shining Rage!
 > END STRING
 
 > BEGIN STRING
 凄まじい電撃がアウルムの触手達を襲う……！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+A tremendous electric shock attacks Aurum's tentacles...!
 > END STRING
 
 > BEGIN STRING
 ティミッドはイリスペタル・アルダを詠唱した！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Timid cast Iris Petal: Aldar!
 > END STRING
 
 > BEGIN STRING
 ティミッドは詠唱している！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Timid is chanting!
 > END STRING
 
 > BEGIN STRING
@@ -58937,7 +58937,7 @@ Angel chanted Iris Seed: Aldar!
 > BEGIN STRING
 エンジェルは詠唱している！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+The Angels are chanting!
 > END STRING
 
 > BEGIN STRING
@@ -59075,37 +59075,37 @@ Spores scattered from #{battler.name}! ​w​q
 > BEGIN STRING
 #{battler.name}は相手の狙いを向けさせた！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{battler.name} taunted!
 > END STRING
 
 > BEGIN STRING
 #{battler.name}は心地よい香りを振りまいた！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{battler.name} spreads a pleasant scent!
 > END STRING
 
 > BEGIN STRING
 #{battler.name}の足元に魔法陣が出現した！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+A magic circle has appeared at #{battler.name}'s feet!
 > END STRING
 
 > BEGIN STRING
 #{battler.name}は祝福されている！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{battler.name} is blessed!
 > END STRING
 
 > BEGIN STRING
 #{battler.name}の灯が淫らな夜を彩る…
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{battler.name}'s light colors the lascivious night...
 > END STRING
 
 > BEGIN STRING
 #{battler.name}は禍々しいオーラに包まれている……！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{battler.name} is surrounded by an ominous aura...!
 > END STRING
 
 > BEGIN STRING
@@ -60114,7 +60114,7 @@ caressed the penis with her pussy
 > BEGIN STRING
 尻でペニスを愛撫してきた！
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-
+ caressed the penis with her ass!
 > END STRING
 
 > BEGIN STRING
@@ -60709,7 +60709,7 @@ caught #{master}'s semen deep inside the vagina...
 > BEGIN STRING
 #{master}は#{action}、\m\n#{speaker}の菊座を舌で舐め回した！
 > CONTEXT: PR_MOD_Talk_Sys Text_Talk.rb
-
+#{master} #{action}, licked ​m​\n#{speaker}'s anus!
 > END STRING
 
 > BEGIN STRING
@@ -61003,7 +61003,7 @@ While in close contact, ​m​\n#{speaker} #{action}
 > BEGIN STRING
 #{speaker}は目を逸らし、\m\n#{master}のペニスを愛撫してきた！
 > CONTEXT: PR_MOD_Talk_Sys Text_Talk.rb
-
+#{speaker} looked away and ​m​\ncaressed #{master}'s penis!
 > END STRING
 
 > BEGIN STRING
@@ -61417,7 +61417,7 @@ While in close contact, ​m​\n#{speaker} #{action}
 > BEGIN STRING
 足の指で愛撫してきた！
 > CONTEXT: PR_MOD_Talk_Sys Text_Talk.rb
-
+ caressed with toes!
 > END STRING
 
 > BEGIN STRING
@@ -70547,7 +70547,7 @@ The magic circle beneath #{myname}'s feet disappeared!
 > BEGIN STRING
 #{myname}は母乳の虜になってしまった！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} is hooked on breast milk!
 > END STRING
 
 > BEGIN STRING
