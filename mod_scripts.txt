@@ -27992,7 +27992,7 @@ pinned down from above
 > BEGIN STRING
 胸を見せつけるように、\n\m#{targetname}を誘ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ showed off her breasts \n​m​and invited #{targetname}!
 > END STRING
 
 > BEGIN STRING
@@ -29625,7 +29625,7 @@ in a big way
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Talk.rb
-"intensly "
+"intensly"
 > END STRING
 
 > BEGIN STRING
@@ -29646,7 +29646,7 @@ smoothly
 > CONTEXT: O_MOD_RPG_Skilltext.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Talk.rb
-"sexily "
+"sexily"
 > END STRING
 
 > BEGIN STRING
@@ -29654,7 +29654,7 @@ smoothly
 > CONTEXT: O_MOD_RPG_Skilltext.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Talk.rb
-"diligently "
+"diligently"
 > END STRING
 
 > BEGIN STRING
@@ -32202,7 +32202,7 @@ Iris Seed: Aldar has been cast!
 > BEGIN STRING
 問いかけながら、\n\m#{targetname}を抱き寄せてその唇を奪った！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ asked and pulled #{targetname} \n​m​close and stole lips!
 > END STRING
 
 > BEGIN STRING
@@ -34093,7 +34093,7 @@ in turning motion
 > BEGIN STRING
 胸を見せつけるように、\n\m#{targetname}を誘った！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ invited #{targetname} \n​m​by showing off her breasts!
 > END STRING
 
 > BEGIN STRING
@@ -34117,13 +34117,13 @@ in turning motion
 > BEGIN STRING
 焦らす責め方に変えた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ changed my approach to tease!
 > END STRING
 
 > BEGIN STRING
 焦らすのをやめた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ stopped teasing!
 > END STRING
 
 > BEGIN STRING
@@ -54261,31 +54261,31 @@ TALKTEXT
 > BEGIN STRING
 #{t_actor}は、#{speaker}を\n組み伏せている……！
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+#{t_actor} has #{speaker} \npinned down...!
 > END STRING
 
 > BEGIN STRING
 #{t_actor}は、#{speaker}の\n背後から襲い掛かる……！
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+#{t_actor} attacks #{speaker}\nfrom behind...!
 > END STRING
 
 > BEGIN STRING
 #{t_actor}は、#{speaker}の\nアソコに襲い掛かっている……！
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+#{t_actor} is attacking #{speaker}'s\ngenitals...!
 > END STRING
 
 > BEGIN STRING
 #{t_actor}に向かって、\n#{speaker}が跪く……！
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+#{speaker} kneels before #{t_actor}...!
 > END STRING
 
 > BEGIN STRING
 #{t_actor}は、#{speaker}の顔に\n勢いよく足を振り落とす……！
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+#{t_actor} slams leg \ndown on #{speaker}'s face with force...!
 > END STRING
 
 > BEGIN STRING
@@ -54435,7 +54435,7 @@ TALKTEXT
 > BEGIN STRING
 #{t_actor}は、#{speaker}に襲われている\n#{t_partner}を救出している……！
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+#{t_actor} is rescuing #{t_partner} \nwho is being attacked by #{speaker}...!
 > END STRING
 
 > BEGIN STRING
@@ -54663,7 +54663,7 @@ The penis is inserted into the \nvalley of #{$msg.t_enemy.bustsize},\n#{speaker}
 > BEGIN STRING
 #{t_actor}に後ろから抱き着かれ、\n#{speaker}は#{emotion}
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+#{t_actor} hugged from behind, and #{speaker} #{emotion}
 > END STRING
 
 > BEGIN STRING
@@ -54843,7 +54843,7 @@ The penis is inserted into the \nvalley of #{$msg.t_enemy.bustsize},\n#{speaker}
 > BEGIN STRING
 不満そうな表情を浮かべながら、
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+with a dissatisfied look on his face,
 > END STRING
 
 > BEGIN STRING
@@ -59819,25 +59819,25 @@ with a knowing look
 > BEGIN STRING
 "慣れた手つきで"
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-"skillfully "
+"skillfully"
 > END STRING
 
 > BEGIN STRING
 "勢い良く"
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-"vigorously "
+"vigorously"
 > END STRING
 
 > BEGIN STRING
 "楽しげに"
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-"pleasurably "
+"pleasurably"
 > END STRING
 
 > BEGIN STRING
 "のんびりと"
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-"relaxedly "
+"relaxedly"
 > END STRING
 
 > BEGIN STRING
@@ -60181,7 +60181,7 @@ slowly
 > BEGIN STRING
 #{text1}#{text2}、\n#{text3}\n#{text4}#{text5}
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-#{text1}, #{text2},\n#{text3}\n#{text4}#{text5}
+#{text1}, #{text2},\n#{text3}\n#{text4} #{text5}
 > END STRING
 
 > BEGIN STRING
