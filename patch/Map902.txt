@@ -635,7 +635,7 @@ M堕ちさせられてしまう、
 > BEGIN STRING
 "薄っぺらいプライド"
 > CONTEXT: Map902/events/69/pages/0/7/InlineScript/1:5 < UNTRANSLATED
-> CONTEXT: Map902/events/69/pages/0/47/InlineScript/1:5 < UNTRANSLATED
+> CONTEXT: Map902/events/69/pages/0/28/InlineScript/1:5 < UNTRANSLATED
 
 > END STRING
 
@@ -650,7 +650,7 @@ M堕ちさせられてしまう、
 また興味があったらよろしくな……
 ヒヒ……
 > CONTEXT: Map902/events/69/pages/0/10/Dialogue < UNTRANSLATED
-> CONTEXT: Map902/events/69/pages/0/54/Dialogue < UNTRANSLATED
+> CONTEXT: Map902/events/69/pages/0/34/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -664,7 +664,7 @@ M堕ちさせられてしまう、
 
 > BEGIN STRING
 "※【男のプライド】は忘れてしまいます。"
-> CONTEXT: Map902/events/69/pages/0/25/InlineScript/1:5 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -673,37 +673,52 @@ M堕ちさせられてしまう、
 全てのステータスが強化されるが、
 絶頂する度に弱体化する。
 \\c[12]\\v[3]\\c[0]
-> CONTEXT: Map902/events/69/pages/0/32/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 教えてもらう
-> CONTEXT: Map902/events/69/pages/0/36/Choice/0 < UNTRANSLATED
+> CONTEXT: Map902/events/69/pages/0/26/Choice/0 < UNTRANSLATED
+> CONTEXT: Map902/events/69/pages/0/26/Choice/0 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 いやだ
-> CONTEXT: Map902/events/69/pages/0/36/Choice/1 < UNTRANSLATED
+> CONTEXT: Map902/events/69/pages/0/26/Choice/1 < UNTRANSLATED
+> CONTEXT: Map902/events/69/pages/0/26/Choice/1 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "男のプライド"
-> CONTEXT: Map902/events/69/pages/0/39/InlineScript/1:34 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "【男のプライド】を忘れました。"
-> CONTEXT: Map902/events/69/pages/0/39/InlineScript/2:5 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 【薄っぺらいプライド】を習得しました。
 \\v[3]
-> CONTEXT: Map902/events/69/pages/0/49/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+【薄っぺらいプライド】
+絶頂する度に弱体化する。
+> CONTEXT: Map902/events/69/pages/0/24/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【薄っぺらいプライド】を習得しました。
+> CONTEXT: Map902/events/69/pages/0/30/Dialogue < UNTRANSLATED
 
 > END STRING
