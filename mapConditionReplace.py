@@ -25,16 +25,20 @@ def replace_strings_in_files(folder_path, mod_path, replace_dict):
                     lensymbol = max(content.rfind(rb"@", 0, content.find(part))-1, lensymbol)
                     ifspot = content.rfind(rb"if", lensymbol-4, lensymbol)-1
                     elseifspot = content.rfind(rb"elseif", lensymbol-8, lensymbol)-1
+                    notspot = content.rfind(rb"not", lensymbol-5, lensymbol)-1
                     if ifspot > 0:
                         lensymbol = ifspot
                         print("ifspot")
                     if elseifspot > 0:
                         lensymbol = elseifspot
                         print("elseifspot")
+                    if notspot > 0:
+                        lensymbol = notspot
+                        print("notspot")
                     if ifspot < 0 and savedspot >= 0:
                         lensymbol = savedspot
                         savedspot = -1
-                    elif ifspot < 0 and content.find(rb"$", lensymbol+2) < content.find(rb";", lensymbol+2):
+                    elif ifspot < 0 and notspot < 0 and content.find(rb"$", lensymbol+2) < content.find(rb";", lensymbol+2):
                         savedspot = lensymbol
                         saveddiff = diff
                         print(lensymbol)
