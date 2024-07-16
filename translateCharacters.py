@@ -37,12 +37,12 @@ def extract_strings(folder_path, output_file, update={}):
                 for context in contexts:
                     outfile.write(f"> CONTEXT: {context}\n")
 
-            if string in update["global"]:
-                outfile.write(update["global"][string])
+            if string.strip() in update["global"]:
+                outfile.write(update["global"][string.strip()])
             else:
                 for c in contexts:
-                    if (c in update and string in update[c]):
-                        outfile.write(update[c][string])
+                    if (c in update and string.strip() in update[c]):
+                        outfile.write(update[c][string.strip()])
                         break
             #else:
             #    print(string)
@@ -190,7 +190,7 @@ def apply_translations(folder_path, apply_path, regexes, translations, mustinclu
                 
 if __name__ == "__main__":
     current_dir = Path.cwd()
-    mode = sys.argv[1] if len(sys.argv)>1 else "autotranslate"
+    mode = sys.argv[1] if len(sys.argv)>1 else "extract"
     source = sys.argv[2] if len(sys.argv)>2 else "talk"
     dest = sys.argv[3] if len(sys.argv)>3 else "Mod_Talk"
     quickpatch = ""
@@ -226,6 +226,9 @@ if __name__ == "__main__":
                     if not c in translations:
                         translations[c] = {}
                         regexes[c] = []
+                    if mode == "extract":
+                        translations[c][string.strip()] = lines[i].rstrip()
+                        continue
                     if source == "mod_scripts" and mode=="apply" and string[0]!='/' \
                                                 and not '"' in string:
                         regexes[c].append(re.escape('"'+string+'"'))
