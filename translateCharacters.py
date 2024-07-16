@@ -4,7 +4,7 @@ import time
 import sys
 from pathlib import Path
 
-def extract_strings(folder_path, output_file, update={}):
+def extract_strings(folder_path, output_file, update={}, conv={}):
     strings = {}
 
     # Walk through all files in the folder and its subfolders
@@ -30,7 +30,8 @@ def extract_strings(folder_path, output_file, update={}):
     with open(output_file, 'w', encoding='utf-8') as outfile:
         for string, contexts in strings.items():
             outfile.write("> BEGIN STRING\n")
-            outfile.write(f'{string}\n')
+            stringconv = conv.get(string, string)
+            outfile.write(f'{stringconv}\n')
             if len(contexts) > 30:
                 outfile.write(f"> CONTEXT: global\n")
             else:
@@ -191,7 +192,7 @@ def apply_translations(folder_path, apply_path, regexes, translations, mustinclu
 if __name__ == "__main__":
     current_dir = Path.cwd()
     mode = sys.argv[1] if len(sys.argv)>1 else "extract"
-    source = sys.argv[2] if len(sys.argv)>2 else "talk"
+    source = sys.argv[2] if len(sys.argv)>2 else "mod_scripts"
     dest = sys.argv[3] if len(sys.argv)>3 else "Mod_Talk"
     quickpatch = ""
     translated_dir = current_dir.parent / Path().resolve().name.replace("patch","translated")
@@ -203,6 +204,7 @@ if __name__ == "__main__":
     modtalk_dir = translated_dir / "Mod" / dest
     translations_file = source+".txt"
     translations = {"global": {}}
+    conv = {}
     regexes = {"global": []}
     print(talk_dir)
 
@@ -227,7 +229,10 @@ if __name__ == "__main__":
                         translations[c] = {}
                         regexes[c] = []
                     if mode == "extract":
-                        translations[c][string.strip()] = lines[i].rstrip()
+                        if source == "mod_scripts" and "\"" in string:
+                            conv[string.replace("\"", "")] = string
+                            string = string.replace("\"", "")
+                        translations["global"][string.strip()] = lines[i].rstrip()
                         continue
                     if source == "mod_scripts" and mode=="apply" and string[0]!='/' \
                                                 and not '"' in string:
@@ -247,7 +252,7 @@ if __name__ == "__main__":
     #print(translations["global"])
     print("Mode: "+mode+"\nThis might take a minute")
     if mode == "extract":
-        extract_strings(talk_dir, translations_file, translations)
+        extract_strings(talk_dir, translations_file, translations, conv)
         print("Extraction completed.")
     elif mode == "apply":       
         apply_translations(talk_dir, modtalk_dir, regexes, translations, quickpatch)

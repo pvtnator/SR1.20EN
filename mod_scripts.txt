@@ -739,6 +739,7 @@ Weak
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Talk.rb
 > CONTEXT: PR_RPG_Personality.rb
+> CONTEXT: 修正用.rb
 > CONTEXT: 弱点開発MOD.rb
 Lewd
 > END STRING
@@ -1132,6 +1133,7 @@ Daring
 > BEGIN STRING
 淡泊
 > CONTEXT: Game_Battler_Textmake.rb
+> CONTEXT: O_MOD_Game_Actor.rb
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Skilltext.rb
@@ -1148,6 +1150,7 @@ Chill
 > BEGIN STRING
 不思議
 > CONTEXT: Game_Battler_Textmake.rb
+> CONTEXT: O_MOD_Game_Actor.rb
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Skilltext.rb
@@ -1540,10 +1543,11 @@ Random
 > CONTEXT: O_MOD_Scene_Title_data改変.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 > CONTEXT: PR_MOD_Scene_Box.rb
 > CONTEXT: PR_Window_PromiseRight.rb
 > CONTEXT: PR_基本設定強化.rb
+> CONTEXT: Window_Announce.rb
 > CONTEXT: Window_BattleLog.rb
 > CONTEXT: エラーログ.rb
 
@@ -3442,6 +3446,56 @@ The petals fluttering in the air disappeared!
 > END STRING
 
 > BEGIN STRING
+魔の消失
+> CONTEXT: Incense_System.rb
+> CONTEXT: O_MOD_Game_Battler_3.rb
+
+> END STRING
+
+> BEGIN STRING
+#{field_word}から魔力が消えていく！
+> CONTEXT: Incense_System.rb
+
+> END STRING
+
+> BEGIN STRING
+#{field_word}から魔力が消失している……！
+> CONTEXT: Incense_System.rb
+
+> END STRING
+
+> BEGIN STRING
+#{field_word}に魔力が復活した！
+> CONTEXT: Incense_System.rb
+
+> END STRING
+
+> BEGIN STRING
+魔の祝祭
+> CONTEXT: Incense_System.rb
+> CONTEXT: O_MOD_SR_Util_other.rb
+
+> END STRING
+
+> BEGIN STRING
+#{field_word}に魔力が満ちていく！
+> CONTEXT: Incense_System.rb
+
+> END STRING
+
+> BEGIN STRING
+#{field_word}に魔力が溢れている……！
+> CONTEXT: Incense_System.rb
+
+> END STRING
+
+> BEGIN STRING
+#{field_word}の魔力が落ち着いた！
+> CONTEXT: Incense_System.rb
+
+> END STRING
+
+> BEGIN STRING
 悪魔の影
 > CONTEXT: Incense_System.rb
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
@@ -3598,21 +3652,21 @@ FOLLOWER
 アイテム:
 > CONTEXT: MODモジュール_Item.rb
 > CONTEXT: Simple_Battle.rb
-Item: 
+Item:
 > END STRING
 
 > BEGIN STRING
 装備品:
 > CONTEXT: MODモジュール_Item.rb
 > CONTEXT: Simple_Battle.rb
-Equipment: 
+Equipment:
 > END STRING
 
 > BEGIN STRING
 ルーン:
 > CONTEXT: MODモジュール_Item.rb
 > CONTEXT: Simple_Battle.rb
-Rune: 
+Rune:
 > END STRING
 
 > BEGIN STRING
@@ -3915,6 +3969,7 @@ Erogenous clitoris
 > CONTEXT: O_MOD_Scene_Battle_AnimationDef.rb
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Talk_Sys_Talk.rb
+> CONTEXT: PR_Scene_Battle PluralAttack.rb
 Virgin
 > END STRING
 
@@ -3945,6 +4000,7 @@ Virgin
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
+> CONTEXT: PR_Scene_Battle PluralAttack.rb
 > CONTEXT: PR_基本設定強化.rb
 > CONTEXT: 弱点開発MOD.rb
 Man
@@ -3959,6 +4015,7 @@ Man
 > CONTEXT: O_MOD_RPG_Class_ボーナス.rb
 > CONTEXT: O_MOD_顔グラフィック戦闘.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
+> CONTEXT: PR_Scene_Battle PluralAttack.rb
 > CONTEXT: PR_基本設定強化.rb
 > CONTEXT: 弱点開発MOD.rb
 Woman
@@ -3966,7 +4023,16 @@ Woman
 
 > BEGIN STRING
 寵愛
-> CONTEXT: global
+> CONTEXT: O_MOD_Game_Actor.rb
+> CONTEXT: O_MOD_Game_Battler_1.rb
+> CONTEXT: O_MOD_Game_Battler_4.rb
+> CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
+> CONTEXT: O_MOD_RPG_Class_ボーナス.rb
+> CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
+> CONTEXT: O_MOD_SR_Util_other.rb
+> CONTEXT: O_MOD_SR_Util_spam.rb
+> CONTEXT: PR_Scene_Battle PluralAttack.rb
+> CONTEXT: PR_Window_PromiseRight.rb
 Favorite
 > END STRING
 
@@ -4037,7 +4103,21 @@ Imp leadership
 
 > BEGIN STRING
 大切な人
-> CONTEXT: global
+> CONTEXT: O_MOD_Game_Actor.rb
+> CONTEXT: O_MOD_Game_Actor_戦闘中スキル.rb
+> CONTEXT: O_MOD_Game_Battler_1.rb
+> CONTEXT: O_MOD_Game_Battler_2.rb
+> CONTEXT: O_MOD_Game_Enemy _設定用.rb
+> CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
+> CONTEXT: O_MOD_RPG_Class_ボーナス.rb
+> CONTEXT: O_MOD_RPG_Skilltext.rb
+> CONTEXT: O_MOD_Scene_Battle_5.rb
+> CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
+> CONTEXT: O_MOD_Scene_Menu_Party_select.rb
+> CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
+> CONTEXT: PR_MOD_Game_Actor_再定義.rb
+> CONTEXT: PR_Scene_Battle PluralAttack.rb
+> CONTEXT: PR_Window_PromiseRight.rb
 Important person
 > END STRING
 
@@ -5643,6 +5723,7 @@ Reverse Periscope
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
+> CONTEXT: XL_MOD_Battle_Cutin.rb
 > CONTEXT: 修正用.rb
 Falling Heaven
 > END STRING
@@ -5716,7 +5797,6 @@ Insert
 アンドロギュヌス
 > CONTEXT: O_MOD_Game_Actor_戦闘中スキル.rb
 > CONTEXT: O_MOD_Game_Battler_2.rb
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: 修正用.rb
 Androgynus
@@ -7055,6 +7135,7 @@ Paizuri
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
+> CONTEXT: XL_MOD_Battle_Cutin.rb
 > CONTEXT: 修正用.rb
 Heavenly Feel
 > END STRING
@@ -8555,6 +8636,14 @@ Caress
 > END STRING
 
 > BEGIN STRING
+カオスエンチャント
+> CONTEXT: O_MOD_Game_Battler_1.rb
+> CONTEXT: O_MOD_Scene_Battle_4.rb
+> CONTEXT: PR_MOD_Window_Base .rb
+
+> END STRING
+
+> BEGIN STRING
 ダークヴェール
 > CONTEXT: O_MOD_Game_Battler_1.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
@@ -9897,6 +9986,7 @@ _PF
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
 > CONTEXT: O_MOD_顔グラフィック戦闘.rb
+> CONTEXT: XL_MOD_Battle_Cutin.rb
 
 > END STRING
 
@@ -9913,6 +10003,7 @@ _OI
 _VR
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_顔グラフィック戦闘.rb
+> CONTEXT: XL_MOD_Battle_Cutin.rb
 
 > END STRING
 
@@ -10072,6 +10163,7 @@ _OI+L
 _DN
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_顔グラフィック戦闘.rb
+> CONTEXT: XL_MOD_Battle_Cutin.rb
 
 > END STRING
 
@@ -10173,7 +10265,7 @@ Normal
 状態：
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
-Status: 
+Status:
 > END STRING
 
 > BEGIN STRING
@@ -10187,7 +10279,7 @@ No
 弱点：
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
-Weaknesses: 
+Weaknesses:
 > END STRING
 
 > BEGIN STRING
@@ -10871,7 +10963,7 @@ Apocalypse Bible
 状態異常耐性
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Status Ailment Resistance
 > END STRING
 
@@ -12052,6 +12144,12 @@ Can't use magic while in a hold!
 魔法に意識を集中できないので使えない！
 > CONTEXT: O_MOD_Game_Battler_3.rb
 Can't concentrate on magic!
+> END STRING
+
+> BEGIN STRING
+辺りの魔力が消え去って使えない！
+> CONTEXT: O_MOD_Game_Battler_3.rb
+
 > END STRING
 
 > BEGIN STRING
@@ -14142,7 +14240,7 @@ Romanticist
 > BEGIN STRING
 回復
 > CONTEXT: O_MOD_Game_Battler_4.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 > CONTEXT: SR_Util dish_system.rb
 > CONTEXT: Window_Cook_Recipe.rb
 recovery
@@ -14609,7 +14707,7 @@ SS率
 > BEGIN STRING
 被SS率
 > CONTEXT: O_MOD_Game_Battler_4.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
@@ -15012,6 +15110,12 @@ Maso Switch
 アビススクラッチ
 > CONTEXT: O_MOD_Game_Battler_4.rb
 Abyss Scratch
+> END STRING
+
+> BEGIN STRING
+カースクローズ
+> CONTEXT: O_MOD_Game_Battler_4.rb
+
 > END STRING
 
 > BEGIN STRING
@@ -16032,6 +16136,7 @@ self.hold.#{parts}.initiative
 > BEGIN STRING
 被エキサイトビュー
 > CONTEXT: O_MOD_Game_Battler_ホールド関数.rb
+> CONTEXT: XL_MOD_Battle_Cutin.rb
 
 > END STRING
 
@@ -16044,6 +16149,7 @@ self.hold.#{parts}.initiative
 > BEGIN STRING
 被インモラルビュー
 > CONTEXT: O_MOD_Game_Battler_ホールド関数.rb
+> CONTEXT: XL_MOD_Battle_Cutin.rb
 
 > END STRING
 
@@ -16074,6 +16180,7 @@ self.hold.#{parts}.initiative
 > BEGIN STRING
 被ドロウネクター
 > CONTEXT: O_MOD_Game_Battler_ホールド関数.rb
+> CONTEXT: XL_MOD_Battle_Cutin.rb
 
 > END STRING
 
@@ -16678,6 +16785,16 @@ Wonder
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 Sorcerer
+> END STRING
+
+> BEGIN STRING
+メア
+> CONTEXT: O_MOD_Game_Enemy _設定用.rb
+> CONTEXT: O_MOD_RPG_Class_ボーナス.rb
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+> CONTEXT: PR_MOD_Window_NameEdit_ランダム名.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+Mare
 > END STRING
 
 > BEGIN STRING
@@ -17956,7 +18073,7 @@ Love Pendant
 > BEGIN STRING
 EP
 > CONTEXT: O_MOD_Game_Party.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 > CONTEXT: P_H_MOD_Window_MenuStatus.rb
 > CONTEXT: SR_Util dish_system.rb
 > CONTEXT: Window_Cook_Recipe.rb
@@ -17968,7 +18085,7 @@ EP
 > BEGIN STRING
 VP
 > CONTEXT: O_MOD_Game_Party.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 > CONTEXT: PR_Window_Skill.rb
 > CONTEXT: P_H_MOD_Window_MenuStatus.rb
 > CONTEXT: SR_Util dish_system.rb
@@ -17982,7 +18099,7 @@ VP
 > BEGIN STRING
 自動回復量
 > CONTEXT: O_MOD_Game_Party.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 > CONTEXT: Window_Cook_Recipe.rb
 Automatic recovery
 > END STRING
@@ -18116,21 +18233,21 @@ VP Healing
 > BEGIN STRING
 取得経験値量
 > CONTEXT: O_MOD_Game_Party.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Experience gained
 > END STRING
 
 > BEGIN STRING
 取得Lps.量
 > CONTEXT: O_MOD_Game_Party.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Obtained Lps.
 > END STRING
 
 > BEGIN STRING
 アイテムドロップ率
 > CONTEXT: O_MOD_Game_Party.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Item Drop Rate
 > END STRING
 
@@ -18149,14 +18266,14 @@ V Pure Heart
 > BEGIN STRING
 処女出現率
 > CONTEXT: O_MOD_Game_Party.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Virgin rate
 > END STRING
 
 > BEGIN STRING
 特殊呼称出現率
 > CONTEXT: O_MOD_Game_Party.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Unique Rate
 > END STRING
 
@@ -19696,6 +19813,7 @@ EP吸収
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: O_MOD_Scene_Battle_AttackElementChange.rb
+> CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
 EP Absorption
 > END STRING
@@ -19709,6 +19827,7 @@ When you make your opponent climax, recover a huge amount of EP.
 > BEGIN STRING
 VP吸収
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
+> CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
 VP Absorption
 > END STRING
@@ -19722,6 +19841,7 @@ Recover a small amount of VP when you make an opponent climax.
 > BEGIN STRING
 EXP吸収
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
+> CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
 EXP Absorption
 > END STRING
@@ -23704,9 +23824,9 @@ Shallow Pride
 > END STRING
 
 > BEGIN STRING
-全てのステータスが強化されるが、絶頂する度に弱体化する。
+絶頂する度に弱体化してしまう。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-All stats are strengthened, but weakened upon climax.
+Become weaker after climax.
 > END STRING
 
 > BEGIN STRING
@@ -25626,7 +25746,7 @@ The probability of receiving SS decreases with mood.
 > END STRING
 
 > BEGIN STRING
-身に着けた剣から【切り返し】の力を得る。
+身に着けた剣からプロヴォークの力を得る。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 
 > END STRING
@@ -27028,6 +27148,38 @@ The pleasure from SS on a berserked opponent increases further.
 
 > BEGIN STRING
 氷系スキルを使うたび、精神力が上昇する。最大７ストック。
+> CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
+
+> END STRING
+
+> BEGIN STRING
+美の体現者
+> CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
+> CONTEXT: S_MOD_Game_Battler_Magiceffect.rb
+
+> END STRING
+
+> BEGIN STRING
+この夢魔は能力が下がらない。
+> CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
+
+> END STRING
+
+> BEGIN STRING
+初めてに弱い
+> CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
+> CONTEXT: PR_Scene_Battle PluralAttack.rb
+
+> END STRING
+
+> BEGIN STRING
+処女、破瓜状態の相手に責められた時、被追撃率が上昇してしまう。
+> CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
+
+> END STRING
+
+> BEGIN STRING
+女性の場合、童貞、筆降ろし状態の相手に責められた時に発揮される。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 
 > END STRING
@@ -34193,9 +34345,9 @@ in turning motion
 > END STRING
 
 > BEGIN STRING
-現の壁を作り出した
+現の壁を作り出した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- created the Reality Barrier
+ created the Reality Barrier!
 > END STRING
 
 > BEGIN STRING
@@ -35275,13 +35427,13 @@ The mist prevented the magic from being activated!
 > BEGIN STRING
 を、
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- at, 
+ at,
 > END STRING
 
 > BEGIN STRING
 で、
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- with, 
+ with,
 > END STRING
 
 > BEGIN STRING
@@ -36689,6 +36841,18 @@ while looking up
 > END STRING
 
 > BEGIN STRING
+、\n\m#{$game_actors[101].name}の影と重なりあった！
+> CONTEXT: O_MOD_RPG_Skilltext.rb
+
+> END STRING
+
+> BEGIN STRING
+、\n\m自分と#{targetname}の影を重ねた！
+> CONTEXT: O_MOD_RPG_Skilltext.rb
+
+> END STRING
+
+> BEGIN STRING
 激励を受けた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
 Received encouragement!
@@ -36700,7 +36864,7 @@ Received encouragement!
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Talk.rb
-slowly 
+slowly
 > END STRING
 
 > BEGIN STRING
@@ -36716,7 +36880,7 @@ modestly
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Talk.rb
-teasingly 
+teasingly
 > END STRING
 
 > BEGIN STRING
@@ -36736,7 +36900,7 @@ bewitchingly
 > CONTEXT: O_MOD_RPG_Skilltext.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Talk.rb
-timidly 
+timidly
 > END STRING
 
 > BEGIN STRING
@@ -40244,7 +40408,7 @@ intertwined tongues \n​m​with #{targetname} and shook hips #{waist}!
 > BEGIN STRING
 #{myself.bustsize}の谷間で、\n\m#{targetname}の顔を包み、#{waist}腰を動かしてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- moved hips #{waist} with face between \n​m​#{targetname}'s #{myself.bustsize}! 
+ moved hips #{waist} with face between \n​m​#{targetname}'s #{myself.bustsize}!
 > END STRING
 
 > BEGIN STRING
@@ -40262,7 +40426,7 @@ intertwined tongues \n​m​with #{targetname} and shook hips #{waist}!
 > BEGIN STRING
 #{myself.bustsize}の谷間で、\n\m#{targetname}の顔を包み、#{waist}腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- moved hips #{waist} with face between \n​m​#{targetname}'s #{myself.bustsize}! 
+ moved hips #{waist} with face between \n​m​#{targetname}'s #{myself.bustsize}!
 > END STRING
 
 > BEGIN STRING
@@ -41807,7 +41971,7 @@ update4-1
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 > CONTEXT: PR_RPG_Statetext.rb
 > CONTEXT: S_MOD_Game_Battler_Magiceffect.rb
 > CONTEXT: Window_Cook_Recipe.rb
@@ -41821,7 +41985,7 @@ Charm
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 > CONTEXT: PR_RPG_Statetext.rb
 > CONTEXT: S_MOD_Game_Battler_Magiceffect.rb
 > CONTEXT: Window_Cook_Recipe.rb
@@ -41834,7 +41998,7 @@ Endurance
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 > CONTEXT: PR_RPG_Statetext.rb
 > CONTEXT: S_MOD_Game_Battler_Magiceffect.rb
 > CONTEXT: Window_Cook_Recipe.rb
@@ -41848,7 +42012,7 @@ Energy
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 > CONTEXT: PR_RPG_Statetext.rb
 > CONTEXT: S_MOD_Game_Battler_Magiceffect.rb
 > CONTEXT: Window_Cook_Recipe.rb
@@ -41862,7 +42026,7 @@ Dexterity
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 > CONTEXT: PR_RPG_Statetext.rb
 > CONTEXT: S_MOD_Game_Battler_Magiceffect.rb
 > CONTEXT: Window_Cook_Recipe.rb
@@ -41876,7 +42040,7 @@ Agility
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 > CONTEXT: PR_RPG_Statetext.rb
 > CONTEXT: S_MOD_Game_Battler_Magiceffect.rb
 > CONTEXT: Window_Cook_Recipe.rb
@@ -42508,7 +42672,7 @@ White Drain
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 All abilities
 > END STRING
 
@@ -42895,6 +43059,18 @@ Wind Whisper
 > END STRING
 
 > BEGIN STRING
+デルタクローラー
+> CONTEXT: O_MOD_Scene_Battle_4.rb
+
+> END STRING
+
+> BEGIN STRING
+#{target.name}にかかっている状態異常のターン数が増加した！\w\q
+> CONTEXT: O_MOD_Scene_Battle_4.rb
+
+> END STRING
+
+> BEGIN STRING
 スキルスチール
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 Skill Steal
@@ -43130,6 +43306,12 @@ But it had no effect!\w​q​
 > END STRING
 
 > BEGIN STRING
+#{target.name}は混沌の力を得た！
+> CONTEXT: O_MOD_Scene_Battle_4.rb
+
+> END STRING
+
+> BEGIN STRING
 トランストラップ
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 
@@ -43149,6 +43331,18 @@ But it had no effect!\w​q​
 
 > BEGIN STRING
 ウィークネストラップ
+> CONTEXT: O_MOD_Scene_Battle_4.rb
+
+> END STRING
+
+> BEGIN STRING
+シャドウシェア
+> CONTEXT: O_MOD_Scene_Battle_4.rb
+
+> END STRING
+
+> BEGIN STRING
+#{target.name}に自分の能力変化をコピーした！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 
 > END STRING
@@ -44214,12 +44408,6 @@ update4-6
 
 > BEGIN STRING
 / 10).floor) /
-> CONTEXT: O_MOD_Scene_Battle_4.rb
-
-> END STRING
-
-> BEGIN STRING
-/ 6).round if @active_battler.state?(114) #限界突破/
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 
 > END STRING
@@ -50154,7 +50342,7 @@ battler.#{parts}_develop
 > BEGIN STRING
 ・
 > CONTEXT: O_MOD_SR_Util_other.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
@@ -51624,7 +51812,7 @@ However, #{$msg.t_enemy.name} still seems unsatisfied...!
 > BEGIN STRING
 #{$msg.t_target.name}は堪えきれず、\m\n#{enemy.name}の#{enemy.bustsize}に#{brk2}精を吐き出してしまった！
 > CONTEXT: O_MOD_SR_Util_spam.rb
-#{$msg.t_target.name} couldn't hold back ​m​\nand cum spewed out into ​m​\n#{enemy.name}'s #{enemy.bustsize}! 
+#{$msg.t_target.name} couldn't hold back ​m​\nand cum spewed out into ​m​\n#{enemy.name}'s #{enemy.bustsize}!
 > END STRING
 
 > BEGIN STRING
@@ -51948,6 +52136,18 @@ Ascension Rune
 > BEGIN STRING
 command_use_check
 > CONTEXT: O_MOD_SR_Util_Storage.rb
+
+> END STRING
+
+> BEGIN STRING
+@msgの初期値が不適切な値です。
+> CONTEXT: O_MOD_Talk_Sys_Base.rb
+
+> END STRING
+
+> BEGIN STRING
+Mod/Mod_Scripts/O_MOD_Talk_Sys_Base.rbのMSG_LENGTHを#{@msg.size - i}にしてください。(現在：#{MSG_LENGTH})
+> CONTEXT: O_MOD_Talk_Sys_Base.rb
 
 > END STRING
 
@@ -52326,6 +52526,12 @@ Ugh
 > END STRING
 
 > BEGIN STRING
+/Mod_Scripts/
+> CONTEXT: O_MOD_Talk_Sys_Base.rb
+
+> END STRING
+
+> BEGIN STRING
 不成立
 > CONTEXT: O_MOD_Talk_Sys_Talk.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Talk.rb
@@ -52409,7 +52615,7 @@ Introduction
 > BEGIN STRING
 対象：
 > CONTEXT: O_MOD_Talk_Sys_Talk.rb
-Target: 
+Target:
 > END STRING
 
 > BEGIN STRING
@@ -52580,7 +52786,7 @@ gently
 丁寧に
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-politely 
+politely
 > END STRING
 
 > BEGIN STRING
@@ -56813,6 +57019,18 @@ _EM
 > END STRING
 
 > BEGIN STRING
+_IC
+> CONTEXT: O_MOD_顔グラフィック戦闘.rb
+
+> END STRING
+
+> BEGIN STRING
+_IL
+> CONTEXT: O_MOD_顔グラフィック戦闘.rb
+
+> END STRING
+
+> BEGIN STRING
 _RE
 > CONTEXT: O_MOD_顔グラフィック戦闘.rb
 > CONTEXT: XL_MOD_Battle_Cutin.rb
@@ -56928,7 +57146,7 @@ Growth Key
 > BEGIN STRING
 最大EP
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 > CONTEXT: Window_Cook_Recipe.rb
 > CONTEXT: Window_EquipLeft.rb
 Max EP
@@ -56937,7 +57155,7 @@ Max EP
 > BEGIN STRING
 最大VP
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 > CONTEXT: Window_Cook_Recipe.rb
 > CONTEXT: Window_EquipLeft.rb
 Max VP
@@ -56952,7 +57170,7 @@ Temperance Rune
 > BEGIN STRING
 空腹率
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 > CONTEXT: Window_PromiseLeft.rb
 > CONTEXT: Window_Status.rb
 Hunger
@@ -57050,942 +57268,942 @@ Spirit Fruit
 
 > BEGIN STRING
 黒っぽい何か
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Something dark
 > END STRING
 
 > BEGIN STRING
 Food999
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 お手軽サラダ
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Simple salad
 > END STRING
 
 > BEGIN STRING
 Other093_cip
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 サンドイッチ
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Sandwich
 > END STRING
 
 > BEGIN STRING
 Other052_cip
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 フレッシュマリネ
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Fresh marinade
 > END STRING
 
 > BEGIN STRING
 Other066_cip
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 ホットスープ
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Hot soup
 > END STRING
 
 > BEGIN STRING
 Other071_cip
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 メインディッシュ
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Main dish
 > END STRING
 
 > BEGIN STRING
 Other068_cip
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 粘っこい何か
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Something sticky
 > END STRING
 
 > BEGIN STRING
 Food998
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 特製サンドイッチ
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Special sandwich
 > END STRING
 
 > BEGIN STRING
 Other084_cip
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 狐色のトーストに、ベーコン、レタス、トマトのフレッシュな味わいと
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Toast with fresh taste of bacon, lettuce, and tomato.
 > END STRING
 
 > BEGIN STRING
 飽きさせぬ黒胡椒のピリ辛さが口の中に広がる、自慢の特製サンドイッチ。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Has a spicy taste of black pepper that spreads in your mouth.
 > END STRING
 
 > BEGIN STRING
 ハニートラップ
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Honey trap
 > END STRING
 
 > BEGIN STRING
 半分に切ったフレンチトーストに切り込みを入れ、塩味の効いた生ハムと
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 French toast cut in half with a slit and salted prosciutto.
 > END STRING
 
 > BEGIN STRING
 甘くねっとりとした蜂蜜を挟んだ、蠱惑的な意匠のサンドイッチ。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 A seductively designed sandwich with sweet and sticky honey.
 > END STRING
 
 > BEGIN STRING
 厚切りベーコンサンド
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Thick-bacon sandwich
 > END STRING
 
 > BEGIN STRING
 自家製のスパイシーなベーコンを惜しげもなく厚切りにし、
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Thickly sliced homemade spicy bacon.
 > END STRING
 
 > BEGIN STRING
 マスタードソースとレタスでシンプルにまとめた、食べ応えのある一品。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 A satisfying dish made with mustard sauce and lettuce.
 > END STRING
 
 > BEGIN STRING
 フィッシュフライサンド
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Fish fry sandwich
 > END STRING
 
 > BEGIN STRING
 からりと揚げた白身魚に薄くスライスしたブルーチーズを乗せ、
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Fried white fish topped with thinly sliced blue cheese,
 > END STRING
 
 > BEGIN STRING
 レタス、トマトを一緒に挟みタルタルソースで仕上げた一品。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 with lettuce and tomato sandwiched together with tartar sauce.
 > END STRING
 
 > BEGIN STRING
 厳選茸のオムレツ
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Mushroom omelet
 > END STRING
 
 > BEGIN STRING
 food_033
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 各地で採れる美味なキノコをふんだんに使ったオムレツ。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Made with many delicious mushrooms grown in various regions.
 > END STRING
 
 > BEGIN STRING
 香ばしい森の香りが食欲をそそる。ミルクキノコは使っていないので安心。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 The fragrant forest scent whets the appetite. No need for milk mushrooms.
 > END STRING
 
 > BEGIN STRING
 洞窟魚のムニエル
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Cave fish meuniere
 > END STRING
 
 > BEGIN STRING
 food_036
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 闇洞窟の湖に棲息する魚のムニエル。魚自体の味は素朴なものだが、
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Fish that lives in the dark cave. The taste of the fish is simple, but...
 > END STRING
 
 > BEGIN STRING
 下味がしっかりつけられており、レモン汁の酸味がより味を引き立てる。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 It's well seasoned, and the sourness of the lemon juice brings out the flavor.
 > END STRING
 
 > BEGIN STRING
 フルール・ルビィ
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Fleur Ruby
 > END STRING
 
 > BEGIN STRING
 food_037
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 生の馬肉を細かく刻んで味付けした、紅玉色の柔らかなステーキ。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Tender, red steak made from finely chopped raw horse meat, seasoned.
 > END STRING
 
 > BEGIN STRING
 卵黄を乗せ周りに香草を添えたその見た目は、大輪の美しき花のよう。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Like a beautiful large flower with egg yolk and herbs surrounding it.
 > END STRING
 
 > BEGIN STRING
 チョコレートキャッスル
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Chocolate Castle
 > END STRING
 
 > BEGIN STRING
 food_035
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 魔王城を模した、高級感漂う精巧なチョコレートケーキ。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Chocolate cake with a luxurious feel, modeled after the Demon Lord's castle.
 > END STRING
 
 > BEGIN STRING
 身も心も蕩けるような甘さを存分に堪能できる、最高級のデザート。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Top dessert, fully enjoy the sweetness that will melt your body and soul.
 > END STRING
 
 > BEGIN STRING
 クトゥールマリネ
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Couteur Marinade
 > END STRING
 
 > BEGIN STRING
 food_034
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 茹でたデビルフィッシュの手足をぶつ切りにし、マリネ液に漬けた料理。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Cut limbs of boiled devilfish soaked in a marinade.
 > END STRING
 
 > BEGIN STRING
 食材にカルチャーショックを受けやすいが、弾力のある触感は美味。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Ingredients can give a culture shock, but the springy texture is delicious.
 > END STRING
 
 > BEGIN STRING
 月融けのフロート
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Moon melting float
 > END STRING
 
 > BEGIN STRING
 food_038
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 メロンリキュールとオレンジジュースの色鮮やかなカクテルに、
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 A colorful cocktail of melon liqueur and orange juice.
 > END STRING
 
 > BEGIN STRING
 満月に見立てたバニラアイスを落とした、甘いフロート。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 A sweet float with vanilla ice cream shaped like a full moon.
 > END STRING
 
 > BEGIN STRING
 冬籠りのスープ
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Winter soup
 > END STRING
 
 > BEGIN STRING
 food_032
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 芳醇な香りがそそる、温かいチーズのコンソメスープ。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Warm cheese consommé soup with a mellow aroma.
 > END STRING
 
 > BEGIN STRING
 熱を加えたことにより柔らかくなった玉葱に、濃厚なチーズが絡む。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 The onions, softened by the heat, are mixed with the rich cheese.
 > END STRING
 
 > BEGIN STRING
 ラストユートピア
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Last Utopia
 > END STRING
 
 > BEGIN STRING
 food_039
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 黄金色のプディングを中心に、瑞々しく大ぶりな果実や
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 The golden pudding is topped with fresh, large fruits and
 > END STRING
 
 > BEGIN STRING
 冷たくて甘いホイップクリームなどで贅沢に飾った、至高の逸品。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Lavishly decorated with cold, sweet whipped cream and other toppings.
 > END STRING
 
 > BEGIN STRING
 饗宴の日
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Feast day
 > END STRING
 
 > BEGIN STRING
 cooking_lilith2
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 夢魔契約率
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 > CONTEXT: PR_MOD_Scene_Battle_2.rb
 Succubus Contract Rate
 > END STRING
 
 > BEGIN STRING
 各自が具材を持ち寄り、それを大きな鍋の中でじっくりと煮込む料理。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Everyone brings ingredients, which are then slowly simmered in a large pot.
 > END STRING
 
 > BEGIN STRING
 簡素だが持ち寄る具材で味も変わり、皆で食べれば心地良い時間となる。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Eating it together makes for a pleasant experience.
 > END STRING
 
 > BEGIN STRING
 イチゴ・ホイップ
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Strawberry Whip
 > END STRING
 
 > BEGIN STRING
 Other390_cip
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 生クリームとイチゴをふんだんに使ったクレープの定番メニュー。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 A classic crepe menu item made with plenty of fresh cream and strawberries.
 > END STRING
 
 > BEGIN STRING
 生クリームの甘さとイチゴの酸味の絶妙なバランス。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Exquisite balance of sweetness of cream and sourness of strawberries.
 > END STRING
 
 > BEGIN STRING
 ゴールドトースト
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Gold Toast
 > END STRING
 
 > BEGIN STRING
 Other051_cip
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 卵をたっぷりと使った銀色の都市定番の朝食。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 A silvery, classic city breakfast made with plenty of eggs.
 > END STRING
 
 > BEGIN STRING
 自家製の出汁が使われており、ほっぺたが落ちるような味わいを堪能できる。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Homemade soup stock is used, allowing you to enjoy a mouth-watering flavor.
 > END STRING
 
 > BEGIN STRING
 スティッキケーキ
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Sticky Cake
 > END STRING
 
 > BEGIN STRING
 Other387_cip
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 平原と丘で採れたブルーベリーのレアチーズケーキ。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 A rare cheesecake made with blueberries picked from the plains and hills.
 > END STRING
 
 > BEGIN STRING
 濃厚なチーズに、甘く粘っこいソースがたまらなく癖になる。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 The rich cheese and sweet, sticky sauce are irresistibly addictive.
 > END STRING
 
 > BEGIN STRING
 トリックローズティー
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Trick Rose Tea
 > END STRING
 
 > BEGIN STRING
 Other138_cip
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 満腹度
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 > CONTEXT: SR_Util dish_system.rb
 Satiety
 > END STRING
 
 > BEGIN STRING
 遊技場の看板メニュー。夢魔が飲むとお腹を満たす効果がある。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 When a succubus drinks it, it has the effect of filling up the stomach.
 > END STRING
 
 > BEGIN STRING
 酸味が効きながらも飲みやすく、リラックスしたひとときを過ごせる。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 It has a sour taste but is easy to drink, allowing you to spend a relaxing time.
 > END STRING
 
 > BEGIN STRING
 エンジェリック・パンケーキ
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Angelic Pancakes
 > END STRING
 
 > BEGIN STRING
 Other085_cip
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 天界から伝わったとされる、ふんわりとしたパンケーキ。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 These fluffy pancakes are said to have been brought down from heaven.
 > END STRING
 
 > BEGIN STRING
 とろりとした蜂蜜に、生地は口溶けの良い舌触りでまるで天に昇るような気分に。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 The thick honey and the dough melt in your mouth, making you feel heaven.
 > END STRING
 
 > BEGIN STRING
 桃の液体
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Peach liquid
 > END STRING
 
 > BEGIN STRING
 Other046_00
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 職人が生み出した、なんだかよくわからない液体。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 A mysterious liquid created by a craftsman.
 > END STRING
 
 > BEGIN STRING
 怪しい…。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Suspicious….
 > END STRING
 
 > BEGIN STRING
 紫の液体
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Purple Liquid
 > END STRING
 
 > BEGIN STRING
 Other046_01
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 赤の液体
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Red liquid
 > END STRING
 
 > BEGIN STRING
 Other046_02
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 緑の液体
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Green liquid
 > END STRING
 
 > BEGIN STRING
 Other046_03
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 青の液体
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Blue Liquid
 > END STRING
 
 > BEGIN STRING
 Other046_04
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 黄の液体
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Yellow liquid
 > END STRING
 
 > BEGIN STRING
 Other046_05
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 白の液体
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 White liquid
 > END STRING
 
 > BEGIN STRING
 Other046_06
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 黒の液体
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Black Liquid
 > END STRING
 
 > BEGIN STRING
 Other046_07
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 淀みの液体
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Stagnant liquid
 > END STRING
 
 > BEGIN STRING
 Other046_08
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 怪しの液体
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Mysterious Liquid
 > END STRING
 
 > BEGIN STRING
 Other046_09
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 混沌の液体
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Chaos Liquid
 > END STRING
 
 > BEGIN STRING
 Other046_10
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 追撃率
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
 Follow-up Rate
 > END STRING
 
 > BEGIN STRING
 被追撃率
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
 Received follow-up rate
 > END STRING
 
 > BEGIN STRING
 敗北の液体
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Defeat Liquid
 > END STRING
 
 > BEGIN STRING
 Other046_11
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 雪国のクリームシチュー
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Snowland Cream Stew
 > END STRING
 
 > BEGIN STRING
 Other073_cip
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 サンタさんが客人に振る舞うとされるクリームシチュー。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Cream stew is said to be what Santa serves to his guests.
 > END STRING
 
 > BEGIN STRING
 沢山の具に濃厚クリームで、体の芯から温まる。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 With plenty of ingredients and rich cream, it will warm you inside out.
 > END STRING
 
 > BEGIN STRING
 サンタさんの贈り物
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Santa's Gift
 > END STRING
 
 > BEGIN STRING
 food_006b
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 クリスマスに作られる木を模したロールケーキ
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 A Christmas roll cake made to resemble a tree
 > END STRING
 
 > BEGIN STRING
 ふんわりスポンジと甘酸っぱい苺でクリスマスを飾る。
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Decorate for Christmas with fluffy sponge and sweet and sour strawberries.
 > END STRING
 
 > BEGIN STRING
 グラタン
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 チキンオアビーフ
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 Other262b_cip
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 お祝いごとの時に作られる鳥の丸焼き
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 ■効果#{count.to_s}\n
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 things : #{things}\n
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 kind : #{kind}\n
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 level : #{level}\n
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 growth : #{growth}\n
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 小
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
-small 
+> CONTEXT: PR_MOD_Game_Dish.rb
+small
 > END STRING
 
 > BEGIN STRING
 中
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
-med. 
+> CONTEXT: PR_MOD_Game_Dish.rb
+med.
 > END STRING
 
 > BEGIN STRING
 大
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
-big 
+> CONTEXT: PR_MOD_Game_Dish.rb
+big
 > END STRING
 
 > BEGIN STRING
 超
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
-huge 
+> CONTEXT: PR_MOD_Game_Dish.rb
+huge
 > END STRING
 
 > BEGIN STRING
 超大
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 XL
 > END STRING
 
 > BEGIN STRING
 極大
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 XXL
 > END STRING
 
 > BEGIN STRING
 絶大
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Max
 > END STRING
 
 > BEGIN STRING
 絶大★2
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Max★2
 > END STRING
 
 > BEGIN STRING
 絶大★3
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Max★3
 > END STRING
 
 > BEGIN STRING
 絶大★4
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 Max★4
 > END STRING
 
 > BEGIN STRING
 増加
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 increase
 > END STRING
 
 > BEGIN STRING
 減少
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 decrease
 > END STRING
 
 > BEGIN STRING
 #{things_text} #{level_ward}#{heal_word}
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 #{things_text} #{type_text} #{level_ward}#{plus_word}
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 #{things_text} #{level_ward}#{plus_word}
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
  #{growth_on}
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 
 > END STRING
 
 > BEGIN STRING
 何もない
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 nothing
 > END STRING
 
 > BEGIN STRING
 #{actor.name}はパーティに\n#{@name}を振る舞った！
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 #{actor.name} treated the party\nto #{@name}!
 > END STRING
 
 > BEGIN STRING
 #{actor.name}は#{@name}を調理し食した！
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 #{actor.name} cooked and ate #{@name}!
 > END STRING
 
 > BEGIN STRING
 \n今回の調理は非常に上手くいったようだ！
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 \nThis cooking seems to have gone extremely well!
 > END STRING
 
 > BEGIN STRING
 #{$game_actors[101].name}は#{@name}を頂いた！
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 #{$game_actors[101].name} consumed #{@name}!
 > END STRING
 
 > BEGIN STRING
 #{$game_actors[101].name}たちは#{@name}を頂いた！
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 #{$game_actors[101].name}'s party consumed #{@name}!
 > END STRING
 
 > BEGIN STRING
 全員
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 > CONTEXT: PR_Window_SystemLeft.rb
 All
 > END STRING
 
 > BEGIN STRING
 #{who_word}の#{things_text}が#{level_ward}#{heal_word}した！
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 #{who_word}'s #{things_text} received #{level_ward}#{heal_word}!
 > END STRING
 
 > BEGIN STRING
 #{who_word}の#{things_text}の#{type_text}が#{level_ward}#{plus_word}した！
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 #{who_word}'s #{type_text} of #{things_text} got a #{level_ward}#{plus_word}!
 > END STRING
 
 > BEGIN STRING
 #{who_word}の#{things_text}が#{level_ward}#{plus_word}した！
-> CONTEXT: PR_MOD_Game_Dish_料理.rb
+> CONTEXT: PR_MOD_Game_Dish.rb
 #{who_word}'s #{things_text} got a #{level_ward}#{plus_word}!
 > END STRING
 
@@ -59527,7 +59745,7 @@ Cannot break the contract of a unique succubus!
 > BEGIN STRING
 本当に
 > CONTEXT: PR_MOD_Scene_Box.rb
-Really break contract with 
+Really break contract with
 > END STRING
 
 > BEGIN STRING
@@ -60053,32 +60271,32 @@ slightly blushing
 > BEGIN STRING
 手際よく
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-skillfully 
+skillfully
 > END STRING
 
 > BEGIN STRING
 淡々と
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-indifferently 
+indifferently
 > END STRING
 
 > BEGIN STRING
 意を決して
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
 > CONTEXT: PR_MOD_Talk_Sys Text_Talk.rb
-flawlessly 
+flawlessly
 > END STRING
 
 > BEGIN STRING
 いそいそと
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-quickly 
+quickly
 > END STRING
 
 > BEGIN STRING
 慎重に
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-carefully 
+carefully
 > END STRING
 
 > BEGIN STRING
@@ -60139,7 +60357,7 @@ while nodding
 > BEGIN STRING
 緩々と
 > CONTEXT: PR_MOD_Talk_Sys Text_Map.rb
-slowly 
+slowly
 > END STRING
 
 > BEGIN STRING
@@ -62435,6 +62653,12 @@ Edge
 > END STRING
 
 > BEGIN STRING
+混沌付与
+> CONTEXT: PR_MOD_Window_Base .rb
+
+> END STRING
+
+> BEGIN STRING
 怒張
 > CONTEXT: PR_MOD_Window_Base .rb
 
@@ -63777,12 +64001,6 @@ Lemu
 メリー
 > CONTEXT: PR_MOD_Window_NameEdit_ランダム名.rb
 Nari
-> END STRING
-
-> BEGIN STRING
-メア
-> CONTEXT: PR_MOD_Window_NameEdit_ランダム名.rb
-Naa
 > END STRING
 
 > BEGIN STRING
@@ -66577,7 +66795,7 @@ Anti-phase_Metro_Synchronicity_Area06
 > END STRING
 
 > BEGIN STRING
-Babel_Ruins
+深海の伝承歌
 > CONTEXT: PR_RPG_Other(その他).rb
 
 > END STRING
@@ -66933,6 +67151,7 @@ butler
 > BEGIN STRING
 hero6
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+> CONTEXT: 修正用.rb
 
 > END STRING
 
@@ -67573,6 +67792,18 @@ nightmare1-2
 > END STRING
 
 > BEGIN STRING
+nightmare1-4
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+童
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 sleepy0-4
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -67610,12 +67841,6 @@ gold_slime1-1
 
 > BEGIN STRING
 slime1-2
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-
-> END STRING
-
-> BEGIN STRING
-童
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -70665,9 +70890,21 @@ The magic circle beneath #{myname}'s feet disappeared!
 > END STRING
 
 > BEGIN STRING
-現の壁が崩れ去った！
+現の壁が崩れ去った！\w\n
 > CONTEXT: PR_RPG_Statetext.rb
-The Reality Barrier has collapsed!
+The Reality Barrier has collapsed!​w\n
+> END STRING
+
+> BEGIN STRING
+#{myname}の感覚が過敏になる！
+> CONTEXT: PR_RPG_Statetext.rb
+#{myname}'s senses are becoming hypersensitive!
+> END STRING
+
+> BEGIN STRING
+#{myname}は現の壁に守られている……
+> CONTEXT: PR_RPG_Statetext.rb
+#{myname} is protected by the Reality Barrier...
 > END STRING
 
 > BEGIN STRING
@@ -71630,15 +71867,9 @@ weak_check:#{weak_check}\n
 > END STRING
 
 > BEGIN STRING
-ゲームをやめますか？
+ゲームをやめますか？\nキャンセル\nタイトルへ戻る\nシャットダウン
 > CONTEXT: PR_Scene_Menu(system).rb
-Quit the game?
-> END STRING
-
-> BEGIN STRING
-\nキャンセル\nタイトルへ戻る\nシャットダウン
-> CONTEXT: PR_Scene_Menu(system).rb
-\nCancel\nReturn to title\nShutdown
+Quit the game?\nCancel\nReturn to title\nShutdown
 > END STRING
 
 > BEGIN STRING
@@ -72391,7 +72622,7 @@ Only opponent side
 > BEGIN STRING
 バトル設定（ホールド・リバウンド）
 > CONTEXT: PR_Window_SystemLeft.rb
-Hold/Rebound Settings 
+Hold/Rebound Settings
 > END STRING
 
 > BEGIN STRING
@@ -74009,13 +74240,19 @@ menu_status1
 > END STRING
 
 > BEGIN STRING
-menu_status2
+face_frame
 > CONTEXT: P_H_MOD_Window_MenuStatus.rb
 
 > END STRING
 
 > BEGIN STRING
-face_frame
+次のレベルまで
+> CONTEXT: P_H_MOD_Window_MenuStatus.rb
+To next level
+> END STRING
+
+> BEGIN STRING
+menu_status2
 > CONTEXT: P_H_MOD_Window_MenuStatus.rb
 
 > END STRING
@@ -74027,12 +74264,6 @@ Lv.
 > CONTEXT: Window_Status.rb
 > CONTEXT: 夢魔契約数増加MOD_Window_BoxLeft.rb
 
-> END STRING
-
-> BEGIN STRING
-次のレベルまで
-> CONTEXT: P_H_MOD_Window_MenuStatus.rb
-To next level
 > END STRING
 
 > BEGIN STRING
@@ -74914,6 +75145,27 @@ Test\nTest
 > END STRING
 
 > BEGIN STRING
+\H
+> CONTEXT: Window_Announce.rb
+> CONTEXT: Window_BattleLog.rb
+
+> END STRING
+
+> BEGIN STRING
+heart
+> CONTEXT: Window_Announce.rb
+> CONTEXT: Window_BattleLog.rb
+
+> END STRING
+
+> BEGIN STRING
+/./
+> CONTEXT: Window_Announce.rb
+> CONTEXT: Window_BattleLog.rb
+/\\[a-zA-Z]|[wW][a-pr-v]|m[a-lo]|m[a-z][a-z]|[a-vxA-Z ][mqw][ a-z\!\?\.\,\:\;\-\']|[a-pA-Pr-zR-Z ][my]|[yH][a-pA-Pr-zR-Z \!\?\.\,\:\;\-\']|./
+> END STRING
+
+> BEGIN STRING
 \\\\
 > CONTEXT: Window_BattleLog.rb
 
@@ -74957,18 +75209,6 @@ Test\nTest
 
 > BEGIN STRING
 \\
-> CONTEXT: Window_BattleLog.rb
-
-> END STRING
-
-> BEGIN STRING
-\H
-> CONTEXT: Window_BattleLog.rb
-NOHEART
-> END STRING
-
-> BEGIN STRING
-heart
 > CONTEXT: Window_BattleLog.rb
 
 > END STRING
@@ -75019,12 +75259,6 @@ Error: Too many characters on a line.\nNumber of characters: #{(x/14)-1}/26　Wi
 /\\[Gg]/
 > CONTEXT: Window_BattleLog.rb
 
-> END STRING
-
-> BEGIN STRING
-/./
-> CONTEXT: Window_BattleLog.rb
-/\\[a-zA-Z]|[wW][a-pr-v]|m[a-lo]|m[a-z][a-z]|[a-vxA-Z ][mqw][ a-z\!\?\.\,\:\;\-\']|[a-pA-Pr-zR-Z ][my]|[yH][a-pA-Pr-zR-Z \!\?\.\,\:\;\-\']|./
 > END STRING
 
 > BEGIN STRING
@@ -75728,6 +75962,24 @@ _PZA
 > END STRING
 
 > BEGIN STRING
+_PH#{@target.get_bustsize}
+> CONTEXT: XL_MOD_Battle_Cutin.rb
+
+> END STRING
+
+> BEGIN STRING
+_PH
+> CONTEXT: XL_MOD_Battle_Cutin.rb
+
+> END STRING
+
+> BEGIN STRING
+_VAR
+> CONTEXT: XL_MOD_Battle_Cutin.rb
+
+> END STRING
+
+> BEGIN STRING
 _UNDS
 > CONTEXT: XL_MOD_Battle_Cutin.rb
 
@@ -75926,7 +76178,7 @@ n
 > END STRING
 
 > BEGIN STRING
-パッチ :\n\t240530b\n
+パッチ :\n\t240715c\n
 > CONTEXT: エラーログ.rb
 
 > END STRING
@@ -76155,7 +76407,7 @@ a+
 > END STRING
 
 > BEGIN STRING
-240508
+240327
 > CONTEXT: 初期設定.rb
 
 > END STRING
