@@ -911,7 +911,7 @@ Sleep
 
 > BEGIN STRING
 てかげん
-> CONTEXT: States/127/name/ < UNTRANSLATED
+> CONTEXT: States/127/name/
 Feel
 > END STRING
 
@@ -949,8 +949,8 @@ Urge
 
 > BEGIN STRING
 簡易・現の壁
-> CONTEXT: States/134/name/ < UNTRANSLATED
 > CONTEXT: Skills/1147/name/ < UNTRANSLATED
+> CONTEXT: Skills/2599/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -2435,5 +2435,23 @@ Temptation・Kiss
 > BEGIN STRING
 反撃
 > CONTEXT: States/443/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+現の壁
+> CONTEXT: States/134/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+融合体
+> CONTEXT: States/444/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+超敏感
+> CONTEXT: States/445/name/ < UNTRANSLATED
 
 > END STRING

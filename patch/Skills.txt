@@ -1437,6 +1437,7 @@ Temptation
 > BEGIN STRING
 相手を中確率で恍惚させる。[魅力]
 > CONTEXT: Skills/140/description/
+> CONTEXT: Skills/2558/description/
 Chance to make opponent ecstatic. [Charm]
 > END STRING
 
@@ -2420,13 +2421,13 @@ Wash Flood
 
 > BEGIN STRING
 フリスギルデ
-> CONTEXT: Skills/226/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 [魔法] 契約者を限界突破させる。[セットサークル無効]
-> CONTEXT: Skills/226/description/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -8648,8 +8649,8 @@ Heavenly Accept
 
 > BEGIN STRING
 フォーリンアクセプト
-> CONTEXT: Skills/1057/name/ < UNTRANSLATED
-> CONTEXT: Skills/1058/name/ < UNTRANSLATED
+> CONTEXT: Skills/1057/name/
+> CONTEXT: Skills/1058/name/
 Falling Accept
 > END STRING
 
@@ -9676,13 +9677,13 @@ Apocalypse Gold Cup/40
 
 > BEGIN STRING
 ミスティックキッス/100
-> CONTEXT: Skills/1218/name/ < UNTRANSLATED
+> CONTEXT: Skills/1218/name/
 Mystic Kiss/100
 > END STRING
 
 > BEGIN STRING
 [口→口] キスで攻める。[ムード中・中確率：散漫][精神/魅力]
-> CONTEXT: Skills/1218/description/ < UNTRANSLATED
+> CONTEXT: Skills/1218/description/
 [Mouth→Mouth] Attack with a kiss. [Mood, Chance: Distract][Spirit/Charm]
 > END STRING
 
@@ -16705,4 +16706,275 @@ Genital caress [Dexterity]
 [口→口] 舌を絡めあうキッス。ＳＳ率大。[中確率：恍惚][VPドレイン][精力/魅力]
 > CONTEXT: Skills/2554/description/
 [Mouth→Mouth] Entwine tongues. High SS rate. [Chance: Ecstasy][VP drain][Energy/Charm]
+> END STRING
+
+> BEGIN STRING
+フリスギルデ//999
+> CONTEXT: Skills/226/name/ < UNTRANSLATED
+Frisgilde//999
+> END STRING
+
+> BEGIN STRING
+[魔法][奥義] 味方一人を限界突破させる。[先制行動]
+> CONTEXT: Skills/226/description/ < UNTRANSLATED
+[Magic][Special] Push one ally beyond limits. [Fast]
+> END STRING
+
+> BEGIN STRING
+カオスエンチャント
+> CONTEXT: Skills/1550/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法] 味方１人に混沌の力を付与する。全能力を自身の精神力に応じて上昇させるが、VPを減少させる。
+> CONTEXT: Skills/1550/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+欲情の眼差し
+> CONTEXT: Skills/2556/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手を中確率で欲情させる。[魅力]
+> CONTEXT: Skills/2556/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+欲情の魔眼
+> CONTEXT: Skills/2557/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手を高確率で欲情させる。[魅力]
+> CONTEXT: Skills/2557/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+恍惚の眼差し
+> CONTEXT: Skills/2558/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+恍惚の魔眼
+> CONTEXT: Skills/2559/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手を高確率で恍惚させる。[魅力]
+> CONTEXT: Skills/2559/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+幻覚の眼差し
+> CONTEXT: Skills/2560/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手に中確率で幻覚を見せる。[魅力]
+> CONTEXT: Skills/2560/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+幻覚の魔眼
+> CONTEXT: Skills/2561/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手に高確率で幻覚を見せる。[魅力]
+> CONTEXT: Skills/2561/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+催眠の眼差し
+> CONTEXT: Skills/2562/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手を中確率で眠らせる。[魅力]
+> CONTEXT: Skills/2562/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+催眠の魔眼
+> CONTEXT: Skills/2563/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手を高確率で眠らせる。[魅力]
+> CONTEXT: Skills/2563/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シャドウユニゾン
+> CONTEXT: Skills/2586/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あなたの力を借り、影を実体化する。全能力が上昇する。
+> CONTEXT: Skills/2586/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シャドウシェア
+> CONTEXT: Skills/2587/name/ < UNTRANSLATED
+> CONTEXT: Skills/2588/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+味方一人に自身の能力変化をコピーする。
+> CONTEXT: Skills/2587/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+敵一人に自身の能力変化をコピーする。
+> CONTEXT: Skills/2588/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ハルシネイト
+> CONTEXT: Skills/2590/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法] 敵１人に高確率で幻覚を見せる。[精神力]
+> CONTEXT: Skills/2590/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ペイド・ハルシネイト
+> CONTEXT: Skills/2591/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法] 敵全員を中確率で幻覚を見せる。[精神力]
+> CONTEXT: Skills/2591/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルファ・ハルシネイト/0/13
+> CONTEXT: Skills/2592/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][CT:13] 敵１人に高確率で幻覚を見せる。[精神力][耐性半減]
+> CONTEXT: Skills/2592/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+オメガ・ハルシネイト/0/17
+> CONTEXT: Skills/2593/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][CT:17] 敵全員に高確率で幻覚を見せる。[精神力][耐性半減]
+> CONTEXT: Skills/2593/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エミネントフォース
+> CONTEXT: Skills/2595/name/ < UNTRANSLATED
+Eminent Force
+> END STRING
+
+> BEGIN STRING
+シャードフォース
+> CONTEXT: Skills/2597/name/ < UNTRANSLATED
+Shard Force
+> END STRING
+
+> BEGIN STRING
+[魔法] 簡易的な現の壁を生成する。３ターン全ての快感を遮断するが…。
+> CONTEXT: Skills/2599/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デルタクローラー
+> CONTEXT: Skills/2601/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法] 敵全体の状態異常のターン数を３ターン伸ばす。
+> CONTEXT: Skills/2601/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔の消失
+> CONTEXT: Skills/2603/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[場：自] ５ターンの間、全員が魔法を使えなくなる。
+> CONTEXT: Skills/2603/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔の祝祭
+> CONTEXT: Skills/2604/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[場：自] ５ターンの間、全員が魔法をＶＰ消費なしで唱えられる。
+> CONTEXT: Skills/2604/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドルンバ
+> CONTEXT: Skills/2611/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法] 敵１人の高揚・沈着を解除する。[精神力]
+> CONTEXT: Skills/2611/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カースクローズ
+> CONTEXT: Skills/2613/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法] 状態異常が３つ以上ついた敵１人を拘束状態にする。
+> CONTEXT: Skills/2613/description/ < UNTRANSLATED
+
 > END STRING

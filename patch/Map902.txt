@@ -743,7 +743,7 @@ Do you want to forget the qualities I taught you?
 > BEGIN STRING
 "薄っぺらいプライド"
 > CONTEXT: Map902/events/69/pages/0/7/InlineScript/1:5
-> CONTEXT: Map902/events/69/pages/0/47/InlineScript/1:5
+> CONTEXT: Map902/events/69/pages/0/28/InlineScript/1:5
 "Shallow Pride"
 > END STRING
 
@@ -758,7 +758,7 @@ Do you want to forget the qualities I taught you?
 また興味があったらよろしくな……
 ヒヒ……
 > CONTEXT: Map902/events/69/pages/0/10/Dialogue
-> CONTEXT: Map902/events/69/pages/0/54/Dialogue
+> CONTEXT: Map902/events/69/pages/0/34/Dialogue
 \\name[\\v[2]]\\_
 If you're interested, please let me know...
 Hehehe...
@@ -776,7 +776,7 @@ I'll tell you about an interesting quality...
 
 > BEGIN STRING
 "※【男のプライド】は忘れてしまいます。"
-> CONTEXT: Map902/events/69/pages/0/25/InlineScript/1:5
+> CONTEXT: None < UNUSED
 "※Forget about 【Man's Pride】."
 > END STRING
 
@@ -785,7 +785,7 @@ I'll tell you about an interesting quality...
 全てのステータスが強化されるが、
 絶頂する度に弱体化する。
 \\c[12]\\v[3]\\c[0]
-> CONTEXT: Map902/events/69/pages/0/32/Dialogue
+> CONTEXT: None < UNUSED
 【Shallow Pride】
 All stats are strengthened, but weakened each time you climax.
 \\c[12]\\v[3]\\c[0]
@@ -793,32 +793,47 @@ All stats are strengthened, but weakened each time you climax.
 
 > BEGIN STRING
 教えてもらう
-> CONTEXT: Map902/events/69/pages/0/36/Choice/0
+> CONTEXT: Map902/events/69/pages/0/26/Choice/0
+> CONTEXT: Map902/events/69/pages/0/26/Choice/0
 Learn
 > END STRING
 
 > BEGIN STRING
 いやだ
-> CONTEXT: Map902/events/69/pages/0/36/Choice/1
+> CONTEXT: Map902/events/69/pages/0/26/Choice/1
+> CONTEXT: Map902/events/69/pages/0/26/Choice/1
 Refuse
 > END STRING
 
 > BEGIN STRING
 "男のプライド"
-> CONTEXT: Map902/events/69/pages/0/39/InlineScript/1:34
+> CONTEXT: None < UNUSED
 "Man's Pride"
 > END STRING
 
 > BEGIN STRING
 "【男のプライド】を忘れました。"
-> CONTEXT: Map902/events/69/pages/0/39/InlineScript/2:5
+> CONTEXT: None < UNUSED
 "Forgot 【Man's Pride】."
 > END STRING
 
 > BEGIN STRING
 【薄っぺらいプライド】を習得しました。
 \\v[3]
-> CONTEXT: Map902/events/69/pages/0/49/Dialogue
+> CONTEXT: None < UNUSED
 Acquired 【Shallow Pride】.
 \\v[3]
+> END STRING
+
+> BEGIN STRING
+【薄っぺらいプライド】
+絶頂する度に弱体化する。
+> CONTEXT: Map902/events/69/pages/0/24/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【薄っぺらいプライド】を習得しました。
+> CONTEXT: Map902/events/69/pages/0/30/Dialogue < UNTRANSLATED
+
 > END STRING

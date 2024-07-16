@@ -214,7 +214,7 @@ Well then, I look forward to working with you.
 \\name[\\v[2]]\\_
 やあ、確認の方はどうだい？
 できれば、早めに頼むよ。
-> CONTEXT: Map647/events/3/pages/3/44/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Hey, can you confirm?
 If possible, please do so soon.
@@ -415,7 +415,7 @@ If an inexperienced witch holds it, it may alter the magic.
 \\name[\\v[2]]\\_
 ふふっ、少年といるとつい話しすぎてしまうな。
 また来てくれ、日中ならここにいるからね。
-> CONTEXT: Map647/events/3/pages/4/100/Dialogue
+> CONTEXT: Map647/events/3/pages/4/96/Dialogue
 \\name[\\v[2]]\\_
 Hehe, I always end up talking too much when I'm with you, boy.
 Come again, I'm here during the day.
@@ -732,7 +732,7 @@ but once you're in, it seems like it's not easy to get out...
 \\name[\\v[2]]\\_
 こんにちは！
 ヘカテー様の知り合いかな？
-> CONTEXT: Map647/events/22/pages/0/1/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Hello!
 Do you know Hecate?
@@ -741,7 +741,33 @@ Do you know Hecate?
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ほぁ……ヘカテー様……\\H
-> CONTEXT: Map647/events/22/pages/1/1/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Oh...Lady Hecate...\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やあ、教会図書館に確認は取れたかい？
+できれば、早めに頼むよ。
+> CONTEXT: Map647/events/3/pages/3/44/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+かつてリリスと呼ばれる夢魔達が居たそうだよ。
+原初の女、全ての夢魔の始祖とも呼ばれている
+リリムたちの祖先とも言える存在だね。
+> CONTEXT: Map647/events/3/pages/4/85/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+確証があるわけではないんだが……
+平原と丘の最深部にあるとされる真実の魔境で
+リリムたちを覗けば、何かわかるものもあるかもしれないね。
+> CONTEXT: Map647/events/3/pages/4/89/Dialogue < UNTRANSLATED
+
 > END STRING
