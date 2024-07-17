@@ -21,6 +21,7 @@ def replace_strings_in_files(folder_path, mod_path, replace_dict):
 
             newContent = content.replace("ギルゴーン".encode(), "Gilgorn".encode())
             newContent = newContent.replace("ロウラット".encode(), "Lauratt".encode())
+            newContent = newContent.replace("アイディテス".encode(), "Aidetes".encode())
             if newContent != content:
                 content = newContent
                 replaced = True

@@ -53,7 +53,7 @@ Recruiting vigilantes?
 > CONTEXT: Map152/events/6/pages/0/3/Dialogue
 \\name[\\v[2]]\\_
 It seems that monsters have been becoming more active lately.\\n\\_
-There are rumors that the Demon King
+There are rumors that the Demon Lord
 who has been hiding for a while has returned.
 > END STRING
 
@@ -107,8 +107,8 @@ Maybe there's something I can do.
 北へ抜ける\\c[0]んでしたよね。
 > CONTEXT: Map152/events/9/pages/0/11/Dialogue
 \\name[\\v[2]]\\_
-If I remember correctly, I went north through
-Rendica\\c[12]\\c[0] to get to Ramil's house.
+If I remember correctly, Ramil's house is
+\\c[12]north of Rendica\\c[0].
 > END STRING
 
 > BEGIN STRING
@@ -131,7 +131,7 @@ Are you shopping today?
 > CONTEXT: Map152/events/10/pages/1/5/Dialogue
 \\name[\\v[2]]\\_
 I didn't have to work until night at the bar, so I slept in, 
-but my boss asked me to look after the tool shop, so that's what I did.\\n\\_
+but my boss asked me to look after the tool shop, so that's what I did.
 After all, boss is also rough with people...
 > END STRING
 
@@ -247,5 +247,5 @@ Meow~
 > BEGIN STRING
 "決定キーを押しながら移動でダッシュ"
 > CONTEXT: Map152/events/24/pages/0/0/InlineScript/1:8
-"Dash by holding down the confirm button and moving"
+"Hold confirm to dash"
 > END STRING
