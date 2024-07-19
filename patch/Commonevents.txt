@@ -207,6 +207,7 @@ I have to keep my guard up.
 夢世界でも「怪しい物は怪しい」ものだ。
 > CONTEXT: Commonevents/13/26/Dialogue
 > CONTEXT: Commonevents/13/207/Dialogue
+\\name[\\v[7]]\\_
 Even in the dream world, it holds true that
 if it looks suspicious, it probably is.
 > END STRING
@@ -231,6 +232,7 @@ Unexpectedly, there could be a door.
 容易い。
 > CONTEXT: Commonevents/13/32/Dialogue
 > CONTEXT: Commonevents/13/213/Dialogue
+\\name[\\v[7]]\\_
 At the same time, succubi mercilessly attack humans who come 
 to the dream world, but it is surprisingly easy to spot signs.
 > END STRING
@@ -1565,7 +1567,8 @@ a contract with \\v[2].
 > BEGIN STRING
 \\v[3]と契約しますか？
 > CONTEXT: Commonevents/28/32/Dialogue
-Would you like to sign a contract with \\v[3]?
+Would you like to sign 
+a contract with \\v[3]?
 > END STRING
 
 > BEGIN STRING

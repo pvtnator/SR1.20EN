@@ -18561,7 +18561,7 @@
 > BEGIN STRING
 "手で、\\n\\m\#{targetname}の\#{target.bustsize}を\#{brk2}愛撫した！"
 > CONTEXT: Scripts/RPG::Skilltext/481:32
-" caressed \\n​m​\#{targetname}'s \#{target.bustsize} by hand !"
+" caressed \\n​m​\#{targetname}'s \#{target.bustsize} by hand!"
 > END STRING
 
 > BEGIN STRING
@@ -23626,6 +23626,9 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "大胆に"
+> CONTEXT: Scripts/Talk_Sys Text(Map)/64:45
+> CONTEXT: Scripts/Talk_Sys Text(Map)/75:45
+"boldly "
 > CONTEXT: Scripts/RPG::Skilltext/2047:18
 > CONTEXT: Scripts/RPG::Skilltext/2057:18
 > CONTEXT: Scripts/RPG::Skilltext/2073:18
@@ -23640,8 +23643,6 @@ this succubus will no longer be at Home.
 > CONTEXT: Scripts/RPG::Skilltext/2337:18
 > CONTEXT: Scripts/RPG::Skilltext/2361:18
 > CONTEXT: Scripts/RPG::Skilltext/2371:18
-> CONTEXT: Scripts/Talk_Sys Text(Map)/64:45
-> CONTEXT: Scripts/Talk_Sys Text(Map)/75:45
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/235:26
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/275:24
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/283:24
@@ -27928,7 +27929,7 @@ this succubus will no longer be at Home.
 "貪るように"
 > CONTEXT: Scripts/Talk_Sys Text(Map)/64:24
 > CONTEXT: Scripts/Talk_Sys Text(Map)/75:24
-"greedily"
+"greedily "
 > END STRING
 
 > BEGIN STRING
@@ -29551,14 +29552,14 @@ this succubus will no longer be at Home.
 "魅惑的な"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/399:14
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/411:14
-" fascinated"
+"charmingly"
 > END STRING
 
 > BEGIN STRING
 "大胆な"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/399:21
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/411:21
-" bold"
+"boldly"
 > END STRING
 
 > BEGIN STRING
@@ -29571,14 +29572,14 @@ this succubus will no longer be at Home.
 "一心不乱な"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/400:14
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/412:14
-" dedicated"
+"wholeheartedly"
 > END STRING
 
 > BEGIN STRING
 "ひたむきな"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/400:22
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/414:22
-" dedicated"
+"earnestly"
 > END STRING
 
 > BEGIN STRING
@@ -29598,7 +29599,7 @@ this succubus will no longer be at Home.
 "妖艶な"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/401:20
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/413:20
-"bewitching"
+"bewitchingly"
 > END STRING
 
 > BEGIN STRING
@@ -29611,13 +29612,13 @@ this succubus will no longer be at Home.
 "一所懸命な"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/402:14
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/414:14
-"dedicated"
+"frantically"
 > END STRING
 
 > BEGIN STRING
 "愛らしい"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/402:22
-"adorable"
+"adorably"
 > END STRING
 
 > BEGIN STRING
@@ -29714,7 +29715,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{t_actor}の\#{tec}愛撫で、\\n\#{speaker}\#{action}"
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/419:9
-"\#{t_actor}'s \#{tec} caressed, \\n\#{speaker}\#{action}"
+"\#{t_actor} caressed \#{tec}, \\n\#{speaker}\#{action}"
 > END STRING
 
 > BEGIN STRING

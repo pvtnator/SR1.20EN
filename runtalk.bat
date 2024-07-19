@@ -1,0 +1,1 @@
+python ./translateCharacters.py
