@@ -3326,7 +3326,7 @@
 > BEGIN STRING
 "指や掌による攻めを受けた時、被追撃率が上昇してしまう。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/55:24
-"When attacked with fingers or palms the chance of a follow-up increases."
+"When attacked with fingers or palms, the chance of a follow-up increases."
 > END STRING
 
 > BEGIN STRING
@@ -3355,7 +3355,7 @@
 > BEGIN STRING
 "乳房や乳首による攻めを受けた時、被追撃率が上昇してしまう。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/58:24
-"When attacked by breasts or nipples the chance of a follow-up increases."
+"When attacked by breasts or nipples, the chance of a follow-up increases."
 > END STRING
 
 > BEGIN STRING
@@ -4000,7 +4000,7 @@
 > BEGIN STRING
 "\#{myname}は雑念を追い払った！"
 > CONTEXT: Scripts/RPG::Statetext/234:19
-"\#{myname} thoughts scattered!"
+"\#{myname}'s distraction dispersed!"
 > END STRING
 
 > BEGIN STRING
@@ -7698,7 +7698,7 @@
 > BEGIN STRING
 "\\w\\q\#{myname}は、【\#{$data_ability[j[2]].name}】を習得した！"
 > CONTEXT: Scripts/Game_Actor/534:23
-"\\w​q​\#{myname} learned [\#{$data_ability[j[2]].name}]!"
+"\\w​q​\#{myname} learned 【\#{$data_ability[j[2]].name}】!"
 > END STRING
 
 > BEGIN STRING
@@ -28571,6 +28571,7 @@ this succubus will no longer be at Home.
 "じっくりと"
 > CONTEXT: Scripts/Talk_Sys Text(Map)/164:30
 > CONTEXT: Scripts/Talk_Sys Text(Map)/198:30
+"slowly "
 > CONTEXT: Scripts/Talk_Sys Text(Ecstasy)/177:17
 "slowly"
 > END STRING
@@ -31375,13 +31376,13 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "\#{speaker}は反応を楽しむかのように、\\m\\n\#{master}のペニスを艶かしく指で弄ぶ！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/382:21
-"\#{speaker} played with {master}'s penis ​m​\\nseductively with fingers, enjoying the reaction!"
+"\#{speaker} played with \#{master}'s penis ​m​\\nseductively with fingers, enjoying the reaction!"
 > END STRING
 
 > BEGIN STRING
 "\#{speaker}は愛おしむかのように、\\m\\n\#{master}のペニスを艶かしく指で弄ぶ！"
 > CONTEXT: Scripts/Talk_Sys Text(Talk)/383:21
-"\#{speaker} played with {master}'s penis ​m​\\nseductively with fingers, like she loves it!"
+"\#{speaker} played with \#{master}'s penis ​m​\\nseductively with fingers, like she loves it!"
 > END STRING
 
 > BEGIN STRING
