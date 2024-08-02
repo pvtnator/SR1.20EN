@@ -49,9 +49,7 @@ if __name__ == "__main__":
     current_dir = Path.cwd()
     translations = {}
 
-    main_files = [current_dir / "characters.txt"]
-    for file in (current_dir / "patch").rglob("*.txt"):
-        main_files.append(file)
+    main_files = [current_dir / "patch" / "Skills.txt"]
 
     print("===Reading current translations===")
     for translations_file in main_files:
@@ -81,5 +79,9 @@ if __name__ == "__main__":
                 i += 1
 
     print("===Updating mod translations===")
+    main_files = []
+    for file in (current_dir / "patch").rglob("*.txt"):
+        main_files.append(file)
+        
     sync(main_files, translations, 0)
-    sync(main_files, translations, 1)
+    #sync(main_files, translations, 1)
