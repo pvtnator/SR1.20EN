@@ -1,0 +1,1 @@
+Graphics.frame_rate = 60
