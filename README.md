@@ -7,24 +7,10 @@ If you want translations to be improved, look at the help section below.
 ### Original work by Dreamania. The official game is required to apply this patch.
 
 ## Progress
-### What's done
-- Main story (NPC texts in maps)
-- UI elements (Skills, items, menus, systems, enemies)
-- Combat text (descriptions of skills and events in battle)
-- Character specific combat dialog (Bosses are edited, regular enemies are not)
-
-### Work in progress
-- Improving character specific combat/map dialog
-- Making texts that are generated from multiple parts more fluent
-- Testing (there might be bugs caused by the translation)
-- Hunting down remaining untranslated parts
-- Modify save files to match translations
-
-### Future
-Once the base game seems well enough, I will try to make a branch for the MOD.
-If it is as I hope, most translations should carry over through RPGMaker Trans.
-At that point, the priority would be UI, then story, and for the immense amount of
-character specific text, probably devise a method to auto machine translate them...
+Basically, the game is fully translated. The only major part that would still require work is editing the combat dialog of regular enemies. 
+It's based on GoogleTranslate with some automated fixes applied on top. The most common lines that showed up while testing have been edited, but a lot remains unedited.
+However, since there is a lot of such text and most of it won't be seen by players, this is not a priority for me.
+Boss dialog is entirely edited.
 
 ## Installation Instructions
 You can find the latest release version from the releases page (usually on the right side).
@@ -45,7 +31,7 @@ In addition, some python scripts. Make sure to have up to date Python installed 
 2. With RPGMaker Trans, choose the .exe of the game, and have this repository in a folder next to the game, with "_patch" appended to the folder name
    (e.g. Succubus Rhapsodia 1.20 is the game folder, Succubus Rhapsodia 1.20_patch contains this repository)
    This should generate a folder with "_translated" appended to its name, containing the translated game.
-3. Run the "runpatches.bat", which will execute "mapConditionReplace.py" and "translateCharacters.py"
+3. Run the "runpatches.bat", which will execute "mapConditionReplace.py", and "runtalk.bat", which executes "translateCharacters.py"
    with python. If your python goes by "python3", try editing the .bat. You can also run those scripts directly yourself.
 4. After updates, apply the patches in the same order. No need to delete the game or anything, normally at least.
 
