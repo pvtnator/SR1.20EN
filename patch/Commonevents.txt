@@ -1865,20 +1865,22 @@ various doors of dream magic.
 現在の一人称は「\\v[3]」です。
 変更後の一人称は「\\v[4]」です。
 \\v[5]の一人称を変えますか？
-> CONTEXT: Commonevents/60/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/60/7/Dialogue
+Current first person pronoun is "\\v[3]".
+The new first person pronoun will be "\\v[4]".
+Do you want to change the pronoun for \\v[5]?
 > END STRING
 
 > BEGIN STRING
 \\v[5]の一人称が「\\v[3]」になりました。
-> CONTEXT: Commonevents/60/15/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/60/15/Dialogue
+\\v[5]'s first person pronoun has become "\\v[3]".
 > END STRING
 
 > BEGIN STRING
 \\v[5]の一人称は「\\v[3]」のままになりました。
-> CONTEXT: Commonevents/60/20/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/60/20/Dialogue
+\\v[5]'s first person pronoun remains "\\v[3]".
 > END STRING
 
 > BEGIN STRING
