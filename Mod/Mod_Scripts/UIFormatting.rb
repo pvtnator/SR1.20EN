@@ -224,15 +224,15 @@ class Window_PromiseLeft < Window_Base
     unless @actor == $game_actors[101]
       self.contents.font.color = system_color
       self.contents.draw_text(x_1, y_2 + 72, 84, 24, "Favor")
-      self.contents.draw_text(x_1 + 98, y_2 + 72, 70, 24, "Dream magic")
+      self.contents.draw_text(x_1 + 106, y_2 + 72, 70, 24, "Dream magic")
       self.contents.draw_text(x_1, y_2 + 96, 84, 24, "Hunger")
-      self.contents.draw_text(x_1 + 98, y_2 + 96, 84, 24, "Semen")
+      self.contents.draw_text(x_1 + 106, y_2 + 96, 84, 24, "Semen")
       self.contents.draw_text(264, 10, 150, 24, "Contract beads")
       self.contents.font.color = normal_color
-      self.contents.draw_text(x_1 + 32, y_2 + 72, 48, 24, @actor.love.to_s, 2)
-      self.contents.draw_text(x_1 + 144, y_2 + 72, 48, 24, @actor.d_power.to_s, 2)
-      self.contents.draw_text(x_1 + 32, y_2 + 96, 48, 24, @actor.digest.to_s, 2)
-      self.contents.draw_text(x_1 + 144, y_2 + 96, 48, 24, @actor.absorb.to_s, 2)
+      self.contents.draw_text(x_1 + 50, y_2 + 72, 48, 24, @actor.love.to_s, 2)
+      self.contents.draw_text(x_1 + 156, y_2 + 72, 48, 24, @actor.d_power.to_s, 2)
+      self.contents.draw_text(x_1 + 50, y_2 + 96, 48, 24, @actor.digest.to_s, 2)
+      self.contents.draw_text(x_1 + 156, y_2 + 96, 48, 24, @actor.absorb.to_s, 2)
       self.contents.draw_text(446 - 100, 10, 84 + 100, 24, @actor.promise.to_s, 2)
     end
   end

@@ -4624,7 +4624,7 @@
 > BEGIN STRING
 "戦闘中、【小悪魔の統率】を持つ仲間のスキルを使用できる。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/234:24
-"In battle, you can use the skills of \\nallies with [Imp leadership]."
+"In battle, able to use skills of allies with [Imp leadership]."
 > END STRING
 
 > BEGIN STRING
@@ -4638,7 +4638,7 @@
 > BEGIN STRING
 "戦闘中、【小悪魔の連携】を持つ仲間が自分と同じスキルを使用できる。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/237:24
-"In battle, allies with [Imp co-operation] can use the same skills as you."
+"In battle, provide skills to allies with [Imp co-operation]."
 > END STRING
 
 > BEGIN STRING
@@ -4658,7 +4658,7 @@
 > BEGIN STRING
 "戦闘に出た時に相手全体をチェックした状態にする。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/240:24
-"When you enter battle, assess all opponents."
+"Assess all opponents upon entering battle."
 > END STRING
 
 > BEGIN STRING
@@ -5338,7 +5338,7 @@
 > BEGIN STRING
 "戦闘に出た時にＶＰを２０消費して、敵全員を挑発する。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/374:24
-"When you go into battle, consume 20 VP and provoke all opponents."
+"Consume 20 VP and provoke all opponents upon entering battle."
 > END STRING
 
 > BEGIN STRING
@@ -5356,7 +5356,7 @@
 > BEGIN STRING
 "戦闘に出た時にＶＰを８消費して、ムードを少し上げる。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/377:24
-"When you go into battle, consume 8 VP and raise the mood a little."
+"Consume 8 VP and raise the mood a little upon entering battle."
 > END STRING
 
 > BEGIN STRING
@@ -5534,7 +5534,7 @@
 > BEGIN STRING
 "キスをされるとスイッチが入る。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/416:24
-"When you kiss, a switch flips."
+"A switch flips when kissing."
 > END STRING
 
 > BEGIN STRING
@@ -5547,7 +5547,7 @@
 > BEGIN STRING
 "罵倒されるとスイッチが入る。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/419:24
-"When you get abused, a switch flips."
+"A switch flips when being abused."
 > END STRING
 
 > BEGIN STRING
@@ -5560,7 +5560,7 @@
 > BEGIN STRING
 "絶頂した時、自分以外の味方全員を暴走状態にする。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/423:24
-"When you reach climax, allies other than yourself go berserk."
+"Own climax causes other allies to go berserk."
 > END STRING
 
 > BEGIN STRING
@@ -5714,7 +5714,7 @@
 > BEGIN STRING
 "マップ上で見えないアイテムの上を通るとマーカーが現れる。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/465:24
-"A marker will appear when you pass over an item that is invisible on the map."
+"A marker will appear when passing over an invisible item on the map."
 > END STRING
 
 > BEGIN STRING
@@ -5739,7 +5739,7 @@
 > BEGIN STRING
 "夢魔が擬態しているのを事前に察知できる。"
 > CONTEXT: Scripts/RPG::Ability（素質・設定用）/471:24
-"You can detect mimics in advance."
+"Detect mimics in advance."
 > END STRING
 
 > BEGIN STRING
@@ -8757,13 +8757,13 @@
 > BEGIN STRING
 "不幸状態でなければ使用できない！"
 > CONTEXT: Scripts/Game_Battler 3/261:38
-"Can't use it unless you're unhappy!"
+"Can't use it unless unhappy!"
 > END STRING
 
 > BEGIN STRING
 "本気状態では使えない！"
 > CONTEXT: Scripts/Game_Battler 3/268:38
-"Can't use it when you're serious!"
+"Can't use it when serious!"
 > END STRING
 
 > BEGIN STRING
@@ -8899,7 +8899,7 @@
 > BEGIN STRING
 "騎乗中でなければ使えない！"
 > CONTEXT: Scripts/Game_Battler 3/448:36
-"You can't use it unless riding!"
+"Can't use it unless riding!"
 > END STRING
 
 > BEGIN STRING
@@ -15386,9 +15386,9 @@
 
 > BEGIN STRING
 "夢魔契約率"
-> CONTEXT: Scripts/Scene_Battle 2/742:35 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Dish（料理）/254:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Scene_Battle 2/742:35
+> CONTEXT: Scripts/Game_Dish（料理）/254:19
+"Contract rate"
 > END STRING
 
 > BEGIN STRING
@@ -17461,7 +17461,7 @@
 > BEGIN STRING
 "\#{actor.name}がホールド中だと逃げられない！"
 > CONTEXT: Scripts/Scene_Battle 3/240:41
-"You can't escape if \#{actor.name} is in a hold!"
+"Can't escape if \#{actor.name} is in a hold!"
 > END STRING
 
 > BEGIN STRING
@@ -21045,9 +21045,9 @@ this succubus will no longer be at Home.
 
 > BEGIN STRING
 "取得経験値量"
-> CONTEXT: Scripts/Game_Actor（再定義）/608:37 < UNTRANSLATED
-> CONTEXT: Scripts/Game_Dish（料理）/243:19 < UNTRANSLATED
-
+> CONTEXT: Scripts/Game_Actor（再定義）/608:37
+> CONTEXT: Scripts/Game_Dish（料理）/243:19
+"Exp acquired"
 > END STRING
 
 > BEGIN STRING
@@ -24108,7 +24108,7 @@ this succubus will no longer be at Home.
 > BEGIN STRING
 "失神している夢魔に精を献上することはできません！"
 > CONTEXT: Scripts/Scene_Menu(Party_select)/309:20
-"You cannot offer semen to a fainted succubus!"
+"Cannot offer semen to a fainted succubus!"
 > END STRING
 
 > BEGIN STRING
