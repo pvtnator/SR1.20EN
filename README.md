@@ -10,16 +10,17 @@ If you want translations to be improved, look at the help section below.
 Basically, the game is fully translated. The only major part that would still require work is editing the combat dialog of regular enemies. 
 It's based on GoogleTranslate with some automated fixes applied on top. The most common lines that showed up while testing have been edited, but a lot remains unedited.
 However, since there is a lot of such text and most of it won't be seen by players, this is not a priority for me.
-Boss dialog is entirely edited.
+Boss dialog is manually checked and edited.
 
 ## Installation Instructions
-You can find the latest release version from the releases page (usually on the right side).
-The releases are provided as .atc files.
-To install, [AttachéCase4](https://hibara.org/software/attachecase/) is required to decrypt it.
-Make sure to turn on [drag and drop password](https://hibara.org/software/attachecase/help/settings/#settings-password-file),
-then drag and drop the .atc file to AttachéCase4 window and drag and drop the icon.ico from the game folder to the password field.
-This is to avoid providing game data files directly, and to be consistent with the rest of the game's modding scene.
-Alternatively, you can just setup the patching according to instructions below.
+You can find the latest release version from the releases page (usually on the right side).  
+The releases are provided as .atc files **or .zip files that include built-in AttachéCase4 decryption**, which should be easier for most.  
+
+But if you get the .atc, [AttachéCase4](https://hibara.org/software/attachecase/) is required to decrypt it.
+Make sure to turn on [drag and drop password](https://hibara.org/sof*ware/attachecase/help/settings/#settings-password-file),  
+then drag and drop the .atc file to AttachéCase4 window and drag and drop the icon.ico from the game folder to the password field.  
+This is to avoid providing game data files directly, and to be consistent with the rest of the game's modding scene.  
+Alternatively, you can just setup the patching according to instructions below.  
 
 ## Patching Instructions
 If you wish to do the patching yourself, follow these instructions.
