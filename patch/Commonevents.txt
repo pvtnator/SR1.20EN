@@ -185,8 +185,10 @@ and you can also obtain a lot of information.
 \\name[\\v[7]]\\_
 また、ここから一番近い夢世界は下級夢魔ばかりのようだ。
 動きも緩慢で、いざ襲われても抵抗ができるであろう。
-> CONTEXT: Commonevents/13/13/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/13/Dialogue
+\\name[\\v[7]]\\_
+Also, the succubi around here seem to be low level.
+They move slowly, so you can probably resist them.
 > END STRING
 
 > BEGIN STRING
@@ -307,7 +309,7 @@ I have to be careful.
 > CONTEXT: Commonevents/13/65/Dialogue
 \\name[\\v[7]]\\_
 Home port manual
-"About Home and ports"
+"About Home and Ports"
 > END STRING
 
 > BEGIN STRING
@@ -1233,8 +1235,8 @@ Before I make a falter.
 あるからこそ止められる。\\n最初こそ、そう自負していた。
 > CONTEXT: Commonevents/13/491/Dialogue
 \\name[\\v[7]]\\_
-I, the [Witch of Order] can stop this dream world threat
-that corrupts us, because I am the [Witch of Order].
+I, the 'Witch of Order' can stop this dream world threat
+that corrupts us, because I am the 'Witch of Order'.
 At first, I was proud of that.
 > END STRING
 
@@ -1266,7 +1268,7 @@ No, I just didn't want to.
 > CONTEXT: Commonevents/13/501/Dialogue
 \\name[\\v[7]]\\_
 Then, what of the town I've been protecting?
-Was I really able to maintain “order”?
+Was I really able to maintain "order"?
 > END STRING
 
 > BEGIN STRING
@@ -1383,14 +1385,15 @@ And return to reality
 > BEGIN STRING
 \\name[\\v[7]]\\_
 ････････････
-> CONTEXT: Commonevents/13/541/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/541/Dialogue
+\\name[\\v[7]]\\_
+........
 > END STRING
 
 > BEGIN STRING
 ････････････
-> CONTEXT: Commonevents/13/543/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/13/543/Dialogue
+........
 > END STRING
 
 > BEGIN STRING
@@ -1535,15 +1538,17 @@ The pattern of a solar eclipse is painted on the door.
 > BEGIN STRING
 謎のルーンを解読した！
 ･･････謎のルーンは\\v[2]だった！
-> CONTEXT: Commonevents/22/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/22/4/Dialogue
+Deciphered the mysterious rune!
+.....The mysterious rune was \\v[2]!
 > END STRING
 
 > BEGIN STRING
 \\v[5]
 移動しますか？
-> CONTEXT: Commonevents/27/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/27/8/Dialogue
+\\v[5]
+Move?
 > END STRING
 
 > BEGIN STRING
@@ -2202,9 +2207,9 @@ I'm not gonna waste any more time with you--
 この我の手間を掛けさせた割には、つまらない成果だな。
 > CONTEXT: Commonevents/125/90/Dialogue
 \\name[Gilgorn]\\_
-...Mm, you. What is that book?
+...Hey you. What is that book?
 Is that what you wanted?
-It's a boring result considering all the effort I put into it.
+What a lame result considering all the effort I put into it.
 > END STRING
 
 > BEGIN STRING
@@ -2213,7 +2218,7 @@ It's a boring result considering all the effort I put into it.
 つまらなくも無い代物なのか？
 > CONTEXT: Commonevents/125/94/Dialogue
 \\name[Gilgorn]\\_
-...Or, is it not a a boring thing from your perspective?
+...Or do you find it useful?
 > END STRING
 
 > BEGIN STRING
@@ -2319,13 +2324,13 @@ has been destroyed!
 > BEGIN STRING
 ･･････ラーミル様･･･。
 > CONTEXT: Commonevents/128/60/Dialogue
-Ramil...
+.....Ramil...
 > END STRING
 
 > BEGIN STRING
 ･･････夢の拠点へ行こう。
 > CONTEXT: Commonevents/128/61/Dialogue
-...I should go back to our base.
+.....I should go back to our base.
 > END STRING
 
 > BEGIN STRING
@@ -2369,7 +2374,7 @@ Light envelops the two of them...!
 > BEGIN STRING
 \\v[2]は\\n[101]の【大切な人】となった！
 > CONTEXT: Commonevents/130/102/Dialogue
-\\v[2] has become \\n[101]'s [important person]!
+\\v[2] has become \\n[101]'s 【Important Person】!
 > END STRING
 
 > BEGIN STRING
@@ -2414,40 +2419,43 @@ Would you like to open the treasure chest?
 > BEGIN STRING
 ･･････！\\|
 この採取ポイントには擬態した夢魔が潜んでいるようだ！
-> CONTEXT: Commonevents/204/23/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/204/23/Dialogue
+...! \\|
+There seems to be a disguised succubus at this harvest point!
 > END STRING
 
 > BEGIN STRING
 採取を行いますか？
-> CONTEXT: Commonevents/204/25/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/204/25/Dialogue
+Start harvesting?
 > END STRING
 
 > BEGIN STRING
 ･･････！\\|
 この茸は夢魔が擬態しているようだ。
-> CONTEXT: Commonevents/204/36/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/204/36/Dialogue
+...! \\|
+This mushroom appears to be a disguised succubus.
 > END STRING
 
 > BEGIN STRING
 何かすれば擬態を解きそうだ。
-> CONTEXT: Commonevents/204/38/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/204/38/Dialogue
+The disguise could get removed.
 > END STRING
 
 > BEGIN STRING
 ･･････！\\|
 この石像は夢魔が擬態しているようだ。
-> CONTEXT: Commonevents/204/42/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/204/42/Dialogue
+...! \\|
+This stone statue appears to be a disguised succubus.
 > END STRING
 
 > BEGIN STRING
 石像に襲いかかりますか？
-> CONTEXT: Commonevents/204/44/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/204/44/Dialogue
+Attack the statue?
 > END STRING
 
 > BEGIN STRING
