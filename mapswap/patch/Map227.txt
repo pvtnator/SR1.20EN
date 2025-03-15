@@ -1,0 +1,429 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+\\name[\\v[2]]\\_
+初めまして、ごきげんよう。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Nice to meet you, how are you?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+物語を始める前に、貴方の事をお伺いしておきたくて。
+少々お時間を取らせて頂きますわ。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Before starting the story, I wanted to ask you a few questions about yourself.
+It will take just a moment.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+まず始めに･･･
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+First of all...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あなたの性別をお聞きしてもよろしくて？
+どちらになりたいか、で答えて頂いても構いませんわ\\H
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+男
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+女
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら、素敵な殿方でしたのね？\\.\\.
+（主人公の性別が【男】になります）\\n
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら、嘘はいけませんわ\\H
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Oh, don't lie\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら、可愛らしいご婦人でしたのね？\\.\\.
+（主人公の性別が【女】になります）\\n
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+昨今はそういう方も多いと聞き及んでいますわ\\.\\.
+（主人公の性別が【ふたなり】になります）\\n
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうなんですの･･･\\.\\.
+では次に･･･
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+That's right...\\.\\.
+Next...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+次のうちで、貴方が一番惹かれるのは何でしょう？
+特に無ければ、興味がありそうなものをお選びになって。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Which of the following interests you the most?
+Choose the option that's closest to your preference.
+> END STRING
+
+> BEGIN STRING
+仲の良い友人達とお喋り
+> CONTEXT: Commonevents/2/11/Choice/0
+Chatting with good friends
+> END STRING
+
+> BEGIN STRING
+体力づくりのため運動
+> CONTEXT: Commonevents/2/11/Choice/1
+Exercise to build physical strength
+> END STRING
+
+> BEGIN STRING
+静かな部屋で落ち着いて読書
+> CONTEXT: Commonevents/2/11/Choice/2
+Relax and read in a quiet room
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そう、他愛の無いお喋りも時には良いものですわね。\\.\\.
+（主人公の性格が【真面目】になります）\\n
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Yes, sometimes it's nice to have a little chat.\\.\\.
+(The main character's personality becomes [Serious])\\n
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、お転婆な女性も素敵だと思いますわ。\\.\\.
+（主人公の性格が【腕白】になります）\\n
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、たくましい殿方は素敵ですわね。\\.\\.
+（主人公の性格が【腕白】になります）\\n
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Hehe, strong men are wonderful.\\.\\.
+(The main character's personality becomes [Naughty])\\n
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、知的な方は絵になりますわね。\\.\\.
+（主人公の性格が【冷静】になります）\\n
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、知的な殿方は絵になりますわね。\\.\\.
+（主人公の性格が【冷静】になります）\\n
+> CONTEXT: Commonevents/2/43/Dialogue
+\\name[\\v[2]]\\_
+Hehe, intelligent men are picture perfect.\\.\\.
+(The main character's personality becomes [Calm])\\n
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+『女性のカラダ』のどこに、貴女は魅力を感じますの？
+特に好みが無ければ、一番近いものをお選びになって。
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+女性のどこに、貴方は魅力を感じますの？
+特に好みが無ければ、一番近いものをお選びになって。
+> CONTEXT: Commonevents/2/62/Dialogue
+\\name[\\v[2]]\\_
+What do you find attractive about women?
+Choose the option that's closest to your preference.
+> END STRING
+
+> BEGIN STRING
+艶やかな唇
+> CONTEXT: Commonevents/2/65/Choice/0
+Glossy lips
+> END STRING
+
+> BEGIN STRING
+すらりとした手足
+> CONTEXT: Commonevents/2/65/Choice/1
+Slender body
+> END STRING
+
+> BEGIN STRING
+豊満な胸元
+> CONTEXT: Commonevents/2/65/Choice/2
+Plump breasts
+> END STRING
+
+> BEGIN STRING
+丸みを帯びた腰つき
+> CONTEXT: Commonevents/2/65/Choice/3
+Curvy hips
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、私も貴方に唇を奪われてみたいですわ。\\.\\.
+（主人公の弱点が【口攻めに弱い】になります）\\n
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Hehe, I would also like to steal a kiss from you.\\.\\.
+(The main character's weakness becomes [Mouth weakness])\\n
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、あまり焦らさないでくださいませ\\H
+> CONTEXT: Commonevents/2/75/Dialogue
+> CONTEXT: Commonevents/2/90/Dialogue
+> CONTEXT: Commonevents/2/105/Dialogue
+> CONTEXT: Commonevents/2/120/Dialogue
+\\name[\\v[2]]\\_
+Hehe, there's no need to hurry\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+手足の綺麗な女性は立ち振る舞いも素敵ですわね。\\.\\.
+（主人公の弱点が【手攻めに弱い】になります）\\n
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+A woman with beautiful legs and arms who also has a lovely demeanor.\\.\\.
+(The main character's weakness becomes [Caress weakness])\\n
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+女性の象徴ですものね、嫌いな方などおりませんわ。\\.\\.
+（主人公の弱点が【胸攻めに弱い】になります）\\n
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+母性の象徴ですものね、嫌いな殿方などおりませんわ。\\.\\.
+（主人公の弱点が【胸攻めに弱い】になります）\\n
+> CONTEXT: Commonevents/2/97/Dialogue
+\\name[\\v[2]]\\_
+It's a symbol of motherhood, and there's no man who doesn't like it.\\.\\.
+(The main character's weakness becomes [Breast weakness])\\n
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、意外と好きな方、多いですわよね。\\.\\.
+（主人公の弱点が【女陰攻めに弱い】になります）\\n
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、女性の魅力は胸だけとは限りませんもの。\\.\\.
+（主人公の弱点が【女陰攻めに弱い】になります）\\n
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Hehe, a woman's charm is not limited to her breasts.\\.\\.
+(The main character's weakness becomes [Vagina weakness])\\n
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+貴女の･･･性の経験について
+教えてもらってもよろしいかしら？
+ふふ、お相手の性別は問いませんわ\\H
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+貴方の･･･女性との経験について
+教えてもらってもよろしいかしら？
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+大事なことですものね\\H
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+性の経験は？
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+女性経験は？
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+ある
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+ない
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、すでに経験がありましたのね\\H
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、まだ経験はなかったのですね\\H
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あらあら･･･\\H
+> CONTEXT: Commonevents/2/127/Dialogue
+\\name[\\v[2]]\\_
+Oh my...\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+まぁ、私としたことが大事な事を伺っておりませんでしたわ。
+> CONTEXT: Commonevents/2/129/Dialogue
+\\name[\\v[2]]\\_
+Well, if anyone asks, I didn't hear anything.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+貴方のお名前、教えてくださらないかしら？
+> CONTEXT: Commonevents/2/132/Dialogue
+\\name[\\v[2]]\\_
+Can you tell me your name?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\v[3]、というお名前なんですの？
+> CONTEXT: Commonevents/2/137/Dialogue
+\\name[\\v[2]]\\_
+\\v[3], is your name?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら、ご冗談がお上手ですのね\\H
+> CONTEXT: Commonevents/2/143/Dialogue
+\\name[\\v[2]]\\_
+Oh, you're so funny\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+成程･･･\\H\\.\\.
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+I see...\\H\\.\\.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･ええ、これで質問は終了ですわ。
+ご協力、感謝致しますの。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+...Okay, that's the end of the questions.
+Thank you for your cooperation.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そろそろ幕も上がりますわ。
+またすぐにでもお会いすることになることでしょうけど･･･。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+It's almost time to raise the curtain.
+I'm sure we'll see each other again soon...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふっ、今宵の夢が楽しみですわね\\H
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Hehe, I'm looking forward to tonight's dream\\H
+> END STRING
+
+> BEGIN STRING
+オープニングを見ますか？
+> CONTEXT: None < UNUSED
+Watch the opening?
+> END STRING
+
+> BEGIN STRING
+異性とのお遊び
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+うふふ\\H　素敵な異性との交流は心躍りますものね。\\.\\.
+（主人公の性格が【助平】になります）\\n
+> CONTEXT: None < UNUSED
+
+> END STRING

@@ -1,0 +1,264 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+ミニゲームのテストを開始するｸﾏｰ？
+> CONTEXT: None < UNUSED
+Test minigame?
+> END STRING
+
+> BEGIN STRING
+レベルを選ぶｸﾏｰ。
+(1～10。それ以外の数字はレベルランダム)
+> CONTEXT: None < UNUSED
+Choose difficulty.
+(1 to 10. Otherwise random)
+> END STRING
+
+> BEGIN STRING
+あああああ
+> CONTEXT: None < UNUSED
+aaaaaa
+> END STRING
+
+> BEGIN STRING
+また来るｸﾏｰ
+> CONTEXT: None < UNUSED
+Come again
+> END STRING
+
+> BEGIN STRING
+契約上限を上げますか？
+> CONTEXT: None < UNUSED
+Increase the contract limit?
+> END STRING
+
+> BEGIN STRING
+対味方戦、戦闘テストができます。
+（パーティの２番目の子の情報を参照します。）
+> CONTEXT: None < UNUSED
+You can do battle tests against allies.
+(Refers to the information of the second member of the party.)
+> END STRING
+
+> BEGIN STRING
+先頭の仲間の習得しているスキルと素質をリセットしますか？
+> CONTEXT: None < UNUSED
+Would you like to reset the skills and 
+talents acquired by your lead companion?
+> END STRING
+
+> BEGIN STRING
+仲間がいません！
+> CONTEXT: Commonevents/136/4/Dialogue
+> CONTEXT: Commonevents/136/13/Dialogue
+Do you want to reset the skills and qualities 
+acquired by the first companion?
+> END STRING
+
+> BEGIN STRING
+契約の珠で習得させたスキルや素質を残しますか？
+> CONTEXT: None < UNUSED
+Do you want to keep the skills and qualities 
+you acquired with the contract beads?
+> END STRING
+
+> BEGIN STRING
+リセットしました。
+> CONTEXT: None < UNUSED
+It has been reset.
+> END STRING
+
+> BEGIN STRING
+作成中マップへ移動しますか？
+> CONTEXT: None < UNUSED
+Do you want to move to a map?
+> END STRING
+
+> BEGIN STRING
+麓町レンディカ
+> CONTEXT: None < UNUSED
+Base town Rendica
+> END STRING
+
+> BEGIN STRING
+パルフィス密教会
+> CONTEXT: None < UNUSED
+Palfis Secret Church
+> END STRING
+
+> BEGIN STRING
+未定
+> CONTEXT: None < UNUSED
+To be decided
+> END STRING
+
+> BEGIN STRING
+"name_map2"
+> CONTEXT: Commonevents/14/36/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パーティを全回復します。
+> CONTEXT: None < UNUSED
+Fully heal the party.
+> END STRING
+
+> BEGIN STRING
+テスト用
+> CONTEXT: None < UNUSED
+For test
+> END STRING
+
+> BEGIN STRING
+月明かりの樹海１
+> CONTEXT: None < UNUSED
+Moonlit Sea of Trees 1
+> END STRING
+
+> BEGIN STRING
+月明かりの樹海２
+> CONTEXT: None < UNUSED
+Moonlit Sea of Trees 2
+> END STRING
+
+> BEGIN STRING
+ホーム
+> CONTEXT: None < UNUSED
+Home
+> END STRING
+
+> BEGIN STRING
+ポートを全登録する
+> CONTEXT: None < UNUSED
+Register all ports
+> END STRING
+
+> BEGIN STRING
+全登録しました。
+> CONTEXT: None < UNUSED
+All registered.
+> END STRING
+
+> BEGIN STRING
+仲間を連れて行きますか？
+（開発用。ID入力式）
+> CONTEXT: None < UNUSED
+Do you want to bring a buddy?
+(For development. ID input type)
+> END STRING
+
+> BEGIN STRING
+どこに行きますか？
+> CONTEXT: None < UNUSED
+Where are you going?
+> END STRING
+
+> BEGIN STRING
+混濁Ｌ１
+> CONTEXT: None < UNUSED
+Turbidity L1
+> END STRING
+
+> BEGIN STRING
+混濁Ｌ３
+> CONTEXT: None < UNUSED
+Turbidity L3
+> END STRING
+
+> BEGIN STRING
+パルフィス上層
+> CONTEXT: None < UNUSED
+Palfis upper layer
+> END STRING
+
+> BEGIN STRING
+パルフィス下層
+> CONTEXT: None < UNUSED
+Palfis lower layer
+> END STRING
+
+> BEGIN STRING
+闇洞窟１
+> CONTEXT: None < UNUSED
+Dark cave 1
+> END STRING
+
+> BEGIN STRING
+闇洞窟２
+> CONTEXT: None < UNUSED
+Dark cave 2
+> END STRING
+
+> BEGIN STRING
+魔城トゥーロマンサ
+> CONTEXT: None < UNUSED
+Magic Castle Too Romanca
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今日も異常なーし！
+> CONTEXT: Map003/events/1/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あははー♪
+お馬さんごっこ楽しいね～\\H
+> CONTEXT: Map003/events/1/pages/1/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ぐったりしている……。
+> CONTEXT: Map003/events/1/pages/3/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map004/events/50/pages/2/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+なんと、辺りに
+桃色の霧が垂れ込めている……！
+> CONTEXT: Map003/events/10/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+この霧を吸ってしまうと、
+淫蕩な香りで意識が朦朧としてくるようだ……！
+> CONTEXT: Map003/events/10/pages/0/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ぢゅるっ\\H　じゅるるるっ\\H
+はぁ～、美味し\\H
+> CONTEXT: Map003/events/11/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+神よ……、
+堕落してしまった私をお許しください……。
+> CONTEXT: Map003/events/11/pages/2/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私は、ヒーラーとして招集されました。
+……殺生は望みませんが、これ以上犠牲を
+出さないためにも致し方ないのです。
+> CONTEXT: Map003/events/13/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+みーつけたー♪
+> CONTEXT: Map003/events/17/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING

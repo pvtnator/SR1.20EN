@@ -1,0 +1,125 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+メッセージ音を出します。
+> CONTEXT: Map429/events/1/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メッセージ音を消します。
+> CONTEXT: Map429/events/1/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+テストバトルを行いますよ。
+準備はいいですか？
+> CONTEXT: Map429/events/2/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map429/events/3/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+相手は特殊ホールドを使ってきます。
+また、このバトルはShiftキーで文章送りできます。
+いろいろ試してみて下さいね。
+> CONTEXT: Map429/events/2/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map429/events/3/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"gradation167a"
+> CONTEXT: Map429/events/2/pages/0/11/InlineScript/1:34 < UNTRANSLATED
+> CONTEXT: Map429/events/3/pages/0/13/InlineScript/1:34 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+準備が出来たら、また声をかけてくださいね。
+> CONTEXT: Map429/events/2/pages/0/27/Dialogue < UNTRANSLATED
+> CONTEXT: Map429/events/3/pages/0/29/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+覚えたいスキルを選択してください。
+> CONTEXT: Map429/events/4/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+「チェック」を取得しました。
+> CONTEXT: Map429/events/4/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+「ウェイト」を取得しました。
+> CONTEXT: Map429/events/4/pages/0/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+「ガード」を取得しました。
+> CONTEXT: Map429/events/4/pages/0/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+「イントラスト」を取得しました。
+> CONTEXT: Map429/events/4/pages/0/16/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+覚えさせたいスキルを選択してください。
+> CONTEXT: Map429/events/4/pages/0/19/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+やめる
+> CONTEXT: Map429/events/4/pages/0/20/Choice/1
+Stop
+> END STRING
+
+> BEGIN STRING
+「アピール」を取得しました。
+> CONTEXT: Map429/events/4/pages/0/26/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+戦闘テストができます\\H
+レッサーサキュバスと戦闘しますか？
+> CONTEXT: Map429/events/6/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スキルテスト
+> CONTEXT: Map429/events/6/pages/0/5/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+フルビュアテスト
+> CONTEXT: Map429/events/6/pages/0/5/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+口上テスト
+> CONTEXT: Map429/events/6/pages/0/5/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+フリー枠
+> CONTEXT: Map429/events/6/pages/0/5/Choice/3 < UNTRANSLATED
+
+> END STRING

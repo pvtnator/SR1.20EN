@@ -1,0 +1,823 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+\\name[\\v[2]]\\_
+参加を取りやめますか？
+> CONTEXT: Map528/events/2/pages/0/1/Dialogue
+> CONTEXT: Map194/events/7/pages/0/1/Dialogue
+> CONTEXT: Map142/events/2/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Do you want to cancel your participation?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+かしこまりました。
+では、こちらに……
+> CONTEXT: Map528/events/2/pages/0/6/Dialogue
+> CONTEXT: Map194/events/7/pages/0/6/Dialogue
+> CONTEXT: Map142/events/2/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+I understand.
+So here it is...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+では、お好きなものをお選びください。
+> CONTEXT: Map528/events/2/pages/0/15/Dialogue
+> CONTEXT: Map194/events/7/pages/0/15/Dialogue
+> CONTEXT: Map142/events/2/pages/0/15/Dialogue
+\\name[\\v[2]]\\_
+Then choose what you like.
+> END STRING
+
+> BEGIN STRING
+どの項目について読みますか？
+キャンセルで読むのをやめます。
+> CONTEXT: Map528/events/3/pages/0/1/Dialogue
+> CONTEXT: Map528/events/3/pages/0/41/Dialogue
+> CONTEXT: Map527/events/5/pages/0/1/Dialogue
+> CONTEXT: Map527/events/5/pages/0/41/Dialogue
+> CONTEXT: Map194/events/2/pages/0/1/Dialogue
+> CONTEXT: Map194/events/2/pages/0/50/Dialogue
+> CONTEXT: Map194/events/2/pages/0/85/Dialogue
+> CONTEXT: Map194/events/3/pages/0/1/Dialogue
+> CONTEXT: Map194/events/3/pages/0/31/Dialogue
+> CONTEXT: Map194/events/3/pages/0/66/Dialogue
+> CONTEXT: Map194/events/4/pages/0/1/Dialogue
+> CONTEXT: Map194/events/4/pages/0/31/Dialogue
+> CONTEXT: Map194/events/4/pages/0/66/Dialogue
+> CONTEXT: Map142/events/3/pages/0/1/Dialogue
+> CONTEXT: Map142/events/3/pages/0/50/Dialogue
+> CONTEXT: Map142/events/3/pages/0/85/Dialogue
+> CONTEXT: Map141/events/5/pages/0/1/Dialogue
+> CONTEXT: Map141/events/5/pages/0/41/Dialogue
+Which topic would you like to read about?
+Cancel to stop reading.
+> END STRING
+
+> BEGIN STRING
+基本ルール
+> CONTEXT: Map528/events/3/pages/0/3/Choice/0
+> CONTEXT: Map527/events/5/pages/0/3/Choice/0
+> CONTEXT: Map194/events/2/pages/0/3/Choice/0
+> CONTEXT: Map194/events/2/pages/0/3/Choice/0
+> CONTEXT: Map194/events/3/pages/0/3/Choice/0
+> CONTEXT: Map194/events/3/pages/0/3/Choice/0
+> CONTEXT: Map194/events/4/pages/0/3/Choice/0
+> CONTEXT: Map194/events/4/pages/0/3/Choice/0
+> CONTEXT: Map142/events/3/pages/0/3/Choice/0
+> CONTEXT: Map142/events/3/pages/0/3/Choice/0
+> CONTEXT: Map141/events/5/pages/0/3/Choice/0
+> CONTEXT: Map141/events/5/pages/0/3/Choice/0
+Basic rules
+> END STRING
+
+> BEGIN STRING
+アイテム、Lpsの制限
+> CONTEXT: Map528/events/3/pages/0/3/Choice/1
+> CONTEXT: Map527/events/5/pages/0/3/Choice/1
+> CONTEXT: Map194/events/2/pages/0/3/Choice/1
+> CONTEXT: Map194/events/2/pages/0/3/Choice/1
+> CONTEXT: Map142/events/3/pages/0/3/Choice/1
+> CONTEXT: Map142/events/3/pages/0/3/Choice/1
+> CONTEXT: Map141/events/5/pages/0/3/Choice/1
+> CONTEXT: Map141/events/5/pages/0/3/Choice/1
+Item, Lps Restrictions
+> END STRING
+
+> BEGIN STRING
+レベルの制限
+> CONTEXT: Map528/events/3/pages/0/3/Choice/2
+> CONTEXT: Map527/events/5/pages/0/3/Choice/2
+> CONTEXT: Map194/events/2/pages/0/3/Choice/2
+> CONTEXT: Map194/events/2/pages/0/3/Choice/2
+> CONTEXT: Map142/events/3/pages/0/3/Choice/2
+> CONTEXT: Map142/events/3/pages/0/3/Choice/2
+> CONTEXT: Map141/events/5/pages/0/3/Choice/2
+> CONTEXT: Map141/events/5/pages/0/3/Choice/2
+Level Restrictions
+> END STRING
+
+> BEGIN STRING
+次のページ
+> CONTEXT: Map528/events/3/pages/0/3/Choice/3
+> CONTEXT: Map527/events/5/pages/0/3/Choice/3
+> CONTEXT: Map194/events/2/pages/0/3/Choice/3
+> CONTEXT: Map194/events/2/pages/0/3/Choice/3
+> CONTEXT: Map194/events/2/pages/0/52/Choice/3
+> CONTEXT: Map194/events/2/pages/0/52/Choice/3
+> CONTEXT: Map194/events/3/pages/0/33/Choice/3
+> CONTEXT: Map194/events/3/pages/0/33/Choice/3
+> CONTEXT: Map194/events/4/pages/0/33/Choice/3
+> CONTEXT: Map194/events/4/pages/0/33/Choice/3
+> CONTEXT: Map142/events/3/pages/0/3/Choice/3
+> CONTEXT: Map142/events/3/pages/0/3/Choice/3
+> CONTEXT: Map142/events/3/pages/0/52/Choice/3
+> CONTEXT: Map142/events/3/pages/0/52/Choice/3
+> CONTEXT: Map141/events/5/pages/0/3/Choice/3
+> CONTEXT: Map141/events/5/pages/0/3/Choice/3
+Next page
+> END STRING
+
+> BEGIN STRING
+受付に話しかけることで遊技選択室へ行くことができます。
+> CONTEXT: Map528/events/3/pages/0/5/Dialogue
+> CONTEXT: Map527/events/5/pages/0/5/Dialogue
+> CONTEXT: Map194/events/2/pages/0/5/Dialogue
+> CONTEXT: Map142/events/3/pages/0/5/Dialogue
+> CONTEXT: Map141/events/5/pages/0/5/Dialogue
+You can go to the game selection room 
+by talking to the receptionist.
+> END STRING
+
+> BEGIN STRING
+遊技が始まると、各階層毎に配置された魔法陣に入ることで
+次の階層に進むことができます。
+> CONTEXT: Map528/events/3/pages/0/6/Dialogue
+> CONTEXT: Map527/events/5/pages/0/6/Dialogue
+> CONTEXT: Map194/events/2/pages/0/6/Dialogue
+> CONTEXT: Map142/events/3/pages/0/6/Dialogue
+> CONTEXT: Map141/events/5/pages/0/6/Dialogue
+When the game begins, you can advance to the next level 
+by entering the magic circles located on each level.
+> END STRING
+
+> BEGIN STRING
+階を進むにつれて、現れる夢魔も強力になるので、
+気を付けて進みましょう。
+> CONTEXT: Map528/events/3/pages/0/8/Dialogue
+> CONTEXT: Map527/events/5/pages/0/8/Dialogue
+> CONTEXT: Map194/events/2/pages/0/8/Dialogue
+> CONTEXT: Map142/events/3/pages/0/8/Dialogue
+> CONTEXT: Map141/events/5/pages/0/8/Dialogue
+As you progress through the floors, 
+the succubi that appear become more powerful, 
+so proceed with caution.
+> END STRING
+
+> BEGIN STRING
+遊技場のコースによっては、出演者による
+アイテム類、装備、Lpsの持ち込みは
+禁止されることがあります。
+> CONTEXT: Map528/events/3/pages/0/13/Dialogue
+> CONTEXT: Map527/events/5/pages/0/13/Dialogue
+> CONTEXT: Map194/events/2/pages/0/16/Dialogue
+> CONTEXT: Map142/events/3/pages/0/16/Dialogue
+> CONTEXT: Map141/events/5/pages/0/13/Dialogue
+Depending on the course of the playground, 
+performers may be prohibited from bringing in 
+items, equipment, or Lps.
+> END STRING
+
+> BEGIN STRING
+遊技場へとワープする際にこちらで預かり、
+出演者側の勝利、参加者側の勝利を問わず、
+遊技終了時にお返しいたします。
+> CONTEXT: Map528/events/3/pages/0/16/Dialogue
+> CONTEXT: Map527/events/5/pages/0/16/Dialogue
+> CONTEXT: Map194/events/2/pages/0/19/Dialogue
+> CONTEXT: Map142/events/3/pages/0/19/Dialogue
+> CONTEXT: Map141/events/5/pages/0/16/Dialogue
+We will take care of it when you warp to the play area,
+and return it to you when the game ends,
+regardless of whether the performers or participants win.
+> END STRING
+
+> BEGIN STRING
+この時、装備は遊技場内でのもののままですが、
+お預かりした装備はルーンを含めお返ししますので
+ご安心ください。
+> CONTEXT: Map528/events/3/pages/0/19/Dialogue
+> CONTEXT: Map527/events/5/pages/0/19/Dialogue
+> CONTEXT: Map194/events/2/pages/0/22/Dialogue
+> CONTEXT: Map142/events/3/pages/0/22/Dialogue
+> CONTEXT: Map141/events/5/pages/0/19/Dialogue
+At this time, your equipment will remain as it was, 
+but rest assured that all equipment we have kept 
+will be returned to you, including the runes.
+> END STRING
+
+> BEGIN STRING
+装備や回復アイテムは遊技場内の
+宝箱から出現しますので、そちらをお使いください。
+> CONTEXT: Map528/events/3/pages/0/22/Dialogue
+> CONTEXT: Map527/events/5/pages/0/22/Dialogue
+> CONTEXT: Map194/events/2/pages/0/25/Dialogue
+> CONTEXT: Map142/events/3/pages/0/25/Dialogue
+> CONTEXT: Map141/events/5/pages/0/22/Dialogue
+Equipment and recovery items will appear 
+in treasure chests in the playground, so please use them.
+> END STRING
+
+> BEGIN STRING
+遊技場のコースによっては入場時に
+レベルを1に制限させていただきます。
+> CONTEXT: Map528/events/3/pages/0/27/Dialogue
+> CONTEXT: Map527/events/5/pages/0/27/Dialogue
+> CONTEXT: Map194/events/2/pages/0/33/Dialogue
+> CONTEXT: Map142/events/3/pages/0/33/Dialogue
+> CONTEXT: Map141/events/5/pages/0/27/Dialogue
+Depending on the course of the playground, 
+your level may be limited to 1 upon entry.
+> END STRING
+
+> BEGIN STRING
+制限したレベルは遊技終了時に戻させていただきますので、
+ご安心ください。
+> CONTEXT: Map528/events/3/pages/0/29/Dialogue
+> CONTEXT: Map527/events/5/pages/0/29/Dialogue
+> CONTEXT: Map141/events/5/pages/0/29/Dialogue
+Please rest assured that the restricted level 
+will be reset when you finish playing.
+> END STRING
+
+> BEGIN STRING
+仲間の制限
+> CONTEXT: Map528/events/3/pages/0/43/Choice/0
+> CONTEXT: Map527/events/5/pages/0/43/Choice/0
+> CONTEXT: Map194/events/2/pages/0/52/Choice/0
+> CONTEXT: Map194/events/2/pages/0/52/Choice/0
+> CONTEXT: Map194/events/3/pages/0/33/Choice/0
+> CONTEXT: Map194/events/3/pages/0/33/Choice/0
+> CONTEXT: Map194/events/4/pages/0/33/Choice/0
+> CONTEXT: Map194/events/4/pages/0/33/Choice/0
+> CONTEXT: Map142/events/3/pages/0/52/Choice/0
+> CONTEXT: Map142/events/3/pages/0/52/Choice/0
+> CONTEXT: Map141/events/5/pages/0/43/Choice/0
+> CONTEXT: Map141/events/5/pages/0/43/Choice/0
+Companion Restrictions
+> END STRING
+
+> BEGIN STRING
+失神した場合
+> CONTEXT: Map528/events/3/pages/0/43/Choice/1
+> CONTEXT: Map527/events/5/pages/0/43/Choice/1
+> CONTEXT: Map194/events/2/pages/0/52/Choice/1
+> CONTEXT: Map194/events/2/pages/0/52/Choice/1
+> CONTEXT: Map194/events/3/pages/0/33/Choice/1
+> CONTEXT: Map194/events/3/pages/0/33/Choice/1
+> CONTEXT: Map194/events/4/pages/0/33/Choice/1
+> CONTEXT: Map194/events/4/pages/0/33/Choice/1
+> CONTEXT: Map142/events/3/pages/0/52/Choice/1
+> CONTEXT: Map142/events/3/pages/0/52/Choice/1
+> CONTEXT: Map141/events/5/pages/0/43/Choice/1
+> CONTEXT: Map141/events/5/pages/0/43/Choice/1
+If you faint
+> END STRING
+
+> BEGIN STRING
+出演料について
+> CONTEXT: Map528/events/3/pages/0/43/Choice/2
+> CONTEXT: Map527/events/5/pages/0/43/Choice/2
+> CONTEXT: Map141/events/5/pages/0/43/Choice/2
+> CONTEXT: Map141/events/5/pages/0/43/Choice/2
+Performance fees
+> END STRING
+
+> BEGIN STRING
+前のページ
+> CONTEXT: Map528/events/3/pages/0/43/Choice/3
+> CONTEXT: Map527/events/5/pages/0/43/Choice/3
+> CONTEXT: Map141/events/5/pages/0/43/Choice/3
+> CONTEXT: Map141/events/5/pages/0/43/Choice/3
+Previous page
+> END STRING
+
+> BEGIN STRING
+遊技場のコースによっては
+仲間を連れていくことができません。
+> CONTEXT: Map528/events/3/pages/0/45/Dialogue
+> CONTEXT: Map527/events/5/pages/0/45/Dialogue
+> CONTEXT: Map194/events/2/pages/0/54/Dialogue
+> CONTEXT: Map194/events/3/pages/0/35/Dialogue
+> CONTEXT: Map194/events/4/pages/0/35/Dialogue
+> CONTEXT: Map142/events/3/pages/0/54/Dialogue
+> CONTEXT: Map141/events/5/pages/0/45/Dialogue
+Depending on the course at the playground, 
+you may not be able to bring along companions.
+> END STRING
+
+> BEGIN STRING
+ですが、遊技場内部で仲間を増やすのは問題ありません。
+> CONTEXT: Map528/events/3/pages/0/47/Dialogue
+> CONTEXT: Map527/events/5/pages/0/47/Dialogue
+> CONTEXT: Map194/events/2/pages/0/56/Dialogue
+> CONTEXT: Map194/events/3/pages/0/37/Dialogue
+> CONTEXT: Map194/events/4/pages/0/37/Dialogue
+> CONTEXT: Map142/events/3/pages/0/56/Dialogue
+> CONTEXT: Map141/events/5/pages/0/47/Dialogue
+However, there is no problem with increasing 
+the number of friends within the playground.
+> END STRING
+
+> BEGIN STRING
+出演者が失神した場合、
+本遊技場の医務室へとお運びいたします。
+> CONTEXT: Map528/events/3/pages/0/51/Dialogue
+> CONTEXT: Map527/events/5/pages/0/51/Dialogue
+> CONTEXT: Map194/events/2/pages/0/60/Dialogue
+> CONTEXT: Map194/events/3/pages/0/41/Dialogue
+> CONTEXT: Map194/events/4/pages/0/41/Dialogue
+> CONTEXT: Map142/events/3/pages/0/60/Dialogue
+> CONTEXT: Map141/events/5/pages/0/51/Dialogue
+If a performer faints, 
+they will be taken to the medical room.
+> END STRING
+
+> BEGIN STRING
+その場合でも事前にお預かりしたアイテムの返却、
+制限したレベルの解除などはさせていただきます。
+> CONTEXT: Map528/events/3/pages/0/53/Dialogue
+> CONTEXT: Map527/events/5/pages/0/53/Dialogue
+> CONTEXT: Map194/events/2/pages/0/62/Dialogue
+> CONTEXT: Map194/events/3/pages/0/43/Dialogue
+> CONTEXT: Map194/events/4/pages/0/43/Dialogue
+> CONTEXT: Map142/events/3/pages/0/62/Dialogue
+> CONTEXT: Map141/events/5/pages/0/53/Dialogue
+Even in this case, we will return any items 
+we have previously deposited,
+and lift any level restrictions.
+> END STRING
+
+> BEGIN STRING
+夢世界を歩くのに役立つアイテム、
+およびLps.をお渡しします。
+> CONTEXT: Map528/events/3/pages/0/58/Dialogue
+> CONTEXT: Map527/events/5/pages/0/58/Dialogue
+> CONTEXT: Map194/events/2/pages/0/67/Dialogue
+> CONTEXT: Map194/events/3/pages/0/48/Dialogue
+> CONTEXT: Map194/events/4/pages/0/48/Dialogue
+> CONTEXT: Map142/events/3/pages/0/67/Dialogue
+> CONTEXT: Map141/events/5/pages/0/58/Dialogue
+You will be given items 
+that will help you navigate the dream world and Lps.
+> END STRING
+
+> BEGIN STRING
+アイテムは10階ごと、Lpsは退場時にまとめてのお渡しになり
+ますが、
+奥へ行けば行くほど報酬はよりよいもの、
+またはより多いものになります。
+> CONTEXT: Map528/events/3/pages/0/60/Dialogue
+> CONTEXT: Map527/events/5/pages/0/60/Dialogue
+> CONTEXT: Map194/events/2/pages/0/69/Dialogue
+> CONTEXT: Map194/events/3/pages/0/50/Dialogue
+> CONTEXT: Map194/events/4/pages/0/50/Dialogue
+> CONTEXT: Map142/events/3/pages/0/69/Dialogue
+> CONTEXT: Map141/events/5/pages/0/60/Dialogue
+Items are given out every 10 floors, and Lps are given out 
+as a lump sum when you exit,
+but the further you go the better or more rewards you get.
+> END STRING
+
+> BEGIN STRING
+先にリセットメイドでリセットしてください。
+> CONTEXT: Map528/events/4/pages/0/1/Dialogue
+> CONTEXT: Map142/events/4/pages/0/1/Dialogue
+> CONTEXT: Map142/events/4/pages/1/1/Dialogue
+> CONTEXT: Map142/events/16/pages/1/1/Dialogue
+Please reset with Reset Maid first.
+> END STRING
+
+> BEGIN STRING
+通常コースに挑戦しますか？
+> CONTEXT: Map528/events/4/pages/0/4/Dialogue
+> CONTEXT: Map142/events/4/pages/0/16/Dialogue
+> CONTEXT: Map142/events/4/pages/1/16/Dialogue
+Would you like to try the regular course?
+> END STRING
+
+> BEGIN STRING
+初めから挑戦する
+> CONTEXT: Map528/events/4/pages/0/6/Choice/0
+> CONTEXT: Map528/events/9/pages/0/4/Choice/0
+> CONTEXT: Map142/events/4/pages/0/41/Choice/3
+> CONTEXT: Map142/events/4/pages/0/41/Choice/3
+> CONTEXT: Map142/events/4/pages/0/72/Choice/2
+> CONTEXT: Map142/events/4/pages/0/72/Choice/2
+> CONTEXT: Map142/events/4/pages/0/96/Choice/1
+> CONTEXT: Map142/events/4/pages/0/96/Choice/1
+> CONTEXT: Map142/events/4/pages/1/37/Choice/3
+> CONTEXT: Map142/events/4/pages/1/37/Choice/3
+> CONTEXT: Map142/events/4/pages/1/68/Choice/2
+> CONTEXT: Map142/events/4/pages/1/68/Choice/2
+> CONTEXT: Map142/events/4/pages/1/92/Choice/1
+> CONTEXT: Map142/events/4/pages/1/92/Choice/1
+> CONTEXT: Map142/events/9/pages/0/4/Choice/0
+> CONTEXT: Map142/events/9/pages/0/4/Choice/0
+Try from the beginning
+> END STRING
+
+> BEGIN STRING
+31階から挑戦する
+> CONTEXT: Map528/events/4/pages/0/6/Choice/1
+> CONTEXT: Map528/events/9/pages/0/4/Choice/1
+> CONTEXT: Map142/events/9/pages/0/4/Choice/1
+> CONTEXT: Map142/events/9/pages/0/4/Choice/1
+Start from the 31st floor
+> END STRING
+
+> BEGIN STRING
+やっぱやめる
+> CONTEXT: Map528/events/4/pages/0/6/Choice/2
+> CONTEXT: Map528/events/4/pages/0/21/Choice/1
+> CONTEXT: Map528/events/9/pages/0/4/Choice/2
+> CONTEXT: Map528/events/9/pages/0/19/Choice/1
+> CONTEXT: Map528/events/10/pages/0/0/Choice/3
+> CONTEXT: Map528/events/10/pages/1/0/Choice/3
+> CONTEXT: Map528/events/10/pages/2/0/Choice/3
+> CONTEXT: Map142/events/4/pages/0/7/Choice/1
+> CONTEXT: Map142/events/4/pages/0/7/Choice/1
+> CONTEXT: Map142/events/4/pages/0/72/Choice/3
+> CONTEXT: Map142/events/4/pages/0/72/Choice/3
+> CONTEXT: Map142/events/4/pages/0/96/Choice/2
+> CONTEXT: Map142/events/4/pages/0/96/Choice/2
+> CONTEXT: Map142/events/4/pages/0/115/Choice/1
+> CONTEXT: Map142/events/4/pages/0/115/Choice/1
+> CONTEXT: Map142/events/4/pages/1/7/Choice/1
+> CONTEXT: Map142/events/4/pages/1/7/Choice/1
+> CONTEXT: Map142/events/4/pages/1/68/Choice/3
+> CONTEXT: Map142/events/4/pages/1/68/Choice/3
+> CONTEXT: Map142/events/4/pages/1/92/Choice/2
+> CONTEXT: Map142/events/4/pages/1/92/Choice/2
+> CONTEXT: Map142/events/4/pages/1/111/Choice/1
+> CONTEXT: Map142/events/4/pages/1/111/Choice/1
+> CONTEXT: Map142/events/9/pages/0/4/Choice/2
+> CONTEXT: Map142/events/9/pages/0/4/Choice/2
+> CONTEXT: Map142/events/9/pages/0/19/Choice/1
+> CONTEXT: Map142/events/9/pages/0/19/Choice/1
+> CONTEXT: Map142/events/10/pages/0/0/Choice/3
+> CONTEXT: Map142/events/10/pages/0/0/Choice/3
+> CONTEXT: Map142/events/10/pages/1/0/Choice/3
+> CONTEXT: Map142/events/10/pages/1/0/Choice/3
+> CONTEXT: Map142/events/10/pages/2/0/Choice/3
+> CONTEXT: Map142/events/10/pages/2/0/Choice/3
+> CONTEXT: Map142/events/16/pages/1/6/Choice/1
+> CONTEXT: Map142/events/16/pages/1/6/Choice/1
+Nevermind
+> END STRING
+
+> BEGIN STRING
+"～\#{$game_variables[182]}階～"
+> CONTEXT: Map528/events/4/pages/0/46/InlineScript/2:1
+> CONTEXT: Map528/events/9/pages/0/44/InlineScript/2:1
+> CONTEXT: Commonevents/220/19/InlineScript/2:1
+> CONTEXT: Map142/events/4/pages/0/159/InlineScript/2:1
+> CONTEXT: Map142/events/4/pages/1/155/InlineScript/2:1
+> CONTEXT: Map142/events/9/pages/0/44/InlineScript/2:1
+"~\#{$game_variables[182]}th floor~"
+> END STRING
+
+> BEGIN STRING
+"係員"
+> CONTEXT: Map528/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Map528/events/5/pages/0/4/InlineScript/1:22
+> CONTEXT: Map142/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Map142/events/5/pages/0/4/InlineScript/1:22
+> CONTEXT: Map142/events/5/pages/1/0/InlineScript/1:22
+> CONTEXT: Map142/events/5/pages/2/0/InlineScript/1:22
+"Attendant"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こちらはセクシアム・・・すなわちセックスコロシアム。
+遊技場主催のセックスバトル大会会場です。
+> CONTEXT: Map528/events/5/pages/0/1/Dialogue
+> CONTEXT: Map142/events/5/pages/0/1/Dialogue
+> CONTEXT: Map142/events/5/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+This is Sexium... the Sex Coliseum.
+It's the venue for a sex battle tournament 
+run by an amusement park.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+左側がおひとり様専用のシングルモード、
+右側がおふたり様用のタッグモードとなっています。
+> CONTEXT: Map528/events/5/pages/0/5/Dialogue
+> CONTEXT: Map142/events/5/pages/0/5/Dialogue
+> CONTEXT: Map142/events/5/pages/1/4/Dialogue
+\\name[\\v[2]]\\_
+The left side is single mode for one person,
+and the right side is tag mode for two people.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+試合は勝ち抜き戦で、
+シングルモードは３試合の勝ち抜き、
+タッグモードは予選３試合と決勝の４試合です
+> CONTEXT: Map528/events/5/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+The matches are elimination matches,
+in single mode there are three matches, and in tag mode 
+there are 3 preliminary matches and 4 final matches.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+いずれの挑戦も優勝者には賞金と賞品が授与されます。
+> CONTEXT: Map528/events/5/pages/0/12/Dialogue
+> CONTEXT: Map142/events/5/pages/0/12/Dialogue
+> CONTEXT: Map142/events/5/pages/1/15/Dialogue
+\\name[\\v[2]]\\_
+Winners of each challenge will be awarded cash and prizes.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+敗退された場合、遊技場と同じく
+医務室にて介抱致しますが・・・
+> CONTEXT: Map528/events/5/pages/0/14/Dialogue
+\\name[\\v[2]]\\_
+If you are defeated, 
+you will be taken care of in the medical room...
+> END STRING
+
+> BEGIN STRING
+【通常コース】
+レベル制限：１レベルからスタート
+仲間の連れ込み：０～３人
+> CONTEXT: Map528/events/6/pages/0/0/Dialogue
+> CONTEXT: Map142/events/6/pages/0/0/Dialogue
+[Normal Course]
+Level Limit: Start from level 1
+Bring in companions: 0-3
+> END STRING
+
+> BEGIN STRING
+夢魔の仲間化：可
+Lps持ち込み：不可
+装備品、アイテムの持ち込み：不可
+> CONTEXT: Map528/events/6/pages/0/3/Dialogue
+> CONTEXT: Map142/events/6/pages/0/3/Dialogue
+Bring allies: Yes
+Bring Lps: No
+Bring equipment and items: No
+> END STRING
+
+> BEGIN STRING
+キャラクターの編成
+預ける：可
+連れて行く：不可
+> CONTEXT: Map528/events/6/pages/0/6/Dialogue
+Character formation
+Deposit: Yes
+Take: No
+> END STRING
+
+> BEGIN STRING
+【セクシアム：タッグチャンピオンシップ】
+推奨レベル：75以上
+仲間の連れ込み：１名のみ。必須。
+> CONTEXT: Map528/events/7/pages/0/0/Dialogue
+> CONTEXT: Map142/events/7/pages/0/0/Dialogue
+[Sexium: Tag Championship]
+Recommended level: 75 or above
+Bring allies: Only 1. Required.
+> END STRING
+
+> BEGIN STRING
+装備品：可
+アイテムの持ち込み：可
+> CONTEXT: Map528/events/7/pages/0/3/Dialogue
+Bring equipment: Yes
+Bring items: Yes
+> END STRING
+
+> BEGIN STRING
+着衣：不可
+夢魔との契約：不可
+> CONTEXT: Map528/events/7/pages/0/5/Dialogue
+> CONTEXT: Map528/events/13/pages/0/6/Dialogue
+> CONTEXT: Map528/events/15/pages/0/6/Dialogue
+> CONTEXT: Map142/events/7/pages/0/6/Dialogue
+> CONTEXT: Map142/events/13/pages/0/6/Dialogue
+> CONTEXT: Map142/events/17/pages/1/6/Dialogue
+Wearing clothes: No
+Contract with succubi: No
+> END STRING
+
+> BEGIN STRING
+【レベル無制限コース】
+レベル制限：なし/敵レベル50からスタート
+仲間の連れ込み：不可
+> CONTEXT: Map528/events/8/pages/0/0/Dialogue
+> CONTEXT: Map142/events/8/pages/0/0/Dialogue
+[Unlimited Level Course]
+Level limit: None/Starts at enemy level 50
+Bring allies: No
+> END STRING
+
+> BEGIN STRING
+夢魔の仲間化：可能
+Lps持ち込み：不可
+装備品、アイテムの持ち込み：不可
+> CONTEXT: Map528/events/8/pages/0/3/Dialogue
+> CONTEXT: Map142/events/8/pages/0/3/Dialogue
+Befriend succubi: Possible
+Bring Lps: No
+Bring equipment and items: No
+> END STRING
+
+> BEGIN STRING
+キャラクターの編成
+預ける：可能
+連れて行く：不可
+> CONTEXT: Map528/events/8/pages/0/6/Dialogue
+> CONTEXT: Map142/events/8/pages/0/6/Dialogue
+Character formation
+Deposit: possible
+Take: not possible
+> END STRING
+
+> BEGIN STRING
+レベル無制限コースに挑戦しますか？
+> CONTEXT: Map528/events/9/pages/0/2/Dialogue
+> CONTEXT: Map142/events/9/pages/0/2/Dialogue
+Would you like to try the unlimited level course?
+> END STRING
+
+> BEGIN STRING
+この遊技は１人用です。
+パーティを減らしてから来てください。
+> CONTEXT: Map528/events/9/pages/0/49/Dialogue
+> CONTEXT: Map142/events/9/pages/0/49/Dialogue
+This game is for 1 person only. 
+Please come with fewer people in your party.
+> END STRING
+
+> BEGIN STRING
+通常モード
+> CONTEXT: Map528/events/10/pages/0/0/Choice/0
+> CONTEXT: Map528/events/10/pages/1/0/Choice/0
+> CONTEXT: Map528/events/10/pages/2/0/Choice/0
+> CONTEXT: Map142/events/10/pages/0/0/Choice/0
+> CONTEXT: Map142/events/10/pages/0/0/Choice/0
+> CONTEXT: Map142/events/10/pages/1/0/Choice/0
+> CONTEXT: Map142/events/10/pages/1/0/Choice/0
+> CONTEXT: Map142/events/10/pages/2/0/Choice/0
+> CONTEXT: Map142/events/10/pages/2/0/Choice/0
+Normal Mode
+> END STRING
+
+> BEGIN STRING
+平原おっぱいモード
+> CONTEXT: Map528/events/10/pages/0/0/Choice/1
+> CONTEXT: Map528/events/10/pages/1/0/Choice/1
+> CONTEXT: Map528/events/10/pages/2/0/Choice/1
+> CONTEXT: Map142/events/10/pages/0/0/Choice/1
+> CONTEXT: Map142/events/10/pages/0/0/Choice/1
+> CONTEXT: Map142/events/10/pages/1/0/Choice/1
+> CONTEXT: Map142/events/10/pages/1/0/Choice/1
+> CONTEXT: Map142/events/10/pages/2/0/Choice/1
+> CONTEXT: Map142/events/10/pages/2/0/Choice/1
+Plain Boobs Mode
+> END STRING
+
+> BEGIN STRING
+丘おっぱいモード
+> CONTEXT: Map528/events/10/pages/0/0/Choice/2
+> CONTEXT: Map528/events/10/pages/1/0/Choice/2
+> CONTEXT: Map528/events/10/pages/2/0/Choice/2
+> CONTEXT: Map142/events/10/pages/0/0/Choice/2
+> CONTEXT: Map142/events/10/pages/0/0/Choice/2
+> CONTEXT: Map142/events/10/pages/1/0/Choice/2
+> CONTEXT: Map142/events/10/pages/1/0/Choice/2
+> CONTEXT: Map142/events/10/pages/2/0/Choice/2
+> CONTEXT: Map142/events/10/pages/2/0/Choice/2
+Hill Boobs Mode
+> END STRING
+
+> BEGIN STRING
+\\n[101]でないと入れません。
+> CONTEXT: Map528/events/11/pages/0/1/Dialogue
+> CONTEXT: Map528/events/12/pages/0/1/Dialogue
+> CONTEXT: Map528/events/14/pages/0/1/Dialogue
+> CONTEXT: Map141/events/17/pages/0/1/Dialogue
+> CONTEXT: Map142/events/11/pages/0/1/Dialogue
+> CONTEXT: Map142/events/11/pages/1/1/Dialogue
+> CONTEXT: Map142/events/12/pages/0/1/Dialogue
+> CONTEXT: Map142/events/12/pages/1/1/Dialogue
+> CONTEXT: Map142/events/14/pages/0/1/Dialogue
+You can only enter if you are \\n[101].
+> END STRING
+
+> BEGIN STRING
+\\n[101]が女体化中は入れません。
+> CONTEXT: Map528/events/11/pages/0/6/Dialogue
+> CONTEXT: Map528/events/12/pages/0/6/Dialogue
+> CONTEXT: Map528/events/14/pages/0/6/Dialogue
+\\n[101] cannot enter while in female form.
+> END STRING
+
+> BEGIN STRING
+\\n[101]がふたなり化中は入れません。
+> CONTEXT: Map528/events/11/pages/0/11/Dialogue
+> CONTEXT: Map528/events/12/pages/0/11/Dialogue
+> CONTEXT: Map528/events/14/pages/0/11/Dialogue
+> CONTEXT: Map141/events/17/pages/0/6/Dialogue
+\\n[101] cannot enter while in Futanari mode.
+> END STRING
+
+> BEGIN STRING
+一匹狼の誡を装備している間は入れません。
+> CONTEXT: Map528/events/11/pages/0/16/Dialogue
+> CONTEXT: Map528/events/11/pages/0/21/Dialogue
+You cannot enter while wearing Lone Wolf.
+> END STRING
+
+> BEGIN STRING
+セクシアム
+セクスドリームナイトに挑戦しますか？
+> CONTEXT: Map528/events/11/pages/0/27/Dialogue
+Sexium 
+Would you like to try Sex Dream Night?
+> END STRING
+
+> BEGIN STRING
+この挑戦はレベルが低いと厳しいものになります。
+本当によろしいですか？
+> CONTEXT: Map528/events/11/pages/0/31/Dialogue
+This challenge will be difficult if you are at a low level.
+Are you sure?
+> END STRING
+
+> BEGIN STRING
+この挑戦は１人用です。
+パーティを減らしてから来てください。
+> CONTEXT: Map528/events/11/pages/0/61/Dialogue
+> CONTEXT: Map528/events/14/pages/0/38/Dialogue
+> CONTEXT: Map142/events/11/pages/0/38/Dialogue
+> CONTEXT: Map142/events/11/pages/1/57/Dialogue
+> CONTEXT: Map142/events/14/pages/0/28/Dialogue
+> CONTEXT: Map142/events/14/pages/1/35/Dialogue
+This challenge is for 1 person.
+Please come with a smaller party.
+> END STRING
+
+> BEGIN STRING
+セクシアム
+タッグチャンピオンシップに挑戦しますか？
+> CONTEXT: Map528/events/12/pages/0/17/Dialogue
+> CONTEXT: Map142/events/12/pages/0/12/Dialogue
+> CONTEXT: Map142/events/12/pages/1/12/Dialogue
+Sexium 
+Would you like to challenge for the Tag Team Championship?
+> END STRING
+
+> BEGIN STRING
+この挑戦はおふたり様限定です。
+パーティを２人にして来てください。
+> CONTEXT: Map528/events/12/pages/0/44/Dialogue
+> CONTEXT: Map142/events/12/pages/0/40/Dialogue
+> CONTEXT: Map142/events/12/pages/1/48/Dialogue
+This challenge is limited to two people.
+Please bring a party of 2.
+> END STRING
+
+> BEGIN STRING
+【セクシアム：シングルチャンピオンシップ】
+推奨レベル：80以上
+仲間の連れ込み：不可
+> CONTEXT: Map528/events/13/pages/0/0/Dialogue
+> CONTEXT: Map142/events/13/pages/0/0/Dialogue
+[Sexium: Single Championship]
+Recommended level: 80 or higher
+Bring allies: No
+> END STRING
+
+> BEGIN STRING
+装備品：一匹狼の誡無効
+それ以外は可
+アイテムの持ち込み：可
+> CONTEXT: Map528/events/13/pages/0/3/Dialogue
+> CONTEXT: Map528/events/15/pages/0/3/Dialogue
+> CONTEXT: Map142/events/13/pages/0/3/Dialogue
+Equipment: Lone Wolf is disabled
+Other than that, allowed
+Bring items: Yes
+> END STRING
+
+> BEGIN STRING
+セクシアム
+シングルチャンピオンシップに挑戦しますか？
+> CONTEXT: Map528/events/14/pages/0/17/Dialogue
+> CONTEXT: Map142/events/14/pages/0/7/Dialogue
+> CONTEXT: Map142/events/14/pages/1/14/Dialogue
+Sexium
+Would you like to challenge for the Singles Championship?
+> END STRING
+
+> BEGIN STRING
+【セクシアム：セクスドリームナイト】
+推奨レベル：90以上
+仲間の連れ込み：不可
+> CONTEXT: Map528/events/15/pages/0/0/Dialogue
+[Sexium: Sex Dream Night]
+Recommended level: 90 or higher
+Bringing companions: Not allowed
+> END STRING

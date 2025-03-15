@@ -1,0 +1,388 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+時空の境目
+> CONTEXT: Map749/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map748/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map193/bgm/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ニュクス"
+> CONTEXT: Map749/events/21/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map750/events/60/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map749/events/23/pages/0/15/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map749/events/23/pages/0/66/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map749/events/32/pages/0/12/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map188/events/12/pages/2/289/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map190/events/12/pages/2/262/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map190/events/12/pages/3/159/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map198/events/44/pages/0/107/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それでは契約を結びましょう\\H
+> CONTEXT: Map749/events/21/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス、ニュクスと契約しますか？
+> CONTEXT: Map749/events/21/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map749/events/23/pages/0/109/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\
+あら？契約数がいっぱいのようですわ。
+> CONTEXT: Map749/events/21/pages/0/8/Dialogue < UNTRANSLATED
+> CONTEXT: Map749/events/23/pages/0/114/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、よろしくお願いいたしますわ\\H
+> CONTEXT: Map749/events/21/pages/0/13/Dialogue < UNTRANSLATED
+> CONTEXT: Map749/events/23/pages/0/103/Dialogue < UNTRANSLATED
+> CONTEXT: Map749/events/23/pages/0/119/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ニュクスと契約を交わした！\\|\\|
+> CONTEXT: Map749/events/21/pages/0/16/Dialogue < UNTRANSLATED
+> CONTEXT: Map749/events/23/pages/0/106/Dialogue < UNTRANSLATED
+> CONTEXT: Map749/events/23/pages/0/122/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"慈愛"
+> CONTEXT: Map749/events/21/pages/0/18/InlineScript/3:6 < UNTRANSLATED
+> CONTEXT: Map749/events/23/pages/0/124/InlineScript/3:6 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ニュクスをホームに迎え入れた！
+> CONTEXT: Map749/events/21/pages/0/25/Dialogue < UNTRANSLATED
+> CONTEXT: Map749/events/21/pages/0/36/Dialogue < UNTRANSLATED
+> CONTEXT: Map749/events/23/pages/0/131/Dialogue < UNTRANSLATED
+> CONTEXT: Map749/events/23/pages/0/142/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ニュクスがパーティに加わった！
+> CONTEXT: Map749/events/21/pages/0/32/Dialogue < UNTRANSLATED
+> CONTEXT: Map749/events/23/pages/0/138/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら？わたくしとしたことが性急だったかしら？
+準備が出来たらまたいらしてください。
+> CONTEXT: Map749/events/21/pages/0/50/Dialogue < UNTRANSLATED
+> CONTEXT: Map749/events/23/pages/0/164/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ニュクスと再戦しますか？
+> CONTEXT: Map749/events/22/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+戦う
+> CONTEXT: Map749/events/22/pages/0/1/Choice/0
+> CONTEXT: Map624/events/101/pages/0/1/Choice/0
+> CONTEXT: Map523/events/2/pages/0/11/Choice/0
+> CONTEXT: Map523/events/3/pages/0/11/Choice/0
+> CONTEXT: Map523/events/4/pages/0/11/Choice/0
+> CONTEXT: Map624/events/164/pages/0/1/Choice/0
+> CONTEXT: Map523/events/5/pages/0/11/Choice/0
+> CONTEXT: Map523/events/6/pages/0/11/Choice/0
+> CONTEXT: Map523/events/7/pages/0/11/Choice/0
+> CONTEXT: Map523/events/8/pages/0/11/Choice/0
+> CONTEXT: Map523/events/10/pages/0/1/Choice/0
+> CONTEXT: Map523/events/11/pages/0/1/Choice/0
+> CONTEXT: Map523/events/12/pages/0/11/Choice/0
+> CONTEXT: Map523/events/13/pages/0/11/Choice/0
+> CONTEXT: Map523/events/14/pages/0/11/Choice/0
+> CONTEXT: Map523/events/15/pages/0/11/Choice/0
+> CONTEXT: Map523/events/17/pages/0/11/Choice/0
+> CONTEXT: Map179/events/2/pages/0/3/Choice/0
+> CONTEXT: Map179/events/2/pages/0/3/Choice/0
+Battle
+> END STRING
+
+> BEGIN STRING
+ニュクス単体と戦う
+> CONTEXT: Map749/events/22/pages/0/1/Choice/1 < UNTRANSLATED
+> CONTEXT: Map624/events/164/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+戦わない
+> CONTEXT: Map749/events/22/pages/0/1/Choice/2 < UNTRANSLATED
+> CONTEXT: Map624/events/101/pages/0/1/Choice/1 < UNTRANSLATED
+> CONTEXT: Map624/events/140/pages/0/4/Choice/2 < UNTRANSLATED
+> CONTEXT: Map624/events/141/pages/0/4/Choice/2 < UNTRANSLATED
+> CONTEXT: Map624/events/142/pages/0/4/Choice/2 < UNTRANSLATED
+> CONTEXT: Map624/events/143/pages/0/4/Choice/2 < UNTRANSLATED
+> CONTEXT: Map624/events/144/pages/0/5/Choice/2 < UNTRANSLATED
+> CONTEXT: Map624/events/145/pages/0/4/Choice/2 < UNTRANSLATED
+> CONTEXT: Map624/events/146/pages/0/3/Choice/2 < UNTRANSLATED
+> CONTEXT: Map523/events/2/pages/0/11/Choice/1 < UNTRANSLATED
+> CONTEXT: Map523/events/2/pages/1/11/Choice/3 < UNTRANSLATED
+> CONTEXT: Map523/events/3/pages/0/11/Choice/1 < UNTRANSLATED
+> CONTEXT: Map523/events/3/pages/1/11/Choice/3 < UNTRANSLATED
+> CONTEXT: Map523/events/4/pages/0/11/Choice/1 < UNTRANSLATED
+> CONTEXT: Map523/events/4/pages/1/11/Choice/3 < UNTRANSLATED
+> CONTEXT: Map624/events/164/pages/0/1/Choice/2 < UNTRANSLATED
+> CONTEXT: Map523/events/5/pages/0/11/Choice/1 < UNTRANSLATED
+> CONTEXT: Map523/events/5/pages/1/11/Choice/3 < UNTRANSLATED
+> CONTEXT: Map523/events/6/pages/0/11/Choice/1 < UNTRANSLATED
+> CONTEXT: Map523/events/6/pages/1/11/Choice/2 < UNTRANSLATED
+> CONTEXT: Map523/events/7/pages/0/11/Choice/1 < UNTRANSLATED
+> CONTEXT: Map523/events/7/pages/1/11/Choice/3 < UNTRANSLATED
+> CONTEXT: Map523/events/8/pages/0/11/Choice/1 < UNTRANSLATED
+> CONTEXT: Map523/events/8/pages/1/11/Choice/2 < UNTRANSLATED
+> CONTEXT: Map523/events/9/pages/0/11/Choice/2 < UNTRANSLATED
+> CONTEXT: Map523/events/10/pages/0/1/Choice/1 < UNTRANSLATED
+> CONTEXT: Map523/events/11/pages/0/1/Choice/1 < UNTRANSLATED
+> CONTEXT: Map523/events/12/pages/0/11/Choice/1 < UNTRANSLATED
+> CONTEXT: Map523/events/12/pages/1/11/Choice/2 < UNTRANSLATED
+> CONTEXT: Map523/events/13/pages/0/11/Choice/1 < UNTRANSLATED
+> CONTEXT: Map523/events/13/pages/1/11/Choice/2 < UNTRANSLATED
+> CONTEXT: Map523/events/14/pages/0/11/Choice/1 < UNTRANSLATED
+> CONTEXT: Map523/events/14/pages/1/11/Choice/2 < UNTRANSLATED
+> CONTEXT: Map523/events/15/pages/0/11/Choice/1 < UNTRANSLATED
+> CONTEXT: Map523/events/16/pages/0/11/Choice/2 < UNTRANSLATED
+> CONTEXT: Map523/events/17/pages/0/11/Choice/1 < UNTRANSLATED
+> CONTEXT: Map523/events/18/pages/0/11/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+常夜の街の最上階へようこそ。
+お聞きになりたいことがあるのでしょうけど…
+> CONTEXT: Map749/events/23/pages/0/19/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+まずは楽しみましょう\\H
+> CONTEXT: Map749/events/23/pages/0/23/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+あれ？
+> CONTEXT: Map749/events/23/pages/0/35/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[5]]\\_
+ここは・・・常夜の街？
+> CONTEXT: Map749/events/23/pages/0/37/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+はぁ…
+お母様の気まぐれにも困ったものね\\H
+> CONTEXT: Map749/events/23/pages/0/39/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+さあ、始めましょう\\H
+> CONTEXT: Map749/events/23/pages/0/44/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふっ\\H本当に素敵な方ですわ。
+待ち望んでいた甲斐がありましたわ\\H
+> CONTEXT: Map749/events/23/pages/0/70/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+私はさっきしたばっかりで
+もうフラフラなんだけど…
+> CONTEXT: Map749/events/23/pages/0/73/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[5]]\\_
+ライブの途中で出てきてしまいましたが
+大丈夫でしょうか？
+> CONTEXT: Map749/events/23/pages/0/76/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+あ～あ、また負けちゃった。
+> CONTEXT: Map749/events/23/pages/0/79/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それではここへ来た要件をお聞きしますわ。
+> CONTEXT: Map749/events/23/pages/0/81/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なるほど。夢世界に閉じ込められた
+原因を探してここにいらしたのですね。
+> CONTEXT: Map749/events/23/pages/0/84/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+どうやら何者か…強大な夢魔が
+貴方を縛っているようですわ。
+> CONTEXT: Map749/events/23/pages/0/87/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+でも、貴方はこの夢世界の大半を訪れた。
+そうなると残る場所はこの夢世界の外、
+つまり夢世界同士の狭間…
+> CONTEXT: Map749/events/23/pages/0/90/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+狭間にはどうすれば行けるか？
+ふふっ、大丈夫ですわ。狭間との境を
+管理するのがわたくしの役目ですから
+> CONTEXT: Map749/events/23/pages/0/94/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+わたくしが貴方を狭間へとご案内しましょう。
+> CONTEXT: Map749/events/23/pages/0/98/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それでは、まず契約を結びましょう\\H
+> CONTEXT: Map749/events/23/pages/0/100/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\n[101]が先頭でないと危険なようだ。
+> CONTEXT: Map749/events/27/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+不思議な魔力を感じる……。
+飛び込みますか？
+> CONTEXT: Map749/events/27/pages/0/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+うさぎに話しかけて、
+時を戻しましょう。
+> CONTEXT: Map749/events/27/pages/1/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おや？
+新しくなったハザマノセカイに行きたいのかい？
+> CONTEXT: Map749/events/28/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+※注意
+ハザマノセカイ以降の進行をリセットします。
+> CONTEXT: Map749/events/28/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リセットしない
+> CONTEXT: Map749/events/28/pages/0/6/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リセットする
+> CONTEXT: Map749/events/28/pages/0/6/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+リセットしたくなったら声をかけてよ。
+> CONTEXT: Map749/events/28/pages/0/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+※注意
+時間を戻すとハザマノセカイ以降の進行が
+全てリセットされます。ご注意ください。
+> CONTEXT: Map749/events/28/pages/1/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それでは狭間への道を開きますわ。
+> CONTEXT: Map749/events/32/pages/0/13/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここから先は不安定な場所です。
+貴方が先頭に立って仲間を守ってくださいね。
+> CONTEXT: Map749/events/32/pages/0/22/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それと、娘たちも貴方を気に入った
+ようなので、連れて行って下されば
+喜びますわ
+> CONTEXT: Map749/events/32/pages/0/26/Dialogue < UNTRANSLATED
+
+> END STRING

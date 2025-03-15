@@ -1,0 +1,199 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+隠し扉　→
+> CONTEXT: None < UNUSED
+Hidden door →
+> END STRING
+
+> BEGIN STRING
+"愛犬の夢魔"
+> CONTEXT: Map258/events/1/pages/0/0/InlineScript/1:22
+"Love Dog Succubus"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+だ、誰ですか？
+人間さんを見るの、本当に久しぶり。
+> CONTEXT: Map258/events/1/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+W-who is this?
+It's been a really long time since I've seen a human.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……わたし、とてもおなかが空いてるんです。
+もうずっとごはん食べてないから。
+> CONTEXT: Map258/events/1/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+...I'm really hungry.
+I haven't eaten in a long time.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……あはっ\\H
+> CONTEXT: Map258/events/1/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+...Ahhh\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ごはん、いただいちゃいます\\H
+> CONTEXT: Map258/events/1/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+I'll enjoy the food\\H
+> END STRING
+
+> BEGIN STRING
+"チリアット"
+> CONTEXT: Map258/events/1/pages/0/81/InlineScript/1:22
+> CONTEXT: Map258/events/1/pages/1/0/InlineScript/1:22
+"Ciriatto"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+うっ、うう……っ\\H
+> CONTEXT: Map258/events/1/pages/0/82/Dialogue
+\\name[\\v[2]]\\_
+Uh, uh...\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この人、強い…‥！
+どうしよう、なにをされちゃうんだろう……！？
+> CONTEXT: Map258/events/1/pages/0/85/Dialogue
+\\name[\\v[2]]\\_
+This guy is strong...!
+What should I do? What will he do to me...?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……えっ、そんなつもりは無い？
+むしろ協力してほしい？
+> CONTEXT: Map258/events/1/pages/0/89/Dialogue
+\\name[\\v[2]]\\_
+...Eh? You don't have that intention?
+In fact, you want me to help you?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ある女性が、言うことを聞かせてくれる？
+もしかしてその人って……？
+> CONTEXT: Map258/events/1/pages/0/92/Dialogue
+> CONTEXT: Map258/events/1/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+But will this woman listen to you?
+Maybe she will...?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+わ、わかりました。言うこと聞きます。
+戦いはあんまり得意じゃないです、けど。
+> CONTEXT: Map258/events/1/pages/0/95/Dialogue
+> CONTEXT: Map258/events/1/pages/1/4/Dialogue
+\\name[\\v[2]]\\_
+O-okay. I'll listen to what you say.
+I'm not very good at fighting, though.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+これから、よろしくお願いしますね？
+> CONTEXT: Map258/events/1/pages/0/99/Dialogue
+> CONTEXT: Map258/events/1/pages/0/115/Dialogue
+> CONTEXT: Map258/events/1/pages/1/10/Dialogue
+\\name[\\v[2]]\\_
+I look forward to working with you from now on, okay?
+> END STRING
+
+> BEGIN STRING
+チリアットと契約を交わした！\\|\\|
+> CONTEXT: Map258/events/1/pages/0/102/Dialogue
+> CONTEXT: Map258/events/1/pages/0/132/Dialogue
+> CONTEXT: Map258/events/1/pages/1/27/Dialogue
+I signed a contract with Ciriatto! \\|\\|
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス、チリアットと契約しますか？
+> CONTEXT: Map258/events/1/pages/0/112/Dialogue
+> CONTEXT: Map258/events/1/pages/1/7/Dialogue
+Would you like to make a contract 
+with the unique succubus, Ciriatto?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\
+あ、あれ？
+契約数が埋まっちゃってますよ……？
+> CONTEXT: Map258/events/1/pages/0/119/Dialogue
+> CONTEXT: Map258/events/1/pages/1/14/Dialogue
+\\name[\\v[2]]\\
+Oh, what?
+The number of contracts is full...?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\
+無理な契約はめっ、です。
+悪いことが起きちゃいますよ？
+> CONTEXT: Map258/events/1/pages/0/122/Dialogue
+> CONTEXT: Map258/events/1/pages/1/17/Dialogue
+\\name[\\v[2]]\\
+Don't make unreasonable contracts.
+You'll end up with bad things happening.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+よ、よしっ。頑張ります！
+うぅ……でも、前を行くのはお任せします。
+> CONTEXT: Map258/events/1/pages/0/128/Dialogue
+> CONTEXT: Map258/events/1/pages/1/23/Dialogue
+\\name[\\v[2]]\\_
+Okay, okay. I'll do my best!
+Ugh... but I'll leave the lead to you.
+> END STRING
+
+> BEGIN STRING
+チリアットは妊娠しているようだ･･･。
+> CONTEXT: Map258/events/1/pages/0/145/Dialogue
+> CONTEXT: Map258/events/1/pages/1/40/Dialogue
+It seems that Ciriatto is pregnant...
+> END STRING
+
+> BEGIN STRING
+チリアットをホームに迎え入れた！
+> CONTEXT: Map258/events/1/pages/0/151/Dialogue
+> CONTEXT: Map258/events/1/pages/0/162/Dialogue
+> CONTEXT: Map256/events/1/pages/0/146/Dialogue
+> CONTEXT: Map258/events/1/pages/1/46/Dialogue
+> CONTEXT: Map258/events/1/pages/1/57/Dialogue
+Welcomed Ciriatto to Home!
+> END STRING
+
+> BEGIN STRING
+チリアットがパーティに加わった！
+> CONTEXT: Map258/events/1/pages/0/158/Dialogue
+> CONTEXT: Map258/events/1/pages/1/53/Dialogue
+Ciriatto has joined the party!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+え、えぇ……？
+契約しないんですか？
+> CONTEXT: Map258/events/1/pages/0/178/Dialogue
+> CONTEXT: Map258/events/1/pages/1/71/Dialogue
+\\name[\\v[2]]\\_
+Eh, what...?
+You're not going to sign the contract?
+> END STRING

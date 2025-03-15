@@ -1,0 +1,2425 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+失神
+> CONTEXT: States/1/name/
+> CONTEXT: Commonevents/280/464/Choice/1
+> CONTEXT: Commonevents/280/464/Choice/1
+> CONTEXT: Commonevents/280/1500/Choice/1
+> CONTEXT: Commonevents/280/1500/Choice/1
+Fainted
+> END STRING
+
+> BEGIN STRING
+衰弱
+> CONTEXT: States/2/name/
+Weak
+> END STRING
+
+> BEGIN STRING
+絶頂
+> CONTEXT: States/3/name/
+> CONTEXT: States/11/name/
+> CONTEXT: Map600/events/1/pages/0/13/Choice/0
+> CONTEXT: Map600/events/1/pages/0/13/Choice/0
+> CONTEXT: Map600/events/1/pages/0/57/Choice/0
+> CONTEXT: Map600/events/1/pages/0/57/Choice/0
+> CONTEXT: Map586/events/11/pages/0/13/Choice/0
+> CONTEXT: Map586/events/11/pages/0/13/Choice/0
+> CONTEXT: Map586/events/11/pages/0/57/Choice/0
+> CONTEXT: Map586/events/11/pages/0/57/Choice/0
+> CONTEXT: Map472/events/7/pages/0/14/Choice/0
+> CONTEXT: Map472/events/7/pages/0/14/Choice/0
+> CONTEXT: Map472/events/7/pages/0/58/Choice/0
+> CONTEXT: Map472/events/7/pages/0/58/Choice/0
+> CONTEXT: Commonevents/280/940/Choice/0
+> CONTEXT: Commonevents/280/940/Choice/0
+Climax
+> END STRING
+
+> BEGIN STRING
+半裸
+> CONTEXT: States/4/name/
+Half-naked
+> END STRING
+
+> BEGIN STRING
+全裸
+> CONTEXT: States/5/name/
+> CONTEXT: States/7/name/
+> CONTEXT: States/130/name/
+> CONTEXT: States/257/name/
+Naked
+> END STRING
+
+> BEGIN STRING
+クライシス
+> CONTEXT: States/6/name/
+> CONTEXT: Commonevents/280/464/Choice/2
+> CONTEXT: Commonevents/280/464/Choice/2
+> CONTEXT: Commonevents/280/940/Choice/1
+> CONTEXT: Commonevents/280/940/Choice/1
+> CONTEXT: Commonevents/280/1500/Choice/2
+> CONTEXT: Commonevents/280/1500/Choice/2
+Crisis
+> END STRING
+
+> BEGIN STRING
+挿入
+> CONTEXT: States/8/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+汁（ぶっかけ）
+> CONTEXT: States/9/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+汁（中出し）
+> CONTEXT: States/10/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホールド解除リキャスト
+> CONTEXT: States/12/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ディレイ
+> CONTEXT: States/13/name/
+Delay
+> END STRING
+
+> BEGIN STRING
+秘所潤滑度↑
+> CONTEXT: States/14/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+空腹
+> CONTEXT: States/15/name/
+Hungry
+> END STRING
+
+> BEGIN STRING
+スタン
+> CONTEXT: States/16/name/
+Stun
+> END STRING
+
+> BEGIN STRING
+苦痛スタン
+> CONTEXT: States/17/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ふたなり化
+> CONTEXT: States/19/name/ < UNTRANSLATED
+> CONTEXT: States/116/name/ < UNTRANSLATED
+> CONTEXT: Skills/154/name/ < UNTRANSLATED
+> CONTEXT: Skills/1420/name/ < UNTRANSLATED
+> CONTEXT: Commonevents/280/594/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/594/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/958/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/958/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1630/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1630/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+潤滑♂（少）
+> CONTEXT: States/20/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+潤滑♂（多）
+> CONTEXT: States/21/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+潤滑♀（少）
+> CONTEXT: States/22/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+潤滑♀（多）
+> CONTEXT: States/23/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+潤滑♀（溢）
+> CONTEXT: States/24/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+潤滑Ａ（少）
+> CONTEXT: States/25/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+潤滑Ａ（多）
+> CONTEXT: States/26/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+粘液潤滑（少）
+> CONTEXT: States/27/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+粘液潤滑（多）
+> CONTEXT: States/28/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スライム
+> CONTEXT: States/29/name/
+Slime
+> END STRING
+
+> BEGIN STRING
+淫毒
+> CONTEXT: States/30/name/
+> CONTEXT: Commonevents/280/234/Choice/3
+> CONTEXT: Commonevents/280/234/Choice/3
+> CONTEXT: Commonevents/280/892/Choice/3
+> CONTEXT: Commonevents/280/892/Choice/3
+> CONTEXT: Commonevents/280/1270/Choice/3
+> CONTEXT: Commonevents/280/1270/Choice/3
+Aphrodisiac
+> END STRING
+
+> BEGIN STRING
+ローション
+> CONTEXT: States/31/name/
+Lotion
+> END STRING
+
+> BEGIN STRING
+スタン：ドキドキ
+> CONTEXT: States/32/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スタン：びっくり
+> CONTEXT: States/33/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+恍惚
+> CONTEXT: States/34/name/
+> CONTEXT: Commonevents/280/124/Choice/0
+> CONTEXT: Commonevents/280/124/Choice/0
+> CONTEXT: Commonevents/280/870/Choice/0
+> CONTEXT: Commonevents/280/870/Choice/0
+> CONTEXT: Commonevents/280/1160/Choice/0
+> CONTEXT: Commonevents/280/1160/Choice/0
+Ecstasy
+> END STRING
+
+> BEGIN STRING
+欲情
+> CONTEXT: States/35/name/
+> CONTEXT: Commonevents/280/124/Choice/1
+> CONTEXT: Commonevents/280/124/Choice/1
+> CONTEXT: Commonevents/280/870/Choice/1
+> CONTEXT: Commonevents/280/870/Choice/1
+> CONTEXT: Commonevents/280/1160/Choice/1
+> CONTEXT: Commonevents/280/1160/Choice/1
+Lust
+> END STRING
+
+> BEGIN STRING
+暴走
+> CONTEXT: States/36/name/
+> CONTEXT: Map600/events/1/pages/0/13/Choice/1
+> CONTEXT: Map600/events/1/pages/0/13/Choice/1
+> CONTEXT: Map600/events/1/pages/0/57/Choice/1
+> CONTEXT: Map600/events/1/pages/0/57/Choice/1
+> CONTEXT: Map586/events/11/pages/0/13/Choice/1
+> CONTEXT: Map586/events/11/pages/0/13/Choice/1
+> CONTEXT: Map586/events/11/pages/0/57/Choice/1
+> CONTEXT: Map586/events/11/pages/0/57/Choice/1
+> CONTEXT: Map472/events/7/pages/0/14/Choice/1
+> CONTEXT: Map472/events/7/pages/0/14/Choice/1
+> CONTEXT: Map472/events/7/pages/0/58/Choice/1
+> CONTEXT: Map472/events/7/pages/0/58/Choice/1
+> CONTEXT: Commonevents/280/124/Choice/2
+> CONTEXT: Commonevents/280/124/Choice/2
+> CONTEXT: Commonevents/280/870/Choice/2
+> CONTEXT: Commonevents/280/870/Choice/2
+> CONTEXT: Commonevents/280/1160/Choice/2
+> CONTEXT: Commonevents/280/1160/Choice/2
+Berserk
+> END STRING
+
+> BEGIN STRING
+虚脱
+> CONTEXT: States/37/name/
+> CONTEXT: Commonevents/280/124/Choice/3
+> CONTEXT: Commonevents/280/124/Choice/3
+> CONTEXT: Commonevents/280/870/Choice/3
+> CONTEXT: Commonevents/280/870/Choice/3
+> CONTEXT: Commonevents/280/1160/Choice/3
+> CONTEXT: Commonevents/280/1160/Choice/3
+Lethargy
+> END STRING
+
+> BEGIN STRING
+畏怖
+> CONTEXT: States/38/name/
+> CONTEXT: Commonevents/280/234/Choice/0
+> CONTEXT: Commonevents/280/234/Choice/0
+> CONTEXT: Commonevents/280/892/Choice/0
+> CONTEXT: Commonevents/280/892/Choice/0
+> CONTEXT: Commonevents/280/1270/Choice/0
+> CONTEXT: Commonevents/280/1270/Choice/0
+Fear
+> END STRING
+
+> BEGIN STRING
+麻痺
+> CONTEXT: States/39/name/
+> CONTEXT: States/322/name/
+> CONTEXT: Commonevents/280/234/Choice/1
+> CONTEXT: Commonevents/280/234/Choice/1
+> CONTEXT: Commonevents/280/892/Choice/1
+> CONTEXT: Commonevents/280/892/Choice/1
+> CONTEXT: Commonevents/280/1270/Choice/1
+> CONTEXT: Commonevents/280/1270/Choice/1
+Paralysis
+> END STRING
+
+> BEGIN STRING
+散漫
+> CONTEXT: States/40/name/
+> CONTEXT: Commonevents/280/234/Choice/2
+> CONTEXT: Commonevents/280/234/Choice/2
+> CONTEXT: Commonevents/280/892/Choice/2
+> CONTEXT: Commonevents/280/892/Choice/2
+> CONTEXT: Commonevents/280/1270/Choice/2
+> CONTEXT: Commonevents/280/1270/Choice/2
+Distracted
+> END STRING
+
+> BEGIN STRING
+高揚
+> CONTEXT: States/41/name/
+> CONTEXT: Commonevents/280/344/Choice/0
+> CONTEXT: Commonevents/280/344/Choice/0
+> CONTEXT: Commonevents/280/914/Choice/0
+> CONTEXT: Commonevents/280/914/Choice/0
+> CONTEXT: Commonevents/280/1380/Choice/0
+> CONTEXT: Commonevents/280/1380/Choice/0
+Uplifted
+> END STRING
+
+> BEGIN STRING
+沈着
+> CONTEXT: States/42/name/
+> CONTEXT: Commonevents/280/344/Choice/1
+> CONTEXT: Commonevents/280/344/Choice/1
+> CONTEXT: Commonevents/280/914/Choice/1
+> CONTEXT: Commonevents/280/914/Choice/1
+> CONTEXT: Commonevents/280/1380/Choice/1
+> CONTEXT: Commonevents/280/1380/Choice/1
+Calm
+> END STRING
+
+> BEGIN STRING
+勃起♂（少）
+> CONTEXT: States/43/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+勃起♂（多）
+> CONTEXT: States/44/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+全身感度アップ
+> CONTEXT: States/45/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+口感度アップ
+> CONTEXT: States/46/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+胸感度アップ
+> CONTEXT: States/47/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+尻感度アップ
+> CONTEXT: States/48/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+♂感度アップ
+> CONTEXT: States/49/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+♀感度アップ
+> CONTEXT: States/50/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ブロック
+> CONTEXT: States/53/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魅力+200％
+> CONTEXT: States/55/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魅力+150％
+> CONTEXT: States/56/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魅力-25％
+> CONTEXT: States/57/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魅力-50％
+> CONTEXT: States/58/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+忍耐+40％
+> CONTEXT: States/59/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+忍耐+20％
+> CONTEXT: States/60/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+忍耐-15％
+> CONTEXT: States/61/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+忍耐-30％
+> CONTEXT: States/62/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精力+200％
+> CONTEXT: States/63/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精力+150％
+> CONTEXT: States/64/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精力-25％
+> CONTEXT: States/65/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精力-50％
+> CONTEXT: States/66/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+器用さ+200％
+> CONTEXT: States/67/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+器用さ+150％
+> CONTEXT: States/68/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+器用さ-25％
+> CONTEXT: States/69/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+器用さ-50％
+> CONTEXT: States/70/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+素早さ+200％
+> CONTEXT: States/71/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+素早さ+150％
+> CONTEXT: States/72/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+素早さ-25％
+> CONTEXT: States/73/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+素早さ-50％
+> CONTEXT: States/74/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精神力+200％
+> CONTEXT: States/75/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精神力+150％
+> CONTEXT: States/76/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精神力-25％
+> CONTEXT: States/77/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精神力-50％
+> CONTEXT: States/78/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ステート増加
+> CONTEXT: States/80/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ステート減少
+> CONTEXT: States/81/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ステート全増加
+> CONTEXT: States/82/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ステート全減少
+> CONTEXT: States/83/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ステート維持
+> CONTEXT: States/84/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+強化ステート解除
+> CONTEXT: States/85/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+弱体ステート解除
+> CONTEXT: States/86/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+能力変化ステート全解除
+> CONTEXT: States/87/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+満腹度・小回復
+> CONTEXT: States/89/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+停止
+> CONTEXT: States/90/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魅了
+> CONTEXT: States/91/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+悶笑
+> CONTEXT: States/92/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+堅守
+> CONTEXT: States/94/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+無防備
+> CONTEXT: States/95/name/ < UNTRANSLATED
+> CONTEXT: Map600/events/1/pages/0/13/Choice/2 < UNTRANSLATED
+> CONTEXT: Map600/events/1/pages/0/13/Choice/2 < UNTRANSLATED
+> CONTEXT: Map600/events/1/pages/0/57/Choice/2 < UNTRANSLATED
+> CONTEXT: Map600/events/1/pages/0/57/Choice/2 < UNTRANSLATED
+> CONTEXT: Map586/events/11/pages/0/13/Choice/2 < UNTRANSLATED
+> CONTEXT: Map586/events/11/pages/0/13/Choice/2 < UNTRANSLATED
+> CONTEXT: Map586/events/11/pages/0/57/Choice/2 < UNTRANSLATED
+> CONTEXT: Map586/events/11/pages/0/57/Choice/2 < UNTRANSLATED
+> CONTEXT: Map472/events/7/pages/0/14/Choice/2 < UNTRANSLATED
+> CONTEXT: Map472/events/7/pages/0/14/Choice/2 < UNTRANSLATED
+> CONTEXT: Map472/events/7/pages/0/58/Choice/2 < UNTRANSLATED
+> CONTEXT: Map472/events/7/pages/0/58/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/594/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/594/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/958/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/958/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1630/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1630/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+誘引
+> CONTEXT: States/96/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キススイッチON
+> CONTEXT: States/97/name/
+Kiss Switch
+> END STRING
+
+> BEGIN STRING
+魔法陣
+> CONTEXT: States/98/name/
+Magic Circle
+> END STRING
+
+> BEGIN STRING
+マーキング
+> CONTEXT: States/99/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マゾスイッチON
+> CONTEXT: States/100/name/
+Maso Switch
+> END STRING
+
+> BEGIN STRING
+祝福
+> CONTEXT: States/101/name/
+Blessing
+> END STRING
+
+> BEGIN STRING
+焦燥
+> CONTEXT: States/102/name/
+> CONTEXT: Armors/174/name/
+> CONTEXT: Skills/599/name/
+> CONTEXT: Commonevents/280/344/Choice/2
+> CONTEXT: Commonevents/280/344/Choice/2
+> CONTEXT: Commonevents/280/914/Choice/2
+> CONTEXT: Commonevents/280/914/Choice/2
+> CONTEXT: Commonevents/280/1380/Choice/2
+> CONTEXT: Commonevents/280/1380/Choice/2
+Impatience
+> END STRING
+
+> BEGIN STRING
+専心
+> CONTEXT: States/103/name/
+> CONTEXT: Armors/175/name/
+> CONTEXT: Skills/600/name/
+> CONTEXT: Commonevents/280/344/Choice/3
+> CONTEXT: Commonevents/280/344/Choice/3
+> CONTEXT: Commonevents/280/914/Choice/3
+> CONTEXT: Commonevents/280/914/Choice/3
+> CONTEXT: Commonevents/280/1380/Choice/3
+> CONTEXT: Commonevents/280/1380/Choice/3
+Focus
+> END STRING
+
+> BEGIN STRING
+挑発
+> CONTEXT: States/104/name/
+Provocation
+> END STRING
+
+> BEGIN STRING
+拘束
+> CONTEXT: States/105/name/
+> CONTEXT: Map600/events/1/pages/0/27/Choice/0
+> CONTEXT: Map600/events/1/pages/0/27/Choice/0
+> CONTEXT: Map600/events/1/pages/0/68/Choice/0
+> CONTEXT: Map600/events/1/pages/0/68/Choice/0
+> CONTEXT: Map586/events/11/pages/0/27/Choice/0
+> CONTEXT: Map586/events/11/pages/0/27/Choice/0
+> CONTEXT: Map586/events/11/pages/0/68/Choice/0
+> CONTEXT: Map586/events/11/pages/0/68/Choice/0
+> CONTEXT: Map472/events/7/pages/0/28/Choice/0
+> CONTEXT: Map472/events/7/pages/0/28/Choice/0
+> CONTEXT: Map472/events/7/pages/0/69/Choice/0
+> CONTEXT: Map472/events/7/pages/0/69/Choice/0
+> CONTEXT: Commonevents/280/464/Choice/3
+> CONTEXT: Commonevents/280/464/Choice/3
+> CONTEXT: Commonevents/280/940/Choice/2
+> CONTEXT: Commonevents/280/940/Choice/2
+> CONTEXT: Commonevents/280/1500/Choice/3
+> CONTEXT: Commonevents/280/1500/Choice/3
+Restraint
+> END STRING
+
+> BEGIN STRING
+破面
+> CONTEXT: States/106/name/
+Fracture
+> END STRING
+
+> BEGIN STRING
+完全拘束
+> CONTEXT: States/107/name/ < UNTRANSLATED
+> CONTEXT: Map600/events/1/pages/0/27/Choice/1 < UNTRANSLATED
+> CONTEXT: Map600/events/1/pages/0/68/Choice/1 < UNTRANSLATED
+> CONTEXT: Map586/events/11/pages/0/27/Choice/1 < UNTRANSLATED
+> CONTEXT: Map586/events/11/pages/0/68/Choice/1 < UNTRANSLATED
+> CONTEXT: Map472/events/7/pages/0/28/Choice/1 < UNTRANSLATED
+> CONTEXT: Map472/events/7/pages/0/69/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/715/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/981/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1751/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+裸足
+> CONTEXT: States/108/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マーキング足
+> CONTEXT: States/109/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+奴隷
+> CONTEXT: States/110/name/ < UNTRANSLATED
+> CONTEXT: Map600/events/1/pages/0/27/Choice/2 < UNTRANSLATED
+> CONTEXT: Map600/events/1/pages/0/68/Choice/2 < UNTRANSLATED
+> CONTEXT: Map586/events/11/pages/0/27/Choice/2 < UNTRANSLATED
+> CONTEXT: Map586/events/11/pages/0/68/Choice/2 < UNTRANSLATED
+> CONTEXT: Map472/events/7/pages/0/28/Choice/2 < UNTRANSLATED
+> CONTEXT: Map472/events/7/pages/0/69/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/594/Choice/3 < UNTRANSLATED
+> CONTEXT: Commonevents/280/958/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1630/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+奴隷印
+> CONTEXT: States/111/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミラー
+> CONTEXT: States/112/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+女体化
+> CONTEXT: States/113/name/ < UNTRANSLATED
+> CONTEXT: Commonevents/280/594/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1630/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+限界突破
+> CONTEXT: States/114/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファスト
+> CONTEXT: States/115/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミルキィ
+> CONTEXT: States/117/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+母乳中毒
+> CONTEXT: States/118/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マゾの目覚め
+> CONTEXT: States/119/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+骨抜き
+> CONTEXT: States/120/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+眠り
+> CONTEXT: States/121/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+飢え
+> CONTEXT: States/122/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+特殊脱衣
+> CONTEXT: States/123/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+中出し
+> CONTEXT: States/124/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+外出し
+> CONTEXT: States/125/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+愛液中毒
+> CONTEXT: States/126/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+てかげん
+> CONTEXT: States/127/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+契約干渉
+> CONTEXT: States/128/name/ < UNTRANSLATED
+> CONTEXT: Commonevents/280/715/Choice/3 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1751/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダメージ移し準備
+> CONTEXT: States/129/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+誘惑
+> CONTEXT: States/131/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+自慰衝動
+> CONTEXT: States/132/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+我慢
+> CONTEXT: States/133/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+簡易・現の壁
+> CONTEXT: Skills/1147/name/ < UNTRANSLATED
+> CONTEXT: Skills/2599/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+媚薬精液
+> CONTEXT: States/135/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+受け入れる
+> CONTEXT: States/136/name/
+> CONTEXT: Skills/144/name/
+Accept
+> END STRING
+
+> BEGIN STRING
+■開発度
+> CONTEXT: States/137/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キッス開発度(低)
+> CONTEXT: States/138/name/
+Kiss sensitivity(low)
+> END STRING
+
+> BEGIN STRING
+キッス開発度(高)
+> CONTEXT: States/139/name/
+Kiss sensitivity(high)
+> END STRING
+
+> BEGIN STRING
+口開発度(低)
+> CONTEXT: States/140/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+口開発度(高)
+> CONTEXT: States/141/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+胸開発度(低)
+> CONTEXT: States/142/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+胸開発度(高)
+> CONTEXT: States/143/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+尻開発度(低)
+> CONTEXT: States/144/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+尻開発度(高)
+> CONTEXT: States/145/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ペニス開発度(低)
+> CONTEXT: States/146/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ペニス開発度(高)
+> CONTEXT: States/147/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アソコ開発度(低)
+> CONTEXT: States/148/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アソコ開発度(高)
+> CONTEXT: States/149/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+被虐開発度(低)
+> CONTEXT: States/150/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+被虐開発度(高)
+> CONTEXT: States/151/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+挿入開発度(♂側)(低)
+> CONTEXT: States/152/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+挿入開発度(♂側)(高)
+> CONTEXT: States/153/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+挿入開発度(♀側)(低)
+> CONTEXT: States/154/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+挿入開発度(♀側)(高)
+> CONTEXT: States/155/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+異形攻め開発度(低)
+> CONTEXT: States/156/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+異形攻め開発度(高)
+> CONTEXT: States/157/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+口挿入開発度(口側)(低)
+> CONTEXT: States/158/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+口挿入開発度(口側)(高)
+> CONTEXT: States/159/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+口挿入開発度(♂側)(低)
+> CONTEXT: States/160/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+口挿入開発度(♂側)(高)
+> CONTEXT: States/161/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+手淫開発度(低)
+> CONTEXT: States/162/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+手淫開発度(高)
+> CONTEXT: States/163/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+尻挿入開発度(尻側)(低)
+> CONTEXT: States/164/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+尻挿入開発度(尻側)(高)
+> CONTEXT: States/165/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+尻挿入開発度(♂側)(低)
+> CONTEXT: States/166/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+尻挿入開発度(♂側)(高)
+> CONTEXT: States/167/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+顔面騎乗開発度(低)
+> CONTEXT: States/168/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+顔面騎乗開発度(高)
+> CONTEXT: States/169/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+貝合わせ開発度(低)
+> CONTEXT: States/170/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+貝合わせ開発度(高)
+> CONTEXT: States/171/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パイズリ開発度(低)
+> CONTEXT: States/172/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パイズリ開発度(高)
+> CONTEXT: States/173/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ぱふぱふ開発度(低)
+> CONTEXT: States/174/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ぱふぱふ開発度(高)
+> CONTEXT: States/175/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+その他身体開発度(低)
+> CONTEXT: States/176/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+その他身体開発度(高)
+> CONTEXT: States/177/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+性交の虜
+> CONTEXT: States/181/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+乳の虜
+> CONTEXT: States/182/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+口淫の虜
+> CONTEXT: States/183/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キスの虜
+> CONTEXT: States/184/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キッスを忘れる
+> CONTEXT: States/190/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+バストを忘れる
+> CONTEXT: States/191/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ヒップを忘れる
+> CONTEXT: States/192/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+クロッチを忘れる
+> CONTEXT: States/193/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+唇に釘付け
+> CONTEXT: States/195/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+胸に釘付け
+> CONTEXT: States/196/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アソコに釘付け
+> CONTEXT: States/197/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+脚に釘付け
+> CONTEXT: States/198/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■行動制御用
+> CONTEXT: States/200/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔法禁止
+> CONTEXT: States/201/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+回復魔法禁止
+> CONTEXT: States/202/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+没
+> CONTEXT: States/203/name/ < UNTRANSLATED
+> CONTEXT: States/204/name/ < UNTRANSLATED
+> CONTEXT: States/223/name/ < UNTRANSLATED
+> CONTEXT: States/224/name/ < UNTRANSLATED
+> CONTEXT: States/225/name/ < UNTRANSLATED
+> CONTEXT: States/226/name/ < UNTRANSLATED
+> CONTEXT: States/227/name/ < UNTRANSLATED
+> CONTEXT: States/228/name/ < UNTRANSLATED
+> CONTEXT: States/229/name/ < UNTRANSLATED
+> CONTEXT: States/239/name/ < UNTRANSLATED
+> CONTEXT: States/240/name/ < UNTRANSLATED
+> CONTEXT: System/elements/232/ < UNTRANSLATED
+> CONTEXT: States/314/name/ < UNTRANSLATED
+> CONTEXT: Skills/1226/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イクリプス
+> CONTEXT: States/205/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ブルームーン
+> CONTEXT: States/206/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ブラッドムーン
+> CONTEXT: States/207/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スーパームーン
+> CONTEXT: States/208/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+新月
+> CONTEXT: States/209/name/ < UNTRANSLATED
+> CONTEXT: States/214/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+三日月
+> CONTEXT: States/210/name/ < UNTRANSLATED
+> CONTEXT: States/215/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+上弦の月
+> CONTEXT: States/211/name/ < UNTRANSLATED
+> CONTEXT: States/216/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+十六夜
+> CONTEXT: States/212/name/ < UNTRANSLATED
+> CONTEXT: States/217/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+満月
+> CONTEXT: States/213/name/ < UNTRANSLATED
+> CONTEXT: States/218/name/ < UNTRANSLATED
+> CONTEXT: States/219/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■補正用
+> CONTEXT: States/220/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+追撃率補正１
+> CONTEXT: States/221/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+追撃率補正２
+> CONTEXT: States/222/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+不慣れな統率
+> CONTEXT: States/230/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+未熟な連携
+> CONTEXT: States/231/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魅力強化
+> CONTEXT: States/232/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精力強化
+> CONTEXT: States/233/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+器用強化
+> CONTEXT: States/234/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+忍耐強化
+> CONTEXT: States/235/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精神強化
+> CONTEXT: States/236/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+素早さ強化
+> CONTEXT: States/237/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アイテム全体化
+> CONTEXT: States/238/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+強化陣
+> CONTEXT: States/242/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+弱化陣
+> CONTEXT: States/243/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔の契約
+> CONTEXT: States/244/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+技能陣
+> CONTEXT: States/245/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+追撃陣
+> CONTEXT: States/246/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■ポート等で解除なし
+> CONTEXT: States/250/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+処女
+> CONTEXT: States/251/name/ < UNTRANSLATED
+> CONTEXT: Commonevents/280/715/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/981/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1751/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+破瓜(処女喪失)
+> CONTEXT: States/252/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+童貞
+> CONTEXT: States/253/name/
+> CONTEXT: Commonevents/280/715/Choice/1
+> CONTEXT: Commonevents/280/981/Choice/1
+> CONTEXT: Commonevents/280/1751/Choice/1
+Virgin
+> END STRING
+
+> BEGIN STRING
+筆降ろし(童貞卒業)
+> CONTEXT: States/254/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+女体化(システム)
+> CONTEXT: States/255/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ふたなり(システム)
+> CONTEXT: States/256/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+発情
+> CONTEXT: States/258/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+破瓜
+> CONTEXT: States/259/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+筆降ろし
+> CONTEXT: States/260/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+着衣不可
+> CONTEXT: States/261/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ジョーカー
+> CONTEXT: States/262/name/ < UNTRANSLATED
+> CONTEXT: Armors/386/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+降参
+> CONTEXT: States/263/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+溺欲
+> CONTEXT: States/264/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メイド
+> CONTEXT: States/265/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夜這星
+> CONTEXT: States/266/name/ < UNTRANSLATED
+> CONTEXT: Skills/1275/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+無抵抗
+> CONTEXT: States/268/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+即絶頂
+> CONTEXT: States/269/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホールド変化許可
+> CONTEXT: States/270/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホールド強奪許可
+> CONTEXT: States/271/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+淫夢
+> CONTEXT: States/272/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+手枷
+> CONTEXT: States/273/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+足枷
+> CONTEXT: States/274/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+磔拘束
+> CONTEXT: States/275/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+怒張
+> CONTEXT: States/276/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+短小
+> CONTEXT: States/277/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+混濁
+> CONTEXT: States/278/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+玩具
+> CONTEXT: States/279/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+幼児化
+> CONTEXT: States/280/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+幼児化永続
+> CONTEXT: States/281/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+幻覚
+> CONTEXT: States/282/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+挑発された
+> CONTEXT: States/283/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+懇願された
+> CONTEXT: States/284/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+焦らしスイッチ
+> CONTEXT: States/285/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+狂乱
+> CONTEXT: States/286/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+射精準備
+> CONTEXT: States/287/name/ < UNTRANSLATED
+> CONTEXT: Skills/136/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホールド誘導許可
+> CONTEXT: States/288/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メタルスキン
+> CONTEXT: States/289/name/ < UNTRANSLATED
+> CONTEXT: Skills/138/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メタルスキン使用制限
+> CONTEXT: States/290/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アネモネクロッチ
+> CONTEXT: States/291/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+タイトクロッチ
+> CONTEXT: States/292/name/
+Tight crotch
+> END STRING
+
+> BEGIN STRING
+バイブレーション
+> CONTEXT: States/293/name/ < UNTRANSLATED
+> CONTEXT: Skills/1247/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デモンズバキューム
+> CONTEXT: States/294/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+迎撃
+> CONTEXT: States/295/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+危険
+> CONTEXT: States/296/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精液吸収(画像変化)
+> CONTEXT: States/297/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+管理
+> CONTEXT: States/298/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+絶頂不能
+> CONTEXT: States/299/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔の上級ホールド
+> CONTEXT: States/300/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手を絶頂させた
+> CONTEXT: States/301/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手を失神させた
+> CONTEXT: States/302/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホールド解除スキルを受けた
+> CONTEXT: States/303/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エネミー複数行動追撃許可
+> CONTEXT: States/304/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エネミー3回行動
+> CONTEXT: States/305/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エネミー4回行動
+> CONTEXT: States/306/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+2回行動
+> CONTEXT: States/307/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+自慰衝動が重症化
+> CONTEXT: States/308/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ヘルプ依頼中
+> CONTEXT: States/311/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アウルム触手の溜め攻撃
+> CONTEXT: States/312/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+貧乳
+> CONTEXT: States/313/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+淫魔化
+> CONTEXT: States/315/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+呪い
+> CONTEXT: States/316/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+温もり
+> CONTEXT: States/317/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+満足
+> CONTEXT: States/318/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パウダー
+> CONTEXT: States/319/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マーキング（付与ターンのみ）
+> CONTEXT: States/320/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+分身
+> CONTEXT: States/323/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔粘液
+> CONTEXT: States/324/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+蜘蛛の巣
+> CONTEXT: States/325/name/ < UNTRANSLATED
+> CONTEXT: Skills/1323/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キスマーク（唇）
+> CONTEXT: States/326/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キスマーク（胸）
+> CONTEXT: States/327/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キスマーク（頬）
+> CONTEXT: States/328/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ちょっと小さい
+> CONTEXT: States/330/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+かなり小さい
+> CONTEXT: States/331/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+すごく小さい
+> CONTEXT: States/332/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ちょっと大きい
+> CONTEXT: States/333/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+かなり大きい
+> CONTEXT: States/334/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+すごく大きい
+> CONTEXT: States/335/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+バーチャルアクセプト制限
+> CONTEXT: States/340/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インサート制限
+> CONTEXT: States/341/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アクセプト制限
+> CONTEXT: States/342/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シェルマッチ制限
+> CONTEXT: States/343/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エキサイトビュー制限
+> CONTEXT: States/344/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+オーラルインサート制限
+> CONTEXT: States/345/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+オーラルアクセプト制限
+> CONTEXT: States/346/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドロウネクター制限
+> CONTEXT: States/347/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+フラッタナイズ制限
+> CONTEXT: States/348/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+バックインサート制限
+> CONTEXT: States/349/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+バックアクセプト制限
+> CONTEXT: States/350/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インモラルビュー制限
+> CONTEXT: States/351/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エンブレイス制限
+> CONTEXT: States/352/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ペリスコープ制限
+> CONTEXT: States/353/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ヘブンリーフィール制限
+> CONTEXT: States/354/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テイルインサート制限
+> CONTEXT: States/355/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テイルインマウス制限
+> CONTEXT: States/356/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テイルインバック制限
+> CONTEXT: States/357/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ディルドインサート制限
+> CONTEXT: States/358/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ディルドインマウス制限
+> CONTEXT: States/359/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ディルドインバック制限
+> CONTEXT: States/360/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テンタクルインサート制限
+> CONTEXT: States/361/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テンタクルインマウス制限
+> CONTEXT: States/362/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テンタクルインバック制限
+> CONTEXT: States/363/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デモンズアブソーブ制限
+> CONTEXT: States/364/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デモンズドロウ制限
+> CONTEXT: States/365/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デモンズミルキング制限
+> CONTEXT: States/366/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エキサイトバインド制限
+> CONTEXT: States/367/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+フィンガーインバック制限
+> CONTEXT: States/368/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドロウビター制限
+> CONTEXT: States/369/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+誘惑・挿入制限
+> CONTEXT: States/370/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+誘惑・パイズリ制限
+> CONTEXT: States/371/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+誘惑・ぱふぱふ制限
+> CONTEXT: States/372/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+誘惑・フェラチオ制限
+> CONTEXT: States/373/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+誘惑・キッス制限
+> CONTEXT: States/374/name/
+Temptation・Kiss
+> END STRING
+
+> BEGIN STRING
+ホールドテイル制限
+> CONTEXT: States/375/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+フォーリンヘブン制限
+> CONTEXT: States/376/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エレキテルプレス制限
+> CONTEXT: States/377/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+やすらぎの抱擁制限
+> CONTEXT: States/378/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スピニングフォース制限
+> CONTEXT: States/379/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホールアクセプト制限
+> CONTEXT: States/380/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ランチパッド制限
+> CONTEXT: States/382/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+誘惑・アナル挿入制限
+> CONTEXT: States/383/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ヘルムマッチ制限
+> CONTEXT: States/384/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+クイーンズドッグ制限
+> CONTEXT: States/385/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インサルトプレス制限
+> CONTEXT: States/386/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シザークロス
+> CONTEXT: States/388/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+もがく使用制限
+> CONTEXT: States/389/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ルーレットグラインド 使用制限
+> CONTEXT: States/390/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ヘブンリーラッシュ 使用制限
+> CONTEXT: States/391/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ストロークラッシュ 使用制限
+> CONTEXT: States/392/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ピローグラインド 使用制限
+> CONTEXT: States/393/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+堕淫の波動 使用制限
+> CONTEXT: States/394/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+蜥蜴舌使用制限
+> CONTEXT: States/395/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+分身使用制限
+> CONTEXT: States/396/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+教典
+> CONTEXT: States/420/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+氷壁
+> CONTEXT: States/421/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+淫紋・増幅
+> CONTEXT: States/422/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+淫紋・口淫
+> CONTEXT: States/423/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+淫紋・乳淫
+> CONTEXT: States/424/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+淫紋・尻淫
+> CONTEXT: States/425/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+淫紋・女淫
+> CONTEXT: States/426/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+淫紋・男淫
+> CONTEXT: States/427/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+淫紋・性交
+> CONTEXT: States/428/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+防膜
+> CONTEXT: States/429/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+防盾
+> CONTEXT: States/430/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+粘癒
+> CONTEXT: States/431/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+物防
+> CONTEXT: States/432/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔防
+> CONTEXT: States/433/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+点火
+> CONTEXT: States/434/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔虫
+> CONTEXT: States/435/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔蛹
+> CONTEXT: States/436/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔蝶
+> CONTEXT: States/437/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔蛾
+> CONTEXT: States/438/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+狙われ
+> CONTEXT: States/439/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔力増幅
+> CONTEXT: States/440/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+罠設置
+> CONTEXT: States/441/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+憑依
+> CONTEXT: States/442/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+反撃
+> CONTEXT: States/443/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+現の壁
+> CONTEXT: States/134/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+融合体
+> CONTEXT: States/444/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+超敏感
+> CONTEXT: States/445/name/ < UNTRANSLATED
+
+> END STRING

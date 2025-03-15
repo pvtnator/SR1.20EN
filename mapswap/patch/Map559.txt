@@ -1,0 +1,44 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+\\name[\\v[2]]\\_
+サービスとしてこちらも付けておきますね！
+> CONTEXT: Map559/events/1/pages/0/36/Dialogue
+> CONTEXT: Map557/events/1/pages/1/33/Dialogue
+> CONTEXT: Map555/events/1/pages/0/37/Dialogue
+> CONTEXT: Map183/events/8/pages/0/29/Dialogue
+> CONTEXT: Map182/events/1/pages/0/38/Dialogue
+> CONTEXT: Map185/events/16/pages/0/29/Dialogue
+\\name[\\v[2]]\\_
+We'll also include this as a service!
+> END STRING
+
+> BEGIN STRING
+出演料として \\v[2]lps. もらった。
+> CONTEXT: Map559/events/1/pages/0/66/Dialogue
+> CONTEXT: Map557/events/1/pages/1/63/Dialogue
+> CONTEXT: Map555/events/1/pages/0/67/Dialogue
+> CONTEXT: Map184/events/9/pages/0/52/Dialogue
+> CONTEXT: Map182/events/1/pages/0/68/Dialogue
+> CONTEXT: Map185/events/17/pages/0/44/Dialogue
+Received \\v[2] Lps. as my performance fee.
+> END STRING
+
+> BEGIN STRING
+"LASTBOSS"
+> CONTEXT: Map559/events/2/pages/7/10/InlineScript/4:8 < UNTRANSLATED
+> CONTEXT: Map559/events/2/pages/13/10/InlineScript/4:8 < UNTRANSLATED
+> CONTEXT: Map559/events/2/pages/14/10/InlineScript/4:8 < UNTRANSLATED
+> CONTEXT: Map559/events/2/pages/17/10/InlineScript/4:8 < UNTRANSLATED
+> CONTEXT: Map185/events/2/pages/7/10/InlineScript/4:8 < UNTRANSLATED
+> CONTEXT: Map185/events/2/pages/13/10/InlineScript/4:8 < UNTRANSLATED
+> CONTEXT: Map185/events/2/pages/14/10/InlineScript/4:8 < UNTRANSLATED
+> CONTEXT: Map185/events/2/pages/17/10/InlineScript/4:8 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"メリジューヌ"
+> CONTEXT: Map559/events/2/pages/11/10/InlineScript/9:25
+> CONTEXT: Map185/events/2/pages/11/10/InlineScript/9:25
+"Meligene"
+> END STRING

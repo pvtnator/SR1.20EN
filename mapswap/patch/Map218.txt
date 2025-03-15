@@ -1,0 +1,65 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+"悪くないスライム"
+> CONTEXT: None < UNUSED
+"Non-hostile Slime"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+戦闘でスライムの粘液を受けると、
+マップでの移動速度がしばらく落ちちゃうんだ。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+If you get slime on you in battle, your movement speed 
+on the map will be reduced for a while.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ぼくたちスライムは動きが遅いけど、
+ぬるぬるになったら掴まっちゃうかもね。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+We slimes move slowly, but when someone is slimy,
+we might be able to catch them.
+> END STRING
+
+> BEGIN STRING
+"カエル"
+> CONTEXT: None < UNUSED
+"Frog"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+【手際よい採取】のルーンは使ってるかい？
+これがあるだけで採取はかなり楽になる。\\_
+３、４人いればほんと一瞬さ。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Are you using the [Easy harvest] rune?
+This alone makes harvesting much easier. 
+With 3 or 4 people, it will take but a moment.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+採取はお金になるものが出てきたり、
+良いアイテムと交換できたりすることが多いんだ。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Collecting often yields things that can be made 
+into money or can be exchanged for better items.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+探索中で何回も足を運ぶことがありそうってのなら、
+その合間にやっとくのがいいよ。
+塵も積もればってやつさ。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+If you're likely to visit an area several times while exploring, 
+it's best to stop by in between. This stuff accumulates.
+> END STRING

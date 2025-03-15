@@ -1,0 +1,696 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+"火の玉"
+> CONTEXT: Map347/events/1/pages/0/0/InlineScript/1:22
+"Fiery orb"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おや、最近は人間のお客さんが多いね。
+現役だった頃でもこんな所に来ることなんてそうそう\\_
+無かったのに。
+> CONTEXT: Map347/events/1/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+Oh, there are a lot of human guests these days.
+Even when I was active, I didn't often come here.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+君がリジェオを。\\|よくこの悪魔たちの中切り抜けてきたね。
+現役だった頃でもこんな所に来ることなんてそうそう\\_
+無かったのに。\\nすごいじゃないか。
+> CONTEXT: Map347/events/1/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+Rigeo. \\|You've managed to get through the demons well.
+Even when I was active, I didn't often come here.
+Isn't it amazing?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+君はラーミルの弟子の子だね。
+ラーミルが前に来た時に一緒にいたのを見かけたから、\\_
+容姿は知ってるよ。
+> CONTEXT: Map347/events/1/pages/0/15/Dialogue
+\\name[\\v[2]]\\_
+You are one of Ramil's disciples.
+When Ramil came here, I caught sight of your appearance.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+まぁあれは本当の君じゃないがね。
+･･･くっくっ、改めて見ると可愛らしい子じゃないか。
+こんな姿で無けりゃ一度抱いてみたかったんだがね。
+> CONTEXT: Map347/events/1/pages/0/20/Dialogue < UNTRANSLATED
+> CONTEXT: Map347/events/1/pages/0/27/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+まぁあれは本当の君じゃないがね。\\_
+君は思ったより男らしい子のようだ。
+･･･くっくっ、こんな姿じゃ無けりゃ一度抱かれてみたかったよ。
+> CONTEXT: Map347/events/1/pages/0/33/Dialogue
+\\name[\\v[2]]\\_
+Well, that was not the real you. You seem more manly 
+than I thought...Huhhuh, if it wasn't for this figure, 
+I would have loved to be held in your arms just once.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+自己紹介が遅れたね。
+私はカオシア。【饗宴の魔女】を冠する魔女。
+そしてパルフィス密教会の元主導者さ。
+> CONTEXT: Map347/events/1/pages/0/41/Dialogue
+\\name[\\v[2]]\\_
+I haven't introduced myself yet. I'm Chaosia. 
+A witch who wears the title [Witch of the Feast].
+Also the former leader of the Palfis Secret Church.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+さて、何か聞きたいことはあるかい？
+> CONTEXT: Map347/events/1/pages/1/48/Dialogue
+> CONTEXT: Map347/events/1/pages/1/69/Dialogue
+\\name[\\v[2]]\\_
+Well, is there anything you'd like to ask?
+> END STRING
+
+> BEGIN STRING
+あなたは？
+> CONTEXT: Map347/events/1/pages/1/50/Choice/0
+> CONTEXT: Map347/events/1/pages/1/71/Choice/0
+> CONTEXT: Map347/events/1/pages/1/52/Label
+> CONTEXT: Map347/events/1/pages/1/73/Label
+> CONTEXT: Map347/events/1/pages/1/88/Label
+You...?
+> END STRING
+
+> BEGIN STRING
+滞在機について
+> CONTEXT: Map347/events/1/pages/1/50/Choice/1
+> CONTEXT: Map347/events/1/pages/1/71/Choice/1
+> CONTEXT: Map347/events/1/pages/1/55/Label
+> CONTEXT: Map347/events/1/pages/1/76/Label
+> CONTEXT: Map347/events/1/pages/1/113/Label
+Staying Machine
+> END STRING
+
+> BEGIN STRING
+夢の賑やかしについて
+> CONTEXT: Map347/events/1/pages/1/50/Choice/2
+> CONTEXT: Map347/events/1/pages/1/71/Choice/2
+> CONTEXT: Map347/events/1/pages/1/58/Label
+> CONTEXT: Map347/events/1/pages/1/79/Label
+> CONTEXT: Map347/events/1/pages/1/143/Label
+About "extras"
+> END STRING
+
+> BEGIN STRING
+明晰の泉について
+> CONTEXT: Map347/events/1/pages/1/50/Choice/3
+> CONTEXT: Map347/events/1/pages/1/61/Label
+> CONTEXT: Map347/events/1/pages/1/176/Label
+Fountains of Lucidity
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私はカオシア。【饗宴の魔女】を冠する魔女さ。
+> CONTEXT: Map347/events/1/pages/1/90/Dialogue
+\\name[\\v[2]]\\_
+I'm Chaosia. 
+A witch who wears the title of [Witch of the Feast].
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]とはいえちょっと前に不意を食らってさ。
+なんとか夢世界で生きれるようにはしたけど、\\_
+今はただの浮遊する思念体。
+そんなこと言える力なんて僅かも残ってないんだがね。
+> CONTEXT: Map347/events/1/pages/1/92/Dialogue
+\\name[\\v[2]]\\_
+I was struck by surprise a while ago. I managed to live in the 
+dream world, but now I'm just a floating thought object.
+I don't have any strength left to speak of.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+パルフィス密教会は元々夢を通して夢魔と交流し、
+人と夢魔が互いの文化を知る場として創設したんだ。
+> CONTEXT: Map347/events/1/pages/1/96/Dialogue
+\\name[\\v[2]]\\_
+Palfis Secret Church was originally established as a place 
+for people and succubi to communicate through dreams 
+and learn about each other's culture.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+当然、夢魔との交流に堕落はつきものだ。
+それにお偉いお堅い人たちからはそりゃもう非難轟々でね。
+> CONTEXT: Map347/events/1/pages/1/99/Dialogue
+\\name[\\v[2]]\\_
+Naturally, corruption is inevitable when interacting 
+with succubi. Moreover, there was a lot of criticism 
+conservative people in charge.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それで隠れてやってたんだが、それが仇になってこんな\\_
+終いさ。
+> CONTEXT: Map347/events/1/pages/1/102/Dialogue
+\\name[\\v[2]]\\_
+So I did it in secret, but it backfired and ended like this.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+本来なら私がなんとかするべきなんだが･･･。
+> CONTEXT: Map347/events/1/pages/1/105/Dialogue
+\\name[\\v[2]]\\_
+Normally, I would do something about it, but...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こんな姿だと夢魔どころか赤子の相手すらできないんだ。
+君が行動してくれるというなら、助言しかできないが\\_
+私は喜んで手を貸そう。
+> CONTEXT: Map347/events/1/pages/1/107/Dialogue
+\\name[\\v[2]]\\_
+Looking like this, I can't even deal with a baby, 
+let alone a succubus. If you're willing to take action, 
+I can only give advice, but I'll be happy to help.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あれには危険因子が隠されていた。
+私が肉無しでこんな所にいるのもそれが理由だろう。
+> CONTEXT: Map347/events/1/pages/1/115/Dialogue
+\\name[\\v[2]]\\_
+There were unknown risk factors.
+That's probably why I'm here without flesh.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+君が夢世界に来ている時点でもはやほとんど手遅れだろう。
+君みたいな者もこれからどんどんと増えていくことになる。
+> CONTEXT: Map347/events/1/pages/1/118/Dialogue
+\\name[\\v[2]]\\_
+By the time you came to the dream world, it was almost too late.
+People like you will continue to arrive.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]不幸中の幸いで君はポートの登録が\\_
+出来てるから良いが、\\n他の人間はそうもいかない。明晰で\\_
+きていない夢に飲み込まれてしまえば、
+待ち受けるのは精神の崩壊のみだ。
+> CONTEXT: Map347/events/1/pages/1/121/Dialogue
+\\name[\\v[2]]\\_
+Fortunately, you can register at ports, but other's can't.
+If you are engulfed by a dream that is not lucid, 
+the only thing that awaits you is a mental breakdown.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+【秩序の魔女】の弟子である君のような子こそ、
+普通夢世界には適さないものだが･･･。
+どうやら君は夢世界での生き方を随分と心得ているようだ。
+> CONTEXT: Map347/events/1/pages/1/125/Dialogue
+\\name[\\v[2]]\\_
+A kid like you, a disciple of the [Witch of Order], is not 
+normally suitable for the dream world... But it seems you know 
+quite a bit about how to live in a dream world.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+君は君のやり方でやるといい。
+大事なものを守る理性が残っているうちにな。
+> CONTEXT: Map347/events/1/pages/1/129/Dialogue
+\\name[\\v[2]]\\_
+You should do it your way.
+While you still retain your reason to protect 
+what's important to you.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+滞在機の悪用は、\\_
+「滞在機を設置された魔力を多く持つ者」と、
+「大量の現の魔力を持つ者」で為される。
+> CONTEXT: Map347/events/1/pages/1/132/Dialogue
+\\name[\\v[2]]\\_
+Abuse of Staying Machine is carried out by those with a 
+lot of magical power, who installed the Staying Machine
+and those with a large amount of real magical power.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+前者は君ならもう分かっているだろう。
+問題は後者。こいつは「人間と大量に契約した夢魔」さ。
+> CONTEXT: Map347/events/1/pages/1/136/Dialogue
+\\name[\\v[2]]\\_
+You probably already know about the former.
+The problem is the latter. A succubus who has 
+made contracts with a large number of humans.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+信者全員と契約関係にしている教会の主とかな。
+> CONTEXT: Map347/events/1/pages/1/139/Dialogue
+\\name[\\v[2]]\\_
+Like the head of a church who has a 
+covenant relationship with all believers.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢を見れば自分のよく知る知人や、印象的な\\_
+赤の他人などをよく見るだろう。
+夢世界でも同様にな。
+> CONTEXT: Map347/events/1/pages/1/145/Dialogue
+\\name[\\v[2]]\\_
+When you dream, you often see acquaintances you know well, 
+or strangers with an impressive appearance.
+The same goes for the dream world.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それらは現実の人間本人か？　いや違うだろう？
+あれは人の記憶、思考、無意識から生み出された\\_
+夢の存在さ。
+> CONTEXT: Map347/events/1/pages/1/149/Dialogue
+\\name[\\v[2]]\\_
+Are they real people? No, they're not, right?
+That is the existence of dreams created from people's 
+memories, thoughts, and unconsciousness.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「彼ならああ動く」「彼女はこんな人だろう」
+「あの人をこうしたい」「あの子とこうなりたい」
+> CONTEXT: Map347/events/1/pages/1/153/Dialogue
+\\name[\\v[2]]\\_
+"He would move like that", "She would be like this",
+"I want to do this with that person",
+"I want to do this with that girl"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それら他者への印象を夢世界は無差別に反映し、\\_
+人形を作る。
+そして彼らはその「設定」に忠実に動くのさ。
+> CONTEXT: Map347/events/1/pages/1/156/Dialogue
+\\name[\\v[2]]\\_
+The dream world indiscriminately reflects these 
+impressions on others and creates dolls.
+And they move faithfully to those "settings".
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+多少のおかしな点も気付かずにな。
+夢世界は違和感を鈍麻させるんだ。
+> CONTEXT: Map347/events/1/pages/1/160/Dialogue
+\\name[\\v[2]]\\_
+You don't even notice the slightest oddity.
+The dream world blunts the sense of discomfort.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+その賑やかしたちのことを、
+私たちが皮肉でなんと言ってるか知っているかい？
+> CONTEXT: Map347/events/1/pages/1/163/Dialogue
+\\name[\\v[2]]\\_
+You know another name we call these "extras", in sarcasm?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「キャスト」さ。
+> CONTEXT: Map347/events/1/pages/1/166/Dialogue
+\\name[\\v[2]]\\_
+"Cast".
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私が言うのもおこがましいだろうが、君の健闘を祈るよ。
+> CONTEXT: Map347/events/1/pages/1/172/Dialogue
+\\name[\\v[2]]\\_
+It may be presumptuous of me to say this, 
+but I wish you all the best.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ほう、明晰の泉の力を引き出す、か。
+> CONTEXT: Map347/events/1/pages/1/178/Dialogue
+\\name[\\v[2]]\\_
+Hoo, drawing out the power of Fountains of Lucidity, huh?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+簡単にして単純にして君では無理だ。
+現役の私ぐらい魔力があれば強引にできたというだけさ。
+> CONTEXT: Map347/events/1/pages/1/180/Dialogue
+\\name[\\v[2]]\\_
+To put it in simple terms, you can't do it.
+With enough magical power, you could do it by force.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+くくく。まぁ、君では無理というだけだよ。
+私と同格、もしくはそれ以上の魔力を持つ子に
+協力してもらえれば良いだけさ。
+> CONTEXT: Map347/events/1/pages/1/183/Dialogue
+\\name[\\v[2]]\\_
+Khukhuh. Well, it's just that you can't do it.
+You just need to cooperate with a girl with magical powers 
+greater than yours.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ちょうどいい奴がいるんじゃないか？
+現の世界では人間たちの宿敵として恐れられてきた、
+なんて言われてきている魔族の長とかな。
+> CONTEXT: Map347/events/1/pages/1/187/Dialogue
+\\name[\\v[2]]\\_
+Isn't there someone who would be ideal?
+In the current world, she is the leader of the demons, 
+who is said to be feared as the mortal enemy of humans.
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+･･･ほう、それは誰に向かっての発言だ？　貴様。
+> CONTEXT: Map347/events/1/pages/1/192/Dialogue
+\\name[Gilgorn]\\_
+...Hmm, who is that statement directed at? You little...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、相変わらず野蛮だね君は。
+許してくれ、許してくれなんて言っていた君が恋しいよ。
+> CONTEXT: Map347/events/1/pages/1/194/Dialogue
+\\name[\\v[2]]\\_
+Hehe, you're as barbaric as ever.
+I miss when you said "forgive me, please forgive me".
+> END STRING
+
+> BEGIN STRING
+\\name[ギルゴーン]\\_
+･･･貴様、この件が終わったらどうなるか、覚えておけよ。
+> CONTEXT: Map347/events/1/pages/1/197/Dialogue
+\\name[Gilgorn]\\_
+...Keep in mind what will happen when this matter is over.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+くくくっ･･･。
+> CONTEXT: Map347/events/1/pages/1/199/Dialogue
+\\name[\\v[2]]\\_
+Khukhuh...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･しかし、現の魔力か。
+> CONTEXT: Map347/events/1/pages/1/203/Dialogue
+\\name[\\v[2]]\\_
+...But, real magical power?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+君の望みはなんだい？
+> CONTEXT: Map347/events/1/pages/1/205/Dialogue
+\\name[\\v[2]]\\_
+What is your wish?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この夢世界を歩き回り、夢を知り、己を知り、
+なおそれに踊らされず、切に君が欲しがったものさ。
+> CONTEXT: Map347/events/1/pages/1/207/Dialogue
+\\name[\\v[2]]\\_
+Walking around this dream world, knowing your dreams, 
+knowing yourself, and still not being swayed by them, 
+is what you so desperately wanted.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+現の魔力はそれを叶えてくれることだろう。
+> CONTEXT: Map347/events/1/pages/1/210/Dialogue
+\\name[\\v[2]]\\_
+The real magic power will make that possible.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それが君のより良い選択であることを祈るよ。
+> CONTEXT: Map347/events/1/pages/1/212/Dialogue
+\\name[\\v[2]]\\_
+Hopefully it is a better choice for you.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あぁそうだ、明晰の泉の場所は覚えているかい？
+> CONTEXT: Map347/events/1/pages/1/214/Dialogue
+\\name[\\v[2]]\\_
+Oh yeah, do you remember where the 
+Fountains of Lucidity are?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私はあまり覚えていないが、情報屋が場所を知ってるはずさ。
+金は取られるだろうが、訪ねてみると良い。
+> CONTEXT: Map347/events/1/pages/1/216/Dialogue
+\\name[\\v[2]]\\_
+I don't remember much, but I'm sure the informant knows 
+where they are. You'll probably be charged money, 
+but it's worth visiting.
+> END STRING
+
+> BEGIN STRING
+素質：【不清澄のスカーレット】が習得できるようになりました。
+> CONTEXT: Map347/events/1/pages/2/847/Dialogue < UNTRANSLATED
+> CONTEXT: Map347/events/1/pages/3/68/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[火の玉]\\_
+･･･リジェオ？
+> CONTEXT: Map347/events/5/pages/0/4/Dialogue
+\\name[Fiery orb]\\_
+...Rigeo?
+> END STRING
+
+> BEGIN STRING
+\\name[リジェオ]\\_
+･･･その声、もしかして･･･！　\\!カオシア！
+> CONTEXT: Map347/events/5/pages/0/12/Dialogue
+\\name[Rigeo]\\_
+...That voice, it's...! \\!Chaosia!
+> END STRING
+
+> BEGIN STRING
+\\name[リジェオ]\\_
+やっぱりここに･･･。
+> CONTEXT: Map347/events/5/pages/0/20/Dialogue
+\\name[Rigeo]\\_
+She's here after all...
+> END STRING
+
+> BEGIN STRING
+\\name[カオシア]\\_
+久しぶりだね、リジェオ。元気にしてたかい？
+> CONTEXT: Map347/events/5/pages/0/22/Dialogue
+\\name[Chaosia]\\_
+It's been a while, Rigeo. How have you been?
+> END STRING
+
+> BEGIN STRING
+\\name[リジェオ]\\_
+うん･･･。良かった･･･無事だったんだ･･･。
+> CONTEXT: Map347/events/5/pages/0/27/Dialogue
+\\name[Rigeo]\\_
+Yeah... Good... I'm okay...
+> END STRING
+
+> BEGIN STRING
+\\name[カオシア]\\_
+私がそう簡単にくたばるはずないじゃないか。
+まぁ流石に今回はひやっとしたがね。
+> CONTEXT: Map347/events/5/pages/0/29/Dialogue
+\\name[Chaosia]\\_
+I wouldn't go down so easily, would I?
+Well, this time I got caught by surprise.
+> END STRING
+
+> BEGIN STRING
+\\name[リジェオ]\\_
+でも、こんな姿になって･･･。
+> CONTEXT: Map347/events/5/pages/0/32/Dialogue
+\\name[Rigeo]\\_
+But it turned out like this...
+> END STRING
+
+> BEGIN STRING
+\\name[カオシア]\\_
+何、生きてただけ良しとしようじゃないか。
+> CONTEXT: Map347/events/5/pages/0/34/Dialogue
+\\name[Chaosia]\\_
+Why, let's just be glad to be alive.
+> END STRING
+
+> BEGIN STRING
+\\name[カオシア]\\_
+それにここは療養には良い場所さ。力の巡りも感じる。
+今はこんな姿だし、まだしばらくは掛かるだろうが、直に\\_
+良くなるさ。\\nこっちにいるユーガノットからもお墨付きだよ。
+> CONTEXT: Map347/events/5/pages/0/36/Dialogue
+\\name[Chaosia]\\_
+Besides, this is a good place to recuperate. I can feel the 
+power flowing through me. This is how it is, and it will take 
+a while, but I'll get better. Yuganot also approves of this.
+> END STRING
+
+> BEGIN STRING
+\\name[カオシア]\\_
+･･･だからほら、
+そんな泣きそうな顔をしないでくれ、リジェオ。
+君はいつものつんつんとした方が可愛いんだから。
+> CONTEXT: Map347/events/5/pages/0/40/Dialogue
+\\name[Chaosia]\\_
+...So, look, don't look like you're about to cry, Rigeo.
+You're cuter when you're looking sharp.
+> END STRING
+
+> BEGIN STRING
+\\name[リジェオ]\\_
+･･･うう･･････。
+> CONTEXT: Map347/events/5/pages/0/44/Dialogue
+\\name[Rigeo]\\_
+...Uu...
+> END STRING
+
+> BEGIN STRING
+\\name[リジェオ]\\_
+\\n[101]、ここまで連れて来てくれてありがとう。
+> CONTEXT: Map347/events/5/pages/0/65/Dialogue
+\\name[Rigeo]\\_
+Thank you \\n[101] for bringing me this far.
+> END STRING
+
+> BEGIN STRING
+\\name[リジェオ]\\_
+カオシアは私の恩人なの。
+> CONTEXT: Map347/events/5/pages/0/67/Dialogue
+\\name[Rigeo]\\_
+Chaosia is my benefactor.
+> END STRING
+
+> BEGIN STRING
+\\name[リジェオ]\\_
+ほら、私ってあんまり夢魔っぽくないでしょ？
+スタミナもないしさ。エッチもあんまり得意じゃないんだ。
+> CONTEXT: Map347/events/5/pages/0/69/Dialogue
+\\name[Rigeo]\\_
+You know, I'm not that much of a succubus, am I?
+I don't have any stamina. I'm not very good at sex either.
+> END STRING
+
+> BEGIN STRING
+\\name[リジェオ]\\_
+そんな私に、パルフィス密教会という居場所と、
+人との共生という別の生き方を教えてくれた。
+> CONTEXT: Map347/events/5/pages/0/72/Dialogue
+\\name[Rigeo]\\_
+She gave me a place to live in Palfis Secret Church, 
+and a different way of life: living in harmony with others.
+> END STRING
+
+> BEGIN STRING
+\\name[リジェオ]\\_
+昔のパルフィス密教会は素敵な所だった。\\_
+乱れてはいたけど、\\nその中に「人との関係」がちゃんと\\_
+あったように思えるから。
+> CONTEXT: Map347/events/5/pages/0/75/Dialogue
+\\name[Rigeo]\\_
+The old Palfis Secret Church was a wonderful place.
+Although it was chaotic, there were proper 
+relationships with people in it.
+> END STRING
+
+> BEGIN STRING
+\\name[リジェオ]\\_
+でも、今は･･･。
+> CONTEXT: Map347/events/5/pages/0/82/Dialogue
+\\name[Rigeo]\\_
+But now...
+> END STRING
+
+> BEGIN STRING
+\\name[リジェオ]\\_
+ともかく、私の目的は\\n[101]のおかげで達成できた。
+次は私の番。そっちのことも、協力してあげる。
+> CONTEXT: Map347/events/5/pages/0/87/Dialogue
+\\name[Rigeo]\\_
+In any case, my goal was achieved thanks to you, \\n[101].
+Next it's my turn. I'll be the one to help you now.
+> END STRING
+
+> BEGIN STRING
+\\name[リジェオ]\\_
+･･･そうだ、これを受け取って。
+> CONTEXT: Map347/events/5/pages/0/90/Dialogue
+\\name[Rigeo]\\_
+...Oh, right, take this.
+> END STRING
+
+> BEGIN STRING
+\\name[リジェオ]\\_
+それは私からの気持ちよ。
+> CONTEXT: Map347/events/5/pages/0/99/Dialogue
+\\name[Rigeo]\\_
+That's a sentiment from me, to you.
+> END STRING
+
+> BEGIN STRING
+\\name[リジェオ]\\_
+これからも宜しく、\\n[101]。
+> CONTEXT: Map347/events/5/pages/0/101/Dialogue
+\\name[Ligeo]\\_
+Thank you for your continued support, \\n[101].
+> END STRING

@@ -1,0 +1,83 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+ユニークサキュバス、ネイジュレンジと契約しますか？
+> CONTEXT: Map455/events/1/pages/0/71/Dialogue
+Would you like to make a contract 
+with the unique succubus, Neijurange?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ほぇー、契約ぅ？
+そんなのしなくても一緒に遊べるのにー。
+> CONTEXT: Map455/events/1/pages/0/74/Dialogue
+\\name[\\v[2]]\\_
+Hey, a contract?
+We could play together without doing that.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･むぇー？
+仲間がいっぱいだからやっぱり契約できない？
+キミもお友達がいっぱいで大変なんだねぇ。
+> CONTEXT: Map455/events/1/pages/0/79/Dialogue
+\\name[\\v[2]]\\_
+...Mmm?
+Are you unable to sign a contract 
+because you have so many friends?
+Must be tough having so many friends.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あたしはキミが来てくれるならなんでもいいよぉ。
+> CONTEXT: Map455/events/1/pages/0/83/Dialogue
+\\name[\\v[2]]\\_
+I'm fine with anything as long as you're there.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+キミの事情ってやつぅ？
+うんうん、まぁあたしはどっちでもいいんだけどねー。
+> CONTEXT: Map455/events/1/pages/0/88/Dialogue
+\\name[\\v[2]]\\_
+What do you think?
+You know, I don't mind either way~.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+じゃ、これからよろしくねぇ\\H
+> CONTEXT: Map455/events/1/pages/0/91/Dialogue
+\\name[\\v[2]]\\_
+Well then, I look forward to working with you\\H
+> END STRING
+
+> BEGIN STRING
+ネイジュレンジと契約を交わした！\\|\\|
+> CONTEXT: Map455/events/1/pages/0/94/Dialogue
+Signed a contract with Neijurange! \\|\\|
+> END STRING
+
+> BEGIN STRING
+ネイジュレンジをホームに迎え入れた！
+> CONTEXT: Map455/events/1/pages/0/103/Dialogue
+> CONTEXT: Map455/events/1/pages/0/114/Dialogue
+Welcomed Neijurange to Home!
+> END STRING
+
+> BEGIN STRING
+ネイジュレンジがパーティに加わった！
+> CONTEXT: Map455/events/1/pages/0/110/Dialogue
+Neijurange has joined the party!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+よかったらまた遊びに来てねー\\H　ばいばーい♪
+> CONTEXT: Map455/events/1/pages/0/135/Dialogue
+\\name[\\v[2]]\\_
+If you'd like, come visit us again\\H Bye-bye♪
+> END STRING

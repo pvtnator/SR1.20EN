@@ -1,0 +1,67 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+SCRP_ChaosRendica
+> CONTEXT: Map462/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map307/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map306/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map628/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map627/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map623/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map622/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map305/bgm/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[悪魔]\\_
+うふふ
+だめですよ、こんな所に来てしまっては・・・
+> CONTEXT: Map628/events/2/pages/0/19/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[悪魔]\\_
+この子のようになってしまいますからね・・・
+> CONTEXT: Map628/events/2/pages/0/22/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[悪魔]\\_
+それとも・・・そういうことを期待して来たのですか？\\H
+それなら、お相手してあげないといけませんね\\H
+> CONTEXT: Map628/events/2/pages/0/27/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[魔女]\\_
+この先へ行ってはダメ・・・
+快楽の底から戻れなくなるわ・・・
+> CONTEXT: Map628/events/11/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+気を失ってしまった。
+> CONTEXT: Map628/events/11/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔の像が置かれていて先に進めない。
+> CONTEXT: Map628/events/14/pages/0/0/Dialogue
+> CONTEXT: Map628/events/18/pages/0/0/Dialogue
+> CONTEXT: Map628/events/22/pages/0/0/Dialogue
+> CONTEXT: Map628/events/25/pages/0/0/Dialogue
+> CONTEXT: Map628/events/26/pages/0/0/Dialogue
+> CONTEXT: Map628/events/81/pages/0/0/Dialogue
+There is a succubus statue, so you can't go through here.
+> END STRING
+
+> BEGIN STRING
+気絶している。
+> CONTEXT: Map628/events/23/pages/0/1/Dialogue
+Unconcious
+> END STRING

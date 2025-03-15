@@ -1,0 +1,288 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+"サンドイッチ売り"
+> CONTEXT: Map362/events/1/pages/0/0/InlineScript/1:22
+> CONTEXT: Map362/events/4/pages/0/12/InlineScript/1:22
+"Sandwich merchant"
+> END STRING
+
+> BEGIN STRING
+\\name[カオシア]\\_
+おス。
+> CONTEXT: Map362/events/1/pages/0/2/Dialogue
+\\name[Chaosia]\\_
+Oss.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おぉ、カオシアじゃねぇか久しぶりだな。おス。
+急にいなくなって驚いたぜ。
+> CONTEXT: Map362/events/1/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Oh, it's been a while since I've seen you Chaosia. Oss.
+I was surprised that you disappeared so suddenly.
+> END STRING
+
+> BEGIN STRING
+\\name[カオシア]\\_
+この子の助けで、地獄から舞い戻ってきた所さ。
+久しぶりに君のサンドイッチが食べたくなってしまってね。
+> CONTEXT: Map362/events/1/pages/0/7/Dialogue
+\\name[Chaosia]\\_
+I just came back from hell with this kid's help.
+It's been a while, I've been craving your sandwich.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+大層な羽とかつけてきても相も変わらずキザな奴だ。
+だがそりゃ良い。さぁ、是非とも食べていってくれ。
+俺の自慢のサンドイッチさ。
+> CONTEXT: Map362/events/1/pages/0/10/Dialogue
+\\name[\\v[2]]\\_
+Even with all the big wings, you're still tough.
+But that's fine. Come on, please come and eat.
+It's my signature sandwich.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おス。また会ったな。
+> CONTEXT: Map362/events/1/pages/0/16/Dialogue
+\\name[\\v[2]]\\_
+Oss. We meet again.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここは俺の研究室さ。
+こんな所まで来るなんて中々見込みのある奴だったんだな。
+たまげたぜ。
+> CONTEXT: Map362/events/1/pages/0/18/Dialogue
+\\name[\\v[2]]\\_
+This is my laboratory.
+You must have a lot of promise to come to a place like this.
+I'm amazed!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうだ、なんか食っていってくれ。
+> CONTEXT: Map362/events/1/pages/0/22/Dialogue
+\\name[\\v[2]]\\_
+Well then, eat something.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ん？　５．５号室？　あぁ、よーく覚えてるよ。
+なんたってうちの隣の部屋になるんだから。
+> CONTEXT: Map362/events/1/pages/0/35/Dialogue
+\\name[\\v[2]]\\_
+Hmm? Room 5.5? Ah, I remember it well.
+After all, it would be in the room next to mine.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+５．５号室探しの時は騒がしかったもんだ。
+そこの壁に穴開けて行こうとしたりした奴とかいて\\_
+大変だったんだ。
+> CONTEXT: Map362/events/1/pages/0/38/Dialogue
+\\name[\\v[2]]\\_
+There was a lot of noise when we were looking for room 5.5.
+Someone was trying to cut a hole in the wall 
+and it was a big problem.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+最終的には管理してる奴が俺含め一部の奴に教えて\\_
+くれたよ。\\nただ、どうやって行けるようになるかってのは、\\_
+どうも言えんな。アレは。
+> CONTEXT: Map362/events/1/pages/0/42/Dialogue
+\\name[\\v[2]]\\_
+In the end, the leader instructed some of us, including me.
+However, I can't tell how to go there. That's all I know.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+つーかリジェオ、お前はもっと食ってけ。
+栄養足りてねーんじゃねぇかとヒヤヒヤする。
+> CONTEXT: Map362/events/1/pages/0/46/Dialogue
+\\name[\\v[2]]\\_
+Anyway, Rigeo, you should eat more.
+I'm worried that you're not getting enough nutrition.
+> END STRING
+
+> BEGIN STRING
+\\name[リジェオ]\\_
+･･････余計なお世話。
+> CONTEXT: Map362/events/1/pages/0/49/Dialogue
+\\name[Rigeo]\\_
+...None of your business.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+また来いよ。歓迎するぜ。
+> CONTEXT: Map362/events/1/pages/0/59/Dialogue
+\\name[\\v[2]]\\_
+Come again. You're welcome here.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+アタシもお店で出されてる料理作りたいな～。
+もっと上手くなって組み合わせ色々試してみたら\\_
+出来るかな？
+> CONTEXT: Map362/events/2/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ちょっとこれ食べてみてください。
+> CONTEXT: Map362/events/3/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Please try eating this.
+> END STRING
+
+> BEGIN STRING
+あの悪魔が売っているサンドイッチの一切れだ。
+頂きますか？
+> CONTEXT: Map362/events/3/pages/0/3/Dialogue
+It's a piece of the sandwich that the demon sells.
+Would you like to have it?
+> END STRING
+
+> BEGIN STRING
+･･･こ、これは！
+> CONTEXT: Map362/events/3/pages/0/7/Dialogue
+...Th-This is!
+> END STRING
+
+> BEGIN STRING
+狐色に焼けたトーストは外はパリッと、中はふわっとの
+絶妙な焼き加減をしており、その次に到達するレタスで
+一気に瑞々しさが広がる！
+> CONTEXT: Map362/events/3/pages/0/8/Dialogue
+The fox-brown toast is perfectly cooked, crispy on the outside 
+and soft on the inside, and then the lettuce arrives, 
+giving it a burst of freshness!
+> END STRING
+
+> BEGIN STRING
+頬張ると、カリカリに炙られて熱々なベーコン！
+ハーブで薄く香りづけされ、適度な塩味が効いたそれは
+単品でも美味だというのに･･･
+> CONTEXT: Map362/events/3/pages/0/11/Dialogue
+When you stuff your cheeks, the bacon is crispy and hot!
+Lightly scented with herbs and with just the right amount of 
+salt, it's delicious on its own...
+> END STRING
+
+> BEGIN STRING
+冷たくて甘酸っぱいトマトと頂くことで、
+具材の温度差がコラボレーションを生んでいる！
+> CONTEXT: Map362/events/3/pages/0/14/Dialogue
+By eating it with cold, sweet and sour tomatoes, 
+the difference in temperature of the ingredients 
+combines into something new!
+> END STRING
+
+> BEGIN STRING
+そして満足な味わいの中に黒胡椒のピリ辛さが\\_
+食欲を更に刺激し、
+贅沢な味わいながら食べても飽くこともなく、
+すぐに２口目へと口を運びたくなってしまう！
+> CONTEXT: Map362/events/3/pages/0/16/Dialogue
+And the spiciness of black pepper in the satisfying taste further 
+stimulates your appetite. Despite its luxurious taste, you won't 
+get tired of eating it, and you want a second bite right away!
+> END STRING
+
+> BEGIN STRING
+\\n[101]はサンドイッチを食べきってしまった！
+> CONTEXT: Map362/events/3/pages/0/20/Dialogue
+\\n[101] finished the sandwich!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+師匠のサンドイッチ、どうやっても真似\\_
+できないんですよ･･･。
+なんですかこの反則的な味わい･･･。もぐもぐ･･･。
+> CONTEXT: Map362/events/3/pages/0/21/Dialogue
+\\name[\\v[2]]\\_
+No matter how I try, I can't imitate my master's sandwich...
+What is this foul taste? Hmnhmm...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+じゃあ私が食べてしまいます。もぐもぐ･･･。
+> CONTEXT: Map362/events/3/pages/0/27/Dialogue
+\\name[\\v[2]]\\_
+Then I'll eat it. Hmnhmm...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+うぐぅ～･･････！　美味しすぎます･･･！！
+心の底から･･････おス･･････ッ！！！
+> CONTEXT: Map362/events/3/pages/0/29/Dialogue
+\\name[\\v[2]]\\_
+Whoa...! It's too delicious...!!
+From the bottom of my heart...oss...!!!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+うおぉぉぉー！　見てくださいどうですか師匠！
+私めのこの目にも留まらぬ手捌き！！
+> CONTEXT: Map362/events/4/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Woooooooo! Please take a look, master!
+It's too fast for the eyes!!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あめぇぞ１０万飛んで１２番弟子！！
+料理ってもんはもっと食べてもらう人への気持ちを込める\\_
+もんだ！！
+> CONTEXT: Map362/events/4/pages/0/13/Dialogue
+\\name[\\v[2]]\\_
+That's 100k gone, 12th disciple!!
+Cooking is about putting your feelings to it 
+for the people who eat it!!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おス！　おス！
+> CONTEXT: Map362/events/4/pages/0/18/Dialogue
+\\name[\\v[2]]\\_
+Oss! Oss!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここは料理研究室です。
+日々、食の極みを追い求めています。おス。
+> CONTEXT: Map362/events/5/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+This is a cooking laboratory.
+Every day, we pursue the ultimate food. Oss.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+まいどー。
+> CONTEXT: Map362/events/7/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+Thank you-!
+> END STRING

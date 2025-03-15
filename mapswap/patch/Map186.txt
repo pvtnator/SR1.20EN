@@ -1,0 +1,234 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+"薬屋"
+> CONTEXT: None < UNUSED
+"Pharmacy"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･ラーミルはアンタの大事なお師匠様でもあるが、
+わしらにとっても恩人なんじゃ。\\_
+何かあれば遠慮なく協力させてくれ。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+...Ramil is your great master,
+But she is also a benefactor to us.
+If you need anything, ask freely.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･どうしたんじゃ？　ぼうっとして。
+白昼夢でも見ておったのか。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+... What's wrong?　You seem dazed.
+Were you daydreaming?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ラーミルの看病は大変じゃろうが･･･無理はせんでおくれよ。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+It must be hard to take care of Ramil... 
+But please don't push yourself too hard.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･しかし、ラーミルが眠りから覚めない、か･･･。
+聞く限り呪いの類を受けたわけでもない。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+...But Ramil isn't waking up, is she...?
+As far as I've heard, she hasn't been cursed
+or anything like that.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+わしにも原因はさっぱり分からんの･･･。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+I don't even know the cause...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+とりあえずよく効く目覚め薬を処方しておくよ。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+For now, I'll prescribe a wake-up drug
+that works well.
+> END STRING
+
+> BEGIN STRING
+"SELECT"
+> CONTEXT: Map186/events/1/pages/0/0/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map186/events/1/pages/0/48/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map186/events/3/pages/0/33/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map186/events/4/pages/1/4/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map186/events/5/pages/0/33/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map186/events/6/pages/0/33/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map186/events/7/pages/0/33/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map186/events/8/pages/0/28/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map186/events/8/pages/0/39/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map186/events/10/pages/0/37/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map186/events/11/pages/0/38/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map186/events/12/pages/0/38/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map186/events/13/pages/0/38/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map186/events/14/pages/0/31/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map186/events/15/pages/0/29/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map186/events/16/pages/0/29/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map186/events/17/pages/0/29/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map177/events/1/pages/0/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map177/events/1/pages/1/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map177/events/1/pages/2/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map186/events/18/pages/0/29/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map177/events/1/pages/3/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map177/events/1/pages/4/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map177/events/1/pages/5/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map177/events/1/pages/6/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map177/events/2/pages/0/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map186/events/19/pages/0/29/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map177/events/2/pages/1/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map177/events/2/pages/2/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map177/events/2/pages/3/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map177/events/2/pages/4/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map186/events/20/pages/0/28/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Map177/events/2/pages/5/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map177/events/2/pages/6/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map177/events/3/pages/0/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map177/events/3/pages/1/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map177/events/3/pages/2/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map177/events/3/pages/3/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map177/events/3/pages/4/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map177/events/3/pages/5/0/InlineScript/3:15 < UNTRANSLATED
+> CONTEXT: Map177/events/3/pages/6/0/InlineScript/3:15 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\n[101]は\\v[2]の快感を受けてしまった！
+> CONTEXT: Map186/events/3/pages/0/40/Dialogue
+> CONTEXT: Map186/events/5/pages/0/40/Dialogue
+> CONTEXT: Map186/events/6/pages/0/40/Dialogue
+> CONTEXT: Map186/events/7/pages/0/40/Dialogue
+> CONTEXT: Map186/events/10/pages/0/44/Dialogue
+\\n[101] received \\v[2] pleasure!
+> END STRING
+
+> BEGIN STRING
+は\\v[2]の快感を受けてしまった！
+> CONTEXT: Map186/events/8/pages/0/35/Dialogue
+ experienced \\v[2] pleasure!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ……いらっしゃい\\H\\.
+ほら、力を抜いて……\\H
+> CONTEXT: Map186/events/10/pages/0/1/Dialogue
+> CONTEXT: Map186/events/11/pages/0/1/Dialogue
+> CONTEXT: Map186/events/12/pages/0/1/Dialogue
+> CONTEXT: Map186/events/13/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hehe... Welcome\\H\\.
+Now, just relax...\\H
+> END STRING
+
+> BEGIN STRING
+\\n[101]は\\v[2]のVPを奪われてしまった！
+> CONTEXT: Map186/events/11/pages/0/45/Dialogue
+\\n[101] lost \\v[2] VP!
+> END STRING
+
+> BEGIN STRING
+\\n[101]は\\v[2]の快感を受けてしまった！
+\\n[101]は\\v[3]のVPを奪われてしまった！
+> CONTEXT: Map186/events/12/pages/0/49/Dialogue
+\\n[101] received \\v[2] pleasure!
+\\n[101] had \\v[3] VP stolen!
+> END STRING
+
+> BEGIN STRING
+\\n[101]は\\v[2]のレベルを奪われてしまった！
+> CONTEXT: Map186/events/13/pages/0/42/Dialogue
+\\n[101] has had \\v[2] levels stolen!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こんな私に慈悲を……ありがとうございます……
+気持ちよくなってくださいね……\\H
+> CONTEXT: Map186/events/14/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Thank you for your mercy on me...
+I hope you enjoy it...\\H
+> END STRING
+
+> BEGIN STRING
+\\v[2]Lps.を奪われてしまった！
+> CONTEXT: Map186/events/14/pages/0/38/Dialogue
+\\v[2]Lps. stolen!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+君が被験者か。
+なーに、怯える必要はない。
+フフ、君も気持ち良いのは好きだろう？
+> CONTEXT: Map186/events/15/pages/0/1/Dialogue
+> CONTEXT: Map186/events/16/pages/0/1/Dialogue
+> CONTEXT: Map186/events/17/pages/0/1/Dialogue
+> CONTEXT: Map186/events/18/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+So you're the test subject.
+There's no need to be scared.
+Hehe, you like feeling good too, don't you?
+> END STRING
+
+> BEGIN STRING
+\\v[2]は\\v[3]の素質を付与されてしまった！
+> CONTEXT: Map186/events/15/pages/0/36/Dialogue
+> CONTEXT: Map186/events/16/pages/0/36/Dialogue
+> CONTEXT: Map186/events/17/pages/0/36/Dialogue
+> CONTEXT: Map186/events/18/pages/0/36/Dialogue
+\\v[2] was given the qualities of \\v[3]!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あはっ\\H　ようこそ……
+君の初めての記憶……
+私が奪ってあげる……\\H
+> CONTEXT: Map186/events/19/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Ahh\\H Welcome...
+Your memory of first time...
+I'll take it away...\\H
+> END STRING
+
+> BEGIN STRING
+\\v[2]は初めての身体になってしまった！
+> CONTEXT: Map186/events/19/pages/0/36/Dialogue
+\\v[2] has become my first!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ……ようこそ、期待のゲストさん\\H
+君の体と心……、めちゃくちゃにしてあげますねぇ\\H
+> CONTEXT: Map186/events/20/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hehe... Welcome, our much anticipated guest\\H
+I'm going to mess up your body and mind...\\H
+> END STRING
+
+> BEGIN STRING
+\\v[2]は\\v[3]になってしまった！
+> CONTEXT: Map186/events/20/pages/0/35/Dialogue
+\\v[2] has become \\v[3]!
+> END STRING

@@ -1,0 +1,608 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+"ちっこい鳥"
+> CONTEXT: Map876/events/2/pages/0/1/InlineScript/1:22
+> CONTEXT: Map702/events/16/pages/0/1/InlineScript/1:22
+> CONTEXT: Map624/events/99/pages/0/1/InlineScript/1:22
+"Little Bird"
+> END STRING
+
+> BEGIN STRING
+現在ポート空間の行き先表示OFFです。
+> CONTEXT: Map876/events/3/pages/0/2/Dialogue
+The port space destination display is currently OFF.
+> END STRING
+
+> BEGIN STRING
+現在ポート空間の行き先表示ONです。
+> CONTEXT: Map876/events/3/pages/0/5/Dialogue
+The port space destination display is currently ON.
+> END STRING
+
+> BEGIN STRING
+ポート空間の行き先表示の有無を
+変更しますか？
+> CONTEXT: Map876/events/3/pages/0/8/Dialogue
+Would you like to change the destination display 
+for port space?
+> END STRING
+
+> BEGIN STRING
+表示する
+> CONTEXT: Map876/events/3/pages/0/10/Choice/0
+Show
+> END STRING
+
+> BEGIN STRING
+表示しない
+> CONTEXT: Map876/events/3/pages/0/10/Choice/1
+Don't show
+> END STRING
+
+> BEGIN STRING
+"無垢な少女"
+> CONTEXT: Map876/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map582/events/10/pages/0/0/InlineScript/1:22
+"Innocent Girl"
+> END STRING
+
+> BEGIN STRING
+外枠演出の切り替え
+> CONTEXT: Map876/events/5/pages/0/0/Dialogue
+> CONTEXT: Map582/events/9/pages/0/0/Dialogue
+Switching the outer frame effect
+> END STRING
+
+> BEGIN STRING
+ON
+> CONTEXT: Map876/events/5/pages/0/1/Choice/0 < UNTRANSLATED
+> CONTEXT: Map582/events/9/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+OFF
+> CONTEXT: Map876/events/5/pages/0/1/Choice/1 < UNTRANSLATED
+> CONTEXT: Map582/events/9/pages/0/1/Choice/1 < UNTRANSLATED
+> CONTEXT: Map624/events/173/pages/0/2/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"羊"
+> CONTEXT: Map364/events/7/pages/0/0/InlineScript/1:22
+> CONTEXT: Map876/events/7/pages/0/0/InlineScript/1:22
+> CONTEXT: Map702/events/17/pages/0/0/InlineScript/1:22
+> CONTEXT: Map624/events/100/pages/0/0/InlineScript/1:22
+"Sheep"
+> END STRING
+
+> BEGIN STRING
+"魔導士"
+> CONTEXT: Map876/events/10/pages/0/0/InlineScript/1:22
+> CONTEXT: Map649/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Map005/events/12/pages/2/0/InlineScript/1:22
+> CONTEXT: Map005/events/16/pages/0/0/InlineScript/1:22
+> CONTEXT: Map002/events/31/pages/0/0/InlineScript/1:22
+> CONTEXT: Map002/events/32/pages/0/0/InlineScript/1:22
+"Sorceress"
+> END STRING
+
+> BEGIN STRING
+"ラミア"
+> CONTEXT: Map876/events/13/pages/0/0/InlineScript/1:22
+> CONTEXT: Map624/events/139/pages/0/0/InlineScript/1:22
+"Lamia"
+> END STRING
+
+> BEGIN STRING
+"ユニコーン"
+> CONTEXT: Map876/events/14/pages/0/0/InlineScript/1:22
+> CONTEXT: Map624/events/103/pages/0/0/InlineScript/1:22
+"Unicorn"
+> END STRING
+
+> BEGIN STRING
+"ハーピー"
+> CONTEXT: Map876/events/15/pages/0/0/InlineScript/1:22
+> CONTEXT: Map624/events/108/pages/0/0/InlineScript/1:22
+"Harpy"
+> END STRING
+
+> BEGIN STRING
+青い床は空腹床です。
+空腹度が減ります。
+黄色の床はダメージ床です。
+EPが減ります。
+> CONTEXT: Map876/events/16/pages/0/0/Dialogue
+> CONTEXT: Map245/events/56/pages/0/1/Dialogue
+Blue tile are hunger tiles.
+Your satiety levels will decrease.
+Yellow tiles are damage tiles.
+EP will decrease.
+> END STRING
+
+> BEGIN STRING
+"NORMAL"
+> CONTEXT: Map876/events/18/pages/0/2/InlineScript/2:24 < UNTRANSLATED
+> CONTEXT: Map876/events/23/pages/0/8/InlineScript/2:24 < UNTRANSLATED
+> CONTEXT: Map735/events/29/pages/1/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map706/events/6/pages/1/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map652/events/3/pages/1/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map631/events/18/pages/1/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map566/events/1/pages/1/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Commonevents/10/55/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Commonevents/10/68/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Commonevents/12/59/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Commonevents/12/104/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Commonevents/38/17/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Commonevents/138/28/InlineScript/2:28 < UNTRANSLATED
+> CONTEXT: Commonevents/138/36/InlineScript/3:28 < UNTRANSLATED
+> CONTEXT: Commonevents/138/45/InlineScript/2:28 < UNTRANSLATED
+> CONTEXT: Commonevents/138/53/InlineScript/2:28 < UNTRANSLATED
+> CONTEXT: Commonevents/138/61/InlineScript/2:28 < UNTRANSLATED
+> CONTEXT: Commonevents/341/16/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map280/events/2/pages/0/11/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map286/events/2/pages/0/148/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map267/events/1/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map265/events/4/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map263/events/17/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/15/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map257/events/2/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map259/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map261/events/4/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/32/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/34/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/35/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/36/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/37/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/38/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/41/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/44/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/45/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/49/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/50/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/51/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/52/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map271/events/53/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map253/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map251/events/8/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map247/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map249/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map246/events/7/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map242/events/1/pages/0/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map241/events/4/pages/0/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map244/events/1/pages/1/105/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map225/events/1/pages/0/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map225/events/1/pages/2/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map200/events/1/pages/0/2/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map214/events/16/pages/2/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map214/events/17/pages/2/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map193/events/12/pages/0/4/InlineScript/2:27 < UNTRANSLATED
+> CONTEXT: Map214/events/18/pages/1/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map141/events/1/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map129/events/23/pages/0/2/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map135/events/1/pages/0/152/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map132/events/1/pages/1/160/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map100/events/2/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map132/events/6/pages/1/11/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map135/events/1/pages/1/151/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map114/events/25/pages/1/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map087/events/13/pages/2/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map047/events/14/pages/0/27/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map142/events/24/pages/0/4/InlineScript/2:27 < UNTRANSLATED
+> CONTEXT: Map007/events/3/pages/0/31/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map241/events/4/pages/1/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map225/events/1/pages/3/24/InlineScript/1:27 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"小さなリス"
+> CONTEXT: Map876/events/24/pages/0/0/InlineScript/1:22
+"Small squirrel"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やあやあ、自分を見つめ直してみたんだね。
+> CONTEXT: Map876/events/24/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+Hey hey, so you've taken a fresh look at yourself.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここではこの夢世界を彩る要素を
+少しだけいじることが出来るんだ。
+> CONTEXT: Map876/events/24/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Here you can tweak some of the elements
+of the dream world.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+自分のこと、世界のあり方を
+変えることが出来るかもしれないね。
+> CONTEXT: Map876/events/24/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+Maybe you can change yourself and the world.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ま、全部は無理なんだけどさ。
+> CONTEXT: Map876/events/24/pages/0/10/Dialogue
+\\name[\\v[2]]\\_
+Well, can't do everything.
+> END STRING
+
+> BEGIN STRING
+"樽"
+> CONTEXT: Map876/events/26/pages/0/0/InlineScript/1:22
+> CONTEXT: Map582/events/4/pages/0/0/InlineScript/1:22
+"Barrel"
+> END STRING
+
+> BEGIN STRING
+やあ、そこの……君だよ君。
+キミはひとりの女の子に夢中になって周りが
+見えなくなってる…なんてことはないかい？
+> CONTEXT: Map876/events/28/pages/0/1/Dialogue
+> CONTEXT: Map624/events/17/pages/0/1/Dialogue
+Hey there... it's you. 
+Are you so obsessed with one girl 
+that you can't see anything else?
+> END STRING
+
+> BEGIN STRING
+ここではホールド時の特殊差分表示を変更できるよ。
+快適さと臨場感、どちらを取るのかは\\_
+君次第ってワケ！
+> CONTEXT: Map876/events/28/pages/0/4/Dialogue
+> CONTEXT: Map624/events/17/pages/0/4/Dialogue
+Here you can change how images are displayed when you hold.
+It's up to you to decide whether you want comfort or realism!
+> END STRING
+
+> BEGIN STRING
+全員表示(MODデフォルト)
+> CONTEXT: Map876/events/28/pages/0/7/Choice/0
+> CONTEXT: Map624/events/17/pages/0/7/Choice/0
+Show all (MOD default)
+> END STRING
+
+> BEGIN STRING
+ボスのみ表示(デフォルト)
+> CONTEXT: Map876/events/28/pages/0/7/Choice/1
+> CONTEXT: Map624/events/17/pages/0/7/Choice/1
+Show bosses (Default)
+> END STRING
+
+> BEGIN STRING
+全員非表示
+> CONTEXT: Map876/events/28/pages/0/7/Choice/2
+> CONTEXT: Map624/events/17/pages/0/7/Choice/2
+Don't show any
+> END STRING
+
+> BEGIN STRING
+全員表示（MODデフォルト）になったよ。
+変えたくなったらまた言ってね。
+> CONTEXT: Map876/events/28/pages/0/12/Dialogue
+> CONTEXT: Map624/events/17/pages/0/12/Dialogue
+It's now set to show everyone (MOD default). 
+Let me know if you want to change it.
+> END STRING
+
+> BEGIN STRING
+ボスのみ表示（デフォルト）になったよ。
+変えたくなったらまた言ってね。
+> CONTEXT: Map876/events/28/pages/0/19/Dialogue
+> CONTEXT: Map624/events/17/pages/0/19/Dialogue
+Only bosses are displayed now (default).
+Let me know if you want to change it.
+> END STRING
+
+> BEGIN STRING
+全員非表示になったよ。
+変えたくなったらまた言ってね。
+> CONTEXT: Map876/events/28/pages/0/26/Dialogue
+> CONTEXT: Map624/events/17/pages/0/26/Dialogue
+Everyone has been hidden. 
+Let me know if you want to change it.
+> END STRING
+
+> BEGIN STRING
+あ、いい忘れてたけど差分表示の有無は設定画面\\_
+からでも変更できるよ。
+便利な時代になったものだね。
+> CONTEXT: Map876/events/28/pages/0/30/Dialogue
+> CONTEXT: Map624/events/17/pages/0/30/Dialogue
+Oh, I forgot to mention that you can also change 
+whether or not to display images from the settings screen.
+What a convenient time we live in.
+> END STRING
+
+> BEGIN STRING
+ここは夢世界だからね。
+君を童貞に戻すだけじゃなく、
+君の仲間たちを処女に戻すこともできるのさ。
+> CONTEXT: Map876/events/29/pages/0/1/Dialogue
+> CONTEXT: Map624/events/18/pages/0/1/Dialogue
+> CONTEXT: Map582/events/2/pages/0/1/Dialogue
+This is a dream world.
+Not only can I restore your virginity,
+I can restore the virginity of all your friends.
+> END STRING
+
+> BEGIN STRING
+処女に戻っても、
+君と愛し合った時間や君との間に授かった子供、
+君の童貞を奪った記憶が消えるわけじゃないからね。
+安心してほしいな。
+> CONTEXT: Map876/events/29/pages/0/4/Dialogue
+> CONTEXT: Map624/events/18/pages/0/4/Dialogue
+> CONTEXT: Map582/events/2/pages/0/4/Dialogue
+Even if you become a virgin again, 
+it won't erase the memories of making love, 
+having a child, or taking virginity.
+Please rest assured.
+> END STRING
+
+> BEGIN STRING
+ちなみに、今パーティにいる夢魔全員に適用されるからね。
+> CONTEXT: Map876/events/29/pages/0/8/Dialogue
+> CONTEXT: Map624/events/18/pages/0/8/Dialogue
+> CONTEXT: Map582/events/2/pages/0/8/Dialogue
+By the way, this applies to all succubi
+currently in the party.
+> END STRING
+
+> BEGIN STRING
+処女関連
+> CONTEXT: Map876/events/29/pages/0/9/Choice/0
+> CONTEXT: Map624/events/18/pages/0/9/Choice/0
+> CONTEXT: Map582/events/2/pages/0/9/Choice/0
+Virgin
+> END STRING
+
+> BEGIN STRING
+童貞関連(ふたなり用)
+> CONTEXT: Map876/events/29/pages/0/9/Choice/1
+> CONTEXT: Map624/events/18/pages/0/9/Choice/1
+> CONTEXT: Map582/events/2/pages/0/9/Choice/1
+Virgin(futanari)
+> END STRING
+
+> BEGIN STRING
+初めての相手関連
+> CONTEXT: Map876/events/29/pages/0/9/Choice/2
+> CONTEXT: Map624/events/18/pages/0/9/Choice/2
+> CONTEXT: Map582/events/2/pages/0/9/Choice/2
+First time partner
+> END STRING
+
+> BEGIN STRING
+なにもしない
+> CONTEXT: Map876/events/29/pages/0/9/Choice/3
+> CONTEXT: Map624/events/18/pages/0/9/Choice/3
+> CONTEXT: Map582/events/2/pages/0/9/Choice/3
+> CONTEXT: Commonevents/136/1/Choice/2
+Nothing
+> END STRING
+
+> BEGIN STRING
+破瓜の記憶を保持し、処女に
+> CONTEXT: Map876/events/29/pages/0/11/Choice/0
+> CONTEXT: Map624/events/18/pages/0/11/Choice/0
+> CONTEXT: Map582/events/2/pages/0/11/Choice/0
+Retain the memory of losing virginity
+> END STRING
+
+> BEGIN STRING
+破瓜の記憶を保持せず、処女に
+> CONTEXT: Map876/events/29/pages/0/11/Choice/1
+> CONTEXT: Map624/events/18/pages/0/11/Choice/1
+> CONTEXT: Map582/events/2/pages/0/11/Choice/1
+Forget the memory of losing virginity
+> END STRING
+
+> BEGIN STRING
+非処女に
+> CONTEXT: Map876/events/29/pages/0/11/Choice/2
+> CONTEXT: Map624/events/18/pages/0/11/Choice/2
+> CONTEXT: Map582/events/2/pages/0/11/Choice/2
+Become non-virgin
+> END STRING
+
+> BEGIN STRING
+やっぱりやめる
+> CONTEXT: Map876/events/29/pages/0/11/Choice/3
+> CONTEXT: Map876/events/29/pages/0/70/Choice/3
+> CONTEXT: Map876/events/29/pages/0/127/Choice/2
+> CONTEXT: Map624/events/18/pages/0/11/Choice/3
+> CONTEXT: Map624/events/18/pages/0/70/Choice/3
+> CONTEXT: Map624/events/18/pages/0/127/Choice/2
+> CONTEXT: Map582/events/2/pages/0/11/Choice/3
+> CONTEXT: Map582/events/2/pages/0/70/Choice/3
+> CONTEXT: Map582/events/2/pages/0/127/Choice/2
+> CONTEXT: Map545/events/2/pages/0/7/Choice/3
+> CONTEXT: Map555/events/8/pages/0/7/Choice/3
+> CONTEXT: Map545/events/3/pages/0/7/Choice/3
+> CONTEXT: Map555/events/9/pages/0/7/Choice/3
+> CONTEXT: Map555/events/10/pages/0/7/Choice/3
+> CONTEXT: Map559/events/6/pages/0/7/Choice/3
+> CONTEXT: Map559/events/7/pages/0/7/Choice/3
+> CONTEXT: Map559/events/8/pages/0/7/Choice/3
+> CONTEXT: Map182/events/5/pages/0/7/Choice/3
+> CONTEXT: Map182/events/5/pages/0/7/Choice/3
+> CONTEXT: Map171/events/2/pages/0/7/Choice/3
+> CONTEXT: Map171/events/2/pages/0/7/Choice/3
+> CONTEXT: Map182/events/8/pages/0/7/Choice/3
+> CONTEXT: Map182/events/8/pages/0/7/Choice/3
+> CONTEXT: Map171/events/3/pages/0/7/Choice/3
+> CONTEXT: Map171/events/3/pages/0/7/Choice/3
+> CONTEXT: Map182/events/9/pages/0/7/Choice/3
+> CONTEXT: Map182/events/9/pages/0/7/Choice/3
+Quit after all
+> END STRING
+
+> BEGIN STRING
+君に処女を捧げた事実はそのまま、
+処女に戻るよ。
+> CONTEXT: Map876/events/29/pages/0/13/Dialogue
+> CONTEXT: Map624/events/18/pages/0/13/Dialogue
+> CONTEXT: Map582/events/2/pages/0/13/Dialogue
+The fact of giving virginity will remain intact,
+but become a virgin again.
+> END STRING
+
+> BEGIN STRING
+はい。これでばっちりだよ。
+> CONTEXT: Map876/events/29/pages/0/23/Dialogue
+> CONTEXT: Map876/events/29/pages/0/43/Dialogue
+> CONTEXT: Map876/events/29/pages/0/59/Dialogue
+> CONTEXT: Map876/events/29/pages/0/83/Dialogue
+> CONTEXT: Map876/events/29/pages/0/100/Dialogue
+> CONTEXT: Map876/events/29/pages/0/116/Dialogue
+> CONTEXT: Map876/events/29/pages/0/139/Dialogue
+> CONTEXT: Map876/events/29/pages/0/157/Dialogue
+> CONTEXT: Map624/events/18/pages/0/23/Dialogue
+> CONTEXT: Map624/events/18/pages/0/43/Dialogue
+> CONTEXT: Map624/events/18/pages/0/59/Dialogue
+> CONTEXT: Map624/events/18/pages/0/83/Dialogue
+> CONTEXT: Map624/events/18/pages/0/100/Dialogue
+> CONTEXT: Map624/events/18/pages/0/116/Dialogue
+> CONTEXT: Map624/events/18/pages/0/139/Dialogue
+> CONTEXT: Map582/events/2/pages/0/23/Dialogue
+> CONTEXT: Map624/events/18/pages/0/157/Dialogue
+> CONTEXT: Map582/events/2/pages/0/43/Dialogue
+> CONTEXT: Map582/events/2/pages/0/59/Dialogue
+> CONTEXT: Map582/events/2/pages/0/83/Dialogue
+> CONTEXT: Map582/events/2/pages/0/100/Dialogue
+> CONTEXT: Map582/events/2/pages/0/116/Dialogue
+> CONTEXT: Map582/events/2/pages/0/139/Dialogue
+> CONTEXT: Map582/events/2/pages/0/157/Dialogue
+Yes. This is perfect.
+> END STRING
+
+> BEGIN STRING
+君に処女を捧げた事実はなくなり、
+完全な処女に戻るよ。
+> CONTEXT: Map876/events/29/pages/0/30/Dialogue
+> CONTEXT: Map624/events/18/pages/0/30/Dialogue
+> CONTEXT: Map582/events/2/pages/0/30/Dialogue
+The fact of losing virginity will disappear, 
+and become a complete virgin.
+> END STRING
+
+> BEGIN STRING
+処女膜がなくなるよ。
+> CONTEXT: Map876/events/29/pages/0/50/Dialogue
+> CONTEXT: Map624/events/18/pages/0/50/Dialogue
+> CONTEXT: Map582/events/2/pages/0/50/Dialogue
+Your hymen will disappear.
+> END STRING
+
+> BEGIN STRING
+ふたなりの夢魔を童貞に
+> CONTEXT: Map876/events/29/pages/0/70/Choice/0
+> CONTEXT: Map624/events/18/pages/0/70/Choice/0
+> CONTEXT: Map582/events/2/pages/0/70/Choice/0
+Turning a futanari into a virgin
+> END STRING
+
+> BEGIN STRING
+ふたなりかどうかを問わず童貞に
+> CONTEXT: Map876/events/29/pages/0/70/Choice/1
+> CONTEXT: Map624/events/18/pages/0/70/Choice/1
+> CONTEXT: Map582/events/2/pages/0/70/Choice/1
+Futanari or not, virginity
+> END STRING
+
+> BEGIN STRING
+経験済に
+> CONTEXT: Map876/events/29/pages/0/70/Choice/2
+> CONTEXT: Map624/events/18/pages/0/70/Choice/2
+> CONTEXT: Map582/events/2/pages/0/70/Choice/2
+Experienced
+> END STRING
+
+> BEGIN STRING
+ふたなりの子だけ童貞に戻るよ。
+> CONTEXT: Map876/events/29/pages/0/72/Dialogue
+> CONTEXT: Map624/events/18/pages/0/72/Dialogue
+> CONTEXT: Map582/events/2/pages/0/72/Dialogue
+Only futanari will remain virgins.
+> END STRING
+
+> BEGIN STRING
+ふたなりでなくても童貞になるよ。
+童貞素質は僕に話しかけないと解除できないから注意してね
+> CONTEXT: Map876/events/29/pages/0/90/Dialogue
+> CONTEXT: Map624/events/18/pages/0/90/Dialogue
+> CONTEXT: Map582/events/2/pages/0/90/Dialogue
+Even if futanari will still be virgins.
+Be careful, you won't be able to remove 
+your virginity unless you talk to me.
+> END STRING
+
+> BEGIN STRING
+みんな経験済になるよ。
+> CONTEXT: Map876/events/29/pages/0/107/Dialogue
+> CONTEXT: Map624/events/18/pages/0/107/Dialogue
+> CONTEXT: Map582/events/2/pages/0/107/Dialogue
+Everybody experienced.
+> END STRING
+
+> BEGIN STRING
+あなたの童貞を奪った記憶を忘れる
+> CONTEXT: Map876/events/29/pages/0/127/Choice/0
+> CONTEXT: Map624/events/18/pages/0/127/Choice/0
+> CONTEXT: Map582/events/2/pages/0/127/Choice/0
+Forget taking virginity
+> END STRING
+
+> BEGIN STRING
+あなたに処女を捧げた記憶を忘れる
+> CONTEXT: Map876/events/29/pages/0/127/Choice/1
+> CONTEXT: Map624/events/18/pages/0/127/Choice/1
+> CONTEXT: Map582/events/2/pages/0/127/Choice/1
+Forget giving virginity
+> END STRING
+
+> BEGIN STRING
+君の筆降ろしをした事実がなくなるよ。
+> CONTEXT: Map876/events/29/pages/0/129/Dialogue
+> CONTEXT: Map624/events/18/pages/0/129/Dialogue
+> CONTEXT: Map582/events/2/pages/0/129/Dialogue
+The fact of taking virginity will be erased.
+> END STRING
+
+> BEGIN STRING
+君に処女を捧げた事実がなくなるよ。
+> CONTEXT: Map876/events/29/pages/0/146/Dialogue
+> CONTEXT: Map624/events/18/pages/0/146/Dialogue
+> CONTEXT: Map582/events/2/pages/0/146/Dialogue
+The fact of giving virginity will be erased.
+> END STRING
+
+> BEGIN STRING
+初めてって素敵な響きですよね。
+> CONTEXT: Map876/events/30/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【初めてに弱い】が付与されました。
+> CONTEXT: Map876/events/30/pages/0/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【初めてに弱い】が消去されました。
+> CONTEXT: Map876/events/30/pages/0/11/Dialogue < UNTRANSLATED
+
+> END STRING

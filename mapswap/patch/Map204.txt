@@ -1,0 +1,647 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+魔方陣が起動されている･･･
+> CONTEXT: None < UNUSED
+The magic square has been activated...
+> END STRING
+
+> BEGIN STRING
+ポートの設定を変える
+> CONTEXT: None < UNUSED
+Change port settings
+> END STRING
+
+> BEGIN STRING
+×××する
+> CONTEXT: None < UNUSED
+×××Do it
+> END STRING
+
+> BEGIN STRING
+ポートの一番上に来る項目を変更できます。
+> CONTEXT: None < UNUSED
+You can change the button at the top of the port menu.
+> END STRING
+
+> BEGIN STRING
+セーブを上にする
+> CONTEXT: None < UNUSED
+Save on top
+> END STRING
+
+> BEGIN STRING
+テレポートを上にする
+> CONTEXT: None < UNUSED
+Warp on top
+> END STRING
+
+> BEGIN STRING
+変えない
+> CONTEXT: None < UNUSED
+Don't change
+> END STRING
+
+> BEGIN STRING
+セーブを一番上にしました。
+> CONTEXT: None < UNUSED
+Save is now on top
+> END STRING
+
+> BEGIN STRING
+テレポートを一番上にしました。
+> CONTEXT: None < UNUSED
+Warp is now on top
+> END STRING
+
+> BEGIN STRING
+しますか？
+> CONTEXT: None < UNUSED
+Do it?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おや？　見ない顔ですね。
+･･････はっ、もしや刺客･･････！
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Oh? An unfamiliar face.
+...Ha, maybe an assassin...!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうはさせません、私の枕は特別製なんです。
+安眠保証熟睡確実、「貴方の一生を駄目にする」が
+キャッチコピーのこの枕だけは、命に替えても渡しません。
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+これに変えてからというもの毎日が最高の惰眠生活が\\_
+送れているのです。\\n二度寝三度寝の気持ち良さが\\_
+また格別。贅沢ものの一品なのです。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Ever since I changed to this, I've had the best sleep every day. 
+Snoozing twice or even three times feels amazing. 
+It is a luxury item.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+その枕が今なら19800Lps.で送料負担でお買い求め\\_
+頂けます。
+この機会に是非。
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+前置きはさておき。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Introduction aside.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「状態異常のススメ」シリーズ全７巻、お読みになられました\\_
+か？
+私は著者のアンジュと申します。どうかお見知り置きを。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Have you read all 7 volumes of the "Status Abnormality" series?
+My name is Ange, the author. Pleased to meet you.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+【胆力】や【柔軟】のような状態異常の耐性を付ける素質は、
+それだけで3/4まで付与確率が減らせます。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Qualities such as [Brave] and [Flexible] can reduce 
+the probability of status ailments by 3/4.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+逆に言うと1/4残っちゃうので、
+それを嫌うなら装備品やルーンで補っておくと確実ですよ。
+精神力に自身があるなら大丈夫ですが。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+In other words, a 1/4 chance remains, so if you want to,
+you can make up the difference with equipment or runes.
+Alternatively, you should be fine if you have high spirit.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+装備品には「耐性」と書かれたものとは別に
+「無効」と書かれているものがあるのはご存じです？
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Apart from equipment that has "resistant" written on it,
+did you know that there's a label called "immune"?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「耐性」はスキルの効果などで下げられてしまうことで
+付与確率が上がることがありますが、\\n「無効」と書かれた\\_
+ものはそれ関係なく効きませんよ。私の敵ですね。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+"Resistant" can be overcome by various effects,
+but "immune" will prevent effects regardless.
+It's my enemy.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+状態異常は意外と、所謂「ボス」の夢魔にも効くんですよ。
+特殊な耐性を持っている場合はチェックで調べることが\\_
+できるんです。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Surprisingly, status ailments are effective even against 
+"boss" succubi. You can "check" if they have some resistances.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+しかしああいうのは場所の力によるその場限りの耐性だった\\_
+りするので、\\n契約した後は素質通りの耐性しか\\_
+持ちあわせてないんですけどね。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+However, some resistances are due to the power of the location, 
+so after signing the contract, 
+the resistances will match the talents.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+何か私にご用でして？
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Do you want something from me?
+> END STRING
+
+> BEGIN STRING
+状態異常の解説を訊く
+> CONTEXT: None < UNUSED
+Explain status ailments
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私に直々に訊きますか。眠たくなっても知りませんよ？
+私が。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+You want to ask me directly? 
+Even without getting sleepy?
+I will
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「恍惚」は見とれてしまい、動けなくなってしまう\\_
+状態異常ですね。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+"Ecstasy" is an abnormal state in which you become so 
+fascinated by what you see that you become unable to move.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+その効果は強力で、恍惚すると本当に何もできなくなります。
+レジストに対しても無力で、抵抗はできるにはできるのですが
+かなり厳しいものとなります。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+The effect is so powerful that when you are in ecstasy, 
+you are truly unable to do anything.
+It is extremely difficult to resist in this condition.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ただ、新たな快感を少し受けるだけで簡単に解けて\\_
+しまいます。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+However, it can be easily cured 
+just by receiving a bit of pleasure.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+恍惚は夢魔に大きな胸を押し付けられたりすると\\_
+なりやすいみたいです。
+サキュバスさんのような方々が得意なのではないでしょうか。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Ecstasy is more likely to occur when 
+big breasts are pressed against you.
+Succubi are good at it.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+確かに、あの胸は寝心地よさそうですものね。
+恍惚しちゃうのも納得です。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Such breasts certainly look comfortable to sleep on.
+It's no wonder if that makes you ecstatic.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+複数相手がいる時に攻撃の手を減らすためや、
+こちらの強化や回復などするための時間稼ぎには有効です。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+This can help buy some time to strengthen and recover by reducing 
+the amount of attacks you take when fighting multiple opponents.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「欲情」は攻撃を受けた時に追撃されやすくなる\\_
+状態異常です。
+効果は見えにくいのですが、シンプルで分かりやすいですね。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+"Lust" is a status abnormality that makes you 
+more likely to receive follow-up attacks. The effect is 
+hard to see, but it's simple and easy to understand.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+追撃で与える快感は１発目よりも少し小さいのですが、
+それでも連続攻撃になるのは強力です。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+The pleasure given by the follow-up attack is 
+a little less than the first hit, 
+but it is still powerful as a continuous attack.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+追撃を利用することによって強力になるものもあります。
+攻撃スキルに追加効果があるようなものは、\\_
+追撃で更にチャンスができますね。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Depending on the circumstances, it can be very strong.
+If your attack skills have additional effects, 
+you'll have more chances to apply them with follow-up attacks.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+欲情はお顔にアソコを擦り付けられた時にたまに\\_
+なるようです。
+こういうのは好色な夢魔の方々が得意みたいですね。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Lust seems to come from time to time from
+having vagina against your face.
+Lewd succubi are good at this kind of thing.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私は疲れるのであんまりですが。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+I don't like it too much because I get tired.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そういえば、力を得る代わりにずっと欲情状態になる\\_
+装備品があるそうです。
+付ける方は相当物好きと見えますね。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+By the way, there is equipment that makes you 
+stay in a state of lust instead of gaining power.
+You would really have to be into it to wear that.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]「暴走」はしばらくの間、積極的な行動ばかり\\_
+するようになる状態異常です。
+魔法や補助スキルなどは一切使えず、また夢魔の契約者の
+指示を受けることもできません。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+"Berserk" is a status abnormality that forces you to act 
+aggressively. You can't use any magic or support skills, 
+and you cannot receive instructions from the contractor.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+相手の行動を大きく制限することができる状態異常ですね。
+ただ、新たな快感を少しでも受けると、たまに解けてしまう\\_
+ようです。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+It can greatly restrict the opponent's actions.
+However, receiving even a small amount of pleasure
+in this state can cure the ailment.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]暴走中はどんな攻撃も「器用さ」ではなく\\_
+「精力」が影響するようになります。
+暴走状態の夢魔が与える快感は普段より大きくなっている\\_
+ので、\\n押し切られるのに注意ですね。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+While berserked, attacks are affected by energy 
+instead of dexterity. It also increases given pleasure, 
+so be careful not to let it overwhelm you.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]魔法を使えなくする性質上、魔法に頼る\\_
+夢魔には有効です。\\n暴走しても相手を押し切るほどの\\_
+能力が無いことが多いですからね。
+私も相当困ります。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Since it prevents using magic, it is effective against succubi 
+who rely on it. Despite going berserk, they won't have the 
+ability to overwhelm their opponents. It's difficult for me too.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+というか暴走って、治ったあとが怖いんですよ。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Or rather, I'm scared of what would come after,
+if I went berserk and then recover.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+恥ずかしくなりますから。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+It would be embarrassing.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「虚脱」は身体を動かすのが億劫になってしまう\\_
+状態異常です。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+"Lethargy" is an abnormal state in which a person becomes 
+unable to move his or her body.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+行動するために必要なＶＰが増えてしまいます。
+ＶＰが増えないのは動かないことだけです。
+実質的に毒のような効果を持ちますね。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+The VP required to take action will increase.
+The only action that won't consume VP is not moving.
+It's a seriously harmful effect.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]目に見えた効果は小さいのですが、
+絶頂させた後に復帰させにくくできますし、
+相手のＶＰがもうほとんど無い状態でしたら\\_
+もう動くことはできません。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+The noticable effect is small, but it makes it difficult 
+for the opponent to come back after climaxing, and if 
+the opponent has almost no VP, they can't move anymore.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+しぶとい相手や忍耐力の高い相手に有効な状態異常です。
+ＶＰがあるうちは効果があまりあるように見えないのが弱点\\_
+ですが。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+This status is effective against stubborn or patient opponents.
+The weak point is that it doesn't help much while the opponent
+still has plenty of VP.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私は虚脱状態になるとそうですね。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+When it comes to lethargy, for me...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もっとだらけます。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+I slack off more.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「畏怖」は不安に駆り立てられ、たまに怯んでしまう\\_
+状態異常です。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+"Fear" is an abnormal state in which a person is 
+driven by anxiety and occasionally falters.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+怯んでしまうと、そのターンの間は動くことができません。
+恍惚に比べると確実性はないものの、快感を受けても
+解除されることは無く、長期的に効果が望めます。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+If you falter, you can't move that turn. Although it triggers less 
+than ecstasy, it is not canceled even after receiving pleasure, 
+and can be expected to have long-term effects.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+恍惚同様、相手の手数を減らすのに有効ですが、
+畏怖中の相手には、ムードが高くても多く快感を与える\\_
+ことができません。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Like ecstasy, it is effective in reducing the number of 
+opponents' attacks, but even if the mood is high, 
+a person with fear will not receive that much pleasure.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ちなみに、畏怖は私ことナイトメアの得意技です。
+十八番です。悪夢ですからね。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+By the way, fear is my specialty as a Nightmare.
+It's my forte. That's how nightmare's are, right?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私としても会った瞬間相手を怖がらせられるようになるのが\\_
+夢です。
+正気度を失いそうな。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+My dream is to be able to scare people the moment I meet them.
+See if they lose their minds.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「麻痺」は体が痺れてしまって動きにくくなる状態異常です。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+"Paralysis" is an abnormal condition in which the 
+body becomes paralyzed and has difficulty moving.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+効果の一つとして、ターン中での行動順番が\\_
+非常に遅くなります。
+行動順の調整に有効な状態異常ですね。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+One of the effects is that your turn order is delayed a lot. 
+It's a status ailment that is useful for 
+adjusting the order of actions.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+更に、麻痺状態の時はレジストに弱くなります。
+単純に矢印の数が上下するのではなく、
+最小数か最大数が変動するタイプですが。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Furthermore, when you are paralyzed, resist will be harder.
+The number of arrows does not simply go up and down, 
+but the minimum and maximum amount changes.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+即時的に効果が現れるので、
+レジストを行う時やレジストに頼る相手に有効ですね。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Since the effect is immediate, 
+it is effective when you want to resist, or against someone
+who relies on resist.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そういえば麻痺の魔法って使い方次第でマッサージに\\_
+なるって本当ですかね。
+心地よい痺れが身体をほぐすとかなんとか。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Come to think of it, is it true that numbing magic can be used 
+as a massage depending on how you use it?
+Somehow the pleasant numbness loosens up my body.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+一度試してみようと思うんですけど、どうです？
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+I'm thinking of trying it once, what do you think?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「散漫」は頭が回らなくなってしまう状態異常です。
+大きい効果としては「魔法が使えなくなる」ことですね。
+> CONTEXT: None < UNUSED
+"Distraction" is an abnormal state where you can't think clearly.
+The big effect is that you won't be able to use magic.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]同じく魔法に頼る夢魔を無力化できる\\_
+「暴走」よりも範囲は狭いものの、
+散漫は相手を強化することや快感を受けると治ることもなく、
+使いやすさで勝ります。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Although its scope is narrower than "Berserk", which can also 
+prevent magic, "Distraction" is easier, as it does not 
+strengthen the opponent or heal when it receives pleasure.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+他にも、散漫状態の時はレジストが単純に難しくなります。
+レジストに頼る相手にも効果があり、有効な相手は多いです。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+Other than that, it's harder to resist when you're distracted.
+It is also effective for people who rely on resist, 
+and there are many people for whom it is effective.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+散漫状態は私にとってはある意味身近ですね。
+起きてしばらくぼーっとしてる時なんかは、
+まさに散漫状態と言っていいでしょう。全然頭が回りません。
+> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+In a sense, the state of distraction is familiar to me.
+When doze off and wake up, you can say that you are 
+in a distracted state. You don't function well at all.
+> END STRING
+
+> BEGIN STRING
+「夢魔図鑑」
+と書かれた本がある。
+> CONTEXT: None < UNUSED
+"Succubus Encyclopedia"
+Is written on the book.
+> END STRING
+
+> BEGIN STRING
+"map_name_library"
+> CONTEXT: Commonevents/14/61/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/65/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
