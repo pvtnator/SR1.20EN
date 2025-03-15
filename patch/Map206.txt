@@ -1,8 +1,8 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 ロールについて
-> CONTEXT: Map206/events/3/pages/0/1/Choice/2 < UNTRANSLATED
-
+> CONTEXT: Map206/events/3/pages/0/1/Choice/2
+About Roles
 > END STRING
 
 > BEGIN STRING
@@ -10,17 +10,22 @@
 この素質と組み合わせることで
 手数を増やす戦術も取れると思う。
 回復手段がないからそこのケアも必要だけどね。
-> CONTEXT: Map206/events/3/pages/0/61/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/3/pages/0/61/Dialogue
+Not particularly well suited to direct attacks, 
+but by combining this quality you can use tactics 
+to increase the number of moves. No means of recovery, though, 
+so you'll need to take care of that.
 > END STRING
 
 > BEGIN STRING
 反面素早さと精神力が低いので
 先手を取られたり状態異常に見舞われる事態も多そう。
 状態異常対策は必須かも。
-> CONTEXT: Map206/events/3/pages/0/81/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/21/pages/0/67/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/3/pages/0/81/Dialogue
+> CONTEXT: Map206/events/21/pages/0/67/Dialogue
+Low agility and spirit, so likely taken by surprise 
+or hit by status ailments. 
+Measures to deal with status ailments may be necessary.
 > END STRING
 
 > BEGIN STRING
@@ -28,18 +33,24 @@
 美貌、もとい魅力に優れているロール。
 ・・・王を名乗らせてくれるなんて
 フルビュア本人も相当高く買ってるのかな？
-> CONTEXT: Map206/events/3/pages/0/93/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/21/pages/0/78/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/3/pages/0/93/Dialogue
+> CONTEXT: Map206/events/21/pages/0/78/Dialogue
+The King of Beauty can be achieved by making a contract with Fulbeua.
+A Role with outstanding beauty, or rather charm.
+...Fulbeua herself must value him highly, 
+since he's allowed to call himself King?
 > END STRING
 
 > BEGIN STRING
 強力なキス・マーキングも使えるようになるけど
 自己回復する手段が乏しいから
 長期戦での立ち回りはよく考えないといけないわね。
-> CONTEXT: Map206/events/3/pages/0/100/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/21/pages/0/85/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/3/pages/0/100/Dialogue
+> CONTEXT: Map206/events/21/pages/0/85/Dialogue
+Able to use the powerful Kiss Marking skill, 
+but few ways to heal yourself, 
+so you'll need to think carefully 
+about how you'll handle long-term battles.
 > END STRING
 
 > BEGIN STRING
@@ -47,34 +58,43 @@
 魔王ギルゴーンと契約することでなれる
 非常に高い活力と精神力が特徴のロール。
 ・・・まさか『勇者』になるなんてね。
-> CONTEXT: Map206/events/3/pages/0/112/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/21/pages/0/96/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/3/pages/0/112/Dialogue
+> CONTEXT: Map206/events/21/pages/0/96/Dialogue
+Demon Lord Slayer Hero is a role that is 
+characterized by extremely high energy and spirit, 
+achieved by making a contract with the Demon Lord Gilgorn.
+...Who would have thought they would become a "hero"?
 > END STRING
 
 > BEGIN STRING
 でも【尽きぬ欲望】で快感への耐性が強くなるとはいえ
 魔王と同じ体質になってしまうから使いこなすのは
 中々骨が折れると思うわ。
-> CONTEXT: Map206/events/3/pages/0/120/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/21/pages/0/104/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/3/pages/0/120/Dialogue
+> CONTEXT: Map206/events/21/pages/0/104/Dialogue
+Even though [Inexhaustible Desire] makes you 
+more resistant to pleasure, it still gives the 
+same constitution as the Demon Lord, 
+so it'll be pretty hard to master.
 > END STRING
 
 > BEGIN STRING
 交わした約束・・・なんだろうこのロール？
 ええと、とりあえず精力と素早さが高いみたい。
-> CONTEXT: Map206/events/3/pages/0/184/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/21/pages/0/167/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/3/pages/0/184/Dialogue
+> CONTEXT: Map206/events/21/pages/0/167/Dialogue
+The promise we made... what is this role?
+Hmm, for now it seems to have high energy and agility.
 > END STRING
 
 > BEGIN STRING
 全体的なステータスが軒並み平均以上になって
 特に魅力と忍耐力は
 他のロールにも見劣りしないほど高くなるわ。
-> CONTEXT: Map206/events/3/pages/0/204/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/3/pages/0/204/Dialogue
+Your overall stats will be above average 
+across the board, and your charm and endurance 
+in particular will be on par with other roles.
 > END STRING
 
 > BEGIN STRING
@@ -194,17 +214,17 @@ Farfarello
 
 > BEGIN STRING
 次のページへ
-> CONTEXT: Map206/events/13/pages/1/11/Choice/3 < UNTRANSLATED
-> CONTEXT: Map206/events/13/pages/1/76/Choice/3 < UNTRANSLATED
-> CONTEXT: Map206/events/13/pages/1/140/Choice/3 < UNTRANSLATED
-> CONTEXT: Map206/events/21/pages/0/114/Choice/3 < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/11/Choice/3
+> CONTEXT: Map206/events/13/pages/1/76/Choice/3
+> CONTEXT: Map206/events/13/pages/1/140/Choice/3
+> CONTEXT: Map206/events/21/pages/0/114/Choice/3
+Next page
 > END STRING
 
 > BEGIN STRING
 【ある騎士団および傭兵たちによる討伐記録】
-> CONTEXT: Map206/events/13/pages/1/13/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/13/Dialogue
+[Chivalry & mercenary subjucation]
 > END STRING
 
 > BEGIN STRING
@@ -212,8 +232,11 @@ Farfarello
 非常に危険な悪魔である。
 まだ年端もいかない少女に見えるが、
 何人犠牲になったかわからない。
-> CONTEXT: Map206/events/13/pages/1/14/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/14/Dialogue
+Extremely dangerous demon, combining the 
+ferocity of a dragon and the cruelty of a demon.
+She looks like a young girl, 
+but it's unclear how many people she has killed.
 > END STRING
 
 > BEGIN STRING
@@ -221,32 +244,37 @@ Farfarello
 それを利用した我々は谷底に奴を誘い込み、
 頭上から大量の岩を落として動きを止め、
 猛毒の霧を放った。
-> CONTEXT: Map206/events/13/pages/1/18/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/18/Dialogue
+But Draghignazzo is very proud.
+We took advantage of this by luring her into the valley,
+dropping a huge amount of rocks from above to stop her,
+and unleashing a poisonous mist on her.
 > END STRING
 
 > BEGIN STRING
 弱ったものの、それでも奴は死なず、
 我々は協会の者の手を借り、
 奴を別の世界に封印することにした……。
-> CONTEXT: Map206/events/13/pages/1/22/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/22/Dialogue
+Although she was weakened, she still did not die,
+and with the help of the Society,
+we decided to seal her away in another world...
 > END STRING
 
 > BEGIN STRING
 【封印場所について】
-> CONTEXT: Map206/events/13/pages/1/25/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/13/pages/1/46/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/13/pages/1/69/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/13/pages/1/87/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/13/pages/1/109/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/13/pages/1/133/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/13/pages/1/161/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/13/pages/1/178/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/13/pages/1/200/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/13/pages/1/219/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/13/pages/1/245/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/25/Dialogue
+> CONTEXT: Map206/events/13/pages/1/46/Dialogue
+> CONTEXT: Map206/events/13/pages/1/69/Dialogue
+> CONTEXT: Map206/events/13/pages/1/87/Dialogue
+> CONTEXT: Map206/events/13/pages/1/109/Dialogue
+> CONTEXT: Map206/events/13/pages/1/133/Dialogue
+> CONTEXT: Map206/events/13/pages/1/161/Dialogue
+> CONTEXT: Map206/events/13/pages/1/178/Dialogue
+> CONTEXT: Map206/events/13/pages/1/200/Dialogue
+> CONTEXT: Map206/events/13/pages/1/219/Dialogue
+> CONTEXT: Map206/events/13/pages/1/245/Dialogue
+[Sealing location]
 > END STRING
 
 > BEGIN STRING
@@ -254,29 +282,36 @@ Farfarello
 そんなに深い場所ではないが、灯台下暗しだ
 それに、近くには赤髪のサキュバス達がうろついている
 わざわざ好んで来るものはいないだろう……
-> CONTEXT: Map206/events/13/pages/1/26/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/26/Dialogue
+Sealed away in a tree hollow in the dream world. 
+Not that deep, but it's dark, and there are 
+red-haired succubi lurking nearby. 
+I doubt anyone would want to come here...
 > END STRING
 
 > BEGIN STRING
 【ある商人の証言記録】
-> CONTEXT: Map206/events/13/pages/1/32/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/32/Dialogue
+[Testimony of a certain merchant]
 > END STRING
 
 > BEGIN STRING
 あぁ、やっぱり彼女は悪魔だったんですね。
 あなた達に引き渡してよかったよかった。
-> CONTEXT: Map206/events/13/pages/1/33/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/33/Dialogue
+Ah, so she was a demon after all.
+I'm so glad I handed her over to you guys.
 > END STRING
 
 > BEGIN STRING
 いやぁビックリしたもんですよ……。
 砂漠を越えようとしてたら、女性がものすごい速度で
 砂嵐を起こしながら駆け抜けていたんですから。
-> CONTEXT: Map206/events/13/pages/1/35/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/35/Dialogue
+Wow, it was quite a surprise....
+As I was crossing the desert, I saw a 
+woman running through it at incredible speed,
+causing a sandstorm.
 > END STRING
 
 > BEGIN STRING
@@ -284,8 +319,10 @@ Farfarello
 倒れちゃったんですよね。
 砂漠を越えるついでについ助けたんですが……。
 やっぱり、そわそわとする態度から怪しいなと。
-> CONTEXT: Map206/events/13/pages/1/38/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/38/Dialogue
+But she was in bad shape and starving, so she collapsed.
+I ended up helping her as I was crossing the desert, but...
+Her restless behavior made me suspicious after all.
 > END STRING
 
 > BEGIN STRING
@@ -293,8 +330,10 @@ Farfarello
 マレブランケの一員とはねぇ。
 これでほぼ全員封印されることになるんでしょう？
 平和な世の中になることを望みますよ、まったく……。
-> CONTEXT: Map206/events/13/pages/1/42/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/42/Dialogue
+Still, she's a member of the infamous Malebranche.
+So almost all of them will be sealed away, right?
+I really hope the world becomes a more peaceful place...
 > END STRING
 
 > BEGIN STRING
@@ -302,29 +341,35 @@ Farfarello
 ワーウルフ達が大量に潜む隠し部屋だ
 万が一見つかったとしても
 そう簡単には封印を破れないだろう
-> CONTEXT: Map206/events/13/pages/1/47/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/47/Dialogue
+Sealed away in a cave in the dream world. 
+It's a hidden room filled with werewolves. 
+Even if she were to be found, 
+it wouldn't be that easy to break the seal.
 > END STRING
 
 > BEGIN STRING
 【ある牢獄内にいる、老いた魔術師の証言記録】
-> CONTEXT: Map206/events/13/pages/1/53/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/53/Dialogue
+[Testimony of an old magician in a prison]
 > END STRING
 
 > BEGIN STRING
 私が彼女と、共同で魔術の研究をしていたことは
 否定しない……。
 ああ、悪魔に協力していた罪は認めるよ……。
-> CONTEXT: Map206/events/13/pages/1/54/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/54/Dialogue
+I don't deny that I collaborated with her 
+in magical research... Yes, I do admit to 
+the crime of cooperating with the devil...
 > END STRING
 
 > BEGIN STRING
 なぜ彼女をこちらで封印したか……だと？
 ……あまりにも危険すぎたからだ。彼女の思想は。
-> CONTEXT: Map206/events/13/pages/1/57/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/57/Dialogue
+Why seal her here? 
+...Because her ideas were too dangerous.
 > END STRING
 
 > BEGIN STRING
@@ -332,24 +377,29 @@ Farfarello
 自分の好奇心を満たすためなら、
 どんなこともしてみせる。
 自分の、自分の……。
-> CONTEXT: Map206/events/13/pages/1/59/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/59/Dialogue
+She would make any sacrifice to deepen her knowledge.
+She would do anything to satisfy her curiosity.
+She, she...
 > END STRING
 
 > BEGIN STRING
 その行きつく先がどうなるかなんて、
 想像も難しくないだろうよ……。
 ……さぁ、話すことは全て話したつもりだ。
-> CONTEXT: Map206/events/13/pages/1/63/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/63/Dialogue
+It's not hard to imagine where this will lead...
+...Well, I think I've said everything there is to say.
 > END STRING
 
 > BEGIN STRING
 私を処刑し、彼女から得た知識を
 この世界から全て葬り去るがいい。
 これで、全てが終わりになるだろう……。
-> CONTEXT: Map206/events/13/pages/1/66/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/66/Dialogue
+Execute me and bury all the knowledge 
+gained from her from this world. 
+This will be the end of everything...
 > END STRING
 
 > BEGIN STRING
@@ -357,14 +407,17 @@ Farfarello
 花の咲き乱れ、小川のせせらぎが
 聞こえるとても平和な場所だ
 ワーキャット達さえいなければ、だが
-> CONTEXT: Map206/events/13/pages/1/70/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/70/Dialogue
+Sealed away in a strange place in the Dream World, 
+where flowers bloom and streams flow, 
+and it's a very peaceful place, 
+if only it weren't for the werecats.
 > END STRING
 
 > BEGIN STRING
 カニャッツオ
-> CONTEXT: Map206/events/13/pages/1/76/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/76/Choice/0
+Cagnazzo
 > END STRING
 
 > BEGIN STRING
@@ -383,31 +436,37 @@ Ciriatto
 
 > BEGIN STRING
 【ある国の参謀の記録】
-> CONTEXT: Map206/events/13/pages/1/78/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/78/Dialogue
+[Records of a country's staff officer]
 > END STRING
 
 > BEGIN STRING
 カニャッツォの策には本当に手を焼かされた。
 奇抜にして複雑な計画を
 よくもまぁあんな短期間で立ておるわい。
-> CONTEXT: Map206/events/13/pages/1/79/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/79/Dialogue
+Cagnazzo's plan really gave me a lot of trouble.
+It's amazing how she was able to come up with 
+such an unusual and complicated plan in such a short time.
 > END STRING
 
 > BEGIN STRING
 だがしかし、グラッフィアカーネとチリアットを捕え、
 封印したことで、奴は冷静さを欠いたように思える。
-> CONTEXT: Map206/events/13/pages/1/82/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/82/Dialogue
+However, it seems that she lost her cool 
+after capturing and sealing
+Graffiacane and Ciriatto.
 > END STRING
 
 > BEGIN STRING
 カニャッツォを捕えられるのも、そう遠くは無いはずだ。
 司令塔さえ封じれば、きゃつらは力以外
 取り柄のない悪魔に過ぎんのだからな……。
-> CONTEXT: Map206/events/13/pages/1/84/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/84/Dialogue
+Shouldn't be long before we capture Cagnazzo.
+If we seal off their command, they're nothing more 
+than unspectacular demons with a bit of strength...
 > END STRING
 
 > BEGIN STRING
@@ -415,22 +474,27 @@ Ciriatto
 ゴブリンたちの拠点から離れているし、
 洞窟からの侵入も難しい場所だ
 近くに奇妙な泉もあったが…問題はないだろう
-> CONTEXT: Map206/events/13/pages/1/88/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/88/Dialogue
+We sealed her away in a mine in the Dream World. 
+Far from the Goblin stronghold and difficult to get to 
+through the caves. There's a strange spring nearby, so... 
+It shouldn't be a problem.
 > END STRING
 
 > BEGIN STRING
 【悪魔と決闘した、ある男の記録】
-> CONTEXT: Map206/events/13/pages/1/94/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/94/Dialogue
+[Record of a man who dueled with a demon]
 > END STRING
 
 > BEGIN STRING
 グラッフィアカーネのことかい？
 なんて言うかまぁ……
 悪魔らしくないなと思ったよ。
-> CONTEXT: Map206/events/13/pages/1/95/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/95/Dialogue
+Are you talking about Graffiacane?
+Well, what can I say...
+I thought that was un-devilish.
 > END STRING
 
 > BEGIN STRING
@@ -438,16 +502,21 @@ Ciriatto
 襲撃をかけてきた時だった。
 俺はみんなを守るために、
 １対１の決闘を申し込んだのさ。
-> CONTEXT: Map206/events/13/pages/1/98/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/98/Dialogue
+I met her when she attacked the village 
+where I was staying. To protect everyone, 
+I challenged her to a one-on-one duel.
 > END STRING
 
 > BEGIN STRING
 ……あぁ、強かったね。俺なんかが敵うものかよ。
 だけど奴は、俺の勇気とに免じて、
 全員を見逃してくれたのさ。
-> CONTEXT: Map206/events/13/pages/1/102/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/102/Dialogue
+...Ah, she was strong. 
+There was no way I could stand against her.
+But she, in recognition of my courage,
+let us all go.
 > END STRING
 
 > BEGIN STRING
@@ -455,8 +524,11 @@ Ciriatto
 妙な事を言っていると思うかもしれんが、
 あいつはそんな悪い奴に思えないんだ。
 できる事なら酒の一杯でも酌み交わしてみたかったよ。
-> CONTEXT: Map206/events/13/pages/1/105/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/105/Dialogue
+...I see, she was caught.
+You might think I'm saying something strange,
+but I don't think she's such a bad person.
+I wish I could have had a drink with her.
 > END STRING
 
 > BEGIN STRING
@@ -464,14 +536,17 @@ Ciriatto
 近くには何もないし、バレる事もそうないだろう
 強いて言えば……そうだな
 少し離れた位置に変わった扉があったような気がする
-> CONTEXT: Map206/events/13/pages/1/110/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/110/Dialogue
+Sealed away in a tunnel in the dream world. 
+There's nothing nearby, so it's unlikely 
+she'll be found out. If I had to say... well, 
+I think there was a strange door a little distance away.
 > END STRING
 
 > BEGIN STRING
 【ある負傷していた子供の記録】
-> CONTEXT: Map206/events/13/pages/1/116/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/116/Dialogue
+[Record of an injured child]
 > END STRING
 
 > BEGIN STRING
@@ -479,23 +554,29 @@ Ciriatto
 森の中でケガしちゃったんだ。
 その時、あの悪魔のお姉ちゃんがふらっと現れて、
 ケガの手当をしてくれたんだ。
-> CONTEXT: Map206/events/13/pages/1/117/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/117/Dialogue
+The other day, when I went to play outside the village,
+I got injured in the forest.
+Then that demon girl just showed up,
+and helped me heal my injury.
 > END STRING
 
 > BEGIN STRING
 それで、お姉ちゃんは悪魔なのに、
 どうしてぼくを助けるの？って聞いたんだ。
-> CONTEXT: Map206/events/13/pages/1/121/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/121/Dialogue
+So I asked her, 
+"Why are you helping me if you're a demon?"
 > END STRING
 
 > BEGIN STRING
 そしたら、
 「傷ついた人を助けるのに理由なんて必要ですか？」
 ってぼくに言ったんだ……。
-> CONTEXT: Map206/events/13/pages/1/123/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/123/Dialogue
+Then she said to me,
+"Does there have to be a reason 
+to help someone who's hurt?"
 > END STRING
 
 > BEGIN STRING
@@ -503,16 +584,20 @@ Ciriatto
 お母さんは言ってた。
 森であったことを家族や村の人に話をしても、
 誰も信じてくれないんだ……。
-> CONTEXT: Map206/events/13/pages/1/126/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/126/Dialogue
+...But my mom said demons attack and eat humans.
+Even when I told my family and the villagers 
+about what happened in the forest,
+no one believed me...
 > END STRING
 
 > BEGIN STRING
 ねえ、あのお姉ちゃんは本当に悪魔なの？
 僕にはどうしてもあの人が
 わるい悪魔には見えないんだ……。
-> CONTEXT: Map206/events/13/pages/1/130/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/130/Dialogue
+Hey, is that girl really a demon?
+I just can't see her as an evil demon...
 > END STRING
 
 > BEGIN STRING
@@ -520,8 +605,11 @@ Ciriatto
 夢世界にある坑道の奥深くに封印した
 危険な場所だが、封印を解かれる訳にもいかない
 それに、近くには友好的なゴブリン達も住んでるしな
-> CONTEXT: Map206/events/13/pages/1/134/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/134/Dialogue
+Sealed away deep in the mines of the Dream World. 
+It's a dangerous place, 
+but we can't let her leave the seal. 
+Plus, there are friendly goblins living nearby.
 > END STRING
 
 > BEGIN STRING
@@ -547,8 +635,8 @@ Scarmiglione
 
 > BEGIN STRING
 【ある薬師の商売記録】
-> CONTEXT: Map206/events/13/pages/1/142/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/142/Dialogue
+[A pharmacist's business record]
 > END STRING
 
 > BEGIN STRING
@@ -556,16 +644,21 @@ Scarmiglione
 ここのところよく芳香剤を買いに来る。
 とても美しく、彼女の事を深く知りたいと思ったため
 名を聞いたが、答えてはくれなかった。
-> CONTEXT: Map206/events/13/pages/1/143/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/143/Dialogue
+A woman with red hair has been coming by 
+to buy air fresheners lately. She's very beautiful, 
+and I wanted to get to know her better, 
+so I asked her name, but she wouldn't tell me.
 > END STRING
 
 > BEGIN STRING
 ……またあの女性が来た。芳香剤をよく買う。
 来るたびにふわりと甘い匂いが漂い、
 ついうっとりとしてしまう。
-> CONTEXT: Map206/events/13/pages/1/147/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/147/Dialogue
+...That woman has come again. often buying air fresheners.
+Every time she comes, a sweet smell wafts through the air,
+and I find myself falling in love with it.
 > END STRING
 
 > BEGIN STRING
@@ -573,8 +666,11 @@ Scarmiglione
 芳香剤に加えて薬品を購入した。
 臭い匂いの元を溶かすのに有効なものだが、
 何に使う気なのだろうか？
-> CONTEXT: Map206/events/13/pages/1/150/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/150/Dialogue
+...That woman has come again.
+In addition to the air freshener, she has bought some chemicals.
+They are effective at dissolving the source of bad odors,
+but I wonder what she plans to use them for?
 > END STRING
 
 > BEGIN STRING
@@ -582,16 +678,22 @@ Scarmiglione
 ……私は気づいてしまった。
 あの薬品は、血の匂いを消すのに有効なものだ。
 彼女が私の方を見る。なんだか目が怖い……。
-> CONTEXT: Map206/events/13/pages/1/154/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/154/Dialogue
+The woman came again. She bought air freshener and chemicals.
+...and then I realized something.
+Those chemicals are effective in removing the smell of blood.
+She looked at me. There was something scary about her eyes...
 > END STRING
 
 > BEGIN STRING
 以後、あの女性は来なくなった。
 しばらくして、マレブランケ壊滅との噂が耳に入った。
 もし、彼女が来続けていたら、私は……？
-> CONTEXT: Map206/events/13/pages/1/158/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/158/Dialogue
+After that, the woman stopped coming.
+After a while, I heard rumors that Malebranche 
+had been destroyed. If she had continued to come, 
+what would have happened to me...?
 > END STRING
 
 > BEGIN STRING
@@ -599,43 +701,51 @@ Scarmiglione
 ハハハッ！ざまぁみろってんだ！！
 任務終了。一息着きたい所だが長居はしない方が良いだろう
 近くに湧き水が湧いてるからつい一息つきたくなっちまうぜ
-> CONTEXT: Map206/events/13/pages/1/162/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/162/Dialogue
+We submerged her in magma and sealed her away!
+Hahaha! Serves her right!! Mission accomplished. 
+I'd like a break, but I don't think I should stay long.
+There's a spring nearby, so I'm tempted to take a break.
 > END STRING
 
 > BEGIN STRING
 【雪山で発見された、ボロボロの手記の記録】
 ……かなり昔の記録のようだ。
-> CONTEXT: Map206/events/13/pages/1/168/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/168/Dialogue
+[Tattered journal entry from the snowy mountains]
+...It appears to be a record from quite some time ago.
 > END STRING
 
 > BEGIN STRING
 おれ　は　まちがって　た
 　このやま　近づくんじゃ　なかた
-> CONTEXT: Map206/events/13/pages/1/170/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/170/Dialogue
+      a   mistake 
+  should not    approached this mountain
 > END STRING
 
 > BEGIN STRING
 どうくつ　につれてこられて　さむい
 あの　あくま、おそろ　しい
-> CONTEXT: Map206/events/13/pages/1/172/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/172/Dialogue
+    taken   a cave      cold
+That demon     scary
 > END STRING
 
 > BEGIN STRING
 この　にっき、みたひと　すぐ　やまされ
 ここにいる、と、たべ
-> CONTEXT: Map206/events/13/pages/1/174/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/174/Dialogue
+Who   sees this diary    stop immediately
+If enter,    eat
 > END STRING
 
 > BEGIN STRING
 【これ以上先は、血で濡れて読めなかった】
 ……と書かれている。
-> CONTEXT: Map206/events/13/pages/1/176/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/176/Dialogue
+[The rest was soaked with blood and unreadable] 
+...is what it says.
 > END STRING
 
 > BEGIN STRING
@@ -643,14 +753,16 @@ Scarmiglione
 最奥にはマグマだまりのある奇妙な場所だ
 きっと死んだ者の行きつく果てなのだろう
 おそらく俺たちも…
-> CONTEXT: Map206/events/13/pages/1/179/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/179/Dialogue
+Sealed away in the depths of hell, 
+a strange place with a magma chamber at its deepest. 
+It's probably where the dead end up. Maybe we too...
 > END STRING
 
 > BEGIN STRING
 【あるギャンブラーの証言の記録】
-> CONTEXT: Map206/events/13/pages/1/185/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/185/Dialogue
+[Record of a gambler's testimony]
 > END STRING
 
 > BEGIN STRING
@@ -658,24 +770,31 @@ Scarmiglione
 やけに強かったもんで、女神に愛されてると思ったら、
 悪魔が微笑んでたとはねぇ。
 トンだインチキヤローだったってワケだ。
-> CONTEXT: Map206/events/13/pages/1/186/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/186/Dialogue
+Wow, so that girl was a devil.
+She was so strong that I thought the goddess loved her,
+but the devil was smiling at her.
+So she was a ridiculous fraud.
 > END STRING
 
 > BEGIN STRING
 ああ、滅茶苦茶勝ってたよ。
 さらに大きな博打にゃあ、最後には彼女が必ず勝つのさ。
 むしろ外した方が俺達は盛り上がったね。
-> CONTEXT: Map206/events/13/pages/1/190/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/190/Dialogue
+Yes, she won by a ton.
+And it was a big gamble, and she always won in the end.
+In fact, we were more excited when she lost.
 > END STRING
 
 > BEGIN STRING
 それでもイカサマの証拠なんて出てこないから、
 賭博場も困り果てるもんさ。
 しかし、悪魔とはねぇ……。
-> CONTEXT: Map206/events/13/pages/1/193/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/193/Dialogue
+Still, no evidence of cheating has been found,
+so the gambling hall is at a loss.
+But she's the devil...
 > END STRING
 
 > BEGIN STRING
@@ -683,8 +802,11 @@ Scarmiglione
 なんていうんだい？
 人を食っちまうような悪魔と言われたら、
 そんな感じするなと思っただけさ。
-> CONTEXT: Map206/events/13/pages/1/196/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/196/Dialogue
+...No, she had amazing proportions.
+What can I say?
+When I heard she was a demon that eats people,
+I just thought that's what she looked like.
 > END STRING
 
 > BEGIN STRING
@@ -692,8 +814,11 @@ Scarmiglione
 それも最奥にだ。決死の覚悟でここまできた
 ここなら封印が解かれることはないだろう
 ……これだけの被害を出したのだから、な
-> CONTEXT: Map206/events/13/pages/1/201/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/201/Dialogue
+Sealed away in the Alraune colony, in the deepest part. 
+We came all the way here prepared to die, 
+and the seal won't be broken here... 
+after all the damage she's done
 > END STRING
 
 > BEGIN STRING
@@ -719,38 +844,45 @@ Malacoda
 
 > BEGIN STRING
 読むのをやめる
-> CONTEXT: Map206/events/13/pages/1/207/Choice/3 < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/207/Choice/3
+Stop reading
 > END STRING
 
 > BEGIN STRING
 【当時のある事件の記録】
-> CONTEXT: Map206/events/13/pages/1/209/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/209/Dialogue
+[Record of an incident from that time]
 > END STRING
 
 > BEGIN STRING
 過去に起きた複数の犯罪行為であるが、
 これは悪魔ルビカンテによって
 人が操られていたためであると発覚した。
-> CONTEXT: Map206/events/13/pages/1/210/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/210/Dialogue
+Several crimes have occurred in the past,
+but it has been discovered that these were caused 
+by people being controlled by the demon Rubicante.
 > END STRING
 
 > BEGIN STRING
 悪魔ルビカンテは人を操る力を持ち、
 その能力を活かして、自らは手を下さずに、
 人同士で争いを起こしていたのである。
-> CONTEXT: Map206/events/13/pages/1/213/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/213/Dialogue
+The demon Rubicante has the power to control people,
+and she uses this ability to cause conflict between people
+without doing anything herself.
 > END STRING
 
 > BEGIN STRING
 さて、ルビカンテは封印されたものの、
 当時に判決を下された者およびその関係者には
 どういった対応や謝罪を行うべきであろうか？
-> CONTEXT: Map206/events/13/pages/1/216/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/216/Dialogue
+Now, although Rubicante has been sealed away, 
+what kind of response and apology should be made 
+to those who were sentenced at the time 
+and those related to them?
 > END STRING
 
 > BEGIN STRING
@@ -758,14 +890,17 @@ Malacoda
 魔王像の裏にある隠し部屋だ。見つかるまい
 しかし誰がここにあんな悪趣味なものを…
 ここが奴らの拠点なのか？ならば灯台下暗しか
-> CONTEXT: Map206/events/13/pages/1/220/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/220/Dialogue
+Sealed away deep in the forest in a hidden room 
+behind the Demon Lord's statue. She'll never be found, 
+but who would put something so gaudy here...? Is this their base?
+It's dark under the lighthouse, as they say.
 > END STRING
 
 > BEGIN STRING
 【とあるアジトから発見された、バルバリッチャの手記】
-> CONTEXT: Map206/events/13/pages/1/226/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/226/Dialogue
+[Barbariccia's notes discovered in a certain hideout]
 > END STRING
 
 > BEGIN STRING
@@ -773,16 +908,21 @@ Malacoda
 今日もマラコーダ様がお怒りである。
 約束の品が遅いだの、あの国は早く沈まないかだの、
 じきに解決するであろうことで酷く怒っている。
-> CONTEXT: Map206/events/13/pages/1/227/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/227/Dialogue
+○Month×Day
+Lord Malacoda is angry again today. She's very angry 
+about things that will likely be resolved soon, 
+such as the late goods and the country sinking quickly.
 > END STRING
 
 > BEGIN STRING
 当然、その怒りは直属である我にぶつけられる。
 今日も胃薬を胃に流し込む。
 不味い、もう一杯。
-> CONTEXT: Map206/events/13/pages/1/231/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/231/Dialogue
+Naturally, her anger is directed at me, direct subordinate.
+Today too, I pour the stomach medicine into my stomach.
+It tastes bad, I'll have one more.
 > END STRING
 
 > BEGIN STRING
@@ -790,8 +930,11 @@ Malacoda
 ファルファレルロが言うことを聞かず単独行動する。
 ドラギニャッツォの気まぐれで作戦が台無しになり、
 アリキーノとカルカブリーナがまた喧嘩しだす。
-> CONTEXT: Map206/events/13/pages/1/234/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/234/Dialogue
+〇Month●Day
+Farfarello disobeys orders and acts independently.
+Draghignazzo's whims ruin the plan,
+and Alichino and Calcabrina start fighting again.
 > END STRING
 
 > BEGIN STRING
@@ -799,16 +942,22 @@ Malacoda
 ……もう相手が人間でもいいから、
 結婚して円満な生活を送りたい。
 正直、早く解放されたい。
-> CONTEXT: Map206/events/13/pages/1/238/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/238/Dialogue
+◆Month▽Day
+...I don't care if the partner is human,
+I just want to get married and live a happy life.
+Honestly, I want to be free soon.
 > END STRING
 
 > BEGIN STRING
 もちろんひ弱なものではなく、
 勇者とか大貴族とか同等の力がある者と、
 正直言って幸せに暮らしたい……。
-> CONTEXT: Map206/events/13/pages/1/242/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/242/Dialogue
+Of course, I don't want to live with a weakling,
+but with someone with equal power, 
+like a hero or a great noble,
+and to be honest, I want to live happily...
 > END STRING
 
 > BEGIN STRING
@@ -816,45 +965,56 @@ Malacoda
 まさかこんな場所に封印されているとは誰も思うまい
 内通者を利用したため、これといった被害もなかった
 たしか……ガーゴイルの守る宝物庫の奥深くだったか？
-> CONTEXT: Map206/events/13/pages/1/246/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/246/Dialogue
+Sealed in the Demon Lord's Castle. 
+No one would think she'd be sealed in a place like this. 
+We used an insider, so no major damage occurred. I think... 
+Deep inside the treasure vault guarded by the gargoyles.
 > END STRING
 
 > BEGIN STRING
 【ある魔術師の記憶】
-> CONTEXT: Map206/events/13/pages/1/252/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/252/Dialogue
+[Memory of a Certain Magician]
 > END STRING
 
 > BEGIN STRING
 マラコーダは非常に凶暴な悪魔である。
 厳重な封印を施すことに加え、
 さらに配下の封印をその鍵ともする。
-> CONTEXT: Map206/events/13/pages/1/253/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/253/Dialogue
+Malacoda is an extremely fierce demon.
+In addition to applying strict seals,
+she also uses the seals of her subordinates as a lock on them.
 > END STRING
 
 > BEGIN STRING
 現状、９の封印が施されている。
 スカルミリオーネとリビコッコも捕らえ次第、速やかに鍵とし、
 全部で１１の鍵で追加の封印を行う形とする。
-> CONTEXT: Map206/events/13/pages/1/256/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/256/Dialogue
+Currently, there are 9 seals.
+As soon as Scarmiglione and Libicocco are captured, 
+they will be quickly turned into locks, 
+bringing the total to 11 additional seals.
 > END STRING
 
 > BEGIN STRING
 こうでもしなければまた災厄が現実に蘇るだろう。
 これでしばらくの間、この地の安寧は約束される…。
-> CONTEXT: Map206/events/13/pages/1/259/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/259/Dialogue
+If we don't do this, disaster will come back to haunt us.
+This will ensure peace in this land for a while...
 > END STRING
 
 > BEGIN STRING
 ……しかし、配下のバルバリッチャが、
 やけにあっさりと封印されたことが気がかりである。
 願わくば、後世に何も起こらないことを祈る。
-> CONTEXT: Map206/events/13/pages/1/261/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map206/events/13/pages/1/261/Dialogue
+...However, I am concerned that my subordinate,
+Barbariccia, was sealed away so quickly.
+I hope that nothing will happen to her in future generations.
 > END STRING
 
 > BEGIN STRING
@@ -953,7 +1113,7 @@ About Malebranche
 > BEGIN STRING
 異変の場所について
 > CONTEXT: Map206/events/18/pages/1/4/Choice/1
-About Strange Place
+About strange places
 > END STRING
 
 > BEGIN STRING
@@ -974,7 +1134,7 @@ Wanted to hear your voice
 かつて多くの街や国に災厄をもたらしたものです。
 > CONTEXT: Map206/events/18/pages/1/6/Dialogue
 \\name[\\v[2]]\\_
-The "Malebranches" are sealed demons that 
+The "Malebranche" are sealed demons that 
 once brought disaster to many cities and countries.
 > END STRING
 
