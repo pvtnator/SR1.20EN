@@ -1,5 +1,12 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
+SCRP_Field02
+> CONTEXT: Map198/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map197/bgm/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 \\name[\\v[2]]\\_
 ねぇ･･･アタシと気持ち良いコト、しよぉ？
 > CONTEXT: Map198/events/3/pages/0/25/Dialogue
@@ -58,7 +65,9 @@ You should be honest with your desires\\H
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あら･･････\\H
-> CONTEXT: Map198/events/3/pages/0/71/Dialogue
+> CONTEXT: Map198/events/3/pages/0/67/Dialogue
+> CONTEXT: Map033/events/8/pages/1/88/Dialogue
+> CONTEXT: Map035/events/8/pages/1/86/Dialogue
 \\name[\\v[2]]\\_
 Oh my...\\H
 > END STRING
@@ -67,7 +76,7 @@ Oh my...\\H
 \\name[\\v[2]]\\_
 ふふ、素敵ですわ\\.\\.
 これから、もっと素敵になることでしょうね･･･\\H
-> CONTEXT: Map198/events/3/pages/0/74/Dialogue
+> CONTEXT: Map198/events/3/pages/0/70/Dialogue
 \\name[\\v[2]]\\_
 Hehe, wonderful.\\.\\.
 I'm sure it will become even more wonderful...\\H
@@ -76,7 +85,9 @@ I'm sure it will become even more wonderful...\\H
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あらあら･･････\\H
-> CONTEXT: Map198/events/3/pages/0/96/Dialogue
+> CONTEXT: Map198/events/3/pages/0/92/Dialogue
+> CONTEXT: Map033/events/8/pages/1/113/Dialogue
+> CONTEXT: Map035/events/8/pages/1/110/Dialogue
 \\name[\\v[2]]\\_
 My my...\\H
 > END STRING
@@ -85,7 +96,8 @@ My my...\\H
 \\name[\\v[2]]\\_
 ふふ、今回は残念でしたけれども･･･\\.\\.
 これからもっと、素敵になることを期待していますわ\\H
-> CONTEXT: Map198/events/3/pages/0/99/Dialogue
+> CONTEXT: Map198/events/3/pages/0/95/Dialogue
+> CONTEXT: Map033/events/8/pages/1/116/Dialogue
 \\name[\\v[2]]\\_
 Hehe, I was disappointed this time...\\.\\.
 I hope that it will become more wonderful in the future\\H
@@ -94,7 +106,8 @@ I hope that it will become more wonderful in the future\\H
 > BEGIN STRING
 \\name[\\v[2]]\\_
 お付き合い頂き、感謝致しますわ\\H
-> CONTEXT: Map198/events/3/pages/0/105/Dialogue
+> CONTEXT: Map198/events/3/pages/0/101/Dialogue
+> CONTEXT: Map033/events/8/pages/1/122/Dialogue
 \\name[\\v[2]]\\_
 Thank you for your cooperation\\H
 > END STRING
@@ -103,7 +116,8 @@ Thank you for your cooperation\\H
 \\name[\\v[2]]\\_
 それでは、旅立たれるのであれば、まずは･･･
 ･･････あら？
-> CONTEXT: Map198/events/3/pages/0/107/Dialogue
+> CONTEXT: Map198/events/3/pages/0/103/Dialogue
+> CONTEXT: Map033/events/8/pages/1/124/Dialogue
 \\name[\\v[2]]\\_
 Well then, if you are going to leave, firstly...
 ...Oh?
@@ -111,16 +125,9 @@ Well then, if you are going to leave, firstly...
 
 > BEGIN STRING
 \\name[レッサーサキュバス]\\_
-ねぇ、お姉さん･･･、あたしも一緒に行っちゃダメ？
-> CONTEXT: Map198/events/3/pages/0/124/Dialogue < UNTRANSLATED
-> CONTEXT: Map198/events/3/pages/0/129/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[レッサーサキュバス]\\_
 ねぇ、お兄さん･･･、あたしも一緒に行っちゃダメ？
-> CONTEXT: Map198/events/3/pages/0/133/Dialogue
+> CONTEXT: Map198/events/3/pages/0/119/Dialogue
+> CONTEXT: Map033/events/8/pages/1/140/Dialogue
 \\name[Lesser Succubus]\\_
 Hey, mister... why don't I go with you?
 > END STRING
@@ -129,7 +136,8 @@ Hey, mister... why don't I go with you?
 \\name[レッサーサキュバス]\\_
 また、さっきみたいに気持ち良いコトして欲しいんだぁ\\H
 もちろん、ちゃんと言うこと聞くから♪
-> CONTEXT: Map198/events/3/pages/0/139/Dialogue
+> CONTEXT: Map198/events/3/pages/0/121/Dialogue
+> CONTEXT: Map033/events/8/pages/1/142/Dialogue
 \\name[Lesser Succubus]\\_
 I want to do more things that feel good\\H
 Of course, I'll listen to what you have to say♪
@@ -138,7 +146,8 @@ Of course, I'll listen to what you have to say♪
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あらあら、すっかり懐かれてしまったようですわね\\H
-> CONTEXT: Map198/events/3/pages/0/142/Dialogue
+> CONTEXT: Map198/events/3/pages/0/124/Dialogue
+> CONTEXT: Map033/events/8/pages/1/145/Dialogue
 \\name[\\v[2]]\\_
 Oh my, it seems like she's completely attached to you\\H
 > END STRING
@@ -148,7 +157,7 @@ Oh my, it seems like she's completely attached to you\\H
 夢世界は夢魔の巣窟。\\n\\.\\.ですが、貴方の恒久的な\\_
 「精の献上」を対価に契約を交わす事で、\\n\\c[12]夢魔を\\_
 仲間に引き入れる\\c[0]ことができますの。
-> CONTEXT: Map198/events/3/pages/0/144/Dialogue
+> CONTEXT: Map198/events/3/pages/0/126/Dialogue
 \\name[\\v[2]]\\_
 The dream world is a den of succubi. However, by signing a contract
 in exchange for your permanent "semen offering",\\n\\_
@@ -158,7 +167,8 @@ in exchange for your permanent "semen offering",\\n\\_
 > BEGIN STRING
 \\name[\\v[2]]\\_
 共にする仲間がいれば、夢世界での旅も心強くなりますわ。
-> CONTEXT: Map198/events/3/pages/0/148/Dialogue
+> CONTEXT: Map198/events/3/pages/0/130/Dialogue
+> CONTEXT: Map033/events/8/pages/1/151/Dialogue
 \\name[\\v[2]]\\_
 If you have friends with you, 
 your journey in the dream world will be more reassuring.
@@ -168,7 +178,8 @@ your journey in the dream world will be more reassuring.
 \\name[レッサーサキュバス]\\_
 ねぇ、いいでしょ？
 私も連れていってよ～\\H
-> CONTEXT: Map198/events/3/pages/0/150/Dialogue
+> CONTEXT: Map198/events/3/pages/0/132/Dialogue
+> CONTEXT: Map033/events/8/pages/1/153/Dialogue
 \\name[Lesser Succubus]\\_
 Hey, it's okay isn't it?
 Take me~\\H
@@ -176,36 +187,134 @@ Take me~\\H
 
 > BEGIN STRING
 レッサーサキュバスと契約を交わしますか？
-> CONTEXT: Map198/events/3/pages/0/155/Dialogue
+> CONTEXT: Map198/events/3/pages/0/137/Dialogue
+> CONTEXT: Map033/events/8/pages/1/158/Dialogue
 Would you like to make a contract with a lesser succubus?
 > END STRING
 
 > BEGIN STRING
 \\name[レッサーサキュバス]\\_
+あはっ、これからよろしくねぇ。　おにーさん\\H
+> CONTEXT: Map198/events/3/pages/0/142/Dialogue
+> CONTEXT: Map033/events/8/pages/1/163/Dialogue
+\\name[Lesser Succubus]\\_
+Ah, thank you for your help. Darling\\H
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバスと契約した！
+> CONTEXT: Map198/events/3/pages/0/145/Dialogue
+> CONTEXT: Map033/events/8/pages/1/166/Dialogue
+I made a contract with a lesser succubus!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢魔は貴方が裏切ることがなければ、
+契約に基づいて貴方の助けになるはずですわ。
+> CONTEXT: Map198/events/3/pages/0/162/Dialogue
+> CONTEXT: Map033/events/8/pages/1/183/Dialogue
+\\name[\\v[2]]\\_
+If you don't betray the succubus,
+she should be able to help you through the contract.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+信頼関係は、大事ですものね？
+くすくす･･･\\H
+> CONTEXT: Map198/events/3/pages/0/165/Dialogue
+\\name[\\v[2]]\\_
+Trusting relationships are important, right?
+Hehe...\\H
+> END STRING
+
+> BEGIN STRING
+\\name[レッサーサキュバス]\\_
+えぇ～･･･、そんなぁ。
+もっとお兄さんとちゅーとかえっちとかしたいよ～。
+> CONTEXT: Map198/events/3/pages/0/171/Dialogue
+> CONTEXT: Map033/events/8/pages/1/191/Dialogue
+\\name[Lesser Succubus]\\_
+Aah... Not good!
+I want to have more sex with you, mister!
+> END STRING
+
+> BEGIN STRING
+\\name[レッサーサキュバス]\\_
+ね、いいでしょ？　連れてってよぉ\\H
+> CONTEXT: Map198/events/3/pages/0/174/Dialogue
+> CONTEXT: Map033/events/8/pages/1/194/Dialogue
+\\name[Lesser Succubus]\\_
+Hey, it's okay isn't it? Take me with you\\H
+> END STRING
+
+> BEGIN STRING
+\\name[レッサーサキュバス]\\_
+んもう･･･強情なお兄さんだなぁ。
+こんな可愛い女の子が頼んでるのにぃ。
+> CONTEXT: Map198/events/3/pages/0/181/Dialogue
+> CONTEXT: Map033/events/8/pages/1/201/Dialogue
+\\name[Lesser Succubus]\\_
+Hmph... what a stubborn boy.
+Such a cute girl is asking for it.
+> END STRING
+
+> BEGIN STRING
+\\name[レッサーサキュバス]\\_
+契約してくれたら、好きなだけ抱いていいんだよ？\\.\\.
+なんだったらもうずーっとでも･･･\\H
+> CONTEXT: Map198/events/3/pages/0/184/Dialogue
+> CONTEXT: Map033/events/8/pages/1/204/Dialogue
+\\name[Lesser Succubus]\\_
+If you sign the contract, we can have as much sex as we want, right?\\.\\.
+All the time, even...\\H
+> END STRING
+
+> BEGIN STRING
+\\name[レッサーサキュバス]\\_
+ね、おねがぁい\\H
+> CONTEXT: Map198/events/3/pages/0/187/Dialogue
+> CONTEXT: Map033/events/8/pages/1/207/Dialogue
+\\name[Lesser Succubus]\\_
+Pleeeease...?\\H
+> END STRING
+
+> BEGIN STRING
+\\name[レッサーサキュバス]\\_
+むー･･･、お兄さんがそう言うならもう仕方ないよね･･･。
+> CONTEXT: Map198/events/3/pages/0/194/Dialogue
+> CONTEXT: Map033/events/8/pages/1/214/Dialogue
+\\name[Lesser Succubus]\\_
+Oh... If you say so, it cannot be helped...
+> END STRING
+
+> BEGIN STRING
+\\name[レッサーサキュバス]\\_
+ううん、でもこれで最後。やっぱり･･･ダメかな？\\.\\.
+あたしを連れていって･･･、お願い。
+> CONTEXT: Map198/events/3/pages/0/196/Dialogue
+> CONTEXT: Map033/events/8/pages/1/216/Dialogue
+\\name[Lesser Succubus]\\_
+Uhm, this is the last opportunity... I guess it's no good...\\.\\.
+Please take me with you...
+> END STRING
+
+> BEGIN STRING
+\\name[レッサーサキュバス]\\_
 ダメかぁ･･･。
-> CONTEXT: Map198/events/3/pages/0/161/Dialogue
-> CONTEXT: Map198/events/3/pages/0/367/Dialogue
+> CONTEXT: Map198/events/3/pages/0/204/Dialogue
+> CONTEXT: Map033/events/8/pages/1/224/Dialogue
 \\name[Lesser Succubus]\\_
 No way...
 > END STRING
 
 > BEGIN STRING
 \\name[レッサーサキュバス]\\_
-･･･それじゃお姉さん、今度また会おうねっ。
-あたし、次会う時はもっと魅力的になってるから！\\H
-> CONTEXT: Map198/events/3/pages/0/164/Dialogue < UNTRANSLATED
-> CONTEXT: Map198/events/3/pages/0/170/Dialogue < UNTRANSLATED
-> CONTEXT: Map198/events/3/pages/0/370/Dialogue < UNTRANSLATED
-> CONTEXT: Map198/events/3/pages/0/376/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[レッサーサキュバス]\\_
 ･･･それじゃお兄さん、今度また会おうねっ。
 あたし、次会う時はもっと魅力的になってるから！\\H
-> CONTEXT: Map198/events/3/pages/0/175/Dialogue
-> CONTEXT: Map198/events/3/pages/0/381/Dialogue
+> CONTEXT: Map198/events/3/pages/0/206/Dialogue
+> CONTEXT: Map033/events/8/pages/1/226/Dialogue
 \\name[Lesser Succubus]\\_
 Well then, mister, let's meet again some time.
 I'll be even more attractive the next time I see you!\\H
@@ -215,8 +324,8 @@ I'll be even more attractive the next time I see you!\\H
 \\name[レッサーサキュバス]\\_
 その時に私と契約したいってなっても、知らないよっ！\\H
 ･･･それじゃあねっ！
-> CONTEXT: Map198/events/3/pages/0/182/Dialogue
-> CONTEXT: Map198/events/3/pages/0/388/Dialogue
+> CONTEXT: Map198/events/3/pages/0/209/Dialogue
+> CONTEXT: Map033/events/8/pages/1/229/Dialogue
 \\name[Lesser Succubus]\\_
 I don't know if you want to sign a contract with me then! \\H
 ...Bye now!
@@ -224,8 +333,8 @@ I don't know if you want to sign a contract with me then! \\H
 
 > BEGIN STRING
 ちゅっ\\|\\~
-> CONTEXT: Map198/events/3/pages/0/188/Dialogue
-> CONTEXT: Map198/events/3/pages/0/394/Dialogue
+> CONTEXT: Map198/events/3/pages/0/215/Dialogue
+> CONTEXT: Map033/events/8/pages/1/235/Dialogue
 See you\\|\\~
 > END STRING
 
@@ -234,8 +343,8 @@ See you\\|\\~
 ふふ、なかなか芯の通ったお方のようですね。\\.\\.
 この世界で、誘惑に負けずに自分の意思を貫ける方は\\_
 珍しい･･･。
-> CONTEXT: Map198/events/3/pages/0/200/Dialogue
-> CONTEXT: Map198/events/3/pages/0/406/Dialogue
+> CONTEXT: Map198/events/3/pages/0/227/Dialogue
+> CONTEXT: Map033/events/8/pages/1/247/Dialogue
 \\name[\\v[2]]\\_
 Hehe, it seems like you're a very intelligent person.\\.\\.
 In this world, it is rare to find someone who can follow through 
@@ -246,155 +355,20 @@ with their will without giving in to temptation...
 \\name[\\v[2]]\\_
 しかしその先は･･･、ふふっ\\H\\.\\.
 \\v[3]様の冒険譚に期待していますわ\\H
-> CONTEXT: Map198/events/3/pages/0/205/Dialogue
-> CONTEXT: Map198/events/3/pages/0/411/Dialogue
+> CONTEXT: Map198/events/3/pages/0/232/Dialogue
+> CONTEXT: Map033/events/8/pages/1/252/Dialogue
 \\name[\\v[2]]\\_
 But beyond that...hehe\\H\\.\\.
 I'm looking forward to the story of \\v[3]'s adventure.\\H
 > END STRING
 
 > BEGIN STRING
-\\name[レッサーサキュバス]\\_
-あはっ、これからよろしくねぇ。　おねーさん\\H
-> CONTEXT: Map198/events/3/pages/0/214/Dialogue < UNTRANSLATED
-> CONTEXT: Map198/events/3/pages/0/219/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[レッサーサキュバス]\\_
-あはっ、これからよろしくねぇ。　おにーさん\\H
-> CONTEXT: Map198/events/3/pages/0/223/Dialogue
-\\name[Lesser Succubus]\\_
-Ah, thank you for your help. Darling\\H
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバスと契約した！
-> CONTEXT: Map198/events/3/pages/0/230/Dialogue
-I made a contract with a lesser succubus!
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバスは妊娠しているようだ･･･。
-> CONTEXT: Map198/events/3/pages/0/240/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-夢魔は貴方が裏切ることがなければ、
-契約に基づいて貴方の助けになるはずですわ。
-> CONTEXT: Map198/events/3/pages/0/281/Dialogue
-\\name[\\v[2]]\\_
-If you don't betray the succubus,
-she should be able to help you through the contract.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-信頼関係は、大事ですものね？
-くすくす･･･\\H
-> CONTEXT: Map198/events/3/pages/0/284/Dialogue
-\\name[\\v[2]]\\_
-Trusting relationships are important, right?
-Hehe...\\H
-> END STRING
-
-> BEGIN STRING
-\\name[レッサーサキュバス]\\_
-えぇ～･･･、そんなぁ。
-もっとお姉さんとちゅーとかえっちとかしたいよ～。
-> CONTEXT: Map198/events/3/pages/0/291/Dialogue < UNTRANSLATED
-> CONTEXT: Map198/events/3/pages/0/297/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[レッサーサキュバス]\\_
-えぇ～･･･、そんなぁ。
-もっとお兄さんとちゅーとかえっちとかしたいよ～。
-> CONTEXT: Map198/events/3/pages/0/302/Dialogue
-\\name[Lesser Succubus]\\_
-Aah... Not good!
-I want to have more sex with you, mister!
-> END STRING
-
-> BEGIN STRING
-\\name[レッサーサキュバス]\\_
-ね、いいでしょ？　連れてってよぉ\\H
-> CONTEXT: Map198/events/3/pages/0/309/Dialogue
-\\name[Lesser Succubus]\\_
-Hey, it's okay isn't it? Take me with you\\H
-> END STRING
-
-> BEGIN STRING
-\\name[レッサーサキュバス]\\_
-んもう･･･強情だなぁ。
-> CONTEXT: Map198/events/3/pages/0/317/Dialogue < UNTRANSLATED
-> CONTEXT: Map198/events/3/pages/0/322/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[レッサーサキュバス]\\_
-んもう･･･強情なお兄さんだなぁ。
-こんな可愛い女の子が頼んでるのにぃ。
-> CONTEXT: Map198/events/3/pages/0/326/Dialogue
-\\name[Lesser Succubus]\\_
-Hmph... what a stubborn boy.
-Such a cute girl is asking for it.
-> END STRING
-
-> BEGIN STRING
-\\name[レッサーサキュバス]\\_
-契約してくれたら、好きなだけ抱いていいんだよ？\\.\\.
-なんだったらもうずーっとでも･･･\\H
-> CONTEXT: Map198/events/3/pages/0/333/Dialogue
-\\name[Lesser Succubus]\\_
-If you sign the contract, we can have as much sex as we want, right?\\.\\.
-All the time, even...\\H
-> END STRING
-
-> BEGIN STRING
-\\name[レッサーサキュバス]\\_
-ね、おねがぁい\\H
-> CONTEXT: Map198/events/3/pages/0/336/Dialogue
-\\name[Lesser Succubus]\\_
-Pleeeease...?\\H
-> END STRING
-
-> BEGIN STRING
-\\name[レッサーサキュバス]\\_
-むー･･･、そう言うならもう仕方ないよね･･･。
-> CONTEXT: Map198/events/3/pages/0/344/Dialogue < UNTRANSLATED
-> CONTEXT: Map198/events/3/pages/0/349/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[レッサーサキュバス]\\_
-むー･･･、お兄さんがそう言うならもう仕方ないよね･･･。
-> CONTEXT: Map198/events/3/pages/0/353/Dialogue
-\\name[Lesser Succubus]\\_
-Oh... If you say so, it cannot be helped...
-> END STRING
-
-> BEGIN STRING
-\\name[レッサーサキュバス]\\_
-ううん、でもこれで最後。やっぱり･･･ダメかな？\\.\\.
-あたしを連れていって･･･、お願い。
-> CONTEXT: Map198/events/3/pages/0/359/Dialogue
-\\name[Lesser Succubus]\\_
-Uhm, this is the last opportunity... I guess it's no good...\\.\\.
-Please take me with you...
-> END STRING
-
-> BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ、では名残惜しいですが、この辺りでお別れですわね。
 ･･･またいつか、お会い致しましょう\\H
-> CONTEXT: Map198/events/3/pages/0/426/Dialogue
+> CONTEXT: Map198/events/3/pages/0/242/Dialogue
+> CONTEXT: Map035/events/8/pages/1/120/Dialogue
+> CONTEXT: Map033/events/8/pages/1/261/Dialogue
 \\name[\\v[2]]\\_
 Hehe, I'm sorry to leave you behind, but I guess I'll say goodbye here.
 ...Let's meet again someday\\H
@@ -402,7 +376,9 @@ Hehe, I'm sorry to leave you behind, but I guess I'll say goodbye here.
 
 > BEGIN STRING
 ･･･声は途切れてしまった。
-> CONTEXT: Map198/events/3/pages/0/430/Dialogue
+> CONTEXT: Map198/events/3/pages/0/246/Dialogue
+> CONTEXT: Map035/events/8/pages/1/124/Dialogue
+> CONTEXT: Map033/events/8/pages/1/265/Dialogue
 ...The voice disappeared.
 > END STRING
 
@@ -428,56 +404,4 @@ Ramil...? \\n[101]...?
 > CONTEXT: Map198/events/5/pages/1/5/Dialogue
 \\name[\\v[2]]\\_
 No... I feel like I'm going crazy...
-> END STRING
-
-> BEGIN STRING
-"さすらいルーン使い"
-> CONTEXT: Map198/events/6/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-私はさすらいのルーン使い
-君たちのルーンを外してあげようか？
-> CONTEXT: Map198/events/6/pages/0/1/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-あ、もちろんタダでは駄目だぞ
-10000Lps.でどうだ？
-それと装備も全て外れるからな。
-> CONTEXT: Map198/events/6/pages/0/4/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ありがとう、それではいくよ……。
-> CONTEXT: Map198/events/6/pages/0/18/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-わおーん
-> CONTEXT: Map198/events/6/pages/0/22/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-……成功だ。
-確認してみるといい。
-> CONTEXT: Map198/events/6/pages/0/24/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-足らないぞ、カードは駄目だからな。
-> CONTEXT: Map198/events/6/pages/0/29/Dialogue < UNTRANSLATED
-
 > END STRING

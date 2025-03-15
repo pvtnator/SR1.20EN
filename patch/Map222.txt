@@ -1,5 +1,24 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
+何かの端末だ。起動されている。
+> CONTEXT: Map222/events/1/pages/0/1/Dialogue
+It's some kind of a terminal. Starting up.
+> END STRING
+
+> BEGIN STRING
+手をかざしますか？
+> CONTEXT: Map222/events/1/pages/0/2/Dialogue
+Hold out your hand?
+> END STRING
+
+> BEGIN STRING
+･･････。
+> CONTEXT: Commonevents/128/59/Dialogue
+> CONTEXT: Map222/events/1/pages/0/10/Dialogue
+...
+> END STRING
+
+> BEGIN STRING
 ！！
 > CONTEXT: Map222/events/1/pages/0/12/Dialogue
 !!
@@ -40,4 +59,21 @@ I don't feel like anything has changed.
 ･･･今日はもう遅い。
 > CONTEXT: Map222/events/1/pages/0/61/Dialogue
 ...It's already late today.
+> END STRING
+
+> BEGIN STRING
+何かの端末だ。
+失敗作なのか、適当に放置されている。
+> CONTEXT: Map222/events/2/pages/0/0/Dialogue
+> CONTEXT: Map222/events/3/pages/0/0/Dialogue
+> CONTEXT: Map222/events/4/pages/0/0/Dialogue
+> CONTEXT: Map222/events/5/pages/0/0/Dialogue
+> CONTEXT: Map222/events/6/pages/0/0/Dialogue
+> CONTEXT: Map222/events/7/pages/0/0/Dialogue
+> CONTEXT: Map222/events/8/pages/0/0/Dialogue
+> CONTEXT: Map222/events/9/pages/0/0/Dialogue
+> CONTEXT: Map222/events/10/pages/0/0/Dialogue
+> CONTEXT: Map222/events/11/pages/0/0/Dialogue
+It's some kind of a terminal.
+Perhaps it was a failure, as it was left alone.
 > END STRING

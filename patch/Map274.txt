@@ -1,5 +1,16 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
+028-Town06
+> CONTEXT: Map274/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map010/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map003/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map001/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map006/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map005/bgm/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 \\name[\\v[2]]\\_
 仲間を選んでね。
 > CONTEXT: Map274/events/2/pages/0/1/Dialogue < UNTRANSLATED
@@ -41,11 +52,6 @@ Take with
 レッサーサキュバス
 > CONTEXT: Map274/events/2/pages/0/17/Choice/0
 > CONTEXT: Map274/events/51/pages/0/76/Choice/0
-> CONTEXT: Map034/events/8/pages/0/0/Dialogue
-> CONTEXT: Map034/events/9/pages/0/0/Dialogue
-> CONTEXT: Map034/events/58/pages/0/0/Dialogue
-> CONTEXT: Map034/events/67/pages/0/0/Dialogue
-> CONTEXT: Map034/events/458/pages/0/0/Dialogue
 Lesser Succubus
 > END STRING
 
@@ -53,9 +59,6 @@ Lesser Succubus
 サキュバス
 > CONTEXT: Map274/events/2/pages/0/17/Choice/1
 > CONTEXT: Map274/events/51/pages/0/76/Choice/1
-> CONTEXT: Map034/events/10/pages/0/0/Dialogue
-> CONTEXT: Map034/events/11/pages/0/0/Dialogue
-> CONTEXT: Map034/events/59/pages/0/0/Dialogue
 Succubus
 > END STRING
 
@@ -63,10 +66,25 @@ Succubus
 インプ
 > CONTEXT: Map274/events/2/pages/0/17/Choice/2
 > CONTEXT: Map274/events/51/pages/0/76/Choice/2
-> CONTEXT: Map034/events/14/pages/0/0/Dialogue
-> CONTEXT: Map034/events/15/pages/0/0/Dialogue
-> CONTEXT: Map034/events/61/pages/0/0/Dialogue
+> CONTEXT: Troops/907/name/
 Imp
+> END STRING
+
+> BEGIN STRING
+次へ
+> CONTEXT: Map274/events/2/pages/0/17/Choice/3
+> CONTEXT: Map274/events/2/pages/0/72/Choice/3
+> CONTEXT: Map274/events/2/pages/0/128/Choice/3
+> CONTEXT: Map274/events/2/pages/0/184/Choice/3
+> CONTEXT: Map274/events/51/pages/0/76/Choice/3
+> CONTEXT: Map274/events/51/pages/0/131/Choice/3
+> CONTEXT: Map274/events/51/pages/0/187/Choice/3
+> CONTEXT: Map274/events/51/pages/0/243/Choice/3
+> CONTEXT: Map002/events/5/pages/0/19/Choice/3
+> CONTEXT: Map002/events/5/pages/0/131/Choice/3
+> CONTEXT: Map051/events/13/pages/0/19/Choice/3
+> CONTEXT: Map051/events/13/pages/0/19/Choice/3
+Next
 > END STRING
 
 > BEGIN STRING
@@ -75,80 +93,6 @@ Imp
 > CONTEXT: Map274/events/2/pages/0/37/Choice/0
 > CONTEXT: Map274/events/51/pages/0/79/Choice/0
 > CONTEXT: Map274/events/51/pages/0/96/Choice/0
-> CONTEXT: Map034/events/8/pages/0/1/Choice/0
-> CONTEXT: Map034/events/8/pages/0/1/Choice/0
-> CONTEXT: Map034/events/9/pages/0/1/Choice/0
-> CONTEXT: Map034/events/9/pages/0/1/Choice/0
-> CONTEXT: Map034/events/10/pages/0/1/Choice/0
-> CONTEXT: Map034/events/10/pages/0/1/Choice/0
-> CONTEXT: Map034/events/11/pages/0/1/Choice/0
-> CONTEXT: Map034/events/11/pages/0/1/Choice/0
-> CONTEXT: Map034/events/12/pages/0/1/Choice/0
-> CONTEXT: Map034/events/12/pages/0/1/Choice/0
-> CONTEXT: Map034/events/13/pages/0/1/Choice/0
-> CONTEXT: Map034/events/13/pages/0/1/Choice/0
-> CONTEXT: Map046/events/45/pages/0/1/Choice/0
-> CONTEXT: Map046/events/45/pages/0/1/Choice/0
-> CONTEXT: Map046/events/46/pages/0/1/Choice/0
-> CONTEXT: Map046/events/46/pages/0/1/Choice/0
-> CONTEXT: Map046/events/78/pages/0/1/Choice/1
-> CONTEXT: Map034/events/27/pages/0/1/Choice/0
-> CONTEXT: Map034/events/27/pages/0/1/Choice/0
-> CONTEXT: Map046/events/78/pages/0/1/Choice/1
-> CONTEXT: Map046/events/79/pages/0/1/Choice/0
-> CONTEXT: Map046/events/79/pages/0/1/Choice/0
-> CONTEXT: Map034/events/29/pages/0/1/Choice/0
-> CONTEXT: Map034/events/29/pages/0/1/Choice/0
-> CONTEXT: Map034/events/30/pages/0/1/Choice/0
-> CONTEXT: Map034/events/30/pages/0/1/Choice/0
-> CONTEXT: Map046/events/88/pages/0/1/Choice/0
-> CONTEXT: Map046/events/88/pages/0/1/Choice/0
-> CONTEXT: Map034/events/56/pages/0/1/Choice/0
-> CONTEXT: Map034/events/56/pages/0/1/Choice/0
-> CONTEXT: Map046/events/360/pages/0/1/Choice/0
-> CONTEXT: Map046/events/360/pages/0/1/Choice/0
-> CONTEXT: Map034/events/65/pages/0/1/Choice/0
-> CONTEXT: Map034/events/65/pages/0/1/Choice/0
-> CONTEXT: Map046/events/361/pages/0/1/Choice/0
-> CONTEXT: Map046/events/361/pages/0/1/Choice/0
-> CONTEXT: Map034/events/69/pages/0/1/Choice/0
-> CONTEXT: Map046/events/375/pages/0/1/Choice/0
-> CONTEXT: Map034/events/69/pages/0/1/Choice/0
-> CONTEXT: Map046/events/375/pages/0/1/Choice/0
-> CONTEXT: Map034/events/70/pages/0/1/Choice/0
-> CONTEXT: Map034/events/70/pages/0/1/Choice/0
-> CONTEXT: Map034/events/71/pages/0/1/Choice/0
-> CONTEXT: Map034/events/71/pages/0/1/Choice/0
-> CONTEXT: Map046/events/378/pages/0/1/Choice/0
-> CONTEXT: Map046/events/378/pages/0/1/Choice/0
-> CONTEXT: Map034/events/75/pages/0/1/Choice/0
-> CONTEXT: Map034/events/75/pages/0/1/Choice/0
-> CONTEXT: Map046/events/432/pages/0/1/Choice/0
-> CONTEXT: Map046/events/432/pages/0/1/Choice/0
-> CONTEXT: Map034/events/85/pages/0/1/Choice/0
-> CONTEXT: Map034/events/85/pages/0/1/Choice/0
-> CONTEXT: Map034/events/86/pages/0/1/Choice/0
-> CONTEXT: Map034/events/86/pages/0/1/Choice/0
-> CONTEXT: Map034/events/90/pages/0/1/Choice/0
-> CONTEXT: Map034/events/90/pages/0/1/Choice/0
-> CONTEXT: Map046/events/451/pages/0/1/Choice/0
-> CONTEXT: Map046/events/451/pages/0/1/Choice/0
-> CONTEXT: Map046/events/463/pages/0/1/Choice/0
-> CONTEXT: Map046/events/463/pages/0/1/Choice/0
-> CONTEXT: Map034/events/356/pages/0/1/Choice/0
-> CONTEXT: Map034/events/356/pages/0/1/Choice/0
-> CONTEXT: Map034/events/379/pages/0/1/Choice/0
-> CONTEXT: Map034/events/379/pages/0/1/Choice/0
-> CONTEXT: Map034/events/417/pages/0/1/Choice/0
-> CONTEXT: Map034/events/417/pages/0/1/Choice/0
-> CONTEXT: Map034/events/418/pages/0/1/Choice/0
-> CONTEXT: Map034/events/418/pages/0/1/Choice/0
-> CONTEXT: Map034/events/424/pages/0/1/Choice/0
-> CONTEXT: Map034/events/424/pages/0/1/Choice/0
-> CONTEXT: Map034/events/425/pages/0/1/Choice/0
-> CONTEXT: Map034/events/425/pages/0/1/Choice/0
-> CONTEXT: Map034/events/458/pages/0/1/Choice/0
-> CONTEXT: Map034/events/458/pages/0/1/Choice/0
 Lewd
 > END STRING
 
@@ -158,58 +102,6 @@ Lewd
 > CONTEXT: Map274/events/2/pages/0/37/Choice/1
 > CONTEXT: Map274/events/51/pages/0/79/Choice/1
 > CONTEXT: Map274/events/51/pages/0/96/Choice/1
-> CONTEXT: Map034/events/8/pages/0/1/Choice/1
-> CONTEXT: Map034/events/8/pages/0/1/Choice/1
-> CONTEXT: Map034/events/10/pages/0/1/Choice/1
-> CONTEXT: Map034/events/10/pages/0/1/Choice/1
-> CONTEXT: Map034/events/12/pages/0/1/Choice/1
-> CONTEXT: Map034/events/12/pages/0/1/Choice/1
-> CONTEXT: Map046/events/35/pages/0/1/Choice/0
-> CONTEXT: Map046/events/35/pages/0/1/Choice/0
-> CONTEXT: Map046/events/36/pages/0/1/Choice/0
-> CONTEXT: Map046/events/36/pages/0/1/Choice/0
-> CONTEXT: Map046/events/37/pages/0/1/Choice/0
-> CONTEXT: Map046/events/37/pages/0/1/Choice/0
-> CONTEXT: Map046/events/74/pages/0/1/Choice/1
-> CONTEXT: Map046/events/74/pages/0/1/Choice/1
-> CONTEXT: Map034/events/38/pages/0/1/Choice/1
-> CONTEXT: Map034/events/38/pages/0/1/Choice/1
-> CONTEXT: Map046/events/165/pages/0/1/Choice/0
-> CONTEXT: Map046/events/165/pages/0/1/Choice/0
-> CONTEXT: Map034/events/58/pages/0/1/Choice/0
-> CONTEXT: Map034/events/58/pages/0/1/Choice/0
-> CONTEXT: Map034/events/59/pages/0/1/Choice/0
-> CONTEXT: Map034/events/59/pages/0/1/Choice/0
-> CONTEXT: Map034/events/60/pages/0/1/Choice/0
-> CONTEXT: Map034/events/60/pages/0/1/Choice/0
-> CONTEXT: Map046/events/345/pages/0/1/Choice/0
-> CONTEXT: Map046/events/345/pages/0/1/Choice/0
-> CONTEXT: Map046/events/385/pages/0/1/Choice/0
-> CONTEXT: Map046/events/385/pages/0/1/Choice/0
-> CONTEXT: Map046/events/386/pages/0/1/Choice/0
-> CONTEXT: Map046/events/386/pages/0/1/Choice/0
-> CONTEXT: Map046/events/438/pages/0/1/Choice/0
-> CONTEXT: Map046/events/438/pages/0/1/Choice/0
-> CONTEXT: Map046/events/439/pages/0/1/Choice/0
-> CONTEXT: Map046/events/439/pages/0/1/Choice/0
-> CONTEXT: Map034/events/95/pages/0/1/Choice/0
-> CONTEXT: Map034/events/95/pages/0/1/Choice/0
-> CONTEXT: Map034/events/122/pages/0/1/Choice/0
-> CONTEXT: Map034/events/122/pages/0/1/Choice/0
-> CONTEXT: Map034/events/132/pages/0/1/Choice/0
-> CONTEXT: Map034/events/132/pages/0/1/Choice/0
-> CONTEXT: Map034/events/417/pages/0/1/Choice/1
-> CONTEXT: Map034/events/417/pages/0/1/Choice/1
-> CONTEXT: Map034/events/436/pages/0/1/Choice/0
-> CONTEXT: Map034/events/436/pages/0/1/Choice/0
-> CONTEXT: Map034/events/448/pages/0/1/Choice/0
-> CONTEXT: Map034/events/448/pages/0/1/Choice/0
-> CONTEXT: Map034/events/449/pages/0/1/Choice/0
-> CONTEXT: Map034/events/449/pages/0/1/Choice/0
-> CONTEXT: Map034/events/450/pages/0/1/Choice/0
-> CONTEXT: Map034/events/450/pages/0/1/Choice/0
-> CONTEXT: Map046/events/38/pages/0/1/Choice/0
-> CONTEXT: Map046/events/38/pages/0/1/Choice/0
 Cheerful
 > END STRING
 
@@ -219,48 +111,6 @@ Cheerful
 > CONTEXT: Map274/events/2/pages/0/75/Choice/0
 > CONTEXT: Map274/events/51/pages/0/114/Choice/0
 > CONTEXT: Map274/events/51/pages/0/134/Choice/0
-> CONTEXT: Map046/events/22/pages/0/1/Choice/0
-> CONTEXT: Map046/events/22/pages/0/1/Choice/0
-> CONTEXT: Map046/events/23/pages/0/1/Choice/0
-> CONTEXT: Map046/events/23/pages/0/1/Choice/0
-> CONTEXT: Map046/events/24/pages/0/1/Choice/0
-> CONTEXT: Map046/events/24/pages/0/1/Choice/0
-> CONTEXT: Map034/events/14/pages/0/1/Choice/0
-> CONTEXT: Map034/events/14/pages/0/1/Choice/0
-> CONTEXT: Map046/events/34/pages/0/1/Choice/1
-> CONTEXT: Map034/events/16/pages/0/1/Choice/0
-> CONTEXT: Map034/events/16/pages/0/1/Choice/0
-> CONTEXT: Map046/events/34/pages/0/1/Choice/1
-> CONTEXT: Map046/events/166/pages/0/1/Choice/0
-> CONTEXT: Map046/events/166/pages/0/1/Choice/0
-> CONTEXT: Map034/events/44/pages/0/1/Choice/0
-> CONTEXT: Map034/events/44/pages/0/1/Choice/0
-> CONTEXT: Map046/events/217/pages/0/1/Choice/0
-> CONTEXT: Map046/events/217/pages/0/1/Choice/0
-> CONTEXT: Map034/events/53/pages/0/1/Choice/0
-> CONTEXT: Map034/events/53/pages/0/1/Choice/0
-> CONTEXT: Map034/events/61/pages/0/1/Choice/0
-> CONTEXT: Map034/events/61/pages/0/1/Choice/0
-> CONTEXT: Map034/events/62/pages/0/1/Choice/0
-> CONTEXT: Map034/events/62/pages/0/1/Choice/0
-> CONTEXT: Map046/events/369/pages/0/1/Choice/0
-> CONTEXT: Map046/events/369/pages/0/1/Choice/0
-> CONTEXT: Map034/events/68/pages/0/1/Choice/0
-> CONTEXT: Map034/events/68/pages/0/1/Choice/0
-> CONTEXT: Map034/events/83/pages/0/1/Choice/0
-> CONTEXT: Map034/events/83/pages/0/1/Choice/0
-> CONTEXT: Map034/events/336/pages/0/1/Choice/0
-> CONTEXT: Map034/events/336/pages/0/1/Choice/0
-> CONTEXT: Map034/events/468/pages/0/1/Choice/0
-> CONTEXT: Map034/events/468/pages/0/1/Choice/0
-> CONTEXT: Map034/events/78/pages/0/1/Choice/0
-> CONTEXT: Map034/events/78/pages/0/1/Choice/0
-> CONTEXT: Map034/events/80/pages/0/1/Choice/0
-> CONTEXT: Map034/events/80/pages/0/1/Choice/0
-> CONTEXT: Map034/events/81/pages/0/1/Choice/0
-> CONTEXT: Map034/events/81/pages/0/1/Choice/0
-> CONTEXT: Map034/events/88/pages/0/1/Choice/0
-> CONTEXT: Map034/events/88/pages/0/1/Choice/0
 Focused
 > END STRING
 
@@ -272,24 +122,6 @@ Focused
 > CONTEXT: Map274/events/51/pages/0/114/Choice/1
 > CONTEXT: Map274/events/51/pages/0/134/Choice/1
 > CONTEXT: Map274/events/51/pages/0/290/Choice/0
-> CONTEXT: Map046/events/27/pages/0/1/Choice/0
-> CONTEXT: Map046/events/27/pages/0/1/Choice/0
-> CONTEXT: Map034/events/14/pages/0/1/Choice/1
-> CONTEXT: Map034/events/14/pages/0/1/Choice/1
-> CONTEXT: Map034/events/16/pages/0/1/Choice/1
-> CONTEXT: Map034/events/16/pages/0/1/Choice/1
-> CONTEXT: Map034/events/18/pages/0/1/Choice/1
-> CONTEXT: Map034/events/18/pages/0/1/Choice/1
-> CONTEXT: Map034/events/21/pages/0/1/Choice/2
-> CONTEXT: Map034/events/21/pages/0/1/Choice/2
-> CONTEXT: Map034/events/43/pages/0/1/Choice/0
-> CONTEXT: Map034/events/43/pages/0/1/Choice/0
-> CONTEXT: Map034/events/419/pages/0/1/Choice/1
-> CONTEXT: Map034/events/419/pages/0/1/Choice/1
-> CONTEXT: Map034/events/428/pages/0/1/Choice/0
-> CONTEXT: Map034/events/428/pages/0/1/Choice/0
-> CONTEXT: Map034/events/429/pages/0/1/Choice/0
-> CONTEXT: Map034/events/429/pages/0/1/Choice/0
 Braggy
 > END STRING
 
@@ -297,9 +129,7 @@ Braggy
 デビル
 > CONTEXT: Map274/events/2/pages/0/72/Choice/0
 > CONTEXT: Map274/events/51/pages/0/131/Choice/0
-> CONTEXT: Map034/events/16/pages/0/0/Dialogue
-> CONTEXT: Map034/events/17/pages/0/0/Dialogue
-> CONTEXT: Map034/events/62/pages/0/0/Dialogue
+> CONTEXT: Troops/909/name/
 Devil
 > END STRING
 
@@ -307,9 +137,7 @@ Devil
 プチウィッチ
 > CONTEXT: Map274/events/2/pages/0/72/Choice/1
 > CONTEXT: Map274/events/51/pages/0/131/Choice/1
-> CONTEXT: Map034/events/26/pages/0/0/Dialogue
-> CONTEXT: Map034/events/27/pages/0/0/Dialogue
-> CONTEXT: Map034/events/69/pages/0/0/Dialogue
+> CONTEXT: Troops/913/name/
 Petite Witch
 > END STRING
 
@@ -317,9 +145,7 @@ Petite Witch
 ウィッチ
 > CONTEXT: Map274/events/2/pages/0/72/Choice/2
 > CONTEXT: Map274/events/51/pages/0/131/Choice/2
-> CONTEXT: Map034/events/28/pages/0/0/Dialogue
-> CONTEXT: Map034/events/29/pages/0/0/Dialogue
-> CONTEXT: Map034/events/70/pages/0/0/Dialogue
+> CONTEXT: Troops/915/name/
 Witch
 > END STRING
 
@@ -329,30 +155,6 @@ Witch
 > CONTEXT: Map274/events/2/pages/0/111/Choice/0
 > CONTEXT: Map274/events/51/pages/0/152/Choice/0
 > CONTEXT: Map274/events/51/pages/0/170/Choice/0
-> CONTEXT: Map034/events/25/pages/0/1/Choice/1
-> CONTEXT: Map034/events/25/pages/0/1/Choice/1
-> CONTEXT: Map034/events/26/pages/0/1/Choice/0
-> CONTEXT: Map034/events/26/pages/0/1/Choice/0
-> CONTEXT: Map034/events/28/pages/0/1/Choice/0
-> CONTEXT: Map034/events/28/pages/0/1/Choice/0
-> CONTEXT: Map034/events/37/pages/0/1/Choice/0
-> CONTEXT: Map034/events/37/pages/0/1/Choice/0
-> CONTEXT: Map046/events/134/pages/0/1/Choice/0
-> CONTEXT: Map046/events/134/pages/0/1/Choice/0
-> CONTEXT: Map034/events/55/pages/0/1/Choice/0
-> CONTEXT: Map034/events/55/pages/0/1/Choice/0
-> CONTEXT: Map034/events/63/pages/0/1/Choice/0
-> CONTEXT: Map034/events/63/pages/0/1/Choice/0
-> CONTEXT: Map034/events/64/pages/0/1/Choice/0
-> CONTEXT: Map034/events/64/pages/0/1/Choice/0
-> CONTEXT: Map046/events/359/pages/0/1/Choice/0
-> CONTEXT: Map046/events/359/pages/0/1/Choice/0
-> CONTEXT: Map034/events/94/pages/0/1/Choice/0
-> CONTEXT: Map034/events/94/pages/0/1/Choice/0
-> CONTEXT: Map034/events/423/pages/0/1/Choice/0
-> CONTEXT: Map034/events/423/pages/0/1/Choice/0
-> CONTEXT: Map034/events/466/pages/0/501/Choice/0
-> CONTEXT: Map034/events/466/pages/0/501/Choice/0
 Classy
 > END STRING
 
@@ -366,28 +168,6 @@ Classy
 > CONTEXT: Map274/events/51/pages/0/170/Choice/1
 > CONTEXT: Map274/events/51/pages/0/226/Choice/0
 > CONTEXT: Map274/events/51/pages/0/246/Choice/0
-> CONTEXT: Map046/events/32/pages/0/1/Choice/2
-> CONTEXT: Map046/events/32/pages/0/1/Choice/2
-> CONTEXT: Map034/events/22/pages/0/1/Choice/0
-> CONTEXT: Map034/events/22/pages/0/1/Choice/0
-> CONTEXT: Map034/events/26/pages/0/1/Choice/1
-> CONTEXT: Map034/events/26/pages/0/1/Choice/1
-> CONTEXT: Map034/events/28/pages/0/1/Choice/1
-> CONTEXT: Map034/events/28/pages/0/1/Choice/1
-> CONTEXT: Map046/events/194/pages/0/1/Choice/0
-> CONTEXT: Map046/events/194/pages/0/1/Choice/0
-> CONTEXT: Map046/events/344/pages/0/1/Choice/0
-> CONTEXT: Map046/events/344/pages/0/1/Choice/0
-> CONTEXT: Map046/events/453/pages/0/1/Choice/0
-> CONTEXT: Map046/events/453/pages/0/1/Choice/0
-> CONTEXT: Map034/events/155/pages/0/1/Choice/0
-> CONTEXT: Map034/events/155/pages/0/1/Choice/0
-> CONTEXT: Map034/events/216/pages/0/1/Choice/0
-> CONTEXT: Map034/events/216/pages/0/1/Choice/0
-> CONTEXT: Map034/events/423/pages/0/1/Choice/1
-> CONTEXT: Map034/events/423/pages/0/1/Choice/1
-> CONTEXT: Map034/events/456/pages/0/1/Choice/0
-> CONTEXT: Map034/events/456/pages/0/1/Choice/0
 Chill
 > END STRING
 
@@ -395,9 +175,7 @@ Chill
 キャスト
 > CONTEXT: Map274/events/2/pages/0/128/Choice/0
 > CONTEXT: Map274/events/51/pages/0/187/Choice/0
-> CONTEXT: Map034/events/20/pages/0/0/Dialogue
-> CONTEXT: Map034/events/63/pages/0/0/Dialogue
-> CONTEXT: Map034/events/71/pages/0/0/Dialogue
+> CONTEXT: Troops/917/name/
 Cast
 > END STRING
 
@@ -405,8 +183,7 @@ Cast
 ナイトメア
 > CONTEXT: Map274/events/2/pages/0/128/Choice/2
 > CONTEXT: Map274/events/51/pages/0/187/Choice/2
-> CONTEXT: Map034/events/22/pages/0/0/Dialogue
-> CONTEXT: Map034/events/23/pages/0/0/Dialogue
+> CONTEXT: Troops/919/name/
 Nightmare
 > END STRING
 
@@ -414,26 +191,6 @@ Nightmare
 内気
 > CONTEXT: Map274/events/2/pages/0/131/Choice/0
 > CONTEXT: Map274/events/51/pages/0/190/Choice/0
-> CONTEXT: Map046/events/20/pages/0/1/Choice/0
-> CONTEXT: Map046/events/20/pages/0/1/Choice/0
-> CONTEXT: Map034/events/20/pages/0/1/Choice/0
-> CONTEXT: Map034/events/20/pages/0/1/Choice/0
-> CONTEXT: Map034/events/37/pages/0/1/Choice/2
-> CONTEXT: Map034/events/37/pages/0/1/Choice/2
-> CONTEXT: Map046/events/348/pages/0/1/Choice/0
-> CONTEXT: Map046/events/348/pages/0/1/Choice/0
-> CONTEXT: Map046/events/440/pages/0/1/Choice/0
-> CONTEXT: Map046/events/440/pages/0/1/Choice/0
-> CONTEXT: Map046/events/441/pages/0/1/Choice/0
-> CONTEXT: Map046/events/441/pages/0/1/Choice/0
-> CONTEXT: Map046/events/442/pages/0/1/Choice/1
-> CONTEXT: Map046/events/442/pages/0/1/Choice/1
-> CONTEXT: Map034/events/357/pages/0/1/Choice/0
-> CONTEXT: Map034/events/357/pages/0/1/Choice/0
-> CONTEXT: Map034/events/457/pages/0/1/Choice/0
-> CONTEXT: Map034/events/457/pages/0/1/Choice/0
-> CONTEXT: Map034/events/461/pages/0/1/Choice/0
-> CONTEXT: Map034/events/461/pages/0/1/Choice/0
 Shy
 > END STRING
 
@@ -443,32 +200,6 @@ Shy
 > CONTEXT: Map274/events/2/pages/0/187/Choice/1
 > CONTEXT: Map274/events/51/pages/0/190/Choice/1
 > CONTEXT: Map274/events/51/pages/0/246/Choice/1
-> CONTEXT: Map034/events/3/pages/0/1/Choice/0
-> CONTEXT: Map034/events/3/pages/0/1/Choice/0
-> CONTEXT: Map046/events/26/pages/0/1/Choice/0
-> CONTEXT: Map046/events/26/pages/0/1/Choice/0
-> CONTEXT: Map046/events/32/pages/0/1/Choice/0
-> CONTEXT: Map046/events/32/pages/0/1/Choice/0
-> CONTEXT: Map034/events/20/pages/0/1/Choice/2
-> CONTEXT: Map034/events/20/pages/0/1/Choice/2
-> CONTEXT: Map034/events/21/pages/0/1/Choice/0
-> CONTEXT: Map034/events/21/pages/0/1/Choice/0
-> CONTEXT: Map034/events/67/pages/0/1/Choice/0
-> CONTEXT: Map034/events/67/pages/0/1/Choice/0
-> CONTEXT: Map034/events/72/pages/0/1/Choice/0
-> CONTEXT: Map034/events/72/pages/0/1/Choice/0
-> CONTEXT: Map046/events/437/pages/0/1/Choice/0
-> CONTEXT: Map046/events/437/pages/0/1/Choice/0
-> CONTEXT: Map046/events/465/pages/0/1/Choice/0
-> CONTEXT: Map046/events/465/pages/0/1/Choice/0
-> CONTEXT: Map034/events/124/pages/0/1/Choice/0
-> CONTEXT: Map034/events/124/pages/0/1/Choice/0
-> CONTEXT: Map034/events/337/pages/0/1/Choice/0
-> CONTEXT: Map034/events/337/pages/0/1/Choice/0
-> CONTEXT: Map034/events/452/pages/0/1/Choice/0
-> CONTEXT: Map034/events/452/pages/0/1/Choice/0
-> CONTEXT: Map034/events/91/pages/0/1/Choice/0
-> CONTEXT: Map034/events/91/pages/0/1/Choice/0
 Obedient
 > END STRING
 
@@ -476,24 +207,6 @@ Obedient
 柔和
 > CONTEXT: Map274/events/2/pages/0/149/Choice/0
 > CONTEXT: Map274/events/51/pages/0/208/Choice/0
-> CONTEXT: Map046/events/31/pages/0/1/Choice/1
-> CONTEXT: Map046/events/31/pages/0/1/Choice/1
-> CONTEXT: Map034/events/24/pages/0/1/Choice/1
-> CONTEXT: Map034/events/24/pages/0/1/Choice/1
-> CONTEXT: Map034/events/25/pages/0/1/Choice/0
-> CONTEXT: Map034/events/25/pages/0/1/Choice/0
-> CONTEXT: Map046/events/91/pages/0/1/Choice/0
-> CONTEXT: Map046/events/91/pages/0/1/Choice/0
-> CONTEXT: Map034/events/52/pages/0/1/Choice/0
-> CONTEXT: Map034/events/52/pages/0/1/Choice/0
-> CONTEXT: Map046/events/431/pages/0/1/Choice/0
-> CONTEXT: Map046/events/431/pages/0/1/Choice/0
-> CONTEXT: Map034/events/136/pages/0/1/Choice/1
-> CONTEXT: Map034/events/136/pages/0/1/Choice/1
-> CONTEXT: Map034/events/161/pages/0/1/Choice/0
-> CONTEXT: Map034/events/161/pages/0/1/Choice/0
-> CONTEXT: Map034/events/466/pages/0/501/Choice/1
-> CONTEXT: Map034/events/466/pages/0/501/Choice/1
 Gentle
 > END STRING
 
@@ -501,22 +214,6 @@ Gentle
 天然
 > CONTEXT: Map274/events/2/pages/0/149/Choice/1
 > CONTEXT: Map274/events/51/pages/0/208/Choice/1
-> CONTEXT: Map034/events/23/pages/0/1/Choice/0
-> CONTEXT: Map034/events/23/pages/0/1/Choice/0
-> CONTEXT: Map034/events/24/pages/0/1/Choice/0
-> CONTEXT: Map034/events/24/pages/0/1/Choice/0
-> CONTEXT: Map046/events/77/pages/0/1/Choice/0
-> CONTEXT: Map046/events/77/pages/0/1/Choice/0
-> CONTEXT: Map034/events/41/pages/0/1/Choice/0
-> CONTEXT: Map034/events/41/pages/0/1/Choice/0
-> CONTEXT: Map046/events/193/pages/0/1/Choice/0
-> CONTEXT: Map046/events/193/pages/0/1/Choice/0
-> CONTEXT: Map034/events/84/pages/0/1/Choice/0
-> CONTEXT: Map034/events/84/pages/0/1/Choice/0
-> CONTEXT: Map046/events/447/pages/0/1/Choice/0
-> CONTEXT: Map046/events/447/pages/0/1/Choice/0
-> CONTEXT: Map034/events/136/pages/0/1/Choice/0
-> CONTEXT: Map034/events/136/pages/0/1/Choice/0
 Natural
 > END STRING
 
@@ -524,14 +221,6 @@ Natural
 不思議
 > CONTEXT: Map274/events/2/pages/0/167/Choice/1
 > CONTEXT: Map274/events/51/pages/0/226/Choice/1
-> CONTEXT: Map034/events/22/pages/0/1/Choice/1
-> CONTEXT: Map034/events/22/pages/0/1/Choice/1
-> CONTEXT: Map034/events/39/pages/0/1/Choice/0
-> CONTEXT: Map034/events/39/pages/0/1/Choice/0
-> CONTEXT: Map034/events/42/pages/0/1/Choice/0
-> CONTEXT: Map034/events/42/pages/0/1/Choice/0
-> CONTEXT: Map034/events/82/pages/0/1/Choice/0
-> CONTEXT: Map034/events/82/pages/0/1/Choice/0
 Mysterious
 > END STRING
 
@@ -539,9 +228,7 @@ Mysterious
 ファミリア
 > CONTEXT: Map274/events/2/pages/0/184/Choice/0
 > CONTEXT: Map274/events/51/pages/0/243/Choice/0
-> CONTEXT: Map046/events/32/pages/0/0/Dialogue
-> CONTEXT: Map046/events/33/pages/0/0/Dialogue
-> CONTEXT: Map046/events/81/pages/0/0/Dialogue
+> CONTEXT: Troops/923/name/
 Familiar
 > END STRING
 
@@ -577,9 +264,6 @@ Witch(OFE)
 ワーウルフ
 > CONTEXT: Map274/events/2/pages/0/216/Choice/2
 > CONTEXT: Map274/events/51/pages/0/275/Choice/2
-> CONTEXT: Map034/events/43/pages/0/0/Dialogue
-> CONTEXT: Map034/events/44/pages/0/0/Dialogue
-> CONTEXT: Map034/events/457/pages/0/0/Dialogue
 Werewolf
 > END STRING
 
@@ -594,40 +278,6 @@ Werewolf
 甘え性
 > CONTEXT: Map274/events/2/pages/0/231/Choice/1
 > CONTEXT: Map274/events/51/pages/0/290/Choice/1
-> CONTEXT: Map046/events/35/pages/0/1/Choice/1
-> CONTEXT: Map046/events/35/pages/0/1/Choice/1
-> CONTEXT: Map046/events/36/pages/0/1/Choice/1
-> CONTEXT: Map046/events/36/pages/0/1/Choice/1
-> CONTEXT: Map046/events/74/pages/0/1/Choice/0
-> CONTEXT: Map046/events/74/pages/0/1/Choice/0
-> CONTEXT: Map034/events/43/pages/0/1/Choice/1
-> CONTEXT: Map034/events/43/pages/0/1/Choice/1
-> CONTEXT: Map046/events/239/pages/0/1/Choice/0
-> CONTEXT: Map046/events/239/pages/0/1/Choice/0
-> CONTEXT: Map034/events/54/pages/0/1/Choice/0
-> CONTEXT: Map034/events/54/pages/0/1/Choice/0
-> CONTEXT: Map034/events/64/pages/0/1/Choice/2
-> CONTEXT: Map034/events/64/pages/0/1/Choice/2
-> CONTEXT: Map046/events/377/pages/0/1/Choice/0
-> CONTEXT: Map046/events/377/pages/0/1/Choice/0
-> CONTEXT: Map034/events/94/pages/0/1/Choice/1
-> CONTEXT: Map034/events/94/pages/0/1/Choice/1
-> CONTEXT: Map046/events/443/pages/0/1/Choice/0
-> CONTEXT: Map046/events/443/pages/0/1/Choice/0
-> CONTEXT: Map034/events/95/pages/0/1/Choice/1
-> CONTEXT: Map034/events/95/pages/0/1/Choice/1
-> CONTEXT: Map046/events/467/pages/0/1/Choice/0
-> CONTEXT: Map046/events/467/pages/0/1/Choice/0
-> CONTEXT: Map034/events/123/pages/0/1/Choice/0
-> CONTEXT: Map034/events/123/pages/0/1/Choice/0
-> CONTEXT: Map034/events/154/pages/0/1/Choice/0
-> CONTEXT: Map034/events/154/pages/0/1/Choice/0
-> CONTEXT: Map034/events/444/pages/0/1/Choice/0
-> CONTEXT: Map034/events/444/pages/0/1/Choice/0
-> CONTEXT: Map034/events/445/pages/0/1/Choice/0
-> CONTEXT: Map034/events/445/pages/0/1/Choice/0
-> CONTEXT: Map034/events/79/pages/0/1/Choice/0
-> CONTEXT: Map034/events/79/pages/0/1/Choice/0
 Spoiled
 > END STRING
 
@@ -636,6 +286,28 @@ Spoiled
 それじゃ止めとくよ。
 > CONTEXT: Map274/events/2/pages/0/250/Dialogue < UNTRANSLATED
 
+> END STRING
+
+> BEGIN STRING
+この夢魔に名前をつけますか？
+> CONTEXT: Map274/events/2/pages/0/265/Dialogue
+> CONTEXT: Map274/events/51/pages/0/321/Dialogue
+> CONTEXT: Map003/events/32/pages/0/22/Dialogue
+> CONTEXT: Map198/events/3/pages/0/149/Dialogue
+> CONTEXT: Map033/events/8/pages/1/170/Dialogue
+> CONTEXT: Commonevents/28/75/Dialogue
+> CONTEXT: Commonevents/28/130/Dialogue
+Would you like to name this succubus?
+> END STRING
+
+> BEGIN STRING
+\\v[2]がパーティに加わった！
+> CONTEXT: Map274/events/2/pages/0/275/Dialogue
+> CONTEXT: Map274/events/51/pages/0/331/Dialogue
+> CONTEXT: Map003/events/32/pages/0/32/Dialogue
+> CONTEXT: Map198/events/3/pages/0/159/Dialogue
+> CONTEXT: Map033/events/8/pages/1/180/Dialogue
+\\v[2] has joined the party!
 > END STRING
 
 > BEGIN STRING
@@ -790,6 +462,7 @@ Spoiled
 > BEGIN STRING
 コマンダー
 > CONTEXT: Map274/events/36/pages/0/0/Choice/0 < UNTRANSLATED
+> CONTEXT: Troops/930/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -887,32 +560,24 @@ It may be a pain, but just put it back on after each battle.
 > BEGIN STRING
 全裸にする
 > CONTEXT: Map274/events/51/pages/0/27/Choice/0
-> CONTEXT: Commonevents/135/9/Choice/0
-> CONTEXT: Commonevents/135/9/Choice/0
 Strip naked
 > END STRING
 
 > BEGIN STRING
 欲情をつける
 > CONTEXT: Map274/events/51/pages/0/27/Choice/1
-> CONTEXT: Commonevents/135/9/Choice/1
-> CONTEXT: Commonevents/135/9/Choice/1
 Become aroused
 > END STRING
 
 > BEGIN STRING
 全員のＥＰを１にする
 > CONTEXT: Map274/events/51/pages/0/27/Choice/2
-> CONTEXT: Commonevents/135/9/Choice/2
-> CONTEXT: Commonevents/135/9/Choice/2
 Set everyone's EP to 1
 > END STRING
 
 > BEGIN STRING
 全員のＶＰを１にする
 > CONTEXT: Map274/events/51/pages/0/27/Choice/3
-> CONTEXT: Commonevents/135/9/Choice/3
-> CONTEXT: Commonevents/135/9/Choice/3
 Set everyone's EP to 1
 > END STRING
 
@@ -1015,24 +680,40 @@ Okay, you'll stop now?
 > BEGIN STRING
 口攻めに弱い
 > CONTEXT: Map274/events/51/pages/0/406/Choice/0
+> CONTEXT: Map016/events/21/pages/0/7/Choice/0
+> CONTEXT: Map016/events/21/pages/0/7/Choice/0
+> CONTEXT: Map016/events/21/pages/1/10/Choice/0
+> CONTEXT: Map016/events/21/pages/1/10/Choice/0
 Mouth weakness
 > END STRING
 
 > BEGIN STRING
 手攻めに弱い
 > CONTEXT: Map274/events/51/pages/0/406/Choice/1
+> CONTEXT: Map016/events/21/pages/0/7/Choice/1
+> CONTEXT: Map016/events/21/pages/0/7/Choice/1
+> CONTEXT: Map016/events/21/pages/1/10/Choice/1
+> CONTEXT: Map016/events/21/pages/1/10/Choice/1
 Hand weakness
 > END STRING
 
 > BEGIN STRING
 胸攻めに弱い
 > CONTEXT: Map274/events/51/pages/0/406/Choice/2
+> CONTEXT: Map016/events/21/pages/0/7/Choice/2
+> CONTEXT: Map016/events/21/pages/0/7/Choice/2
+> CONTEXT: Map016/events/21/pages/1/10/Choice/2
+> CONTEXT: Map016/events/21/pages/1/10/Choice/2
 Breast weakness
 > END STRING
 
 > BEGIN STRING
 女陰攻めに弱い
 > CONTEXT: Map274/events/51/pages/0/406/Choice/3
+> CONTEXT: Map016/events/21/pages/0/7/Choice/3
+> CONTEXT: Map016/events/21/pages/0/7/Choice/3
+> CONTEXT: Map016/events/21/pages/1/10/Choice/3
+> CONTEXT: Map016/events/21/pages/1/10/Choice/3
 Vagina weakness
 > END STRING
 
@@ -1040,6 +721,7 @@ Vagina weakness
 \\name[\\v[2]]\\_
 この【口攻めに弱い】が欲しいのかい？
 > CONTEXT: Map274/events/51/pages/0/408/Dialogue < UNTRANSLATED
+> CONTEXT: Map016/events/21/pages/0/9/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -1057,6 +739,7 @@ Vagina weakness
 \\name[\\v[2]]\\_
 この【手攻めに弱い】が欲しいのかい？
 > CONTEXT: Map274/events/51/pages/0/426/Dialogue < UNTRANSLATED
+> CONTEXT: Map016/events/21/pages/0/27/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -1064,6 +747,7 @@ Vagina weakness
 \\name[\\v[2]]\\_
 この【胸攻めに弱い】が欲しいのかい？
 > CONTEXT: Map274/events/51/pages/0/444/Dialogue < UNTRANSLATED
+> CONTEXT: Map016/events/21/pages/0/45/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -1071,6 +755,7 @@ Vagina weakness
 \\name[\\v[2]]\\_
 この【女陰攻めに弱い】が欲しいのかい？
 > CONTEXT: Map274/events/51/pages/0/462/Dialogue < UNTRANSLATED
+> CONTEXT: Map016/events/21/pages/0/63/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -1144,6 +829,8 @@ Vagina weakness
 仮戦闘
 > CONTEXT: Map274/events/60/pages/0/0/Choice/1 < UNTRANSLATED
 > CONTEXT: Map274/events/62/pages/0/0/Choice/2 < UNTRANSLATED
+> CONTEXT: Map274/events/68/pages/0/0/Choice/1 < UNTRANSLATED
+> CONTEXT: Map274/events/68/pages/0/0/Choice/1 < UNTRANSLATED
 
 > END STRING
 
@@ -1156,5 +843,11 @@ Vagina weakness
 > BEGIN STRING
 ベストエンドラスボス
 > CONTEXT: Map274/events/62/pages/0/0/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+戦闘
+> CONTEXT: Map274/events/68/pages/0/0/Choice/0 < UNTRANSLATED
 
 > END STRING

@@ -1,133 +1,21 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
+「魔女の鍵」を使用して扉を開けた！
+> CONTEXT: Map438/events/3/pages/0/3/Dialogue
+> CONTEXT: Map357/events/13/pages/1/10/Dialogue
+> CONTEXT: Map357/events/18/pages/1/10/Dialogue
+> CONTEXT: Map245/events/1/pages/0/10/Dialogue
+> CONTEXT: Map116/events/7/pages/0/10/Dialogue
+> CONTEXT: Commonevents/20/38/Dialogue
+> CONTEXT: Map123/events/1/pages/0/10/Dialogue
+You opened the door using the "Witch's Key"!
+> END STRING
+
+> BEGIN STRING
 この扉を開くためには「魔女の鍵」が必要のようだ。
 > CONTEXT: Map438/events/3/pages/0/11/Dialogue
 > CONTEXT: Map245/events/1/pages/0/18/Dialogue
 > CONTEXT: Commonevents/20/46/Dialogue
 > CONTEXT: Map123/events/1/pages/0/18/Dialogue
 It seems that "Witch's key" is required to open this door.
-> END STRING
-
-> BEGIN STRING
-「現の魔力」と書かれた記録がある。読みますか？
-> CONTEXT: Map438/events/4/pages/0/1/Dialogue
-There is a book that says "Dream Magic"
-Do you want to read it?
-> END STRING
-
-> BEGIN STRING
-夢の魔力は夢魔が持つ夢を進むための魔力である。
-しかし、我ら人間にも何か変わった魔力があるのでは\\_
-ないだろうか？
-> CONTEXT: Map438/events/4/pages/0/4/Dialogue
-Dream magic is the magical power possessed by succubi
-to advance their dreams. However, don't we humans also have 
-some kind of strange magical power?
-> END STRING
-
-> BEGIN STRING
-詳しく調べてみると、現に生きる者には
-「現に存在させるための魔力」というものがあるようだ。
-これを夢の魔力に対し、「\\c[12]現の魔力\\c[0]」と\\_
-呼ぶこととする。
-> CONTEXT: Map438/events/4/pages/0/7/Dialogue
-It appears that those living in the reality have something 
-called "Real existing magic." In contrast to the dream magic, 
-we call this "\\c[12]real magic power\\c[0]."
-> END STRING
-
-> BEGIN STRING
-夢魔との契約によって夢の魔力を借りているのだが、
-あれは実際には夢の魔力と現の魔力の余剰分の共用で
-契約が為されているようである。
-> CONTEXT: Map438/events/4/pages/0/11/Dialogue
-When borrowing dream magic through a contract with a succubus,
-it seems that the contract actually shares the surplus 
-of the dream magic and the real magic power too.
-> END STRING
-
-> BEGIN STRING
-人間同士の契約で現の魔力が共用できるかと思ったが、
-どうもこれは不可能のようだ。
-こういった魔力を介すような「契約」は、\\_
-やはり悪魔の特権なのだろう。
-> CONTEXT: Map438/events/4/pages/0/14/Dialogue
-I wondered if humans could share magical power this way, 
-but it seems impossible. Such "contracts" that involve 
-magical power are probably a privilege of demons.
-> END STRING
-
-> BEGIN STRING
-しかし、となると夢世界のあちこちにある明晰の泉は、
-現の魔力を少しだけ高めてくれるためのもので、
-夢魔と契約できる数というのは現の魔力の余剰分という\\_
-ことなのだろう。
-> CONTEXT: Map438/events/4/pages/0/18/Dialogue
-In that case, the Fountains of Lucidity around the dream world 
-slightly increase real magic power, which then allows 
-making more contracts with succubi.
-> END STRING
-
-> BEGIN STRING
-明晰の泉は一度見るとその効果はもう得ることができないが、
-泉の力を引き出すことで、もう一度その力を得ることが\\_
-できるようだ。
-> CONTEXT: Map438/events/4/pages/0/22/Dialogue
-Once you have seen a Fountain of Lucidity, you cannot obtain 
-its effects again, but you coud still draw on the fountain's power.
-> END STRING
-
-> BEGIN STRING
-泉の力を引き出すための方法は、私では分からなかった。
-\\c[12]カオシア様なら分かるだろうか\\c[0]。
-> CONTEXT: Map438/events/4/pages/0/25/Dialogue
-I wasn't able to draw out the power of the fountain.
-\\c[12]I wonder if Chaosia knows about this\\c[0].
-> END STRING
-
-> BEGIN STRING
-･･･しかし、現の魔力を高めていくと何ができるのだろうか。
-> CONTEXT: Map438/events/4/pages/0/27/Dialogue
-...But what can be done by increasing the real magic power?
-> END STRING
-
-> BEGIN STRING
-夢を現にするようなことができるのだろうか。
-> CONTEXT: Map438/events/4/pages/0/28/Dialogue
-Is it possible to make dreams come true?
-> END STRING
-
-> BEGIN STRING
-「夢世界長期活動端末」と書かれた記録がある。
-読みますか？
-> CONTEXT: Map438/events/5/pages/0/1/Dialogue
-There is a book that says "Dream World Long-Term Terminal"
-Do you want to read it?
-> END STRING
-
-> BEGIN STRING
-夢世界で長期的な活動を行うための端末。
-ホームに置くことで起床を抑制し、長期的な滞在が可能。
-> CONTEXT: Map438/events/5/pages/0/5/Dialogue
-A terminal for long-term activities in the dream world.
-By placing it in your Home, you can prevent yourself from 
-waking up and make it possible to stay for a long time.
-> END STRING
-
-> BEGIN STRING
-これには設置者に魔力的な負担が大きく掛かるため、
-なるべく高い魔力を持つものが設置するように。
-> CONTEXT: Map438/events/5/pages/0/7/Dialogue
-This puts a heavy magical burden on the person who installed it, 
-so it should be installed by someone with great magical power.
-> END STRING
-
-> BEGIN STRING
-また、設置者と互いに了承し合うことで、
-他の者にも設置者と同様の効果を与えることができる。
-（制御が不安定な事が判明。現在この機能は封印中）
-> CONTEXT: Map438/events/5/pages/0/9/Dialogue
-Furthermore, by mutually agreement with the installer, 
-it is possible share its effect. (Turns out this control 
-was unstable. This function is currently not in use.)
 > END STRING

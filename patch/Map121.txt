@@ -1,88 +1,9 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ヘカテーさん？
-ああ、銀色の都市の図書館さんの館長さんね。
-いつもお世話になってるよ、彼女がどうかしたの？
-> CONTEXT: Map121/events/10/pages/0/2/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-え、本が届いていない？
-おかしいわね、確かに送ったはずだけど……
-ちょっと、そのリストを見せてもらえるかしら？
-> CONTEXT: Map121/events/10/pages/0/6/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-おまたせ、確認したけどこのリストの本は
-全部ここじゃなくて、支部の氷結図書館のものよ。
-もしかしたら向こうの職員が忘れているのかも……
-> CONTEXT: Map121/events/10/pages/0/13/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-氷結図書館は、夢の雪原の先にあるけど……
-あなたさえよければ
-確認しに行ってもらえないかしら？
-> CONTEXT: Map121/events/10/pages/0/17/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-私、寒いのがちょっと苦手で……
-え、どこにあるのかって？
-ここからずうっと北の方よ
-> CONTEXT: Map121/events/10/pages/0/21/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-普通の手段じゃ向かえないでしょうね。
-でも大丈夫！西館の２階の魔導書から
-直接氷結図書館に行くことができるわ。
-> CONTEXT: Map121/events/10/pages/0/25/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ここと違って怪しい信徒達も多いから
-かどわかされないように注意してね！
-> CONTEXT: Map121/events/10/pages/0/29/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-氷結図書館には普通の手段じゃ向かえないでしょうね。
-でも大丈夫！西館の２階の魔導書から
-直接氷結図書館に行くことができるわ。
-> CONTEXT: Map121/events/10/pages/0/36/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ただ外ある夢の雪原はすごく広くて遭難者も多いと聞くわ。
-興味本位で向かうのはやめた方がいいわよ。
-> CONTEXT: Map121/events/10/pages/0/40/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
 こちらは図書館の本館となっています。
 ご自由にご利用ください。
-> CONTEXT: Map121/events/10/pages/0/45/Dialogue
+> CONTEXT: Map121/events/10/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
 This is the main building of the library.
 Please feel free to use it.
@@ -194,6 +115,12 @@ A lady with wings...
 少年は気を失ってしまった。
 > CONTEXT: Map121/events/23/pages/0/8/Dialogue
 The boy fainted.
+> END STRING
+
+> BEGIN STRING
+気絶している。
+> CONTEXT: Map121/events/23/pages/1/1/Dialogue
+Unconcious
 > END STRING
 
 > BEGIN STRING

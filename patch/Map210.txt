@@ -1,577 +1,1223 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-\\name[\\v[2]]\\_
-あら？見ない顔ねぇ。
-支配人がここに新顔を入れるなんて
-珍しいわね。
-> CONTEXT: Map210/events/6/pages/0/1/Dialogue
-\\name[\\v[2]]\\_
-Oh? I don't recognize you.
-It's unusual for the manager to bring in a new face here.
+"おせっかいな騎士"
+> CONTEXT: Map210/events/1/pages/0/0/InlineScript/1:22
+> CONTEXT: Map035/events/1/pages/0/0/InlineScript/1:22
+> CONTEXT: Map005/events/12/pages/0/0/InlineScript/1:22
+"Meddlesome Knight"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-夢世界に迷い込んだ原因を探りに来たんだ。
-ふぅ～ん。
+おせっかいな僕が初期スキルについて教えてあげよう。
+何か聞きたいことはあるかい？
+> CONTEXT: Map210/events/1/pages/0/1/Dialogue
+> CONTEXT: Map035/events/1/pages/0/1/Dialogue
+> CONTEXT: Map005/events/12/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Since I like to meddle, I'll tell you about the initial skills.
+Is there anything you would like to ask?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「キッス」は与えられる快感は他より少しだけ小さいが、
+その分ムードが上がる効果を持っているね。
+> CONTEXT: Map210/events/1/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+"Kiss" gives a little less pleasure than others, 
+but it has the effect of raising the mood.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ムードの低い序盤などはキッスでムードを上げていくと、
+自分のやりたいことがやりやすくなるよ。
+> CONTEXT: Map210/events/1/pages/0/9/Dialogue
+> CONTEXT: Map035/events/1/pages/0/9/Dialogue
+> CONTEXT: Map005/events/12/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+In the beginning when the mood is low, raise the mood with Kiss,
+and that will make it easier to do what you want.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「バスト」はこの４つの中では、最も安定して
+高い快感を与えられるスキルだ。
+> CONTEXT: Map210/events/1/pages/0/14/Dialogue
+> CONTEXT: Map035/events/1/pages/0/14/Dialogue
+\\name[\\v[2]]\\_
+“Bust” is the most consistent of these four.
+It's a skill that can give a high level of pleasure.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+与える快感を重視している時などは、
+これが最も使いやすいだろうね。
+> CONTEXT: Map210/events/1/pages/0/17/Dialogue
+> CONTEXT: Map035/events/1/pages/0/21/Dialogue
+> CONTEXT: Map005/events/12/pages/0/17/Dialogue
+\\name[\\v[2]]\\_
+This is probably the easiest to use 
+when you are focusing on giving pleasure.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「ヒップ」は短いターンの間だが、相手の素早さを遅くする\\_
+効果がある。
+> CONTEXT: Map210/events/1/pages/0/22/Dialogue
+> CONTEXT: Map035/events/1/pages/0/26/Dialogue
+> CONTEXT: Map005/events/12/pages/0/22/Dialogue
+\\name[\\v[2]]\\_
+"Hip" slows down the opponent's speed for a short time.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+相手の行動順をずらすことができるし、
+レジストスキルに対して若干だが有利になれるよ。
+> CONTEXT: Map210/events/1/pages/0/25/Dialogue
+> CONTEXT: Map035/events/1/pages/0/29/Dialogue
+> CONTEXT: Map005/events/12/pages/0/25/Dialogue
+\\name[\\v[2]]\\_
+You can shift the order of your opponent's actions, giving you a slight
+advantage over resist skills.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「クロッチ」は相手の潤滑度を上げる効果があるね。
+> CONTEXT: Map210/events/1/pages/0/30/Dialogue
+> CONTEXT: Map035/events/1/pages/0/34/Dialogue
+> CONTEXT: Map005/events/12/pages/0/30/Dialogue
+\\name[\\v[2]]\\_
+"Crotch" has the effect of increasing the 
+lubrication level of the other person.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+潤滑度というのは、その戦闘中でのみ加算されていくけど、
+一部のスキルはこれが高いほど効果がある。
+> CONTEXT: Map210/events/1/pages/0/32/Dialogue
+> CONTEXT: Map035/events/1/pages/0/36/Dialogue
+> CONTEXT: Map005/events/12/pages/0/32/Dialogue
+\\name[\\v[2]]\\_
+The lubrication level is only added up during the battle, but
+the higher the lubrication level, the more effective some skills are.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+しかし、クロッチのような潤滑度を上げるスキルは、
+裸の相手でないと与える快感も効果も激減してしまうから\\_
+注意が必要だよ。
+> CONTEXT: Map210/events/1/pages/0/35/Dialogue
+> CONTEXT: Map035/events/1/pages/0/39/Dialogue
+> CONTEXT: Map005/events/12/pages/0/35/Dialogue
+\\name[\\v[2]]\\_
+However, you need to be careful with skills that increase lubrication,
+such as crotch, because the pleasure and effect it gives will be
+drastically reduced unless the target is naked.
+> END STRING
+
+> BEGIN STRING
+"手練の男"
+> CONTEXT: Map210/events/2/pages/0/0/InlineScript/1:22
+> CONTEXT: Map035/events/2/pages/0/0/InlineScript/1:22
+> CONTEXT: Map005/events/11/pages/0/0/InlineScript/1:22
+"Skillful man"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]パーティには気を遣っているか？
+> CONTEXT: Map210/events/2/pages/0/1/Dialogue
+> CONTEXT: Map035/events/2/pages/0/1/Dialogue
+> CONTEXT: Map005/events/11/pages/0/1/Dialogue
+\\name[\\v[2]]Do you have concerns about the party?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]夢魔によっては、戦闘を得意とする者や、
+探索に向いている者などがいる。
+戦闘と探索の役割を考えたパーティ編成をする事が\\_
+望ましい。
+> CONTEXT: Map210/events/2/pages/0/2/Dialogue
+> CONTEXT: Map035/events/2/pages/0/2/Dialogue
+> CONTEXT: Map005/events/11/pages/0/2/Dialogue
+\\name[\\v[2]]Some succubi are good at combat and some at exploration.
+You should form a party that takes these roles into account.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]だが、その２つのバランスが良いだけでは
+良いパーティというわけでは決して無い。
+> CONTEXT: Map210/events/2/pages/0/6/Dialogue
+> CONTEXT: Map035/events/2/pages/0/6/Dialogue
+> CONTEXT: Map005/events/11/pages/0/6/Dialogue
+\\name[\\v[2]]However, just having a good balance between the two
+doesn't necessarily mean it's a good party.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]倒したい敵がいる時は\\_
+戦闘を得意とする夢魔で固め、
+夢世界での探索を重視する時は、探索を得意とした夢魔を
+多く率いる事も重要だ。
+> CONTEXT: Map210/events/2/pages/0/8/Dialogue
+> CONTEXT: Map035/events/2/pages/0/8/Dialogue
+> CONTEXT: Map005/events/11/pages/0/8/Dialogue
+\\name[\\v[2]]When there is an enemy you want to defeat, 
+it is important to prepare with succubi who are good at combat,
+and when you place emphasis on exploration in the dream world,
+it is best to have succubi who are good at exploration.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]パーティ編成をする時は、\\_
+冒険の目的と仲間の役割を考えて、
+仲間の夢魔を選ぶんだな。
+> CONTEXT: Map210/events/2/pages/0/12/Dialogue
+> CONTEXT: Map035/events/2/pages/0/12/Dialogue
+> CONTEXT: Map005/events/11/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+When forming a party, consider the purpose of the adventure
+and the role of your companions, 
+and choose the succubi that will be your companions.
+> END STRING
+
+> BEGIN STRING
+"魔法士の青年"
+> CONTEXT: Map152/events/9/pages/0/0/InlineScript/1:22
+> CONTEXT: Map210/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Map035/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Map005/events/13/pages/0/0/InlineScript/1:22
+"Young Magician"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おや、ラーミル様のお弟子様ではありませんか。
+こんな所で会うとは奇遇ですね。
+> CONTEXT: Map210/events/3/pages/0/1/Dialogue
+> CONTEXT: Map035/events/3/pages/0/1/Dialogue
+> CONTEXT: Map005/events/13/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Oh, aren't you Ramil's disciple?
+What a coincidence for us to meet here.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]ここは夢魔が蔓延っている夢世界。
+剣術の心得も攻撃魔法の知識も役立たず･･･。
+どうやら普通の戦闘能力では彼女らに\\_
+勝つことができないようです。
+> CONTEXT: Map210/events/3/pages/0/4/Dialogue
+\\name[\\v[2]]This is a dream world where succubi are rampant.
+Swordsmanship and attack magic are useless...
+You can't defeat them with normal fighting ability.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+わかりやすく言えば、
+\\c[12]魅力が攻撃力、忍耐力が防御力\\c[0]\\_
+となっていることでしょうか。
+> CONTEXT: Map210/events/3/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+To put it simply,
+\\c[12]Charm is offensive power, endurance is defensive power\\c[0]
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なので、攻めを強くする場合は魅力を高める装備を、
+守りを強くする場合は忍耐力を高める装備をするのが\\_
+基本みたいですね。
+> CONTEXT: Map210/events/3/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+So, if you want to strengthen your attack, you should use equipment that 
+increases your charm, and if you want to strengthen your defense,
+you should use equipment that increases your endurance.
+> END STRING
+
+> BEGIN STRING
+"バニー"
+> CONTEXT: Map210/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map035/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map005/events/2/pages/0/0/InlineScript/1:22
+"Bunny"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+いらっしゃーい\\H
+> CONTEXT: Map210/events/4/pages/0/1/Dialogue
+> CONTEXT: Map035/events/4/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Welcome\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･違う違う、アタシは夢魔じゃないわよぉ！
+> CONTEXT: Map210/events/4/pages/0/3/Dialogue
+> CONTEXT: Map035/events/4/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+...No, no, I'm not a succubus!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あぁ、そーそー。
+ホームにいる夢魔の数がいっぱいだと、
+新しく夢魔とは契約できないんだって。
+> CONTEXT: Map210/events/4/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+Ah, that's right.
+It is said that if the number of succubi in the home is full,
+it is not possible to contract with a new succubus.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+誰かと契約したい時は、拠点に空きは必要よ？
+> CONTEXT: Map210/events/4/pages/0/9/Dialogue
+> CONTEXT: Map035/events/4/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+If you want to sign a contract with someone,
+you need to have space at your base, right?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そういえば、\\c[12]夢世界には変わった泉があるらしくて、
+その泉を見続けたら、契約できる夢魔の上限を\\_
+増やせる\\c[0]らしいわ。
+> CONTEXT: Map210/events/4/pages/0/11/Dialogue
+\\name[\\v[2]]\\_
+By the way, \\c[12]apparently there are strange springs in the dream world,
+and by looking at them, 
+you can increase the number of succubi you can contract\\c[0].
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]キミ･･･使えない道具とか持ってない？
+> CONTEXT: Map010/events/1/pages/0/2/Dialogue
+> CONTEXT: Map002/events/5/pages/0/2/Dialogue
+> CONTEXT: Map210/events/5/pages/0/2/Dialogue
+> CONTEXT: Map035/events/5/pages/0/2/Dialogue
+> CONTEXT: Map005/events/8/pages/0/3/Dialogue
+\\name[\\v[2]]You... do you have any unusable items?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やぁ･･･。使えない道具とか見つかったかい？
+> CONTEXT: Map010/events/1/pages/0/6/Dialogue
+> CONTEXT: Map002/events/5/pages/0/6/Dialogue
+> CONTEXT: Map210/events/5/pages/0/6/Dialogue
+> CONTEXT: Map035/events/5/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+Hey... Did you find any unusable items?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+たまーに夢魔が落としてくれたり、採取で見つかったり\\_
+するんだけどさ。
+いっぱい持ってたら、良い物と交換してあげるよ。
+> CONTEXT: Map010/events/1/pages/0/10/Dialogue
+> CONTEXT: Map002/events/5/pages/0/10/Dialogue
+> CONTEXT: Map210/events/5/pages/0/10/Dialogue
+> CONTEXT: Map035/events/5/pages/0/10/Dialogue
+\\name[\\v[2]]\\_
+Occasionally, succubi drop them, or they are found through foraging.
+If you have a lot, I'll exchange it for something better.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+使えない道具が集まったら、また僕の所へおいで･･･。
+> CONTEXT: Map010/events/1/pages/0/20/Dialogue
+> CONTEXT: Map002/events/5/pages/0/408/Dialogue
+> CONTEXT: Map210/events/5/pages/0/20/Dialogue
+> CONTEXT: Map035/events/5/pages/0/20/Dialogue
+\\name[\\v[2]]\\_
+When you have gathered some unusable items, come back to me...
+> END STRING
+
+> BEGIN STRING
+"バーテンダー"
+> CONTEXT: Map152/events/10/pages/0/0/InlineScript/1:22
+> CONTEXT: Map152/events/10/pages/1/0/InlineScript/1:22
+> CONTEXT: Map210/events/6/pages/0/3/InlineScript/1:22
+> CONTEXT: Map035/events/6/pages/0/3/InlineScript/1:22
+> CONTEXT: Map005/events/17/pages/0/3/InlineScript/1:22
+"Bartender"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+よぉ\\v[3]。
+酒は出せねーが、なんか食っていくか？
 > CONTEXT: Map210/events/6/pages/0/5/Dialogue
 \\name[\\v[2]]\\_
-We're here to find out why he got lost in the dream world.
-Hmm.
+Yo \\v[3].
+I can't serve alcohol, but would you like to eat something?
+> END STRING
+
+> BEGIN STRING
+\\name[悪魔]\\_
+なんだい、ナンダイ。
+ただの悪魔が酒飲んでちゃ悪いのかい。
+> CONTEXT: Map210/events/7/pages/0/1/Dialogue
+\\name[Devil]\\_
+What is it, WHAT IS IT?
+Is it wrong for a devil to drink alcohol?
+> END STRING
+
+> BEGIN STRING
+"情報屋"
+> CONTEXT: Map210/events/7/pages/0/4/InlineScript/1:22
+> CONTEXT: Map210/events/7/pages/0/15/InlineScript/1:22
+> CONTEXT: Map210/events/7/pages/1/0/InlineScript/1:22
+> CONTEXT: Map005/events/7/pages/0/5/InlineScript/1:22
+"Informant"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ここは調べ物には持ってこいかもね！
-色々調べてみてもいいわよ？
-> CONTEXT: Map210/events/6/pages/0/8/Dialogue
+オレは他の夢世界の情報を取り扱ってる情報屋様だぜ？
+良い情報揃えてやってやるんだ。是非ともご贔屓になァ？
+キキキッ！
+> CONTEXT: Map210/events/7/pages/0/5/Dialogue
+> CONTEXT: Map005/events/7/pages/0/6/Dialogue
 \\name[\\v[2]]\\_
-This might be a good place to do some research!
-You could look into it a bit, you know?
+I'm an informant who handles information about other dream worlds.
+I gather good information. Please be sure to give it a try?
+Ki-ki-ki!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ただし、大きな音は立てない事！
-……分かった？
-> CONTEXT: Map210/events/6/pages/0/11/Dialogue
+そうだ、早速サービスしてやろう。
+この情報は金を取らねえから安心しナ。
+> CONTEXT: Map210/events/7/pages/0/9/Dialogue
 \\name[\\v[2]]\\_
-But don't make any loud noises!
-...Got it?
+Yes, let's service it right away.
+Don't worry, I won't charge you for this information.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-あは♪
-その姿、とってもカワイイじゃ～ん！
-> CONTEXT: Map210/events/6/pages/1/2/Dialogue
+俺は情報屋サ。
+今は特別サービス中だぜ。無料で情報を教えてやるヨ。\\_
+キキッ！
+> CONTEXT: Map210/events/7/pages/0/16/Dialogue
 \\name[\\v[2]]\\_
-Ahaha♪
-So cute!
+I'm an informer.
+I currently have a special offer. I'll give you information for free.
+Ki-ki!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-うっすらと見える不思議な階段があったって？
-ふぅーん。
-> CONTEXT: Map210/events/6/pages/1/7/Dialogue
+ここから別の夢世界へ行くことができるところは３つあるんダ。
+どこの情報が知りたい？
+> CONTEXT: Map210/events/7/pages/0/22/Dialogue
 \\name[\\v[2]]\\_
-So there was a mysterious staircase 
-that was faintly visible?
-Hmm.
+There are three other dream worlds you can go to from here.
+What information do you want to know?
+> END STRING
+
+> BEGIN STRING
+浅き夢の瀬
+> CONTEXT: Map210/events/7/pages/0/25/Choice/0
+> CONTEXT: Map210/events/7/pages/0/25/Choice/0
+Shallow Dream Waters
+> END STRING
+
+> BEGIN STRING
+月明かりの樹海
+> CONTEXT: Map210/events/7/pages/0/25/Choice/1
+> CONTEXT: Map210/events/7/pages/0/25/Choice/1
+Moonlit Sea of Trees
+> END STRING
+
+> BEGIN STRING
+教会図書館
+> CONTEXT: Map210/events/7/pages/0/25/Choice/2
+> CONTEXT: Map210/events/7/pages/0/25/Choice/2
+Church library
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-貴方には地下に行ける資格はないみたいね。
-> CONTEXT: Map210/events/6/pages/1/10/Dialogue
+浅き夢の瀬か。
+ここはアンタ通ってきたんじゃないか？
+> CONTEXT: Map210/events/7/pages/0/27/Dialogue
 \\name[\\v[2]]\\_
-Looks like you don't have 
-the qualifications to go underground.
+The Shallow Dream Waters,
+didn't you come through there?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-あそこは選ばれし者しか
-立ち入る事ができないエリアだから。
-> CONTEXT: Map210/events/6/pages/1/12/Dialogue
+夢世界でもかなり浅い場所ではあるみたいだナ。
+おかげで特に見るものも無い。
+> CONTEXT: Map210/events/7/pages/0/30/Dialogue
 \\name[\\v[2]]\\_
-Because that's an area that only the chosen ones can enter.
+It seems like it's a pretty shallow place even in the dream world.
+There's nothing special to see.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-あ！キミ！！
-こないだは誤解してごめんなさいね。
-> CONTEXT: Map210/events/6/pages/2/1/Dialogue
+ま、何かあるかもしれねーがその時はすぐ分かるダロ。
+キキッ！
+> CONTEXT: Map210/events/7/pages/0/33/Dialogue
 \\name[\\v[2]]\\_
-Oh! It's you!!
-I'm sorry for the misunderstanding the other day.
+Well, something might happen, but I'll know when it does.
+Ki-ki!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-でも、誤解されるような行動をするのも
-どうかと思うわよ。
-> CONTEXT: Map210/events/6/pages/2/4/Dialogue
+月明かりの樹海か。
+ここはこのホームにある\\c[12]虚のある植木\\c[0]から\\_
+行けるゼ。
+> CONTEXT: Map210/events/7/pages/0/38/Dialogue
 \\name[\\v[2]]\\_
-But I think it's wrong to act 
-in a way that could be misunderstood.
-> END STRING
-
-> BEGIN STRING
-ナルルース・デネルースと再戦しますか？
-> CONTEXT: Map210/events/6/pages/2/7/Dialogue
-Would you like to have a rematch with Nallus・Denelus?
+Moonlit Sea of Trees?
+You can go there via the \\c[12]Empty Plants\\c[0] in Home.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-アレとコレを組み合わせて……、
-メンドくさいなぁ……ブツブツ……。
+夢魔は多いが、弱いし動きも分かりやすい。
+旅や夢魔に慣れるにはちょうど良いはずだぜ。
+> CONTEXT: Map210/events/7/pages/0/42/Dialogue
+\\name[\\v[2]]\\_
+There are many succubi there, but they are weak and their
+movements are easy to understand.
+It should be a good opportunity to get used to the
+traveling and the succubi.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それに、【秩序の魔女】だったか？　\\_
+あの女がいたって話もある。
+> CONTEXT: Map210/events/7/pages/0/45/Dialogue
+\\name[\\v[2]]\\_
+What's that about [Witch of Order]? There's stories about that woman.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+アンタの知り合いだろう？
+まずはここを探索してみれば良いんじゃないカイ。
+> CONTEXT: Map210/events/7/pages/0/48/Dialogue
+\\name[\\v[2]]\\_
+You want to get acquainted?
+It would be a good idea to explore this place first, no?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+教会図書館か。
+ここはこのホームの\\c[12]とある本棚\\c[0]から行けるゼ。
+> CONTEXT: Map210/events/7/pages/0/53/Dialogue
+\\name[\\v[2]]\\_
+A church library?
+You can get there from a \\c[12]bookshelf\\c[0] in Home.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あそこは夢世界に関した書物が多い。
+アンタも分からないことだらけだろう？　\\_
+調べてみる価値はあると思うゼ。
+> CONTEXT: Map210/events/7/pages/0/56/Dialogue
+\\name[\\v[2]]\\_
+There are many books about the dream world.
+There are so many things you don't understand, right? 
+I think it's worth looking into.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+敵も襲ってこねーし、平和な場所だしナ。
+まぁ、夢魔の領域ではあるから、ちゃんと夢魔の\\_
+腹の調子は管理しとけヨ？
+> CONTEXT: Map210/events/7/pages/0/60/Dialogue
+\\name[\\v[2]]\\_
+No one will attack you there, so it's a peaceful place.
+However, it's in the realm of succubi, 
+so make sure you take good care of their appetite.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なんだい、勿体無いやつだナ。
+せっかく俺がサービスしてやってるってのによォ？
+> CONTEXT: Map210/events/7/pages/0/66/Dialogue
+\\name[\\v[2]]\\_
+What's that? What a waste.
+I'm the one who's doing the service for you, aren't I?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+俺は情報屋サ。金さえ払ってくれれば情報提供してやるヨ。
+何が聞きタイ？
+> CONTEXT: Map210/events/7/pages/1/3/Dialogue
+> CONTEXT: Map210/events/7/pages/1/25/Dialogue
+\\name[\\v[2]]\\_
+I'm an informer. I'll provide information as long as you pay me.
+What would you like to ask?
+> END STRING
+
+> BEGIN STRING
+隠し扉の傾向
+> CONTEXT: Map210/events/7/pages/1/6/Choice/0
+> CONTEXT: Map210/events/7/pages/1/6/Choice/0
+> CONTEXT: Map210/events/7/pages/1/28/Choice/0
+> CONTEXT: Map210/events/7/pages/1/28/Choice/0
+About hidden doors
+> END STRING
+
+> BEGIN STRING
+ユニーク夢魔について
+> CONTEXT: Map210/events/7/pages/1/6/Choice/1
+> CONTEXT: Map210/events/7/pages/1/6/Choice/1
+> CONTEXT: Map210/events/7/pages/1/28/Choice/1
+> CONTEXT: Map210/events/7/pages/1/28/Choice/1
+About unique succubi
+> END STRING
+
+> BEGIN STRING
+明晰の泉の場所
+> CONTEXT: Map210/events/7/pages/1/6/Choice/2
+> CONTEXT: Map210/events/7/pages/1/6/Choice/2
+Locations of the Fountains of Lucidity
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+オイオイ、情報の価値が分かってねぇ奴だナァ？
+勿体無いやつだゼ。
+> CONTEXT: Commonevents/131/23/Dialogue
+> CONTEXT: Map210/events/7/pages/1/17/Dialogue
+> CONTEXT: Map210/events/7/pages/1/36/Dialogue
+\\name[\\v[2]]\\_
+Hey, you don't understand the value of information, huh?
+What a waste of time.
+> END STRING
+
+> BEGIN STRING
+"隠し扉の傾向ダナ。"
+> CONTEXT: Map210/events/7/pages/1/48/InlineScript/1:22
+"Hidden doors."
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+隠し扉ってのは基本的には北側にしか存在しないんダ。
+西や東にはそうそう無い。
+> CONTEXT: Map210/events/7/pages/1/60/Dialogue
+\\name[\\v[2]]\\_
+Hidden doors almost always face north.
+Not so much west or east.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+壁に線が入っている所や色が違う壁なんかはそうだ。
+装飾の何かと何かの間にあるってことが多いゼ。
+> CONTEXT: Map210/events/7/pages/1/63/Dialogue
+\\name[\\v[2]]\\_
+You might find them where there are lines on the wall,
+or on walls that are different colors.
+They're often between something decorative.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それと不自然に部屋の装飾が非対称的になってる時は、
+その対称側に何かあるかもナ。
+> CONTEXT: Map210/events/7/pages/1/66/Dialogue
+\\name[\\v[2]]\\_
+Also, if the decoration of the room is unnaturally asymmetrical,
+there might be something around there.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ごくたまに南側にも隠し扉があるガ、
+これはだいたいシンメトリーな部屋の中央から南にある\\_
+ケースダナ。
+> CONTEXT: Map210/events/7/pages/1/69/Dialogue
+\\name[\\v[2]]\\_
+Occasionally there is a hidden door facing south, and usually
+it's a case of being on the south side of a symmetrical room.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あとは隠し扉の先に見つけたものが
+やたら安っぽいアイテムの時は注意しなヨ。
+更に隠し扉があるケースがあるようだゼ。
+> CONTEXT: Map210/events/7/pages/1/73/Dialogue
+\\name[\\v[2]]\\_
+Also, be wary if what you find behind the hidden door is a cheap item.
+There are cases where there is another hidden door.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こんなもんダナ。キキッ！
+> CONTEXT: Map210/events/7/pages/1/77/Dialogue
+> CONTEXT: Map210/events/7/pages/1/211/Dialogue
+> CONTEXT: Map210/events/7/pages/1/253/Dialogue
+\\name[\\v[2]]\\_
+That's the way it is. Ki-ki!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おっとこれは個人情報だネ。
+こいつはおおっぴらに言うとウチの信用に関わる。
+> CONTEXT: Map210/events/7/pages/1/83/Dialogue
+\\name[\\v[2]]\\_
+Oh, this is private information.
+Access to this information depends on your reputation.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+アンタの強さに合わせて教えてやるヨ。
+ボカして言うから、あとはアンタで探してくんナ。
+> CONTEXT: Map210/events/7/pages/1/86/Dialogue
+\\name[\\v[2]]\\_
+I'll teach you according to your strength.
+I'll just say it out loud, and then you'll have to look for it yourself.
+> END STRING
+
+> BEGIN STRING
+"ユニーク夢魔の情報その１。"
+> CONTEXT: Map210/events/7/pages/1/90/InlineScript/1:22
+"Unique Succubus Information Part 1."
+> END STRING
+
+> BEGIN STRING
+【天然由来】
+胸が性感帯。素早さ\\v[3]。
+【落ちこぼれ】
+口が性感帯。素早さ\\v[4]。
+> CONTEXT: Map210/events/7/pages/1/104/Dialogue
+[Natural origin]
+Breasts are erogenous zones. Agility \\v[3].
+[Dropout]
+The mouth is an erogenous zone. Agility \\v[4].
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+アンタの強さに見込んで更に情報をやろうじゃないカ。
+> CONTEXT: Map210/events/7/pages/1/114/Dialogue
+> CONTEXT: Map210/events/7/pages/1/140/Dialogue
+> CONTEXT: Map210/events/7/pages/1/166/Dialogue
+> CONTEXT: Map210/events/7/pages/1/192/Dialogue
+\\name[\\v[2]]\\_
+When you get stronger, I will give you more information.
+> END STRING
+
+> BEGIN STRING
+"ユニーク夢魔の情報その２。"
+> CONTEXT: Map210/events/7/pages/1/116/InlineScript/1:22
+"Unique Incubus Information Part 2."
+> END STRING
+
+> BEGIN STRING
+【上から目線】
+口が性感帯。素早さ\\v[3]。
+【冒涜飼い】
+お尻が性感帯。素早さ\\v[4]。
+> CONTEXT: Map210/events/7/pages/1/130/Dialogue
+[Arrogant]
+The mouth is an erogenous zone. Agility \\v[3].
+[Sacrilegous]
+The butt is an erogenous zone. Agility \\v[4].
+> END STRING
+
+> BEGIN STRING
+"ユニーク夢魔の情報その３。"
+> CONTEXT: Map210/events/7/pages/1/142/InlineScript/1:22
+"Unique Incubus Information Part 3."
+> END STRING
+
+> BEGIN STRING
+【丈夫な玩具】
+胸が性感帯。素早さ\\v[3]。
+【美の体現者】
+陰核が性感帯。素早さ\\v[4]。
+> CONTEXT: Map210/events/7/pages/1/156/Dialogue
+[Robust plaything]
+Breasts are erogenous zones. Agility \\v[3].
+[Embodiment of beauty]
+The clitoris is an erogenous zone. Agility \\v[4].
+> END STRING
+
+> BEGIN STRING
+"ユニーク夢魔の情報その４。"
+> CONTEXT: Map210/events/7/pages/1/168/InlineScript/1:22
+"Unique Incubus Information Part 4."
+> END STRING
+
+> BEGIN STRING
+【秩序の魔女】
+胸が性感帯。素早さ\\v[3]。
+【金色の夢魔】
+女陰が性感帯。素早さ\\v[4]。
+> CONTEXT: Map210/events/7/pages/1/182/Dialogue
+[Witch of Order]
+Breasts are erogenous zones. Agility \\v[3].
+[Golden succubus]
+The clitoris is an erogenous zone. Agility \\v[4].
+> END STRING
+
+> BEGIN STRING
+"ユニーク夢魔の情報その５。"
+> CONTEXT: Map210/events/7/pages/1/194/InlineScript/1:22
+"Unique Incubus Information Part 5."
+> END STRING
+
+> BEGIN STRING
+【露悪の果て】
+女陰が性感帯。素早さ\\v[3]。
+> CONTEXT: Map210/events/7/pages/1/208/Dialogue
+[The End of Evil]
+The clitoris is an erogenous zone. Agility \\v[3].
+> END STRING
+
+> BEGIN STRING
+"明晰の泉の場所ダナ。"
+> CONTEXT: Map210/events/7/pages/1/218/InlineScript/1:22
+"Locations of the Fountains of Lucidity."
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+行くことができる明晰の泉の場所は全部で９つダ。
+> CONTEXT: Map210/events/7/pages/1/230/Dialogue
+\\name[\\v[2]]\\_
+There are a total of 9 locations of the 
+Fountain of Lucidity you can go to.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+月明かりの樹海に２つ。
+この２つは共通して木の虚の中にあるゼ。
+> CONTEXT: Map210/events/7/pages/1/232/Dialogue
+\\name[\\v[2]]\\_
+2 in the Moonlit Sea of Trees.
+These 2 both lie within the hollowness of a tree.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+闇洞窟に２つ。
+１つは暗闇にしないと行けない場所にあるんだが、\\_
+気付いてるカイ？
+> CONTEXT: Map210/events/7/pages/1/235/Dialogue
+\\name[\\v[2]]\\_
+Two in the dark cave.
+One is in a place that you can't get to unless it's dark, 
+if you know what I mean?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+パルフィス密教会に１つ。
+乱交してたホールのその先にある部屋の奥サ。
+> CONTEXT: Map210/events/7/pages/1/239/Dialogue
+\\name[\\v[2]]\\_
+One in Palfis Secret Church.
+In the back of the room beyond the hall 
+where they are having an orgy.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+令嬢の屋敷に１つ。
+あれは完全に屋敷のオブジェにしてるナ、あのお嬢サマ。
+> CONTEXT: Map210/events/7/pages/1/242/Dialogue
+\\name[\\v[2]]\\_
+One in the lady's mansion.
+It is an object in the mansion of the lady.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+獄界オルデオに１つ。
+ここは厄介な所サ。夢魔を倒していかないと見ることが\\_
+出来ないゼ。
+> CONTEXT: Map210/events/7/pages/1/245/Dialogue
+\\name[\\v[2]]\\_
+One in the Hell World of Ordeo.
+This is a tricky place. 
+You must defeat some succubi to get there.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]魔城トゥーロマンサに２つ。
+１つは難しくないが、問題はもう１つサ。
+ポートから遠く、泉も強い夢魔が塞いでやがる。\\_
+ここが一番の難所だゼ。
+> CONTEXT: Map210/events/7/pages/1/249/Dialogue
+\\name[\\v[2]]\\_
+Two in Demon Castle Too Romanca. One is not difficult, 
+but the other is far from the port, and the spring is 
+blocked by a strong succubus. This is the most difficult part.
+> END STRING
+
+> BEGIN STRING
+"のんびりした女"
+> CONTEXT: Map210/events/9/pages/0/0/InlineScript/1:22
+> CONTEXT: Map035/events/9/pages/0/0/InlineScript/1:22
+"A laid-back woman"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢の魔力はー。
+仲間にした夢魔が多ければ多いほど増えるって聞いたよー。
 > CONTEXT: Map210/events/9/pages/0/1/Dialogue
-> CONTEXT: Map210/events/9/pages/1/1/Dialogue
 \\name[\\v[2]]\\_
-Combining this and that...
-It's such a pain... grumble grumble...
+Dream magic power?
+I heard that the more succubi you have, the more you will get.
 > END STRING
 
 > BEGIN STRING
-不思議なオーラを纏った本が置かれているが、
-今は読めないようだ。
-> CONTEXT: Map210/events/10/pages/0/5/Dialogue
-There is a book with a mysterious aura around it,
-but it seems it can't be read at the moment.
+\\name[\\v[2]]\\_
+それでー、増える夢の魔力は「強い夢魔」ほど
+多くなるんだってー。
+> CONTEXT: Map210/events/9/pages/0/4/Dialogue
+> CONTEXT: Map035/events/9/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+So, the more "strong succubi", the more dream magic you have.
 > END STRING
 
 > BEGIN STRING
-ドアが無くなっている……。
+\\name[\\v[2]]\\_
+夢の魔力が必要な場所があったらー
+夢魔とたくさん契約したりー、夢魔をレベルアップ\\_
+させたりすれば\\nいいと思うなー。
+> CONTEXT: Map210/events/9/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+What if there was a place that needed dream magic?
+I think it would be good to make lots of contracts with succubi
+and level them up.
+> END STRING
+
+> BEGIN STRING
+"ゴースト"
+> CONTEXT: Map210/events/10/pages/0/0/InlineScript/1:22
+> CONTEXT: Map035/events/10/pages/0/0/InlineScript/1:22
+"Ghost"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おいおい君、あんまり同じ夢魔にずっと同じ攻め方を\\_
+してないだろうね？
+> CONTEXT: Map210/events/10/pages/0/1/Dialogue
+> CONTEXT: Map035/events/10/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hey, hey, you don't always attack the same succubus the same way,
+do you?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\c[12]弱点だったからと言ってやりすぎると飽きられる\\c[0]\\_
+よ。\\nたまには違う攻め方も入れて攻めるんだね。
+ちなみにホールド中のスキルは何回やっても大丈夫だよ。
+> CONTEXT: Map210/events/10/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]If you use one move too much just because it's her weakness,
+she'll get bored\\c[0]. Sometimes, try using a different attack method.
+By the way, it doesn't matter how many times you use a skill in a hold.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･まぁ私に対しての光魔法は何度だろうが痛いがね･･･。
+> CONTEXT: Map210/events/10/pages/0/9/Dialogue
+> CONTEXT: Map035/events/10/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+...Well, it hurts no matter how many times light magic is used on me...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･････えっ？
+シャイニングレイジ？　光属性最上位魔法？
+> CONTEXT: Map210/events/10/pages/0/19/Dialogue
+\\name[\\v[2]]\\_
+...eh?
+Shining Rage? Top light attribute magic?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･おいおいおいおいおいおい君君きみみみ、
+そそそそんな物騒な魔法を私に撃ってくれるなよ？
+> CONTEXT: Map210/events/10/pages/0/25/Dialogue
+\\name[\\v[2]]\\_
+...Hey, hey, hey, hey, you, you, you,
+you wouldn't dare hit me with that horrible magic would you!?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+勘弁してくれ！　痛いどころじゃない！！
+幽霊だろうと関係ない！！　死んでしまう！！！
+> CONTEXT: Map210/events/10/pages/0/28/Dialogue
+\\name[\\v[2]]\\_
+Give me a break! It's beyond painful!!!
+It doesn't matter if I'm a ghost!!! I'll die!!!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こ、これをあげるからさ、
+決して私で試そうとはしないでくれないか･･･？
+> CONTEXT: Map210/events/10/pages/0/31/Dialogue
+\\name[\\v[2]]\\_
+Hey, I'll give you this.
+Please don't ever try it on me okay...?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+頼むよ･･･？
+> CONTEXT: Map210/events/10/pages/0/41/Dialogue
+\\name[\\v[2]]\\_
+I'm begging you...?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･まぁ私に対しての光魔法は何度だろうが痛いがね･･･。
+シャイニングレイジなんて魔法なんか使われたら、\\_
+ひとたまりもないよ･･･。
+> CONTEXT: Map210/events/10/pages/0/51/Dialogue
+\\name[\\v[2]]\\_
+...Well, it hurts no matter how many times light magic is 
+used against me... If a spell like Shining Rage was used, 
+I wouldn't be able to stand it...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+しかしそんな物騒な攻撃魔法、夢魔には一切効かない\\_
+だろう？\\nなんでそんなものを習得しているんだね･･･。
+> CONTEXT: Map210/events/10/pages/0/55/Dialogue
+\\name[\\v[2]]\\_
+However, such a dangerous attack magic would have 
+no effect on a succubus, right? 
+Why learn about something like that?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+魔王様にも通用しそうなぐらいな代物だよそれは･･･。
+> CONTEXT: Map210/events/10/pages/0/58/Dialogue
+\\name[\\v[2]]\\_
+It's something that could even be used by a Demon Lord...
+> END STRING
+
+> BEGIN STRING
+"飲食する男"
+> CONTEXT: Map210/events/11/pages/0/0/InlineScript/1:22
+> CONTEXT: Map035/events/11/pages/0/0/InlineScript/1:22
+"Diner"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+腹が減っては戦は出来ぬ。そういうだろ？
 > CONTEXT: Map210/events/11/pages/0/1/Dialogue
-The door is missing...
+> CONTEXT: Map035/events/11/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+You can't fight if you're hungry. Isn't that so?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-\\n[101]！
-早く地下へと向かうっスよ！
-> CONTEXT: Map210/events/13/pages/0/15/Dialogue
+「食事」をすると、しばらく歩いている間は食事の効果が\\_
+得られるんだ。\\nステータスを上げたり、ＥＰやＶＰの\\_
+自動回復量を\\n上げたりすることができるぜ。
+> CONTEXT: Map210/events/11/pages/0/3/Dialogue
+> CONTEXT: Map035/events/11/pages/0/3/Dialogue
 \\name[\\v[2]]\\_
-\\n[101]!
-Let's head underground quickly!
+When you eat, you get some benefits for a while of walking.
+You can raise your status and increase the 
+automatic recovery amount of EP and VP.
 > END STRING
 
 > BEGIN STRING
+\\name[\\v[2]]それと、\\c[12]満腹度が減らない場所では\\_
+食事の歩数も減らない\\c[0]んだ。\\nだからここみたいな\\_
+安全な場所で食べても、ダンジョンに出るまでは
+食事効果の歩数は減ってないぜ。
+> CONTEXT: Map210/events/11/pages/0/7/Dialogue
 \\name[\\v[2]]\\_
-……え。
-地下への階段が降りれなくなってるんスか？
-> CONTEXT: Map210/events/13/pages/0/19/Dialogue
-\\name[\\v[2]]\\_
-...Huh?
-Can't go down the stairs to the basement?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-本当だ、うっすら光ってるだけで
-下に通れなくなってるっス！
-> CONTEXT: Map210/events/13/pages/0/68/Dialogue
-\\name[\\v[2]]\\_
-You're right, it's just faintly glowing
-and you can't get through underneath!
+Also, \\c[12]the food benefit will not run out in an area where
+satiety doesn't decrease.\\c[0] So if you eat here, the steps until
+the food benefit runs out won't decrease until you go to a dungeon.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-アイツにだけは頼みたくはなかったんスけど……、
-こうなったら仕方ないっス。
-> CONTEXT: Map210/events/13/pages/0/74/Dialogue
+ただし食事を行うと、食事の効果が切れるまでは\\_
+次の食事は行えない。
+まぁ、食べたら食べた分動け、ってことだな。
+> CONTEXT: Map210/events/11/pages/0/11/Dialogue
+> CONTEXT: Map035/events/11/pages/0/11/Dialogue
 \\name[\\v[2]]\\_
-I didn't want to ask for help, but...
-I guess there's no other way around it now.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-アタシに着いてくるっス！
-> CONTEXT: Map210/events/13/pages/0/79/Dialogue
-\\name[\\v[2]]\\_
-Follow me!
-> END STRING
-
-> BEGIN STRING
-「淫界からの防衛戦記　その１」\\_
-と書かれた本がある。
-読みますか？
-> CONTEXT: Map210/events/15/pages/0/1/Dialogue
-There is a book called "Defence From the Lewd World 1" 
-Would you like to read it?
-> END STRING
-
-> BEGIN STRING
-ある夜、女性の姿をした悪魔の軍団が
-突如として、この世界に侵攻を開始してきた。
-> CONTEXT: Map210/events/15/pages/0/6/Dialogue
-One night, an army of demons in the form of 
-women suddenly began invading this world.
-> END STRING
-
-> BEGIN STRING
-我々は徹底的に抗戦するも、
-奴らの特異な戦い方に苦戦を強いられた。
-> CONTEXT: Map210/events/15/pages/0/8/Dialogue
-We put up a full resistance, but their unique 
-fighting style made it difficult for us to overcome them.
-> END STRING
-
-> BEGIN STRING
-ある者は廃人にされ、
-またある者は奴らに連れ去られ……。
-この世界は瞬く間に地獄と化した。
-> CONTEXT: Map210/events/15/pages/0/10/Dialogue
-Some were turned into invalids,
-and others were abducted by them...
-In an instant, this world became hell.
-> END STRING
-
-> BEGIN STRING
-奴らの戦い方は、
-これまでの歴史上のそれとは
-全く異なるものだった。
-> CONTEXT: Map210/events/15/pages/0/13/Dialogue
-Their fighting style was completely different 
-from anything we had ever seen in history.
-> END STRING
-
-> BEGIN STRING
-心の中に訴えかけ、魅了し、
-抗う意思を削ぎ落してから、
-じわじわといたぶってくる。
-> CONTEXT: Map210/events/15/pages/0/16/Dialogue
-They appeal to your heart, captivate you,
-erode your will to resist,
-and then slowly torture you.
-> END STRING
-
-> BEGIN STRING
-その戦い方ゆえ、
-我々は奴らの事を\\c[12]淫魔\\c[0]と呼ぶ事にした。
-> CONTEXT: Map210/events/15/pages/0/19/Dialogue
-Because of the way they fight,
-we've taken to calling them \\c[12]Succubi\\c[0].
-> END STRING
-
-> BEGIN STRING
-奴らは不思議な事に、
-魔法や武器などが全く通じない。
-> CONTEXT: Map210/events/15/pages/0/21/Dialogue
-Strangely enough, magic and weapons have no effect on them.
-> END STRING
-
-> BEGIN STRING
-我々自慢の精鋭部隊が、
-なすすべもなく無力化されてしまう始末であった。
-> CONTEXT: Map210/events/15/pages/0/23/Dialogue
-Our proud elite troops were rendered powerless 
-and there was nothing we could do.
-> END STRING
-
-> BEGIN STRING
-更に厄介な事に、奴らは生命力を吸収する事で
-より力を増大させていくようだ。
-> CONTEXT: Map210/events/15/pages/0/25/Dialogue
-Even more troubling, 
-they seem to grow stronger by absorbing life force.
-> END STRING
-
-> BEGIN STRING
-戦闘能力に長けた男性ほど、
-奴らにとっては単なる格好の餌食でしかない。
-> CONTEXT: Map210/events/15/pages/0/27/Dialogue
-The more skilled a man is in combat, 
-the more ideal prey he becomes for them.
-> END STRING
-
-> BEGIN STRING
-時が経てば経つほど、
-奴らの戦力は拡大していき、
-状況は悪化していった。
-> CONTEXT: Map210/events/15/pages/0/29/Dialogue
-As time passed,
-their forces grew stronger,
-and the situation became worse.
-> END STRING
-
-> BEGIN STRING
-「淫界からの防衛戦記　その２」\\_
-と書かれた本がある。
-読みますか？
-> CONTEXT: Map210/events/16/pages/0/1/Dialogue
-There is a book called "Defence from the Lewd World 2" 
-Would you like to read it?
-> END STRING
-
-> BEGIN STRING
-我々の防衛戦線は次第に押し込まれ、
-やがてこの基地も防衛の前線に晒され始めた。
-> CONTEXT: Map210/events/16/pages/0/6/Dialogue
-Our defensive front was gradually pushed back,
-and soon this base was exposed as a front line of defense.
-> END STRING
-
-> BEGIN STRING
-そんな折、エルジェ様が指揮官に抜擢され
-対淫魔戦線に特化した精鋭部隊が編成された。
-> CONTEXT: Map210/events/16/pages/0/8/Dialogue
-At that time, Lord Hergé was appointed commander and an 
-elite unit specializing in the anti-succubus front was formed.
-> END STRING
-
-> BEGIN STRING
-エルジェ様はとても聡明なお方だ。
-奴らの弱点を、素早く的確に見抜いていた。
-> CONTEXT: Map210/events/16/pages/0/10/Dialogue
-Hergé is very wise, and so quickly and accurately 
-identified their weaknesses.
-> END STRING
-
-> BEGIN STRING
-だが、たとえ弱点を見抜いたとしても、
-そこを突く、というのは困難を極める。
-> CONTEXT: Map210/events/16/pages/0/12/Dialogue
-But even if you spot a weakness, 
-it's extremely difficult to exploit it.
-> END STRING
-
-> BEGIN STRING
-精鋭部隊が編成されてからは、
-しばらく戦線も持ちこたえてはいたが、
-やがて陥落するのも時間の問題だろう。
-> CONTEXT: Map210/events/16/pages/0/14/Dialogue
-After elite troops were organized,
-the front line held out for a while,
-but it was only a matter of time before it fell.
-> END STRING
-
-> BEGIN STRING
-そこで、エルジェ様よりある指示が下された。
-\\c[12]顕在機\\c[0]を開発せよ、と。
-> CONTEXT: Map210/events/16/pages/0/17/Dialogue
-So, Hergé gave an instruction:
-\\c[12]Develop the Manifestor\\c[0].
-> END STRING
-
-> BEGIN STRING
-「淫界からの防衛戦記　その３」\\_
-と書かれた本がある。
-読みますか？
-> CONTEXT: Map210/events/17/pages/0/1/Dialogue
-There is a book called "Defence from the Lewd World 3" 
-Would you like to read it?
-> END STRING
-
-> BEGIN STRING
-\\c[12]顕在機\\c[0]。\\|
-……それは一体、何か。
-> CONTEXT: Map210/events/17/pages/0/6/Dialogue
-\\c[12]Manifestor\\c[0]. \\|
-...What on earth is that?
-> END STRING
-
-> BEGIN STRING
-エルジェ様の狙いは、
-奴らを実体として顕在化させ、
-魔法や武器を有効にする、というもの。
-> CONTEXT: Map210/events/17/pages/0/8/Dialogue
-Hergé's aim is to
-make them manifest as physical beings,
-making magic and weapons effective.
-> END STRING
-
-> BEGIN STRING
-我々は、寝る間も惜しんで
-顕在機の開発に明け暮れた。
-> CONTEXT: Map210/events/17/pages/0/11/Dialogue
-We worked day and night developing the device, 
-even sacrificing sleep.
-> END STRING
-
-> BEGIN STRING
-そして、あわやここも陥落寸前というところで
-ついに顕在機が完成した。
-> CONTEXT: Map210/events/17/pages/0/13/Dialogue
-And just when it was almost time for this place to fall as well,
-the Manifestor was finally completed.
-> END STRING
-
-> BEGIN STRING
-顕在機の効果は想像を遥かに絶しており、
-奴らの力は大きく弱体化した。
-> CONTEXT: Map210/events/17/pages/0/15/Dialogue
-The effects of the Manifestor were far beyond imagination,
-and their powers were greatly weakened.
-> END STRING
-
-> BEGIN STRING
-我々は一気に反撃に転じ、
-瞬く間に戦線を押し上げた。
-> CONTEXT: Map210/events/17/pages/0/17/Dialogue
-We launched a counterattack 
-and quickly pushed the front line forward.
-> END STRING
-
-> BEGIN STRING
-最終的に我々は勝利したものの、
-最後の最後、敵に刺し違えられてしまった。
-> CONTEXT: Map210/events/17/pages/0/19/Dialogue
-Although we were victorious in the end,
-we were stabbed by the enemy at the last moment.
-> END STRING
-
-> BEGIN STRING
-なんと絶大な魔力を誇る氷軍将、
-ジェノン様が敵の術中に嵌まり、
-その姿を淫魔へと変貌されてしまったのだ。
-> CONTEXT: Map210/events/17/pages/0/21/Dialogue
-Genon, the ice general who boasts immense magical power,
-fell into the enemy's trap and was transformed into a succubus.
-> END STRING
-
-> BEGIN STRING
-だが、さすがはジェノン様だ。
-その強靭な精神力で、始めは何とか正気を保っていた。
-> CONTEXT: Map210/events/17/pages/0/24/Dialogue
-But Genon was a master, and managed to retain sanity at first.
-> END STRING
-
-> BEGIN STRING
-だが、次第に意識が蝕まれていくのが
-顕著に現れるようになった。
-完全に正気を失うのは時間の問題だった。
-> CONTEXT: Map210/events/17/pages/0/26/Dialogue
-But the erosion of consciousness gradually became 
-more and more evident. It was only a matter of time 
-before it would go too far.
-> END STRING
-
-> BEGIN STRING
-エルジェ様は、ジェノン様に呪縛を掛け、
-山奥へと幽閉する事を決断した。
-> CONTEXT: Map210/events/17/pages/0/29/Dialogue
-Hergé decided to place a curse on Genon 
-and imprison Genon deep in the mountains.
-> END STRING
-
-> BEGIN STRING
-長年の戦友だっただけに、
-まさに、断腸の思いだった事だろう。
-> CONTEXT: Map210/events/17/pages/0/31/Dialogue
-As they had been comrades in arms for many years,
-it must have been a heartbreaking experience.
-> END STRING
-
-> BEGIN STRING
-「淫界からの防衛戦記　その４」\\_
-と書かれた本がある。
-読みますか？
-> CONTEXT: Map210/events/18/pages/0/1/Dialogue
-There is a book called "Defence from the Lewd World 4" 
-Would you like to read it?
-> END STRING
-
-> BEGIN STRING
-我々は何とか勝利は収めたものの、
-顕在機には１つ、決定的な弱点があった。
-> CONTEXT: Map210/events/18/pages/0/6/Dialogue
-Although we managed to achieve victory,
-the Manifestor had one crucial weakness.
-> END STRING
-
-> BEGIN STRING
-それは、エルジェ様の精神を
-著しく消耗させてしまったこと。
-> CONTEXT: Map210/events/18/pages/0/8/Dialogue
-This has had a major impact on Hergé's mental health.
-> END STRING
-
-> BEGIN STRING
-顕在機の起動には、エルジェ様による
-膨大な精神エネルギーが必要とされていたため
-それが体に大きく負荷を掛けていたようだ。
-> CONTEXT: Map210/events/18/pages/0/10/Dialogue
-Activating the Manifestor required a huge amount 
-of spiritual energy from Hergé, 
-which placed a great strain on the body.
-> END STRING
-
-> BEGIN STRING
-奴らがまた侵攻を再開すれば
-今度こそ、この世界は壊滅だろう。
-我々は次なる戦いに備えなければならない。
-> CONTEXT: Map210/events/18/pages/0/13/Dialogue
-If they resume their invasion,
-this time the world will be completely destroyed.
-We must prepare for the next battle.
-> END STRING
-
-> BEGIN STRING
-エルジェ様の体に負荷を掛けない、
-新たな顕在機の開発が必要になってくる。
-> CONTEXT: Map210/events/18/pages/0/16/Dialogue
-It will be necessary to develop a new Manifestor 
-that does not put strain on Hergé's body.
-> END STRING
-
-> BEGIN STRING
-エルジェ様は最後の力を振り絞り、
-この基地に結界を張り巡らせた。
-> CONTEXT: Map210/events/18/pages/0/18/Dialogue
-Hergé mustered the last bit of strength 
-and created a barrier around this base.
-> END STRING
-
-> BEGIN STRING
-顕在機の次世代型が開発されるまでの
-時間稼ぎをして下さったのだ。
-> CONTEXT: Map210/events/18/pages/0/20/Dialogue
-It bought us some time until the 
-next generation of the device would be developed.
-> END STRING
-
-> BEGIN STRING
-この結界も、いつまで持つか。
-一刻も早く、淫魔からこの世界を守り抜くための
-秘密兵器を完成させなければならない。
-> CONTEXT: Map210/events/18/pages/0/22/Dialogue
-How long will this barrier last?
-We must complete a secret weapon 
-to protect this world from succubi as soon as possible.
-> END STRING
-
-> BEGIN STRING
-この基地はしばらくの間、
-そのためのラボとして活用する事となるだろう。
-> CONTEXT: Map210/events/18/pages/0/25/Dialogue
-This base will be used as a laboratory 
-for this purpose for some time.
-> END STRING
-
-> BEGIN STRING
-古代魔法について書かれている。
-今のご時世には必要なさそうだ。
-> CONTEXT: Map210/events/19/pages/0/1/Dialogue
-It's written about ancient magic.
-It doesn't seem necessary in this day and age.
-> END STRING
-
-> BEGIN STRING
-メイジサキュバス・ウィッチサキュバスと再戦しますか？
-> CONTEXT: Map210/events/20/pages/0/0/Dialogue
-Would you like to fight Mage Succubus/Witch Succubus again?
-> END STRING
-
-> BEGIN STRING
-"ガーディアン"
-> CONTEXT: Map210/events/22/pages/0/0/InlineScript/1:22
-> CONTEXT: Map063/events/5/pages/0/1/InlineScript/1:22
-> CONTEXT: Map063/events/5/pages/0/43/InlineScript/1:22
-> CONTEXT: Map063/events/6/pages/1/0/InlineScript/1:22
-"Guardian"
+However, once you eat a meal, you cannot eat another meal until
+the effect of the meal wear off.
+You see, you should move as much as you eat.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-その節は大変失礼いたしました。
-……まぁ、それはそれとして。
-> CONTEXT: Map210/events/22/pages/0/1/Dialogue
+･･･ここじゃこうしてカウンターにいる兄ちゃんが\\_
+作ってくれるけど、
+ダンジョンで食事できたらなぁ･･･。
+> CONTEXT: Map210/events/11/pages/0/15/Dialogue
+> CONTEXT: Map035/events/11/pages/0/15/Dialogue
 \\name[\\v[2]]\\_
-I'm very sorry about that.
-...Well, that's beside the point.
+...I wish I could get the food that the guy cooks here,
+and eat that in the dungeon...
+> END STRING
+
+> BEGIN STRING
+"鎧の男"
+> CONTEXT: Map210/events/12/pages/0/0/InlineScript/1:22
+"Armored man"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-この私と再戦をご所望でしょうか？
-> CONTEXT: Map210/events/22/pages/0/4/Dialogue
+夢魔との相対において、より多くの経験値を得る方法がある。
+それは「\\c[12]自分より強い夢魔と戦うこと\\c[0]」、\\_
+「\\c[12]複数の夢魔と同時に戦うこと\\c[0]」だ。
+> CONTEXT: Map210/events/12/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
-Would you like to have a rematch with me?
+These are ways to gain additional experience in combat: 
+"\\c[12] Fighting succubi stronger than yourself\\c[0]" and
+"\\c[12] Fighting multiple succubi at the same time\\c[0]."
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+楽ではないものの、それによって得られる経験は大きい。
+余裕がある時は狙ってみることだな。
+> CONTEXT: Map210/events/12/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+Although it is not easy, the experience gained is great.
+Give it a shot when you can.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+また、夢魔と接触した時、
+稀にレアな敵グループが現れることがある。
+> CONTEXT: Map210/events/12/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+Also, when you come into contact with a succubus,
+Rare enemy groups may occasionally appear.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+これも一筋縄ではいかない敵グループだが、
+経験値量を更に多く得ることができるぞ。
+> CONTEXT: Map210/events/12/pages/0/11/Dialogue
+\\name[\\v[2]]\\_
+These are difficult enemy groups,
+but you can get even more experience points.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ま、勝てないと経験値にならないんだがな。
+ちゃんと逃げることも重要だぞ。
+> CONTEXT: Map210/events/12/pages/0/14/Dialogue
+\\name[\\v[2]]\\_
+Well, if you don't win, you won't get any experience points.
+It's also important to escape when necessary.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+戦闘中に夢魔と交代させる方法は分かる？
+教えてあげよっか？
+> CONTEXT: Map210/events/13/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Do you know how to switch places with a succubus during battle?
+Shall I tell you?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢魔の交代は、夢魔側でしか行えないの。
+\\c[12]夢魔の行動選択で、Changeから\\_
+交代したい夢魔を選べば交代できる\\c[0]わ。
+> CONTEXT: Map210/events/13/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+Changing a succubus can only be done by a succubus.
+\\c[12]You can change the succubus by selecting the succubus
+you want to change place with from "Change".\\c[0]
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢魔の交代は他のスキルとかと同様、夢魔の番にならない\\_
+とできないし、\\n行動不能とかになっちゃってると交代\\_
+できないから気をつけてね。
+> CONTEXT: Map210/events/13/pages/0/10/Dialogue
+\\name[\\v[2]]\\_
+Just like other skills, you can't replace a succubus until it's the
+succubus' turn, and you can't replace her if she's incapacitated,
+so be careful.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢魔はＶＰが無くなって失神してると、経験値が一切貰え\\_
+ないから、
+危なくなった時に経験値が欲しいなら交代するのも手よ！
+> CONTEXT: Map210/events/13/pages/0/14/Dialogue
+\\name[\\v[2]]\\_
+If a succubus loses VP and faints, she won't receive any
+experience points, so if you want experience points,
+when she's in danger, you can replace her!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ならば良し！
+> CONTEXT: Map210/events/13/pages/0/20/Dialogue
+\\name[\\v[2]]\\_
+Alright good!
 > END STRING

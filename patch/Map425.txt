@@ -1,17 +1,5 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-bgm003
-> CONTEXT: Map425/bgm/name/ < UNTRANSLATED
-> CONTEXT: Map424/bgm/name/ < UNTRANSLATED
-> CONTEXT: Map414/bgm/name/ < UNTRANSLATED
-> CONTEXT: Map022/bgm/name/ < UNTRANSLATED
-> CONTEXT: Map021/bgm/name/ < UNTRANSLATED
-> CONTEXT: Map012/bgm/name/ < UNTRANSLATED
-> CONTEXT: Map015/bgm/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
 \\name[\\v[2]]\\_
 ･･･くすくすくす、\\|
 ふふふ、そうだよね、\\n[101]。
@@ -47,17 +35,8 @@ When you were taken in and spending time with your master,
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-私なんかよりも魅力的なあの人を
-ずっとすぐ近くで見てきたせいで・・・
-> CONTEXT: Map425/events/3/pages/0/24/Dialogue < UNTRANSLATED
-> CONTEXT: Map425/events/3/pages/0/30/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
 私なんかよりもえっちな身体を見続けてたせいで、
-> CONTEXT: Map425/events/3/pages/0/35/Dialogue
+> CONTEXT: Map425/events/3/pages/0/23/Dialogue
 \\name[\\v[2]]\\_
 You were gazing at her like her body was sexier than mine,
 > END STRING
@@ -65,7 +44,7 @@ You were gazing at her like her body was sexier than mine,
 > BEGIN STRING
 \\name[\\v[2]]\\_
 いやらしい妄想に取り憑かれて･･･\\H
-> CONTEXT: Map425/events/3/pages/0/37/Dialogue
+> CONTEXT: Map425/events/3/pages/0/25/Dialogue
 \\name[\\v[2]]\\_
 Obsessed with naughty fantasies...\\H
 > END STRING
@@ -73,7 +52,7 @@ Obsessed with naughty fantasies...\\H
 > BEGIN STRING
 \\name[\\v[2]]\\_
 くすくすくすくす･･･\\H
-> CONTEXT: Map425/events/3/pages/0/43/Dialogue
+> CONTEXT: Map425/events/3/pages/0/27/Dialogue
 \\name[\\v[2]]\\_
 Ksksksks...\\H
 > END STRING
@@ -83,7 +62,7 @@ Ksksksks...\\H
 でも\\n[101]はガマンしちゃった。
 無かったことにしちゃった。
 「完全に忘れさせちゃった」。
-> CONTEXT: Map425/events/3/pages/0/45/Dialogue
+> CONTEXT: Map425/events/3/pages/0/29/Dialogue
 \\name[\\v[2]]\\_
 But \\n[101] bore with it.
 Pretended like nothing happened.
@@ -92,17 +71,8 @@ Pretended like nothing happened.
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-あんな素敵なことを、
-ほんとうはお師匠様に触れてみたいってことを･･･。
-> CONTEXT: Map425/events/3/pages/0/50/Dialogue < UNTRANSLATED
-> CONTEXT: Map425/events/3/pages/0/56/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
 あんな素敵なことを、お師匠様としたいことを･･･。
-> CONTEXT: Map425/events/3/pages/0/61/Dialogue
+> CONTEXT: Map425/events/3/pages/0/33/Dialogue
 \\name[\\v[2]]\\_
 If only you could do such lovely things with your master...
 > END STRING
@@ -110,7 +80,7 @@ If only you could do such lovely things with your master...
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ、それを思い出しちゃったんだものね。
-> CONTEXT: Map425/events/3/pages/0/67/Dialogue
+> CONTEXT: Map425/events/3/pages/0/35/Dialogue
 \\name[\\v[2]]\\_
 Hehe, you remember?
 > END STRING
@@ -118,7 +88,7 @@ Hehe, you remember?
 > BEGIN STRING
 \\name[\\v[2]]\\_
 くすくす･･･。
-> CONTEXT: Map425/events/3/pages/0/69/Dialogue
+> CONTEXT: Map425/events/3/pages/0/37/Dialogue
 \\name[\\v[2]]\\_
 Ksks...
 > END STRING
@@ -127,7 +97,7 @@ Ksks...
 \\name[\\v[2]]\\_
 でもそれもあなたの現の一面。
 このお師匠様もあなたの鏡。私もあなたの鏡･･･。
-> CONTEXT: Map425/events/3/pages/0/71/Dialogue
+> CONTEXT: Map425/events/3/pages/0/39/Dialogue
 \\name[\\v[2]]\\_
 But that's one side of your reality.
 This master is also your mirror. I'm your mirror too...
@@ -136,8 +106,8 @@ This master is also your mirror. I'm your mirror too...
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ねぇ、\\n[101]。
-> CONTEXT: Map425/events/3/pages/0/76/Dialogue
-> CONTEXT: Map425/events/3/pages/0/85/Dialogue
+> CONTEXT: Map425/events/3/pages/0/44/Dialogue
+> CONTEXT: Map425/events/3/pages/0/53/Dialogue
 \\name[\\v[2]]\\_
 Hey, \\n[101].
 > END STRING
@@ -145,7 +115,7 @@ Hey, \\n[101].
 > BEGIN STRING
 \\name[\\v[2]]\\_
 私のことも、思い出してくれた？
-> CONTEXT: Map425/events/3/pages/0/80/Dialogue
+> CONTEXT: Map425/events/3/pages/0/48/Dialogue
 \\name[\\v[2]]\\_
 Did you remember me too?
 > END STRING
@@ -153,7 +123,7 @@ Did you remember me too?
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今なら私のことも･･･\\|ちゃんと受け入れてくれるよね･･･？\\H
-> CONTEXT: Map425/events/3/pages/0/87/Dialogue
+> CONTEXT: Map425/events/3/pages/0/55/Dialogue
 \\name[\\v[2]]\\_
 Now me...\\|You'll accept me properly...? \\H
 > END STRING
@@ -161,7 +131,7 @@ Now me...\\|You'll accept me properly...? \\H
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ･･･\\H
-> CONTEXT: Map425/events/3/pages/0/118/Dialogue
+> CONTEXT: Map425/events/3/pages/0/79/Dialogue
 \\name[\\v[2]]\\_
 Hehe...\\H
 > END STRING
@@ -170,7 +140,7 @@ Hehe...\\H
 \\name[\\v[2]]\\_
 いつの間にか、すごく魅力的になったのね。
 \\n[101]･･･\\H
-> CONTEXT: Map425/events/3/pages/0/120/Dialogue
+> CONTEXT: Map425/events/3/pages/0/81/Dialogue
 \\name[\\v[2]]\\_
 You've become more charming than I realized.
 \\n[101]...\\H
@@ -179,7 +149,7 @@ You've become more charming than I realized.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今のあなたなら･･･。
-> CONTEXT: Map425/events/3/pages/0/123/Dialogue
+> CONTEXT: Map425/events/3/pages/0/84/Dialogue
 \\name[\\v[2]]\\_
 Now you...
 > END STRING
@@ -188,7 +158,7 @@ Now you...
 \\name[\\v[2]]\\_
 「夢」を、「夢魔」を、「私たち」を、
 受け入れることができるあなたなら、きっと･･･。
-> CONTEXT: Map425/events/3/pages/0/125/Dialogue
+> CONTEXT: Map425/events/3/pages/0/86/Dialogue
 \\name[\\v[2]]\\_
 "Dreams", "succubus", "us",
 If you can accept it all, I'm sure...
@@ -197,7 +167,7 @@ If you can accept it all, I'm sure...
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ、\\n[101]。
-> CONTEXT: Map425/events/3/pages/0/128/Dialogue
+> CONTEXT: Map425/events/3/pages/0/89/Dialogue
 \\name[\\v[2]]\\_
 Hehe, \\n[101].
 > END STRING
@@ -205,7 +175,7 @@ Hehe, \\n[101].
 > BEGIN STRING
 \\name[\\v[2]]\\_
 私を、私たちを、思い出してくれて。
-> CONTEXT: Map425/events/3/pages/0/130/Dialogue
+> CONTEXT: Map425/events/3/pages/0/91/Dialogue
 \\name[\\v[2]]\\_
 Remember me, remember us.
 > END STRING
@@ -213,7 +183,7 @@ Remember me, remember us.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 本当に･･････、\\|ありがとう･･････。
-> CONTEXT: Map425/events/3/pages/0/132/Dialogue
+> CONTEXT: Map425/events/3/pages/0/93/Dialogue
 \\name[\\v[2]]\\_
 Really...\\|Thank you...
 > END STRING
@@ -221,168 +191,7 @@ Really...\\|Thank you...
 > BEGIN STRING
 \\name[ラーミルキャスト]\\_
 ･･････\\n[101]･･･。
-> CONTEXT: Map425/events/3/pages/0/157/Dialogue
+> CONTEXT: Map425/events/3/pages/0/118/Dialogue
 \\name[Ramil-cast]\\_
 ...\\n[101]...
-> END STRING
-
-> BEGIN STRING
-素質：【交わした約束】が習得できるようになりました。
-> CONTEXT: Map425/events/3/pages/0/176/Dialogue
-Talent: 【The Promise】 can now be acquired.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-･･････\\|くすっ\\H
-> CONTEXT: Map425/events/4/pages/0/1/Dialogue
-\\name[\\v[2]]\\_
-･･････\\|Ksh\\H
-> END STRING
-
-> BEGIN STRING
-キャストと契約しますか？
-> CONTEXT: Map425/events/4/pages/0/3/Dialogue
-Make a contract with Cast?
-> END STRING
-
-> BEGIN STRING
-キャストと契約を交わした！
-> CONTEXT: Map425/events/4/pages/0/13/Dialogue
-Signed a contract with Cast!
-> END STRING
-
-> BEGIN STRING
-キャストは妊娠しているようだ･･･。
-> CONTEXT: Map425/events/4/pages/0/26/Dialogue
-It seems that Cast is pregnant...
-> END STRING
-
-> BEGIN STRING
-キャストをホームに迎え入れた！
-> CONTEXT: Map425/events/4/pages/0/41/Dialogue
-> CONTEXT: Map425/events/4/pages/0/52/Dialogue
-Welcomed Cast to Home!
-> END STRING
-
-> BEGIN STRING
-キャストがパーティに加わった！
-> CONTEXT: Map425/events/4/pages/0/48/Dialogue
-Cast has joined the party!
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-･･･あら、\\n[101]。暫くぶりね。
-また会えて嬉しいわ。
-> CONTEXT: Map425/events/5/pages/0/1/Dialogue
-\\name[\\v[2]]\\_
-...Oh, \\n[101]. It's been a while.
-I'm glad to see you again.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-なんでこんな場所にいるのか、ですって？\\|
-ふふっ･･･\\|さぁ、なんでかしら？\\H
-> CONTEXT: Map425/events/5/pages/0/4/Dialogue
-\\name[\\v[2]]\\_
-Why am I in a place like this? \\|
-Hehe...\\|I wonder why? \\H
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-そんなことより、\\n[101]。
-この広い夢世界を廻るのは大変でしょう？
-私の力が必要なんじゃないかしら？
-> CONTEXT: Map425/events/5/pages/0/7/Dialogue
-\\name[\\v[2]]\\_
-Anyway, \\n[101].
-It must be hard to travel around this vast dream world, right?
-Maybe you need my help?
-> END STRING
-
-> BEGIN STRING
-ヴェルミィーナと契約しますか？
-> CONTEXT: Map425/events/5/pages/0/11/Dialogue
-Would you like to sign a contract with Vermina?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-あら、契約がいっぱいなのね。
-ふふっ･･･頑張ってるのね\\H
-> CONTEXT: Map425/events/5/pages/0/16/Dialogue
-\\name[\\v[2]]\\_
-Oh, you have a lot of contracts.
-Hehe... you're working hard\\H
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふふっ･･･宜しくね、\\n[101]。
-大丈夫よ、まだまだ夢に溺れさせてあげるわ\\H
-> CONTEXT: Map425/events/5/pages/0/22/Dialogue
-\\name[\\v[2]]\\_
-Hehe... Nice to meet you, \\n[101].
-Don't worry, 
-I'll let you drown in your dreams for a while longer\\H
-> END STRING
-
-> BEGIN STRING
-ヴェルミィーナと契約を交わした！
-> CONTEXT: Map425/events/5/pages/0/26/Dialogue
-Signed a contract with Vermina!
-> END STRING
-
-> BEGIN STRING
-ヴェルミィーナは妊娠しているようだ･･･。
-> CONTEXT: Map425/events/5/pages/0/39/Dialogue
-Vermina appears to be pregnant...
-> END STRING
-
-> BEGIN STRING
-ヴェルミィーナをホームに迎え入れた！
-> CONTEXT: Map425/events/5/pages/0/45/Dialogue
-> CONTEXT: Map425/events/5/pages/0/56/Dialogue
-Welcomed Vermina to Home!
-> END STRING
-
-> BEGIN STRING
-ヴェルミィーナがパーティに加わった！
-> CONTEXT: Map425/events/5/pages/0/52/Dialogue
-Vermina has joined the party!
-> END STRING
-
-> BEGIN STRING
-素質：【幼き日の思い出】が習得できるようになりました。
-> CONTEXT: Map425/events/5/pages/0/66/Dialogue
-Talent: 【Childhood Memories】 can now be acquired.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふふっ、それならそれでもいいけれど。
-気が変わったら、また来て頂戴\\H
-> CONTEXT: Map425/events/5/pages/0/73/Dialogue
-\\name[\\v[2]]\\_
-Hehe, that's fine.
-If you change your mind, come back again.\\H
-> END STRING
-
-> BEGIN STRING
-何か落ちている……
-> CONTEXT: Map425/events/6/pages/0/0/Dialogue
-Something has fallen...
-> END STRING
-
-> BEGIN STRING
-金色の記憶を呼び覚ましている間は
-戦闘終了時や、歩行移動時の
-EP/VPの自動回復量が増加します。
-> CONTEXT: Map425/events/6/pages/0/10/Dialogue
-While Golden Memory is activated, 
-your EP/VP automatic recovery rate increases 
-when you finish combat or walk.
 > END STRING

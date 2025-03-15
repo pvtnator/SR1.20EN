@@ -1,25 +1,40 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-"盗賊のゴブリン"
-> CONTEXT: Map369/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map150/events/81/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map150/events/81/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-
+"鋳造師"
+> CONTEXT: Map369/events/2/pages/0/0/InlineScript/1:22
+"Castler"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ここにで売ってるナイフと杖は
-なんだか不思議な力を感じるよね！
-> CONTEXT: Map369/events/4/pages/0/1/Dialogue < UNTRANSLATED
-
+ここでは金属加工をしてるよ。
+何か作って欲しいものがあったら売ってあげる！
+> CONTEXT: Map369/events/2/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+We do metal work here.
+If you want me to make something, I'll sell it to you!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-持ってるとトクベツな力に
-目覚めちゃったりして？！
-そう、このあたいみたいにね！
-> CONTEXT: Map369/events/4/pages/0/4/Dialogue < UNTRANSLATED
+また来てねー。
+> CONTEXT: Map369/events/2/pages/0/10/Dialogue
+\\name[\\v[2]]\\_
+Please come again.
+> END STRING
 
+> BEGIN STRING
+"ルーン売りの魔女"
+> CONTEXT: Map369/events/3/pages/0/0/InlineScript/1:22
+"Rune selling witch"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こんにちは、出張ルーン販売だよ。
+何かご入用かい？
+> CONTEXT: Map369/events/3/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hello, I'm a traveling rune merchant.
+Do you need anything?
 > END STRING

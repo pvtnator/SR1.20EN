@@ -4,6 +4,8 @@
 > CONTEXT: Map204/events/1/pages/0/2/Dialogue
 > CONTEXT: Map204/events/1/pages/0/16/Dialogue
 > CONTEXT: Map204/events/2/pages/0/1/Dialogue
+> CONTEXT: Map031/events/1/pages/0/2/Dialogue
+> CONTEXT: Map031/events/1/pages/0/16/Dialogue
 The magic square has been activated...
 > END STRING
 
@@ -13,6 +15,10 @@ The magic square has been activated...
 > CONTEXT: Map204/events/1/pages/0/3/Choice/0
 > CONTEXT: Map204/events/1/pages/0/17/Choice/0
 > CONTEXT: Map204/events/1/pages/0/17/Choice/0
+> CONTEXT: Map031/events/1/pages/0/3/Choice/0
+> CONTEXT: Map031/events/1/pages/0/3/Choice/0
+> CONTEXT: Map031/events/1/pages/0/17/Choice/0
+> CONTEXT: Map031/events/1/pages/0/17/Choice/0
 Change port settings
 > END STRING
 
@@ -28,6 +34,7 @@ Change port settings
 > BEGIN STRING
 ポートの一番上に来る項目を変更できます。
 > CONTEXT: Map204/events/1/pages/0/31/Dialogue
+> CONTEXT: Map031/events/1/pages/0/31/Dialogue
 You can change the button at the top of the port menu.
 > END STRING
 
@@ -35,6 +42,8 @@ You can change the button at the top of the port menu.
 セーブを上にする
 > CONTEXT: Map204/events/1/pages/0/32/Choice/0
 > CONTEXT: Map204/events/1/pages/0/32/Choice/0
+> CONTEXT: Map031/events/1/pages/0/32/Choice/0
+> CONTEXT: Map031/events/1/pages/0/32/Choice/0
 Save on top
 > END STRING
 
@@ -42,6 +51,8 @@ Save on top
 テレポートを上にする
 > CONTEXT: Map204/events/1/pages/0/32/Choice/1
 > CONTEXT: Map204/events/1/pages/0/32/Choice/1
+> CONTEXT: Map031/events/1/pages/0/32/Choice/1
+> CONTEXT: Map031/events/1/pages/0/32/Choice/1
 Warp on top
 > END STRING
 
@@ -49,18 +60,22 @@ Warp on top
 変えない
 > CONTEXT: Map204/events/1/pages/0/32/Choice/2
 > CONTEXT: Map204/events/1/pages/0/32/Choice/2
+> CONTEXT: Map031/events/1/pages/0/32/Choice/2
+> CONTEXT: Map031/events/1/pages/0/32/Choice/2
 Don't change
 > END STRING
 
 > BEGIN STRING
 セーブを一番上にしました。
 > CONTEXT: Map204/events/1/pages/0/36/Dialogue
+> CONTEXT: Map031/events/1/pages/0/36/Dialogue
 Save is now on top
 > END STRING
 
 > BEGIN STRING
 テレポートを一番上にしました。
 > CONTEXT: Map204/events/1/pages/0/42/Dialogue
+> CONTEXT: Map031/events/1/pages/0/42/Dialogue
 Warp is now on top
 > END STRING
 
@@ -136,11 +151,20 @@ My name is Ange, the author. Pleased to meet you.
 > END STRING
 
 > BEGIN STRING
+"アンジュ"
+> CONTEXT: Map158/events/23/pages/0/25/InlineScript/1:22
+> CONTEXT: Map204/events/3/pages/0/26/InlineScript/1:22
+> CONTEXT: Map204/events/3/pages/0/61/InlineScript/1:22
+> CONTEXT: Map158/events/23/pages/0/111/InlineScript/1:22
+"Ange"
+> END STRING
+
+> BEGIN STRING
 \\name[\\v[2]]\\_
 【胆力】や【柔軟】のような状態異常の耐性を付ける素質は、
 それだけで3/4まで付与確率が減らせます。
-> CONTEXT: Map158/events/23/pages/0/96/Dialogue
 > CONTEXT: Map204/events/3/pages/0/29/Dialogue
+> CONTEXT: Map158/events/23/pages/0/78/Dialogue
 \\name[\\v[2]]\\_
 Qualities such as [Brave] and [Flexible] can reduce 
 the probability of status ailments by 3/4.
@@ -162,8 +186,8 @@ Alternatively, you should be fine if you have high spirit.
 \\name[\\v[2]]\\_
 装備品には「耐性」と書かれたものとは別に
 「無効」と書かれているものがあるのはご存じです？
-> CONTEXT: Map158/events/23/pages/0/106/Dialogue
 > CONTEXT: Map204/events/3/pages/0/39/Dialogue
+> CONTEXT: Map158/events/23/pages/0/88/Dialogue
 \\name[\\v[2]]\\_
 Apart from equipment that has "resistant" written on it,
 did you know that there's a label called "immune"?
@@ -174,8 +198,8 @@ did you know that there's a label called "immune"?
 「耐性」はスキルの効果などで下げられてしまうことで
 付与確率が上がることがありますが、\\n「無効」と書かれた\\_
 ものはそれ関係なく効きませんよ。私の敵ですね。
-> CONTEXT: Map158/events/23/pages/0/109/Dialogue
 > CONTEXT: Map204/events/3/pages/0/42/Dialogue
+> CONTEXT: Map158/events/23/pages/0/91/Dialogue
 \\name[\\v[2]]\\_
 "Resistant" can be overcome by various effects,
 but "immune" will prevent effects regardless.
@@ -187,8 +211,8 @@ It's my enemy.
 状態異常は意外と、所謂「ボス」の夢魔にも効くんですよ。
 特殊な耐性を持っている場合はチェックで調べることが\\_
 できるんです。
-> CONTEXT: Map158/events/23/pages/0/116/Dialogue
 > CONTEXT: Map204/events/3/pages/0/49/Dialogue
+> CONTEXT: Map158/events/23/pages/0/98/Dialogue
 \\name[\\v[2]]\\_
 Surprisingly, status ailments are effective even against 
 "boss" succubi. You can "check" if they have some resistances.
@@ -199,8 +223,8 @@ Surprisingly, status ailments are effective even against
 しかしああいうのは場所の力によるその場限りの耐性だった\\_
 りするので、\\n契約した後は素質通りの耐性しか\\_
 持ちあわせてないんですけどね。
-> CONTEXT: Map158/events/23/pages/0/120/Dialogue
 > CONTEXT: Map204/events/3/pages/0/53/Dialogue
+> CONTEXT: Map158/events/23/pages/0/102/Dialogue
 \\name[\\v[2]]\\_
 However, some resistances are due to the power of the location, 
 so after signing the contract, 
@@ -217,10 +241,10 @@ Do you want something from me?
 
 > BEGIN STRING
 状態異常の解説を訊く
-> CONTEXT: Map158/events/23/pages/0/132/Choice/0
-> CONTEXT: Map158/events/23/pages/0/132/Choice/0
 > CONTEXT: Map204/events/3/pages/0/64/Choice/0
 > CONTEXT: Map204/events/3/pages/0/64/Choice/0
+> CONTEXT: Map158/events/23/pages/0/114/Choice/0
+> CONTEXT: Map158/events/23/pages/0/114/Choice/0
 Explain status ailments
 > END STRING
 
@@ -228,8 +252,8 @@ Explain status ailments
 \\name[\\v[2]]\\_
 私に直々に訊きますか。眠たくなっても知りませんよ？
 私が。
-> CONTEXT: Map158/events/23/pages/0/134/Dialogue
 > CONTEXT: Map204/events/3/pages/0/66/Dialogue
+> CONTEXT: Map158/events/23/pages/0/116/Dialogue
 \\name[\\v[2]]\\_
 You want to ask me directly? 
 Even without getting sleepy?
@@ -237,11 +261,20 @@ I will
 > END STRING
 
 > BEGIN STRING
+→次へ
+> CONTEXT: Map204/events/3/pages/0/69/Choice/3
+> CONTEXT: Map204/events/3/pages/0/69/Choice/3
+> CONTEXT: Map158/events/23/pages/0/119/Choice/3
+> CONTEXT: Map158/events/23/pages/0/119/Choice/3
+→Next
+> END STRING
+
+> BEGIN STRING
 \\name[\\v[2]]\\_
 「恍惚」は見とれてしまい、動けなくなってしまう\\_
 状態異常ですね。
-> CONTEXT: Map158/events/23/pages/0/139/Dialogue
 > CONTEXT: Map204/events/3/pages/0/71/Dialogue
+> CONTEXT: Map158/events/23/pages/0/121/Dialogue
 \\name[\\v[2]]\\_
 "Ecstasy" is an abnormal state in which you become so 
 fascinated by what you see that you become unable to move.
@@ -252,8 +285,8 @@ fascinated by what you see that you become unable to move.
 その効果は強力で、恍惚すると本当に何もできなくなります。
 レジストに対しても無力で、抵抗はできるにはできるのですが
 かなり厳しいものとなります。
-> CONTEXT: Map158/events/23/pages/0/142/Dialogue
 > CONTEXT: Map204/events/3/pages/0/74/Dialogue
+> CONTEXT: Map158/events/23/pages/0/124/Dialogue
 \\name[\\v[2]]\\_
 The effect is so powerful that when you are in ecstasy, 
 you are truly unable to do anything.
@@ -264,8 +297,8 @@ It is extremely difficult to resist in this condition.
 \\name[\\v[2]]\\_
 ただ、新たな快感を少し受けるだけで簡単に解けて\\_
 しまいます。
-> CONTEXT: Map158/events/23/pages/0/146/Dialogue
 > CONTEXT: Map204/events/3/pages/0/78/Dialogue
+> CONTEXT: Map158/events/23/pages/0/128/Dialogue
 \\name[\\v[2]]\\_
 However, it can be easily cured 
 just by receiving a bit of pleasure.
@@ -276,8 +309,8 @@ just by receiving a bit of pleasure.
 恍惚は夢魔に大きな胸を押し付けられたりすると\\_
 なりやすいみたいです。
 サキュバスさんのような方々が得意なのではないでしょうか。
-> CONTEXT: Map158/events/23/pages/0/149/Dialogue
 > CONTEXT: Map204/events/3/pages/0/81/Dialogue
+> CONTEXT: Map158/events/23/pages/0/131/Dialogue
 \\name[\\v[2]]\\_
 Ecstasy is more likely to occur when 
 big breasts are pressed against you.
@@ -288,8 +321,8 @@ Succubi are good at it.
 \\name[\\v[2]]\\_
 確かに、あの胸は寝心地よさそうですものね。
 恍惚しちゃうのも納得です。
-> CONTEXT: Map158/events/23/pages/0/153/Dialogue
 > CONTEXT: Map204/events/3/pages/0/85/Dialogue
+> CONTEXT: Map158/events/23/pages/0/135/Dialogue
 \\name[\\v[2]]\\_
 Such breasts certainly look comfortable to sleep on.
 It's no wonder if that makes you ecstatic.
@@ -299,8 +332,8 @@ It's no wonder if that makes you ecstatic.
 \\name[\\v[2]]\\_
 複数相手がいる時に攻撃の手を減らすためや、
 こちらの強化や回復などするための時間稼ぎには有効です。
-> CONTEXT: Map158/events/23/pages/0/156/Dialogue
 > CONTEXT: Map204/events/3/pages/0/88/Dialogue
+> CONTEXT: Map158/events/23/pages/0/138/Dialogue
 \\name[\\v[2]]\\_
 This can help buy some time to strengthen and recover by reducing 
 the amount of attacks you take when fighting multiple opponents.
@@ -311,8 +344,8 @@ the amount of attacks you take when fighting multiple opponents.
 「欲情」は攻撃を受けた時に追撃されやすくなる\\_
 状態異常です。
 効果は見えにくいのですが、シンプルで分かりやすいですね。
-> CONTEXT: Map158/events/23/pages/0/161/Dialogue
 > CONTEXT: Map204/events/3/pages/0/93/Dialogue
+> CONTEXT: Map158/events/23/pages/0/143/Dialogue
 \\name[\\v[2]]\\_
 "Lust" is a status abnormality that makes you 
 more likely to receive follow-up attacks. The effect is 
@@ -323,8 +356,8 @@ hard to see, but it's simple and easy to understand.
 \\name[\\v[2]]\\_
 追撃で与える快感は１発目よりも少し小さいのですが、
 それでも連続攻撃になるのは強力です。
-> CONTEXT: Map158/events/23/pages/0/165/Dialogue
 > CONTEXT: Map204/events/3/pages/0/97/Dialogue
+> CONTEXT: Map158/events/23/pages/0/147/Dialogue
 \\name[\\v[2]]\\_
 The pleasure given by the follow-up attack is 
 a little less than the first hit, 
@@ -336,8 +369,8 @@ but it is still powerful as a continuous attack.
 追撃を利用することによって強力になるものもあります。
 攻撃スキルに追加効果があるようなものは、\\_
 追撃で更にチャンスができますね。
-> CONTEXT: Map158/events/23/pages/0/168/Dialogue
 > CONTEXT: Map204/events/3/pages/0/100/Dialogue
+> CONTEXT: Map158/events/23/pages/0/150/Dialogue
 \\name[\\v[2]]\\_
 Depending on the circumstances, it can be very strong.
 If your attack skills have additional effects, 
@@ -349,8 +382,8 @@ you'll have more chances to apply them with follow-up attacks.
 欲情はお顔にアソコを擦り付けられた時にたまに\\_
 なるようです。
 こういうのは好色な夢魔の方々が得意みたいですね。
-> CONTEXT: Map158/events/23/pages/0/172/Dialogue
 > CONTEXT: Map204/events/3/pages/0/104/Dialogue
+> CONTEXT: Map158/events/23/pages/0/154/Dialogue
 \\name[\\v[2]]\\_
 Lust seems to come from time to time from
 having vagina against your face.
@@ -360,8 +393,8 @@ Lewd succubi are good at this kind of thing.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 私は疲れるのであんまりですが。
-> CONTEXT: Map158/events/23/pages/0/176/Dialogue
 > CONTEXT: Map204/events/3/pages/0/108/Dialogue
+> CONTEXT: Map158/events/23/pages/0/158/Dialogue
 \\name[\\v[2]]\\_
 I don't like it too much because I get tired.
 > END STRING
@@ -371,8 +404,8 @@ I don't like it too much because I get tired.
 そういえば、力を得る代わりにずっと欲情状態になる\\_
 装備品があるそうです。
 付ける方は相当物好きと見えますね。
-> CONTEXT: Map158/events/23/pages/0/178/Dialogue
 > CONTEXT: Map204/events/3/pages/0/110/Dialogue
+> CONTEXT: Map158/events/23/pages/0/160/Dialogue
 \\name[\\v[2]]\\_
 By the way, there is equipment that makes you 
 stay in a state of lust instead of gaining power.
@@ -384,8 +417,8 @@ You would really have to be into it to wear that.
 するようになる状態異常です。
 魔法や補助スキルなどは一切使えず、また夢魔の契約者の
 指示を受けることもできません。
-> CONTEXT: Map158/events/23/pages/0/184/Dialogue
 > CONTEXT: Map204/events/3/pages/0/116/Dialogue
+> CONTEXT: Map158/events/23/pages/0/166/Dialogue
 \\name[\\v[2]]\\_
 "Berserk" is a status abnormality that forces you to act 
 aggressively. You can't use any magic or support skills, 
@@ -398,6 +431,7 @@ and you cannot receive instructions from the contractor.
 ただ、新たな快感を少しでも受けると、たまに解けてしまう\\_
 ようです。
 > CONTEXT: Map204/events/3/pages/0/120/Dialogue
+> CONTEXT: Map158/events/23/pages/0/170/Dialogue
 \\name[\\v[2]]\\_
 It can greatly restrict the opponent's actions.
 However, receiving even a small amount of pleasure
@@ -409,8 +443,8 @@ in this state can cure the ailment.
 「精力」が影響するようになります。
 暴走状態の夢魔が与える快感は普段より大きくなっている\\_
 ので、\\n押し切られるのに注意ですね。
-> CONTEXT: Map158/events/23/pages/0/191/Dialogue
 > CONTEXT: Map204/events/3/pages/0/124/Dialogue
+> CONTEXT: Map158/events/23/pages/0/174/Dialogue
 \\name[\\v[2]]\\_
 While berserked, attacks are affected by energy 
 instead of dexterity. It also increases given pleasure, 
@@ -422,8 +456,8 @@ so be careful not to let it overwhelm you.
 夢魔には有効です。\\n暴走しても相手を押し切るほどの\\_
 能力が無いことが多いですからね。
 私も相当困ります。
-> CONTEXT: Map158/events/23/pages/0/195/Dialogue
 > CONTEXT: Map204/events/3/pages/0/128/Dialogue
+> CONTEXT: Map158/events/23/pages/0/178/Dialogue
 \\name[\\v[2]]\\_
 Since it prevents using magic, it is effective against succubi 
 who rely on it. Despite going berserk, they won't have the 
@@ -433,8 +467,8 @@ ability to overwhelm their opponents. It's difficult for me too.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 というか暴走って、治ったあとが怖いんですよ。
-> CONTEXT: Map158/events/23/pages/0/199/Dialogue
 > CONTEXT: Map204/events/3/pages/0/132/Dialogue
+> CONTEXT: Map158/events/23/pages/0/182/Dialogue
 \\name[\\v[2]]\\_
 Or rather, I'm scared of what would come after,
 if I went berserk and then recover.
@@ -443,8 +477,8 @@ if I went berserk and then recover.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 恥ずかしくなりますから。
-> CONTEXT: Map158/events/23/pages/0/201/Dialogue
 > CONTEXT: Map204/events/3/pages/0/134/Dialogue
+> CONTEXT: Map158/events/23/pages/0/184/Dialogue
 \\name[\\v[2]]\\_
 It would be embarrassing.
 > END STRING
@@ -453,8 +487,8 @@ It would be embarrassing.
 \\name[\\v[2]]\\_
 「虚脱」は身体を動かすのが億劫になってしまう\\_
 状態異常です。
-> CONTEXT: Map158/events/23/pages/0/207/Dialogue
 > CONTEXT: Map204/events/3/pages/0/140/Dialogue
+> CONTEXT: Map158/events/23/pages/0/190/Dialogue
 \\name[\\v[2]]\\_
 "Lethargy" is an abnormal state in which a person becomes 
 unable to move his or her body.
@@ -465,8 +499,8 @@ unable to move his or her body.
 行動するために必要なＶＰが増えてしまいます。
 ＶＰが増えないのは動かないことだけです。
 実質的に毒のような効果を持ちますね。
-> CONTEXT: Map158/events/23/pages/0/210/Dialogue
 > CONTEXT: Map204/events/3/pages/0/143/Dialogue
+> CONTEXT: Map158/events/23/pages/0/193/Dialogue
 \\name[\\v[2]]\\_
 The VP required to take action will increase.
 The only action that won't consume VP is not moving.
@@ -478,8 +512,8 @@ It's a seriously harmful effect.
 絶頂させた後に復帰させにくくできますし、
 相手のＶＰがもうほとんど無い状態でしたら\\_
 もう動くことはできません。
-> CONTEXT: Map158/events/23/pages/0/214/Dialogue
 > CONTEXT: Map204/events/3/pages/0/147/Dialogue
+> CONTEXT: Map158/events/23/pages/0/197/Dialogue
 \\name[\\v[2]]\\_
 The noticable effect is small, but it makes it difficult 
 for the opponent to come back after climaxing, and if 
@@ -491,8 +525,8 @@ the opponent has almost no VP, they can't move anymore.
 しぶとい相手や忍耐力の高い相手に有効な状態異常です。
 ＶＰがあるうちは効果があまりあるように見えないのが弱点\\_
 ですが。
-> CONTEXT: Map158/events/23/pages/0/218/Dialogue
 > CONTEXT: Map204/events/3/pages/0/151/Dialogue
+> CONTEXT: Map158/events/23/pages/0/201/Dialogue
 \\name[\\v[2]]\\_
 This status is effective against stubborn or patient opponents.
 The weak point is that it doesn't help much while the opponent
@@ -502,8 +536,8 @@ still has plenty of VP.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 私は虚脱状態になるとそうですね。
-> CONTEXT: Map158/events/23/pages/0/225/Dialogue
 > CONTEXT: Map204/events/3/pages/0/155/Dialogue
+> CONTEXT: Map158/events/23/pages/0/205/Dialogue
 \\name[\\v[2]]\\_
 When it comes to lethargy, for me...
 > END STRING
@@ -511,8 +545,8 @@ When it comes to lethargy, for me...
 > BEGIN STRING
 \\name[\\v[2]]\\_
 もっとだらけます。
-> CONTEXT: Map158/events/23/pages/0/227/Dialogue
 > CONTEXT: Map204/events/3/pages/0/157/Dialogue
+> CONTEXT: Map158/events/23/pages/0/207/Dialogue
 \\name[\\v[2]]\\_
 I slack off more.
 > END STRING
@@ -521,8 +555,8 @@ I slack off more.
 \\name[\\v[2]]\\_
 「畏怖」は不安に駆り立てられ、たまに怯んでしまう\\_
 状態異常です。
-> CONTEXT: Map158/events/23/pages/0/231/Dialogue
 > CONTEXT: Map204/events/3/pages/0/161/Dialogue
+> CONTEXT: Map158/events/23/pages/0/211/Dialogue
 \\name[\\v[2]]\\_
 "Fear" is an abnormal state in which a person is 
 driven by anxiety and occasionally falters.
@@ -533,8 +567,8 @@ driven by anxiety and occasionally falters.
 怯んでしまうと、そのターンの間は動くことができません。
 恍惚に比べると確実性はないものの、快感を受けても
 解除されることは無く、長期的に効果が望めます。
-> CONTEXT: Map158/events/23/pages/0/234/Dialogue
 > CONTEXT: Map204/events/3/pages/0/164/Dialogue
+> CONTEXT: Map158/events/23/pages/0/214/Dialogue
 \\name[\\v[2]]\\_
 If you falter, you can't move that turn. Although it triggers less 
 than ecstasy, it is not canceled even after receiving pleasure, 
@@ -546,8 +580,8 @@ and can be expected to have long-term effects.
 恍惚同様、相手の手数を減らすのに有効ですが、
 畏怖中の相手には、ムードが高くても多く快感を与える\\_
 ことができません。
-> CONTEXT: Map158/events/23/pages/0/238/Dialogue
 > CONTEXT: Map204/events/3/pages/0/168/Dialogue
+> CONTEXT: Map158/events/23/pages/0/218/Dialogue
 \\name[\\v[2]]\\_
 Like ecstasy, it is effective in reducing the number of 
 opponents' attacks, but even if the mood is high, 
@@ -558,8 +592,8 @@ a person with fear will not receive that much pleasure.
 \\name[\\v[2]]\\_
 ちなみに、畏怖は私ことナイトメアの得意技です。
 十八番です。悪夢ですからね。
-> CONTEXT: Map158/events/23/pages/0/242/Dialogue
 > CONTEXT: Map204/events/3/pages/0/172/Dialogue
+> CONTEXT: Map158/events/23/pages/0/222/Dialogue
 \\name[\\v[2]]\\_
 By the way, fear is my specialty as a Nightmare.
 It's my forte. That's how nightmare's are, right?
@@ -570,8 +604,8 @@ It's my forte. That's how nightmare's are, right?
 私としても会った瞬間相手を怖がらせられるようになるのが\\_
 夢です。
 正気度を失いそうな。
-> CONTEXT: Map158/events/23/pages/0/245/Dialogue
 > CONTEXT: Map204/events/3/pages/0/175/Dialogue
+> CONTEXT: Map158/events/23/pages/0/225/Dialogue
 \\name[\\v[2]]\\_
 My dream is to be able to scare people the moment I meet them.
 See if they lose their minds.
@@ -580,8 +614,8 @@ See if they lose their minds.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 「麻痺」は体が痺れてしまって動きにくくなる状態異常です。
-> CONTEXT: Map158/events/23/pages/0/251/Dialogue
 > CONTEXT: Map204/events/3/pages/0/181/Dialogue
+> CONTEXT: Map158/events/23/pages/0/231/Dialogue
 \\name[\\v[2]]\\_
 "Paralysis" is an abnormal condition in which the 
 body becomes paralyzed and has difficulty moving.
@@ -592,8 +626,8 @@ body becomes paralyzed and has difficulty moving.
 効果の一つとして、ターン中での行動順番が\\_
 非常に遅くなります。
 行動順の調整に有効な状態異常ですね。
-> CONTEXT: Map158/events/23/pages/0/253/Dialogue
 > CONTEXT: Map204/events/3/pages/0/183/Dialogue
+> CONTEXT: Map158/events/23/pages/0/233/Dialogue
 \\name[\\v[2]]\\_
 One of the effects is that your turn order is delayed a lot. 
 It's a status ailment that is useful for 
@@ -605,8 +639,8 @@ adjusting the order of actions.
 更に、麻痺状態の時はレジストに弱くなります。
 単純に矢印の数が上下するのではなく、
 最小数か最大数が変動するタイプですが。
-> CONTEXT: Map158/events/23/pages/0/257/Dialogue
 > CONTEXT: Map204/events/3/pages/0/187/Dialogue
+> CONTEXT: Map158/events/23/pages/0/237/Dialogue
 \\name[\\v[2]]\\_
 Furthermore, when you are paralyzed, resist will be harder.
 The number of arrows does not simply go up and down, 
@@ -618,6 +652,7 @@ but the minimum and maximum amount changes.
 即時的に効果が現れるので、
 レジストを行う時やレジストに頼る相手に有効ですね。
 > CONTEXT: Map204/events/3/pages/0/191/Dialogue
+> CONTEXT: Map158/events/23/pages/0/241/Dialogue
 \\name[\\v[2]]\\_
 Since the effect is immediate, 
 it is effective when you want to resist, or against someone
@@ -629,8 +664,8 @@ who relies on resist.
 そういえば麻痺の魔法って使い方次第でマッサージに\\_
 なるって本当ですかね。
 心地よい痺れが身体をほぐすとかなんとか。
-> CONTEXT: Map158/events/23/pages/0/265/Dialogue
 > CONTEXT: Map204/events/3/pages/0/194/Dialogue
+> CONTEXT: Map158/events/23/pages/0/244/Dialogue
 \\name[\\v[2]]\\_
 Come to think of it, is it true that numbing magic can be used 
 as a massage depending on how you use it?
@@ -640,8 +675,8 @@ Somehow the pleasant numbness loosens up my body.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 一度試してみようと思うんですけど、どうです？
-> CONTEXT: Map158/events/23/pages/0/269/Dialogue
 > CONTEXT: Map204/events/3/pages/0/198/Dialogue
+> CONTEXT: Map158/events/23/pages/0/248/Dialogue
 \\name[\\v[2]]\\_
 I'm thinking of trying it once, what do you think?
 > END STRING
@@ -650,8 +685,8 @@ I'm thinking of trying it once, what do you think?
 \\name[\\v[2]]\\_
 「散漫」は頭が回らなくなってしまう状態異常です。
 大きい効果としては「魔法が使えなくなる」ことですね。
-> CONTEXT: Map158/events/23/pages/0/273/Dialogue
 > CONTEXT: Map204/events/3/pages/0/202/Dialogue
+> CONTEXT: Map158/events/23/pages/0/252/Dialogue
 "Distraction" is an abnormal state where you can't think clearly.
 The big effect is that you won't be able to use magic.
 > END STRING
@@ -661,8 +696,8 @@ The big effect is that you won't be able to use magic.
 「暴走」よりも範囲は狭いものの、
 散漫は相手を強化することや快感を受けると治ることもなく、
 使いやすさで勝ります。
-> CONTEXT: Map158/events/23/pages/0/276/Dialogue
 > CONTEXT: Map204/events/3/pages/0/205/Dialogue
+> CONTEXT: Map158/events/23/pages/0/255/Dialogue
 \\name[\\v[2]]\\_
 Although its scope is narrower than "Berserk", which can also 
 prevent magic, "Distraction" is easier, as it does not 
@@ -673,8 +708,8 @@ strengthen the opponent or heal when it receives pleasure.
 \\name[\\v[2]]\\_
 他にも、散漫状態の時はレジストが単純に難しくなります。
 レジストに頼る相手にも効果があり、有効な相手は多いです。
-> CONTEXT: Map158/events/23/pages/0/280/Dialogue
 > CONTEXT: Map204/events/3/pages/0/209/Dialogue
+> CONTEXT: Map158/events/23/pages/0/259/Dialogue
 \\name[\\v[2]]\\_
 Other than that, it's harder to resist when you're distracted.
 It is also effective for people who rely on resist, 
@@ -686,12 +721,25 @@ and there are many people for whom it is effective.
 散漫状態は私にとってはある意味身近ですね。
 起きてしばらくぼーっとしてる時なんかは、
 まさに散漫状態と言っていいでしょう。全然頭が回りません。
-> CONTEXT: Map158/events/23/pages/0/285/Dialogue
 > CONTEXT: Map204/events/3/pages/0/212/Dialogue
+> CONTEXT: Map158/events/23/pages/0/262/Dialogue
 \\name[\\v[2]]\\_
 In a sense, the state of distraction is familiar to me.
 When doze off and wake up, you can say that you are 
 in a distracted state. You don't function well at all.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+････････････ぐー･･･。\\!
+･･･はっ、寝てませんよ。大丈夫です、大丈夫です。
+で、何の話でしたっけ？
+> CONTEXT: Map204/events/3/pages/0/226/Dialogue
+> CONTEXT: Map158/events/23/pages/0/276/Dialogue
+\\name[\\v[2]]\\_
+････････････････････････････････････････････. \\!
+...Ha, I'm not sleeping. It's okay, it's okay.
+So, what were you talking about?
 > END STRING
 
 > BEGIN STRING
@@ -708,5 +756,6 @@ Is written on the book.
 > CONTEXT: Commonevents/14/65/InlineScript/2:21 < UNTRANSLATED
 > CONTEXT: Map204/events/4/pages/0/13/InlineScript/2:21 < UNTRANSLATED
 > CONTEXT: Map051/events/9/pages/0/10/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Map103/events/14/pages/0/10/InlineScript/2:21 < UNTRANSLATED
 
 > END STRING

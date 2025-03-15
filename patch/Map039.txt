@@ -1,26 +1,68 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-"箱"
-> CONTEXT: Map039/events/3/pages/0/0/InlineScript/1:22
-"Box"
+アルファブレンド開始
+> CONTEXT: Map039/events/1/pages/0/5/Choice/0
+> CONTEXT: Map039/events/1/pages/0/5/Choice/0
+Alpha blending
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[2]]\\_
-へぇ、あの森を抜けれたんだ。
-> CONTEXT: Map039/events/3/pages/0/1/Dialogue
-\\name[\\v[2]]\\_
-Wow, you made it through that forest.
+追加処理
+> CONTEXT: Map039/events/1/pages/0/5/Choice/1
+> CONTEXT: Map039/events/1/pages/0/5/Choice/1
+Additional processing
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[2]]\\_
-そういえば、あの森には女性の力を高める
-アイテムが隠されてるって噂なんだけど、
-キミは見つけられたかな？
-> CONTEXT: Map039/events/3/pages/0/3/Dialogue
-\\name[\\v[2]]\\_
-By the way, there's a rumor that there's an item hidden 
-in that forest that enhances women's power.
-Did you find it?
+透明度変更
+> CONTEXT: Map039/events/1/pages/0/5/Choice/2
+> CONTEXT: Map039/events/1/pages/0/5/Choice/2
+Transparency
+> END STRING
+
+> BEGIN STRING
+キャンセル
+> CONTEXT: Commonevents/27/10/Choice/2
+> CONTEXT: Commonevents/27/26/Choice/2
+> CONTEXT: Map039/events/1/pages/0/5/Choice/3
+> CONTEXT: Map039/events/1/pages/0/7/Choice/2
+> CONTEXT: Map039/events/1/pages/0/7/Choice/2
+> CONTEXT: Map039/events/1/pages/0/19/Choice/2
+> CONTEXT: Map039/events/1/pages/0/19/Choice/2
+> CONTEXT: Map039/events/1/pages/0/19/Choice/2
+> CONTEXT: Commonevents/12/24/Choice/3
+> CONTEXT: Commonevents/12/24/Choice/3
+> CONTEXT: Commonevents/12/60/Choice/3
+> CONTEXT: Commonevents/12/60/Choice/3
+Cancel
+> END STRING
+
+> BEGIN STRING
+ハッキング
+> CONTEXT: Map039/events/1/pages/0/7/Choice/0
+> CONTEXT: Map039/events/1/pages/0/7/Choice/0
+> CONTEXT: Map039/events/1/pages/0/19/Choice/0
+> CONTEXT: Map039/events/1/pages/0/19/Choice/0
+Hacking
+> END STRING
+
+> BEGIN STRING
+水玉
+> CONTEXT: Map039/events/1/pages/0/7/Choice/1 < UNTRANSLATED
+> CONTEXT: Map039/events/1/pages/0/19/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"syiph_01"
+> CONTEXT: Map039/events/1/pages/0/9/InlineScript/1:35 < UNTRANSLATED
+> CONTEXT: Map039/events/1/pages/0/21/InlineScript/1:28 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"syiph_02"
+> CONTEXT: Map039/events/1/pages/0/12/InlineScript/1:35 < UNTRANSLATED
+> CONTEXT: Map039/events/1/pages/0/24/InlineScript/1:28 < UNTRANSLATED
+
 > END STRING

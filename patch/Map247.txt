@@ -11,7 +11,7 @@ There's a switch on the wall. Press it?
 > CONTEXT: Map027/events/88/pages/0/3/Dialogue
 > CONTEXT: Map001/events/5/pages/2/0/Dialogue
 > CONTEXT: Commonevents/15/2/Dialogue
-> CONTEXT: Map247/events/11/pages/0/12/Dialogue
+> CONTEXT: Map247/events/11/pages/0/1/Dialogue
 Looks like you can harvest items here.
 > END STRING
 
@@ -23,8 +23,8 @@ Looks like you can harvest items here.
 > CONTEXT: Map001/events/5/pages/2/1/Choice/0
 > CONTEXT: Map001/events/5/pages/2/10/Choice/0
 > CONTEXT: Commonevents/15/3/Choice/0
-> CONTEXT: Map247/events/11/pages/0/13/Choice/0
-> CONTEXT: Map247/events/11/pages/0/13/Choice/0
+> CONTEXT: Map247/events/11/pages/0/2/Choice/0
+> CONTEXT: Map247/events/11/pages/0/2/Choice/0
 Harvest
 > END STRING
 
@@ -34,7 +34,17 @@ Harvest
 > CONTEXT: Map027/events/88/pages/0/4/Choice/1
 > CONTEXT: Map001/events/5/pages/2/1/Choice/1
 > CONTEXT: Commonevents/15/3/Choice/1
-> CONTEXT: Map247/events/11/pages/0/13/Choice/1
-> CONTEXT: Map247/events/11/pages/0/13/Choice/1
+> CONTEXT: Map247/events/11/pages/0/2/Choice/1
+> CONTEXT: Map247/events/11/pages/0/2/Choice/1
 Not now
+> END STRING
+
+> BEGIN STRING
+\\v[5]
+> CONTEXT: Map027/events/88/pages/0/12/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/15/8/Dialogue < UNTRANSLATED
+> CONTEXT: Map247/events/11/pages/0/11/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/12/23/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/12/59/Dialogue < UNTRANSLATED
+
 > END STRING

@@ -1,14 +1,8 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-\\n[101]が先頭でないと入れないようだ。
-> CONTEXT: Map197/events/1/pages/1/6/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
 \\name[\\v[3]]\\_
 「夢干渉」。
-> CONTEXT: Map197/events/1/pages/1/41/Dialogue
+> CONTEXT: Map197/events/1/pages/0/32/Dialogue
 \\name[\\v[3]]\\_
 "Dream interference".
 > END STRING
@@ -16,7 +10,7 @@
 > BEGIN STRING
 \\name[\\v[3]]\\_
 それは私たち夢魔のような者が持つ、他者の夢へと渡る力。
-> CONTEXT: Map197/events/1/pages/1/43/Dialogue
+> CONTEXT: Map197/events/1/pages/0/34/Dialogue
 \\name[\\v[3]]\\_
 It is the power that we succubi have, 
 which allows us to travel into other people's dreams.
@@ -26,7 +20,7 @@ which allows us to travel into other people's dreams.
 \\name[\\v[3]]\\_
 得てして人の欲望とは醜いものですわ。
 それ故に皆、それを隠すのですから。
-> CONTEXT: Map197/events/1/pages/1/45/Dialogue
+> CONTEXT: Map197/events/1/pages/0/36/Dialogue
 \\name[\\v[3]]\\_
 After all, human desires are shameful.
 That's why everyone hides it.
@@ -35,7 +29,7 @@ That's why everyone hides it.
 > BEGIN STRING
 \\name[\\v[3]]\\_
 しかし、夢は隠し事をも容易く暴く露悪の世界。
-> CONTEXT: Map197/events/1/pages/1/48/Dialogue
+> CONTEXT: Map197/events/1/pages/0/39/Dialogue
 \\name[\\v[3]]\\_
 However, secrets are easily revealed in a dream world.
 > END STRING
@@ -43,7 +37,7 @@ However, secrets are easily revealed in a dream world.
 > BEGIN STRING
 \\name[\\v[3]]\\_
 さて、それでは一体どうなってしまうのでしょう。
-> CONTEXT: Map197/events/1/pages/1/50/Dialogue
+> CONTEXT: Map197/events/1/pages/0/41/Dialogue
 \\name[\\v[3]]\\_
 Now, what happens next?
 > END STRING
@@ -51,7 +45,7 @@ Now, what happens next?
 > BEGIN STRING
 \\name[\\v[3]]\\_
 「人が皆、夢干渉してしまう世界」は。
-> CONTEXT: Map197/events/1/pages/1/52/Dialogue
+> CONTEXT: Map197/events/1/pages/0/43/Dialogue
 \\name[\\v[3]]\\_
 "A world where everyone interferes with dreams."
 > END STRING
@@ -84,6 +78,14 @@ The fruit has begun to ripen.
 "悪魔？"
 > CONTEXT: Map197/events/10/pages/1/0/InlineScript/1:22
 "Demon?"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+くすくす･･･\\H
+> CONTEXT: Map197/events/10/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+Hehe...\\H
 > END STRING
 
 > BEGIN STRING
