@@ -1,4 +1,4 @@
-"..\rpgmt_cli_v4.5\rpgmt.exe" "..\Succubus Rhapsodia_mod" -r
+"..\rpgmt_cli_v4.5\rpgmt.exe" "..\Succubus Rhapsodia_mod"
 python mapConditionReplace.py
 xcopy "..\Succubus Rhapsodia_mod_translated\Data" "..\Succubus Rhapsodia Mod Translated\Mod\Mod_Data" /H /C /I /Y
 xcopy "..\Succubus Rhapsodia_mod_translated\Mod\Mod_Data" "..\Succubus Rhapsodia Mod Translated\Mod\Mod_Data" /H /I /Y
