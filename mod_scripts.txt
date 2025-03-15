@@ -1940,6 +1940,7 @@ Random
 > CONTEXT: Game_Map_ランダムマップ.rb
 > CONTEXT: O_MOD_Scene_Title_data改変.rb
 > CONTEXT: Window_Status.rb
+> CONTEXT: エラーログ.rb
 
 > END STRING
 
@@ -4273,6 +4274,12 @@ Enemy
 > END STRING
 
 > BEGIN STRING
+スペース不足
+> CONTEXT: MOD制作用.rb
+
+> END STRING
+
+> BEGIN STRING
 #{myname}は、Lv.#{@level.to_s}になった！
 > CONTEXT: O_MOD_Game_Actor.rb
 #{myname} reached Lv.#{@level.to_s}!
@@ -4555,6 +4562,7 @@ Woman
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
+> CONTEXT: O_MOD_口上メソッド_基本.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
 > CONTEXT: PR_Window_PromiseRight.rb
 Favorite
@@ -4639,6 +4647,7 @@ Imp leadership
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Menu_Party_select.rb
 > CONTEXT: O_MOD_Talk_Sys_Text_Ecstasy.rb
+> CONTEXT: O_MOD_口上メソッド_基本.rb
 > CONTEXT: PR_MOD_Game_Actor_再定義.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
 > CONTEXT: PR_Window_PromiseRight.rb
@@ -9961,6 +9970,7 @@ proper_battlers\n
 > BEGIN STRING
 夢魔名
 > CONTEXT: O_MOD_Game_Battler_1.rb
+> CONTEXT: O_MOD_口上メソッド_基本.rb
 > CONTEXT: PR_MOD_Scene_Box.rb
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 > CONTEXT: 修正用.rb
@@ -9976,6 +9986,7 @@ proper_battlers\n
 > BEGIN STRING
 夢魔短縮名
 > CONTEXT: O_MOD_Game_Battler_1.rb
+> CONTEXT: O_MOD_口上メソッド_基本.rb
 > CONTEXT: PR_MOD_Scene_Box.rb
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 > CONTEXT: 修正用.rb
@@ -10880,6 +10891,14 @@ _NX
 > BEGIN STRING
 裸＋磔拘束
 > CONTEXT: O_MOD_Game_Battler_2.rb
+
+> END STRING
+
+> BEGIN STRING
+_
+> CONTEXT: O_MOD_Game_Battler_2.rb
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+> CONTEXT: O_MOD_顔グラフィック戦闘.rb
 
 > END STRING
 
@@ -57944,6 +57963,2250 @@ is playing with
 > END STRING
 
 > BEGIN STRING
+msg_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ecstasy_hold
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ecstasy
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ecstasy_self
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+attack_hold
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+attack
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+attack_self
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+crisis
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+undress
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+hold
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+talk
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+bedin_ecstasy_hold
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+bedin_ecstasy
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+bedin_ecstasy_self
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+bedin_attack_hold
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+bedin_attack
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+bedin_attack_self
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+bedin_crisis
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+bedin_undress
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+bedin_hold
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+bedin_talk
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_ecstasy_hold
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_ecstasy
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_ecstasy_self
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_attack_hold
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_attack
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_attack_self
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_crisis
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_undress
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_hold
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_talk
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_bedin_ecstasy_hold
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_bedin_ecstasy
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_bedin_ecstasy_self
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_bedin_attack_hold
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_bedin_attack
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_bedin_attack_self
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_bedin_crisis
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_bedin_undress
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_bedin_hold
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_bedin_talk
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+op_and_ep
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+map_event
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+map_chat
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+special_talk_self
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+special_talk
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+bedin_special_talk_self
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+bedin_special_talk
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_special_talk_self
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_special_talk
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_bedin_special_talk_self
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+female_bedin_special_talk
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+03_hero_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+05_LesserSuccubus_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+06_LesserSuccubus_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+07_LesserSuccubus_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+08_LesserSuccubus_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+10_Succubus_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+11_Succubus_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+12_Succubus_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+14_SuccubusLord_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+16_SuccubusLord_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+17_SuccubusLord_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+18_SuccubusQueen_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+19_SuccubusQueen_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+21_Imp_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+22_Imp_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+23_ImpF_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+24_Imp_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+25_Devil_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+26_Devil_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+27_Devil_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+28_DevilF_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+30_Daemon_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+31_Daemon_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+32_Daemon_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+31_DaemonF_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+34_Greater_Demon_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+35_Greater_Demon_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+37_PetitWitch_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+38_PetitWitch_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+39_PetitWitchF_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+42_Witch_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+43_Witch_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+45_witchcraft_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+46_witchcraft_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+48_Hera_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+49_witchcraft_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+53_Cast_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+54_Cast_EVENT
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+63_Slave_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+70_mare_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+74_Nightmare_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+75_Nightmare_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+80_Slime_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+81_Slime_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+85_QueenSlime_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+86_shoggoth_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+90_GoldSlime_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+94_JewelSlime_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+96_Familiar_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+97_Familiar_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+100_Werewolf_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+101_Werewolf_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+104_Werecat_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+105_Werecat_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+108_Goblin_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+109_Hobgoblin_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+110_Goblinthief_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+111_GangCommander_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+112_Goblinwizard_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+113_Goblinshaman_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+115_Gangchief_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+118_Priestess_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+122_Cursemagus_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+126_Alraune_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+127_Alraune_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+128_Alraune_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+133_Matango_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+134_Matango_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+137_DarkAngel_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+141_Gargoyle_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+145_Mimic_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+146_Mimic_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+152_Tamamo_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+156_Lilim_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+157_Lilith_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+159_Eternus_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+160_Eternus_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+161_Priestess_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+162_DarkAngel_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+163_Lilim_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+164_cast_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+165_Lilim_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+166_GangCommander_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+167_PetitDevil_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+168_Nymphe_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+169_LesserSuccubus_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+170_Slave_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+171_yukijoro_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+172_hero_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+173_Raphael_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+174_Lucifer_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+175_Kunoichi_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+176_JArachne_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+177_Amore_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+178_Piacere_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+179_Majestre_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+180_Belzebuth_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+181_Scathach_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+182_Gabriel_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+183_Attina_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+184_Belphegor_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+185_Cryomancer_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+186_Glaciomancer_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+187_Cobold_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+188_Cobold_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+189_Servant_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+190_Yeti_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+191_Snowfairy_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+192_Cution_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+193_Hilarus_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+194_Siren_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+196_Glacies_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+202_generalfrost_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+207_Hecate_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+208_Rarmilcast
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+209_Lilith_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+210_Familiar_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+211_PetitWitch_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+212_Witch_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+213_Oscuro_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+214_Slave_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+216_SisterSuccubus_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+219_Lilith_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+220_Friend_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+221_Sleepy_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+222_Sleepy_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+223_Mimic_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+224_Frostpillow_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+225_hero_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+226_hero_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+227_Lilim_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+228_Sleepy_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+229_DarkAngel_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+230_niveus_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+231_DarkAngel_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+232_Bishop_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+233_Friend_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+234_Angel_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+235_PetitAngel_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+236_Sistercast_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+237_Succubus_Lily_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+238_Nosferatu_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+239_Glacies_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+240_Melusine_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+241_Servant_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+242_Silky_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+243_Villager_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+244_Mermaid_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+245_Matango_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+246_Silky_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+247_Servant_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+248_Michael_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+249_SilkLady_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+251_Neijurange
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+252_Rejeo
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+253_Fulbeua
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+254_Gilgoon
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+255_Youganot
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+256_Shilphe
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+257_Rarmil
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+258_Vermiena
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+259_Chaosia
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+260_Milluriere
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+261_Sister_99
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+262_Eve
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+263_Tearvoir
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+264_Diligente
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+265_SchattenBestie
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+266_Nyx
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+267_Eris_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+268_Hypnos_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+269_Hypnos_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+275_Lilim_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+276_Lilith_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+277_Werewolf_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+278_Legio_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+279_Santaclaus_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+285_Archbishop_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+286_cereus_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+287_Eternus_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+288_Eternus_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+289_Titania_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+290_Familiar_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+291_MasterTherion_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+292_MasterBTherion_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+293_MasterCTherion_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+294_MasterDTherion_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+295_MasterETherion_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+296_MasterFTherion_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+297_MasterGTherion_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+298_Incubus_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+299_Mia
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+303_hero_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+317_Aesma_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+318_NightSeeker_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+319_NightStalker_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+320_ZombieSuccubus_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+321_Kikimora_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+322_Mary_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+323_Albino_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+324_Tenacity_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+325_Armilus_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+326_Teufel_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+327_Einherjar_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+328_Einherjar_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+329_Einherjar_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+330_Einherjar_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+331_Imp_OFE
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+332_Artrum
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+333_WonderBox
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+334_nebula
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+335_Pandora
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+337_Kikimora_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+338_Civilian_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+340_Nemesis_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+341_Hemether_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+342_Machina_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+343_Machina_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+344_Avaritia
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+345_Invidia
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+346_Luxuria
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+347_Acedia
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+348_Ira
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+349_Gula
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+350_Superbia
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+351_Morrigan
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+352_Adversa
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+354_Aurum
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+355_Valkyria
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+356_Fafuniru
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+357_Maleficium
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+358_Surgat
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+359_Asterte
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+360_Bastet
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+361_Laptina
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+362_Nuit_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+363_Nacht_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+364_Gennonnsinndre
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+365_Xenoa
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+366_Gelatinouscube
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+367_MageSuccubus
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+368_WitchSuccubus
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+369_Alseides
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+370_KKirin
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+371_Arancia
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+372_Ruber
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+373_Theria
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+374_MotherHarlot
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+375_Thanatos
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+376_Vidrir
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+411_CoboldF_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+412_SlaveF_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+413_SlaveF_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+414_SlaveF_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+415_SlaveF_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+426_Wiz
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+427_Wonder
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+428_Managarm
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+429_innocent
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+430_Troll
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+431_Kaguya
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+432_Sorcerer
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+433_Bunny_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+434_Nekomata_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+435_Automaton_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+438_Revenant
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+439_Butler_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+440_Rockgolem
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+441_Diagolem
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+442_Milkentier
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+451_Raijero
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+478_Putti_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+502_Draghignazzo
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+503_Libicocco
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+504_Farfarello
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+505_Cagnazzo
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+506_Graffiacane
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+507_Ciriatto
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+508_Malacoda
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+509_Alichino
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+510_Calcabrina
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+511_Barbariccia
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+512_Rubicante
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+513_Scarmiglione
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+514_Cambion
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+515_Cambiare
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+516_Onoskelis
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+517_Yddraig
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+518_Gwiber
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+519_IbarakiDoji
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+520_Zenko
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+521_Iduna
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+522_Maen
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+523_Kinkabyo
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+532_gremlin_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+533_CainAndAbel
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+534_Antenora
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+535_Ptolomea
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+536_Judecca
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+524_Dulong
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+525_Rose
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+526_desire_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+550_Skeugslou
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+312_Overmind
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+392_Aurora
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+393_Agares
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+394_Kali
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+395_Lovis
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+396_Seraphiel
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+397_Belka
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+398_Belna
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+401_Nephilim
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+402_Shemhaza
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+403_NobleMummy
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+404_Thaleia
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+405_Euphrosyne
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+406_Aglaia
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+407_NuOmega
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+408_Jahi
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+O_LARGER
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+O_SMALLER
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+msg
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
 #{$msg.t_enemy.class_id}_#{method_id}
 > CONTEXT: O_MOD_口上メソッド_基本.rb
 
@@ -58748,13 +61011,6 @@ Ksh
 > END STRING
 
 > BEGIN STRING
-_
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-> CONTEXT: O_MOD_顔グラフィック戦闘.rb
-
-> END STRING
-
-> BEGIN STRING
 口上ハッシュが設定されてません\nクラスID:
 > CONTEXT: O_MOD_口上メソッド_基本.rb
 
@@ -58806,6 +61062,253 @@ Mod/Mod_Talk/#{DIRECTORY_NAME[first_id]}*/*.rb
 #{COMMON_NAME}_#{name}_#{id}
 > CONTEXT: O_MOD_口上メソッド_基本.rb
 
+> END STRING
+
+> BEGIN STRING
+%02d
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+兄
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+姉
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+にい
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ねえ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+にぃ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ねぇ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+にー
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ねー
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+父
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+母
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+とう
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+かあ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+とぅ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+かぁ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+とー
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+かー
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+パパ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+Papa
+> END STRING
+
+> BEGIN STRING
+ママ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+> CONTEXT: Window_Firstperson_Change.rb
+
+> END STRING
+
+> BEGIN STRING
+くん
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ちゃん
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+貴方
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+Honey
+> END STRING
+
+> BEGIN STRING
+貴女
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+彼
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+彼女
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+坊や
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+Boy
+> END STRING
+
+> BEGIN STRING
+お嬢ちゃん
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ボク
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+> CONTEXT: Window_Firstperson_Change.rb
+I
+> END STRING
+
+> BEGIN STRING
+アナタ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+Dear
+> END STRING
+
+> BEGIN STRING
+旦那
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+姐さん
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+旦那様
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+Husband
+> END STRING
+
+> BEGIN STRING
+貴女様
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ダーリン
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+Darling
+> END STRING
+
+> BEGIN STRING
+ハニー
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+坊っちゃん
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+Boy
+> END STRING
+
+> BEGIN STRING
+お嬢さま
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+少年
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+君
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+Boy
 > END STRING
 
 > BEGIN STRING
@@ -68251,6 +70754,161 @@ hn_rx_bitmap.dll
 > END STRING
 
 > BEGIN STRING
+tktk_bitmap
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+PngSaveA
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+p n i i
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+i
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+> CONTEXT: PR_Scene_Menu(system).rb
+> CONTEXT: XGC_Manager.rb
+
+> END STRING
+
+> BEGIN STRING
+Blur
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+n i
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+ChangeTone
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+n i i i i
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+ClipMask
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+n n i i i
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+InvertColor
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+n
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+> CONTEXT: アイテム表示する順番.rb
+
+> END STRING
+
+> BEGIN STRING
+Mosaic
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+n i i i i i i
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+GetAddress
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+GetPixelData
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+n p i
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+SetPixelData
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+BlendBlt
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+n i i n i i i i i i
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+GetGameHWND
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+v
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+> CONTEXT: PR_Scene_Menu(system).rb
+
+> END STRING
+
+> BEGIN STRING
+l
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+> CONTEXT: PR_Scene_Menu(system).rb
+
+> END STRING
+
+> BEGIN STRING
+ChangeSize
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+n i i
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
 bgra
 > CONTEXT: PR_MOD_灯りスクリプト.rb
 
@@ -69040,12 +71698,6 @@ I
 > END STRING
 
 > BEGIN STRING
-君
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Boy
-> END STRING
-
-> BEGIN STRING
 hero5
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -69064,12 +71716,6 @@ Friend1-1
 > CONTEXT: Window_Firstperson_Change.rb
 > CONTEXT: 修正用.rb
 I
-> END STRING
-
-> BEGIN STRING
-貴方
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Honey
 > END STRING
 
 > BEGIN STRING
@@ -69182,13 +71828,6 @@ hero6
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 > CONTEXT: 修正用.rb
 
-> END STRING
-
-> BEGIN STRING
-ボク
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-> CONTEXT: Window_Firstperson_Change.rb
-I
 > END STRING
 
 > BEGIN STRING
@@ -69531,12 +72170,6 @@ devilR
 daemon2-1
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
-> END STRING
-
-> BEGIN STRING
-坊や
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Boy
 > END STRING
 
 > BEGIN STRING
@@ -69896,12 +72529,6 @@ Buddy
 sleepy0-2
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
-> END STRING
-
-> BEGIN STRING
-アナタ
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Dear
 > END STRING
 
 > BEGIN STRING
@@ -70311,12 +72938,6 @@ priestess1-2
 > END STRING
 
 > BEGIN STRING
-少年
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-
-> END STRING
-
-> BEGIN STRING
 petit_witch2-3
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -70383,12 +73004,6 @@ matango2-2
 > END STRING
 
 > BEGIN STRING
-旦那様
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Husband
-> END STRING
-
-> BEGIN STRING
 petit_witchF
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -70434,12 +73049,6 @@ petit_angel0-1
 putti
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
-> END STRING
-
-> BEGIN STRING
-パパ
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Papa
 > END STRING
 
 > BEGIN STRING
@@ -70531,12 +73140,6 @@ mimic1-1
 mimic1-2
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
-> END STRING
-
-> BEGIN STRING
-坊っちゃん
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Boy
 > END STRING
 
 > BEGIN STRING
@@ -71506,12 +74109,6 @@ boss_Malacoda
 > END STRING
 
 > BEGIN STRING
-ダーリン
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Darling
-> END STRING
-
-> BEGIN STRING
 boss_Alichino
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -71633,12 +74230,6 @@ boss_Iduna
 
 > BEGIN STRING
 boss_Maen
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-
-> END STRING
-
-> BEGIN STRING
-母
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74187,6 +76778,18 @@ weak_check:#{weak_check}\n
 > END STRING
 
 > BEGIN STRING
+user32.dll
+> CONTEXT: PR_Scene_Menu(system).rb
+
+> END STRING
+
+> BEGIN STRING
+keybd_event
+> CONTEXT: PR_Scene_Menu(system).rb
+
+> END STRING
+
+> BEGIN STRING
 ゲームをやめますか？\nキャンセル\nタイトルへ戻る\nシャットダウン
 > CONTEXT: PR_Scene_Menu(system).rb
 Quit the game?\nCancel\nReturn to title\nShutdown
@@ -75696,7 +78299,13 @@ class : #{actor.race_name} #{actor.race_color}\n
 > END STRING
 
 > BEGIN STRING
-states : [#{actor.states.join(',')}]\n
+states : [#{actor.states.join(
+> CONTEXT: PR_基本設定強化.rb
+
+> END STRING
+
+> BEGIN STRING
+)}]\n
 > CONTEXT: PR_基本設定強化.rb
 
 > END STRING
@@ -76086,7 +78695,7 @@ class : #{enemy.race_name} #{enemy.race_color}\n
 > END STRING
 
 > BEGIN STRING
-states : [#{enemy.states.join(',')}]\n
+states : [#{enemy.states.join(
 > CONTEXT: PR_基本設定強化.rb
 
 > END STRING
@@ -77455,6 +80064,7 @@ Ominous
 > CONTEXT: Window_Cook_Toppings.rb
 > CONTEXT: Window_EquipItem.rb
 > CONTEXT: Window_Item.rb
+> CONTEXT: エラーログ.rb
 
 > END STRING
 
@@ -77618,7 +80228,13 @@ Lv#{level}: #{skill_name}
 > END STRING
 
 > BEGIN STRING
-Lv#{level || '　'}: #{bonus_name}
+Lv#{level || 
+> CONTEXT: Window_DictionaryRight.rb
+
+> END STRING
+
+> BEGIN STRING
+}: #{bonus_name}
 > CONTEXT: Window_DictionaryRight.rb
 
 > END STRING
@@ -77763,12 +80379,6 @@ This succubus now calls herself "#{@actor.defaultname_self}".
 
 > BEGIN STRING
 #{@actor.name}様
-> CONTEXT: Window_Firstperson_Change.rb
-
-> END STRING
-
-> BEGIN STRING
-ママ
 > CONTEXT: Window_Firstperson_Change.rb
 
 > END STRING
@@ -79546,12 +82156,6 @@ total_mem_size
 > END STRING
 
 > BEGIN STRING
-i
-> CONTEXT: XGC_Manager.rb
-
-> END STRING
-
-> BEGIN STRING
 free_mem_size
 > CONTEXT: XGC_Manager.rb
 
@@ -79936,13 +82540,13 @@ Speed_pow_r
 > END STRING
 
 > BEGIN STRING
-n
-> CONTEXT: アイテム表示する順番.rb
+◆ #{Time.now.strftime(
+> CONTEXT: エラーログ.rb
 
 > END STRING
 
 > BEGIN STRING
-◆ #{Time.now.strftime('%Y-%m-%dT%H:%M:%S')}\n
+)}\n
 > CONTEXT: エラーログ.rb
 
 > END STRING
@@ -80045,6 +82649,12 @@ n
 
 > BEGIN STRING
 コモン呼び出し履歴：\n\t[
+> CONTEXT: エラーログ.rb
+
+> END STRING
+
+> BEGIN STRING
+, 
 > CONTEXT: エラーログ.rb
 
 > END STRING

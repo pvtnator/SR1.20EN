@@ -15,7 +15,7 @@ def extract_strings(folder_path, output_file, update={}, conv={}):
             content = f.read()
         
         # Find all strings in the file
-        found_strings = re.findall(r'"「{0,}(.*?)」{0,}"', content)
+        found_strings = re.findall(r'["\']「{0,}(.*?)」{0,}["\']', content)
         found_strings += re.findall(r'\/.*?\/', content)
         
         # Add found strings to the dictionary with their contexts
