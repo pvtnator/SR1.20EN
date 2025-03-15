@@ -5,6 +5,7 @@ import sys
 from pathlib import Path
 
 def extract_strings(folder_path, output_file, update={}, conv={}):
+    print(source)
     strings = {}
 
     # Walk through all files in the folder and its subfolders
@@ -15,7 +16,9 @@ def extract_strings(folder_path, output_file, update={}, conv={}):
             content = f.read()
         
         # Find all strings in the file
-        found_strings = re.findall(r'["\']「{0,}(.*?)」{0,}["\']', content)
+        found_strings = re.findall(r'"「{0,}(.*?)」{0,}"', content)
+        if "script" in source:
+            found_strings += re.findall(r'\'「{0,}(.*?)」{0,}\'', content)
         found_strings += re.findall(r'\/.*?\/', content)
         
         # Add found strings to the dictionary with their contexts

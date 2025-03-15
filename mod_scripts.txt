@@ -1939,6 +1939,7 @@ Random
 ,
 > CONTEXT: Game_Map_ランダムマップ.rb
 > CONTEXT: O_MOD_Scene_Title_data改変.rb
+> CONTEXT: PR_基本設定強化.rb
 > CONTEXT: Window_Status.rb
 > CONTEXT: エラーログ.rb
 
@@ -10895,14 +10896,6 @@ _NX
 > END STRING
 
 > BEGIN STRING
-_
-> CONTEXT: O_MOD_Game_Battler_2.rb
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-> CONTEXT: O_MOD_顔グラフィック戦闘.rb
-
-> END STRING
-
-> BEGIN STRING
 メタモルフォーゼ
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
@@ -12646,6 +12639,14 @@ target
 > BEGIN STRING
 forcing
 > CONTEXT: O_MOD_Game_Battler_2.rb
+
+> END STRING
+
+> BEGIN STRING
+_
+> CONTEXT: O_MOD_Game_Battler_2.rb
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+> CONTEXT: O_MOD_顔グラフィック戦闘.rb
 
 > END STRING
 
@@ -17299,7 +17300,7 @@ Kiss
 体位変更
 > CONTEXT: O_MOD_Game_Battler_ホールド関数.rb
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+Change position
 > END STRING
 
 > BEGIN STRING
@@ -45599,7 +45600,7 @@ Also losing power!
 > BEGIN STRING
 ホールド解放
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Hold release
 > END STRING
 
 > BEGIN STRING
@@ -46175,21 +46176,21 @@ None
 > END STRING
 
 > BEGIN STRING
-に「おねだり
+に「おねだり」
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+'s request options
 > END STRING
 
 > BEGIN STRING
 継続中の行動：
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-Ongoing actions:
+Ongoing actions: 
 > END STRING
 
 > BEGIN STRING
 LR(QW)、←→：ページ切り替え
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+LR(QW)、←→：Change page
 > END STRING
 
 > BEGIN STRING
@@ -49579,6 +49580,7 @@ menu_overF
 > CONTEXT: O_MOD_Scene_Menu_Party_status.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: PR_Scene_Menu(system).rb
+> CONTEXT: Window_DictionaryRight.rb
 
 > END STRING
 
@@ -57963,6 +57965,864 @@ is playing with
 > END STRING
 
 > BEGIN STRING
+#{$msg.t_enemy.class_id}_#{method_id}
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+……ちゅっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+...*kiss*\\H
+> END STRING
+
+> BEGIN STRING
+……んっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+...Mm...\\H
+> END STRING
+
+> BEGIN STRING
+ちゅっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+*kiss*...\\H
+> END STRING
+
+> BEGIN STRING
+んっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Mm...\\H
+> END STRING
+
+> BEGIN STRING
+……んっ……ちゅっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+...mm...*kiss*...\\H
+> END STRING
+
+> BEGIN STRING
+……ちゅっ……れろ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+...*kiss*...*lick*\\H
+> END STRING
+
+> BEGIN STRING
+んっ……ちゅっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Mm...*kiss*...\\H
+> END STRING
+
+> BEGIN STRING
+ちゅっ……れろ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+*kiss*...*lick*...\\H
+> END STRING
+
+> BEGIN STRING
+……ちゅっ……ぷぁ……んっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+...*kiss*...puh...mh\\H
+> END STRING
+
+> BEGIN STRING
+ちゅっ……ちゅくっ……んふ……っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+*kiss*...*kiss*...mmm...\\H
+> END STRING
+
+> BEGIN STRING
+ちゅっ……んっ……ぷぁっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+*kiss*...m...puh\\H
+> END STRING
+
+> BEGIN STRING
+……ちゅくっ……ちゅっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+...*kiss*...*kiss*...\\H
+> END STRING
+
+> BEGIN STRING
+……ぁむ……れろ……ちゅっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+...Mmm...*lick*...*kiss*...\\H
+> END STRING
+
+> BEGIN STRING
+……ちゅっ……くちゅ……んっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+...*kiss*...ch...mh...\\H
+> END STRING
+
+> BEGIN STRING
+んちゅ……ん……ふうっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+*kiss*...m...mhmm...\\H
+> END STRING
+
+> BEGIN STRING
+んっ……れろ……ちゅ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Mm...*lick*...ch...\\H
+> END STRING
+
+> BEGIN STRING
+あんっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ahmm...\\H
+> END STRING
+
+> BEGIN STRING
+んんっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Mmm...\\H
+> END STRING
+
+> BEGIN STRING
+んぁ……っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Mm...h\\H
+> END STRING
+
+> BEGIN STRING
+んあっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Mmhm...\\H
+> END STRING
+
+> BEGIN STRING
+あぁっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Aaah...\\H
+> END STRING
+
+> BEGIN STRING
+んっ……んあっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Mmm...hah...\\H
+> END STRING
+
+> BEGIN STRING
+あんっ……はぁっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ahh...hah...\\H
+> END STRING
+
+> BEGIN STRING
+んんっ……あっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Mmmh...ah...\\H
+> END STRING
+
+> BEGIN STRING
+んぁ……っ……くぅっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ma...h...kh...\\H
+> END STRING
+
+> BEGIN STRING
+んあっ……はぁ……っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Mmah...ha...h\\H
+> END STRING
+
+> BEGIN STRING
+あっ、はあっ……！\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ah, hah...!\\H
+> END STRING
+
+> BEGIN STRING
+んんっ……あぁ……っ！\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Mmmh...aa...h!\\H
+> END STRING
+
+> BEGIN STRING
+あっ、あっ……あぁっ……！\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ah, ah...aaah!\\H
+> END STRING
+
+> BEGIN STRING
+はぁっ……はぁっ……ああんっ！\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Hah...hah...aaah!\\H
+> END STRING
+
+> BEGIN STRING
+あんっ、あんっ……ああぁんっ！\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ah, ah...aaaahh!\\H
+> END STRING
+
+> BEGIN STRING
+んんっ、あっ……！\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Mmm...ah...!\\H
+> END STRING
+
+> BEGIN STRING
+あんっ……あっ、ああっ！\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ahh...ah, ahh!\\H
+> END STRING
+
+> BEGIN STRING
+ひぃんっ……あぁっ……やっ……！\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Hngg...aah...ah...!\\H
+> END STRING
+
+> BEGIN STRING
+はぁっ……んっ……あんっ！\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Haah...mm...ah!\\H
+> END STRING
+
+> BEGIN STRING
+はぁっ、あぁんっ……んくぅっ！\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Hah, aah...hngh!\\H
+> END STRING
+
+> BEGIN STRING
+やぁ……っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Aa...h\\H
+> END STRING
+
+> BEGIN STRING
+ひぃん……っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Hng...\\H
+> END STRING
+
+> BEGIN STRING
+あっ……やぁ……っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ah...aa...h\\H
+> END STRING
+
+> BEGIN STRING
+ああっ……やぁっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Aaa...aah...\\H
+> END STRING
+
+> BEGIN STRING
+やっ……あぁ……っ！\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ah...aa...!\\H
+> END STRING
+
+> BEGIN STRING
+いやっ……やだぁっ……！\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+No...no...!\\H
+> END STRING
+
+> BEGIN STRING
+あぅっ、あっ……あんっ！\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ahh,ah...ahh!\\H
+> END STRING
+
+> BEGIN STRING
+やっ……やぁっ……はぁぁっ！\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ah...aah...haa!\\H
+> END STRING
+
+> BEGIN STRING
+んふぅ……っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Mhuh...\\H
+> END STRING
+
+> BEGIN STRING
+あぁん……っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Aahh...\\H
+> END STRING
+
+> BEGIN STRING
+はぁん……っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Haah...\\H
+> END STRING
+
+> BEGIN STRING
+んっ……んふぅ……っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Mm...Mhuh...\\H
+> END STRING
+
+> BEGIN STRING
+あぁん……んぁ……っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ahh...mmm...\\H
+> END STRING
+
+> BEGIN STRING
+はぁ……んっ……あぁんっ……！\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ha...nn...Aahhh...!\\H
+> END STRING
+
+> BEGIN STRING
+んくぅ……っ……ぁあ……っ！\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ngh...aa...!\\H
+> END STRING
+
+> BEGIN STRING
+あふぅ……んっ……あはぁ……っ！\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ah...mm...ahh...!\\H
+> END STRING
+
+> BEGIN STRING
+あんっ……はぁん……っ……あっ！\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ahh...hah...Ah!\\H
+> END STRING
+
+> BEGIN STRING
+えへっ♪
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ihh♪
+> END STRING
+
+> BEGIN STRING
+えへへっ♪
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ehehh♪
+> END STRING
+
+> BEGIN STRING
+えへっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Eheh\\H
+> END STRING
+
+> BEGIN STRING
+えへへっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ehehh\\H
+> END STRING
+
+> BEGIN STRING
+あはっ♪
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ahh♪
+> END STRING
+
+> BEGIN STRING
+あははっ♪
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ahahah♪
+> END STRING
+
+> BEGIN STRING
+あはっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ahh\\H
+> END STRING
+
+> BEGIN STRING
+あははっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ahhh...\\H
+> END STRING
+
+> BEGIN STRING
+んふっ♪
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Mhuh♪
+> END STRING
+
+> BEGIN STRING
+んふふっ♪
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Mhuhuh♪
+> END STRING
+
+> BEGIN STRING
+んふっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Mhuh\\H
+> END STRING
+
+> BEGIN STRING
+んふふっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Mmhuh\\H
+> END STRING
+
+> BEGIN STRING
+うふっ……♪
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Uhh...♪
+> END STRING
+
+> BEGIN STRING
+うふっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Uhh...\\H
+> END STRING
+
+> BEGIN STRING
+あはっ……♪
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ahh...♪
+> END STRING
+
+> BEGIN STRING
+あはっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ahh...\\H
+> END STRING
+
+> BEGIN STRING
+くすくす……♪
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ksks...♪
+> END STRING
+
+> BEGIN STRING
+くすくす……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ksks...\\H
+> END STRING
+
+> BEGIN STRING
+うふっ♪
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Uhh♪
+> END STRING
+
+> BEGIN STRING
+うふふっ♪
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Uhheh♪
+> END STRING
+
+> BEGIN STRING
+うふっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Uheh\\H
+> END STRING
+
+> BEGIN STRING
+うふふっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Uheheh...♪
+> END STRING
+
+> BEGIN STRING
+ふふっ……♪
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Heheh...♪
+> END STRING
+
+> BEGIN STRING
+ふふっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Hehheh...
+> END STRING
+
+> BEGIN STRING
+ふふっ♪
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Hehheh...♪
+> END STRING
+
+> BEGIN STRING
+ふふっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Heheh\\H
+> END STRING
+
+> BEGIN STRING
+ふふ……♪
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Hehe...♪
+> END STRING
+
+> BEGIN STRING
+ふふ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Hmhm...\\H
+> END STRING
+
+> BEGIN STRING
+えへっ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Eheh
+> END STRING
+
+> BEGIN STRING
+えへへっ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Eheheh
+> END STRING
+
+> BEGIN STRING
+あはっ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ahh
+> END STRING
+
+> BEGIN STRING
+あははっ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ahahah
+> END STRING
+
+> BEGIN STRING
+んふっ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Mhuh
+> END STRING
+
+> BEGIN STRING
+んふふっ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Mhuhuh
+> END STRING
+
+> BEGIN STRING
+うふっ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Uhh
+> END STRING
+
+> BEGIN STRING
+くすくす
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ksks
+> END STRING
+
+> BEGIN STRING
+うふふっ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Uhhuh
+> END STRING
+
+> BEGIN STRING
+ふふっ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Hehheh
+> END STRING
+
+> BEGIN STRING
+あは
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ah
+> END STRING
+
+> BEGIN STRING
+ふふ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Hehe
+> END STRING
+
+> BEGIN STRING
+むにっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぺたっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぺちっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+むに……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぺた……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぺち……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+むにっ……むに～っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+むにっ……ぺちぺちっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぺたっ……むにむにっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぺたぺたっ……むに～\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぺち……むにむにっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぺち……むにむに～っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+むにゅっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+むにゅうっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぱふっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぱふ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぽふっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぽふ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+むにゅっ……むにゅむにゅっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+むにゅにゅ……むにゅ～っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+むにゅむにゅ……むにゅ～っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぱふっ……むにゅむにゅっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぱふっ……むにゅむにゅむにゅっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぽふっ……むにゅむにゅっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぽふっ……むにゅむにゅむにゅっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+むにゅ～っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+むにゅにゅっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ばふっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ばふ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぼふっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぼふ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+むにゅうっ……むにゅむにゅっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+むにゅむにゅむにゅ……むにゅ～っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ばふっ……むにゅむにゅむにゅっ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぼふっ……むにゅむにゅむにゅ～っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ばふ……むにゅにゅ……むにゅ～っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+ぼふ……むにゅにゅ……むにゅ～っ\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+あは……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ah...\\H
+> END STRING
+
+> BEGIN STRING
+くすっ……\\H
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ksh...\\H
+> END STRING
+
+> BEGIN STRING
+くすっ
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+Ksh
+> END STRING
+
+> BEGIN STRING
+口上ハッシュが設定されてません\nクラスID:
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+System/talk/#{dir_path}/*.rb
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+Mod/Mod_Talk/#{dir_path}/*.rb
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+トークファイルのパスが違います\n
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+メソッドID：#{method_id}
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+パス：#{dir_path}
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+System/talk/#{DIRECTORY_NAME[first_id]}*/*.rb
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+Mod/Mod_Talk/#{DIRECTORY_NAME[first_id]}*/*.rb
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+#{COMMON_NAME}_#{name}_#{id}
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
 msg_
 > CONTEXT: O_MOD_口上メソッド_基本.rb
 
@@ -60202,864 +61062,6 @@ O_SMALLER
 
 > BEGIN STRING
 msg
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-#{$msg.t_enemy.class_id}_#{method_id}
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-……ちゅっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-...*kiss*\\H
-> END STRING
-
-> BEGIN STRING
-……んっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-...Mm...\\H
-> END STRING
-
-> BEGIN STRING
-ちゅっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-*kiss*...\\H
-> END STRING
-
-> BEGIN STRING
-んっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Mm...\\H
-> END STRING
-
-> BEGIN STRING
-……んっ……ちゅっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-...mm...*kiss*...\\H
-> END STRING
-
-> BEGIN STRING
-……ちゅっ……れろ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-...*kiss*...*lick*\\H
-> END STRING
-
-> BEGIN STRING
-んっ……ちゅっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Mm...*kiss*...\\H
-> END STRING
-
-> BEGIN STRING
-ちゅっ……れろ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-*kiss*...*lick*...\\H
-> END STRING
-
-> BEGIN STRING
-……ちゅっ……ぷぁ……んっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-...*kiss*...puh...mh\\H
-> END STRING
-
-> BEGIN STRING
-ちゅっ……ちゅくっ……んふ……っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-*kiss*...*kiss*...mmm...\\H
-> END STRING
-
-> BEGIN STRING
-ちゅっ……んっ……ぷぁっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-*kiss*...m...puh\\H
-> END STRING
-
-> BEGIN STRING
-……ちゅくっ……ちゅっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-...*kiss*...*kiss*...\\H
-> END STRING
-
-> BEGIN STRING
-……ぁむ……れろ……ちゅっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-...Mmm...*lick*...*kiss*...\\H
-> END STRING
-
-> BEGIN STRING
-……ちゅっ……くちゅ……んっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-...*kiss*...ch...mh...\\H
-> END STRING
-
-> BEGIN STRING
-んちゅ……ん……ふうっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-*kiss*...m...mhmm...\\H
-> END STRING
-
-> BEGIN STRING
-んっ……れろ……ちゅ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Mm...*lick*...ch...\\H
-> END STRING
-
-> BEGIN STRING
-あんっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ahmm...\\H
-> END STRING
-
-> BEGIN STRING
-んんっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Mmm...\\H
-> END STRING
-
-> BEGIN STRING
-んぁ……っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Mm...h\\H
-> END STRING
-
-> BEGIN STRING
-んあっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Mmhm...\\H
-> END STRING
-
-> BEGIN STRING
-あぁっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Aaah...\\H
-> END STRING
-
-> BEGIN STRING
-んっ……んあっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Mmm...hah...\\H
-> END STRING
-
-> BEGIN STRING
-あんっ……はぁっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ahh...hah...\\H
-> END STRING
-
-> BEGIN STRING
-んんっ……あっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Mmmh...ah...\\H
-> END STRING
-
-> BEGIN STRING
-んぁ……っ……くぅっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ma...h...kh...\\H
-> END STRING
-
-> BEGIN STRING
-んあっ……はぁ……っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Mmah...ha...h\\H
-> END STRING
-
-> BEGIN STRING
-あっ、はあっ……！\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ah, hah...!\\H
-> END STRING
-
-> BEGIN STRING
-んんっ……あぁ……っ！\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Mmmh...aa...h!\\H
-> END STRING
-
-> BEGIN STRING
-あっ、あっ……あぁっ……！\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ah, ah...aaah!\\H
-> END STRING
-
-> BEGIN STRING
-はぁっ……はぁっ……ああんっ！\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Hah...hah...aaah!\\H
-> END STRING
-
-> BEGIN STRING
-あんっ、あんっ……ああぁんっ！\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ah, ah...aaaahh!\\H
-> END STRING
-
-> BEGIN STRING
-んんっ、あっ……！\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Mmm...ah...!\\H
-> END STRING
-
-> BEGIN STRING
-あんっ……あっ、ああっ！\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ahh...ah, ahh!\\H
-> END STRING
-
-> BEGIN STRING
-ひぃんっ……あぁっ……やっ……！\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Hngg...aah...ah...!\\H
-> END STRING
-
-> BEGIN STRING
-はぁっ……んっ……あんっ！\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Haah...mm...ah!\\H
-> END STRING
-
-> BEGIN STRING
-はぁっ、あぁんっ……んくぅっ！\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Hah, aah...hngh!\\H
-> END STRING
-
-> BEGIN STRING
-やぁ……っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Aa...h\\H
-> END STRING
-
-> BEGIN STRING
-ひぃん……っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Hng...\\H
-> END STRING
-
-> BEGIN STRING
-あっ……やぁ……っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ah...aa...h\\H
-> END STRING
-
-> BEGIN STRING
-ああっ……やぁっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Aaa...aah...\\H
-> END STRING
-
-> BEGIN STRING
-やっ……あぁ……っ！\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ah...aa...!\\H
-> END STRING
-
-> BEGIN STRING
-いやっ……やだぁっ……！\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-No...no...!\\H
-> END STRING
-
-> BEGIN STRING
-あぅっ、あっ……あんっ！\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ahh,ah...ahh!\\H
-> END STRING
-
-> BEGIN STRING
-やっ……やぁっ……はぁぁっ！\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ah...aah...haa!\\H
-> END STRING
-
-> BEGIN STRING
-んふぅ……っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Mhuh...\\H
-> END STRING
-
-> BEGIN STRING
-あぁん……っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Aahh...\\H
-> END STRING
-
-> BEGIN STRING
-はぁん……っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Haah...\\H
-> END STRING
-
-> BEGIN STRING
-んっ……んふぅ……っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Mm...Mhuh...\\H
-> END STRING
-
-> BEGIN STRING
-あぁん……んぁ……っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ahh...mmm...\\H
-> END STRING
-
-> BEGIN STRING
-はぁ……んっ……あぁんっ……！\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ha...nn...Aahhh...!\\H
-> END STRING
-
-> BEGIN STRING
-んくぅ……っ……ぁあ……っ！\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ngh...aa...!\\H
-> END STRING
-
-> BEGIN STRING
-あふぅ……んっ……あはぁ……っ！\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ah...mm...ahh...!\\H
-> END STRING
-
-> BEGIN STRING
-あんっ……はぁん……っ……あっ！\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ahh...hah...Ah!\\H
-> END STRING
-
-> BEGIN STRING
-えへっ♪
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ihh♪
-> END STRING
-
-> BEGIN STRING
-えへへっ♪
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ehehh♪
-> END STRING
-
-> BEGIN STRING
-えへっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Eheh\\H
-> END STRING
-
-> BEGIN STRING
-えへへっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ehehh\\H
-> END STRING
-
-> BEGIN STRING
-あはっ♪
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ahh♪
-> END STRING
-
-> BEGIN STRING
-あははっ♪
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ahahah♪
-> END STRING
-
-> BEGIN STRING
-あはっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ahh\\H
-> END STRING
-
-> BEGIN STRING
-あははっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ahhh...\\H
-> END STRING
-
-> BEGIN STRING
-んふっ♪
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Mhuh♪
-> END STRING
-
-> BEGIN STRING
-んふふっ♪
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Mhuhuh♪
-> END STRING
-
-> BEGIN STRING
-んふっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Mhuh\\H
-> END STRING
-
-> BEGIN STRING
-んふふっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Mmhuh\\H
-> END STRING
-
-> BEGIN STRING
-うふっ……♪
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Uhh...♪
-> END STRING
-
-> BEGIN STRING
-うふっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Uhh...\\H
-> END STRING
-
-> BEGIN STRING
-あはっ……♪
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ahh...♪
-> END STRING
-
-> BEGIN STRING
-あはっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ahh...\\H
-> END STRING
-
-> BEGIN STRING
-くすくす……♪
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ksks...♪
-> END STRING
-
-> BEGIN STRING
-くすくす……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ksks...\\H
-> END STRING
-
-> BEGIN STRING
-うふっ♪
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Uhh♪
-> END STRING
-
-> BEGIN STRING
-うふふっ♪
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Uhheh♪
-> END STRING
-
-> BEGIN STRING
-うふっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Uheh\\H
-> END STRING
-
-> BEGIN STRING
-うふふっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Uheheh...♪
-> END STRING
-
-> BEGIN STRING
-ふふっ……♪
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Heheh...♪
-> END STRING
-
-> BEGIN STRING
-ふふっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Hehheh...
-> END STRING
-
-> BEGIN STRING
-ふふっ♪
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Hehheh...♪
-> END STRING
-
-> BEGIN STRING
-ふふっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Heheh\\H
-> END STRING
-
-> BEGIN STRING
-ふふ……♪
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Hehe...♪
-> END STRING
-
-> BEGIN STRING
-ふふ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Hmhm...\\H
-> END STRING
-
-> BEGIN STRING
-えへっ
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Eheh
-> END STRING
-
-> BEGIN STRING
-えへへっ
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Eheheh
-> END STRING
-
-> BEGIN STRING
-あはっ
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ahh
-> END STRING
-
-> BEGIN STRING
-あははっ
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ahahah
-> END STRING
-
-> BEGIN STRING
-んふっ
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Mhuh
-> END STRING
-
-> BEGIN STRING
-んふふっ
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Mhuhuh
-> END STRING
-
-> BEGIN STRING
-うふっ
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Uhh
-> END STRING
-
-> BEGIN STRING
-くすくす
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ksks
-> END STRING
-
-> BEGIN STRING
-うふふっ
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Uhhuh
-> END STRING
-
-> BEGIN STRING
-ふふっ
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Hehheh
-> END STRING
-
-> BEGIN STRING
-あは
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ah
-> END STRING
-
-> BEGIN STRING
-ふふ
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Hehe
-> END STRING
-
-> BEGIN STRING
-むにっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぺたっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぺちっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-むに……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぺた……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぺち……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-むにっ……むに～っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-むにっ……ぺちぺちっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぺたっ……むにむにっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぺたぺたっ……むに～\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぺち……むにむにっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぺち……むにむに～っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-むにゅっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-むにゅうっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぱふっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぱふ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぽふっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぽふ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-むにゅっ……むにゅむにゅっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-むにゅにゅ……むにゅ～っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-むにゅむにゅ……むにゅ～っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぱふっ……むにゅむにゅっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぱふっ……むにゅむにゅむにゅっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぽふっ……むにゅむにゅっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぽふっ……むにゅむにゅむにゅっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-むにゅ～っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-むにゅにゅっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ばふっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ばふ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぼふっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぼふ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-むにゅうっ……むにゅむにゅっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-むにゅむにゅむにゅ……むにゅ～っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ばふっ……むにゅむにゅむにゅっ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぼふっ……むにゅむにゅむにゅ～っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ばふ……むにゅにゅ……むにゅ～っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-ぼふ……むにゅにゅ……むにゅ～っ\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-あは……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ah...\\H
-> END STRING
-
-> BEGIN STRING
-くすっ……\\H
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ksh...\\H
-> END STRING
-
-> BEGIN STRING
-くすっ
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-Ksh
-> END STRING
-
-> BEGIN STRING
-口上ハッシュが設定されてません\nクラスID:
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-System/talk/#{dir_path}/*.rb
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-Mod/Mod_Talk/#{dir_path}/*.rb
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-トークファイルのパスが違います\n
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-メソッドID：#{method_id}
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-パス：#{dir_path}
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-System/talk/#{DIRECTORY_NAME[first_id]}*/*.rb
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-Mod/Mod_Talk/#{DIRECTORY_NAME[first_id]}*/*.rb
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-#{COMMON_NAME}_#{name}_#{id}
 > CONTEXT: O_MOD_口上メソッド_基本.rb
 
 > END STRING
@@ -70754,6 +70756,144 @@ hn_rx_bitmap.dll
 > END STRING
 
 > BEGIN STRING
+bgra
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+tktk_bitmap:ERROR ALLOCATE FAILED
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+LLa*
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+Bitmap\#png_save failed
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+Graphics/Pictures/
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+light5
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+light8
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+light6
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+light1
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+light7
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+light4
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+light3
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+light9
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+light10
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+light2
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+light11
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+light12
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+light13
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+light15
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+light14
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+light16
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+light18
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
+light20
+> CONTEXT: PR_MOD_灯りスクリプト.rb
+
+> END STRING
+
+> BEGIN STRING
 tktk_bitmap
 > CONTEXT: PR_MOD_灯りスクリプト.rb
 
@@ -70904,144 +71044,6 @@ ChangeSize
 
 > BEGIN STRING
 n i i
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-bgra
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-tktk_bitmap:ERROR ALLOCATE FAILED
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-LLa*
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-Bitmap\#png_save failed
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-Graphics/Pictures/
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-light5
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-light8
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-light6
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-light1
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-light7
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-light4
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-light3
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-light9
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-light10
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-light2
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-light11
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-light12
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-light13
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-light15
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-light14
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-light16
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-light18
-> CONTEXT: PR_MOD_灯りスクリプト.rb
-
-> END STRING
-
-> BEGIN STRING
-light20
 > CONTEXT: PR_MOD_灯りスクリプト.rb
 
 > END STRING
@@ -76778,6 +76780,12 @@ weak_check:#{weak_check}\n
 > END STRING
 
 > BEGIN STRING
+ゲームをやめますか？\nキャンセル\nタイトルへ戻る\nシャットダウン
+> CONTEXT: PR_Scene_Menu(system).rb
+Quit the game?\nCancel\nReturn to title\nShutdown
+> END STRING
+
+> BEGIN STRING
 user32.dll
 > CONTEXT: PR_Scene_Menu(system).rb
 
@@ -76787,12 +76795,6 @@ user32.dll
 keybd_event
 > CONTEXT: PR_Scene_Menu(system).rb
 
-> END STRING
-
-> BEGIN STRING
-ゲームをやめますか？\nキャンセル\nタイトルへ戻る\nシャットダウン
-> CONTEXT: PR_Scene_Menu(system).rb
-Quit the game?\nCancel\nReturn to title\nShutdown
 > END STRING
 
 > BEGIN STRING
@@ -78299,13 +78301,7 @@ class : #{actor.race_name} #{actor.race_color}\n
 > END STRING
 
 > BEGIN STRING
-states : [#{actor.states.join(
-> CONTEXT: PR_基本設定強化.rb
-
-> END STRING
-
-> BEGIN STRING
-)}]\n
+states : [#{actor.states.join(',')}]\n
 > CONTEXT: PR_基本設定強化.rb
 
 > END STRING
@@ -78695,7 +78691,7 @@ class : #{enemy.race_name} #{enemy.race_color}\n
 > END STRING
 
 > BEGIN STRING
-states : [#{enemy.states.join(
+states : [#{enemy.states.join(',')}]\n
 > CONTEXT: PR_基本設定強化.rb
 
 > END STRING
@@ -80228,13 +80224,7 @@ Lv#{level}: #{skill_name}
 > END STRING
 
 > BEGIN STRING
-Lv#{level || 
-> CONTEXT: Window_DictionaryRight.rb
-
-> END STRING
-
-> BEGIN STRING
-}: #{bonus_name}
+Lv#{level || '　'}: #{bonus_name}
 > CONTEXT: Window_DictionaryRight.rb
 
 > END STRING
@@ -80368,61 +80358,61 @@ This succubus now calls herself "#{@actor.defaultname_self}".
 > BEGIN STRING
 #{@actor.name}さん
 > CONTEXT: Window_Firstperson_Change.rb
-
+#{@actor.name}
 > END STRING
 
 > BEGIN STRING
 #{@actor.name}ちゃん
 > CONTEXT: Window_Firstperson_Change.rb
-
+#{@actor.name}
 > END STRING
 
 > BEGIN STRING
 #{@actor.name}様
 > CONTEXT: Window_Firstperson_Change.rb
-
+#{@actor.name}
 > END STRING
 
 > BEGIN STRING
 おかーさん
 > CONTEXT: Window_Firstperson_Change.rb
-
+Mommy
 > END STRING
 
 > BEGIN STRING
 お母さん
 > CONTEXT: Window_Firstperson_Change.rb
-
+Mamma
 > END STRING
 
 > BEGIN STRING
 おねえさん
 > CONTEXT: Window_Firstperson_Change.rb
-
+Sis
 > END STRING
 
 > BEGIN STRING
 おねーさん
 > CONTEXT: Window_Firstperson_Change.rb
-
+Sis
 > END STRING
 
 > BEGIN STRING
 お姉さん
 > CONTEXT: Window_Firstperson_Change.rb
-
+Sis
 > END STRING
 
 > BEGIN STRING
 おねえちゃん
 > CONTEXT: Window_Firstperson_Change.rb
-
+Little Sis
 > END STRING
 
 > BEGIN STRING
 お姉ちゃん
 > CONTEXT: Window_Firstperson_Change.rb
-
+Little Sis
 > END STRING
 
 > BEGIN STRING
@@ -82540,13 +82530,7 @@ Speed_pow_r
 > END STRING
 
 > BEGIN STRING
-◆ #{Time.now.strftime(
-> CONTEXT: エラーログ.rb
-
-> END STRING
-
-> BEGIN STRING
-)}\n
+◆ #{Time.now.strftime('%Y-%m-%dT%H:%M:%S')}\n
 > CONTEXT: エラーログ.rb
 
 > END STRING
@@ -82654,12 +82638,6 @@ Speed_pow_r
 > END STRING
 
 > BEGIN STRING
-, 
-> CONTEXT: エラーログ.rb
-
-> END STRING
-
-> BEGIN STRING
 バックトレース :\n
 > CONTEXT: エラーログ.rb
 
@@ -82709,6 +82687,18 @@ a+
 
 > BEGIN STRING
  : #{msg}\n
+> CONTEXT: エラーログ.rb
+
+> END STRING
+
+> BEGIN STRING
+%Y-%m-%dT%H:%M:%S
+> CONTEXT: エラーログ.rb
+
+> END STRING
+
+> BEGIN STRING
+, 
 > CONTEXT: エラーログ.rb
 
 > END STRING
