@@ -1,429 +1,2145 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 \\name[\\v[2]]\\_
-初めまして、ごきげんよう。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Nice to meet you, how are you?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-物語を始める前に、貴方の事をお伺いしておきたくて。
-少々お時間を取らせて頂きますわ。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Before starting the story, I wanted to ask you a few questions about yourself.
-It will take just a moment.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-まず始めに･･･
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-First of all...
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-あなたの性別をお聞きしてもよろしくて？
-どちらになりたいか、で答えて頂いても構いませんわ\\H
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-男
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-女
-> CONTEXT: None < UNUSED
+待っていたわチャンピオン、
+ようこそセクシアムへ\\H
+> CONTEXT: Map227/events/12/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/7/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-あら、素敵な殿方でしたのね？\\.\\.
-（主人公の性別が【男】になります）\\n
-> CONTEXT: None < UNUSED
+本日の大会は、
+真の強者による特別な一夜。
+> CONTEXT: Map227/events/12/pages/0/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/11/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-あら、嘘はいけませんわ\\H
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Oh, don't lie\\H
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-あら、可愛らしいご婦人でしたのね？\\.\\.
-（主人公の性別が【女】になります）\\n
-> CONTEXT: None < UNUSED
+私すら負かしたあなたの力、
+会場のみんなに魅せつけてちょうだい・・・\\H
+> CONTEXT: Map227/events/12/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/15/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-昨今はそういう方も多いと聞き及んでいますわ\\.\\.
-（主人公の性別が【ふたなり】になります）\\n
-> CONTEXT: None < UNUSED
+これから\\n[101]センパイには
+３名の方と戦って頂き、見事勝利しましたら
+メインイベントに参加していただきます。
+> CONTEXT: Map227/events/12/pages/0/23/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/23/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-そうなんですの･･･\\.\\.
-では次に･･･
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-That's right...\\.\\.
-Next...
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-次のうちで、貴方が一番惹かれるのは何でしょう？
-特に無ければ、興味がありそうなものをお選びになって。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Which of the following interests you the most?
-Choose the option that's closest to your preference.
-> END STRING
-
-> BEGIN STRING
-仲の良い友人達とお喋り
-> CONTEXT: Commonevents/2/11/Choice/0
-Chatting with good friends
-> END STRING
-
-> BEGIN STRING
-体力づくりのため運動
-> CONTEXT: Commonevents/2/11/Choice/1
-Exercise to build physical strength
-> END STRING
-
-> BEGIN STRING
-静かな部屋で落ち着いて読書
-> CONTEXT: Commonevents/2/11/Choice/2
-Relax and read in a quiet room
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-そう、他愛の無いお喋りも時には良いものですわね。\\.\\.
-（主人公の性格が【真面目】になります）\\n
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Yes, sometimes it's nice to have a little chat.\\.\\.
-(The main character's personality becomes [Serious])\\n
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふふ、お転婆な女性も素敵だと思いますわ。\\.\\.
-（主人公の性格が【腕白】になります）\\n
-> CONTEXT: None < UNUSED
+またこの大会では
+戦闘後に小休止を挟みますが
+ウェイクアップの支給はございません。
+> CONTEXT: Map227/events/12/pages/0/27/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/27/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ふふ、たくましい殿方は素敵ですわね。\\.\\.
-（主人公の性格が【腕白】になります）\\n
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Hehe, strong men are wonderful.\\.\\.
-(The main character's personality becomes [Naughty])\\n
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふふ、知的な方は絵になりますわね。\\.\\.
-（主人公の性格が【冷静】になります）\\n
-> CONTEXT: None < UNUSED
+ですが\\n[101]センパイも強者の一人・・・。
+見事この条件をも乗り越えることでしょう！
+頑張ってくださいっす！！
+> CONTEXT: Map227/events/12/pages/0/31/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/31/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ふふ、知的な殿方は絵になりますわね。\\.\\.
-（主人公の性格が【冷静】になります）\\n
-> CONTEXT: Commonevents/2/43/Dialogue
-\\name[\\v[2]]\\_
-Hehe, intelligent men are picture perfect.\\.\\.
-(The main character's personality becomes [Calm])\\n
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-『女性のカラダ』のどこに、貴女は魅力を感じますの？
-特に好みが無ければ、一番近いものをお選びになって。
-> CONTEXT: None < UNUSED
+それでは相手選手にご登場いただきましょう。
+気になるお相手は・・・この方たちです！
+> CONTEXT: Map227/events/12/pages/0/37/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/37/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-女性のどこに、貴方は魅力を感じますの？
-特に好みが無ければ、一番近いものをお選びになって。
-> CONTEXT: Commonevents/2/62/Dialogue
-\\name[\\v[2]]\\_
-What do you find attractive about women?
-Choose the option that's closest to your preference.
+ふふふ、こんにちはお兄さん！
+今夜はお姉さまたちと一緒だよ\\H
+> CONTEXT: Map227/events/12/pages/0/83/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/83/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-艶やかな唇
-> CONTEXT: Commonevents/2/65/Choice/0
-Glossy lips
+\\name[\\v[3]]\\_
+話には聞いてたけどホントいい男じゃない\\H
+姉さん、この子私がもらっちゃってもいい？
+> CONTEXT: Map227/events/12/pages/0/86/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/86/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-すらりとした手足
-> CONTEXT: Commonevents/2/65/Choice/1
-Slender body
-> END STRING
-
-> BEGIN STRING
-豊満な胸元
-> CONTEXT: Commonevents/2/65/Choice/2
-Plump breasts
-> END STRING
-
-> BEGIN STRING
-丸みを帯びた腰つき
-> CONTEXT: Commonevents/2/65/Choice/3
-Curvy hips
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふふ、私も貴方に唇を奪われてみたいですわ。\\.\\.
-（主人公の弱点が【口攻めに弱い】になります）\\n
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Hehe, I would also like to steal a kiss from you.\\.\\.
-(The main character's weakness becomes [Mouth weakness])\\n
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふふ、あまり焦らさないでくださいませ\\H
-> CONTEXT: Commonevents/2/75/Dialogue
-> CONTEXT: Commonevents/2/90/Dialogue
-> CONTEXT: Commonevents/2/105/Dialogue
-> CONTEXT: Commonevents/2/120/Dialogue
-\\name[\\v[2]]\\_
-Hehe, there's no need to hurry\\H
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-手足の綺麗な女性は立ち振る舞いも素敵ですわね。\\.\\.
-（主人公の弱点が【手攻めに弱い】になります）\\n
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-A woman with beautiful legs and arms who also has a lovely demeanor.\\.\\.
-(The main character's weakness becomes [Caress weakness])\\n
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-女性の象徴ですものね、嫌いな方などおりませんわ。\\.\\.
-（主人公の弱点が【胸攻めに弱い】になります）\\n
-> CONTEXT: None < UNUSED
+\\name[\\v[4]]\\_
+そうね・・・三人で遊んだ後なら良いわよ\\H
+> CONTEXT: Map227/events/12/pages/0/89/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/89/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-母性の象徴ですものね、嫌いな殿方などおりませんわ。\\.\\.
-（主人公の弱点が【胸攻めに弱い】になります）\\n
-> CONTEXT: Commonevents/2/97/Dialogue
-\\name[\\v[2]]\\_
-It's a symbol of motherhood, and there's no man who doesn't like it.\\.\\.
-(The main character's weakness becomes [Breast weakness])\\n
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふふ、意外と好きな方、多いですわよね。\\.\\.
-（主人公の弱点が【女陰攻めに弱い】になります）\\n
-> CONTEXT: None < UNUSED
+あー！見つけたよお兄さん！
+今日はアネキたちと一緒に勝負だ\\H
+> CONTEXT: Map227/events/12/pages/0/98/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/98/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[2]]\\_
-ふふ、女性の魅力は胸だけとは限りませんもの。\\.\\.
-（主人公の弱点が【女陰攻めに弱い】になります）\\n
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Hehe, a woman's charm is not limited to her breasts.\\.\\.
-(The main character's weakness becomes [Vagina weakness])\\n
+\\name[\\v[3]]\\_
+まあ予想してた通りの奴だが・・・
+お前ほんと有名人だよな。
+> CONTEXT: Map227/events/12/pages/0/101/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/101/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[2]]\\_
-貴女の･･･性の経験について
-教えてもらってもよろしいかしら？
-ふふ、お相手の性別は問いませんわ\\H
-> CONTEXT: None < UNUSED
+\\name[\\v[4]]\\_
+くく、こいつは上玉だ。
+・・・本気でいかねーと足元掬われるかもな。
+わりーが加減はしねーぞ\\H
+> CONTEXT: Map227/events/12/pages/0/104/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/104/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-貴方の･･･女性との経験について
-教えてもらってもよろしいかしら？
-> CONTEXT: None < UNUSED
+ああ、こんなにも生きの良い少年と出会えるとは\\H
+これぞ間違いなく神の思し召しですね\\H
+> CONTEXT: Map227/events/12/pages/0/115/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/115/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+どの神とは存じ上げませんが・・・
+私たちは運がいいことに変わりはありませんね\\H
+> CONTEXT: Map227/events/12/pages/0/118/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/118/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+まあそういうことだ少年。
+ここは私たちの道具になってもらうよ・・・\\H
+> CONTEXT: Map227/events/12/pages/0/121/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/121/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"グラキエース桃"
+> CONTEXT: Map227/events/12/pages/0/128/InlineScript/3:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/128/InlineScript/3:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+あれ？
+ラキ、あんたイメチェンした？
+> CONTEXT: Map227/events/12/pages/0/131/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/131/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+？
+私は元からこんなだよ？
+> CONTEXT: Map227/events/12/pages/0/134/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/134/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-大事なことですものね\\H
-> CONTEXT: None < UNUSED
+が、がんばります・・・！\\H
+> CONTEXT: Map227/events/12/pages/0/137/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/137/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-性の経験は？
-> CONTEXT: None < UNUSED
+"ウィッチクラフト"
+> CONTEXT: Map227/events/12/pages/0/143/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/143/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-女性経験は？
-> CONTEXT: None < UNUSED
+"グレーターデーモン"
+> CONTEXT: Map227/events/12/pages/0/143/InlineScript/2:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/143/InlineScript/2:22 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-ある
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ない
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふふ、すでに経験がありましたのね\\H
-> CONTEXT: None < UNUSED
+"サキュバスクイーン"
+> CONTEXT: Map227/events/12/pages/0/143/InlineScript/3:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/143/InlineScript/3:22 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ふふ、まだ経験はなかったのですね\\H
-> CONTEXT: None < UNUSED
+では２人とも、手はず通りに頼む。
+> CONTEXT: Map227/events/12/pages/0/146/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/146/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+・・・ま、今のリーダーはあんただ。
+指示には従うぜ？
+> CONTEXT: Map227/events/12/pages/0/148/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/148/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+ふふふ・・・
+前に会った時から気になっていたのよね\\H
+> CONTEXT: Map227/events/12/pages/0/151/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/151/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-あらあら･･･\\H
-> CONTEXT: Commonevents/2/127/Dialogue
-\\name[\\v[2]]\\_
-Oh my...\\H
+ふふ、久しぶりね\\H
+今度は３人で遊びに来たわよ\\H
+> CONTEXT: Map227/events/12/pages/0/161/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/161/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[2]]\\_
-まぁ、私としたことが大事な事を伺っておりませんでしたわ。
-> CONTEXT: Commonevents/2/129/Dialogue
-\\name[\\v[2]]\\_
-Well, if anyone asks, I didn't hear anything.
+\\name[\\v[3]]\\_
+噂は聞いていますよ\\H
+ならば全力でお相手するまでです\\H
+> CONTEXT: Map227/events/12/pages/0/164/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/164/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[2]]\\_
-貴方のお名前、教えてくださらないかしら？
-> CONTEXT: Commonevents/2/132/Dialogue
-\\name[\\v[2]]\\_
-Can you tell me your name?
+\\name[\\v[4]]\\_
+ボギー様の名代として呼ばれた身でありますが・・・
+務めは果たさせていただきます。
+> CONTEXT: Map227/events/12/pages/0/167/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/167/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[2]]\\_
-\\v[3]、というお名前なんですの？
-> CONTEXT: Commonevents/2/137/Dialogue
-\\name[\\v[2]]\\_
-\\v[3], is your name?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-あら、ご冗談がお上手ですのね\\H
-> CONTEXT: Commonevents/2/143/Dialogue
-\\name[\\v[2]]\\_
-Oh, you're so funny\\H
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-成程･･･\\H\\.\\.
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-I see...\\H\\.\\.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-･･･ええ、これで質問は終了ですわ。
-ご協力、感謝致しますの。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-...Okay, that's the end of the questions.
-Thank you for your cooperation.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-そろそろ幕も上がりますわ。
-またすぐにでもお会いすることになることでしょうけど･･･。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-It's almost time to raise the curtain.
-I'm sure we'll see each other again soon...
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふふっ、今宵の夢が楽しみですわね\\H
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Hehe, I'm looking forward to tonight's dream\\H
-> END STRING
-
-> BEGIN STRING
-オープニングを見ますか？
-> CONTEXT: None < UNUSED
-Watch the opening?
-> END STRING
-
-> BEGIN STRING
-異性とのお遊び
-> CONTEXT: None < UNUSED
+"ネプラ"
+> CONTEXT: Map227/events/12/pages/0/174/InlineScript/3:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/174/InlineScript/3:22 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-うふふ\\H　素敵な異性との交流は心躍りますものね。\\.\\.
-（主人公の性格が【助平】になります）\\n
-> CONTEXT: None < UNUSED
+いっつしょーたいむ・・・。
+・・・あとまかせた。
+> CONTEXT: Map227/events/12/pages/0/177/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/177/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+ほほほ・・・
+こういう形式が一番面白いのぉ\\H
+> CONTEXT: Map227/events/12/pages/0/180/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/180/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+やや、何も準備してないのですが。
+・・・やるだけやるとしますか。
+> CONTEXT: Map227/events/12/pages/0/183/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/183/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"トイフェル"
+> CONTEXT: Map227/events/12/pages/0/190/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/190/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map126/events/14/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map126/events/14/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map126/events/14/pages/1/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map126/events/14/pages/1/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/235/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/235/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"スカサハ"
+> CONTEXT: Map227/events/12/pages/0/190/InlineScript/2:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/190/InlineScript/2:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"アルビノ"
+> CONTEXT: Map227/events/12/pages/0/190/InlineScript/3:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/190/InlineScript/3:22 < UNTRANSLATED
+> CONTEXT: Map124/events/27/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map124/events/27/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map124/events/27/pages/1/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map124/events/27/pages/1/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/222/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/222/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それじゃ行くわよスカサハ、アルビノ。
+みんなで掛かればなんとやら、よ\\H
+> CONTEXT: Map227/events/12/pages/0/193/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/193/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+よお\\n[101]、そんなわけでだ。
+俺らと遊んでいってもらうぜ？
+> CONTEXT: Map227/events/12/pages/0/196/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/196/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+大丈夫ですよお兄様。
+負けてもわたしがしっかり面倒みてあげますから\\H
+> CONTEXT: Map227/events/12/pages/0/199/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/199/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"メイドサキュバス"
+> CONTEXT: Map227/events/12/pages/0/206/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/206/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"メアリー"
+> CONTEXT: Map227/events/12/pages/0/206/InlineScript/3:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/206/InlineScript/3:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おかえりなさいませご主人様\\H
+ここからは私めたちがご奉仕させてもらいます\\H
+> CONTEXT: Map227/events/12/pages/0/209/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/209/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+ご主人様は私たちを同時に相手にするくらいが
+ちょうどいいと聞いております。
+ならば、礼を尽くすのがメイドの役目・・・\\H
+> CONTEXT: Map227/events/12/pages/0/212/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/212/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+ご主人様はそのままでもいいですよぉ？\\H
+すぐにぃ・・・気持ちよくしちゃいますからぁ・・・\\H
+> CONTEXT: Map227/events/12/pages/0/216/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/216/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"セルウス"
+> CONTEXT: Map227/events/12/pages/0/223/InlineScript/3:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/223/InlineScript/3:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふふ、こんにちはお兄さん！
+遊びに来たよ\\H
+> CONTEXT: Map227/events/12/pages/0/226/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/226/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+お姉さまは来れなかったけど
+代わりに可愛いお嬢ちゃんを連れてきたわ\\H
+> CONTEXT: Map227/events/12/pages/0/229/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/229/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+～～～♪　～～～～～♪
+・・・と、わたしの踊りでさらに盛り上げちゃいますね。
+> CONTEXT: Map227/events/12/pages/0/232/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/232/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"シスターサキュバス"
+> CONTEXT: Map227/events/12/pages/0/239/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/239/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map054/events/10/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map054/events/10/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ニウェウス"
+> CONTEXT: Map227/events/12/pages/0/239/InlineScript/2:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/239/InlineScript/2:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ユキジョロウ"
+> CONTEXT: Map227/events/12/pages/0/239/InlineScript/3:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/239/InlineScript/3:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふふ・・・私がこのような場に立てるとは。
+これも鍛錬のおかげでしょうか・・・\\H
+> CONTEXT: Map227/events/12/pages/0/242/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/242/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+・・・一応聖職者のフリしてるのにいいのかしら？
+ま、悪魔が悩んでいても世話ないわね\\H
+> CONTEXT: Map227/events/12/pages/0/245/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/245/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+ふふ、みなさん楽しそうでなによりです。
+もちろん私も楽しませてもらいますよ・・・？\\H
+> CONTEXT: Map227/events/12/pages/0/248/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/248/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ジャックフロスト"
+> CONTEXT: Map227/events/12/pages/0/255/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/255/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/241/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/241/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/242/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/242/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/243/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/243/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/244/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/244/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/245/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/245/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/246/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/246/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/247/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/247/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/248/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/248/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/249/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/249/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/250/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/250/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/251/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/251/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/252/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/252/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/253/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map165/events/253/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"フロストピロー"
+> CONTEXT: Map227/events/12/pages/0/255/InlineScript/2:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/255/InlineScript/2:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ユキンコ"
+> CONTEXT: Map227/events/12/pages/0/255/InlineScript/3:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/255/InlineScript/3:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やるわよピロー、ユキンコ！
+雪国人の魅力、にーさまに教えてあげるの\\H
+> CONTEXT: Map227/events/12/pages/0/258/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/258/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+ふわぁ…おにーさんも好きですねー。
+小さい娘たちに遊ばれたいなんて・・・\\H
+> CONTEXT: Map227/events/12/pages/0/261/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/261/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+わわ、お客さんいっぱいいる・・・\\H
+でもみんなでやるから恥ずかしくないね\\H
+> CONTEXT: Map227/events/12/pages/0/264/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/264/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"クライオマンサー"
+> CONTEXT: Map227/events/12/pages/0/271/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/271/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ゴブリンシャーマン"
+> CONTEXT: Map227/events/12/pages/0/271/InlineScript/2:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/271/InlineScript/2:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ビショップ"
+> CONTEXT: Map227/events/12/pages/0/271/InlineScript/3:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/271/InlineScript/3:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+また会ったねお兄さん。
+師匠に見聞を広めて来いって言われてね\\H
+> CONTEXT: Map227/events/12/pages/0/274/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/274/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+わわ・・・\\H
+私も入れてもらってよかったのかしら・・・\\H
+> CONTEXT: Map227/events/12/pages/0/277/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/277/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+まあ・・・何事も経験だと思えば・・・。
+実戦でしか得られないものがあるだろうしね・・・\\H
+> CONTEXT: Map227/events/12/pages/0/280/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/280/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ドロフォロス"
+> CONTEXT: Map227/events/12/pages/0/287/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/287/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"コボルト"
+> CONTEXT: Map227/events/12/pages/0/287/InlineScript/2:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/287/InlineScript/2:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"イエティ"
+> CONTEXT: Map227/events/12/pages/0/287/InlineScript/3:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/287/InlineScript/3:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それでは二人とも、
+ここからは房中術の実戦に移りますの\\H
+> CONTEXT: Map227/events/12/pages/0/290/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/290/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+がぅ、分かったよ！
+にーちゃん、覚悟してね\\H
+> CONTEXT: Map227/events/12/pages/0/293/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/293/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+がう、がうがう・・・がぅ\\H
+> CONTEXT: Map227/events/12/pages/0/296/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/296/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"キャスト？"
+> CONTEXT: Map227/events/12/pages/0/302/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/302/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"サンタクロス"
+> CONTEXT: Map227/events/12/pages/0/302/InlineScript/3:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/302/InlineScript/3:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふふ・・・\\H
+なんだか不思議な取り合わせね。
+> CONTEXT: Map227/events/12/pages/0/305/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/305/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+突然呼ばれて来てみれば・・・。
+なるほどね、リベンジの機会がきたってことかい\\H
+> CONTEXT: Map227/events/12/pages/0/308/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/308/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+ほっほっほっ・・・
+何やらとんでもないところに巻き込まれたみたいじゃの・・・
+> CONTEXT: Map227/events/12/pages/0/311/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/311/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+魔人の奴からもらったこれ・・・。
+試すならやっぱり小僧だよな\\H
+> CONTEXT: Map227/events/12/pages/0/321/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/321/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+よーし、たいちょーにいいトコロみせるよー
+> CONTEXT: Map227/events/12/pages/0/324/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/324/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+そうですねルクちゃん。
+ワタシたちでしっかりフォローしましょう\\H
+> CONTEXT: Map227/events/12/pages/0/326/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/326/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+いくでインヴィはん、アケっち！
+ウチらのチームワークを信じるんや！
+> CONTEXT: Map227/events/12/pages/0/336/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/336/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+くふ・・・
+これは篭絡できるまたとない機会ですねぇ・・・\\H
+> CONTEXT: Map227/events/12/pages/0/339/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/339/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+ふわぁ・・・二人ともがんば・・・
+そっかーやっぱりだめかー
+> CONTEXT: Map227/events/12/pages/0/342/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/342/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+果たしてチャンピオンはどう戦うのか！
+参りましょう、エキシビションゲーム！
+レディィィ・・・ファィィッ！！
+> CONTEXT: Map227/events/12/pages/0/349/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/349/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+さすがはチャンピオン！
+\\n[101]選手、見事に勝利しました！
+> CONTEXT: Map227/events/12/pages/1/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/1/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+さて・・・興奮冷めやらぬ中ではありますが
+本日のメインイベントの時間が参りました。
+> CONTEXT: Map227/events/12/pages/1/17/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/1/17/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+『セクスドリームナイト』\\|\\|
+真の強者による一夜限りの狂宴・・・
+> CONTEXT: Map227/events/12/pages/1/21/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/1/21/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+我こそはと名乗りを上げた性闘士は・・・\\|
+この方です！！
+> CONTEXT: Map227/events/12/pages/1/25/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/1/25/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+サキュバス界の重鎮！
+令嬢、シルフェ選手です！！
+> CONTEXT: Map227/events/12/pages/2/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、ごきげんよう\\n[101]様。
+貴方様なら必ずや勝ち残ると信じておりました。
+> CONTEXT: Map227/events/12/pages/2/24/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/24/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ティアヴァール様からお話を聞かせて頂いたときは
+ぜひ私も・・・と、お願いしておりましたが
+こうして相まみえる形になりうれしく思っておりますわ。
+> CONTEXT: Map227/events/12/pages/2/29/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/29/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+知りえた頃はか弱き存在だった貴方様が、
+様々な出会いを経て強き姫君へと成長するお姿・・・。
+まるで上質な冒険譚を見ているようでした・・・\\H
+> CONTEXT: Map227/events/12/pages/2/35/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/35/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+知りえた頃はか弱き存在だった貴方様が、
+様々な出会いを経て強き殿方へと成長するお姿・・・。
+まるで上質な冒険譚を見ているようでした・・・\\H
+> CONTEXT: Map227/events/12/pages/2/41/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/41/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+だから私も・・・\\|
+一度本気で戦いたくなりましたの\\H
+> CONTEXT: Map227/events/12/pages/2/49/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/49/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私とて名のあるサキュバスと自負しております。
+そして強き姫君との戦うことは私にとっても誉れ・・・。
+> CONTEXT: Map227/events/12/pages/2/54/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/54/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私とて名のあるサキュバスと自負しております。
+そして強き殿方との戦うことは私にとっても誉れ・・・。
+> CONTEXT: Map227/events/12/pages/2/59/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/59/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\n[101]様、手加減は無用ですわ。
+私、『慧眼のシルフェ』も
+全力でお相手させていただきますので…\\H
+> CONTEXT: Map227/events/12/pages/2/65/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/65/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+三千世界唯我独尊！
+フルビュア選手です！！
+> CONTEXT: Map227/events/12/pages/2/78/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/78/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふふ、待たせたわね\\n[101]。
+貴方なら必ずこの舞台に来ると思っていたわ。
+> CONTEXT: Map227/events/12/pages/2/91/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/91/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+初めて出会ったときに
+私のキス一つで満身創痍だった貴方が
+ここまで強くなるなんて、分からないものね\\H
+> CONTEXT: Map227/events/12/pages/2/96/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/96/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+成長することに際限などない・・・。
+そんな貴方の姿を見てきたことで、
+私もさらに自分を磨くことが出来たわ\\H
+> CONTEXT: Map227/events/12/pages/2/101/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/101/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+これはそのお礼・・・\\|
+今の私の姿を貴方に味合わせてあげる\\H
+> CONTEXT: Map227/events/12/pages/2/107/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/107/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あの時とは違い１対１の真剣勝負・・・
+もちろん断らないわよね\\H
+> CONTEXT: Map227/events/12/pages/2/111/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/111/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私、【美の体現者】である
+フルビュア・シーナ・レスターニが相手をするのだから
+光栄に思いなさい、\\n[101]\\H
+> CONTEXT: Map227/events/12/pages/2/115/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/115/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+天然由来の変幻自在！
+ネイジュレンジ選手です！！
+> CONTEXT: Map227/events/12/pages/2/128/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/128/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふんふーん♪ご機嫌さんだねぇ\\n[101]。
+さっきのえっち見てたけど、かっこよかったよぉ\\H
+> CONTEXT: Map227/events/12/pages/2/141/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/141/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+可愛い顔してこんなにえっちが上手になるなんてぇ♪
+初めて会った時は想像できなかったよぉ\\H
+> CONTEXT: Map227/events/12/pages/2/146/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/146/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+・・・\\|えへへー、
+いろいろ考えてきたのに忘れちゃったぁ♪
+だから、言いたいことだけ言うね\\H
+> CONTEXT: Map227/events/12/pages/2/150/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/150/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今度は私とぉ・・・\\|
+いーっぱいえっちしようよぉ♪
+> CONTEXT: Map227/events/12/pages/2/156/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/156/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+みんなだってここでえっちを楽しんでるしぃ、
+私だけ楽しんじゃダメってことはないよねぇ？
+> CONTEXT: Map227/events/12/pages/2/160/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/160/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もちろん\\n[101]だけじゃなくてぇ観客のみんなもぉ、
+私のとりこにしてあげるからねぇ♪
+> CONTEXT: Map227/events/12/pages/2/164/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/164/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+暴走系元教主様！
+ヴェルミィーナ選手です！！
+> CONTEXT: Map227/events/12/pages/2/176/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/176/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふふ\\Hまさか\\n[101]と
+こんな形で戦うことになるなんてね\\H
+> CONTEXT: Map227/events/12/pages/2/189/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/189/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ねぇ\\n[101]、
+初めて出会った時のことを覚えているかしら？
+・・・\\|て今さらよね、答えなくてもいいわ。
+> CONTEXT: Map227/events/12/pages/2/194/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/194/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あんなことをしちゃった私でも
+\\n[101]は恐れず受けれてくれた。
+それは本当に感謝しているわ。
+> CONTEXT: Map227/events/12/pages/2/199/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/199/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+だからこそ・・・\\|
+\\n[101]、私と本気で戦ってちょうだい・・・\\H
+> CONTEXT: Map227/events/12/pages/2/205/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/205/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+過去の私を受け入れてくれたように
+これからの私も、
+\\n[101]の傍でずっと在り続けたいから・・・。
+> CONTEXT: Map227/events/12/pages/2/209/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/209/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+・・・うん、ありがとう\\H
+それじゃあはじめましょうか。\\|
+子どものように純粋に、\\|大人のように甘美に・・・ね\\H
+> CONTEXT: Map227/events/12/pages/2/214/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/214/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+トップアイドルが緊急参戦！
+『ヘメテル』こと、へメレ選手とアイテル選手です！！
+> CONTEXT: Map227/events/12/pages/2/230/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/230/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やーやーヒーロー君、
+相変わらず盛り上がってるみたいだね\\H
+> CONTEXT: Map227/events/12/pages/2/251/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/251/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+すっかりセクシアムのスター選手ですね。
+その姿勢にはショーを生業にしてる私たちにも
+学ぶべき点があるくらいですよ。
+> CONTEXT: Map227/events/12/pages/2/254/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/254/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それで本題だけど・・・
+て、皆まで言わなくても察してるよね？\\H
+> CONTEXT: Map227/events/12/pages/2/260/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/260/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+だめだよヘメレ、
+こういうことはちゃんと言わないと。
+ほら、ヒーローさんもちょっと困ってるよ？
+> CONTEXT: Map227/events/12/pages/2/263/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/263/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+むー・・・分かったよ。\\|
+ヒーロー君、ボク達と勝負してほしいんだ\\H
+> CONTEXT: Map227/events/12/pages/2/268/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/268/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+私からもお願いします、ヒーローさん。
+私たちもトップアイドルを背負う身・・・
+負けたままでは立つ瀬がないのです・・・\\H
+> CONTEXT: Map227/events/12/pages/2/272/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/272/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ボク達は二人だけど知っての通り
+感覚共有のおかげで快感も二人に返ってくるんだ。
+条件としては互角だとおもうけど・・・どうかな？
+> CONTEXT: Map227/events/12/pages/2/277/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/277/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+・・・！\\H
+了承、たしかにいただきました\\H
+では・・・・・・
+> CONTEXT: Map227/events/12/pages/2/282/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/282/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【ヘメテル】
+『今夜もみんなを、\\|最幸の時間にご招待\\H』
+> CONTEXT: Map227/events/12/pages/2/288/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/288/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+常夜の街の領主にして母なる夜！
+ニュクス選手です！！
+> CONTEXT: Map227/events/12/pages/2/299/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/299/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ\\Hさすがは\\n[101]、といったところですわね。
+まずはおめでとうございます。
+> CONTEXT: Map227/events/12/pages/2/311/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/311/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あの胸躍る時間を過ごせたこと、
+見続けていたわたくしの目にくるいはありませんでした\\H
+> CONTEXT: Map227/events/12/pages/2/316/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/316/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あの娘たちとも仲良くやっていただいているみたいで
+母としても貴方には感謝しています\\H
+> CONTEXT: Map227/events/12/pages/2/320/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/320/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ですのでお礼を兼ねまして・・・\\|
+わたくしと一曲踊っていただけますか？
+> CONTEXT: Map227/events/12/pages/2/325/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/325/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+貴方とは一度、
+とことんやってみたいと思っていたのです。
+わたくしも、女ですからね\\H
+> CONTEXT: Map227/events/12/pages/2/329/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/329/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+・・・ふふ、ありがとうございます。
+忘れられない一夜になることをお約束しますわ\\H
+> CONTEXT: Map227/events/12/pages/2/334/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/334/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+穢れを知らない聖少女！
+イヴ選手です！！
+> CONTEXT: Map227/events/12/pages/2/346/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/346/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+・・・こんばんは・・・\\n[101]・・・
+> CONTEXT: Map227/events/12/pages/2/359/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/359/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+・・・あなたに、出会ってから・・・
+外の世界・・・たくさん・・・わかった・・・
+> CONTEXT: Map227/events/12/pages/2/363/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/363/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+エルジェとも・・・たくさんおはなし・・・できた・・・
+シルキーにも・・・ごめんなさいって・・・
+いえたんだよ・・・？
+> CONTEXT: Map227/events/12/pages/2/367/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/367/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+だから\\n[101]に・・・\\|
+お礼がしたいな・・・\\H
+> CONTEXT: Map227/events/12/pages/2/379/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/379/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\n[101]も・・・見られるの・・・きらいじゃないよね・・・？
+・・・ふふ\\H　あそこもぴくって・・・反応したよ・・・\\H
+> CONTEXT: Map227/events/12/pages/2/383/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/383/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今度はわたしが・・・きもちよくしてあげる・・・\\H
+いっぱい愛し合お・・・\\n[101]・・・・・・\\H
+> CONTEXT: Map227/events/12/pages/2/387/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/387/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+自身に表も裏も存在しない！
+シャッテンベスティ選手です！！
+> CONTEXT: Map227/events/12/pages/2/399/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/399/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふふ、意外だったかしら？
+私が貴方と戦いたいと思うなんて・・・\\H
+> CONTEXT: Map227/events/12/pages/2/412/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/412/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+・・・負の感情から生まれた私を
+愛してくれうことなんてないと思っていたけど、
+貴方は構わず私を愛してくれた。
+> CONTEXT: Map227/events/12/pages/2/417/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/417/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私たちが認めた人が貴方でよかった。
+私たちのことを受け入れてくれる貴方でよかった。
+本当に感謝してもし切れないわ\\H
+> CONTEXT: Map227/events/12/pages/2/422/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/422/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+だからかな、私・・・\\|
+もう一度\\n[101]と戦いたくなったの・・・\\H
+> CONTEXT: Map227/events/12/pages/2/428/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/428/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+貴方を護るためにも、私がもっと強くならないとダメ。
+そうじゃないと私が私を許せなくなっちゃうから・・・。
+ワガママかな・・・？・・・\\|ふふ、ありがと\\H
+> CONTEXT: Map227/events/12/pages/2/432/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/432/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それじゃ行くわよ\\n[101]…\\H
+『親愛なる影』シャッテンベスティ――\\|
+今こそ、最愛たる貴方の元へ・・・\\H
+> CONTEXT: Map227/events/12/pages/2/437/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/437/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+伝説の技が今蘇る！
+専属メイド長、シルクレディ選手です！！
+> CONTEXT: Map227/events/12/pages/2/450/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/450/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+・・・（ペコリ。
+> CONTEXT: Map227/events/12/pages/2/463/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/463/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+・・・\\|エルジェ様のこと、それにターナのこと。
+本当にありがとうございます。
+> CONTEXT: Map227/events/12/pages/2/467/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/467/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+後進もすっかり長として動けているみたいで
+おかげでターナの専属メイドとして
+充実した毎日を送れています。
+> CONTEXT: Map227/events/12/pages/2/471/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/471/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+だから今こそ・・・\\|
+改めてご主人様に挑みたいのです。
+> CONTEXT: Map227/events/12/pages/2/477/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/477/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+僭越ながら私も長の位を賜った身・・・
+技術には覚えがあります。
+それに、今の私にも護りたいものがある。
+> CONTEXT: Map227/events/12/pages/2/481/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/481/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+・・・\\|ふふ、承諾ありがとうございます。
+それでは参ります―――\\|お覚悟を\\H
+> CONTEXT: Map227/events/12/pages/2/486/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/486/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+死より深き絶頂を貴方に！
+タナトス選手です！！
+> CONTEXT: Map227/events/12/pages/2/498/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/498/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+はぁ・・・まんまとお母様たち騙されたわ。
+最近運動不足だとは言ったけれど
+何もお膳立てしてくれなくてもいいのに・・・。
+> CONTEXT: Map227/events/12/pages/2/512/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/512/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+・・・と、貴方に対して言うことじゃないわね。
+ごめんなさい悪い気にさせちゃって。
+> CONTEXT: Map227/events/12/pages/2/517/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/517/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\n[101]もご苦労様ね。
+今の闘いぶりも良かったわよ。
+おめでとう。
+> CONTEXT: Map227/events/12/pages/2/521/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/521/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+まぁ・・・いい機会だし楽しませて貰おうかしら。
+強くなった貴方の力にも興味があるしね・・・\\H
+> CONTEXT: Map227/events/12/pages/2/527/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/527/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今度は魂の取り合いではない
+死をも溶かす快楽を貴方に与えてあげるわ・・・\\H
+> CONTEXT: Map227/events/12/pages/2/531/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/531/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+【傲慢】の名を持つふたなり淫魔！
+スペルビア選手です！！
+> CONTEXT: Map227/events/12/pages/2/543/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/543/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+くく、こうやってオマエと対峙するのは
+何度目だったかな・・・\\H
+> CONTEXT: Map227/events/12/pages/2/556/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/556/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+・・・あの世界しか知らなかったオレたちに
+オマエは新しい居場所をくれた。
+そのことはオレも隊長サマたちも感謝している。
+> CONTEXT: Map227/events/12/pages/2/561/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/561/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+・・・\\|・・・\\|だがな。
+> CONTEXT: Map227/events/12/pages/2/566/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/566/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やられっぱなしてのは性に合わねぇんだよ！
+> CONTEXT: Map227/events/12/pages/2/574/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/574/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イーラ「やっちまえスぺ！」
+アヴァ「なんとでもなるはずや！」
+ルクグーラ「がんばれー！」アケ「ふぁいとー」
+インヴィ「頑張ってくださいねぇ\\H」
+> CONTEXT: Map227/events/12/pages/2/577/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/577/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+行くぜ\\n[101]！
+オレとお前、どっちが上か・・・\\|
+白黒はっきりさせようじゃねぇか！！
+> CONTEXT: Map227/events/12/pages/2/583/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/583/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+行くぜ\\n[101]！
+ここらで誰が最強の槍使いか・・・\\|
+白黒はっきりさせようじゃねぇか！！
+> CONTEXT: Map227/events/12/pages/2/589/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/589/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+異世界の戦乙女！
+ヴァルキュリヤ選手です！！
+> CONTEXT: Map227/events/12/pages/2/604/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/604/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ご機嫌麗しゅう、我が勇者様。
+まずは先ほどの一戦を勝ち切ったことへの祝福を。
+おめでとうございます、流石ですね・・・。
+> CONTEXT: Map227/events/12/pages/2/617/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/617/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\n[101]様は私に新たな希望を与えてくれました。
+ただ朽ちていくだけの残滓が
+生きる意味を経て新生したと言っていいでしょう。
+> CONTEXT: Map227/events/12/pages/2/623/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/623/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私も貴方様の剣として日夜研鑽を積んでおります。
+貴方様に立ち塞がる者どもを祓うために。
+> CONTEXT: Map227/events/12/pages/2/628/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/628/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なので本日は・・・\\|
+私に稽古をつけてくれませんか・・・\\H
+> CONTEXT: Map227/events/12/pages/2/633/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/633/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+自身の力量を正確に測るのも剣としての役割。
+そしてそれをなすことが出来るのは
+勇者様たる\\n[101]様ただお一人なのです・・・\\H
+> CONTEXT: Map227/events/12/pages/2/637/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/637/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、ありがとうございます…\\H
+『戦乙女』ヴァルキュリヤ――\\|
+必ずや我が君を満足させてみせます・・・\\H
+> CONTEXT: Map227/events/12/pages/2/642/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/642/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+銀色の都市の元領主様！
+シスター、エルジェマリア選手です！！
+> CONTEXT: Map227/events/12/pages/2/655/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/655/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"分体エルジェ"
+> CONTEXT: Map227/events/12/pages/2/667/InlineScript/2:22 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/667/InlineScript/2:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、こんばんは\\n[101]。
+私の予想通り勝ち進んできましたね。
+まずはおめでとうございます。
+> CONTEXT: Map227/events/12/pages/2/670/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/670/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+・・・貴方はこれからも厳しい戦いに身を投じるでしょう。
+成り行きだったかもしれませんが
+ここまで本当にありがとうございます。
+> CONTEXT: Map227/events/12/pages/2/676/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/676/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なのでお礼も兼ねまして・・・\\|
+一つ稽古をつけて上げようと思います。
+> CONTEXT: Map227/events/12/pages/2/681/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/681/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+ここからは『私たち』がお相手します・・・\\H
+準備はよろしいですよね\\H
+> CONTEXT: Map227/events/12/pages/2/688/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/688/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+ななな・・・\\|なんとエルジェ選手が２人います！？
+これは\\n[101]選手、
+さすがにピンチでしょうか！？
+> CONTEXT: Map227/events/12/pages/2/692/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/692/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、大丈夫です。
+同時に全力はさすがに大変ですから。
+分体の出力はだいぶ抑えていますよ・・・\\H
+> CONTEXT: Map227/events/12/pages/2/697/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/697/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+それと、今の貴方の全力を知りたいですから
+回復をしてあげますね。
+・・・\\|それ\\H
+> CONTEXT: Map227/events/12/pages/2/702/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/702/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+では、始めましょうか\\n[101]。
+私、エルジェマリアがお相手します……\\H
+> CONTEXT: Map227/events/12/pages/2/710/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/710/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+両選手準備が整ったようです！
+会場のボルテージも更に高まっています！
+これは素晴らしい一戦が期待できるでしょう！！
+> CONTEXT: Map227/events/12/pages/2/718/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/718/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それでは参りましょう！
+スペシャルセクシアムバトォ！\\|
+レディィィ・・・・・・
+> CONTEXT: Map227/events/12/pages/2/723/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/723/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+決っっっちゃぁぁっぁくぅうううぅ！\\|
+\\n[101]選手の勝利ですっ！！
+> CONTEXT: Map227/events/12/pages/2/1087/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/2/1087/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+勝ち抜いた\\n[101]選手に賞品贈呈です！
+> CONTEXT: Map227/events/12/pages/3/6/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、見事に負けてしまいましたわ\\H
+本当に強くなりましたのね、\\n[101]様。
+> CONTEXT: Map227/events/12/pages/3/114/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/114/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ですけど悔いはないですわ。
+互いに全力を出しあった末の幕引きなのですから、
+どのような形であれ価値があるというもの。
+> CONTEXT: Map227/events/12/pages/3/118/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/118/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\n[101]様、本当におめでとうございます。
+これからも貴方様の近くで
+物語を見届けさせてくださいまし\\H　・・・\\|んっ\\H
+> CONTEXT: Map227/events/12/pages/3/123/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/123/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふふ、いい試合だったわね。
+この私を正面から負かすなんて、見違えたじゃない\\H
+> CONTEXT: Map227/events/12/pages/3/139/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/139/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+だけど当然よね。
+この私が認めた雌（おんな）なのだから、
+そうでなくては相応しくないわ\\H
+> CONTEXT: Map227/events/12/pages/3/144/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/144/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+だけど当然よね。
+この私が認めた雄（おとこ）なのだから、
+そうでなくては相応しくないわ\\H
+> CONTEXT: Map227/events/12/pages/3/150/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/150/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あなたたちも讃えなさい\\H
+このフルビュア・シーナ・レスターニの美を、
+それに勝るとも劣らない\\n[101]の強さを\\H
+> CONTEXT: Map227/events/12/pages/3/162/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/162/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+はふぅ、負けちゃったぁ…。
+\\n[101]、ほんとに上手くなったよねぇ。
+> CONTEXT: Map227/events/12/pages/3/175/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/175/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+でもでもぉ！
+私も気持ちよかったからありがとうだよぉ♪
+> CONTEXT: Map227/events/12/pages/3/179/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/179/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+えへへーお礼のキスだよ♪
+・・・顔赤くしちゃてぇ、やっぱり可愛いなぁ\\H
+> CONTEXT: Map227/events/12/pages/3/185/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/185/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あーあ、負けちゃった…。
+ありがとう\\n[101]、全力で戦ってくれて。
+> CONTEXT: Map227/events/12/pages/3/196/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/196/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+２人で愛し合って分からせられたら
+言い訳のしようがないわ。
+さすが私たちの想い人ね\\H
+> CONTEXT: Map227/events/12/pages/3/200/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/200/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうそう、勝者にはご褒美をあげなくちゃ。
+せっかくだし目をつぶってて？
+…\\|おめでとう\\n[101]\\H
+> CONTEXT: Map227/events/12/pages/3/205/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/205/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+うふふ・・・素晴らしいひと時でしたわ。
+ありがとうございます、\\n[101]\\H
+> CONTEXT: Map227/events/12/pages/3/219/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/219/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢世界の夜をも魅了する貴方の力、
+隅々まで堪能させていただきましたわ\\H
+こういうのも悪くないですわね。
+> CONTEXT: Map227/events/12/pages/3/223/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/223/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+次の機会も是非ともお相手させてくださいね。
+娘たちともども、お待ちしておりますわ\\H
+> CONTEXT: Map227/events/12/pages/3/228/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/228/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あーくそ！負けだ負けだ！
+サシでやりあっていいようにされたんじゃ
+認めるしかないわな…。
+> CONTEXT: Map227/events/12/pages/3/242/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/242/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おい\\n[101]、少し屈め。
+・・・いいから屈めって言ってるだろ！
+・・・\\|・・・\\|おめでとう、\\n[101]さん\\H
+> CONTEXT: Map227/events/12/pages/3/247/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/247/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イーラ「ほう・・・\\H」インヴィ「これはこれは・・・\\H」
+アケディ「・・・珍しいものを見たね」
+ルク「スぺちゃん顔真っ赤\\H」グーラ「ふふ、そうですね\\H」
+アヴァ「やっぱりスぺっちも女・・・もとい乙女やな\\H」
+> CONTEXT: Map227/events/12/pages/3/256/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/256/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+う、うるせーぞお前ら！？\\H
+> CONTEXT: Map227/events/12/pages/3/269/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/269/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おめでとうございますご主人様。
+さすがエルジェ様とターナがお認めになる御方・・・。
+私の完敗でございました。
+> CONTEXT: Map227/events/12/pages/3/279/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/279/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あの娘たちも遅れを取るのがよく分かりました。
+・・・ですがこれで終わるつもりはありません。
+従者として、さらに精進していく所存です。
+> CONTEXT: Map227/events/12/pages/3/284/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/284/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今夜は稽古をつけていただきありがとうございました。
+今後とも私達シルキー、そしてメイドたちを
+よろしくお願いいたします。
+> CONTEXT: Map227/events/12/pages/3/289/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/289/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+むぅ…私が気持ちよく……してあげたかったのに……。
+\\n[101]の……いじわる……\\H
+> CONTEXT: Map227/events/12/pages/3/304/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/304/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+でも……はじめて会った時みたいに……
+すごくどきどきしたよ……\\H
+> CONTEXT: Map227/events/12/pages/3/308/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/308/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ん……と……こういう時は……
+しゅくふくのキスがいいて……エルジェが言ってた……\\H
+おめでとう……\\n[101]……\\H
+> CONTEXT: Map227/events/12/pages/3/312/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/312/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あーあ負けちゃった…\\H
+ヒーローくん、本当に強いよね。
+> CONTEXT: Map227/events/12/pages/3/331/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/331/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+うぅ……また負けるなんて……\\H
+ダンス勝負の方がまだ勝機がありそう……。
+> CONTEXT: Map227/events/12/pages/3/335/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/335/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……！それだよアイテル！
+ヒーローくん、
+今度はボク達のステージで勝負しようよ！
+> CONTEXT: Map227/events/12/pages/3/343/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/343/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+え、えええ！？
+だ、ダメだよヘメレ！
+ヒーローさんにも予定があるんだろうし……。
+> CONTEXT: Map227/events/12/pages/3/351/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/351/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ヘメレ「でも絶対妙案だと思うよ」
+アイテル「だからってヒーローさんをステージでなんて」
+ヘメレ「アイテルだって踊ってるヒーローくん見たいでしょ？」
+アイテル「それは、そうだけど……\\H」
+> CONTEXT: Map227/events/12/pages/3/361/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/361/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\n[101]様、ありがとうございました。
+私も少しは強くなったと自負していたのですが
+まだまだその強さには届きませんね…。
+> CONTEXT: Map227/events/12/pages/3/373/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/373/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……ふふ、ねぎらいありがとうございます。
+貴方様のような主にお仕え出来たことは
+この世界に来て一番の幸運でした\\H
+> CONTEXT: Map227/events/12/pages/3/378/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/378/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+これからも主様の剣として
+更なる精進を重ねていきます。
+最後までお傍に仕えれるように……\\H
+> CONTEXT: Map227/events/12/pages/3/383/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/383/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、負けちゃった…\\H
+\\n[101]…本当に強くなったのね…\\H
+> CONTEXT: Map227/events/12/pages/3/398/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/398/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+受け入れて勝つ…。
+自我を得たキャストが言っていた通り、
+それが出来るのが貴方の本当の強さよ\\H
+> CONTEXT: Map227/events/12/pages/3/402/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/402/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+と、難しい話はこれくらいにして
+ご褒美をあげなくっちゃね\\H
+……\\|おめでとう\\n[101]\\H
+> CONTEXT: Map227/events/12/pages/3/407/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/407/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+はぁ・・・本当はいけると思ったんだけど
+そううまくいかないわね・・・\\H
+> CONTEXT: Map227/events/12/pages/3/423/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/423/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+まあでも・・・いい運動にはなったわ。
+ありがとう\\n[101]\\H
+> CONTEXT: Map227/events/12/pages/3/427/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/427/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+死神すら魅せる貴方の力、
+これからも頼りにしてるわよ\\H
+> CONTEXT: Map227/events/12/pages/3/431/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/431/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふふ、あの状況から勝ち切れるとは……。
+文句のつけようもありませんね\\H
+> CONTEXT: Map227/events/12/pages/3/443/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/443/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\n[101]、これからも頼りにしています。
+微力ながら私も、
+貴方に助力しますので……\\H
+> CONTEXT: Map227/events/12/pages/3/447/Dialogue < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/3/447/Dialogue < UNTRANSLATED
 
 > END STRING

@@ -70,10 +70,11 @@ OFF
 
 > BEGIN STRING
 "羊"
-> CONTEXT: Map364/events/7/pages/0/0/InlineScript/1:22
 > CONTEXT: Map876/events/7/pages/0/0/InlineScript/1:22
 > CONTEXT: Map702/events/17/pages/0/0/InlineScript/1:22
 > CONTEXT: Map624/events/100/pages/0/0/InlineScript/1:22
+> CONTEXT: Map364/events/7/pages/0/0/InlineScript/1:22
+> CONTEXT: Map364/events/7/pages/0/0/InlineScript/1:22
 "Sheep"
 > END STRING
 
@@ -82,8 +83,12 @@ OFF
 > CONTEXT: Map876/events/10/pages/0/0/InlineScript/1:22
 > CONTEXT: Map649/events/3/pages/0/0/InlineScript/1:22
 > CONTEXT: Map005/events/12/pages/2/0/InlineScript/1:22
+> CONTEXT: Map005/events/12/pages/2/0/InlineScript/1:22
+> CONTEXT: Map005/events/16/pages/0/0/InlineScript/1:22
 > CONTEXT: Map005/events/16/pages/0/0/InlineScript/1:22
 > CONTEXT: Map002/events/31/pages/0/0/InlineScript/1:22
+> CONTEXT: Map002/events/31/pages/0/0/InlineScript/1:22
+> CONTEXT: Map002/events/32/pages/0/0/InlineScript/1:22
 > CONTEXT: Map002/events/32/pages/0/0/InlineScript/1:22
 "Sorceress"
 > END STRING
@@ -115,7 +120,8 @@ OFF
 黄色の床はダメージ床です。
 EPが減ります。
 > CONTEXT: Map876/events/16/pages/0/0/Dialogue
-> CONTEXT: Map245/events/56/pages/0/1/Dialogue
+> CONTEXT: Map282/events/56/pages/0/1/Dialogue
+> CONTEXT: Map282/events/56/pages/0/1/Dialogue
 Blue tile are hunger tiles.
 Your satiety levels will decrease.
 Yellow tiles are damage tiles.
@@ -131,69 +137,128 @@ EP will decrease.
 > CONTEXT: Map652/events/3/pages/1/7/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Map631/events/18/pages/1/7/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Map566/events/1/pages/1/7/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Commonevents/10/55/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Commonevents/10/68/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Commonevents/12/59/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Commonevents/12/104/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Commonevents/38/17/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Commonevents/138/28/InlineScript/2:28 < UNTRANSLATED
-> CONTEXT: Commonevents/138/36/InlineScript/3:28 < UNTRANSLATED
-> CONTEXT: Commonevents/138/45/InlineScript/2:28 < UNTRANSLATED
-> CONTEXT: Commonevents/138/53/InlineScript/2:28 < UNTRANSLATED
-> CONTEXT: Commonevents/138/61/InlineScript/2:28 < UNTRANSLATED
-> CONTEXT: Commonevents/341/16/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map280/events/2/pages/0/11/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map286/events/2/pages/0/148/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map267/events/1/pages/0/0/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map265/events/4/pages/0/0/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map263/events/17/pages/0/0/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map271/events/15/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map257/events/2/pages/0/0/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map259/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map261/events/4/pages/0/0/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map271/events/32/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map271/events/34/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map271/events/35/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map271/events/36/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map271/events/37/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map271/events/38/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map271/events/41/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map271/events/44/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map271/events/45/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map271/events/49/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map271/events/50/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map271/events/51/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map271/events/52/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map271/events/53/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map253/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map251/events/8/pages/0/0/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map247/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map249/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map246/events/7/pages/0/0/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map242/events/1/pages/0/24/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map241/events/4/pages/0/24/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map244/events/1/pages/1/105/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map225/events/1/pages/0/24/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map225/events/1/pages/2/24/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map200/events/1/pages/0/2/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map214/events/16/pages/2/7/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map214/events/17/pages/2/7/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map193/events/12/pages/0/4/InlineScript/2:27 < UNTRANSLATED
-> CONTEXT: Map214/events/18/pages/1/7/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map141/events/1/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map129/events/23/pages/0/2/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map135/events/1/pages/0/152/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map132/events/1/pages/1/160/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map100/events/2/pages/0/1/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map132/events/6/pages/1/11/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map135/events/1/pages/1/151/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map114/events/25/pages/1/7/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map087/events/13/pages/2/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map715/events/28/pages/0/16/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map710/events/22/pages/0/16/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map724/events/156/pages/0/16/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map710/events/40/pages/0/16/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Commonevents/10/44/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Commonevents/10/57/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Commonevents/138/29/InlineScript/2:28 < UNTRANSLATED
+> CONTEXT: Commonevents/138/37/InlineScript/3:28 < UNTRANSLATED
+> CONTEXT: Commonevents/138/46/InlineScript/2:28 < UNTRANSLATED
+> CONTEXT: Commonevents/138/54/InlineScript/2:28 < UNTRANSLATED
+> CONTEXT: Commonevents/138/62/InlineScript/2:28 < UNTRANSLATED
+> CONTEXT: Commonevents/341/20/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Commonevents/341/50/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map323/events/2/pages/0/148/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map323/events/2/pages/0/148/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map317/events/2/pages/0/11/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map317/events/2/pages/0/11/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map304/events/1/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map304/events/1/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map300/events/17/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map300/events/17/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map302/events/4/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map302/events/4/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/15/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/15/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map294/events/2/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map294/events/2/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map298/events/4/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map298/events/4/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map296/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map296/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/32/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/32/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map290/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map290/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/34/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/34/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/35/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/35/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map288/events/8/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map288/events/8/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/36/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/36/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/37/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/37/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/38/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/38/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/41/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/41/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/44/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/44/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/45/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/45/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map286/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map286/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/49/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/49/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/50/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/50/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/51/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/51/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/52/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/52/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/53/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map308/events/53/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map281/events/1/pages/1/105/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map281/events/1/pages/1/105/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map284/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map284/events/5/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map283/events/7/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map283/events/7/pages/0/0/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map279/events/1/pages/0/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map279/events/1/pages/0/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map278/events/4/pages/0/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map278/events/4/pages/0/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map278/events/4/pages/1/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map278/events/4/pages/1/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map262/events/1/pages/0/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map262/events/1/pages/0/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map262/events/1/pages/2/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map262/events/1/pages/2/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map262/events/1/pages/3/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map262/events/1/pages/3/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map237/events/1/pages/0/2/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map237/events/1/pages/0/2/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map251/events/16/pages/2/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map251/events/16/pages/2/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map251/events/17/pages/2/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map251/events/17/pages/2/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map251/events/18/pages/1/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map251/events/18/pages/1/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map230/events/12/pages/0/4/InlineScript/2:27 < UNTRANSLATED
+> CONTEXT: Map230/events/12/pages/0/4/InlineScript/2:27 < UNTRANSLATED
+> CONTEXT: Map178/events/1/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map178/events/1/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map172/events/1/pages/0/152/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map172/events/1/pages/0/152/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map166/events/23/pages/0/2/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map166/events/23/pages/0/2/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map169/events/1/pages/1/160/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map169/events/1/pages/1/160/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map169/events/6/pages/1/11/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map169/events/6/pages/1/11/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map172/events/1/pages/1/151/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map172/events/1/pages/1/151/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map137/events/2/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map137/events/2/pages/0/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map151/events/25/pages/1/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map151/events/25/pages/1/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map124/events/13/pages/2/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map124/events/13/pages/2/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map120/events/3/pages/0/88/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map120/events/3/pages/0/88/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Map047/events/14/pages/0/27/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map142/events/24/pages/0/4/InlineScript/2:27 < UNTRANSLATED
+> CONTEXT: Map047/events/14/pages/0/27/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map179/events/24/pages/0/4/InlineScript/2:27 < UNTRANSLATED
+> CONTEXT: Map179/events/24/pages/0/4/InlineScript/2:27 < UNTRANSLATED
 > CONTEXT: Map007/events/3/pages/0/31/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map241/events/4/pages/1/24/InlineScript/1:27 < UNTRANSLATED
-> CONTEXT: Map225/events/1/pages/3/24/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map007/events/3/pages/0/31/InlineScript/1:27 < UNTRANSLATED
 
 > END STRING
 
@@ -436,16 +501,26 @@ Become non-virgin
 > CONTEXT: Map559/events/6/pages/0/7/Choice/3
 > CONTEXT: Map559/events/7/pages/0/7/Choice/3
 > CONTEXT: Map559/events/8/pages/0/7/Choice/3
-> CONTEXT: Map182/events/5/pages/0/7/Choice/3
-> CONTEXT: Map182/events/5/pages/0/7/Choice/3
-> CONTEXT: Map171/events/2/pages/0/7/Choice/3
-> CONTEXT: Map171/events/2/pages/0/7/Choice/3
-> CONTEXT: Map182/events/8/pages/0/7/Choice/3
-> CONTEXT: Map182/events/8/pages/0/7/Choice/3
-> CONTEXT: Map171/events/3/pages/0/7/Choice/3
-> CONTEXT: Map171/events/3/pages/0/7/Choice/3
-> CONTEXT: Map182/events/9/pages/0/7/Choice/3
-> CONTEXT: Map182/events/9/pages/0/7/Choice/3
+> CONTEXT: Map219/events/5/pages/0/7/Choice/3
+> CONTEXT: Map219/events/5/pages/0/7/Choice/3
+> CONTEXT: Map219/events/5/pages/0/7/Choice/3
+> CONTEXT: Map219/events/5/pages/0/7/Choice/3
+> CONTEXT: Map219/events/8/pages/0/7/Choice/3
+> CONTEXT: Map219/events/8/pages/0/7/Choice/3
+> CONTEXT: Map219/events/8/pages/0/7/Choice/3
+> CONTEXT: Map219/events/8/pages/0/7/Choice/3
+> CONTEXT: Map208/events/2/pages/0/7/Choice/3
+> CONTEXT: Map208/events/2/pages/0/7/Choice/3
+> CONTEXT: Map219/events/9/pages/0/7/Choice/3
+> CONTEXT: Map219/events/9/pages/0/7/Choice/3
+> CONTEXT: Map208/events/2/pages/0/7/Choice/3
+> CONTEXT: Map208/events/2/pages/0/7/Choice/3
+> CONTEXT: Map219/events/9/pages/0/7/Choice/3
+> CONTEXT: Map219/events/9/pages/0/7/Choice/3
+> CONTEXT: Map208/events/3/pages/0/7/Choice/3
+> CONTEXT: Map208/events/3/pages/0/7/Choice/3
+> CONTEXT: Map208/events/3/pages/0/7/Choice/3
+> CONTEXT: Map208/events/3/pages/0/7/Choice/3
 Quit after all
 > END STRING
 

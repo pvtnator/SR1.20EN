@@ -1,72 +1,9 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-………？
-空き家のようだが人の気配がある…
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-この先は領域外区域に続いているよ。
-結界の外だから当然夢魔に襲われる。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-まあ、都市の影響があるのか
-人目があるところでは襲ってこないらしいけどな
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-領主様の言いつけで見張り番してます！
-たまーに外の夢魔が入ってくることがあるので
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-まあ入った瞬間、結界で封じられて
-牢屋行きですけどね…
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-向かいの空き家なんだろうな…
-なんでも「影に襲われる」という噂があるらしい
-「見知った部屋がある」とも聞いたな。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-噂のせいか今じゃ誰も近づかないんだ
-謎は深まるばかりだ…
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-※注意
-時間を戻すと常夜の街以降の進行が全てリセットされます。
-ご注意ください。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
 \\name[\\v[2]]\\_
 ここ、天空城は生前の世界で死を迎えた方が
 平穏な生活を送れるように建てられたのです。
+> CONTEXT: Map064/events/5/pages/0/1/Dialogue < UNTRANSLATED
 > CONTEXT: Map064/events/5/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -76,12 +13,15 @@
 受け入れる者に、人間も夢魔も関係ありません。
 審判に合格できた者だけが訪れる事を許されるのです。
 > CONTEXT: Map064/events/5/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map064/events/5/pages/0/4/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "研究者"
 > CONTEXT: Map064/events/6/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map064/events/6/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map064/events/7/pages/0/0/InlineScript/1:22 < UNTRANSLATED
 > CONTEXT: Map064/events/7/pages/0/0/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
@@ -91,6 +31,7 @@
 私は生前の世界で研究の道半ばで
 重たい病に倒れてしまってね。
 > CONTEXT: Map064/events/6/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map064/events/6/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -98,6 +39,7 @@
 \\name[\\v[2]]\\_
 まさかこの世界でも研究に没頭できるだなんて
 思ってもみなかったよ。
+> CONTEXT: Map064/events/6/pages/0/4/Dialogue < UNTRANSLATED
 > CONTEXT: Map064/events/6/pages/0/4/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -107,6 +49,7 @@
 生前の世界で死を迎えた者は、
 この世界に訪れる。
 > CONTEXT: Map064/events/7/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map064/events/7/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -115,12 +58,14 @@
 だが、この世界で死を迎えれば、
 生前の世界に戻れるのか？
 > CONTEXT: Map064/events/7/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map064/events/7/pages/0/4/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 その答えに誰も辿り着けないのさ。
+> CONTEXT: Map064/events/7/pages/0/7/Dialogue < UNTRANSLATED
 > CONTEXT: Map064/events/7/pages/0/7/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -129,6 +74,7 @@
 \\name[\\v[2]]\\_
 この世界は永久にも近い時間を過ごせますので
 勉学にもじっくり励む事ができます。
+> CONTEXT: Map064/events/8/pages/0/1/Dialogue < UNTRANSLATED
 > CONTEXT: Map064/events/8/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING

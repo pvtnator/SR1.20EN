@@ -1,146 +1,14 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-"大鶏"
-> CONTEXT: None < UNUSED
-"Big chicken"
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-息を吸ってー、吐いてー。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Breathe in, breathe out.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-息を吸ってー、吐いてー･･･。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Breathe in, breathe out...
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-君も疲れた時は、深呼吸をして息を整えよう！
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-When you're tired, take a deep breath and calm down!
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-マップ中でも、「ブレス」は使えるぞ！
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-You can use “Breath” even on the map!
-> END STRING
-
-> BEGIN STRING
-"キザな白猫"
-> CONTEXT: None < UNUSED
-"Smug white cat"
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-やあ、夢魔とはよく話してるかい？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-夢魔とはよく話してるかい少年。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Do you talk to succubi often, boy?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-どんなコでも話さなきゃ心は開いてくれないものでね。
-でもうまく会話が弾めば好かれるものさ。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-No matter what kind of person you are,
-if you don't talk to them, they won't open up to you.
-Good conversations get people to like you.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-この子をオトしたい！って時なんかは、
-「\\c[12]トーク\\c[0]」と「\\c[12]ムード\\c[0]」は特に重要だよ。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-If you want to treat someone well,
-"\\c[12]Talk\\c[0]" and "\\c[12]Mood\\c[0]" are especially important.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-とはいえ、\\c[12]君よりレベルの高い子なんかは\\_
-振り向きにくい\\c[0]。
-まぁ自分を磨くことさ。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-However, \\c[12]it's more difficult to get the 
-attention of someone higher level than you\\c[0].
-It's all about improving yourself.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-夢魔たちのいる世界はどう？　大変でしょ。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-How's the dream world of succubi? It's tough, isn't it?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-出会う子たち全員と相手し続けるのも良いけど、
-あんまり無理に相手しすぎてると死んじゃうよ。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-It's good to keep interacting with all the girls you meet, 
-but if you try it too hard, you'll be defeated.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-逃げることも避けることも大事な事だよ。
-先に進むためにはね。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-It is important to flee and avoid
-in order to move on.
-> END STRING
-
-> BEGIN STRING
-"騎士"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-説明に[説]とついたアイテムやスキルを見たことはないか？
-ShiftまたはAキーで追加の説明を見ることが出来るぞ。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
 "テンション高めな女性"
+> CONTEXT: Map048/events/13/pages/0/3/InlineScript/1:22 < UNTRANSLATED
 > CONTEXT: Map048/events/13/pages/0/3/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "落ち着いた女性"
+> CONTEXT: Map048/events/13/pages/0/3/InlineScript/2:22 < UNTRANSLATED
 > CONTEXT: Map048/events/13/pages/0/3/InlineScript/2:22 < UNTRANSLATED
 
 > END STRING
@@ -150,6 +18,7 @@ ShiftまたはAキーで追加の説明を見ることが出来るぞ。
 ねーねー、アルミルスぅ～。
 まだぁ～？
 > CONTEXT: Map048/events/13/pages/0/5/Dialogue < UNTRANSLATED
+> CONTEXT: Map048/events/13/pages/0/5/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -157,12 +26,14 @@ ShiftまたはAキーで追加の説明を見ることが出来るぞ。
 \\name[\\v[3]]\\_
 もう終わるわよ、ヒラルス。
 > CONTEXT: Map048/events/13/pages/0/8/Dialogue < UNTRANSLATED
+> CONTEXT: Map048/events/13/pages/0/8/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 後はここをこうして……っと。
+> CONTEXT: Map048/events/13/pages/0/24/Dialogue < UNTRANSLATED
 > CONTEXT: Map048/events/13/pages/0/24/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -173,6 +44,7 @@ ShiftまたはAキーで追加の説明を見ることが出来るぞ。
 昇降機が動き始めたよぉ～！
 さっすがアルミルスぅ～\\H
 > CONTEXT: Map048/events/13/pages/0/37/Dialogue < UNTRANSLATED
+> CONTEXT: Map048/events/13/pages/0/37/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -181,12 +53,14 @@ ShiftまたはAキーで追加の説明を見ることが出来るぞ。
 これでようやく\\n[101]様をお迎えに上がれますわ。
 さぁ、急ぎましょう。
 > CONTEXT: Map048/events/13/pages/0/43/Dialogue < UNTRANSLATED
+> CONTEXT: Map048/events/13/pages/0/43/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 あら？
+> CONTEXT: Map048/events/13/pages/0/57/Dialogue < UNTRANSLATED
 > CONTEXT: Map048/events/13/pages/0/57/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -196,6 +70,7 @@ ShiftまたはAキーで追加の説明を見ることが出来るぞ。
 まさか、\\n[101]様……、
 でございますね？
 > CONTEXT: Map048/events/13/pages/0/60/Dialogue < UNTRANSLATED
+> CONTEXT: Map048/events/13/pages/0/60/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -204,12 +79,14 @@ ShiftまたはAキーで追加の説明を見ることが出来るぞ。
 昇降機が故障している間に、
 まさか歩いて昇ってこられるなんて。
 > CONTEXT: Map048/events/13/pages/0/63/Dialogue < UNTRANSLATED
+> CONTEXT: Map048/events/13/pages/0/63/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 お迎えに上がれず失礼いたしました。
+> CONTEXT: Map048/events/13/pages/0/66/Dialogue < UNTRANSLATED
 > CONTEXT: Map048/events/13/pages/0/66/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -220,12 +97,14 @@ ShiftまたはAキーで追加の説明を見ることが出来るぞ。
 ひょっとして大天使様が言ってた英雄って
 この人ぉ～！？
 > CONTEXT: Map048/events/13/pages/0/74/Dialogue < UNTRANSLATED
+> CONTEXT: Map048/events/13/pages/0/74/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 そのようですね。
+> CONTEXT: Map048/events/13/pages/0/81/Dialogue < UNTRANSLATED
 > CONTEXT: Map048/events/13/pages/0/81/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -236,6 +115,7 @@ ShiftまたはAキーで追加の説明を見ることが出来るぞ。
 私はアルミルスと申します。
 \\|ここ冥界で、大天使様にお仕えする者です。
 > CONTEXT: Map048/events/13/pages/0/89/Dialogue < UNTRANSLATED
+> CONTEXT: Map048/events/13/pages/0/89/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -245,12 +125,14 @@ ShiftまたはAキーで追加の説明を見ることが出来るぞ。
 まぁ、夢魔の姿をしていて天使に仕えているなんて
 無理もないかもしれませんね。
 > CONTEXT: Map048/events/13/pages/0/94/Dialogue < UNTRANSLATED
+> CONTEXT: Map048/events/13/pages/0/94/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 そして、こちらが……
+> CONTEXT: Map048/events/13/pages/0/100/Dialogue < UNTRANSLATED
 > CONTEXT: Map048/events/13/pages/0/100/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -259,6 +141,7 @@ ShiftまたはAキーで追加の説明を見ることが出来るぞ。
 \\name[\\v[2]]\\_
 ヒラルスだよぉ～♪
 よろしくね\\H
+> CONTEXT: Map048/events/13/pages/0/107/Dialogue < UNTRANSLATED
 > CONTEXT: Map048/events/13/pages/0/107/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -269,6 +152,7 @@ ShiftまたはAキーで追加の説明を見ることが出来るぞ。
 大天使様よりお連れするように
 仰せつかっております。
 > CONTEXT: Map048/events/13/pages/0/113/Dialogue < UNTRANSLATED
+> CONTEXT: Map048/events/13/pages/0/113/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -277,6 +161,7 @@ ShiftまたはAキーで追加の説明を見ることが出来るぞ。
 ここを出れば、すぐ目の前に
 大天使様のお城がございます。
 > CONTEXT: Map048/events/13/pages/0/117/Dialogue < UNTRANSLATED
+> CONTEXT: Map048/events/13/pages/0/117/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -284,6 +169,7 @@ ShiftまたはAキーで追加の説明を見ることが出来るぞ。
 \\name[\\v[3]]\\_
 そちらで旅の疲れを癒すこともできましょう。
 \\|……では、後ほど。
+> CONTEXT: Map048/events/13/pages/0/120/Dialogue < UNTRANSLATED
 > CONTEXT: Map048/events/13/pages/0/120/Dialogue < UNTRANSLATED
 
 > END STRING

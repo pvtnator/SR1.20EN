@@ -1,103 +1,88 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-この丸太は押せば下流に流せそうだ。
-> CONTEXT: Map294/events/98/pages/0/0/Dialogue
-It looks like this log can be pushed downstream.
-> END STRING
-
-> BEGIN STRING
-押しますか？
-> CONTEXT: Map294/events/98/pages/0/1/Dialogue
-Do you want to push it?
-> END STRING
-
-> BEGIN STRING
-"倒れている男"
-> CONTEXT: Map294/events/309/pages/0/0/InlineScript/1:22
-"Fallen man"
+サイヤクノアイケン　ココニフウジル
+> CONTEXT: Map294/events/1/pages/0/0/Dialogue
+> CONTEXT: Map294/events/1/pages/0/0/Dialogue
+Disastrous love affair here
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-相手を弱化させすぎたり、味方を強化させすぎたりして
-相手全員と味方全員の強化度に大きな差が出てしまうと･･･。
-> CONTEXT: Map294/events/309/pages/0/1/Dialogue
+進む者よ。
+汝は樹海の奥に潜む者を打ち倒したか？
+> CONTEXT: Map294/events/5/pages/0/3/Dialogue
+> CONTEXT: Map294/events/5/pages/0/3/Dialogue
 \\name[\\v[2]]\\_
-If you weaken your opponent a lot or strengthen your 
-allies a lot, there will be a big difference in the 
-strength levels of all your opponents and all your allies...
+O adventurer.
+Have you defeated the one hiding 
+in the depths of the Moonlit Sea of Trees?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-相手の強化やこちらの弱化だけを一気に打ち消せるスキル\\_
-なんかや、\\n相手を拘束状態にするスキル、自分の体以外\\_
-でホールドするスキルなんかを\\n使いすぎたりすると･･･。
-> CONTEXT: Map294/events/309/pages/0/4/Dialogue
+……毒に勝った力を認める。
+> CONTEXT: Map294/events/5/pages/0/7/Dialogue
+> CONTEXT: Map294/events/5/pages/0/7/Dialogue
 \\name[\\v[2]]\\_
-Skills that can negate the opponent's ability changes at once, 
-skills that restrain the opponent, 
-or skills that hold the opponent might lead to...
+...The power to overcome poison is within you.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-あぁ･･･なんてことだ･･･、そんなことしてくるなんて･･･。
-> CONTEXT: Map294/events/309/pages/0/8/Dialogue
+この地に封印されているのは、チリアット。
+マレブランケ達の中では温厚な奴だな。
+裏方担当というものだ。
+> CONTEXT: Map294/events/7/pages/0/4/Dialogue
+> CONTEXT: Map294/events/7/pages/0/4/Dialogue
 \\name[\\v[2]]\\_
-Oh gosh..I can't they would do that...
+The one sealed in this land is Ciriatto.
+The gentle one among Malebranche's group.
+She's in charge of the background work.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-普通の夢魔たちにしてもそんなことはなかったのに･･･。
-> CONTEXT: Map294/events/309/pages/0/10/Dialogue
+しかし、飢えていることに変わりはないだろう。
+せいぜい食われないようにすることだな。
+> CONTEXT: Map294/events/7/pages/0/8/Dialogue
+> CONTEXT: Map294/events/7/pages/0/8/Dialogue
 \\name[\\v[2]]\\_
-Even with normal succubi, this wouldn't have happened...
+But she's still starving.
+The best you can do is avoid getting eaten.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-不幸だ･･･。
-> CONTEXT: Map294/events/309/pages/0/12/Dialogue
+チリアットを解放したか。
+そいつは回復や後方支援が得意だ。
+> CONTEXT: Map294/events/7/pages/1/1/Dialogue
+> CONTEXT: Map294/events/7/pages/1/1/Dialogue
 \\name[\\v[2]]\\_
-It's a disaster...
+You've freed Chiliatto.
+She's good at healing and providing support from the rear.
 > END STRING
 
 > BEGIN STRING
-採取ポイントにアルラウネが潜んでいた！
-> CONTEXT: Map294/events/367/pages/0/36/Dialogue
-Alraune was lurking at the harvest point!
+チリアットと再戦しますか？
+> CONTEXT: Map294/events/9/pages/0/0/Dialogue
+> CONTEXT: Map294/events/9/pages/0/0/Dialogue
+Would you like to have a rematch with Ciriatto?
 > END STRING
 
 > BEGIN STRING
-"トリュフ探し名人"
-> CONTEXT: Map294/events/551/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-
+チリアットと戦う
+> CONTEXT: Map294/events/9/pages/0/1/Choice/0
+> CONTEXT: Map294/events/9/pages/0/1/Choice/0
+> CONTEXT: Map294/events/9/pages/0/1/Choice/0
+> CONTEXT: Map294/events/9/pages/0/1/Choice/0
+Fight Ciriatto
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[2]]\\_
-ブヒブヒ！私はトリュフ探し名人。
-トリュフを探してはるばるこの森までやってきましたわ！
-> CONTEXT: Map294/events/551/pages/1/2/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-先ほど紺色の服を着た魔法使いの少女を目にしましたわ！
-そこはかとなくトリュフの匂いを放っておりましたから
-体にキノコでも生えていらっしゃるのかしら？
-> CONTEXT: Map294/events/551/pages/1/5/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-きっとまだこの近くにいらっしゃると思いますわ。
-密教会の魔女とは少し雰囲気が違う方でしたので
-遠くから来た方かもしれませんわね！
-> CONTEXT: Map294/events/551/pages/1/9/Dialogue < UNTRANSLATED
-
+強化チリアットと戦う
+> CONTEXT: Map294/events/9/pages/0/1/Choice/1
+> CONTEXT: Map294/events/9/pages/0/1/Choice/1
+> CONTEXT: Map294/events/9/pages/0/1/Choice/1
+> CONTEXT: Map294/events/9/pages/0/1/Choice/1
+Fight Enhanced Ciriatto
 > END STRING

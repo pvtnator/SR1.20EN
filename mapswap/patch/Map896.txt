@@ -4,6 +4,7 @@
 > CONTEXT: Map896/bgm/name/ < UNTRANSLATED
 > CONTEXT: Map525/bgm/name/ < UNTRANSLATED
 > CONTEXT: Map392/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map392/bgm/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -16,26 +17,40 @@
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふ、貴方、夢魔に興味はおあり？
-なら、店長に話しかけてみてくださいね。
 > CONTEXT: Map896/events/3/pages/0/3/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
+買い物以外の用事なら店長に話を聞いてみて\\H
+> CONTEXT: Map896/events/3/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
 このお店の雰囲気、とっても素敵でしょ\\H
-> CONTEXT: Map896/events/3/pages/0/13/Dialogue < UNTRANSLATED
+> CONTEXT: Map896/events/3/pages/0/16/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あら？貴方は……！
-修練をご希望でしたら
-ナハトに話しかけてみてくださいな\\H
 > CONTEXT: Map896/events/3/pages/1/1/Dialogue < UNTRANSLATED
 > CONTEXT: Map896/events/3/pages/2/1/Dialogue < UNTRANSLATED
 > CONTEXT: Map896/events/3/pages/3/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+修練をご希望でしたら
+ナハトに話しかけてみてくださいな\\H
+> CONTEXT: Map896/events/3/pages/1/5/Dialogue < UNTRANSLATED
+> CONTEXT: Map896/events/3/pages/2/5/Dialogue < UNTRANSLATED
+> CONTEXT: Map896/events/3/pages/3/5/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -63,6 +78,7 @@
 > CONTEXT: Map691/events/41/pages/0/1/InlineScript/1:22 < UNTRANSLATED
 > CONTEXT: Map691/events/42/pages/0/1/InlineScript/1:22 < UNTRANSLATED
 > CONTEXT: Map691/events/44/pages/0/1/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map901/events/23/pages/0/0/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
 

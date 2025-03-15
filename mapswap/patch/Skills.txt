@@ -560,20 +560,13 @@ Heavy Swing/105
 > END STRING
 
 > BEGIN STRING
-エナジードレイン/100
+エナジードレイン/150/10
 > CONTEXT: Skills/49/name/ < UNTRANSLATED
-> CONTEXT: Skills/772/name/ < UNTRANSLATED
-> CONTEXT: Skills/775/name/ < UNTRANSLATED
-> CONTEXT: Skills/777/name/ < UNTRANSLATED
-> CONTEXT: Skills/779/name/ < UNTRANSLATED
-> CONTEXT: Skills/781/name/ < UNTRANSLATED
-> CONTEXT: Skills/783/name/ < UNTRANSLATED
-> CONTEXT: Skills/1448/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-[×××] 腰を振る。[条件：アクセプト(LvMAX)][VPドレイン][精力]
+[×××][CT:10] 腰を振る。[条件：アクセプト(LvMAX)][VPドレイン][精力]
 > CONTEXT: Skills/49/description/ < UNTRANSLATED
 
 > END STRING
@@ -667,6 +660,7 @@ Ride/100
 > BEGIN STRING
 ディープスロート/100
 > CONTEXT: Skills/59/name/ < UNTRANSLATED
+> CONTEXT: Skills/1234/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -812,9 +806,9 @@ Rear caress/100
 > END STRING
 
 > BEGIN STRING
-テンダーキッス/50
-> CONTEXT: Skills/75/name/
-Tender Kiss/50
+スレイヴキッス/50
+> CONTEXT: Skills/75/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -984,6 +978,18 @@ Double pafu/100
 > BEGIN STRING
 触手で攻める。[低確率：高揚・沈着]
 > CONTEXT: Skills/92/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パフスラップ/100
+> CONTEXT: Skills/100/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[胸→口] 胸で相手の顔をはたく。[自分着衣↓][追加：苦痛スタン][精力/魅力]
+> CONTEXT: Skills/100/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -1232,8 +1238,11 @@ Recovers a moderate amount of EP.
 
 > BEGIN STRING
 ウェイト
-> CONTEXT: Map429/events/4/pages/0/1/Choice/1
 > CONTEXT: Skills/123/name/
+> CONTEXT: Map429/events/4/pages/0/1/Choice/1
+> CONTEXT: Map429/events/4/pages/0/1/Choice/1
+> CONTEXT: Map429/events/4/pages/0/1/Choice/1
+> CONTEXT: Map429/events/4/pages/0/1/Choice/1
 Wait
 > END STRING
 
@@ -1246,10 +1255,13 @@ Recovers a miniscule amount of EP.
 
 > BEGIN STRING
 イントラスト
-> CONTEXT: Map429/events/4/pages/0/1/Choice/3
 > CONTEXT: Skills/124/name/
 > CONTEXT: Map649/events/2/pages/1/4/Choice/1
 > CONTEXT: Map649/events/2/pages/1/4/Choice/1
+> CONTEXT: Map429/events/4/pages/0/1/Choice/3
+> CONTEXT: Map429/events/4/pages/0/1/Choice/3
+> CONTEXT: Map429/events/4/pages/0/1/Choice/3
+> CONTEXT: Map429/events/4/pages/0/1/Choice/3
 Interest
 > END STRING
 
@@ -1274,9 +1286,12 @@ Remove all effects on self.
 
 > BEGIN STRING
 チェック
-> CONTEXT: Map429/events/4/pages/0/1/Choice/0
 > CONTEXT: Skills/126/name/
 > CONTEXT: Armors/160/name/
+> CONTEXT: Map429/events/4/pages/0/1/Choice/0
+> CONTEXT: Map429/events/4/pages/0/1/Choice/0
+> CONTEXT: Map429/events/4/pages/0/1/Choice/0
+> CONTEXT: Map429/events/4/pages/0/1/Choice/0
 Check
 > END STRING
 
@@ -1485,9 +1500,12 @@ Accept torment. [Large follow-up and SS rate]
 
 > BEGIN STRING
 ガード
-> CONTEXT: Map429/events/4/pages/0/1/Choice/2
 > CONTEXT: Skills/145/name/
 > CONTEXT: Armors/161/name/
+> CONTEXT: Map429/events/4/pages/0/1/Choice/2
+> CONTEXT: Map429/events/4/pages/0/1/Choice/2
+> CONTEXT: Map429/events/4/pages/0/1/Choice/2
+> CONTEXT: Map429/events/4/pages/0/1/Choice/2
 Guard
 > END STRING
 
@@ -1524,9 +1542,12 @@ Endure quietly. [Pleasure down][Attack up][Climax Endurance]
 
 > BEGIN STRING
 アピール
-> CONTEXT: Map429/events/4/pages/0/20/Choice/0
 > CONTEXT: Skills/148/name/
 > CONTEXT: Armors/170/name/
+> CONTEXT: Map429/events/4/pages/0/20/Choice/0
+> CONTEXT: Map429/events/4/pages/0/20/Choice/0
+> CONTEXT: Map429/events/4/pages/0/20/Choice/0
+> CONTEXT: Map429/events/4/pages/0/20/Choice/0
 Appeal
 > END STRING
 
@@ -1597,7 +1618,6 @@ For 4 turns, if you have no abnormal status, become targeted.
 > BEGIN STRING
 インターナル・カム/150/10
 > CONTEXT: Skills/156/name/ < UNTRANSLATED
-> CONTEXT: Skills/866/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -1622,7 +1642,6 @@ For 4 turns, if you have no abnormal status, become targeted.
 > BEGIN STRING
 ホワイトポアー/150/10
 > CONTEXT: Skills/158/name/ < UNTRANSLATED
-> CONTEXT: Skills/868/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -1635,7 +1654,6 @@ For 4 turns, if you have no abnormal status, become targeted.
 > BEGIN STRING
 ホワイトフラッド/150/10
 > CONTEXT: Skills/159/name/ < UNTRANSLATED
-> CONTEXT: Skills/869/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -2163,6 +2181,20 @@ Boosted: Charm
 > END STRING
 
 > BEGIN STRING
+ラスト
+> CONTEXT: Skills/202/name/
+> CONTEXT: Armors/219/name/
+> CONTEXT: Map600/events/1/pages/0/160/Choice/2
+> CONTEXT: Map600/events/1/pages/0/160/Choice/2
+> CONTEXT: Map586/events/11/pages/0/160/Choice/2
+> CONTEXT: Map586/events/11/pages/0/160/Choice/2
+> CONTEXT: Map472/events/7/pages/0/161/Choice/2
+> CONTEXT: Map472/events/7/pages/0/161/Choice/2
+> CONTEXT: Skills/1181/name/
+Lust
+> END STRING
+
+> BEGIN STRING
 [魔法] 敵１人を高確率で欲情させる。[精神力]
 > CONTEXT: Skills/202/description/
 [Magic] High chance of making one enemy lustful. [Spirit]
@@ -2420,14 +2452,14 @@ Wash Flood
 > END STRING
 
 > BEGIN STRING
-フリスギルデ
-> CONTEXT: None < UNUSED
+フリスギルデ//999
+> CONTEXT: Skills/226/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-[魔法] 契約者を限界突破させる。[セットサークル無効]
-> CONTEXT: None < UNUSED
+[魔法][奥義] 味方一人を限界突破させる。[先制行動]
+> CONTEXT: Skills/226/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -2738,6 +2770,32 @@ Showdown
 > END STRING
 
 > BEGIN STRING
+寵児たちの晩餐/90
+> CONTEXT: Skills/269/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手を指差し、総攻撃でホールドを仕掛ける。
+> CONTEXT: Skills/269/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+くすぐり/70
+> CONTEXT: Skills/270/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+脇をくすぐったり舐めたり。稀に敏感にさせる
+> CONTEXT: Skills/509/description/ < UNTRANSLATED
+> CONTEXT: Skills/1118/description/ < UNTRANSLATED
+> CONTEXT: Skills/270/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 ふたなり困惑
 > CONTEXT: Skills/273/name/ < UNTRANSLATED
 
@@ -2928,13 +2986,16 @@ For random skills. The skill will be re-determined.
 > END STRING
 
 > BEGIN STRING
-【RD】没
+【RD】ホールド変更
 > CONTEXT: Skills/290/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-[ランダム] 特殊な身体能力で攻撃を行う
+[ランダム] 自分がホールド状態の時の攻め
+> CONTEXT: Skills/292/description/ < UNTRANSLATED
+> CONTEXT: Skills/293/description/ < UNTRANSLATED
+> CONTEXT: Skills/1008/description/ < UNTRANSLATED
 > CONTEXT: Skills/290/description/ < UNTRANSLATED
 
 > END STRING
@@ -2948,14 +3009,6 @@ For random skills. The skill will be re-determined.
 > BEGIN STRING
 【RD】ホールド技
 > CONTEXT: Skills/292/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-[ランダム] 自分がホールド状態の時の攻め
-> CONTEXT: Skills/292/description/ < UNTRANSLATED
-> CONTEXT: Skills/293/description/ < UNTRANSLATED
-> CONTEXT: Skills/1008/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -4080,13 +4133,13 @@ Repentance
 > END STRING
 
 > BEGIN STRING
-ドレインキッス/100/8
+ドレインキッス/100/10
 > CONTEXT: Skills/424/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-[口→口][CT:8] 舌を絡めあうキッス。ＳＳ率大。[中確率：恍惚][VPドレイン][精力/魅力]
+[口→口][CT:10] 舌を絡めあうキッス。ＳＳ率大。[中確率：恍惚][VPドレイン][精力/魅力]
 > CONTEXT: Skills/424/description/ < UNTRANSLATED
 
 > END STRING
@@ -4794,13 +4847,6 @@ Repentance
 > END STRING
 
 > BEGIN STRING
-脇をくすぐったり舐めたり。稀に敏感にさせる
-> CONTEXT: Skills/509/description/ < UNTRANSLATED
-> CONTEXT: Skills/1118/description/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
 愛撫・下半身/70
 > CONTEXT: Skills/510/name/ < UNTRANSLATED
 > CONTEXT: Skills/1090/name/ < UNTRANSLATED
@@ -5362,7 +5408,7 @@ Demon's Claws
 > END STRING
 
 > BEGIN STRING
-チェインカレス/25/3
+チェインカレス/25/17
 > CONTEXT: Skills/596/name/ < UNTRANSLATED
 
 > END STRING
@@ -5783,12 +5829,14 @@ Uplift yourself.
 > BEGIN STRING
 デモンズスロート/100
 > CONTEXT: Skills/641/name/ < UNTRANSLATED
+> CONTEXT: Skills/2717/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 [触手→♂] しゃぶる。[精神力]
 > CONTEXT: Skills/641/description/ < UNTRANSLATED
+> CONTEXT: Skills/2717/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -6666,7 +6714,6 @@ Insult tree
 > CONTEXT: Skills/1043/name/ < UNTRANSLATED
 > CONTEXT: Skills/1051/name/ < UNTRANSLATED
 > CONTEXT: Skills/1059/name/ < UNTRANSLATED
-> CONTEXT: Skills/1067/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -6684,7 +6731,6 @@ Insult tree
 > CONTEXT: Skills/924/description/ < UNTRANSLATED
 > CONTEXT: Skills/1043/description/ < UNTRANSLATED
 > CONTEXT: Skills/1051/description/ < UNTRANSLATED
-> CONTEXT: Skills/1067/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -6694,7 +6740,6 @@ Insult tree
 > CONTEXT: Skills/1044/name/ < UNTRANSLATED
 > CONTEXT: Skills/1052/name/ < UNTRANSLATED
 > CONTEXT: Skills/1060/name/ < UNTRANSLATED
-> CONTEXT: Skills/1068/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -6724,10 +6769,9 @@ Insult tree
 > CONTEXT: Skills/1052/description/
 > CONTEXT: Skills/1053/description/
 > CONTEXT: Skills/1054/description/
-> CONTEXT: Skills/1068/description/
-> CONTEXT: Skills/1069/description/
-> CONTEXT: Skills/1070/description/
 > CONTEXT: Skills/1082/description/
+> CONTEXT: Skills/1071/description/
+> CONTEXT: Skills/2921/description/
 [×××] Shake your hips.
 > END STRING
 
@@ -6737,7 +6781,6 @@ Insult tree
 > CONTEXT: Skills/1045/name/ < UNTRANSLATED
 > CONTEXT: Skills/1053/name/ < UNTRANSLATED
 > CONTEXT: Skills/1061/name/ < UNTRANSLATED
-> CONTEXT: Skills/1069/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -6747,7 +6790,6 @@ Insult tree
 > CONTEXT: Skills/1046/name/ < UNTRANSLATED
 > CONTEXT: Skills/1054/name/ < UNTRANSLATED
 > CONTEXT: Skills/1062/name/ < UNTRANSLATED
-> CONTEXT: Skills/1070/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -6781,7 +6823,6 @@ Insult tree
 > CONTEXT: Skills/1047/name/ < UNTRANSLATED
 > CONTEXT: Skills/1055/name/ < UNTRANSLATED
 > CONTEXT: Skills/1063/name/ < UNTRANSLATED
-> CONTEXT: Skills/1071/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -6798,7 +6839,6 @@ Insult tree
 > CONTEXT: Skills/927/description/ < UNTRANSLATED
 > CONTEXT: Skills/1047/description/ < UNTRANSLATED
 > CONTEXT: Skills/1055/description/ < UNTRANSLATED
-> CONTEXT: Skills/1071/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -6890,6 +6930,12 @@ Scratch・必殺/100
 > END STRING
 
 > BEGIN STRING
+エナジードレイン/100
+> CONTEXT: Skills/772/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 [×××] 腰を振る。[インサート(LvMAX)][VPドレイン]
 > CONTEXT: Skills/772/description/
 > CONTEXT: Skills/777/description/
@@ -6902,11 +6948,6 @@ Scratch・必殺/100
 > BEGIN STRING
 レベルドレイン/100
 > CONTEXT: Skills/773/name/ < UNTRANSLATED
-> CONTEXT: Skills/776/name/ < UNTRANSLATED
-> CONTEXT: Skills/778/name/ < UNTRANSLATED
-> CONTEXT: Skills/780/name/ < UNTRANSLATED
-> CONTEXT: Skills/782/name/ < UNTRANSLATED
-> CONTEXT: Skills/784/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -6920,20 +6961,70 @@ Scratch・必殺/100
 > END STRING
 
 > BEGIN STRING
-[×××] 強エナジードレインする。[VPドレイン]/強非ホールド
+エナジードレイン,強汎用/100
+> CONTEXT: Skills/775/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[×××] 強エナジードレインする。[VPドレイン]/強汎用
 > CONTEXT: Skills/775/description/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-[×××] 強レベルドレインする。[レベルドレイン]/強非ホールド
+レベルドレイン,強汎用/100
+> CONTEXT: Skills/776/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[×××] 強レベルドレインする。[レベルドレイン]/強汎用
 > CONTEXT: Skills/776/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エナジードレイン,強♀/100
+> CONTEXT: Skills/777/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レベルドレイン,強♀/100
+> CONTEXT: Skills/778/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エナジードレイン,不明/100
+> CONTEXT: Skills/779/name/ < UNTRANSLATED
+> CONTEXT: Skills/781/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レベルドレイン,不明/100
+> CONTEXT: Skills/780/name/ < UNTRANSLATED
+> CONTEXT: Skills/782/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エナジードレイン,汎用/100
+> CONTEXT: Skills/783/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 [×××] エナジードレインする。[ホールド(LvMAX)][VPドレイン]/非ホールド
 > CONTEXT: Skills/783/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レベルドレイン,汎用/100
+> CONTEXT: Skills/784/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -7023,6 +7114,7 @@ Deep Kiss・強/95
 > BEGIN STRING
 舌を絡めあうキッス。威力大。
 > CONTEXT: Skills/805/description/ < UNTRANSLATED
+> CONTEXT: Skills/1797/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -7493,7 +7585,7 @@ Deep Kiss・必殺/95
 > END STRING
 
 > BEGIN STRING
-ブリーディング・カム/150/10
+ブリーディング・カム,敵/150/5
 > CONTEXT: Skills/865/name/ < UNTRANSLATED
 
 > END STRING
@@ -7505,13 +7597,19 @@ Deep Kiss・必殺/95
 > END STRING
 
 > BEGIN STRING
+インターナル・カム,敵/150/5
+> CONTEXT: Skills/866/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 [×××] 相手のアソコに精を放つ。[精力]
 > CONTEXT: Skills/866/description/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-アナル・カム/100
+アナル・カム,敵/150/5
 > CONTEXT: Skills/867/name/ < UNTRANSLATED
 
 > END STRING
@@ -7523,8 +7621,20 @@ Deep Kiss・必殺/95
 > END STRING
 
 > BEGIN STRING
+ホワイトポアー,敵/150/5
+> CONTEXT: Skills/868/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 [×××] 相手の口内に精を放つ。[精力]
 > CONTEXT: Skills/868/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホワイトフラッド,敵/150/5
+> CONTEXT: Skills/869/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -7957,6 +8067,30 @@ Deep Kiss・必殺/95
 > BEGIN STRING
 ◇特殊触手ホールド業◇
 > CONTEXT: Skills/937/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テンタクルフィールド
+> CONTEXT: Skills/938/name/
+Tentacle Field
+> END STRING
+
+> BEGIN STRING
+[場：敵] 触手を召喚する。
+> CONTEXT: Skills/938/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリーステンタクル
+> CONTEXT: Skills/939/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[場：敵] 触手を消滅する。
+> CONTEXT: Skills/939/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -8687,21 +8821,21 @@ Limited to berserk. When there is no VP to consume.
 > END STRING
 
 > BEGIN STRING
-フェザーアクセプト
-> CONTEXT: Skills/1065/name/ < UNTRANSLATED
-> CONTEXT: Skills/1066/name/ < UNTRANSLATED
+フェザーラッシュ/70
+> CONTEXT: Skills/1070/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-[レジスト] 自分のアソコに相手のペニスを挿入する。羽抱擁から派生
-> CONTEXT: Skills/1065/description/ < UNTRANSLATED
+羽で撫でたりくすぐったり。稀に敏感にさせる
+> CONTEXT: Skills/1138/description/ < UNTRANSLATED
+> CONTEXT: Skills/1070/description/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-[レジスト] 羽で相手を包み込む。♀挿入から派生
-> CONTEXT: Skills/1066/description/ < UNTRANSLATED
+フェザーグラインド/100
+> CONTEXT: Skills/1071/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -8739,6 +8873,7 @@ Limited to berserk. When there is no VP to consume.
 > BEGIN STRING
 パフュームグラインド/100
 > CONTEXT: Skills/1082/name/ < UNTRANSLATED
+> CONTEXT: Skills/2921/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -9021,12 +9156,6 @@ Limited to berserk. When there is no VP to consume.
 > END STRING
 
 > BEGIN STRING
-羽で撫でたりくすぐったり。稀に敏感にさせる
-> CONTEXT: Skills/1138/description/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
 ■MOD　足ホールド追加
 > CONTEXT: Skills/1139/name/ < UNTRANSLATED
 
@@ -9085,6 +9214,13 @@ Limited to berserk. When there is no VP to consume.
 [手→] ３ターンの間、味方が使用する魔法の消費ＶＰが０になる。
 > CONTEXT: Skills/1146/description/ < UNTRANSLATED
 > CONTEXT: Skills/2236/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+簡易・現の壁
+> CONTEXT: Skills/1147/name/ < UNTRANSLATED
+> CONTEXT: Skills/2599/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -9731,7 +9867,7 @@ Hungry Sperm Kiss/80
 > END STRING
 
 > BEGIN STRING
-■特殊ホールドスキル
+■上級ホールドスキル
 > CONTEXT: Skills/1230/name/ < UNTRANSLATED
 
 > END STRING
@@ -9767,75 +9903,62 @@ Hungry Sperm Kiss/80
 > END STRING
 
 > BEGIN STRING
-ディープスロート
-> CONTEXT: Skills/1234/name/
-Deep throat
-> END STRING
-
-> BEGIN STRING
-[レジスト] [口→♂] 根元まで咥える。[条件：オーラルアクセプト(LvMAX)]
+[口→♂] 根元まで咥える。[条件：オーラルアクセプト(LvMAX)]
 > CONTEXT: Skills/1234/description/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-スクリューベーゼ
+スクリューベーゼ/100
 > CONTEXT: Skills/1235/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-[レジスト] [口→口] 相手の口内に舌をねじ込む。[条件：フラッタナイズ(LvMAX)]
+[口→口] 相手の口内に舌をねじ込む。[条件：フラッタナイズ(LvMAX)]
 > CONTEXT: Skills/1235/description/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-クランプルストローク
+クランプルストローク/95
 > CONTEXT: Skills/1236/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-[レジスト] [胸→♂] 腕を使って強く圧迫する。[条件：ペリスコープ(LvMAX)]
+[胸→♂] 腕を使って強く圧迫する。[条件：ペリスコープ(LvMAX)]
 > CONTEXT: Skills/1236/description/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-スポットアタッチ
+スポットアタッチ/95
 > CONTEXT: Skills/1237/name/ < UNTRANSLATED
-> CONTEXT: Skills/1245/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-[レジスト] [手→尻] 指を奥深くまで押し込む。[条件：フィンガーインバック(LvMAX)]
+[手→尻] 指を前立腺に這わせる。[条件：フィンガーインバック(LvMAX)]
 > CONTEXT: Skills/1237/description/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-ディープスポット
+スポットアタッチ/100
 > CONTEXT: Skills/1238/name/ < UNTRANSLATED
-> CONTEXT: Skills/1241/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-[レジスト] [口→尻] 舌を奥深くまでねじ込む。[条件：ドロウビター(LvMAX)]
-> CONTEXT: Skills/1238/description/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-ハードスタンプ
 > CONTEXT: Skills/1239/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-[レジスト] [足→♂] 強く踏み潰す。[条件：エレキテルプレス(LvMAX)]
+[触手→♀] 触手を奥深くまで押し込む。[条件：テンタクルインサート(LvMAX)]
+> CONTEXT: Skills/1238/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[触手→尻] 触手を前立腺に這わせる。[条件：テンタクルインバック(LvMAX)]
 > CONTEXT: Skills/1239/description/ < UNTRANSLATED
 
 > END STRING
@@ -9853,12 +9976,6 @@ Deep throat
 > END STRING
 
 > BEGIN STRING
-[レジスト] [口→♀] 舌を奥深くまでねじ込む。[条件：ドロウネクター(LvMAX)]
-> CONTEXT: Skills/1241/description/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
 ポルチオピストン
 > CONTEXT: Skills/1242/name/ < UNTRANSLATED
 
@@ -9871,43 +9988,49 @@ Deep throat
 > END STRING
 
 > BEGIN STRING
-ヘブンリードロップ
+ヘブンリースムーザー/95
 > CONTEXT: Skills/1243/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-[レジスト] [胸→口] 強く圧迫し、窒息させる。[条件：ヘブンリーフィール(LvMAX)]
+[胸→口] 強く圧迫し、窒息させる。[条件：ヘブンリーフィール(LvMAX)]
 > CONTEXT: Skills/1243/description/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-エキサイトドロップ
+エキサイトドロップ/100
 > CONTEXT: Skills/1244/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-[レジスト] [♀→口] 強く圧迫し、窒息させる。[条件：エキサイトビュー(LvMAX)]
+[♀→口] 強く圧迫し、窒息させる。[条件：エキサイトビュー(LvMAX)]
 > CONTEXT: Skills/1244/description/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-[レジスト] [触手→尻] 触手を奥深くまで押し込む。[条件：テンタクルインバック(LvMAX)]
+ハードスタンプ/80
+> CONTEXT: Skills/1245/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[足→♂] 強く踏み潰す。[条件：エレキテルプレス(LvMAX)]
 > CONTEXT: Skills/1245/description/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-オーラルペリスコープ
+オーラルペリスコープ/100
 > CONTEXT: Skills/1246/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-[レジスト] [口→♂] パイズリしながら口で吸う。[条件：ペリスコープ(LvMAX)]
+[口＋胸→♂] パイズリしながら口で吸う。[条件：ペリスコープ(LvMAX)]
 > CONTEXT: Skills/1246/description/ < UNTRANSLATED
 
 > END STRING
@@ -10477,6 +10600,18 @@ Harmonious Scratch/100
 > END STRING
 
 > BEGIN STRING
+唇に呪いの魔力を込め、触れてきたものを吸精する。
+> CONTEXT: Skills/1308/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+肉体に呪いの魔力を込め、触れてきたものを吸精する。
+> CONTEXT: Skills/1309/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 「おねだり」
 > CONTEXT: Skills/1310/name/ < UNTRANSLATED
 
@@ -10615,6 +10750,18 @@ Blowkiss
 > BEGIN STRING
 [口→耳] 耳元で妖しく囁き、快楽を受け入れさせる
 > CONTEXT: Skills/1321/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+暗黒の狂飆/100/999
+> CONTEXT: Skills/1322/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][奥義] 敵全員を風で攻め、服を脱がす。[精神力]
+> CONTEXT: Skills/1322/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -10763,9 +10910,20 @@ Blowkiss
 > END STRING
 
 > BEGIN STRING
+呪詛のキスマーク/100/4
+> CONTEXT: Skills/1344/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[口→？][CT:4] 呪いのキス・マークを付ける。[ムード中・中確率：恍惚] 非ホールド時
+> CONTEXT: Skills/1344/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 キス・マーキング/100/4
 > CONTEXT: Skills/1345/name/ < UNTRANSLATED
-> CONTEXT: Skills/1346/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -10776,8 +10934,8 @@ Blowkiss
 > END STRING
 
 > BEGIN STRING
-[口→？][CT:4] キス・マークを付ける。[ムード中・中確率：恍惚] 背面拘束時
-> CONTEXT: Skills/1346/description/ < UNTRANSLATED
+[没]
+> CONTEXT: Skills/1346/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -10842,18 +11000,6 @@ Blowkiss
 > END STRING
 
 > BEGIN STRING
-挑発グラインド/100
-> CONTEXT: Skills/1352/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-[×××] 相手を挑発しながら腰を振る。[暴走付与]
-> CONTEXT: Skills/1352/description/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
 抱きつきグラインド/100
 > CONTEXT: Skills/1353/name/ < UNTRANSLATED
 
@@ -10902,7 +11048,7 @@ Blowkiss
 > END STRING
 
 > BEGIN STRING
-グラインドフィナーレ（追撃３回目まで）/100
+グラインドフィナーレ（追撃３回まで）/100
 > CONTEXT: Skills/1357/name/ < UNTRANSLATED
 
 > END STRING
@@ -10957,7 +11103,7 @@ Blowkiss
 > END STRING
 
 > BEGIN STRING
-ハーレムビジョン
+幻惑の手/90
 > CONTEXT: Skills/1362/name/ < UNTRANSLATED
 
 > END STRING
@@ -11023,14 +11169,26 @@ Corrupt Scratch/100
 > END STRING
 
 > BEGIN STRING
-触手を震わせる
+ハーレムビジョン/90/4
 > CONTEXT: Skills/1368/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-触手をぶるぶると震わせ、次のターンに淫液を放つ
+[魔法] 敵全体に幻覚を見せ、毎ターンダメージ付与。[精神力]
 > CONTEXT: Skills/1368/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+触手による自滅
+> CONTEXT: Skills/1369/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+VPが足りず、触手から満腹度を搾取される
+> CONTEXT: Skills/1369/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -11152,6 +11310,24 @@ Corrupt Scratch/100
 > END STRING
 
 > BEGIN STRING
+次のターンにシェムハザを対象にとった相手のレジストを不可にする
+> CONTEXT: Skills/1382/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+暗黒の化身
+> CONTEXT: Skills/1383/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[場：敵] 戦場に暗黒の輪と翼を浮かび上がらせる。
+> CONTEXT: Skills/1383/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 ハングリードレイン/30
 > CONTEXT: Skills/1384/name/ < UNTRANSLATED
 > CONTEXT: Skills/1385/name/ < UNTRANSLATED
@@ -11225,13 +11401,13 @@ Corrupt Scratch/100
 > END STRING
 
 > BEGIN STRING
-魅惑の吐息
+魅惑の吐息//6
 > CONTEXT: Skills/1393/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-[口→嗅覚] 魅惑の吐息を吹きかけ、魅了させる。
+[口→嗅覚] 魅惑の吐息を吹きかけ、魅了させる。朦朧度が高いと効果抜群
 > CONTEXT: Skills/1393/description/ < UNTRANSLATED
 
 > END STRING
@@ -11569,6 +11745,7 @@ Corrupt Scratch/100
 > BEGIN STRING
 イリスサプライズ
 > CONTEXT: Skills/1424/name/ < UNTRANSLATED
+> CONTEXT: Armors/590/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -11814,6 +11991,12 @@ Corrupt Scratch/100
 > END STRING
 
 > BEGIN STRING
+エナジードレイン,ルーレット/100
+> CONTEXT: Skills/1448/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 魅惑の眼差し
 > CONTEXT: Skills/1449/name/ < UNTRANSLATED
 
@@ -11822,6 +12005,18 @@ Corrupt Scratch/100
 > BEGIN STRING
 相手を中確率で魅了させる。[魅力]
 > CONTEXT: Skills/1449/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+淫魔の繁栄/100
+> CONTEXT: Skills/1450/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[触手→体] 敵単体のVPを吸収し、淫魔を産み出す。
+> CONTEXT: Skills/1450/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -12617,6 +12812,18 @@ Corrupt Scratch/100
 > END STRING
 
 > BEGIN STRING
+カオスエンチャント
+> CONTEXT: Skills/1550/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法] 味方１人に混沌の力を付与する。全能力を自身の精神力に応じて上昇させるが、VPを減少させる。
+> CONTEXT: Skills/1550/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 ファイアエンチャント
 > CONTEXT: Skills/1551/name/ < UNTRANSLATED
 
@@ -12977,6 +13184,42 @@ Temptation・Kiss
 > END STRING
 
 > BEGIN STRING
+アクロバティック/120/6
+> CONTEXT: Skills/1636/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[♀＋視覚→♂] 全体に激しく揺れる乳を見せつけながら腰を振る。
+> CONTEXT: Skills/1636/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ボルトクロッチ/90
+> CONTEXT: Skills/1637/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[♀→♂] 電気を浴びせながらアソコをきつく締めあげる
+> CONTEXT: Skills/1637/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ボイスグラインド/50
+> CONTEXT: Skills/1638/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[♀→♂] 相手を煽りながら腰を振る。[暴走付与]
+> CONTEXT: Skills/1638/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 ■シェルマッチ強スキル
 > CONTEXT: Skills/1640/name/ < UNTRANSLATED
 
@@ -13075,6 +13318,18 @@ EX Scratch/150/999
 > BEGIN STRING
 [♀→♀][奥義] 局部を毒液を出しながら擦り合わせる。様々な状態異常にさせる。[精力]
 > CONTEXT: Skills/1652/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ボイススクラッチ/50/6
+> CONTEXT: Skills/1658/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[♀→♀] 相手を煽りながら擦り合わせる。[暴走付与]
+> CONTEXT: Skills/1658/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -13295,6 +13550,18 @@ EX Scratch/150/999
 > END STRING
 
 > BEGIN STRING
+ボイスストローク/50
+> CONTEXT: Skills/1738/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[胸→♂] 相手を挑発しながら擦る。[暴走付与]
+> CONTEXT: Skills/1738/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 ■エキサイトビュー強スキル
 > CONTEXT: Skills/1740/name/ < UNTRANSLATED
 
@@ -13490,6 +13757,19 @@ EX Scratch/150/999
 > END STRING
 
 > BEGIN STRING
+ディープスポット/95
+> CONTEXT: Skills/1778/name/ < UNTRANSLATED
+> CONTEXT: Skills/2018/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[口→♀] 舌を奥深くまでねじ込む。[条件：ドロウネクター(LvMAX)]
+> CONTEXT: Skills/1778/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 ■フラッタナイズ強スキル
 > CONTEXT: Skills/1780/name/ < UNTRANSLATED
 
@@ -13582,6 +13862,24 @@ Love Love Kiss/120/6
 > BEGIN STRING
 首筋を噛む
 > CONTEXT: Skills/1789/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インディセントキッス/100/6
+> CONTEXT: Skills/1797/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ボルトディープキッス/90
+> CONTEXT: Skills/1798/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[口→口] 電気を浴びせながらキスをする。[麻痺・苦痛スタン付与]
+> CONTEXT: Skills/1798/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -13754,14 +14052,26 @@ Melty Press/160/6
 > END STRING
 
 > BEGIN STRING
-母乳をかける
+ミルキースプラッシュ/30
 > CONTEXT: Skills/1847/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-囁き
+[胸→口] 相手の顔に母乳を噴出させる。[中：恍惚/母乳中毒][魅力]
+> CONTEXT: Skills/1847/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ヘヴンリーボイス/50/6
 > CONTEXT: Skills/1848/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[聴覚][CT:6] 胸で相手を押さえつけながら、ささやく。[中：暴走/誘惑][魅力]
+> CONTEXT: Skills/1848/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -14127,6 +14437,7 @@ Melty Press/160/6
 > BEGIN STRING
 ハードサックT/160/6
 > CONTEXT: Skills/1966/name/ < UNTRANSLATED
+> CONTEXT: Skills/2741/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -14151,6 +14462,7 @@ Melty Press/160/6
 > BEGIN STRING
 スクリューサックT/120/6
 > CONTEXT: Skills/1968/name/ < UNTRANSLATED
+> CONTEXT: Skills/2742/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -14278,6 +14590,12 @@ Melty Press/160/6
 > BEGIN STRING
 ■ドロウビター強スキル
 > CONTEXT: Skills/2000/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[口→尻] 舌を奥深くまでねじ込む。[条件：ドロウビター(LvMAX)]
+> CONTEXT: Skills/2018/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -15705,20 +16023,38 @@ Melty Press/160/6
 > END STRING
 
 > BEGIN STRING
-（カンビオン予約）
+明月の光彩
 > CONTEXT: Skills/2314/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-（カンビアーレ予約）
+[魔法] 味方全員を高揚させ、ＥＰを小回復する。ムードも少し上げる。
+> CONTEXT: Skills/2314/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+虚ろな朧月
 > CONTEXT: Skills/2315/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-（オノスケリス予約）
+[場：全]５ターンの間、敵味方全員の状態異常耐性を下げる。
+> CONTEXT: Skills/2315/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+燃え上がる恋の衝動/90
 > CONTEXT: Skills/2316/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法] 敵全体の恋心に火を付け、低確率で暴走させる。[精神力]
+> CONTEXT: Skills/2316/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -16709,30 +17045,6 @@ Melty Press/160/6
 > END STRING
 
 > BEGIN STRING
-フリスギルデ//999
-> CONTEXT: Skills/226/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-[魔法][奥義] 味方一人を限界突破させる。[先制行動]
-> CONTEXT: Skills/226/description/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-カオスエンチャント
-> CONTEXT: Skills/1550/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-[魔法] 味方１人に混沌の力を付与する。全能力を自身の精神力に応じて上昇させるが、VPを減少させる。
-> CONTEXT: Skills/1550/description/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
 欲情の眼差し
 > CONTEXT: Skills/2556/name/ < UNTRANSLATED
 
@@ -16908,9 +17220,21 @@ Melty Press/160/6
 > END STRING
 
 > BEGIN STRING
+[魔法] 味方１人の全ての能力を強める。
+> CONTEXT: Skills/2595/description/
+[Magic] Strengthens all abilities of one ally.
+> END STRING
+
+> BEGIN STRING
 シャードフォース
 > CONTEXT: Skills/2597/name/ < UNTRANSLATED
 
+> END STRING
+
+> BEGIN STRING
+[魔法] 敵１人の全ての能力を弱める。
+> CONTEXT: Skills/2597/description/
+[Magic] Weakens all abilities of one opponent.
 > END STRING
 
 > BEGIN STRING
@@ -16976,5 +17300,497 @@ Melty Press/160/6
 > BEGIN STRING
 [魔法] 状態異常が３つ以上ついた敵１人を拘束状態にする。
 > CONTEXT: Skills/2613/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+始まりの伝説
+> CONTEXT: Skills/2615/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+５ターンの間、味方全員の素早さを上昇させる。
+> CONTEXT: Skills/2615/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+暗黒の序章
+> CONTEXT: Skills/2616/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+５ターンの間、味方全員の精神力を上昇させる。
+> CONTEXT: Skills/2616/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+試練の旅路
+> CONTEXT: Skills/2617/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+５ターンの間、味方全員の忍耐力を上昇させる。
+> CONTEXT: Skills/2617/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+運命の交差点
+> CONTEXT: Skills/2618/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+５ターンの間、味方全員の器用さを上昇させる。
+> CONTEXT: Skills/2618/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+英雄の覚醒
+> CONTEXT: Skills/2619/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+５ターンの間、味方全員の魅力を上昇させる。
+> CONTEXT: Skills/2619/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+闇と光の狭間
+> CONTEXT: Skills/2620/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+５ターンの間、味方全員の素早さを大きく上昇させる。
+> CONTEXT: Skills/2620/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+決戦の刻
+> CONTEXT: Skills/2621/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+５ターンの間、味方全員の精力を大きく上昇させる。
+> CONTEXT: Skills/2621/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+真実の探求
+> CONTEXT: Skills/2622/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+５ターンの間、味方全員の忍耐力を大きく上昇させる。
+> CONTEXT: Skills/2622/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+破滅の予兆
+> CONTEXT: Skills/2623/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+５ターンの間、味方全員の精神力を大きく上昇させる。
+> CONTEXT: Skills/2623/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+永遠の絆
+> CONTEXT: Skills/2624/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+味方全員の精力、器用さを上昇させる。
+> CONTEXT: Skills/2624/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プネウマ
+> CONTEXT: Skills/2626/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][夢:20] ５ターンの間、状態異常にならなくなり、特殊スキルが使えるようになる。
+> CONTEXT: Skills/2626/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アポカタスタシス//6
+> CONTEXT: Skills/2627/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][CT:6] 味方一人のスキルのクールタイムをリセットする。[条件:神格]
+> CONTEXT: Skills/2627/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エスカトロジー
+> CONTEXT: Skills/2628/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][場：自] ５ターンの間、魅力、精力、器用さを上昇させる。[条件:神格]
+> CONTEXT: Skills/2628/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ペンテコステ
+> CONTEXT: Skills/2629/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][場：自] ５ターンの間、回復スキルの回復量が強化される。[条件:神格]
+> CONTEXT: Skills/2629/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■テンタクルインサート強スキル
+> CONTEXT: Skills/2700/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ハードピストンT/160/6
+> CONTEXT: Skills/2701/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[触手→♀][CT:6] ♀を強く突き上げる。[精神力]
+> CONTEXT: Skills/2701/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スクリューピストンT/120/6
+> CONTEXT: Skills/2702/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[触手→♀][CT:6] 触手をうねらせながら突き上げる。[精神力][SSしやすい]
+> CONTEXT: Skills/2702/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ラッシュピストンT/120/6
+> CONTEXT: Skills/2703/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[触手→♀][CT:6] ♀を連続で突き上げる。[精神力][追撃率アップ]
+> CONTEXT: Skills/2703/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インターナル・カムT/150/10
+> CONTEXT: Skills/2705/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[触手→♀][CT:10] 相手のアソコに精を放つ。[精神力]
+> CONTEXT: Skills/2705/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■デモンズアブソーブ強スキル
+> CONTEXT: Skills/2720/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ハードスロートT/160/6
+> CONTEXT: Skills/2721/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[触手→♂][CT:6] ♂を吸い上げる。[精神力]
+> CONTEXT: Skills/2721/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スクリュースロートT/120/6
+> CONTEXT: Skills/2722/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[触手→♂][CT:6] ♂をうねりながら吸い上げる。[精神力][SSしやすい]
+> CONTEXT: Skills/2722/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ラッシュスロートT/120/6
+> CONTEXT: Skills/2723/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[触手→♂][CT:6] ♂を連続で吸い上げる。[精神力][追撃率アップ]
+> CONTEXT: Skills/2723/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■デモンズミルキング強スキル
+> CONTEXT: Skills/2740/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[触手→胸] 胸を強く吸い上げる。[精神力]
+> CONTEXT: Skills/2741/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[触手→胸] 胸をうねりながら吸い上げる。[精神力]
+> CONTEXT: Skills/2742/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ラッシュサックT/120/6
+> CONTEXT: Skills/2743/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[触手→胸] 胸を連続で吸い上げる。[精神力]
+> CONTEXT: Skills/2743/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エナジードレイン(搾乳)/150/10
+> CONTEXT: Skills/2745/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[触手→胸][CT:10] 精気を吸い上げる。[ホールド(LvMAX)][VPドレイン]
+> CONTEXT: Skills/2745/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パワードレイン(搾乳)/150/10
+> CONTEXT: Skills/2746/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[触手→胸][CT:10] 精力を吸い上げる。[ホールド(LvMAX)][基礎精力ドレイン]
+> CONTEXT: Skills/2746/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+-------------------
+> CONTEXT: Skills/2800/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---行動１回目------------
+> CONTEXT: Skills/2801/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---行動２回目------------
+> CONTEXT: Skills/2802/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---行動３回目------------
+> CONTEXT: Skills/2803/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---行動４回目------------
+> CONTEXT: Skills/2804/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---行動５回目------------
+> CONTEXT: Skills/2805/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---行動６回目------------
+> CONTEXT: Skills/2806/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---行動７回目------------
+> CONTEXT: Skills/2807/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---行動８回目------------
+> CONTEXT: Skills/2808/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---行動９回目------------
+> CONTEXT: Skills/2809/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---行動１０回目------------
+> CONTEXT: Skills/2810/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---参照---
+> CONTEXT: Skills/2811/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---条件---
+> CONTEXT: Skills/2812/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---確率条件---
+> CONTEXT: Skills/2813/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---確率条件（ムード％）---
+> CONTEXT: Skills/2814/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---確率条件（レベル％(最大50％)）---
+> CONTEXT: Skills/2815/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---確率条件（５＋レベル％(最大15％)）---
+> CONTEXT: Skills/2816/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---条件（レベル以下）---
+> CONTEXT: Skills/2817/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---反転条件---
+> CONTEXT: Skills/2818/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---条件リセット---
+> CONTEXT: Skills/2822/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---行動リセット---
+> CONTEXT: Skills/2823/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---判定終了---
+> CONTEXT: Skills/2824/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---自動作成---
+> CONTEXT: Skills/2825/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---自動登録アクションリセット---
+> CONTEXT: Skills/2826/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■ディープアクセプト強スキル
+> CONTEXT: Skills/2900/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■ヘブンリーアクセプト強スキル
+> CONTEXT: Skills/2920/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミルキーグラインド/70
+> CONTEXT: Skills/2922/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[胸→口] 母乳を飲ませながら腰を振る。[中：母乳中毒][精力/魅力]
+> CONTEXT: Skills/2922/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■フォーリンアクセプト強スキル
+> CONTEXT: Skills/2940/name/ < UNTRANSLATED
 
 > END STRING

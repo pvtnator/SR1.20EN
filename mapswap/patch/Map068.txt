@@ -1,47 +1,57 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-"白ウサギ"
-> CONTEXT: None < UNUSED
-"White Rabbit"
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-夢魔の中には、こちらの事を見つけると動く者もいるよ。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Some succubi act when they see you.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-そういう夢魔がこちらに気付いた時は、まずは一旦引いて\\_
-様子を見るか、\\n通りすぎて一気に駆け抜けるかで、\\_
-兎も角は距離を離してみることだね。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-When such a succubus notices you, you should either back away
-and see what's going on, or run and keep your distance.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-彼女たちへの振り切り方の、多少なりとも参考になるはず\\_
-だから。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-That should help you deal with them.
-> END STRING
-
-> BEGIN STRING
-←変な泉　出口→
-> CONTEXT: None < UNUSED
-←Peculiar fountain   Exit→
-> END STRING
-
-> BEGIN STRING
 怪しい魔力を感じる……。
 クリスタルに触れますか？
 > CONTEXT: Map068/events/1/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map068/events/1/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map009/events/35/pages/1/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map009/events/35/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今度こそは……、
+私も刺し違える覚悟で臨むべきかもしれませんね……。
+> CONTEXT: Map068/events/1/pages/0/24/Dialogue < UNTRANSLATED
+> CONTEXT: Map068/events/1/pages/0/24/Dialogue < UNTRANSLATED
+> CONTEXT: Map009/events/35/pages/1/25/Dialogue < UNTRANSLATED
+> CONTEXT: Map009/events/35/pages/1/25/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この先は漆黒の冥府と呼ばれる、闇の世界。
+> CONTEXT: Map068/events/4/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map068/events/4/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+生前の罪深き者、裁かれし者たちを
+審判によって、閉じ込めています。
+> CONTEXT: Map068/events/4/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map068/events/4/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それ故、この天界とは異なり危険な世界でもあります。
+くれぐれも、ご無理なさらないよう、
+慎重にお進みくださいませ。
+> CONTEXT: Map068/events/4/pages/0/6/Dialogue < UNTRANSLATED
+> CONTEXT: Map068/events/4/pages/0/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私も調べたい事があるので、
+終わり次第、後から向かいますわ。
+> CONTEXT: Map068/events/4/pages/0/10/Dialogue < UNTRANSLATED
+> CONTEXT: Map068/events/4/pages/0/10/Dialogue < UNTRANSLATED
 
 > END STRING

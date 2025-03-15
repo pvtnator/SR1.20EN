@@ -368,21 +368,9 @@ Dry Apricot
 > END STRING
 
 > BEGIN STRING
-フルーツタルト
-> CONTEXT: Items/28/name/
-Fruit Tart
-> END STRING
-
-> BEGIN STRING
 [菓] ＥＰが超回復する。上品な味わいで人気な一口サイズのタルト。
 > CONTEXT: Items/28/description/ < UNTRANSLATED
 > CONTEXT: Items/42/description/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-シルクタルト
-> CONTEXT: Items/29/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -690,6 +678,12 @@ Romance bouquet/100
 > END STRING
 
 > BEGIN STRING
+風の翼
+> CONTEXT: Items/71/name/
+Wind Wings
+> END STRING
+
+> BEGIN STRING
 ホームへ戻る。
 > CONTEXT: Items/71/description/
 Return Home.
@@ -699,6 +693,7 @@ Return Home.
 088-Action03
 > CONTEXT: Items/71/menu_se/name/ < UNTRANSLATED
 > CONTEXT: Items/72/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/421/menu_se/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -2751,6 +2746,12 @@ CorruptRegalia
 > END STRING
 
 > BEGIN STRING
+没アイテム
+> CONTEXT: Items/400/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 ロワールワイン
 > CONTEXT: Items/408/name/ < UNTRANSLATED
 
@@ -2873,6 +2874,42 @@ CorruptRegalia
 > BEGIN STRING
 冥界に戻るための片道切符。
 > CONTEXT: Items/419/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+運命の言霊
+> CONTEXT: Items/420/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+運命を左右できる神秘的な言霊。
+> CONTEXT: Items/420/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+輪廻の書
+> CONTEXT: Items/421/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+大天使の城へ戻る
+> CONTEXT: Items/421/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+浄化の言霊
+> CONTEXT: Items/422/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+淫界の霧を振り払える神秘的な言霊。
+> CONTEXT: Items/422/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -3289,11 +3326,5 @@ Are you ready? うん！
 > BEGIN STRING
 高学年が主に使っている教科書。付録がいっぱい付いてることで有名。
 > CONTEXT: Items/494/description/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-没アイテム
-> CONTEXT: Items/400/name/ < UNTRANSLATED
 
 > END STRING

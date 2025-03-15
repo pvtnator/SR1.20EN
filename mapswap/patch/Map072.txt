@@ -1,201 +1,8 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-レジストが簡単すぎ、または難しすぎと感じていませんか？
-メニューを開いて、Systemからレジスト時間の調整が\\_
-できますよ。
-> CONTEXT: None < UNUSED
-Do you feel like resisting is too easy or too difficult?
-You can open the settings and adjust the resist time.
-> END STRING
-
-> BEGIN STRING
-矢印数４～６を安定して押せる程度の調整がオススメです。
-ここでレジストのテストをすることができます。
-> CONTEXT: None < UNUSED
-We recommend adjusting it so that 
-you can do 4-6 arrows reliably.
-You can test resist here.
-> END STRING
-
-> BEGIN STRING
-レジストのテストをしますか？
-> CONTEXT: None < UNUSED
-Want to test resist?
-> END STRING
-
-> BEGIN STRING
-解説を聞く
-> CONTEXT: None < UNUSED
-Explanation
-> END STRING
-
-> BEGIN STRING
-レジストの矢印数が選べます。
-（２～１０。それ以外の数字は矢印数ランダム）
-> CONTEXT: None < UNUSED
-You can choose the number of resist arrows.
-(2-10. Otherwise, random numbers of arrows)
-> END STRING
-
-> BEGIN STRING
-レジストテスト中です。
-左から順番に矢印の方向を押してください。
-> CONTEXT: None < UNUSED
-Resist test in progress.
-Press in the direction of the arrow in order from the left.
-> END STRING
-
-> BEGIN STRING
-レジストに成功しました。
-> CONTEXT: None < UNUSED
-Successfully resisted.
-> END STRING
-
-> BEGIN STRING
-レジストに失敗しました。
-> CONTEXT: None < UNUSED
-Resist failed.
-> END STRING
-
-> BEGIN STRING
-\\name[夢魔]\\_
-んもー、逃げ足が早いお姉さんなんだからぁ･･･。
-このままじゃ埒があかないよぉ･･･。
-> CONTEXT: None < UNUSED
-\\name[Succubus]\\_
-Hnng, she's quick at running away...
-As things are, I'm not making progress...
-> END STRING
-
-> BEGIN STRING
-\\name[夢魔]\\_
-･･･おやー？
-> CONTEXT: None < UNUSED
-\\name[Succubus]\\_
-...Hey?
-> END STRING
-
-> BEGIN STRING
-\\name[夢魔]\\_
-アナタ、さっきのお姉さんとお知り合い？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[夢魔]\\_
-だったらぁ･･･、さっきのお姉さんに助けに来てもらおっか♪
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[夢魔]\\_
-お兄さん、さっきのお姉さんとお知り合い？
-> CONTEXT: None < UNUSED
-\\name[Succubus]\\_
-Boy, do you know the girl from earlier?
-> END STRING
-
-> BEGIN STRING
-\\name[夢魔]\\_
-だったらぁ･･･、お姉さんに助けに来てもらおっか♪
-> CONTEXT: None < UNUSED
-\\name[Succubus]\\_
-In that case, why don't you help me?♪
-> END STRING
-
-> BEGIN STRING
-\\name[夢魔]\\_
-いい声で鳴いてねぇ\\H
-> CONTEXT: None < UNUSED
-\\name[Succubus]\\_
-Make some nice sounds, ok?\\H
-> END STRING
-
-> BEGIN STRING
-"倒れている人"
-> CONTEXT: None < UNUSED
-"Fallen Person"
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-うう・・・
-暴走した時に仕掛けるホールドのレジストは
-自動で成功する・・・。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Ugh...
-The hold resist when berserked 
-is automatically successful...
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-駄目だと思ったが身体が勝手に・・・。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-I knew it was no good, but my body just kept doing it...
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-うう・・・
-暴走した時に仕掛けるホールドのレジストは
-成功するとホールドする･･･。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Ugh...
-If the hold resist when berserked is successful, 
-it will hold...
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-今はヤバイと思って必死にレジストしたら
-挿入しちまった･･･。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-I knew it was dangerous 
-so I tried to resist but ended up inserting it...
-> END STRING
-
-> BEGIN STRING
-"獣人の剣士"
-> CONTEXT: Map100/events/33/pages/0/0/InlineScript/1:22
-> CONTEXT: Map100/events/33/pages/1/0/InlineScript/1:22
-"Beastman Swordsman"
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-採取ポイントの中には稀に罠もあるんだ
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-There are occasionally traps in collection points
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-【ダウト】の素質があれば見破ることもできるけど\\_
-見破れないと……\\n考えただけでも恐ろしいッ！
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-If you have [Doubt], you can see through it, 
-but if you can't...
-It's scary just to think about it!
-> END STRING
-
-> BEGIN STRING
-"アルミルス"
-> CONTEXT: Map072/events/2/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map072/events/4/pages/0/3/InlineScript/2:22 < UNTRANSLATED
-> CONTEXT: Map061/events/43/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map072/events/4/pages/0/118/InlineScript/2:22 < UNTRANSLATED
-> CONTEXT: Map062/events/9/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map052/events/19/pages/0/1/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map048/events/13/pages/0/15/InlineScript/2:22 < UNTRANSLATED
+終わる世界と私の光景
+> CONTEXT: Map072/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map072/bgm/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -204,24 +11,14 @@ It's scary just to think about it!
 \\n[101]様、また来てくださったのですね。
 今度は前のようにはいきませんよ？
 > CONTEXT: Map072/events/2/pages/1/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map072/events/2/pages/1/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 アルミルスと再戦しますか？
 > CONTEXT: Map072/events/2/pages/1/4/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-"ヒラルス"
-> CONTEXT: Map072/events/3/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map072/events/4/pages/0/3/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map061/events/43/pages/0/0/InlineScript/2:22 < UNTRANSLATED
-> CONTEXT: Map072/events/4/pages/0/118/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map062/events/9/pages/0/0/InlineScript/2:22 < UNTRANSLATED
-> CONTEXT: Map052/events/19/pages/0/1/InlineScript/2:22 < UNTRANSLATED
-> CONTEXT: Map048/events/13/pages/0/15/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map072/events/2/pages/1/4/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -230,6 +27,8 @@ It's scary just to think about it!
 わ～い！
 \\n[101]、また来てくれたんだね～♪
 > CONTEXT: Map072/events/3/pages/1/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map072/events/3/pages/1/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map072/events/4/pages/0/13/Dialogue < UNTRANSLATED
 > CONTEXT: Map072/events/4/pages/0/13/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -239,12 +38,21 @@ It's scary just to think about it!
 ね～ね～、
 また遊ぼうよ！！
 > CONTEXT: Map072/events/3/pages/1/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map072/events/3/pages/1/4/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 ヒラルスと再戦しますか？
 > CONTEXT: Map072/events/3/pages/1/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map072/events/3/pages/1/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"クリア済"
+> CONTEXT: Map072/events/4/pages/0/16/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map072/events/4/pages/0/16/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
 
@@ -252,6 +60,7 @@ It's scary just to think about it!
 \\name[\\v[2]]\\_
 わ～い！
 \\n[101]だ～♪
+> CONTEXT: Map072/events/4/pages/0/19/Dialogue < UNTRANSLATED
 > CONTEXT: Map072/events/4/pages/0/19/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -261,6 +70,7 @@ It's scary just to think about it!
 もう、ヒラルスったら。
 そんなにはしゃがないの！
 > CONTEXT: Map072/events/4/pages/0/27/Dialogue < UNTRANSLATED
+> CONTEXT: Map072/events/4/pages/0/27/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -268,6 +78,7 @@ It's scary just to think about it!
 \\name[\\v[3]]\\_
 でも……。
 実は私も気分が高まっておりましてね……\\H
+> CONTEXT: Map072/events/4/pages/0/33/Dialogue < UNTRANSLATED
 > CONTEXT: Map072/events/4/pages/0/33/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -277,6 +88,7 @@ It's scary just to think about it!
 貴方さえよろしければ、私達と一戦、
 是非とも交えさせては頂けませんか……？
 > CONTEXT: Map072/events/4/pages/0/36/Dialogue < UNTRANSLATED
+> CONTEXT: Map072/events/4/pages/0/36/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -284,6 +96,7 @@ It's scary just to think about it!
 ヒラルス・アルミルスと戦いますか？
 
 \\c[12]\\v[4]\\c[0]
+> CONTEXT: Map072/events/4/pages/0/39/Dialogue < UNTRANSLATED
 > CONTEXT: Map072/events/4/pages/0/39/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -293,6 +106,7 @@ It's scary just to think about it!
 え～！
 \\n[101]ってば、ノリが悪いよぉ～＞＜
 > CONTEXT: Map072/events/4/pages/0/48/Dialogue < UNTRANSLATED
+> CONTEXT: Map072/events/4/pages/0/48/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -301,12 +115,14 @@ It's scary just to think about it!
 まあまあ。
 \\n[101]様も、お疲れでしょうから。
 > CONTEXT: Map072/events/4/pages/0/54/Dialogue < UNTRANSLATED
+> CONTEXT: Map072/events/4/pages/0/54/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 また気が向いたらお越しくださいね♪
+> CONTEXT: Map072/events/4/pages/0/59/Dialogue < UNTRANSLATED
 > CONTEXT: Map072/events/4/pages/0/59/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -316,6 +132,7 @@ It's scary just to think about it!
 やったあ～！
 \\n[101]、覚悟はいい！？
 > CONTEXT: Map072/events/4/pages/0/66/Dialogue < UNTRANSLATED
+> CONTEXT: Map072/events/4/pages/0/66/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -323,6 +140,7 @@ It's scary just to think about it!
 \\name[\\v[3]]\\_
 こら、ヒラルス！
 お手柔らかにしてあげなさいね？
+> CONTEXT: Map072/events/4/pages/0/72/Dialogue < UNTRANSLATED
 > CONTEXT: Map072/events/4/pages/0/72/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -332,6 +150,7 @@ It's scary just to think about it!
 \\n[101]様。
 お引き受け下さりありがとうございます。
 > CONTEXT: Map072/events/4/pages/0/77/Dialogue < UNTRANSLATED
+> CONTEXT: Map072/events/4/pages/0/77/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -339,6 +158,7 @@ It's scary just to think about it!
 \\name[\\v[3]]\\_
 準備はよろしいですか？
 では、参ります。
+> CONTEXT: Map072/events/4/pages/0/80/Dialogue < UNTRANSLATED
 > CONTEXT: Map072/events/4/pages/0/80/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -348,6 +168,7 @@ It's scary just to think about it!
 あはっ、やばぁ～\\H
 \\n[101]、さすがじゃ～ん……\\H
 > CONTEXT: Map072/events/4/pages/0/120/Dialogue < UNTRANSLATED
+> CONTEXT: Map072/events/4/pages/0/120/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -355,6 +176,7 @@ It's scary just to think about it!
 \\name[\\v[3]]\\_
 やはり……、
 私達ではとても及ばないようですね……\\H
+> CONTEXT: Map072/events/4/pages/0/123/Dialogue < UNTRANSLATED
 > CONTEXT: Map072/events/4/pages/0/123/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -364,12 +186,14 @@ It's scary just to think about it!
 やはり……大天使様の見る目に
 狂いはなかったということ……\\H
 > CONTEXT: Map072/events/4/pages/0/126/Dialogue < UNTRANSLATED
+> CONTEXT: Map072/events/4/pages/0/126/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 また是非、お相手してくださいね……\\H
+> CONTEXT: Map072/events/4/pages/0/129/Dialogue < UNTRANSLATED
 > CONTEXT: Map072/events/4/pages/0/129/Dialogue < UNTRANSLATED
 
 > END STRING

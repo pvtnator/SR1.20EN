@@ -28,6 +28,24 @@ Which of the following are you most attracted to?
 > END STRING
 
 > BEGIN STRING
+仲の良い友人達とお喋り
+> CONTEXT: Commonevents/2/11/Choice/0
+Chatting with good friends
+> END STRING
+
+> BEGIN STRING
+体力づくりのため運動
+> CONTEXT: Commonevents/2/11/Choice/1
+Exercise to build physical strength
+> END STRING
+
+> BEGIN STRING
+静かな部屋で落ち着いて読書
+> CONTEXT: Commonevents/2/11/Choice/2
+Relax and read in a quiet room
+> END STRING
+
+> BEGIN STRING
 \\name[\\v[2]]\\_
 ふふ、他愛の無いお喋りもいいものですわね。\\.\\.
 （主人公の性格が【真面目】になります）\\n
@@ -54,10 +72,54 @@ Which of the following are you most attracted to?
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
+ふふ、知的な殿方は絵になりますわね。\\.\\.
+（主人公の性格が【冷静】になります）\\n
+> CONTEXT: Commonevents/2/43/Dialogue
+\\name[\\v[2]]\\_
+Hehe, intelligent men are picture perfect.\\.\\.
+(The main character's personality becomes [Calm])\\n
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
 ありがとうございます。\\.\\.
 では次に･･･
 > CONTEXT: Commonevents/2/58/Dialogue < UNTRANSLATED
 
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+女性のどこに、貴方は魅力を感じますの？
+特に好みが無ければ、一番近いものをお選びになって。
+> CONTEXT: Commonevents/2/62/Dialogue
+\\name[\\v[2]]\\_
+What do you find attractive about women?
+Choose the option that's closest to your preference.
+> END STRING
+
+> BEGIN STRING
+艶やかな唇
+> CONTEXT: Commonevents/2/65/Choice/0
+Glossy lips
+> END STRING
+
+> BEGIN STRING
+すらりとした手足
+> CONTEXT: Commonevents/2/65/Choice/1
+Slender body
+> END STRING
+
+> BEGIN STRING
+豊満な胸元
+> CONTEXT: Commonevents/2/65/Choice/2
+Plump breasts
+> END STRING
+
+> BEGIN STRING
+丸みを帯びた腰つき
+> CONTEXT: Commonevents/2/65/Choice/3
+Curvy hips
 > END STRING
 
 > BEGIN STRING
@@ -70,6 +132,17 @@ Which of the following are you most attracted to?
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
+ふふ、あまり焦らさないでくださいませ\\H
+> CONTEXT: Commonevents/2/75/Dialogue
+> CONTEXT: Commonevents/2/90/Dialogue
+> CONTEXT: Commonevents/2/105/Dialogue
+> CONTEXT: Commonevents/2/120/Dialogue
+\\name[\\v[2]]\\_
+Hehe, there's no need to hurry\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
 ふふ、均整の取れた手足は美しいですわよね\\H\\.\\.
 （主人公の弱点が【手攻めに弱い】になります）\\n
 > CONTEXT: Commonevents/2/82/Dialogue < UNTRANSLATED
@@ -78,10 +151,60 @@ Which of the following are you most attracted to?
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
+母性の象徴ですものね、嫌いな殿方などおりませんわ。\\.\\.
+（主人公の弱点が【胸攻めに弱い】になります）\\n
+> CONTEXT: Commonevents/2/97/Dialogue
+\\name[\\v[2]]\\_
+It's a symbol of motherhood, and there's no man who doesn't like it.\\.\\.
+(The main character's weakness becomes [Breast weakness])\\n
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
 ふふ、女性の魅力は胸だけとは限りませんものね？\\.\\.
 （主人公の弱点が【女陰攻めに弱い】になります）\\n
 > CONTEXT: Commonevents/2/112/Dialogue < UNTRANSLATED
 
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あらあら･･･\\H
+> CONTEXT: Commonevents/2/127/Dialogue
+\\name[\\v[2]]\\_
+Oh my...\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+まぁ、私としたことが大事な事を伺っておりませんでしたわ。
+> CONTEXT: Commonevents/2/129/Dialogue
+\\name[\\v[2]]\\_
+Well, if anyone asks, I didn't hear anything.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+貴方のお名前、教えてくださらないかしら？
+> CONTEXT: Commonevents/2/132/Dialogue
+\\name[\\v[2]]\\_
+Can you tell me your name?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\v[3]、というお名前なんですの？
+> CONTEXT: Commonevents/2/137/Dialogue
+\\name[\\v[2]]\\_
+\\v[3], is your name?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら、ご冗談がお上手ですのね\\H
+> CONTEXT: Commonevents/2/143/Dialogue
+\\name[\\v[2]]\\_
+Oh, you're so funny\\H
 > END STRING
 
 > BEGIN STRING
@@ -109,12 +232,6 @@ Thank you for your cooperation.
 > END STRING
 
 > BEGIN STRING
-淫界にいる間は風の翼は使えません！
-> CONTEXT: Commonevents/10/37/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
 ポートにあなたの情報が登録されました。
 > CONTEXT: Commonevents/11/6/Dialogue
 > CONTEXT: Commonevents/169/6/Dialogue
@@ -131,6 +248,12 @@ The information recorded in the port is flowing in!
 夢魔と契約できる数が50増えました。
 > CONTEXT: Commonevents/12/6/Dialogue < UNTRANSLATED
 
+> END STRING
+
+> BEGIN STRING
+デバッグ用アイテムを入手します。
+> CONTEXT: Commonevents/12/17/Dialogue
+Get debugging items.
 > END STRING
 
 > BEGIN STRING
@@ -1462,6 +1585,12 @@ Let's forget that it was all a dream.
 > END STRING
 
 > BEGIN STRING
+"name_map2"
+> CONTEXT: Commonevents/14/36/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 "map_name_home"
 > CONTEXT: Commonevents/14/44/InlineScript/2:21 < UNTRANSLATED
 
@@ -1474,14 +1603,66 @@ Let's forget that it was all a dream.
 > END STRING
 
 > BEGIN STRING
+"map_name_library"
+> CONTEXT: Commonevents/14/61/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/65/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 "map_name_residence"
 > CONTEXT: Commonevents/14/75/InlineScript/2:21 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
+"map_name_moonbeam"
+> CONTEXT: Commonevents/14/83/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/91/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/99/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_cave"
+> CONTEXT: Commonevents/14/107/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/115/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/123/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/267/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/307/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 "map_name_goblintown"
 > CONTEXT: Commonevents/14/131/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_church"
+> CONTEXT: Commonevents/14/139/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/147/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/155/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/163/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_hell"
+> CONTEXT: Commonevents/14/171/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/179/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/187/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/195/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_castle"
+> CONTEXT: Commonevents/14/203/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/211/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/219/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/227/InlineScript/2:21 < UNTRANSLATED
 
 > END STRING
 
@@ -1507,6 +1688,12 @@ Let's forget that it was all a dream.
 > BEGIN STRING
 "map_name_chaosrendica"
 > CONTEXT: Commonevents/14/259/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_shallows"
+> CONTEXT: Commonevents/14/291/InlineScript/2:21 < UNTRANSLATED
 
 > END STRING
 
@@ -1646,6 +1833,11 @@ Let's forget that it was all a dream.
 > BEGIN STRING
 "map_name_mod_cloakroom"
 > CONTEXT: Commonevents/14/519/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_laboratory"
 > CONTEXT: Commonevents/14/528/InlineScript/2:21 < UNTRANSLATED
 
 > END STRING
@@ -1768,6 +1960,18 @@ Let's forget that it was all a dream.
 > BEGIN STRING
 "map_name_mod_Sbase"
 > CONTEXT: Commonevents/14/722/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_kakuzato"
+> CONTEXT: Commonevents/14/731/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_heavencastle"
+> CONTEXT: Commonevents/14/740/InlineScript/2:21 < UNTRANSLATED
 
 > END STRING
 
@@ -2151,6 +2355,44 @@ various doors of dream magic.
 > END STRING
 
 > BEGIN STRING
+ステート
+> CONTEXT: Commonevents/87/57/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベッド戦の背景を変更します
+> CONTEXT: Commonevents/87/59/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベッド戦の背景を変更しました
+> CONTEXT: Commonevents/87/61/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベッド戦のBGMを変更します
+（SpaceまたはShiftでBGM試聴）
+現在設定されているBGM:  \\v[2]
+> CONTEXT: Commonevents/87/69/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+BGMの変更をキャンセルしました。
+> CONTEXT: Commonevents/87/74/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベッド戦のBGMを変更しました
+> CONTEXT: Commonevents/87/77/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 トークの内容を選択してください。
 ※キャンセルで好意
 > CONTEXT: Commonevents/102/66/Dialogue < UNTRANSLATED
@@ -2332,6 +2574,15 @@ various doors of dream magic.
 > BEGIN STRING
 交合
 > CONTEXT: Commonevents/102/190/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+最初へ
+> CONTEXT: Commonevents/102/190/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/102/190/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/102/381/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/102/381/Choice/2 < UNTRANSLATED
 
 > END STRING
 
@@ -2882,6 +3133,34 @@ It's a pain, but come back after a battle.
 > END STRING
 
 > BEGIN STRING
+全裸にする
+> CONTEXT: Commonevents/135/9/Choice/0
+> CONTEXT: Commonevents/135/9/Choice/0
+Strip naked
+> END STRING
+
+> BEGIN STRING
+欲情をつける
+> CONTEXT: Commonevents/135/9/Choice/1
+> CONTEXT: Commonevents/135/9/Choice/1
+Become aroused
+> END STRING
+
+> BEGIN STRING
+全員のＥＰを１にする
+> CONTEXT: Commonevents/135/9/Choice/2
+> CONTEXT: Commonevents/135/9/Choice/2
+Set everyone's EP to 1
+> END STRING
+
+> BEGIN STRING
+全員のＶＰを１にする
+> CONTEXT: Commonevents/135/9/Choice/3
+> CONTEXT: Commonevents/135/9/Choice/3
+Set everyone's EP to 1
+> END STRING
+
+> BEGIN STRING
 \\name[\\v[2]]\\_
 わかった、やめるんだな？
 > CONTEXT: Commonevents/135/25/Dialogue
@@ -2918,6 +3197,14 @@ Reset bonuses
 > END STRING
 
 > BEGIN STRING
+仲間がいません！
+> CONTEXT: Commonevents/136/4/Dialogue
+> CONTEXT: Commonevents/136/13/Dialogue
+Do you want to reset the skills and qualities 
+acquired by the first companion?
+> END STRING
+
+> BEGIN STRING
 弱点をリセットしました。
 > CONTEXT: Commonevents/136/9/Dialogue
 Weaknesses reset.
@@ -2937,15 +3224,6 @@ while in the alternate reality.
 > END STRING
 
 > BEGIN STRING
-"ジュデンシア"
-> CONTEXT: Commonevents/138/0/InlineScript/1:26
-> CONTEXT: Map073/events/2/pages/1/2/InlineScript/1:22
-> CONTEXT: Map073/events/4/pages/0/0/InlineScript/1:22
-> CONTEXT: Map062/events/9/pages/0/0/InlineScript/3:22
-"Judencia"
-> END STRING
-
-> BEGIN STRING
 \\name[\\v[2]]\\_
 またいつでもどうぞ。
 > CONTEXT: Commonevents/138/8/Dialogue < UNTRANSLATED
@@ -2955,43 +3233,58 @@ while in the alternate reality.
 > BEGIN STRING
 \\n[101]が先頭でないと
 行く事ができません。
-> CONTEXT: Commonevents/138/18/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/138/19/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "ホーム"
-> CONTEXT: Commonevents/138/28/InlineScript/1:26 < UNTRANSLATED
+> CONTEXT: Commonevents/138/29/InlineScript/1:26 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "\#{$game_actors[101].name}邸"
-> CONTEXT: Commonevents/138/36/InlineScript/2:2 < UNTRANSLATED
+> CONTEXT: Commonevents/138/37/InlineScript/2:2 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "銀色の都市"
-> CONTEXT: Commonevents/138/45/InlineScript/1:26 < UNTRANSLATED
+> CONTEXT: Commonevents/138/46/InlineScript/1:26 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "常夜の街"
-> CONTEXT: Commonevents/138/53/InlineScript/1:26 < UNTRANSLATED
+> CONTEXT: Commonevents/138/54/InlineScript/1:26 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "シークレットラボ"
-> CONTEXT: Commonevents/138/61/InlineScript/1:26 < UNTRANSLATED
+> CONTEXT: Commonevents/138/62/InlineScript/1:26 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "大天使の城"
-> CONTEXT: Commonevents/138/69/InlineScript/1:26 < UNTRANSLATED
+> CONTEXT: Commonevents/138/70/InlineScript/1:26 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"Another_World"
+> CONTEXT: Commonevents/138/70/InlineScript/2:28 < UNTRANSLATED
+> CONTEXT: Commonevents/138/78/InlineScript/2:28 < UNTRANSLATED
+> CONTEXT: Commonevents/341/62/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Commonevents/345/21/InlineScript/1:27 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"淫界"
+> CONTEXT: Commonevents/138/78/InlineScript/1:26 < UNTRANSLATED
 
 > END STRING
 
@@ -3162,6 +3455,12 @@ You can always rely on me!
 > CONTEXT: Commonevents/139/88/Dialogue
 \\name[\\v[2]]\\_
 Well then, good luck!
+> END STRING
+
+> BEGIN STRING
+"怪しいメイド"
+> CONTEXT: Commonevents/141/0/InlineScript/1:22
+"Suspicious Maid"
 > END STRING
 
 > BEGIN STRING
@@ -3686,6 +3985,15 @@ Would you like to change the special climax settings?
 \\c[12]Self climax\\c[0] is currently set to "\\v[3]",
 \\c[12]Mutual climax\\c[0] is currently set to "\\v[4]",
 \\c[12]Instant climax\\c[0] is currently set to "\\v[5]".
+> END STRING
+
+> BEGIN STRING
+説明を聞く
+> CONTEXT: Commonevents/144/63/Choice/1
+> CONTEXT: Commonevents/144/63/Choice/1
+> CONTEXT: Commonevents/145/22/Choice/2
+> CONTEXT: Commonevents/145/22/Choice/2
+Explanation
 > END STRING
 
 > BEGIN STRING
@@ -5407,18 +5715,6 @@ is lurking at this collection point!
 > END STRING
 
 > BEGIN STRING
-"達"
-> CONTEXT: Commonevents/214/69/InlineScript/6:30 < UNTRANSLATED
-> CONTEXT: Map186/events/15/pages/0/29/InlineScript/5:39 < UNTRANSLATED
-> CONTEXT: Map186/events/16/pages/0/29/InlineScript/5:39 < UNTRANSLATED
-> CONTEXT: Map186/events/17/pages/0/29/InlineScript/5:39 < UNTRANSLATED
-> CONTEXT: Map186/events/18/pages/0/29/InlineScript/5:39 < UNTRANSLATED
-> CONTEXT: Map186/events/19/pages/0/29/InlineScript/5:39 < UNTRANSLATED
-> CONTEXT: Map186/events/20/pages/0/28/InlineScript/5:39 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
 今回の記録
 遊技場 \\v[5] 階にて
 \\v[189]によって失神させられる
@@ -5461,14 +5757,6 @@ is lurking at this collection point!
 \\v[2]達はスライムの粘液が付いて
 上手く移動できなくなってしまった！
 > CONTEXT: Commonevents/237/15/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-宝箱からサキュバスが現れた！
-> CONTEXT: Commonevents/237/42/Dialogue < UNTRANSLATED
-> CONTEXT: Map186/events/8/pages/0/14/Dialogue < UNTRANSLATED
-> CONTEXT: Map186/events/9/pages/0/14/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -5557,6 +5845,12 @@ is lurking at this collection point!
 > END STRING
 
 > BEGIN STRING
+ポートから情報が流れ込んでくる
+> CONTEXT: Commonevents/258/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 七つの大罪が一つ「\\c[12]\\v[2]\\c[0]」を司る領域。
 挑む意志があるのならポートに手を触れよ。
 
@@ -5566,109 +5860,10 @@ is lurking at this collection point!
 > END STRING
 
 > BEGIN STRING
-"１Ｆ　ロビー"
-> CONTEXT: Commonevents/259/1/InlineScript/1:22 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-"２Ｆ　居住エリア"
-> CONTEXT: Commonevents/259/1/InlineScript/2:22 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-"３Ｆ　歓楽街"
-> CONTEXT: Commonevents/259/1/InlineScript/3:22 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-"４Ｆ　封印の間"
-> CONTEXT: Commonevents/259/1/InlineScript/4:22 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-"５Ｆ　セキュリティエリア"
-> CONTEXT: Commonevents/259/1/InlineScript/5:22 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-"屋上　悠久の庭園"
-> CONTEXT: Commonevents/259/1/InlineScript/6:22 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-"屋上"
-> CONTEXT: Commonevents/259/7/InlineScript/2:24 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-"\#{$game_variables[2]}階"
-> CONTEXT: Commonevents/259/7/InlineScript/4:24 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-何階に行きますか？
-（※現在は\\v[10]にいます）
-> CONTEXT: Commonevents/259/18/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/259/39/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/259/63/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/259/90/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/259/103/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/259/131/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/259/144/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\v[8]
-> CONTEXT: Commonevents/259/41/Choice/2 < UNTRANSLATED
-> CONTEXT: Commonevents/259/65/Choice/3 < UNTRANSLATED
-> CONTEXT: Commonevents/259/105/Choice/1 < UNTRANSLATED
-> CONTEXT: Commonevents/259/146/Choice/1 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\v[7]
-> CONTEXT: Commonevents/259/65/Choice/2 < UNTRANSLATED
-> CONTEXT: Commonevents/259/105/Choice/0 < UNTRANSLATED
-> CONTEXT: Commonevents/259/146/Choice/0 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-戻る
-> CONTEXT: Commonevents/259/105/Choice/2 < UNTRANSLATED
-> CONTEXT: Commonevents/259/146/Choice/3 < UNTRANSLATED
-> CONTEXT: Map095/events/9/pages/0/32/Choice/3 < UNTRANSLATED
-> CONTEXT: Map095/events/9/pages/0/32/Choice/3 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\v[9]
-> CONTEXT: Commonevents/259/146/Choice/2 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
 そのフロアは今は行けないようだ……。
-> CONTEXT: Commonevents/259/180/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/259/185/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/259/190/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-その階は今いるフロアです。
-> CONTEXT: Commonevents/259/201/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/259/13/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/259/18/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/259/23/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -6901,10 +7096,8 @@ Would you like to use your dream tent?
 > END STRING
 
 > BEGIN STRING
-大天使セラフィエルのミッションをクリアした。
-> CONTEXT: Commonevents/344/30/Dialogue < UNTRANSLATED
-> CONTEXT: Map076/events/4/pages/0/93/Dialogue < UNTRANSLATED
-> CONTEXT: Map079/events/4/pages/0/106/Dialogue < UNTRANSLATED
+黄昏王国にいる間しか使うことができません！
+> CONTEXT: Commonevents/345/3/Dialogue < UNTRANSLATED
 
 > END STRING
 

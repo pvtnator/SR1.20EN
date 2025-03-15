@@ -958,7 +958,7 @@ An emblem of a mouse that exerts its power in crisis.
 > END STRING
 
 > BEGIN STRING
-魔法の消費ＶＰがなくなる代わりに、戦闘中はＶＰが減り続ける。
+戦闘開始時に魔法陣状態になる。
 > CONTEXT: Armors/88/description/ < UNTRANSLATED
 
 > END STRING
@@ -1223,6 +1223,12 @@ Ehwaz Rune/0/18
 > END STRING
 
 > BEGIN STRING
+情熱のルーン
+> CONTEXT: Armors/111/name/
+Passion rune
+> END STRING
+
+> BEGIN STRING
 [○] 精力が小上昇する。
 > CONTEXT: Armors/111/description/
 [○] Energy increases a bit.
@@ -1262,6 +1268,12 @@ Uruz Rune
 [★] 力のルーン。絶大な精力を得ることができる。
 > CONTEXT: Armors/114/description/
 [★] Rune of power. Gain tremendous energy.
+> END STRING
+
+> BEGIN STRING
+技巧のルーン
+> CONTEXT: Armors/116/name/
+Skill rune
 > END STRING
 
 > BEGIN STRING
@@ -1307,6 +1319,12 @@ Ansuz Rune
 > END STRING
 
 > BEGIN STRING
+俊足のルーン
+> CONTEXT: Armors/121/name/
+Swift rune
+> END STRING
+
+> BEGIN STRING
 [○] 素早さが小上昇する。
 > CONTEXT: Armors/121/description/
 [○] Agility increases a bit.
@@ -1346,6 +1364,12 @@ Rags Rune
 [★] 車輪のルーン。目にも止まらぬ程の素早さを得ることができる。
 > CONTEXT: Armors/124/description/
 [★] Wheel Rune. You can achieve incredible speed.
+> END STRING
+
+> BEGIN STRING
+精神のルーン
+> CONTEXT: Armors/126/name/
+Spirit rune
 > END STRING
 
 > BEGIN STRING
@@ -1895,13 +1919,13 @@ Resist Rune
 > END STRING
 
 > BEGIN STRING
-[◇] 味方全員の能力をランダムで高める魔法スキルを習得する。
+[◇] 味方全員の能力をランダムで2回高める魔法スキルを習得する。
 > CONTEXT: Armors/215/description/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-[◇] 敵全員の能力をランダムで弱める魔法スキルを習得する。
+[◇] 敵全員の能力をランダムで2回弱める魔法スキルを習得する。
 > CONTEXT: Armors/216/description/ < UNTRANSLATED
 
 > END STRING
@@ -4101,7 +4125,7 @@ V・ピュアハート/20/-10
 > END STRING
 
 > BEGIN STRING
-持ち主の闘志を感じる気高き剣、装備すると高揚状態になる。
+持ち主の闘志を感じる気高き剣、装備すると戦闘開始時高揚状態になる。
 > CONTEXT: Armors/462/description/ < UNTRANSLATED
 
 > END STRING
@@ -4113,19 +4137,19 @@ V・ピュアハート/20/-10
 > END STRING
 
 > BEGIN STRING
-長年の風化すら受け付けぬ籠手、装備すると沈着状態になる。
+長年の風化すら受け付けぬ籠手、装備すると戦闘開始時沈着状態になる。
 > CONTEXT: Armors/463/description/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-誘惑のネックレス/-30
+誘惑のネックレス/-20
 > CONTEXT: Armors/464/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-何故か装備者に惹かれてしまうようになる、装備すると挑発状態になる。[全スロット]
+何故か装備者に惹かれてしまうようになる、装備すると戦闘開始時挑発状態になる。[全スロット]
 > CONTEXT: Armors/464/description/ < UNTRANSLATED
 
 > END STRING
@@ -4822,6 +4846,12 @@ V・ピュアハートS/100/-20
 > BEGIN STRING
 料理達人のルーン
 > CONTEXT: Armors/584/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[☆] 味方１人のＥＰをまちまちに回復する魔法スキルを習得する。
+> CONTEXT: Armors/590/description/ < UNTRANSLATED
 
 > END STRING
 

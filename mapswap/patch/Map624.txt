@@ -1,7 +1,6 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 SCRP_Rendica
-> CONTEXT: Map308/bgm/name/ < UNTRANSLATED
 > CONTEXT: Map624/bgm/name/ < UNTRANSLATED
 
 > END STRING
@@ -28,20 +27,34 @@ SCRP_Rendica
 > BEGIN STRING
 "gradation177"
 > CONTEXT: Map624/events/15/pages/0/15/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map244/events/1/pages/1/32/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map238/events/7/pages/0/32/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map237/events/2/pages/0/21/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map236/events/3/pages/0/22/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map233/events/4/pages/0/12/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map232/events/1/pages/0/12/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map231/events/1/pages/0/12/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map230/events/2/pages/0/12/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map228/events/1/pages/0/12/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map229/events/1/pages/0/12/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map226/events/6/pages/0/12/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map227/events/23/pages/0/12/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map240/events/1/pages/1/70/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map239/events/1/pages/0/54/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map281/events/1/pages/1/32/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map281/events/1/pages/1/32/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map275/events/7/pages/0/32/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map275/events/7/pages/0/32/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map274/events/2/pages/0/21/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map274/events/2/pages/0/21/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map277/events/1/pages/1/68/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map277/events/1/pages/1/68/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map276/events/1/pages/0/54/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map276/events/1/pages/0/54/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map273/events/3/pages/0/22/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map273/events/3/pages/0/22/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map270/events/4/pages/0/12/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map270/events/4/pages/0/12/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map269/events/1/pages/0/12/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map269/events/1/pages/0/12/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map267/events/2/pages/0/12/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map267/events/2/pages/0/12/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map268/events/1/pages/0/12/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map268/events/1/pages/0/12/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map266/events/1/pages/0/12/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map266/events/1/pages/0/12/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map265/events/1/pages/0/12/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map265/events/1/pages/0/12/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map264/events/23/pages/0/12/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map264/events/23/pages/0/12/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map263/events/6/pages/0/12/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map263/events/6/pages/0/12/InlineScript/2:1 < UNTRANSLATED
 
 > END STRING
 
@@ -340,6 +353,18 @@ SCRP_Rendica
 > END STRING
 
 > BEGIN STRING
+マーナガルム単体と戦う
+> CONTEXT: Map624/events/152/pages/0/1/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ジュエルスライム単体と戦う
+> CONTEXT: Map624/events/152/pages/0/1/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 ミリュエールと戦いますか？
 > CONTEXT: Map624/events/153/pages/0/0/Dialogue < UNTRANSLATED
 
@@ -456,8 +481,10 @@ SCRP_Rendica
 > BEGIN STRING
 常夜の街
 > CONTEXT: Map624/events/173/pages/0/2/Choice/0 < UNTRANSLATED
-> CONTEXT: Map245/events/60/pages/0/0/Choice/0 < UNTRANSLATED
-> CONTEXT: Map245/events/60/pages/0/0/Choice/0 < UNTRANSLATED
+> CONTEXT: Map282/events/60/pages/0/0/Choice/0 < UNTRANSLATED
+> CONTEXT: Map282/events/60/pages/0/0/Choice/0 < UNTRANSLATED
+> CONTEXT: Map282/events/60/pages/0/0/Choice/0 < UNTRANSLATED
+> CONTEXT: Map282/events/60/pages/0/0/Choice/0 < UNTRANSLATED
 
 > END STRING
 
@@ -563,6 +590,12 @@ SCRP_Rendica
 > END STRING
 
 > BEGIN STRING
+ガーディアン単体と戦う
+> CONTEXT: Map624/events/230/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 アドウェルサと戦いますか？
 > CONTEXT: Map624/events/231/pages/0/0/Dialogue < UNTRANSLATED
 > CONTEXT: Map523/events/22/pages/0/0/Dialogue < UNTRANSLATED
@@ -636,7 +669,8 @@ SCRP_Rendica
 OK
 > CONTEXT: Map624/events/241/pages/0/5/Dialogue < UNTRANSLATED
 > CONTEXT: Map624/events/242/pages/0/5/Dialogue < UNTRANSLATED
-> CONTEXT: Map245/events/50/pages/0/5/Dialogue < UNTRANSLATED
+> CONTEXT: Map282/events/50/pages/0/5/Dialogue < UNTRANSLATED
+> CONTEXT: Map282/events/50/pages/0/5/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -818,6 +852,18 @@ Reset food effects?
 > END STRING
 
 > BEGIN STRING
+スルガトと戦いますか？
+> CONTEXT: Map624/events/381/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スルガト単体と戦う
+> CONTEXT: Map624/events/381/pages/0/1/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 メイジサキュバス・ウィッチサキュバスと戦いますか？
 > CONTEXT: Map624/events/382/pages/0/0/Dialogue < UNTRANSLATED
 
@@ -827,6 +873,18 @@ Reset food effects?
 眠り状態付与で戦う
 > CONTEXT: Map624/events/382/pages/0/1/Choice/1 < UNTRANSLATED
 > CONTEXT: Map624/events/382/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィッチサキュバス単体と戦う
+> CONTEXT: Map624/events/382/pages/0/1/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メイジサキュバス単体と戦う
+> CONTEXT: Map624/events/382/pages/0/1/Choice/3 < UNTRANSLATED
 
 > END STRING
 
@@ -885,35 +943,5 @@ Reset food effects?
 \\name[\\v[2]]\\_
 そう？
 > CONTEXT: Map624/events/464/pages/0/18/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-マーナガルム単体と戦う
-> CONTEXT: Map624/events/152/pages/0/1/Choice/2 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-ジュエルスライム単体と戦う
-> CONTEXT: Map624/events/152/pages/0/1/Choice/3 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-ガーディアン単体と戦う
-> CONTEXT: Map624/events/230/pages/0/1/Choice/1 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-ウィッチサキュバス単体と戦う
-> CONTEXT: Map624/events/382/pages/0/1/Choice/2 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-メイジサキュバス単体と戦う
-> CONTEXT: Map624/events/382/pages/0/1/Choice/3 < UNTRANSLATED
 
 > END STRING

@@ -1,130 +1,199 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-\\name[悪魔]\\_
-クスクス・・・
-どうしたの？　ボクの姿、おかしいかな？
-> CONTEXT: Map305/events/8/pages/0/13/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[悪魔]\\_
-ここは人々の欲望渦巻く世界\\H
-どんなことだって起こりうる場所だよ\\H
-> CONTEXT: Map305/events/8/pages/0/16/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[悪魔]\\_
-キミを見て女の子だと思った人もいたみたい\\H
-> CONTEXT: Map305/events/8/pages/0/19/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[悪魔]\\_
-この人はもう限界みたいだし・・・\\H
-こんどはキミが相手をしてよ\\H
-> CONTEXT: Map305/events/8/pages/0/21/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-"白猫"
-> CONTEXT: Map305/events/17/pages/0/1/InlineScript/1:22
-"White cat"
+"混乱の夢魔"
+> CONTEXT: Map305/events/1/pages/0/0/InlineScript/1:22
+> CONTEXT: Map305/events/1/pages/0/0/InlineScript/1:22
+"Chaos Succubus"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ははは、君も大変だね。
-理性を残しちゃったから、彼らの仲間に入れない。
-> CONTEXT: Map305/events/17/pages/0/2/Dialogue
+んん～～…‥っ！　よく寝たぁ…‥。
+ふわぁ……あなた、誰？
+> CONTEXT: Map305/events/1/pages/0/1/Dialogue
+> CONTEXT: Map305/events/1/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
-Hahaha, it must be difficult for you.
-I wont't join them because I've left my reason behind.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-でもまぁ、悪いことではないんじゃない？
-> CONTEXT: Map305/events/17/pages/0/5/Dialogue
-\\name[\\v[2]]\\_
-But hey, that's not a bad thing, right?
+Hmmmm...! I slept so well...
+Wow... who are you?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-君がそう思うならね。
-> CONTEXT: Map305/events/17/pages/0/7/Dialogue
+ふ～ん……人間さんなんだぁ。
+封印されちゃって暇だったからさぁ。
+> CONTEXT: Map305/events/1/pages/0/4/Dialogue
+> CONTEXT: Map305/events/1/pages/0/4/Dialogue
 \\name[\\v[2]]\\_
-Wouldn't you think so?
+Hmm... so you're human.
+I was bored after being sealed away.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ははは。
-> CONTEXT: Map305/events/17/pages/0/9/Dialogue
+ルビカンテちゃんの遊び道具になってよねぇ？
+> CONTEXT: Map305/events/1/pages/0/7/Dialogue
+> CONTEXT: Map305/events/1/pages/0/7/Dialogue
 \\name[\\v[2]]\\_
-Hahaha
+Would you like to be Rubicante's plaything?
 > END STRING
 
 > BEGIN STRING
-\\name[魔女]\\_
-おやおや、どうやら問題児がいるようだ。
-> CONTEXT: Map305/events/53/pages/1/12/Dialogue
-\\name[Witch]\\_
-Hey, it looks like we have a problem child.
+"ルビカンテ"
+> CONTEXT: Map305/events/1/pages/0/79/InlineScript/1:22
+> CONTEXT: Map305/events/1/pages/0/79/InlineScript/1:22
+> CONTEXT: Map305/events/1/pages/1/0/InlineScript/1:22
+> CONTEXT: Map305/events/1/pages/1/0/InlineScript/1:22
+"Rubicante"
 > END STRING
 
 > BEGIN STRING
-\\name[魔女]\\_
-折角ヴェルミィーナ様の理想が成就できそうだと言うのに、
-邪魔をしてはいけないよ？
-> CONTEXT: Map305/events/53/pages/1/14/Dialogue
-\\name[Witch]\\_
-Even though Vermina's ideals seem to be coming true,
-don't disturb her, okay?
+\\name[\\v[2]]\\_
+うぅん！？\\H　は、ひ……\\H
+そんな……\\H
+> CONTEXT: Map305/events/1/pages/0/80/Dialogue
+> CONTEXT: Map305/events/1/pages/0/80/Dialogue
+\\name[\\v[2]]\\_
+Hmm!? \\H　H-h...\\H
+Can't be...\\H
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[3]]\\_
-くすくす。
-当然、\\n[101]様のお師匠様にも、
-周りのような思いを抱く者もいるでしょう。
-> CONTEXT: Map305/events/53/pages/1/18/Dialogue
-\\name[\\v[3]]\\_
-Hehe.
-Naturally, there are probably some people around you who feel 
-the same way as Mr. \\n[101]'s master.
+\\name[\\v[2]]\\_
+に、人間にこんな風にされるなんてぇ……！
+でも、こういうのもちょっといいかも……\\H
+> CONTEXT: Map305/events/1/pages/0/84/Dialogue
+> CONTEXT: Map305/events/1/pages/0/84/Dialogue
+\\name[\\v[2]]\\_
+I can't believe a human would do 
+something like this to me...!
+But maybe this is kind of nice...\\H
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[3]]\\_
-彼女らが本当の彼女でないのは、
-\\n[101]様もご理解頂けているはず。
-> CONTEXT: Map305/events/53/pages/1/22/Dialogue
-\\name[\\v[3]]\\_
-I'm sure Mr. \\n[101] understands that these girls are not real.
+\\name[\\v[2]]\\_
+ねぇ、この夢世界を回ってるんでしょ？
+ルビカンテちゃんも連れていってよぉ。
+> CONTEXT: Map305/events/1/pages/0/88/Dialogue
+> CONTEXT: Map305/events/1/pages/0/88/Dialogue
+> CONTEXT: Map305/events/1/pages/1/1/Dialogue
+> CONTEXT: Map305/events/1/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+Hey, you're traveling around this dream world, right?
+Take Rubicante with you, please.
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[3]]\\_
-気分を害されたとしても、
-仕様が無いことではありますが･･･ふふっ\\H
-> CONTEXT: Map305/events/53/pages/1/25/Dialogue
-\\name[\\v[3]]\\_
-Even if your feelings are hurt, 
-there's nothing to be done about it...hehe\\H
+\\name[\\v[2]]\\_
+……言うことを聞かせてくれる人がいるって？
+あっそ、関係無いし。勝手についていくもんねぇ。
+> CONTEXT: Map305/events/1/pages/0/91/Dialogue
+> CONTEXT: Map305/events/1/pages/0/91/Dialogue
+> CONTEXT: Map305/events/1/pages/1/4/Dialogue
+> CONTEXT: Map305/events/1/pages/1/4/Dialogue
+\\name[\\v[2]]\\_
+...You mean someone who will listen to you?
+Oh no, it doesn't matter. I'll just go along with it.
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[3]]\\_
-さぁ、\\n[101]様。
-障害を乗り越え、本当のお師匠様に会いに行きましょう？
-> CONTEXT: Map305/events/53/pages/1/28/Dialogue
-\\name[\\v[3]]\\_
-Well, Mr. \\n[101].
-Shall we get past hindrances and meet the true master?
+\\name[\\v[2]]\\_
+きゃははっ\\H
+よろしくねぇ\\H
+> CONTEXT: Map305/events/1/pages/0/95/Dialogue
+> CONTEXT: Map305/events/1/pages/0/95/Dialogue
+> CONTEXT: Map305/events/1/pages/0/112/Dialogue
+> CONTEXT: Map305/events/1/pages/0/112/Dialogue
+> CONTEXT: Map305/events/1/pages/1/10/Dialogue
+> CONTEXT: Map305/events/1/pages/1/10/Dialogue
+\\name[\\v[2]]\\_
+Kyahaha\\H
+Nice to meet you\\H
+> END STRING
+
+> BEGIN STRING
+ルビカンテと契約を交わした！\\|\\|
+> CONTEXT: Map305/events/1/pages/0/99/Dialogue
+> CONTEXT: Map305/events/1/pages/0/99/Dialogue
+> CONTEXT: Map305/events/1/pages/0/127/Dialogue
+> CONTEXT: Map305/events/1/pages/0/127/Dialogue
+> CONTEXT: Map305/events/1/pages/1/25/Dialogue
+> CONTEXT: Map305/events/1/pages/1/25/Dialogue
+I made a deal with Rubicante! \\|\\|
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス、ルビカンテと契約しますか？
+> CONTEXT: Map305/events/1/pages/0/109/Dialogue
+> CONTEXT: Map305/events/1/pages/0/109/Dialogue
+> CONTEXT: Map305/events/1/pages/1/7/Dialogue
+> CONTEXT: Map305/events/1/pages/1/7/Dialogue
+Would you like to make a contract 
+with the unique succubus, Rubicante?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\
+あっれぇ？　契約数がいっぱいじゃん。
+余裕持ってから来てよね。
+> CONTEXT: Map305/events/1/pages/0/117/Dialogue
+> CONTEXT: Map305/events/1/pages/0/117/Dialogue
+> CONTEXT: Map305/events/1/pages/1/15/Dialogue
+> CONTEXT: Map305/events/1/pages/1/15/Dialogue
+\\name[\\v[2]]\\
+Huh? You're full.
+Come back when you have time.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+さぁて？
+夢魔達にどんな催眠かけてやろうかなぁ？
+> CONTEXT: Map305/events/1/pages/0/123/Dialogue
+> CONTEXT: Map305/events/1/pages/0/123/Dialogue
+> CONTEXT: Map305/events/1/pages/1/21/Dialogue
+> CONTEXT: Map305/events/1/pages/1/21/Dialogue
+\\name[\\v[2]]\\_
+So what kind of hypnosis should I use on the succubi?
+> END STRING
+
+> BEGIN STRING
+ルビカンテは妊娠しているようだ･･･。
+> CONTEXT: Map305/events/1/pages/0/140/Dialogue
+> CONTEXT: Map305/events/1/pages/0/140/Dialogue
+> CONTEXT: Map305/events/1/pages/1/38/Dialogue
+> CONTEXT: Map305/events/1/pages/1/38/Dialogue
+Rubicante appears to be pregnant...
+> END STRING
+
+> BEGIN STRING
+ルビカンテをホームに迎え入れた！
+> CONTEXT: Map305/events/1/pages/0/146/Dialogue
+> CONTEXT: Map305/events/1/pages/0/146/Dialogue
+> CONTEXT: Map305/events/1/pages/0/157/Dialogue
+> CONTEXT: Map305/events/1/pages/0/157/Dialogue
+> CONTEXT: Map305/events/1/pages/1/44/Dialogue
+> CONTEXT: Map305/events/1/pages/1/44/Dialogue
+> CONTEXT: Map305/events/1/pages/1/55/Dialogue
+> CONTEXT: Map305/events/1/pages/1/55/Dialogue
+Welcomed Rubicante to Home!
+> END STRING
+
+> BEGIN STRING
+ルビカンテがパーティに加わった！
+> CONTEXT: Map305/events/1/pages/0/153/Dialogue
+> CONTEXT: Map305/events/1/pages/0/153/Dialogue
+> CONTEXT: Map305/events/1/pages/1/51/Dialogue
+> CONTEXT: Map305/events/1/pages/1/51/Dialogue
+Rubicante has joined the party!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+えーっ？　また催眠かけちゃうよ？
+> CONTEXT: Map305/events/1/pages/0/173/Dialogue
+> CONTEXT: Map305/events/1/pages/0/173/Dialogue
+> CONTEXT: Map305/events/1/pages/1/69/Dialogue
+> CONTEXT: Map305/events/1/pages/1/69/Dialogue
+\\name[\\v[2]]\\_
+Huh? I'm going to hypnotize you again?
 > END STRING

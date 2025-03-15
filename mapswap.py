@@ -31,10 +31,10 @@ if __name__ == "__main__":
     if mode == "swapin":
         with open(savefile, "w", -1, 'utf-8') as s:
             for file in map_dir.rglob("*.rxdata"):
-                if "Info" in file.as_posix():
-                    continue
                 relative = file.relative_to(map_dir)
                 context = relative.as_posix()
+                if "Info" in context or not "Map" in context:
+                    continue
                 while str.format("Map{:03}.rxdata", index) in TempToMap:
                     index += 1
                 if not context in MapToTemp:

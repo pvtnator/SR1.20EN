@@ -1,29 +1,9 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-"淫魔"
-> CONTEXT: Map005/events/12/pages/0/1/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map003/events/1/pages/1/1/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map003/events/11/pages/0/2/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map004/events/47/pages/0/1/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map004/events/52/pages/1/1/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map004/events/54/pages/1/1/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map004/events/57/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map004/events/58/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map004/events/59/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map002/events/54/pages/0/2/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map004/events/60/pages/1/1/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map004/events/80/pages/0/1/InlineScript/2:22 < UNTRANSLATED
-> CONTEXT: Map004/events/91/pages/0/1/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map002/events/72/pages/0/2/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map002/events/126/pages/0/2/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map002/events/130/pages/0/2/InlineScript/1:22 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
 \\name[\\v[2]]\\_
 ねえ、さっき魔法で私に何しようとしたの～！？
 答えなさいよ～\\H
+> CONTEXT: Map005/events/12/pages/0/2/Dialogue < UNTRANSLATED
 > CONTEXT: Map005/events/12/pages/0/2/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -33,12 +13,14 @@
 た……、助かった……。
 けど……、よかったなぁ……\\H
 > CONTEXT: Map005/events/12/pages/2/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map005/events/12/pages/2/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 君も黎明王国討伐に参加するのかい？
+> CONTEXT: Map005/events/16/pages/0/1/Dialogue < UNTRANSLATED
 > CONTEXT: Map005/events/16/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -47,13 +29,6 @@
 \\name[\\v[2]]\\_
 さて、そろそろ見回り再開するかな！
 > CONTEXT: Map005/events/17/pages/0/1/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-反応がない……。
-> CONTEXT: Map005/events/17/pages/1/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map004/events/76/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map004/events/77/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map005/events/17/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING

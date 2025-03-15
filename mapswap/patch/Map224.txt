@@ -1,60 +1,152 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 \\name[\\v[2]]\\_
-しかし、人々はそれを虚像や妄想だと嗤うもの。
-くすくすくす……可笑しな話ですわ。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-However, people laugh at this as a false image or delusion.
-Hehehe... They are wrong to say so.
+おやおや、
+孤独の女王はここでは使えませんよ～
+> CONTEXT: Map224/events/1/pages/0/54/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/1/pages/0/54/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+孤独の女王の効果が無効化された。
+> CONTEXT: Map224/events/1/pages/0/65/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/1/pages/0/65/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-見て、聞いて、感じているのに、\\_
-まるでそれが嘘のような扱い･･･。
-> CONTEXT: None < UNUSED
+初戦の相手は
+サキュバス選手です！
+> CONTEXT: Map224/events/1/pages/0/130/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/1/pages/0/130/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 \\name[\\v[2]]\\_
-Despite seeing, hearing, and feeling, 
-they treat it as if it's a lie...
+なんでも\\n[101]選手とはちょっとした因縁があるとか・・・。
+一戦目から早くも好カードの予感がします！
+> CONTEXT: Map224/events/1/pages/0/146/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/1/pages/0/146/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ここに在るのは全て『本物』だというのに。
-> CONTEXT: None < UNUSED
+幾人ものオンナがこのセクシアムに参戦したけど、
+\\n[101]ほど強くて美しい戦士はいなかったわ\\H
+> CONTEXT: Map224/events/2/pages/1/39/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/2/pages/1/39/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 \\name[\\v[2]]\\_
-Even though everything here is "real".
-> END STRING
-
-> BEGIN STRING
-\\name[メイド]\\_
-こちらが皆様にご協力いただいて作成した移動魔方陣です。
-> CONTEXT: Map224/events/10/pages/0/1/Dialogue < UNTRANSLATED
+このセクシアムの舞台では全戦全勝、
+夢世界においても名うてでもある遊技場の女帝が、
+> CONTEXT: Map224/events/2/pages/1/98/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/2/pages/1/98/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-\\name[メイド]\\_
-\\n[101]様の反応の近くに移動できるはずですが、
-移動した先がどうなっているのかは
-よく分かっておりません……。
-> CONTEXT: Map224/events/10/pages/0/4/Dialogue < UNTRANSLATED
+\\name[\\v[2]]\\_
+そんな相手と本気のセックスができた悦び・・・
+\\n[101]からのとびきり快感、ホントに気持ちよかったわ\\H
+> CONTEXT: Map224/events/2/pages/3/27/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/2/pages/3/27/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-\\name[メイド]\\_
-妙な魔力の反応もありましたので、
-十分にお気をつけください。
-> CONTEXT: Map224/events/10/pages/0/9/Dialogue < UNTRANSLATED
+\\name[\\v[2]]\\_
+そう。
+戦士としての、オーナーとしての、そして夢魔としての私を
+\\n[101]は全て満たしてくれたのよ\\H
+> CONTEXT: Map224/events/2/pages/3/43/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/2/pages/3/43/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-\\name[メイド]\\_
-それでは移動します。
-どうかお気を付けて・・・・・・。
-> CONTEXT: Map224/events/10/pages/0/25/Dialogue < UNTRANSLATED
+\\name[\\v[2]]\\_
+強き雌との享楽に飢えた夢魔たちが
+\\n[101]の参戦を待ち望んでいたわ・・・
+> CONTEXT: Map224/events/11/pages/0/17/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/11/pages/0/17/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あなたの可憐な性技をここにいる数多の観客たちに
+ばっちり見せつけて頂戴・・・\\H
+> CONTEXT: Map224/events/11/pages/0/29/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/11/pages/0/29/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+次の相手は
+アクトレス選手です！
+> CONTEXT: Map224/events/12/pages/1/72/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/12/pages/1/72/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+な・・・なんで\\n[122]が出ているのですか！？
+本当は私だって出たいのを我慢しているのに・・・\\H
+> CONTEXT: Map224/events/12/pages/1/87/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/12/pages/1/87/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\n[101]選手、次の対戦に備えて
+ウェイクアップを使いますか？
+> CONTEXT: Map224/events/12/pages/2/60/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/12/pages/2/60/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+次の相手は
+レギーナ選手です！
+> CONTEXT: Map224/events/12/pages/2/73/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/12/pages/2/73/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+次はレギーナちゃんにがっつりアクセプトしてくれー！
+> CONTEXT: Map224/events/37/pages/1/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/37/pages/1/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふむふむ・・・
+インサートでホールド優位を取られても、
+だいしゅきホールドという返し技で動きを封じれば・・・
+> CONTEXT: Map224/events/38/pages/1/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/38/pages/1/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やっぱり強いオンナの愛液の匂いは違うわね\\H
+甘いな香りの中にも芳烈かつ清香なアロマが・・・
+> CONTEXT: Map224/events/41/pages/1/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map224/events/41/pages/1/3/Dialogue < UNTRANSLATED
 
 > END STRING

@@ -1,10 +1,13 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "道具屋"
-> CONTEXT: Map449/events/2/pages/0/1/InlineScript/1:22
 > CONTEXT: Map624/events/349/pages/0/0/InlineScript/1:22
-> CONTEXT: Map245/events/4/pages/0/1/InlineScript/1:22
-> CONTEXT: Map224/events/12/pages/1/1/InlineScript/1:22
+> CONTEXT: Map449/events/2/pages/0/1/InlineScript/1:22
+> CONTEXT: Map449/events/2/pages/0/1/InlineScript/1:22
+> CONTEXT: Map282/events/4/pages/0/1/InlineScript/1:22
+> CONTEXT: Map282/events/4/pages/0/1/InlineScript/1:22
+> CONTEXT: Map261/events/12/pages/1/1/InlineScript/1:22
+> CONTEXT: Map261/events/12/pages/1/1/InlineScript/1:22
 "Tool shop"
 > END STRING
 
@@ -13,8 +16,11 @@
 いらっしゃい。良いもん入荷したよ。
 旅の必需品はうちで揃えていくといい。
 > CONTEXT: Map449/events/2/pages/0/3/Dialogue
-> CONTEXT: Map245/events/4/pages/0/3/Dialogue
-> CONTEXT: Map224/events/12/pages/1/3/Dialogue
+> CONTEXT: Map449/events/2/pages/0/3/Dialogue
+> CONTEXT: Map282/events/4/pages/0/3/Dialogue
+> CONTEXT: Map282/events/4/pages/0/3/Dialogue
+> CONTEXT: Map261/events/12/pages/1/3/Dialogue
+> CONTEXT: Map261/events/12/pages/1/3/Dialogue
 \\name[\\v[2]]\\_
 Welcome. We just had some goods arrive.
 You should stock up on the essentials for your journey.
@@ -25,8 +31,11 @@ You should stock up on the essentials for your journey.
 いらっしゃい。うちは道具屋だよ。
 旅の必需品はうちで揃えていくといい。
 > CONTEXT: Map449/events/2/pages/0/8/Dialogue
-> CONTEXT: Map245/events/4/pages/0/8/Dialogue
-> CONTEXT: Map224/events/12/pages/1/8/Dialogue
+> CONTEXT: Map449/events/2/pages/0/8/Dialogue
+> CONTEXT: Map282/events/4/pages/0/8/Dialogue
+> CONTEXT: Map282/events/4/pages/0/8/Dialogue
+> CONTEXT: Map261/events/12/pages/1/8/Dialogue
+> CONTEXT: Map261/events/12/pages/1/8/Dialogue
 \\name[\\v[2]]\\_
 Welcome. This is a tool shop.
 You should stock up on the essentials for your journey.
@@ -37,8 +46,11 @@ You should stock up on the essentials for your journey.
 ･･･おや、見慣れない人だね。
 この辺りの人じゃないだろう？
 > CONTEXT: Map449/events/2/pages/0/14/Dialogue
-> CONTEXT: Map245/events/4/pages/0/14/Dialogue
-> CONTEXT: Map224/events/12/pages/1/14/Dialogue
+> CONTEXT: Map449/events/2/pages/0/14/Dialogue
+> CONTEXT: Map282/events/4/pages/0/14/Dialogue
+> CONTEXT: Map282/events/4/pages/0/14/Dialogue
+> CONTEXT: Map261/events/12/pages/1/14/Dialogue
+> CONTEXT: Map261/events/12/pages/1/14/Dialogue
 \\name[\\v[2]]\\_
 ...Oh, you don't look familiar.
 You're not from around here, are you?
@@ -49,8 +61,11 @@ You're not from around here, are you?
 ･･･へえ！　気が付いたらこんな所に！
 お宅も大変だねぇ。
 > CONTEXT: Map449/events/2/pages/0/17/Dialogue
-> CONTEXT: Map245/events/4/pages/0/17/Dialogue
-> CONTEXT: Map224/events/12/pages/1/17/Dialogue
+> CONTEXT: Map449/events/2/pages/0/17/Dialogue
+> CONTEXT: Map282/events/4/pages/0/17/Dialogue
+> CONTEXT: Map282/events/4/pages/0/17/Dialogue
+> CONTEXT: Map261/events/12/pages/1/17/Dialogue
+> CONTEXT: Map261/events/12/pages/1/17/Dialogue
 \\name[\\v[2]]\\_
 ...Oh? You just appeared here out of the blue?
 Must be quite the ordeal for you, huh?
@@ -61,8 +76,11 @@ Must be quite the ordeal for you, huh?
 じゃあ隣人として、僕から君にちょっとした援助をしてあげよう。
 遠慮はいらないよ。
 > CONTEXT: Map449/events/2/pages/0/20/Dialogue
-> CONTEXT: Map245/events/4/pages/0/20/Dialogue
-> CONTEXT: Map224/events/12/pages/1/20/Dialogue
+> CONTEXT: Map449/events/2/pages/0/20/Dialogue
+> CONTEXT: Map282/events/4/pages/0/20/Dialogue
+> CONTEXT: Map282/events/4/pages/0/20/Dialogue
+> CONTEXT: Map261/events/12/pages/1/20/Dialogue
+> CONTEXT: Map261/events/12/pages/1/20/Dialogue
 \\name[\\v[2]]\\_
 Well then, as a neighbor, let me offer you some assistance.
 No need to be shy.
@@ -71,8 +89,11 @@ No need to be shy.
 > BEGIN STRING
 \\v[2]から500Lps.貰った！
 > CONTEXT: Map449/events/2/pages/0/25/Dialogue
-> CONTEXT: Map245/events/4/pages/0/25/Dialogue
-> CONTEXT: Map224/events/12/pages/1/25/Dialogue
+> CONTEXT: Map449/events/2/pages/0/25/Dialogue
+> CONTEXT: Map282/events/4/pages/0/25/Dialogue
+> CONTEXT: Map282/events/4/pages/0/25/Dialogue
+> CONTEXT: Map261/events/12/pages/1/25/Dialogue
+> CONTEXT: Map261/events/12/pages/1/25/Dialogue
 Received 500Lps from \\v[2]!
 > END STRING
 
@@ -81,8 +102,11 @@ Received 500Lps from \\v[2]!
 そのお金でうちで買い物をしていってくれれば良いさ。
 あ、Lps.ってのは夢世界での通貨だよ。
 > CONTEXT: Map449/events/2/pages/0/26/Dialogue
-> CONTEXT: Map245/events/4/pages/0/26/Dialogue
-> CONTEXT: Map224/events/12/pages/1/26/Dialogue
+> CONTEXT: Map449/events/2/pages/0/26/Dialogue
+> CONTEXT: Map282/events/4/pages/0/26/Dialogue
+> CONTEXT: Map282/events/4/pages/0/26/Dialogue
+> CONTEXT: Map261/events/12/pages/1/26/Dialogue
+> CONTEXT: Map261/events/12/pages/1/26/Dialogue
 \\name[\\v[2]]\\_
 You can use that money to buy things here.
 Ah, Lps. is the currency in the dream world.
@@ -92,8 +116,11 @@ Ah, Lps. is the currency in the dream world.
 \\name[\\v[2]]\\_
 どうぞ、ご贔屓にね。
 > CONTEXT: Map449/events/2/pages/0/30/Dialogue
-> CONTEXT: Map245/events/4/pages/0/30/Dialogue
-> CONTEXT: Map224/events/12/pages/1/30/Dialogue
+> CONTEXT: Map449/events/2/pages/0/30/Dialogue
+> CONTEXT: Map282/events/4/pages/0/30/Dialogue
+> CONTEXT: Map282/events/4/pages/0/30/Dialogue
+> CONTEXT: Map261/events/12/pages/1/30/Dialogue
+> CONTEXT: Map261/events/12/pages/1/30/Dialogue
 \\name[\\v[2]]\\_
 Thank you for your patronage.
 > END STRING
@@ -101,8 +128,11 @@ Thank you for your patronage.
 > BEGIN STRING
 "魔法屋姉"
 > CONTEXT: Map449/events/3/pages/0/0/InlineScript/1:22
-> CONTEXT: Map245/events/12/pages/0/0/InlineScript/1:22
-> CONTEXT: Map224/events/15/pages/1/0/InlineScript/1:22
+> CONTEXT: Map449/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Map282/events/12/pages/0/0/InlineScript/1:22
+> CONTEXT: Map282/events/12/pages/0/0/InlineScript/1:22
+> CONTEXT: Map261/events/15/pages/1/0/InlineScript/1:22
+> CONTEXT: Map261/events/15/pages/1/0/InlineScript/1:22
 "Sorceress"
 > END STRING
 
@@ -110,11 +140,17 @@ Thank you for your patronage.
 \\name[\\v[2]]\\_
 いらっしゃーい。うちは魔道具専門店だよー。
 > CONTEXT: Map449/events/3/pages/0/2/Dialogue
+> CONTEXT: Map449/events/3/pages/0/2/Dialogue
 > CONTEXT: Map449/events/3/pages/0/6/Dialogue
-> CONTEXT: Map245/events/12/pages/0/2/Dialogue
-> CONTEXT: Map245/events/12/pages/0/6/Dialogue
-> CONTEXT: Map224/events/15/pages/1/2/Dialogue
-> CONTEXT: Map224/events/15/pages/1/6/Dialogue
+> CONTEXT: Map449/events/3/pages/0/6/Dialogue
+> CONTEXT: Map282/events/12/pages/0/2/Dialogue
+> CONTEXT: Map282/events/12/pages/0/2/Dialogue
+> CONTEXT: Map282/events/12/pages/0/6/Dialogue
+> CONTEXT: Map282/events/12/pages/0/6/Dialogue
+> CONTEXT: Map261/events/15/pages/1/2/Dialogue
+> CONTEXT: Map261/events/15/pages/1/2/Dialogue
+> CONTEXT: Map261/events/15/pages/1/6/Dialogue
+> CONTEXT: Map261/events/15/pages/1/6/Dialogue
 \\name[\\v[2]]\\_
 Welcome. This is a magic shop.
 > END STRING
@@ -123,6 +159,7 @@ Welcome. This is a magic shop.
 \\name[\\v[2]]\\_
 ･･･お、これはこれはロウラットの旦那。
 旦那は確かルーンの刻印を専門としてるんでしたよね。
+> CONTEXT: Map449/events/3/pages/0/11/Dialogue
 > CONTEXT: Map449/events/3/pages/0/11/Dialogue
 \\name[\\v[2]]\\_
 ...Oh, this is mister Rowlatt.
@@ -133,8 +170,11 @@ He specializes in rune engravings.
 \\name[\\v[2]]\\_
 でしたら、こういうものとか欲しいんじゃないです？
 > CONTEXT: Map449/events/3/pages/0/14/Dialogue
-> CONTEXT: Map245/events/12/pages/0/14/Dialogue
-> CONTEXT: Map224/events/15/pages/1/30/Dialogue
+> CONTEXT: Map449/events/3/pages/0/14/Dialogue
+> CONTEXT: Map282/events/12/pages/0/14/Dialogue
+> CONTEXT: Map282/events/12/pages/0/14/Dialogue
+> CONTEXT: Map261/events/15/pages/1/30/Dialogue
+> CONTEXT: Map261/events/15/pages/1/30/Dialogue
 \\name[\\v[2]]\\_
 In that case, perhaps you would want something like this?
 > END STRING
@@ -143,8 +183,11 @@ In that case, perhaps you would want something like this?
 \\name[\\v[2]]\\_
 あ、これはサービスなんでお代は結構ですよ。
 > CONTEXT: Map449/events/3/pages/0/23/Dialogue
-> CONTEXT: Map245/events/12/pages/0/23/Dialogue
-> CONTEXT: Map224/events/15/pages/1/39/Dialogue
+> CONTEXT: Map449/events/3/pages/0/23/Dialogue
+> CONTEXT: Map282/events/12/pages/0/23/Dialogue
+> CONTEXT: Map282/events/12/pages/0/23/Dialogue
+> CONTEXT: Map261/events/15/pages/1/39/Dialogue
+> CONTEXT: Map261/events/15/pages/1/39/Dialogue
 \\name[\\v[2]]\\_
 Ah, this is a service, so it costs a lot of money.
 > END STRING
@@ -153,8 +196,11 @@ Ah, this is a service, so it costs a lot of money.
 \\name[\\v[2]]\\_
 これからもうちで買い物していってくれれば、ね？
 > CONTEXT: Map449/events/3/pages/0/25/Dialogue
-> CONTEXT: Map245/events/12/pages/0/25/Dialogue
-> CONTEXT: Map224/events/15/pages/1/41/Dialogue
+> CONTEXT: Map449/events/3/pages/0/25/Dialogue
+> CONTEXT: Map282/events/12/pages/0/25/Dialogue
+> CONTEXT: Map282/events/12/pages/0/25/Dialogue
+> CONTEXT: Map261/events/15/pages/1/41/Dialogue
+> CONTEXT: Map261/events/15/pages/1/41/Dialogue
 \\name[\\v[2]]\\_
 I hope you continue shopping with us from now on, okay?
 > END STRING
@@ -162,8 +208,11 @@ I hope you continue shopping with us from now on, okay?
 > BEGIN STRING
 "案内人形"
 > CONTEXT: Map449/events/12/pages/0/0/InlineScript/1:22
-> CONTEXT: Map245/events/10/pages/0/0/InlineScript/1:22
-> CONTEXT: Map224/events/17/pages/1/0/InlineScript/1:22
+> CONTEXT: Map449/events/12/pages/0/0/InlineScript/1:22
+> CONTEXT: Map282/events/10/pages/0/0/InlineScript/1:22
+> CONTEXT: Map282/events/10/pages/0/0/InlineScript/1:22
+> CONTEXT: Map261/events/17/pages/1/0/InlineScript/1:22
+> CONTEXT: Map261/events/17/pages/1/0/InlineScript/1:22
 "Doll Guide"
 > END STRING
 
@@ -172,8 +221,11 @@ I hope you continue shopping with us from now on, okay?
 やぁやぁ、ホームのことなら任せなさい。
 まずは案内をしてあげよう。
 > CONTEXT: Map449/events/12/pages/0/1/Dialogue
-> CONTEXT: Map245/events/10/pages/0/1/Dialogue
-> CONTEXT: Map224/events/17/pages/1/1/Dialogue
+> CONTEXT: Map449/events/12/pages/0/1/Dialogue
+> CONTEXT: Map282/events/10/pages/0/1/Dialogue
+> CONTEXT: Map282/events/10/pages/0/1/Dialogue
+> CONTEXT: Map261/events/17/pages/1/1/Dialogue
+> CONTEXT: Map261/events/17/pages/1/1/Dialogue
 \\name[\\v[2]]\\_
 Hey, hey, leave the matters of Home to me.
 Let me give you some guidance first.
@@ -184,8 +236,11 @@ Let me give you some guidance first.
 そこのポートは使っただろう？
 セーブや他のポートへのテレポートができる。
 > CONTEXT: Map449/events/12/pages/0/6/Dialogue
-> CONTEXT: Map245/events/10/pages/0/6/Dialogue
-> CONTEXT: Map224/events/17/pages/1/6/Dialogue
+> CONTEXT: Map449/events/12/pages/0/6/Dialogue
+> CONTEXT: Map282/events/10/pages/0/6/Dialogue
+> CONTEXT: Map282/events/10/pages/0/6/Dialogue
+> CONTEXT: Map261/events/17/pages/1/6/Dialogue
+> CONTEXT: Map261/events/17/pages/1/6/Dialogue
 \\name[\\v[2]]\\_
 Did you use that port?
 You can save and teleport to other ports.
@@ -196,8 +251,11 @@ You can save and teleport to other ports.
 右の建物は君の家だ。
 休むなり寝るなりすればいいさ。君の家なんだからね。
 > CONTEXT: Map449/events/12/pages/0/11/Dialogue
-> CONTEXT: Map245/events/10/pages/0/11/Dialogue
-> CONTEXT: Map224/events/17/pages/1/11/Dialogue
+> CONTEXT: Map449/events/12/pages/0/11/Dialogue
+> CONTEXT: Map282/events/10/pages/0/11/Dialogue
+> CONTEXT: Map282/events/10/pages/0/11/Dialogue
+> CONTEXT: Map261/events/17/pages/1/11/Dialogue
+> CONTEXT: Map261/events/17/pages/1/11/Dialogue
 \\name[\\v[2]]\\_
 The building to the right is your house.
 Feel free to relax or sleep. It's your home.
@@ -208,6 +266,7 @@ Feel free to relax or sleep. It's your home.
 左の１階はお店だな。道具屋と魔法屋がいる。
 買い物はここでやるんだね。
 > CONTEXT: Map449/events/12/pages/0/16/Dialogue
+> CONTEXT: Map449/events/12/pages/0/16/Dialogue
 \\name[\\v[2]]\\_
 There is a tool shop and a magic shop left of here.
 You can do your shopping there.
@@ -217,6 +276,7 @@ You can do your shopping there.
 \\name[\\v[2]]\\_
 梯子を上った先の２階は酒場になっているのさ。
 人がいっぱい集まるから色んなことが聞けると思うよ。
+> CONTEXT: Map449/events/12/pages/0/21/Dialogue
 > CONTEXT: Map449/events/12/pages/0/21/Dialogue
 \\name[\\v[2]]\\_
 Up the stairs you'll find a bar.
@@ -229,8 +289,11 @@ as there are a lot of people there.
 ･･･こんな所かな？
 行く場所が無いのなら酒場にでも行ってみるといいよ。
 > CONTEXT: Map449/events/12/pages/0/26/Dialogue
-> CONTEXT: Map245/events/10/pages/0/26/Dialogue
-> CONTEXT: Map224/events/17/pages/1/26/Dialogue
+> CONTEXT: Map449/events/12/pages/0/26/Dialogue
+> CONTEXT: Map282/events/10/pages/0/26/Dialogue
+> CONTEXT: Map282/events/10/pages/0/26/Dialogue
+> CONTEXT: Map261/events/17/pages/1/26/Dialogue
+> CONTEXT: Map261/events/17/pages/1/26/Dialogue
 \\name[\\v[2]]\\_
 ...I think that's the kind of place it is?
 If you don't have a place to go, try going to a bar.
@@ -239,8 +302,11 @@ If you don't have a place to go, try going to a bar.
 > BEGIN STRING
 "白い鳥"
 > CONTEXT: Map449/events/17/pages/0/0/InlineScript/1:22
-> CONTEXT: Map245/events/11/pages/0/0/InlineScript/1:22
-> CONTEXT: Map224/events/18/pages/1/0/InlineScript/1:22
+> CONTEXT: Map449/events/17/pages/0/0/InlineScript/1:22
+> CONTEXT: Map282/events/11/pages/0/0/InlineScript/1:22
+> CONTEXT: Map282/events/11/pages/0/0/InlineScript/1:22
+> CONTEXT: Map261/events/18/pages/1/0/InlineScript/1:22
+> CONTEXT: Map261/events/18/pages/1/0/InlineScript/1:22
 "White bird"
 > END STRING
 
@@ -248,8 +314,11 @@ If you don't have a place to go, try going to a bar.
 \\name[\\v[2]]\\_
 浅き夢の瀬に誰か来てるみたいだよ。
 > CONTEXT: Map449/events/17/pages/0/1/Dialogue
-> CONTEXT: Map245/events/11/pages/0/1/Dialogue
-> CONTEXT: Map224/events/18/pages/1/1/Dialogue
+> CONTEXT: Map449/events/17/pages/0/1/Dialogue
+> CONTEXT: Map282/events/11/pages/0/1/Dialogue
+> CONTEXT: Map282/events/11/pages/0/1/Dialogue
+> CONTEXT: Map261/events/18/pages/1/1/Dialogue
+> CONTEXT: Map261/events/18/pages/1/1/Dialogue
 \\name[\\v[2]]\\_
 I want to see someone arrive from Shallow Dream Waters.
 > END STRING
@@ -259,8 +328,11 @@ I want to see someone arrive from Shallow Dream Waters.
 しかし見てらんないねあれは。
 ポートが無く夢世界に来ちゃうとああなっちゃうんだ。
 > CONTEXT: Map449/events/17/pages/0/3/Dialogue
-> CONTEXT: Map245/events/11/pages/0/3/Dialogue
-> CONTEXT: Map224/events/18/pages/1/3/Dialogue
+> CONTEXT: Map449/events/17/pages/0/3/Dialogue
+> CONTEXT: Map282/events/11/pages/0/3/Dialogue
+> CONTEXT: Map282/events/11/pages/0/3/Dialogue
+> CONTEXT: Map261/events/18/pages/1/3/Dialogue
+> CONTEXT: Map261/events/18/pages/1/3/Dialogue
 \\name[\\v[2]]\\_
 But I won't see that.
 It's impossible to arrive to dream world without a port.
@@ -270,8 +342,11 @@ It's impossible to arrive to dream world without a port.
 \\name[\\v[2]]\\_
 君もそうなり掛けてたんじゃない？　間一髪だね。
 > CONTEXT: Map449/events/17/pages/0/6/Dialogue
-> CONTEXT: Map245/events/11/pages/0/6/Dialogue
-> CONTEXT: Map224/events/18/pages/1/6/Dialogue
+> CONTEXT: Map449/events/17/pages/0/6/Dialogue
+> CONTEXT: Map282/events/11/pages/0/6/Dialogue
+> CONTEXT: Map282/events/11/pages/0/6/Dialogue
+> CONTEXT: Map261/events/18/pages/1/6/Dialogue
+> CONTEXT: Map261/events/18/pages/1/6/Dialogue
 \\name[\\v[2]]\\_
 You almost did that too, right? So close...
 > END STRING

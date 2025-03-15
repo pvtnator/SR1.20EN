@@ -1,20 +1,25 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-常に光ある道を探し、進め
-> CONTEXT: None < UNUSED
-Always look for the path of light and move forward
+"さまよう女性"
+> CONTEXT: Map075/events/1/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map075/events/1/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map075/events/1/pages/0/47/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map075/events/1/pages/0/47/InlineScript/1:22 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-"さまよう女性"
-> CONTEXT: Map075/events/1/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map075/events/1/pages/0/47/InlineScript/1:22 < UNTRANSLATED
+\\name[\\v[2]]\\_
+……。
+> CONTEXT: Map075/events/1/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map075/events/1/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 儚げに佇んでいる……。
 \\c[12]イイコト\\c[0]をしますか？
+> CONTEXT: Map075/events/1/pages/0/3/Dialogue < UNTRANSLATED
 > CONTEXT: Map075/events/1/pages/0/3/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -23,19 +28,7 @@ Always look for the path of light and move forward
 \\name[\\v[2]]\\_
 ありが……とう……\\H
 > CONTEXT: Map075/events/1/pages/0/48/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\c[12]イイコト\\c[0]をしたようだ。
-> CONTEXT: Map075/events/1/pages/0/55/Dialogue < UNTRANSLATED
-> CONTEXT: Map078/events/4/pages/0/57/Dialogue < UNTRANSLATED
-> CONTEXT: Map076/events/4/pages/0/88/Dialogue < UNTRANSLATED
-> CONTEXT: Map079/events/4/pages/0/101/Dialogue < UNTRANSLATED
-> CONTEXT: Map078/events/5/pages/0/61/Dialogue < UNTRANSLATED
-> CONTEXT: Map067/events/5/pages/2/54/Dialogue < UNTRANSLATED
-> CONTEXT: Map069/events/3/pages/0/69/Dialogue < UNTRANSLATED
-> CONTEXT: Map072/events/4/pages/0/136/Dialogue < UNTRANSLATED
+> CONTEXT: Map075/events/1/pages/0/48/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -43,6 +36,7 @@ Always look for the path of light and move forward
 儚げに佇んでいる……。
 
 再戦しますか？
+> CONTEXT: Map075/events/1/pages/1/0/Dialogue < UNTRANSLATED
 > CONTEXT: Map075/events/1/pages/1/0/Dialogue < UNTRANSLATED
 
 > END STRING

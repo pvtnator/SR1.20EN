@@ -1,703 +1,84 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-\\name[\\v[2]]\\_
-仲間を選んでね。
-> CONTEXT: None < UNUSED
+\\name[ミア]\\_
+お兄ちゃん！
+また怖い夢魔がきたよ！
+> CONTEXT: Map274/events/2/pages/0/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map274/events/2/pages/0/11/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-（仲間がいっぱいです！）
-> CONTEXT: None < UNUSED
+\\name[ミア]\\_
+一緒に頑張ろうね！　お兄ちゃん！
+> CONTEXT: Map274/events/2/pages/0/14/Dialogue < UNTRANSLATED
+> CONTEXT: Map274/events/2/pages/0/14/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-連れて行く
-> CONTEXT: None < UNUSED
-Take with
-> END STRING
-
-> BEGIN STRING
-これ以上パーティに入れられない！
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-誰を連れて行きますか？
-（素質・性格等は固定となります）
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス
-> CONTEXT: None < UNUSED
-Lesser Succubus
-> END STRING
-
-> BEGIN STRING
-サキュバス
-> CONTEXT: None < UNUSED
-Succubus
-> END STRING
-
-> BEGIN STRING
-インプ
-> CONTEXT: None < UNUSED
-Imp
-> END STRING
-
-> BEGIN STRING
-好色
-> CONTEXT: None < UNUSED
-Lewd
-> END STRING
-
-> BEGIN STRING
-陽気
-> CONTEXT: None < UNUSED
-Cheerful
-> END STRING
-
-> BEGIN STRING
-勝ち気
-> CONTEXT: None < UNUSED
-Focused
-> END STRING
-
-> BEGIN STRING
-虚勢
-> CONTEXT: None < UNUSED
-Braggy
-> END STRING
-
-> BEGIN STRING
-デビル
-> CONTEXT: None < UNUSED
-Devil
-> END STRING
-
-> BEGIN STRING
-プチウィッチ
-> CONTEXT: None < UNUSED
-Petite Witch
-> END STRING
-
-> BEGIN STRING
-ウィッチ
-> CONTEXT: None < UNUSED
-Witch
-> END STRING
-
-> BEGIN STRING
-上品
-> CONTEXT: None < UNUSED
-Classy
-> END STRING
-
-> BEGIN STRING
-淡泊
-> CONTEXT: None < UNUSED
-Chill
-> END STRING
-
-> BEGIN STRING
-キャスト
-> CONTEXT: None < UNUSED
-Cast
-> END STRING
-
-> BEGIN STRING
-ナイトメア
-> CONTEXT: None < UNUSED
-Nightmare
-> END STRING
-
-> BEGIN STRING
-内気
-> CONTEXT: None < UNUSED
-Shy
-> END STRING
-
-> BEGIN STRING
-従順
-> CONTEXT: None < UNUSED
-Obedient
-> END STRING
-
-> BEGIN STRING
-柔和
-> CONTEXT: None < UNUSED
-Gentle
-> END STRING
-
-> BEGIN STRING
-天然
-> CONTEXT: None < UNUSED
-Natural
-> END STRING
-
-> BEGIN STRING
-不思議
-> CONTEXT: None < UNUSED
-Mysterious
-> END STRING
-
-> BEGIN STRING
-ファミリア
-> CONTEXT: None < UNUSED
-Familiar
-> END STRING
-
-> BEGIN STRING
-レッサーサキュバス(OFE)
-> CONTEXT: None < UNUSED
-Lesser Succubus(OFE)
-> END STRING
-
-> BEGIN STRING
-サキュバス(OFE)
-> CONTEXT: None < UNUSED
-Succubus(OFE)
-> END STRING
-
-> BEGIN STRING
-プチウィッチ(OFE)
-> CONTEXT: None < UNUSED
-Petite Witch(OFE)
-> END STRING
-
-> BEGIN STRING
-ウィッチ(OFE)
-> CONTEXT: None < UNUSED
-Witch(OFE)
-> END STRING
-
-> BEGIN STRING
-ワーウルフ
-> CONTEXT: None < UNUSED
-Werewolf
-> END STRING
-
-> BEGIN STRING
-止める
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-甘え性
-> CONTEXT: None < UNUSED
-Spoiled
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-それじゃ止めとくよ。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-あれ、そうなの？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-"ワイルドすぎる少女"
-> CONTEXT: None < UNUSED
-"Wild girl"
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-レベルを上げるよ？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-全員を１レベルアップ
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-全員を３レベルアップ
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-全員を２０レベルに
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-全員を１レベルに戻す
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-はい終わり。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-やらないのね。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-テキストのチェックをします（スキルIDを入力）
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-主人公と１人目
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-１人目と主人公
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-１人目と２人目
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-２人目と１人目
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-着衣テスト
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-脱衣テスト
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-前の選択に戻る
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-スキル名：\\v[2]
-\\v[10]
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-続ける
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-スキルテキストチェックを行うためには、
-パートナーを連れて来て下さい。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-コマンダー
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ゴブ戦隊
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-おス。ここは戦闘テストルームだぜ。
-しっかりバトルしてがっつり調整してくんな。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-さて、何をする？
-セーブがしたいなら、そこのメモに記帳してくれ。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-パーティメンバーの調整
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-レベル・特徴の調整
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-戦闘環境の調整
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-パーティメンバーの調整だな。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-全回復
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ステータス付与
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ボックスを管理する
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-新しい仲間を加える
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ほらよ。
-こういうのはお手のもんだ。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-何をつけるんだ？
-あと、１回戦闘するとたいていは元に戻るぞ。
-面倒だろうが戦闘ごとにつけなおしてくれ。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-What do you want?
-Also, it usually goes back to normal after one battle.
-It may be a pain, but just put it back on after each battle.
-> END STRING
-
-> BEGIN STRING
-全裸にする
-> CONTEXT: Commonevents/135/9/Choice/0
-> CONTEXT: Commonevents/135/9/Choice/0
-Strip naked
-> END STRING
-
-> BEGIN STRING
-欲情をつける
-> CONTEXT: Commonevents/135/9/Choice/1
-> CONTEXT: Commonevents/135/9/Choice/1
-Become aroused
-> END STRING
-
-> BEGIN STRING
-全員のＥＰを１にする
-> CONTEXT: Commonevents/135/9/Choice/2
-> CONTEXT: Commonevents/135/9/Choice/2
-Set everyone's EP to 1
-> END STRING
-
-> BEGIN STRING
-全員のＶＰを１にする
-> CONTEXT: Commonevents/135/9/Choice/3
-> CONTEXT: Commonevents/135/9/Choice/3
-Set everyone's EP to 1
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-わかった、やめとくんだな？
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Okay, you'll stop now?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ほらよ。
-もういいか？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-（これ以上パーティに入れられない！）
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-連れて行く奴を選んでくれ。
-性格は決められるが、素質は固定だから注意な。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-レベルを１上げる
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-レベルを５上げる
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-レベルを１に戻す
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-主人公の特徴を決めなおす
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-上げたぞ。
-もっと調整するか？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-どこを調整する？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-レベル１に戻したぞ。
-もっと調整するか？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-どれが欲しいんだ？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-口攻めに弱い
-> CONTEXT: None < UNUSED
-Mouth weakness
-> END STRING
-
-> BEGIN STRING
-手攻めに弱い
-> CONTEXT: None < UNUSED
-Hand weakness
-> END STRING
-
-> BEGIN STRING
-胸攻めに弱い
-> CONTEXT: None < UNUSED
-Breast weakness
-> END STRING
-
-> BEGIN STRING
-女陰攻めに弱い
-> CONTEXT: None < UNUSED
-Vagina weakness
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-この【口攻めに弱い】が欲しいのかい？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ほらよ。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-この【手攻めに弱い】が欲しいのかい？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-この【胸攻めに弱い】が欲しいのかい？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-この【女陰攻めに弱い】が欲しいのかい？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-もっと調整するか？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-スイッチの切り替え
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-高速戦闘モード
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ベッドイン状態にする
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-空腹戦状態にする
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-通常でいい
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-バトル高速化のスイッチを切ったぞ。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-バトル高速化が可能になったぞ。
-戦闘中にCtrlキーを押しっぱなしで処理を高速にする。
-読み飛ばしちまった場合はＤキーでログを見てくれ。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-んじゃまたな。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ボス戦闘
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-仮戦闘
-> CONTEXT: None < UNUSED
+\\name[ミア]\\_
+よーし！
+いい感じだね！
+> CONTEXT: Map274/events/2/pages/0/45/Dialogue < UNTRANSLATED
+> CONTEXT: Map274/events/2/pages/0/45/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-通常ラスボス
-> CONTEXT: None < UNUSED
+\\name[ミア]\\_
+お兄ちゃんと一緒なら
+どんな相手もへっちゃらだね！
+> CONTEXT: Map274/events/2/pages/0/50/Dialogue < UNTRANSLATED
+> CONTEXT: Map274/events/2/pages/0/50/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-ベストエンドラスボス
-> CONTEXT: None < UNUSED
+\\name[ミア]\\_
+あれぇ、おかしいなぁ……。
+何か間違っちゃったかな？
+> CONTEXT: Map274/events/2/pages/0/63/Dialogue < UNTRANSLATED
+> CONTEXT: Map274/events/2/pages/0/63/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-幾何学模様の中心に何か置いてある……
-> CONTEXT: Map274/events/52/pages/0/0/Dialogue < UNTRANSLATED
+\\name[ミア]\\_
+お兄ちゃん！　しっかりして！
+> CONTEXT: Map274/events/2/pages/0/73/Dialogue < UNTRANSLATED
+> CONTEXT: Map274/events/2/pages/0/73/Dialogue < UNTRANSLATED
+> CONTEXT: Map273/events/3/pages/0/73/Dialogue < UNTRANSLATED
+> CONTEXT: Map273/events/3/pages/0/73/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-花の上に静かに添えられている……
-> CONTEXT: Map274/events/53/pages/0/0/Dialogue < UNTRANSLATED
+\\name[ミア]\\_
+ほら、お兄ちゃん
+夢魔はわたしが追い払っておいたよ！
+> CONTEXT: Map274/events/2/pages/0/84/Dialogue < UNTRANSLATED
+> CONTEXT: Map274/events/2/pages/0/84/Dialogue < UNTRANSLATED
+> CONTEXT: Map273/events/3/pages/0/84/Dialogue < UNTRANSLATED
+> CONTEXT: Map273/events/3/pages/0/84/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-何かが落ちている……
-> CONTEXT: Map274/events/55/pages/0/0/Dialogue < UNTRANSLATED
+\\name[ミア]\\_
+はやく冒険の続きにいこうよ！
+> CONTEXT: Map274/events/2/pages/0/87/Dialogue < UNTRANSLATED
+> CONTEXT: Map274/events/2/pages/0/87/Dialogue < UNTRANSLATED
+> CONTEXT: Map273/events/3/pages/0/87/Dialogue < UNTRANSLATED
+> CONTEXT: Map273/events/3/pages/0/87/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-植木の周りに何か……
-> CONTEXT: Map274/events/56/pages/0/0/Dialogue < UNTRANSLATED
+今の夢魔たちは……。
+> CONTEXT: Map274/events/8/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map274/events/8/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map274/events/12/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map274/events/12/pages/0/4/Dialogue < UNTRANSLATED
 
 > END STRING

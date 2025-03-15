@@ -1,178 +1,9 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-文字チェックです。
-
-abcdefg hijklmn opqrstu
-vwxyz 0123456789
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-画面エフェクトを付け直します。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-引き継ぎ用イベントです。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-引き継ぎアクターをセーブ
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-引き継ぎアクターをロード
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-引き継ぎアクターの確認
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-セーブしました。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ロードしました。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-引き継ぎデータが存在しません！
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-撮影用
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-１
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-２
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-３
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-４
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ランダム戦の戦闘テストです
-> CONTEXT: Map245/events/63/pages/0/0/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-1体雑魚戦
-> CONTEXT: Map245/events/63/pages/0/1/Choice/0 < UNTRANSLATED
-> CONTEXT: Map245/events/63/pages/0/1/Choice/0 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-3体雑魚戦
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-3体OFE戦
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-1体ボス 2体雑魚戦
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-"ボス"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-マップ名取得用
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ランダムマップへ移動しますか？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-引き継いだアクターと戦闘しますか？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-引き継ぎがされていません！
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-引き継げるアクターがもういません！
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-おお、怖がらないでくれ。君を取って食おうとは思っていない。
-私はただ君に尋ねたいことがあるだけなんだ。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-彼女らを帰してやるのが私の役目でね。
-もしいたら、私に教えてくれ。勿論謝礼はしよう。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
 \\name[\\v[2]]\\_
 左の昇降機から天国に向かうといい。
 ……少々、遠回りではあるがな。
+> CONTEXT: Map010/events/3/pages/1/1/Dialogue < UNTRANSLATED
 > CONTEXT: Map010/events/3/pages/1/1/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -182,6 +13,7 @@ vwxyz 0123456789
 頑張って天国に辿り着いてね～♪
 応援してるわよぉ～、\\n[101]\\H
 > CONTEXT: Map010/events/4/pages/1/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/4/pages/1/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -190,6 +22,7 @@ vwxyz 0123456789
 ルシフェル様。ラファエル様。
 次の転生者を連れてまいりました。
 > CONTEXT: Map010/events/12/pages/0/52/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/12/pages/0/52/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -197,6 +30,8 @@ vwxyz 0123456789
 \\name[\\v[2]]\\_
 連れてまいりました。
 > CONTEXT: Map010/events/12/pages/0/55/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/12/pages/0/55/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/13/pages/2/15/Dialogue < UNTRANSLATED
 > CONTEXT: Map010/events/13/pages/2/15/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -204,6 +39,7 @@ vwxyz 0123456789
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ……ほぉ。
+> CONTEXT: Map010/events/12/pages/0/60/Dialogue < UNTRANSLATED
 > CONTEXT: Map010/events/12/pages/0/60/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -213,12 +49,14 @@ vwxyz 0123456789
 ……ご苦労。
 お前たちは、下がってよいぞ。
 > CONTEXT: Map010/events/12/pages/0/68/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/12/pages/0/68/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ……さて。
+> CONTEXT: Map010/events/12/pages/0/99/Dialogue < UNTRANSLATED
 > CONTEXT: Map010/events/12/pages/0/99/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -228,12 +66,14 @@ vwxyz 0123456789
 お前は生前、夢世界に忍び込み、
 数多の夢魔をイカせてきたそうじゃないか？
 > CONTEXT: Map010/events/12/pages/0/123/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/12/pages/0/123/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[4]]\\_
 え～、マジぃ～！？
+> CONTEXT: Map010/events/12/pages/0/127/Dialogue < UNTRANSLATED
 > CONTEXT: Map010/events/12/pages/0/127/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -243,6 +83,7 @@ vwxyz 0123456789
 こ～んなカワイイ顔して
 キミ、ちょ～ヤリチンじゃ～ん\\H
 > CONTEXT: Map010/events/12/pages/0/156/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/12/pages/0/156/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -250,6 +91,7 @@ vwxyz 0123456789
 \\name[\\v[3]]\\_
 本当に夢魔達を悦ばせてきたのか、
 試させてもらうぞ？
+> CONTEXT: Map010/events/12/pages/0/161/Dialogue < UNTRANSLATED
 > CONTEXT: Map010/events/12/pages/0/161/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -259,6 +101,7 @@ vwxyz 0123456789
 アタシ達の裁きは
 キツイわよぉ～\\H
 > CONTEXT: Map010/events/12/pages/0/166/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/12/pages/0/166/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -266,12 +109,14 @@ vwxyz 0123456789
 \\name[\\v[3]]\\_
 ……覚悟はできたようだな。
 > CONTEXT: Map010/events/13/pages/0/17/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/13/pages/0/17/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ……アタシ達の審判を受けなさ～い\\H
+> CONTEXT: Map010/events/13/pages/0/24/Dialogue < UNTRANSLATED
 > CONTEXT: Map010/events/13/pages/0/24/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -281,6 +126,7 @@ vwxyz 0123456789
 あぁっ……\\H\\|
 なんて……事だっ……！
 > CONTEXT: Map010/events/13/pages/0/119/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/13/pages/0/119/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -288,6 +134,7 @@ vwxyz 0123456789
 \\name[\\v[3]]\\_
 あはぁっ……\\H\\|ルシフェルぅ～。
 この人、とってもイイよぉ～……\\H
+> CONTEXT: Map010/events/13/pages/0/122/Dialogue < UNTRANSLATED
 > CONTEXT: Map010/events/13/pages/0/122/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -298,6 +145,7 @@ vwxyz 0123456789
 どうやら、キミの夢魔に対する愛は
 本物のようだな。
 > CONTEXT: Map010/events/13/pages/0/126/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/13/pages/0/126/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -307,6 +155,7 @@ vwxyz 0123456789
 キミを天国に案内しよう。
 着いてくるがいい。
 > CONTEXT: Map010/events/13/pages/0/130/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/13/pages/0/130/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -314,6 +163,7 @@ vwxyz 0123456789
 \\name[\\v[2]]\\_
 ルシフェル様、ラファエル様。
 次の転生者を連れてまいりました。
+> CONTEXT: Map010/events/13/pages/2/11/Dialogue < UNTRANSLATED
 > CONTEXT: Map010/events/13/pages/2/11/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -323,6 +173,7 @@ vwxyz 0123456789
 ……くくっ。ちょうど良い所に
 \\n[101]も来てるじゃないか。
 > CONTEXT: Map010/events/13/pages/2/22/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/13/pages/2/22/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -330,6 +181,7 @@ vwxyz 0123456789
 \\name[\\v[3]]\\_
 \\n[101]、コイツの最期の戦いに
 お前が関わってたって話は聞いてるぜ？
+> CONTEXT: Map010/events/13/pages/2/26/Dialogue < UNTRANSLATED
 > CONTEXT: Map010/events/13/pages/2/26/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -339,6 +191,7 @@ vwxyz 0123456789
 コイツの生き様は
 正直褒められたものじゃない。
 > CONTEXT: Map010/events/13/pages/2/29/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/13/pages/2/29/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -346,6 +199,7 @@ vwxyz 0123456789
 \\name[\\v[3]]\\_
 だが\\n[101]、最期に相まみえた者として
 お前にコイツの審判を委ねてやるよ。
+> CONTEXT: Map010/events/13/pages/2/32/Dialogue < UNTRANSLATED
 > CONTEXT: Map010/events/13/pages/2/32/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -355,11 +209,13 @@ vwxyz 0123456789
 さあ、どうする？
 考えて決めな？
 > CONTEXT: Map010/events/13/pages/2/35/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/13/pages/2/35/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 アウルムを赦しますか？
+> CONTEXT: Map010/events/13/pages/2/38/Dialogue < UNTRANSLATED
 > CONTEXT: Map010/events/13/pages/2/38/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -369,6 +225,7 @@ vwxyz 0123456789
 キャ～\\H
 \\n[101]ったら、ちょ～イッケメーン\\H
 > CONTEXT: Map010/events/13/pages/2/45/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/13/pages/2/45/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -376,6 +233,7 @@ vwxyz 0123456789
 \\name[\\v[3]]\\_
 ……だってよ？
 命拾いしたな、アウルムよ。
+> CONTEXT: Map010/events/13/pages/2/54/Dialogue < UNTRANSLATED
 > CONTEXT: Map010/events/13/pages/2/54/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -385,12 +243,14 @@ vwxyz 0123456789
 ……ふん。
 余計なお世話だよ。
 > CONTEXT: Map010/events/13/pages/2/60/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/13/pages/2/60/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[4]]\\_
 あ～あ、ざんね～ん\\H
+> CONTEXT: Map010/events/13/pages/2/69/Dialogue < UNTRANSLATED
 > CONTEXT: Map010/events/13/pages/2/69/Dialogue < UNTRANSLATED
 
 > END STRING
@@ -400,6 +260,7 @@ vwxyz 0123456789
 ……だってよ？
 覚悟はできているな、アウルム？
 > CONTEXT: Map010/events/13/pages/2/77/Dialogue < UNTRANSLATED
+> CONTEXT: Map010/events/13/pages/2/77/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -407,6 +268,7 @@ vwxyz 0123456789
 \\name[\\v[5]]\\_
 ……ああ、できてるさ。
 煮るなり焼くなり好きにすれば良い。
+> CONTEXT: Map010/events/13/pages/2/86/Dialogue < UNTRANSLATED
 > CONTEXT: Map010/events/13/pages/2/86/Dialogue < UNTRANSLATED
 
 > END STRING

@@ -1,227 +1,85 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-Snow_in_the_Forest
-> CONTEXT: None < UNUSED
+\\name[ミア]\\_
+ほら、お兄ちゃん！
+また悪い夢魔がやってきたみたいだよ
+> CONTEXT: Map277/events/1/pages/1/13/Dialogue < UNTRANSLATED
+> CONTEXT: Map277/events/1/pages/1/13/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-"氷魔術師"
-> CONTEXT: None < UNUSED
+\\name[ミア]\\_
+おいしい晩ごはんを作って待ってるから、
+はやく追い返して帰ってきてね♪
+> CONTEXT: Map277/events/1/pages/1/19/Dialogue < UNTRANSLATED
+> CONTEXT: Map277/events/1/pages/1/19/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-"見習い"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-冷えた体では、思うように動けまい。
-ラボには寒さにも強い服が購入できるぞ。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-パッションビートなんかも、
-身体を冷やさない効果があるそうだ。
-試してみることだな。
-> CONTEXT: None < UNUSED
+\\n[101]は虚ろな瞳でこちらを見つめてくる……。
+> CONTEXT: Map277/events/1/pages/1/40/Dialogue < UNTRANSLATED
+> CONTEXT: Map277/events/1/pages/1/40/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-それとも、何だ。
-他に何か用でもあるのか？
-> CONTEXT: None < UNUSED
+\\v[3]……
+> CONTEXT: Map277/events/1/pages/1/46/Dialogue < UNTRANSLATED
+> CONTEXT: Map277/events/1/pages/1/46/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-グレイシオマンサーと再戦しますか？
-> CONTEXT: None < UNUSED
+\\n[101]は\\v[2]達に襲いかかってきた……！
+> CONTEXT: Map277/events/1/pages/1/49/Dialogue < UNTRANSLATED
+> CONTEXT: Map277/events/1/pages/1/49/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[3]]\\_
-ヘックシッ！\\|
-……あ、ごめん、クシャミが出ちゃった。
-> CONTEXT: None < UNUSED
+\\v[2]達の介抱によって、
+\\n[101]は目を覚ましパーティに復帰した！
+> CONTEXT: Map277/events/1/pages/1/92/Dialogue < UNTRANSLATED
+> CONTEXT: Map277/events/1/pages/1/92/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[3]]\\_
-私は氷の魔導士なんだけど、見習いだから
-寒さにはあんまり強くないんだよね……ぶるぶる……。
-> CONTEXT: None < UNUSED
+落ちていた\\n[101]の装備を回収した。
+
+装備しなおしておこう……。
+> CONTEXT: Map277/events/1/pages/1/94/Dialogue < UNTRANSLATED
+> CONTEXT: Map277/events/1/pages/1/94/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[3]]\\_
-……ところでキミ、雪の結晶を見たことはある？
-> CONTEXT: None < UNUSED
+開かない……
+> CONTEXT: Map277/events/5/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map277/events/5/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[3]]\\_
-この辺でよく見つかる結晶なんだけど、
-私たちの研究に必要なものなんだ。
-> CONTEXT: None < UNUSED
+\\name[ミア]\\_
+お兄ちゃん、準備できた？
+> CONTEXT: Map277/events/9/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map277/events/9/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map272/events/4/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map272/events/4/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[3]]\\_
-持ってきてくれたら、
-私達の作った魔道具と交換してあげる。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-ヘックシッ！\\|
-……あ、持ってきてくれたの？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-また持ってきてね！
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-あ、師匠！
-また人がやってきましたよ！
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-やれやれ……、
-今日は厄介ごとが多い日だな。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ついさっき、怪しい奴がこの先の洞窟への
-侵入を許してしまったというのに……。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-更に厄介ごとを増やすわけにはいかないんだ。
-引き返してもらおうか。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-んー……どうしてもこの先へ行きたいようだな。
-なら、仕方がない。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-我々がイかせてあげよう\\H
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-あぁ…っ……\\H\\|
-こんな人たちにイかされるだなんて……！
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-なかなかやるじゃないか……！
-そこまで言うならここを通してやろうじゃないか。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-さっきここを通りがかった、アイツの仲間じゃないなら
-中の様子を確かめてくれないか……？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-何やら嫌な予感がするんだ。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-……おっと、その前に。
-冷えた体では、思うように動けまい。
-この火に当たって体を暖めなさい。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ドアノブに何かがかかっている……
-> CONTEXT: Map277/events/8/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map277/events/10/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map277/events/13/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map277/events/15/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map277/events/21/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map277/events/24/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map277/events/82/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map277/events/88/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map277/events/90/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map277/events/95/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map277/events/102/pages/0/0/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-開かない……？
-よく見たらただの絵だ
-> CONTEXT: Map277/events/25/pages/0/0/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-"力なき兵士"
-> CONTEXT: Map277/events/35/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-う……うう……
-ドアノブにはお宝が……
-> CONTEXT: Map277/events/35/pages/0/1/Dialogue < UNTRANSLATED
+\\name[ミア]\\_
+おっけーだね！
+それじゃ、冒険にしゅっぱーつ！
+> CONTEXT: Map277/events/9/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map277/events/9/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map272/events/4/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map272/events/4/pages/0/4/Dialogue < UNTRANSLATED
 
 > END STRING

@@ -1,37 +1,41 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 SCRP_Moonbeam
-> CONTEXT: Map455/bgm/name/ < UNTRANSLATED
-> CONTEXT: Map454/bgm/name/ < UNTRANSLATED
-> CONTEXT: Map448/bgm/name/ < UNTRANSLATED
-> CONTEXT: Map298/bgm/name/ < UNTRANSLATED
-> CONTEXT: Map294/bgm/name/ < UNTRANSLATED
-> CONTEXT: Map293/bgm/name/ < UNTRANSLATED
 > CONTEXT: Map781/bgm/name/ < UNTRANSLATED
 > CONTEXT: Map780/bgm/name/ < UNTRANSLATED
 > CONTEXT: Map777/bgm/name/ < UNTRANSLATED
 > CONTEXT: Map599/bgm/name/ < UNTRANSLATED
 > CONTEXT: Map592/bgm/name/ < UNTRANSLATED
-> CONTEXT: Map301/bgm/name/ < UNTRANSLATED
-> CONTEXT: Map228/bgm/name/ < UNTRANSLATED
-> CONTEXT: Map227/bgm/name/ < UNTRANSLATED
-> CONTEXT: Map121/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map455/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map455/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map454/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map454/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map448/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map448/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map265/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map265/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map264/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map264/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map158/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map158/bgm/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "茸の夢魔"
-> CONTEXT: Map455/events/1/pages/0/9/InlineScript/1:22
 > CONTEXT: Map781/events/1/pages/0/9/InlineScript/1:22
 > CONTEXT: Map781/events/78/pages/2/19/InlineScript/1:22
+> CONTEXT: Map455/events/1/pages/0/9/InlineScript/1:22
+> CONTEXT: Map455/events/1/pages/0/9/InlineScript/1:22
 "Mushroom succubus"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ、来てくれた来てくれた\\H
-> CONTEXT: Map455/events/1/pages/0/10/Dialogue
 > CONTEXT: Map781/events/1/pages/0/10/Dialogue
+> CONTEXT: Map455/events/1/pages/0/10/Dialogue
+> CONTEXT: Map455/events/1/pages/0/10/Dialogue
 \\name[\\v[2]]\\_
 Hehe, you came, you came\\H
 > END STRING
@@ -39,8 +43,9 @@ Hehe, you came, you came\\H
 > BEGIN STRING
 \\name[\\v[2]]\\_
 何してあそぶぅ？
-> CONTEXT: Map455/events/1/pages/0/14/Dialogue
 > CONTEXT: Map781/events/1/pages/0/14/Dialogue
+> CONTEXT: Map455/events/1/pages/0/14/Dialogue
+> CONTEXT: Map455/events/1/pages/0/14/Dialogue
 \\name[\\v[2]]\\_
 What should we do?
 > END STRING
@@ -48,10 +53,12 @@ What should we do?
 > BEGIN STRING
 \\name[\\v[2]]\\_
 それじゃーねー。
-> CONTEXT: Map455/events/1/pages/0/16/Dialogue
-> CONTEXT: Map455/events/1/pages/0/18/Dialogue
 > CONTEXT: Map781/events/1/pages/0/16/Dialogue
 > CONTEXT: Map781/events/1/pages/0/18/Dialogue
+> CONTEXT: Map455/events/1/pages/0/16/Dialogue
+> CONTEXT: Map455/events/1/pages/0/16/Dialogue
+> CONTEXT: Map455/events/1/pages/0/18/Dialogue
+> CONTEXT: Map455/events/1/pages/0/18/Dialogue
 \\name[\\v[2]]\\_
 That's it~
 > END STRING
@@ -59,8 +66,9 @@ That's it~
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あたしがぁ･･･。
-> CONTEXT: Map455/events/1/pages/0/21/Dialogue
 > CONTEXT: Map781/events/1/pages/0/21/Dialogue
+> CONTEXT: Map455/events/1/pages/0/21/Dialogue
+> CONTEXT: Map455/events/1/pages/0/21/Dialogue
 \\name[\\v[2]]\\_
 I...
 > END STRING
@@ -68,8 +76,9 @@ I...
 > BEGIN STRING
 \\name[\\v[2]]\\_
 キミのことぉ･･････。
-> CONTEXT: Map455/events/1/pages/0/23/Dialogue
 > CONTEXT: Map781/events/1/pages/0/23/Dialogue
+> CONTEXT: Map455/events/1/pages/0/23/Dialogue
+> CONTEXT: Map455/events/1/pages/0/23/Dialogue
 \\name[\\v[2]]\\_
 With you...
 > END STRING
@@ -77,8 +86,9 @@ With you...
 > BEGIN STRING
 \\name[\\v[2]]\\_
 中毒にしたげるぅ\\H
-> CONTEXT: Map455/events/1/pages/0/38/Dialogue
 > CONTEXT: Map781/events/1/pages/0/38/Dialogue
+> CONTEXT: Map455/events/1/pages/0/38/Dialogue
+> CONTEXT: Map455/events/1/pages/0/38/Dialogue
 \\name[\\v[2]]\\_
 I'll intoxicate you\\H
 > END STRING
@@ -86,8 +96,9 @@ I'll intoxicate you\\H
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あー･･･ん･･･。
-> CONTEXT: Map455/events/1/pages/0/61/Dialogue
 > CONTEXT: Map781/events/1/pages/0/144/Dialogue
+> CONTEXT: Map455/events/1/pages/0/61/Dialogue
+> CONTEXT: Map455/events/1/pages/0/61/Dialogue
 \\name[\\v[2]]\\_
 Ah...hmm...
 > END STRING
@@ -96,8 +107,9 @@ Ah...hmm...
 \\name[\\v[2]]\\_
 ･･･ふふーん、ふんふん、いいねぇキミぃ。
 すっごく男らしかったよぉ\\H　かっくいー♪
-> CONTEXT: Map455/events/1/pages/0/63/Dialogue
 > CONTEXT: Map781/events/1/pages/0/146/Dialogue
+> CONTEXT: Map455/events/1/pages/0/63/Dialogue
+> CONTEXT: Map455/events/1/pages/0/63/Dialogue
 \\name[\\v[2]]\\_
 ...Heheh, heheh, you're good.
 So manly\\H So cool♪
@@ -107,8 +119,9 @@ So manly\\H So cool♪
 \\name[\\v[2]]\\_
 あたしが中毒になっちゃうかもなー。
 キミってば依存性？ってのあるかもねー。
-> CONTEXT: Map455/events/1/pages/0/66/Dialogue
 > CONTEXT: Map781/events/1/pages/0/149/Dialogue
+> CONTEXT: Map455/events/1/pages/0/66/Dialogue
+> CONTEXT: Map455/events/1/pages/0/66/Dialogue
 \\name[\\v[2]]\\_
 I might get addicted... Are you dependable?
 Perhaps there's a way...
@@ -117,8 +130,9 @@ Perhaps there's a way...
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ねぇねぇ、良かったらあたしと仲良くしよーよ\\H
-> CONTEXT: Map455/events/1/pages/0/69/Dialogue
 > CONTEXT: Map781/events/1/pages/0/152/Dialogue
+> CONTEXT: Map455/events/1/pages/0/69/Dialogue
+> CONTEXT: Map455/events/1/pages/0/69/Dialogue
 \\name[\\v[2]]\\_
 Hey, if you don't mind, let's stick together\\H
 > END STRING

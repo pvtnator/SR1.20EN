@@ -1,222 +1,243 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-白昼夢
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-"ジェノシンドレ"
-> CONTEXT: Map091/events/5/pages/6/1/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map088/events/4/pages/3/1/InlineScript/1:22 < UNTRANSLATED
-
+"知識の夢魔"
+> CONTEXT: Map287/events/1/pages/0/0/InlineScript/1:22
+> CONTEXT: Map287/events/1/pages/0/0/InlineScript/1:22
+"Knowledge Succubus"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-はあっ……、\\|
-はあ……っ……\\H
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ジェノシンドレと再戦しますか？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-やあ、久しぶりだね。
-> CONTEXT: None < UNUSED
-
+ふぅ……。
+さて、ここに封印されてからどれくらいでしょうか。
+> CONTEXT: Map287/events/1/pages/0/1/Dialogue
+> CONTEXT: Map287/events/1/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Phew...
+Now, how long has it been since I was sealed here?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-………\\|！！
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-素晴らしい最期になりそうで、
-良かったじゃないか。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-その状態では、もはやボクの魔力は
-受けきれまい。
-> CONTEXT: None < UNUSED
-
+時は移ろい、人も魔も成長し衰えて、
+時代は変わり、蓄えられた知識も変わっていき……。
+> CONTEXT: Map287/events/1/pages/0/4/Dialogue
+> CONTEXT: Map287/events/1/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Time passes, people and demons grow and decay,
+and the times change, 
+and so does the knowledge we have accumulated...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-………\\|お…\\|のれ……、
-淫魔……\\|が……！
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-……へえ。
-昔の記憶も、たまに戻ってくるみたいだね。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-ボク達の世界では、
-そういうの、落ちこぼれっていうんだ。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-かつての英雄も、こうなってしまっては
-形無しだなあ。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-このまま生きて過ごしてたって、
-もうどうしようもないし、しょうがないよね。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-それじゃ、バイバイ。
-> CONTEXT: None < UNUSED
-
+知りたいのです。
+今、世界も夢世界もどうなっているのかを…‥。
+> CONTEXT: Map287/events/1/pages/0/7/Dialogue
+> CONTEXT: Map287/events/1/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+I want to know what's going on in the world,
+and the dream world right now...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-うっ……！？\\|
-ああ………\\|っ…………\\|！
-> CONTEXT: None < UNUSED
-
+まずは、あなたの知識をいただくとしましょう。
+> CONTEXT: Map287/events/1/pages/0/10/Dialogue
+> CONTEXT: Map287/events/1/pages/0/10/Dialogue
+\\name[\\v[2]]\\_
+First, let's hear from you about your knowledge.
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[3]]\\_
-ほら、お得意の吹雪とやらを
-見せてみなよ！
-> CONTEXT: None < UNUSED
-
+"ファルファレルロ"
+> CONTEXT: Map287/events/1/pages/0/82/InlineScript/1:22
+> CONTEXT: Map287/events/1/pages/0/82/InlineScript/1:22
+> CONTEXT: Map287/events/1/pages/1/0/InlineScript/1:22
+> CONTEXT: Map287/events/1/pages/1/0/InlineScript/1:22
+"Farfarello"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-こん……\\|な……\\|
-ところ……\\|で………っ………！
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-おお、力が漲ってくるじゃないか！
-想像以上の収穫だよ。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-これなら野望の達成は、
-意外と早くなりそうだね。
-> CONTEXT: None < UNUSED
-
+くうっ\\H　これが、貴方が蓄えてきたもの……。
+> CONTEXT: Map287/events/1/pages/0/83/Dialogue
+> CONTEXT: Map287/events/1/pages/0/83/Dialogue
+\\name[\\v[2]]\\_
+Ugh\\H This is what you've saved up...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ああ……久方ぶりの……、
-エモノ……\\H
-> CONTEXT: None < UNUSED
-
+……いいでしょう。満足いくものですね。
+> CONTEXT: Map287/events/1/pages/0/86/Dialogue
+> CONTEXT: Map287/events/1/pages/0/86/Dialogue
+\\name[\\v[2]]\\_
+...That's good. That's satisfactory.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-熱く滾る精……、
-捧げて頂きましょうか……\\H
-> CONTEXT: None < UNUSED
-
+……あなたに同行させてもらえませんか？
+あなたに付いていけば、この夢世界の知識を、
+もっと蓄えていくことができるでしょう。
+> CONTEXT: Map287/events/1/pages/0/89/Dialogue
+> CONTEXT: Map287/events/1/pages/0/89/Dialogue
+> CONTEXT: Map287/events/1/pages/1/1/Dialogue
+> CONTEXT: Map287/events/1/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+...Would you mind letting me accompany you?
+If I follow you, I'm sure I'll be able to gain 
+more knowledge about this dream world.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ああ…っ……\\H
-> CONTEXT: None < UNUSED
-
+ある女性の言うことを…‥？
+どうでもいいです。まずは知識を得ること優先です。
+> CONTEXT: Map287/events/1/pages/0/93/Dialogue
+> CONTEXT: Map287/events/1/pages/0/93/Dialogue
+> CONTEXT: Map287/events/1/pages/1/5/Dialogue
+> CONTEXT: Map287/events/1/pages/1/5/Dialogue
+\\name[\\v[2]]\\_
+This woman...?
+I don't care. Gaining knowledge is my first priority.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-とても…………、\\|
-あたた……\\|か……\\|…った………\\|\\H
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-"話す宝箱"
-> CONTEXT: Map287/events/5/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map287/events/5/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-
+さぁ、行きましょう。
+知識を取り込み、やがては……。
+> CONTEXT: Map287/events/1/pages/0/96/Dialogue
+> CONTEXT: Map287/events/1/pages/0/96/Dialogue
+> CONTEXT: Map287/events/1/pages/1/8/Dialogue
+> CONTEXT: Map287/events/1/pages/1/8/Dialogue
+\\name[\\v[2]]\\_
+Let's go.
+Let's take in the knowledge and eventually...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-急に後ろから話しかけるなんて
-非常識やと思わんか？　え？？
-> CONTEXT: Map287/events/5/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map287/events/5/pages/1/2/Dialogue < UNTRANSLATED
+契約成立ですね。よろしくお願いします。
+> CONTEXT: Map287/events/1/pages/0/100/Dialogue
+> CONTEXT: Map287/events/1/pages/0/100/Dialogue
+\\name[\\v[2]]\\_
+The contract has been finalized. Thank you very much.
+> END STRING
 
+> BEGIN STRING
+ファルファレルロと契約を交わした！\\|\\|
+> CONTEXT: Map287/events/1/pages/0/103/Dialogue
+> CONTEXT: Map287/events/1/pages/0/103/Dialogue
+> CONTEXT: Map287/events/1/pages/0/131/Dialogue
+> CONTEXT: Map287/events/1/pages/0/131/Dialogue
+> CONTEXT: Map287/events/1/pages/1/29/Dialogue
+> CONTEXT: Map287/events/1/pages/1/29/Dialogue
+Made a contract with Farfarello! \\|\\|
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス、
+ファルファレルロと契約しますか？
+> CONTEXT: Map287/events/1/pages/0/113/Dialogue
+> CONTEXT: Map287/events/1/pages/0/113/Dialogue
+> CONTEXT: Map287/events/1/pages/1/11/Dialogue
+> CONTEXT: Map287/events/1/pages/1/11/Dialogue
+Would you like to make a contract 
+with the unique succubus, Farfarello?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ちゃんと面と向かって話さんかい！
-> CONTEXT: Map287/events/5/pages/0/8/Dialogue < UNTRANSLATED
-> CONTEXT: Map287/events/5/pages/0/13/Dialogue < UNTRANSLATED
-> CONTEXT: Map287/events/5/pages/1/8/Dialogue < UNTRANSLATED
-> CONTEXT: Map287/events/5/pages/1/13/Dialogue < UNTRANSLATED
+よろしくお願いします。
+この夢世界、知識を収集するのがとても楽しみです。
+> CONTEXT: Map287/events/1/pages/0/117/Dialogue
+> CONTEXT: Map287/events/1/pages/0/117/Dialogue
+> CONTEXT: Map287/events/1/pages/1/15/Dialogue
+> CONTEXT: Map287/events/1/pages/1/15/Dialogue
+\\name[\\v[2]]\\_
+Thank you.
+I'm really looking forward to 
+gathering knowledge about this dream world.
+> END STRING
 
+> BEGIN STRING
+\\name[\\v[2]]\\
+契約数がたくさんですね。
+知識をまた付けてから来てください。
+> CONTEXT: Map287/events/1/pages/0/122/Dialogue
+> CONTEXT: Map287/events/1/pages/0/122/Dialogue
+> CONTEXT: Map287/events/1/pages/1/20/Dialogue
+> CONTEXT: Map287/events/1/pages/1/20/Dialogue
+\\name[\\v[2]]\\
+You have a lot of contracts.
+Please come back 
+after you have gained some more knowledge.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-なんや、お宝が欲しいんか？
-> CONTEXT: Map287/events/5/pages/0/17/Dialogue < UNTRANSLATED
+では……知識を集めに参りましょうか。
+> CONTEXT: Map287/events/1/pages/0/128/Dialogue
+> CONTEXT: Map287/events/1/pages/0/128/Dialogue
+> CONTEXT: Map287/events/1/pages/1/26/Dialogue
+> CONTEXT: Map287/events/1/pages/1/26/Dialogue
+\\name[\\v[2]]\\_
+Then... let's go gather some knowledge.
+> END STRING
 
+> BEGIN STRING
+ファルファレルロは妊娠しているようだ･･･。
+> CONTEXT: Map287/events/1/pages/0/144/Dialogue
+> CONTEXT: Map287/events/1/pages/0/144/Dialogue
+> CONTEXT: Map287/events/1/pages/1/42/Dialogue
+> CONTEXT: Map287/events/1/pages/1/42/Dialogue
+It appears that Farfarello is pregnant...
+> END STRING
+
+> BEGIN STRING
+ファルファレルロをホームに迎え入れた！
+> CONTEXT: Map287/events/1/pages/0/150/Dialogue
+> CONTEXT: Map287/events/1/pages/0/150/Dialogue
+> CONTEXT: Map287/events/1/pages/0/161/Dialogue
+> CONTEXT: Map287/events/1/pages/0/161/Dialogue
+> CONTEXT: Map287/events/1/pages/1/59/Dialogue
+> CONTEXT: Map287/events/1/pages/1/59/Dialogue
+Welcomed Farfarello to Home!
+> END STRING
+
+> BEGIN STRING
+ファルファレルロがパーティに加わった！
+> CONTEXT: Map287/events/1/pages/0/157/Dialogue
+> CONTEXT: Map287/events/1/pages/0/157/Dialogue
+> CONTEXT: Map287/events/1/pages/1/55/Dialogue
+> CONTEXT: Map287/events/1/pages/1/55/Dialogue
+Farfarello has joined the party!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-持ってけドロボー！
-> CONTEXT: Map287/events/5/pages/0/19/Dialogue < UNTRANSLATED
-
+……そうですか。残念です。
+> CONTEXT: Map287/events/1/pages/0/177/Dialogue
+> CONTEXT: Map287/events/1/pages/0/177/Dialogue
+> CONTEXT: Map287/events/1/pages/1/73/Dialogue
+> CONTEXT: Map287/events/1/pages/1/73/Dialogue
+\\name[\\v[2]]\\_
+...I see. That's unfortunate.
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[2]]\\_
-空っぽや。見たらわかるやろがい！
-> CONTEXT: Map287/events/5/pages/1/17/Dialogue < UNTRANSLATED
-
+リビコッコをホームに迎え入れた！
+> CONTEXT: Map287/events/1/pages/1/48/Dialogue
+> CONTEXT: Map287/events/1/pages/1/48/Dialogue
+> CONTEXT: Map285/events/1/pages/0/151/Dialogue
+> CONTEXT: Map285/events/1/pages/0/151/Dialogue
+> CONTEXT: Map285/events/1/pages/0/162/Dialogue
+> CONTEXT: Map285/events/1/pages/0/162/Dialogue
+> CONTEXT: Map285/events/1/pages/1/44/Dialogue
+> CONTEXT: Map285/events/1/pages/1/44/Dialogue
+> CONTEXT: Map285/events/1/pages/1/55/Dialogue
+> CONTEXT: Map285/events/1/pages/1/55/Dialogue
+Welcomed Libicocco to Home!
 > END STRING

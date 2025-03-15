@@ -297,15 +297,21 @@ Slave/紫/Ideal form
 > END STRING
 
 > BEGIN STRING
-■■スリーピィ種
-> CONTEXT: None < UNUSED
-■■Sleepy種
+■■ナイトメア種
+> CONTEXT: Classes/68/name/
+■■Nightmare種
 > END STRING
 
 > BEGIN STRING
 スリーピィ/黒
 > CONTEXT: Classes/69/name/
 Sleepy/黒
+> END STRING
+
+> BEGIN STRING
+メア/黄
+> CONTEXT: Classes/70/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -564,6 +570,12 @@ Alraune/黒
 マンイーター/青
 > CONTEXT: Classes/129/name/
 Maneater/青
+> END STRING
+
+> BEGIN STRING
+ドライアド/緑
+> CONTEXT: Classes/131/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -912,6 +924,24 @@ Siren/桃
 グラキエース/桃
 > CONTEXT: Classes/196/name/
 Grakiace/桃
+> END STRING
+
+> BEGIN STRING
+ミカエル/闇
+> CONTEXT: Classes/197/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ラファエル/闇
+> CONTEXT: Classes/198/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ガブリエル/闇
+> CONTEXT: Classes/199/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -1539,6 +1569,36 @@ Unique Succubus/Overmind
 
 > BEGIN STRING
 ■夢魔追加枠
+> CONTEXT: Classes/314/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークヴァンプ/紫
+> CONTEXT: Classes/315/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークヴァンパイア/紫
+> CONTEXT: Classes/316/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アエシュマ/赤
+> CONTEXT: Classes/317/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ナイトシーカー/紫
+> CONTEXT: Classes/318/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ナイトストーカー/紫
 > CONTEXT: Classes/319/name/ < UNTRANSLATED
 
 > END STRING
@@ -1928,10 +1988,8 @@ Unique Succubus/Berna
 > END STRING
 
 > BEGIN STRING
-【予約】
+ユニークサキュバス/クグツメ
 > CONTEXT: Classes/399/name/ < UNTRANSLATED
-> CONTEXT: Enemies/1106/name/ < UNTRANSLATED
-> CONTEXT: Enemies/1107/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -1987,6 +2045,12 @@ Unique Machina/New Omega
 ユニークサキュバス/ジャヒー
 > CONTEXT: Classes/408/name/
 Unique Succubus/Jahi
+> END STRING
+
+> BEGIN STRING
+翼/暗黒の翼
+> CONTEXT: Classes/409/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -2046,7 +2110,25 @@ Unique Succubus/Acolyte
 
 > BEGIN STRING
 ■追加夢魔枠
-> CONTEXT: Classes/425/name/ < UNTRANSLATED
+> CONTEXT: Classes/421/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スロウス/紫
+> CONTEXT: Classes/422/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ロフォフォア/紫
+> CONTEXT: Classes/423/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アスモデウス/赤
+> CONTEXT: Classes/424/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -2150,6 +2232,48 @@ Dia Golem/青
 ミルケンティア/白
 > CONTEXT: Classes/442/name/
 Milkencia/白
+> END STRING
+
+> BEGIN STRING
+シルフ/緑
+> CONTEXT: Classes/443/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ツキヨダケ/白
+> CONTEXT: Classes/444/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マモン/黒
+> CONTEXT: Classes/445/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トリニティ/白
+> CONTEXT: Classes/446/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トリニティ/黄
+> CONTEXT: Classes/447/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トリニティ/青
+> CONTEXT: Classes/448/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トリニティ/緋
+> CONTEXT: Classes/449/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -2298,9 +2422,9 @@ Unique Succubus/Zenko
 > END STRING
 
 > BEGIN STRING
-ユニークサキュバス/サーベラス
-> CONTEXT: None < UNUSED
-Unique Succubus/Cerberus
+ユニークサキュバス/イヅナ
+> CONTEXT: Classes/521/name/
+Unique Succubus/Izuna
 > END STRING
 
 > BEGIN STRING
@@ -2371,19 +2495,7 @@ Unique Succubus/Giudecca
 > END STRING
 
 > BEGIN STRING
-■■ナイトメア種
-> CONTEXT: Classes/68/name/
-■■Nightmare種
-> END STRING
-
-> BEGIN STRING
-ユニークサキュバス/イヅナ
-> CONTEXT: Classes/521/name/
-Unique Succubus/Izuna
-> END STRING
-
-> BEGIN STRING
-メア/黄
-> CONTEXT: Classes/70/name/ < UNTRANSLATED
+スクーグスロー/赤
+> CONTEXT: Classes/550/name/ < UNTRANSLATED
 
 > END STRING

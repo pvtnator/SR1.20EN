@@ -1,208 +1,45 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 \\name[\\v[2]]\\_
-自警団募集か。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Recruiting vigilantes?
+やあ、少年
+こんな辺鄙な地に何のようだい？
+> CONTEXT: Map152/events/3/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map152/events/3/pages/0/1/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-最近は魔物の動きが活発になっているらしい。
-ここしばらくナリを潜めていた「魔王」が復活したって\\_
-噂もあるぐらいだ。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-It seems that monsters have been becoming more active lately.\\n\\_
-There are rumors that the Demon King
-who has been hiding for a while has returned.
+なるほど…苦労しているんだな
+この奥には貴重なものがある
+役に立ちそうならぜひ持って行ってくれ
+> CONTEXT: Map152/events/3/pages/0/6/Dialogue < UNTRANSLATED
+> CONTEXT: Map152/events/3/pages/0/6/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-しかも今はこの町の守護者であられるラーミル様の\\_
-お力も頼れない状況だ。
-自警団も焦っているんだろう。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-What's more, right now we can't rely on Ramil,
-the protector of this town.
-The vigilante group is worried too.
+……もちろんタダではあげられないがな
+対価として君を貰うとしようか
+> CONTEXT: Map152/events/3/pages/0/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map152/events/3/pages/0/11/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-おや、これはこれはラーミル様のお弟子様。
-僕も先ほどレンディカへ着いたばかりなんですよ。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Oh, so you are Ramil's disciple.
-I just arrived at Rendica.
+ふふっ、こんにちは
+> CONTEXT: Map152/events/4/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map152/events/4/pages/0/1/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ラーミル様のご容態は如何でしょうか？
-数日前からずっと眠っているとお聞きしております。
-原因も未だに分かっていないそうですし･･･。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-How is Ramil's condition?
-I heard that she's been sleeping for the past few days.
-It seems that the cause is still unknown...
-> END STRING
+せっかくこんなところまで来てくれたんだし
+楽しんでいってよ
+> CONTEXT: Map152/events/4/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map152/events/4/pages/0/3/Dialogue < UNTRANSLATED
 
-> BEGIN STRING
-\\name[\\v[2]]\\_
-今度僕も様子を見に行ってもいいでしょうか？
-僕にも何かできることがあるかもしれませんので。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-May I go check on her next time?
-Maybe there's something I can do.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-確かラーミル様の家へは\\c[12]レンディカを\\_
-北へ抜ける\\c[0]んでしたよね。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-If I remember correctly, I went north through
-Rendica\\c[12]\\c[0] to get to Ramil's house.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-お、\\v[3]か。町に降りてきてたんだな。
-今日は買い物か？
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Oh, \\v[3] huh? I see you're in town.
-Are you shopping today?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-俺は酒場は夜まで仕事がねーし寝てたんだが、
-マスターに道具屋の方の店番頼まれてこの通りだ。
-ったく、マスターも人使いが荒いぜ･･･。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-I didn't have to work until night at the bar, so I slept in, 
-but my boss asked me to look after the tool shop, so that's what I did.\\n\\_
-After all, boss is also rough with people...
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-魔女サマはまだ起きる様子ねーのか？
-お前も大変だな。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Is the witch not waking up yet?
-It must be tough for you.
-> END STRING
-
-> BEGIN STRING
-"金髪の冒険者"
-> CONTEXT: None < UNUSED
-"Blonde Adventurer"
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-平和なのは良いことなんだが、平和すぎて刺激が\\_
-ねえんだよなぁ･･･。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-It's good to have peace, but it's too peaceful
-so there's no excitment...
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ここだけの話、エッチなお店なんかは完全に\\_
-摘発されちまうんだろ？
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Just between us, a naughty shop will be revealed, right?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-魔女サマは潔癖すぎるんだよなぁ。
-あ～～んなやらしい体つきしてんのによぉ？
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Witch lady is so innocent.
-Aaahh, she has such a lewd figure, doesn't she?
-> END STRING
-
-> BEGIN STRING
-"橙髪の冒険者"
-> CONTEXT: None < UNUSED
-"Ginger adventurer"
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-おい！
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Hey!
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ったく、ここの住民でないうちの相棒ですらこんな様だ。
-やってらんねえよなぁ？
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Heck, even my partner who isn't a resident here is like this.
-You couldn't make it happen, could you?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-色んな所を旅してきたけど、この町は他の町に比べても\\_
-平和で治安も良い。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-I've traveled to many places, but this town is 
-more peaceful and safe than other towns.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-この町の守護者である魔女様が悪事やら揉め事やらを
-一瞬で解決してしまうんだ。とんでもないお方だよ。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-The witch, who is the guardian of this town, 
-resolves any evil deeds or disputes in an instant.\\n\\_
-She's an incredible person.
-> END STRING
-
-> BEGIN STRING
-鍵がかかっている。
-今は休憩時間のようで、人の気配は無い。
-> CONTEXT: None < UNUSED
-It's locked.
-It seems like they're on a break. There's no sign of anyone.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-にゃ～お
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Meow~
-> END STRING
-
-> BEGIN STRING
-"決定キーを押しながら移動でダッシュ"
-> CONTEXT: None < UNUSED
-"Dash by holding down the confirm button and moving"
 > END STRING

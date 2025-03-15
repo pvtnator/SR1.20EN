@@ -1,17 +1,9 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 \\name[\\v[2]]\\_
-よう姉ちゃん。宝箱厳選の道具は見ていかないかい？
-良いもんあったらアイテム交換でやるよ。
-> CONTEXT: Map406/events/5/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map406/events/5/pages/0/8/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
 よう兄ちゃん。宝箱厳選の道具は見ていかないかい？
 良いもんあったらアイテム交換でやるよ。
+> CONTEXT: Map406/events/5/pages/0/13/Dialogue
 > CONTEXT: Map406/events/5/pages/0/13/Dialogue
 \\name[\\v[2]]\\_
 Yo man. Would you like to take a look at the 
@@ -25,8 +17,18 @@ If you find something good, I'll exchange for it.
 密教会の方かどうかは分からないですけど、
 何かご入用であればお買い求めください。
 > CONTEXT: Map406/events/6/pages/0/1/Dialogue
+> CONTEXT: Map406/events/6/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
 I feel like I haven't seen any outsiders in a while. 
 Even if you're not a member of the Secret Church, 
 if you need something, feel free to buy it.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+よう姉ちゃん。宝箱厳選の道具は見ていかないかい？
+良いもんあったらアイテム交換でやるよ。
+> CONTEXT: Map406/events/5/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map406/events/5/pages/0/8/Dialogue < UNTRANSLATED
+
 > END STRING

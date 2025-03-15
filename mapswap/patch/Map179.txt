@@ -1,310 +1,805 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-"召使い"
-> CONTEXT: None < UNUSED
-"Servant"
+攻略中のデータがあります。
+攻略中データを消去して、挑戦しますか？
+> CONTEXT: Map179/events/4/pages/0/5/Dialogue
+> CONTEXT: Map179/events/4/pages/0/5/Dialogue
+> CONTEXT: Map179/events/4/pages/1/5/Dialogue
+> CONTEXT: Map179/events/4/pages/1/5/Dialogue
+There is in-progress data.
+Would you like to delete the in-progress data and try again?
+> END STRING
+
+> BEGIN STRING
+データを消して挑戦する
+> CONTEXT: Map179/events/4/pages/0/7/Choice/0
+> CONTEXT: Map179/events/4/pages/0/7/Choice/0
+> CONTEXT: Map179/events/4/pages/0/7/Choice/0
+> CONTEXT: Map179/events/4/pages/0/7/Choice/0
+> CONTEXT: Map179/events/4/pages/1/7/Choice/0
+> CONTEXT: Map179/events/4/pages/1/7/Choice/0
+> CONTEXT: Map179/events/4/pages/1/7/Choice/0
+> CONTEXT: Map179/events/4/pages/1/7/Choice/0
+Delete the data and try again
+> END STRING
+
+> BEGIN STRING
+201階から挑戦する(30000Lps.)
+> CONTEXT: Map179/events/4/pages/0/41/Choice/0
+> CONTEXT: Map179/events/4/pages/0/41/Choice/0
+> CONTEXT: Map179/events/4/pages/0/41/Choice/0
+> CONTEXT: Map179/events/4/pages/0/41/Choice/0
+> CONTEXT: Map179/events/4/pages/1/37/Choice/0
+> CONTEXT: Map179/events/4/pages/1/37/Choice/0
+> CONTEXT: Map179/events/4/pages/1/37/Choice/0
+> CONTEXT: Map179/events/4/pages/1/37/Choice/0
+Challenge from 201st floor (30000Lps.)
+> END STRING
+
+> BEGIN STRING
+101階から挑戦する(20000Lps.)
+> CONTEXT: Map179/events/4/pages/0/41/Choice/1
+> CONTEXT: Map179/events/4/pages/0/41/Choice/1
+> CONTEXT: Map179/events/4/pages/0/41/Choice/1
+> CONTEXT: Map179/events/4/pages/0/41/Choice/1
+> CONTEXT: Map179/events/4/pages/0/72/Choice/0
+> CONTEXT: Map179/events/4/pages/0/72/Choice/0
+> CONTEXT: Map179/events/4/pages/0/72/Choice/0
+> CONTEXT: Map179/events/4/pages/0/72/Choice/0
+> CONTEXT: Map179/events/4/pages/1/37/Choice/1
+> CONTEXT: Map179/events/4/pages/1/37/Choice/1
+> CONTEXT: Map179/events/4/pages/1/37/Choice/1
+> CONTEXT: Map179/events/4/pages/1/37/Choice/1
+> CONTEXT: Map179/events/4/pages/1/68/Choice/0
+> CONTEXT: Map179/events/4/pages/1/68/Choice/0
+> CONTEXT: Map179/events/4/pages/1/68/Choice/0
+> CONTEXT: Map179/events/4/pages/1/68/Choice/0
+Challenge from 101st floor (20000Lps.)
+> END STRING
+
+> BEGIN STRING
+31階から挑戦する(8000Lps.)
+> CONTEXT: Map179/events/4/pages/0/41/Choice/2
+> CONTEXT: Map179/events/4/pages/0/41/Choice/2
+> CONTEXT: Map179/events/4/pages/0/41/Choice/2
+> CONTEXT: Map179/events/4/pages/0/41/Choice/2
+> CONTEXT: Map179/events/4/pages/0/72/Choice/1
+> CONTEXT: Map179/events/4/pages/0/72/Choice/1
+> CONTEXT: Map179/events/4/pages/0/72/Choice/1
+> CONTEXT: Map179/events/4/pages/0/72/Choice/1
+> CONTEXT: Map179/events/4/pages/0/96/Choice/0
+> CONTEXT: Map179/events/4/pages/0/96/Choice/0
+> CONTEXT: Map179/events/4/pages/0/96/Choice/0
+> CONTEXT: Map179/events/4/pages/0/96/Choice/0
+> CONTEXT: Map179/events/4/pages/1/37/Choice/2
+> CONTEXT: Map179/events/4/pages/1/37/Choice/2
+> CONTEXT: Map179/events/4/pages/1/37/Choice/2
+> CONTEXT: Map179/events/4/pages/1/37/Choice/2
+> CONTEXT: Map179/events/4/pages/1/68/Choice/1
+> CONTEXT: Map179/events/4/pages/1/68/Choice/1
+> CONTEXT: Map179/events/4/pages/1/68/Choice/1
+> CONTEXT: Map179/events/4/pages/1/68/Choice/1
+> CONTEXT: Map179/events/4/pages/1/92/Choice/0
+> CONTEXT: Map179/events/4/pages/1/92/Choice/0
+> CONTEXT: Map179/events/4/pages/1/92/Choice/0
+> CONTEXT: Map179/events/4/pages/1/92/Choice/0
+Challenge from the 31st floor (8000Lps.)
+> END STRING
+
+> BEGIN STRING
+通常コースに挑戦する
+> CONTEXT: Map179/events/4/pages/0/115/Choice/0
+> CONTEXT: Map179/events/4/pages/0/115/Choice/0
+> CONTEXT: Map179/events/4/pages/0/115/Choice/0
+> CONTEXT: Map179/events/4/pages/0/115/Choice/0
+> CONTEXT: Map179/events/4/pages/1/111/Choice/0
+> CONTEXT: Map179/events/4/pages/1/111/Choice/0
+> CONTEXT: Map179/events/4/pages/1/111/Choice/0
+> CONTEXT: Map179/events/4/pages/1/111/Choice/0
+Try the normal course
+> END STRING
+
+> BEGIN STRING
+所持Lps.が足りません！
+> CONTEXT: Map179/events/4/pages/0/133/Dialogue
+> CONTEXT: Map179/events/4/pages/0/133/Dialogue
+> CONTEXT: Map179/events/4/pages/1/129/Dialogue
+> CONTEXT: Map179/events/4/pages/1/129/Dialogue
+You don't have enough Lps!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-この先は開放されておりません。
-お引き取りください。
-> CONTEXT: None < UNUSED
+試合は勝ち抜き戦で、
+シングルモードは３試合の勝ち抜き、
+タッグモードは予選１試合と決勝の２試合です
+> CONTEXT: Map179/events/5/pages/0/8/Dialogue
+> CONTEXT: Map179/events/5/pages/0/8/Dialogue
+> CONTEXT: Map179/events/5/pages/1/7/Dialogue
+> CONTEXT: Map179/events/5/pages/1/7/Dialogue
 \\name[\\v[2]]\\_
-This area is not open to the public.
-Please turn back.
+The matches are elimination matches,
+in single mode there are 3 matches, and in tag mode 
+there is 1 qualifying match and 2 final matches.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-この先はシルフェお嬢様の寝室となっております。
-> CONTEXT: None < UNUSED
+敗退された場合、遊技場と同じく
+医務室にて介抱致します。
+> CONTEXT: Map179/events/5/pages/0/14/Dialogue
+> CONTEXT: Map179/events/5/pages/0/14/Dialogue
+> CONTEXT: Map179/events/5/pages/1/17/Dialogue
+> CONTEXT: Map179/events/5/pages/1/17/Dialogue
 \\name[\\v[2]]\\_
-Beyond this is Lady Silfe's bedroom.
+If you are defeated, 
+you will be taken care of in the medical room.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-シルフェお嬢様からは、\\n\\n[101]様のみお通しするようにと\\_
-命じられております。\\nお連れの方がいるのでしたら、\\_
-ここをお通しすることはできません。
-> CONTEXT: None < UNUSED
+また、右側奥にて
+この度エクストラマッチが導入されました。
+タッグモードと同じく予選１試合と決勝の計２試合です。
+> CONTEXT: Map179/events/5/pages/1/11/Dialogue
+> CONTEXT: Map179/events/5/pages/1/11/Dialogue
 \\name[\\v[2]]\\_
-Lady Silfe asked me to send in only Mr. \\n[101]. 
-If you have someone with you, I cannot let you pass.
+Also, in the far right corner, an extra match has been introduced.
+Just like in tag mode, there will be 1 qualifying match 
+and 1 final match, for a total of 2 matches.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-くれぐれも粗相のないようにお願い致します。
-> CONTEXT: None < UNUSED
+おや、チャンピオン。
+お勤めご苦労様です。
+> CONTEXT: Map179/events/5/pages/2/1/Dialogue
+> CONTEXT: Map179/events/5/pages/2/1/Dialogue
 \\name[\\v[2]]\\_
-Please don't be careless.
+Hey, champion!
+Thank you for your hard work.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-お帰りなさいませ、シルフェお嬢様。
-> CONTEXT: None < UNUSED
+支配人の発案により
+セクシアムのタッグコース及びエクストラマッチに
+新しい催しが追加されました。
+> CONTEXT: Map179/events/5/pages/2/4/Dialogue
+> CONTEXT: Map179/events/5/pages/2/4/Dialogue
 \\name[\\v[2]]\\_
-Welcome back, Miss Silfe.
+At the manager's suggestion,
+new events have been added to 
+Sexium's tag course and extra match.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-この先では「スタッフロール」を鑑賞できます。
-シルフェお嬢様からお通しして良いとのことですので、\\_
-どうぞお通り下さい。
-> CONTEXT: None < UNUSED
+試合の内容はそのままですが
+メインイベントが歯応えのあるものになっております。
+> CONTEXT: Map179/events/5/pages/2/8/Dialogue
+> CONTEXT: Map179/events/5/pages/2/8/Dialogue
 \\name[\\v[2]]\\_
-From here you can watch the "credits".
-Lady Silfe has told me that I can serve you, so please come.
+The content of the match remains the same, 
+but the main event is more challenging.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ようこそ\\n[101]様。
-長い夢世界の旅は如何でしたでしょうか？
-> CONTEXT: None < UNUSED
+また、純粋に性闘を楽しんでいただくために
+挑戦時はアイテムの使用が制限されます。
+> CONTEXT: Map179/events/5/pages/2/11/Dialogue
+> CONTEXT: Map179/events/5/pages/2/11/Dialogue
 \\name[\\v[2]]\\_
-Welcome Mr. \\n[101].
-How was your long journey through the dream world?
+Also, to ensure that you can enjoy the sexual battle purely,
+the use of items will be restricted during the challenge.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-私はここで\\n[101]様の冒険譚を眺めていましたから、
-いきさつなどは存じあげておりますわ。
-･･･勿論、この冒険譚が満更でもなかったことも\\H
-> CONTEXT: None < UNUSED
+僭越ながら、チャレンジする際は
+いつも以上に万全の準備し挑むことをお勧めいたします。
+> CONTEXT: Map179/events/5/pages/2/14/Dialogue
+> CONTEXT: Map179/events/5/pages/2/14/Dialogue
 \\name[\\v[2]]\\_
-I've been here, watching Mr. \\n[101]'s adventure, 
-so I know how it all happened.
-...Of course, this adventure is not yet complete\\H
+I know I may be presumptuous, 
+but I would recommend that you be more thoroughly prepared 
+than usual when taking on this challenge.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-私は素晴らしい物語に感謝をしなければいけませんわ。
-> CONTEXT: None < UNUSED
+また、新しい催しでは
+見事勝ち切った際の副賞も
+追加されているとのことです。
+> CONTEXT: Map179/events/5/pages/2/17/Dialogue
+> CONTEXT: Map179/events/5/pages/2/17/Dialogue
 \\name[\\v[2]]\\_
-I have to thank you for this wonderful story.
+Also, the new event will include 
+additional prizes for winners.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-こちらを受け取ってくださいまし。
-> CONTEXT: None < UNUSED
+さらに、難度を高めたうえで
+チャンピオンが極限まで鍛えた状態ですと、
+特別ゲストが参戦するという噂もあります。
+> CONTEXT: Map179/events/5/pages/2/22/Dialogue
+> CONTEXT: Map179/events/5/pages/2/22/Dialogue
 \\name[\\v[2]]\\_
-Please accept this.
+Furthermore, if the difficulty is increased 
+and the champion is trained to the limit,
+a special guest will join the battle.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-お渡ししたものは、\\n[101]様の「結末」を導くものですわ。
-> CONTEXT: None < UNUSED
+敗退された場合、いつも通り
+医務室にて介抱致しますのでご安心を。
+> CONTEXT: Map179/events/5/pages/2/28/Dialogue
+> CONTEXT: Map179/events/5/pages/2/28/Dialogue
 \\name[\\v[2]]\\_
-What I have given you is something that will 
-lead to Mr. \\n[101]'s "ending."
+If you are defeated, rest assured that 
+you will be cared for in the medical room as usual.
+> END STRING
+
+> BEGIN STRING
+キャラクターの編成
+預ける：可
+連れて行く：可
+> CONTEXT: Map179/events/6/pages/0/6/Dialogue
+> CONTEXT: Map179/events/6/pages/0/6/Dialogue
+Character formation
+Deposit: Yes
+Take: Yes
+> END STRING
+
+> BEGIN STRING
+装備品：インキュバスの極意は不可
+アイテムの持ち込み：条件付き制限あり
+銀色の記憶：不可
+> CONTEXT: Map179/events/7/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map179/events/7/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+銀色の記憶が作用している間は入れません。
+> CONTEXT: Map179/events/11/pages/0/6/Dialogue
+> CONTEXT: Map179/events/11/pages/0/6/Dialogue
+> CONTEXT: Map179/events/11/pages/1/6/Dialogue
+> CONTEXT: Map179/events/11/pages/1/6/Dialogue
+> CONTEXT: Map179/events/12/pages/0/6/Dialogue
+> CONTEXT: Map179/events/12/pages/0/6/Dialogue
+> CONTEXT: Map179/events/12/pages/1/6/Dialogue
+> CONTEXT: Map179/events/12/pages/1/6/Dialogue
+You cannot enter while the Silver Memory is active.
+> END STRING
+
+> BEGIN STRING
+インキュバスの極意の使用は禁止されています。
+装備を外しての挑戦をお待ちしております。
+> CONTEXT: Map179/events/11/pages/0/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map179/events/11/pages/0/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map179/events/11/pages/1/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map179/events/11/pages/1/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map179/events/11/pages/1/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map179/events/11/pages/1/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map179/events/12/pages/0/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map179/events/12/pages/0/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map179/events/12/pages/1/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map179/events/12/pages/1/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セクシアム
+エクストラマッチに挑戦しますか？
+> CONTEXT: Map179/events/11/pages/0/18/Dialogue
+> CONTEXT: Map179/events/11/pages/0/18/Dialogue
+> CONTEXT: Map179/events/11/pages/1/18/Dialogue
+> CONTEXT: Map179/events/11/pages/1/18/Dialogue
+Sexium 
+Would you like to try an extra match?
+> END STRING
+
+> BEGIN STRING
+強くてセクシアム
+> CONTEXT: Map179/events/11/pages/1/21/Choice/2
+> CONTEXT: Map179/events/11/pages/1/21/Choice/2
+> CONTEXT: Map179/events/11/pages/1/21/Choice/2
+> CONTEXT: Map179/events/11/pages/1/21/Choice/2
+> CONTEXT: Map179/events/12/pages/1/21/Choice/2
+> CONTEXT: Map179/events/12/pages/1/21/Choice/2
+> CONTEXT: Map179/events/12/pages/1/21/Choice/2
+> CONTEXT: Map179/events/12/pages/1/21/Choice/2
+Strong and Sexy
+> END STRING
+
+> BEGIN STRING
+この挑戦は男主人公専用です。
+主人公を男にしてから来てください。
+> CONTEXT: Map179/events/14/pages/1/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map179/events/14/pages/1/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map179/events/14/pages/1/8/Dialogue < UNTRANSLATED
+> CONTEXT: Map179/events/14/pages/1/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+……？
+> CONTEXT: Map179/events/15/pages/0/0/Dialogue
+> CONTEXT: Map179/events/15/pages/0/0/Dialogue
+...?
+> END STRING
+
+> BEGIN STRING
+……？
+床に何か書かれているようだ。
+> CONTEXT: Map179/events/15/pages/1/0/Dialogue
+> CONTEXT: Map179/events/15/pages/1/0/Dialogue
+> CONTEXT: Map179/events/15/pages/2/0/Dialogue
+> CONTEXT: Map179/events/15/pages/2/0/Dialogue
+...?
+It looks like something is written on the floor.
+> END STRING
+
+> BEGIN STRING
+『クスクス、楽しそうな催しじゃない。
+　私も参加出来ないかしら……』
+> CONTEXT: Map179/events/15/pages/1/2/Dialogue
+> CONTEXT: Map179/events/15/pages/1/2/Dialogue
+> CONTEXT: Map179/events/15/pages/2/2/Dialogue
+> CONTEXT: Map179/events/15/pages/2/2/Dialogue
+『Hehe, this sounds like a fun event. 
+I wonder if I can join in too...』
+> END STRING
+
+> BEGIN STRING
+『ふふ、お困りのようですね。
+　私でよければ手伝いますよ？』
+> CONTEXT: Map179/events/15/pages/2/4/Dialogue
+> CONTEXT: Map179/events/15/pages/2/4/Dialogue
+『Fufu, it seems like you're in trouble.
+If you don't mind, I can help you.』
+> END STRING
+
+> BEGIN STRING
+攻略中のデータがあります。
+途中から再開しますか？
+> CONTEXT: Map179/events/16/pages/1/4/Dialogue
+> CONTEXT: Map179/events/16/pages/1/4/Dialogue
+There is in-progress data.
+Would you like to resume from where you left off?
+> END STRING
+
+> BEGIN STRING
+途中から挑戦する
+> CONTEXT: Map179/events/16/pages/1/6/Choice/0
+> CONTEXT: Map179/events/16/pages/1/6/Choice/0
+> CONTEXT: Map179/events/16/pages/1/6/Choice/0
+> CONTEXT: Map179/events/16/pages/1/6/Choice/0
+Challenge from halfway through
+> END STRING
+
+> BEGIN STRING
+現在200階以上は挑戦出来ません！
+> CONTEXT: Map179/events/16/pages/1/13/Dialogue
+> CONTEXT: Map179/events/16/pages/1/13/Dialogue
+Currently, you cannot challenge floors above 200!
+> END STRING
+
+> BEGIN STRING
+新企画進行中！
+今度は強者達による競演！？
+続報を待て！
+　　　　　　　　　　　　　　　　夢魔の遊技場　広報部
+> CONTEXT: Map179/events/17/pages/0/0/Dialogue
+> CONTEXT: Map179/events/17/pages/0/0/Dialogue
+A new project is underway!
+This time, it'll be a competition between the best!?
+Stay tuned for more updates!
+                Succubus Playground Public Relations Department
+> END STRING
+
+> BEGIN STRING
+【セクシアム：エクストラマッチ】
+推奨レベル：90以上
+仲間の連れ込み：不可
+> CONTEXT: Map179/events/17/pages/1/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map179/events/17/pages/1/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+装備品：インキュバスの極意不可
+銀色の記憶：使用不可
+アイテムの持ち込み：条件付き制限あり
+> CONTEXT: Map179/events/17/pages/1/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map179/events/17/pages/1/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ただいま清掃中です。
+遊技場でお楽しみくださいませ。
+> CONTEXT: Map179/events/18/pages/0/0/Dialogue
+> CONTEXT: Map179/events/18/pages/0/0/Dialogue
+> CONTEXT: Map179/events/21/pages/0/0/Dialogue
+> CONTEXT: Map179/events/21/pages/0/0/Dialogue
+> CONTEXT: Map179/events/22/pages/0/0/Dialogue
+> CONTEXT: Map179/events/22/pages/0/0/Dialogue
+> CONTEXT: Map179/events/23/pages/0/0/Dialogue
+> CONTEXT: Map179/events/23/pages/0/0/Dialogue
+We are currently cleaning. 
+Please enjoy yourself at the playground.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-それを差し上げるのは、ここまでいらっしゃったことへの\\_
-お礼と･･･。
-> CONTEXT: None < UNUSED
+お、きよったな\\n[101]はん！
+ティアヴァールはんに言われて交換屋の手伝いに来たで！
+> CONTEXT: Map179/events/19/pages/0/1/Dialogue
+> CONTEXT: Map179/events/19/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
-I'm giving you this as thanks for coming this far...
+Oh, welcome \\n[101]!
+Tearvoir asked me to come help out at the exchange shop!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-素晴らしい物語をより楽しむための、
-私からのほんの少しの野暮と意地悪ですわ\\H
-> CONTEXT: None < UNUSED
+ここはな、セクシアムメダルとの交換になっとるで！
+珍しいもんが揃っとるからぜひ見ていってな！
+> CONTEXT: Map179/events/19/pages/0/4/Dialogue
+> CONTEXT: Map179/events/19/pages/0/4/Dialogue
 \\name[\\v[2]]\\_
-It's just a little bit of naughtiness and meanness from me 
-to help you enjoy a wonderful story even more\\H
+Here, you can exchange for Sexium Medals!
+There's a lot of rare stuff, 
+so be sure to come and take a look!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ごきげんよう、\\n[101]様。
-今日はどのようなご用ですこと？
-> CONTEXT: None < UNUSED
+・・・とその前にまずはお近づきの印に、や。
+> CONTEXT: Map179/events/19/pages/0/7/Dialogue
+> CONTEXT: Map179/events/19/pages/0/7/Dialogue
 \\name[\\v[2]]\\_
-Good day, Mr. \\n[101].
-What kind of business do you have here today?
-> END STRING
-
-> BEGIN STRING
-会話する
-> CONTEXT: None < UNUSED
-Talk
-> END STRING
-
-> BEGIN STRING
-契約を持ちかける
-> CONTEXT: None < UNUSED
-Offer a contract
+...But before that, we wish to make acquintance.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-くす、私との契約がご希望ですのね。
-> CONTEXT: None < UNUSED
+うちの秘蔵コレクションも並べるつもりや！
+ぜひ見に来てやー！
+> CONTEXT: Map179/events/19/pages/0/13/Dialogue
+> CONTEXT: Map179/events/19/pages/0/13/Dialogue
 \\name[\\v[2]]\\_
-Hih, you want to make a contract with me?
+I'm also planning to display my treasured collection!
+Come and see!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-私、あまりそういったものには乗り気ではありませんが･･･。
-> CONTEXT: None < UNUSED
+お、\\n[101]はん、
+セクシアムメダルの交換でもしていくかー？
+> CONTEXT: Map179/events/19/pages/1/1/Dialogue
+> CONTEXT: Map179/events/19/pages/1/1/Dialogue
+> CONTEXT: Map179/events/19/pages/2/1/Dialogue
+> CONTEXT: Map179/events/19/pages/2/1/Dialogue
 \\name[\\v[2]]\\_
-I'm not very keen on things like that...
+Oh, \\n[101],
+Want to exchange Sexium medals?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-\\n[101]様の夢世界の物語はとても見応えがあって、
-大層私の胸を高鳴らせて下さること。
-こんな所から見るだけではあまりに勿体無いですわね。
-> CONTEXT: None < UNUSED
+アンジュセレクトのことは\\n[101]はんとこにおる
+アンジュ先生が詳しく教えてくれるはずや。
+気になるなら行ってみたらええで！
+> CONTEXT: Map179/events/19/pages/1/13/Dialogue
+> CONTEXT: Map179/events/19/pages/1/13/Dialogue
+> CONTEXT: Map179/events/19/pages/2/13/Dialogue
+> CONTEXT: Map179/events/19/pages/2/13/Dialogue
 \\name[\\v[2]]\\_
-But Mr. \\n[101]'s story of the dream world is very worth seeing 
-and makes my heart beat faster.
-It's a waste to just look at it from here.
+If you want to know more about Ange Select, 
+Ange-sensei should be able to tell you more about it.
+If you're interested, why not go and check it out!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-･･･しかし、その前にそんな\\n[101]様の味を、
-一度味わってみたいものですわ\\H
-> CONTEXT: None < UNUSED
+王者のベルトもシルフェはんあたりが知っとるかもな。
+あのご令嬢、色々詳しそうやし。
+> CONTEXT: Map179/events/19/pages/1/17/Dialogue
+> CONTEXT: Map179/events/19/pages/1/17/Dialogue
+> CONTEXT: Map179/events/19/pages/2/17/Dialogue
+> CONTEXT: Map179/events/19/pages/2/17/Dialogue
 \\name[\\v[2]]\\_
-...But before that, 
-I would like to have a taste of Mr. \\n[101]\\H
+Maybe Silfe knows about the champion's belt.
+That young lady seems to know a lot about things.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-\\n[101]様、私の寝室へお越しくださいまし。
-２階の左の部屋を行った先にありますわ。
-召使いには私から言っておきますこと。
-> CONTEXT: None < UNUSED
+ほな、また来てなー！
+> CONTEXT: Map179/events/19/pages/1/24/Dialogue
+> CONTEXT: Map179/events/19/pages/1/24/Dialogue
+> CONTEXT: Map179/events/19/pages/2/24/Dialogue
+> CONTEXT: Map179/events/19/pages/2/24/Dialogue
 \\name[\\v[2]]\\_
-Mr. \\n[101], please come to my bedroom.
-It's the room on the left on the second floor.
-I will tell my servants to let you through.
+Well, come again!
+> END STRING
+
+> BEGIN STRING
+"後輩面のラウンドガール"
+> CONTEXT: Map179/events/20/pages/0/0/InlineScript/1:22
+> CONTEXT: Map179/events/20/pages/0/0/InlineScript/1:22
+> CONTEXT: Map179/events/20/pages/1/0/InlineScript/1:22
+> CONTEXT: Map179/events/20/pages/1/0/InlineScript/1:22
+> CONTEXT: Map179/events/20/pages/2/0/InlineScript/1:22
+> CONTEXT: Map179/events/20/pages/2/0/InlineScript/1:22
+> CONTEXT: Map179/events/20/pages/3/0/InlineScript/1:22
+> CONTEXT: Map179/events/20/pages/3/0/InlineScript/1:22
+"Round Girl with Junior Face"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-･･･くすくす。\\|
-ですが、来る時はお一人で、ですわ。
-> CONTEXT: None < UNUSED
+あ、\\n[101]センパイ！
+ティアヴァール様の命で交換屋をはじめました！
+> CONTEXT: Map179/events/20/pages/0/1/Dialogue
+> CONTEXT: Map179/events/20/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
-...Hihih.\\|
-However, when you come, come alone.
+Oh, \\n[101]-senpai!
+I started an exchange shop at Tearvoir's command!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-この夜伽ばかりは私が独占させて下さいまし\\H
-> CONTEXT: None < UNUSED
+ここではセクシアムコインを用いた交換が可能です。
+コインはセクシアム各コースを勝ち抜くことで
+手に入れることが出来ます。
+> CONTEXT: Map179/events/20/pages/0/4/Dialogue
+> CONTEXT: Map179/events/20/pages/0/4/Dialogue
 \\name[\\v[2]]\\_
-Please let me take the lead over this night\\H
+You can exchange here using Sexium Coins.
+Coins can be obtained by winning each Sexium course.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ですが私、あまりそういったものには乗り気ではありません\\_
-こと。
-> CONTEXT: None < UNUSED
+何回でも挑戦可能ですので
+ぜひとも奮ってご参加ください！
+> CONTEXT: Map179/events/20/pages/0/8/Dialogue
+> CONTEXT: Map179/events/20/pages/0/8/Dialogue
 \\name[\\v[2]]\\_
-However, I am not very keen on such things.
+You can try as many times as you like, 
+so please come along and join us!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-人々の織りなす物語の鑑賞こそが私の愛する娯楽。
-観客は観客らしく、客席から\\n[101]様のご活躍を
-楽しませて下さいまし。
-> CONTEXT: None < UNUSED
+・・・それと、
+これは一ファンとしてのプレゼントっす。
+> CONTEXT: Map179/events/20/pages/0/11/Dialogue
+> CONTEXT: Map179/events/20/pages/0/11/Dialogue
 \\name[\\v[2]]\\_
-My favorite pastime is watching stories woven by people.
-The audience should watch from the audience seats.
-Please let me have fun.
+...Also,
+this is a present from me as a fan.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-･･･とはいえ、折角ここまでいらっしゃって下さったのに、
-無碍にするのも忍びないですわね。
-> CONTEXT: None < UNUSED
+\\n[101]センパイ、
+これからも素晴らしい試合を楽しみにしています！
+> CONTEXT: Map179/events/20/pages/0/18/Dialogue
+> CONTEXT: Map179/events/20/pages/0/18/Dialogue
 \\name[\\v[2]]\\_
-...That said, you've come this far, 
-so I can't bear to leave you alone.
+\\n[101]-senpai,
+I look forward to seeing more great matches in the future!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-･･･でしたらそうですわ。もし\\n[101]様の夢世界での物語が
-大層私の胸を高鳴らせて下さるのなら･･･。
-> CONTEXT: None < UNUSED
+あ、\\n[101]センパイ、
+セクシアムコインの交換をご希望ですか？
+> CONTEXT: Map179/events/20/pages/1/1/Dialogue
+> CONTEXT: Map179/events/20/pages/1/1/Dialogue
 \\name[\\v[2]]\\_
-...In that case, yes. 
-If Mr. \\n[101]'s story in the dream world 
-makes my heart beat faster...
+Oh, \\n[101]-senpai,
+do you want to exchange Sexium Coins?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-「特等席」から鑑賞させて頂くつもりだということを、\\_
-お約束致しますわ\\H
-> CONTEXT: None < UNUSED
+それでは、行ってらっしゃいませ！
+> CONTEXT: Map179/events/20/pages/1/10/Dialogue
+> CONTEXT: Map179/events/20/pages/1/10/Dialogue
+> CONTEXT: Map179/events/20/pages/2/14/Dialogue
+> CONTEXT: Map179/events/20/pages/2/14/Dialogue
+> CONTEXT: Map179/events/20/pages/3/10/Dialogue
+> CONTEXT: Map179/events/20/pages/3/10/Dialogue
 \\name[\\v[2]]\\_
-I promise you that I will watch it from the "special seats"\\H
+Well then, have fun!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-\\n[101]様の物語の行く末を、楽しみにしていますわ\\H
-> CONTEXT: None < UNUSED
+あ、\\n[101]センパイ！
+ティアヴァール様が呼んでましたっす！
+> CONTEXT: Map179/events/20/pages/2/1/Dialogue
+> CONTEXT: Map179/events/20/pages/2/1/Dialogue
 \\name[\\v[2]]\\_
-I'm looking forward to seeing where \\n[101]'s story goes.\\H
-> END STRING
-
-> BEGIN STRING
-"バニーさん"
-> CONTEXT: Map179/events/2/pages/0/0/InlineScript/1:22
-> CONTEXT: Map179/events/6/pages/0/2/InlineScript/1:22
-"Bunny-san"
+Ah, \\n[101]-senpai!
+Tearvoir is calling you!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-次の階へは魔法陣をご利用ください！
-> CONTEXT: Map179/events/2/pages/0/1/Dialogue
+今ならオーナー室にいるはずです！
+> CONTEXT: Map179/events/20/pages/2/4/Dialogue
+> CONTEXT: Map179/events/20/pages/2/4/Dialogue
 \\name[\\v[2]]\\_
-Please use the magic circle to go to the next floor!
+She should be in the owner's room right now!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-えっ……ええ～～～\\H
-> CONTEXT: Map179/events/2/pages/0/5/Dialogue
+と、その前に交換していきますか？
+> CONTEXT: Map179/events/20/pages/2/6/Dialogue
+> CONTEXT: Map179/events/20/pages/2/6/Dialogue
 \\name[\\v[2]]\\_
-Eh... Eeeee~~~\\H
+Would you like to exchange before that?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-おめでとうございまーす！
-ボーナス部屋にようこそ！
-> CONTEXT: Map179/events/6/pages/0/3/Dialogue
+あ、\\n[101]センパイ！
+セクシアムコインの交換をご希望ですか？
+> CONTEXT: Map179/events/20/pages/3/1/Dialogue
+> CONTEXT: Map179/events/20/pages/3/1/Dialogue
 \\name[\\v[2]]\\_
-Congratulations! 
-Welcome to the bonus room!
+Oh, \\n[101]-senpai!
+Would you like to exchange some Sexium Coins?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+うむ、\\n[101]。
+お主も息災で何よりじゃ。
+・・・我がここに居るのが不思議かえ？
+> CONTEXT: Map179/events/28/pages/0/1/Dialogue
+> CONTEXT: Map179/events/28/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Well, \\n[101].
+I'm glad to hear that you're in good health.
+Is it strange that I'm here?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+実は前に試したゲームの拡張を考えておってな、
+なにか妙案がないかティアヴァ―ル嬢に相談したのじゃ。
+> CONTEXT: Map179/events/28/pages/0/5/Dialogue
+> CONTEXT: Map179/events/28/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+Actually, I was thinking about expanding a game I tried before,
+so I asked Miss Tearvoir if she had any ideas.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+・・・まあ、自由に勉強して構わないと言われたのじゃが
+さすがに対価もなしは甘え過ぎかと思い
+交換所の真似事を買って出たわけじゃ。
+> CONTEXT: Map179/events/28/pages/0/8/Dialogue
+> CONTEXT: Map179/events/28/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+...Well, I was told I could study freely,
+but I thought it would be too much to ask for no compensation,
+so I volunteered to act as an exchange office.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それに、近頃異世界から
+不思議なフルーツが流れてくるのでの、
+母君からもこれを景品にどうかと話もあったのじゃ。
+> CONTEXT: Map179/events/28/pages/0/12/Dialogue
+> CONTEXT: Map179/events/28/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+Also, since strange fruits have been coming 
+from another world recently,
+my mother also suggested that we use them as prizes.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お主のこれからの冒険にも大いに役に立つはずじゃ。
+コインの余裕が出来たら寄ってみるとよいぞ。
+> CONTEXT: Map179/events/28/pages/0/16/Dialogue
+> CONTEXT: Map179/events/28/pages/0/16/Dialogue
+\\name[\\v[2]]\\_
+It should be of great help to you in your future adventures.
+If you have some spare coins, you should stop by.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+くふ、こんにちはぁ\\n[101]さん。
+少し時間が出来たので
+アヴァリツィアの様子を見に来たんですよぉ。
+> CONTEXT: Map179/events/29/pages/0/2/Dialogue
+> CONTEXT: Map179/events/29/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+Kufu, hello \\n[101].
+I had some free time so I came to check on Avarizia.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そういえば知ってますかぁ？
+最近セクシアムに参加したいって娘が増えてましてぇ。
+> CONTEXT: Map179/events/29/pages/0/6/Dialogue
+> CONTEXT: Map179/events/29/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+By the way, did you know?
+Recently, more and more girls have been wanting to join Sexium.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なんでも支配人さんもお墨付きの実力者らしいです。
+それに\\n[101]さんのこともよく知っているとかぁ・・・。
+もしかして心当たりぃ、あったりします？
+> CONTEXT: Map179/events/29/pages/0/9/Dialogue
+> CONTEXT: Map179/events/29/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+Apparently, she's highly skilled with the manager's approval.
+And apparently she knows \\n[101] very well...
+Do you have any idea who that might be?
+> END STRING
+
+> BEGIN STRING
+知ってるかも（隠し枠追加）
+> CONTEXT: Map179/events/29/pages/0/13/Choice/0
+> CONTEXT: Map179/events/29/pages/0/13/Choice/0
+> CONTEXT: Map179/events/29/pages/0/13/Choice/0
+> CONTEXT: Map179/events/29/pages/0/13/Choice/0
+You might know (hidden frame added)
+> END STRING
+
+> BEGIN STRING
+うーん・・・（隠し枠なし）
+> CONTEXT: Map179/events/29/pages/0/13/Choice/1
+> CONTEXT: Map179/events/29/pages/0/13/Choice/1
+> CONTEXT: Map179/events/29/pages/0/13/Choice/1
+> CONTEXT: Map179/events/29/pages/0/13/Choice/1
+Hmm... (no hidden frame)
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+くふ、やはりそうでしたかぁ・・・。
+\\n[101]さんも隅に置けませんねぇ。
+今度私にも紹介してくださいよぉ・・・\\H
+> CONTEXT: Map179/events/29/pages/0/16/Dialogue
+> CONTEXT: Map179/events/29/pages/0/16/Dialogue
+\\name[\\v[2]]\\_
+Kufu, I thought so...
+\\n[101] can't be left in the corner either.
+Please introduce me to her next time...\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうですかぁ・・・。
+でぇすぅがぁ・・・\\|
+案外近くにいる方かもしれませんよぉ？
+> CONTEXT: Map179/events/29/pages/0/23/Dialogue
+> CONTEXT: Map179/events/29/pages/0/23/Dialogue
+\\name[\\v[2]]\\_
+I see...
+But...\\|
+Maybe she's actually someone close to you?
 > END STRING

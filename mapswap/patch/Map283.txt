@@ -1,92 +1,86 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-魔物「スライム」は、栄養を得ることで
-その体を伸張させる特性を持っている。
-> CONTEXT: None < UNUSED
-The "slime" monster has the ability to 
-expand its body by obtaining nutrients.
+サイヤクノリュウ　ココニフウジル
+> CONTEXT: Map283/events/2/pages/0/0/Dialogue
+> CONTEXT: Map283/events/2/pages/0/0/Dialogue
+Disastrous dragon here
 > END STRING
 
 > BEGIN STRING
-夢魔「スライム」も魔物のスライム同様に伸張する\\_
-特性を持っているが、
-彼女らは体型を保つために、余剰分を分離している。
-この時分離されたスライムは「ただの粘液」となってしまう。
-> CONTEXT: None < UNUSED
-"Slime" succubus also has the ability to expand like monster slime, 
-but they separate the excess to maintain their body shape.
-The slime separated at this time becomes "just mucus."
+\\name[\\v[2]]\\_
+進む者よ。
+汝は探し人に会ったか？
+> CONTEXT: Map283/events/3/pages/0/3/Dialogue
+> CONTEXT: Map283/events/3/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+O adventurer, 
+have you found the one you are looking for?
 > END STRING
 
 > BEGIN STRING
-つまり、スライムを飼育することで「粘液」を無限に製造\\_
-できるのだ。
-製造された粘液は潤滑油として利用されたり、
-食用に転用できないか試みられたりされている。
-> CONTEXT: None < UNUSED
-In other words, by breeding slimes, you can produce an unlimited 
-amount of "mucus." The produced mucus is used as a lubricant, 
-and attempts are being made to see if it can be used as food.
+\\name[\\v[2]]\\_
+……探し出す力を認める。
+> CONTEXT: Map283/events/3/pages/0/7/Dialogue
+> CONTEXT: Map283/events/3/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+...The power to find is within you.
 > END STRING
 
 > BEGIN STRING
-だったら、金を持つスライムは、金を無限に製造できる\\_
-のではないか？
-> CONTEXT: None < UNUSED
-If so, wouldn't a slime made of gold 
-be able to produce an infinite amount of gold?
+\\name[\\v[2]]\\_
+この地に封印されているのは、ドラギニャッツォ。
+マレブランケの中でもかなり暴力的だが、
+この夢世界ではどれほどのものやら。
+> CONTEXT: Map283/events/5/pages/0/4/Dialogue
+> CONTEXT: Map283/events/5/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Sealed in this land is Draghignazzo.
+She is one of the most violent of the Malebranches,
+but I wonder how violent she will be in this dream world.
 > END STRING
 
 > BEGIN STRING
-実験は成功したには成功した。
-確かに金は無限に手に入るだろう。
-> CONTEXT: None < UNUSED
-The experiment was a success.
-It is true that you can get unlimited amounts of money.
+\\name[\\v[2]]\\_
+威嚇やそのうるさい咆哮に恐怖しないことだ。
+> CONTEXT: Map283/events/5/pages/0/8/Dialogue
+> CONTEXT: Map283/events/5/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+Don't be scared of her threats or her loud roars.
 > END STRING
 
 > BEGIN STRING
-あのスラ\\c[12]■\\c[0]ムがあそこ\\_
-\\c[12]■\\c[0]で強く\\c[12]■\\c[0]ければな。
-
-（所々金にまみれて文字が読めなくなっている）
-> CONTEXT: None < UNUSED
-That sl\\c[12]■\\c[0]me over there\\_
-\\c[12]■\\c[0]ust be stro\\c[12]■\\c[0].
-
-(Parts of the text are so covered in gold that it's hard to read)
+\\name[\\v[2]]\\_
+ドラギニャッツォを解放したか。
+……夢世界では、その怪力も意味をなさないか。
+> CONTEXT: Map283/events/5/pages/1/1/Dialogue
+> CONTEXT: Map283/events/5/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+You freed Draghignazzo.
+...I guess that superhuman strength 
+is meaningless in the dream world.
 > END STRING
 
 > BEGIN STRING
-まさか\\c[12]■■\\c[0]が効かなく\\_
-な\\c[12]■\\c[0]とは思わ\\c[12]■\\c[0]かった。
-> CONTEXT: None < UNUSED
-No way \\c[12]■■\\c[0] doesn't work
-I didn't think that\\c[12]■\\c[0] would be so.
+ドラギニャッツォと再戦しますか？
+> CONTEXT: Map283/events/8/pages/0/0/Dialogue
+> CONTEXT: Map283/events/8/pages/0/0/Dialogue
+Would you like to have a rematch with Draghignazzo?
 > END STRING
 
 > BEGIN STRING
-井戸の中になにかがある……
-> CONTEXT: Map283/events/15/pages/0/0/Dialogue < UNTRANSLATED
-
+ドラギニャッツォと戦う
+> CONTEXT: Map283/events/8/pages/0/1/Choice/0
+> CONTEXT: Map283/events/8/pages/0/1/Choice/0
+> CONTEXT: Map283/events/8/pages/0/1/Choice/0
+> CONTEXT: Map283/events/8/pages/0/1/Choice/0
+Fight Draghignazzo
 > END STRING
 
 > BEGIN STRING
-茂みの中になにかがある……
-> CONTEXT: Map283/events/16/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map283/events/18/pages/0/0/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-……？
-何かが落ちている
-> CONTEXT: Map283/events/17/pages/0/21/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-これは……
-> CONTEXT: Map283/events/17/pages/0/23/Dialogue < UNTRANSLATED
-
+強化ドラギニャッツォと戦う
+> CONTEXT: Map283/events/8/pages/0/1/Choice/1
+> CONTEXT: Map283/events/8/pages/0/1/Choice/1
+> CONTEXT: Map283/events/8/pages/0/1/Choice/1
+> CONTEXT: Map283/events/8/pages/0/1/Choice/1
+Fight Enhanced Draghignazzo
 > END STRING

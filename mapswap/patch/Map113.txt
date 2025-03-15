@@ -1,51 +1,50 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-"婦人"
-> CONTEXT: None < UNUSED
-"Woman"
+"アンドロイド？"
+> CONTEXT: Map113/events/5/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map113/events/5/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-毎日お祈りに来ているのだけど、
-時々神像が傾いている時があるのよ。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-I come to pray every day, 
-but sometimes the idol is tilted.
+侵入者発見。
+侵入者発見。
+> CONTEXT: Map113/events/5/pages/0/10/Dialogue < UNTRANSLATED
+> CONTEXT: Map113/events/5/pages/0/10/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-掃除の時に動かしたのだろうけど。
-もうちょっと気を使ってほしいわ。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-I guess it gets moved when cleaning.
-I wish they would be more careful.
-> END STRING
+対象を排除対象データベースと照合します。
+……\\|データベースと合致しました。
+> CONTEXT: Map113/events/5/pages/0/14/Dialogue < UNTRANSLATED
+> CONTEXT: Map113/events/5/pages/0/14/Dialogue < UNTRANSLATED
 
-> BEGIN STRING
-"物騒な風体の男"
-> CONTEXT: None < UNUSED
-"Disturbing looking man"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-山で遭難していたんだが、歩いてたら\\_
-ここにたどり着いたんだ。
-こんな所に教会なんかあったんだな。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-I was lost in the mountains, but I managed to walk my way here.
-Didn't realize there was a church in a place like this.
+楽園プログラムを起動……\\|起動完了。
+対象を排斥します。
+> CONTEXT: Map113/events/5/pages/0/17/Dialogue < UNTRANSLATED
+> CONTEXT: Map113/events/5/pages/0/17/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ニューオメガ"
+> CONTEXT: Map113/events/5/pages/0/54/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map113/events/5/pages/0/54/InlineScript/1:22 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-まぁ、ここで少しは休めそうだ･･･。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Well, I think I can take a little break here...
+排斥失敗……。
+楽園プログラムを終了します。
+> CONTEXT: Map113/events/5/pages/0/56/Dialogue < UNTRANSLATED
+> CONTEXT: Map113/events/5/pages/0/56/Dialogue < UNTRANSLATED
+
 > END STRING

@@ -1,43 +1,268 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-マップを反転しますか？
-> CONTEXT: None < UNUSED
+"見習い魔女"
+> CONTEXT: Map151/events/3/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map151/events/3/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map152/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map152/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map151/events/6/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map151/events/6/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map151/events/27/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map151/events/27/pages/0/0/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-反転後のマップへ移動しますか？
-> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+え～っと、歴史の本は
+どこにあったかな？
+> CONTEXT: Map151/events/3/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/3/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-トループの改変をしますか？
-> CONTEXT: None < UNUSED
+"暗い顔の女性"
+> CONTEXT: Map151/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map151/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-改変しました。
-> CONTEXT: None < UNUSED
+婚活関係の本を真剣に読んでいる
+> CONTEXT: Map151/events/4/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/4/pages/0/3/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-口上を暗号化セーブしますか？
-> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+うふふ、私がこんな場所にいるのが珍しい？
+> CONTEXT: Map151/events/5/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/5/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-口上の暗号化セーブを行いました。
-（Dataフォルダに入ってます）
-> CONTEXT: None < UNUSED
+\\name[\\v[2]]\\_
+ここの蔵書量は地下も合わせると
+かなりの量になるんだ。
+> CONTEXT: Map151/events/6/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/6/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-トゥーロマンサの改変をしますか？
-> CONTEXT: None < UNUSED
+"マグマスライム"
+> CONTEXT: Map151/events/8/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map151/events/8/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+メラメラ
+> CONTEXT: Map151/events/8/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/8/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あまりにも寒いから作ってみたが…
+頭が悪くてうまく指示を聞いてくれないんだ
+> CONTEXT: Map151/events/9/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/9/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"熱心な信者"
+> CONTEXT: Map151/events/24/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map151/events/24/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふう、今日はここまでかな。
+> CONTEXT: Map151/events/24/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/24/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+氷結図書館へようこそ！
+ここでは世界中のあらゆる情報を凍らせて保存しているよ！
+> CONTEXT: Map151/events/27/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/27/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/27/pages/0/31/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/27/pages/0/31/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+え？　銀色の都市の図書館に送る本？
+…………\\|あ！？　ごめんなさい！
+すっかりそのことを忘れてた、今すぐ取ってくるね！
+> CONTEXT: Map151/events/27/pages/0/5/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/27/pages/0/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+はい、これが送る予定だった本！
+最近仕事が忙しくてすっかり忘れていたよ。
+ヘカテーさんによろしく伝えておいて。
+> CONTEXT: Map151/events/27/pages/0/12/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/27/pages/0/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+本を受け取った
+> CONTEXT: Map151/events/27/pages/0/16/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/27/pages/0/16/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私は最近この支部に配備されたばっかりでね。
+覚えることが多くて大変なんだ……
+こうやって来た人を案内するのも仕事でね。
+> CONTEXT: Map151/events/27/pages/0/21/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/27/pages/0/21/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+とにかく今後は
+こういうことが起こらないように気をつけるよ。
+うぅ……また先輩に叱られちゃう……
+> CONTEXT: Map151/events/27/pages/0/25/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/27/pages/0/25/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+凍らせる意味？
+そりゃあ腐らせないためさ！
+> CONTEXT: Map151/events/27/pages/0/34/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/27/pages/0/34/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"聖女"
+> CONTEXT: Map151/events/30/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map151/events/30/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こちらは教会の支部です
+どんな方でも歓迎していますので、
+ぜひご覧になっていってくださいね
+> CONTEXT: Map151/events/30/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/30/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"氷魔導士見習い"
+> CONTEXT: Map151/events/31/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map151/events/31/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私も早く先生みたいな
+素敵な魔導士になりたいな……
+> CONTEXT: Map151/events/31/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/31/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"氷魔導士"
+> CONTEXT: Map151/events/32/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map151/events/32/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+君は｢氷の杖｣を知っているかね？
+> CONTEXT: Map151/events/32/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/32/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ジャックフロスト達が稀に持っているんだが、
+あれを手に成長した魔導士見習いは
+特別な姿になれるのだよ
+> CONTEXT: Map151/events/32/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/32/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+実は私もその一人なんだ
+> CONTEXT: Map151/events/32/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/32/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あたし、サンタさんを雪原で見たんだ！
+ホントだよ！
+> CONTEXT: Map151/events/35/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/35/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+探しにいくの？
+サンタさんを見つけたら私にも教えてね！
+> CONTEXT: Map151/events/35/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/35/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+サンタさんに会ったの？！
+あたしも会いたい！！
+> CONTEXT: Map151/events/35/pages/1/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/35/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今探せばサンタさんに会えるかな？
+私ちょっと探してくる！！
+> CONTEXT: Map151/events/35/pages/1/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/35/pages/1/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+少女は図書館を飛び出していってしまった……
+> CONTEXT: Map151/events/35/pages/1/35/Dialogue < UNTRANSLATED
+> CONTEXT: Map151/events/35/pages/1/35/Dialogue < UNTRANSLATED
 
 > END STRING

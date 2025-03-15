@@ -1,75 +1,233 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-\\name[\\v[2]]\\_
-お待ちしておりましたわ、\\n[101]様。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-I've been waiting for you, Mr. \\n[101].
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-長き夢世界の旅はさぞかし楽しまれていることでしょう。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-I'm sure you're enjoying your long journey 
-through the dream world.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-くすくす、私のことはお忘れになってしまわれました？
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Hehe, have you forgotten about me?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-\\n[101]様が夢世界へいらっしゃった際に、
-色々と声を掛けさせて頂いたのですけれど･･･。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-When you came to the dream world, Mr. \\n[101], 
-I spoke to you in various ways...
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-私はシルフェと申し上げます。
-どうぞお見知り置きを･･･\\H
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-My name is Silfe.
-Nice to meet you...\\H
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-お話は中で致しましょうか。
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-Shall we talk inside?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-取って食べるつもりはありませんから、
-肩の力を抜いてお越し下さいまし\\H
-> CONTEXT: None < UNUSED
-\\name[\\v[2]]\\_
-I'm not planning on eating you up, 
-so please relax and come.\\H
-> END STRING
-
-> BEGIN STRING
-おっぱいハウスだ！
-> CONTEXT: Map178/events/47/pages/0/14/Dialogue < UNTRANSLATED
+\\name[\\v[3]]\\_
+これは\\n[101]様、
+スターダムショーに出場されますか？
+> CONTEXT: Map178/events/17/pages/0/13/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/17/pages/0/13/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-ちっぱいハウスだ！
-> CONTEXT: Map178/events/47/pages/0/28/Dialogue < UNTRANSLATED
+スターダムショーとは？
+> CONTEXT: Map178/events/17/pages/0/16/Choice/2 < UNTRANSLATED
+> CONTEXT: Map178/events/17/pages/0/16/Choice/2 < UNTRANSLATED
+> CONTEXT: Map178/events/17/pages/0/16/Choice/2 < UNTRANSLATED
+> CONTEXT: Map178/events/17/pages/0/16/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+スターダムショーとは
+明日のスターを発掘するための大会です。
+> CONTEXT: Map178/events/17/pages/0/37/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/17/pages/0/37/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+２対２のタッグ戦を２回行い
+見事勝利を飾ると
+ささやかながら景品をお渡しします。
+> CONTEXT: Map178/events/17/pages/0/40/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/17/pages/0/40/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+また多くのプレイヤーを募っているため
+\\n[101]様方には４人一チームでの参加をお願いしています。
+> CONTEXT: Map178/events/17/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/17/pages/0/44/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+支配人が一目置く貴方様なら
+パートナーの方々もさぞ腕に覚えがあるはず・・・。
+ぜひ参加をお待ちしております。
+> CONTEXT: Map178/events/17/pages/0/47/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/17/pages/0/47/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+申し訳ございません。
+この挑戦は４人用です。
+パーティを増やしてから来てください。
+> CONTEXT: Map178/events/17/pages/0/55/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/17/pages/0/55/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セクシバルロビーに移動しますか？
+> CONTEXT: Map178/events/18/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/18/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"さすらいのルーン外し屋"
+> CONTEXT: Map178/events/20/pages/0/1/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map178/events/20/pages/0/1/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そこの君、ルーンを外したいと思ったことはないかい？
+私もそう思ってルーン外しの技術を会得したんだよ。
+まだ一部のルーンしか成功させていないがな・・・。
+> CONTEXT: Map178/events/20/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/20/pages/0/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そこでだ。
+君さえ良ければルーン外しの練習をさせてほしい。
+もちろんお代は頂かないよ。
+> CONTEXT: Map178/events/20/pages/0/6/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/20/pages/0/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\n[101]の「覚醒のルーン」を外しますか？
+> CONTEXT: Map178/events/20/pages/0/10/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/20/pages/0/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"あの時のサキュバス"
+> CONTEXT: Map178/events/21/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map178/events/21/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら\\n[101]・・・だったわよね？
+それともチャンピオンて呼んだ方が良いかしら\\H
+> CONTEXT: Map178/events/21/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/21/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あなた、エクストラマッチに出るらしいじゃない\\H
+だったらひとつアドバイスしてあげましょうか♪
+> CONTEXT: Map178/events/21/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/21/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ、素直でよろしい\\H
+> CONTEXT: Map178/events/21/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/21/pages/0/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+小耳に挟んだ情報だと前哨戦の
+対戦相手はあなたの強さによって変わるらしいわ。
+レベルだけじゃなくて【強さの質】そのものが関係するとか。
+> CONTEXT: Map178/events/21/pages/0/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/21/pages/0/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私が刻んでる【最高の姿】みたいに
+限界を超えるようなもののことかしら。
+強いと感じたならあえて外すのも選択肢かもね\\H
+> CONTEXT: Map178/events/21/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/21/pages/0/15/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら残念♪
+でもしばらくこの辺りに居るから
+聞きたくなったらいつでも声掛けていいわよ\\H
+> CONTEXT: Map178/events/21/pages/0/21/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/21/pages/0/21/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"気さくなデビル"
+> CONTEXT: Map178/events/22/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map178/events/22/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おぉ、あんたがウワサのチャンピオンか。
+こっちのサキュバスから話は聞いてるぜ。
+縁があったらオレともやってくれよな\\H
+> CONTEXT: Map178/events/22/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/22/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そういやエクストラマッチに出るらしいな。
+なら耳よりな情報でも教えてやろうか？
+> CONTEXT: Map178/events/22/pages/0/5/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/22/pages/0/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+くく、素直なやつは好きだぜ\\H
+> CONTEXT: Map178/events/22/pages/0/10/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/22/pages/0/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+勝ち切るといただける賞品だが
+どうやらあんたのレベルが低いとボーナスが付くようだぜ。
+もちろん限度があるみたいだがな。
+> CONTEXT: Map178/events/22/pages/0/12/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/22/pages/0/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+余裕があれば挑戦してみるのもいいかもな。
+ま、あんたはチャンピオンだからそれも余裕だろうよ♪
+> CONTEXT: Map178/events/22/pages/0/16/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/22/pages/0/16/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そりゃ残念だ。
+だがしばらくこの辺りに居るから
+聞きたくなれば話しかけてくれよな\\H
+> CONTEXT: Map178/events/22/pages/0/21/Dialogue < UNTRANSLATED
+> CONTEXT: Map178/events/22/pages/0/21/Dialogue < UNTRANSLATED
 
 > END STRING

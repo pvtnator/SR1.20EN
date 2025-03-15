@@ -6,20 +6,26 @@ button38
 > END STRING
 
 > BEGIN STRING
-010-System10
-> CONTEXT: System/escape_se/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
 003-Victory03
 > CONTEXT: System/battle_end_me/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
+010-System10
+> CONTEXT: System/escape_se/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 006-System06
 > CONTEXT: System/shop_se/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+button70
+> CONTEXT: System/decision_se/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -34,9 +40,9 @@ Energy
 > END STRING
 
 > BEGIN STRING
-自制心
-> CONTEXT: System/words/mdef/
-Self-control
+VP
+> CONTEXT: System/words/sp/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -46,15 +52,9 @@ Lps.
 > END STRING
 
 > BEGIN STRING
-VP
-> CONTEXT: System/words/sp/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-スキル
-> CONTEXT: System/words/skill/
-Skills
+自制心
+> CONTEXT: System/words/mdef/
+Self-control
 > END STRING
 
 > BEGIN STRING
@@ -68,15 +68,9 @@ Spirit
 > END STRING
 
 > BEGIN STRING
-装備
-> CONTEXT: System/words/equip/
-Equipment
-> END STRING
-
-> BEGIN STRING
-EP
-> CONTEXT: System/words/hp/ < UNTRANSLATED
-
+スキル
+> CONTEXT: System/words/skill/
+Skills
 > END STRING
 
 > BEGIN STRING
@@ -90,9 +84,15 @@ Endurance
 > END STRING
 
 > BEGIN STRING
-攻撃
-> CONTEXT: System/words/attack/
-Attack
+EP
+> CONTEXT: System/words/hp/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+装備
+> CONTEXT: System/words/equip/
+Equipment
 > END STRING
 
 > BEGIN STRING
@@ -106,9 +106,21 @@ Agility
 > END STRING
 
 > BEGIN STRING
+攻撃
+> CONTEXT: System/words/attack/
+Attack
+> END STRING
+
+> BEGIN STRING
 装備品
 > CONTEXT: System/words/armor1/
 Equipment
+> END STRING
+
+> BEGIN STRING
+アイテム
+> CONTEXT: System/words/item/
+Items
 > END STRING
 
 > BEGIN STRING
@@ -122,9 +134,9 @@ Charm
 > END STRING
 
 > BEGIN STRING
-アイテム
-> CONTEXT: System/words/item/
-Items
+ルーン
+> CONTEXT: System/words/armor4/
+Runes
 > END STRING
 
 > BEGIN STRING
@@ -135,12 +147,6 @@ Items
 > CONTEXT: Commonevents/152/153/Choice/0
 > CONTEXT: Commonevents/152/153/Choice/0
 Dexterity
-> END STRING
-
-> BEGIN STRING
-ルーン
-> CONTEXT: System/words/armor4/
-Runes
 > END STRING
 
 > BEGIN STRING
@@ -157,8 +163,8 @@ Defense
 > END STRING
 
 > BEGIN STRING
-button70
-> CONTEXT: System/decision_se/name/ < UNTRANSLATED
+SCRP_Battle
+> CONTEXT: System/battle_bgm/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -169,20 +175,8 @@ button70
 > END STRING
 
 > BEGIN STRING
-SCRP_Battle
-> CONTEXT: System/battle_bgm/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
 033-Switch02
 > CONTEXT: System/equip_se/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-button63
-> CONTEXT: System/cursor_se/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -1157,7 +1151,7 @@ Only during hold
 > END STRING
 
 > BEGIN STRING
-上半身が[開脚]時のみ可
+背面が[拘束]時のみ可
 > CONTEXT: System/elements/164/ < UNTRANSLATED
 
 > END STRING
@@ -1735,13 +1729,13 @@ EP吸収
 > END STRING
 
 > BEGIN STRING
-自分：顔面拘束中不可
+自分：背面拘束中不可
 > CONTEXT: System/elements/261/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-相手：顔面拘束中不可
+相手：背面拘束中不可
 > CONTEXT: System/elements/262/ < UNTRANSLATED
 
 > END STRING
@@ -2065,6 +2059,12 @@ VP回復
 > BEGIN STRING
 ♂が[兜合わせ]時のみ可
 > CONTEXT: System/elements/323/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+呪いキッス
+> CONTEXT: System/elements/325/ < UNTRANSLATED
 
 > END STRING
 
@@ -2525,8 +2525,8 @@ SS+100％自クライシス
 > END STRING
 
 > BEGIN STRING
-008-System08
-> CONTEXT: System/load_se/name/ < UNTRANSLATED
+button63
+> CONTEXT: System/cursor_se/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -2537,20 +2537,26 @@ SCRP_Title
 > END STRING
 
 > BEGIN STRING
+008-System08
+> CONTEXT: System/load_se/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 button54
 > CONTEXT: System/buzzer_se/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-011-System11
-> CONTEXT: System/actor_collapse_se/name/ < UNTRANSLATED
+006-Defeat02
+> CONTEXT: System/gameover_me/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-006-Defeat02
-> CONTEXT: System/gameover_me/name/ < UNTRANSLATED
+011-System11
+> CONTEXT: System/actor_collapse_se/name/ < UNTRANSLATED
 
 > END STRING
 

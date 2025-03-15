@@ -6,43 +6,6 @@
 > END STRING
 
 > BEGIN STRING
-【BOSS】ベルカとベルナ
-> CONTEXT: Troops/5/name/
-【BOSS】BelkaとBerna
-> END STRING
-
-> BEGIN STRING
-【BOSS】セイレーン
-> CONTEXT: Troops/6/name/
-【BOSS】Siren
-> END STRING
-
-> BEGIN STRING
-【BOSS】アドウェルサ
-> CONTEXT: Troops/7/name/
-【BOSS】Adversa
-> END STRING
-
-> BEGIN STRING
-【BOSS】エインヘリヤル
-> CONTEXT: Troops/8/name/
-> CONTEXT: Troops/906/name/
-【BOSS】Einherjar
-> END STRING
-
-> BEGIN STRING
-【BOSS】ネフィリム
-> CONTEXT: Troops/9/name/
-【BOSS】Nephilim
-> END STRING
-
-> BEGIN STRING
-【BOSS】シェムハザ
-> CONTEXT: Troops/10/name/
-【BOSS】Shemhaza
-> END STRING
-
-> BEGIN STRING
 【BOSS】アガレス
 > CONTEXT: Troops/13/name/
 【BOSS】Agares
@@ -64,19 +27,6 @@
 テストエネミー3
 > CONTEXT: Troops/16/name/ < UNTRANSLATED
 
-> END STRING
-
-> BEGIN STRING
-【BOSS】カーリー
-> CONTEXT: Troops/17/name/
-【BOSS】Carly
-> END STRING
-
-> BEGIN STRING
-【BOSS】セラフィエル
-> CONTEXT: Troops/19/name/
-> CONTEXT: Troops/1552/name/
-【BOSS】Seraphiel
 > END STRING
 
 > BEGIN STRING
@@ -755,8 +705,6 @@ Mary/322/70
 > BEGIN STRING
 チュートリアル
 > CONTEXT: Troops/138/name/ < UNTRANSLATED
-> CONTEXT: Map878/events/4/pages/0/114/Choice/1 < UNTRANSLATED
-> CONTEXT: Map878/events/4/pages/0/114/Choice/1 < UNTRANSLATED
 > CONTEXT: Map600/events/1/pages/0/200/Choice/1 < UNTRANSLATED
 > CONTEXT: Map600/events/1/pages/0/200/Choice/1 < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/200/Choice/1 < UNTRANSLATED
@@ -2398,9 +2346,9 @@ Lesser Succubus/5/28, Slave/63/20*
 > END STRING
 
 > BEGIN STRING
-リミテッドスレイヴ/412/40, リミテッドス
-> CONTEXT: Troops/352/name/
-Limited Slave/412/40, リミテッドス
+リミテッドスレイヴ/412/35, リミテッドス
+> CONTEXT: Troops/352/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -5132,6 +5080,12 @@ Succubus Queen/18/85
 > END STRING
 
 > BEGIN STRING
+【BOSS】エインヘリヤル
+> CONTEXT: Troops/906/name/
+【BOSS】Einherjar
+> END STRING
+
+> BEGIN STRING
 【BOSS】タナトス
 > CONTEXT: Troops/907/name/
 【BOSS】Thanatos
@@ -5739,6 +5693,18 @@ Imp/22/87*2, Grakiace/239/88
 【BOSS】/リジェオ&カオシア
 > CONTEXT: Troops/1009/name/
 【BOSS】/Rigeo&Chaosia
+> END STRING
+
+> BEGIN STRING
+【BOSS】マーナガルム
+> CONTEXT: Troops/1011/name/
+【BOSS】Managarmr
+> END STRING
+
+> BEGIN STRING
+【BOSS】ジュエルスライム
+> CONTEXT: Troops/1012/name/
+【BOSS】Jewel Slime
 > END STRING
 
 > BEGIN STRING
@@ -6447,6 +6413,18 @@ Invidiaは自身の能力を低下させた。
 【BOSS】/アトレッツァ＆トゥーラ
 > CONTEXT: Troops/1168/name/
 【BOSS】/Atreza＆Tura
+> END STRING
+
+> BEGIN STRING
+【BOSS】アトレッツァ
+> CONTEXT: Troops/1169/name/
+【BOSS】Atreza
+> END STRING
+
+> BEGIN STRING
+【BOSS】トゥーラ
+> CONTEXT: Troops/1170/name/
+【BOSS】Tura
 > END STRING
 
 > BEGIN STRING
@@ -7697,6 +7675,7 @@ Amore/177/75, アサシン/175/78
 > BEGIN STRING
 あたりに魔性の芳香が漂い始める……！
 > CONTEXT: Troops/1438/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Troops/1560/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -7838,6 +7817,10 @@ Goblin Wizard/43/76, Dolophonos/3
 > BEGIN STRING
 "聞き覚えのある声"
 > CONTEXT: Troops/1460/pages/0/3/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map086/events/11/pages/0/19/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map086/events/11/pages/0/19/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map086/events/11/pages/0/87/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map086/events/11/pages/0/87/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
 
@@ -7899,9 +7882,22 @@ Belphegor/184/84*3
 > END STRING
 
 > BEGIN STRING
+【BOSS】ウィッチサキュバス
+> CONTEXT: Troops/1467/name/
+【BOSS】Witch Succubus
+> END STRING
+
+> BEGIN STRING
+【BOSS】メイジサキュバス
+> CONTEXT: Troops/1468/name/
+【BOSS】Mage Succubus
+> END STRING
+
+> BEGIN STRING
 ■淫界
 > CONTEXT: Troops/1470/name/ < UNTRANSLATED
 > CONTEXT: Enemies/1437/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1840/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -7986,7 +7982,7 @@ Beelzebub/180/86, サテュリオン/80/8
 > BEGIN STRING
 ■黄昏の王宮
 > CONTEXT: Troops/1486/name/ < UNTRANSLATED
-> CONTEXT: Enemies/1473/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1471/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -8272,7 +8268,7 @@ Mikael/248/92, Petite Angel/235/91
 
 > BEGIN STRING
 【BOSS】高位天使三姉妹
-> CONTEXT: Troops/1547/name/ < UNTRANSLATED
+> CONTEXT: Troops/1548/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -8287,6 +8283,12 @@ Mikael/248/92, Petite Angel/235/91
 これ以上の戦いは危険ですわ。
 一度体制を立て直しましょう……。
 > CONTEXT: Troops/1551/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】大天使セラフィエル
+> CONTEXT: Troops/1552/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -8309,22 +8311,308 @@ Mikael/248/92, Petite Angel/235/91
 > END STRING
 
 > BEGIN STRING
+【BOSS】悪戯妖蝶姉妹
+> CONTEXT: Troops/1558/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】堕天使三姉妹
+> CONTEXT: Troops/1559/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】モリガン＆スルガト
+> CONTEXT: Troops/1560/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】大天使シェムハザ
+> CONTEXT: Troops/1561/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】暗黒天使シェムハザ
+> CONTEXT: Troops/1562/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■漆黒の冥府
+> CONTEXT: Troops/1566/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1805/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グローア/74/95, サイレント/53/91
+> CONTEXT: Troops/1567/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グローア/74/95, ゾンビサキュバス/320/95
+> CONTEXT: Troops/1568/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークリリム/165/92, グローア/74/95
+> CONTEXT: Troops/1569/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークリリム/165/92, サイレント/53/91
+> CONTEXT: Troops/1570/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークリリム/165/92, ゾンビサキュバス/32
+> CONTEXT: Troops/1571/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サイレント/53/91, ゾンビサキュバス/320/9
+> CONTEXT: Troops/1572/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ショゴス/86/97
+> CONTEXT: Troops/1573/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1810/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1850/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ショゴス/86/97, ゾンビサキュバス/320/95
+> CONTEXT: Troops/1574/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークリリム/165/92, ショゴス/86/97
+> CONTEXT: Troops/1575/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■黄昏王国復活戦
+> CONTEXT: Troops/1579/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1815/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】淫魔軍師アウローラ
+> CONTEXT: Troops/1580/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ベルカとベルナ
+> CONTEXT: Troops/1581/name/
+【BOSS】BelkaとBerna
+> END STRING
+
+> BEGIN STRING
+【BOSS】ネフィリムとカーリー
+> CONTEXT: Troops/1582/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[淫魔軍将ネフィリム]\\_
+「私たちを精一杯愉しませてちょうだい……\\H」
+> CONTEXT: Troops/1582/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■淫界ボス戦
+> CONTEXT: Troops/1585/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】セイレーン
+> CONTEXT: Troops/1586/name/
+【BOSS】Siren
+> END STRING
+
+> BEGIN STRING
+【BOSS】デザイア
+> CONTEXT: Troops/1587/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】逃走ナイトストーカー
+> CONTEXT: Troops/1588/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】逃走ナイト＋アスモデ
+> CONTEXT: Troops/1589/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】逃走ナイト＋ビュート
+> CONTEXT: Troops/1590/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ナイトストーカー
+> CONTEXT: Troops/1591/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 【BOSS】ニューオメガ
-> CONTEXT: Troops/1556/name/
-> CONTEXT: Troops/1559/name/
+> CONTEXT: Troops/1593/name/
 【BOSS】New Omega
 > END STRING
 
 > BEGIN STRING
-【BOSS】ジャヒー
-> CONTEXT: Troops/1557/name/
-【BOSS】Jahi
+【BOSS】アガレス
+> CONTEXT: Troops/1594/name/
+【BOSS】Agares
 > END STRING
 
 > BEGIN STRING
-【BOSS】キュシオン
-> CONTEXT: Troops/1560/name/
-【BOSS】Kyusion
+【BOSS】淫女王アドウェルサ
+> CONTEXT: Troops/1597/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■淫界中層
+> CONTEXT: Troops/1599/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アスモデ/178/97*2
+> CONTEXT: Troops/1600/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベルゼビュート/180/98*2
+> CONTEXT: Troops/1601/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベルゼビュート/180/98, アスモデ/178/97
+> CONTEXT: Troops/1602/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーアスモデ/177/87, アスモデ/178/97
+> CONTEXT: Troops/1608/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーアスモデ/177/87, グレムリン/532/
+> CONTEXT: Troops/1609/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アサシンサキュバス/175/99, レッサーアス
+> CONTEXT: Troops/1612/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アサシンサキュバス/175/99, グレムリン/53
+> CONTEXT: Troops/1613/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アサシンサキュバス/175/99, ベルゼビュー
+> CONTEXT: Troops/1614/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イルシオン/209/102, レッサーアスモデ/177
+> CONTEXT: Troops/1615/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イルシオン/209/102, グレムリン/532/94*2
+> CONTEXT: Troops/1616/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イルシオン/209/102, ベルゼビュート/180/9
+> CONTEXT: Troops/1617/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■淫界上層
+> CONTEXT: Troops/1631/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カーミラ/238/102, アスモデ/178/97*2
+> CONTEXT: Troops/1632/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カーミラ/238/102, グレムリン/532/94*2
+> CONTEXT: Troops/1633/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カーミラ/238/102, ベルゼビュート/180/98*
+> CONTEXT: Troops/1634/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アスモデロード/179/108, アスモデ/178/97,
+> CONTEXT: Troops/1635/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アスモデロード/179/108, ベルゼビュート/1
+> CONTEXT: Troops/1636/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アスモデロード/179/108, ベルフェゴール/1
+> CONTEXT: Troops/1637/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アスモデロード/179/108, カーミラ/238/102
+> CONTEXT: Troops/1638/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -8617,6 +8905,13 @@ Doulonは周りに淫毒をまき散らした！
 > END STRING
 
 > BEGIN STRING
+【BOSS】オノスケリス
+> CONTEXT: Troops/1788/name/
+> CONTEXT: Troops/1768/name/
+【BOSS】Onoskeris
+> END STRING
+
+> BEGIN STRING
 【BOSS】ルビカンテ
 > CONTEXT: Troops/1769/name/
 > CONTEXT: Troops/1784/name/
@@ -8720,21 +9015,15 @@ Doulonは周りに淫毒をまき散らした！
 > END STRING
 
 > BEGIN STRING
-【BOSS】サーベラス
-> CONTEXT: None < UNUSED
-【BOSS】Cerberus
+【BOSS】イヅナ
+> CONTEXT: Troops/1786/name/
+【BOSS】Izuna
 > END STRING
 
 > BEGIN STRING
 【BOSS】カンビアーレ
 > CONTEXT: Troops/1787/name/
 【BOSS】Cambiare
-> END STRING
-
-> BEGIN STRING
-【BOSS】オノスケリス
-> CONTEXT: Troops/1788/name/
-【BOSS】Onoskeris
 > END STRING
 
 > BEGIN STRING
@@ -8759,46 +9048,4 @@ Doulonは周りに淫毒をまき散らした！
 【BOSS】カンビオン
 > CONTEXT: Troops/1803/name/
 【BOSS】Cambion
-> END STRING
-
-> BEGIN STRING
-【BOSS】マーナガルム
-> CONTEXT: Troops/1011/name/
-【BOSS】Managarmr
-> END STRING
-
-> BEGIN STRING
-【BOSS】ジュエルスライム
-> CONTEXT: Troops/1012/name/
-【BOSS】Jewel Slime
-> END STRING
-
-> BEGIN STRING
-【BOSS】アトレッツァ
-> CONTEXT: Troops/1169/name/
-【BOSS】Atreza
-> END STRING
-
-> BEGIN STRING
-【BOSS】トゥーラ
-> CONTEXT: Troops/1170/name/
-【BOSS】Tura
-> END STRING
-
-> BEGIN STRING
-【BOSS】ウィッチサキュバス
-> CONTEXT: Troops/1467/name/
-【BOSS】Witch Succubus
-> END STRING
-
-> BEGIN STRING
-【BOSS】メイジサキュバス
-> CONTEXT: Troops/1468/name/
-【BOSS】Mage Succubus
-> END STRING
-
-> BEGIN STRING
-【BOSS】イヅナ
-> CONTEXT: Troops/1786/name/
-【BOSS】Izuna
 > END STRING

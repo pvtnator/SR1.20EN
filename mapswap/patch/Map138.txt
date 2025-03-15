@@ -1,60 +1,219 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-"巨大な悪魔"
-> CONTEXT: None < UNUSED
+"白装束のプリーステス"
+> CONTEXT: Map138/events/3/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map138/events/3/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map138/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map138/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map126/events/47/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map126/events/47/pages/0/0/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-やぁ。
-> CONTEXT: None < UNUSED
+こんな事故に巻き込まれるなんて
+どう責任取ってくれるのでしょうか？
+> CONTEXT: Map138/events/3/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map138/events/3/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-妊娠したままでは危険だ。
-一度引き返そう。
+"緑帽子の魔女"
+> CONTEXT: Map138/events/4/pages/0/1/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map138/events/4/pages/0/1/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map126/events/41/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map126/events/41/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map126/events/41/pages/1/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map126/events/41/pages/1/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map126/events/41/pages/2/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map126/events/41/pages/2/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+まぁ落ち着きたまえ。
+こんなところで口論しても仕方がないだろう。
+> CONTEXT: Map138/events/4/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Map138/events/4/pages/0/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+元の場所に戻って対策を施したいが、
+まずは全員集まってからが先だな……
+> CONTEXT: Map138/events/4/pages/0/5/Dialogue < UNTRANSLATED
+> CONTEXT: Map138/events/4/pages/0/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+おや？君は密教会で見かけたことがある……
+もしかして、この辺りのこと知ってたりするかい？
+> CONTEXT: Map138/events/4/pages/0/12/Dialogue < UNTRANSLATED
+> CONTEXT: Map138/events/4/pages/0/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+保護しますか？
+> CONTEXT: Map138/events/4/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map138/events/4/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map133/events/2/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map133/events/2/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map138/events/5/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: Map138/events/5/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: Map137/events/4/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map137/events/4/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map132/events/8/pages/2/12/Dialogue < UNTRANSLATED
+> CONTEXT: Map132/events/8/pages/2/12/Dialogue < UNTRANSLATED
+> CONTEXT: Map132/events/9/pages/2/17/Dialogue < UNTRANSLATED
+> CONTEXT: Map132/events/9/pages/2/17/Dialogue < UNTRANSLATED
+> CONTEXT: Map132/events/16/pages/0/59/Dialogue < UNTRANSLATED
+> CONTEXT: Map132/events/16/pages/0/59/Dialogue < UNTRANSLATED
+> CONTEXT: Map132/events/18/pages/0/58/Dialogue < UNTRANSLATED
+> CONTEXT: Map132/events/18/pages/0/58/Dialogue < UNTRANSLATED
+> CONTEXT: Map132/events/19/pages/0/59/Dialogue < UNTRANSLATED
+> CONTEXT: Map132/events/19/pages/0/59/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/170/pages/0/19/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/170/pages/0/19/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/181/pages/0/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/181/pages/0/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/190/pages/0/12/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/190/pages/0/12/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/195/pages/0/19/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/195/pages/0/19/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/196/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/196/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/197/pages/0/19/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/197/pages/0/19/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/198/pages/0/19/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/198/pages/0/19/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/199/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/199/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/200/pages/0/17/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/200/pages/0/17/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/201/pages/0/17/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/201/pages/0/17/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/202/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/202/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/203/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/203/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/204/pages/0/23/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/204/pages/0/23/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/205/pages/0/23/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/205/pages/0/23/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/206/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/206/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/207/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/207/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/208/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/208/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/209/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/209/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/210/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/210/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/211/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/211/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/212/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/212/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/213/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/213/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/214/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/214/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/215/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/215/pages/0/44/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/222/pages/0/8/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/222/pages/0/8/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/235/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/235/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/236/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/236/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/237/pages/0/8/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/237/pages/0/8/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/238/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/238/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/239/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/239/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/240/pages/0/8/Dialogue < UNTRANSLATED
+> CONTEXT: Map165/events/240/pages/0/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+この近くに遭難者を保護しているところがあると……
+もしかしたら、そこに私たちの仲間がいるかもしれないね。
+よかったらそこに案内してくれないか。
+> CONTEXT: Map138/events/4/pages/0/18/Dialogue < UNTRANSLATED
+> CONTEXT: Map138/events/4/pages/0/18/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+まったく……
+戻ったら何かごちそうしてください。
+> CONTEXT: Map138/events/4/pages/0/27/Dialogue < UNTRANSLATED
+> CONTEXT: Map138/events/4/pages/0/27/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+そうか、仕方あるまい。
+我々の方でこの状況をなんとかしなければな。
+> CONTEXT: Map138/events/4/pages/0/42/Dialogue < UNTRANSLATED
+> CONTEXT: Map138/events/4/pages/0/42/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"青髪のコボルト"
+> CONTEXT: Map138/events/5/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map138/events/5/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+がう～？
+ここはどこなのだ？
+仲間もいなくなっているのだ
 > CONTEXT: Map138/events/5/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map137/events/4/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map138/events/6/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map137/events/5/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map137/events/6/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map136/events/4/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map136/events/5/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map136/events/6/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map134/events/4/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map134/events/5/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map134/events/6/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map133/events/4/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map133/events/5/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map133/events/6/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map135/events/6/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map135/events/7/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map135/events/8/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map138/events/5/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-\\name[メイジファンガス1]\\_
-あら、言われたとおりに待っていてみれば\\H
-あの子もたまには良いことするね
-> CONTEXT: Map138/events/46/pages/0/25/Dialogue < UNTRANSLATED
+\\name[\\v[2]]\\_
+がう！
+おいオマエ！
+あたいの仲間知らないか？
+> CONTEXT: Map138/events/5/pages/0/5/Dialogue < UNTRANSLATED
+> CONTEXT: Map138/events/5/pages/0/5/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-\\name[メイジファンガス2]\\_
-こんなに可愛い子が自分からここに
-やってくるなんて\\H
-> CONTEXT: Map138/events/46/pages/0/28/Dialogue < UNTRANSLATED
+\\name[\\v[2]]\\_
+がう！？
+あたいの仲間がいる場所を知っているのか！？
+連れて行ってほしいのだ！
+> CONTEXT: Map138/events/5/pages/0/12/Dialogue < UNTRANSLATED
+> CONTEXT: Map138/events/5/pages/0/12/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-\\name[ヘルマルース]\\_
-ふふ、大丈夫よ。
-みんなのペットにして大切に飼ってあげるわ\\H
-> CONTEXT: Map138/events/46/pages/0/31/Dialogue < UNTRANSLATED
+\\name[\\v[2]]\\_
+がう～…
+そうか、ありがとうなのだ……
+> CONTEXT: Map138/events/5/pages/0/26/Dialogue < UNTRANSLATED
+> CONTEXT: Map138/events/5/pages/0/26/Dialogue < UNTRANSLATED
 
 > END STRING

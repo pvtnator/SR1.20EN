@@ -2,11 +2,13 @@
 > BEGIN STRING
 南に９、東に２０
 > CONTEXT: Map364/events/1/pages/0/1/Dialogue
+> CONTEXT: Map364/events/1/pages/0/1/Dialogue
 9 south, 20 east
 > END STRING
 
 > BEGIN STRING
 西に１３、南に３０
+> CONTEXT: Map364/events/2/pages/0/0/Dialogue
 > CONTEXT: Map364/events/2/pages/0/0/Dialogue
 13 west, 30 south
 > END STRING
@@ -14,11 +16,13 @@
 > BEGIN STRING
 東に７つ、北に２２つ
 > CONTEXT: Map364/events/3/pages/0/0/Dialogue
+> CONTEXT: Map364/events/3/pages/0/0/Dialogue
 7 east, 22 north
 > END STRING
 
 > BEGIN STRING
 西に８、東に４、西に７、東に１、西に３
+> CONTEXT: Map364/events/4/pages/0/0/Dialogue
 > CONTEXT: Map364/events/4/pages/0/0/Dialogue
 8 west, 4 east, 7 west, 1 east, 3 west
 > END STRING
@@ -26,10 +30,15 @@
 > BEGIN STRING
 もう何もない。
 > CONTEXT: Map364/events/5/pages/1/0/Dialogue
-> CONTEXT: Map129/events/18/pages/0/13/Dialogue
-> CONTEXT: Map129/events/19/pages/0/13/Dialogue
-> CONTEXT: Map129/events/20/pages/0/13/Dialogue
-> CONTEXT: Map129/events/21/pages/0/13/Dialogue
+> CONTEXT: Map364/events/5/pages/1/0/Dialogue
+> CONTEXT: Map166/events/18/pages/0/13/Dialogue
+> CONTEXT: Map166/events/18/pages/0/13/Dialogue
+> CONTEXT: Map166/events/19/pages/0/13/Dialogue
+> CONTEXT: Map166/events/19/pages/0/13/Dialogue
+> CONTEXT: Map166/events/20/pages/0/13/Dialogue
+> CONTEXT: Map166/events/20/pages/0/13/Dialogue
+> CONTEXT: Map166/events/21/pages/0/13/Dialogue
+> CONTEXT: Map166/events/21/pages/0/13/Dialogue
 There's nothing more.
 > END STRING
 
@@ -37,6 +46,8 @@ There's nothing more.
 \\name[\\v[2]]\\_
 メェ～。
 > CONTEXT: Map364/events/7/pages/0/2/Dialogue
+> CONTEXT: Map364/events/7/pages/0/2/Dialogue
+> CONTEXT: Map364/events/7/pages/0/43/Dialogue
 > CONTEXT: Map364/events/7/pages/0/43/Dialogue
 \\name[\\v[2]]\\_
 Baa~.
@@ -46,7 +57,10 @@ Baa~.
 \\name[\\v[2]]\\_
 メェ～？
 > CONTEXT: Map364/events/7/pages/0/5/Dialogue
+> CONTEXT: Map364/events/7/pages/0/5/Dialogue
 > CONTEXT: Map364/events/7/pages/0/10/Dialogue
+> CONTEXT: Map364/events/7/pages/0/10/Dialogue
+> CONTEXT: Map364/events/7/pages/0/21/Dialogue
 > CONTEXT: Map364/events/7/pages/0/21/Dialogue
 \\name[\\v[2]]\\_
 Baa~?
@@ -56,7 +70,10 @@ Baa~?
 \\name[\\v[2]]\\_
 メェ～･･･。
 > CONTEXT: Map364/events/7/pages/0/15/Dialogue
+> CONTEXT: Map364/events/7/pages/0/15/Dialogue
 > CONTEXT: Map364/events/7/pages/0/27/Dialogue
+> CONTEXT: Map364/events/7/pages/0/27/Dialogue
+> CONTEXT: Map364/events/7/pages/0/37/Dialogue
 > CONTEXT: Map364/events/7/pages/0/37/Dialogue
 \\name[\\v[2]]\\_
 Baa~...
@@ -65,6 +82,7 @@ Baa~...
 > BEGIN STRING
 "老紳士"
 > CONTEXT: Map364/events/112/pages/0/3/InlineScript/1:22
+> CONTEXT: Map364/events/112/pages/0/3/InlineScript/1:22
 "Old Gentleman"
 > END STRING
 
@@ -72,6 +90,7 @@ Baa~...
 \\name[\\v[2]]\\_
 シルフェお嬢様は夢見がちな方だ。
 ロマンチストとでも言うのかねぇ、あれは。
+> CONTEXT: Map364/events/112/pages/0/4/Dialogue
 > CONTEXT: Map364/events/112/pages/0/4/Dialogue
 \\name[\\v[2]]\\_
 Lady Silfe is dreamy.
@@ -83,6 +102,7 @@ I guess you could call her a romanticist.
 ただ、人の鑑賞に慣れすぎてしまったのか、
 次に何をするのかの見当をすぐに付けてしまっている。
 > CONTEXT: Map364/events/112/pages/0/7/Dialogue
+> CONTEXT: Map364/events/112/pages/0/7/Dialogue
 \\name[\\v[2]]\\_
 However, perhaps she has become so accustomed to 
 people watching that she can quickly guess 
@@ -93,6 +113,7 @@ what someone will do next.
 \\name[\\v[2]]\\_
 まぁそれでも楽しんではおられるのだがな。
 > CONTEXT: Map364/events/112/pages/0/10/Dialogue
+> CONTEXT: Map364/events/112/pages/0/10/Dialogue
 \\name[\\v[2]]\\_
 Well, she enjoys it though.
 > END STRING
@@ -100,6 +121,7 @@ Well, she enjoys it though.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 より楽しませるのなら、お嬢様が動いた隙を付くことだな。
+> CONTEXT: Map364/events/112/pages/0/12/Dialogue
 > CONTEXT: Map364/events/112/pages/0/12/Dialogue
 \\name[\\v[2]]\\_
 If you want to have more fun, 
@@ -110,6 +132,7 @@ you should take advantage of the young lady's movements.
 \\name[\\v[2]]\\_
 闇洞窟は地獄へ繋がってるんだよ。
 ただ、闇洞窟内を暗闇にしてないと行けないんだ。
+> CONTEXT: Map364/events/113/pages/0/1/Dialogue
 > CONTEXT: Map364/events/113/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
 The dark cave is connected to hell.
@@ -122,6 +145,7 @@ unless the inside of the dark cave is dark.
 そのためには明るくしてる石を暗くする必要があるんだが、
 それを守ってる奴がまた面倒な奴さね。
 > CONTEXT: Map364/events/113/pages/0/4/Dialogue
+> CONTEXT: Map364/events/113/pages/0/4/Dialogue
 \\name[\\v[2]]\\_
 In order to do that, you need to darken the bright stones, 
 but those guarding them are tough.
@@ -130,6 +154,7 @@ but those guarding them are tough.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 だが、実は奴と戦わなくて良い術もあるのさ。
+> CONTEXT: Map364/events/113/pages/0/7/Dialogue
 > CONTEXT: Map364/events/113/pages/0/7/Dialogue
 \\name[\\v[2]]\\_
 However, there is actually a trick 

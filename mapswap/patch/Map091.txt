@@ -1,331 +1,43 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-"サンタさん"
-> CONTEXT: Map091/events/5/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map088/events/2/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map091/events/5/pages/2/1/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map091/events/5/pages/2/6/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map088/events/2/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map091/events/5/pages/4/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map088/events/2/pages/2/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map091/events/5/pages/6/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map088/events/2/pages/3/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map088/events/2/pages/4/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map088/events/2/pages/5/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map088/events/2/pages/6/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map088/events/2/pages/7/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map088/events/2/pages/8/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map088/events/2/pages/9/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map128/events/154/pages/0/16/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map128/events/154/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map088/events/9/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map088/events/9/pages/2/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map088/events/9/pages/4/0/InlineScript/1:22 < UNTRANSLATED
+"淫魔幹部アガレス"
+> CONTEXT: Map091/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map091/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map091/events/4/pages/0/55/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map091/events/4/pages/0/55/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-おぉ、戻ったか。
-そしてこの子が図書館を飛び出していった子じゃな？
-> CONTEXT: Map091/events/5/pages/0/12/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-わぁ！本物のサンタさんだ！
-> CONTEXT: Map091/events/5/pages/0/18/Dialogue < UNTRANSLATED
+来たわね……\\H
+> CONTEXT: Map091/events/4/pages/0/10/Dialogue < UNTRANSLATED
+> CONTEXT: Map091/events/4/pages/0/10/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ほっほっほっ。
-元気が良さそうでよかったわい。
-> CONTEXT: Map091/events/5/pages/0/20/Dialogue < UNTRANSLATED
+貴方の事は聞いているわ。
+私達をここまで追い詰めるなんてやるじゃない\\H
+> CONTEXT: Map091/events/4/pages/0/13/Dialogue < UNTRANSLATED
+> CONTEXT: Map091/events/4/pages/0/13/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-今度からは、雪原に一人飛び出してはいかんぞ？
-雪原は危険がいっぱいじゃからの。
-> CONTEXT: Map091/events/5/pages/0/30/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-うん、ごめんなさい。
-> CONTEXT: Map091/events/5/pages/0/33/Dialogue < UNTRANSLATED
+でも……、それも残念ながらここまで\\H
+> CONTEXT: Map091/events/4/pages/0/16/Dialogue < UNTRANSLATED
+> CONTEXT: Map091/events/4/pages/0/16/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-よし、お腹すいたじゃろう？
-ご飯を用意してあるから食べると良いぞ。
-> CONTEXT: Map091/events/5/pages/0/35/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-お主も疲れたじゃろう
-一緒に食べていくと良い。
-> CONTEXT: Map091/events/5/pages/0/40/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[4]]\\_
-は～美味かった！
-こんな腹一杯に食べたの久々だなぁ
-> CONTEXT: Map091/events/5/pages/2/11/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-ありがとうねサンタさん、それに君も\\H
-> CONTEXT: Map091/events/5/pages/2/14/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-礼には及ばんよ
-して、なぜあんなところにおったのじゃ？
-> CONTEXT: Map091/events/5/pages/2/16/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-武者修行よ
-そこの男の子に勝つために色んなところ回ってるわ
-あんなことになるなんて想定外だったけどね
-> CONTEXT: Map091/events/5/pages/2/19/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-……この辺は吹雪くこともあるからの
-今度からこの周辺を選ばないようにすると良いぞ……
-それともう一つ、お主らに聞きたいことがある
-> CONTEXT: Map091/events/5/pages/2/23/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-お主らが少年に会った場所は
-外れの方へと向かう道の中程なのじゃが
-奥地に入ったりしたかの？
-> CONTEXT: Map091/events/5/pages/2/27/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[4]]\\_
-ちらっと覗きはしたが、奥の方にはまだ入ってないな
-あたしたちが見たこと無いヤツがいたが
-もしかしてあんたはなんか知っているのか？
-> CONTEXT: Map091/events/5/pages/2/31/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-いや、ここ最近外れの方が騒がしくての
-詳しいことはまだ調査中じゃが……
-> CONTEXT: Map091/events/5/pages/2/35/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-これは一旦道を封鎖しておいたほうが良さそうじゃな
-なにかわかったら知らせるぞ
-> CONTEXT: Map091/events/5/pages/2/42/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-そうだわ、後でお礼がしたいの
-この里の外の焚き火のところで待ってるわ
-……ふふふ\\H
-> CONTEXT: Map091/events/5/pages/2/45/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ひとまずこれで大丈夫なはずじゃ。
-正直、ギリギリじゃったがな。
-このまま大人しくとれば、そのうち目を覚ますじゃろう。
-> CONTEXT: Map091/events/5/pages/4/1/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-……して、どのような経緯で保護したのじゃ？
-それとこの者はどのような人か……
-少年は何か知っていたりするかの？
-> CONTEXT: Map091/events/5/pages/4/8/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふむ……
-この者はあのちびっこの住んでいた世界の者か……
-なぜ保護した場所にいたかはわからぬと……
-> CONTEXT: Map091/events/5/pages/4/15/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-とりあえず目を覚ましたら、お主に知らせよう。
-それまでは、わしの方で見ておくからな。
-> CONTEXT: Map091/events/5/pages/4/19/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-この度はなんとお礼を申し上げればいいか……
-> CONTEXT: Map091/events/5/pages/6/2/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-なに、気にするでない。
-あんな状態の人を連れてこられたら
-この里の者なら誰だって介抱する。
-> CONTEXT: Map091/events/5/pages/6/4/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ところで、なぜあんなところにいたのじゃ？
-少年から聞いたところによると、お主はこの世界とは別の
-ハザマノセカイ？の住民とのことじゃが
-> CONTEXT: Map091/events/5/pages/6/8/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-詳しくは私も……
-あの一件の後、淫魔にやられてしまい
-気づいたら……
-> CONTEXT: Map091/events/5/pages/6/12/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふむ……
-> CONTEXT: Map091/events/5/pages/6/16/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-お主も色々と大変なことに巻き込まれてるようじゃの、
-滞在機と夢干渉のいざこざ然り、銀色の都市然り……。
-お主の力とその仲間たちのお陰でなんとかなってるようじゃが
-> CONTEXT: Map091/events/5/pages/6/22/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-あの……
-貴方はこれから淫魔軍と戦いに向かわれるんですよね？
-よろしかったら私に手伝わせてもらっても……
-> CONTEXT: Map091/events/5/pages/6/27/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-それはダメじゃ。
-お主はまだ病み上がり……。
-もっと身体を休めるべきじゃ。
-> CONTEXT: Map091/events/5/pages/6/35/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-しかし……
-> CONTEXT: Map091/events/5/pages/6/39/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-それに正気に戻ったとはいえ、お主は
-一度精神を蝕まれておる。今弱った状態で同行しても
-その淫魔とやらの気にやられ、少年の足を引っ張るだけじゃ
-> CONTEXT: Map091/events/5/pages/6/42/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-ですが私もやられっぱなしでは……！
-> CONTEXT: Map091/events/5/pages/6/46/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-少年の力になりたいのならば
-まず傷を癒やすことが先じゃ、幸いこの里には
-薬を扱える者も、医術の心得がある者もおる。
-> CONTEXT: Map091/events/5/pages/6/50/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-それにお主が少年と対峙した時は狂っておったと聞いておる
-十中八九、お主が昔戦った淫魔とやらの仕業じゃろう。
-ならちゃんと治しておいた方が自分のため少年のためじゃ。
-> CONTEXT: Map091/events/5/pages/6/55/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-…………わかりました。
-> CONTEXT: Map091/events/5/pages/6/61/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-少年はお主が思ってるよりも強い。
-お主がいた世界のゴタゴタも少年に一旦任せればよかろう。
-その間にゆっくりと休むがよい。
-> CONTEXT: Map091/events/5/pages/6/63/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-というわけでじゃ、この婦人はもうしばらくこの里で休ませる。
-こちらのことは気にせず、お主のやるべきことをやるがよい。
-> CONTEXT: Map091/events/5/pages/6/71/Dialogue < UNTRANSLATED
+ここで貴方は、このアガレス様の
+餌食になってしまうのだから……\\H
+> CONTEXT: Map091/events/4/pages/0/18/Dialogue < UNTRANSLATED
+> CONTEXT: Map091/events/4/pages/0/18/Dialogue < UNTRANSLATED
 
 > END STRING
