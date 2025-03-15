@@ -1,405 +1,651 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-サキュバス　[サキュバス種]
-> CONTEXT: Map103/events/5/pages/0/0/Dialogue < UNTRANSLATED
+SCRP_BedBattle
+> CONTEXT: Map103/bgm/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-理想の姿で夢の中に現れ、異性と交わり精を得るとされる
-悪魔の一種、「夢魔」の代表格。
-「淫魔」とも呼ばれ、女性型はサキュバスと呼ばれる。
-> CONTEXT: Map103/events/5/pages/0/1/Dialogue < UNTRANSLATED
+寸止めスキル持ち Lv.20
+・8回攻撃による焦らし攻撃
+・焦らし時一定確率で恍惚付与
+・終了時にHPが1ならレジスト攻撃
+> CONTEXT: Map103/events/2/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-人間の感じる所を熟知しており、ひとたび彼女らに身を\\_
-委ねてしまえば、\\n永遠の快楽の虜となってしまうことだろう。
-> CONTEXT: Map103/events/5/pages/0/4/Dialogue < UNTRANSLATED
+←旧仕様　新仕様→
+
+新仕様は攻撃回数と口上を
+Special_talkで管理
+> CONTEXT: Map103/events/2/pages/0/4/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-レッサーサキュバス　[サキュバス種]
-> CONTEXT: Map103/events/8/pages/0/0/Dialogue < UNTRANSLATED
+入れ替え
+> CONTEXT: Map103/events/3/pages/0/19/Choice/1 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-まだ弱く、サキュバスとしての実力は出せていない\\_
-サキュバス。
-身体の感度が非常に高く、一般人でもまだ抵抗ができる。
-> CONTEXT: Map103/events/8/pages/0/1/Dialogue < UNTRANSLATED
+強制ホールド腰振り Lv.20
+> CONTEXT: Map103/events/6/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-経験を詰むことで徐々に体が慣れていくが、それに伴って\\_
-感度も落ち着き、
-個体にあった体に成長していく。
-> CONTEXT: Map103/events/8/pages/0/4/Dialogue < UNTRANSLATED
+エンブレイスからのラッシュ Lv.20
+> CONTEXT: Map103/events/7/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-<サキュバス種\>
-全体的に高水準なステータスを持ち、戦闘では\\_
-高い安定感を誇る種族。
-> CONTEXT: Map103/events/9/pages/0/0/Dialogue < UNTRANSLATED
+二人がかりでとろっとろに Lv.20＋Lv.15
+> CONTEXT: Map103/events/10/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-特に安定して高い快感を与えられることが彼女らの\\_
-強みであり、
-パーティでは攻めの主軸となってくれることだろう。
-ホールドスキルも多数習得する。
-> CONTEXT: Map103/events/9/pages/0/3/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-夢魔の代表格とだけあって空腹になりやすく、吸精量も多い。
-上位の夢魔であるほど、それらも顕著になるため、
-ランクアップする場合は気をつけるべきだろう。
-> CONTEXT: Map103/events/9/pages/0/7/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-インプ　[デビル種]
-> CONTEXT: Map103/events/11/pages/0/0/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-夢世界に紛れ込んでいる小悪魔。
-悪戯好きで、夢世界に紛れ込んだ人間を惑わしては\\_
-遊んでいる。
-> CONTEXT: Map103/events/11/pages/0/1/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-単体ではそこまで脅威ではないものの、
-「群れ」を成したインプの襲来は非常に危険である。
-> CONTEXT: Map103/events/11/pages/0/4/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-デビル　[デビル種]
-> CONTEXT: Map103/events/12/pages/0/0/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-人間を誑かし堕落させる、一般的な悪魔。
-人間の下等な本性や罪深さの象徴であり、\\_
-人間からは畏怖されている。
-> CONTEXT: Map103/events/12/pages/0/1/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-夢世界では夢魔として強引に人間へ襲いかかり、精を奪う。
-> CONTEXT: Map103/events/12/pages/0/4/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-自室に戻りますか？
+フリールームに戻りますか？
 > CONTEXT: Map103/events/14/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-<デビル種\>
-攻めも魔法も多数こなせ、戦闘では様々な役割を持てる\\_
-種族。
-> CONTEXT: Map103/events/15/pages/0/0/Dialogue < UNTRANSLATED
+ラビスと戦いますか？
+> CONTEXT: Map103/events/16/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-下位種であるインプは素早さ以外の\\_
-ステータスはあまり高くない。
-しかし、ランクアップしてデビルとなると、素早さは落ちるが\\_
-ステータスに\\n安定感が現れる。
-> CONTEXT: Map103/events/15/pages/0/3/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-インプの頃はまだそれほどでもないが、\\_
-彼女らも悪魔の例に漏れず
-傲慢で貪欲であり、要求する精の量は多い。
-> CONTEXT: Map103/events/15/pages/0/7/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-プチウィッチ　[ウィッチ種]
-> CONTEXT: Map103/events/20/pages/0/0/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-超常的な力を操る魔女の見習い。
-学問に追われる見習いの身であり、情事には\\_
-興味津々なものの、
-多くの場合技術は育っていない。
-> CONTEXT: Map103/events/20/pages/0/1/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-ウィッチ　[ウィッチ種]
+アガレスと戦いますか？
 > CONTEXT: Map103/events/21/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-超自然的な力を操ることができる人間の女性。
-全てを救済する力にもなれば、災害を呼び起こす力にも\\_
-なる、
-人間にとっては身近で畏敬の存在。
-> CONTEXT: Map103/events/21/pages/0/1/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-<ウィッチ種\>
-多くの魔法を習得し、それらを利用した攻めを得意とする\\_
-種族。
-> CONTEXT: Map103/events/22/pages/0/0/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-ステータス強化や状態異常の付与など、相手や戦況によって
-様々な魔法を駆使して立ちまわれるのが強み。
-精神力も高く、魔法の効力も高い。
-> CONTEXT: Map103/events/22/pages/0/3/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-反面、素早さや耐久力にあまり優れておらず、\\_
-与える快感は素の状態では低め。
-魔法を前提とした戦闘となるため、VP消費が荒くなり\\_
-がちで、息切れが早い。
-> CONTEXT: Map103/events/22/pages/0/6/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-"図鑑妖精"
+"メタ妖精"
 > CONTEXT: Map103/events/23/pages/0/0/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-やぁ物好き。
-ここは夢魔の記録を情報している場所さ。
+ここはMODの試作段階のものがある空間さ。
 > CONTEXT: Map103/events/23/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-契約にしたことのある夢魔は台座の上に現れるんだ。
-黄色の水晶でその夢魔の情報を見ることができるよ。
-> CONTEXT: Map103/events/23/pages/0/4/Dialogue < UNTRANSLATED
+まだ実装出来る状態じゃないけど
+それでもよければ楽しんでいくといいさ。
+> CONTEXT: Map103/events/23/pages/0/3/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[2]]\\_
-ちなみにその夢魔の種族を一人でも契約したことあれば、
-横の青い水晶で種族ごとの情報を見ることもできるのさ。
-> CONTEXT: Map103/events/23/pages/0/7/Dialogue < UNTRANSLATED
+アウローラと戦いますか？
+> CONTEXT: Map103/events/24/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[2]]\\_
-さぁ少年、目指すはコンプリートだ！
-> CONTEXT: Map103/events/23/pages/0/10/Dialogue < UNTRANSLATED
+ベルカ・ベルナと戦いますか？
+> CONTEXT: Map103/events/26/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map103/events/32/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-キャスト　[キャスト種]
+デバッグ用アイテムを入手します。
+> CONTEXT: Map103/events/29/pages/0/5/Dialogue
+> CONTEXT: Commonevents/12/17/Dialogue
+Get debugging items.
+> END STRING
+
+> BEGIN STRING
+アルミルスと戦いますか？
 > CONTEXT: Map103/events/30/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-夢に現れた普通の人間の女性。
-恥じらう様子を見せるものの、性に対しては多少積極的。
-> CONTEXT: Map103/events/30/pages/0/1/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-ほとんどの人間は、小型の魔法であれば子供でも\\_
-習得が可能である。
-そのため、彼女も少しばかりは魔法を使用できる。
-> CONTEXT: Map103/events/30/pages/0/3/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-<キャスト種\>
-戦闘では非力だが、フィールド上で活きる能力を持つ種族。
+カーリーと戦いますか？
 > CONTEXT: Map103/events/31/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-探索型種族としては回復系のものを厚く習得する。
-癖がなく、探索では常にパーティを支えてくれる。
-> CONTEXT: Map103/events/31/pages/0/2/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-探索型種族として、空腹率と吸精量が非常に低い。
-パーティに組み込みやすいものの、戦力にはあまり期待\\_
-できない。
-> CONTEXT: Map103/events/31/pages/0/4/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-ナイトメア　[ナイトメア種]
+シェムハザと戦いますか？
 > CONTEXT: Map103/events/33/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-悪夢を体現させる夢魔。
-夢世界では人間に悪夢を見せ、\\_
-精神を蝕みながら快感を与ることで、
-正常な思考をさせないまま堕落させる。
-> CONTEXT: Map103/events/33/pages/0/1/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-サキュバスと同様、夢世界で生まれ、
-見るものの感情を煽る存在。
-> CONTEXT: Map103/events/33/pages/0/5/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-<ナイトメア種\>
-多彩な状態異常を得意とし、搦め手を専門とする種族。
+ネフィリムと戦いますか？
 > CONTEXT: Map103/events/34/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-状態異常の多くは癖の強いものが多いが、
-使いこなせば戦況を大きく有利にできるだろう。
-素早さも高く、相手が動くより先に状態異常を付与できる。
-> CONTEXT: Map103/events/34/pages/0/2/Dialogue < UNTRANSLATED
+ノーブルの姿が見える……。
+> CONTEXT: Map103/events/35/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-精力や器用さは低く、攻撃性能は高くない。
-> CONTEXT: Map103/events/34/pages/0/5/Dialogue < UNTRANSLATED
+ノーブルと戦いますか？
+> CONTEXT: Map103/events/35/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-スライム　[スライム種]
-> CONTEXT: Map103/events/36/pages/0/0/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-魔物『スライム』の特徴を持つ夢魔。\\_
-粘体の体で女性の姿を形作っている。
-> CONTEXT: Map103/events/36/pages/0/1/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-動きは緩慢だが、粘液に捕われれば逃げられず、\\_
-溶かすように精を搾取する。
-恐らく、現実世界のスライムよりも強い。
-> CONTEXT: Map103/events/36/pages/0/3/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-<スライム種\>
-高い耐久力と攻撃性能を持つ種族。
+ゼラチナスキューブと戦いますか？
 > CONTEXT: Map103/events/37/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-粘液の体は潤滑率をハイペースで高める事ができ、
-クロッチやシェルマッチのような潤滑率が高いほど威力の\\_
-上がるものは、
-早くその効果が現れる。
-> CONTEXT: Map103/events/37/pages/0/2/Dialogue < UNTRANSLATED
+セイレーンと戦いますか？
+> CONTEXT: Map103/events/38/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-素早さが致命的に低く、要求する精の量もそこそこ高い\\_
-のが弱点。
-> CONTEXT: Map103/events/37/pages/0/6/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-<ファミリア種\>
-探索で有用な素質を修得する種族。
-> CONTEXT: Map103/events/40/pages/0/0/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-「クッキング」を早期から習得し、食材調達ができていれば
-パーティを癒やし、一時的に能力値を上げることもできる。
-その他、ダンジョン中の危険を減らす素質を多く習得する。
-> CONTEXT: Map103/events/40/pages/0/2/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-探索型種族の常であるが、戦闘では頼りにならない。
-しかし、ファミリアの一部には危険な者がいるらしい。
-> CONTEXT: Map103/events/40/pages/0/5/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-ファミリア　[ファミリア種]
+こちらは口上製作者向けルームです。
+ネタバレになりますが、よろしいですか？
 > CONTEXT: Map103/events/41/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-上位の悪魔や時に魔法使いに仕え、
-給仕や家事労働を行う使用人の小悪魔。
-> CONTEXT: Map103/events/41/pages/0/1/Dialogue < UNTRANSLATED
+この先に行く者は一切の希望を捨てよ。
+（『マレブランケ』のネタバレになりますが、
+よろしいですか？）
+> CONTEXT: Map103/events/48/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-主人に対しては基本的に従順ではあるが、\\_
-彼女らも悪魔であり、
-時には情事などから主人を陥れ、立場が逆転する事もある。
-> CONTEXT: Map103/events/41/pages/0/3/Dialogue < UNTRANSLATED
+ファルファレルロと戦いますか？
+> CONTEXT: Map103/events/49/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファルファレルロと戦う
+> CONTEXT: Map103/events/49/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+強化ファルファレルロと戦う
+> CONTEXT: Map103/events/49/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リビコッコと戦いますか？
+> CONTEXT: Map103/events/50/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リビコッコと戦う
+> CONTEXT: Map103/events/50/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+強化リビコッコと戦う
+> CONTEXT: Map103/events/50/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カニャッツォと戦いますか？
+> CONTEXT: Map103/events/51/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カニャッツォと戦う
+> CONTEXT: Map103/events/51/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+強化カニャッツォと戦う
+> CONTEXT: Map103/events/51/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グラッフィアカーネの姿が見える……。
+> CONTEXT: Map103/events/52/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グラッフィアカーネと戦いますか？
+> CONTEXT: Map103/events/52/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グラッフィアカーネと戦う
+> CONTEXT: Map103/events/52/pages/0/2/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+強化グラッフィアカーネと戦う
+> CONTEXT: Map103/events/52/pages/0/2/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+チリアットと戦いますか？
+> CONTEXT: Map103/events/53/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+チリアットと戦う
+> CONTEXT: Map103/events/53/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+強化チリアットと戦う
+> CONTEXT: Map103/events/53/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アリキーノと戦いますか？
+> CONTEXT: Map103/events/54/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アリキーノと戦う
+> CONTEXT: Map103/events/54/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+強化アリキーノと戦う
+> CONTEXT: Map103/events/54/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マラコーダの姿が見える……。
+> CONTEXT: Map103/events/55/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マラコーダと戦いますか？
+> CONTEXT: Map103/events/55/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カルカブリーナの姿が見える……。
+> CONTEXT: Map103/events/56/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カルカブリーナと戦いますか？
+> CONTEXT: Map103/events/56/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カルカブリーナと戦う
+> CONTEXT: Map103/events/56/pages/0/3/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+強化カルカブリーナと戦う
+> CONTEXT: Map103/events/56/pages/0/3/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スカルミリオーネと戦いますか？
+> CONTEXT: Map103/events/57/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スカルミリオーネと戦う
+> CONTEXT: Map103/events/57/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+強化スカルミリオーネと戦う
+> CONTEXT: Map103/events/57/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+バルバリッチャの姿が見える……。
+> CONTEXT: Map103/events/58/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+バルバリッチャと戦いますか？
+> CONTEXT: Map103/events/58/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ルビカンテの姿が見える……。
+> CONTEXT: Map103/events/59/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ルビカンテと戦いますか？
+> CONTEXT: Map103/events/59/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ルビカンテと戦う
+> CONTEXT: Map103/events/59/pages/0/2/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+強化ルビカンテと戦う
+> CONTEXT: Map103/events/59/pages/0/2/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+個性的Zと戦う
+> CONTEXT: Map103/events/59/pages/0/2/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カンビアーレの姿が見える……。
+> CONTEXT: Map103/events/60/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カンビアーレと戦いますか？
+> CONTEXT: Map103/events/60/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+タレイアの姿が見える……。
+> CONTEXT: Map103/events/63/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+タレイアと戦いますか？
+> CONTEXT: Map103/events/63/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エウプロシュネーの姿が見える……。
+> CONTEXT: Map103/events/64/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エウプロシュネーと戦いますか？
+> CONTEXT: Map103/events/64/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アグライアーの姿が見える……。
+> CONTEXT: Map103/events/65/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アグライアーと戦いますか？
+> CONTEXT: Map103/events/65/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ニューオメガの姿が見える……。
+> CONTEXT: Map103/events/66/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ニューオメガと戦いますか？
+> CONTEXT: Map103/events/66/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ジャヒーの姿が見える……。
+> CONTEXT: Map103/events/67/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ジャヒーと戦いますか？
+> CONTEXT: Map103/events/67/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+タレイア、エウプロシュネー、アグライアー
+の姿が見える……。
+> CONTEXT: Map103/events/68/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+三姉妹たちと戦いますか？
+> CONTEXT: Map103/events/68/pages/0/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+磔にされたスルガトと戦いますか？
+> CONTEXT: Map103/events/69/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+オノスケリスの姿が見える……。
+> CONTEXT: Map103/events/70/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+オノスケリスと戦いますか？
+> CONTEXT: Map103/events/70/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+オノスケリス達と戦う
+> CONTEXT: Map103/events/70/pages/0/2/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カンビオンの姿が見える……。
+> CONTEXT: Map103/events/71/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カンビオンと戦いますか？
+> CONTEXT: Map103/events/71/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+善狐の姿が見える……。
+> CONTEXT: Map103/events/72/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+善狐と戦いますか？
+> CONTEXT: Map103/events/72/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+茨木童子の姿が見える……。
+> CONTEXT: Map103/events/73/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+茨木童子と戦いますか？
+> CONTEXT: Map103/events/73/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イヅナの姿が見える……。
+> CONTEXT: Map103/events/74/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イヅナと戦いますか？
+> CONTEXT: Map103/events/74/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドラギニャッツォと戦いますか？
+> CONTEXT: Map103/events/75/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドラギニャッツォと戦う
+> CONTEXT: Map103/events/75/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+強化ドラギニャッツォと戦う
+> CONTEXT: Map103/events/75/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アズライグとグウィバーの姿が見える……。
+> CONTEXT: Map103/events/76/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+戦いますか？
+> CONTEXT: Map103/events/76/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アズライグと戦う
+> CONTEXT: Map103/events/76/pages/0/2/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グウィバーと戦う
+> CONTEXT: Map103/events/76/pages/0/2/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+2人と戦う
+> CONTEXT: Map103/events/76/pages/0/2/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グレムリンと戦いますか？
+> CONTEXT: Map103/events/77/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カイン＆アベルと戦いますか？
+> CONTEXT: Map103/events/78/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アンテノーラと戦いますか？
+> CONTEXT: Map103/events/79/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トロメーアと戦いますか？
+> CONTEXT: Map103/events/80/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ジュデッカと戦いますか？
+> CONTEXT: Map103/events/81/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+金華猫と戦いますか？
+> CONTEXT: Map103/events/82/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔縁と戦いますか？
+> CONTEXT: Map103/events/83/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+荒れ果てた村に移動しますか？
+> CONTEXT: Map103/events/84/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"Poison_Swamp"
+> CONTEXT: Map103/events/84/pages/0/7/InlineScript/1:27 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+時計塔に移動しますか？
+> CONTEXT: Map103/events/85/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"Clock_Tower"
+> CONTEXT: Map103/events/85/pages/0/7/InlineScript/1:27 < UNTRANSLATED
 
 > END STRING

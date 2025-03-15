@@ -1,0 +1,83 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+ニンジンを手に入れた。
+> CONTEXT: Map744/events/3/pages/0/0/Dialogue
+> CONTEXT: Map744/events/4/pages/0/0/Dialogue
+> CONTEXT: Map744/events/12/pages/0/0/Dialogue
+> CONTEXT: Map744/events/14/pages/0/0/Dialogue
+Got a carrot.
+> END STRING
+
+> BEGIN STRING
+"うさぎ？"
+> CONTEXT: Map744/events/5/pages/0/0/InlineScript/1:22
+"Rabbit?"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+グーグー…
+> CONTEXT: Map744/events/5/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+Gugu...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あり…がと…
+ムシャ…ムシャ…
+ムシャムシャムシャムシャ…
+> CONTEXT: Map744/events/5/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+Thanks...
+Munch... munch...
+Munch munch munch munch...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ごちそうさま
+> CONTEXT: Map744/events/5/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+Thank you for the meal
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ニンジンをおくれ…
+五個…この階に…
+おなかが…むぐぐ…
+> CONTEXT: Map744/events/5/pages/0/31/Dialogue
+\\name[\\v[2]]\\_
+Give me some carrots...
+Five...on this floor...
+My stomach...grrr...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+むぐぐ…
+> CONTEXT: Map744/events/5/pages/0/38/Dialogue
+\\name[\\v[2]]\\_
+Mmhmm...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なんでお茶請けがにんじんなのかしら？
+> CONTEXT: Map744/events/6/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I wonder why carrots are served with tea?
+> END STRING
+
+> BEGIN STRING
+ピアノの上にニンジンが置いてある…
+> CONTEXT: Map744/events/11/pages/0/1/Dialogue
+There's a carrot on the piano...
+> END STRING
+
+> BEGIN STRING
+ニンジンを手に入れた
+> CONTEXT: Map744/events/11/pages/0/72/Dialogue
+Got a carrot
+> END STRING

@@ -1,32 +1,85 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-スライムの粘液が付いて上手く移動できなくなってしまった！
-> CONTEXT: Commonevents/58/71/Dialogue < UNTRANSLATED
-> CONTEXT: Map015/events/3/pages/0/43/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+このあたりの動物はどいつもこいつも
+信用ならないから気を付けろ。
+> CONTEXT: Map015/events/3/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Be careful, none of the animals around here can be trusted.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-や、やぁ君。
+信じられるのは犬ぐらいだ。
+> CONTEXT: Map015/events/3/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+The only one you can trust is a dog.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やぁ君。
 僕のすぐ先にいる、如何にも危なそうな夢魔は見えるかい？
-> CONTEXT: Map015/events/47/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map015/events/47/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hey, can you see that 
+dangerous-looking succubus just ahead of me?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ああいう夢魔たちの事を僕たちは
-「O･F･E（Over・Fascinate・Enemy）」と呼んでいる。
-> CONTEXT: Map015/events/47/pages/0/4/Dialogue < UNTRANSLATED
-
+知ってると思うがああいう夢魔たちは
+「O･F･E」と呼ばれている。
+> CONTEXT: Map015/events/47/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+As you probably know, 
+those kinds of succubi are called "O.F.E."
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-たまには家のベッドで休んだら？　気持ちいいもんだよ。
-> CONTEXT: Map015/events/63/pages/0/1/Dialogue < UNTRANSLATED
+だがここにいるOFEは普通じゃない。
+絶対に関わってはいけないんだ。
+> CONTEXT: Map015/events/47/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+But the OFE here aren't normal.
+You mustn't get involved.
+> END STRING
 
+> BEGIN STRING
+\\name[\\v[2]]\\_
+捕まったら最後・・・
+精根尽きるまで搾り取られるんだ
+> CONTEXT: Map015/events/47/pages/0/10/Dialogue
+\\name[\\v[2]]\\_
+If you get caught, it's all over...
+You'll be milked to the last drop of energy
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+決して振りじゃないからな。
+絶対に関わるなよ。
+> CONTEXT: Map015/events/47/pages/0/13/Dialogue
+\\name[\\v[2]]\\_
+I'm not kidding.
+Don't get involved under any circumstances.
+> END STRING
+
+> BEGIN STRING
+"麦わらのおじさん"
+> CONTEXT: Map015/events/63/pages/0/0/InlineScript/1:22
+"Straw Hat Man"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここから先は夢魔の力で封じられてるよ。
+ここらのボスを倒せば開くんじゃないかな？
+> CONTEXT: Map015/events/63/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+From here onwards, it's sealed off by the power of the succubi.
+I think it will open if you defeat the bosses around here?
 > END STRING
 
 > BEGIN STRING
@@ -82,12 +135,6 @@ When your EP is low, take a deep breath and calm down!
 > CONTEXT: Map015/events/69/pages/0/8/Dialogue
 \\name[\\v[2]]\\_
 You can use it from the status screen even on the map!
-> END STRING
-
-> BEGIN STRING
-"犬"
-> CONTEXT: Map015/events/70/pages/0/0/InlineScript/1:22
-"Dog"
 > END STRING
 
 > BEGIN STRING

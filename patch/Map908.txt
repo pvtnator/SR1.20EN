@@ -1,0 +1,920 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+古い実験施設
+> CONTEXT: Map908/bgm/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"住人"
+> CONTEXT: Map914/events/2/pages/1/29/InlineScript/1:22
+> CONTEXT: Map908/events/1/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/2/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/6/pages/0/0/InlineScript/1:22
+> CONTEXT: Map902/events/12/pages/0/0/InlineScript/1:22
+> CONTEXT: Map901/events/9/pages/0/0/InlineScript/1:22
+> CONTEXT: Map901/events/10/pages/0/0/InlineScript/1:22
+> CONTEXT: Map901/events/13/pages/0/0/InlineScript/1:22
+> CONTEXT: Map901/events/16/pages/0/0/InlineScript/1:22
+> CONTEXT: Map901/events/17/pages/0/0/InlineScript/1:22
+> CONTEXT: Map902/events/33/pages/0/0/InlineScript/1:22
+> CONTEXT: Map896/events/11/pages/0/0/InlineScript/1:22
+> CONTEXT: Map898/events/17/pages/2/0/InlineScript/1:22
+> CONTEXT: Map756/events/11/pages/0/0/InlineScript/1:22
+> CONTEXT: Map756/events/13/pages/0/0/InlineScript/1:22
+> CONTEXT: Map756/events/38/pages/0/0/InlineScript/1:22
+> CONTEXT: Map735/events/6/pages/0/0/InlineScript/1:22
+> CONTEXT: Map735/events/7/pages/0/0/InlineScript/1:22
+> CONTEXT: Map735/events/7/pages/1/0/InlineScript/1:22
+> CONTEXT: Map734/events/7/pages/0/0/InlineScript/1:22
+> CONTEXT: Map735/events/7/pages/2/0/InlineScript/1:22
+> CONTEXT: Map734/events/8/pages/0/0/InlineScript/1:22
+> CONTEXT: Map735/events/28/pages/0/0/InlineScript/1:22
+> CONTEXT: Map707/events/37/pages/0/1/InlineScript/1:22
+> CONTEXT: Map707/events/38/pages/0/1/InlineScript/1:22
+> CONTEXT: Map707/events/39/pages/0/1/InlineScript/1:22
+> CONTEXT: Map707/events/40/pages/0/1/InlineScript/1:22
+> CONTEXT: Map707/events/44/pages/0/1/InlineScript/1:22
+> CONTEXT: Map694/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Map694/events/6/pages/0/0/InlineScript/1:22
+> CONTEXT: Map691/events/26/pages/0/1/InlineScript/1:22
+> CONTEXT: Map679/events/1/pages/0/0/InlineScript/1:22
+> CONTEXT: Map679/events/2/pages/0/0/InlineScript/1:22
+> CONTEXT: Map679/events/9/pages/0/0/InlineScript/1:22
+> CONTEXT: Map679/events/10/pages/0/0/InlineScript/1:22
+> CONTEXT: Map678/events/18/pages/0/0/InlineScript/1:22
+> CONTEXT: Map679/events/11/pages/0/0/InlineScript/1:22
+> CONTEXT: Map678/events/19/pages/0/0/InlineScript/1:22
+> CONTEXT: Map679/events/14/pages/0/0/InlineScript/1:22
+> CONTEXT: Map679/events/15/pages/0/0/InlineScript/1:22
+> CONTEXT: Map678/events/21/pages/0/0/InlineScript/1:22
+> CONTEXT: Map679/events/16/pages/0/0/InlineScript/1:22
+> CONTEXT: Map678/events/22/pages/0/0/InlineScript/1:22
+> CONTEXT: Map679/events/17/pages/0/0/InlineScript/1:22
+> CONTEXT: Map675/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map678/events/23/pages/0/0/InlineScript/1:22
+> CONTEXT: Map678/events/24/pages/0/0/InlineScript/1:22
+> CONTEXT: Map674/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Map671/events/1/pages/0/0/InlineScript/1:22
+> CONTEXT: Map678/events/25/pages/0/0/InlineScript/1:22
+> CONTEXT: Map674/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map670/events/1/pages/0/0/InlineScript/1:22
+> CONTEXT: Map671/events/2/pages/0/0/InlineScript/1:22
+> CONTEXT: Map673/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map670/events/2/pages/0/0/InlineScript/1:22
+> CONTEXT: Map673/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Map670/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Map670/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map668/events/15/pages/0/0/InlineScript/1:22
+> CONTEXT: Map668/events/16/pages/0/0/InlineScript/1:22
+> CONTEXT: Map669/events/8/pages/0/0/InlineScript/1:22
+> CONTEXT: Map670/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Map670/events/6/pages/0/0/InlineScript/1:22
+> CONTEXT: Map654/events/1/pages/0/0/InlineScript/1:22
+> CONTEXT: Map657/events/13/pages/0/0/InlineScript/1:22
+> CONTEXT: Map654/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Map653/events/12/pages/0/0/InlineScript/1:22
+> CONTEXT: Map653/events/14/pages/0/0/InlineScript/1:22
+> CONTEXT: Map650/events/2/pages/0/0/InlineScript/1:22
+> CONTEXT: Map653/events/16/pages/0/0/InlineScript/1:22
+> CONTEXT: Map654/events/18/pages/0/0/InlineScript/1:22
+> CONTEXT: Map648/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map644/events/2/pages/0/0/InlineScript/1:22
+> CONTEXT: Map652/events/7/pages/0/0/InlineScript/1:22
+> CONTEXT: Map652/events/8/pages/0/0/InlineScript/1:22
+> CONTEXT: Map644/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map652/events/9/pages/0/0/InlineScript/1:22
+> CONTEXT: Map652/events/10/pages/0/0/InlineScript/1:22
+> CONTEXT: Map645/events/19/pages/0/1/InlineScript/1:22
+> CONTEXT: Map642/events/1/pages/0/1/InlineScript/1:22
+> CONTEXT: Map645/events/20/pages/0/1/InlineScript/1:22
+> CONTEXT: Map652/events/11/pages/0/0/InlineScript/1:22
+> CONTEXT: Map643/events/6/pages/0/0/InlineScript/1:22
+> CONTEXT: Map645/events/21/pages/0/1/InlineScript/1:22
+> CONTEXT: Map644/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Map652/events/12/pages/0/0/InlineScript/1:22
+> CONTEXT: Map645/events/22/pages/0/1/InlineScript/1:22
+> CONTEXT: Map643/events/7/pages/0/0/InlineScript/1:22
+> CONTEXT: Map645/events/23/pages/0/1/InlineScript/1:22
+> CONTEXT: Map642/events/7/pages/0/1/InlineScript/1:22
+> CONTEXT: Map645/events/24/pages/0/1/InlineScript/1:22
+> CONTEXT: Map643/events/9/pages/0/0/InlineScript/1:22
+> CONTEXT: Map642/events/8/pages/0/1/InlineScript/1:22
+> CONTEXT: Map644/events/7/pages/0/0/InlineScript/1:22
+> CONTEXT: Map652/events/14/pages/0/0/InlineScript/1:22
+> CONTEXT: Map642/events/9/pages/0/1/InlineScript/1:22
+> CONTEXT: Map644/events/8/pages/0/0/InlineScript/1:22
+> CONTEXT: Map642/events/10/pages/0/1/InlineScript/1:22
+> CONTEXT: Map641/events/52/pages/1/1/InlineScript/1:22
+> CONTEXT: Map642/events/11/pages/0/1/InlineScript/1:22
+> CONTEXT: Map642/events/12/pages/0/1/InlineScript/1:22
+> CONTEXT: Map645/events/28/pages/0/1/InlineScript/1:22
+> CONTEXT: Map642/events/13/pages/0/1/InlineScript/1:22
+> CONTEXT: Map645/events/29/pages/0/1/InlineScript/1:22
+> CONTEXT: Map652/events/36/pages/0/0/InlineScript/1:22
+> CONTEXT: Map644/events/11/pages/0/0/InlineScript/1:22
+> CONTEXT: Map645/events/32/pages/0/1/InlineScript/1:22
+> CONTEXT: Map642/events/15/pages/0/1/InlineScript/1:22
+> CONTEXT: Map652/events/36/pages/1/0/InlineScript/1:22
+> CONTEXT: Map642/events/16/pages/0/1/InlineScript/1:22
+> CONTEXT: Map645/events/33/pages/0/1/InlineScript/1:22
+> CONTEXT: Map644/events/12/pages/0/0/InlineScript/1:22
+> CONTEXT: Map642/events/17/pages/0/1/InlineScript/1:22
+> CONTEXT: Map645/events/34/pages/0/1/InlineScript/1:22
+> CONTEXT: Map642/events/18/pages/0/1/InlineScript/1:22
+> CONTEXT: Map645/events/35/pages/0/1/InlineScript/1:22
+> CONTEXT: Map645/events/38/pages/0/1/InlineScript/1:22
+> CONTEXT: Map645/events/39/pages/0/1/InlineScript/1:22
+> CONTEXT: Map641/events/70/pages/0/1/InlineScript/1:22
+> CONTEXT: Map645/events/40/pages/0/1/InlineScript/1:22
+> CONTEXT: Map642/events/41/pages/0/1/InlineScript/1:22
+> CONTEXT: Map645/events/41/pages/0/1/InlineScript/1:22
+> CONTEXT: Map641/events/90/pages/1/12/InlineScript/1:22
+> CONTEXT: Map641/events/105/pages/0/1/InlineScript/1:22
+> CONTEXT: Map647/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Map647/events/6/pages/0/0/InlineScript/1:22
+> CONTEXT: Map647/events/7/pages/0/0/InlineScript/1:22
+> CONTEXT: Map641/events/106/pages/0/1/InlineScript/1:22
+> CONTEXT: Map647/events/8/pages/0/0/InlineScript/1:22
+> CONTEXT: Map647/events/10/pages/0/0/InlineScript/1:22
+> CONTEXT: Map641/events/112/pages/0/1/InlineScript/1:22
+> CONTEXT: Map641/events/112/pages/1/1/InlineScript/1:22
+> CONTEXT: Map641/events/113/pages/0/1/InlineScript/1:22
+> CONTEXT: Map573/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map573/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Map573/events/8/pages/0/0/InlineScript/1:22
+> CONTEXT: Map641/events/153/pages/0/1/InlineScript/1:22
+> CONTEXT: Map641/events/153/pages/1/1/InlineScript/1:22
+> CONTEXT: Map641/events/154/pages/0/1/InlineScript/1:22
+> CONTEXT: Map641/events/154/pages/1/1/InlineScript/1:22
+> CONTEXT: Map641/events/156/pages/0/1/InlineScript/1:22
+> CONTEXT: Map641/events/157/pages/0/1/InlineScript/1:22
+> CONTEXT: Map641/events/159/pages/0/1/InlineScript/1:22
+> CONTEXT: Map641/events/160/pages/0/1/InlineScript/1:22
+> CONTEXT: Map641/events/160/pages/1/1/InlineScript/1:22
+> CONTEXT: Map641/events/161/pages/0/1/InlineScript/1:22
+> CONTEXT: Map641/events/162/pages/0/1/InlineScript/1:22
+> CONTEXT: Map641/events/163/pages/0/1/InlineScript/1:22
+> CONTEXT: Map641/events/166/pages/0/1/InlineScript/1:22
+> CONTEXT: Map641/events/187/pages/0/1/InlineScript/1:22
+> CONTEXT: Map641/events/203/pages/0/1/InlineScript/1:22
+> CONTEXT: Map641/events/206/pages/0/1/InlineScript/1:22
+> CONTEXT: Map641/events/208/pages/0/1/InlineScript/1:22
+> CONTEXT: Map641/events/209/pages/0/1/InlineScript/1:22
+> CONTEXT: Map641/events/211/pages/0/1/InlineScript/1:22
+> CONTEXT: Map256/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map109/events/7/pages/0/0/InlineScript/1:22
+> CONTEXT: Map109/events/9/pages/0/0/InlineScript/1:22
+> CONTEXT: Map109/events/11/pages/0/0/InlineScript/1:22
+> CONTEXT: Map109/events/15/pages/0/0/InlineScript/1:22
+> CONTEXT: Map089/events/9/pages/0/0/InlineScript/1:22
+> CONTEXT: Map086/events/18/pages/0/0/InlineScript/1:22
+> CONTEXT: Map083/events/13/pages/0/0/InlineScript/1:22
+> CONTEXT: Map083/events/13/pages/1/0/InlineScript/1:22
+> CONTEXT: Map066/events/10/pages/0/0/InlineScript/1:22
+> CONTEXT: Map066/events/12/pages/0/0/InlineScript/1:22
+> CONTEXT: Map064/events/2/pages/0/0/InlineScript/1:22
+> CONTEXT: Map066/events/14/pages/0/0/InlineScript/1:22
+> CONTEXT: Map064/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Map066/events/27/pages/0/0/InlineScript/1:22
+> CONTEXT: Map066/events/75/pages/0/0/InlineScript/1:22
+> CONTEXT: Map083/events/22/pages/0/0/InlineScript/1:22
+> CONTEXT: Map083/events/22/pages/1/0/InlineScript/1:22
+> CONTEXT: Map083/events/23/pages/0/0/InlineScript/1:22
+> CONTEXT: Map083/events/23/pages/1/0/InlineScript/1:22
+"Resident"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ぁ…ぁ………ぁ…
+> CONTEXT: Map908/events/1/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Ah...ah...ah...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ウィヒ…っ……・・ヒヒヒヒ……ッ…
+> CONTEXT: Map908/events/2/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Whhhh... hehehehe...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+うー………ぁぁ………
+> CONTEXT: Map908/events/3/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Uhh....Ahhh....
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……………
+> CONTEXT: Map908/events/4/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map723/events/3/pages/3/35/Dialogue < UNTRANSLATED
+> CONTEXT: Map707/events/45/pages/0/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ギギ……ぎっ……いぃぃい……
+> CONTEXT: Map908/events/5/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Gigi...gig...ahhhhh...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ぁぁぁあぁぁ……ぁぁ……
+> CONTEXT: Map908/events/6/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Ahhhhhh....ahhh...
+> END STRING
+
+> BEGIN STRING
+"古参夢魔"
+> CONTEXT: Map908/events/7/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/8/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/9/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/10/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/11/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/13/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/14/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/15/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/16/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/17/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/18/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/19/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/20/pages/0/0/InlineScript/1:22
+> CONTEXT: Map913/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/29/pages/0/0/InlineScript/1:22
+> CONTEXT: Map913/events/4/pages/1/0/InlineScript/1:22
+> CONTEXT: Map908/events/31/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/32/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/33/pages/0/0/InlineScript/1:22
+> CONTEXT: Map913/events/4/pages/2/0/InlineScript/1:22
+> CONTEXT: Map913/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/35/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/36/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/37/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/37/pages/1/0/InlineScript/1:22
+> CONTEXT: Map908/events/38/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/38/pages/1/0/InlineScript/1:22
+> CONTEXT: Map908/events/41/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/42/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/43/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/49/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/50/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/53/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/54/pages/0/0/InlineScript/1:22
+"Veteran Succubus"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この量が適量限界ですかねー
+メモメモ…っと
+> CONTEXT: Map908/events/7/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I wonder if this amount is the right amount.
+Make a note...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+効率を極めていけば1の消費で
+10や20の効果を得られるはず……
+もっと切り詰めていかないと…
+> CONTEXT: Map908/events/8/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+If we can maximize efficiency, 
+we should be able to get 10% or 20% of the effect with 1%...
+We need to cut back even more...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+点滴取り替えます、じっとしていてくださいね
+> CONTEXT: Map908/events/9/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I'm going to change your IV drip, so please stay still.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+これと…これを混ぜて…
+湿らせてたからこれを加えて…
+> CONTEXT: Map908/events/10/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Mix this with this...
+I added this because it was moist...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+被験者さん達の記録もいっぱいになってきましたね
+先生に送っておきましょうか…
+> CONTEXT: Map908/events/11/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+The records of the subjects are filling up
+Shall I send them to the professor...?
+> END STRING
+
+> BEGIN STRING
+"ディリヘンテ"
+> CONTEXT: Map908/events/12/pages/0/0/InlineScript/1:22
+> CONTEXT: Map908/events/40/pages/0/0/InlineScript/1:22
+> CONTEXT: Map803/events/3/pages/0/155/InlineScript/1:22
+> CONTEXT: Map803/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map803/events/20/pages/1/0/InlineScript/1:22
+> CONTEXT: Map719/events/8/pages/0/0/InlineScript/1:22
+> CONTEXT: Map719/events/8/pages/1/0/InlineScript/1:22
+> CONTEXT: Map712/events/18/pages/0/0/InlineScript/1:22
+> CONTEXT: Map701/events/34/pages/0/0/InlineScript/1:22
+> CONTEXT: Map559/events/2/pages/16/10/InlineScript/10:25
+"Diligente"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+へっ、来たみてぇだな都市の暗部に
+ここが研究施設にして生産工場
+通称「ラボラトリー」だ
+> CONTEXT: Map908/events/12/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Huh, it looks like we've arrived in the dark part of the city
+This is the research facility and production factory
+AKA the "Laboratory"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ラボラトリーはご主人…シスター様のお師匠たる
+「先生」が管理している施設……
+まあご主人も時々使うけどな
+> CONTEXT: Map908/events/12/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+The laboratory is a facility managed by the master... 
+The "teacher" who is Sister's master...
+Well, master uses it sometimes too.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ともかく先生は施設の奥にいるぜ
+まあ「試したがり」のあの方だ、奥に進めば
+ちょっとした試練があるだろうよ
+> CONTEXT: Map908/events/12/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+Anyway, the teacher is in the back of the facility.
+Well, she's the one who likes to try things, so if you 
+go further in, you'll probably encounter a few challenges.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここは経験豊富かつ知的欲求が強い者が
+任に就く施設です
+> CONTEXT: Map908/events/13/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+This is a facility where experienced and 
+intellectually motivated people are put in charge.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+責任が重い役職でございますが
+裕福な環境を与えられます
+> CONTEXT: Map908/events/13/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+It is a position with a lot of responsibility, 
+but it provides a rich environment.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+幹部で言えばヘカテーさんやレギーナさんも
+ここに従事していた時期がございます
+最近ではディリヘンテが入ってきましたね
+> CONTEXT: Map908/events/13/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+As for the executives, Hecate and Regina 
+also worked here at one time,
+and recently Diligente joined us.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……先生ぃ…この論文は
+如何でしょうかぁ……むにゃむにゃ…
+> CONTEXT: Map908/events/14/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+...Professor...what do you think of this paper...mumble mumble...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+施設の奥は先生の領域です
+先生の意向一つでダンジョンと化しますので
+注意して下さいね
+> CONTEXT: Map908/events/15/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+The innermost part of the facility is the teacher's domain
+It can turn into a dungeon at the teacher's command,
+so please be careful.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+次の講義の前に消しておかないと…
+> CONTEXT: Map908/events/16/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I have to delete it before the next lecture...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+先生は組織に組している人の前には現れず
+知識を求める個人に姿を見せ
+知恵や技術を授けると言われています
+> CONTEXT: Map908/events/17/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+The teacher does not appear before those who belong 
+to an organization, but appears to individuals who 
+seek knowledge and is said to bestow wisdom and skills.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+一個人の体験談しか存在を語られないことで
+人物像があやふやなことから
+「誰彼の賢者」と巷では噂されているようですね
+> CONTEXT: Map908/events/17/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+Since only one individual's experience is known about her existence,
+her character is unclear, so people on the streets are saying 
+that she is a "sage of some kind"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+特別に銀色の都市に力を貸しているのは
+弟子である領主様のお目付け役の為だとか…
+> CONTEXT: Map908/events/17/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+The reason she is lending her power to the Silver City 
+in particular is to keep an eye on her disciple, the lord...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+先生は領主様のお師匠様とのことですが
+あの方は人間なのでしょうか夢魔なのでしょうか…
+> CONTEXT: Map908/events/18/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+The teacher is said to be the lord's master
+I wonder if she is a human or a succubus...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+えーと、今日の「隔離施設」行きのリストはっと…
+> CONTEXT: Map908/events/19/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Well, here's today's list of people 
+going to the "quarantine facility"...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+耳をすませば夢魔達の声が聞こえますねー
+> CONTEXT: Map908/events/20/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+If you listen carefully, you can hear voices of succubi.
+> END STRING
+
+> BEGIN STRING
+･･････？
+本の間に一枚の紙が挟まれている。
+> CONTEXT: Map908/events/25/pages/0/1/Dialogue
+> CONTEXT: Map716/events/3/pages/0/1/Dialogue
+> CONTEXT: Map706/events/2/pages/0/1/Dialogue
+> CONTEXT: Map713/events/14/pages/0/1/Dialogue
+> CONTEXT: Map702/events/18/pages/0/1/Dialogue
+> CONTEXT: Map694/events/4/pages/0/1/Dialogue
+> CONTEXT: Map691/events/27/pages/0/1/Dialogue
+> CONTEXT: Map688/events/9/pages/0/1/Dialogue
+> CONTEXT: Map669/events/5/pages/0/1/Dialogue
+> CONTEXT: Map678/events/29/pages/0/1/Dialogue
+> CONTEXT: Map662/events/7/pages/0/1/Dialogue
+> CONTEXT: Map667/events/15/pages/0/1/Dialogue
+> CONTEXT: Map660/events/2/pages/0/1/Dialogue
+> CONTEXT: Map647/events/11/pages/0/1/Dialogue
+...?
+A piece of paper is tucked between the books.
+> END STRING
+
+> BEGIN STRING
+師である彼女の存在を以って夢世界の存在を知り
+新たな目標新たな研究を得た私は
+自由に夢世界へと行くための手段を探した
+> CONTEXT: Map908/events/25/pages/0/4/Dialogue
+Through my mentor, I learned of the existence 
+of the dream world, and with a new goal and new research in mind, 
+I began to search for a way to freely enter the dream world.
+> END STRING
+
+> BEGIN STRING
+知り合いの伝手を頼りに密教会が作ったという
+滞在機なる装置の設計図を手に入れ
+個人用にしつつバグを潰した装置を開発した
+> CONTEXT: Map908/events/25/pages/0/7/Dialogue
+I obtained the blueprints with connection for a device called 
+"Sojourner" that was said to have been made  by the Secret Church, 
+and developed the device for personal use while eliminating any bugs.
+> END STRING
+
+> BEGIN STRING
+先生には「悪だくみも程々にね」
+と言われてしまったが…やはり湧き上がる
+知識欲には抗いがたい
+> CONTEXT: Map908/events/25/pages/0/10/Dialogue
+Teacher told me to "keep your wicked schemes to a minimum" 
+but I couldn't resist my thirst for knowledge.
+> END STRING
+
+> BEGIN STRING
+夢世界が持つ未知に期待を抱きながら
+私は自らの意志で夢の底へと足を踏み入れた…
+> CONTEXT: Map908/events/25/pages/0/13/Dialogue
+Hoping for the unknown that the dream world holds, 
+I willingly stepped into the depths of the dream...
+> END STRING
+
+> BEGIN STRING
+･･･文章はここで途切れている。
+> CONTEXT: Map908/events/25/pages/0/15/Dialogue
+> CONTEXT: Map716/events/3/pages/0/27/Dialogue
+> CONTEXT: Map706/events/2/pages/0/21/Dialogue
+> CONTEXT: Map713/events/14/pages/0/21/Dialogue
+> CONTEXT: Map694/events/4/pages/0/16/Dialogue
+> CONTEXT: Map691/events/27/pages/0/19/Dialogue
+> CONTEXT: Map688/events/9/pages/0/15/Dialogue
+> CONTEXT: Map669/events/5/pages/0/16/Dialogue
+> CONTEXT: Map678/events/29/pages/0/19/Dialogue
+> CONTEXT: Map662/events/7/pages/0/12/Dialogue
+> CONTEXT: Map667/events/15/pages/0/16/Dialogue
+> CONTEXT: Map660/events/2/pages/0/19/Dialogue
+> CONTEXT: Map647/events/11/pages/0/22/Dialogue
+...The text ends here.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+シスター様が領主になられた以降の
+都市産まれの夢魔は皆この施設から誕生しました
+> CONTEXT: Map908/events/29/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Since Sister became the lord,
+all the succubi born in the city have been born from this facility.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+誕生時から設定を埋め込まれていますので
+多くの夢魔は覚えていないでしょうけど…
+> CONTEXT: Map908/events/29/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+The settings are embedded from birth,
+so many succubi probably don't remember...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここから下はカタコンベ直行となっております
+足を滑らせないようお気を付けください
+> CONTEXT: Map908/events/31/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+From here onwards, you will be heading straight for the catacombs
+Please be careful not to slip.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ようこそラボラトリーへ！
+何分デリケートな施設ですので
+お静かにお願いいたします
+> CONTEXT: Map908/events/32/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Welcome to the laboratory!
+This is a delicate facility, so please be quiet.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この先は先生の実験領域でありその先に
+先生専用の部屋があります
+> CONTEXT: Map908/events/33/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Beyond this point is the teacher's experimental area, 
+and beyond that is the teacher's private room.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+道中はアイテムの帰還が出来ませんのでご注意ください
+> CONTEXT: Map908/events/33/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Please note that you cannot use return items during the journey.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここは強力な結界が張られてますので
+透視や千里眼といった干渉にもがっちりガード
+されています
+> CONTEXT: Map908/events/35/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+A strong barrier has been set up here,
+so it is well protected from interference 
+such as clairvoyance and remote viewing.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢世界は覗き魔さんが沢山いますからねぇ…
+機密性を維持するのもたいへんですぅ…
+> CONTEXT: Map908/events/35/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+There are a lot of peeping toms in the dream world...
+It's hard to maintain confidentiality...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ルーン魔術と先生は縁深い関係らしいとのこと
+実際先生は数多くのルーンを扱えますからね…
+> CONTEXT: Map908/events/36/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+It seems that the teacher has a deep connection with rune magic
+In fact, the teacher can handle many runes...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今日の講義も大変ためになりましたね
+> CONTEXT: Map908/events/37/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Today's lecture was very helpful.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふむふむ…この知識は次の研究に活かしましょう
+> CONTEXT: Map908/events/37/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+Hmm... I'll use this knowledge in my next research project.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+次の講義も楽しみですね！
+> CONTEXT: Map908/events/38/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I'm looking forward to the next lecture!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+次の実験楽しみだなぁ…♪
+> CONTEXT: Map908/events/38/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+I'm looking forward to the next experiment...♪
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+講義を受けに来たのかい？
+今やキミも私の弟子の一人…喜んで教授しよう！
+> CONTEXT: Map908/events/39/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Are you here for a lecture?
+You're now one of my students...I'll be happy to teach you!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+…勉強中なんだ余り邪魔してくれるなよ？
+これでも研究に対しては真面目なつもりなんだぜ
+> CONTEXT: Map908/events/40/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+...I'm studying, so don't bother me too much, okay?
+I'm serious about my research.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+…この辺りは後で聞きましょうかね…
+> CONTEXT: Map908/events/41/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+...Maybe I should ask about this later...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今日は領主様来るのでしょうかねー？
+> CONTEXT: Map908/events/42/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I wonder if the lord will come today?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……これではイマイチですね…
+練り直しした方がいいかもしれません
+> CONTEXT: Map908/events/43/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+... This isn't very good...
+Maybe I should rework it.
+> END STRING
+
+> BEGIN STRING
+"ヘカテー"
+> CONTEXT: Map908/events/44/pages/0/0/InlineScript/1:22
+> CONTEXT: Map647/events/3/pages/1/0/InlineScript/1:22
+> CONTEXT: Map647/events/3/pages/2/0/InlineScript/1:22
+> CONTEXT: Map647/events/3/pages/3/0/InlineScript/1:22
+> CONTEXT: Map647/events/3/pages/4/0/InlineScript/1:22
+> CONTEXT: Map647/events/4/pages/0/1/InlineScript/1:22
+> CONTEXT: Map647/events/4/pages/0/39/InlineScript/1:22
+> CONTEXT: Map647/events/4/pages/1/1/InlineScript/1:22
+> CONTEXT: Map647/events/4/pages/1/43/InlineScript/1:22
+"Hecate"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やあ、少年
+君も教えを受けに来たのかい？
+> CONTEXT: Map908/events/44/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hey boy, are you here to learn too?
+> END STRING
+
+> BEGIN STRING
+"レギーナ"
+> CONTEXT: Map908/events/45/pages/0/0/InlineScript/1:22
+> CONTEXT: Map712/events/19/pages/0/0/InlineScript/1:22
+> CONTEXT: Map698/events/2/pages/1/21/InlineScript/1:22
+> CONTEXT: Map701/events/9/pages/0/0/InlineScript/1:22
+> CONTEXT: Map698/events/2/pages/1/90/InlineScript/1:22
+> CONTEXT: Map698/events/19/pages/0/0/InlineScript/1:22
+> CONTEXT: Map698/events/19/pages/0/37/InlineScript/1:22
+> CONTEXT: Map701/events/9/pages/1/0/InlineScript/1:22
+"Regina"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+幹部の身になったとはいえ
+知識は多いことに越したことはありません
+貴方もどうです？
+> CONTEXT: Map908/events/45/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Even though you're now an executive,
+it's always better to have more knowledge.
+How about you?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……用なら後にしてよね
+ソウルジュース製造資格更新手続きしてるから
+今は手が離せないの…
+> CONTEXT: Map908/events/46/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+...If you need something, do it later
+I'm in the process of renewing soul juice manufacturing license
+so I can't let go right now...
+> END STRING
+
+> BEGIN STRING
+……シルクタルト製造資格の更新をしているようだ
+> CONTEXT: Map908/events/47/pages/0/1/Dialogue
+...Seems to be renewing silk tart manufacturing qualifications.
+> END STRING
+
+> BEGIN STRING
+"ギャングチーフ"
+> CONTEXT: Map908/events/48/pages/0/0/InlineScript/1:22
+> CONTEXT: Map648/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Map648/events/5/pages/1/0/InlineScript/1:22
+> CONTEXT: Map648/events/9/pages/0/13/InlineScript/1:22
+> CONTEXT: Map648/events/9/pages/0/45/InlineScript/1:22
+> CONTEXT: Map648/events/10/pages/0/0/InlineScript/1:22
+> CONTEXT: Map648/events/10/pages/0/46/InlineScript/1:22
+"Gang Chief"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+うぅぅん…この工程の際にはアレを混ぜるべきか…
+…あえて冷やすべきか……
+> CONTEXT: Map908/events/48/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hmm... Should I mix that in during this process...
+... Should I cool it...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ディリヘンテ…只の問題児かと思いきや
+意外と真面目ですね…
+> CONTEXT: Map908/events/49/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Diligente... I thought she was just a problem child,
+but she's surprisingly serious...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……ｚｚZ…徹夜…し過ぎたかな……
+> CONTEXT: Map908/events/50/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+...zzZ... I stayed up all night... too long...
+> END STRING
+
+> BEGIN STRING
+20000Lpsで講義を受けますか？
+【ランダムで素材を入手】
+> CONTEXT: Map908/events/51/pages/0/0/Dialogue
+Would you like to take a lecture for 20,000Lps?
+[Get random materials]
+> END STRING
+
+> BEGIN STRING
+Lpsが不足しています
+> CONTEXT: Map908/events/51/pages/0/5/Dialogue
+Not enough Lps.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+では講義を始める、聞きたいものは聞き
+そうでないものは自分の作業を進めなさい
+> CONTEXT: Map908/events/51/pages/0/13/Dialogue
+\\name[\\v[2]]\\_
+Now let's begin the lecture. If you want to listen, listen. 
+If you don't, get on with your work.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……今回の講義は以上だ
+次回も楽しみにしていたまえ我が弟子たちよ
+> CONTEXT: Map908/events/51/pages/0/19/Dialogue
+\\name[\\v[2]]\\_
+...That's all for today's lecture.
+Please look forward to the next one, my students.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そしてご褒美もあげよう
+各自の実験や研究に活用するといい
+> CONTEXT: Map908/events/51/pages/0/22/Dialogue
+\\name[\\v[2]]\\_
+And I'll give a reward
+It's good to use it for your own experiments and research.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+現在掃除中です
+> CONTEXT: Map908/events/53/pages/0/1/Dialogue
+> CONTEXT: Map908/events/54/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I'm in the middle of cleaning
+> END STRING
+
+> BEGIN STRING
+"ヘーラー"
+> CONTEXT: Map908/events/60/pages/0/0/InlineScript/1:22
+"Hera"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+えっへへへ\\H
+ヘカテー様が居るところならどこへでも・・・\\H
+> CONTEXT: Map908/events/60/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hehehehe\\H
+Wherever Lady Hecate is...\\H
+> END STRING

@@ -1,43 +1,5 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-自警団募集！
-> CONTEXT: Map152/events/4/pages/0/0/Dialogue
-> CONTEXT: Map152/events/5/pages/0/0/Dialogue
-Recruiting vigilantes!
-> END STRING
-
-> BEGIN STRING
-腕っぷしに自信のある戦士諸君！
-我らレンディカ自警団の一員とならないか！？
-> CONTEXT: Map152/events/4/pages/0/1/Dialogue
-> CONTEXT: Map152/events/5/pages/0/1/Dialogue
-Warriors who are confident in their skills!
-Would you like to become a member of our 
-Rendica vigilante group!?
-> END STRING
-
-> BEGIN STRING
-友や家族、愛する者を守るため、その剣を振ろうではないか！
-我こそは！と思う者はレンディカ自警団詰め所まで来てくれ！
-
-――レンディカ自警団
-> CONTEXT: Map152/events/4/pages/0/3/Dialogue
-> CONTEXT: Map152/events/5/pages/0/3/Dialogue
-Would you wield a sword to protect our friends,
-family, and loved ones? I would! If you would too, 
-please come to the Rendica vigilante station!
-
---Rendica Vigilante Group
-> END STRING
-
-> BEGIN STRING
-"女戦士"
-> CONTEXT: Map152/events/6/pages/0/0/InlineScript/1:22
-> CONTEXT: Map210/events/13/pages/0/0/InlineScript/1:22
-"Female warrior"
-> END STRING
-
-> BEGIN STRING
 \\name[\\v[2]]\\_
 自警団募集か。
 > CONTEXT: Map152/events/6/pages/0/1/Dialogue

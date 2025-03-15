@@ -1,32 +1,142 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 \\name[\\v[2]]\\_
-あれぇ？
-> CONTEXT: Map077/events/78/pages/2/5/Dialogue
-\\name[\\v[2]]\\_
-Hmm?
+･･･ふふーん、ふんふん、いいねぇキミぃ。
+なんだか虜になっちゃいそうだったよぉ\\H
+> CONTEXT: Map077/events/1/pages/0/71/Dialogue < UNTRANSLATED
+> CONTEXT: Map077/events/1/pages/0/77/Dialogue < UNTRANSLATED
+> CONTEXT: Map077/events/1/pages/1/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map077/events/1/pages/1/17/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ネイジュレンジは妊娠しているようだ･･･。
+> CONTEXT: Map077/events/1/pages/0/155/Dialogue < UNTRANSLATED
+> CONTEXT: Map077/events/1/pages/1/72/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+素質：【きのこ狩りの農家】が習得できるようになりました。
+> CONTEXT: Map077/events/1/pages/0/190/Dialogue
+> CONTEXT: Map077/events/1/pages/1/100/Dialogue
+Talent: 【Mushroom Farmer】 can now be acquired.
+> END STRING
+
+> BEGIN STRING
+"茸狩りの魔法使い"
+> CONTEXT: Map077/events/163/pages/1/0/InlineScript/1:22 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-初めて見るお客さんだねー。
-> CONTEXT: Map077/events/78/pages/2/9/Dialogue
-\\name[\\v[2]]\\_
-This is the first time I've seen a guest.
+うーんここは中々の穴場だね
+図鑑で見たありとあらゆるきのこが生えている……
+夢世界にこんなとこがあったなんてね
+> CONTEXT: Map077/events/163/pages/1/3/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-可愛い顔してて･･････ふふーん･･････。
-> CONTEXT: Map077/events/78/pages/2/13/Dialogue
-\\name[\\v[2]]\\_
-You have a cute face... Hehheh...
+ただ一つ気に入らないことと言えば……
+> CONTEXT: Map077/events/163/pages/1/7/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ねぇねぇ、あたしとあそぼぉ\\H
-> CONTEXT: Map077/events/78/pages/2/18/Dialogue
+……ボクのモノより大きい奴ばっかりなのがなあ
+> CONTEXT: Map077/events/163/pages/1/21/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 \\name[\\v[2]]\\_
-Hey, play with me\\H
+お……お兄さん？
+まさか今の見て……
+…………いやちょっと待って
+> CONTEXT: Map077/events/163/pages/1/39/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+どこかで会ったことがあるような……………
+> CONTEXT: Map077/events/163/pages/1/43/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+…………………………………………………
+…………………………………………………
+…………………………………………………
+> CONTEXT: Map077/events/163/pages/1/44/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ああああああああああああああああ！
+> CONTEXT: Map077/events/163/pages/1/48/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お兄さんボクだよボク！！
+前に女の子になってた時、助けてもらった
+キノコだよ！！
+> CONTEXT: Map077/events/163/pages/1/50/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+まさかこんなところで会えるなんて思ってなかったよ！
+いやーしかし無事で何よりだよ。
+うんうん……
+> CONTEXT: Map077/events/163/pages/1/54/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+……そういえばちゃんとした恩返しができてなかったよね
+なんてったって命の恩人なんだからね　うん、よし、
+私もお兄さんについてっても良いかな？
+> CONTEXT: Map077/events/163/pages/1/57/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+彼女と契約しますか？
+> CONTEXT: Map077/events/163/pages/1/61/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メイジファンガスと契約を交わした！\\|\\|
+> CONTEXT: Map077/events/163/pages/1/71/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メイジファンガスをホームに迎え入れた！
+> CONTEXT: Map077/events/163/pages/1/85/Dialogue < UNTRANSLATED
+> CONTEXT: Map077/events/163/pages/1/96/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メイジファンガスがパーティに加わった！
+> CONTEXT: Map077/events/163/pages/1/92/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あれ？よく聞こえなかったなぁ、もう一度聞くよ？
+ボクもついて行っていいよね？
+> CONTEXT: Map077/events/163/pages/1/110/Dialogue < UNTRANSLATED
+
 > END STRING

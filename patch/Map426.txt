@@ -111,25 +111,6 @@ I feel like her intentions are different though.
 > END STRING
 
 > BEGIN STRING
-"魔女"
-> CONTEXT: Map426/events/3/pages/0/0/InlineScript/1:22
-> CONTEXT: Map426/events/6/pages/0/0/InlineScript/1:22
-> CONTEXT: Map426/events/7/pages/0/0/InlineScript/1:22
-> CONTEXT: Map426/events/8/pages/0/0/InlineScript/1:22
-> CONTEXT: Map426/events/9/pages/0/0/InlineScript/1:22
-> CONTEXT: Map360/events/2/pages/0/0/InlineScript/1:22
-> CONTEXT: Map371/events/5/pages/0/0/InlineScript/1:22
-> CONTEXT: Map358/events/11/pages/1/0/InlineScript/1:22
-> CONTEXT: Map285/events/6/pages/0/0/InlineScript/1:22
-> CONTEXT: Map285/events/6/pages/1/0/InlineScript/1:22
-> CONTEXT: Map121/events/11/pages/0/0/InlineScript/1:22
-> CONTEXT: Map120/events/4/pages/0/18/InlineScript/1:22
-> CONTEXT: Map121/events/11/pages/1/0/InlineScript/1:22
-> CONTEXT: Map159/events/10/pages/0/0/InlineScript/1:22
-"Witch"
-> END STRING
-
-> BEGIN STRING
 \\name[\\v[2]]\\_
 月明かりの樹海にネイジュレンジって子が\\_
 住んでるの知ってる？
@@ -674,4 +655,66 @@ Rigeo also went somewhere, and Ange was very concerned.
 Huh? Rigeo is here! \\|\\nI was worried. 
 She suddenly went somewhere without telling anyone.
 Ange was also concerned about that.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+うーん……。
+「夢魔図鑑」なんて大層な名前だから買ってみたけど、
+> CONTEXT: Map426/events/10/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ほとんど何も書いてないし、
+書いてあるページも黒塗りだらけで良く分からないし……
+> CONTEXT: Map426/events/10/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私には必要なさそうだから、もし君が欲しいなら
+1000Lpsで譲ってあげるけど、どうする？
+> CONTEXT: Map426/events/10/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+購入する
+> CONTEXT: Map002/events/4/pages/0/23/Choice/0
+> CONTEXT: Map002/events/4/pages/0/46/Choice/0
+> CONTEXT: Map010/events/13/pages/0/16/Choice/0
+> CONTEXT: Map002/events/4/pages/1/12/Choice/0
+> CONTEXT: Map002/events/4/pages/1/35/Choice/0
+> CONTEXT: Map023/events/2/pages/0/16/Choice/0
+> CONTEXT: Map023/events/2/pages/0/16/Choice/0
+> CONTEXT: Map426/events/10/pages/0/10/Choice/0
+> CONTEXT: Map426/events/10/pages/0/10/Choice/0
+Buy
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おや、持ち合わせが足りないみたいだね
+> CONTEXT: Map426/events/10/pages/0/15/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+交渉成立だね。
+あとで君の邸宅に送っておくから、
+帰ったら確認してみると良いよ。
+> CONTEXT: Map426/events/10/pages/0/23/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうか……。
+また気が変わったらいつでも教えてくれよ。
+> CONTEXT: Map426/events/10/pages/0/39/Dialogue < UNTRANSLATED
+
 > END STRING

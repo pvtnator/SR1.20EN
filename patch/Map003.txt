@@ -1,25 +1,5 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-好感度と契約の珠を上げますか？
-> CONTEXT: Map003/events/2/pages/0/0/Dialogue
-Increase favor and contract beads?
-> END STRING
-
-> BEGIN STRING
-好感度は10、契約の珠は1000ずつ上がります。
-何回上げますか？
-> CONTEXT: Map003/events/2/pages/0/3/Dialogue
-Favor will increase by 10 and contract beads by 1000.
-Raise how many times?
-> END STRING
-
-> BEGIN STRING
-\\v[2]回上げました。
-> CONTEXT: Map003/events/2/pages/0/13/Dialogue
-\\v[2] times raised.
-> END STRING
-
-> BEGIN STRING
 ミニゲームのテストを開始するｸﾏｰ？
 > CONTEXT: Map003/events/4/pages/0/0/Dialogue
 Test minigame?
@@ -52,69 +32,11 @@ Increase the contract limit?
 > END STRING
 
 > BEGIN STRING
-いくつ上げますか？
-> CONTEXT: Map003/events/5/pages/0/3/Dialogue
-> CONTEXT: Map003/events/22/pages/0/3/Dialogue
-Raise how many times?
-> END STRING
-
-> BEGIN STRING
-\\v[2]上げました。
-> CONTEXT: Map003/events/5/pages/0/7/Dialogue
-> CONTEXT: Map003/events/22/pages/0/8/Dialogue
-Raised \\v[2] times.
-> END STRING
-
-> BEGIN STRING
-\\name[ボックス管理係]こちらはボックス管理係です。\\_
-何か御用ですか？
-> CONTEXT: Map003/events/6/pages/0/0/Dialogue
-\\name[Box Manager]This is the Box Manager.
-Do you need something?
-> END STRING
-
-> BEGIN STRING
-いろいろやります。
-> CONTEXT: Map003/events/7/pages/0/0/Dialogue
-I'll do a lot of things.
-> END STRING
-
-> BEGIN STRING
-アイテムをすべて入手する。
-> CONTEXT: Map003/events/7/pages/0/1/Choice/0
-Obtain all items.
-> END STRING
-
-> BEGIN STRING
-所持金を増やす
-> CONTEXT: Map003/events/7/pages/0/1/Choice/1
-Increase money
-> END STRING
-
-> BEGIN STRING
-がっつり手に入れました。
-> CONTEXT: Map003/events/7/pages/0/13/Dialogue
-I got it all right.
-> END STRING
-
-> BEGIN STRING
-いくら増やしますか？
-> CONTEXT: Map003/events/7/pages/0/16/Dialogue
-How much would you like to increase?
-> END STRING
-
-> BEGIN STRING
 対味方戦、戦闘テストができます。
 （パーティの２番目の子の情報を参照します。）
 > CONTEXT: Map003/events/13/pages/0/0/Dialogue
 You can do battle tests against allies.
 (Refers to the information of the second member of the party.)
-> END STRING
-
-> BEGIN STRING
-戦闘する
-> CONTEXT: Map003/events/13/pages/0/2/Choice/0
-Fight
 > END STRING
 
 > BEGIN STRING
@@ -127,6 +49,8 @@ talents acquired by your lead companion?
 > BEGIN STRING
 仲間がいません！
 > CONTEXT: Map003/events/15/pages/0/4/Dialogue
+> CONTEXT: Commonevents/136/4/Dialogue
+> CONTEXT: Commonevents/136/13/Dialogue
 Do you want to reset the skills and qualities 
 acquired by the first companion?
 > END STRING
@@ -184,36 +108,6 @@ To be decided
 パーティを全回復します。
 > CONTEXT: Map003/events/19/pages/0/1/Dialogue
 Fully heal the party.
-> END STRING
-
-> BEGIN STRING
-パーティのレベルを調整します。
-> CONTEXT: Map003/events/22/pages/0/0/Dialogue
-Adjust party level.
-> END STRING
-
-> BEGIN STRING
-レベルを上げる
-> CONTEXT: Map003/events/22/pages/0/1/Choice/0
-Raise the level
-> END STRING
-
-> BEGIN STRING
-レベルを下げる
-> CONTEXT: Map003/events/22/pages/0/1/Choice/1
-Lower the level
-> END STRING
-
-> BEGIN STRING
-いくつ下げますか？
-> CONTEXT: Map003/events/22/pages/0/11/Dialogue
-Lower how much?
-> END STRING
-
-> BEGIN STRING
-\\v[2]下げました。
-> CONTEXT: Map003/events/22/pages/0/16/Dialogue
-Lowered by \\v[2].
 > END STRING
 
 > BEGIN STRING
@@ -288,26 +182,6 @@ Palfis upper layer
 パルフィス下層
 > CONTEXT: Map003/events/33/pages/0/1/Choice/3
 Palfis lower layer
-> END STRING
-
-> BEGIN STRING
-習得表を確認します。
-（開発用）
-> CONTEXT: Map003/events/36/pages/0/0/Dialogue
-Check the learning table.
-(For development)
-> END STRING
-
-> BEGIN STRING
-習得スキル表の確認
-> CONTEXT: Map003/events/36/pages/0/2/Choice/0
-Check acquired skill table
-> END STRING
-
-> BEGIN STRING
-ボーナス表の確認
-> CONTEXT: Map003/events/36/pages/0/2/Choice/1
-Check bonus table
 > END STRING
 
 > BEGIN STRING

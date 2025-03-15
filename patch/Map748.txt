@@ -1,0 +1,653 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+\\name[\\v[2]]\\_
+んふふ、ここまで来なさったあなたに、
+とっておきの技を伝授しましょう。
+教えてほしいですか？教えてほしいですよね。
+> CONTEXT: Map748/events/1/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+Hehe, since you've come this far,
+I'll teach you a special technique.
+Do you want me to teach you? I know you want to learn.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+教えてほしいスキルはどれだい？
+> CONTEXT: Map748/events/1/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+What skill would you like to learn?
+> END STRING
+
+> BEGIN STRING
+気合一発（5,000Lps.）
+> CONTEXT: Map748/events/1/pages/0/11/Choice/0
+> CONTEXT: Map748/events/1/pages/0/11/Choice/0
+Fighting Spirit(5,000Lps.)
+> END STRING
+
+> BEGIN STRING
+心頭滅却（5,000Lps.）
+> CONTEXT: Map748/events/1/pages/0/11/Choice/1
+> CONTEXT: Map748/events/1/pages/0/11/Choice/1
+Clearn Mind（5,000Lps.）
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もう覚えてるよ。
+> CONTEXT: Map748/events/1/pages/0/14/Dialogue
+> CONTEXT: Map748/events/1/pages/0/46/Dialogue
+\\name[\\v[2]]\\_
+You already know it.
+> END STRING
+
+> BEGIN STRING
+これを教えてほしいのかい？
+「気合一発」
+自分に気合を入れて高揚し、
+虚脱・畏怖・骨抜き・沈着を解除する。
+> CONTEXT: Map748/events/1/pages/0/19/Dialogue
+Do you want me to teach you this?
+「Fighting Spirit」
+Pump yourself up and get rid of lethargy, fear, weakness, and calm.
+> END STRING
+
+> BEGIN STRING
+「気合一発」を習得しました。
+> CONTEXT: Map748/events/1/pages/0/27/Dialogue
+Mastered the 「Fighting Spirit」 technique.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+まいどあり～
+> CONTEXT: Map748/events/1/pages/0/29/Dialogue
+> CONTEXT: Map748/events/1/pages/0/61/Dialogue
+\\name[\\v[2]]\\_
+Thank you very much~
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こらこら、お金が足りないじゃないか。
+> CONTEXT: Map748/events/1/pages/0/34/Dialogue
+> CONTEXT: Map748/events/1/pages/0/66/Dialogue
+\\name[\\v[2]]\\_
+Hey, hey, you don't have enough money.
+> END STRING
+
+> BEGIN STRING
+これを教えてほしいのかい？
+「心頭滅却」
+煩悩を振り払って沈着し、
+欲情・魅了・誘惑・高揚を解除する。
+> CONTEXT: Map748/events/1/pages/0/51/Dialogue
+Do you want me to teach you this?
+「Clear Mind」
+Shake off worldly desires and become calm,
+and release lust, fascination, temptation, and arousal.
+> END STRING
+
+> BEGIN STRING
+「心頭滅却」を習得しました。
+> CONTEXT: Map748/events/1/pages/0/59/Dialogue
+Mastered 「Clear Mind」
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+んふふ♪
+夢魔によっては絶対的に得意な武器があるんですよお\\H
+> CONTEXT: Map748/events/1/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+Hehe♪
+Depending on the succubus, 
+there are weapons that they are absolutely good at\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+キスが上手そうな夢魔や、胸が柔らかそうな夢魔は
+その武器に注意したほうがいいかもしれませんねぇ。
+> CONTEXT: Map748/events/1/pages/1/4/Dialogue
+\\name[\\v[2]]\\_
+If you're dealing with a succubus who seems to be 
+good at kissing or has soft breasts,
+you might want to be careful with the weapon.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+といっても警戒するのは難しいですねぇ。
+やられちゃって覚えたほうがいいかもしれませんねぇ\\H
+> CONTEXT: Map748/events/1/pages/1/7/Dialogue
+\\name[\\v[2]]\\_
+But it's hard to be on guard against it.
+It might be better to get beaten and learn from it\\H
+> END STRING
+
+> BEGIN STRING
+"ボギー"
+> CONTEXT: Map748/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map763/events/34/pages/0/40/InlineScript/1:22
+> CONTEXT: Map763/events/34/pages/0/89/InlineScript/1:22
+> CONTEXT: Map763/events/34/pages/1/1/InlineScript/1:22
+> CONTEXT: Map763/events/34/pages/2/1/InlineScript/1:22
+> CONTEXT: Map763/events/34/pages/2/35/InlineScript/1:22
+"Bogie"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+んべー
+もう遊んであげないよーだ
+> CONTEXT: Map748/events/4/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hmph
+I won't play with you anymore
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふっ、いらっしゃい\\H
+あなたのために腕を振るうわ。
+> CONTEXT: Map748/events/5/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hehe, come in\\H
+I'll show you my skills for you.
+> END STRING
+
+> BEGIN STRING
+"鼠"
+> CONTEXT: Map048/events/17/pages/0/0/InlineScript/1:22
+> CONTEXT: Map748/events/9/pages/0/0/InlineScript/1:22
+> CONTEXT: Map748/events/9/pages/1/0/InlineScript/1:22
+> CONTEXT: Map742/events/111/pages/0/0/InlineScript/1:22
+> CONTEXT: Map742/events/111/pages/1/0/InlineScript/1:22
+> CONTEXT: Map665/events/12/pages/0/0/InlineScript/1:22
+> CONTEXT: Map665/events/12/pages/1/0/InlineScript/1:22
+> CONTEXT: Map631/events/23/pages/0/0/InlineScript/1:22
+> CONTEXT: Map631/events/23/pages/1/0/InlineScript/1:22
+> CONTEXT: Map565/events/40/pages/0/0/InlineScript/1:22
+> CONTEXT: Map358/events/17/pages/0/0/InlineScript/1:22
+> CONTEXT: Map358/events/17/pages/1/0/InlineScript/1:22
+> CONTEXT: Map315/events/9/pages/0/0/InlineScript/1:22
+> CONTEXT: Map315/events/9/pages/1/0/InlineScript/1:22
+> CONTEXT: Map282/events/31/pages/0/0/InlineScript/1:22
+> CONTEXT: Map282/events/31/pages/1/0/InlineScript/1:22
+> CONTEXT: Map294/events/548/pages/0/0/InlineScript/1:22
+> CONTEXT: Map294/events/548/pages/1/0/InlineScript/1:22
+> CONTEXT: Map238/events/134/pages/0/0/InlineScript/1:22
+> CONTEXT: Map238/events/134/pages/1/0/InlineScript/1:22
+> CONTEXT: Map213/events/11/pages/0/0/InlineScript/1:22
+> CONTEXT: Map213/events/11/pages/1/0/InlineScript/1:22
+> CONTEXT: Map145/events/44/pages/0/0/InlineScript/1:22
+> CONTEXT: Map145/events/44/pages/1/0/InlineScript/1:22
+> CONTEXT: Map150/events/82/pages/0/0/InlineScript/1:22
+> CONTEXT: Map150/events/82/pages/1/0/InlineScript/1:22
+> CONTEXT: Map134/events/126/pages/0/0/InlineScript/1:22
+> CONTEXT: Map134/events/126/pages/1/0/InlineScript/1:22
+> CONTEXT: Map116/events/18/pages/0/0/InlineScript/1:22
+> CONTEXT: Map116/events/18/pages/1/0/InlineScript/1:22
+> CONTEXT: Map086/events/51/pages/0/0/InlineScript/1:22
+> CONTEXT: Map079/events/89/pages/0/0/InlineScript/1:22
+> CONTEXT: Map086/events/51/pages/1/0/InlineScript/1:22
+> CONTEXT: Map079/events/89/pages/1/0/InlineScript/1:22
+> CONTEXT: Map069/events/29/pages/0/0/InlineScript/1:22
+> CONTEXT: Map069/events/30/pages/0/0/InlineScript/1:22
+"Mouse"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やあ、そろそろ夢魔との戦いに慣れたかな？
+なに？何度も繰り返すのが面倒だって？
+> CONTEXT: Map748/events/9/pages/0/2/Dialogue
+> CONTEXT: Map748/events/9/pages/1/2/Dialogue
+> CONTEXT: Map742/events/111/pages/0/2/Dialogue
+> CONTEXT: Map742/events/111/pages/1/2/Dialogue
+> CONTEXT: Map665/events/12/pages/0/2/Dialogue
+> CONTEXT: Map665/events/12/pages/1/2/Dialogue
+> CONTEXT: Map631/events/23/pages/0/2/Dialogue
+> CONTEXT: Map631/events/23/pages/1/2/Dialogue
+> CONTEXT: Map565/events/40/pages/0/2/Dialogue
+> CONTEXT: Map358/events/17/pages/0/2/Dialogue
+> CONTEXT: Map358/events/17/pages/1/2/Dialogue
+> CONTEXT: Map315/events/9/pages/0/2/Dialogue
+> CONTEXT: Map315/events/9/pages/1/2/Dialogue
+> CONTEXT: Map282/events/31/pages/0/2/Dialogue
+> CONTEXT: Map282/events/31/pages/1/2/Dialogue
+> CONTEXT: Map294/events/548/pages/0/2/Dialogue
+> CONTEXT: Map294/events/548/pages/1/2/Dialogue
+> CONTEXT: Map238/events/134/pages/0/2/Dialogue
+> CONTEXT: Map238/events/134/pages/1/2/Dialogue
+> CONTEXT: Map213/events/11/pages/0/2/Dialogue
+> CONTEXT: Map213/events/11/pages/1/2/Dialogue
+> CONTEXT: Map145/events/44/pages/0/2/Dialogue
+> CONTEXT: Map145/events/44/pages/1/2/Dialogue
+> CONTEXT: Map150/events/82/pages/0/2/Dialogue
+> CONTEXT: Map150/events/82/pages/1/2/Dialogue
+> CONTEXT: Map134/events/126/pages/0/2/Dialogue
+> CONTEXT: Map134/events/126/pages/1/2/Dialogue
+> CONTEXT: Map116/events/18/pages/0/2/Dialogue
+> CONTEXT: Map116/events/18/pages/1/2/Dialogue
+> CONTEXT: Map086/events/51/pages/0/2/Dialogue
+> CONTEXT: Map079/events/89/pages/0/2/Dialogue
+> CONTEXT: Map086/events/51/pages/1/2/Dialogue
+> CONTEXT: Map079/events/89/pages/1/2/Dialogue
+> CONTEXT: Map069/events/29/pages/0/2/Dialogue
+> CONTEXT: Map069/events/30/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+Hey, are you getting used to battling succubi now?
+What? You're tired of having to do it over and over again?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうだね、でもここでの戦闘は慣れてきたんじゃないかな？
+今なら楽に戦いを挑めるはずだよ。
+> CONTEXT: Map748/events/9/pages/0/5/Dialogue
+> CONTEXT: Map748/events/9/pages/1/5/Dialogue
+> CONTEXT: Map742/events/111/pages/0/5/Dialogue
+> CONTEXT: Map742/events/111/pages/1/5/Dialogue
+> CONTEXT: Map665/events/12/pages/0/5/Dialogue
+> CONTEXT: Map665/events/12/pages/1/5/Dialogue
+> CONTEXT: Map631/events/23/pages/0/5/Dialogue
+> CONTEXT: Map631/events/23/pages/1/5/Dialogue
+> CONTEXT: Map565/events/40/pages/0/5/Dialogue
+> CONTEXT: Map358/events/17/pages/0/5/Dialogue
+> CONTEXT: Map358/events/17/pages/1/5/Dialogue
+> CONTEXT: Map315/events/9/pages/0/5/Dialogue
+> CONTEXT: Map315/events/9/pages/1/5/Dialogue
+> CONTEXT: Map282/events/31/pages/0/5/Dialogue
+> CONTEXT: Map282/events/31/pages/1/5/Dialogue
+> CONTEXT: Map294/events/548/pages/0/5/Dialogue
+> CONTEXT: Map294/events/548/pages/1/5/Dialogue
+> CONTEXT: Map238/events/134/pages/0/5/Dialogue
+> CONTEXT: Map238/events/134/pages/1/5/Dialogue
+> CONTEXT: Map213/events/11/pages/0/5/Dialogue
+> CONTEXT: Map213/events/11/pages/1/5/Dialogue
+> CONTEXT: Map145/events/44/pages/0/5/Dialogue
+> CONTEXT: Map145/events/44/pages/1/5/Dialogue
+> CONTEXT: Map150/events/82/pages/0/5/Dialogue
+> CONTEXT: Map150/events/82/pages/1/5/Dialogue
+> CONTEXT: Map134/events/126/pages/0/5/Dialogue
+> CONTEXT: Map134/events/126/pages/1/5/Dialogue
+> CONTEXT: Map116/events/18/pages/0/5/Dialogue
+> CONTEXT: Map116/events/18/pages/1/5/Dialogue
+> CONTEXT: Map086/events/51/pages/0/5/Dialogue
+> CONTEXT: Map079/events/89/pages/0/5/Dialogue
+> CONTEXT: Map086/events/51/pages/1/5/Dialogue
+> CONTEXT: Map079/events/89/pages/1/5/Dialogue
+> CONTEXT: Map069/events/29/pages/0/5/Dialogue
+> CONTEXT: Map069/events/30/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+Yeah, but you're getting used to battling here, right?
+You should be able to take on battles with ease now.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+具体的には夢魔と戦闘する時にXボタン（Aキー） \\_
+を押すんだ。
+> CONTEXT: Map748/events/9/pages/0/8/Dialogue
+> CONTEXT: Map748/events/9/pages/1/8/Dialogue
+> CONTEXT: Map742/events/111/pages/0/8/Dialogue
+> CONTEXT: Map742/events/111/pages/1/8/Dialogue
+> CONTEXT: Map665/events/12/pages/0/8/Dialogue
+> CONTEXT: Map665/events/12/pages/1/8/Dialogue
+> CONTEXT: Map631/events/23/pages/0/8/Dialogue
+> CONTEXT: Map631/events/23/pages/1/8/Dialogue
+> CONTEXT: Map565/events/40/pages/0/8/Dialogue
+> CONTEXT: Map358/events/17/pages/0/8/Dialogue
+> CONTEXT: Map358/events/17/pages/1/8/Dialogue
+> CONTEXT: Map315/events/9/pages/0/8/Dialogue
+> CONTEXT: Map315/events/9/pages/1/8/Dialogue
+> CONTEXT: Map282/events/31/pages/0/8/Dialogue
+> CONTEXT: Map282/events/31/pages/1/8/Dialogue
+> CONTEXT: Map294/events/548/pages/0/8/Dialogue
+> CONTEXT: Map294/events/548/pages/1/8/Dialogue
+> CONTEXT: Map238/events/134/pages/0/8/Dialogue
+> CONTEXT: Map238/events/134/pages/1/8/Dialogue
+> CONTEXT: Map213/events/11/pages/0/8/Dialogue
+> CONTEXT: Map213/events/11/pages/1/8/Dialogue
+> CONTEXT: Map145/events/44/pages/0/8/Dialogue
+> CONTEXT: Map145/events/44/pages/1/8/Dialogue
+> CONTEXT: Map150/events/82/pages/0/8/Dialogue
+> CONTEXT: Map150/events/82/pages/1/8/Dialogue
+> CONTEXT: Map134/events/126/pages/0/8/Dialogue
+> CONTEXT: Map134/events/126/pages/1/8/Dialogue
+> CONTEXT: Map116/events/18/pages/0/8/Dialogue
+> CONTEXT: Map116/events/18/pages/1/8/Dialogue
+> CONTEXT: Map086/events/51/pages/0/8/Dialogue
+> CONTEXT: Map079/events/89/pages/0/8/Dialogue
+> CONTEXT: Map086/events/51/pages/1/8/Dialogue
+> CONTEXT: Map079/events/89/pages/1/8/Dialogue
+> CONTEXT: Map069/events/29/pages/0/8/Dialogue
+> CONTEXT: Map069/events/30/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+Specifically, hold the X button (A key)
+when encountering succubi.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+君がここでの戦闘に慣れているならシンプルな戦闘を \\_
+挑めるはずさ。
+> CONTEXT: Map748/events/9/pages/0/11/Dialogue
+> CONTEXT: Map748/events/9/pages/1/11/Dialogue
+> CONTEXT: Map742/events/111/pages/0/11/Dialogue
+> CONTEXT: Map742/events/111/pages/1/11/Dialogue
+> CONTEXT: Map665/events/12/pages/0/11/Dialogue
+> CONTEXT: Map665/events/12/pages/1/11/Dialogue
+> CONTEXT: Map631/events/23/pages/0/11/Dialogue
+> CONTEXT: Map631/events/23/pages/1/11/Dialogue
+> CONTEXT: Map565/events/40/pages/0/11/Dialogue
+> CONTEXT: Map358/events/17/pages/0/11/Dialogue
+> CONTEXT: Map358/events/17/pages/1/11/Dialogue
+> CONTEXT: Map315/events/9/pages/0/11/Dialogue
+> CONTEXT: Map315/events/9/pages/1/11/Dialogue
+> CONTEXT: Map282/events/31/pages/0/11/Dialogue
+> CONTEXT: Map282/events/31/pages/1/11/Dialogue
+> CONTEXT: Map294/events/548/pages/0/11/Dialogue
+> CONTEXT: Map294/events/548/pages/1/11/Dialogue
+> CONTEXT: Map238/events/134/pages/0/11/Dialogue
+> CONTEXT: Map238/events/134/pages/1/11/Dialogue
+> CONTEXT: Map213/events/11/pages/0/11/Dialogue
+> CONTEXT: Map213/events/11/pages/1/11/Dialogue
+> CONTEXT: Map145/events/44/pages/0/11/Dialogue
+> CONTEXT: Map145/events/44/pages/1/11/Dialogue
+> CONTEXT: Map150/events/82/pages/0/11/Dialogue
+> CONTEXT: Map150/events/82/pages/1/11/Dialogue
+> CONTEXT: Map134/events/126/pages/0/11/Dialogue
+> CONTEXT: Map134/events/126/pages/1/11/Dialogue
+> CONTEXT: Map116/events/18/pages/0/11/Dialogue
+> CONTEXT: Map116/events/18/pages/1/11/Dialogue
+> CONTEXT: Map086/events/51/pages/0/11/Dialogue
+> CONTEXT: Map079/events/89/pages/0/11/Dialogue
+> CONTEXT: Map086/events/51/pages/1/11/Dialogue
+> CONTEXT: Map079/events/89/pages/1/11/Dialogue
+> CONTEXT: Map069/events/29/pages/0/11/Dialogue
+> CONTEXT: Map069/events/30/pages/0/11/Dialogue
+\\name[\\v[2]]\\_
+If you're familiar with battling here, 
+you should be able to do a simple battle.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ただ、そのエリアの地形や空間が変わると、
+また何度か戦闘して身体を馴染ませる必要がある。
+色んな夢魔と世界が居るからね。
+> CONTEXT: Map748/events/9/pages/0/14/Dialogue
+> CONTEXT: Map748/events/9/pages/1/14/Dialogue
+> CONTEXT: Map742/events/111/pages/0/14/Dialogue
+> CONTEXT: Map742/events/111/pages/1/14/Dialogue
+> CONTEXT: Map665/events/12/pages/0/14/Dialogue
+> CONTEXT: Map665/events/12/pages/1/14/Dialogue
+> CONTEXT: Map631/events/23/pages/0/14/Dialogue
+> CONTEXT: Map631/events/23/pages/1/14/Dialogue
+> CONTEXT: Map565/events/40/pages/0/14/Dialogue
+> CONTEXT: Map358/events/17/pages/0/14/Dialogue
+> CONTEXT: Map358/events/17/pages/1/14/Dialogue
+> CONTEXT: Map315/events/9/pages/0/14/Dialogue
+> CONTEXT: Map315/events/9/pages/1/14/Dialogue
+> CONTEXT: Map282/events/31/pages/0/14/Dialogue
+> CONTEXT: Map282/events/31/pages/1/14/Dialogue
+> CONTEXT: Map294/events/548/pages/0/14/Dialogue
+> CONTEXT: Map294/events/548/pages/1/14/Dialogue
+> CONTEXT: Map238/events/134/pages/0/14/Dialogue
+> CONTEXT: Map238/events/134/pages/1/14/Dialogue
+> CONTEXT: Map213/events/11/pages/0/14/Dialogue
+> CONTEXT: Map213/events/11/pages/1/14/Dialogue
+> CONTEXT: Map145/events/44/pages/0/14/Dialogue
+> CONTEXT: Map145/events/44/pages/1/14/Dialogue
+> CONTEXT: Map150/events/82/pages/0/14/Dialogue
+> CONTEXT: Map150/events/82/pages/1/14/Dialogue
+> CONTEXT: Map134/events/126/pages/0/14/Dialogue
+> CONTEXT: Map134/events/126/pages/1/14/Dialogue
+> CONTEXT: Map116/events/18/pages/0/14/Dialogue
+> CONTEXT: Map116/events/18/pages/1/14/Dialogue
+> CONTEXT: Map086/events/51/pages/0/14/Dialogue
+> CONTEXT: Map079/events/89/pages/0/14/Dialogue
+> CONTEXT: Map086/events/51/pages/1/14/Dialogue
+> CONTEXT: Map079/events/89/pages/1/14/Dialogue
+> CONTEXT: Map069/events/29/pages/0/14/Dialogue
+> CONTEXT: Map069/events/30/pages/0/14/Dialogue
+\\name[\\v[2]]\\_
+However, if the terrain or space of the area changes,
+you will need to battle a more to get used to it.
+There are many different succubi and worlds.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それと、いちいちボタンを押すのが面倒って人は
+オプションに「簡易戦闘実行設定」があるから変更出来るよ。
+この場合はボタンを押せば今まで通りの戦闘が可能だ。
+> CONTEXT: Map748/events/9/pages/0/18/Dialogue
+> CONTEXT: Map748/events/9/pages/1/18/Dialogue
+> CONTEXT: Map742/events/111/pages/0/18/Dialogue
+> CONTEXT: Map742/events/111/pages/1/18/Dialogue
+> CONTEXT: Map665/events/12/pages/0/18/Dialogue
+> CONTEXT: Map665/events/12/pages/1/18/Dialogue
+> CONTEXT: Map631/events/23/pages/0/18/Dialogue
+> CONTEXT: Map631/events/23/pages/1/18/Dialogue
+> CONTEXT: Map565/events/40/pages/0/18/Dialogue
+> CONTEXT: Map358/events/17/pages/0/18/Dialogue
+> CONTEXT: Map358/events/17/pages/1/18/Dialogue
+> CONTEXT: Map315/events/9/pages/0/18/Dialogue
+> CONTEXT: Map315/events/9/pages/1/18/Dialogue
+> CONTEXT: Map282/events/31/pages/0/18/Dialogue
+> CONTEXT: Map282/events/31/pages/1/18/Dialogue
+> CONTEXT: Map294/events/548/pages/0/18/Dialogue
+> CONTEXT: Map294/events/548/pages/1/18/Dialogue
+> CONTEXT: Map238/events/134/pages/0/18/Dialogue
+> CONTEXT: Map238/events/134/pages/1/18/Dialogue
+> CONTEXT: Map213/events/11/pages/0/18/Dialogue
+> CONTEXT: Map213/events/11/pages/1/18/Dialogue
+> CONTEXT: Map145/events/44/pages/0/18/Dialogue
+> CONTEXT: Map145/events/44/pages/1/18/Dialogue
+> CONTEXT: Map150/events/82/pages/0/18/Dialogue
+> CONTEXT: Map150/events/82/pages/1/18/Dialogue
+> CONTEXT: Map134/events/126/pages/0/18/Dialogue
+> CONTEXT: Map134/events/126/pages/1/18/Dialogue
+> CONTEXT: Map116/events/18/pages/0/18/Dialogue
+> CONTEXT: Map116/events/18/pages/1/18/Dialogue
+> CONTEXT: Map086/events/51/pages/0/18/Dialogue
+> CONTEXT: Map079/events/89/pages/0/18/Dialogue
+> CONTEXT: Map086/events/51/pages/1/18/Dialogue
+> CONTEXT: Map079/events/89/pages/1/18/Dialogue
+> CONTEXT: Map069/events/29/pages/0/18/Dialogue
+> CONTEXT: Map069/events/30/pages/0/18/Dialogue
+\\name[\\v[2]]\\_
+Also, if you find it annoying to press the button every time,
+there is a "Simple Battle Setting" in the options that you can change.
+Then, you can do a normal battle by pressing the button.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それではグッドラック！
+いい旅を祈っているよ。
+> CONTEXT: Map748/events/9/pages/0/22/Dialogue
+> CONTEXT: Map748/events/9/pages/1/22/Dialogue
+> CONTEXT: Map742/events/111/pages/0/22/Dialogue
+> CONTEXT: Map742/events/111/pages/1/22/Dialogue
+> CONTEXT: Map665/events/12/pages/0/22/Dialogue
+> CONTEXT: Map665/events/12/pages/1/22/Dialogue
+> CONTEXT: Map631/events/23/pages/0/22/Dialogue
+> CONTEXT: Map631/events/23/pages/1/22/Dialogue
+> CONTEXT: Map565/events/40/pages/0/22/Dialogue
+> CONTEXT: Map358/events/17/pages/0/22/Dialogue
+> CONTEXT: Map358/events/17/pages/1/22/Dialogue
+> CONTEXT: Map315/events/9/pages/0/22/Dialogue
+> CONTEXT: Map315/events/9/pages/1/22/Dialogue
+> CONTEXT: Map282/events/31/pages/0/22/Dialogue
+> CONTEXT: Map282/events/31/pages/1/22/Dialogue
+> CONTEXT: Map294/events/548/pages/0/22/Dialogue
+> CONTEXT: Map294/events/548/pages/1/22/Dialogue
+> CONTEXT: Map238/events/134/pages/0/22/Dialogue
+> CONTEXT: Map238/events/134/pages/1/22/Dialogue
+> CONTEXT: Map213/events/11/pages/0/22/Dialogue
+> CONTEXT: Map213/events/11/pages/1/22/Dialogue
+> CONTEXT: Map145/events/44/pages/0/22/Dialogue
+> CONTEXT: Map145/events/44/pages/1/22/Dialogue
+> CONTEXT: Map150/events/82/pages/0/22/Dialogue
+> CONTEXT: Map150/events/82/pages/1/22/Dialogue
+> CONTEXT: Map134/events/126/pages/0/22/Dialogue
+> CONTEXT: Map134/events/126/pages/1/22/Dialogue
+> CONTEXT: Map116/events/18/pages/0/22/Dialogue
+> CONTEXT: Map116/events/18/pages/1/22/Dialogue
+> CONTEXT: Map086/events/51/pages/0/22/Dialogue
+> CONTEXT: Map079/events/89/pages/0/22/Dialogue
+> CONTEXT: Map086/events/51/pages/1/22/Dialogue
+> CONTEXT: Map079/events/89/pages/1/22/Dialogue
+> CONTEXT: Map069/events/29/pages/0/22/Dialogue
+> CONTEXT: Map069/events/30/pages/0/22/Dialogue
+\\name[\\v[2]]\\_
+Good luck!
+I wish you a great trip.
+> END STRING
+
+> BEGIN STRING
+"「樹海A」エリア
+簡易戦闘実行可能！"
+> CONTEXT: Map748/events/9/pages/0/45/InlineScript/2:1
+> CONTEXT: Map742/events/111/pages/0/32/InlineScript/2:1
+> CONTEXT: Map665/events/12/pages/0/32/InlineScript/2:1
+> CONTEXT: Map631/events/23/pages/0/32/InlineScript/2:1
+> CONTEXT: Map565/events/40/pages/0/34/InlineScript/2:1
+> CONTEXT: Map358/events/17/pages/0/32/InlineScript/2:1
+> CONTEXT: Map315/events/9/pages/0/32/InlineScript/2:1
+> CONTEXT: Map282/events/31/pages/0/35/InlineScript/2:1
+> CONTEXT: Map294/events/548/pages/0/34/InlineScript/2:1
+> CONTEXT: Map238/events/134/pages/0/35/InlineScript/2:1
+> CONTEXT: Map213/events/11/pages/0/38/InlineScript/2:1
+> CONTEXT: Map145/events/44/pages/0/33/InlineScript/2:1
+> CONTEXT: Map150/events/82/pages/0/33/InlineScript/2:1
+> CONTEXT: Map134/events/126/pages/0/36/InlineScript/2:1
+> CONTEXT: Map116/events/18/pages/0/32/InlineScript/2:1
+> CONTEXT: Map086/events/51/pages/0/36/InlineScript/2:1
+> CONTEXT: Map079/events/89/pages/0/39/InlineScript/2:1
+> CONTEXT: Map069/events/29/pages/0/33/InlineScript/2:1
+"Simple battles available 
+in Area A!"
+> END STRING
+
+> BEGIN STRING
+"樹海A"
+> CONTEXT: Map748/events/9/pages/0/45/InlineScript/5:29
+> CONTEXT: Map742/events/111/pages/0/32/InlineScript/5:29
+> CONTEXT: Map665/events/12/pages/0/32/InlineScript/5:29
+> CONTEXT: Map631/events/23/pages/0/32/InlineScript/5:29
+> CONTEXT: Map565/events/40/pages/0/34/InlineScript/5:29
+> CONTEXT: Map358/events/17/pages/0/32/InlineScript/5:29
+> CONTEXT: Map315/events/9/pages/0/32/InlineScript/5:29
+> CONTEXT: Map282/events/31/pages/0/35/InlineScript/5:29
+> CONTEXT: Map294/events/548/pages/0/34/InlineScript/5:29
+> CONTEXT: Map238/events/134/pages/0/35/InlineScript/5:29
+> CONTEXT: Map213/events/11/pages/0/38/InlineScript/5:29
+> CONTEXT: Map145/events/44/pages/0/33/InlineScript/5:29
+> CONTEXT: Map150/events/82/pages/0/33/InlineScript/5:29
+> CONTEXT: Map134/events/126/pages/0/36/InlineScript/5:29
+> CONTEXT: Map116/events/18/pages/0/32/InlineScript/5:29
+> CONTEXT: Map086/events/51/pages/0/36/InlineScript/5:29
+> CONTEXT: Map079/events/89/pages/0/39/InlineScript/5:29
+> CONTEXT: Map069/events/29/pages/0/33/InlineScript/5:29
+"Area A"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+…………。
+> CONTEXT: Map748/events/11/pages/0/1/Dialogue
+> CONTEXT: Map392/events/16/pages/3/92/Dialogue
+\\name[\\v[2]]\\_
+...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……何？
+> CONTEXT: Map748/events/11/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+...What?
+> END STRING
+
+> BEGIN STRING
+扉には3つの鍵穴がついている
+> CONTEXT: Map748/events/18/pages/0/0/Dialogue
+The door has three keyholes
+> END STRING
+
+> BEGIN STRING
+鍵が足りない
+> CONTEXT: Map748/events/18/pages/0/15/Dialogue
+> CONTEXT: Map518/events/1/pages/0/35/Dialogue
+Not enough keys
+> END STRING
+
+> BEGIN STRING
+全ての鍵を鍵穴に入れた
+> CONTEXT: Map748/events/18/pages/0/20/Dialogue
+> CONTEXT: Map518/events/1/pages/0/40/Dialogue
+Put all the keys in the lock
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら？
+やっぱりここまでこれたのね。
+> CONTEXT: Map748/events/68/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+Oh?
+So you made it this far after all.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここは常夜の街の夢魔たちのふるさとよ。
+私もたまに帰ってきてるのよ。
+> CONTEXT: Map748/events/68/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+This is the home of the succubi of the Evernight City.
+I come back here every now and then too.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふっ、いいもの揃ってるわよ。
+> CONTEXT: Map748/events/68/pages/0/11/Dialogue
+> CONTEXT: Map748/events/68/pages/1/7/Dialogue
+\\name[\\v[2]]\\_
+Hehe, there are a lot of nice things here.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+またどうぞ\\H
+> CONTEXT: Map748/events/68/pages/0/19/Dialogue
+> CONTEXT: Map748/events/68/pages/1/15/Dialogue
+\\name[\\v[2]]\\_
+See you again\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+新しく色々入荷したわ。
+> CONTEXT: Map748/events/68/pages/1/2/Dialogue
+\\name[\\v[2]]\\_
+We've got lots of new items in stock.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+世界中の採集品を集めてますの。
+良ければ協力してくれませんこと？
+> CONTEXT: Map748/events/71/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I'm collecting items from all over the world.
+Would you like to help me out?
+> END STRING

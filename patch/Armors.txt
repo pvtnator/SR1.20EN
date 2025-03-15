@@ -1,19 +1,33 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-テストルーン１
-> CONTEXT: Armors/1/name/ < UNTRANSLATED
-
+マニアックの心得
+> CONTEXT: Armors/2/name/
+Maniac's Guide
 > END STRING
 
 > BEGIN STRING
-テストルーン２
-> CONTEXT: Armors/2/name/ < UNTRANSLATED
-
+相手の服を脱がせる際に、特殊な脱衣状態にする。
+> CONTEXT: Armors/2/description/
+> CONTEXT: Armors/408/description/
+> CONTEXT: Armors/558/description/
+When removing the opponent's clothes, put them into a special undressed state.
 > END STRING
 
 > BEGIN STRING
-デバッグ用
-> CONTEXT: Armors/2/description/ < UNTRANSLATED
+靴フェチの心得
+> CONTEXT: Armors/3/name/
+Feet Fetish Guide
+> END STRING
+
+> BEGIN STRING
+靴を脱がせるスキルを習得する。
+> CONTEXT: Armors/3/description/
+Master the skill of removing shoes.
+> END STRING
+
+> BEGIN STRING
+test
+> CONTEXT: Armors/4/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -42,9 +56,9 @@ Lone Wolf/40/10
 > END STRING
 
 > BEGIN STRING
-孤高の戒めを刻んだ装飾品。パーティが１人の時にその力を発揮する。
+孤高の戒めを刻んだ装飾品。パーティが１人の時にその力を発揮する。[同系統重複不可]
 > CONTEXT: Armors/8/description/
-Decorated with a solitary commandment. Powerful in solo party.
+Its power is most pronounced alone. [Does not stack with similar effects]
 > END STRING
 
 > BEGIN STRING
@@ -57,6 +71,66 @@ Stoneskin/5/15
 石像の鱗を使った装飾品。インサート中スキルの威力が上昇する。
 > CONTEXT: Armors/9/description/
 Made from stone status scales. Stronger while inserted.
+> END STRING
+
+> BEGIN STRING
+キッスリング
+> CONTEXT: Armors/10/name/
+Kiss Ring
+> END STRING
+
+> BEGIN STRING
+味方にキスができるようになる指輪。
+> CONTEXT: Armors/10/description/
+A ring that allows you to kiss your allies.
+> END STRING
+
+> BEGIN STRING
+インキュバスの極意/-20/-20
+> CONTEXT: Armors/11/name/
+Succubus Secret/-20/-20
+> END STRING
+
+> BEGIN STRING
+難易度Romance以下で装備していると一瞬で夢魔をイカせることができる。
+> CONTEXT: Armors/11/description/
+On Romance difficulty or lower, instantly bring down a succubus.
+> END STRING
+
+> BEGIN STRING
+リバースパウダー
+> CONTEXT: Armors/12/name/
+Reverse Powder
+> END STRING
+
+> BEGIN STRING
+反転の力があるといわれる不思議な粉。
+> CONTEXT: Armors/12/description/
+A mysterious powder said to have the power of inversion.
+> END STRING
+
+> BEGIN STRING
+ホールドスキル入門書
+> CONTEXT: Armors/13/name/
+Hold Skill Primer
+> END STRING
+
+> BEGIN STRING
+ホールドスキルを習得できる入門書。
+> CONTEXT: Armors/13/description/
+An introductory book that will help you learn holding skills.
+> END STRING
+
+> BEGIN STRING
+ふたなりエキス/5/-5
+> CONTEXT: Armors/14/name/
+Futanari Extract/5/-5
+> END STRING
+
+> BEGIN STRING
+飲むと体の一部が女になります。
+> CONTEXT: Armors/14/description/
+When you drink it, part of your body becomes female.
 > END STRING
 
 > BEGIN STRING
@@ -138,6 +212,66 @@ Holds the meaning "opportunity". Stronger during shell match.
 > END STRING
 
 > BEGIN STRING
+ヘブンズウィング
+> CONTEXT: Armors/22/name/
+Heaven's Wing
+> END STRING
+
+> BEGIN STRING
+昇天します・・・
+> CONTEXT: Armors/22/description/
+Ascend to heaven...
+> END STRING
+
+> BEGIN STRING
+欲望のブローチ
+> CONTEXT: Armors/23/name/
+Brooch of Desire
+> END STRING
+
+> BEGIN STRING
+なんだか危険そうなブローチ。
+> CONTEXT: Armors/23/description/
+A rather dangerous looking brooch.
+> END STRING
+
+> BEGIN STRING
+干渉石
+> CONTEXT: Armors/24/name/
+Interferometric Stone
+> END STRING
+
+> BEGIN STRING
+契約に干渉する危険な宝石。
+> CONTEXT: Armors/24/description/
+A dangerous gem that interferes with contracts.
+> END STRING
+
+> BEGIN STRING
+孤独の女王/20/10
+> CONTEXT: Armors/25/name/
+Queen of Solitude/20/10
+> END STRING
+
+> BEGIN STRING
+孤高の戒めを刻んだ装飾品。パーティが１人の時にその力を発揮する。
+> CONTEXT: Armors/25/description/
+Decorated with a solitary commandment. Powerful in solo party.
+> END STRING
+
+> BEGIN STRING
+なりきりナースセット/5
+> CONTEXT: Armors/26/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ナースになりきるための小道具が詰まった箱。味方一人を回復するスキルを習得する。
+> CONTEXT: Armors/26/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 ■装備品
 > CONTEXT: Armors/30/name/ < UNTRANSLATED
 
@@ -198,9 +332,9 @@ Heart earrings/6/-2
 > END STRING
 
 > BEGIN STRING
-ハート型のピアス。夢魔が愛用して身に着けていることが多い。虚脱耐性。
+ハート型のピアス。夢魔が愛用して身に着けていることが多い。虚脱、骨抜き耐性。
 > CONTEXT: Armors/35/description/
-Often worn by succubi. Lethargy resistance.
+Often worn by succubi. Resists lethargy and bone loss.
 > END STRING
 
 > BEGIN STRING
@@ -270,9 +404,9 @@ Restraint Rosary/-2/10
 > END STRING
 
 > BEGIN STRING
-祈りに使われるロザリオ。暴走を無効。
+祈りに使われるロザリオ。暴走、中毒を無効。
 > CONTEXT: Armors/41/description/
-A rosary used for prayers. Berserk immunity.
+Rosary used for prayer. Negates berserk and poison.
 > END STRING
 
 > BEGIN STRING
@@ -366,9 +500,9 @@ Tear Crystal/-3/20
 > END STRING
 
 > BEGIN STRING
-涙のような形をした結晶。欲情、暴走に耐性。
-> CONTEXT: Armors/49/description/
-Crystals shaped like tears. Resistant to lust and berserk.
+涙のような形をした結晶。欲情、暴走、中毒に耐性。
+> CONTEXT: Armors/49/description/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -416,6 +550,7 @@ Night Sky Belt/30/-5
 > BEGIN STRING
 夢魔の中でも魔性の者たちが纏う、吸い込まれそうな夜空を映す帯。
 > CONTEXT: Armors/53/description/
+> CONTEXT: Armors/478/description/
 Reflects the alluring night sky, worn by the most devilish succubi.
 > END STRING
 
@@ -438,7 +573,7 @@ Vitality Flame/15/0
 > END STRING
 
 > BEGIN STRING
-力強く沸き立つ精神の炎。虚脱を無効。
+力強く沸き立つ精神の炎。虚脱、骨抜きを無効。
 > CONTEXT: Armors/55/description/ < UNTRANSLATED
 
 > END STRING
@@ -450,9 +585,9 @@ Devotee Dog Tag/12/12
 > END STRING
 
 > BEGIN STRING
-レンディカ自警団の認識票。畏怖、虚脱に耐性。
-> CONTEXT: Armors/56/description/
-Rendica vigilante group identification tag. Resistance to fear and lethargy.
+レンディカ自警団の認識票。畏怖、虚脱、骨抜きに耐性。
+> CONTEXT: Armors/56/description/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -534,9 +669,9 @@ Mr. Sheep/0/10
 > END STRING
 
 > BEGIN STRING
-おひつじさま。なんと装備できる。パーティのＥＰ自動回復量が上昇するぞ。
-> CONTEXT: Armors/63/description/
-How to equip a sheep? The party's automatic EP recovery increases.
+おひつじさま。なんと装備できる。眠りに耐性があるほか、パーティのＥＰ自動回復量が上昇するぞ。
+> CONTEXT: Armors/63/description/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -558,9 +693,9 @@ Peaceful Rem/0/18
 > END STRING
 
 > BEGIN STRING
-夢の中でも脳が休まる宝珠。戦闘勝利時に全員のＥＰを小回復。
+夢の中でも脳が休まる宝珠。戦闘勝利時に全員のＥＰを小回復。眠り耐性も持つ。
 > CONTEXT: Armors/65/description/
-Calms the brain in dreams. Recovers a bit of EP for everyone upon victory.
+When a battle is won, recover a bit of EP for all. Sleep resistance.
 > END STRING
 
 > BEGIN STRING
@@ -582,9 +717,9 @@ Herb Crown/18/0
 > END STRING
 
 > BEGIN STRING
-薬草を編んで作った冠。虚脱、麻痺、散漫の耐性を付ける。
+薬草を編んで作った冠。虚脱、麻痺、散漫、骨抜きの耐性を付ける。
 > CONTEXT: Armors/67/description/
-Woven from medicinal herbs. Resistant to lethargy, paralysis, and distraction.
+Made from woven herbs. Resistance to lethargy, paralysis, distraction, and bone loss.
 > END STRING
 
 > BEGIN STRING
@@ -612,16 +747,27 @@ In exchange for gaining power, skill VP consumption increases.
 > END STRING
 
 > BEGIN STRING
-自身に掛かる魔法を受け付けなくする、完全性の指輪。
-> CONTEXT: Armors/71/description/
-> CONTEXT: Armors/70/description/
-A ring of perfection that makes you immune to magic.
+メイドのカチューシャ/-20/-20
+> CONTEXT: Armors/70/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+これであなたもドジッ娘メイドの仲間入り！
+> CONTEXT: Armors/70/description/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 自己完結（没）
 > CONTEXT: Armors/71/name/
 Autonomy(death)
+> END STRING
+
+> BEGIN STRING
+自身に掛かる魔法を受け付けなくする、完全性の指輪。
+> CONTEXT: Armors/71/description/
+A ring of perfection that makes you immune to magic.
 > END STRING
 
 > BEGIN STRING
@@ -691,9 +837,9 @@ Courage circlet/10/0
 > END STRING
 
 > BEGIN STRING
-勇気の証となる聖別されたサークレット。畏怖・暴走に耐性。
+勇気の証となる聖別されたサークレット。畏怖、暴走、中毒に耐性。
 > CONTEXT: Armors/77/description/
-Grants resistance to fear and berserk.
+Symbolizes courage. Resists fear, berserk, and poison.
 > END STRING
 
 > BEGIN STRING
@@ -705,6 +851,7 @@ Dangerous Flower/10/0
 > BEGIN STRING
 状態異常が３つ付与された相手に大きく快感を与えられる危険な花。
 > CONTEXT: Armors/78/description/
+> CONTEXT: Armors/553/description/
 Increases pleasure given for those inflicted with three status ailments.
 > END STRING
 
@@ -721,6 +868,199 @@ An emblem of a mouse that exerts its power in crisis.
 > END STRING
 
 > BEGIN STRING
+魅了の香水
+> CONTEXT: Armors/80/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+持っているだけでドキドキする香水。
+> CONTEXT: Armors/80/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+危ないミルク
+> CONTEXT: Armors/81/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+依存性の高いミルク。
+> CONTEXT: Armors/81/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+隷属の鎖/-20/45
+> CONTEXT: Armors/82/name/
+Slave chains/-20/45
+> END STRING
+
+> BEGIN STRING
+奴隷が付ける鎖。一切抵抗できなくなる。
+> CONTEXT: Armors/82/description/
+Chains worn by slaves. They make it impossible for them to resist at all.
+> END STRING
+
+> BEGIN STRING
+隷属の証/-20/45
+> CONTEXT: Armors/83/name/
+Slave sign/-20/45
+> END STRING
+
+> BEGIN STRING
+奴隷である証。ご主人様の命令は絶対です。
+> CONTEXT: Armors/83/description/
+Proof of being a slave. Master's orders are absolute.
+> END STRING
+
+> BEGIN STRING
+獣の魂/0/-20
+> CONTEXT: Armors/84/name/
+Beast Soul/0/-20
+> END STRING
+
+> BEGIN STRING
+身に着けし者は我を失い、ひたすらに精をむさぼりつくす。
+> CONTEXT: Armors/84/description/
+The wearer loses himself and devours the semen with complete fervor.
+> END STRING
+
+> BEGIN STRING
+マグロ
+> CONTEXT: Armors/86/name/
+Dead lay
+> END STRING
+
+> BEGIN STRING
+無抵抗になる。
+> CONTEXT: Armors/86/description/
+Become non-resistant.
+> END STRING
+
+> BEGIN STRING
+悪魔の囁き
+> CONTEXT: Armors/87/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+敵に力を与えるスキルを使用可能になる。
+> CONTEXT: Armors/87/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔導士の印
+> CONTEXT: Armors/88/name/
+Mage's Mark
+> END STRING
+
+> BEGIN STRING
+戦闘開始時に魔法陣状態になる。
+> CONTEXT: Armors/88/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+絶頂の呪い
+> CONTEXT: Armors/89/name/
+Climax Curse
+> END STRING
+
+> BEGIN STRING
+抵抗を許さぬ、忌まわしき呪い。
+> CONTEXT: Armors/89/description/
+An abominable curse that tolerates no resistance.
+> END STRING
+
+> BEGIN STRING
+ヘヴィオーラ/0/60
+> CONTEXT: Armors/90/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+忍耐力が大幅に上昇するが、行動が後手になるオーラ。
+> CONTEXT: Armors/90/description/ < UNTRANSLATED
+> CONTEXT: Armors/563/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ヘブンズキッス
+> CONTEXT: Armors/91/name/
+Heaven's Kiss
+> END STRING
+
+> BEGIN STRING
+持つものを虜にする魅惑のキッス。
+> CONTEXT: Armors/91/description/
+A captivating kiss that will captivate anyone who holds it.
+> END STRING
+
+> BEGIN STRING
+謎のキノコ
+> CONTEXT: Armors/92/name/
+Mysterious Mushroom
+> END STRING
+
+> BEGIN STRING
+危険なエキスが滲みだすキノコ。大丈夫？
+> CONTEXT: Armors/92/description/
+A mushroom exuding a dangerous essence. Is it okay?
+> END STRING
+
+> BEGIN STRING
+奇妙な触手/-5/-5
+> CONTEXT: Armors/93/name/
+Strange Tentacle/-5/-5
+> END STRING
+
+> BEGIN STRING
+デモンズ系スキルが使用可能になる触手。
+> CONTEXT: Armors/93/description/
+A tentacle that allows the use of demon-type skills.
+> END STRING
+
+> BEGIN STRING
+ふたなりエキス/-5/-5
+> CONTEXT: Armors/94/name/
+Futanari Extract/-5/-5
+> END STRING
+
+> BEGIN STRING
+飲むと体の一部が男になります。
+> CONTEXT: Armors/94/description/
+When you drink it, part of your body becomes male.
+> END STRING
+
+> BEGIN STRING
+成長の鍵
+> CONTEXT: Armors/95/name/
+Growth Key
+> END STRING
+
+> BEGIN STRING
+【最高の姿】を習得できる鍵。
+> CONTEXT: Armors/95/description/
+The key to mastering 【Ideal Form】.
+> END STRING
+
+> BEGIN STRING
+サキュバステイル
+> CONTEXT: Armors/96/name/
+Succubus Tail
+> END STRING
+
+> BEGIN STRING
+テイル系スキルが使用可能になる尻尾。
+> CONTEXT: Armors/96/description/
+A tail that allows the use of tail-type skills.
+> END STRING
+
+> BEGIN STRING
 統べる冠/22/10
 > CONTEXT: Armors/97/name/
 Ruler Crown
@@ -733,15 +1073,15 @@ Demon ruler crown. Grants Cheer, and immunity to ecstasy.
 > END STRING
 
 > BEGIN STRING
-移りゆく時（没）
+ヘブンキスマーク/80/-20
 > CONTEXT: Armors/98/name/
-Shift(death)
+Heaven Kissmark/80/-20
 > END STRING
 
 > BEGIN STRING
-力の代償に、スキルを使用すると同じスキルが３ターンの間使えなくなる時計。
+生命力を奪う悪魔の口吻紋。力を得る代わりにスキルの消費ＶＰが大幅に増加する。
 > CONTEXT: Armors/98/description/
-Gain power, but unable to use the same skill for 3 consecutive turns.
+A demonic proboscis. Gain power, but VP consumption for skills increases significantly.
 > END STRING
 
 > BEGIN STRING
@@ -811,6 +1151,18 @@ Ing Rune/18
 > END STRING
 
 > BEGIN STRING
+魔界のルーン/38
+> CONTEXT: Armors/105/name/
+Hell Rune/38
+> END STRING
+
+> BEGIN STRING
+[★] 貴重なルーン。溢れんばかりの魅力を得ることができる。
+> CONTEXT: Armors/105/description/
+[★] A precious rune that gives you an abundance of charm.
+> END STRING
+
+> BEGIN STRING
 忍耐のルーン/0/3
 > CONTEXT: Armors/106/name/
 Endurance Rune/0/3
@@ -856,6 +1208,18 @@ Ehwaz Rune/0/18
 [★] 防御のルーン。何事にも動じない忍耐力を得ることができる。
 > CONTEXT: Armors/109/description/
 [★] Rune of protection. Gain the endurance to be unfazed by anything.
+> END STRING
+
+> BEGIN STRING
+常世のルーン/0/38
+> CONTEXT: Armors/110/name/
+Eternity Rune/0/38
+> END STRING
+
+> BEGIN STRING
+[★]貴重なルーン。何事にも動じない忍耐力を得ることができる。
+> CONTEXT: Armors/110/description/
+[★] A valuable rune that gives you unwavering perseverance no matter what.
 > END STRING
 
 > BEGIN STRING
@@ -1069,9 +1433,9 @@ Reason Rune
 > END STRING
 
 > BEGIN STRING
-[○] 暴走耐性が上がる。このルーンの効果は重複しない。
+[○] 暴走、中毒耐性が上がる。このルーンの効果は重複しない。
 > CONTEXT: Armors/135/description/
-[○] Increases berserk resistance. Effect doesn't stack.
+[○] Increases resistance to berserk and poison. Does not stack.
 > END STRING
 
 > BEGIN STRING
@@ -1081,9 +1445,9 @@ Vitality Rune
 > END STRING
 
 > BEGIN STRING
-[○] 虚脱耐性が上がる。このルーンの効果は重複しない。
+[○] 虚脱、骨抜き耐性が上がる。このルーンの効果は重複しない。
 > CONTEXT: Armors/136/description/
-[○] Increases lethargy resistance. Effect doesn't stack.
+[○] Increases resistance to lethargy and bone loss. Does not stack.
 > END STRING
 
 > BEGIN STRING
@@ -1219,6 +1583,18 @@ Lewd Rune/20/-50
 > END STRING
 
 > BEGIN STRING
+豊穣のルーン/10
+> CONTEXT: Armors/151/name/
+Fertility Rune/10
+> END STRING
+
+> BEGIN STRING
+[★] 妊娠することができるようになる。
+> CONTEXT: Armors/151/description/
+[★] You will be able to become pregnant.
+> END STRING
+
+> BEGIN STRING
 強引のルーン
 > CONTEXT: Armors/152/name/
 Force Rune
@@ -1240,6 +1616,78 @@ Resist Rune
 [◇] 抵抗時レジスト（未抵抗時）の矢印の最大数が６になる。
 > CONTEXT: Armors/153/description/
 [◇] The maximum resist arrows when defending (unresisted) becomes 6.
+> END STRING
+
+> BEGIN STRING
+指導のルーン
+> CONTEXT: Armors/154/name/
+Guidance Rune
+> END STRING
+
+> BEGIN STRING
+[◇] 自分に経験値が入らなくなるが、パーティの取得経験値が増加する。
+> CONTEXT: Armors/154/description/
+[◇] You will not gain EXP, but your party will gain more EXP.
+> END STRING
+
+> BEGIN STRING
+天国のルーン
+> CONTEXT: Armors/155/name/
+Heavenly Rune
+> END STRING
+
+> BEGIN STRING
+[★] 貴重なルーン。絶大な精力を得ることができる。
+> CONTEXT: Armors/155/description/
+[★] A valuable rune that grants immense energy.
+> END STRING
+
+> BEGIN STRING
+冥界のルーン
+> CONTEXT: Armors/156/name/
+Underworld Rune
+> END STRING
+
+> BEGIN STRING
+[★] 貴重なルーン。精緻かつ巧みな器用さを得ることができる。
+> CONTEXT: Armors/156/description/
+[★] A valuable rune that grants exquisite and skillful dexterity.
+> END STRING
+
+> BEGIN STRING
+無間のルーン
+> CONTEXT: Armors/157/name/
+Eternity Rune
+> END STRING
+
+> BEGIN STRING
+[★] 貴重なルーン。目にも止まらぬ程の素早さを得ることができる。
+> CONTEXT: Armors/157/description/
+[★] A valuable rune that grants blinding agility.
+> END STRING
+
+> BEGIN STRING
+涅槃のルーン
+> CONTEXT: Armors/158/name/
+Nirvana Rune
+> END STRING
+
+> BEGIN STRING
+[★] 貴重なルーン。揺らぐことのない精神力を得ることができる。
+> CONTEXT: Armors/158/description/
+[★] A valuable rune that grants unwavering spirit.
+> END STRING
+
+> BEGIN STRING
+世界のルーン/20/20
+> CONTEXT: Armors/159/name/
+World Rune/20/20
+> END STRING
+
+> BEGIN STRING
+[★] 非常に貴重なルーン。すべての能力値が大きく上がるルーン。[重複不可]
+> CONTEXT: Armors/159/description/
+[★] A very valuable rune. Greatly increases all abilities. [Cannot be duplicated]
 > END STRING
 
 > BEGIN STRING
@@ -1327,6 +1775,30 @@ Resist Rune
 > END STRING
 
 > BEGIN STRING
+[☆] オーラルインサートを覚える。
+> CONTEXT: Armors/183/description/
+[☆] Learn oral insertion.
+> END STRING
+
+> BEGIN STRING
+[☆] バックインサートを覚える。
+> CONTEXT: Armors/184/description/
+[☆] Learn back insert.
+> END STRING
+
+> BEGIN STRING
+[☆] リバースペリスコープを覚える。
+> CONTEXT: Armors/185/description/
+[☆] Learn Reverse Periscope.
+> END STRING
+
+> BEGIN STRING
+[☆] フォーリンヘブンを覚える。
+> CONTEXT: Armors/186/description/
+[☆] Learn Falling Heaven.
+> END STRING
+
+> BEGIN STRING
 [◇] 食材を調理し、様々な効果を得るスキルを取得する。
 > CONTEXT: Armors/190/description/
 [◇] Grants the skill to cook ingredients and obtain various effects.
@@ -1342,6 +1814,12 @@ Resist Rune
 [☆] 味方１人のＥＰを中回復する魔法スキルを習得する。
 > CONTEXT: Armors/201/description/
 [☆] Learn a spell that restores a moderate amount of EP to one ally.
+> END STRING
+
+> BEGIN STRING
+[☆] 味方１人のＥＰを大回復する魔法スキルを習得する。
+> CONTEXT: Armors/202/description/
+[☆] Acquire a spell that greatly recovers EP for 1 ally.
 > END STRING
 
 > BEGIN STRING
@@ -1417,15 +1895,15 @@ Resist Rune
 > END STRING
 
 > BEGIN STRING
-[◇] 味方１人の全能力を高める魔法スキルを習得する。
-> CONTEXT: Armors/215/description/
-[◇] Acquire a spell that increases all abilities of one ally.
+[◇] 味方全員の能力をランダムで2回高める魔法スキルを習得する。
+> CONTEXT: Armors/215/description/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-[◇] 敵１人の全能力を弱める魔法スキルを習得する。
-> CONTEXT: Armors/216/description/
-[◇] Learn a spell that weakens all abilities of one enemy.
+[◇] 敵全員の能力をランダムで2回弱める魔法スキルを習得する。
+> CONTEXT: Armors/216/description/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -1504,6 +1982,78 @@ Resist Rune
 [◇] 場に掛かっている効果を全て無くす魔法スキルを習得する。
 > CONTEXT: Armors/233/description/
 [◇] Learn a spell that eliminates all effects on the field.
+> END STRING
+
+> BEGIN STRING
+[◇] 味方全員の魅力を強める魔法スキルを習得する。
+> CONTEXT: Armors/235/description/
+[◇] Learn a spell that enhances the charm of all allies.
+> END STRING
+
+> BEGIN STRING
+[◇] 敵全員の魅力を弱める魔法スキルを習得する。
+> CONTEXT: Armors/236/description/
+[◇] Learn a spell that weakens the charm of all enemies.
+> END STRING
+
+> BEGIN STRING
+[◇] 味方全員の忍耐を強める魔法スキルを習得する。
+> CONTEXT: Armors/237/description/
+[◇] Learn a spell that enhances the endurance of all allies.
+> END STRING
+
+> BEGIN STRING
+[◇] 敵全員の忍耐を弱める魔法スキルを習得する。
+> CONTEXT: Armors/238/description/
+[◇] Learn a spell that weaknes the endurance of all enemies.
+> END STRING
+
+> BEGIN STRING
+[◇] 味方全員の精力を強める魔法スキルを習得する。
+> CONTEXT: Armors/239/description/
+[◇] Learn a spell that enhances the energy of all allies.
+> END STRING
+
+> BEGIN STRING
+[◇] 敵全員の精力を弱める魔法スキルを習得する。
+> CONTEXT: Armors/240/description/
+[◇] Learn a spell that weaknes the energy of all enemies.
+> END STRING
+
+> BEGIN STRING
+[◇] 味方全員の器用さを高める魔法スキルを習得する。
+> CONTEXT: Armors/241/description/
+[◇] Learn a spell that enhances the dexterity of all allies.
+> END STRING
+
+> BEGIN STRING
+[◇] 敵全員の器用さを弱める魔法スキルを習得する。
+> CONTEXT: Armors/242/description/
+[◇] Learn a spell that weakens the dexterity of all enemies.
+> END STRING
+
+> BEGIN STRING
+[◇] 味方全員の素早さを高める魔法スキルを習得する。
+> CONTEXT: Armors/243/description/
+[◇] Learn a spell that enhances the agility of all allies.
+> END STRING
+
+> BEGIN STRING
+[◇] 敵全員の素早さを下げる魔法スキルを習得する。
+> CONTEXT: Armors/244/description/
+[◇] Learn a spell that weakens the agility of all enemies.
+> END STRING
+
+> BEGIN STRING
+[◇] 味方全員の精神力を高める魔法スキルを習得する。
+> CONTEXT: Armors/245/description/
+[◇] Learn a spell that enhances the spirit of all allies.
+> END STRING
+
+> BEGIN STRING
+[◇] 敵全員の精神力を弱める魔法スキルを習得する。
+> CONTEXT: Armors/246/description/
+[◇] Learn a spell that weakens the spirit of all enemies.
 > END STRING
 
 > BEGIN STRING
@@ -1753,6 +2303,114 @@ Resist Rune
 > END STRING
 
 > BEGIN STRING
+【巨根】
+> CONTEXT: Armors/289/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[☆] ♂に対する攻撃に滅法強い素質を得る。
+> CONTEXT: Armors/289/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【バキュームリップ】
+> CONTEXT: Armors/290/name/
+【Vacuum lip】
+> END STRING
+
+> BEGIN STRING
+[☆] 鋭気を吸える唇の素質を得る。
+> CONTEXT: Armors/290/description/
+[☆] Gain the ability to develop lips that can absorb courage.
+> END STRING
+
+> BEGIN STRING
+【脚線美】
+> CONTEXT: Armors/291/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[☆] 思わず見とれてしまう程の美脚の素質を得る。
+> CONTEXT: Armors/291/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【キス魔】
+> CONTEXT: Armors/292/name/
+【Kiss Monster】
+> END STRING
+
+> BEGIN STRING
+[☆] キスに滅法強くなる素質を得る。
+> CONTEXT: Armors/292/description/
+[☆] Gain the ability to be extremely good at kissing.
+> END STRING
+
+> BEGIN STRING
+【マシュマロバスト】
+> CONTEXT: Armors/293/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[☆] 触れるだけで蕩けてしまうほど心地の良い胸の素質を得る。
+> CONTEXT: Armors/293/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【桃尻】
+> CONTEXT: Armors/294/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[☆] とてもハリがあって魅力的な美尻の素質を得る。
+> CONTEXT: Armors/294/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【強靭な精神】
+> CONTEXT: Armors/295/name/
+【Strong Spirit】
+> END STRING
+
+> BEGIN STRING
+[☆] 苦痛を加えられても怯まない素質を得る。
+> CONTEXT: Armors/295/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【魅惑の蜜壺】
+> CONTEXT: Armors/296/name/
+[☆] Gain the ability to not flinch even when pain is inflicted upon you.
+> END STRING
+
+> BEGIN STRING
+[☆] 催淫性のある蜜を滴らせる蜜壺の素質を得る。
+> CONTEXT: Armors/296/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【鋭い眼光】
+> CONTEXT: Armors/297/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[☆] 弱点以外を攻めてきた相手に畏怖を付与する素質を得る。
+> CONTEXT: Armors/297/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 【口が性感帯】
 > CONTEXT: Armors/300/name/
 【Erogenous mouth】
@@ -1810,4 +2468,2979 @@ Resist Rune
 [○] 女陰を攻められた時、被追撃率が上昇する素質を得る。
 > CONTEXT: Armors/304/description/
 [○] Attacks in the vagina are more likely to have a follow-up.
+> END STRING
+
+> BEGIN STRING
+【淫唇】
+> CONTEXT: Armors/307/name/
+【Slutty lips】
+> END STRING
+
+> BEGIN STRING
+[○] 口を攻められた時、被追撃率が大幅に上昇する素質を得る。
+> CONTEXT: Armors/307/description/
+[○] Greatly increase the chance of follow-up when mouth is attacked.
+> END STRING
+
+> BEGIN STRING
+【淫乳】
+> CONTEXT: Armors/308/name/
+【Slutty chest】
+> END STRING
+
+> BEGIN STRING
+[○] 胸を攻められた時、被追撃率が大幅に上昇する素質を得る。
+> CONTEXT: Armors/308/description/
+[○] Greatly increase the chance of follow-up when chest is attacked.
+> END STRING
+
+> BEGIN STRING
+【淫尻】
+> CONTEXT: Armors/309/name/
+【Slutty ass】
+> END STRING
+
+> BEGIN STRING
+[○] お尻を攻められた時、被追撃率が大幅に上昇する素質を得る。
+> CONTEXT: Armors/309/description/
+[○] Greatly increase the chance of follow-up when ass is attacked.
+> END STRING
+
+> BEGIN STRING
+【淫核】
+> CONTEXT: Armors/310/name/
+【Slutty clitoris】
+> END STRING
+
+> BEGIN STRING
+[○] 陰核を攻められた時、被追撃率が大幅に上昇する素質を得る。
+> CONTEXT: Armors/310/description/
+[○] Greatly increase the chance of follow-up when clitoris is attacked.
+> END STRING
+
+> BEGIN STRING
+【淫壺】
+> CONTEXT: Armors/311/name/
+【Slutty vagina】
+> END STRING
+
+> BEGIN STRING
+[○] 女陰を攻められた時、被追撃率が大幅に上昇する素質を得る。
+> CONTEXT: Armors/311/description/
+[○] Greatly increase the chance of follow-up when vagina is attacked.
+> END STRING
+
+> BEGIN STRING
+【小悪魔の連携】/-25/-20
+> CONTEXT: Armors/312/name/
+【Imp Link】/-25/-20
+> END STRING
+
+> BEGIN STRING
+[○] 戦闘中、【小悪魔の統率】を持つ仲間のスキルを使用可能になるが、能力が大きく下がる
+> CONTEXT: Armors/312/description/
+[○] Use skills of allies with 【Imp Leadership】, but own abilities are greatly reduced.
+> END STRING
+
+> BEGIN STRING
+【小悪魔の統率】/-10/-15
+> CONTEXT: Armors/313/name/
+【Imp Leadership】/-10/-15
+> END STRING
+
+> BEGIN STRING
+[○] 戦闘中、【小悪魔の連携】を持つ仲間が自分のスキルを使えるようになるが、能力は大きく下がる
+> CONTEXT: Armors/313/description/
+[○] Allies with 【Imp Link】 can use your skills, but their abilities are greatly reduced.
+> END STRING
+
+> BEGIN STRING
+【過敏な身体】
+> CONTEXT: Armors/314/name/
+【Sensitive body】
+> END STRING
+
+> BEGIN STRING
+[○] 大きく快感を受ける素質を得る。
+> CONTEXT: Armors/314/description/
+[○] Gain the ability to receive great pleasure.
+> END STRING
+
+> BEGIN STRING
+【吸精】
+> CONTEXT: Armors/315/name/
+【Absorb】
+> END STRING
+
+> BEGIN STRING
+[☆] 自分が相手を絶頂させた時、満腹度を小回復する素質を得る。
+> CONTEXT: Armors/315/description/
+[☆] When you make your opponent climax, recover some satiety.
+> END STRING
+
+> BEGIN STRING
+【隷属のルーン】
+> CONTEXT: Armors/316/name/
+【Slave Rune】
+> END STRING
+
+> BEGIN STRING
+奴隷となった物に刻まれるルーン。
+> CONTEXT: Armors/316/description/
+Rune carved into those who have become slaves.
+> END STRING
+
+> BEGIN STRING
+【束縛のルーン】
+> CONTEXT: Armors/317/name/
+【Binding Rune】
+> END STRING
+
+> BEGIN STRING
+刻まれた者の自由を奪うルーン。
+> CONTEXT: Armors/317/description/
+A rune that robs those upon whom it is engraved of their freedom.
+> END STRING
+
+> BEGIN STRING
+【マグロ】
+> CONTEXT: Armors/318/name/
+【Dead lay】
+> END STRING
+
+> BEGIN STRING
+刻まれた者をマグロにするルーン。
+> CONTEXT: Armors/318/description/
+A rune that turns whoever it is engraved on to dead lay.
+> END STRING
+
+> BEGIN STRING
+【魅了のルーン】
+> CONTEXT: Armors/319/name/
+【Allure Rune】
+> END STRING
+
+> BEGIN STRING
+刻まれた者の心を惑わすルーン。
+> CONTEXT: Armors/319/description/
+A rune that confuses the mind of the one upon whom it is engraved.
+> END STRING
+
+> BEGIN STRING
+【絶頂のルーン】
+> CONTEXT: Armors/320/name/
+【Climax Rune】
+> END STRING
+
+> BEGIN STRING
+刻まれた者の抵抗の意思を奪うルーン。
+> CONTEXT: Armors/320/description/
+A rune that robs those it is engraved with of the will to resist.
+> END STRING
+
+> BEGIN STRING
+【恍惚のルーン】
+> CONTEXT: Armors/323/name/
+【Ecstasy Rune】
+> END STRING
+
+> BEGIN STRING
+刻まれたものの精神に作用し、恍惚状態にするルーン。
+> CONTEXT: Armors/323/description/
+Affects the mind of whatever it is engraved on, causing a state of ecstasy.
+> END STRING
+
+> BEGIN STRING
+【溺欲】
+> CONTEXT: Armors/324/name/
+【Desire】
+> END STRING
+
+> BEGIN STRING
+リバウンドで自分が受ける快感が大幅に上昇する。
+> CONTEXT: Armors/324/description/
+Pleasure received from rebound increases significantly.
+> END STRING
+
+> BEGIN STRING
+【てかげん】
+> CONTEXT: Armors/325/name/
+【Allowance】
+> END STRING
+
+> BEGIN STRING
+寝室戦で、絶頂させた時のVP減少を半分に抑える。
+> CONTEXT: Armors/325/description/
+In bed, VP loss when making an opponent climax is halved.
+> END STRING
+
+> BEGIN STRING
+【超てかげん】
+> CONTEXT: Armors/326/name/
+【Super allowance】
+> END STRING
+
+> BEGIN STRING
+寝室戦で、絶頂させた時のVP減少を1/5に抑える。
+> CONTEXT: Armors/326/description/
+In bed, VP loss when making an opponent climax is 1/5.
+> END STRING
+
+> BEGIN STRING
+【キッス開発度Ⅰ】
+> CONTEXT: Armors/328/name/
+【Kiss sensitivityⅠ】
+> END STRING
+
+> BEGIN STRING
+キッスの虜。キッスで受ける快感が増加する。
+> CONTEXT: Armors/328/description/
+Addicted to kissing. Increased pleasure from kissing.
+> END STRING
+
+> BEGIN STRING
+【キッス開発度Ⅱ】
+> CONTEXT: Armors/329/name/
+【Kiss sensitivityⅡ】
+> END STRING
+
+> BEGIN STRING
+キッスの虜。キッスで受ける快感が大きく増加する。
+> CONTEXT: Armors/329/description/
+Addicted to kissing. Greatly increased pleasure from kissing.
+> END STRING
+
+> BEGIN STRING
+【口開発度Ⅰ】
+> CONTEXT: Armors/330/name/
+【Mouth sensitivityⅠ】
+> END STRING
+
+> BEGIN STRING
+唇や舌を開発されている。受ける快感が増加する。
+> CONTEXT: Armors/330/description/
+Lips and tongue are sensitized. Pleasure increases.
+> END STRING
+
+> BEGIN STRING
+【口開発度Ⅱ】
+> CONTEXT: Armors/331/name/
+【Mouth sensitivityⅡ】
+> END STRING
+
+> BEGIN STRING
+唇や舌を開発されている。受ける快感が大きく増加する。
+> CONTEXT: Armors/331/description/
+Lips and tongue are sensitized. Pleasure increases greatly.
+> END STRING
+
+> BEGIN STRING
+【胸開発度Ⅰ】
+> CONTEXT: Armors/332/name/
+【Chest sensitivityⅠ】
+> END STRING
+
+> BEGIN STRING
+胸や乳首を開発されている。受ける快感が増加する。
+> CONTEXT: Armors/332/description/
+Chest and nipples are sensitized. Pleasure increases.
+> END STRING
+
+> BEGIN STRING
+【胸開発度Ⅱ】
+> CONTEXT: Armors/333/name/
+【Chest sensitivityⅡ】
+> END STRING
+
+> BEGIN STRING
+胸や乳首を開発されている。受ける快感が大きく増加する。
+> CONTEXT: Armors/333/description/
+Chest and nipples are sensitized. Pleasure increases greatly.
+> END STRING
+
+> BEGIN STRING
+【尻開発度Ⅰ】
+> CONTEXT: Armors/334/name/
+【Butt sensitivityⅠ】
+> END STRING
+
+> BEGIN STRING
+お尻やアナルを開発されている。受ける快感が増加する。
+> CONTEXT: Armors/334/description/
+Ass and anus are sensitized. Pleasure increases.
+> END STRING
+
+> BEGIN STRING
+【尻開発度Ⅱ】
+> CONTEXT: Armors/335/name/
+【Butt sensitivityⅡ】
+> END STRING
+
+> BEGIN STRING
+お尻やアナルを開発されている。受ける快感が大きく増加する。
+> CONTEXT: Armors/335/description/
+Ass and anus are sensitized. Pleasure increases greatly.
+> END STRING
+
+> BEGIN STRING
+【ペニス開発度Ⅰ】
+> CONTEXT: Armors/336/name/
+【Penis sensitivityⅠ】
+> END STRING
+
+> BEGIN STRING
+ペニスを開発されている。受ける快感が増加する。
+> CONTEXT: Armors/336/description/
+The penis is conditioned. The pleasure received increases.
+> END STRING
+
+> BEGIN STRING
+【ペニス開発度Ⅱ】
+> CONTEXT: Armors/337/name/
+【Penis sensitivityⅡ】
+> END STRING
+
+> BEGIN STRING
+ペニスを開発されている。受ける快感が大きく増加する。
+> CONTEXT: Armors/337/description/
+Penis is sensitized. Pleasure increases greatly.
+> END STRING
+
+> BEGIN STRING
+【アソコ開発度Ⅰ】
+> CONTEXT: Armors/338/name/
+【Vagina sensitivityⅠ】
+> END STRING
+
+> BEGIN STRING
+アソコを開発されている。受ける快感が増加する。
+> CONTEXT: Armors/338/description/
+Vagina is conditioned. The pleasure received increases.
+> END STRING
+
+> BEGIN STRING
+【アソコ開発度Ⅱ】
+> CONTEXT: Armors/339/name/
+【Vagina sensitivityⅡ】
+> END STRING
+
+> BEGIN STRING
+アソコを開発されている。受ける快感が大きく増加する。
+> CONTEXT: Armors/339/description/
+Vagina is sensitized. Pleasure increases greatly.
+> END STRING
+
+> BEGIN STRING
+【被虐開発度Ⅰ】
+> CONTEXT: Armors/340/name/
+【Maso sensitivityⅠ】
+> END STRING
+
+> BEGIN STRING
+被虐の虜。被虐で受ける快感が増加する。
+> CONTEXT: Armors/340/description/
+Captive of masochism. Pleasure from masochism increases.
+> END STRING
+
+> BEGIN STRING
+【被虐開発度Ⅱ】
+> CONTEXT: Armors/341/name/
+【Maso sensitivityⅡ】
+> END STRING
+
+> BEGIN STRING
+被虐の虜。被虐で受ける快感が大きく増加する。
+> CONTEXT: Armors/341/description/
+Captive of masochism. Pleasure from masochism increases greatly.
+> END STRING
+
+> BEGIN STRING
+【被挿入開発度(♀)Ⅰ】
+> CONTEXT: Armors/342/name/
+【Insert sensitivity(♀)Ⅰ】
+> END STRING
+
+> BEGIN STRING
+性交の虜。性交で受ける快感が増加する。
+> CONTEXT: Armors/342/description/
+> CONTEXT: Armors/344/description/
+Addicted to sex. Pleasure from sex increases.
+> END STRING
+
+> BEGIN STRING
+【被挿入開発度(♀)Ⅱ】
+> CONTEXT: Armors/343/name/
+【Insert sensitivity(♀)Ⅱ】
+> END STRING
+
+> BEGIN STRING
+性交の虜。性交で受ける快感が大きく増加する。
+> CONTEXT: Armors/343/description/
+> CONTEXT: Armors/345/description/
+Addicted to sex. Pleasure from sex increases greatly.
+> END STRING
+
+> BEGIN STRING
+【♀挿入開発度Ⅰ】
+> CONTEXT: Armors/344/name/
+【♀Insert sensitivityⅠ】
+> END STRING
+
+> BEGIN STRING
+【♀挿入開発度Ⅱ】
+> CONTEXT: Armors/345/name/
+【♀Insert sensitivityⅡ】
+> END STRING
+
+> BEGIN STRING
+【異形攻め開発度Ⅰ】
+> CONTEXT: Armors/346/name/
+【Abnormal sensitivityⅠ】
+> END STRING
+
+> BEGIN STRING
+異形攻めの虜。異形攻めで受ける快感が増加する。
+> CONTEXT: Armors/346/description/
+Captivated by strange attacks. Pleasure from strange attacks increases.
+> END STRING
+
+> BEGIN STRING
+【異形攻め開発度Ⅱ】
+> CONTEXT: Armors/347/name/
+【Abnormal sensitivityⅡ】
+> END STRING
+
+> BEGIN STRING
+異形攻めの虜。異形攻めで受ける快感が大きく増加する。
+> CONTEXT: Armors/347/description/
+Captivated by strange attacks. Pleasure from strange attacks increases greatly.
+> END STRING
+
+> BEGIN STRING
+【口姦開発度Ⅰ】
+> CONTEXT: Armors/348/name/
+【Oral sex sensitivityⅠ】
+> END STRING
+
+> BEGIN STRING
+口姦の虜。口姦で受ける快感が増加する。
+> CONTEXT: Armors/348/description/
+Addicted to oral sex. Pleasure from oral sex increases.
+> END STRING
+
+> BEGIN STRING
+【口姦開発度Ⅱ】
+> CONTEXT: Armors/349/name/
+【Oral sex sensitivityⅡ】
+> END STRING
+
+> BEGIN STRING
+口姦の虜。口姦で受ける快感が大きく増加する。
+> CONTEXT: Armors/349/description/
+Addicted to oral sex. Pleasure from oral sex increases greatly.
+> END STRING
+
+> BEGIN STRING
+【口淫開発度Ⅰ】
+> CONTEXT: Armors/350/name/
+【Oral sensitivityⅠ】
+> END STRING
+
+> BEGIN STRING
+口淫の虜。口淫で受ける快感が増加する。
+> CONTEXT: Armors/350/description/
+Addicted to oral sex. Pleasure from oral sex increases.
+> END STRING
+
+> BEGIN STRING
+【口淫開発度Ⅱ】
+> CONTEXT: Armors/351/name/
+【Oral sensitivityⅡ】
+> END STRING
+
+> BEGIN STRING
+口淫の虜。口淫で受ける快感が大きく増加する。
+> CONTEXT: Armors/351/description/
+Addicted to oral sex. Pleasure from oral sex increases greatly.
+> END STRING
+
+> BEGIN STRING
+【手淫開発度Ⅰ】
+> CONTEXT: Armors/352/name/
+【Masturbate sensitivityⅠ】
+> END STRING
+
+> BEGIN STRING
+手淫の虜。手淫で受ける快感が増加する。
+> CONTEXT: Armors/352/description/
+Addicted to masturbation. Pleasure from masturbation increases.
+> END STRING
+
+> BEGIN STRING
+【手淫開発度Ⅱ】
+> CONTEXT: Armors/353/name/
+【Masturbate sensitivityⅡ】
+> END STRING
+
+> BEGIN STRING
+手淫の虜。手淫で受ける快感が大きく増加する。
+> CONTEXT: Armors/353/description/
+Addicted to masturbation. Pleasure from masturbation increases greatly.
+> END STRING
+
+> BEGIN STRING
+【肛姦開発度Ⅰ】
+> CONTEXT: Armors/354/name/
+【Anal sensitivityⅠ】
+> END STRING
+
+> BEGIN STRING
+肛姦の虜。肛姦で受ける快感が増加する。
+> CONTEXT: Armors/354/description/
+Addicted to anal sex. Pleasure from anal sex increases.
+> END STRING
+
+> BEGIN STRING
+【肛姦開発度Ⅱ】
+> CONTEXT: Armors/355/name/
+【Anal sensitivityⅡ】
+> END STRING
+
+> BEGIN STRING
+肛姦の虜。肛姦で受ける快感が大きく増加する。
+> CONTEXT: Armors/355/description/
+Addicted to anal sex. Pleasure from anal sex increases greatly.
+> END STRING
+
+> BEGIN STRING
+【被挿入開発度(尻)Ⅰ】
+> CONTEXT: Armors/356/name/
+【Insert sensitivity(Ass)Ⅰ】
+> END STRING
+
+> BEGIN STRING
+尻挿入の虜。尻挿入で受ける快感が増加する。
+> CONTEXT: Armors/356/description/
+Addicted to anal sex. Pleasure from anal sex increases.
+> END STRING
+
+> BEGIN STRING
+【被挿入開発度(尻)Ⅱ】
+> CONTEXT: Armors/357/name/
+【Insert sensitivity(Ass)Ⅱ】
+> END STRING
+
+> BEGIN STRING
+尻挿入の虜。尻挿入で受ける快感が大きく増加する。
+> CONTEXT: Armors/357/description/
+Addicted to anal sex. Pleasure from anal sex increases greatly.
+> END STRING
+
+> BEGIN STRING
+【顔面騎乗開発度Ⅰ】
+> CONTEXT: Armors/358/name/
+【Facesitting sensitivityⅠ】
+> END STRING
+
+> BEGIN STRING
+顔面騎乗の虜。顔面騎乗で受ける快感が増加する。
+> CONTEXT: Armors/358/description/
+Addicted to facesitting. Pleasure from facesitting increases.
+> END STRING
+
+> BEGIN STRING
+【顔面騎乗開発度Ⅱ】
+> CONTEXT: Armors/359/name/
+【Facesitting sensitivityⅡ】
+> END STRING
+
+> BEGIN STRING
+顔面騎乗の虜。顔面騎乗で受ける快感が大きく増加する。
+> CONTEXT: Armors/359/description/
+Addicted to facesitting. Pleasure from facesitting increases greatly.
+> END STRING
+
+> BEGIN STRING
+【貝合わせ開発度Ⅰ】
+> CONTEXT: Armors/360/name/
+【Shell Match sensitivityⅠ】
+> END STRING
+
+> BEGIN STRING
+貝合わせの虜。貝合わせで受ける快感が増加する。
+> CONTEXT: Armors/360/description/
+Addicted to scissoring. Pleasure from scissoring increases.
+> END STRING
+
+> BEGIN STRING
+【貝合わせ開発度Ⅱ】
+> CONTEXT: Armors/361/name/
+【Shell Match sensitivityⅡ】
+> END STRING
+
+> BEGIN STRING
+貝合わせの虜。貝合わせで受ける快感が大きく増加する。
+> CONTEXT: Armors/361/description/
+Addicted to scissoring. Pleasure from scissoring increases greatly.
+> END STRING
+
+> BEGIN STRING
+【パイズリ開発度Ⅰ】
+> CONTEXT: Armors/362/name/
+【Paizuri sensitivityⅠ】
+> END STRING
+
+> BEGIN STRING
+パイズリの虜。パイズリで受ける快感が増加する。
+> CONTEXT: Armors/362/description/
+Addicted to paizuri. Pleasure from paizuri increases.
+> END STRING
+
+> BEGIN STRING
+【パイズリ開発度Ⅱ】
+> CONTEXT: Armors/363/name/
+【Paizuri sensitivityⅡ】
+> END STRING
+
+> BEGIN STRING
+パイズリの虜。パイズリで受ける快感が大きく増加する。
+> CONTEXT: Armors/363/description/
+Addicted to paizuri. Pleasure from paizuri increases greatly.
+> END STRING
+
+> BEGIN STRING
+【ぱふぱふ開発度Ⅰ】
+> CONTEXT: Armors/364/name/
+【Puff-puff sensitivityⅠ】
+> END STRING
+
+> BEGIN STRING
+ぱふぱふの虜。ぱふぱふで受ける快感が増加する。
+> CONTEXT: Armors/364/description/
+Addicted to puff-puff. Pleasure from puff-puff increases.
+> END STRING
+
+> BEGIN STRING
+【ぱふぱふ開発度Ⅱ】
+> CONTEXT: Armors/365/name/
+【Puff-puff sensitivityⅡ】
+> END STRING
+
+> BEGIN STRING
+ぱふぱふの虜。ぱふぱふで受ける快感が大きく増加する。
+> CONTEXT: Armors/365/description/
+Addicted to puff-puff. Pleasure from puff-puff increases greatly.
+> END STRING
+
+> BEGIN STRING
+【愛撫開発度Ⅰ】
+> CONTEXT: Armors/366/name/
+【Caress sensitivityⅠ】
+> END STRING
+
+> BEGIN STRING
+愛撫の虜。愛撫で受ける快感が増加する。
+> CONTEXT: Armors/366/description/
+Captivated by caresses. Pleasure from caresses increases.
+> END STRING
+
+> BEGIN STRING
+【愛撫開発度Ⅱ】
+> CONTEXT: Armors/367/name/
+【Caress sensitivityⅡ】
+> END STRING
+
+> BEGIN STRING
+愛撫の虜。愛撫で受ける快感が大きく増加する。
+> CONTEXT: Armors/367/description/
+Captivated by caresses. Pleasure from caresses increases greatly.
+> END STRING
+
+> BEGIN STRING
+■MODアクセ
+> CONTEXT: Armors/380/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+口上テスト用/-200
+> CONTEXT: Armors/381/name/
+For dialog test/-200
+> END STRING
+
+> BEGIN STRING
+攻撃能力が下がる代わり追撃しやすくなる。
+> CONTEXT: Armors/381/description/
+Reduces your attacking ability but makes it easier to follow up.
+> END STRING
+
+> BEGIN STRING
+てかげんの腕輪
+> CONTEXT: Armors/382/name/
+Allowance Bracelet
+> END STRING
+
+> BEGIN STRING
+寝室戦で てかげん します。
+> CONTEXT: Armors/382/description/
+Settle this in the bedroom battle.
+> END STRING
+
+> BEGIN STRING
+超てかげんの腕輪
+> CONTEXT: Armors/383/name/
+Super allowance bracelet
+> END STRING
+
+> BEGIN STRING
+寝室戦で 超てかげん します。
+> CONTEXT: Armors/383/description/
+The bedroom battle will be super intense.
+> END STRING
+
+> BEGIN STRING
+自慰の目覚め
+> CONTEXT: Armors/384/name/
+Masturbation Awakening
+> END STRING
+
+> BEGIN STRING
+自慰癖がつく危険な結晶。
+> CONTEXT: Armors/384/description/
+A dangerous crystal that can cause masturbation addiction.
+> END STRING
+
+> BEGIN STRING
+隠者の指輪/-5/15
+> CONTEXT: Armors/385/name/
+Hermit's Ring/-5/15
+> END STRING
+
+> BEGIN STRING
+ＶＰを消費して自動的に発動する効果を抑制する。
+> CONTEXT: Armors/385/description/
+Suppresses effects that automatically activate by consuming VP.
+> END STRING
+
+> BEGIN STRING
+与える快楽が大幅に上昇する代わりに一度でもイクと・・・？
+> CONTEXT: Armors/386/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+禁断の果実
+> CONTEXT: Armors/387/name/
+Forbidden fruit
+> END STRING
+
+> BEGIN STRING
+快楽に堕ちるための禁断の果実。
+> CONTEXT: Armors/387/description/
+The forbidden fruit that leads to pleasure.
+> END STRING
+
+> BEGIN STRING
+ヴァージン・ハート/5/10
+> CONTEXT: Armors/388/name/
+Virgin Heart/5/10
+> END STRING
+
+> BEGIN STRING
+処女の夢魔に少し出会いやすくなる。
+> CONTEXT: Armors/388/description/
+It becomes a little easier to encounter virgin succubi.
+> END STRING
+
+> BEGIN STRING
+V・ピュアハート/20/-10
+> CONTEXT: Armors/389/name/
+V Pure Heart/20/-10
+> END STRING
+
+> BEGIN STRING
+処女の夢魔に出会いやすくなる。
+> CONTEXT: Armors/389/description/
+You will be more likely to encounter virgin succubi.
+> END STRING
+
+> BEGIN STRING
+夢現の源泉/12
+> CONTEXT: Armors/390/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+命の源。妊娠しない夢魔とも子を生すことができるようになる。
+> CONTEXT: Armors/390/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【堕淫の呪い】
+> CONTEXT: Armors/391/name/
+【Curse of Depravity】
+> END STRING
+
+> BEGIN STRING
+一部の夢魔が扱う能力低下が解除されなくなる呪い。
+> CONTEXT: Armors/391/description/
+A curse that prevents the impaired abilities of some succubi from being lifted.
+> END STRING
+
+> BEGIN STRING
+自由意志
+> CONTEXT: Armors/392/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マイペースになる。魅了、誘惑に耐性を得る。
+> CONTEXT: Armors/392/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+愛しい秘密/40/40
+> CONTEXT: Armors/393/name/
+Lovely Secret/40/40
+> END STRING
+
+> BEGIN STRING
+それは意外な愛くるしさ。弱点に劇的に弱くなってしまう。
+> CONTEXT: Armors/393/description/
+It's unexpectedly adorable. It's a dramatic weakness.
+> END STRING
+
+> BEGIN STRING
+フィーバーカード/0/-10
+> CONTEXT: Armors/394/name/
+Fever Card/0/-10
+> END STRING
+
+> BEGIN STRING
+戦闘開始時にランダムでインセンススキルが発動する。
+> CONTEXT: Armors/394/description/
+> CONTEXT: Armors/552/description/
+At the start of battle, an incense skill is randomly activated.
+> END STRING
+
+> BEGIN STRING
+オーバータイム
+> CONTEXT: Armors/395/name/
+Overtime
+> END STRING
+
+> BEGIN STRING
+見るたびに違う時間を指す時計。インセンススキルの効果時間を長くする。
+> CONTEXT: Armors/395/description/
+A clock that tells random times. Increases the duration of incense skills.
+> END STRING
+
+> BEGIN STRING
+ユメサケビドリ
+> CONTEXT: Armors/396/name/
+Dream Sake Viper
+> END STRING
+
+> BEGIN STRING
+朝を告げるいきもの。眠りに耐性。
+> CONTEXT: Armors/396/description/
+A creature that heralds the coming of morning. Resists sleep.
+> END STRING
+
+> BEGIN STRING
+ラブペンダント/35
+> CONTEXT: Armors/397/name/
+Love Pendant/35
+> END STRING
+
+> BEGIN STRING
+愛情の証。仲間にしにくい夢魔の初期友好度が上昇する。
+> CONTEXT: Armors/397/description/
+Increases initial friendship levels with difficult-to-befriend succubi.
+> END STRING
+
+> BEGIN STRING
+フエルハート/72
+> CONTEXT: Armors/398/name/
+Draw Heart/72
+> END STRING
+
+> BEGIN STRING
+愛が集まった結晶。人を引き寄せる力を持つ。
+> CONTEXT: Armors/398/description/
+A crystal of love. It has the power to draw people together.
+> END STRING
+
+> BEGIN STRING
+ハローゴースト/-15/35
+> CONTEXT: Armors/399/name/
+Hello Ghost/-15/35
+> END STRING
+
+> BEGIN STRING
+彷徨う幽霊。昼夜問わず行動できる。恍惚に耐性。
+> CONTEXT: Armors/399/description/
+A wandering ghost. Can act day or night. Resists ecstasy.
+> END STRING
+
+> BEGIN STRING
+ナイトアーマー/5/60
+> CONTEXT: Armors/400/name/
+Knight Armor/5/60
+> END STRING
+
+> BEGIN STRING
+いかなる攻撃もシャットアウトする。欲情に耐性。
+> CONTEXT: Armors/400/description/
+Shuts out any attack. Resist lust.
+> END STRING
+
+> BEGIN STRING
+貝殻のピアス/15
+> CONTEXT: Armors/401/name/
+Shell Earrings/15
+> END STRING
+
+> BEGIN STRING
+漣の音が聞こえる。暴走、中毒に耐性。
+> CONTEXT: Armors/401/description/
+Hear the sound of ripples. Resistance to berserk and poison.
+> END STRING
+
+> BEGIN STRING
+竜の息吹
+> CONTEXT: Armors/402/name/
+Dragon's Breath
+> END STRING
+
+> BEGIN STRING
+洞穴に潜む竜の息。虚脱、骨抜きに耐性。
+> CONTEXT: Armors/402/description/
+Dragon's breath lurking in the cave. Resistant to lethargy and bone loss.
+> END STRING
+
+> BEGIN STRING
+魔の契約/30/-5
+> CONTEXT: Armors/403/name/
+Demonic Pact/30/-5
+> END STRING
+
+> BEGIN STRING
+夢と深く重なりあう。畏怖に耐性。
+> CONTEXT: Armors/403/description/
+Deeply intertwined with dreams. Resistance to fear.
+> END STRING
+
+> BEGIN STRING
+パニック/-5/-15
+> CONTEXT: Armors/404/name/
+Panic/-5/-15
+> END STRING
+
+> BEGIN STRING
+動かずにはいられない。麻痺に耐性。
+> CONTEXT: Armors/404/description/
+Can't stay still. Resists paralysis.
+> END STRING
+
+> BEGIN STRING
+蛇のエンブレム/15
+> CONTEXT: Armors/405/name/
+Snake Emblem/15
+> END STRING
+
+> BEGIN STRING
+蛇が描かれた紋章。散漫を無効にする。
+> CONTEXT: Armors/405/description/
+A crest depicting a snake. Nullifies distraction.
+> END STRING
+
+> BEGIN STRING
+夜魔の影/45/-15
+> CONTEXT: Armors/406/name/
+Night Demon's Shadow/45/-15
+> END STRING
+
+> BEGIN STRING
+自ら取り憑かれる。ステータスが大きく上昇するが、代償は大きい。
+> CONTEXT: Armors/406/description/
+Become possessed. Status increases greatly, but the price is high.
+> END STRING
+
+> BEGIN STRING
+ブラックリング/14/0
+> CONTEXT: Armors/407/name/
+Black Ring/14/0
+> END STRING
+
+> BEGIN STRING
+鈍く光る腕輪。装備している間、サフライーザを習得する。
+> CONTEXT: Armors/407/description/
+A dull, shiny bracelet. Gain the skill Saffron Iiza.
+> END STRING
+
+> BEGIN STRING
+ワイルドブック
+> CONTEXT: Armors/408/name/
+Wild Book
+> END STRING
+
+> BEGIN STRING
+時間パスポート
+> CONTEXT: Armors/409/name/
+Time Passport
+> END STRING
+
+> BEGIN STRING
+時を操るパスポート。たまに最速で行動できる。
+> CONTEXT: Armors/409/description/
+A passport that manipulates time. Sometimes allows you to act at maximum speed.
+> END STRING
+
+> BEGIN STRING
+エキサイトチェーン/0/35
+> CONTEXT: Armors/410/name/
+Excite Chain/0/35
+> END STRING
+
+> BEGIN STRING
+所有者を縛り付ける鎖。素早さがものすごく下がる。
+> CONTEXT: Armors/410/description/
+A chain that binds the owner. Greatly reduces agility.
+> END STRING
+
+> BEGIN STRING
+我が鏡/18/28
+> CONTEXT: Armors/411/name/
+My Mirror/18/28
+> END STRING
+
+> BEGIN STRING
+自分以外は映らない鏡。魅了、誘惑に耐性。
+> CONTEXT: Armors/411/description/
+A mirror that reflects nothing but yourself. Resists charm and temptation.
+> END STRING
+
+> BEGIN STRING
+運命の器/60/0
+> CONTEXT: Armors/412/name/
+Vessel of Destiny/60/0
+> END STRING
+
+> BEGIN STRING
+混沌とした心の器。スキルの消費ＶＰが増加する。
+> CONTEXT: Armors/412/description/
+> CONTEXT: Armors/565/description/
+A vessel of chaotic mind. Increases VP consumption for skills.
+> END STRING
+
+> BEGIN STRING
+賢者の悟り/-10/50
+> CONTEXT: Armors/413/name/
+Sage Enlightenment/-10/50
+> END STRING
+
+> BEGIN STRING
+永遠に女を知る事は無い、悟りの書。
+> CONTEXT: Armors/413/description/
+A book of enlightenment that will never know a woman.
+> END STRING
+
+> BEGIN STRING
+ドラゴンスキン/0/30
+> CONTEXT: Armors/414/name/
+Dragon Skin/0/30
+> END STRING
+
+> BEGIN STRING
+龍の鱗を使った装飾品。インサート中スキルで受ける快楽を減少させる。
+> CONTEXT: Armors/414/description/
+Reduces the pleasure received from skills during insertion.
+> END STRING
+
+> BEGIN STRING
+ルナストーン
+> CONTEXT: Armors/415/name/
+Luna Stone
+> END STRING
+
+> BEGIN STRING
+特殊な魔力で相手と自分の状態異常付与率が上がる
+> CONTEXT: Armors/415/description/
+Increase the chances of status ailments on yourself and your opponents.
+> END STRING
+
+> BEGIN STRING
+光のオーブ
+> CONTEXT: Armors/416/name/
+Orb of Light
+> END STRING
+
+> BEGIN STRING
+装備していると戦闘開始時に全員が全裸になる。
+> CONTEXT: Armors/416/description/
+If equipped, everyone will be naked at the start of battle.
+> END STRING
+
+> BEGIN STRING
+超・一匹狼の誡/70/30
+> CONTEXT: Armors/417/name/
+Super Lone Wolf/70/30
+> END STRING
+
+> BEGIN STRING
+孤高の戒めを刻んだ装飾品。パーティが１人の時、更にその力を発揮する。[同系統重複不可]
+> CONTEXT: Armors/417/description/
+Commandment of solitude. Stronger when alone. [Does not stack with similar effects]
+> END STRING
+
+> BEGIN STRING
+躍動する生命/20/15
+> CONTEXT: Armors/418/name/
+Vibrant Life/20/15
+> END STRING
+
+> BEGIN STRING
+真・命の源。妊娠しない夢魔とも子を生すことができるようになる。
+> CONTEXT: Armors/418/description/
+The true source of life. Able to have children with succubi that cannot become pregnant.
+> END STRING
+
+> BEGIN STRING
+淫具用呪印
+> CONTEXT: Armors/419/name/
+Sexual Toy Curse Seal
+> END STRING
+
+> BEGIN STRING
+夢魔の性玩具になる。一人のときホールドされると…
+> CONTEXT: Armors/419/description/
+Become a sex toy for the succubi. If used alone...
+> END STRING
+
+> BEGIN STRING
+ワルプルギスの灯
+> CONTEXT: Armors/420/name/
+Walpurgis Light
+> END STRING
+
+> BEGIN STRING
+魔女たちの宴の燈火。戦闘開始時に特殊効果。
+> CONTEXT: Armors/420/description/
+The light of the witches' feast. Special effect at the start of battle.
+> END STRING
+
+> BEGIN STRING
+紅蓮のローブ/15/20
+> CONTEXT: Armors/421/name/
+Crimson Robe/15/20
+> END STRING
+
+> BEGIN STRING
+吹雪系に耐性のあるローブ。
+> CONTEXT: Armors/421/description/
+A robe that is resistant to blizzards.
+> END STRING
+
+> BEGIN STRING
+とけないこおり/25/45
+> CONTEXT: Armors/422/name/
+Unmeltable Ice/25/45
+> END STRING
+
+> BEGIN STRING
+永遠に輝き続ける透き通った氷。コールドタッチを習得する。
+> CONTEXT: Armors/422/description/
+Crystal clear ice that shines forever. Acquire Cold Touch.
+> END STRING
+
+> BEGIN STRING
+氷枕/35/65
+> CONTEXT: Armors/423/name/
+Ice pack/35/65
+> END STRING
+
+> BEGIN STRING
+熱が出たときはこれ。脱衣時に忍耐力が下がりにくくなり、寒さにも少し強くなる。
+> CONTEXT: Armors/423/description/
+For when you have a fever. Resistant to cold when undressed.
+> END STRING
+
+> BEGIN STRING
+肉体言語/85/30
+> CONTEXT: Armors/424/name/
+Body Language/85/30
+> END STRING
+
+> BEGIN STRING
+覇王の道は唯一つ。性交系スキルの消費VPが減り、魔法系スキルの消費VPが増える。
+> CONTEXT: Armors/424/description/
+VP cost for skills is reduced, VP cost for spells is increased.
+> END STRING
+
+> BEGIN STRING
+氷の杖/-15/50
+> CONTEXT: Armors/425/name/
+Ice Staff/-15/50
+> END STRING
+
+> BEGIN STRING
+冷気の魔力が込められた杖。氷魔導士御用達の一品。
+> CONTEXT: Armors/425/description/
+A staff imbued with the magical power of cold. A favorite item of ice mages.
+> END STRING
+
+> BEGIN STRING
+聖典/-25/75
+> CONTEXT: Armors/426/name/
+Scripture/-25/75
+> END STRING
+
+> BEGIN STRING
+神の教えを説く書物。前半は中二病小説で、後編は予言書の構成。懺悔なさいを習得する。
+> CONTEXT: Armors/426/description/
+A book that teaches the teachings of God. Acquire "Repent".
+> END STRING
+
+> BEGIN STRING
+外典/-20/-15
+> CONTEXT: Armors/427/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+神の教えを説くにつき、排除された都合の悪い書物。欲情中の相手を追撃しやすくなる。
+> CONTEXT: Armors/427/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ハーレムパンツ/-5/25
+> CONTEXT: Armors/428/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+踊り子が身に着けるぶかぶかのボトムス。プライスオブハレムを習得する。
+> CONTEXT: Armors/428/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+艶やかな振袖/80/15
+> CONTEXT: Armors/429/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+高級な和服。欲情、虚脱、暴走、麻痺に耐性。
+> CONTEXT: Armors/429/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+黒装束/0/30
+> CONTEXT: Armors/430/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+忍に生きる者の着衣。欲情、暴走、虚脱、畏怖に耐性。
+> CONTEXT: Armors/430/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パールクラウン/95
+> CONTEXT: Armors/431/name/
+Pearl Crown/95
+> END STRING
+
+> BEGIN STRING
+真珠がはめ込まれた冠。暴走、中毒、畏怖、散漫に耐性。
+> CONTEXT: Armors/431/description/
+A crown set with pearls. Resists berserk, addiction, fear, and distraction.
+> END STRING
+
+> BEGIN STRING
+バニーバンド/80
+> CONTEXT: Armors/432/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウサギの耳を模した装飾品。暴走、麻痺に耐性。
+> CONTEXT: Armors/432/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+努力の腕輪/10
+> CONTEXT: Armors/433/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+得られる修行ポイントが倍になる腕輪。
+> CONTEXT: Armors/433/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+踊り子の服/70/-20
+> CONTEXT: Armors/434/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+踊り子が身に着けるヒラヒラの衣装。ベリーダンスを習得する。
+> CONTEXT: Armors/434/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+盗賊のナイフ/0/0
+> CONTEXT: Armors/435/name/
+Thief's Knife/0/0
+> END STRING
+
+> BEGIN STRING
+盗賊たちが好んで扱うナイフ。器用さが上がる。
+> CONTEXT: Armors/435/description/
+A knife favored by thieves. Increases dexterity.
+> END STRING
+
+> BEGIN STRING
+異界の杖/0/0
+> CONTEXT: Armors/436/name/
+Otherworldly Staff/0/0
+> END STRING
+
+> BEGIN STRING
+不思議な魔力を放つ異世界の杖。精神力が上がる。
+> CONTEXT: Armors/436/description/
+From another world. Emits magical power. Increases spirit.
+> END STRING
+
+> BEGIN STRING
+選ばれし者の資質/10/10
+> CONTEXT: Armors/437/name/
+Chosen One Qualities/10/10
+> END STRING
+
+> BEGIN STRING
+才能のあるホブゴブリンが持つトクベツな資質。それはともかく、資質って物ではなくない？
+> CONTEXT: Armors/437/description/
+A special quality that talented hobgoblins possess.
+> END STRING
+
+> BEGIN STRING
+リリスの器/20/15
+> CONTEXT: Armors/438/name/
+Lilith's Vessel/20/15
+> END STRING
+
+> BEGIN STRING
+魅惑の筒/10/-5
+> CONTEXT: Armors/439/name/
+Enchanted Cylinder/10/-5
+> END STRING
+
+> BEGIN STRING
+ホールアクセプトが使用可能になる筒。
+> CONTEXT: Armors/439/description/
+A tube that allows hole acceptance to be used.
+> END STRING
+
+> BEGIN STRING
+秘密のブロマイド/40/0
+> CONTEXT: Armors/440/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+とあるファンが激写した秘蔵写真。彼にいいトコロを見せようとやる気が出るが暴走しやすくなるのが玉に瑕。
+> CONTEXT: Armors/440/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ＳＢ指南書/0/40
+> CONTEXT: Armors/441/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手を知ることで実力以上の力を発揮できるかも。アナライズを覚える。
+> CONTEXT: Armors/441/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アンジュセレクト/0/50
+> CONTEXT: Armors/442/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アンジュ謹製の状態異常シリーズ決定版。特に厄介な状態異常はこれを見て対処しよう。
+> CONTEXT: Armors/442/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+王者のベルト/60/30
+> CONTEXT: Armors/443/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+身につけると雄としての魅力が増す。肉体的、精神的にも強くなる。
+> CONTEXT: Armors/443/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+旧い指輪/20/20
+> CONTEXT: Armors/444/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+とある集落で祀られていた指輪。相手からホールドされやすくなる。
+> CONTEXT: Armors/444/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホーンビートル/10/-5
+> CONTEXT: Armors/445/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+立派なカブト虫。ヘルムマッチが使用可能になる。
+> CONTEXT: Armors/445/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夜空の首輪/30/-5
+> CONTEXT: Armors/446/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔性の夢魔が身につける、夜空を映したかのような色合いの首輪。自分から行うレジストが強くなる。
+> CONTEXT: Armors/446/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+深夜の首飾り/60/-5
+> CONTEXT: Armors/447/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+取り込まれそうな深夜を表現した首飾り。欲情、畏怖に僅かに耐性。自分から行うレジストが強くなる。
+> CONTEXT: Armors/447/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+朽ちた古代のルーン
+> CONTEXT: Armors/450/name/
+Decayed Ancient Rune
+> END STRING
+
+> BEGIN STRING
+シスターが破棄した古いルーン、一部の行動不能を無効化する。
+> CONTEXT: Armors/450/description/
+An old rune discarded by Sister, which nullifies some incapacities.
+> END STRING
+
+> BEGIN STRING
+元型小結晶/20/15
+> CONTEXT: Armors/451/name/
+Archetype Small Crystal/20/15
+> END STRING
+
+> BEGIN STRING
+数多の願望と欲望を固めた小結晶、握りしめると力が漲る。
+> CONTEXT: Armors/451/description/
+Made up of countless wishes and desires. Exudes power when grasped tightly.
+> END STRING
+
+> BEGIN STRING
+イヴの抜け殻/65/-35
+> CONTEXT: Armors/452/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+嘗てイヴが眠っていた元型結晶。代償はあるが力の一端を得る。
+> CONTEXT: Armors/452/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔人の望郷/15/15
+> CONTEXT: Armors/453/name/
+Devil's Nostalgia/15/15
+> END STRING
+
+> BEGIN STRING
+もう場所さえ分からない、ある女の色褪せた夢。恍惚、欲情を無効にする。
+> CONTEXT: Armors/453/description/
+Faded dream of a lost woman. Ecstasy and lust are nullified.
+> END STRING
+
+> BEGIN STRING
+元型結晶「太母」/33
+> CONTEXT: Armors/454/name/
+Archetype Crystal 「Great Mother」/33
+> END STRING
+
+> BEGIN STRING
+幾千もの感情を凝縮した結晶。太母の元型が収められている。
+> CONTEXT: Armors/454/description/
+Made up of thousands of condensed emotions. Archetype of the Great Mother.
+> END STRING
+
+> BEGIN STRING
+元型結晶「老賢者」/0/33
+> CONTEXT: Armors/455/name/
+Archetype Crystal 「Old Sage」/0/33
+> END STRING
+
+> BEGIN STRING
+幾千もの感情を凝縮した結晶。老賢者の元型が収められている。
+> CONTEXT: Armors/455/description/
+Condenses thousands of emotions. Archetype of the sage.
+> END STRING
+
+> BEGIN STRING
+元型結晶「永遠の少女」
+> CONTEXT: Armors/456/name/
+Archetype Crystal 「Eternal Girl」
+> END STRING
+
+> BEGIN STRING
+幾千もの感情を凝縮した結晶。永遠の少女の元型が収められている。
+> CONTEXT: Armors/456/description/
+Crystallization of thousands of condensed emotions. Archetype of the eternal girl.
+> END STRING
+
+> BEGIN STRING
+元型結晶「道化」
+> CONTEXT: Armors/457/name/
+Archetype Crystal 「Clown」
+> END STRING
+
+> BEGIN STRING
+幾千もの感情を凝縮した結晶。道化の元型が収められている。
+> CONTEXT: Armors/457/description/
+Crystallization of thousands of condensed emotions. Archetype of the Clown.
+> END STRING
+
+> BEGIN STRING
+元型結晶「影」/40/-80
+> CONTEXT: Armors/458/name/
+Archetype Crystal 「Shadow」/40/-80
+> END STRING
+
+> BEGIN STRING
+幾千もの感情を凝縮した結晶。影の元型が収められている。
+> CONTEXT: Armors/458/description/
+Crystal that condenses thousands of emotions. Contains the shadow archetype.
+> END STRING
+
+> BEGIN STRING
+元型結晶「英雄」/15/15
+> CONTEXT: Armors/459/name/
+Archetype Crystal 「Hero」/15/15
+> END STRING
+
+> BEGIN STRING
+幾千もの感情を凝縮した結晶。英雄の元型が収められている。
+> CONTEXT: Armors/459/description/
+Crystallization of thousands of condensed emotions. Archetype of a hero.
+> END STRING
+
+> BEGIN STRING
+空想の友人/0/0
+> CONTEXT: Armors/460/name/
+Imaginary Friend/0/0
+> END STRING
+
+> BEGIN STRING
+何処にでも居て、何所にも居ない君の友達。装備すると祝福状態になる。
+> CONTEXT: Armors/460/description/
+Your friend who is everywhere and nowhere. Blessed when equipped.
+> END STRING
+
+> BEGIN STRING
+黙示録の聖書/0/-20
+> CONTEXT: Armors/461/name/
+Apocalypse Bible/0/-20
+> END STRING
+
+> BEGIN STRING
+黙示録について書かれた本物の書物、全ての状態異常に対して高い耐性を得る。[全スロット]
+> CONTEXT: Armors/461/description/
+A genuine book about the apocalypse. High resistance to all status ailments. [All slots]
+> END STRING
+
+> BEGIN STRING
+名もなき名剣/40
+> CONTEXT: Armors/462/name/
+Nameless Sword/40
+> END STRING
+
+> BEGIN STRING
+持ち主の闘志を感じる気高き剣、装備すると戦闘開始時高揚状態になる。
+> CONTEXT: Armors/462/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+未だ朽ちぬ籠手/40
+> CONTEXT: Armors/463/name/
+Still-Rotting Gauntlets/40
+> END STRING
+
+> BEGIN STRING
+長年の風化すら受け付けぬ籠手、装備すると戦闘開始時沈着状態になる。
+> CONTEXT: Armors/463/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+誘惑のネックレス/-20
+> CONTEXT: Armors/464/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+何故か装備者に惹かれてしまうようになる、装備すると戦闘開始時挑発状態になる。[全スロット]
+> CONTEXT: Armors/464/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+愛妻の指輪/10/10
+> CONTEXT: Armors/465/name/
+Beloved Wife's Ring/10/10
+> END STRING
+
+> BEGIN STRING
+パーティにいる仲間が一人かつ愛する夢魔に装備させると、その力を発揮する。
+> CONTEXT: Armors/465/description/
+When only 1 beloved succubus is in the party, its powers will be fully utilized.
+> END STRING
+
+> BEGIN STRING
+復活の聖印
+> CONTEXT: Armors/466/name/
+Holy Seal of Resurrection
+> END STRING
+
+> BEGIN STRING
+失神しそうなとき食いしばり、VPが全回復する。回復後このアイテムは失われる。[重複不可]
+> CONTEXT: Armors/466/description/
+When VP falls to 0, recover all VP. After recovery, this item is lost. [Cannot be duplicated]
+> END STRING
+
+> BEGIN STRING
+----レベル100----
+> CONTEXT: Armors/470/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+竜の歩み
+> CONTEXT: Armors/471/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+長い長い歴史のうちのすべての竜の記憶。畏怖、虚脱、骨抜きに耐性。
+> CONTEXT: Armors/471/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+小さな志/75/120
+> CONTEXT: Armors/472/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+自分を誰にだって渡さない。欲情、恍惚に耐性。
+> CONTEXT: Armors/472/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+不可視の道標/42
+> CONTEXT: Armors/473/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+貴方は何者にも止められない。魅了、誘惑に耐性を得る。
+> CONTEXT: Armors/473/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+合体ロボ/30/30
+> CONTEXT: Armors/474/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+出来上がったものがこちらです。眠りに耐性がつき、パーティのＥＰ自動回復量が上昇するぞ。
+> CONTEXT: Armors/474/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+クライマックスチェーン/20/95
+> CONTEXT: Armors/475/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+素早さがものすごく下がる。
+> CONTEXT: Armors/475/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+思い出の冠/70/0
+> CONTEXT: Armors/476/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あの日くれた宝物。虚脱、麻痺、散漫、骨抜きの耐性を付ける。
+> CONTEXT: Armors/476/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+巨大リボン/80/20
+> CONTEXT: Armors/477/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+状態異常すべてが少しだけ効きにくくなる巨大なリボン。
+> CONTEXT: Armors/477/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夜闇の帯/60/-25
+> CONTEXT: Armors/478/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+mm/0/0
+> CONTEXT: Armors/479/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+畏怖、暴走状態にさせやすくなる。
+> CONTEXT: Armors/479/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ラヴフォーム・ブラック/150/-100
+> CONTEXT: Armors/481/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバスの間で人気の服。普通は手が届かない高級品。
+> CONTEXT: Armors/481/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+V・ピュアハートS/100/-20
+> CONTEXT: Armors/482/name/
+V Pure Heart S/100/-20
+> END STRING
+
+> BEGIN STRING
+処女の夢魔によく出会いやすくなる。
+> CONTEXT: Armors/482/description/
+You are more likely to encounter virgin succubi.
+> END STRING
+
+> BEGIN STRING
+霧の懐中時計
+> CONTEXT: Armors/487/name/
+> CONTEXT: Armors/554/name/
+Foggy Pocket Watch
+> END STRING
+
+> BEGIN STRING
+時間の感覚が狂い出す。インセンススキルの効果時間を長くする。
+> CONTEXT: Armors/487/description/
+> CONTEXT: Armors/554/description/
+Your sense of time becomes distorted. Increases the duration of incense skills.
+> END STRING
+
+> BEGIN STRING
+達人のルーン
+> CONTEXT: Armors/501/name/
+Master Rune
+> END STRING
+
+> BEGIN STRING
+[○] 装備品のチャームの効果が増加するルーン。[重複不可]
+> CONTEXT: Armors/501/description/
+[○] Increases the effect of charm on equipment. [Cannot be stacked]
+> END STRING
+
+> BEGIN STRING
+突破のルーン
+> CONTEXT: Armors/502/name/
+Breakthrough Rune
+> END STRING
+
+> BEGIN STRING
+[○] 絶頂させた時に与えるVPダメージが増加するルーン。[重複不可]
+> CONTEXT: Armors/502/description/
+[○] Increases VP damage dealt when enemy reaches orgasm. [Cannot be stacked]
+> END STRING
+
+> BEGIN STRING
+昇天のルーン
+> CONTEXT: Armors/503/name/
+Ascension Rune
+> END STRING
+
+> BEGIN STRING
+[○] 絶頂させた時に絶頂ターンが増加するルーン。[重複不可]
+> CONTEXT: Armors/503/description/
+[○] Increases the number of climax turns when climaxed. [Cannot be stacked]
+> END STRING
+
+> BEGIN STRING
+意識のルーンⅡ
+> CONTEXT: Armors/505/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 恍惚耐性が大きく上がる。このルーンの効果は重複しない。
+> CONTEXT: Armors/505/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+抑制のルーンⅡ
+> CONTEXT: Armors/506/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 欲情耐性が大きく上がる。このルーンの効果は重複しない。
+> CONTEXT: Armors/506/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+理性のルーンⅡ
+> CONTEXT: Armors/507/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 暴走、中毒耐性が大きく上がる。このルーンの効果は重複しない。
+> CONTEXT: Armors/507/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+活気のルーンⅡ
+> CONTEXT: Armors/508/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 虚脱、骨抜き耐性が大きく上がる。このルーンの効果は重複しない。
+> CONTEXT: Armors/508/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+胆力のルーンⅡ
+> CONTEXT: Armors/509/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 恐怖耐性が大きく上がる。このルーンの効果は重複しない。
+> CONTEXT: Armors/509/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+柔軟のルーンⅡ
+> CONTEXT: Armors/510/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 麻痺耐性が大きく上がる。このルーンの効果は重複しない。
+> CONTEXT: Armors/510/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+一心のルーンⅡ
+> CONTEXT: Armors/511/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 散漫耐性が大きく上がる。このルーンの効果は重複しない。
+> CONTEXT: Armors/511/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+意識のルーンⅢ
+> CONTEXT: Armors/512/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 恍惚耐性をすごく上げる。このルーンの効果は重複しない。
+> CONTEXT: Armors/512/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+抑制のルーンⅢ
+> CONTEXT: Armors/513/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 欲情耐性をすごく上げる。このルーンの効果は重複しない。
+> CONTEXT: Armors/513/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+理性のルーンⅢ
+> CONTEXT: Armors/514/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 暴走、中毒耐性をすごく上げる。このルーンの効果は重複しない。
+> CONTEXT: Armors/514/description/
+[○] Greatly increases resistance to berserk and poison. Does not stack.
+> END STRING
+
+> BEGIN STRING
+活気のルーンⅢ
+> CONTEXT: Armors/515/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 虚脱、骨抜き耐性をすごく上げる。このルーンの効果は重複しない。
+> CONTEXT: Armors/515/description/
+[○] Greatly increases lethargy and debone resistance. Does not stack.
+> END STRING
+
+> BEGIN STRING
+胆力のルーンⅢ
+> CONTEXT: Armors/516/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 恐怖耐性をすごく上げる。このルーンの効果は重複しない。
+> CONTEXT: Armors/516/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+柔軟のルーンⅢ
+> CONTEXT: Armors/517/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 麻痺耐性をすごく上げる。このルーンの効果は重複しない。
+> CONTEXT: Armors/517/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+一心のルーンⅢ
+> CONTEXT: Armors/518/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 散漫耐性をすごく上げる。このルーンの効果は重複しない。
+> CONTEXT: Armors/518/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+意識のルーンⅣ
+> CONTEXT: Armors/519/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 恍惚状態を無効にする。
+> CONTEXT: Armors/519/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+抑制のルーンⅣ
+> CONTEXT: Armors/520/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 欲情状態を無効にする。
+> CONTEXT: Armors/520/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+理性のルーンⅣ
+> CONTEXT: Armors/521/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 暴走、中毒状態を無効にする。
+> CONTEXT: Armors/521/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+活気のルーンⅣ
+> CONTEXT: Armors/522/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 虚脱、骨抜き状態を無効にする。
+> CONTEXT: Armors/522/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+胆力のルーンⅣ
+> CONTEXT: Armors/523/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 恐怖状態を無効にする。
+> CONTEXT: Armors/523/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+柔軟のルーンⅣ
+> CONTEXT: Armors/524/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 麻痺状態を無効にする。
+> CONTEXT: Armors/524/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+一心のルーンⅣ
+> CONTEXT: Armors/525/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[○] 散漫状態を無効にする。
+> CONTEXT: Armors/525/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+目覚めのルーン
+> CONTEXT: Armors/527/name/
+Rune of Waking
+> END STRING
+
+> BEGIN STRING
+[○] 最高ランクのとき、潜在能力を引き出すルーン。[目覚め]
+> CONTEXT: Armors/527/description/
+[○] A rune that brings out potential when at highest rank. [Awakening]
+> END STRING
+
+> BEGIN STRING
+覚醒のルーン
+> CONTEXT: Armors/528/name/
+Rune of Awakening
+> END STRING
+
+> BEGIN STRING
+[○] 最高ランクのとき、潜在能力をさらに引き出すルーン。[覚醒]
+> CONTEXT: Armors/528/description/
+[○] A rune that draws out potential even more when at highest rank. [Awakening]
+> END STRING
+
+> BEGIN STRING
+----レベル110----
+> CONTEXT: Armors/550/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魂の氾濫/138
+> CONTEXT: Armors/551/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+無差別に無造作に愛を振りまく。取り扱いには注意。
+> CONTEXT: Armors/551/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エースカード/0/-45
+> CONTEXT: Armors/552/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+クレイジーフラウ/60/0
+> CONTEXT: Armors/553/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+諸刃の愛/80/80
+> CONTEXT: Armors/555/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+武器でもあり、傷でもある。弱点に劇的に弱くなってしまう。
+> CONTEXT: Armors/555/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワイルドカード・プライム/50/50
+> CONTEXT: Armors/556/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+莫大な能力値が得られるカード。しかし戦闘に勝利すると無くなってしまう。
+> CONTEXT: Armors/556/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グレーリング/36/0
+> CONTEXT: Armors/557/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+鈍く光る腕輪。装備している間、アスタブルム、アスタブルム・アルダを習得する。
+> CONTEXT: Armors/557/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワイルドレター/32
+> CONTEXT: Armors/558/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+次元パスポート/32/
+> CONTEXT: Armors/559/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+空間をも歪めるパスポート。たまに最速で行動できる。
+> CONTEXT: Armors/559/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+招福石
+> CONTEXT: Armors/560/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+運気を呼び寄せるといわれる石。戦闘終了時のアイテムドロップ率がすごく上がる。
+> CONTEXT: Armors/560/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精命樹の新芽/0/-50
+> CONTEXT: Armors/561/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢の世界樹の芽。装備していると欲情状態が続く。
+> CONTEXT: Armors/561/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メガトンオーラ/0/250
+> CONTEXT: Armors/563/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+真・一匹狼の誡/200/100
+> CONTEXT: Armors/564/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+孤高の戒めを刻んだ装飾品。パーティが１人の時、真の力を発揮する。[全スロット]
+> CONTEXT: Armors/564/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+審判の器/120/0
+> CONTEXT: Armors/565/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+尊き約束/60/-25
+> CONTEXT: Armors/566/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+他のだれでもなく、きみは私のもの。畏怖、散漫、魅了、誘惑に耐性。
+> CONTEXT: Armors/566/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ラヴチャーム・ホワイト/200/-100
+> CONTEXT: Armors/567/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夜魔の超高級下着。清楚ながらセクシーな下着は想い人をメロメロに♪
+> CONTEXT: Armors/567/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ラヴチャーム・ブラック/200/-100
+> CONTEXT: Armors/568/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夜魔の超高級下着。色気たっぷりの下着で大胆に誘惑しちゃおう♪
+> CONTEXT: Armors/568/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+白の贈り物/52/42
+> CONTEXT: Armors/569/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+この世界はまぼろし。しかし微かに、確かにそこにある。
+> CONTEXT: Armors/569/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+料理人のルーン
+> CONTEXT: Armors/581/name/
+Cook Rune
+> END STRING
+
+> BEGIN STRING
+[◇] クッキング時の調理技能が上がる。このルーンの効果は重複しない。
+> CONTEXT: Armors/581/description/
+> CONTEXT: Armors/582/description/
+> CONTEXT: Armors/583/description/
+> CONTEXT: Armors/584/description/
+[◇] Increases cooking skill. Does not stack.
+> END STRING
+
+> BEGIN STRING
+副料理長のルーン
+> CONTEXT: Armors/582/name/
+Sous Chef Rune
+> END STRING
+
+> BEGIN STRING
+料理長のルーン
+> CONTEXT: Armors/583/name/
+Head Chef Rune
+> END STRING
+
+> BEGIN STRING
+料理達人のルーン
+> CONTEXT: Armors/584/name/
+Master Chef Rune
+> END STRING
+
+> BEGIN STRING
+イリスサプライズ
+> CONTEXT: Skills/1424/name/ < UNTRANSLATED
+> CONTEXT: Armors/590/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[☆] 味方１人のＥＰをまちまちに回復する魔法スキルを習得する。
+> CONTEXT: Armors/590/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[☆] 味方１人のＥＰを超回復する魔法スキルを習得する。
+> CONTEXT: Armors/591/description/
+[☆] Acquire a spell that can super-recover EP for one ally.
+> END STRING
+
+> BEGIN STRING
+イリスシード・ハイド
+> CONTEXT: Armors/593/name/ < UNTRANSLATED
+> CONTEXT: Skills/1480/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[☆] 控えから味方１人のＥＰを小回復する魔法スキルを習得する。
+> CONTEXT: Armors/593/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イリスペタル・ハイド
+> CONTEXT: Armors/594/name/ < UNTRANSLATED
+> CONTEXT: Skills/1481/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[☆] 控えから味方１人のＥＰを中回復する魔法スキルを習得する。
+> CONTEXT: Armors/594/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イリスフラウ・ハイド
+> CONTEXT: Armors/595/name/
+> CONTEXT: Skills/1482/name/
+Iris Flower: Hide
+> END STRING
+
+> BEGIN STRING
+[☆] 控えから味方１人のＥＰを大回復する魔法スキルを習得する。
+> CONTEXT: Armors/595/description/
+[☆] Acquire a spell that greatly restores EP to 1 ally from the bench.
+> END STRING
+
+> BEGIN STRING
+イリスコロナ・ハイド
+> CONTEXT: Armors/596/name/ < UNTRANSLATED
+> CONTEXT: Skills/1483/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[☆] 控えから味方１人のＥＰを超回復する魔法スキルを習得する。
+> CONTEXT: Armors/596/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トリムルート・ハイド
+> CONTEXT: Armors/598/name/ < UNTRANSLATED
+> CONTEXT: Skills/1517/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[◇] 味方１人の恍惚・欲情・暴走・中毒・魅了を解除する魔法スキルを習得する。
+> CONTEXT: Armors/598/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トリムストーク・ハイド
+> CONTEXT: Armors/599/name/ < UNTRANSLATED
+> CONTEXT: Skills/1518/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[◇] 味方１人の虚脱・畏怖・麻痺・散漫・媚薬を解除する魔法スキルを習得する。
+> CONTEXT: Armors/599/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トリムヴァイン・ハイド
+> CONTEXT: Armors/600/name/ < UNTRANSLATED
+> CONTEXT: Skills/1519/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[◇] 味方１人の眠り・骨抜き・狂乱・虜を解除する魔法スキルを習得する。
+> CONTEXT: Armors/600/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【ラナンスタート】
+> CONTEXT: Armors/602/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[◇] 最初に場に出ていると魅力が２段階増加する素質を習得する。
+> CONTEXT: Armors/602/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【ネリネスタート】
+> CONTEXT: Armors/603/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[◇] 最初に場に出ていると忍耐力が２段階増加する素質を習得する。
+> CONTEXT: Armors/603/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【エルダスタート】
+> CONTEXT: Armors/604/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[◇] 最初に場に出ていると精力が２段階増加する素質を習得する。
+> CONTEXT: Armors/604/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【サフラスタート】
+> CONTEXT: Armors/605/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[◇] 最初に場に出ていると器用さが２段階増加する素質を習得する。
+> CONTEXT: Armors/605/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【コリオスタート】
+> CONTEXT: Armors/606/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[◇] 最初に場に出ていると素早さが２段階増加する素質を習得する。
+> CONTEXT: Armors/606/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【アスタスタート】
+> CONTEXT: Armors/607/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[◇] 最初に場に出ていると精神力が２段階増加する素質を習得する。
+> CONTEXT: Armors/607/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+----雪原の隠れ里----
+> CONTEXT: Armors/630/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+白金剣のアミュレット/65/0
+> CONTEXT: Armors/631/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢幻三剣士の剣を模した白金製のアミュレット。畏怖耐性を持つ。
+> CONTEXT: Armors/631/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+聖剣のアミュレット/100/0
+> CONTEXT: Armors/632/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+偽の聖剣を模したアミュレット。畏怖耐性。インサート時の反動軽減。♀以外のホールドに弱い。
+> CONTEXT: Armors/632/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+神剣のアミュレット/120/0
+> CONTEXT: Armors/633/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+かつて地竜を封じた神剣を模したもの。畏怖耐性。インサート時の反動軽減。♀以外のホールドに弱い。
+> CONTEXT: Armors/633/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+呪剣のアミュレット/110/-25
+> CONTEXT: Armors/634/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+腕が疼き、血が騒ぐアミュレット。バックインサートが強化されるが、♀を使ったホールドに弱くなる。
+> CONTEXT: Armors/634/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔剣のアミュレット/150/-30
+> CONTEXT: Armors/635/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔剣になっちゃいました。バックインサートが強化されるが、♀を使ったホールドに弱くなる。
+> CONTEXT: Armors/635/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+クリスタルチョーカー/-20/65
+> CONTEXT: Armors/636/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+水晶を飾ったチョーカー。忍耐力と精神力が大きく上昇する。
+> CONTEXT: Armors/636/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+紅水晶のチョーカー/50/80
+> CONTEXT: Armors/637/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ローズクォーツを飾ったチョーカー。石言葉は慈愛や真実の愛など。
+> CONTEXT: Armors/637/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+堕天使のチョーカー/65/100
+> CONTEXT: Armors/638/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+淡い輝きを放つチョーカー。その光は、堕ちた彼女らの過去を思い起こさせる…。
+> CONTEXT: Armors/638/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+星屑のピアス/25/-25
+> CONTEXT: Armors/639/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+星屑を模したピアス。虚脱、散漫耐性。
+> CONTEXT: Armors/639/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+星空のピアス/45/-10
+> CONTEXT: Armors/640/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+星空を表現したピアス。虚脱、散漫、誘惑耐性。
+> CONTEXT: Armors/640/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+炎の紋章/-15/-5
+> CONTEXT: Armors/641/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+かつて邪竜を封じたとされる紋章。ステータスは大きく下がるものの、恍惚、虚脱、麻痺、散漫を無効化する。
+> CONTEXT: Armors/641/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+克己のロザリオ/0/40
+> CONTEXT: Armors/642/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+熱心な教徒はこれで祈りを捧げたという…。恍惚、欲情耐性。暴走を無効化するものの、レジストが弱くなる。
+> CONTEXT: Armors/642/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+克服のロザリオ/-30/40
+> CONTEXT: Armors/643/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+神の祝福により、苦難に打ち勝った者のロザリオ。恍惚、欲情に耐性、暴走を無効化する。
+> CONTEXT: Armors/643/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+寛容の数珠/0/50
+> CONTEXT: Armors/644/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+東洋の神々は困難に打ち勝たず、受容することを尊んだ。恍惚、欲情に耐性。暴走中は状態異常を無効化する。
+> CONTEXT: Armors/644/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+錬金術の首輪/-10/-10
+> CONTEXT: Armors/645/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+多くの錬金術を記した翡翠の首輪。能力値が下がるが、取得経験値と戦闘勝利後に入手する金額が増える。
+> CONTEXT: Armors/645/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ルーンバンクル/15/15
+> CONTEXT: Armors/646/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ルーンが刻まれた大きな腕輪。装備している間、ラナンブルムとサフライーザを習得する。
+> CONTEXT: Armors/646/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ルーンガントレット/25/30
+> CONTEXT: Armors/647/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ルーンが刻まれた篭手。装備している間、ラナンブルムとサフライーザを習得する。
+> CONTEXT: Armors/647/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+おおひつじさま/0/40
+> CONTEXT: Armors/648/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+でっかくなっちゃった！当然装備できる。眠りに耐性があるほか、パーティのＥＰ自動回復量が上昇するぞ。
+> CONTEXT: Armors/648/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+おーひつじさま/0/90
+> CONTEXT: Armors/649/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ヒツジの王子様。装備するのも憚られる。眠りに耐性があるほか、パーティのＥＰ自動回復量が上昇するぞ。
+> CONTEXT: Armors/649/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+めひつじさま/0/30
+> CONTEXT: Armors/650/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+おんなのこ。やっぱり装備できる。眠りに耐性があるほか、パーティーのＶＰ自動回復量が上昇するぞ。
+> CONTEXT: Armors/650/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+じょおーひつじさま/0/60
+> CONTEXT: Armors/651/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+じょおうさま。装備してもいいのだろうか？眠りに耐性がある他、パーティーのＶＰ自動回復量が上昇するぞ。
+> CONTEXT: Armors/651/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+やまひつじさま/30/-30
+> CONTEXT: Armors/652/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+やぎ。こいつも装備できちゃう。欲情耐性が低下するが、ＥＰとＶＰの自動回復量が少し増加するぞ。
+> CONTEXT: Armors/652/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あくまおーひつじさま/60/0
+> CONTEXT: Armors/653/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+言霊の蒼刃で心を切り裂くヤギの悪魔。欲情耐性が低下するが、ＥＰとＶＰの自動回復量が少し増加するぞ。
+> CONTEXT: Armors/653/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+おねこさま/10/10
+> CONTEXT: Armors/654/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ねこはねこです。ので、ねこはねます。※睡眠耐性が低下する。
+> CONTEXT: Armors/654/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+みけねこさま/30/30
+> CONTEXT: Armors/655/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+とても貴重なオスの三毛猫。渋い声で主人にアドバイスをくれる。睡眠耐性が低下する。
+> CONTEXT: Armors/655/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+くろねこさま/-5/-10
+> CONTEXT: Armors/656/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+まっくろくろねこ出てきておいで。常に不幸状態になるが、レアトループの出現率がアップする。
+> CONTEXT: Armors/656/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+まねきねこ/-5/-10
+> CONTEXT: Armors/657/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ゴルドキャッツ！にゃ～ん！常に不幸状態になるが、あらゆる報酬が増える。
+> CONTEXT: Armors/657/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+おいぬさま/10/0
+> CONTEXT: Armors/658/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+僕らはイヌだぞ元気だぞ♪恍惚と暴走耐性が低下するが、畏怖と虚脱耐性が上昇する。
+> CONTEXT: Armors/658/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+おおかみさま/25/15
+> CONTEXT: Armors/659/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+変身しないし嘘もつかない至って普通の狼。恍惚と暴走耐性が低下するが、畏怖と虚脱の耐性が上昇する。
+> CONTEXT: Armors/659/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+こまいぬさま/40/25
+> CONTEXT: Armors/660/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+邪な気を祓うとされる幻のおいぬさま。恍惚と暴走耐性が低下するが、畏怖と虚脱の耐性が上昇する。
+> CONTEXT: Armors/660/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+統治の冠/35/20
+> CONTEXT: Armors/661/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔物たちを統治した君主の冠。恍惚を無効化にし、激励を習得する。
+> CONTEXT: Armors/661/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+征服の冠/60/20
+> CONTEXT: Armors/662/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔物の国を征服した魔王の冠。恍惚を無効化にし、激励を習得する。
+> CONTEXT: Armors/662/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+軍師の羽扇/15/30
+> CONTEXT: Armors/663/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+王の半身たる知識の蛇より与えられし羽扇。恍惚を無効にするほか、諫言を習得する。
+> CONTEXT: Armors/663/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+孔明の羽扇/40/30
+> CONTEXT: Armors/664/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+聡明な軍師のものとされる羽扇。何故かビームも出る。恍惚を無効にし、諫言を習得する。
+> CONTEXT: Armors/664/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+嵐の前の静けさ/60/0
+> CONTEXT: Armors/665/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+何かが起きる前の前兆……かもしれないし気のせいかもしれない……。麻痺、暴走、畏怖耐性。
+> CONTEXT: Armors/665/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+隠者の首輪/15/120
+> CONTEXT: Armors/666/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+一般社会との関係を絶ち、力強く叫ぶ者の首輪。ＶＰを消費して自動的に発動する効果を抑制する。
+> CONTEXT: Armors/666/description/ < UNTRANSLATED
+
 > END STRING

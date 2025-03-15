@@ -1,0 +1,42 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+鍵がかかっている…
+> CONTEXT: Map547/events/2/pages/1/0/Dialogue
+> CONTEXT: Map547/events/3/pages/1/0/Dialogue
+> CONTEXT: Map547/events/4/pages/1/0/Dialogue
+> CONTEXT: Map064/events/1/pages/3/0/Dialogue
+The door is locked...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+がうっ、おたからは渡さないぞ！
+> CONTEXT: Map547/events/11/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Agh, I won't give you the treasure!
+> END STRING
+
+> BEGIN STRING
+セーブクリスタルだ
+> CONTEXT: Map547/events/12/pages/0/0/Dialogue
+> CONTEXT: Map545/events/5/pages/0/0/Dialogue
+> CONTEXT: Map549/events/146/pages/0/0/Dialogue
+> CONTEXT: Map546/events/10/pages/0/0/Dialogue
+> CONTEXT: Map548/events/5/pages/0/0/Dialogue
+It's a save crystal.
+> END STRING
+
+> BEGIN STRING
+しない
+> CONTEXT: Map547/events/12/pages/0/2/Choice/1
+> CONTEXT: Map547/events/12/pages/0/2/Choice/1
+> CONTEXT: Map545/events/5/pages/0/2/Choice/1
+> CONTEXT: Map549/events/146/pages/0/2/Choice/1
+> CONTEXT: Map545/events/5/pages/0/2/Choice/1
+> CONTEXT: Map549/events/146/pages/0/2/Choice/1
+> CONTEXT: Map546/events/10/pages/0/2/Choice/1
+> CONTEXT: Map546/events/10/pages/0/2/Choice/1
+> CONTEXT: Map548/events/5/pages/0/2/Choice/1
+> CONTEXT: Map548/events/5/pages/0/2/Choice/1
+Don't
+> END STRING

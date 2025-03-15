@@ -6,6 +6,9 @@
 > CONTEXT: Map221/events/40/pages/0/0/InlineScript/1:22
 > CONTEXT: Map274/events/51/pages/0/0/InlineScript/1:22
 > CONTEXT: Map166/events/33/pages/0/0/InlineScript/1:22
+> CONTEXT: Map272/events/206/pages/0/0/InlineScript/1:22
+> CONTEXT: Map046/events/51/pages/0/0/InlineScript/1:22
+> CONTEXT: Map046/events/51/pages/1/0/InlineScript/1:22
 "Sandwich merchant"
 > END STRING
 
@@ -53,6 +56,7 @@ It's my signature sandwich.
 \\name[\\v[2]]\\_
 おス。また会ったな。
 > CONTEXT: Map362/events/1/pages/0/16/Dialogue
+> CONTEXT: Map272/events/206/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
 Oss. We meet again.
 > END STRING
@@ -132,8 +136,18 @@ I'm worried that you're not getting enough nutrition.
 \\name[\\v[2]]\\_
 また来いよ。歓迎するぜ。
 > CONTEXT: Map362/events/1/pages/0/59/Dialogue
+> CONTEXT: Map272/events/206/pages/0/11/Dialogue
 \\name[\\v[2]]\\_
 Come again. You're welcome here.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+アタシもお店で出されてる料理作りたいな～。
+もっと上手くなって組み合わせ色々試してみたら\\_
+出来るかな？
+> CONTEXT: Map362/events/2/pages/0/1/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -275,17 +289,24 @@ Every day, we pursue the ultimate food. Oss.
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-おス。何か食材買っていきます？
-> CONTEXT: Map362/events/7/pages/0/1/Dialogue
-> CONTEXT: Map159/events/27/pages/0/1/Dialogue
-\\name[\\v[2]]\\_
-Oh, do you want to buy some ingredients?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
 まいどー。
 > CONTEXT: Map362/events/7/pages/0/9/Dialogue
 \\name[\\v[2]]\\_
 Thank you-!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もぐもぐ……そういえば、
+ちょっと変わった奴隷が来たって聞きましたねぇ
+> CONTEXT: Map362/events/8/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+このサンドイッチを食べ終わったら、
+牢獄まで見に行ってみますかねぇ……もぐもぐ
+> CONTEXT: Map362/events/8/pages/1/4/Dialogue < UNTRANSLATED
+
 > END STRING

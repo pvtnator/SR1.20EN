@@ -1,57 +1,79 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-この魔方陣の転送先から不穏な空気が漂っている･･･。
-> CONTEXT: Map028/events/22/pages/0/0/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+よお、順調そうじゃないか。
+> CONTEXT: Map028/events/2/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hey, things look good.
 > END STRING
 
 > BEGIN STRING
-魔法陣を起動しますか？
-> CONTEXT: Map028/events/22/pages/0/1/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+･･･ん、なんでここにいるかって？
+> CONTEXT: Map028/events/2/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+... Um, why am I here?
 > END STRING
 
 > BEGIN STRING
-\\name[悪魔]\\_
-おっと待ちなよ。
-> CONTEXT: Map028/events/22/pages/0/62/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+あー･･･あの後、メイド長にバレてな。
+自分で探しに行けって追い出されちまった。
+> CONTEXT: Map028/events/2/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+Ah... After that, the head maid found out.
+She told me to go and look for it myself and kicked me out.
 > END STRING
 
 > BEGIN STRING
-\\name[夢魔]\\_
-ここから先はヒ・ミ・ツ\\H
-> CONTEXT: Map028/events/22/pages/0/64/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+そういや蓄積器のことだが、
+どうやらアンタの力を吸収してるみたいだぜ。
+> CONTEXT: Map028/events/2/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+By the way, about the accumulator,
+it seems to be absorbing your power.
 > END STRING
 
 > BEGIN STRING
-\\name[悪魔]\\_
-ま、真実はどうだろうと、
-そんなのはあたしたちには関係の無い話だ。
-> CONTEXT: Map028/events/22/pages/0/66/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+アンタがこの世界で抱いた感情、
+ネガティブなのもポジティブなのも含めて
+その一部が蓄積器に送られてるってわけだ。
+> CONTEXT: Map028/events/2/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+A portion of the emotions you feel in this world, 
+both negative and positive, are sent to the accumulator.
 > END STRING
 
 > BEGIN STRING
-\\name[夢魔]\\_
-ね\\H\\.\\.
-だからアナタも一緒に気持ち良くなっちゃえばいいの\\H
-> CONTEXT: Map028/events/22/pages/0/69/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+アンタ自身はどうってこたないが、
+力を溜め込んだ蓄積器がどうなるかは分からん。
+> CONTEXT: Map028/events/2/pages/0/16/Dialogue
+\\name[\\v[2]]\\_
+It won't affect you, but I don't know what will happen 
+to the accumulator that's storing up power.
 > END STRING
 
 > BEGIN STRING
-この戦闘をスキップすることができます。
-スキップしますか？
-> CONTEXT: Map028/events/22/pages/0/85/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+イヴみたいな例もあるしな。
+蓄積器ってのはただ力を貯蔵してるだけじゃない。
+ありゃ夢の卵みたいなもんさ。
+> CONTEXT: Map028/events/2/pages/0/19/Dialogue
+\\name[\\v[2]]\\_
+There are examples like Eve.
+An accumulator doesn't just store power.
+It's like a dream egg.
 > END STRING
 
 > BEGIN STRING
-･･････近くにまだ夢魔がいる気配がする。
-> CONTEXT: Map028/events/22/pages/0/144/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+帰りてー。
+> CONTEXT: Map028/events/2/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+I want to go home.
 > END STRING
 
 > BEGIN STRING

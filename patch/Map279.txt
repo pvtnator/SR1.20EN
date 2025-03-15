@@ -10,20 +10,3 @@ Library
 
 Do not run inside.
 > END STRING
-
-> BEGIN STRING
-レバーが上がっている。レバーを下げますか？
-> CONTEXT: Map279/events/28/pages/0/0/Dialogue
-> CONTEXT: Map285/events/11/pages/0/0/Dialogue
-> CONTEXT: Map244/events/1/pages/0/0/Dialogue
-> CONTEXT: Map029/events/4/pages/0/1/Dialogue
-The lever is up. Do you want to lower the lever?
-> END STRING
-
-> BEGIN STRING
-レバーが下がっている。レバーを上げますか？
-> CONTEXT: Map279/events/28/pages/1/0/Dialogue
-> CONTEXT: Map244/events/1/pages/1/0/Dialogue
-> CONTEXT: Map029/events/4/pages/0/22/Dialogue
-The lever is down. Do you want to raise the lever?
-> END STRING

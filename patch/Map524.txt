@@ -1,0 +1,4103 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+"バニー"
+> CONTEXT: Map524/events/2/pages/0/0/InlineScript/1:22
+"Bunny"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+いらっしゃーい\\H
+> CONTEXT: Map524/events/2/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Welcome\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･違う違う、アタシは夢魔じゃないわよぉ！
+> CONTEXT: Map524/events/2/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+...No, no, I'm not a succubus!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あぁ、そーそー。
+ホームにいる夢魔の数がいっぱいだと、
+新しく夢魔とは契約できないんだって。
+> CONTEXT: Map524/events/2/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+Ah, that's right.
+It is said that if the number of succubi in the home is full,
+it is not possible to contract with a new succubus.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+誰かと契約したい時は、拠点に空きは必要よ？
+> CONTEXT: Map524/events/2/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+If you want to sign a contract with someone,
+you need to have space at your base, right?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そういえば、\\c[12]夢世界には変わった泉があるらしくて、
+その泉を見続けたら、契約できる夢魔の上限を\\_
+増やせる\\c[0]らしいわ。
+> CONTEXT: Map524/events/2/pages/0/11/Dialogue
+\\name[\\v[2]]\\_
+By the way, \\c[12]apparently there are strange springs in the dream world,
+and by looking at them, 
+you can increase the number of succubi you can contract\\c[0].
+> END STRING
+
+> BEGIN STRING
+"支配人"
+> CONTEXT: Map524/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Map524/events/3/pages/0/24/InlineScript/1:22
+> CONTEXT: Map096/events/9/pages/0/5/InlineScript/1:22
+> CONTEXT: Map096/events/9/pages/1/0/InlineScript/1:22
+> CONTEXT: Map096/events/9/pages/2/0/InlineScript/1:22
+> CONTEXT: Map096/events/9/pages/3/0/InlineScript/1:22
+> CONTEXT: Map096/events/9/pages/5/0/InlineScript/1:22
+> CONTEXT: Map096/events/11/pages/0/0/InlineScript/1:22
+"Manager"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+フリールームをご利用ですか？
+> CONTEXT: Map524/events/3/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+Would you like to use the free room?
+> END STRING
+
+> BEGIN STRING
+※注意
+フリールームから戻ってくることはできません。
+注意ください。
+> CONTEXT: Map524/events/3/pages/0/5/Dialogue
+*Please note that you cannot return from the free room.
+> END STRING
+
+> BEGIN STRING
+"Savedata/FreeRoom.rxdata"
+> CONTEXT: Map524/events/3/pages/0/15/InlineScript/1:12 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+かしこまりました。
+では、こちらへ。
+> CONTEXT: Map524/events/3/pages/0/25/Dialogue
+\\name[\\v[2]]\\_
+I understand.
+Here you go.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+いらっしゃいませ。ここはファータの娼館。
+一夜の許された、甘い一時を提供する宿。
+> CONTEXT: Map524/events/4/pages/0/5/Dialogue
+> CONTEXT: Map524/events/4/pages/1/5/Dialogue
+> CONTEXT: Map524/events/4/pages/2/5/Dialogue
+> CONTEXT: Map524/events/4/pages/3/5/Dialogue
+\\name[\\v[2]]\\_
+Welcome. This is Fata's brothel.
+A lodging offering a sweet moment for one permitted night.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ご利用のお客様でしょうか？
+> CONTEXT: Map524/events/4/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+Are you a customer?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+かしこまりました。
+> CONTEXT: Map524/events/4/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+I understand.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お名前をうかがってもよろしいですか？
+> CONTEXT: Map524/events/4/pages/0/14/Dialogue
+\\name[\\v[2]]\\_
+May I ask your name?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\n[101]様でございますね。
+> CONTEXT: Map524/events/4/pages/0/16/Dialogue
+\\name[\\v[2]]\\_
+\\nThis is [101].
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+通常であれば利用料をいただくのですが
+現在パルフィス密教会のご計らいで無料となっております。
+> CONTEXT: Map524/events/4/pages/0/18/Dialogue
+\\name[\\v[2]]\\_
+
+Normally, a usage fee would be charged, but currently, 
+thanks to the arrangements of the Palfis Secret Church, 
+it is free.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こちらが会員証となっております。
+> CONTEXT: Map524/events/4/pages/0/21/Dialogue
+\\name[\\v[2]]\\_
+This is your membership card.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ひとつ注意点ですが、
+本娼館では契約済みの夢魔の方のご利用は
+控えさせてもらっています。
+> CONTEXT: Map524/events/4/pages/0/37/Dialogue
+\\name[\\v[2]]\\_
+One thing to note is that this brothel 
+does not accept contracted succubus customers.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ご了承くださいませ。
+> CONTEXT: Map524/events/4/pages/0/41/Dialogue
+\\name[\\v[2]]\\_
+Thank you for your understanding.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それでは、よき一夜を。
+> CONTEXT: Map524/events/4/pages/0/43/Dialogue
+\\name[\\v[2]]\\_
+Enjoy the night.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうですか。興味がわきましたらまたのご来店を
+> CONTEXT: Map524/events/4/pages/0/47/Dialogue
+\\name[\\v[2]]\\_
+I see. If you're interested, please come visit us again.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+申し訳ございません。
+契約済みの夢魔の方のご利用はできません。
+> CONTEXT: Map524/events/4/pages/2/8/Dialogue
+> CONTEXT: Map524/events/4/pages/4/9/Dialogue
+\\name[\\v[2]]\\_
+Sorry.
+This service is not available to contracted succubi users.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+申し訳ございません。
+現在は準備中のためご利用出来ません。
+> CONTEXT: Map524/events/4/pages/3/8/Dialogue
+\\name[\\v[2]]\\_
+Sorry.
+This service is currently unavailable due to preparation.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+いらっしゃいませ。ここはファータの娼館。
+一夜の許された、甘い愛と悦楽を提供する宿。
+> CONTEXT: Map524/events/4/pages/4/5/Dialogue
+\\name[\\v[2]]\\_
+Welcome. This is Fata's brothel.
+A lodging offering sweet love and pleasure for one night only.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\n[101]様、
+今夜はどの一夜を楽しまれますか？
+> CONTEXT: Map524/events/4/pages/4/15/Dialogue
+\\name[\\v[2]]\\_
+\\n[101]-sama,
+Which night will you enjoy tonight?
+> END STRING
+
+> BEGIN STRING
+アモーレの一夜
+> CONTEXT: Map524/events/4/pages/4/19/Choice/0
+> CONTEXT: Map524/events/4/pages/4/19/Choice/0
+A Night of Amore
+> END STRING
+
+> BEGIN STRING
+ハーレムの一夜
+> CONTEXT: Map524/events/4/pages/4/19/Choice/1
+> CONTEXT: Map524/events/4/pages/4/19/Choice/1
+A Harem Night 
+> END STRING
+
+> BEGIN STRING
+バッカナールの一夜
+> CONTEXT: Map524/events/4/pages/4/19/Choice/2
+> CONTEXT: Map524/events/4/pages/4/19/Choice/2
+A Bacchanal Night 
+> END STRING
+
+> BEGIN STRING
+サバトの一夜
+> CONTEXT: Map524/events/4/pages/4/19/Choice/3
+> CONTEXT: Map524/events/4/pages/4/19/Choice/3
+A Sabbath Night
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この一夜では一人の姫と一晩中、
+じっくりと愛し合うことができます。
+> CONTEXT: Map524/events/4/pages/4/26/Dialogue
+\\name[\\v[2]]\\_
+In this night, 
+you can make love to one princess all night long.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+アモーレの一夜を楽しまれますか？
+> CONTEXT: Map524/events/4/pages/4/29/Dialogue
+\\name[\\v[2]]\\_
+Would you like to enjoy a night of amore?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+かしこまりました。
+それではお部屋のほうに・・・
+> CONTEXT: Map524/events/4/pages/4/34/Dialogue
+> CONTEXT: Map524/events/4/pages/4/73/Dialogue
+\\name[\\v[2]]\\_
+Understood.
+Now, let's head to the room...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+遊べるのはおひとりさまだけです。
+パーティを減らしてからお越しください。
+> CONTEXT: Map524/events/4/pages/4/54/Dialogue
+> CONTEXT: Map524/events/4/pages/4/93/Dialogue
+> CONTEXT: Map524/events/4/pages/4/189/Dialogue
+\\name[\\v[2]]\\_
+Only one person can play.
+Please reduce your party size before coming.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この一夜では同時に三人の姫たちと
+愛し合うことができます。
+> CONTEXT: Map524/events/4/pages/4/65/Dialogue
+\\name[\\v[2]]\\_
+In this one night, 
+you can make love to three princesses at the same time.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ハーレムの一夜を楽しまれますか？
+> CONTEXT: Map524/events/4/pages/4/68/Dialogue
+\\name[\\v[2]]\\_
+Would you like to enjoy a harem night?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この一夜はおひとりでは遊べません。
+お仲間を連れてお越しください。
+> CONTEXT: Map524/events/4/pages/4/105/Dialogue
+\\name[\\v[2]]\\_
+You won't be able to play alone this night.
+Bring some friends along.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この一夜は当館が提供する乱交の宴。
+十二の姫と心行くまで悦楽をお貪り下さい。
+> CONTEXT: Map524/events/4/pages/4/111/Dialogue
+\\name[\\v[2]]\\_
+This night is an orgy party provided by our hotel.
+Enjoy the pleasures to your heart's content 
+with the twelve princesses.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+宴をより盛り上げていただくため、
+お仲間を連れてのご参加をお願いしております。
+> CONTEXT: Map524/events/4/pages/4/114/Dialogue
+\\name[\\v[2]]\\_
+To make the party even more exciting, 
+we ask that you bring along some friends.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+バッカナールの一夜を楽しまれますか？
+> CONTEXT: Map524/events/4/pages/4/117/Dialogue
+\\name[\\v[2]]\\_
+Would you like to enjoy a bacchanal night?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+かしこまりました。
+それでは宴の場へ・・・
+> CONTEXT: Map524/events/4/pages/4/122/Dialogue
+\\name[\\v[2]]\\_
+I understand.
+Now, let's move on to the party...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この一夜では、お客様には
+一人の姫と一対一で愛し合っていただきますが、
+> CONTEXT: Map524/events/4/pages/4/147/Dialogue
+\\name[\\v[2]]\\_
+During this night, 
+you will have a one-on-one love affair with a princess.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+一人愛し終えても次の姫、次の姫、が
+休むことなくお相手を致します。
+> CONTEXT: Map524/events/4/pages/4/150/Dialogue
+\\name[\\v[2]]\\_
+Even after you've loved one, the next princess, 
+and the next princess, will continue to serve you without rest.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+途中でやめにすることはできず、
+朝を迎えられるか、お客様が力尽きるまで続けられます。
+> CONTEXT: Map524/events/4/pages/4/153/Dialogue
+\\name[\\v[2]]\\_
+You cannot stop midway through,
+and the game will continue until morning comes 
+or until you run out of energy.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+三十人程との交わりを終えれば、
+朝になると思いますが・・・
+> CONTEXT: Map524/events/4/pages/4/156/Dialogue
+\\name[\\v[2]]\\_
+Once you've finished with about 30 people,
+it will probably be morning...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+その前にお客様が力尽きた場合でも
+特にデメリットはございませんので、
+朝までぐっすりお休みください。
+> CONTEXT: Map524/events/4/pages/4/159/Dialogue
+\\name[\\v[2]]\\_
+Even if you run out of energy before then,
+there is no particular disadvantage, 
+so please rest soundly until morning.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+サバトの一夜を楽しまれますか？
+> CONTEXT: Map524/events/4/pages/4/163/Dialogue
+\\name[\\v[2]]\\_
+Are you enjoying a sabbath night?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+かしこまりました。
+それでは特別室へご案内いたします・・・
+> CONTEXT: Map524/events/4/pages/4/169/Dialogue
+\\name[\\v[2]]\\_
+Understood.
+I will now show you to your special room...
+> END STRING
+
+> BEGIN STRING
+"おせっかいな騎士"
+> CONTEXT: Map524/events/5/pages/0/0/InlineScript/1:22
+"Meddlesome Knight"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おせっかいな僕が初期スキルについて教えてあげよう。
+何か聞きたいことはあるかい？
+> CONTEXT: Map524/events/5/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Since I like to meddle, I'll tell you about the initial skills.
+Is there anything you would like to ask?
+> END STRING
+
+> BEGIN STRING
+キッス
+> CONTEXT: Map524/events/5/pages/0/4/Choice/0
+> CONTEXT: Map524/events/5/pages/0/4/Choice/0
+> CONTEXT: Skills/990/name/
+Kiss
+> END STRING
+
+> BEGIN STRING
+バスト
+> CONTEXT: Map524/events/5/pages/0/4/Choice/1
+> CONTEXT: Map524/events/5/pages/0/4/Choice/1
+Bust
+> END STRING
+
+> BEGIN STRING
+ヒップ
+> CONTEXT: Map524/events/5/pages/0/4/Choice/2
+> CONTEXT: Map524/events/5/pages/0/4/Choice/2
+Hip
+> END STRING
+
+> BEGIN STRING
+クロッチ
+> CONTEXT: Map524/events/5/pages/0/4/Choice/3
+> CONTEXT: Map524/events/5/pages/0/4/Choice/3
+Crotch
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「キッス」は与えられる快感は他より少しだけ小さいが、
+その分ムードが上がる効果を持っているね。
+> CONTEXT: Map524/events/5/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+"Kiss" gives a little less pleasure than others, 
+but it has the effect of raising the mood.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ムードの低い序盤などはキッスでムードを上げていくと、
+自分のやりたいことがやりやすくなるよ。
+> CONTEXT: Map524/events/5/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+In the beginning when the mood is low, raise the mood with Kiss,
+and that will make it easier to do what you want.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「バスト」はこの４つの中では、最も安定して
+高い快感を与えられるスキルだ。
+> CONTEXT: Map524/events/5/pages/0/14/Dialogue
+\\name[\\v[2]]\\_
+“Bust” is the most consistent of these four.
+It's a skill that can give a high level of pleasure.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+与える快感を重視している時などは、
+これが最も使いやすいだろうね。
+> CONTEXT: Map524/events/5/pages/0/17/Dialogue
+\\name[\\v[2]]\\_
+This is probably the easiest to use 
+when you are focusing on giving pleasure.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「ヒップ」は短いターンの間だが、相手の素早さを遅くする\\_
+効果がある。
+> CONTEXT: Map524/events/5/pages/0/22/Dialogue
+\\name[\\v[2]]\\_
+"Hip" slows down the opponent's speed for a short time.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+相手の行動順をずらすことができるし、
+レジストスキルに対して若干だが有利になれるよ。
+> CONTEXT: Map524/events/5/pages/0/25/Dialogue
+\\name[\\v[2]]\\_
+You can shift the order of your opponent's actions, giving you a slight
+advantage over resist skills.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「クロッチ」は相手の潤滑度を上げる効果があるね。
+> CONTEXT: Map524/events/5/pages/0/30/Dialogue
+\\name[\\v[2]]\\_
+"Crotch" has the effect of increasing the 
+lubrication level of the other person.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+潤滑度というのは、その戦闘中でのみ加算されていくけど、
+一部のスキルはこれが高いほど効果がある。
+> CONTEXT: Map524/events/5/pages/0/32/Dialogue
+\\name[\\v[2]]\\_
+The lubrication level is only added up during the battle, but
+the higher the lubrication level, the more effective some skills are.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+しかし、クロッチのような潤滑度を上げるスキルは、
+裸の相手でないと与える快感も効果も激減してしまうから\\_
+注意が必要だよ。
+> CONTEXT: Map524/events/5/pages/0/35/Dialogue
+\\name[\\v[2]]\\_
+However, you need to be careful with skills that increase lubrication,
+such as crotch, because the pleasure and effect it gives will be
+drastically reduced unless the target is naked.
+> END STRING
+
+> BEGIN STRING
+"手練の男"
+> CONTEXT: Map524/events/6/pages/0/0/InlineScript/1:22
+"Skillful man"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]パーティには気を遣っているか？
+> CONTEXT: Map524/events/6/pages/0/1/Dialogue
+\\name[\\v[2]]Do you have concerns about the party?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]夢魔によっては、戦闘を得意とする者や、
+探索に向いている者などがいる。
+戦闘と探索の役割を考えたパーティ編成をする事が\\_
+望ましい。
+> CONTEXT: Map524/events/6/pages/0/2/Dialogue
+\\name[\\v[2]]Some succubi are good at combat and some at exploration.
+You should form a party that takes these roles into account.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]だが、その２つのバランスが良いだけでは
+良いパーティというわけでは決して無い。
+> CONTEXT: Map524/events/6/pages/0/6/Dialogue
+\\name[\\v[2]]However, just having a good balance between the two
+doesn't necessarily mean it's a good party.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]倒したい敵がいる時は\\_
+戦闘を得意とする夢魔で固め、
+夢世界での探索を重視する時は、探索を得意とした夢魔を
+多く率いる事も重要だ。
+> CONTEXT: Map524/events/6/pages/0/8/Dialogue
+\\name[\\v[2]]When there is an enemy you want to defeat, 
+it is important to prepare with succubi who are good at combat,
+and when you place emphasis on exploration in the dream world,
+it is best to have succubi who are good at exploration.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]パーティ編成をする時は、\\_
+冒険の目的と仲間の役割を考えて、
+仲間の夢魔を選ぶんだな。
+> CONTEXT: Map524/events/6/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+When forming a party, consider the purpose of the adventure
+and the role of your companions, 
+and choose the succubi that will be your companions.
+> END STRING
+
+> BEGIN STRING
+"魔法士の青年"
+> CONTEXT: Map152/events/9/pages/0/0/InlineScript/1:22
+> CONTEXT: Map524/events/7/pages/0/0/InlineScript/1:22
+"Young Magician"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おや、ラーミル様のお弟子様ではありませんか。
+こんな所で会うとは奇遇ですね。
+> CONTEXT: Map524/events/7/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Oh, aren't you Ramil's disciple?
+What a coincidence for us to meet here.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]ここは夢魔が蔓延っている夢世界。
+剣術の心得も攻撃魔法の知識も役立たず･･･。
+どうやら普通の戦闘能力では彼女らに\\_
+勝つことができないようです。
+> CONTEXT: Map524/events/7/pages/0/4/Dialogue
+\\name[\\v[2]]This is a dream world where succubi are rampant.
+Swordsmanship and attack magic are useless...
+You can't defeat them with normal fighting ability.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+わかりやすく言えば、
+\\c[12]魅力が攻撃力、忍耐力が防御力\\c[0]\\_
+となっていることでしょうか。
+> CONTEXT: Map524/events/7/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+To put it simply,
+\\c[12]Charm is offensive power, endurance is defensive power\\c[0]
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なので、攻めを強くする場合は魅力を高める装備を、
+守りを強くする場合は忍耐力を高める装備をするのが\\_
+基本みたいですね。
+> CONTEXT: Map524/events/7/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+So, if you want to strengthen your attack, you should use equipment that 
+increases your charm, and if you want to strengthen your defense,
+you should use equipment that increases your endurance.
+> END STRING
+
+> BEGIN STRING
+"のんびりした女"
+> CONTEXT: Map524/events/8/pages/0/0/InlineScript/1:22
+"A laid-back woman"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢の魔力はー。
+仲間にした夢魔が多ければ多いほど増えるって聞いたよー。
+> CONTEXT: Map524/events/8/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Dream magic power?
+I heard that the more succubi you have, the more you will get.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それでー、増える夢の魔力は「強い夢魔」ほど
+多くなるんだってー。
+> CONTEXT: Map524/events/8/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+So, the more "strong succubi", the more dream magic you have.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢の魔力が必要な場所があったらー
+夢魔とたくさん契約したりー、夢魔をレベルアップ\\_
+させたりすれば\\nいいと思うなー。
+> CONTEXT: Map524/events/8/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+What if there was a place that needed dream magic?
+I think it would be good to make lots of contracts with succubi
+and level them up.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+戦闘中に夢魔と交代させる方法は分かる？
+教えてあげよっか？
+> CONTEXT: Map524/events/9/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Do you know how to switch places with a succubus during battle?
+Shall I tell you?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\c[12]行動選択画面で、Changeから\\_
+交代したい相手を選ぶだけ。\\c[0]簡単でしょ？
+> CONTEXT: Map524/events/9/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]On the action selection screen, 
+just select the person you want to switch with from Change.\\c[0]
+Easy, right?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ただし、交代したらその子の番は終わりよ
+交代しながらスキルを使うなんてことはできないから
+注意が必要ね。
+> CONTEXT: Map524/events/9/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+However, once you switch, that girl's turn ends.
+You can't use skills while switching, so be careful.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢魔はＶＰが無くなって失神してると、経験値が一切貰え\\_
+ないから、
+危なくなった時に経験値が欲しいなら交代するのも手よ！
+> CONTEXT: Map524/events/9/pages/0/13/Dialogue
+\\name[\\v[2]]\\_
+If a succubus loses VP and faints, she won't receive any
+experience points, so if you want experience points,
+when she's in danger, you can replace her!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ならば良し！
+> CONTEXT: Map524/events/9/pages/0/19/Dialogue
+\\name[\\v[2]]\\_
+Alright good!
+> END STRING
+
+> BEGIN STRING
+"鎧の男"
+> CONTEXT: Map524/events/10/pages/0/0/InlineScript/1:22
+"Armored man"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢魔との相対において、より多くの経験値を得る方法がある。
+それは「\\c[12]自分より強い夢魔と戦うこと\\c[0]」、\\_
+「\\c[12]複数の夢魔と同時に戦うこと\\c[0]」だ。
+> CONTEXT: Map524/events/10/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+These are ways to gain additional experience in combat: 
+"\\c[12] Fighting succubi stronger than yourself\\c[0]" and
+"\\c[12] Fighting multiple succubi at the same time\\c[0]."
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+楽ではないものの、それによって得られる経験は大きい。
+余裕がある時は狙ってみることだな。
+> CONTEXT: Map524/events/10/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+Although it is not easy, the experience gained is great.
+Give it a shot when you can.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+また、夢魔と接触した時、
+稀にレアな敵グループが現れることがある。
+> CONTEXT: Map524/events/10/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+Also, when you come into contact with a succubus,
+Rare enemy groups may occasionally appear.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+これも一筋縄ではいかない敵グループだが、
+経験値量を更に多く得ることができるぞ。
+> CONTEXT: Map524/events/10/pages/0/11/Dialogue
+\\name[\\v[2]]\\_
+These are difficult enemy groups,
+but you can get even more experience points.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ま、勝てないと経験値にならないんだがな。
+ちゃんと逃げることも重要だぞ。
+> CONTEXT: Map524/events/10/pages/0/14/Dialogue
+\\name[\\v[2]]\\_
+Well, if you don't win, you won't get any experience points.
+It's also important to escape when necessary.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ただ、中には普段現れない
+珍しい夢魔が紛れている事もある。
+余裕があるなら狙ってみてもいいかもしれないな！
+> CONTEXT: Map524/events/10/pages/0/17/Dialogue
+\\name[\\v[2]]\\_
+However, there may be rare succubi hidden among them 
+that don't usually appear.
+If you have the time, it might be worth a try!
+> END STRING
+
+> BEGIN STRING
+"ゴースト"
+> CONTEXT: Map524/events/11/pages/0/0/InlineScript/1:22
+"Ghost"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おいおい君、あんまり同じ夢魔にずっと同じ攻め方を\\_
+してないだろうね？
+> CONTEXT: Map524/events/11/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hey, hey, you don't always attack the same succubus the same way,
+do you?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\c[12]弱点だったからと言ってやりすぎると飽きられる\\c[0]\\_
+よ。\\nたまには違う攻め方も入れて攻めるんだね。
+ちなみにホールド中のスキルは何回やっても大丈夫だよ。
+> CONTEXT: Map524/events/11/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]If you use one move too much just because it's her weakness,
+she'll get bored\\c[0]. Sometimes, try using a different attack method.
+By the way, it doesn't matter how many times you use a skill in a hold.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･まぁ私に対しての光魔法は何度だろうが痛いがね･･･。
+> CONTEXT: Map524/events/11/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+...Well, it hurts no matter how many times light magic is used on me...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･････えっ？
+シャイニングレイジ？　光属性最上位魔法？
+> CONTEXT: Map524/events/11/pages/0/19/Dialogue
+\\name[\\v[2]]\\_
+...eh?
+Shining Rage? Top light attribute magic?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･おいおいおいおいおいおい君君きみみみ、
+そそそそんな物騒な魔法を私に撃ってくれるなよ？
+> CONTEXT: Map524/events/11/pages/0/25/Dialogue
+\\name[\\v[2]]\\_
+...Hey, hey, hey, hey, you, you, you,
+you wouldn't dare hit me with that horrible magic would you!?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+勘弁してくれ！　痛いどころじゃない！！
+幽霊だろうと関係ない！！　死んでしまう！！！
+> CONTEXT: Map524/events/11/pages/0/28/Dialogue
+\\name[\\v[2]]\\_
+Give me a break! It's beyond painful!!!
+It doesn't matter if I'm a ghost!!! I'll die!!!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こ、これをあげるからさ、
+決して私で試そうとはしないでくれないか･･･？
+> CONTEXT: Map524/events/11/pages/0/31/Dialogue
+\\name[\\v[2]]\\_
+Hey, I'll give you this.
+Please don't ever try it on me okay...?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+頼むよ･･･？
+> CONTEXT: Map524/events/11/pages/0/41/Dialogue
+\\name[\\v[2]]\\_
+I'm begging you...?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･まぁ私に対しての光魔法は何度だろうが痛いがね･･･。
+シャイニングレイジなんて魔法なんか使われたら、\\_
+ひとたまりもないよ･･･。
+> CONTEXT: Map524/events/11/pages/0/51/Dialogue
+\\name[\\v[2]]\\_
+...Well, it hurts no matter how many times light magic is 
+used against me... If a spell like Shining Rage was used, 
+I wouldn't be able to stand it...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+しかしそんな物騒な攻撃魔法、夢魔には一切効かない\\_
+だろう？\\nなんでそんなものを習得しているんだね･･･。
+> CONTEXT: Map524/events/11/pages/0/55/Dialogue
+\\name[\\v[2]]\\_
+However, such a dangerous attack magic would have 
+no effect on a succubus, right? 
+Why learn about something like that?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+魔王様にも通用しそうなぐらいな代物だよそれは･･･。
+> CONTEXT: Map524/events/11/pages/0/58/Dialogue
+\\name[\\v[2]]\\_
+It's something that could even be used by a Demon Lord...
+> END STRING
+
+> BEGIN STRING
+"飲食する男"
+> CONTEXT: Map524/events/13/pages/0/0/InlineScript/1:22
+"Diner"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+腹が減っては戦は出来ぬ。そういうだろ？
+> CONTEXT: Map524/events/13/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+You can't fight if you're hungry. Isn't that so?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「食事」をすると、しばらく歩いている間は食事の効果が\\_
+得られるんだ。\\nステータスを上げたり、ＥＰやＶＰの\\_
+自動回復量を\\n上げたりすることができるぜ。
+> CONTEXT: Map524/events/13/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+When you eat, you get some benefits for a while of walking.
+You can raise your status and increase the 
+automatic recovery amount of EP and VP.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]それと、\\c[12]満腹度が減らない場所では\\_
+食事の歩数も減らない\\c[0]んだ。\\nだからここみたいな\\_
+安全な場所で食べても、ダンジョンに出るまでは
+食事効果の歩数は減ってないぜ。
+> CONTEXT: Map524/events/13/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+Also, \\c[12]the food benefit will not run out in an area where
+satiety doesn't decrease.\\c[0] So if you eat here, the steps until
+the food benefit runs out won't decrease until you go to a dungeon.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ただし食事を行うと、食事の効果が切れるまでは\\_
+次の食事は行えない。
+まぁ、食べたら食べた分動け、ってことだな。
+> CONTEXT: Map524/events/13/pages/0/11/Dialogue
+\\name[\\v[2]]\\_
+However, once you eat a meal, you cannot eat another meal until
+the effect of the meal wear off.
+You see, you should move as much as you eat.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･ここじゃこうしてカウンターにいる兄ちゃんが\\_
+作ってくれるけど、
+ダンジョンで食事できたらなぁ･･･。
+> CONTEXT: Map524/events/13/pages/0/15/Dialogue
+\\name[\\v[2]]\\_
+...I wish I could get the food that the guy cooks here,
+and eat that in the dungeon...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やぁやぁ、初めまして！
+> CONTEXT: Map524/events/14/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hey, nice to meet you!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+いきなりだけど君に質問！
+君は大きいのと小さいの、どっちが好きだい？
+> CONTEXT: Map524/events/14/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+A sudden question for you!
+Do you prefer big ones or small ones?
+> END STRING
+
+> BEGIN STRING
+大きいの
+> CONTEXT: Map524/events/14/pages/0/6/Choice/0
+> CONTEXT: Map524/events/14/pages/0/6/Choice/0
+Big
+> END STRING
+
+> BEGIN STRING
+小さいの
+> CONTEXT: Map524/events/14/pages/0/6/Choice/1
+> CONTEXT: Map524/events/14/pages/0/6/Choice/1
+Small
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+まぁどっちを選ぼうと拉致っちゃうんだけどね！
+ははははは！
+> CONTEXT: Map524/events/14/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+Well, no matter which one you choose I'll kidnap you!
+Hahahaha!
+> END STRING
+
+> BEGIN STRING
+"PLAIN_AND_HILLS"
+> CONTEXT: Map524/events/14/pages/0/16/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map524/events/14/pages/1/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map524/events/14/pages/1/19/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map272/events/14/pages/0/7/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map272/events/14/pages/1/6/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map272/events/14/pages/2/6/InlineScript/1:27 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢の別れ道に行くかい？
+> CONTEXT: Map524/events/14/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+Would you like to go to the 
+crossroads of your dreams?
+> END STRING
+
+> BEGIN STRING
+行く
+> CONTEXT: Map524/events/14/pages/1/3/Choice/1
+> CONTEXT: Map524/events/14/pages/1/3/Choice/1
+Go
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ではではご案内！
+> CONTEXT: Map524/events/14/pages/1/5/Dialogue
+> CONTEXT: Map524/events/14/pages/1/17/Dialogue
+\\name[\\v[2]]\\_
+Now, let us introduce you!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おぉっと、そうきたか。
+それじゃあまたの機会に！
+> CONTEXT: Map524/events/14/pages/1/29/Dialogue
+\\name[\\v[2]]\\_
+Oh, I see.
+See you next time!
+> END STRING
+
+> BEGIN STRING
+"バーテンダー"
+> CONTEXT: Map152/events/10/pages/0/0/InlineScript/1:22
+> CONTEXT: Map152/events/10/pages/1/0/InlineScript/1:22
+> CONTEXT: Map524/events/16/pages/0/3/InlineScript/1:22
+> CONTEXT: Map524/events/16/pages/1/3/InlineScript/1:22
+"Bartender"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+よぉ\\v[3]。
+酒は出せねーが、なんか食っていくか？
+> CONTEXT: Map524/events/16/pages/0/5/Dialogue
+> CONTEXT: Map524/events/16/pages/1/5/Dialogue
+\\name[\\v[2]]\\_
+Yo \\v[3].
+I can't serve alcohol, but would you like to eat something?
+> END STRING
+
+> BEGIN STRING
+\\name[悪魔]\\_
+なんだい、ナンダイ。
+ただの悪魔が酒飲んでちゃ悪いのかい。
+> CONTEXT: Map524/events/17/pages/0/1/Dialogue
+\\name[Devil]\\_
+What is it, WHAT IS IT?
+Is it wrong for a devil to drink alcohol?
+> END STRING
+
+> BEGIN STRING
+"情報屋"
+> CONTEXT: Map524/events/17/pages/0/4/InlineScript/1:22
+> CONTEXT: Map524/events/17/pages/0/15/InlineScript/1:22
+> CONTEXT: Map524/events/17/pages/1/0/InlineScript/1:22
+> CONTEXT: Map524/events/17/pages/2/0/InlineScript/1:22
+> CONTEXT: Map524/events/17/pages/3/0/InlineScript/1:22
+> CONTEXT: Map524/events/17/pages/4/0/InlineScript/1:22
+> CONTEXT: Map209/events/61/pages/1/0/InlineScript/1:22
+> CONTEXT: Map209/events/61/pages/2/0/InlineScript/1:22
+> CONTEXT: Map209/events/61/pages/3/0/InlineScript/1:22
+"Informant"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+オレは他の夢世界の情報を取り扱ってる情報屋様だぜ？
+良い情報揃えてやってやるんだ。是非ともご贔屓になァ？
+キキキッ！
+> CONTEXT: Map524/events/17/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+I'm an informant who handles information about other dream worlds.
+I gather good information. Please be sure to give it a try?
+Ki-ki-ki!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうだ、早速サービスしてやろう。
+この情報は金を取らねえから安心しナ。
+> CONTEXT: Map524/events/17/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+Yes, let's service it right away.
+Don't worry, I won't charge you for this information.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+俺は情報屋サ。
+今は特別サービス中だぜ。無料で情報を教えてやるヨ。\\_
+キキッ！
+> CONTEXT: Map524/events/17/pages/0/16/Dialogue
+\\name[\\v[2]]\\_
+I'm an informer.
+I currently have a special offer. I'll give you information for free.
+Ki-ki!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここから別の夢世界へ行くことができるところは３つあるんダ。
+どこの情報が知りたい？
+> CONTEXT: Map524/events/17/pages/0/22/Dialogue
+\\name[\\v[2]]\\_
+There are three other dream worlds you can go to from here.
+What information do you want to know?
+> END STRING
+
+> BEGIN STRING
+浅き夢の瀬
+> CONTEXT: Map524/events/17/pages/0/25/Choice/0
+> CONTEXT: Map524/events/17/pages/0/25/Choice/0
+> CONTEXT: Map524/events/38/pages/0/3/Choice/2
+> CONTEXT: Map524/events/38/pages/0/3/Choice/2
+Shallow Dream Waters
+> END STRING
+
+> BEGIN STRING
+月明かりの樹海
+> CONTEXT: Map524/events/17/pages/0/25/Choice/1
+> CONTEXT: Map524/events/17/pages/0/25/Choice/1
+> CONTEXT: Map524/events/38/pages/0/14/Choice/1
+> CONTEXT: Map524/events/38/pages/0/14/Choice/1
+Moonlit Sea of Trees
+> END STRING
+
+> BEGIN STRING
+教会図書館
+> CONTEXT: Map524/events/17/pages/0/25/Choice/2
+> CONTEXT: Map524/events/17/pages/0/25/Choice/2
+Church library
+> END STRING
+
+> BEGIN STRING
+何も聞かない
+> CONTEXT: Map347/events/1/pages/1/71/Choice/3
+> CONTEXT: Map285/events/6/pages/2/9/Choice/2
+> CONTEXT: Map347/events/1/pages/1/64/Label
+> CONTEXT: Map347/events/1/pages/1/82/Label
+> CONTEXT: Map347/events/1/pages/1/170/Label
+> CONTEXT: Map524/events/17/pages/0/25/Choice/3
+> CONTEXT: Map524/events/17/pages/0/25/Choice/3
+> CONTEXT: Map524/events/17/pages/1/6/Choice/3
+> CONTEXT: Map524/events/17/pages/1/6/Choice/3
+> CONTEXT: Map524/events/17/pages/1/28/Choice/2
+> CONTEXT: Map524/events/17/pages/1/28/Choice/2
+Don't listen
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+浅き夢の瀬か。
+ここはアンタ通ってきたんじゃないか？
+> CONTEXT: Map524/events/17/pages/0/27/Dialogue
+\\name[\\v[2]]\\_
+The Shallow Dream Waters,
+didn't you come through there?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢世界でもかなり浅い場所ではあるみたいだナ。
+おかげで特に見るものも無い。
+> CONTEXT: Map524/events/17/pages/0/30/Dialogue
+\\name[\\v[2]]\\_
+It seems like it's a pretty shallow place even in the dream world.
+There's nothing special to see.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ま、何かあるかもしれねーがその時はすぐ分かるダロ。
+キキッ！
+> CONTEXT: Map524/events/17/pages/0/33/Dialogue
+\\name[\\v[2]]\\_
+Well, something might happen, but I'll know when it does.
+Ki-ki!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+月明かりの樹海か。
+ここはこのホームにある\\c[12]虚のある植木\\c[0]から\\_
+行けるゼ。
+> CONTEXT: Map524/events/17/pages/0/38/Dialogue
+\\name[\\v[2]]\\_
+Moonlit Sea of Trees?
+You can go there via the \\c[12]Empty Plants\\c[0] in Home.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢魔は多いが、弱いし動きも分かりやすい。
+旅や夢魔に慣れるにはちょうど良いはずだぜ。
+> CONTEXT: Map524/events/17/pages/0/42/Dialogue
+\\name[\\v[2]]\\_
+There are many succubi there, but they are weak and their
+movements are easy to understand.
+It should be a good opportunity to get used to the
+traveling and the succubi.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それに、【秩序の魔女】だったか？　\\_
+あの女がいたって話もある。
+> CONTEXT: Map524/events/17/pages/0/45/Dialogue
+\\name[\\v[2]]\\_
+What's that about [Witch of Order]? There's stories about that woman.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+アンタの知り合いだろう？
+まずはここを探索してみれば良いんじゃないカイ。
+> CONTEXT: Map524/events/17/pages/0/48/Dialogue
+\\name[\\v[2]]\\_
+You want to get acquainted?
+It would be a good idea to explore this place first, no?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+教会図書館か。
+ここはこのホームの\\c[12]とある本棚\\c[0]から行けるゼ。
+> CONTEXT: Map524/events/17/pages/0/53/Dialogue
+\\name[\\v[2]]\\_
+A church library?
+You can get there from a \\c[12]bookshelf\\c[0] in Home.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あそこは夢世界に関した書物が多い。
+アンタも分からないことだらけだろう？　\\_
+調べてみる価値はあると思うゼ。
+> CONTEXT: Map524/events/17/pages/0/56/Dialogue
+\\name[\\v[2]]\\_
+There are many books about the dream world.
+There are so many things you don't understand, right? 
+I think it's worth looking into.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+敵も襲ってこねーし、平和な場所だしナ。
+まぁ、夢魔の領域ではあるから、ちゃんと夢魔の\\_
+腹の調子は管理しとけヨ？
+> CONTEXT: Map524/events/17/pages/0/60/Dialogue
+\\name[\\v[2]]\\_
+No one will attack you there, so it's a peaceful place.
+However, it's in the realm of succubi, 
+so make sure you take good care of their appetite.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なんだい、勿体無いやつだナ。
+せっかく俺がサービスしてやってるってのによォ？
+> CONTEXT: Map524/events/17/pages/0/66/Dialogue
+> CONTEXT: Map209/events/61/pages/2/17/Dialogue
+\\name[\\v[2]]\\_
+What's that? What a waste.
+I'm the one who's doing the service for you, aren't I?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+俺は情報屋サ。金さえ払ってくれれば情報提供してやるヨ。
+何が聞きタイ？
+> CONTEXT: Map524/events/17/pages/1/3/Dialogue
+> CONTEXT: Map524/events/17/pages/1/25/Dialogue
+\\name[\\v[2]]\\_
+I'm an informer. I'll provide information as long as you pay me.
+What would you like to ask?
+> END STRING
+
+> BEGIN STRING
+隠し扉の傾向
+> CONTEXT: Map524/events/17/pages/1/6/Choice/0
+> CONTEXT: Map524/events/17/pages/1/6/Choice/0
+> CONTEXT: Map524/events/17/pages/1/28/Choice/0
+> CONTEXT: Map524/events/17/pages/1/28/Choice/0
+About hidden doors
+> END STRING
+
+> BEGIN STRING
+ユニーク夢魔について
+> CONTEXT: Map524/events/17/pages/1/6/Choice/1
+> CONTEXT: Map524/events/17/pages/1/6/Choice/1
+> CONTEXT: Map524/events/17/pages/1/28/Choice/1
+> CONTEXT: Map524/events/17/pages/1/28/Choice/1
+About unique succubi
+> END STRING
+
+> BEGIN STRING
+明晰の泉の場所
+> CONTEXT: Map524/events/17/pages/1/6/Choice/2
+> CONTEXT: Map524/events/17/pages/1/6/Choice/2
+Locations of the Fountains of Lucidity
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+オイオイ、情報の価値が分かってねぇ奴だナァ？
+勿体無いやつだゼ。
+> CONTEXT: Commonevents/131/23/Dialogue
+> CONTEXT: Map524/events/17/pages/1/17/Dialogue
+> CONTEXT: Map524/events/17/pages/1/36/Dialogue
+\\name[\\v[2]]\\_
+Hey, you don't understand the value of information, huh?
+What a waste of time.
+> END STRING
+
+> BEGIN STRING
+"隠し扉の傾向ダナ。"
+> CONTEXT: Map524/events/17/pages/1/48/InlineScript/1:22
+"Hidden doors."
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+隠し扉ってのは基本的には北側にしか存在しないんダ。
+西や東にはそうそう無い。
+> CONTEXT: Map524/events/17/pages/1/60/Dialogue
+\\name[\\v[2]]\\_
+Hidden doors almost always face north.
+Not so much west or east.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+壁に線が入っている所や色が違う壁なんかはそうだ。
+装飾の何かと何かの間にあるってことが多いゼ。
+> CONTEXT: Map524/events/17/pages/1/63/Dialogue
+\\name[\\v[2]]\\_
+You might find them where there are lines on the wall,
+or on walls that are different colors.
+They're often between something decorative.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それと不自然に部屋の装飾が非対称的になってる時は、
+その対称側に何かあるかもナ。
+> CONTEXT: Map524/events/17/pages/1/66/Dialogue
+\\name[\\v[2]]\\_
+Also, if the decoration of the room is unnaturally asymmetrical,
+there might be something around there.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ごくたまに南側にも隠し扉があるガ、
+これはだいたいシンメトリーな部屋の中央から南にある\\_
+ケースダナ。
+> CONTEXT: Map524/events/17/pages/1/69/Dialogue
+\\name[\\v[2]]\\_
+Occasionally there is a hidden door facing south, and usually
+it's a case of being on the south side of a symmetrical room.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あとは隠し扉の先に見つけたものが
+やたら安っぽいアイテムの時は注意しなヨ。
+更に隠し扉があるケースがあるようだゼ。
+> CONTEXT: Map524/events/17/pages/1/73/Dialogue
+\\name[\\v[2]]\\_
+Also, be wary if what you find behind the hidden door is a cheap item.
+There are cases where there is another hidden door.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こんなもんダナ。キキッ！
+> CONTEXT: Map524/events/17/pages/1/77/Dialogue
+> CONTEXT: Map524/events/17/pages/1/211/Dialogue
+> CONTEXT: Map524/events/17/pages/1/253/Dialogue
+\\name[\\v[2]]\\_
+That's the way it is. Ki-ki!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おっとこれは個人情報だネ。
+こいつはおおっぴらに言うとウチの信用に関わる。
+> CONTEXT: Map524/events/17/pages/1/83/Dialogue
+\\name[\\v[2]]\\_
+Oh, this is private information.
+Access to this information depends on your reputation.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+アンタの強さに合わせて教えてやるヨ。
+ボカして言うから、あとはアンタで探してくんナ。
+> CONTEXT: Map524/events/17/pages/1/86/Dialogue
+\\name[\\v[2]]\\_
+I'll teach you according to your strength.
+I'll just say it out loud, and then you'll have to look for it yourself.
+> END STRING
+
+> BEGIN STRING
+"ユニーク夢魔の情報その１。"
+> CONTEXT: Map524/events/17/pages/1/90/InlineScript/1:22
+"Unique Succubus Information Part 1."
+> END STRING
+
+> BEGIN STRING
+【天然由来】
+胸が性感帯。素早さ\\v[3]。
+【落ちこぼれ】
+口が性感帯。素早さ\\v[4]。
+> CONTEXT: Map524/events/17/pages/1/104/Dialogue
+[Natural origin]
+Breasts are erogenous zones. Agility \\v[3].
+[Dropout]
+The mouth is an erogenous zone. Agility \\v[4].
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+アンタの強さに見込んで更に情報をやろうじゃないカ。
+> CONTEXT: Map524/events/17/pages/1/114/Dialogue
+> CONTEXT: Map524/events/17/pages/1/140/Dialogue
+> CONTEXT: Map524/events/17/pages/1/166/Dialogue
+> CONTEXT: Map524/events/17/pages/1/192/Dialogue
+\\name[\\v[2]]\\_
+When you get stronger, I will give you more information.
+> END STRING
+
+> BEGIN STRING
+"ユニーク夢魔の情報その２。"
+> CONTEXT: Map524/events/17/pages/1/116/InlineScript/1:22
+"Unique Incubus Information Part 2."
+> END STRING
+
+> BEGIN STRING
+【上から目線】
+口が性感帯。素早さ\\v[3]。
+【冒涜飼い】
+お尻が性感帯。素早さ\\v[4]。
+> CONTEXT: Map524/events/17/pages/1/130/Dialogue
+[Arrogant]
+The mouth is an erogenous zone. Agility \\v[3].
+[Sacrilegous]
+The butt is an erogenous zone. Agility \\v[4].
+> END STRING
+
+> BEGIN STRING
+"ユニーク夢魔の情報その３。"
+> CONTEXT: Map524/events/17/pages/1/142/InlineScript/1:22
+"Unique Incubus Information Part 3."
+> END STRING
+
+> BEGIN STRING
+【丈夫な玩具】
+胸が性感帯。素早さ\\v[3]。
+【美の体現者】
+陰核が性感帯。素早さ\\v[4]。
+> CONTEXT: Map524/events/17/pages/1/156/Dialogue
+[Robust plaything]
+Breasts are erogenous zones. Agility \\v[3].
+[Embodiment of beauty]
+The clitoris is an erogenous zone. Agility \\v[4].
+> END STRING
+
+> BEGIN STRING
+"ユニーク夢魔の情報その４。"
+> CONTEXT: Map524/events/17/pages/1/168/InlineScript/1:22
+"Unique Incubus Information Part 4."
+> END STRING
+
+> BEGIN STRING
+【秩序の魔女】
+胸が性感帯。素早さ\\v[3]。
+【金色の夢魔】
+女陰が性感帯。素早さ\\v[4]。
+> CONTEXT: Map524/events/17/pages/1/182/Dialogue
+[Witch of Order]
+Breasts are erogenous zones. Agility \\v[3].
+[Golden succubus]
+The clitoris is an erogenous zone. Agility \\v[4].
+> END STRING
+
+> BEGIN STRING
+"ユニーク夢魔の情報その５。"
+> CONTEXT: Map524/events/17/pages/1/194/InlineScript/1:22
+"Unique Incubus Information Part 5."
+> END STRING
+
+> BEGIN STRING
+【露悪の果て】
+女陰が性感帯。素早さ\\v[3]。
+> CONTEXT: Map524/events/17/pages/1/208/Dialogue
+[The End of Evil]
+The clitoris is an erogenous zone. Agility \\v[3].
+> END STRING
+
+> BEGIN STRING
+"明晰の泉の場所ダナ。"
+> CONTEXT: Map524/events/17/pages/1/218/InlineScript/1:22
+"Locations of the Fountains of Lucidity."
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+行くことができる明晰の泉の場所は全部で９つダ。
+> CONTEXT: Map524/events/17/pages/1/230/Dialogue
+\\name[\\v[2]]\\_
+There are a total of 9 locations of the 
+Fountain of Lucidity you can go to.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+月明かりの樹海に２つ。
+この２つは共通して木の虚の中にあるゼ。
+> CONTEXT: Map524/events/17/pages/1/232/Dialogue
+\\name[\\v[2]]\\_
+2 in the Moonlit Sea of Trees.
+These 2 both lie within the hollowness of a tree.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+闇洞窟に２つ。
+１つは暗闇にしないと行けない場所にあるんだが、\\_
+気付いてるカイ？
+> CONTEXT: Map524/events/17/pages/1/235/Dialogue
+\\name[\\v[2]]\\_
+Two in the dark cave.
+One is in a place that you can't get to unless it's dark, 
+if you know what I mean?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+パルフィス密教会に１つ。
+乱交してたホールのその先にある部屋の奥サ。
+> CONTEXT: Map524/events/17/pages/1/239/Dialogue
+\\name[\\v[2]]\\_
+One in Palfis Secret Church.
+In the back of the room beyond the hall 
+where they are having an orgy.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+令嬢の屋敷に１つ。
+あれは完全に屋敷のオブジェにしてるナ、あのお嬢サマ。
+> CONTEXT: Map524/events/17/pages/1/242/Dialogue
+\\name[\\v[2]]\\_
+One in the lady's mansion.
+It is an object in the mansion of the lady.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+獄界オルデオに１つ。
+ここは厄介な所サ。夢魔を倒していかないと見ることが\\_
+出来ないゼ。
+> CONTEXT: Map524/events/17/pages/1/245/Dialogue
+\\name[\\v[2]]\\_
+One in the Hell World of Ordeo.
+This is a tricky place. 
+You must defeat some succubi to get there.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]魔城トゥーロマンサに２つ。
+１つは難しくないが、問題はもう１つサ。
+ポートから遠く、泉も強い夢魔が塞いでやがる。\\_
+ここが一番の難所だゼ。
+> CONTEXT: Map524/events/17/pages/1/249/Dialogue
+\\name[\\v[2]]\\_
+Two in Demon Castle Too Romanca. One is not difficult, 
+but the other is far from the port, and the spring is 
+blocked by a strong succubus. This is the most difficult part.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+キキッ！夢世界はマダマダ広いッ！
+そんなアンタに便利なアイテムを譲ってヤるゼ。
+> CONTEXT: Map524/events/17/pages/2/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+フルーツタルト
+一つ5000Lps.ダ！
+> CONTEXT: Map524/events/17/pages/2/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+オイオイ！　金が足りねーナァ！？
+> CONTEXT: Commonevents/131/17/Dialogue
+> CONTEXT: Map524/events/17/pages/2/11/Dialogue
+Oi oi! Not enough money!?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+悪ィ悪ィ、売り切れダ。
+アンタが使って数が減ったコロには入荷できるはずだゼ。
+> CONTEXT: Map524/events/17/pages/2/18/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/17/pages/3/19/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/17/pages/4/15/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+毎度アリ！キキッ！
+> CONTEXT: Map524/events/17/pages/2/32/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/17/pages/3/34/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/17/pages/4/29/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+アンタ、オレのことボッタクリと思ってるナ？
+> CONTEXT: Map524/events/17/pages/2/36/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こいつは他の店では売っていない代物ダ！
+これでも良心的価格ダゾ！
+> CONTEXT: Map524/events/17/pages/2/38/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+キキッ！いいトコロにきたナッ！
+> CONTEXT: Map524/events/17/pages/3/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+フルーツタルトの量産体制が整ったらシイ
+オレとアンタの仲ダ！特別に半額で売ってやるゼ！
+一つ2500Lps.ダ！
+> CONTEXT: Map524/events/17/pages/3/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+オイオイ！　金が足りないゼ！？
+> CONTEXT: Map524/events/17/pages/3/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/17/pages/4/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ソウカ！必要になったら言ッテくれよナ！
+> CONTEXT: Map524/events/17/pages/3/38/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+フルーツタルトが欲シイのカ？
+一つ2500Lps.ダ！
+> CONTEXT: Map524/events/17/pages/4/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうカ！必要になったら言ッテくれよナ！
+> CONTEXT: Map524/events/17/pages/4/33/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ユニーク夢魔って知ってる？
+夢世界で特別力を持つ変わった夢魔のことなんだけどさ。
+> CONTEXT: Map114/events/27/pages/0/1/Dialogue
+> CONTEXT: Map524/events/18/pages/0/1/Dialogue
+Do you know about unique succubi?
+It's a strange succubus with special powers in the dream world.
+> END STRING
+
+> BEGIN STRING
+彼女らは「夢の魔力」を他の夢魔の何倍も持つらしいんだ。
+１人でも契約できれば、行ける場所が大きく増えるはずだよ。
+> CONTEXT: Map114/events/27/pages/0/3/Dialogue
+> CONTEXT: Map524/events/18/pages/0/3/Dialogue
+They seem to have much more "dream magic" than other succubi.
+Just one such contract can greatly open up places you can go.
+> END STRING
+
+> BEGIN STRING
+その分、ユニークの名に恥じぬ力を持ってることが多いん\\_
+だけどね。
+会うことがあったら気をつけておくんだよ。
+> CONTEXT: Map114/events/27/pages/0/5/Dialogue
+> CONTEXT: Map524/events/18/pages/0/5/Dialogue
+However, they often have powers that live up to their title.
+Be careful if you come across one.
+> END STRING
+
+> BEGIN STRING
+それに目立つ子たちだし、彼女たちの情報は\\_
+少なからずあるはずさ。
+> CONTEXT: Map114/events/27/pages/0/8/Dialogue
+> CONTEXT: Map524/events/18/pages/0/8/Dialogue
+Besides, they are notable girls, and there should be 
+quite a bit of information about them.
+> END STRING
+
+> BEGIN STRING
+ま、僕には書いてないんだけどね。
+> CONTEXT: Map114/events/27/pages/0/10/Dialogue
+> CONTEXT: Map524/events/18/pages/0/10/Dialogue
+Well, I have written such things.
+> END STRING
+
+> BEGIN STRING
+「魔王」と書かれた本がある。
+読みますか？
+> CONTEXT: Map114/events/7/pages/0/1/Dialogue
+> CONTEXT: Map524/events/20/pages/0/1/Dialogue
+There is a book written "The Demon Lord".
+Do you want to read it?
+> END STRING
+
+> BEGIN STRING
+人間と敵対する魔物には、頂点に立つ統率者が存在する。
+> CONTEXT: Map114/events/7/pages/0/5/Dialogue
+> CONTEXT: Map524/events/20/pages/0/5/Dialogue
+For monsters that are hostile to humans, 
+there is a leader who stands at the top.
+> END STRING
+
+> BEGIN STRING
+其れは「魔王」と呼ばれ、その力は強大。
+全ての魔物を率い、人を力によって支配しようとする者\\_
+である。
+> CONTEXT: Map114/events/7/pages/0/6/Dialogue
+> CONTEXT: Map524/events/20/pages/0/6/Dialogue
+This leader, called the "Demon Lord", has great power.
+The Demon Lord leads other demons 
+and strives to control humans with power.
+> END STRING
+
+> BEGIN STRING
+人間と魔族の間は長らく戦争状態が続いており、
+魔族の主である魔王を倒すことこそが、人類の悲願と\\_
+なっている。
+> CONTEXT: Map114/events/7/pages/0/9/Dialogue
+> CONTEXT: Map524/events/20/pages/0/9/Dialogue
+Humans and demons have been at war for a long time, 
+and defeating the Demon Lord, the master of the demons, 
+has become humanity's earnest desire.
+> END STRING
+
+> BEGIN STRING
+「無害な者　有害な者」と書かれた本がある。
+読みますか？
+> CONTEXT: Map114/events/6/pages/0/1/Dialogue
+> CONTEXT: Map524/events/21/pages/0/1/Dialogue
+There is a book that says "Harmless, Harmful people"
+Do you want to read it?
+> END STRING
+
+> BEGIN STRING
+この夢世界、とにかく女性を見かけると身構える。
+> CONTEXT: Map114/events/6/pages/0/5/Dialogue
+> CONTEXT: Map524/events/21/pages/0/5/Dialogue
+In this dream world, brace yourself when you see a woman.
+> END STRING
+
+> BEGIN STRING
+一見ただの少女でも、それは夢魔かもしれないからだ。
+彼女らに不用意に接してしまうと戦闘となってしまう。
+> CONTEXT: Map114/events/6/pages/0/6/Dialogue
+> CONTEXT: Map524/events/21/pages/0/6/Dialogue
+Even if she looks like just a girl, she might be a succubus. 
+Careless contanct will cause battle to ensue.
+> END STRING
+
+> BEGIN STRING
+しかし、敵か味方かはともかく、「話せる者」である場合は、
+少し近づくと「吹き出し」を出してくれるのだ。
+> CONTEXT: Map114/events/6/pages/0/8/Dialogue
+> CONTEXT: Map524/events/21/pages/0/8/Dialogue
+However, whether she's an enemy or an ally, if you can talk
+with her, a speech bubble will pop up when you get close enough.
+> END STRING
+
+> BEGIN STRING
+逆に言えば、吹き出しを出さない女性は、
+接するとほとんどの場合は戦闘となってしまう。
+> CONTEXT: Map114/events/6/pages/0/10/Dialogue
+> CONTEXT: Map524/events/21/pages/0/10/Dialogue
+Conversely, women who do not put out speech bubbles,
+in most cases, result in battle upon contact.
+> END STRING
+
+> BEGIN STRING
+男やただの動物はこの夢世界では無害である。
+安心して話しかけてくれて良い。
+> CONTEXT: Map114/events/6/pages/0/12/Dialogue
+> CONTEXT: Map524/events/21/pages/0/12/Dialogue
+Men and mere animals are harmless in this dream world.
+You can be at peace talking to them.
+> END STRING
+
+> BEGIN STRING
+女性形でない「魔物」も無害である。
+どれだけ外見が恐ろしかろうが現実世界で猛威を振るう\\_
+ような者であろうが、
+夢世界では等しく害は無い。臆せず話しかけて良い。
+> CONTEXT: Map114/events/6/pages/0/14/Dialogue
+> CONTEXT: Map524/events/21/pages/0/14/Dialogue
+"Monsters" that are not feminine are also harmless.
+No matter how frightening or ferocious they seem, they are 
+harmless in the dream world. Don't be afraid to talk.
+> END STRING
+
+> BEGIN STRING
+「だいじなだいじな装備品」と書かれた本がある。
+読みますか？
+> CONTEXT: Map114/events/26/pages/0/1/Dialogue
+> CONTEXT: Map524/events/22/pages/0/1/Dialogue
+There is a book that says "Important equipment."
+Do you want to read it?
+> END STRING
+
+> BEGIN STRING
+お金に困ったからと言って、装備品を売却してしまうのは\\_
+危険だ。
+> CONTEXT: Map114/events/26/pages/0/5/Dialogue
+> CONTEXT: Map524/events/22/pages/0/5/Dialogue
+It's risky to sell your equipment 
+just because you're short on money.
+> END STRING
+
+> BEGIN STRING
+世界に１つだけしか無い装備品というものは多い。
+特殊な効果を持ったものは、特にそういった傾向がある。
+宝箱から見つけたものや、誰かからもらったものなどには\\_
+注意が必要だ。
+> CONTEXT: Map114/events/26/pages/0/7/Dialogue
+> CONTEXT: Map524/events/22/pages/0/7/Dialogue
+There are many pieces of equipment that are one of a kind.
+Items with special effects are especially prone to this.
+Be careful with things you find in chests or receive from someone.
+> END STRING
+
+> BEGIN STRING
+売る場合は、店売りされていたり夢魔との戦闘後に入手\\_
+したりなど、
+際限なく手に入れられることが分かった場合のみ行うことを\\_
+推奨する。
+> CONTEXT: Map114/events/26/pages/0/11/Dialogue
+> CONTEXT: Map524/events/22/pages/0/11/Dialogue
+Otherwise it may be sold at a store or obtained from a battle.
+It's recommended to only sell if you know it's not unique.
+> END STRING
+
+> BEGIN STRING
+「能力大全　第１版」と書かれた本がある。
+どの項について調べますか？
+> CONTEXT: Map114/events/4/pages/0/1/Dialogue
+> CONTEXT: Map524/events/23/pages/0/1/Dialogue
+There is a book called "Encyclopedia of Abilities 1"
+Which section would you like to investigate?
+> END STRING
+
+> BEGIN STRING
+読まない
+> CONTEXT: Map114/events/4/pages/0/3/Choice/2
+> CONTEXT: Map524/events/23/pages/0/3/Choice/2
+> CONTEXT: Map524/events/23/pages/0/3/Choice/2
+Don't read
+> END STRING
+
+> BEGIN STRING
+魅力は相手に快感を与える際に使われる能力である。
+すべての攻撃スキルに影響する、夢世界では実質的な
+攻撃力となっている。
+> CONTEXT: Map114/events/4/pages/0/5/Dialogue
+> CONTEXT: Map524/events/23/pages/0/5/Dialogue
+Charm is the ability used for giving pleasure to others.
+It affects all attack skills, 
+so it's the attack power of the dream world.
+> END STRING
+
+> BEGIN STRING
+他にも、「ツーパフ」や\\_
+上位の夢魔が使用する「テンプテーション」など、
+自分の魅力が関係するスキルも存在する。
+誘惑をする場合に影響していることが多い。
+> CONTEXT: Map114/events/4/pages/0/8/Dialogue
+> CONTEXT: Map524/events/23/pages/0/8/Dialogue
+There are also particular skills that are based on charm, 
+such as "Two Puffs" and "Temptation" which are 
+used by high-ranking succubi. It tends to affect seduction.
+> END STRING
+
+> BEGIN STRING
+補足として、「魅力を下げる魔法」は夢世界では使用者が\\_
+殆ど存在しない。
+故に、相手の魅力を下げて受ける快感を減らすことは\\_
+難しい。
+> CONTEXT: Map524/events/23/pages/0/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+忍耐力は受ける快感を軽減する際に使われる能力である。
+どの攻撃スキルを受ける際にも影響する、
+夢世界では実質的な防御力となっている。
+> CONTEXT: Map114/events/4/pages/0/18/Dialogue
+> CONTEXT: Map524/events/23/pages/0/18/Dialogue
+Endurance is the ability used to reduce pleasure received.
+In the dream world, it is a substantial defensive power 
+that is effective against all attack skills.
+> END STRING
+
+> BEGIN STRING
+スキルなどに影響するような効果は無いが、忍耐力の\\_
+高さは非常に重要である。
+自身が戦闘不能になると敗北となってしまう「契約者」は、
+忍耐力を高めることを推奨する。
+> CONTEXT: Map114/events/4/pages/0/21/Dialogue
+> CONTEXT: Map524/events/23/pages/0/21/Dialogue
+Although it doesn't affect your own skills, high endurance 
+is extremely important. It is recommended that "contractors", 
+who would lose the battle if defeated, increase their endurance.
+> END STRING
+
+> BEGIN STRING
+「能力大全　第２版」と書かれた本がある。
+どの項について調べますか？
+> CONTEXT: Map114/events/3/pages/0/1/Dialogue
+> CONTEXT: Map524/events/24/pages/0/1/Dialogue
+There is a book called "Encyclopedia of Abilities 2"
+Which section would you like to investigate?
+> END STRING
+
+> BEGIN STRING
+精力は、力を使う時や、強引な行動を取る時に使われる\\_
+能力であり、
+主に攻撃に必要となる能力である。
+> CONTEXT: Map114/events/3/pages/0/5/Dialogue
+> CONTEXT: Map524/events/24/pages/0/5/Dialogue
+Energy is an ability used when using forceful actions, 
+and is primarily an ability used for attacks.
+> END STRING
+
+> BEGIN STRING
+インサート中の「スウィング」やシェルマッチ中の\\_
+「スクラッチ」等の、
+ホールド状態で行うものは、精力が高いほど快感が\\_
+増幅される。
+> CONTEXT: Map114/events/3/pages/0/8/Dialogue
+> CONTEXT: Map524/events/24/pages/0/8/Dialogue
+The more energy you have, the more pleasure 
+you give when using skills in holds, such as 
+"Swing" during Insert or "Scratch" during Shell Match.
+> END STRING
+
+> BEGIN STRING
+また、多くのレジストスキルは、
+精力と器用さが高いほど攻撃側は有利になる。
+> CONTEXT: Map114/events/3/pages/0/12/Dialogue
+> CONTEXT: Map114/events/3/pages/0/21/Dialogue
+> CONTEXT: Map524/events/24/pages/0/12/Dialogue
+> CONTEXT: Map524/events/24/pages/0/21/Dialogue
+Also, for many resist skills, high energy and dexterity 
+provides an advantage for the attacker.
+> END STRING
+
+> BEGIN STRING
+器用さは、精密な行動を取る時に使われる能力であり、
+主に攻撃に必要となる能力である。
+> CONTEXT: Map114/events/3/pages/0/16/Dialogue
+> CONTEXT: Map524/events/24/pages/0/16/Dialogue
+Dexterity is the ability used for performing precise actions.
+This ability is mainly used for attacks.
+> END STRING
+
+> BEGIN STRING
+キッス、バスト、ヒップ、クロッチなどのような
+ホールド中以外で行うものは、器用さが高いほど\\_
+快感が増幅される。
+> CONTEXT: Map114/events/3/pages/0/18/Dialogue
+> CONTEXT: Map524/events/24/pages/0/18/Dialogue
+The higher the dexterity, the more pleasure is given with
+skills like Kiss, Bust, Hip, Crotch, etc. 
+that are performed outside of holds. 
+> END STRING
+
+> BEGIN STRING
+素早さは、手早い行動を行う時に使われる能力であり、
+攻めにも守りにも必要となる能力である。
+> CONTEXT: Map114/events/3/pages/0/25/Dialogue
+> CONTEXT: Map524/events/24/pages/0/25/Dialogue
+Agility is the ability used for performing quick actions.
+This ability is used both offensively and defensively.
+> END STRING
+
+> BEGIN STRING
+戦闘時は全員の素早さの高い順から行動が行われる。
+行動順の把握は戦闘の流れを左右するため、素早さを\\_
+調整することも大事だ。
+他にも、素早さは逃走確率にも影響する。
+> CONTEXT: Map114/events/3/pages/0/27/Dialogue
+> CONTEXT: Map524/events/24/pages/0/27/Dialogue
+During battle, actions are taken in descending order of speed.
+Adjusting your speed allows you to control the flow of battle.
+In addition, speed also affects escape probability.
+> END STRING
+
+> BEGIN STRING
+また、多くのレジストスキルは、
+素早さが高いほど、防御側は有利になる。
+> CONTEXT: Map114/events/3/pages/0/31/Dialogue
+> CONTEXT: Map524/events/24/pages/0/31/Dialogue
+Also, for many resist skills, high agility
+provides an advantage for the defender.
+> END STRING
+
+> BEGIN STRING
+精神力は、集中が必要な時に使われる能力であり、
+主に守りに必要となる能力である。
+> CONTEXT: Map114/events/3/pages/0/35/Dialogue
+> CONTEXT: Map524/events/24/pages/0/35/Dialogue
+Spirit is an ability for when concentration is required, 
+and is primarily an ability needed for defense.
+> END STRING
+
+> BEGIN STRING
+精神力は高いほど、成否判定のある魔法の成功確率が\\_
+上昇する。
+他にもブレスの回復量も精神力が高いほど効果がある。
+> CONTEXT: Map114/events/3/pages/0/37/Dialogue
+> CONTEXT: Map524/events/24/pages/0/37/Dialogue
+The higher your spirit, the higher the chance of success 
+for spells that have a chance to fail. In addition, spirit
+increases the recovery from Breath.
+> END STRING
+
+> BEGIN STRING
+また、状態異常のなりにくさも精神力の高さが影響している。
+> CONTEXT: Map114/events/3/pages/0/40/Dialogue
+> CONTEXT: Map524/events/24/pages/0/40/Dialogue
+Resistance to status abnormalities is also influenced by spirit.
+> END STRING
+
+> BEGIN STRING
+「状態異常のススメ　その１　恍惚の章」と書かれた本がある。
+読みますか？
+> CONTEXT: Map114/events/5/pages/0/1/Dialogue
+> CONTEXT: Map524/events/25/pages/0/1/Dialogue
+> CONTEXT: Map524/events/25/pages/1/1/Dialogue
+There is a book titled "Status Abnormalities 1: Ecstasy".
+Do you want to read it?
+> END STRING
+
+> BEGIN STRING
+皆さんはじめまして。私、アンジュと申します。
+> CONTEXT: Map114/events/5/pages/0/5/Dialogue
+> CONTEXT: Map524/events/25/pages/0/5/Dialogue
+> CONTEXT: Map524/events/25/pages/1/5/Dialogue
+Hello everyone. My name is Anju.
+> END STRING
+
+> BEGIN STRING
+こういったものを書くのは初めてなんですけどね。
+あんまりちゃんとした事は書ける気がしないんですが、何卒。
+> CONTEXT: Map114/events/5/pages/0/6/Dialogue
+> CONTEXT: Map524/events/25/pages/0/6/Dialogue
+> CONTEXT: Map524/events/25/pages/1/6/Dialogue
+This is my first time writing something like this.
+I don't think I'm much of a writer, but I'll try.
+> END STRING
+
+> BEGIN STRING
+前置きはさておき。
+> CONTEXT: Map270/events/43/pages/0/10/Dialogue
+> CONTEXT: Map232/events/7/pages/0/10/Dialogue
+> CONTEXT: Map214/events/2/pages/0/10/Dialogue
+> CONTEXT: Map161/events/13/pages/0/11/Dialogue
+> CONTEXT: Map117/events/44/pages/0/9/Dialogue
+> CONTEXT: Map114/events/5/pages/0/8/Dialogue
+> CONTEXT: Map524/events/25/pages/0/8/Dialogue
+> CONTEXT: Map524/events/25/pages/1/8/Dialogue
+> CONTEXT: Map524/events/28/pages/0/11/Dialogue
+> CONTEXT: Map524/events/28/pages/1/11/Dialogue
+> CONTEXT: Map524/events/29/pages/0/10/Dialogue
+> CONTEXT: Map524/events/29/pages/1/10/Dialogue
+> CONTEXT: Map524/events/31/pages/0/10/Dialogue
+> CONTEXT: Map524/events/31/pages/1/10/Dialogue
+> CONTEXT: Map524/events/32/pages/0/10/Dialogue
+> CONTEXT: Map524/events/32/pages/1/10/Dialogue
+> CONTEXT: Map524/events/37/pages/0/10/Dialogue
+> CONTEXT: Map524/events/37/pages/1/10/Dialogue
+> CONTEXT: Map524/events/52/pages/0/10/Dialogue
+> CONTEXT: Map524/events/52/pages/1/10/Dialogue
+> CONTEXT: Map524/events/53/pages/0/13/Dialogue
+> CONTEXT: Map524/events/53/pages/1/13/Dialogue
+> CONTEXT: Map524/events/54/pages/0/12/Dialogue
+> CONTEXT: Map524/events/54/pages/1/12/Dialogue
+> CONTEXT: Map524/events/55/pages/0/11/Dialogue
+> CONTEXT: Map524/events/55/pages/1/11/Dialogue
+> CONTEXT: Map524/events/56/pages/0/13/Dialogue
+> CONTEXT: Map524/events/56/pages/1/13/Dialogue
+> CONTEXT: Map524/events/57/pages/0/14/Dialogue
+> CONTEXT: Map524/events/57/pages/1/13/Dialogue
+> CONTEXT: Map083/events/20/pages/1/10/Dialogue
+Setting aside the introduction...
+> END STRING
+
+> BEGIN STRING
+「恍惚」は見とれてしまい、動けなくなってしまう\\_
+状態異常ですね。
+> CONTEXT: Map114/events/5/pages/0/9/Dialogue
+> CONTEXT: Map524/events/25/pages/0/9/Dialogue
+> CONTEXT: Map524/events/25/pages/1/9/Dialogue
+"Ecstasy" is an abnormal state in which you become so 
+fascinated by what you see that you become unable to move.
+> END STRING
+
+> BEGIN STRING
+その効果は強力で、恍惚すると本当に何もできなくなります。
+レジストに対しても無力で、抵抗はできるにはできるのですが
+かなり厳しいものとなります。
+> CONTEXT: Map114/events/5/pages/0/11/Dialogue
+> CONTEXT: Map524/events/25/pages/0/11/Dialogue
+> CONTEXT: Map524/events/25/pages/1/11/Dialogue
+The effect is so powerful that when you are in ecstasy, 
+you are truly unable to do anything.
+It is extremely difficult to resist in this condition.
+> END STRING
+
+> BEGIN STRING
+ただ、新たな快感を少し受けるだけで簡単に解けて\\_
+しまいます。
+> CONTEXT: Map114/events/5/pages/0/14/Dialogue
+> CONTEXT: Map524/events/25/pages/0/14/Dialogue
+> CONTEXT: Map524/events/25/pages/1/14/Dialogue
+However, it can be easily cured 
+just by receiving a bit of pleasure.
+> END STRING
+
+> BEGIN STRING
+恍惚は夢魔に大きな胸を押し付けられたりすると\\_
+なりやすいみたいです。
+サキュバスさんのような方々が得意なのではないでしょうか。
+> CONTEXT: Map114/events/5/pages/0/16/Dialogue
+> CONTEXT: Map524/events/25/pages/0/16/Dialogue
+> CONTEXT: Map524/events/25/pages/1/16/Dialogue
+Ecstasy is more likely to occur when 
+big breasts are pressed against you.
+Succubi are good at it.
+> END STRING
+
+> BEGIN STRING
+確かに、あの胸は寝心地よさそうですものね。
+恍惚しちゃうのも納得です。
+> CONTEXT: Map114/events/5/pages/0/19/Dialogue
+> CONTEXT: Map524/events/25/pages/0/19/Dialogue
+> CONTEXT: Map524/events/25/pages/1/19/Dialogue
+Such breasts certainly look comfortable to sleep on.
+It's no wonder if that makes you ecstatic.
+> END STRING
+
+> BEGIN STRING
+複数相手がいる時に攻撃の手を減らすためや、
+こちらの強化や回復などするための時間稼ぎには有効です。
+> CONTEXT: Map114/events/5/pages/0/21/Dialogue
+> CONTEXT: Map524/events/25/pages/0/21/Dialogue
+> CONTEXT: Map524/events/25/pages/1/21/Dialogue
+This can help buy some time to strengthen and recover by reducing 
+the amount of attacks you take when fighting multiple opponents.
+> END STRING
+
+> BEGIN STRING
+「Sensual Stroke!」と書かれた本がある。
+読みますか？
+> CONTEXT: Map114/events/24/pages/0/1/Dialogue
+> CONTEXT: Map524/events/26/pages/0/1/Dialogue
+There's a book called "Sensual Stroke!"
+Do you want to read it?
+> END STRING
+
+> BEGIN STRING
+夢魔と相対していると、「Sensual Stroke!」と表示されること\\_
+がある。
+これは「官能的な一撃が与えられた」ことを表している。
+> CONTEXT: Map114/events/24/pages/0/5/Dialogue
+> CONTEXT: Map524/events/26/pages/0/5/Dialogue
+When facing a succubus, 
+the message "Sensual Stroke!" may appear.
+This means that a strong attack was delivered.
+> END STRING
+
+> BEGIN STRING
+Sensual Strokeになると与えられる快感が大きくなる他、
+追撃の発生率も上がる。
+攻めのチャンスとなるだろう。積極的に狙いに行くべし。
+> CONTEXT: Map114/events/24/pages/0/8/Dialogue
+> CONTEXT: Map524/events/26/pages/0/8/Dialogue
+Sensual Stroke not only increases the pleasure given, 
+but also increases the chance of follow-up attacks.
+This is an opportunity to go on the offensive.
+> END STRING
+
+> BEGIN STRING
+Sensual Strokeは攻撃側の器用さが高いほど、
+防御側の素早さが低いほど発生しやすくなる。
+また、「チェック」した相手にも発生しやすくなる。
+> CONTEXT: Map114/events/24/pages/0/11/Dialogue
+> CONTEXT: Map524/events/26/pages/0/11/Dialogue
+> CONTEXT: Map524/events/26/pages/0/14/Dialogue
+Sensual Stroke is more likely to occur the higher the dexterity 
+of the attacker and the lower the agility of the defender.
+It also tends to occur to people you have "checked".
+> END STRING
+
+> BEGIN STRING
+ただし、使用するスキルによって必要なステータスが\\_
+変わることもある。
+たとえば、使用部位が♂／♀／尻の場合は精力依存
+使用部位が胸の場合は魅力依存
+> CONTEXT: Map524/events/26/pages/0/17/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ただし、使用するスキルによって必要なステータスが\\_
+変わることもある。
+たとえば、使用部位が♂／♀／尻の場合は精力依存
+使用部位が胸の場合は魅力依存となる。
+> CONTEXT: Map524/events/26/pages/0/21/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+攻撃を受ける側の場合、\\_
+視覚・聴覚・嗅覚に訴えるスキルは精神力依存
+それ以外は忍耐力依存になる。
+> CONTEXT: Map524/events/26/pages/0/25/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【ひとこと豆知識】
+Sensual Strokeは略式表記として「SS」と書かれる事も\\_
+あるぞ！
+> CONTEXT: Map114/events/24/pages/0/14/Dialogue
+> CONTEXT: Map524/events/26/pages/0/28/Dialogue
+[One word of trivia]
+Sensual Stroke is abbreviated as "SS"!
+> END STRING
+
+> BEGIN STRING
+「ホールドでがっちり」と書かれた本がある。
+読みますか？
+> CONTEXT: Map114/events/25/pages/0/1/Dialogue
+> CONTEXT: Map524/events/27/pages/0/1/Dialogue
+There is a book that says "Firm Holds"
+Do you want to read it?
+> END STRING
+
+> BEGIN STRING
+インサート、シェルマッチのような「自分で相手を捕まえる」\\_
+スキルは、
+「ホールドスキル」と呼ばれている。
+> CONTEXT: Map114/events/25/pages/0/5/Dialogue
+> CONTEXT: Map524/events/27/pages/0/5/Dialogue
+Skills such as Insert and Shell Match that allow you to 
+restrain your opponent are called "hold skills."
+> END STRING
+
+> BEGIN STRING
+ホールド状態には有利不利があり、
+基本的にはホールドスキルを仕掛けた側が有利側となる。
+また、SSを出すと、SSを出した側に有利状態が傾く。
+> CONTEXT: Map114/events/25/pages/0/8/Dialogue
+> CONTEXT: Map524/events/27/pages/0/8/Dialogue
+Hold status has advantageous and disadvantageous sides, 
+and generally the side that uses the hold skill has the advantage.
+Also, delivering SS tilts the advantage for the side that did it.
+> END STRING
+
+> BEGIN STRING
+この有利状態には大きな効果は無いが、
+スキルの中には有利状態を条件とするスキルもある。
+MAXと書かれたものは、ホールドの有利Lvを３まで上げな\\_
+ければならない。
+> CONTEXT: Map114/events/25/pages/0/11/Dialogue
+> CONTEXT: Map524/events/27/pages/0/11/Dialogue
+This advantage doesn't have a big impact, 
+but some skills require an advantageous state as a condition.
+For those marked MAX, hold advantage level 3 is required.
+> END STRING
+
+> BEGIN STRING
+ちなみに、ホールド状態で名前が黄色のものは、有利状態\\_
+でのみ維持ができ、
+不利になると有利不利が逆転せず、そのまま解除される。
+> CONTEXT: Map114/events/25/pages/0/15/Dialogue
+> CONTEXT: Map524/events/27/pages/0/15/Dialogue
+Also, hold statuses with yellow names require advantageous
+status, and the hold will be cancelled if the advantage is lost,
+rather than the advantage switching sides.
+> END STRING
+
+> BEGIN STRING
+インサート、シェルマッチ以外のスキルは殆どこのタイプに\\_
+なる。
+リリースで解除する以外にも、他の味方でホールドを仕掛け\\_
+ても\\n解除ができることを覚えておこう。
+> CONTEXT: Map114/events/25/pages/0/18/Dialogue
+> CONTEXT: Map524/events/27/pages/0/18/Dialogue
+Most skills other than Insert and Shell Match are of this type.
+Remember that an alternative way to release such a hold 
+is setting up another hold with an ally.
+> END STRING
+
+> BEGIN STRING
+また、レジスト中にキャンセルキーを押すことで
+相手からのホールドを受け入れる、
+または自分のホールドを思いとどまることができる。
+> CONTEXT: Map114/events/25/pages/0/22/Dialogue
+> CONTEXT: Map524/events/27/pages/0/22/Dialogue
+Also, by pressing the cancel key while resisting, you can 
+accept a hold from your opponent or prevent your own hold.
+> END STRING
+
+> BEGIN STRING
+時間切れで失敗した時と受け入れた・思いとどまった際では
+夢魔の反応が違うこともあるようだ。
+> CONTEXT: Map114/events/25/pages/0/25/Dialogue
+> CONTEXT: Map524/events/27/pages/0/25/Dialogue
+The reaction of the succubus may be different 
+depending on if you fail due to running out of time 
+or if you accept or are dissuaded.
+> END STRING
+
+> BEGIN STRING
+「状態異常のススメ　その５　畏怖の章」と書かれた本がある。
+読みますか？
+> CONTEXT: Map161/events/13/pages/0/1/Dialogue
+> CONTEXT: Map524/events/28/pages/0/1/Dialogue
+> CONTEXT: Map524/events/28/pages/1/1/Dialogue
+There is a book called "Status Abnormalities 5: Fear"
+Do you want to read it?
+> END STRING
+
+> BEGIN STRING
+皆さんおそようございます。アンジュです。
+> CONTEXT: Map161/events/13/pages/0/5/Dialogue
+> CONTEXT: Map524/events/28/pages/0/5/Dialogue
+> CONTEXT: Map524/events/28/pages/1/5/Dialogue
+Good morning everyone. This is Ange.
+> END STRING
+
+> BEGIN STRING
+さぼって寝ていると前のサキュバスの子がお叱りに\\_
+きてしまいました。
+なんだかあんまりサキュバスらしくない子なんですよね。
+> CONTEXT: Map161/events/13/pages/0/6/Dialogue
+> CONTEXT: Map524/events/28/pages/0/6/Dialogue
+> CONTEXT: Map524/events/28/pages/1/6/Dialogue
+When I was slacking off and sleeping, 
+Succubus Girl from before came to scold me.
+She doesn't really look like a succubus.
+> END STRING
+
+> BEGIN STRING
+まだ魔女のおねーさんのがサキュバスっぽいです。\\_
+床上手ですし。
+> CONTEXT: Map161/events/13/pages/0/9/Dialogue
+> CONTEXT: Map524/events/28/pages/0/9/Dialogue
+> CONTEXT: Map524/events/28/pages/1/9/Dialogue
+Witch Girl still looks like a succubus. 
+Good in the bed besides.
+> END STRING
+
+> BEGIN STRING
+「畏怖」は不安に駆り立てられ、たまに怯んでしまう\\_
+状態異常です。
+> CONTEXT: Map161/events/13/pages/0/12/Dialogue
+> CONTEXT: Map524/events/28/pages/0/12/Dialogue
+> CONTEXT: Map524/events/28/pages/1/12/Dialogue
+"Fear" is an abnormal state in which a person is 
+driven by anxiety and occasionally falters.
+> END STRING
+
+> BEGIN STRING
+怯んでしまうと、そのターンの間は動くことができません。
+恍惚に比べると確実性はないものの、快感を受けても
+解除されることは無く、長期的に効果が望めます。
+> CONTEXT: Map161/events/13/pages/0/14/Dialogue
+> CONTEXT: Map524/events/28/pages/0/14/Dialogue
+> CONTEXT: Map524/events/28/pages/1/14/Dialogue
+If you falter, you can't move that turn. Although it triggers less 
+than ecstasy, it is not canceled even after receiving pleasure, 
+and can be expected to have long-term effects.
+> END STRING
+
+> BEGIN STRING
+恍惚同様、相手の手数を減らすのに有効ですが、
+畏怖中の相手には、ムードが高くても多く快感を与える\\_
+ことができません。
+> CONTEXT: Map161/events/13/pages/0/17/Dialogue
+> CONTEXT: Map524/events/28/pages/0/17/Dialogue
+> CONTEXT: Map524/events/28/pages/1/17/Dialogue
+Like ecstasy, it is effective in reducing the number of 
+opponents' attacks, but even if the mood is high, 
+a person with fear will not receive that much pleasure.
+> END STRING
+
+> BEGIN STRING
+ちなみに、畏怖は私ことナイトメアの得意技です。
+十八番です。悪夢ですからね。
+> CONTEXT: Map161/events/13/pages/0/20/Dialogue
+> CONTEXT: Map524/events/28/pages/0/20/Dialogue
+> CONTEXT: Map524/events/28/pages/1/20/Dialogue
+By the way, fear is my specialty as a Nightmare.
+It's my forte. That's how nightmare's are, right?
+> END STRING
+
+> BEGIN STRING
+私としても会った瞬間相手を怖がらせられるようになるのが\\_
+夢です。
+正気度を失いそうな。
+> CONTEXT: Map161/events/13/pages/0/22/Dialogue
+> CONTEXT: Map524/events/28/pages/0/22/Dialogue
+> CONTEXT: Map524/events/28/pages/1/22/Dialogue
+My dream is to be able to scare people the moment I meet them.
+See if they lose their minds.
+> END STRING
+
+> BEGIN STRING
+「状態異常のススメ　その６　麻痺の章」と書かれた本がある。
+読みますか？
+> CONTEXT: Map270/events/43/pages/0/1/Dialogue
+> CONTEXT: Map524/events/29/pages/0/1/Dialogue
+> CONTEXT: Map524/events/29/pages/1/1/Dialogue
+> CONTEXT: Map083/events/20/pages/1/1/Dialogue
+There is a book called "Status Abnormalities 6: Paralysis"
+Do you want to read it?
+> END STRING
+
+> BEGIN STRING
+どもども、アンジュです。
+> CONTEXT: Map270/events/43/pages/0/5/Dialogue
+> CONTEXT: Map524/events/29/pages/0/5/Dialogue
+> CONTEXT: Map524/events/29/pages/1/5/Dialogue
+> CONTEXT: Map083/events/20/pages/1/5/Dialogue
+Hey, this is Ange.
+> END STRING
+
+> BEGIN STRING
+魔女のおねーさんがちょっと大変そうな様子です。
+サキュバスの子もぴりぴりしてますし。どうしたもの\\_
+でしょうか。
+私には良い枕を紹介することしかできません。
+> CONTEXT: Map270/events/43/pages/0/6/Dialogue
+> CONTEXT: Map524/events/29/pages/0/6/Dialogue
+> CONTEXT: Map524/events/29/pages/1/6/Dialogue
+> CONTEXT: Map083/events/20/pages/1/6/Dialogue
+Witch Girl seems to be in a bit of trouble.
+Succubus Girl is also tense. What happened?
+I can only recommend good pillows.
+> END STRING
+
+> BEGIN STRING
+「麻痺」は体が痺れてしまって動きにくくなる状態異常です。
+> CONTEXT: Map270/events/43/pages/0/11/Dialogue
+> CONTEXT: Map524/events/29/pages/0/11/Dialogue
+> CONTEXT: Map524/events/29/pages/1/11/Dialogue
+> CONTEXT: Map083/events/20/pages/1/11/Dialogue
+"Paralysis" is an abnormal condition in which the 
+body becomes paralyzed and has difficulty moving.
+> END STRING
+
+> BEGIN STRING
+効果の一つとして、ターン中での行動順番が\\_
+非常に遅くなります。
+行動順の調整に有効な状態異常ですね。
+また、素早さの数値そのものも低くなります。
+> CONTEXT: Map524/events/29/pages/0/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+更に、麻痺状態の時はレジストに弱くなります。
+単純に矢印の数が上下するのではなく、
+最小数か最大数が変動するタイプですが。
+> CONTEXT: Map270/events/43/pages/0/15/Dialogue
+> CONTEXT: Map524/events/29/pages/0/16/Dialogue
+> CONTEXT: Map524/events/29/pages/1/15/Dialogue
+> CONTEXT: Map083/events/20/pages/1/15/Dialogue
+Furthermore, when you are paralyzed, resist will be harder.
+The number of arrows does not simply go up and down, 
+but the minimum and maximum amount changes.
+> END STRING
+
+> BEGIN STRING
+即時的に効果が現れるので、
+レジストを行う時やレジストに頼る相手に有効ですね。
+> CONTEXT: Map270/events/43/pages/0/18/Dialogue
+> CONTEXT: Map524/events/29/pages/0/19/Dialogue
+> CONTEXT: Map524/events/29/pages/1/18/Dialogue
+> CONTEXT: Map083/events/20/pages/1/18/Dialogue
+Since the effect is immediate, 
+it is effective when you want to resist, or against someone
+who relies on resist.
+> END STRING
+
+> BEGIN STRING
+そういえば麻痺の魔法って使い方次第でマッサージに\\_
+なるって本当ですかね。
+心地よい痺れが身体をほぐすとかなんとか。
+> CONTEXT: Map270/events/43/pages/0/20/Dialogue
+> CONTEXT: Map524/events/29/pages/0/21/Dialogue
+> CONTEXT: Map524/events/29/pages/1/20/Dialogue
+> CONTEXT: Map083/events/20/pages/1/20/Dialogue
+Come to think of it, is it true that numbing magic can be used 
+as a massage depending on how you use it?
+Somehow the pleasant numbness loosens up my body.
+> END STRING
+
+> BEGIN STRING
+今度魔女のおねーさんやサキュバスの子に\\_
+試してみようと思います。
+> CONTEXT: Map270/events/43/pages/0/23/Dialogue
+> CONTEXT: Map524/events/29/pages/0/24/Dialogue
+> CONTEXT: Map524/events/29/pages/1/23/Dialogue
+> CONTEXT: Map083/events/20/pages/1/23/Dialogue
+I think I'll try it on Witch Girl and Succubus Girl.
+> END STRING
+
+> BEGIN STRING
+効果の一つとして、ターン中での行動順番が\\_
+非常に遅くなります。
+行動順の調整に有効な状態異常ですね。
+> CONTEXT: Map270/events/43/pages/0/12/Dialogue
+> CONTEXT: Map524/events/29/pages/1/12/Dialogue
+> CONTEXT: Map083/events/20/pages/1/12/Dialogue
+One of the effects is that your turn order is delayed a lot. 
+It's a status ailment that is useful for 
+adjusting the order of actions.
+> END STRING
+
+> BEGIN STRING
+「素質いろいろ」と書かれた本がある。読みますか？
+> CONTEXT: Map243/events/6/pages/0/1/Dialogue
+> CONTEXT: Map524/events/30/pages/0/1/Dialogue
+> CONTEXT: Map524/events/30/pages/1/1/Dialogue
+There is a book that says "Various Talents"
+Do you want to read it?
+> END STRING
+
+> BEGIN STRING
+【ブロッキング】
+自分がターン中まだ行動していない時、受ける快感が下がる。
+【洞察力】
+攻めた相手をチェックした状態にする。
+> CONTEXT: Map243/events/6/pages/0/4/Dialogue
+> CONTEXT: Map524/events/30/pages/0/4/Dialogue
+> CONTEXT: Map524/events/30/pages/1/4/Dialogue
+【Blocking】
+Reduced pleasure received until taking action each turn.
+【Insight】
+Puts the attacked opponent in a checked state.
+> END STRING
+
+> BEGIN STRING
+【超暴走】
+暴走状態の時、忍耐力と精神力が更に下がり精力が\\_
+大幅に上がる。\\n【ロマンチスト】
+ムードが高いほど、与える快感がより大きくなる。
+> CONTEXT: Map243/events/6/pages/0/8/Dialogue
+> CONTEXT: Map524/events/30/pages/0/8/Dialogue
+> CONTEXT: Map524/events/30/pages/1/8/Dialogue
+【Super berserk】
+In berserk, endurance/spirit decrease more, energy increases a lot.
+【Romanticist】
+The higher the mood, the greater the pleasure you give.
+> END STRING
+
+> BEGIN STRING
+【厚着】
+着衣状態の時、素早さが下がるが忍耐力が上がる。
+【最高の姿】
+最大ランク時のステータスになる。
+> CONTEXT: Map243/events/6/pages/0/12/Dialogue
+> CONTEXT: Map524/events/30/pages/0/12/Dialogue
+> CONTEXT: Map524/events/30/pages/1/12/Dialogue
+【Thick clothes】
+Increased endurance and reduced speed when clothed.
+【Ideal form】
+Status matches maximum rank.
+> END STRING
+
+> BEGIN STRING
+「状態異常のススメ　その２　欲情の章」と書かれた本がある。
+読みますか？
+> CONTEXT: Map214/events/2/pages/0/1/Dialogue
+> CONTEXT: Map524/events/31/pages/0/1/Dialogue
+> CONTEXT: Map524/events/31/pages/1/1/Dialogue
+There is a book called 'Status Abnormalities 2: Lust'
+Do you want to read it?
+> END STRING
+
+> BEGIN STRING
+皆さんこんばんは。アンジュと申します。
+> CONTEXT: Map214/events/2/pages/0/5/Dialogue
+> CONTEXT: Map524/events/31/pages/0/5/Dialogue
+> CONTEXT: Map524/events/31/pages/1/5/Dialogue
+Good evening everyone. My name is Ange.
+> END STRING
+
+> BEGIN STRING
+これを書くことになったのは、魔女のおねーさんに
+「他の子たちよりも文章が書けるから」と言われたから\\_
+なんです。
+私、結構適当なこと書いてる自覚があるんですけどね。
+> CONTEXT: Map214/events/2/pages/0/6/Dialogue
+> CONTEXT: Map524/events/31/pages/0/6/Dialogue
+> CONTEXT: Map524/events/31/pages/1/6/Dialogue
+I wrote this because Witch Girl said 
+'You can write better than the other kids.' 
+I can be quite sloppy at it, however.
+> END STRING
+
+> BEGIN STRING
+「欲情」は攻撃を受けた時に追撃されやすくなる\\_
+状態異常です。
+効果は見えにくいのですが、シンプルで分かりやすいですね。
+> CONTEXT: Map214/events/2/pages/0/11/Dialogue
+> CONTEXT: Map524/events/31/pages/0/11/Dialogue
+> CONTEXT: Map524/events/31/pages/1/11/Dialogue
+"Lust" is a status abnormality that makes you 
+more likely to receive follow-up attacks. The effect is 
+hard to see, but it's simple and easy to understand.
+> END STRING
+
+> BEGIN STRING
+追撃で与える快感は１発目よりも少し小さいのですが、
+それでも連続攻撃になるのは強力です。
+> CONTEXT: Map214/events/2/pages/0/14/Dialogue
+> CONTEXT: Map524/events/31/pages/0/14/Dialogue
+> CONTEXT: Map524/events/31/pages/1/14/Dialogue
+The pleasure given by the follow-up attack is 
+a little less than the first hit, 
+but it is still powerful as a continuous attack.
+> END STRING
+
+> BEGIN STRING
+追撃を利用することによって強力になるものもあります。
+攻撃スキルに追加効果があるようなものは、\\_
+追撃で更にチャンスができますね。
+> CONTEXT: Map214/events/2/pages/0/16/Dialogue
+> CONTEXT: Map524/events/31/pages/0/16/Dialogue
+> CONTEXT: Map524/events/31/pages/1/16/Dialogue
+Depending on the circumstances, it can be very strong.
+If your attack skills have additional effects, 
+you'll have more chances to apply them with follow-up attacks.
+> END STRING
+
+> BEGIN STRING
+欲情はお顔にアソコを擦り付けられた時にたまに\\_
+なるようです。
+こういうのは好色な夢魔の方々が得意みたいですね。
+> CONTEXT: Map214/events/2/pages/0/19/Dialogue
+> CONTEXT: Map524/events/31/pages/0/19/Dialogue
+> CONTEXT: Map524/events/31/pages/1/19/Dialogue
+Lust seems to come from time to time from
+having vagina against your face.
+Lewd succubi are good at this kind of thing.
+> END STRING
+
+> BEGIN STRING
+私は疲れるのであんまりですが。
+> CONTEXT: Map214/events/2/pages/0/22/Dialogue
+> CONTEXT: Map524/events/31/pages/0/22/Dialogue
+> CONTEXT: Map524/events/31/pages/1/22/Dialogue
+I don't like it too much because I get tired.
+> END STRING
+
+> BEGIN STRING
+そういえば、力を得る代わりにずっと欲情状態になる\\_
+装備品があるそうです。
+付ける方は相当物好きと見えますね。
+> CONTEXT: Map214/events/2/pages/0/23/Dialogue
+> CONTEXT: Map524/events/31/pages/0/23/Dialogue
+> CONTEXT: Map524/events/31/pages/1/23/Dialogue
+By the way, there is equipment that makes you 
+stay in a state of lust instead of gaining power.
+You would really have to be into it to wear that.
+> END STRING
+
+> BEGIN STRING
+追記.
+体を開発されている場合は追撃される確率が\\_
+更に上がるそうです。
+開発された部位が疼いてしまうのでしょうか。
+> CONTEXT: Map524/events/31/pages/0/26/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+PS.
+体を開発されている場合は追撃される確率が\\_
+更に上がるそうです。
+体が疼いてしまうのでしょうか。
+> CONTEXT: Map524/events/31/pages/1/26/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+「状態異常のススメ　その３　暴走の章」と書かれた本がある。
+読みますか？
+> CONTEXT: Map232/events/7/pages/0/1/Dialogue
+> CONTEXT: Map524/events/32/pages/0/1/Dialogue
+> CONTEXT: Map524/events/32/pages/1/1/Dialogue
+There is a book called 'Status Abnormalities 3: Berserk'
+Do you want to read it?
+> END STRING
+
+> BEGIN STRING
+皆さんおはようございます。アンジュと申します。
+> CONTEXT: Map232/events/7/pages/0/5/Dialogue
+> CONTEXT: Map524/events/32/pages/0/5/Dialogue
+> CONTEXT: Map524/events/32/pages/1/5/Dialogue
+> CONTEXT: Map524/events/53/pages/0/6/Dialogue
+> CONTEXT: Map524/events/53/pages/1/6/Dialogue
+> CONTEXT: Map524/events/56/pages/1/6/Dialogue
+> CONTEXT: Map524/events/57/pages/1/6/Dialogue
+Good morning, ladies and gentlemen. My name is Ange.
+> END STRING
+
+> BEGIN STRING
+この本は魔女のおねーさんが推敲してくれてるそうなので、
+ある程度丸投げして書いてます。
+またおねーさん眉間にしわ寄ってましたね。\\_
+誰のせいでしょうか。
+> CONTEXT: Map232/events/7/pages/0/6/Dialogue
+> CONTEXT: Map524/events/32/pages/0/6/Dialogue
+> CONTEXT: Map524/events/32/pages/1/6/Dialogue
+Witch Girl asked to revise this book, 
+so I delegated part of the writing to her.
+There was a wrinkle between her eyebrows again. Who is to blame?
+> END STRING
+
+> BEGIN STRING
+「暴走」はしばらくの間、積極的な行動ばかりするようになる\\_
+状態異常です。
+魔法や補助スキルなどは一切使えず、また夢魔の契約者の
+指示を受けることもできません。
+> CONTEXT: Map232/events/7/pages/0/11/Dialogue
+> CONTEXT: Map524/events/32/pages/0/11/Dialogue
+> CONTEXT: Map524/events/32/pages/1/11/Dialogue
+"Berserk" is a status abnormality that forces you to act 
+aggressively. You can't use any magic or support skills, 
+and you cannot receive instructions from the contractor.
+> END STRING
+
+> BEGIN STRING
+相手の行動を大きく制限することができる状態異常ですね。
+ただ、特定の素質を持っている相手には、
+逆に不利になってしまうこともあるようです。
+> CONTEXT: Map524/events/32/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/188/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+暴走中はどんな攻撃も「器用さ」ではなく「精力」が\\_
+影響するようになります。
+暴走状態の夢魔が与える快感は普段より大きくなっている\\_
+ので、\\n押し切られるのに注意ですね。
+> CONTEXT: Map232/events/7/pages/0/18/Dialogue
+> CONTEXT: Map524/events/32/pages/0/18/Dialogue
+> CONTEXT: Map524/events/32/pages/1/18/Dialogue
+While berserked, attacks are affected by energy 
+instead of dexterity. It also increases given pleasure, 
+so be careful not to let it overwhelm you.
+> END STRING
+
+> BEGIN STRING
+魔法を使えなくする性質上、魔法に頼る夢魔には有効です。
+暴走しても相手を押し切るほどの能力が無いことが多い\\_
+ですからね。
+私も相当困ります。
+> CONTEXT: Map232/events/7/pages/0/22/Dialogue
+> CONTEXT: Map524/events/32/pages/0/22/Dialogue
+> CONTEXT: Map524/events/32/pages/1/22/Dialogue
+Since it prevents using magic, it is effective against succubi 
+who rely on it. Despite going berserk, they won't have the 
+ability to overwhelm their opponents. It's difficult for me too.
+> END STRING
+
+> BEGIN STRING
+というか暴走って、治ったあとが怖いんですよ。
+> CONTEXT: Map232/events/7/pages/0/26/Dialogue
+> CONTEXT: Map524/events/32/pages/0/26/Dialogue
+> CONTEXT: Map524/events/32/pages/1/26/Dialogue
+Or rather, I'm scared of what would come after,
+if I went berserk and then recover.
+> END STRING
+
+> BEGIN STRING
+恥ずかしくなりますから。
+> CONTEXT: Map232/events/7/pages/0/27/Dialogue
+> CONTEXT: Map524/events/32/pages/0/27/Dialogue
+> CONTEXT: Map524/events/32/pages/1/27/Dialogue
+It would be embarrassing.
+> END STRING
+
+> BEGIN STRING
+相手の行動を大きく制限することができる状態異常ですね。
+ただ、新たな快感を少しでも受けると、たまに解けてしまう\\_
+ようです。
+> CONTEXT: Map232/events/7/pages/0/15/Dialogue
+> CONTEXT: Map524/events/32/pages/1/15/Dialogue
+It can greatly restrict the opponent's actions.
+However, receiving even a small amount of pleasure
+in this state can cure the ailment.
+> END STRING
+
+> BEGIN STRING
+"盗賊の男"
+> CONTEXT: Map524/events/33/pages/0/0/InlineScript/1:22
+"Thief Man"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]素早さってのは、\\_
+先に行動したり逃げたりするのに必要ってのもそうだが、
+素早さが高いほど、相手から捕まえられにくくなるんだぜ。
+> CONTEXT: Map524/events/33/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Speed is not only necessary for acting first or escaping, 
+but the higher your speed, the harder it is for your opponent 
+to catch you.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]相手が手足を縛ってくるのが辛い、なんて時は
+素早さを上げる魔法なんかで対策ができるのさ。
+> CONTEXT: Map524/events/33/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+If you're having trouble getting arms and legs bound, 
+you can counter it with magic that increases your speed.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]逆に、相手を捕まえたいって時は、
+相手の素早さを下げるってのも有効だな。
+> CONTEXT: Map524/events/33/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+On the other hand, if you want to catch your opponent,
+lowering their speed is effective.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]しかしまぁ、あんまり「早い」ってのは
+女の子には嫌われちまうなぁ･･･。
+> CONTEXT: Map524/events/33/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+But, girls might not like you if you're too "early"...
+> END STRING
+
+> BEGIN STRING
+「状態異常のススメ　その７　散漫の章」と書かれた本がある。
+読みますか？
+> CONTEXT: Map242/events/5/pages/0/1/Dialogue
+> CONTEXT: Map524/events/36/pages/0/1/Dialogue
+> CONTEXT: Map524/events/36/pages/1/1/Dialogue
+There is a book called 'Status Abnormalities 7: Distraction'
+Do you want to read it?
+> END STRING
+
+> BEGIN STRING
+ナイトメアのアンジュです。
+> CONTEXT: Map242/events/5/pages/0/5/Dialogue
+> CONTEXT: Map524/events/36/pages/0/5/Dialogue
+> CONTEXT: Map524/events/36/pages/1/5/Dialogue
+This is Nightmare Ange.
+> END STRING
+
+> BEGIN STRING
+今回は前置きは無しで、あとがきで書きます。
+> CONTEXT: Map242/events/5/pages/0/6/Dialogue
+> CONTEXT: Map524/events/36/pages/0/6/Dialogue
+> CONTEXT: Map524/events/36/pages/1/6/Dialogue
+No introduction this time, I will write in afterword.
+> END STRING
+
+> BEGIN STRING
+「散漫」は頭が回らなくなってしまう状態異常です。
+大きい効果としては「魔法が使えなくなる」ことですね。
+> CONTEXT: Map242/events/5/pages/0/7/Dialogue
+> CONTEXT: Map524/events/36/pages/0/7/Dialogue
+> CONTEXT: Map524/events/36/pages/1/7/Dialogue
+"Distraction" is an abnormal state where you can't think clearly.
+The big effect is that you won't be able to use magic.
+> END STRING
+
+> BEGIN STRING
+同じく魔法に頼る夢魔を無力化できる「暴走」よりも範囲は\\_
+狭いものの、
+散漫は相手を強化することや快感を受けると治ることもなく、
+使いやすさで勝ります。
+> CONTEXT: Map242/events/5/pages/0/9/Dialogue
+> CONTEXT: Map524/events/36/pages/0/9/Dialogue
+> CONTEXT: Map524/events/36/pages/1/9/Dialogue
+Although its scope is narrower than "Berserk", which can also 
+prevent magic, "Distraction" is easier, as it does not 
+strengthen the opponent or heal when it receives pleasure.
+> END STRING
+
+> BEGIN STRING
+他にも、散漫状態の時はレジストが単純に難しくなります。
+レジストに頼る相手にも効果があり、有効な相手は多いです。
+> CONTEXT: Map242/events/5/pages/0/13/Dialogue
+> CONTEXT: Map524/events/36/pages/0/13/Dialogue
+> CONTEXT: Map524/events/36/pages/1/13/Dialogue
+Other than that, it's harder to resist when you're distracted.
+It is also effective for people who rely on resist, 
+and there are many people for whom it is effective.
+> END STRING
+
+> BEGIN STRING
+また、精神力の数値も低くなります。
+他の状態異常にもかけやすくなりますね。
+> CONTEXT: Map524/events/36/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/283/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+散漫状態は私にとってはある意味身近ですね。
+起きてしばらくぼーっとしてる時なんかは、
+まさに散漫状態と言っていいでしょう。全然頭が回りません。
+> CONTEXT: Map242/events/5/pages/0/15/Dialogue
+> CONTEXT: Map524/events/36/pages/0/17/Dialogue
+> CONTEXT: Map524/events/36/pages/1/15/Dialogue
+In a sense, the state of distraction is familiar to me.
+When doze off and wake up, you can say that you are 
+in a distracted state. You don't function well at all.
+> END STRING
+
+> BEGIN STRING
+あとがき
+> CONTEXT: Map242/events/5/pages/0/18/Dialogue
+> CONTEXT: Map524/events/36/pages/0/20/Dialogue
+> CONTEXT: Map524/events/36/pages/1/18/Dialogue
+Afterword
+> END STRING
+
+> BEGIN STRING
+この章で「状態異常のススメ」シリーズは完結です。
+他にも細かい状態異常もあるにはあるんですけどね。
+大きなものは紹介しきりましたから。
+> CONTEXT: Map242/events/5/pages/0/19/Dialogue
+> CONTEXT: Map524/events/36/pages/0/21/Dialogue
+> CONTEXT: Map524/events/36/pages/1/19/Dialogue
+This chapter concludes the "Status Abnormalities" series.
+There are other minor abnormalities as well.
+I have already introduced the big ones.
+> END STRING
+
+> BEGIN STRING
+「状態異常のススメ」シリーズ、ご愛読ありがとう\\_
+ございました。
+> CONTEXT: Map242/events/5/pages/0/22/Dialogue
+> CONTEXT: Map524/events/36/pages/0/24/Dialogue
+> CONTEXT: Map524/events/36/pages/1/22/Dialogue
+Thank you for reading the "Status abnormalities" series.
+> END STRING
+
+> BEGIN STRING
+意外とこれを書いてる日々はなんというか充実して\\_
+楽しかったものです。
+魔女のおねーさんや、原稿を取りに来るサキュバスの子に
+感謝しなければいけません。
+> CONTEXT: Map242/events/5/pages/0/24/Dialogue
+> CONTEXT: Map524/events/36/pages/0/26/Dialogue
+> CONTEXT: Map524/events/36/pages/1/24/Dialogue
+Surprisingly, writing this has been both fulfilling and fun.
+I have to thank Witch Girl and the 
+Succubus Girl who came to retrieve the manuscript.
+> END STRING
+
+> BEGIN STRING
+今更ながら、私もせめてもの恩返しに\\_
+色々と動こうと思います。
+> CONTEXT: Map242/events/5/pages/0/28/Dialogue
+> CONTEXT: Map524/events/36/pages/0/30/Dialogue
+> CONTEXT: Map524/events/36/pages/1/28/Dialogue
+Even though it's late, I'm thinking of doing 
+something to at least return the favor.
+> END STRING
+
+> BEGIN STRING
+ではまた、どこかでお会いしましょう。
+
+アンジュ
+> CONTEXT: Map242/events/5/pages/0/30/Dialogue
+> CONTEXT: Map524/events/36/pages/0/32/Dialogue
+> CONTEXT: Map524/events/36/pages/1/30/Dialogue
+Let's meet again somewhere.
+
+Ange
+> END STRING
+
+> BEGIN STRING
+「状態異常のススメ　その４　虚脱の章」と書かれた本がある。
+読みますか？
+> CONTEXT: Map117/events/44/pages/0/0/Dialogue
+> CONTEXT: Map524/events/37/pages/0/1/Dialogue
+> CONTEXT: Map524/events/37/pages/1/1/Dialogue
+There is a book called "Status Abnormalities 4: Lethargy"
+Do you want to read it?
+> END STRING
+
+> BEGIN STRING
+皆さんこんにちは。アンジュです。
+> CONTEXT: Map117/events/44/pages/0/4/Dialogue
+> CONTEXT: Map524/events/37/pages/0/5/Dialogue
+> CONTEXT: Map524/events/37/pages/1/5/Dialogue
+Hello everyone. This is Ange.
+> END STRING
+
+> BEGIN STRING
+魔女のおねーさんが変わったサキュバスの子を拾った\\_
+そうです。
+しっかりした感じで、私とは正反対な子みたいです。
+仲良くできればいいのですが。
+> CONTEXT: Map117/events/44/pages/0/5/Dialogue
+> CONTEXT: Map524/events/37/pages/0/6/Dialogue
+> CONTEXT: Map524/events/37/pages/1/6/Dialogue
+Witch Girl seens to have picked up a strange succubus girl.
+She seems to have a firm personality, the complete opposite of me.
+I hope we can get along.
+> END STRING
+
+> BEGIN STRING
+「虚脱」は身体を動かすのが億劫になってしまう\\_
+状態異常です。
+> CONTEXT: Map117/events/44/pages/0/10/Dialogue
+> CONTEXT: Map524/events/37/pages/0/11/Dialogue
+> CONTEXT: Map524/events/37/pages/1/11/Dialogue
+"Lethargy" is an abnormal state in which a person becomes 
+unable to move his or her body.
+> END STRING
+
+> BEGIN STRING
+行動するために必要なＶＰが増えてしまいます。
+ＶＰが増えないのは動かないことだけです。
+実質的に毒のような効果を持ちますね。
+> CONTEXT: Map117/events/44/pages/0/12/Dialogue
+> CONTEXT: Map524/events/37/pages/0/13/Dialogue
+> CONTEXT: Map524/events/37/pages/1/13/Dialogue
+The VP required to take action will increase.
+The only action that won't consume VP is not moving.
+It's a seriously harmful effect.
+> END STRING
+
+> BEGIN STRING
+目に見えた効果は小さいのですが、
+絶頂させた後に復帰させにくくできますし、
+相手のＶＰがもうほとんど無い状態でしたら\\_
+もう動くことはできません。
+> CONTEXT: Map117/events/44/pages/0/15/Dialogue
+> CONTEXT: Map524/events/37/pages/0/16/Dialogue
+> CONTEXT: Map524/events/37/pages/1/16/Dialogue
+The noticable effect is small, but it makes it difficult 
+for the opponent to come back after climaxing, and if 
+the opponent has almost no VP, they can't move anymore.
+> END STRING
+
+> BEGIN STRING
+しぶとい相手や忍耐力の高い相手に有効な状態異常です。
+ＶＰがあるうちは効果があまりあるように見えないのが弱点\\_
+ですが。
+> CONTEXT: Map117/events/44/pages/0/19/Dialogue
+> CONTEXT: Map524/events/37/pages/0/20/Dialogue
+> CONTEXT: Map524/events/37/pages/1/20/Dialogue
+This status is effective against stubborn or patient opponents.
+The weak point is that it doesn't help much while the opponent
+still has plenty of VP.
+> END STRING
+
+> BEGIN STRING
+さらにはSSが出た時にホールドレベルが変化しなくなる\\_
+効果もあります。
+チャンスが来てもだらけてしまうわけですね。
+> CONTEXT: Map524/events/37/pages/0/23/Dialogue < UNTRANSLATED
+> CONTEXT: Map158/events/23/pages/0/222/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+私は虚脱状態になるとそうですね。
+> CONTEXT: Map117/events/44/pages/0/22/Dialogue
+> CONTEXT: Map524/events/37/pages/0/26/Dialogue
+> CONTEXT: Map524/events/37/pages/1/23/Dialogue
+When it comes to lethargy, for me...
+> END STRING
+
+> BEGIN STRING
+もっとだらけます。
+> CONTEXT: Map117/events/44/pages/0/23/Dialogue
+> CONTEXT: Map524/events/37/pages/0/27/Dialogue
+> CONTEXT: Map524/events/37/pages/1/24/Dialogue
+I slack off more.
+> END STRING
+
+> BEGIN STRING
+追記.
+虚脱していると眠りにかかりやすくなるようです。
+おかげで早眠り新記録を達成しました。
+> CONTEXT: Map524/events/37/pages/0/28/Dialogue
+P.S.
+It seems that it's easier to fall asleep when you're exhausted.
+Thanks to that, I've set a new record for falling asleep early.
+> END STRING
+
+> BEGIN STRING
+PS.
+虚脱していると眠りにかかりやすくなるようです。
+おかげで早眠り新記録を達成しました。
+> CONTEXT: Map524/events/37/pages/1/25/Dialogue
+PS.
+It seems that it's easier to fall asleep when you're exhausted.
+Thanks to that, I set a new record for falling asleep early.
+> END STRING
+
+> BEGIN STRING
+"金髪の子"
+> CONTEXT: Map524/events/38/pages/0/0/InlineScript/1:22
+"Blonde Girl"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+わわっ……えっと、リクエストですか？
+> CONTEXT: Map524/events/38/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Wah...um, you have a request?
+> END STRING
+
+> BEGIN STRING
+レンディカ
+> CONTEXT: Map524/events/38/pages/0/3/Choice/0
+> CONTEXT: Map524/events/38/pages/0/3/Choice/0
+Rendica
+> END STRING
+
+> BEGIN STRING
+夢への道
+> CONTEXT: Map524/events/38/pages/0/3/Choice/1
+> CONTEXT: Map524/events/38/pages/0/3/Choice/1
+Road to Dreams
+> END STRING
+
+> BEGIN STRING
+バトル
+> CONTEXT: Map524/events/38/pages/0/14/Choice/0
+> CONTEXT: Map524/events/38/pages/0/14/Choice/0
+Battle
+> END STRING
+
+> BEGIN STRING
+空腹度のエラーを修正します。
+> CONTEXT: Map524/events/43/pages/0/0/Dialogue
+Fix hunger error.
+> END STRING
+
+> BEGIN STRING
+"奴隷商人"
+> CONTEXT: Map524/events/49/pages/0/4/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/0/30/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/0/63/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/1/4/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/1/32/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/1/65/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/2/4/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/2/38/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/2/71/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/3/4/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/3/36/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/4/4/InlineScript/1:22
+> CONTEXT: Map524/events/49/pages/4/42/InlineScript/1:22
+"Slave Trader"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+はぁい、そこの人ぉ。
+奴隷の子とか欲しくない？
+いまなら500Lpsよ
+> CONTEXT: Map524/events/49/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+Hey, you there.
+Do you want a slave girl?
+Right now it's 500Lps
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あらぁ。お金が足りないみたいね。
+> CONTEXT: Map524/events/49/pages/0/12/Dialogue
+> CONTEXT: Map524/events/49/pages/1/14/Dialogue
+> CONTEXT: Map524/events/49/pages/2/20/Dialogue
+> CONTEXT: Map524/events/49/pages/3/18/Dialogue
+> CONTEXT: Map524/events/49/pages/4/24/Dialogue
+\\name[\\v[2]]\\_
+Oh no. Looks like you don't have enough money.
+> END STRING
+
+> BEGIN STRING
+奴隷を買いますか？
+> CONTEXT: Map524/events/49/pages/0/17/Dialogue
+> CONTEXT: Map524/events/49/pages/1/19/Dialogue
+> CONTEXT: Map524/events/49/pages/2/25/Dialogue
+> CONTEXT: Map524/events/49/pages/3/23/Dialogue
+> CONTEXT: Map524/events/49/pages/4/29/Dialogue
+Buy a slave?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あらぁ。どうやらホームがいっぱいみたいね。
+また後で来てね。
+> CONTEXT: Map524/events/49/pages/0/22/Dialogue
+> CONTEXT: Map524/events/49/pages/1/24/Dialogue
+> CONTEXT: Map524/events/49/pages/2/30/Dialogue
+> CONTEXT: Map524/events/49/pages/3/28/Dialogue
+> CONTEXT: Map524/events/49/pages/4/34/Dialogue
+\\name[\\v[2]]\\_
+Oh. Looks like your Home is full.
+Come back later.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+契約成立ね
+> CONTEXT: Map524/events/49/pages/0/31/Dialogue
+> CONTEXT: Map524/events/49/pages/1/33/Dialogue
+> CONTEXT: Map524/events/49/pages/2/39/Dialogue
+> CONTEXT: Map524/events/49/pages/3/37/Dialogue
+> CONTEXT: Map524/events/49/pages/4/43/Dialogue
+\\name[\\v[2]]\\_
+The deal is done.
+> END STRING
+
+> BEGIN STRING
+スレイヴと契約を交わした！
+> CONTEXT: Map524/events/49/pages/0/34/Dialogue
+> CONTEXT: Map524/events/49/pages/1/36/Dialogue
+> CONTEXT: Map524/events/49/pages/2/42/Dialogue
+> CONTEXT: Map524/events/49/pages/3/40/Dialogue
+> CONTEXT: Map524/events/49/pages/4/46/Dialogue
+I made a contract with Slave!
+> END STRING
+
+> BEGIN STRING
+スレイヴをホームに迎え入れた！
+> CONTEXT: Map524/events/49/pages/0/45/Dialogue
+> CONTEXT: Map524/events/49/pages/0/56/Dialogue
+> CONTEXT: Map524/events/49/pages/1/47/Dialogue
+> CONTEXT: Map524/events/49/pages/1/58/Dialogue
+> CONTEXT: Map524/events/49/pages/2/53/Dialogue
+> CONTEXT: Map524/events/49/pages/2/64/Dialogue
+> CONTEXT: Map524/events/49/pages/3/51/Dialogue
+> CONTEXT: Map524/events/49/pages/3/62/Dialogue
+> CONTEXT: Map524/events/49/pages/4/57/Dialogue
+> CONTEXT: Map524/events/49/pages/4/68/Dialogue
+Welcomed Slave into your Home!
+> END STRING
+
+> BEGIN STRING
+スレイヴがパーティに加わった！
+> CONTEXT: Map524/events/49/pages/0/52/Dialogue
+> CONTEXT: Map524/events/49/pages/1/54/Dialogue
+> CONTEXT: Map524/events/49/pages/2/60/Dialogue
+> CONTEXT: Map524/events/49/pages/3/58/Dialogue
+> CONTEXT: Map524/events/49/pages/4/64/Dialogue
+Slave has joined the party!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+しばらくしたら新しい子を連れてくるから
+ときどき顔を出してね
+> CONTEXT: Map524/events/49/pages/0/64/Dialogue
+> CONTEXT: Map524/events/49/pages/1/66/Dialogue
+> CONTEXT: Map524/events/49/pages/2/72/Dialogue
+\\name[\\v[2]]\\_
+I'll bring a new one soon,
+so drop by from time to time.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら、残念ね。
+気が向いたらまた来てね。
+> CONTEXT: Map524/events/49/pages/0/69/Dialogue
+> CONTEXT: Map524/events/49/pages/1/71/Dialogue
+> CONTEXT: Map524/events/49/pages/2/77/Dialogue
+> CONTEXT: Map524/events/49/pages/3/72/Dialogue
+> CONTEXT: Map524/events/49/pages/4/77/Dialogue
+\\name[\\v[2]]\\_
+Oh, that's too bad.
+Come again when you feel like it.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ごめんなさい。
+まだ用意が出来てないの。
+> CONTEXT: Map524/events/49/pages/0/76/Dialogue
+> CONTEXT: Map524/events/49/pages/1/78/Dialogue
+> CONTEXT: Map524/events/49/pages/2/84/Dialogue
+> CONTEXT: Map524/events/49/pages/3/79/Dialogue
+\\name[\\v[2]]\\_
+Sorry.
+I'm not ready yet.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら、いらっしゃい。
+また来てくれたのね。
+> CONTEXT: Map524/events/49/pages/1/6/Dialogue
+\\name[\\v[2]]\\_
+Oh, welcome.
+You've come again.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今回は前回と性格が違う子を連れてきたわ。
+値段はそうねぇ…1000Lpsでどうかしら？
+> CONTEXT: Map524/events/49/pages/1/9/Dialogue
+\\name[\\v[2]]\\_
+This time I brought a character with a different personality 
+from last time. As for the price, I wonder... 
+how about 1000Lps?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら、いらっしゃい。
+あなたも好きねぇ。
+> CONTEXT: Map524/events/49/pages/2/6/Dialogue
+\\name[\\v[2]]\\_
+Oh, welcome.
+I like you too.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+いつも来てくれるあなたには
+少し変わった子を紹介してあげるわ。
+> CONTEXT: Map524/events/49/pages/2/9/Dialogue
+\\name[\\v[2]]\\_
+Since you're a regular visitor,
+I'll introduce you to a slightly unusual girl.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この子はワーウルフに育てられた子で
+少し気性が荒いんだけど素直でいい子よ
+> CONTEXT: Map524/events/49/pages/2/12/Dialogue
+\\name[\\v[2]]\\_
+This girl was raised by werewolves
+and is a little temperamental, 
+but she's a good, obedient girl.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+値段はそうねぇ…
+特別な子だから3000Lpsでどうかしら？
+> CONTEXT: Map524/events/49/pages/2/15/Dialogue
+\\name[\\v[2]]\\_
+The price is...
+Since it's a special one, how about 3000Lps?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら、いらっしゃい。
+いい子が見つかったわよ。
+> CONTEXT: Map524/events/49/pages/3/6/Dialogue
+\\name[\\v[2]]\\_
+Oh, welcome.
+I found a nice girl.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この子は
+とある富豪が無くなった際に私が引き取った子で
+いい子だけどちょっと性欲が強い子なの
+> CONTEXT: Map524/events/49/pages/3/9/Dialogue
+\\name[\\v[2]]\\_
+I took her in when a certain wealthy man passed away. 
+She's a good girl, but has a bit of a strong libido.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+値段はそうねぇ…
+10000Lpsでどうかしら？
+> CONTEXT: Map524/events/49/pages/3/13/Dialogue
+\\name[\\v[2]]\\_
+The price is...
+How about 10,000Lps?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら、いらっしゃい。
+お金で女の子を買うのにハマっちゃった？
+> CONTEXT: Map524/events/49/pages/4/6/Dialogue
+\\name[\\v[2]]\\_
+Oho, welcome.
+Are you addicted to buying girls with money?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+でも残念ね今日紹介する子で
+あなたに紹介できる子は最後なの。
+> CONTEXT: Map524/events/49/pages/4/9/Dialogue
+\\name[\\v[2]]\\_
+But unfortunately, the one I'm introducing today
+is the last one I can introduce to you.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+色々な人に奴隷の良さを分かってほしいの。
+だからごめんなさいね。
+> CONTEXT: Map524/events/49/pages/4/12/Dialogue
+\\name[\\v[2]]\\_
+I want more people to learn the goodness of slaves.
+So I'm sorry.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それでこの子なんだけど
+ちょっと意地悪な子だけど
+素直でいい子よ。
+> CONTEXT: Map524/events/49/pages/4/15/Dialogue
+\\name[\\v[2]]\\_
+So, this girl
+She's a little mean, but she's also a good, obedient girl.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+値段はそうねぇ…
+最期だし5000Lpsでどうかしら？
+> CONTEXT: Map524/events/49/pages/4/19/Dialogue
+\\name[\\v[2]]\\_
+The price is...
+It's the last one, so how about 5000Lps?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら、いらっしゃい。
+> CONTEXT: Map524/events/49/pages/4/84/Dialogue
+\\name[\\v[2]]\\_
+Oho, welcome.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]・・・・・・・・・・・・
+> CONTEXT: Map524/events/50/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+「もっと状態異常のススメ　その２　誘惑の章」\\_
+と書かれた本がある。
+読みますか？
+> CONTEXT: Map524/events/52/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/52/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+どーもおそようございます、アンジュです。
+> CONTEXT: Map524/events/52/pages/0/6/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/52/pages/1/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+『眠りのアンジュ』という二つ名をもらったので、
+名に恥じぬように寝ていたらたたき起こされてしまいました。
+なかなかうまくいかないものです。
+> CONTEXT: Map524/events/52/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/52/pages/1/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+『誘惑』は相手の誘いに乗って夢中になって\\_
+しまっている状態です。
+> CONTEXT: Map524/events/52/pages/0/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/52/pages/1/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手に与える快感が減少するばかりか、
+リバウンドでこちらが大きく快感を受けてしまいます。
+> CONTEXT: Map524/events/52/pages/0/13/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/52/pages/1/13/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+さらに誘惑技はホールドと一緒に暴走や恍惚に\\_
+なってしまうので、
+そのまま自滅……なんて事もあります。
+> CONTEXT: Map524/events/52/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/52/pages/1/15/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+幸い、誘惑技はレジストする事ができるので使われても\\_
+断るのが対処法ですが、
+時々誘われた時点で理性を飛ばされてしまうようです。
+> CONTEXT: Map524/events/52/pages/0/18/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/52/pages/1/18/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+私も睡眠という誘惑にはかないませんね。
+> CONTEXT: Map524/events/52/pages/0/21/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/52/pages/1/21/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+「もっと状態異常のススメ　その３　眠りの章」\\_
+と書かれた本がある。
+読みますか？
+> CONTEXT: Map524/events/53/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/53/pages/1/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/56/pages/1/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/57/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+寝付きが悪くて悩んでいる魔女見習いが訪ねてきたので、
+人をダメにする枕をおすすめしました。
+今では２度寝、３度寝がやめられないと好評を\\_
+いただいております。
+> CONTEXT: Map524/events/53/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/53/pages/1/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+……おや、魔女のおねーさんの眉間に皺が、\\_
+ストレスはよくないですね。
+> CONTEXT: Map524/events/53/pages/0/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/53/pages/1/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/56/pages/1/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/57/pages/1/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+眠りは文字通り、しばらく眠ってしまって\\_
+行動不能になってしまう事です。
+> CONTEXT: Map524/events/53/pages/0/14/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/53/pages/1/14/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/56/pages/1/14/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/57/pages/1/14/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+これも恍惚と同様、レジストも高難易度化します。
+動けませんからね。
+> CONTEXT: Map524/events/53/pages/0/16/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/53/pages/1/16/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+では何が違うといいますと、
+受ける快感は小さくなるのですが、\\_
+快感を受けても中々起きないそうです。
+> CONTEXT: Map524/events/53/pages/0/18/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/53/pages/1/18/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+さらに眠っている間は、開発度が上がりやすくなるようです。
+恍惚より無防備な状態なので、
+気持ちいい事を覚えてしまいやすいという事なのでしょうか？
+> CONTEXT: Map524/events/53/pages/0/21/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/53/pages/1/21/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+これは眠らせるのが本職の私としては負けていられません\\_
+ね。
+今度サキュバスの子に試して研究してみようと思います。
+> CONTEXT: Map524/events/53/pages/0/24/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/53/pages/1/24/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/56/pages/1/22/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/57/pages/1/22/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+「もっと状態異常のススメ　その４　契約干渉の章」\\_
+と書かれた本がある。
+読みますか？
+> CONTEXT: Map524/events/54/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/54/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+皆さんおはようございます。アンジュです。
+> CONTEXT: Map524/events/54/pages/0/6/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/54/pages/1/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+最近隣町に不穏な動きがあるそうで、\\_
+教会の子が調べてるとか。
+私も資料を探したり探さなかったりこの本を執筆したり。
+> CONTEXT: Map524/events/54/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/54/pages/1/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+これでも忙しいんですよ？
+夢魔なので睡眠はちゃんと取りますが。
+> CONTEXT: Map524/events/54/pages/0/10/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/54/pages/1/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+契約干渉は仲間が指示を聞いてくれなくなる状態異常です。
+俗に言う混乱と同じような症状ですか。
+> CONTEXT: Map524/events/54/pages/0/13/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/54/pages/1/13/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+いちおう指示を出す事はできるのですが、
+何もしてくれないどころか狙いがこちらに向く事もあります。
+> CONTEXT: Map524/events/54/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/54/pages/1/15/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ほんの数ターンで解けますが、\\_
+それ以外の治療法がないのも厄介ですね。
+> CONTEXT: Map524/events/54/pages/0/17/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/54/pages/1/17/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対策としては干渉されても落ち着いて耐える。
+大惨事になってもあわてずに、\\_
+治ったら体制を立て直すのが鍵ですか。
+> CONTEXT: Map524/events/54/pages/0/19/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/54/pages/1/19/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+私はナイトメアなのでどちらかというと干渉する側ですけど、
+恐怖専門なのであまりよく知らないんですよね。
+> CONTEXT: Map524/events/54/pages/0/22/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/54/pages/1/22/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ちょっとした芸になりそうなので調べてみたい気はします。
+> CONTEXT: Map524/events/54/pages/0/24/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/54/pages/1/24/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+「もっと状態異常のススメ　その１　母乳中毒の章」\\_
+と書かれた本がある。
+読みますか？
+> CONTEXT: Map524/events/55/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/55/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+どうもお久しぶり、アンジュです。
+> CONTEXT: Map524/events/55/pages/0/6/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/55/pages/1/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+無事シリーズが完結したのでゴロゴロしていたら、
+サキュバスの子に『だらけてるなら番外編を書け』って
+お叱りを受けてしまいました。
+> CONTEXT: Map524/events/55/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/55/pages/1/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+仕方ないので本を書いてからもっとだらけようと思います。
+> CONTEXT: Map524/events/55/pages/0/10/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/55/pages/1/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+『母乳中毒』は夢魔のミルクの虜になってしまっている\\_
+状態です。
+> CONTEXT: Map524/events/55/pages/0/12/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/55/pages/1/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+暴走と同じように指示を受け付けず、
+ただひたすら胸に吸い付こうとしてしまいます。
+> CONTEXT: Map524/events/55/pages/0/14/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/55/pages/1/14/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+効果時間は短めですが、治す手段が時間だけなのと、
+防ぐ手段が『連撃を貰わないようにして確率を減らす』
+くらいしかないのが厄介なところです。
+> CONTEXT: Map524/events/55/pages/0/16/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/55/pages/1/16/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あ、女性でも母乳中毒は起こるので注意してください。
+> CONTEXT: Map524/events/55/pages/0/19/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/55/pages/1/19/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+『女性だからミルクの虜になんてなるはずがない』
+なんて思ってる人ほど簡単に落ちますから。
+> CONTEXT: Map524/events/55/pages/0/20/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/55/pages/1/20/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+先日サキュバスの子が……っと睨まれてしまったので\\_
+この辺で。
+何があったかはご想像にお任せします。
+> CONTEXT: Map524/events/55/pages/0/22/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/55/pages/1/22/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+「もっと状態異常のススメ　その５　骨抜きの章」\\_
+と書かれた本がある。
+読みますか？
+> CONTEXT: Map524/events/56/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+どうもこんばんは、アンジュです。
+> CONTEXT: Map524/events/56/pages/0/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔女のおねーさんに最近寝坊する魔女が
+出てきて困るって相談に来ました。
+> CONTEXT: Map524/events/56/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イライラは体に良くないので、
+魔女のおねーさんに特製枕「２度寝の友」を
+プレゼントしようと思います。
+> CONTEXT: Map524/events/56/pages/0/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+私もたまには夢魔らしい事しますね。
+> CONTEXT: Map524/events/56/pages/0/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+「骨抜き」は快楽で体に力が入らない
+状態異常です。
+> CONTEXT: Map524/events/56/pages/0/14/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+与える快楽は勿論減りますし、レジスト難易度も高くなる上、
+一部限定で上限を超えると拒めなくなってしまいます。
+> CONTEXT: Map524/events/56/pages/0/16/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あと「畏怖」と違って怯まないものの、
+受ける快楽は変わりません。
+> CONTEXT: Map524/events/56/pages/0/18/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+前立腺攻めや、挿入中にくすぐられたりする他、
+非常に柔らかいおっぱいでぱふぱふされても
+なってしまうようです。
+> CONTEXT: Map524/events/56/pages/0/20/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+「恍惚」などのおまけでついてくる事が
+多い感じですか。
+> CONTEXT: Map524/events/56/pages/0/23/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ピンチの状態でふにゃふにゃにされて、
+そのままなすすべもなく……。
+そんな状況が多そうです。
+> CONTEXT: Map524/events/56/pages/0/25/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバス以上に柔らかい胸に包まれてしまったら、
+恍惚が覚めても体が覚えたままになってしまうのは
+納得ですね。
+> CONTEXT: Map524/events/56/pages/0/28/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+寝付きが悪くて悩んでいる魔女見習いが訪ねてきたので、
+人をダメにする枕をおすすめしました。
+今では2度寝、３度寝がやめられないと好評を\\_
+いただいております。
+> CONTEXT: Map524/events/56/pages/1/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/57/pages/1/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+これも恍惚と同様、レジストも高難易度化しますし、
+快感を受ければ簡単に起きてしまいます。
+> CONTEXT: Map524/events/56/pages/1/16/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/57/pages/1/16/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+では何が違うといいますと、開発度が上がりやすくなるよう\\_
+です。
+恍惚より無防備な状態なので、
+気持ちいい事を覚えてしまいやすいという事なのでしょうか？
+> CONTEXT: Map524/events/56/pages/1/18/Dialogue < UNTRANSLATED
+> CONTEXT: Map524/events/57/pages/1/18/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+「もっと状態異常のススメ　その６　魅了の章」\\_
+と書かれた本がある。
+読みますか？
+> CONTEXT: Map524/events/57/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+こんにちは、アンジュです。
+> CONTEXT: Map524/events/57/pages/0/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+最近、雲の上を歩ける場所が発見されたと
+魔女の皆さんが話していました。
+> CONTEXT: Map524/events/57/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+雲の上でお昼寝……なんて夢が実現できそうですけど、
+下が見えすぎて怖い場所だと困りますね。
+> CONTEXT: Map524/events/57/pages/0/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+何より、夢魔が一杯で危険な場所のようですし、
+お昼寝そのものができる状況じゃないかもしれません。
+> CONTEXT: Map524/events/57/pages/0/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+やっぱりお昼寝は安全な場所がいいですね。
+> CONTEXT: Map524/events/57/pages/0/13/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+「魅了」は相手の虜になり、
+自分から精を捧げたくなってしまう状態異常です。
+> CONTEXT: Map524/events/57/pages/0/15/Dialogue
+"Charm" is an abnormal state in which you become captivated 
+by the other person and want to offer your energy to them.
+> END STRING
+
+> BEGIN STRING
+時々理性を失ってしまい、相手にEPが吸われる技
+「テンダーキッス」を勝手に使ってしまうようになります。
+キスが物凄く上手な夢魔等が与えてくるようです。
+> CONTEXT: Map524/events/57/pages/0/17/Dialogue
+Sometimes they lose their senses and start using the technique 
+"Tender Kiss" on their own, which recovers the opponent's EP. 
+It seems to be inflicted by succubi who are extremely good at kissing.
+> END STRING
+
+> BEGIN STRING
+早く直さないとみるみる相手が回復し、
+こちらが不利になってしまいますが
+味方がキスしてあげることで、目が覚めるようです。
+> CONTEXT: Map524/events/57/pages/0/20/Dialogue
+If you don't heal quickly, your opponent will recover quickly,
+and you'll be at a disadvantage,
+but if your ally gives them a kiss, they'll wake up.
+> END STRING
+
+> BEGIN STRING
+……何かの本で読んだことがあるような
+気がしますね。
+> CONTEXT: Map524/events/57/pages/0/23/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+私が魅了されたもの……そうですね…。
+> CONTEXT: Map524/events/57/pages/0/25/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+初めて私の上質な枕に出会った時ですかね。
+> CONTEXT: Map524/events/57/pages/0/26/Dialogue < UNTRANSLATED
+
+> END STRING

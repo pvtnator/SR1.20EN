@@ -1,0 +1,62 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+東洋の神々
+> CONTEXT: Map917/bgm/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"バステト"
+> CONTEXT: Map917/events/16/pages/0/9/InlineScript/1:22
+> CONTEXT: Map915/events/7/pages/0/14/InlineScript/1:22
+> CONTEXT: Map915/events/11/pages/0/7/InlineScript/1:22
+> CONTEXT: Map916/events/11/pages/0/16/InlineScript/1:22
+> CONTEXT: Map915/events/11/pages/0/63/InlineScript/1:22
+> CONTEXT: Map488/events/13/pages/0/28/InlineScript/1:22
+"Bastet"
+> END STRING
+
+> BEGIN STRING
+"アスタルテ"
+> CONTEXT: Map917/events/16/pages/0/9/InlineScript/2:22
+> CONTEXT: Map915/events/7/pages/0/14/InlineScript/2:22
+> CONTEXT: Map915/events/11/pages/0/7/InlineScript/2:22
+> CONTEXT: Map916/events/11/pages/0/16/InlineScript/2:22
+> CONTEXT: Map915/events/11/pages/0/63/InlineScript/2:22
+> CONTEXT: Map488/events/13/pages/0/4/InlineScript/2:22
+"Astarte"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+あ、バステトー！
+あの人、中に入ってきちゃったみたいだよ！
+> CONTEXT: Map917/events/16/pages/0/13/Dialogue
+\\name[\\v[3]]\\_
+Oh, Bastet!
+It looks like that person has come inside!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あ、本当だ。
+これはうかうかしてられないね！
+> CONTEXT: Map917/events/16/pages/0/19/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+さ、早く先に進むよ！
+> CONTEXT: Map917/events/16/pages/0/24/Dialogue
+\\name[\\v[2]]\\_
+Now, let's move on!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+らじゃ～♪
+> CONTEXT: Map917/events/16/pages/0/28/Dialogue
+\\name[\\v[2]]\\_
+Roger~♪
+> END STRING

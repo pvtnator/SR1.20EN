@@ -8,12 +8,15 @@ none
 > BEGIN STRING
 人間/男
 > CONTEXT: Classes/2/name/
+> CONTEXT: Classes/303/name/
 Human/♂
 > END STRING
 
 > BEGIN STRING
 人間/女
 > CONTEXT: Classes/3/name/
+> CONTEXT: Classes/302/name/
+> CONTEXT: Classes/305/name/
 Human/♀
 > END STRING
 
@@ -36,6 +39,18 @@ Lesser Succubus/桃
 > END STRING
 
 > BEGIN STRING
+レッサーサキュバス/紫
+> CONTEXT: Classes/7/name/
+Lesser Succubus/紫
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/桜
+> CONTEXT: Classes/8/name/
+Lesser Succubus/桜
+> END STRING
+
+> BEGIN STRING
 サキュバス/橙
 > CONTEXT: Classes/10/name/
 Succubus/橙
@@ -48,6 +63,18 @@ Succubus/桃
 > END STRING
 
 > BEGIN STRING
+サキュバス/桜
+> CONTEXT: Classes/12/name/
+Succubus/桜
+> END STRING
+
+> BEGIN STRING
+サキュバスロード/桜
+> CONTEXT: Classes/14/name/
+Succubus Lord/桜
+> END STRING
+
+> BEGIN STRING
 サキュバスロード/橙
 > CONTEXT: Classes/15/name/
 Succubus Lord/橙
@@ -57,6 +84,18 @@ Succubus Lord/橙
 サキュバスロード/桃
 > CONTEXT: Classes/16/name/
 Succubus Lord/桃
+> END STRING
+
+> BEGIN STRING
+サキュバスクィーン/橙
+> CONTEXT: Classes/18/name/
+Succubus Queen/橙
+> END STRING
+
+> BEGIN STRING
+サキュバスクィーン/桃
+> CONTEXT: Classes/19/name/
+Succubus Queen/桃
 > END STRING
 
 > BEGIN STRING
@@ -78,6 +117,24 @@ Imp/白
 > END STRING
 
 > BEGIN STRING
+エピセインインプ/桃
+> CONTEXT: Classes/23/name/
+Epithein Imp/桃
+> END STRING
+
+> BEGIN STRING
+インプ/青
+> CONTEXT: Classes/24/name/
+Imp/青
+> END STRING
+
+> BEGIN STRING
+デビル/青
+> CONTEXT: Classes/25/name/
+Devil/青
+> END STRING
+
+> BEGIN STRING
 デビル/緑
 > CONTEXT: Classes/26/name/
 Devil/緑
@@ -90,6 +147,18 @@ Devil/白
 > END STRING
 
 > BEGIN STRING
+エピセインデビル/桃
+> CONTEXT: Classes/28/name/
+Epithein Devil/桃
+> END STRING
+
+> BEGIN STRING
+デーモン/青
+> CONTEXT: Classes/30/name/
+Demon/青
+> END STRING
+
+> BEGIN STRING
 デーモン/緑
 > CONTEXT: Classes/31/name/
 Demon/緑
@@ -99,6 +168,24 @@ Demon/緑
 デーモン/白
 > CONTEXT: Classes/32/name/
 Demon/白
+> END STRING
+
+> BEGIN STRING
+エピセインデーモン/桃
+> CONTEXT: Classes/33/name/
+Epithein Demon/桃
+> END STRING
+
+> BEGIN STRING
+グレーターデーモン/緑
+> CONTEXT: Classes/34/name/
+Greater Demon/緑
+> END STRING
+
+> BEGIN STRING
+グレーターデーモン/白
+> CONTEXT: Classes/35/name/
+Greater Demon/白
 > END STRING
 
 > BEGIN STRING
@@ -120,6 +207,12 @@ Petite Witch/紫
 > END STRING
 
 > BEGIN STRING
+メイジファンガス/紺
+> CONTEXT: Classes/39/name/
+Mage Fungus/紺
+> END STRING
+
+> BEGIN STRING
 ウィッチ/緑
 > CONTEXT: Classes/42/name/
 Witch/緑
@@ -132,9 +225,33 @@ Witch/紫
 > END STRING
 
 > BEGIN STRING
+ウィッチクラフト/緑
+> CONTEXT: Classes/45/name/
+Witchcraft/緑
+> END STRING
+
+> BEGIN STRING
+ウィッチクラフト/紫
+> CONTEXT: Classes/46/name/
+Witchcraft/紫
+> END STRING
+
+> BEGIN STRING
 ヘカテー/緑
 > CONTEXT: Classes/47/name/
 Hecate/緑
+> END STRING
+
+> BEGIN STRING
+ヘーラー/赤
+> CONTEXT: Classes/48/name/
+Hera/赤
+> END STRING
+
+> BEGIN STRING
+ウィッチクラフト/青
+> CONTEXT: Classes/49/name/
+Witchcraft/青
 > END STRING
 
 > BEGIN STRING
@@ -156,6 +273,12 @@ Cast/黒
 > END STRING
 
 > BEGIN STRING
+キャスト/白
+> CONTEXT: Classes/55/name/
+Cast/白
+> END STRING
+
+> BEGIN STRING
 ハイキャスト/黄
 > CONTEXT: Classes/58/name/
 High Cast/黄
@@ -168,15 +291,27 @@ Slave/紫
 > END STRING
 
 > BEGIN STRING
-■■スリーピィ種
+スレイヴ/紫/最高の姿
+> CONTEXT: Classes/67/name/
+Slave/紫/Ideal form
+> END STRING
+
+> BEGIN STRING
+■■ナイトメア種
 > CONTEXT: Classes/68/name/
-■■Sleepy種
+■■Nightmare種
 > END STRING
 
 > BEGIN STRING
 スリーピィ/黒
 > CONTEXT: Classes/69/name/
 Sleepy/黒
+> END STRING
+
+> BEGIN STRING
+メア/黄
+> CONTEXT: Classes/70/name/
+Mare/黄
 > END STRING
 
 > BEGIN STRING
@@ -192,6 +327,12 @@ Nightmare/黄
 > END STRING
 
 > BEGIN STRING
+ナイトメア/黒/最高の姿
+> CONTEXT: Classes/78/name/
+Nightmare/黒/Ideal form
+> END STRING
+
+> BEGIN STRING
 ■■スライム種
 > CONTEXT: Classes/79/name/
 ■■Slime種
@@ -204,15 +345,33 @@ Slime/青
 > END STRING
 
 > BEGIN STRING
+スライム/黒
+> CONTEXT: Classes/81/name/
+Slime/黒
+> END STRING
+
+> BEGIN STRING
 クイーンスライム/青
 > CONTEXT: Classes/85/name/
 Queen Slime/青
 > END STRING
 
 > BEGIN STRING
+ショゴス/黒
+> CONTEXT: Classes/86/name/
+Shoggoth/黒
+> END STRING
+
+> BEGIN STRING
 ゴールドスライム/黄
 > CONTEXT: Classes/90/name/
 Gold Slime/黄
+> END STRING
+
+> BEGIN STRING
+ジュエルスライム/黄
+> CONTEXT: Classes/94/name/
+Jewel Slime/黄
 > END STRING
 
 > BEGIN STRING
@@ -234,6 +393,12 @@ Familiar/緑
 > END STRING
 
 > BEGIN STRING
+ファミリア/青/最高の姿
+> CONTEXT: Classes/98/name/
+Familiar/青/Ideal form
+> END STRING
+
+> BEGIN STRING
 ■■ワーウルフ種
 > CONTEXT: Classes/99/name/
 ■■Werewolf種
@@ -249,6 +414,12 @@ Werewolf/黒
 ワーウルフ/赤
 > CONTEXT: Classes/101/name/
 Werewolf/赤
+> END STRING
+
+> BEGIN STRING
+ワーウルフ/黒/最高の姿
+> CONTEXT: Classes/102/name/
+Werewolf/黒/Ideal form
 > END STRING
 
 > BEGIN STRING
@@ -270,6 +441,12 @@ Werecat/黒
 > END STRING
 
 > BEGIN STRING
+ワーキャット/黄/最高の姿
+> CONTEXT: Classes/106/name/
+Werecat/黄/Ideal form
+> END STRING
+
+> BEGIN STRING
 ■■ゴブリン種
 > CONTEXT: Classes/107/name/
 ■■Goblin種
@@ -282,15 +459,51 @@ Goblin/赤
 > END STRING
 
 > BEGIN STRING
+ホブゴブリン/赤
+> CONTEXT: Classes/109/name/
+Hobogoblin/赤
+> END STRING
+
+> BEGIN STRING
+ゴブリンシーフ/赤
+> CONTEXT: Classes/110/name/
+Goblin Chief/赤
+> END STRING
+
+> BEGIN STRING
 ギャングコマンダー/赤
 > CONTEXT: Classes/111/name/
 Gang Commander/赤
 > END STRING
 
 > BEGIN STRING
-ギャングチーフ/青
-> CONTEXT: Classes/114/name/ < UNTRANSLATED
+ゴブリンウィザード/紫
+> CONTEXT: Classes/112/name/
+Goblin Wizard/紫
+> END STRING
 
+> BEGIN STRING
+ゴブリンシャーマン/赤
+> CONTEXT: Classes/113/name/
+Goblin Shaman/赤
+> END STRING
+
+> BEGIN STRING
+ギャングコマンダー/赤/最高の姿
+> CONTEXT: Classes/114/name/
+Gang Commander/赤/Ideal form
+> END STRING
+
+> BEGIN STRING
+ギャングチーフ/赤
+> CONTEXT: Classes/115/name/
+Gang Chief/赤
+> END STRING
+
+> BEGIN STRING
+ゴブリンシャーマン/赤/最高の姿
+> CONTEXT: Classes/116/name/
+Goblin Shaman/赤/Ideal form
 > END STRING
 
 > BEGIN STRING
@@ -306,6 +519,12 @@ Priestess/白
 > END STRING
 
 > BEGIN STRING
+プリーステス/白/最高の姿
+> CONTEXT: Classes/120/name/
+Priestess/白/Ideal form
+> END STRING
+
+> BEGIN STRING
 ■■カースメイガス種
 > CONTEXT: Classes/121/name/
 ■■Curse Magus種
@@ -315,6 +534,12 @@ Priestess/白
 カースメイガス/黒
 > CONTEXT: Classes/122/name/
 Curse Magus/黒
+> END STRING
+
+> BEGIN STRING
+カースメイガス/黒/最高の姿
+> CONTEXT: Classes/124/name/
+Curse Magus/黒/Ideal form
 > END STRING
 
 > BEGIN STRING
@@ -336,9 +561,21 @@ Alraune/青
 > END STRING
 
 > BEGIN STRING
+アルラウネ/黒
+> CONTEXT: Classes/128/name/
+Alraune/黒
+> END STRING
+
+> BEGIN STRING
 マンイーター/青
 > CONTEXT: Classes/129/name/
 Maneater/青
+> END STRING
+
+> BEGIN STRING
+ドライアド/緑
+> CONTEXT: Classes/131/name/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -354,6 +591,18 @@ Matango/赤
 > END STRING
 
 > BEGIN STRING
+マタンゴ/黒
+> CONTEXT: Classes/134/name/
+Matango/黒
+> END STRING
+
+> BEGIN STRING
+マタンゴ/赤/最高の姿
+> CONTEXT: Classes/135/name/
+Matango/赤/Ideal form
+> END STRING
+
+> BEGIN STRING
 ■■エンジェル種
 > CONTEXT: Classes/136/name/
 ■■Angel種
@@ -366,6 +615,12 @@ Dark Angel/白
 > END STRING
 
 > BEGIN STRING
+ダークエンジェル/白/最高の姿
+> CONTEXT: Classes/139/name/
+Dark Angel/白/Ideal form
+> END STRING
+
+> BEGIN STRING
 ■■ガーゴイル種
 > CONTEXT: Classes/140/name/
 ■■Gargoyle種
@@ -375,6 +630,12 @@ Dark Angel/白
 ガーゴイル/黒
 > CONTEXT: Classes/141/name/
 Gargoyle/黒
+> END STRING
+
+> BEGIN STRING
+ガーゴイル/黒/最高の姿
+> CONTEXT: Classes/143/name/
+Gargoyle/黒/Ideal form
 > END STRING
 
 > BEGIN STRING
@@ -426,6 +687,564 @@ Lilim/桃
 > END STRING
 
 > BEGIN STRING
+リリス/青
+> CONTEXT: Classes/157/name/
+Lilith/青
+> END STRING
+
+> BEGIN STRING
+フリー
+> CONTEXT: Classes/158/name/
+Fury
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/フリー
+> CONTEXT: Classes/159/name/
+Unique Succubus/Fury
+> END STRING
+
+> BEGIN STRING
+エテルヌス/白
+> CONTEXT: Classes/160/name/
+Eternus/白
+> END STRING
+
+> BEGIN STRING
+プリーステス/紫
+> CONTEXT: Classes/161/name/
+Priestess/紫
+> END STRING
+
+> BEGIN STRING
+ダークエンジェル/赤
+> CONTEXT: Classes/162/name/
+Dark Angel/赤
+> END STRING
+
+> BEGIN STRING
+リリム/青
+> CONTEXT: Classes/163/name/
+Lilim/青
+> END STRING
+
+> BEGIN STRING
+キャスト/青
+> CONTEXT: Classes/164/name/
+Cast/青
+> END STRING
+
+> BEGIN STRING
+リリム/赤
+> CONTEXT: Classes/165/name/
+Lilim/赤
+> END STRING
+
+> BEGIN STRING
+ジャックフロスト/青
+> CONTEXT: Classes/166/name/
+Jack Frost/青
+> END STRING
+
+> BEGIN STRING
+プチデビル/緑
+> CONTEXT: Classes/167/name/
+Petite Devil/緑
+> END STRING
+
+> BEGIN STRING
+ニンフ/緑
+> CONTEXT: Classes/168/name/
+Nymph/緑
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/白
+> CONTEXT: Classes/169/name/
+Lesser Succubus/白
+> END STRING
+
+> BEGIN STRING
+スレイヴ/青
+> CONTEXT: Classes/170/name/
+Slave/青
+> END STRING
+
+> BEGIN STRING
+ユキジョロウ/青
+> CONTEXT: Classes/171/name/
+Snow White/青
+> END STRING
+
+> BEGIN STRING
+ドッペルゲンガー/女
+> CONTEXT: Classes/172/name/
+Doppelganger/Woman
+> END STRING
+
+> BEGIN STRING
+ラファエル/黄
+> CONTEXT: Classes/173/name/
+Raphael/黄
+> END STRING
+
+> BEGIN STRING
+ルシフェル/白
+> CONTEXT: Classes/174/name/
+Lucifer/白
+> END STRING
+
+> BEGIN STRING
+クノイチ/黒
+> CONTEXT: Classes/175/name/
+Kunoichi/黒
+> END STRING
+
+> BEGIN STRING
+ジョロウグモ/黒
+> CONTEXT: Classes/176/name/
+Orb Spider/黒
+> END STRING
+
+> BEGIN STRING
+アモーレ/黄
+> CONTEXT: Classes/177/name/
+Amore/黄
+> END STRING
+
+> BEGIN STRING
+ピアチェレ/黄
+> CONTEXT: Classes/178/name/
+Piacere/黄
+> END STRING
+
+> BEGIN STRING
+マイェストレ/黄
+> CONTEXT: Classes/179/name/
+Majestre/黄
+> END STRING
+
+> BEGIN STRING
+ベルゼビュート/紫
+> CONTEXT: Classes/180/name/
+Beelzebub/紫
+> END STRING
+
+> BEGIN STRING
+スカサハ/茶
+> CONTEXT: Classes/181/name/
+Scathach/茶
+> END STRING
+
+> BEGIN STRING
+ガブリエル/黄
+> CONTEXT: Classes/182/name/
+Gabriel/黄
+> END STRING
+
+> BEGIN STRING
+アティーナ/赤
+> CONTEXT: Classes/183/name/
+Atina/赤
+> END STRING
+
+> BEGIN STRING
+ベルフェゴール/紫
+> CONTEXT: Classes/184/name/
+Belphegor/紫
+> END STRING
+
+> BEGIN STRING
+クライオマンサー/白
+> CONTEXT: Classes/185/name/
+Cryomancer/白
+> END STRING
+
+> BEGIN STRING
+グレイシオマンサー/白
+> CONTEXT: Classes/186/name/
+Glacmancer/白
+> END STRING
+
+> BEGIN STRING
+コボルト/赤
+> CONTEXT: Classes/187/name/
+Kobold/赤
+> END STRING
+
+> BEGIN STRING
+コボルト/青
+> CONTEXT: Classes/188/name/
+Kobold/青
+> END STRING
+
+> BEGIN STRING
+ガーディアン/白
+> CONTEXT: Classes/189/name/
+Guardian/白
+> END STRING
+
+> BEGIN STRING
+イエティ/白
+> CONTEXT: Classes/190/name/
+Yeti/白
+> END STRING
+
+> BEGIN STRING
+ユキンコ/青
+> CONTEXT: Classes/191/name/
+Yukinko/青
+> END STRING
+
+> BEGIN STRING
+キュシオン/黒
+> CONTEXT: Classes/192/name/
+Kyusion/黒
+> END STRING
+
+> BEGIN STRING
+ヒラルス/黄
+> CONTEXT: Classes/193/name/
+Hilarus/黄
+> END STRING
+
+> BEGIN STRING
+セイレーン/桃
+> CONTEXT: Classes/194/name/
+Siren/桃
+> END STRING
+
+> BEGIN STRING
+【未解禁】カーミラ/紫
+> CONTEXT: Classes/195/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グラキエース/桃
+> CONTEXT: Classes/196/name/
+Grakiace/桃
+> END STRING
+
+> BEGIN STRING
+ミカエル/闇
+> CONTEXT: Classes/197/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ラファエル/闇
+> CONTEXT: Classes/198/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ガブリエル/闇
+> CONTEXT: Classes/199/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プリーステス/紫/最高の姿
+> CONTEXT: Classes/200/name/
+Priestess/紫/Ideal form
+> END STRING
+
+> BEGIN STRING
+プチデビル/最高の姿
+> CONTEXT: Classes/201/name/
+Petite Devil/Ideal form
+> END STRING
+
+> BEGIN STRING
+ジェネラルフロスト/青
+> CONTEXT: Classes/202/name/
+General Frost/青
+> END STRING
+
+> BEGIN STRING
+ティターニア/最高の姿
+> CONTEXT: Classes/203/name/
+Titania/Ideal form
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/白/最高の姿
+> CONTEXT: Classes/204/name/
+Lesser Succubus/白/Ideal form
+> END STRING
+
+> BEGIN STRING
+人間/男/最高の姿
+> CONTEXT: Classes/205/name/
+Human/♂/Ideal form
+> END STRING
+
+> BEGIN STRING
+人間/女/最高の姿
+> CONTEXT: Classes/206/name/
+Human/♀/Ideal form
+> END STRING
+
+> BEGIN STRING
+ヘカテー/青
+> CONTEXT: Classes/207/name/
+Hecate/青
+> END STRING
+
+> BEGIN STRING
+ラーミルキャスト/紫
+> CONTEXT: Classes/208/name/
+Ramil-cast/紫
+> END STRING
+
+> BEGIN STRING
+リリス/桃
+> CONTEXT: Classes/209/name/
+Lilith/桃
+> END STRING
+
+> BEGIN STRING
+レギーナ/赤
+> CONTEXT: Classes/210/name/
+Regina/赤
+> END STRING
+
+> BEGIN STRING
+プチウィッチ/青
+> CONTEXT: Classes/211/name/
+Petite Witch/青
+> END STRING
+
+> BEGIN STRING
+ウィッチ/青
+> CONTEXT: Classes/212/name/
+Witch/青
+> END STRING
+
+> BEGIN STRING
+オスクロ/紫
+> CONTEXT: Classes/213/name/
+Oskuro/紫
+> END STRING
+
+> BEGIN STRING
+スレイヴ/黄
+> CONTEXT: Classes/214/name/
+Slave/黄
+> END STRING
+
+> BEGIN STRING
+スレイヴ/黄/最高の姿
+> CONTEXT: Classes/215/name/
+Slave/黄/Ideal form
+> END STRING
+
+> BEGIN STRING
+シスターサキュバス/紺
+> CONTEXT: Classes/216/name/
+Sister Succubus/紺
+> END STRING
+
+> BEGIN STRING
+スレイヴ/緑
+> CONTEXT: Classes/217/name/
+Slave/緑
+> END STRING
+
+> BEGIN STRING
+スレイヴ/緑/最高の姿
+> CONTEXT: Classes/218/name/
+Slave/緑/Ideal form
+> END STRING
+
+> BEGIN STRING
+リリス/赤
+> CONTEXT: Classes/219/name/
+Lilith/赤
+> END STRING
+
+> BEGIN STRING
+イマジナリーフレンド/黄
+> CONTEXT: Classes/220/name/
+Imaginary Friend/黄
+> END STRING
+
+> BEGIN STRING
+スリーピィ/緑
+> CONTEXT: Classes/221/name/
+Sleepy/緑
+> END STRING
+
+> BEGIN STRING
+スリーピィ/赤
+> CONTEXT: Classes/222/name/
+Sleepy/赤
+> END STRING
+
+> BEGIN STRING
+ミミック/赤
+> CONTEXT: Classes/223/name/
+Mimic/赤
+> END STRING
+
+> BEGIN STRING
+フロストピロー/青
+> CONTEXT: Classes/224/name/
+Frost Pillow/青
+> END STRING
+
+> BEGIN STRING
+ドッペルゲンガー/黄
+> CONTEXT: Classes/225/name/
+Doppelganger/黄
+> END STRING
+
+> BEGIN STRING
+ドッペルゲンガー/赤
+> CONTEXT: Classes/226/name/
+Doppelganger/赤
+> END STRING
+
+> BEGIN STRING
+リリム/白
+> CONTEXT: Classes/227/name/
+Lilim/白
+> END STRING
+
+> BEGIN STRING
+スリーピィ/黄
+> CONTEXT: Classes/228/name/
+Sleepy/黄
+> END STRING
+
+> BEGIN STRING
+ダークエンジェル/橙
+> CONTEXT: Classes/229/name/
+Dark Angel/橙
+> END STRING
+
+> BEGIN STRING
+ニウェウス/白
+> CONTEXT: Classes/230/name/
+Nieuweus/白
+> END STRING
+
+> BEGIN STRING
+ダークエンジェル/青
+> CONTEXT: Classes/231/name/
+Dark Angel/青
+> END STRING
+
+> BEGIN STRING
+ビショップ/紺
+> CONTEXT: Classes/232/name/
+Bishop/紺
+> END STRING
+
+> BEGIN STRING
+イマジナリーフレンド/青
+> CONTEXT: Classes/233/name/
+Imaginary Friend/青
+> END STRING
+
+> BEGIN STRING
+エンジェル/茶
+> CONTEXT: Classes/234/name/
+Angel/茶
+> END STRING
+
+> BEGIN STRING
+プチエンジェル/金
+> CONTEXT: Classes/235/name/
+Petite Angel/金
+> END STRING
+
+> BEGIN STRING
+シスターキャスト/白
+> CONTEXT: Classes/236/name/
+Sister-cast/白
+> END STRING
+
+> BEGIN STRING
+サキュバスリリィ/黄
+> CONTEXT: Classes/237/name/
+Succubus Lily/黄
+> END STRING
+
+> BEGIN STRING
+ノスフェラトゥ/黒
+> CONTEXT: Classes/238/name/
+Nosferatu/黒
+> END STRING
+
+> BEGIN STRING
+グラキエース/青
+> CONTEXT: Classes/239/name/
+Grakiace/青
+> END STRING
+
+> BEGIN STRING
+メリュジーヌ/黄
+> CONTEXT: Classes/240/name/
+Melusine/黄
+> END STRING
+
+> BEGIN STRING
+サーヴァント/赤
+> CONTEXT: Classes/241/name/
+Serpent/赤
+> END STRING
+
+> BEGIN STRING
+シルキー/青
+> CONTEXT: Classes/242/name/
+Silky/青
+> END STRING
+
+> BEGIN STRING
+ヴィレッジャ/白
+> CONTEXT: Classes/243/name/
+Villager/白
+> END STRING
+
+> BEGIN STRING
+マーメイド/青
+> CONTEXT: Classes/244/name/
+Mermaid/青
+> END STRING
+
+> BEGIN STRING
+マタンゴ/緑
+> CONTEXT: Classes/245/name/
+Matango/緑
+> END STRING
+
+> BEGIN STRING
+シルキー/茶
+> CONTEXT: Classes/246/name/
+Silky/茶
+> END STRING
+
+> BEGIN STRING
+サーヴァント/青
+> CONTEXT: Classes/247/name/
+Serpent/青
+> END STRING
+
+> BEGIN STRING
+ミカエル/黄
+> CONTEXT: Classes/248/name/
+Mikael/黄
+> END STRING
+
+> BEGIN STRING
+シルクレディ/白
+> CONTEXT: Classes/249/name/
+Silk Lady/白
+> END STRING
+
+> BEGIN STRING
 ■■ユニーク
 > CONTEXT: Classes/250/name/ < UNTRANSLATED
 
@@ -440,6 +1259,7 @@ Unique Succubus/Neijurange
 > BEGIN STRING
 ユニークサキュバス/リジェオ
 > CONTEXT: Classes/252/name/
+> CONTEXT: Classes/309/name/
 Unique Succubus/Rigeo
 > END STRING
 
@@ -452,6 +1272,7 @@ Unique Succubus/Fulbeua
 > BEGIN STRING
 ユニークタイクーン/ギルゴーン
 > CONTEXT: Classes/254/name/
+> CONTEXT: Classes/310/name/
 Unique Tycoon/Gilgorn
 > END STRING
 
@@ -486,6 +1307,68 @@ Unique Lilith/Chaosia
 > END STRING
 
 > BEGIN STRING
+ユニークサキュバス/ミリュリエール
+> CONTEXT: Classes/260/name/
+Unique Succubus/Milurier
+> END STRING
+
+> BEGIN STRING
+ユニークシスター/シスター
+> CONTEXT: Classes/261/name/
+> CONTEXT: Classes/311/name/
+Unique Sister/Sister
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/イヴ
+> CONTEXT: Classes/262/name/
+Unique Succubus/Eve
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ティアヴァール
+> CONTEXT: Classes/263/name/
+Unique Succubus/Tearvoir
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ディリヘンテ
+> CONTEXT: Classes/264/name/
+> CONTEXT: Classes/313/name/
+Unique Succubus/Diligente
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/シャッテンベスティ
+> CONTEXT: Classes/265/name/
+Unique Succubus/Schattenbesti
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ニュクス
+> CONTEXT: Classes/266/name/
+Unique Succubus/Nyx
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/エリス
+> CONTEXT: Classes/267/name/
+Unique Succubus/Eris
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ヒュプノス
+> CONTEXT: Classes/268/name/
+Unique Succubus/Hypnos
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/アフィプニスィ
+> CONTEXT: Classes/269/name/
+Unique Succubus/Afippnisi
+> END STRING
+
+> BEGIN STRING
 ■■一括装備可能チェック
 > CONTEXT: Classes/270/name/ < UNTRANSLATED
 
@@ -500,5 +1383,1119 @@ Unique Lilith/Chaosia
 > BEGIN STRING
 【data】夢魔/通常
 > CONTEXT: Classes/272/name/ < UNTRANSLATED
+> CONTEXT: Classes/273/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【data】人間/女
+> CONTEXT: Classes/274/name/
+【data】Human/♀
+> END STRING
+
+> BEGIN STRING
+リリム/橙
+> CONTEXT: Classes/275/name/
+Lilim/橙
+> END STRING
+
+> BEGIN STRING
+リリス/橙
+> CONTEXT: Classes/276/name/
+Lilith/橙
+> END STRING
+
+> BEGIN STRING
+ワーウルフ/紫
+> CONTEXT: Classes/277/name/
+Werewolf/紫
+> END STRING
+
+> BEGIN STRING
+レギオン/青
+> CONTEXT: Classes/278/name/
+Legion/青
+> END STRING
+
+> BEGIN STRING
+サンタクロス/赤
+> CONTEXT: Classes/279/name/
+Santa Claus/赤
+> END STRING
+
+> BEGIN STRING
+エンジェル/最高の姿
+> CONTEXT: Classes/280/name/
+Angel/Ideal form
+> END STRING
+
+> BEGIN STRING
+シスターキャスト/最高の姿
+> CONTEXT: Classes/281/name/
+Sister-cast/Ideal form
+> END STRING
+
+> BEGIN STRING
+シルキー/最高の姿
+> CONTEXT: Classes/282/name/
+Silky/Ideal form
+> END STRING
+
+> BEGIN STRING
+ヴィレッジャ/最高の姿
+> CONTEXT: Classes/283/name/
+Villager/Ideal form
+> END STRING
+
+> BEGIN STRING
+エテルヌス/最高の姿
+> CONTEXT: Classes/284/name/
+Eternus/Ideal form
+> END STRING
+
+> BEGIN STRING
+アーチビショップ/紺
+> CONTEXT: Classes/285/name/
+Archbishop/紺
+> END STRING
+
+> BEGIN STRING
+セルウス/黒
+> CONTEXT: Classes/286/name/
+Selous/黒
+> END STRING
+
+> BEGIN STRING
+エテルヌス/青
+> CONTEXT: Classes/287/name/
+Eternus/青
+> END STRING
+
+> BEGIN STRING
+エテルヌス/緋
+> CONTEXT: Classes/288/name/
+Eternus/緋
+> END STRING
+
+> BEGIN STRING
+ティターニア/緑
+> CONTEXT: Classes/289/name/
+Titania/緑
+> END STRING
+
+> BEGIN STRING
+ファミリア/押
+> CONTEXT: Classes/290/name/
+Familiar/押
+> END STRING
+
+> BEGIN STRING
+ユニークシスター/マスターテリオン
+> CONTEXT: Classes/291/name/
+Unique Sister/Master Therion
+> END STRING
+
+> BEGIN STRING
+ユニークシスター/マスターテリオンウェス
+> CONTEXT: Classes/292/name/
+Unique Sister/Master Therion Wes
+> END STRING
+
+> BEGIN STRING
+ユニークシスター/マスターテリオンティト
+> CONTEXT: Classes/293/name/
+Unique Sister/Master Therion Tito
+> END STRING
+
+> BEGIN STRING
+ユニークシスター/マスターテリオン・アウ
+> CONTEXT: Classes/294/name/
+Unique Sister/Master Therion Au
+> END STRING
+
+> BEGIN STRING
+ユニークシスター/マスターテリオンティベ
+> CONTEXT: Classes/295/name/
+Unique Sister/Master Therion Tibe
+> END STRING
+
+> BEGIN STRING
+ユニークシスター/マスターテリオン・カリ
+> CONTEXT: Classes/296/name/
+Unique Sister/Master Therion Kali
+> END STRING
+
+> BEGIN STRING
+ユニークシスター/マスターテリオン・クラ
+> CONTEXT: Classes/297/name/
+Unique Sister/Master Therion Kura
+> END STRING
+
+> BEGIN STRING
+インキュバス/青
+> CONTEXT: Classes/298/name/
+Incubus/青
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ミア
+> CONTEXT: Classes/299/name/
+Unique Succubus/Mia
+> END STRING
+
+> BEGIN STRING
+触手/アウルムの触手
+> CONTEXT: Classes/300/name/
+Tentacles/Aurum's Tentacles
+> END STRING
+
+> BEGIN STRING
+■■主人公改変用
+> CONTEXT: Classes/301/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■■ユニーク改変用
+> CONTEXT: Classes/308/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/オーバーマインド
+> CONTEXT: Classes/312/name/
+Unique Succubus/Overmind
+> END STRING
+
+> BEGIN STRING
+■夢魔追加枠
+> CONTEXT: Classes/314/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークヴァンプ/紫
+> CONTEXT: Classes/315/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダークヴァンパイア/紫
+> CONTEXT: Classes/316/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アエシュマ/赤
+> CONTEXT: Classes/317/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ナイトシーカー/紫
+> CONTEXT: Classes/318/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ナイトストーカー/紫
+> CONTEXT: Classes/319/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ゾンビサキュバス/赤
+> CONTEXT: Classes/320/name/
+Zombie Succubus/赤
+> END STRING
+
+> BEGIN STRING
+ドロフォノス/黄
+> CONTEXT: Classes/321/name/
+Dolophonos/黄
+> END STRING
+
+> BEGIN STRING
+メアリー/黄
+> CONTEXT: Classes/322/name/
+Mary/黄
+> END STRING
+
+> BEGIN STRING
+アルビノ/白
+> CONTEXT: Classes/323/name/
+Albino/白
+> END STRING
+
+> BEGIN STRING
+テネシティ/緑
+> CONTEXT: Classes/324/name/
+Tenacity/緑
+> END STRING
+
+> BEGIN STRING
+アルミルス/黄
+> CONTEXT: Classes/325/name/
+Almirus/黄
+> END STRING
+
+> BEGIN STRING
+トイフェル/白
+> CONTEXT: Classes/326/name/
+Teufel/白
+> END STRING
+
+> BEGIN STRING
+エインヘリヤル/黄
+> CONTEXT: Classes/327/name/
+Einherjar/黄
+> END STRING
+
+> BEGIN STRING
+エインヘリヤル/白
+> CONTEXT: Classes/328/name/
+Einherjar/白
+> END STRING
+
+> BEGIN STRING
+エインヘリヤル/青
+> CONTEXT: Classes/329/name/
+Einherjar/青
+> END STRING
+
+> BEGIN STRING
+エインヘリヤル/赤
+> CONTEXT: Classes/330/name/
+Einherjar/赤
+> END STRING
+
+> BEGIN STRING
+ボギー/黄
+> CONTEXT: Classes/331/name/
+Bogie/黄
+> END STRING
+
+> BEGIN STRING
+アートルム/黒
+> CONTEXT: Classes/332/name/
+Artrum/黒
+> END STRING
+
+> BEGIN STRING
+ワンダーボックス/青
+> CONTEXT: Classes/333/name/
+Wonderbox/青
+> END STRING
+
+> BEGIN STRING
+ネブラ/青
+> CONTEXT: Classes/334/name/
+Nebula/青
+> END STRING
+
+> BEGIN STRING
+パンドラ/黒
+> CONTEXT: Classes/335/name/
+Pandora/黒
+> END STRING
+
+> BEGIN STRING
+カグツチ/赤
+> CONTEXT: Classes/336/name/
+Kagutsuchi/赤
+> END STRING
+
+> BEGIN STRING
+キキーモラ/青
+> CONTEXT: Classes/337/name/
+Kikimora/青
+> END STRING
+
+> BEGIN STRING
+シヴィリアン/緑
+> CONTEXT: Classes/338/name/
+Civilian/緑
+> END STRING
+
+> BEGIN STRING
+オーダーシルキー/白
+> CONTEXT: Classes/339/name/
+Order Silky/白
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ネメシス
+> CONTEXT: Classes/340/name/
+Unique Succubus/Nemesis
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ヘメテル
+> CONTEXT: Classes/341/name/
+Unique Succubus/Hemetel
+> END STRING
+
+> BEGIN STRING
+ユニークマキナ/アトレッツァ
+> CONTEXT: Classes/342/name/
+Unique Machina/Atreza
+> END STRING
+
+> BEGIN STRING
+ユニークマキナ/トゥーラ
+> CONTEXT: Classes/343/name/
+Unique Machina/Tula
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/アヴァリツィア
+> CONTEXT: Classes/344/name/
+Unique Succubus/Avarizia
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/インヴィディア
+> CONTEXT: Classes/345/name/
+Unique Succubus/Invidia
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ルクスリア
+> CONTEXT: Classes/346/name/
+Unique Succubus/Luxuria
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/アケディア
+> CONTEXT: Classes/347/name/
+Unique Succubus/Akedia
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/イーラ
+> CONTEXT: Classes/348/name/
+Unique Succubus/Ira
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/グーラ
+> CONTEXT: Classes/349/name/
+Unique Succubus/Gula
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/スペルビア
+> CONTEXT: Classes/350/name/
+Unique Succubus/Superbia
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/モリガン
+> CONTEXT: Classes/351/name/
+Unique Succubus/Morrigan
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/アドウェルサ
+> CONTEXT: Classes/352/name/
+Unique Succubus/Adversa
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/アウルム
+> CONTEXT: Classes/354/name/
+Unique Succubus/Aurum
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ヴァルキュリヤ
+> CONTEXT: Classes/355/name/
+Unique Succubus/Valkyria
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ファフニール
+> CONTEXT: Classes/356/name/
+Unique Succubus/Fafnir
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/マレフィキウム
+> CONTEXT: Classes/357/name/
+Unique Succubus/Maleficium
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/スルガト
+> CONTEXT: Classes/358/name/
+Unique Succubus/Surugato
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/アスタルテ
+> CONTEXT: Classes/359/name/
+Unique Succubus/Astarte
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/バステト
+> CONTEXT: Classes/360/name/
+Unique Succubus/Bastet
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ラプチーナ
+> CONTEXT: Classes/361/name/
+Unique Succubus/Rapucina
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ニュイ
+> CONTEXT: Classes/362/name/
+Unique Succubus/Nyui
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ナハト
+> CONTEXT: Classes/363/name/
+Unique Succubus/Nacht
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ジェノシンドレ
+> CONTEXT: Classes/364/name/
+Unique Succubus/Genoshindre
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ゼノア
+> CONTEXT: Classes/365/name/
+Unique Succubus/Zenoa
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ゼラチナスキューブ
+> CONTEXT: Classes/366/name/
+Unique Succubus/Gelatinous Cube
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/メイジサキュバス
+> CONTEXT: Classes/367/name/
+Unique Succubus/Mage Succubus
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ウィッチサキュバス
+> CONTEXT: Classes/368/name/
+Unique Succubus/Witch Succubus
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/マーリ
+> CONTEXT: Classes/369/name/
+Unique Succubus/Mari
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/キリン
+> CONTEXT: Classes/370/name/
+Unique Succubus/Kirin
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/アランシア
+> CONTEXT: Classes/371/name/
+Unique Succubus/Arancia
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ルーバー
+> CONTEXT: Classes/372/name/
+Unique Succubus/Louver
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/セリア
+> CONTEXT: Classes/373/name/
+Unique Succubus/Seria
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/マザーハーロット
+> CONTEXT: Classes/374/name/
+Unique Succubus/Mother Harlot
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/タナトス
+> CONTEXT: Classes/375/name/
+Unique Succubus/Thanatos
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ヴィズリル
+> CONTEXT: Classes/376/name/
+Unique Succubus/Vizril
+> END STRING
+
+> BEGIN STRING
+■敵対時
+> CONTEXT: Classes/380/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/アウローラ
+> CONTEXT: Classes/392/name/
+Unique Succubus/Aurora
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/アガレス
+> CONTEXT: Classes/393/name/
+Unique Succubus/Agares
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/カーリー
+> CONTEXT: Classes/394/name/
+Unique Succubus/Carly
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ラビス
+> CONTEXT: Classes/395/name/
+Unique Succubus/Ravis
+> END STRING
+
+> BEGIN STRING
+ユニークエンジェル/セラフィエル
+> CONTEXT: Classes/396/name/
+Unique Angel/Seraphiel
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ベルカ
+> CONTEXT: Classes/397/name/
+Unique Succubus/Belka
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ベルナ
+> CONTEXT: Classes/398/name/
+Unique Succubus/Berna
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/クグツメ
+> CONTEXT: Classes/399/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/リナリア
+> CONTEXT: Classes/400/name/
+Unique Succubus/Linaria
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ネフィリム
+> CONTEXT: Classes/401/name/
+Unique Succubus/Nephilim
+> END STRING
+
+> BEGIN STRING
+ユニークエンジェル/シェムハザ
+> CONTEXT: Classes/402/name/
+Unique Angel/Shemhaza
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ノーブル
+> CONTEXT: Classes/403/name/
+Unique Succubus/Noble
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/タレイア
+> CONTEXT: Classes/404/name/
+Unique Succubus/Thalia
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/エウプロシュネー
+> CONTEXT: Classes/405/name/
+Unique Succubus/Euphrosyne
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/アグライアー
+> CONTEXT: Classes/406/name/
+Unique Succubus/Aglaia
+> END STRING
+
+> BEGIN STRING
+ユニークマキナ/ニューオメガ
+> CONTEXT: Classes/407/name/
+Unique Machina/New Omega
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ジャヒー
+> CONTEXT: Classes/408/name/
+Unique Succubus/Jahi
+> END STRING
+
+> BEGIN STRING
+翼/暗黒の翼
+> CONTEXT: Classes/409/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■ふたなり集落枠
+> CONTEXT: Classes/410/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+バイコボルト/橙
+> CONTEXT: Classes/411/name/
+Bai Kobold/橙
+> END STRING
+
+> BEGIN STRING
+リミテッドスレイヴ/桃
+> CONTEXT: Classes/412/name/
+Limited Slave/桃
+> END STRING
+
+> BEGIN STRING
+リミテッドスレイヴ/緑
+> CONTEXT: Classes/413/name/
+Limited Slave/緑
+> END STRING
+
+> BEGIN STRING
+リミテッドスレイヴ/青
+> CONTEXT: Classes/414/name/
+Limited Slave/青
+> END STRING
+
+> BEGIN STRING
+リミテッドスレイヴ/黒
+> CONTEXT: Classes/415/name/
+Limited Slave/黒
+> END STRING
+
+> BEGIN STRING
+■大天使の城
+> CONTEXT: Classes/418/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1746/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ベル
+> CONTEXT: Classes/419/name/
+Unique Succubus/Belle
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/アコライト
+> CONTEXT: Classes/420/name/
+Unique Succubus/Acolyte
+> END STRING
+
+> BEGIN STRING
+■追加夢魔枠
+> CONTEXT: Classes/421/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スロウス/紫
+> CONTEXT: Classes/422/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ロフォフォア/紫
+> CONTEXT: Classes/423/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アスモデウス/赤
+> CONTEXT: Classes/424/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィズ/青
+> CONTEXT: Classes/426/name/
+Wiz/青
+> END STRING
+
+> BEGIN STRING
+ワンダー/赤
+> CONTEXT: Classes/427/name/
+Wonder/赤
+> END STRING
+
+> BEGIN STRING
+マーナガルム/赤
+> CONTEXT: Classes/428/name/
+Managarmr/赤
+> END STRING
+
+> BEGIN STRING
+イノセント/白
+> CONTEXT: Classes/429/name/
+Innocent/白
+> END STRING
+
+> BEGIN STRING
+トロル/赤
+> CONTEXT: Classes/430/name/
+Troll/赤
+> END STRING
+
+> BEGIN STRING
+カグヤ/黒
+> CONTEXT: Classes/431/name/
+Kaguya/黒
+> END STRING
+
+> BEGIN STRING
+ソーサラー/紫
+> CONTEXT: Classes/432/name/
+Sorcerer/紫
+> END STRING
+
+> BEGIN STRING
+アルミラージ/青
+> CONTEXT: Classes/433/name/
+Almiraj/青
+> END STRING
+
+> BEGIN STRING
+ネコマタ/橙
+> CONTEXT: Classes/434/name/
+Nekomata/橙
+> END STRING
+
+> BEGIN STRING
+オートマタ/青
+> CONTEXT: Classes/435/name/
+Automata/青
+> END STRING
+
+> BEGIN STRING
+オートマタ/白
+> CONTEXT: Classes/436/name/
+Automata/白
+> END STRING
+
+> BEGIN STRING
+オートマタ/黒
+> CONTEXT: Classes/437/name/
+Automata/黒
+> END STRING
+
+> BEGIN STRING
+レヴナント/茶
+> CONTEXT: Classes/438/name/
+Revenant/茶
+> END STRING
+
+> BEGIN STRING
+バトラー/青
+> CONTEXT: Classes/439/name/
+Butler/青
+> END STRING
+
+> BEGIN STRING
+ロックゴーレム/橙
+> CONTEXT: Classes/440/name/
+Rock Golem/橙
+> END STRING
+
+> BEGIN STRING
+ダイヤゴーレム/青
+> CONTEXT: Classes/441/name/
+Dia Golem/青
+> END STRING
+
+> BEGIN STRING
+ミルケンティア/白
+> CONTEXT: Classes/442/name/
+Milkencia/白
+> END STRING
+
+> BEGIN STRING
+シルフ/緑
+> CONTEXT: Classes/443/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ツキヨダケ/白
+> CONTEXT: Classes/444/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マモン/黒
+> CONTEXT: Classes/445/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トリニティ/白
+> CONTEXT: Classes/446/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トリニティ/黄
+> CONTEXT: Classes/447/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トリニティ/青
+> CONTEXT: Classes/448/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トリニティ/緋
+> CONTEXT: Classes/449/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ユニークチャイルド/ライジェロ
+> CONTEXT: Classes/451/name/
+> CONTEXT: Classes/453/name/
+Unique Child/Raigero
+> END STRING
+
+> BEGIN STRING
+ユニークチャイルド/ライジェロ/最高の姿
+> CONTEXT: Classes/452/name/
+Unique Child/Raigero/Ideal form
+> END STRING
+
+> BEGIN STRING
+ハーフエンジェル/プティ
+> CONTEXT: Classes/478/name/
+Half-Angel/Puty
+> END STRING
+
+> BEGIN STRING
+ハーフエンジェル/プティ/最高の姿
+> CONTEXT: Classes/479/name/
+Half-Angel/Puty/Ideal form
+> END STRING
+
+> BEGIN STRING
+■地獄監獄
+> CONTEXT: Classes/501/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ドラギニャッツォ
+> CONTEXT: Classes/502/name/
+Unique Succubus/Draghignazzo
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/リビコッコ
+> CONTEXT: Classes/503/name/
+Unique Succubus/Libicocco
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ファルファレルロ
+> CONTEXT: Classes/504/name/
+Unique Succubus/Farfarello
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/カニャッツォ
+> CONTEXT: Classes/505/name/
+Unique Succubus/Cagnazzo
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/グラッフィアカーネ
+> CONTEXT: Classes/506/name/
+Unique Succubus/Graffiacane
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/チリアット
+> CONTEXT: Classes/507/name/
+Unique Succubus/Ciriatto
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/マラコーダ
+> CONTEXT: Classes/508/name/
+Unique Succubus/Malacoda
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/アリキーノ
+> CONTEXT: Classes/509/name/
+Unique Succubus/Alichino
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/カルカブリーナ
+> CONTEXT: Classes/510/name/
+Unique Succubus/Calcabrina
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/バルバリッチャ
+> CONTEXT: Classes/511/name/
+Unique Succubus/Barbariccia
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ルビカンテ
+> CONTEXT: Classes/512/name/
+Unique Succubus/Rubicante
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/スカルミリオーネ
+> CONTEXT: Classes/513/name/
+Unique Succubus/Scarmiglione
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/カンビオン
+> CONTEXT: Classes/514/name/
+Unique Succubus/Cambion
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/カンビアーレ
+> CONTEXT: Classes/515/name/
+Unique Succubus/Cambiare
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/オノスケリス
+> CONTEXT: Classes/516/name/
+Unique Succubus/Onoskeris
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/アズライグ
+> CONTEXT: Classes/517/name/
+Unique Succubus/Azraigue
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/グウィバー
+> CONTEXT: Classes/518/name/
+Unique Succubus/Gwiber
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/茨木童子
+> CONTEXT: Classes/519/name/
+Unique Succubus/Ibaraki Doji
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/善狐
+> CONTEXT: Classes/520/name/
+Unique Succubus/Zenko
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/イヅナ
+> CONTEXT: Classes/521/name/
+Unique Succubus/Izuna
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/魔縁
+> CONTEXT: Classes/522/name/
+Unique Succubus/Maen
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/金華猫
+> CONTEXT: Classes/523/name/
+Unique Succubus/Kinkabyo
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ドゥーロン
+> CONTEXT: Classes/524/name/
+Unique Succubus/Doulon
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ローズ
+> CONTEXT: Classes/525/name/
+Unique Succubus/Rose
+> END STRING
+
+> BEGIN STRING
+デザイア/青
+> CONTEXT: Classes/526/name/
+Desire/青
+> END STRING
+
+> BEGIN STRING
+■悪夢の前線
+> CONTEXT: Classes/531/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1901/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グレムリン/紫
+> CONTEXT: Classes/532/name/
+Gremlin/紫
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/カイン＆アベル
+> CONTEXT: Classes/533/name/
+Unique Succubus/Cain＆Abel
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/アンテノーラ
+> CONTEXT: Classes/534/name/
+Unique Succubus/Antenora
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/トロメーア
+> CONTEXT: Classes/535/name/
+Unique Succubus/Tolomea
+> END STRING
+
+> BEGIN STRING
+ユニークサキュバス/ジュデッカ
+> CONTEXT: Classes/536/name/
+Unique Succubus/Giudecca
+> END STRING
+
+> BEGIN STRING
+スクーグスロー/赤
+> CONTEXT: Classes/550/name/ < UNTRANSLATED
 
 > END STRING

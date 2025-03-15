@@ -1,0 +1,321 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+"受付"
+> CONTEXT: Map652/events/1/pages/0/0/InlineScript/1:22
+> CONTEXT: Map527/events/2/pages/0/0/InlineScript/1:22
+> CONTEXT: Map528/events/2/pages/0/0/InlineScript/1:22
+> CONTEXT: Map083/events/6/pages/0/0/InlineScript/1:22
+> CONTEXT: Map083/events/6/pages/1/0/InlineScript/1:22
+> CONTEXT: Map083/events/6/pages/2/0/InlineScript/1:22
+> CONTEXT: Map083/events/12/pages/0/0/InlineScript/1:22
+> CONTEXT: Map083/events/12/pages/1/0/InlineScript/1:22
+"Reception"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+いらっしゃいませ。宿泊室が満室のため、
+半日の休憩室のみご利用いただけます。
+> CONTEXT: Map652/events/1/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Welcome. All rooms are fully booked, 
+so you can only use the rest room for half a day.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ご利用なさいますか？
+（時間が経過します）
+> CONTEXT: Map652/events/1/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Would you like to use it?
+(Time will pass)
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+かしこまりました。
+では、ごゆっくりどうぞ。
+> CONTEXT: Map652/events/1/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+I understand.
+Please take your time.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+またのお越しをお待ちしております。
+> CONTEXT: Map652/events/1/pages/0/33/Dialogue
+\\name[\\v[2]]\\_
+We look forward to seeing you again.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+いらっしゃいませ。
+何をお飲みになられますか？
+> CONTEXT: Map652/events/6/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Welcome.
+What would you like to drink?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ホットミルクですね？\\|
+ふふっ、背伸びしないところが素敵ですね\\H
+> CONTEXT: Map652/events/6/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Hot milk, eh? \\|
+Hehe, it's great that you're not overly ambitious\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふぅー･･･
+仕事終わりの一杯は格別だなあ。
+時間があったら娼館にでも･･･。
+> CONTEXT: Map652/events/7/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+Phew...
+A drink after work is something special.
+If I have time, I'll go to a brothel...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おっと！
+今のは聞かなかったことにしてくれ。
+最近来た新しい上司が厳しくてな･･･。
+> CONTEXT: Map652/events/7/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+Oops!
+Pretend you didn't hear that.
+My new boss is really strict...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この都市は夜も賑やかだね。
+いや、夜の方が賑やかなのかな。
+まあ、男には喜ばしいことだけどね。
+> CONTEXT: Map652/events/8/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+This city is lively at night too.
+Or maybe it's even more lively at night.
+Well, that's good news for a guy, though.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この街はメイドの競争率が高いのよね･･･。
+メイドの夢魔っていうのもいるから、余計にね。
+> CONTEXT: Map652/events/9/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+There's a lot of competition for maids in this town...
+There are also maid succubi, so it's even more intense.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+一見治安が良さそうに見えても、
+夜になると夢魔たちが夜這いをするらしい。
+まあ、搾り殺されたりはしないようだが･･･。
+> CONTEXT: Map652/events/10/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Although it may seem like a safe place at first glance,
+it seems like succubi come crawling around at night.
+Well, they don't kill by blood, though...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それもここの領主のお蔭なんだそうだ。
+しかし、よくあの色情魔たちを抑制できるもんだな。
+> CONTEXT: Map652/events/10/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+Apparently, it's all thanks to the lord here.
+But it's amazing how she can keep those 
+lustful demons in check.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+外の領域はまともに暮らせないせいか、
+この都市に移住する人間が後を絶たないようね。
+> CONTEXT: Map652/events/11/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Maybe because it's impossible to live normally 
+in the outside realms, it seems like there's no end 
+to people migrating to this city.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･まあ、ここでも偶に襲われたりするらしいけど。
+まだ許容範囲内かしら。
+> CONTEXT: Map652/events/11/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+...Well, apparently people do get attacked here occasionally.
+I guess that's still within the tolerable range.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お偉いさんは可愛い夢魔を
+メイドにして侍らしてると聞いたが
+羨ましい限りだ。
+> CONTEXT: Map652/events/12/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I heard that the bigwigs have cute succubi maids
+and I'm really jealous.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+俺も権力と精力があれば
+夢魔とイチャイチャできるのになぁ･･･。
+> CONTEXT: Map652/events/12/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+If only I had the power and energy
+I could flirt with a succubus...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+普通の生活なんて初めてだなぁ･･･。
+今までの生活なんて、暗くて寒い
+牢屋の中だったから･･･。
+> CONTEXT: Map652/events/13/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+This is the first time I've had a normal life...
+My life up until now has been a dark, cold
+prison cell...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+頑張って家事の特訓してメイドになってみよう。
+私でも役に立てることがあるかもしれない。
+> CONTEXT: Map652/events/13/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+I'll try my best to train in housework and become a maid.
+Even I might be able to be useful.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+隣の子、奴隷だったんだろうか。
+こんなに可愛いのに世の中は残酷なことだ。
+> CONTEXT: Map652/events/14/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I wonder if the girl next door was a slave.
+She's so cute, but the world is so cruel.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それでも頑張る姿が健気すぎて
+心に来るものがあるな。
+> CONTEXT: Map652/events/14/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Even so, her efforts are so brave
+that it really touches my heart.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+…俺も警備を頑張るとするか。
+子供に負けちゃ、大人の恥だしな。
+> CONTEXT: Map652/events/14/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+... I guess I'll try my best to keep watch.
+It would be a disgrace for an adult to lose to a kid.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+いらっしゃいませ。
+お泊りの際はカウンターまでお越しください。
+> CONTEXT: Map652/events/15/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Welcome.
+Please go to the counter if you are staying overnight.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ぼくは天使の生き残り。
+･･･別に仲間が死んだわけじゃないんだけどね。
+殆どが堕天しちゃったんだ。
+> CONTEXT: Map652/events/16/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I'm the only surviving angel.
+...It's not like my friends died or anything.
+Most of them fell from grace.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+寂しくはあるけど、堕天した仲間は楽しそうだし、
+この結末も、ある意味じゃ幸せなのかな。
+> CONTEXT: Map652/events/16/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+It's sad, but the fallen angels seem to be having fun,
+so I guess this ending is a happy one in a way.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここのミルクは最高だぜ･･･
+栄養が段違いだし、何よりまろやかさが違う。
+> CONTEXT: Map652/events/19/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+The milk here is the best...
+It's so much more nutritious, 
+and best of all, it's so smooth.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+とても牛から取れたとは思えん･･･
+どんな品種なのか、興味があるな。
+> CONTEXT: Map652/events/19/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+I can't believe this came from a cow...
+I'm curious to know what breed it is.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お、俺は見たんだ！
+街の東区に、ゆゆ幽霊がいたんだって！
+> CONTEXT: Map652/events/36/pages/0/1/Dialogue
+> CONTEXT: Map652/events/36/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+Oh, I saw it!
+Apparently there was a ghost 
+in the east district of the city!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+いや、幽霊は珍しくないかもしれないが、
+メイドの幽霊なんだよ！
+あれは絶対ヤバイって！　信じてくれって！
+> CONTEXT: Map652/events/36/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Well, ghosts might not be uncommon,
+but a maid ghost!
+That's definitely scary! Believe me!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+え？もう倒した？
+･･････アンタ、すげーな･･･。
+> CONTEXT: Map652/events/36/pages/1/4/Dialogue
+\\name[\\v[2]]\\_
+Huh? You've already defeated her?
+...You're amazing...
+> END STRING

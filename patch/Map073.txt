@@ -1,19 +1,5 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-"フードの老婆"
-> CONTEXT: Map073/events/23/pages/0/0/InlineScript/1:22
-"Old hooded woman"
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ひ、ひ、ひ･･････。
-> CONTEXT: Map073/events/23/pages/0/1/Dialogue
-\\name[\\v[2]]\\_
-Hih, hih, hih...
-> END STRING
-
-> BEGIN STRING
 \\name[\\v[2]]\\_
 迷ってないかい？　帰りたくないかい？　逃げたくないかい？
 > CONTEXT: Map073/events/23/pages/0/3/Dialogue
@@ -39,29 +25,6 @@ Hih hih, what do you say?
 > END STRING
 
 > BEGIN STRING
-買う
-> CONTEXT: Commonevents/131/6/Choice/0
-> CONTEXT: Map073/events/23/pages/0/9/Choice/0
-> CONTEXT: Map073/events/23/pages/0/9/Choice/0
-Buy
-> END STRING
-
-> BEGIN STRING
-買わない
-> CONTEXT: Map002/events/4/pages/0/23/Choice/1
-> CONTEXT: Map002/events/4/pages/0/46/Choice/1
-> CONTEXT: Map010/events/13/pages/0/16/Choice/1
-> CONTEXT: Map002/events/4/pages/1/12/Choice/1
-> CONTEXT: Map002/events/4/pages/1/35/Choice/1
-> CONTEXT: Commonevents/131/6/Choice/1
-> CONTEXT: Map073/events/23/pages/0/9/Choice/1
-> CONTEXT: Map073/events/23/pages/0/9/Choice/1
-> CONTEXT: Map023/events/2/pages/0/16/Choice/1
-> CONTEXT: Map023/events/2/pages/0/16/Choice/1
-Don't buy
-> END STRING
-
-> BEGIN STRING
 \\name[\\v[2]]\\_
 ひ、ひ、ほら。風の翼だ･･････。
 > CONTEXT: Map073/events/23/pages/0/14/Dialogue
@@ -75,22 +38,4 @@ Hih, hih, look. It's Wind Wings..
 > CONTEXT: Map073/events/23/pages/0/23/Dialogue
 \\name[\\v[2]]\\_
 Please come again... Hih, hih.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-･･････ひっ、ひっ。
-お金が無いじゃないか･･･それならお売りできないねぇ･･････。
-> CONTEXT: Map073/events/23/pages/0/27/Dialogue
-\\name[\\v[2]]\\_
-...Hih, hih.
-You don't have the money... I can't sell it...
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ひ、ひ、そうかいそうかい･･････。
-> CONTEXT: Map073/events/23/pages/0/34/Dialogue
-\\name[\\v[2]]\\_
-Hih, hih, I see, I see...
 > END STRING

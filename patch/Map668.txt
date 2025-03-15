@@ -1,0 +1,61 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あつつ･･･っ
+もう、誰か手伝いに来てよー！
+> CONTEXT: Map668/events/13/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Oh no...
+Someone please come help me!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら、参拝の方がこちら来るなんて珍しいですね。
+> CONTEXT: Map668/events/14/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Oh, it's unusual for someone to come here to worship.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この先はシスターの居住エリアです。
+立ち入り禁止ではありませんが、
+お静かにお願いいたします。
+> CONTEXT: Map668/events/15/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+The area ahead is where the sisters live.
+You're not prohibited from entering, but
+please be quiet.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここの礼拝堂って変わった構造してるよな。
+何か意味でもあるのだろうか。
+> CONTEXT: Map668/events/16/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+This chapel has a strange structure.
+I wonder if there's some significance to it.
+> END STRING
+
+> BEGIN STRING
+"天使"
+> CONTEXT: Map668/events/17/pages/0/0/InlineScript/1:22
+> CONTEXT: Map666/events/30/pages/0/0/InlineScript/1:22
+> CONTEXT: Map652/events/16/pages/0/0/InlineScript/1:22
+> CONTEXT: Map632/events/16/pages/0/56/InlineScript/1:22
+> CONTEXT: Map641/events/106/pages/1/1/InlineScript/1:22
+"Angel"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+行く宛てないからここにいるけど
+慣れてしまうと住み心地悪くないね。
+> CONTEXT: Map668/events/17/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I'm here because I don't have anywhere to go, 
+but once you get used to it, 
+it's not so uncomfortable to live here.
+> END STRING

@@ -1,120 +1,78 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 \\name[\\v[2]]\\_
+最近、樹海で見たことがないような
+夢魔が現れるようになったの
+あなたも気を付けてね
+> CONTEXT: Map209/events/7/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Recently, never before seen succubi 
+have started appearing in the Sea of Trees
+so be careful
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……何よその顔は
+ちょっと見に行ってみようだなんて
+思わない方がいいわよ？
+> CONTEXT: Map209/events/7/pages/0/5/Dialogue
+> CONTEXT: Map209/events/7/pages/1/5/Dialogue
+\\name[\\v[2]]\\_
+...What's with that face?
+You shouldn't even think about going to have a look.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+最近、各地で見たことがないような
+夢魔が現れるようになったの
+あなたも気を付けてね
+> CONTEXT: Map209/events/7/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+Recently, unprecedented succubi 
+have been appearing in various places
+so please be careful
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+左はお店だな。道具屋と魔法屋がいる。
+買い物はここでやるんだね。
+> CONTEXT: Map209/events/10/pages/0/16/Dialogue
+\\name[\\v[2]]\\_
+On the left are the shops. There's a tool shop and a magic shop.
+This is where you do your shopping.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+上の建物は酒場と図書館と娼館になっているのさ。
+人がいっぱい集まるから色んなことが聞けると思うよ。
+> CONTEXT: Map209/events/10/pages/0/21/Dialogue
+\\name[\\v[2]]\\_
+The building above is a bar, a library, and a brothel.
+It's a place where a lot of people gather, 
+so I think you'll be able to hear a lot of things.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･お、これはこれは\\n[101]のあねさん。
+あねさんは確かルーンの刻印を専門としてるんでしたよね。
+> CONTEXT: Map209/events/12/pages/0/12/Dialogue < UNTRANSLATED
+> CONTEXT: Map209/events/12/pages/0/18/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
 ･･･お、これはこれは\\n[101]の旦那。
 旦那は確かルーンの刻印を専門としてるんでしたよね。
-> CONTEXT: Map209/events/3/pages/0/11/Dialogue
+> CONTEXT: Map209/events/12/pages/0/23/Dialogue
 \\name[\\v[2]]\\_
 ...Oh, this is master \\n[101]!
 He specializes in rune engravings.
-> END STRING
-
-> BEGIN STRING
-小さな虚の中に鬱蒼と生い茂る樹海が見える･･･。
-> CONTEXT: Map209/events/9/pages/0/0/Dialogue
-A sea of lush trees can be seen through the small hole...
-> END STRING
-
-> BEGIN STRING
-もっと良く覗き込んでみますか？
-> CONTEXT: Map209/events/9/pages/0/1/Dialogue
-Would you like to take a closer look?
-> END STRING
-
-> BEGIN STRING
-"魔法屋妹"
-> CONTEXT: Map209/events/11/pages/0/0/InlineScript/1:22
-> CONTEXT: Map209/events/11/pages/1/0/InlineScript/1:22
-"Mage girl"
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ルーンの刻印は、メニューのステータスの装備画面で\\_
-できますよ。
-> CONTEXT: Map209/events/11/pages/0/1/Dialogue
-> CONTEXT: Map209/events/11/pages/1/1/Dialogue
-\\name[\\v[2]]\\_
-You can engrave runes on the equipment screen in the status menu.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ただ、ルーンは通常の装備品とは違って消費物のため、
-\\c[12]一度刻印すると外して再度刻印することが\\_
-できません\\c[0]。
-> CONTEXT: Map209/events/11/pages/0/4/Dialogue
-\\name[\\v[2]]\\_
-However, unlike normal equipment, runes are consumable items, so
-\\c[12]Once engraved, it cannot be removed and engraved again\\c[0].
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-貴重なルーンの刻印には慎重になるべきですね。
-> CONTEXT: Map209/events/11/pages/0/8/Dialogue
-\\name[\\v[2]]\\_
-You should be careful about engraving valuable runes.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-良ければこちらをお試しください。
-> CONTEXT: Map209/events/11/pages/0/11/Dialogue
-\\name[\\v[2]]\\_
-Please try it with this if you want.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-お渡ししたものはあまり貴重なものではありません。
-そこにいる姉に言えば購入もできますよ。
-> CONTEXT: Map209/events/11/pages/0/20/Dialogue
-\\name[\\v[2]]\\_
-What I gave you is not very valuable.
-You can also buy it from that girl there.
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-･･････って、ラーミル様のお弟子様じゃありませんか！
-あわわわわご存知ですよね、失礼しました！！
-> CONTEXT: Map209/events/11/pages/0/26/Dialogue
-\\name[\\v[2]]\\_
-You are Ramil's disciple!?
-Uwaa! Sorry, I didn't know!!
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-パーティにいない仲間の夢魔も、お弟子様が歩いているうちに
-契約の珠が増えていくのはご存知ですか？
-> CONTEXT: Map209/events/11/pages/1/4/Dialogue
-\\name[\\v[2]]\\_
-Did you know that the number of contract beads will increase
-as you walk, even for succubi who are not in your party?
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-これはガラスの指輪や信頼のルーンの効果も影響します\\_
-ので、\\n連れていけないけど強くはしたいって子に\\_
-つけておくとお得ですよ！
-> CONTEXT: Map209/events/11/pages/1/7/Dialogue
-\\name[\\v[2]]\\_
-Things like Glass Ring and Trust Rune are in effect
-even for girls that aren't with you, so it's useful to\\n\\_
-equip them for those that aren't strong enough to take with you!
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-信頼のルーンは当店で取り扱うようになりましたから、
-ご入用の際は是非当魔道具専門店へ！
-> CONTEXT: Map209/events/11/pages/1/11/Dialogue
-\\name[\\v[2]]\\_
-Trust Rune is now available at our store,
-If you want it, please visit our magic tool specialty store!
 > END STRING
 
 > BEGIN STRING
@@ -141,12 +99,6 @@ Special keys in battle
 キーコンフィグ
 > CONTEXT: Map209/events/15/pages/0/3/Choice/2
 Key config
-> END STRING
-
-> BEGIN STRING
-その他
-> CONTEXT: Map209/events/15/pages/0/3/Choice/3
-Other
 > END STRING
 
 > BEGIN STRING
@@ -252,54 +204,140 @@ you will start from where you last saved.
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[2]]\\_
-･･･良い顔つきになったね。
-> CONTEXT: Map209/events/16/pages/1/2/Dialogue
-\\name[\\v[2]]\\_
-...You look nice now.
+宝箱の底に何かがある
+> CONTEXT: Map209/events/17/pages/1/0/Dialogue
+There's something at the bottom of the chest
+> END STRING
+
+> BEGIN STRING
+"動く宝箱"
+> CONTEXT: Map209/events/17/pages/2/0/InlineScript/1:22
+"Moving treasure chest"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-さぁ、決着を付けに行くといい。
-私も応援しているよ。
-> CONTEXT: Map209/events/16/pages/1/4/Dialogue
+なんだぁ
+宝箱が動いてたらおかしいか？
+> CONTEXT: Map209/events/17/pages/2/1/Dialogue
 \\name[\\v[2]]\\_
-Now, let's settle things.
-I'm rooting for you.
+What?
+Is it weird for a treasure chest to move?
+> END STRING
+
+> BEGIN STRING
+タルの中に何かがある
+> CONTEXT: Map209/events/28/pages/0/0/Dialogue
+There's something in the barrel
+> END STRING
+
+> BEGIN STRING
+"魔法屋妹"
+> CONTEXT: Map209/events/34/pages/0/0/InlineScript/1:22
+> CONTEXT: Map209/events/34/pages/1/0/InlineScript/1:22
+"Mage girl"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-夢干渉はできるようになった？
-> CONTEXT: Map209/events/16/pages/1/9/Dialogue
+ルーンの刻印は、メニューのステータスの装備画面で\\_
+できますよ。
+> CONTEXT: Map209/events/34/pages/0/1/Dialogue
+> CONTEXT: Map209/events/34/pages/1/1/Dialogue
 \\name[\\v[2]]\\_
-Is dream interference now possible?
+You can engrave runes on the equipment screen in the status menu.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-じゃあ、君がここまで来た道を戻ろうか。
-ほら、「浅き夢の瀬」さ。
-> CONTEXT: Map209/events/16/pages/1/11/Dialogue
+ただ、ルーンは通常の装備品とは違って消費物のため、
+\\c[12]一度刻印すると外して再度刻印することが\\_
+できません\\c[0]。
+> CONTEXT: Map209/events/34/pages/0/4/Dialogue
 \\name[\\v[2]]\\_
-Well then, try going back the way you came here.
-To the "Shallow Dream Waters".
+However, unlike normal equipment, runes are consumable items, so
+\\c[12]Once engraved, it cannot be removed and engraved again\\c[0].
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-来た時には開かない扉があっただろう？
-> CONTEXT: Map209/events/16/pages/1/14/Dialogue
+貴重なルーンの刻印には慎重になるべきですね。
+> CONTEXT: Map209/events/34/pages/0/8/Dialogue
 \\name[\\v[2]]\\_
-There was a door that wouldn't open when you arrived, right?
+You should be careful about engraving valuable runes.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+良ければこちらをお試しください。
+> CONTEXT: Map209/events/34/pages/0/11/Dialogue
+\\name[\\v[2]]\\_
+Please try it with this if you want.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お渡ししたものはあまり貴重なものではありません。
+そこにいる姉に言えば購入もできますよ。
+> CONTEXT: Map209/events/34/pages/0/20/Dialogue
+\\name[\\v[2]]\\_
+What I gave you is not very valuable.
+You can also buy it from that girl there.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･････って、ラーミル様のお弟子様じゃありませんか！
+あわわわわご存知ですよね、失礼しました！！
+> CONTEXT: Map209/events/34/pages/0/26/Dialogue
+\\name[\\v[2]]\\_
+You are Ramil's disciple!?
+Uwaa! Sorry, I didn't know!!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+パーティにいない仲間の夢魔も、お弟子様が歩いているうちに
+契約の珠が増えていくのはご存知ですか？
+> CONTEXT: Map209/events/34/pages/1/4/Dialogue
+\\name[\\v[2]]\\_
+Did you know that the number of contract beads will increase
+as you walk, even for succubi who are not in your party?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+これはガラスの指輪や信頼のルーンの効果も影響します\\_
+ので、\\n連れていけないけど強くはしたいって子に\\_
+つけておくとお得ですよ！
+> CONTEXT: Map209/events/34/pages/1/7/Dialogue
+\\name[\\v[2]]\\_
+Things like Glass Ring and Trust Rune are in effect
+even for girls that aren't with you, so it's useful to\\n\\_
+equip them for those that aren't strong enough to take with you!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+信頼のルーンは当店で取り扱うようになりましたから、
+ご入用の際は是非当魔道具専門店へ！
+> CONTEXT: Map209/events/34/pages/1/11/Dialogue
+\\name[\\v[2]]\\_
+Trust Rune is now available at our store,
+If you want it, please visit our magic tool specialty store!
+> END STRING
+
+> BEGIN STRING
+小さな虚の中に雪景色が見える･･･。
+> CONTEXT: Map209/events/35/pages/0/0/Dialogue
+A snowy landscape can be seen in the small hollow space...
 > END STRING
 
 > BEGIN STRING
 デバッグアイテムを入手しますか？
 （テストプレイ中は持ったままにしないで下さい。
 　また、デバッグアイテムは売却することができます）
-> CONTEXT: Map209/events/18/pages/0/0/Dialogue
+> CONTEXT: Map209/events/37/pages/0/0/Dialogue
 Do you want to get debug items?
 (Please do not use them while playtesting.
 Also, debug items can be sold)
@@ -309,90 +347,1195 @@ Also, debug items can be sold)
 デバッグアイテムを使用することで、\\_
 デバッグルームへ直行できます。\\n口上確認用部屋は、\\_
 右側にある扉へ入って、更に右側へ進んで下さい。
-> CONTEXT: Map209/events/18/pages/0/13/Dialogue
+> CONTEXT: Map209/events/37/pages/0/13/Dialogue
 By using debug items, you can go directly to the debug room.
 For the dialog test room, enter the door
 to the right and proceed further to the right.
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[2]]\\_
-･･･カオシアの身体をどうにかできないかって思ったの。\\|
-いつ動けるようになるかって保証も無いし。
-> CONTEXT: Map209/events/19/pages/1/1/Dialogue
-\\name[\\v[2]]\\_
-...I was wondering if there was something I could do
-about Chaosia's body. \\|\\n\\_
-There is no guarantee when she will be able to move again.
+"庭の女の子"
+> CONTEXT: Map209/events/39/pages/0/2/InlineScript/1:22
+> CONTEXT: Map209/events/39/pages/1/2/InlineScript/1:22
+> CONTEXT: Map209/events/39/pages/2/2/InlineScript/1:22
+> CONTEXT: Map209/events/39/pages/3/2/InlineScript/1:22
+> CONTEXT: Map209/events/39/pages/4/2/InlineScript/1:22
+> CONTEXT: Map209/events/39/pages/5/2/InlineScript/1:22
+"Garden Girl"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-で、思い出したことがあってね。
-> CONTEXT: Map209/events/19/pages/1/4/Dialogue
+シーシーシー♪
+> CONTEXT: Map209/events/39/pages/0/3/Dialogue
+> CONTEXT: Map209/events/39/pages/1/3/Dialogue
+> CONTEXT: Map209/events/39/pages/2/3/Dialogue
+> CONTEXT: Map209/events/39/pages/3/3/Dialogue
+> CONTEXT: Map209/events/39/pages/4/3/Dialogue
+> CONTEXT: Map209/events/39/pages/5/3/Dialogue
 \\name[\\v[2]]\\_
-So, I remembered something.
+*whistling*♪
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-パルフィス密教会に使える素体があるはずなの。
-\\c[12]リリスの器\\c[0]って言うんだけど。
-> CONTEXT: Map209/events/19/pages/1/6/Dialogue
+お花をどうぞ♪
+> CONTEXT: Map209/events/39/pages/0/12/Dialogue
+> CONTEXT: Map209/events/39/pages/2/12/Dialogue
+> CONTEXT: Map209/events/39/pages/4/12/Dialogue
 \\name[\\v[2]]\\_
-There should be a figurine we could use in the Palfis Secret Church.
-It's called \\c[12]Lilith's Vessel\\c[0].
+Here's some flowers♪
+> END STRING
+
+> BEGIN STRING
+……。
+> CONTEXT: Map209/events/52/pages/0/0/Dialogue
+...
+> END STRING
+
+> BEGIN STRING
+気絶した男のかたわらに、形容し難い形状の肉塊が転がって
+いる……。
+> CONTEXT: Map209/events/52/pages/0/1/Dialogue
+Next to the unconscious man lies 
+a mass of flesh of an indescribable shape...
+> END STRING
+
+> BEGIN STRING
+鏡を調べると設定マップに行けます。
+> CONTEXT: Map209/events/56/pages/0/0/Dialogue
+Examining the mirror takes you to the setting map.
+> END STRING
+
+> BEGIN STRING
+"リセットメイド"
+> CONTEXT: Map209/events/58/pages/0/1/InlineScript/1:22
+"Reset Maid"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-ただちょっと、置いてる場所が特殊というか･･･。
-貴重品室にあって、その部屋は普通は見えない所にあるの。
-> CONTEXT: Map209/events/19/pages/1/9/Dialogue
+過去のバージョンで習得したスキルや素質などを
+現在の状態に合わせて更新します
+> CONTEXT: Map209/events/58/pages/0/2/Dialogue
 \\name[\\v[2]]\\_
-However, it's located in a rather special place...
-It's in the treasure room, and that room is usually out of sight.
+Skills and qualities acquired in previous versions
+will be updated to match the current state.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-私も詳しい行き方は知らないんだけど･･･。
-話だけは知ってるからその場所だけは分かる。
-> CONTEXT: Map209/events/19/pages/1/12/Dialogue
+更新が完了しました
+> CONTEXT: Map209/events/58/pages/0/10/Dialogue
+> CONTEXT: Commonevents/304/12/Dialogue
 \\name[\\v[2]]\\_
-I don't know the exact directions either...
-My only knowledge of that place is based on what I've heard.
+Update completed
+> END STRING
+
+> BEGIN STRING
+夢魔の街
+> CONTEXT: Map209/events/60/pages/0/0/Choice/1
+> CONTEXT: Map209/events/60/pages/0/0/Choice/1
+Succubus City
+> END STRING
+
+> BEGIN STRING
+銀色の都市
+> CONTEXT: Map209/events/60/pages/0/0/Choice/2
+> CONTEXT: Map209/events/60/pages/0/0/Choice/2
+Silver City
+> END STRING
+
+> BEGIN STRING
+"夢見る羊さん"
+> CONTEXT: Map209/events/61/pages/0/0/InlineScript/1:22
+"Dream Sheep"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-\\c[12]循環研究棟の５．５号室\\c[0]。
-場所は分かるのに、場所が分からないなんて\\_
-おかしな話よね。
-> CONTEXT: Map209/events/19/pages/1/15/Dialogue
+そこの君、ボーナス取得は使っているかな？
+> CONTEXT: Map209/events/61/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
-\\c[12]Room 5.5 of the Circular Research Hall\\c[0].
-It's strange to know where something is, but not know where it is.
+Hey you, are you using the bonus acquisition?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-詳しい人が循環研究棟にいるだろうから、
-聞きに行ってみましょう。
-> CONTEXT: Map209/events/19/pages/1/19/Dialogue
+夢魔たちと同じように
+君自身も個性をつけれるようになったんだよ。
+> CONTEXT: Map209/events/61/pages/0/3/Dialogue
 \\name[\\v[2]]\\_
-I'm sure there are people in the Circular Research Hall
-who know more about it. Let's go and listen.
+Just like the succubi,
+you too can now have your own personality.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-あ、話を聞くときは私を連れて行って。
-貴重品室なんて、部外者に教えてくれないと思うし。
-あそこの連中なら、私も話がしやすいから。
-> CONTEXT: Map209/events/19/pages/1/22/Dialogue
+さらに名うての夢魔と契約することで
+その夢魔の力を借りることが出来るようなるんだ。
+> CONTEXT: Map209/events/61/pages/0/6/Dialogue
 \\name[\\v[2]]\\_
-Oh, take me with you when you go talk to them.
-I don't think they would tell outsiders about the treasure room.
-I can talk to them without a problem.
+Furthermore, by making contracts with notorious succubi,
+you can borrow their power.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+スキルやステータスもがらりと変わるから
+君の好みに合ったのを師事するのもいいだろう。
+> CONTEXT: Map209/events/61/pages/0/10/Dialogue
+> CONTEXT: Map209/events/61/pages/0/16/Dialogue
+\\name[\\v[2]]\\_
+Your skills and stats will change dramatically, 
+so it might be a good idea to study under someone 
+who suits your tastes.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おっと、この先はまた今度にしようか。
+まずはこの世界をよく探索することだね。
+> CONTEXT: Map209/events/61/pages/0/21/Dialogue
+\\name[\\v[2]]\\_
+Oh, I guess I'll leave that for another time.
+First, you need to explore this world thoroughly.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ナンダイアンタ、またユメセカイに
+迷い込んじまったのカ
+> CONTEXT: Map209/events/61/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+What's up, 
+have you gotten lost in the dream world again?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+またユメセカイを回るのも大変ダロ？
+特別に無料で情報を教えてやるヨ。
+キキッ！
+> CONTEXT: Map209/events/61/pages/1/4/Dialogue
+\\name[\\v[2]]\\_
+Is it hard to travel around the Dream World again?
+I'll give you some special information for free.
+Kiki!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+アヤシイところは今のところ二つだナ
+> CONTEXT: Map209/events/61/pages/1/8/Dialogue
+\\name[\\v[2]]\\_
+There are two suspicious things so far.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+一つはここから東へ行ったところに出来た
+デッカイ遊技場ダ。
+> CONTEXT: Map209/events/61/pages/1/10/Dialogue
+\\name[\\v[2]]\\_
+One is a big amusement park that was built east of here.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ナンデモ夢魔の追いかけっこをショーとして
+提供してるらしいが、オーナーは
+かなり力を持った夢魔ダ。
+> CONTEXT: Map209/events/61/pages/1/13/Dialogue
+\\name[\\v[2]]\\_
+It seems to be a show for all kinds of succubi, 
+but the owner is a pretty powerful succubus.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+とはいえ、こっちは密教会とは縁遠いし
+可能性は低いガナ
+本命はもう一つのほうダ
+> CONTEXT: Map209/events/61/pages/1/17/Dialogue
+\\name[\\v[2]]\\_
+However, this one is far removed from the Secret Church, 
+so the chances are low. The other one is the better option.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+闇洞窟の裏手から行ける外れの地ってとこで
+怪しい奴らがウロウロしてたって話だ。
+> CONTEXT: Map209/events/61/pages/1/21/Dialogue
+\\name[\\v[2]]\\_
+I heard there were some suspicious people wandering around 
+in the outskirts that you can reach from behind the Dark Cave.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なんかシスターみたいなカッコした奴が
+いたとかでキナクセーことこの上ないナ。
+> CONTEXT: Map209/events/61/pages/1/24/Dialogue
+\\name[\\v[2]]\\_
+I was so excited to see someone who looked like a nun.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+情報はこんなもんダ。
+まあ、健闘を祈るゼ。
+キキッ！
+> CONTEXT: Map209/events/61/pages/1/27/Dialogue
+> CONTEXT: Map209/events/61/pages/3/84/Dialogue
+\\name[\\v[2]]\\_
+That's all the information I have.
+Well, I wish you the best of luck.
+Kiki!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+俺は情報屋サ。本来なら金をとるが
+特別に無料で情報を教えてやるヨ。
+何が知りたい？キキッ！
+> CONTEXT: Map209/events/61/pages/2/1/Dialogue
+\\name[\\v[2]]\\_
+I'm an information broker. Normally I'd charge money,
+but as a special favor I'll give you the information for free.
+What do you want to know? Kiki!
+> END STRING
+
+> BEGIN STRING
+遊技場の場所
+> CONTEXT: Map209/events/61/pages/2/5/Choice/0
+> CONTEXT: Map209/events/61/pages/2/5/Choice/0
+Playground location
+> END STRING
+
+> BEGIN STRING
+外れの地の場所
+> CONTEXT: Map209/events/61/pages/2/5/Choice/1
+> CONTEXT: Map209/events/61/pages/2/5/Choice/1
+Outlands Location
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+遊技場はここから東に行ったところだ。
+迷うような場所じゃあないだろ。
+> CONTEXT: Map209/events/61/pages/2/7/Dialogue
+\\name[\\v[2]]\\_
+The playground is east of here.
+You can't get lost.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+闇洞窟の裏から行ける崖を降りたところだ。
+アンタならポートからすぐ行けるダロウ。
+> CONTEXT: Map209/events/61/pages/2/12/Dialogue
+\\name[\\v[2]]\\_
+It's just down the cliff that can be accessed 
+from the back of the Dark Cave.
+You can get there straight away from the port, Darrow.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ナンダイその顔ハ
+ナニすりゃイイのかわからないッテ顔だナ。
+> CONTEXT: Map209/events/61/pages/3/1/Dialogue
+\\name[\\v[2]]\\_
+What's with that face?
+It's like you don't know what to do.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+オレたちの仲ダ
+特別に無料で情報を教えてやるヨ。
+キキッ！
+> CONTEXT: Map209/events/61/pages/3/4/Dialogue
+\\name[\\v[2]]\\_
+We're good friends
+I'll give you the information for free as a special favor.
+Kiki!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+一つは常夜の街って呼ばれる暗い街だナ。
+性に関して奔放な場所デ、
+一人で出歩くのは危険ッテ話だゼ。
+> CONTEXT: Map209/events/61/pages/3/8/Dialogue
+\\name[\\v[2]]\\_
+One is a dark town called Evernight City.
+It's a place with a lot of freedom when it comes to sex,
+and it's said to be dangerous to go out alone.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+銀色の都市を出て南西にある森を抜けると
+たどり着けるらしいガ…
+道中には恐ろしい魔物が住むとも言われているゼ
+> CONTEXT: Map209/events/61/pages/3/12/Dialogue
+\\name[\\v[2]]\\_
+It seems that you can reach it by leaving the Silver City 
+and going through the forest to the southwest...
+It is said that terrifying monsters live along the way.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+モウ一つハ銀色の都市の懺悔室にある不思議な扉ダ
+キナクセーシスターを連れてそこまで行ってみナ
+> CONTEXT: Map209/events/61/pages/3/19/Dialogue
+\\name[\\v[2]]\\_
+There's only one more mysterious door 
+in the confessional of the Silver City.
+Take Sister and go there.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+モウ一つハ戦士の館だナ
+キナクセーシスター館にある黒いポートから行けるって噂ダ
+> CONTEXT: Map209/events/61/pages/3/28/Dialogue
+\\name[\\v[2]]\\_
+Warrior's mansion, it's rumored you can get there from the 
+black port in the Sister Mansion
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ココについては詳しい事は知らないナ
+ただ噂では蝶を集める必要があるらしいゼ
+> CONTEXT: Map209/events/61/pages/3/31/Dialogue
+\\name[\\v[2]]\\_
+I don't know much about this place
+But rumor has it that you need to collect butterflies.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+モウ一つハ禁書庫だナ
+貴重なモノが沢山置いテあるって話だゼ
+通い詰めるとナニかが起きるって噂モ……
+> CONTEXT: Map209/events/61/pages/3/37/Dialogue
+\\name[\\v[2]]\\_
+There's another one, the Forbidden Library I hear there are 
+a lot of valuable things I hear there's a rumor that 
+if you go there too often, something will happen...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+モウ一つハ謎の研究施設だ
+ここじゃ倫理観を無視した恐ろしい研究をしてるって言うゼ
+> CONTEXT: Map209/events/61/pages/3/44/Dialogue
+\\name[\\v[2]]\\_
+It's a mysterious research facility
+They say they're doing horrible research here that ignores ethics
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+キナクセーシスターの館に
+蓄積器が置いてある部屋があるだロ？
+そこの青い扉から行けるッテ話ダ
+> CONTEXT: Map209/events/61/pages/3/47/Dialogue
+\\name[\\v[2]]\\_
+Is there a room in the Sister's mansion
+where the accumulator is located?
+I heard you can get there through the blue door there.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+モウ一つハ禁書庫だナ
+お前の別荘にいる死神に話を聞いてみな
+貴重なモノが沢山置いテあるって話だゼ……
+> CONTEXT: Map209/events/61/pages/3/55/Dialogue
+\\name[\\v[2]]\\_
+Forbidden library,
+talk to the god of death at your villa
+I heard there are a lot of valuable things stored there...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+モウ一つハ墓地だナ、キナクセーシスター館の左にあるゼ
+恐ろしいモノが蠢く場所らしいガ
+深い場所にはお宝ガあるらしイ
+> CONTEXT: Map209/events/61/pages/3/63/Dialogue
+\\name[\\v[2]]\\_
+The only other place is the catacombs, to the left in Sister's mansion.
+It's said to be a place where scary things lurk.
+There's supposed to be treasure deep inside.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お宝目当てのトレジャーハンターがよく忍び込んで
+返り討ちにあってるって噂ダ
+最深部には死神も潜んでるらしいゼ
+> CONTEXT: Map209/events/61/pages/3/67/Dialogue
+\\name[\\v[2]]\\_
+It's rumored that treasure hunters often sneak in 
+looking for treasure, only to be killed in return
+It seems that the Grim Reaper is also hiding in the deepest part.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+死神についてダァ？
+お宝を見つけた後でメイド共にでも聞いてみナ！
+> CONTEXT: Map209/events/61/pages/3/71/Dialogue
+\\name[\\v[2]]\\_
+About the Grim Reaper?
+Ask the maids about it after you find the treasure!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+鍵が見つからないダッテ？
+浜辺にデモ落ちてるんじゃないのカ？
+> CONTEXT: Map209/events/61/pages/3/75/Dialogue
+\\name[\\v[2]]\\_
+Can't find your keys?
+Maybe there's something lying around on the beach?
+> END STRING
+
+> BEGIN STRING
+"学者"
+> CONTEXT: Map209/events/62/pages/0/0/InlineScript/1:22
+"Scholar"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もしレベル99の味方がいて
+戦闘終了時にエラーが起きるなら
+メンバのレベルをネクストステアに変換しよう
+> CONTEXT: Map209/events/62/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+If you have a level 99 ally
+and an error occurs at the end of the battle
+try converting the member's level with Next Stair
+> END STRING
+
+> BEGIN STRING
+対応してもらいますか？
+> CONTEXT: Map209/events/62/pages/0/5/Dialogue
+Would you like me to help you?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それならよい
+> CONTEXT: Map209/events/62/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+That's fine then
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+これでよい
+> CONTEXT: Map209/events/62/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+That is fine.
+> END STRING
+
+> BEGIN STRING
+"覚醒仙人"
+> CONTEXT: Map209/events/62/pages/2/0/InlineScript/1:22
+> CONTEXT: Map209/events/62/pages/3/0/InlineScript/1:22
+> CONTEXT: Map086/events/53/pages/0/0/InlineScript/1:22
+> CONTEXT: Map086/events/53/pages/1/0/InlineScript/1:22
+"Awakened Sage"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+むむ……お主……
+> CONTEXT: Map209/events/62/pages/2/1/Dialogue
+> CONTEXT: Map209/events/62/pages/3/1/Dialogue
+> CONTEXT: Map086/events/53/pages/0/1/Dialogue
+> CONTEXT: Map086/events/53/pages/1/10/Dialogue
+\\name[\\v[2]]\\_
+Hmm... lord...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+まだ『目覚め』ておらんのか？！
+それはさぞかし苦労したじゃろう……
+> CONTEXT: Map209/events/62/pages/2/4/Dialogue
+> CONTEXT: Map086/events/53/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+You haven't "awakened" yet?!
+That must have been really hard...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+すでに『目覚め』ておるようじゃな……！！
+しかしお主……それで満足しているのかね？
+> CONTEXT: Map209/events/62/pages/2/9/Dialogue
+> CONTEXT: Map086/events/53/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+It seems you have already "awakened"...!!
+But you... are you satisfied with that?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もっと強くなりたいと思った事はないかね？
+……いや、言わずともよい、わしにはわかっておる
+> CONTEXT: Map209/events/62/pages/2/12/Dialogue
+> CONTEXT: Map086/events/53/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+Have you ever wanted to become stronger?
+...No, you don't have to tell me, I know that.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お主にこれを授けよう……
+無限の力を与えてくれる究極のルーン
+『覚醒のルーン』じゃ！！
+> CONTEXT: Map209/events/62/pages/2/17/Dialogue
+> CONTEXT: Map086/events/53/pages/0/17/Dialogue
+\\name[\\v[2]]\\_
+I bestow this upon you...
+The ultimate rune that grants infinite power
+The "Rune of Awakening"!!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+これも一緒に受け取るがよい
+> CONTEXT: Map209/events/62/pages/2/29/Dialogue
+> CONTEXT: Map086/events/53/pages/0/29/Dialogue
+\\name[\\v[2]]\\_
+Take this as well
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+一つ忠告しておくが……
+これらのルーンは最高ランクの者しか扱えぬのだ
+> CONTEXT: Map209/events/62/pages/2/42/Dialogue
+> CONTEXT: Map086/events/53/pages/0/42/Dialogue
+\\name[\\v[2]]\\_
+One word of advice...
+Only those of the highest rank can use these runes.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+とどのつまり、【最高の姿】が習得可能な者は
+あらかじめ習得しておかなければ効果を発揮せぬ
+心しておくようにな
+> CONTEXT: Map209/events/62/pages/2/45/Dialogue
+> CONTEXT: Map086/events/53/pages/0/45/Dialogue
+\\name[\\v[2]]\\_
+In short, those who are able to learn 【Ideal Form】 should 
+keep in mind that it will not be effective 
+unless they have learned it beforehand.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お主の力をギンギンのビンビンに感じるぞ……
+そうか……『覚醒』したのじゃな……！
+素晴らしいポテンシャルじゃ！
+> CONTEXT: Map209/events/62/pages/3/3/Dialogue
+> CONTEXT: Map086/events/53/pages/1/12/Dialogue
+\\name[\\v[2]]\\_
+I can really feel your power...
+I see... you've been "awakened"...!
+You have amazing potential!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+一応もう一度言っておくが……
+これらのルーンは最高ランクの者しか扱えぬ
+> CONTEXT: Map209/events/62/pages/3/7/Dialogue
+> CONTEXT: Map086/events/53/pages/1/18/Dialogue
+\\name[\\v[2]]\\_
+I'll say it again just to be safe...
+Only those of the highest rank can use these runes.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+とどのつまり、【最高の姿】が習得可能な者は
+あらかじめ習得しておかなければ効果を発揮せぬのだ
+心しておくように
+> CONTEXT: Map209/events/62/pages/3/10/Dialogue
+> CONTEXT: Map086/events/53/pages/1/21/Dialogue
+\\name[\\v[2]]\\_
+In short, those who are able to learn 【Ideal Form】
+must keep in mind that it will not be effective 
+unless they have learned it beforehand.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+また、常夜の街で手軽に買える『目覚めのルーン』とは異なり
+『覚醒のルーン』は非常に希少じゃ
+そう簡単に手に入りはせぬ
+> CONTEXT: Map209/events/62/pages/3/14/Dialogue
+> CONTEXT: Map086/events/53/pages/1/25/Dialogue
+\\name[\\v[2]]\\_
+Also, unlike the "Rune of Waking" which can be easily purchased 
+in the Evernight City, the "Rune of Awakening" is extremely rare 
+and not so easy to obtain.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+聞いた話によると神秘的な森の最上層と、
+どこかの庭園にあるらしいが……
+> CONTEXT: Map209/events/62/pages/3/19/Dialogue
+> CONTEXT: Map086/events/53/pages/1/30/Dialogue
+\\name[\\v[2]]\\_
+I heard it's in the top layer of the mysterious forest,
+and in a garden somewhere...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+聞いた話によると
+神秘的な森の最上層にあるらしいが……
+> CONTEXT: Map209/events/62/pages/3/24/Dialogue
+> CONTEXT: Map086/events/53/pages/1/35/Dialogue
+\\name[\\v[2]]\\_
+I heard that it's located at the 
+top level of the mysterious forest...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+他にも遊技場の主もこれらを各地から集めていると聞く
+ま、タダで譲ってくれることはないじゃろうが……
+> CONTEXT: Map209/events/62/pages/3/29/Dialogue
+> CONTEXT: Map086/events/53/pages/1/40/Dialogue
+\\name[\\v[2]]\\_
+I've heard that game center owners are 
+also collecting these from all over the place.
+Well, they probably won't give them to you for free...
+> END STRING
+
+> BEGIN STRING
+"目覚めたおじさん"
+> CONTEXT: Map209/events/63/pages/0/0/InlineScript/1:22
+> CONTEXT: Map209/events/63/pages/1/0/InlineScript/1:22
+> CONTEXT: Map066/events/82/pages/0/0/InlineScript/1:22
+> CONTEXT: Map066/events/82/pages/1/0/InlineScript/1:22
+"Awakened Uncle"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ねぇ、そこのアナタ……
+そろそろ敵が強くなってきて困ってる頃じゃなぁい？
+> CONTEXT: Map209/events/63/pages/0/1/Dialogue
+> CONTEXT: Map066/events/82/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hey, you there...
+Aren't the enemies starting to get stronger 
+and you're having trouble?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そんなアナタにピッタリの品があるの\\H
+その名も……『目覚めのルーン』！
+> CONTEXT: Map209/events/63/pages/0/4/Dialogue
+> CONTEXT: Map066/events/82/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+We have the perfect item for you\\H
+It's called... "Rune of Waking"!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+常夜の街で買えるこれを試しに付けてみたら……
+アタシ、すっごぉいチカラに『目覚め』ちゃったの\\H
+> CONTEXT: Map209/events/63/pages/0/7/Dialogue
+> CONTEXT: Map066/events/82/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+I tried wearing this, which you can buy in Evernight City...
+I was "awakened" to a great power\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+わかりやすくいうと、すていたす？っていうのかしら？
+それがトンでもなく跳ね上がるのを感じたのよ！
+> CONTEXT: Map209/events/63/pages/0/10/Dialogue
+> CONTEXT: Map066/events/82/pages/0/10/Dialogue
+\\name[\\v[2]]\\_
+To put it simply, is it like "status"? 
+I guess that's what it is?
+I felt it jump up a ton!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+せっかくだからアナタにもあげるワ\\H
+そのチカラ……ぜひ体験してみてね\\H
+> CONTEXT: Map209/events/63/pages/0/13/Dialogue
+> CONTEXT: Map066/events/82/pages/0/13/Dialogue
+\\name[\\v[2]]\\_
+I'm going to give it to you too\\H
+That power... please try it out\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あ！一つだけ伝え忘れてたけれど、
+このルーンは最高ランクの者でしか扱えないわよ！
+> CONTEXT: Map209/events/63/pages/0/23/Dialogue
+> CONTEXT: Map066/events/82/pages/0/23/Dialogue
+\\name[\\v[2]]\\_
+Oh! I forgot to tell you one thing,
+this rune can only be used by those of the highest rank!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+具体的には、【最高の姿】が習得できる子は
+これを習得しておかないと効果を発揮できないってコト！
+身に着ける前にコンディションを最高に高めておくことね\\H
+> CONTEXT: Map209/events/63/pages/0/26/Dialogue
+> CONTEXT: Map066/events/82/pages/0/26/Dialogue
+\\name[\\v[2]]\\_
+Specifically, if a kid can learn 【Best Form】,
+it's required before reaching full potential!
+Make sure you're in top condition before you learn it\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ねぇ、そこのアナタ……
+> CONTEXT: Map209/events/63/pages/1/1/Dialogue
+> CONTEXT: Map066/events/82/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+Hey, you there...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……あら？アナタもう目覚めているのね！
+> CONTEXT: Map209/events/63/pages/1/3/Dialogue
+> CONTEXT: Map066/events/82/pages/1/3/Dialogue
+\\name[\\v[2]]\\_
+...Oh? You're awakened already!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ\\H
+『目覚めのルーン』 使ってる？
+もっと欲しいなら常夜の街へ行くといいワ\\H
+> CONTEXT: Map209/events/63/pages/1/5/Dialogue
+\\name[\\v[2]]\\_
+Hehe\\H
+Are you using the "Rune of Waking"?
+If you want more, go to the Evernight City\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あ！忘れてはいないと思うけれど、
+最高ランクじゃないと使えないからね！
+> CONTEXT: Map209/events/63/pages/1/9/Dialogue
+> CONTEXT: Map066/events/82/pages/1/9/Dialogue
+\\name[\\v[2]]\\_
+Oh! I'm sure you haven't forgotten, but
+you can only use it at highest rank!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+【最高の姿】が習得できる子は
+これを習得しておかないと効果を発揮できないってことよ！
+身に着ける前にコンディションを最高に高めておいてね\\H
+> CONTEXT: Map209/events/63/pages/1/12/Dialogue
+> CONTEXT: Map066/events/82/pages/1/12/Dialogue
+\\name[\\v[2]]\\_
+If you are a kid who can learn 【Ideal Form】, 
+you will not be able to use it effectively unless you learn it!
+Make sure you are in top condition before wearing it\\H
+> END STRING
+
+> BEGIN STRING
+吹き荒ぶ雪原の風が漏れ出ている…。
+> CONTEXT: Map209/events/66/pages/0/0/Dialogue
+> CONTEXT: Map209/events/66/pages/1/0/Dialogue
+The wind from the raging snowy field is leaking out...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こんにちは！
+私、『銀色の都市』の魔法屋で見習いをやってる者です！
+> CONTEXT: Map209/events/70/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hello!
+I'm an apprentice at the magic shop in the Silver City!
+> END STRING
+
+> BEGIN STRING
+"盗賊"
+> CONTEXT: Map209/events/88/pages/0/0/InlineScript/1:22
+"Bandit"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+キミ、獄界って知ってる？
+> CONTEXT: Map209/events/88/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Do you know about hell?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+闇洞窟の最下層にあるんだけど、
+封印されていて通常の手段では入れないんだ
+> CONTEXT: Map209/events/88/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+It's at the bottom of the Dark Cave,
+but it's sealed and you can't get in by normal means.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+封印を解く方法？
+うーん……洞窟を照らす不思議な水晶があるんだけど、
+それを止めるしかないと思うよ
+> CONTEXT: Map209/events/88/pages/0/6/Dialogue
+> CONTEXT: Map150/events/84/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+How to break the seal?
+Hmm... there's a mysterious crystal that lights up the cave,
+I think the only way is to stop it.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+でも目の前には手ごわい相手が待ち構えてるって噂だよ…
+間違ってもすぐに挑むのはおススメしないなぁ
+> CONTEXT: Map209/events/88/pages/0/10/Dialogue
+\\name[\\v[2]]\\_
+But I hear there's a formidable opponent waiting...
+I wouldn't recommend taking on the enemy right away.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+きみにこの『進化の間』のしんずいをおしえよう！
+『ポート空間』の『赤いポート』にふれるといけるんだ！
+そこではきみの『能力を強化』することができるんだよ！
+> CONTEXT: Map209/events/90/pages/0/10/Dialogue
+\\name[\\v[2]]\\_
+I'll teach you the secrets of this "Evolution Chamber"!
+You can get there by touching the "Red Port" in the "Port Space"!
+There you can strengthen your abilities!
+> END STRING
+
+> BEGIN STRING
+"怪しいメイド"
+> CONTEXT: Map209/events/92/pages/0/0/InlineScript/1:22
+> CONTEXT: Commonevents/141/0/InlineScript/1:22
+"Suspicious Maid"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+チート能力で無双したいなーとか
+敵が強すぎてどうしようもない！とか……
+誰でも少しは考えたことありますよね？？
+> CONTEXT: Map209/events/92/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I want to be invincible with cheat abilities
+The enemy is too strong, there's nothing I can do!
+Everyone has thought about this at least a little, right?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そんなアナタに朗報デス！
+この私が、アナタに
+チート能力を授けちゃいます！
+> CONTEXT: Map209/events/92/pages/0/5/Dialogue
+\\name[\\v[2]]\\_
+Here's some good news for you!
+I'll give you cheat abilities!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+敵を弱くすることもできちゃうんですよ！
+具体的にどうするかって？
+いわゆる難易度選択ってやつです！
+> CONTEXT: Map209/events/92/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+You can also weaken enemies!
+How exactly do you do that?
+By choosing the difficulty level!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+『Easy』と『VeryEasy』は敵が弱くなるうえに、
+ベッド戦専用のチート能力が
+自由に使えるようになっちゃいます！
+> CONTEXT: Map209/events/92/pages/0/13/Dialogue
+\\name[\\v[2]]\\_
+In "Easy" and "Very Easy", not only are enemies weaker,
+but you can freely use cheat abilities 
+that are exclusive to bed battles!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+『romance』はチート能力が
+自由に使えますが、敵の強さはそのままです
+> CONTEXT: Map209/events/92/pages/0/17/Dialogue
+\\name[\\v[2]]\\_
+In "Romance" you can freely use cheat abilities, 
+but the enemies remain strong.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+『Hard』以上は敵がどんどん
+強くなって行きます
+イジメられたいマゾの人はどうぞ！
+> CONTEXT: Map209/events/92/pages/0/20/Dialogue
+\\name[\\v[2]]\\_
+Enemies get stronger and stronger on "Hard" and above.
+If you're a masochist who wants to be bullied, come on over!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+一応レアドロップも狙いやすくなるので、
+チャレンジ精神旺盛な人にも向いてるかも？
+> CONTEXT: Map209/events/92/pages/0/24/Dialogue
+\\name[\\v[2]]\\_
+It also makes it easier to get rare drops, 
+so it might be good for people who like to take on new challenges?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+説明は以上になります！
+難易度を変えたかったら
+是非お声がけくださいね！
+> CONTEXT: Map209/events/92/pages/0/27/Dialogue
+\\name[\\v[2]]\\_
+That's all for now!
+If you'd like to change the difficulty level,
+please let me know!
+> END STRING
+
+> BEGIN STRING
+"迷惑な悪魔"
+> CONTEXT: Map209/events/94/pages/0/0/InlineScript/1:22
+> CONTEXT: Map209/events/94/pages/2/0/InlineScript/1:22
+> CONTEXT: Map209/events/94/pages/3/0/InlineScript/1:22
+"Annoying Demon"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ケッケッケ。
+オレは人が困るのを見るのが好きな悪魔。
+> CONTEXT: Map209/events/94/pages/0/1/Dialogue
+> CONTEXT: Map209/events/94/pages/2/1/Dialogue
+> CONTEXT: Map209/events/94/pages/3/1/Dialogue
+\\name[\\v[2]]\\_
+Heh heh heh.
+I'm a demon who likes to see people in trouble.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ケッケッケ。
+獄界オルデオの渓谷に、迷子がいるらしいぜ？
+恐ろしいなぁー、迷子はどうなるんだろうなー？
+> CONTEXT: Map209/events/94/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Heh keh keh.
+It seems there's a lost girl on the border of Ordeo?
+That's scary, I wonder what will happen to the lost girl?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+オマエ今、この情報を聞いて困っただろ？
+お人好しそうな顔してるもんな。
+ケケケケケケケッ。
+> CONTEXT: Map209/events/94/pages/0/8/Dialogue
+> CONTEXT: Map209/events/94/pages/2/12/Dialogue
+\\name[\\v[2]]\\_
+You're probably confused now that you've heard, aren't you?
+You have a nice face.
+Kekekekekekeke.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ケッケッケ。
+魔城トゥーロマンサに迷子がいるらしいぜ？
+おなかすかせてるかなぁ～、どうだろうなぁ～？
+> CONTEXT: Map209/events/94/pages/2/4/Dialogue
+\\name[\\v[2]]\\_
+Heh keh keh.
+It seems there's a lost girl in Demon Castle Too Romanca?
+I wonder if she's hungry? I wonder?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ケッケッケ。
+おなかをすかせてるなら、
+食事がある場所や台所にいるかもなぁ～？
+> CONTEXT: Map209/events/94/pages/2/8/Dialogue
+\\name[\\v[2]]\\_
+Heh heh heh.
+If she's hungry,
+he might be in the food area or in the kitchen?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ケッケッケ。
+お前、迷子たちを連れていったのか？
+駄目だろぉ？　ちゃんと届け出なきゃ。
+> CONTEXT: Map209/events/94/pages/3/4/Dialogue
+\\name[\\v[2]]\\_
+Heh heh heh. Did you take the lost girl?
+That's not right.
+You have to report it properly.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+迷子を捜して、親がカンカンに怒ってるかもな。
+ケケケケケケケッ。
+> CONTEXT: Map209/events/94/pages/3/8/Dialogue
+\\name[\\v[2]]\\_
+The parents might be furious, 
+searching for their lost girls.
+Kekekekekekekeke.
+> END STRING
+
+> BEGIN STRING
+"フードの老婆"
+> CONTEXT: Map073/events/23/pages/0/0/InlineScript/1:22
+> CONTEXT: Map209/events/96/pages/0/0/InlineScript/1:22
+> CONTEXT: Map209/events/96/pages/0/15/InlineScript/1:22
+> CONTEXT: Map209/events/96/pages/0/26/InlineScript/1:22
+> CONTEXT: Map209/events/96/pages/0/41/InlineScript/1:22
+"Old hooded woman"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ひ、ひ、ひ･･････。
+> CONTEXT: Map073/events/23/pages/0/1/Dialogue
+> CONTEXT: Map209/events/96/pages/0/1/Dialogue
+> CONTEXT: Map209/events/96/pages/0/54/Dialogue
+\\name[\\v[2]]\\_
+Hih, hih, hih...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+知りたくないかい？　彼女たちの事　そのナカを
+知りたいだろう？　知りたいはずさ　そのすべてをね
+> CONTEXT: Map209/events/96/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そんなあんたにこの「夢魔図鑑」をお売りしようと思って\\_
+ねぇ･･････。
+> CONTEXT: Map209/events/96/pages/0/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\gなんとたったの7500Lps.だ･･････ひ、ひ、どうだい？
+> CONTEXT: Map209/events/96/pages/0/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+怪しすぎる……
+> CONTEXT: Map209/events/96/pages/0/11/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+どこかで会った？
+> CONTEXT: Map209/events/96/pages/0/11/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･････ひっ、ひっ。
+お金が無いじゃないか･･･それならお売りできないねぇ･･････。
+> CONTEXT: Map073/events/23/pages/0/27/Dialogue
+> CONTEXT: Map209/events/96/pages/0/16/Dialogue
+\\name[\\v[2]]\\_
+...Hih, hih.
+You don't have the money... I can't sell it...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ひ、ひ、交渉成立だね･･････。
+あんたの家に送っとくとくから、後で確認しておきな。
+> CONTEXT: Map209/events/96/pages/0/27/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ひ、ひ、そうかいそうかい･･････。
+> CONTEXT: Map073/events/23/pages/0/34/Dialogue
+> CONTEXT: Map209/events/96/pages/0/42/Dialogue
+\\name[\\v[2]]\\_
+Hih, hih, I see, I see...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ひ、ひ、そうかいそうかい。
+誉め言葉として受け取っておくよ･･････。
+> CONTEXT: Map209/events/96/pages/0/46/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ひ、ひ、そうかもしれないねぇ･･････。
+迷える子羊を救うのも儂の仕事じゃからのぅ。
+> CONTEXT: Map209/events/96/pages/0/51/Dialogue < UNTRANSLATED
+
 > END STRING

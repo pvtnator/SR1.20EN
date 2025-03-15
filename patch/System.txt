@@ -6,14 +6,14 @@ button38
 > END STRING
 
 > BEGIN STRING
-010-System10
-> CONTEXT: System/escape_se/name/ < UNTRANSLATED
+003-Victory03
+> CONTEXT: System/battle_end_me/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-003-Victory03
-> CONTEXT: System/battle_end_me/name/ < UNTRANSLATED
+010-System10
+> CONTEXT: System/escape_se/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -24,22 +24,20 @@ button38
 > END STRING
 
 > BEGIN STRING
+button70
+> CONTEXT: System/decision_se/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 精力
 > CONTEXT: System/words/str/
 > CONTEXT: Map114/events/3/pages/0/3/Choice/0
+> CONTEXT: Map524/events/24/pages/0/3/Choice/0
+> CONTEXT: Map524/events/24/pages/0/3/Choice/0
+> CONTEXT: Commonevents/152/142/Choice/2
+> CONTEXT: Commonevents/152/142/Choice/2
 Energy
-> END STRING
-
-> BEGIN STRING
-自制心
-> CONTEXT: System/words/mdef/
-Self-control
-> END STRING
-
-> BEGIN STRING
-Lps.
-> CONTEXT: System/words/gold/ < UNTRANSLATED
-
 > END STRING
 
 > BEGIN STRING
@@ -49,22 +47,43 @@ VP
 > END STRING
 
 > BEGIN STRING
-スキル
-> CONTEXT: System/words/skill/
-Skills
+Lps.
+> CONTEXT: System/words/gold/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+自制心
+> CONTEXT: System/words/mdef/
+Self-control
 > END STRING
 
 > BEGIN STRING
 精神力
 > CONTEXT: System/words/int/
 > CONTEXT: Map114/events/3/pages/0/3/Choice/3
+> CONTEXT: Map524/events/24/pages/0/3/Choice/3
+> CONTEXT: Map524/events/24/pages/0/3/Choice/3
+> CONTEXT: Commonevents/152/153/Choice/2
+> CONTEXT: Commonevents/152/153/Choice/2
 Spirit
 > END STRING
 
 > BEGIN STRING
-装備
-> CONTEXT: System/words/equip/
-Equipment
+スキル
+> CONTEXT: System/words/skill/
+Skills
+> END STRING
+
+> BEGIN STRING
+忍耐力
+> CONTEXT: System/words/pdef/
+> CONTEXT: Map114/events/4/pages/0/3/Choice/1
+> CONTEXT: Map524/events/23/pages/0/3/Choice/1
+> CONTEXT: Map524/events/23/pages/0/3/Choice/1
+> CONTEXT: Commonevents/152/142/Choice/1
+> CONTEXT: Commonevents/152/142/Choice/1
+Endurance
 > END STRING
 
 > BEGIN STRING
@@ -74,10 +93,20 @@ EP
 > END STRING
 
 > BEGIN STRING
-忍耐力
-> CONTEXT: System/words/pdef/
-> CONTEXT: Map114/events/4/pages/0/3/Choice/1
-Endurance
+装備
+> CONTEXT: System/words/equip/
+Equipment
+> END STRING
+
+> BEGIN STRING
+素早さ
+> CONTEXT: System/words/agi/
+> CONTEXT: Map114/events/3/pages/0/3/Choice/2
+> CONTEXT: Map524/events/24/pages/0/3/Choice/2
+> CONTEXT: Map524/events/24/pages/0/3/Choice/2
+> CONTEXT: Commonevents/152/153/Choice/1
+> CONTEXT: Commonevents/152/153/Choice/1
+Agility
 > END STRING
 
 > BEGIN STRING
@@ -87,23 +116,9 @@ Attack
 > END STRING
 
 > BEGIN STRING
-素早さ
-> CONTEXT: System/words/agi/
-> CONTEXT: Map114/events/3/pages/0/3/Choice/2
-Agility
-> END STRING
-
-> BEGIN STRING
 装備品
 > CONTEXT: System/words/armor1/
 Equipment
-> END STRING
-
-> BEGIN STRING
-魅力
-> CONTEXT: System/words/atk/
-> CONTEXT: Map114/events/4/pages/0/3/Choice/0
-Charm
 > END STRING
 
 > BEGIN STRING
@@ -113,16 +128,31 @@ Items
 > END STRING
 
 > BEGIN STRING
-器用さ
-> CONTEXT: System/words/dex/
-> CONTEXT: Map114/events/3/pages/0/3/Choice/1
-Dexterity
+魅力
+> CONTEXT: System/words/atk/
+> CONTEXT: Map114/events/4/pages/0/3/Choice/0
+> CONTEXT: Map524/events/23/pages/0/3/Choice/0
+> CONTEXT: Map524/events/23/pages/0/3/Choice/0
+> CONTEXT: Commonevents/152/142/Choice/0
+> CONTEXT: Commonevents/152/142/Choice/0
+Charm
 > END STRING
 
 > BEGIN STRING
 ルーン
 > CONTEXT: System/words/armor4/
 Runes
+> END STRING
+
+> BEGIN STRING
+器用さ
+> CONTEXT: System/words/dex/
+> CONTEXT: Map114/events/3/pages/0/3/Choice/1
+> CONTEXT: Map524/events/24/pages/0/3/Choice/1
+> CONTEXT: Map524/events/24/pages/0/3/Choice/1
+> CONTEXT: Commonevents/152/153/Choice/0
+> CONTEXT: Commonevents/152/153/Choice/0
+Dexterity
 > END STRING
 
 > BEGIN STRING
@@ -139,8 +169,8 @@ Defense
 > END STRING
 
 > BEGIN STRING
-button70
-> CONTEXT: System/decision_se/name/ < UNTRANSLATED
+SCRP_Battle
+> CONTEXT: System/battle_bgm/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -151,20 +181,8 @@ button70
 > END STRING
 
 > BEGIN STRING
-SCRP_Battle
-> CONTEXT: System/battle_bgm/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
 033-Switch02
 > CONTEXT: System/equip_se/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-button63
-> CONTEXT: System/cursor_se/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -571,15 +589,15 @@ Magic: esuna
 > END STRING
 
 > BEGIN STRING
-魔法：味方戦制限
-> CONTEXT: System/elements/68/
-Magic: ally restrain
+味方戦制限
+> CONTEXT: System/elements/68/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-魔法：味方戦使用不可
-> CONTEXT: System/elements/69/
-Magic: cannot use against allies
+味方戦使用不可
+> CONTEXT: System/elements/69/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -685,6 +703,19 @@ Use: bondage
 > END STRING
 
 > BEGIN STRING
+使用：羽
+> CONTEXT: System/elements/87/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+使用：ホールド自動判定
+> CONTEXT: System/elements/89/ < UNTRANSLATED
+> CONTEXT: System/elements/286/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 ◆攻撃対象部位◆
 > CONTEXT: System/elements/90/
 ◆Attack target part◆
@@ -757,6 +788,31 @@ Target: hearing
 > END STRING
 
 > BEGIN STRING
+対象：ペニス・アソコ・陰核
+> CONTEXT: System/elements/102/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対象：口・ペニス・アソコ
+> CONTEXT: System/elements/103/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対象：嗅覚
+> CONTEXT: System/elements/104/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対象：ホールド自動判定
+> CONTEXT: System/elements/105/ < UNTRANSLATED
+> CONTEXT: System/elements/287/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 ●食事関連●
 > CONTEXT: System/elements/106/
 ●Meal related●
@@ -784,6 +840,26 @@ Food: material
 食べ物：トッピング
 > CONTEXT: System/elements/110/
 Food: toppings
+> END STRING
+
+> BEGIN STRING
+道具アイテム
+> CONTEXT: System/elements/111/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+回復アイテム
+> CONTEXT: System/elements/112/ < UNTRANSLATED
+> CONTEXT: Map582/events/11/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+素材アイテム
+> CONTEXT: System/elements/113/ < UNTRANSLATED
+> CONTEXT: Map582/events/11/pages/0/1/Choice/2 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -823,9 +899,15 @@ Special: succubus full recovery
 > END STRING
 
 > BEGIN STRING
-●エネミー識別用
-> CONTEXT: System/elements/122/
-●For enemy identification
+【MIDDLE】MOD
+> CONTEXT: System/elements/121/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【特殊寝室】MOD
+> CONTEXT: System/elements/122/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -1075,7 +1157,7 @@ Only during hold
 > END STRING
 
 > BEGIN STRING
-上半身が[開脚]時のみ可
+背面が[拘束]時のみ可
 > CONTEXT: System/elements/164/ < UNTRANSLATED
 
 > END STRING
@@ -1299,7 +1381,6 @@ VPドレイン
 > BEGIN STRING
 レベルドレイン
 > CONTEXT: System/elements/202/
-> CONTEXT: Skills/773/name/
 Level Drain
 > END STRING
 
@@ -1400,8 +1481,1058 @@ HP0で無くとも使用可能
 > END STRING
 
 > BEGIN STRING
-008-System08
-> CONTEXT: System/load_se/name/ < UNTRANSLATED
+追撃時消費VP無し
+> CONTEXT: System/elements/219/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■MOD
+> CONTEXT: System/elements/220/ < UNTRANSLATED
+> CONTEXT: Skills/113/name/ < UNTRANSLATED
+> CONTEXT: Skills/150/name/ < UNTRANSLATED
+> CONTEXT: Skills/644/name/ < UNTRANSLATED
+> CONTEXT: Skills/774/name/ < UNTRANSLATED
+> CONTEXT: Armors/1/name/ < UNTRANSLATED
+> CONTEXT: Enemies/293/name/ < UNTRANSLATED
+> CONTEXT: Armors/306/name/ < UNTRANSLATED
+> CONTEXT: Items/370/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+触手責め
+> CONTEXT: System/elements/221/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+自分：女体化不可
+> CONTEXT: System/elements/222/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手：ふたなり時不可
+> CONTEXT: System/elements/223/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+母乳攻め属性
+> CONTEXT: System/elements/224/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホールド特殊口上
+> CONTEXT: System/elements/225/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対象：尻・陰核・睾丸
+> CONTEXT: System/elements/226/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手：♂占有中のみ可
+> CONTEXT: System/elements/227/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手：♀占有中のみ可
+> CONTEXT: System/elements/228/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+前立腺攻め属性
+> CONTEXT: System/elements/229/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+口が[ぱふぱふ]時のみ可
+> CONTEXT: System/elements/230/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+触手が[触手搾乳]時のみ可
+> CONTEXT: System/elements/231/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+強レベルドレイン
+> CONTEXT: System/elements/233/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+強VPドレイン
+> CONTEXT: System/elements/234/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魅力吸収
+> CONTEXT: System/elements/235/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+忍耐吸収
+> CONTEXT: System/elements/236/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精力吸収
+> CONTEXT: System/elements/237/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+器用さ吸収
+> CONTEXT: System/elements/238/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+素早さ吸収
+> CONTEXT: System/elements/239/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精神吸収
+> CONTEXT: System/elements/240/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+全能力吸収
+> CONTEXT: System/elements/241/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+EP吸収
+> CONTEXT: System/elements/242/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+復活
+> CONTEXT: System/elements/243/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+自分：奴隷時不可
+> CONTEXT: System/elements/244/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手：眠り時のみ可
+> CONTEXT: System/elements/245/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手：ダウン時のみ可
+> CONTEXT: System/elements/246/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+脱衣・着衣アイテム
+> CONTEXT: System/elements/247/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+クライシスアイテム
+> CONTEXT: System/elements/248/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+味方：着衣時不可
+> CONTEXT: System/elements/249/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+味方：♂占有中不可
+> CONTEXT: System/elements/250/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リベンジスキル
+> CONTEXT: System/elements/251/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+干渉スキル
+> CONTEXT: System/elements/252/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+尻尾が[尻尾拘束]時のみ可
+> CONTEXT: System/elements/253/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+上半身が[羽抱擁]時のみ使用可能
+> CONTEXT: System/elements/254/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+反転リバウンド
+> CONTEXT: System/elements/255/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+特定条件時使用不可
+> CONTEXT: System/elements/256/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+足が[電気按摩]時のみ使用可
+> CONTEXT: System/elements/257/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+射精スキル
+> CONTEXT: System/elements/258/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相互自慰判定
+> CONTEXT: System/elements/259/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+自慰スキル
+> CONTEXT: System/elements/260/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+自分：背面拘束中不可
+> CONTEXT: System/elements/261/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手：背面拘束中不可
+> CONTEXT: System/elements/262/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+自分：腕占有中不可
+> CONTEXT: System/elements/263/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手：腕占有中不可
+> CONTEXT: System/elements/264/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+自分：足占有中不可
+> CONTEXT: System/elements/265/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手：足占有中不可
+> CONTEXT: System/elements/266/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+腕が[腕拘束]時のみ使用可
+> CONTEXT: System/elements/267/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+♀が[足騎乗拘束]のみ可
+> CONTEXT: System/elements/268/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+複合スキル
+> CONTEXT: System/elements/269/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対象：口・胸
+> CONTEXT: System/elements/270/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対象：口・アソコ
+> CONTEXT: System/elements/271/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対象：口・ペニス
+> CONTEXT: System/elements/272/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対象：胸・アソコ
+> CONTEXT: System/elements/273/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対象：胸・ペニス
+> CONTEXT: System/elements/274/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対象：尻・アソコ
+> CONTEXT: System/elements/275/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+複合予備
+> CONTEXT: System/elements/276/ < UNTRANSLATED
+> CONTEXT: System/elements/277/ < UNTRANSLATED
+> CONTEXT: System/elements/278/ < UNTRANSLATED
+> CONTEXT: System/elements/279/ < UNTRANSLATED
+> CONTEXT: System/elements/280/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホールド兼攻撃スキル
+> CONTEXT: System/elements/281/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+乳首攻め属性
+> CONTEXT: System/elements/282/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+くすぐり属性
+> CONTEXT: System/elements/283/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+愛撫攻め属性
+> CONTEXT: System/elements/284/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+復帰スキル
+> CONTEXT: System/elements/285/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+指が[尻挿入]のみ可
+> CONTEXT: System/elements/288/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+足が[拘束]時のみ可
+> CONTEXT: System/elements/289/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ステート衝撃解除なし
+> CONTEXT: System/elements/290/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+愛液スキル
+> CONTEXT: System/elements/291/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+口が[尻吸]のみ可
+> CONTEXT: System/elements/292/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+尻が[尻吸]のみ可
+> CONTEXT: System/elements/293/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+上級ホールドスキル
+> CONTEXT: System/elements/294/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+能力2段階
+> CONTEXT: System/elements/295/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ランダム能力強化
+> CONTEXT: System/elements/296/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ランダム能力弱体
+> CONTEXT: System/elements/297/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+控えも含む
+> CONTEXT: System/elements/298/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔法陣無効
+> CONTEXT: System/elements/299/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+重複装備不可
+> CONTEXT: System/elements/300/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+全スロット使用
+> CONTEXT: System/elements/301/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+VP回復
+> CONTEXT: System/elements/302/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔法追撃
+> CONTEXT: System/elements/303/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+磔拘束でも使用可能
+> CONTEXT: System/elements/304/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+釘付けスキル
+> CONTEXT: System/elements/305/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+足が[足固め]時のみ
+> CONTEXT: System/elements/306/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+鱗粉スキル
+> CONTEXT: System/elements/307/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+努力値UPアイテム
+> CONTEXT: System/elements/308/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+手が[オナホ挿入]時のみ可
+> CONTEXT: System/elements/310/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+♂が[オナホ挿入]時のみ可
+> CONTEXT: System/elements/311/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+手が[手責め]時のみ可
+> CONTEXT: System/elements/312/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+♂が[手責め]時のみ可
+> CONTEXT: System/elements/313/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+最高の姿
+> CONTEXT: System/elements/315/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+能力覚醒
+> CONTEXT: System/elements/316/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+足が[顔踏み]時のみ可
+> CONTEXT: System/elements/317/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+口が[顔踏み]時のみ可
+> CONTEXT: System/elements/318/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+口が[足舐め]時のみ可
+> CONTEXT: System/elements/319/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+足が[足舐め]時のみ可
+> CONTEXT: System/elements/320/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+♀が[素股]時のみ可
+> CONTEXT: System/elements/321/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+♂が[素股]時のみ可
+> CONTEXT: System/elements/322/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+♂が[兜合わせ]時のみ可
+> CONTEXT: System/elements/323/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+呪いキッス
+> CONTEXT: System/elements/325/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ムードダウン小
+> CONTEXT: System/elements/327/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ムードダウン中
+> CONTEXT: System/elements/328/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ムードダウン大
+> CONTEXT: System/elements/329/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ムードダウン極大
+> CONTEXT: System/elements/330/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+SS率－30％
+> CONTEXT: System/elements/331/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+SS率－100％
+> CONTEXT: System/elements/332/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+装備能力最終パーセント化
+> CONTEXT: System/elements/334/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+装備能力基礎パーセント化
+> CONTEXT: System/elements/335/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+後衛スキル
+> CONTEXT: System/elements/337/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ガード貫通
+> CONTEXT: System/elements/338/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+氷系スキル
+> CONTEXT: System/elements/339/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+開発度影響：小
+> CONTEXT: System/elements/340/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+開発度影響：大
+> CONTEXT: System/elements/341/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+開発度影響：特大
+> CONTEXT: System/elements/342/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+開発度影響：極大
+> CONTEXT: System/elements/343/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ヘイト弱増加
+> CONTEXT: System/elements/344/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+耐性20％無視
+> CONTEXT: System/elements/346/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+耐性50％無視
+> CONTEXT: System/elements/347/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+耐性70％無視
+> CONTEXT: System/elements/348/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+耐性無効以外無視
+> CONTEXT: System/elements/349/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エンチャントスキル
+> CONTEXT: System/elements/350/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+SS率＋50％
+> CONTEXT: System/elements/354/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+SS率＋70％
+> CONTEXT: System/elements/355/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手：主人公のみ
+> CONTEXT: System/elements/357/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+炎系スキル
+> CONTEXT: System/elements/360/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+水系スキル
+> CONTEXT: System/elements/361/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+風系スキル
+> CONTEXT: System/elements/362/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+土系スキル
+> CONTEXT: System/elements/363/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+光系スキル
+> CONTEXT: System/elements/365/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+闇系スキル
+> CONTEXT: System/elements/366/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+踊りスキル
+> CONTEXT: System/elements/368/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+踊り3スタック
+> CONTEXT: System/elements/369/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+累積耐性持ち
+> CONTEXT: System/elements/374/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+異常確率2倍
+> CONTEXT: System/elements/375/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+異常確率10倍
+> CONTEXT: System/elements/376/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+効果範囲：自分以外全体
+> CONTEXT: System/elements/377/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+効果範囲：全体化
+> CONTEXT: System/elements/378/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対象：控えのみ
+> CONTEXT: System/elements/379/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対象：控え含む
+> CONTEXT: System/elements/380/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+交代スキル
+> CONTEXT: System/elements/381/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+割合スキル
+> CONTEXT: System/elements/382/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+追撃率＋15％
+> CONTEXT: System/elements/384/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+追撃率＋30％
+> CONTEXT: System/elements/385/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+追撃率＋50％
+> CONTEXT: System/elements/386/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+追撃率＋100％
+> CONTEXT: System/elements/387/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+追撃率－30％
+> CONTEXT: System/elements/388/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+追撃率－100％
+> CONTEXT: System/elements/389/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+現在VP消費：割合
+> CONTEXT: System/elements/391/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+最大VP消費：割合
+> CONTEXT: System/elements/392/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+MAXEP倍率(0.1)
+> CONTEXT: System/elements/394/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+MAXVP倍率(0.1)
+> CONTEXT: System/elements/395/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魅力倍率(0.1)
+> CONTEXT: System/elements/396/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+忍耐力倍率(0.1)
+> CONTEXT: System/elements/397/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精力倍率(0.1)
+> CONTEXT: System/elements/398/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+器用さ倍率(0.1)
+> CONTEXT: System/elements/399/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+素早さ倍率(0.1)
+> CONTEXT: System/elements/400/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精神力倍率(0.1)
+> CONTEXT: System/elements/401/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+MAXEP倍率(0.5)
+> CONTEXT: System/elements/403/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+MAXVP倍率(0.5)
+> CONTEXT: System/elements/404/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魅力倍率(0.5)
+> CONTEXT: System/elements/405/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+忍耐力倍率(0.5)
+> CONTEXT: System/elements/406/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精力倍率(0.5)
+> CONTEXT: System/elements/407/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+器用さ倍率(0.5)
+> CONTEXT: System/elements/408/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+素早さ倍率(0.5)
+> CONTEXT: System/elements/409/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精神力倍率(0.5)
+> CONTEXT: System/elements/410/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+簡易ボス補正
+> CONTEXT: System/elements/412/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+絶頂スキル
+> CONTEXT: System/elements/414/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+♀が[尻尾拘束]のみ可
+> CONTEXT: System/elements/415/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+尻が[尻尾拘束]のみ可
+> CONTEXT: System/elements/416/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+口が[尻尾拘束]のみ可
+> CONTEXT: System/elements/417/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+口が[丸呑み]時のみ可
+> CONTEXT: System/elements/419/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+上半身が[丸呑み]時のみ可
+> CONTEXT: System/elements/420/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+SS+50％ 敵クライシス
+> CONTEXT: System/elements/423/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+SS+100％敵クライシス
+> CONTEXT: System/elements/424/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+SS+50％ 自クライシス
+> CONTEXT: System/elements/425/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+SS+100％自クライシス
+> CONTEXT: System/elements/426/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+button63
+> CONTEXT: System/cursor_se/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -1412,20 +2543,26 @@ SCRP_Title
 > END STRING
 
 > BEGIN STRING
+008-System08
+> CONTEXT: System/load_se/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 button54
 > CONTEXT: System/buzzer_se/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-011-System11
-> CONTEXT: System/actor_collapse_se/name/ < UNTRANSLATED
+006-Defeat02
+> CONTEXT: System/gameover_me/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-006-Defeat02
-> CONTEXT: System/gameover_me/name/ < UNTRANSLATED
+011-System11
+> CONTEXT: System/actor_collapse_se/name/ < UNTRANSLATED
 
 > END STRING
 

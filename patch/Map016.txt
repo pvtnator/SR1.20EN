@@ -1,155 +1,55 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-"拠点の景色が映っている。"
-> CONTEXT: Map016/events/1/pages/0/1/InlineScript/5:9 < UNTRANSLATED
+\\n[101]のポート空間
+> CONTEXT: Map016/events/2/pages/0/3/Choice/0
+> CONTEXT: Map016/events/2/pages/0/3/Choice/0
+\\n[101] port space
+> END STRING
 
+> BEGIN STRING
+"夢世界の入り口が映っている。"
+> CONTEXT: Map016/events/6/pages/0/2/InlineScript/5:9
+"The entrance to the dream world is shown."
 > END STRING
 
 > BEGIN STRING
 "混濁した洞窟が映っている。"
-> CONTEXT: Map016/events/2/pages/0/1/InlineScript/5:9
+> CONTEXT: Map016/events/7/pages/0/2/InlineScript/5:9
 "A murky cave is shown."
 > END STRING
 
 > BEGIN STRING
-"魔女たちの隠れ家が映っている。"
-> CONTEXT: Map016/events/3/pages/0/1/InlineScript/5:9 < UNTRANSLATED
-
+"美しい教会が映っている。"
+> CONTEXT: Map016/events/8/pages/0/2/InlineScript/5:9
+"A beautiful church is shown."
 > END STRING
 
 > BEGIN STRING
-拠点にいる夢魔を確認できます。
-> CONTEXT: Map016/events/4/pages/0/1/Dialogue < UNTRANSLATED
-
+"怪しい雰囲気の教会が見える"
+> CONTEXT: Map016/events/9/pages/0/2/InlineScript/5:9
+"I see a mysterious church"
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[2]]\\_
-あぁちょうど良い。
-今落としものを見つけた所なんだ。
-> CONTEXT: Map016/events/21/pages/0/1/Dialogue < UNTRANSLATED
-
+"どこかなつかしい景色が見える。"
+> CONTEXT: Map016/events/25/pages/0/2/InlineScript/5:9
+"I can see a scene that reminds me of something nostalgic."
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[2]]\\_
-この４つだね。欲しい物はあるかい？　持って帰っていいよ。
-その代わり、君の持ってる分と交換ね。
-> CONTEXT: Map016/events/21/pages/0/4/Dialogue < UNTRANSLATED
-
+何故か\\n[101]たちの服が入っている･･･。
+> CONTEXT: Map016/events/27/pages/0/1/Dialogue
+For some reason, \\n[101]'s clothes are inside...
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[2]]\\_
-はいどうぞ。
-> CONTEXT: Map016/events/21/pages/0/19/Dialogue < UNTRANSLATED
-> CONTEXT: Map016/events/21/pages/0/37/Dialogue < UNTRANSLATED
-> CONTEXT: Map016/events/21/pages/0/55/Dialogue < UNTRANSLATED
-> CONTEXT: Map016/events/21/pages/0/73/Dialogue < UNTRANSLATED
-> CONTEXT: Map016/events/21/pages/1/18/Dialogue < UNTRANSLATED
-> CONTEXT: Map016/events/21/pages/1/35/Dialogue < UNTRANSLATED
-> CONTEXT: Map016/events/21/pages/1/52/Dialogue < UNTRANSLATED
-> CONTEXT: Map016/events/21/pages/1/69/Dialogue < UNTRANSLATED
-
+服を持っていきますか？
+> CONTEXT: Map016/events/27/pages/0/13/Dialogue
+Will you take clothes?
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[2]]\\_
-他のものと変えたくなったらまたおいで。
-> CONTEXT: Map016/events/21/pages/0/83/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-あぁちょうど良い。
-今落としものを見つけた所なんだ。
-君の物もあるんじゃないか？
-> CONTEXT: Map016/events/21/pages/1/1/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-※これは修正パッチ3.11を入れた後にロードすると
-主人公の弱点が消えてしまっているバグに対しての
-対応となっております。
-> CONTEXT: Map016/events/21/pages/1/5/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-この４つだね。君のだと思ったら持って帰っていいよ。
-> CONTEXT: Map016/events/21/pages/1/8/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-この【口攻めに弱い】かい？
-> CONTEXT: Map016/events/21/pages/1/12/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-あぁ、なんだ違うのかい。
-> CONTEXT: Map016/events/21/pages/1/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map016/events/21/pages/1/39/Dialogue < UNTRANSLATED
-> CONTEXT: Map016/events/21/pages/1/56/Dialogue < UNTRANSLATED
-> CONTEXT: Map016/events/21/pages/1/73/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-この【手攻めに弱い】かい？
-> CONTEXT: Map016/events/21/pages/1/29/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-この【胸攻めに弱い】かい？
-> CONTEXT: Map016/events/21/pages/1/46/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-この【女陰攻めに弱い】かい？
-> CONTEXT: Map016/events/21/pages/1/63/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-あぁ、なんだ違うのかい？
-> CONTEXT: Map016/events/21/pages/1/80/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-うんうん、見つかってよかった。
-> CONTEXT: Map016/events/21/pages/1/85/Dialogue < UNTRANSLATED
-> CONTEXT: Map016/events/21/pages/2/1/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-よォよォ、人間なんて珍しいじゃねーカ。
-俺はここの管理任されてるしがない使い魔ダ。よろしくナ。
-> CONTEXT: Map016/events/25/pages/0/1/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]俺のいる所の反対側にある机で、\\_
-拠点にいる夢魔の確認もできるんダ。
-パーティ編成する時にでも使うんだナ。
-一応、夢の拠点の室内でもできるゼ。
-> CONTEXT: Map016/events/25/pages/0/7/Dialogue < UNTRANSLATED
-
+服を着ますか？
+> CONTEXT: Map016/events/27/pages/0/26/Dialogue
+Will you get dressed?
 > END STRING

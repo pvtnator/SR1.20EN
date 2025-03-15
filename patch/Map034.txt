@@ -1,6 +1,574 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-･･････ラーミル様？
-> CONTEXT: Map034/events/1/pages/0/39/Dialogue
-...Ramil?
+スレイヴ
+> CONTEXT: Map034/events/3/pages/0/0/Dialogue
+> CONTEXT: Map034/events/21/pages/0/0/Dialogue
+> CONTEXT: Map034/events/72/pages/0/0/Dialogue
+Slave
+> END STRING
+
+> BEGIN STRING
+倒錯
+> CONTEXT: Map034/events/3/pages/0/1/Choice/1 < UNTRANSLATED
+> CONTEXT: Map046/events/28/pages/0/1/Choice/0 < UNTRANSLATED
+> CONTEXT: Map046/events/33/pages/0/1/Choice/0 < UNTRANSLATED
+> CONTEXT: Map034/events/21/pages/0/1/Choice/1 < UNTRANSLATED
+> CONTEXT: Map046/events/76/pages/0/1/Choice/0 < UNTRANSLATED
+> CONTEXT: Map034/events/30/pages/0/1/Choice/1 < UNTRANSLATED
+> CONTEXT: Map034/events/73/pages/0/1/Choice/0 < UNTRANSLATED
+> CONTEXT: Map046/events/434/pages/0/1/Choice/0 < UNTRANSLATED
+> CONTEXT: Map046/events/435/pages/0/1/Choice/0 < UNTRANSLATED
+> CONTEXT: Map034/events/129/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバスロード
+> CONTEXT: Map034/events/12/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map034/events/13/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map034/events/60/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+虚勢(処女)
+> CONTEXT: Map034/events/14/pages/0/1/Choice/2 < UNTRANSLATED
+> CONTEXT: Map034/events/16/pages/0/1/Choice/2 < UNTRANSLATED
+> CONTEXT: Map034/events/18/pages/0/1/Choice/2 < UNTRANSLATED
+> CONTEXT: Map034/events/419/pages/0/1/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デーモン
+> CONTEXT: Map034/events/18/pages/0/0/Dialogue
+> CONTEXT: Map034/events/19/pages/0/0/Dialogue
+> CONTEXT: Map034/events/74/pages/0/0/Dialogue
+Demon
+> END STRING
+
+> BEGIN STRING
+勝気
+> CONTEXT: Map034/events/18/pages/0/1/Choice/0 < UNTRANSLATED
+> CONTEXT: Map034/events/74/pages/0/1/Choice/0 < UNTRANSLATED
+> CONTEXT: Map034/events/419/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+内気(処女)
+> CONTEXT: Map034/events/20/pages/0/1/Choice/1 < UNTRANSLATED
+> CONTEXT: Map034/events/37/pages/0/1/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ゴールドスライム
+> CONTEXT: Map034/events/25/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カースメイガス
+> CONTEXT: Map034/events/30/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マタンゴ
+> CONTEXT: Map034/events/37/pages/0/0/Dialogue
+> CONTEXT: Map034/events/129/pages/0/0/Dialogue
+> CONTEXT: Map034/events/455/pages/0/0/Dialogue
+Matango
+> END STRING
+
+> BEGIN STRING
+上品(処女)
+> CONTEXT: Map034/events/37/pages/0/1/Choice/1 < UNTRANSLATED
+> CONTEXT: Map034/events/40/pages/0/1/Choice/0 < UNTRANSLATED
+> CONTEXT: Map034/events/63/pages/0/1/Choice/1 < UNTRANSLATED
+> CONTEXT: Map034/events/64/pages/0/1/Choice/1 < UNTRANSLATED
+> CONTEXT: Map046/events/359/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミミック
+> CONTEXT: Map034/events/38/pages/0/0/Dialogue
+> CONTEXT: Map034/events/39/pages/0/0/Dialogue
+> CONTEXT: Map034/events/87/pages/0/0/Dialogue
+Mimic
+> END STRING
+
+> BEGIN STRING
+プリーステス
+> CONTEXT: Map034/events/40/pages/0/0/Dialogue
+> CONTEXT: Map034/events/75/pages/0/0/Dialogue
+Priestess
+> END STRING
+
+> BEGIN STRING
+高慢(処女)
+> CONTEXT: Map034/events/40/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーキャット
+> CONTEXT: Map034/events/41/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map034/events/42/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カニャッツォ
+> CONTEXT: Map034/events/53/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カンビオン
+> CONTEXT: Map034/events/54/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルラウネ
+> CONTEXT: Map034/events/64/pages/0/0/Dialogue
+> CONTEXT: Map034/events/65/pages/0/0/Dialogue
+> CONTEXT: Map034/events/454/pages/0/0/Dialogue
+Alraune
+> END STRING
+
+> BEGIN STRING
+甘え性(処女)
+> CONTEXT: Map034/events/64/pages/0/1/Choice/3 < UNTRANSLATED
+> CONTEXT: Map034/events/93/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+女体化ロウラット
+> CONTEXT: Map034/events/66/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチデビル
+> CONTEXT: Map034/events/68/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+勝ち気(処女)
+> CONTEXT: Map034/events/68/pages/0/1/Choice/1 < UNTRANSLATED
+> CONTEXT: Map034/events/93/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メア
+> CONTEXT: Map034/events/76/pages/0/0/Dialogue
+Mare
+> END STRING
+
+> BEGIN STRING
+エネミーの動作チェック用です
+> CONTEXT: Map034/events/77/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィズ＆ワンダー
+> CONTEXT: Map034/events/77/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ソーサラー
+> CONTEXT: Map034/events/77/pages/0/1/Choice/1 < UNTRANSLATED
+> CONTEXT: Map034/events/466/pages/0/108/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セルウス
+> CONTEXT: Map034/events/77/pages/0/1/Choice/2 < UNTRANSLATED
+> CONTEXT: Map046/events/437/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スリーピィ
+> CONTEXT: Map034/events/82/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map034/events/84/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map034/events/89/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イマジナリーフレンド
+> CONTEXT: Map034/events/83/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map034/events/93/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドッペルゲンガー
+> CONTEXT: Map034/events/85/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map034/events/86/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map034/events/422/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シスターサキュバス
+> CONTEXT: Map034/events/90/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カンビアーレ
+> CONTEXT: Map034/events/91/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ジュエルスライム
+> CONTEXT: Map034/events/92/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エンジェル
+> CONTEXT: Map034/events/94/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチエンジェル
+> CONTEXT: Map034/events/95/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シスターキャスト
+> CONTEXT: Map034/events/96/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ショゴス
+> CONTEXT: Map034/events/98/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+オノスケリス
+> CONTEXT: Map034/events/99/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+意地悪(処女)
+> CONTEXT: Map034/events/120/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ノスフェラトゥ
+> CONTEXT: Map034/events/121/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シルキー
+> CONTEXT: Map034/events/122/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map034/events/123/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サーヴァント
+> CONTEXT: Map034/events/124/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map034/events/125/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+倒錯(処女)
+> CONTEXT: Map034/events/129/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メリュジーヌ
+> CONTEXT: Map034/events/132/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+クイーンスライム
+> CONTEXT: Map034/events/136/pages/0/0/Dialogue
+Queen Slime
+> END STRING
+
+> BEGIN STRING
+エテルヌス
+> CONTEXT: Map034/events/154/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map034/events/444/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map034/events/445/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シルクレディ
+> CONTEXT: Map034/events/155/pages/0/0/Dialogue
+Silk Lady
+> END STRING
+
+> BEGIN STRING
+ヴィレッジャ
+> CONTEXT: Map034/events/161/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+柔和(処女)
+> CONTEXT: Map034/events/161/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キキーモラ
+> CONTEXT: Map034/events/216/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ヴィズリル
+> CONTEXT: Map034/events/244/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+聡明
+> CONTEXT: Map034/events/244/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エインヘリヤル
+> CONTEXT: Map034/events/336/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ヴァルキュリヤ
+> CONTEXT: Map034/events/337/pages/0/0/Dialogue
+Valkyria
+> END STRING
+
+> BEGIN STRING
+ラファエル
+> CONTEXT: Map034/events/341/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ルシフェル
+> CONTEXT: Map034/events/342/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エインヘリアル
+> CONTEXT: Map034/events/356/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map034/events/357/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map034/events/358/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+タナトス
+> CONTEXT: Map034/events/362/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マザーハーロット
+> CONTEXT: Map034/events/363/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+淫蕩
+> CONTEXT: Map034/events/363/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドロフォノス
+> CONTEXT: Map034/events/379/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ガブリエル
+> CONTEXT: Map034/events/380/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバスクィーン
+> CONTEXT: Map034/events/417/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map034/events/418/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グレーターデーモン
+> CONTEXT: Map034/events/419/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map034/events/420/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィッチクラフト
+> CONTEXT: Map034/events/423/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map034/events/424/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map034/events/425/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+クライオマンサー
+> CONTEXT: Map034/events/428/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グレイシオマンサー
+> CONTEXT: Map034/events/429/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プティ
+> CONTEXT: Map034/events/436/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ニンフ
+> CONTEXT: Map034/events/448/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サンタクロス
+> CONTEXT: Map034/events/450/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ヘーラー
+> CONTEXT: Map034/events/461/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テストエネミーを仲間にします
+> CONTEXT: Map034/events/466/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マーナガルム
+> CONTEXT: Map034/events/466/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィズ
+> CONTEXT: Map034/events/466/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワンダー
+> CONTEXT: Map034/events/466/pages/0/1/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パンドラ
+> CONTEXT: Map034/events/466/pages/0/108/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワンダーボックス
+> CONTEXT: Map034/events/466/pages/0/108/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イノセント
+> CONTEXT: Map034/events/466/pages/0/215/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テネシティ
+> CONTEXT: Map034/events/466/pages/0/215/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トロル
+> CONTEXT: Map034/events/466/pages/0/215/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カグヤ
+> CONTEXT: Map034/events/466/pages/0/322/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミルケンティア
+> CONTEXT: Map034/events/466/pages/0/322/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+バトラー
+> CONTEXT: Map034/events/466/pages/0/322/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ネコマタ
+> CONTEXT: Map034/events/466/pages/0/471/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レヴナント
+> CONTEXT: Map034/events/466/pages/0/471/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シヴィリアン
+> CONTEXT: Map034/events/466/pages/0/471/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デザイア
+> CONTEXT: Map034/events/466/pages/0/578/Choice/0 < UNTRANSLATED
+
 > END STRING

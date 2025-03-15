@@ -8,12 +8,16 @@ Debug item
 > BEGIN STRING
 色々デバッグできるぞ！
 > CONTEXT: Items/1/description/
+> CONTEXT: Items/14/description/
+> CONTEXT: Items/15/description/
 You can debug various things!
 > END STRING
 
 > BEGIN STRING
 015-Jump01
 > CONTEXT: Items/1/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/13/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/15/menu_se/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -75,6 +79,7 @@ Lilith Vessel
 > BEGIN STRING
 素質あるものをリリスへと昇華させるもの。
 > CONTEXT: Items/6/description/
+> CONTEXT: Armors/438/description/
 Turns someone capable into a Lilith
 > END STRING
 
@@ -82,6 +87,152 @@ Turns someone capable into a Lilith
 目覚めの精油
 > CONTEXT: Items/7/name/
 Awakening Oil
+> END STRING
+
+> BEGIN STRING
+服を脱ぐ・服を着る
+> CONTEXT: Items/8/name/
+Dress・Undress
+> END STRING
+
+> BEGIN STRING
+服を脱ぎ着する。何回でも使用可能。
+> CONTEXT: Items/8/description/
+Undress or dress. Can be used multiple times.
+> END STRING
+
+> BEGIN STRING
+one28
+> CONTEXT: Items/8/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/9/menu_se/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+発情エキス
+> CONTEXT: Items/9/name/
+Estrus Extract
+> END STRING
+
+> BEGIN STRING
+発情させ、精の献上を必ず♀挿入にします。何回でも使用可能。
+> CONTEXT: Items/9/description/
+Semen offering is always insertion. Doesn't get consumed.
+> END STRING
+
+> BEGIN STRING
+没アイテムです
+> CONTEXT: Items/10/name/
+> CONTEXT: Items/17/name/
+> CONTEXT: Armors/85/name/
+> CONTEXT: Armors/283/name/
+> CONTEXT: Armors/284/name/
+> CONTEXT: Armors/285/name/
+> CONTEXT: Armors/286/name/
+> CONTEXT: Armors/287/name/
+> CONTEXT: Armors/321/name/
+> CONTEXT: Armors/322/name/
+> CONTEXT: Items/371/name/
+> CONTEXT: Items/372/name/
+> CONTEXT: Items/373/name/
+> CONTEXT: Items/374/name/
+> CONTEXT: Items/375/name/
+> CONTEXT: Items/376/name/
+> CONTEXT: Items/377/name/
+> CONTEXT: Items/378/name/
+> CONTEXT: Items/379/name/
+Lost item
+> END STRING
+
+> BEGIN STRING
+諸事情により没りました
+> CONTEXT: Items/10/description/
+> CONTEXT: Items/17/description/
+> CONTEXT: Armors/85/description/
+> CONTEXT: Armors/283/description/
+> CONTEXT: Armors/284/description/
+> CONTEXT: Armors/285/description/
+> CONTEXT: Armors/286/description/
+> CONTEXT: Armors/287/description/
+> CONTEXT: Armors/321/description/
+> CONTEXT: Armors/322/description/
+> CONTEXT: Items/371/description/
+> CONTEXT: Items/372/description/
+> CONTEXT: Items/373/description/
+> CONTEXT: Items/374/description/
+> CONTEXT: Items/375/description/
+> CONTEXT: Items/376/description/
+> CONTEXT: Items/377/description/
+> CONTEXT: Items/378/description/
+> CONTEXT: Items/379/description/
+Died due to various circumstances
+> END STRING
+
+> BEGIN STRING
+現在の階層
+> CONTEXT: Items/11/name/
+Current Level
+> END STRING
+
+> BEGIN STRING
+現在何階にいるかを教えてくれます。
+> CONTEXT: Items/11/description/
+It will tell you what floor you are currently on.
+> END STRING
+
+> BEGIN STRING
+046-Book01
+> CONTEXT: Items/11/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/12/menu_se/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+脱出装置
+> CONTEXT: Items/12/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+遊技場から出ることができる(未実装)
+> CONTEXT: Items/12/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢のしおり
+> CONTEXT: Items/13/name/
+Dream Bookmark
+> END STRING
+
+> BEGIN STRING
+その場でセーブができる。何回でも使用可能。
+> CONTEXT: Items/13/description/
+Save anywhere. Does not get consumed.
+> END STRING
+
+> BEGIN STRING
+デバッグアイテムVer2
+> CONTEXT: Items/14/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デバッカー
+> CONTEXT: Items/15/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リファインドチェッカー
+> CONTEXT: Items/16/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+MODの状態を最新にします。
+> CONTEXT: Items/16/description/ < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -110,9 +261,9 @@ Herb tea
 > END STRING
 
 > BEGIN STRING
-[茶] ＥＰが小回復する。乾燥したハーブを煮出して飲用としたお茶。
+[茶] ＥＰが微回復する。乾燥したハーブを煮出して飲用としたお茶。
 > CONTEXT: Items/21/description/
-[Tea] Recovers EP a bit. Boiled with dried herbs.
+[Tea] Recovers EP slightly. Made by boiling dried herbs.
 > END STRING
 
 > BEGIN STRING
@@ -122,13 +273,43 @@ Herb tea
 > CONTEXT: Items/27/menu_se/name/ < UNTRANSLATED
 > CONTEXT: Items/28/menu_se/name/ < UNTRANSLATED
 > CONTEXT: Items/37/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/29/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/31/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/32/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/39/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/40/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/41/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/42/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/74/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/75/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/76/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/77/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/78/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/79/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/80/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/81/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/82/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/84/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/85/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/87/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/88/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/91/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/101/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/408/menu_se/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-[茶] ＥＰが中回復する。ベルガモットの独特の甘い香りがする着香茶。
+アールグレイ
+> CONTEXT: Items/22/name/
+> CONTEXT: Map002/events/5/pages/0/19/Choice/1
+Earl Grey
+> END STRING
+
+> BEGIN STRING
+[茶] ＥＰが小回復する。ベルガモットの独特の甘い香りがする着香茶。
 > CONTEXT: Items/22/description/
-[Tea] Recovers EP moderately. Tea with a sweet scent of bergamot.
+[Tea] Restores a bit of EP. Scented with the unique sweet scent of bergamot.
 > END STRING
 
 > BEGIN STRING
@@ -146,9 +327,9 @@ Apitoyu blend
 > END STRING
 
 > BEGIN STRING
-[茶] ＥＰが大回復する。香りが良く飲みやすいが、深みがある茶。
+[茶] ＥＰが中回復する。香りが良く飲みやすいが、深みがある茶。
 > CONTEXT: Items/23/description/
-[Tea] Restores EP a lot. Nice aroma, easy to drink, but deep flavor.
+[Tea] Moderate EP recovery. Fragrant, easy-to-drink, with deep flavor.
 > END STRING
 
 > BEGIN STRING
@@ -172,10 +353,9 @@ Lemon peal
 > END STRING
 
 > BEGIN STRING
-[菓] ＥＰが小回復する。菓子は戦闘中でも使用できる。
-> CONTEXT: Items/37/description/
+[菓] ＥＰが微回復する。菓子は戦闘中でも使用できる。
 > CONTEXT: Items/26/description/
-[Snack] Restores EP a bit. Snacks can be used even in battle.
+[Snack] Restores EP slightly. Candy can be used even during battle.
 > END STRING
 
 > BEGIN STRING
@@ -185,21 +365,22 @@ Dry Apricot
 > END STRING
 
 > BEGIN STRING
-[菓] ＥＰが中回復する。干すことで甘みが凝縮されたアプリコット。
+[菓] ＥＰが小回復する。干すことで甘みが凝縮されたアプリコット。
 > CONTEXT: Items/27/description/
-[Snack] Restores EP moderately. Concentrated sweetness when it's dried.
+[Snack] Restore EP a bit. Sweetness is concentrated by drying.
 > END STRING
 
 > BEGIN STRING
-フルーツタルト
-> CONTEXT: Items/28/name/
-Fruit Tart
-> END STRING
-
-> BEGIN STRING
-[菓] ＥＰが大回復する。上品な味わいで人気な一口サイズのタルト。
+[菓] ＥＰが超回復する。上品な味わいで人気な一口サイズのタルト。
 > CONTEXT: Items/28/description/
-[Snack] Restores EP a lot. A bite-sized tart. Popular for its elegant taste.
+> CONTEXT: Items/42/description/
+[Snack] Restores EP greatly. Popular tart with an elegant taste.
+> END STRING
+
+> BEGIN STRING
+[菓] ＥＰが超大回復する。メイドを極めた夢魔が作れる極上の菓子。
+> CONTEXT: Items/29/description/
+[Snack] Super EP recovery. Exquisite, can only be made by a master maid.
 > END STRING
 
 > BEGIN STRING
@@ -209,14 +390,63 @@ Wake up
 > END STRING
 
 > BEGIN STRING
-仲間を完全回復させる妙薬。失神した仲間にも効果がある。
+[茶] 仲間を完全回復させる妙薬。失神した仲間にも効果がある。
 > CONTEXT: Items/30/description/
-Elixir that fully recovers an ally. Also effective on fainted allies.
+[Tea] Completely restores allies. Applies on fainted allies.
 > END STRING
 
 > BEGIN STRING
 116-Raise02
 > CONTEXT: Items/30/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/43/menu_se/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢の切れ端
+> CONTEXT: Items/31/name/
+Dream Fragment
+> END STRING
+
+> BEGIN STRING
+VＰが小回復する。数多の想いを書き綴ったその一欠けら。
+> CONTEXT: Items/31/description/
+Recover a bit of VP. A piece of paper that contains countless thoughts.
+> END STRING
+
+> BEGIN STRING
+夢の一頁
+> CONTEXT: Items/32/name/
+A page of a dream
+> END STRING
+
+> BEGIN STRING
+VＰが大回復する。戦闘中でも使用可能。数多の想いを書き綴ったその一ページ。
+> CONTEXT: Items/32/description/
+Large VP recovery. Can use during battle. Countless thoughts are written on it.
+> END STRING
+
+> BEGIN STRING
+ソウルジュース/20
+> CONTEXT: Items/33/name/
+Soul Juice/20
+> END STRING
+
+> BEGIN STRING
+夢魔の満腹度がある程度満たされる。夢の残滓から作ったタナトスお手製ジュース。
+> CONTEXT: Items/33/description/
+Satisfies some of succubus' hunger. Made by Thanatos from the remains of dreams.
+> END STRING
+
+> BEGIN STRING
+SC_click4
+> CONTEXT: Items/34/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/35/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/36/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/33/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/44/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/86/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/89/menu_se/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -230,14 +460,6 @@ Milk Mushroom/10
 夢魔の満腹度が少し満たされる。舐め続けていると傘から白い液体が出る茸。
 > CONTEXT: Items/34/description/
 Restores a bit of satiety. White liquid comes out from the cap when licked.
-> END STRING
-
-> BEGIN STRING
-SC_click4
-> CONTEXT: Items/34/menu_se/name/ < UNTRANSLATED
-> CONTEXT: Items/35/menu_se/name/ < UNTRANSLATED
-> CONTEXT: Items/36/menu_se/name/ < UNTRANSLATED
-
 > END STRING
 
 > BEGIN STRING
@@ -265,6 +487,109 @@ Restores satiety fully. Milk that's too strong for humans to drink
 > END STRING
 
 > BEGIN STRING
+[菓] ＥＰが小回復する。菓子は戦闘中でも使用できる。
+> CONTEXT: Items/37/description/
+[Snack] Restores EP a bit. Snacks can be used even in battle.
+> END STRING
+
+> BEGIN STRING
+チョコレート
+> CONTEXT: Items/39/name/
+Chocolate
+> END STRING
+
+> BEGIN STRING
+[菓] 全員のＥＰを小回復する。二つに割ってお裾分けしよう。
+> CONTEXT: Items/39/description/
+[Snack] Recovers a bit of EP for everyone. Split it in two and share.
+> END STRING
+
+> BEGIN STRING
+ツインマカロン
+> CONTEXT: Items/40/name/
+Twin Macaron
+> END STRING
+
+> BEGIN STRING
+[菓] 全員のＥＰを中回復する。色違いのセットでカップルに人気。
+> CONTEXT: Items/40/description/
+[Snack] Recovers everyone's EP. Set of different colors, popular with couples.
+> END STRING
+
+> BEGIN STRING
+[菓] 全員のＥＰを大回復する。パキっと割って、二人で食べよう！
+> CONTEXT: Items/41/description/
+[Snack] Greatly recovers everyone's EP. Crack it open and eat it together!
+> END STRING
+
+> BEGIN STRING
+支給用フルーツタルト
+> CONTEXT: Items/42/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウェイクアップ・ミニ
+> CONTEXT: Items/43/name/
+Wake Up Mini
+> END STRING
+
+> BEGIN STRING
+[茶] 仲間を回復させる妙薬。失神した仲間にも効果がある。
+> CONTEXT: Items/43/description/
+[Tea] A miracle drug that heals allies. Also effective on allies who have fainted.
+> END STRING
+
+> BEGIN STRING
+支給用一番搾り/100
+> CONTEXT: Items/44/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔の満腹度が完全に満たされる。遊技場から出ると回収される。
+> CONTEXT: Items/44/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+支給用ネクストステア/1
+> CONTEXT: Items/45/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レベルを１上げる。遊技場から出ると回収される。
+> CONTEXT: Items/45/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+115-Raise01
+> CONTEXT: Items/49/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/45/menu_se/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ムーンウォータ
+> CONTEXT: Items/46/name/
+Moonwater
+> END STRING
+
+> BEGIN STRING
+[茶] ＶＰが大回復する。力が回復する謎の水。
+> CONTEXT: Items/46/description/
+[Tea] mysterious water that greatly restores VP.
+> END STRING
+
+> BEGIN STRING
+107-Heal03
+> CONTEXT: Items/46/menu_se/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 ネクストステア/1
 > CONTEXT: Items/49/name/
 Next stair/1
@@ -274,12 +599,6 @@ Next stair/1
 レベルを１上げる。
 > CONTEXT: Items/49/description/
 Raise level by 1.
-> END STRING
-
-> BEGIN STRING
-115-Raise01
-> CONTEXT: Items/49/menu_se/name/ < UNTRANSLATED
-
 > END STRING
 
 > BEGIN STRING
@@ -325,15 +644,28 @@ Romance bouquet/100
 > END STRING
 
 > BEGIN STRING
-夢中の物語
-> CONTEXT: Items/69/name/
-Dazing Tale
+魔力の結晶
+> CONTEXT: Items/68/name/
+> CONTEXT: Items/359/name/
+Magic Crystal
 > END STRING
 
 > BEGIN STRING
-夢魔の一人称を変更する。
+持っていると特殊な素質を習得可能になる結晶。
+> CONTEXT: Items/68/description/
+A crystal that allows the holder to acquire special abilities.
+> END STRING
+
+> BEGIN STRING
+夢中の原石
+> CONTEXT: Items/69/name/
+Passionate Gem
+> END STRING
+
+> BEGIN STRING
+現状使い道のないただの石。
 > CONTEXT: Items/69/description/
-Change a succubus' 1st person pronoun.
+It's just a stone with no current use.
 > END STRING
 
 > BEGIN STRING
@@ -351,6 +683,279 @@ Return Home.
 > BEGIN STRING
 088-Action03
 > CONTEXT: Items/71/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/72/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/421/menu_se/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ハザマノトビラ
+> CONTEXT: Items/72/name/
+Border Door
+> END STRING
+
+> BEGIN STRING
+シークレットラボへ戻る。
+> CONTEXT: Items/72/description/
+Return to the Secret Lab.
+> END STRING
+
+> BEGIN STRING
+■カフェ/MOD
+> CONTEXT: Items/73/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エンジェルジャスミン
+> CONTEXT: Items/74/name/
+Angel Jasmine
+> END STRING
+
+> BEGIN STRING
+[茶] ＥＰが超回復する。
+> CONTEXT: Items/74/description/
+[Tea] EP is greatly restored.
+> END STRING
+
+> BEGIN STRING
+ビターショコラ
+> CONTEXT: Items/75/name/
+Bitter Chocolate
+> END STRING
+
+> BEGIN STRING
+[菓] ＥＰが微回復し、恍惚と眠りを解除する。
+> CONTEXT: Items/75/description/
+[Candy] Slightly recovers EP and removes trance and sleep effects.
+> END STRING
+
+> BEGIN STRING
+バジルクッキー
+> CONTEXT: Items/76/name/
+Basil Cookies
+> END STRING
+
+> BEGIN STRING
+[菓] ＥＰが微回復し、暴走と欲情を解除する。
+> CONTEXT: Items/76/description/
+[Tea] Slightly recovers EP and removes berserk and lust.
+> END STRING
+
+> BEGIN STRING
+ガーリックバゲット
+> CONTEXT: Items/77/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[菓] ＥＰが微回復し、虚脱と骨抜きを解除する。
+> CONTEXT: Items/77/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ショコラキュイ
+> CONTEXT: Items/78/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[菓] ＥＰが微回復し、畏怖状態を解除する。
+> CONTEXT: Items/78/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミルクプリン
+> CONTEXT: Items/79/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[菓] ＥＰが微回復し、麻痺と中毒を解除する。
+> CONTEXT: Items/79/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ラムネ
+> CONTEXT: Items/80/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[菓] ＥＰが微回復し、散漫状態を解除する。
+> CONTEXT: Items/80/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウイスキーボンボン
+> CONTEXT: Items/81/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[菓] ＥＰが微回復し、魅了と虜を解除する。
+> CONTEXT: Items/81/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+チョコミントアイス
+> CONTEXT: Items/82/name/
+Chocolate Mint Ice Cream
+> END STRING
+
+> BEGIN STRING
+[菓] ＥＰが微回復。全状態変化を解除し、能力ランクもリセットする。
+> CONTEXT: Items/82/description/
+[Snack] Slight recovery of EP. Cancels all status changes and resets ability rank.
+> END STRING
+
+> BEGIN STRING
+ハニークリームパイ
+> CONTEXT: Items/84/name/
+Honey Cream Pie
+> END STRING
+
+> BEGIN STRING
+[菓] ＥＰが微回復し、全状態異常を解除する。
+> CONTEXT: Items/84/description/
+[Snack] Slightly recovers EP and removes all status ailments.
+> END STRING
+
+> BEGIN STRING
+コーラ
+> CONTEXT: Items/85/name/
+Cola
+> END STRING
+
+> BEGIN STRING
+[菓] ＥＰが微回復し、淫毒と媚薬と狂乱状態を解除する。
+> CONTEXT: Items/85/description/
+[Snack] Slightly recovers EP and removes lust, poison, aphrodisiac and berserk.
+> END STRING
+
+> BEGIN STRING
+ちんすこう/50
+> CONTEXT: Items/86/name/
+Chinsuko/50
+> END STRING
+
+> BEGIN STRING
+夢魔の満腹度がだいぶ満たされるお菓子。特に変な意味はない。
+> CONTEXT: Items/86/description/
+A sweet that will fill succubus' hunger. Nothing strange.
+> END STRING
+
+> BEGIN STRING
+チュロス
+> CONTEXT: Items/87/name/
+Churro
+> END STRING
+
+> BEGIN STRING
+[菓] ＥＰが大回復する。しっとりサクサク。
+> CONTEXT: Items/87/description/
+[Snack] Greatly restores EP. Moist and crunchy.
+> END STRING
+
+> BEGIN STRING
+チョコタルト
+> CONTEXT: Items/88/name/
+Chocolate tart
+> END STRING
+
+> BEGIN STRING
+[菓] ＥＰが大回復する。とても濃厚な味わい。
+> CONTEXT: Items/88/description/
+[Candy] Greatly recovers EP. Very rich flavor.
+> END STRING
+
+> BEGIN STRING
+マンゴージュース/75
+> CONTEXT: Items/89/name/
+Mango juice/75
+> END STRING
+
+> BEGIN STRING
+夢魔の満腹度が大幅に満たされる。人間が飲むには刺激的すぎるジュース。
+> CONTEXT: Items/89/description/
+Greatly fills satiety. Too pungent for humans to drink.
+> END STRING
+
+> BEGIN STRING
+あめ玉
+> CONTEXT: Items/91/name/
+Candy
+> END STRING
+
+> BEGIN STRING
+[菓] ＥＰが中回復する。宝石のようなあめ玉。
+> CONTEXT: Items/91/description/
+[Snack] Moderate recovery of EP. A jewel-like candy.
+> END STRING
+
+> BEGIN STRING
+ゲナトの精気瓶
+> CONTEXT: Items/100/name/
+> CONTEXT: Items/101/name/
+Genat's Semen Bottle
+> END STRING
+
+> BEGIN STRING
+精気を貯蔵することができる謎の肉塊。VP最大時のみ補充可。
+> CONTEXT: Items/100/description/
+A mysterious lump that can store energy. Can be replenished if VP is full.
+> END STRING
+
+> BEGIN STRING
+[VP全回復] 精気が注がれた謎の肉塊。戦闘中使用不可。
+> CONTEXT: Items/101/description/
+[Full VP recovery] Infused with energy. Cannot be used during battle.
+> END STRING
+
+> BEGIN STRING
+■セクシアム交換アイテム
+> CONTEXT: Items/103/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セクシアムコイン
+> CONTEXT: Items/104/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セクシアムを勝ち抜いた勝者の証。集めるといいことあるかも？
+> CONTEXT: Items/104/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セクシアムメダル
+> CONTEXT: Items/105/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セクシアムを勝ち抜いた強者の証。これを売るなんてとんでもない。
+> CONTEXT: Items/105/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セクシバルバッチ
+> CONTEXT: Items/106/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セクシバルを勝ち抜いた勝者の証。バッチだけど交換できる。
+> CONTEXT: Items/106/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -394,6 +999,30 @@ Best ingredients
 [材] 最高の食材。調理すればその味は引き出される。
 > CONTEXT: Items/153/description/
 [Ing.] Best ingredients. Cooking brings out the flavor.
+> END STRING
+
+> BEGIN STRING
+至高の食材
+> CONTEXT: Items/154/name/
+Supreme ingeredients
+> END STRING
+
+> BEGIN STRING
+[材] 最高を超えた至高の食材。その真価を引き出すには技術が必要。
+> CONTEXT: Items/154/description/
+[Ing.] Finest ingredients. Technique is required to bring out their true value.
+> END STRING
+
+> BEGIN STRING
+究極の食材
+> CONTEXT: Items/155/name/
+Ultimate ingredients
+> END STRING
+
+> BEGIN STRING
+[材] 最高を超えた究極の食材。その真価を引き出すには技術が必要。
+> CONTEXT: Items/155/description/
+[Ing.] Ultimate ingredients. Technique is required to bring out their true value.
 > END STRING
 
 > BEGIN STRING
@@ -983,6 +1612,378 @@ Apparently a lost fairy.
 > END STRING
 
 > BEGIN STRING
+白の花
+> CONTEXT: Items/247/name/
+White Flower
+> END STRING
+
+> BEGIN STRING
+樹海の中で一際目立つ花。
+> CONTEXT: Items/247/description/
+A flower that stands out in the sea of trees.
+> END STRING
+
+> BEGIN STRING
+深淵の実
+> CONTEXT: Items/248/name/
+Abyss Fruit
+> END STRING
+
+> BEGIN STRING
+とても美味しそうに見えるが、あまりにも苦すぎて食べられない。
+> CONTEXT: Items/248/description/
+It looks delicious, but it's too bitter to eat.
+> END STRING
+
+> BEGIN STRING
+カオスブランド
+> CONTEXT: Items/249/name/
+Chaos Brand
+> END STRING
+
+> BEGIN STRING
+もう中身が何であったか分からない。
+> CONTEXT: Items/249/description/
+Who knows what was in it anymore.
+> END STRING
+
+> BEGIN STRING
+群青色の液体
+> CONTEXT: Items/250/name/
+Ultramarine liquid
+> END STRING
+
+> BEGIN STRING
+見た目はやばそうだが、触ると気持ちいい。
+> CONTEXT: Items/250/description/
+It looks scary, but it feels good to touch.
+> END STRING
+
+> BEGIN STRING
+蘇る死人
+> CONTEXT: Items/251/name/
+Resurrected body
+> END STRING
+
+> BEGIN STRING
+動きが鈍いので採取された。
+> CONTEXT: Items/251/description/
+It was collected because it was moving slowly.
+> END STRING
+
+> BEGIN STRING
+歪んだ魔力
+> CONTEXT: Items/252/name/
+Twisted Magic
+> END STRING
+
+> BEGIN STRING
+爆発寸前で時が止まっている。
+> CONTEXT: Items/252/description/
+Stopped in time right before explosion.
+> END STRING
+
+> BEGIN STRING
+大天使の羽根
+> CONTEXT: Items/254/name/
+Archangel's Wings
+> END STRING
+
+> BEGIN STRING
+堕ちてもなお、純白を失わない綺麗な羽根。
+> CONTEXT: Items/254/description/
+Beautiful feathers that retain pure white color even when fallen.
+> END STRING
+
+> BEGIN STRING
+常世の果実
+> CONTEXT: Items/255/name/
+Fruit of Eternity
+> END STRING
+
+> BEGIN STRING
+地獄へ堕ちそうな味のする果実。
+> CONTEXT: Items/255/description/
+A fruit that tastes like it'll send you straight to hell.
+> END STRING
+
+> BEGIN STRING
+刹那の夢
+> CONTEXT: Items/256/name/
+A Fleeting Dream
+> END STRING
+
+> BEGIN STRING
+それが何であったか、望んでいたのか、もう心に残っていない。
+> CONTEXT: Items/256/description/
+You'll no longer remember what you are, or what you wanted.
+> END STRING
+
+> BEGIN STRING
+悟りの華
+> CONTEXT: Items/257/name/
+Enlightment Flower
+> END STRING
+
+> BEGIN STRING
+香りを嗅ぐと、なんだか世界が広がって感じる。
+> CONTEXT: Items/257/description/
+When smelling it, you feel like the world expands.
+> END STRING
+
+> BEGIN STRING
+古代のルーン
+> CONTEXT: Items/258/name/
+Ancient Rune
+> END STRING
+
+> BEGIN STRING
+古いルーンを作るのに必要な基盤となるもの。
+> CONTEXT: Items/258/description/
+A necessary foundation for creating the old runes.
+> END STRING
+
+> BEGIN STRING
+元型結晶
+> CONTEXT: Items/259/name/
+Archetype Crystal
+> END STRING
+
+> BEGIN STRING
+膨大な感情と夢が込められた結晶。強力な装備作成に必要。
+> CONTEXT: Items/259/description/
+Filled with emotions and dreams. Necessary for creating powerful equipment.
+> END STRING
+
+> BEGIN STRING
+未検閲の魔導書
+> CONTEXT: Items/261/name/
+Uncensored Spellbook
+> END STRING
+
+> BEGIN STRING
+斜め読みするだけでも眩暈がする危険な書物、何に使えるのだろうか…。
+> CONTEXT: Items/261/description/
+Dangerous book that can make you dizzy skimming through it
+> END STRING
+
+> BEGIN STRING
+禁忌の残滓
+> CONTEXT: Items/262/name/
+Forbidden Remnants
+> END STRING
+
+> BEGIN STRING
+危険なモノとして封じられていたモノの一部。
+> CONTEXT: Items/262/description/
+Part of something that was sealed away as dangerous.
+> END STRING
+
+> BEGIN STRING
+仄暗い粒子
+> CONTEXT: Items/263/name/
+Dark particles
+> END STRING
+
+> BEGIN STRING
+ずっと奥深くに眠っていたエネルギーの集合体。
+> CONTEXT: Items/263/description/
+A collection of energy that had been sleeping deep within for a long time.
+> END STRING
+
+> BEGIN STRING
+雪解け水
+> CONTEXT: Items/265/name/
+Meltwater
+> END STRING
+
+> BEGIN STRING
+雪が溶けて出来た純度の高い水。
+> CONTEXT: Items/265/description/
+Highly pure water made from melting snow.
+> END STRING
+
+> BEGIN STRING
+雪割草
+> CONTEXT: Items/266/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+雪を割るように咲く花の総称。
+> CONTEXT: Items/266/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+遭難者の落とし物
+> CONTEXT: Items/267/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+遭難者が落とした紙切れ、文字はかすれて読めなくなっている。
+> CONTEXT: Items/267/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢うさぎの贈り物
+> CONTEXT: Items/268/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+雪うさぎの残した草だんご。とある事情で食べれたり食べれなかったりするらしい……。
+> CONTEXT: Items/268/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+透き通った布
+> CONTEXT: Items/270/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ジャックフロストが身にまとうストールの一部。
+> CONTEXT: Items/270/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+凍った古い杖
+> CONTEXT: Items/271/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+長い年月が建っているせいか、魔力は失われている。
+> CONTEXT: Items/271/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+つらら針
+> CONTEXT: Items/272/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+するどくて冷たい氷の柱。威力25で命中は100。2-5回の連続攻撃。
+> CONTEXT: Items/272/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+青い水晶
+> CONTEXT: Items/273/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+青い水晶は希少価値が高く、宿す魔力も強い。
+> CONTEXT: Items/273/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+変質した雪割草
+> CONTEXT: Items/275/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ハザマの魔力の影響で変異を起こした雪割草。
+> CONTEXT: Items/275/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ハザマのナイフ
+> CONTEXT: Items/276/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+コボルトが所持していたナイフ、夢世界では意味のない物。
+> CONTEXT: Items/276/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔力が籠もった雪
+> CONTEXT: Items/277/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔力のこもった生ける雪。世界を旅するのが夢らしい。
+> CONTEXT: Items/277/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+冬虫夏草
+> CONTEXT: Items/278/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+虫に取り憑く恐ろしいキノコ。つめたくてからいらしい。
+> CONTEXT: Items/278/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+奇妙な魔力を含んだ岩石
+> CONTEXT: Items/280/name/
+Strange Magic Rock
+> END STRING
+
+> BEGIN STRING
+裂け目から放たれる魔力を含んだ岩石。
+> CONTEXT: Items/280/description/
+A rock containing magical power emanating from a crack.
+> END STRING
+
+> BEGIN STRING
+小さな裂け目
+> CONTEXT: Items/281/name/
+Small crack
+> END STRING
+
+> BEGIN STRING
+何故か採取できてしまった空間の裂け目。取り扱いには注意が必要。
+> CONTEXT: Items/281/description/
+A rift in space that was somehow harvested. Care must be taken with it.
+> END STRING
+
+> BEGIN STRING
+濁った石英
+> CONTEXT: Items/282/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+様々な魔力が入り乱れて、濁ってしまっている水晶。
+> CONTEXT: Items/282/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+凍てついた炎
+> CONTEXT: Items/283/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+氷の中で、静かに揺らめく炎。それはかつて、星をも喰らわんとしていた。
+> CONTEXT: Items/283/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 夢魔の像
 > CONTEXT: Items/296/name/
 Succubus statue
@@ -1190,4 +2191,1131 @@ Devil statue
 手のひらサイズの小さな悪魔像。力を持っているが、弱々しい。
 > CONTEXT: Items/314/description/
 A small palm-sized devil statue. Strong but weak.
+> END STRING
+
+> BEGIN STRING
+雪の結晶
+> CONTEXT: Items/315/name/
+Snow Crystal
+> END STRING
+
+> BEGIN STRING
+自然界にて発生した、工芸品のような美しい氷の塊。
+> CONTEXT: Items/315/description/
+A beautiful block of ice that occurs naturally and looks like a work of art.
+> END STRING
+
+> BEGIN STRING
+バニーバンド
+> CONTEXT: Items/316/name/
+Bunny Band
+> END STRING
+
+> BEGIN STRING
+ウサギの耳を
+> CONTEXT: Items/316/description/
+Rabbit ears
+> END STRING
+
+> BEGIN STRING
+以下MOD
+> CONTEXT: Items/330/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+美味しいごはん
+> CONTEXT: Items/331/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+美味しいごはん。
+> CONTEXT: Items/331/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+チキン
+> CONTEXT: Items/332/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+大工さんからもらった鶏肉。
+> CONTEXT: Items/332/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キノコのようなブツ
+> CONTEXT: Items/333/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キノコのような形をしたナニか。食べられません。
+> CONTEXT: Items/333/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+胞子袋
+> CONTEXT: Items/334/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+怪しい胞子が詰まった袋。吸うとトリップするよ。
+> CONTEXT: Items/334/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+謎の粘液
+> CONTEXT: Items/335/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+謎の粘液。スライムにあげると喜ばれるといいですね。
+> CONTEXT: Items/335/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+べたべたした鍵
+> CONTEXT: Items/336/name/
+Sticky Key
+> END STRING
+
+> BEGIN STRING
+なんだかぬるっとする鍵。
+> CONTEXT: Items/336/description/
+The key feels kind of slimy.
+> END STRING
+
+> BEGIN STRING
+わらしべ枠予備
+> CONTEXT: Items/337/name/
+> CONTEXT: Items/338/name/
+Straw frame spare
+> END STRING
+
+> BEGIN STRING
+常夜の鍵-ハート
+> CONTEXT: Items/341/name/
+Evernight Key:Heart
+> END STRING
+
+> BEGIN STRING
+遺跡の扉を開けるための鍵。
+> CONTEXT: Items/341/description/
+> CONTEXT: Items/342/description/
+> CONTEXT: Items/343/description/
+> CONTEXT: Items/344/description/
+> CONTEXT: Items/345/description/
+> CONTEXT: Items/346/description/
+> CONTEXT: Items/347/description/
+A key to open the door to the ruins.
+> END STRING
+
+> BEGIN STRING
+常夜の鍵-クローバー
+> CONTEXT: Items/342/name/
+Evernight Key:Clover
+> END STRING
+
+> BEGIN STRING
+常夜の鍵-ダイヤ
+> CONTEXT: Items/343/name/
+Evernight Key:Diamond
+> END STRING
+
+> BEGIN STRING
+常夜の鍵-スペード
+> CONTEXT: Items/344/name/
+Evernight Key:Spade
+> END STRING
+
+> BEGIN STRING
+常夜の鍵-アクア
+> CONTEXT: Items/345/name/
+Evernight Key:Aqua
+> END STRING
+
+> BEGIN STRING
+常夜の鍵-クロス
+> CONTEXT: Items/346/name/
+Evernight Key:Cross
+> END STRING
+
+> BEGIN STRING
+常夜の鍵-ルビー
+> CONTEXT: Items/347/name/
+Evernight Key:Ruby
+> END STRING
+
+> BEGIN STRING
+常夜の鍵-スター
+> CONTEXT: Items/348/name/
+Evernight Key:Star
+> END STRING
+
+> BEGIN STRING
+ニュクスに会うために必要な鍵。
+> CONTEXT: Items/348/description/
+> CONTEXT: Items/349/description/
+> CONTEXT: Items/350/description/
+A key needed to meet Nyx.
+> END STRING
+
+> BEGIN STRING
+常夜の鍵-アメジスト
+> CONTEXT: Items/349/name/
+Evernight Key:Amethyst
+> END STRING
+
+> BEGIN STRING
+常夜の鍵-リーフ
+> CONTEXT: Items/350/name/
+Evernight Key:Leaf
+> END STRING
+
+> BEGIN STRING
+強欲のかけら
+> CONTEXT: Items/352/name/
+Shard of Greed
+> END STRING
+
+> BEGIN STRING
+大罪の力によって本来の力を失った強欲の結晶。
+> CONTEXT: Items/352/description/
+Crystallization of greed that has lost its original power.
+> END STRING
+
+> BEGIN STRING
+嫉妬のかけら
+> CONTEXT: Items/353/name/
+Shard of Envy
+> END STRING
+
+> BEGIN STRING
+大罪の力によって本来の力を失った嫉妬の結晶。
+> CONTEXT: Items/353/description/
+Crystallization of envy that has lost its original power.
+> END STRING
+
+> BEGIN STRING
+色欲のかけら
+> CONTEXT: Items/354/name/
+Shard of Lust
+> END STRING
+
+> BEGIN STRING
+大罪の力によって本来の力を失った色欲の結晶。
+> CONTEXT: Items/354/description/
+Crystallization of lust that has lost its original power.
+> END STRING
+
+> BEGIN STRING
+怠惰のかけら
+> CONTEXT: Items/355/name/
+Shard of Sloth
+> END STRING
+
+> BEGIN STRING
+大罪の力によって本来の力を失った怠惰の結晶。
+> CONTEXT: Items/355/description/
+Crystallization of sloth that has lost its original power.
+> END STRING
+
+> BEGIN STRING
+憤怒のかけら
+> CONTEXT: Items/356/name/
+Shard of Wrath
+> END STRING
+
+> BEGIN STRING
+大罪の力によって本来の力を失った憤怒の結晶。
+> CONTEXT: Items/356/description/
+Crystallization of wrath that has lost its original power.
+> END STRING
+
+> BEGIN STRING
+暴食のかけら
+> CONTEXT: Items/357/name/
+Shard of Gluttony
+> END STRING
+
+> BEGIN STRING
+大罪の力によって本来の力を失った暴食の結晶。
+> CONTEXT: Items/357/description/
+Crystallization of gluttony that has lost its original power.
+> END STRING
+
+> BEGIN STRING
+傲慢のかけら
+> CONTEXT: Items/358/name/
+Shard of Pride
+> END STRING
+
+> BEGIN STRING
+大罪の力によって本来の力を失った傲慢の結晶。
+> CONTEXT: Items/358/description/
+Crystallization of pride that has lost its original power.
+> END STRING
+
+> BEGIN STRING
+シスターの力を封じ込めた結晶
+> CONTEXT: Items/359/description/
+A crystal that contains the power of Sister.
+> END STRING
+
+> BEGIN STRING
+銀色の記憶
+> CONTEXT: Items/361/name/
+Silver Memory
+> END STRING
+
+> BEGIN STRING
+さらなる夢に立ち向かう力を得る。絶頂させた時のVPダメージが増加する。
+> CONTEXT: Items/361/description/
+Gain the power to face even greater dreams. Increases VP damage of climax.
+> END STRING
+
+> BEGIN STRING
+強欲の結晶
+> CONTEXT: Items/362/name/
+Crystal of Greed
+> END STRING
+
+> BEGIN STRING
+強欲の力を打ち消す結晶。
+> CONTEXT: Items/362/description/
+A crystal that negates the power of greed.
+> END STRING
+
+> BEGIN STRING
+嫉妬の結晶
+> CONTEXT: Items/363/name/
+Crystal of Envy
+> END STRING
+
+> BEGIN STRING
+嫉妬の力を打ち消す結晶。
+> CONTEXT: Items/363/description/
+A crystal that counteracts the power of envy.
+> END STRING
+
+> BEGIN STRING
+色欲の結晶
+> CONTEXT: Items/364/name/
+Crystal of Lust
+> END STRING
+
+> BEGIN STRING
+色欲の力を打ち消す結晶。
+> CONTEXT: Items/364/description/
+A crystal that negates the power of lust.
+> END STRING
+
+> BEGIN STRING
+怠惰の結晶
+> CONTEXT: Items/365/name/
+Crystal of Sloth
+> END STRING
+
+> BEGIN STRING
+怠惰の力を打ち消す結晶。
+> CONTEXT: Items/365/description/
+A crystal that negates the power of sloth.
+> END STRING
+
+> BEGIN STRING
+憤怒の結晶
+> CONTEXT: Items/366/name/
+Crystal of Wrath
+> END STRING
+
+> BEGIN STRING
+憤怒の力を打ち消す結晶。
+> CONTEXT: Items/366/description/
+A crystal that negates the power of wrath.
+> END STRING
+
+> BEGIN STRING
+暴食の結晶
+> CONTEXT: Items/367/name/
+Crystal of Gluttony
+> END STRING
+
+> BEGIN STRING
+暴食の力を打ち消す結晶。
+> CONTEXT: Items/367/description/
+A crystal that negates the power of gluttony.
+> END STRING
+
+> BEGIN STRING
+傲慢の結晶
+> CONTEXT: Items/368/name/
+Crystal of Pride
+> END STRING
+
+> BEGIN STRING
+傲慢の力を打ち消す結晶。
+> CONTEXT: Items/368/description/
+A crystal that counteracts the power of pride.
+> END STRING
+
+> BEGIN STRING
+必殺サボリ術
+> CONTEXT: Items/369/name/
+Deadly Slacking
+> END STRING
+
+> BEGIN STRING
+いかにバレずに仕事をサボるかが記された ティミッドの研究メモ。
+> CONTEXT: Items/369/description/
+Timid's research notes on how to slack off at work without getting caught.
+> END STRING
+
+> BEGIN STRING
+黒の鍵
+> CONTEXT: Items/381/name/
+Black Key
+> END STRING
+
+> BEGIN STRING
+遊技場の扉を開けるのに必要な鍵。
+> CONTEXT: Items/381/description/
+A key needed to open the door at the playground.
+> END STRING
+
+> BEGIN STRING
+金色の記憶
+> CONTEXT: Items/383/name/
+Golden Memory
+> END STRING
+
+> BEGIN STRING
+さらなる夢に立ち向かう力を得る。戦闘終了時の回復量が増加する。
+> CONTEXT: Items/383/description/
+Strength to pursue greater dreams. Increases recovery at the end of battle.
+> END STRING
+
+> BEGIN STRING
+鏡の記憶
+> CONTEXT: Items/384/name/
+Mirror Memory
+> END STRING
+
+> BEGIN STRING
+さらなる夢に立ち向かう力を得る。一部キャラを除いた装備数が増加する。
+> CONTEXT: Items/384/description/
+Power to pursue greater dreams. Increases equipment slots for all characters.
+> END STRING
+
+> BEGIN STRING
+常夜の記憶
+> CONTEXT: Items/385/name/
+Everlasting Night Memory
+> END STRING
+
+> BEGIN STRING
+さらなる夢に立ち向かう力を得る。新たなる力が習得可能となる。
+> CONTEXT: Items/385/description/
+Strength to pursue greater dreams. Able to acquire new powers.
+> END STRING
+
+> BEGIN STRING
+開眼のルーン石
+> CONTEXT: Items/386/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+無数のルーンが刻める不思議な石板。魔女達の叡智の結晶。 刻印できるルーンの数が増加する。
+> CONTEXT: Items/386/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+青銅の合鍵
+> CONTEXT: Items/390/name/
+Bronze Duplicate Key
+> END STRING
+
+> BEGIN STRING
+『親愛なる友へ』と刻まれた鍵、カタコンベの何所かで使えるらしい。
+> CONTEXT: Items/390/description/
+Engraved with "Dear Friend," can be used somewhere in the catacombs.
+> END STRING
+
+> BEGIN STRING
+BookTheApocalypse
+> CONTEXT: Items/391/name/
+The Apocalypse Book
+> END STRING
+
+> BEGIN STRING
+禁書庫の奥に封印されていた禁忌の魔導書。
+> CONTEXT: Items/391/description/
+A forbidden grimoire that was sealed deep within the Forbidden Library.
+> END STRING
+
+> BEGIN STRING
+天光の大宝玉
+> CONTEXT: Items/392/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+とある存在の力を弱めるための宝玉、ヘメテルからの寵愛の証。
+> CONTEXT: Items/392/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+追憶の大結晶
+> CONTEXT: Items/393/name/
+Great Crystal of Remembrance
+> END STRING
+
+> BEGIN STRING
+とある存在の力を弱めるための結晶、ベスティからの寵愛の証。
+> CONTEXT: Items/393/description/
+Crystal made to weaken the power of a certain being, a symbol of Besti's favor.
+> END STRING
+
+> BEGIN STRING
+魔人の残響
+> CONTEXT: Items/394/name/
+Demon Echoes
+> END STRING
+
+> BEGIN STRING
+とある存在の力を弱めるための結晶、シスターからの寵愛の証。
+> CONTEXT: Items/394/description/
+Crystal made to weaken the power of a certain being, a symbol of Sister's favor.
+> END STRING
+
+> BEGIN STRING
+CorruptRegalia
+> CONTEXT: Items/395/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+禁書庫の奥に封印されていた砕かれた角、詳細をシスターに聞いてみよう。
+> CONTEXT: Items/395/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ポイントジェム
+> CONTEXT: Items/396/name/
+Point Gem
+> END STRING
+
+> BEGIN STRING
+これ自体には効果はないが、集めるといいことがあるらしい
+> CONTEXT: Items/396/description/
+This in itself has no effect, but collecting them is said to bring good things.
+> END STRING
+
+> BEGIN STRING
+銀色の軌跡
+> CONTEXT: Items/397/name/
+Silver Trail
+> END STRING
+
+> BEGIN STRING
+誰かの記憶の残滓、輝いているようにも色あせているようにも見える
+> CONTEXT: Items/397/description/
+The remnants of someone's memory, they seem both shiny and faded
+> END STRING
+
+> BEGIN STRING
+没アイテム
+> CONTEXT: Items/400/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ロワールワイン
+> CONTEXT: Items/408/name/
+Loire Wine
+> END STRING
+
+> BEGIN STRING
+[酒] ＥＰが小回復すると共に、寒さが和らぐ。
+> CONTEXT: Items/408/description/
+[Alcohol] EP recovers slightly and coldness eases.
+> END STRING
+
+> BEGIN STRING
+■狭間の世界
+> CONTEXT: Items/410/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+書庫への鍵
+> CONTEXT: Items/411/name/
+Archive Key
+> END STRING
+
+> BEGIN STRING
+秘密の書庫へのドアを開けるための鍵。
+> CONTEXT: Items/411/description/
+A key to open the door to the secret archives.
+> END STRING
+
+> BEGIN STRING
+暗号解読書
+> CONTEXT: Items/412/name/
+Codebreaker
+> END STRING
+
+> BEGIN STRING
+ラボの地下に進むための暗号を解読する書物。
+> CONTEXT: Items/412/description/
+A book that deciphers the code to advance to the lab's basement.
+> END STRING
+
+> BEGIN STRING
+時の結晶・北
+> CONTEXT: Items/413/name/
+Time Crystal・North
+> END STRING
+
+> BEGIN STRING
+ジェノン雪渓で見つけた時の結晶。かすかに神々しさが残っている。
+> CONTEXT: Items/413/description/
+Crystal of Time found in the Genon Snow Valley. Still retains a hint of divinity.
+> END STRING
+
+> BEGIN STRING
+時の結晶・東
+> CONTEXT: Items/414/name/
+Time Crystal・East
+> END STRING
+
+> BEGIN STRING
+静寂の里で見つけた時の結晶。かすかに神々しさが残っている。
+> CONTEXT: Items/414/description/
+Crystal of Time found in the Village of Silence. Still retains a hint of divinity.
+> END STRING
+
+> BEGIN STRING
+時の結晶・南
+> CONTEXT: Items/415/name/
+Time Crystal・South
+> END STRING
+
+> BEGIN STRING
+深海で見つけた時の結晶。かすかに神々しさが残っている。
+> CONTEXT: Items/415/description/
+Crystal of Time found in the deep sea. Still retains a hint of divinity.
+> END STRING
+
+> BEGIN STRING
+時の結晶・西
+> CONTEXT: Items/416/name/
+Time Crystal・West
+> END STRING
+
+> BEGIN STRING
+聖地で見つけた時の結晶。かすかに神々しさが残っている。
+> CONTEXT: Items/416/description/
+Crystal of Time found in a sacred place. Still retains a hint of divinity.
+> END STRING
+
+> BEGIN STRING
+タウの懐中時計
+> CONTEXT: Items/417/name/
+Tau Pocket Watch
+> END STRING
+
+> BEGIN STRING
+マーリにもらった、タウとの想い出の品。
+> CONTEXT: Items/417/description/
+A gift from Mari as a memento of Tau.
+> END STRING
+
+> BEGIN STRING
+実験室？の鍵
+> CONTEXT: Items/418/name/
+Laboratory? Key
+> END STRING
+
+> BEGIN STRING
+どこか懐かしさすら感じる、実験室の鍵
+> CONTEXT: Items/418/description/
+A laboratory key that feels somehow nostalgic
+> END STRING
+
+> BEGIN STRING
+冥界への片道切符
+> CONTEXT: Items/419/name/
+One-way ticket to underworld
+> END STRING
+
+> BEGIN STRING
+冥界に戻るための片道切符。
+> CONTEXT: Items/419/description/
+A one-way ticket back to the underworld.
+> END STRING
+
+> BEGIN STRING
+運命の言霊
+> CONTEXT: Items/420/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+運命を左右できる神秘的な言霊。
+> CONTEXT: Items/420/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+輪廻の書
+> CONTEXT: Items/421/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+大天使の城へ戻る
+> CONTEXT: Items/421/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+浄化の言霊
+> CONTEXT: Items/422/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+淫界の霧を振り払える神秘的な言霊。
+> CONTEXT: Items/422/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+鋭気のフルーツ
+> CONTEXT: Items/431/name/
+Courage Fruit
+> END STRING
+
+> BEGIN STRING
+[果物] 鋭気の修行ポイントが少し上昇する。
+> CONTEXT: Items/431/description/
+[Fruit] Slightly increases the training points of courage.
+> END STRING
+
+> BEGIN STRING
+109-Heal05
+> CONTEXT: Items/431/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/432/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/433/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/434/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/435/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/436/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/437/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Items/438/menu_se/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精気のフルーツ
+> CONTEXT: Items/432/name/
+Vitality Fruit
+> END STRING
+
+> BEGIN STRING
+[果物] 精気の修行ポイントが少し上昇する。
+> CONTEXT: Items/432/description/
+[Fruit] Slightly increases the training points of vitality.
+> END STRING
+
+> BEGIN STRING
+魅力のフルーツ
+> CONTEXT: Items/433/name/
+Charm fruit
+> END STRING
+
+> BEGIN STRING
+[果物] 魅力の修行ポイントが少し上昇する。
+> CONTEXT: Items/433/description/
+[Fruit] Slightly increases the training points of charm.
+> END STRING
+
+> BEGIN STRING
+忍耐力のフルーツ
+> CONTEXT: Items/434/name/
+Endurance Fruit
+> END STRING
+
+> BEGIN STRING
+[果物] 忍耐力の修行ポイントが少し上昇する。
+> CONTEXT: Items/434/description/
+[Fruit] Slightly increases the training points of endurance.
+> END STRING
+
+> BEGIN STRING
+精力のフルーツ
+> CONTEXT: Items/435/name/
+Energy Fruit
+> END STRING
+
+> BEGIN STRING
+[果物] 精力の修行ポイントが少し上昇する。
+> CONTEXT: Items/435/description/
+[Fruit] Slightly increases the training points of energy.
+> END STRING
+
+> BEGIN STRING
+器用さのフルーツ
+> CONTEXT: Items/436/name/
+Dexterity Fruit
+> END STRING
+
+> BEGIN STRING
+[果物] 器用さの修行ポイントが少し上昇する。
+> CONTEXT: Items/436/description/
+[Fruit] Slightly increases the training points of dexterity.
+> END STRING
+
+> BEGIN STRING
+素早さのフルーツ
+> CONTEXT: Items/437/name/
+Agility Fruit
+> END STRING
+
+> BEGIN STRING
+[果物] 素早さの修行ポイントが少し上昇する。
+> CONTEXT: Items/437/description/
+[Fruit] Slightly increases the training points of agility.
+> END STRING
+
+> BEGIN STRING
+精神力のフルーツ
+> CONTEXT: Items/438/name/
+Spirit Fruit
+> END STRING
+
+> BEGIN STRING
+[果物] 精神力の修行ポイントが少し上昇する。
+> CONTEXT: Items/438/description/
+[Fruit] Slightly increases the training points of spirit.
+> END STRING
+
+> BEGIN STRING
+クロのつりざお
+> CONTEXT: Items/451/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+タイミングよくボタンを押すと魚が釣れる。
+> CONTEXT: Items/451/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スリーピィのパンツ
+> CONTEXT: Items/452/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アイマスクの代わりに使うとよく安眠できる穏やかパンツ。
+> CONTEXT: Items/452/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ゴブリンのパンツ
+> CONTEXT: Items/453/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+石を入れて振り回すといい感じに投石できるめちゃつよパンツ。
+> CONTEXT: Items/453/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エテルヌスのパンツ
+> CONTEXT: Items/454/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ちょうど息子のサイズにぴったり合いそうな小ぶりパンツ。
+> CONTEXT: Items/454/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ガーゴイルのパンツ
+> CONTEXT: Items/455/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カッチカチでどうやったら履けるのかわからないパンツ。
+> CONTEXT: Items/455/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルラウネのパンツ
+> CONTEXT: Items/456/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+フローラルな香りのするパンツ。甘くやさしい上品な香りがする。
+> CONTEXT: Items/456/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリアのパンツ
+> CONTEXT: Items/457/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリアの奉仕用パンツ。想像しただけでエッチだ。
+> CONTEXT: Items/457/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マタンゴのパンツ
+> CONTEXT: Items/458/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キノコの香りがするパンツ。自身のキノコもつられて元気になりそうだ。
+> CONTEXT: Items/458/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キャストのパンツ
+> CONTEXT: Items/459/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キャストがまだ使ったことがない未使用パンツ。激レア。
+> CONTEXT: Items/459/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エンジェルのパンツ
+> CONTEXT: Items/460/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+見つめてるだけでヘブン状態になれそうな幸せパンツ。
+> CONTEXT: Items/460/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スライムのパンツ
+> CONTEXT: Items/461/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドライヤーで乾かしてもなぜかねばねばしてるパンツ。
+> CONTEXT: Items/461/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+校長先生のパンツ
+> CONTEXT: Items/462/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+絶大な魔力を感じる・・・！！被っても平気なのだろうか・・・？
+> CONTEXT: Items/462/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パンツ空きスロット
+> CONTEXT: Items/463/name/ < UNTRANSLATED
+> CONTEXT: Items/464/name/ < UNTRANSLATED
+> CONTEXT: Items/465/name/ < UNTRANSLATED
+> CONTEXT: Items/466/name/ < UNTRANSLATED
+> CONTEXT: Items/467/name/ < UNTRANSLATED
+> CONTEXT: Items/468/name/ < UNTRANSLATED
+> CONTEXT: Items/469/name/ < UNTRANSLATED
+> CONTEXT: Items/470/name/ < UNTRANSLATED
+> CONTEXT: Items/471/name/ < UNTRANSLATED
+> CONTEXT: Items/472/name/ < UNTRANSLATED
+> CONTEXT: Items/473/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サケ
+> CONTEXT: Items/474/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サケはサケ目サケ科サケ属の魚。つまりサケ。
+> CONTEXT: Items/474/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スズキ
+> CONTEXT: Items/475/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホンダでもヤマハでもない。スズキだ。
+> CONTEXT: Items/475/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アユ
+> CONTEXT: Items/476/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+Are you ready? うん！
+> CONTEXT: Items/476/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ブラックバス
+> CONTEXT: Items/477/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キャッチアンドリリース。
+> CONTEXT: Items/477/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ピラニア
+> CONTEXT: Items/478/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+実は臆病な魚。普段は人を噛まない。
+> CONTEXT: Items/478/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サメ
+> CONTEXT: Items/479/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+まだ胎内にいるうちに他の兄弟を食べてしまう魚。ふーん、エッチじゃん
+> CONTEXT: Items/479/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドクターフィッシュ
+> CONTEXT: Items/480/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+肌の古い角質を食べてくれる魚。ちんちんも食べてくれませんか？
+> CONTEXT: Items/480/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+コイ
+> CONTEXT: Items/481/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+竿の振動から伝わってくる重量！この胸の高鳴り！これが・・・コイッ!?
+> CONTEXT: Items/481/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メダカ
+> CONTEXT: Items/482/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+めだかの学校の歌詞ってさ、はだかに置き換えるとなんかエッチだよね。
+> CONTEXT: Items/482/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+すっぽん
+> CONTEXT: Items/483/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食べるとちんこが元気になるらしい。頭の形がちんこに似てるから？
+> CONTEXT: Items/483/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魚空きスロット
+> CONTEXT: Items/484/name/ < UNTRANSLATED
+> CONTEXT: Items/485/name/ < UNTRANSLATED
+> CONTEXT: Items/486/name/ < UNTRANSLATED
+> CONTEXT: Items/487/name/ < UNTRANSLATED
+> CONTEXT: Items/488/name/ < UNTRANSLATED
+> CONTEXT: Items/489/name/ < UNTRANSLATED
+> CONTEXT: Items/490/name/ < UNTRANSLATED
+> CONTEXT: Items/491/name/ < UNTRANSLATED
+> CONTEXT: Items/492/name/ < UNTRANSLATED
+> CONTEXT: Items/493/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+10分でわかる！ 性技の妙技　6年生
+> CONTEXT: Items/494/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+高学年が主に使っている教科書。付録がいっぱい付いてることで有名。
+> CONTEXT: Items/494/description/ < UNTRANSLATED
+
 > END STRING

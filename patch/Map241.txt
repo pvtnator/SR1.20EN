@@ -1,0 +1,504 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+"傲慢"
+> CONTEXT: Map241/events/1/pages/0/0/InlineScript/1:22
+> CONTEXT: Map241/events/1/pages/1/0/InlineScript/1:22
+> CONTEXT: Map241/events/1/pages/2/0/InlineScript/1:22
+> CONTEXT: Map046/events/335/pages/0/12/InlineScript/3:6
+"Pride"
+> END STRING
+
+> BEGIN STRING
+"（※クリア済）"
+> CONTEXT: Map241/events/1/pages/1/1/InlineScript/1:22
+> CONTEXT: Map241/events/2/pages/1/1/InlineScript/1:22
+> CONTEXT: Map241/events/3/pages/1/1/InlineScript/1:22
+> CONTEXT: Map241/events/4/pages/1/1/InlineScript/1:22
+> CONTEXT: Map241/events/5/pages/1/1/InlineScript/1:22
+> CONTEXT: Map241/events/6/pages/1/1/InlineScript/1:22
+> CONTEXT: Map241/events/7/pages/1/1/InlineScript/1:22
+"(※Cleared)"
+> END STRING
+
+> BEGIN STRING
+"憤怒"
+> CONTEXT: Map241/events/2/pages/0/0/InlineScript/1:22
+> CONTEXT: Map241/events/2/pages/1/0/InlineScript/1:22
+> CONTEXT: Map241/events/2/pages/2/0/InlineScript/1:22
+> CONTEXT: Map046/events/265/pages/0/12/InlineScript/3:6
+"Wrath"
+> END STRING
+
+> BEGIN STRING
+"暴食"
+> CONTEXT: Map241/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Map241/events/3/pages/1/0/InlineScript/1:22
+> CONTEXT: Map241/events/3/pages/2/0/InlineScript/1:22
+> CONTEXT: Map046/events/334/pages/0/12/InlineScript/3:6
+"Gluttony"
+> END STRING
+
+> BEGIN STRING
+"強欲"
+> CONTEXT: Map241/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map241/events/4/pages/1/0/InlineScript/1:22
+> CONTEXT: Map241/events/4/pages/2/0/InlineScript/1:22
+> CONTEXT: Map046/events/261/pages/0/12/InlineScript/3:6
+"Greed"
+> END STRING
+
+> BEGIN STRING
+"嫉妬"
+> CONTEXT: Map241/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Map241/events/5/pages/1/0/InlineScript/1:22
+> CONTEXT: Map241/events/5/pages/2/0/InlineScript/1:22
+> CONTEXT: Map046/events/262/pages/0/12/InlineScript/3:6
+"Envy"
+> END STRING
+
+> BEGIN STRING
+ポートから情報が流れ込んでくる
+> CONTEXT: Map241/events/5/pages/0/3/Dialogue
+> CONTEXT: Map241/events/5/pages/1/3/Dialogue
+> CONTEXT: Map241/events/5/pages/2/3/Dialogue
+> CONTEXT: Commonevents/258/1/Dialogue
+Information comes in from the port
+> END STRING
+
+> BEGIN STRING
+この領域は一人では挑めません。
+仲間を連れて出直しなさい……。
+> CONTEXT: Map241/events/5/pages/0/4/Dialogue
+> CONTEXT: Map241/events/5/pages/1/4/Dialogue
+> CONTEXT: Map241/events/5/pages/2/4/Dialogue
+You can't tackle this territory alone.
+Bring some companions and try again...
+> END STRING
+
+> BEGIN STRING
+"怠惰"
+> CONTEXT: Map241/events/6/pages/0/0/InlineScript/1:22
+> CONTEXT: Map241/events/6/pages/1/0/InlineScript/1:22
+> CONTEXT: Map241/events/6/pages/2/0/InlineScript/1:22
+> CONTEXT: Map046/events/263/pages/0/12/InlineScript/3:6
+"Sloth"
+> END STRING
+
+> BEGIN STRING
+"色欲"
+> CONTEXT: Map241/events/7/pages/0/0/InlineScript/1:22
+> CONTEXT: Map241/events/7/pages/1/0/InlineScript/1:22
+> CONTEXT: Map241/events/7/pages/2/0/InlineScript/1:22
+> CONTEXT: Map046/events/223/pages/0/12/InlineScript/3:6
+"Lust"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+さあ。
+ポ、ポートに触れるぞおっ！！
+> CONTEXT: Map241/events/18/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+Now.
+T-touch the port!!
+> END STRING
+
+> BEGIN STRING
+"修道士"
+> CONTEXT: Map241/events/19/pages/1/0/InlineScript/1:22
+> CONTEXT: Map241/events/30/pages/0/16/InlineScript/2:22
+> CONTEXT: Map203/events/46/pages/0/0/InlineScript/4:22
+> CONTEXT: Map241/events/39/pages/0/6/InlineScript/3:22
+> CONTEXT: Map203/events/60/pages/0/3/InlineScript/4:22
+> CONTEXT: Map083/events/71/pages/0/5/InlineScript/4:22
+"Monk"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふむ……。
+中がどうなってるか分からないだけに、
+慎重に進む必要がありそうですね。
+> CONTEXT: Map241/events/19/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+Hmm...
+Since we don't know what's inside,
+it seems we need to proceed carefully.
+> END STRING
+
+> BEGIN STRING
+"勇士"
+> CONTEXT: Map241/events/20/pages/1/0/InlineScript/1:22
+> CONTEXT: Map241/events/39/pages/0/6/InlineScript/1:22
+> CONTEXT: Map203/events/60/pages/0/3/InlineScript/1:22
+"Warrior"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+どうやら、このポートだけは仲間を引き連れて
+入らないといけないらしい。
+それも女の仲間を、だ。
+> CONTEXT: Map241/events/20/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+It seems that to enter this port, 
+you must bring along a companion.
+And a female companion, in fact.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なぜ、そこまで女にこだわるんだ？
+そんなに女好きな野郎が潜んでいるのか？
+> CONTEXT: Map241/events/20/pages/1/5/Dialogue
+\\name[\\v[2]]\\_
+Why are you so obsessed with women?
+Is there a guy out there who really loves women like that?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この中は一体、どうなってるんだろうな？
+> CONTEXT: Map241/events/21/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+I wonder what's going on inside here?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+そんな丸腰で彼女に挑むのかしら？
+> CONTEXT: Map241/events/26/pages/0/5/Dialogue
+\\name[\\v[3]]\\_
+Are you going to challenge her so unarmed?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+誰っスか？
+どこかで聞いたことのある声っスけど。
+> CONTEXT: Map241/events/26/pages/0/16/Dialogue
+\\name[\\v[2]]\\_
+Who is this?
+I feel like I've heard that voice somewhere before.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+せっかく、大罪の結晶を
+手にいれたというのに……。
+> CONTEXT: Map241/events/26/pages/0/20/Dialogue
+\\name[\\v[3]]\\_
+I went through all the effort of 
+getting my hands on the Crystals of Sin, but...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+彼女の力は恐ろしいものです。
+今の貴方では、返り討ちに合うだけでしょう。
+> CONTEXT: Map241/events/26/pages/0/23/Dialogue
+\\name[\\v[3]]\\_
+Her power is fearsome.
+She turns the tables on you.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ま、\\|まさか……！\\|
+\\n[101]、ヤバいっス！逃げるっス！
+> CONTEXT: Map241/events/26/pages/0/28/Dialogue
+\\name[\\v[2]]\\_
+No way...! \\|
+\\n[101], this is bad! I'm running away!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+彼女を倒したければ、力を得るのです。
+さあ、こちらへ……。
+> CONTEXT: Map241/events/26/pages/0/31/Dialogue
+\\name[\\v[3]]\\_
+If you want to defeat her, gain power.
+Come on...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+うわあああああああああっ！
+> CONTEXT: Map241/events/26/pages/0/41/Dialogue
+\\name[\\v[2]]\\_
+Waaaaaaaahhhhh!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この先の出口は塞がれてるぜ。
+力づくで突破するしか……。
+> CONTEXT: Map241/events/30/pages/0/25/Dialogue
+\\name[\\v[2]]\\_
+The exit ahead is blocked.
+The only way out is by force...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+この部屋に配置されたポートの中から、
+邪悪な力を感じます。
+> CONTEXT: Map241/events/30/pages/0/46/Dialogue
+\\name[\\v[3]]\\_
+I sense an evil power coming from the ports placed in this room.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+何か、とてつもなく悪い予感がしますね……。
+> CONTEXT: Map241/events/30/pages/0/53/Dialogue
+\\name[\\v[3]]\\_
+I have a really bad feeling about this...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+ふむ。
+ここにあるポートを破壊してから突入した方が
+良さそうだな。
+> CONTEXT: Map241/events/30/pages/0/58/Dialogue
+\\name[\\v[4]]\\_
+Hmm.
+It might be best to destroy the port here before going in.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[6]]\\_
+ふふっ、随分お困りのようね\\H
+> CONTEXT: Map241/events/30/pages/0/63/Dialogue
+\\name[\\v[6]]\\_
+Hehe, you seem to be in a lot of trouble\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+紫色の髪の女……！
+> CONTEXT: Map241/events/30/pages/0/82/Dialogue
+\\name[\\v[4]]\\_
+The purple-haired woman...!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お前がモリガンだな？
+この野郎、結晶を返しやがれ！
+> CONTEXT: Map241/events/30/pages/0/87/Dialogue
+\\name[\\v[2]]\\_
+You're Morrigan, right?
+You bastard, give me back my crystal!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[6]]\\_
+あら。初対面なのに
+私の名前を知ってくれてるだなんて……、
+アタシったらすっかり有名人なのね\\H
+> CONTEXT: Map241/events/30/pages/0/91/Dialogue
+\\name[\\v[6]]\\_
+Oh. You know my name even though we just met...
+I guess I'm a celebrity now\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[5]]\\_
+ふざけるな！
+ここに来る途中、裸で捕らわれていた仲間も
+ひょっとして、お前が……？
+> CONTEXT: Map241/events/30/pages/0/98/Dialogue
+\\name[\\v[5]]\\_
+Don't mess with me!
+I saw my friends captured and naked on the way,
+could it be that you were the one...?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[6]]\\_
+あら。お仲間さんだったの？
+なかなか美味しかったわよ\\H
+> CONTEXT: Map241/events/30/pages/0/102/Dialogue
+\\name[\\v[6]]\\_
+Oh. You're friends with them?
+They were delicious\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+……\\|大罪の結晶、大人しく返してもらおうか！
+今なら命だけは助けてやる。
+女だからって、容赦はしないぜ。
+> CONTEXT: Map241/events/30/pages/0/105/Dialogue
+\\name[\\v[4]]\\_
+……\\|I'll have you return the Crystals of Sin obediently!
+I'll spare your life for now.
+I won't show you any mercy even if you're a woman.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[6]]\\_
+この辺りの男って、なんでこんなにも
+揃いも揃って強気なのかしら……\\H
+興奮しちゃうじゃない……\\H
+> CONTEXT: Map241/events/30/pages/0/109/Dialogue
+\\name[\\v[6]]\\_
+I wonder why all the men around here are so bullish...\\H
+It gets me excited...\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[6]]\\_
+でもまだ、お・\\|あ・\\|ず・\\|け\\H
+> CONTEXT: Map241/events/30/pages/0/113/Dialogue
+\\name[\\v[6]]\\_
+But still, w\\|a\\|i\\|t\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[6]]\\_
+この部屋にあるポートは、
+私のいた夢世界と繋がっているの。
+> CONTEXT: Map241/events/30/pages/0/115/Dialogue
+\\name[\\v[6]]\\_
+The port in this room
+is connected to the dream world I was in.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[6]]\\_
+可愛い部下達が中で待っているから、
+遊んであげてちょうだい。
+そしたら、奥へと案内してあげる\\H
+> CONTEXT: Map241/events/30/pages/0/118/Dialogue
+\\name[\\v[6]]\\_
+My cute subordinates are waiting inside,
+so please play with them.
+Then I'll guide you to the back\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+チッ……舐めやがって。
+> CONTEXT: Map241/events/30/pages/0/126/Dialogue
+\\name[\\v[2]]\\_
+Tch... You're underestimating me.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+仕方ありませんね……。
+言うとおりにするしか、他に道はなさそうです。
+> CONTEXT: Map241/events/30/pages/0/130/Dialogue
+\\name[\\v[3]]\\_
+There's no other way...
+There seems to be no other way but to do as you're told.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[5]]\\_
+だが、トラップの可能性もある。
+くれぐれも慎重に進むようにな。
+> CONTEXT: Map241/events/30/pages/0/135/Dialogue
+\\name[\\v[5]]\\_
+However, it could be a trap.
+Proceed with caution.
+> END STRING
+
+> BEGIN STRING
+ティミッドの家まで送ってもらいますか？
+> CONTEXT: Map241/events/36/pages/0/0/Dialogue
+Go to Timid's house?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+まさか、全部１人で中の敵を
+倒してしまうとはね。
+> CONTEXT: Map241/events/39/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+I never thought he'd be able to defeat 
+all the enemies inside alone.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+キミ、随分根性あるじゃないか。
+人は見かけによらないな。
+> CONTEXT: Map241/events/39/pages/0/15/Dialogue
+\\name[\\v[2]]\\_
+You've got a lot of guts.
+Can't judge a book by its cover.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+……その手に持っているのは
+大罪の結晶……でしょうか？
+> CONTEXT: Map241/events/39/pages/0/18/Dialogue
+\\name[\\v[4]]\\_
+...Are those the Crystals of Sin 
+that you are holding in your hand...?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+どことなく本来の輝きを
+失っているように見えますが……。
+> CONTEXT: Map241/events/39/pages/0/21/Dialogue
+\\name[\\v[4]]\\_
+It seems to have lost some of its original luster...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[5]]\\_
+……奴の仕業か？
+> CONTEXT: Map241/events/39/pages/0/26/Dialogue
+\\name[\\v[5]]\\_
+...Is it her doing?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+なんとも言えませんね……。
+> CONTEXT: Map241/events/39/pages/0/28/Dialogue
+\\name[\\v[4]]\\_
+It's hard to say...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+まあ、奴を締め上げれば分かる事だ。
+> CONTEXT: Map241/events/39/pages/0/32/Dialogue
+\\name[\\v[3]]\\_
+Well, we'll find out once we've restrained her.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+さあ、行くぞ！
+奴を倒して皆を救い出すぜ！
+> CONTEXT: Map241/events/39/pages/0/34/Dialogue
+\\name[\\v[3]]\\_
+Let's go!
+Let's defeat her and save everyone!
+> END STRING
+
+> BEGIN STRING
+"行商人"
+> CONTEXT: Map241/events/42/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map201/events/36/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おやおや、あなたも討伐隊の一員ですか？
+いいもの揃ってますよ
+> CONTEXT: Map241/events/42/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map201/events/36/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING

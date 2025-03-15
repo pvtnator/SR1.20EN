@@ -1,11 +1,5 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-"アナウンスします"
-> CONTEXT: Commonevents/1/5/InlineScript/1:8
-"Announcement"
-> END STRING
-
-> BEGIN STRING
 \\name[\\v[2]]\\_
 迷えるアリス様、甘美なる『夢世界』へようこそ。
 歓迎致しますわ\\H
@@ -101,24 +95,23 @@ Thank you for your cooperation.
 > END STRING
 
 > BEGIN STRING
-"スライムの粘液が付いて
-上手く移動できなくなってしまった！"
-> CONTEXT: Commonevents/9/53/InlineScript/2:1
-"It's got slime goo on myself.
-I can't move properly anymore! "
+ランダムダンジョンに挑戦中は使うことができません！
+> CONTEXT: Commonevents/10/1/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/303/1/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
-"黒猫の不吉な鳴き声が
-頭にこびりついている……"
-> CONTEXT: Commonevents/9/64/InlineScript/2:1
-"The ominous cry of a black cat
-It's stuck in my head..."
+今は使うことができません！
+> CONTEXT: Commonevents/10/11/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/10/22/Dialogue < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
 ポートにあなたの情報が登録されました。
 > CONTEXT: Commonevents/11/6/Dialogue
+> CONTEXT: Commonevents/169/6/Dialogue
 Your information has been registered on the port.
 > END STRING
 
@@ -129,27 +122,18 @@ The information recorded in the port is flowing in!
 > END STRING
 
 > BEGIN STRING
-デバッグ用アイテムを入手します。
-> CONTEXT: Commonevents/12/5/Dialogue
-Get debugging items.
-> END STRING
-
-> BEGIN STRING
-テレポート
-> CONTEXT: Commonevents/27/10/Choice/0
-> CONTEXT: Commonevents/12/24/Choice/0
-> CONTEXT: Commonevents/12/24/Choice/0
-> CONTEXT: Commonevents/12/60/Choice/1
-> CONTEXT: Commonevents/12/60/Choice/1
-Teleport
+夢魔と契約できる数が50増えました。
+> CONTEXT: Commonevents/12/6/Dialogue
+The number of succubus contracts 
+you can make has increased by 50.
 > END STRING
 
 > BEGIN STRING
 情報を確認
-> CONTEXT: Commonevents/12/24/Choice/2
-> CONTEXT: Commonevents/12/24/Choice/2
-> CONTEXT: Commonevents/12/60/Choice/2
-> CONTEXT: Commonevents/12/60/Choice/2
+> CONTEXT: Commonevents/12/42/Choice/2
+> CONTEXT: Commonevents/12/42/Choice/2
+> CONTEXT: Commonevents/12/84/Choice/2
+> CONTEXT: Commonevents/12/84/Choice/2
 Check information
 > END STRING
 
@@ -1390,12 +1374,6 @@ And return to reality
 > END STRING
 
 > BEGIN STRING
-････････････
-> CONTEXT: Commonevents/13/543/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
 ･･････ポートに、キスマークと金字の文章が残されて\\_
 ある･･･。
 > CONTEXT: Commonevents/13/544/Dialogue
@@ -1431,6 +1409,44 @@ The things we, what I have done
 すべて夢だったと、忘れさせてください。
 > CONTEXT: Commonevents/13/556/Dialogue
 Let's forget that it was all a dream.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+ここ、爛柯の里では他の夢世界とは
+時間の流れが違うらしい。
+> CONTEXT: Commonevents/13/666/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+ためしに1週間滞在してみたが
+元の世界に帰ったら1日も経っていなかった・・・
+> CONTEXT: Commonevents/13/669/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+他者と違う時間を生きることは
+良いことなのかどうかはわからない。
+> CONTEXT: Commonevents/13/672/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[7]]\\_
+少なくとも私は、親しい人とは同じ時間を
+共有したいと切に思う。
+> CONTEXT: Commonevents/13/675/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"name_map0"
+> CONTEXT: Commonevents/14/4/InlineScript/2:21 < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -1498,25 +1514,312 @@ Let's forget that it was all a dream.
 > END STRING
 
 > BEGIN STRING
+"map_name_mod_mirror"
+> CONTEXT: Commonevents/14/316/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_coliseum"
+> CONTEXT: Commonevents/14/325/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_planehill"
+> CONTEXT: Commonevents/14/334/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_scrap"
+> CONTEXT: Commonevents/14/343/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_deep"
+> CONTEXT: Commonevents/14/352/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_heaven"
+> CONTEXT: Commonevents/14/361/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_silver"
+> CONTEXT: Commonevents/14/370/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_night"
+> CONTEXT: Commonevents/14/379/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_anamnesis"
+> CONTEXT: Commonevents/14/388/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_forest"
+> CONTEXT: Commonevents/14/397/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/510/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_interval"
+> CONTEXT: Commonevents/14/406/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_FLsnowfield"
+> CONTEXT: Commonevents/14/415/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_FLcave"
+> CONTEXT: Commonevents/14/425/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_FL"
+> CONTEXT: Commonevents/14/434/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_ranka"
+> CONTEXT: Commonevents/14/443/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_PHCofH"
+> CONTEXT: Commonevents/14/452/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_PHplaincliff"
+> CONTEXT: Commonevents/14/461/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_PHdeepestpart"
+> CONTEXT: Commonevents/14/471/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_catacombe"
+> CONTEXT: Commonevents/14/481/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_catacombeBF"
+> CONTEXT: Commonevents/14/490/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_warriorhall"
+> CONTEXT: Commonevents/14/500/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_cloakroom"
+> CONTEXT: Commonevents/14/519/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_laboratory"
+> CONTEXT: Commonevents/14/528/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_secretlab"
+> CONTEXT: Commonevents/14/537/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_Gofeternity"
+> CONTEXT: Commonevents/14/546/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_roadtohideout"
+> CONTEXT: Commonevents/14/555/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_hideout"
+> CONTEXT: Commonevents/14/565/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_greed"
+> CONTEXT: Commonevents/14/574/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_envy"
+> CONTEXT: Commonevents/14/583/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_lust"
+> CONTEXT: Commonevents/14/592/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_laziness"
+> CONTEXT: Commonevents/14/601/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/610/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_gluttony"
+> CONTEXT: Commonevents/14/619/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_arrogance"
+> CONTEXT: Commonevents/14/628/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_jenonsnowgorge"
+> CONTEXT: Commonevents/14/637/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_Hoftranquility"
+> CONTEXT: Commonevents/14/647/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_deepseapalace"
+> CONTEXT: Commonevents/14/657/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_HLlahasya"
+> CONTEXT: Commonevents/14/667/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_UGlibrary"
+> CONTEXT: Commonevents/14/676/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_malebranche"
+> CONTEXT: Commonevents/14/685/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_RPoftwilight"
+> CONTEXT: Commonevents/14/694/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_towerofJ"
+> CONTEXT: Commonevents/14/704/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_lewdworld"
+> CONTEXT: Commonevents/14/713/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_Sbase"
+> CONTEXT: Commonevents/14/722/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_kakuzato"
+> CONTEXT: Commonevents/14/731/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_heavencastle"
+> CONTEXT: Commonevents/14/740/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"空腹になった仲間"
+> CONTEXT: Commonevents/16/51/InlineScript/1:24 < UNTRANSLATED
+> CONTEXT: Commonevents/16/96/InlineScript/1:24 < UNTRANSLATED
+> CONTEXT: Commonevents/16/141/InlineScript/1:25 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 "screen02"
 > CONTEXT: Commonevents/17/25/InlineScript/3:20 < UNTRANSLATED
 > CONTEXT: Commonevents/130/36/InlineScript/3:20 < UNTRANSLATED
-> CONTEXT: Commonevents/17/85/InlineScript/2:38 < UNTRANSLATED
-> CONTEXT: Commonevents/130/68/InlineScript/2:38 < UNTRANSLATED
+> CONTEXT: Commonevents/17/92/InlineScript/2:38 < UNTRANSLATED
+> CONTEXT: Commonevents/130/77/InlineScript/2:38 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\v[2]は新たな姿にランクアップしそうだ……
 ランクアップを行わせますか？
-> CONTEXT: Commonevents/17/62/Dialogue
+> CONTEXT: Commonevents/17/63/Dialogue
 \\v[2] will rank up with a new appearance...
 Do you want to rank up?
 > END STRING
 
 > BEGIN STRING
+\\v[2]は特別な姿にランクアップしそうだ……
+ランクアップを行わせますか？
+> CONTEXT: Commonevents/17/67/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 \\v[2]は、\\v[3]にランクアップした！
-> CONTEXT: Commonevents/17/126/Dialogue
+> CONTEXT: Commonevents/17/133/Dialogue
 \\v[2] has ranked up to \\v[3]!
 > END STRING
 
@@ -1561,41 +1864,56 @@ Check information
 > END STRING
 
 > BEGIN STRING
+\\v[3]は先ほどの行為で
+妊娠してしまっているようだ……。
+> CONTEXT: Commonevents/28/33/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 \\v[3]は\\v[2]との
 契約を引き受けてくれそうだ。
-> CONTEXT: Commonevents/28/29/Dialogue
+> CONTEXT: Commonevents/28/37/Dialogue
 Looks like \\v[3] will accept 
 a contract with \\v[2].
 > END STRING
 
 > BEGIN STRING
 \\v[3]と契約しますか？
-> CONTEXT: Commonevents/28/32/Dialogue
+（この種類の夢魔は既に契約しています。）
+> CONTEXT: Commonevents/28/44/Dialogue
+Would you like to make a pact with \\v[3]?
+(You have already made a pact with this type of succubus.)
+> END STRING
+
+> BEGIN STRING
+\\v[3]と契約しますか？
+> CONTEXT: Commonevents/28/48/Dialogue
 Would you like to sign a contract with \\v[3]?
 > END STRING
 
 > BEGIN STRING
 契約して、ホームに送る
-> CONTEXT: Commonevents/28/35/Choice/0
-> CONTEXT: Commonevents/28/35/Choice/0
-> CONTEXT: Commonevents/28/45/Choice/1
-> CONTEXT: Commonevents/28/45/Choice/1
+> CONTEXT: Commonevents/28/53/Choice/0
+> CONTEXT: Commonevents/28/53/Choice/0
+> CONTEXT: Commonevents/28/63/Choice/1
+> CONTEXT: Commonevents/28/63/Choice/1
 Sign a contract and send to Home
 > END STRING
 
 > BEGIN STRING
 契約を交わさない
-> CONTEXT: Commonevents/28/35/Choice/1
-> CONTEXT: Commonevents/28/35/Choice/1
-> CONTEXT: Commonevents/28/45/Choice/2
-> CONTEXT: Commonevents/28/45/Choice/2
+> CONTEXT: Commonevents/28/53/Choice/1
+> CONTEXT: Commonevents/28/53/Choice/1
+> CONTEXT: Commonevents/28/63/Choice/2
+> CONTEXT: Commonevents/28/63/Choice/2
 Do not sign a contract
 > END STRING
 
 > BEGIN STRING
 契約して、仲間に引き入れる
-> CONTEXT: Commonevents/28/45/Choice/0
-> CONTEXT: Commonevents/28/45/Choice/0
+> CONTEXT: Commonevents/28/63/Choice/0
+> CONTEXT: Commonevents/28/63/Choice/0
 Sign a contract and invite to party
 > END STRING
 
@@ -1603,7 +1921,7 @@ Sign a contract and invite to party
 \\v[3]と契約を交わし、
 パーティに加えます。
 よろしいですか？
-> CONTEXT: Commonevents/28/60/Dialogue
+> CONTEXT: Commonevents/28/78/Dialogue
 Make a contract with \\v[3] 
 and add to party.
 Is this OK?
@@ -1612,7 +1930,7 @@ Is this OK?
 > BEGIN STRING
 \\v[3]と契約を交わした！
 \\v[3]がパーティに加わった！
-> CONTEXT: Commonevents/28/99/Dialogue
+> CONTEXT: Commonevents/28/127/Dialogue
 Signed a contract with \\v[3]!
 \\v[3] has joined the party!
 > END STRING
@@ -1620,8 +1938,8 @@ Signed a contract with \\v[3]!
 > BEGIN STRING
 夢魔との契約数が上限に達した。
 今の自分では、これ以上夢魔とは契約できなさそうだ。
-> CONTEXT: Commonevents/28/103/Dialogue
-> CONTEXT: Commonevents/28/158/Dialogue
+> CONTEXT: Commonevents/28/131/Dialogue
+> CONTEXT: Commonevents/28/196/Dialogue
 Reached maximum number of contracts with succubi.
 As of right now, cannot make any more contracts with succubi.
 > END STRING
@@ -1630,7 +1948,7 @@ As of right now, cannot make any more contracts with succubi.
 \\v[3]と契約を交わし、
 ホームへ送ります。
 よろしいですか？
-> CONTEXT: Commonevents/28/115/Dialogue
+> CONTEXT: Commonevents/28/143/Dialogue
 Make a contract with \\v[3] 
 and send to Home.
 Is it OK?
@@ -1639,7 +1957,7 @@ Is it OK?
 > BEGIN STRING
 \\v[3]と契約を交わした！
 \\v[3]をホームに迎え入れた！
-> CONTEXT: Commonevents/28/154/Dialogue
+> CONTEXT: Commonevents/28/192/Dialogue
 Signed a contract with \\v[3]!
 Welcomed \\v[3] to Home!
 > END STRING
@@ -1647,14 +1965,14 @@ Welcomed \\v[3] to Home!
 > BEGIN STRING
 \\v[3]とは契約しません。
 よろしいですか？
-> CONTEXT: Commonevents/28/170/Dialogue
+> CONTEXT: Commonevents/28/208/Dialogue
 Don't make a contract with \\v[3].
 Is it OK?
 > END STRING
 
 > BEGIN STRING
 \\v[3]と契約しませんでした。
-> CONTEXT: Commonevents/28/178/Dialogue
+> CONTEXT: Commonevents/28/216/Dialogue
 Did not sign a contract with \\v[3].
 > END STRING
 
@@ -1662,7 +1980,9 @@ Did not sign a contract with \\v[3].
 /TALKTEXT/
 > CONTEXT: Commonevents/41/70/InlineScript/2:24 < UNTRANSLATED
 > CONTEXT: Commonevents/41/137/InlineScript/2:24 < UNTRANSLATED
-> CONTEXT: Commonevents/31/58/InlineScript/2:24 < UNTRANSLATED
+> CONTEXT: Commonevents/31/71/InlineScript/2:24 < UNTRANSLATED
+> CONTEXT: Commonevents/290/130/InlineScript/2:24 < UNTRANSLATED
+> CONTEXT: Commonevents/290/197/InlineScript/2:24 < UNTRANSLATED
 
 > END STRING
 
@@ -1670,7 +1990,9 @@ Did not sign a contract with \\v[3].
 \\v[19]
 > CONTEXT: Commonevents/41/78/Dialogue < UNTRANSLATED
 > CONTEXT: Commonevents/41/145/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/31/71/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/31/84/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/290/138/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/290/205/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -1679,73 +2001,16 @@ Did not sign a contract with \\v[3].
 \\v[19]
 > CONTEXT: Commonevents/41/81/Dialogue < UNTRANSLATED
 > CONTEXT: Commonevents/41/148/Dialogue < UNTRANSLATED
-> CONTEXT: Commonevents/31/74/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/31/93/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/290/141/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/290/208/Dialogue < UNTRANSLATED
 
-> END STRING
-
-> BEGIN STRING
-"\#{$msg.t_target.name}は"
-> CONTEXT: Commonevents/32/158/InlineScript/2:9
-> CONTEXT: Commonevents/32/198/InlineScript/2:9
-"\#{$msg.t_target.name}"
-> END STRING
-
-> BEGIN STRING
-"イってしまった！"
-> CONTEXT: Commonevents/32/158/InlineScript/4:11
-> CONTEXT: Commonevents/32/198/InlineScript/4:11
-" came!"
-> END STRING
-
-> BEGIN STRING
-"イかされてしまった！"
-> CONTEXT: Commonevents/32/158/InlineScript/6:11
-> CONTEXT: Commonevents/32/198/InlineScript/6:11
-" climaxed!"
-> END STRING
-
-> BEGIN STRING
-"\\q\\m"
-> CONTEXT: Commonevents/32/158/InlineScript/8:39 < UNTRANSLATED
-> CONTEXT: Commonevents/32/198/InlineScript/8:39 < UNTRANSLATED
-> CONTEXT: Commonevents/34/118/InlineScript/2:8 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-"\#{$msg.t_target.name}は、"
-> CONTEXT: Commonevents/32/183/InlineScript/2:9
-"\#{$msg.t_target.name} "
-> END STRING
-
-> BEGIN STRING
-"意識が朦朧としている……！"
-> CONTEXT: Commonevents/32/183/InlineScript/4:11
-"fell unconcious...!"
 > END STRING
 
 > BEGIN STRING
 "blackout"
-> CONTEXT: Commonevents/33/200/InlineScript/3:20 < UNTRANSLATED
+> CONTEXT: Commonevents/33/85/InlineScript/3:20 < UNTRANSLATED
 
-> END STRING
-
-> BEGIN STRING
-"\#{$msg.t_enemy.name}を絶頂させた！"
-> CONTEXT: Commonevents/34/105/InlineScript/2:8
-"Made \#{$msg.t_enemy.name} orgasm!"
-> END STRING
-
-> BEGIN STRING
-"しかし\#{$msg.t_enemy.name}は、"
-> CONTEXT: Commonevents/34/118/InlineScript/3:9
-"But \#{$msg.t_enemy.name}, "
-> END STRING
-
-> BEGIN STRING
-"まだ物足りない様子だ……！"
-> CONTEXT: Commonevents/34/118/InlineScript/4:9
-"has not had enough yet...!"
 > END STRING
 
 > BEGIN STRING
@@ -1772,7 +2037,7 @@ Did not sign a contract with \\v[3].
 \\v[2]は\\v[3]に精を献上した！
 \\v[2]はVPを\\v[4]消費した！
 \\v[3]のお腹が満たされた！
-> CONTEXT: Commonevents/41/179/Dialogue
+> CONTEXT: Commonevents/41/193/Dialogue
 \\v[2] offered his semen to \\v[3]!
 \\v[2] consumed \\v[4] VP!
 \\v[3]'s stomach is full!
@@ -1824,24 +2089,32 @@ What's this?
 > BEGIN STRING
 現在はON状態です。OFFにしますか？
 > CONTEXT: Commonevents/49/10/Dialogue
+> CONTEXT: Commonevents/280/93/Dialogue
+> CONTEXT: Commonevents/280/1129/Dialogue
 It is currently ON. Would you like to turn it off?
 > END STRING
 
 > BEGIN STRING
 OFFにしました。
 > CONTEXT: Commonevents/49/14/Dialogue
+> CONTEXT: Commonevents/280/98/Dialogue
+> CONTEXT: Commonevents/280/1134/Dialogue
 Turned it off.
 > END STRING
 
 > BEGIN STRING
 現在はOFF状態です。ONにしますか？
 > CONTEXT: Commonevents/49/21/Dialogue
+> CONTEXT: Commonevents/280/105/Dialogue
+> CONTEXT: Commonevents/280/1141/Dialogue
 It is currently OFF. Would you like to turn it on?
 > END STRING
 
 > BEGIN STRING
 ONにしました。
 > CONTEXT: Commonevents/49/25/Dialogue
+> CONTEXT: Commonevents/280/110/Dialogue
+> CONTEXT: Commonevents/280/1146/Dialogue
 Turned it on.
 > END STRING
 
@@ -1862,28 +2135,270 @@ various doors of dream magic.
 > END STRING
 
 > BEGIN STRING
+スライムの粘液が付いて上手く移動できなくなってしまった！
+> CONTEXT: Commonevents/58/71/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 \\v[2]は\\v[3]にランクアップした！
 > CONTEXT: Commonevents/59/15/Dialogue
 \\v[2] ranked up to \\v[3]!
 > END STRING
 
 > BEGIN STRING
-現在の一人称は「\\v[3]」です。
-変更後の一人称は「\\v[4]」です。
-\\v[5]の一人称を変えますか？
-> CONTEXT: Commonevents/60/7/Dialogue < UNTRANSLATED
+エネミー
+> CONTEXT: Commonevents/84/0/Choice/0 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-\\v[5]の一人称が「\\v[3]」になりました。
-> CONTEXT: Commonevents/60/15/Dialogue < UNTRANSLATED
+アクター
+> CONTEXT: Commonevents/84/0/Choice/1 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
-\\v[5]の一人称は「\\v[3]」のままになりました。
-> CONTEXT: Commonevents/60/20/Dialogue < UNTRANSLATED
+"\#{actor.name}は
+妊娠してしまったようだ……"
+> CONTEXT: Commonevents/85/0/InlineScript/3:1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ステート
+> CONTEXT: Commonevents/87/57/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベッド戦の背景を変更します
+> CONTEXT: Commonevents/87/59/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベッド戦の背景を変更しました
+> CONTEXT: Commonevents/87/61/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベッド戦のBGMを変更します
+（SpaceまたはShiftでBGM試聴）
+現在設定されているBGM:  \\v[2]
+> CONTEXT: Commonevents/87/69/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+BGMの変更をキャンセルしました。
+> CONTEXT: Commonevents/87/74/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベッド戦のBGMを変更しました
+> CONTEXT: Commonevents/87/77/Dialogue
+Changed the BGM for bed battles
+> END STRING
+
+> BEGIN STRING
+トークの内容を選択してください。
+※キャンセルで好意
+> CONTEXT: Commonevents/102/66/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/102/173/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/102/188/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/102/226/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/102/272/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/102/379/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/102/405/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+愛撫・通常
+> CONTEXT: Commonevents/102/68/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/102/228/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/102/274/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/102/407/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+視姦
+> CONTEXT: Commonevents/102/68/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/102/274/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+奉仕
+> CONTEXT: Commonevents/102/68/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/102/274/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+使用部位を選択してください。
+> CONTEXT: Commonevents/102/73/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/102/85/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/102/116/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/102/152/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/102/233/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/102/279/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/102/291/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/102/322/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/102/358/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/102/412/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+手
+> CONTEXT: Commonevents/102/74/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/102/234/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/102/280/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/102/413/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+口
+> CONTEXT: Commonevents/102/74/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/102/105/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/102/141/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/102/234/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/102/280/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/102/311/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/102/347/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/102/413/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+足
+> CONTEXT: Commonevents/102/74/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/102/234/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/102/280/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/102/413/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+胸
+> CONTEXT: Commonevents/102/86/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/102/105/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/102/141/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/102/292/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/102/311/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/102/347/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アソコ
+> CONTEXT: Commonevents/102/86/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/102/117/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/102/153/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/102/292/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/102/323/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/102/359/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+前へ
+> CONTEXT: Commonevents/102/86/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/102/175/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/102/292/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対象部位を選択してください。
+> CONTEXT: Commonevents/102/104/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/102/140/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/102/310/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/102/346/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+尻
+> CONTEXT: Commonevents/102/105/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/102/141/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/102/311/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/102/347/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+陰核
+> CONTEXT: Commonevents/102/117/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/102/153/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/102/323/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/102/359/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アナル
+> CONTEXT: Commonevents/102/117/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/102/153/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/102/323/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/102/359/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ランダム
+> CONTEXT: Commonevents/102/117/Choice/3 < UNTRANSLATED
+> CONTEXT: Commonevents/102/153/Choice/3 < UNTRANSLATED
+> CONTEXT: Commonevents/102/323/Choice/3 < UNTRANSLATED
+> CONTEXT: Commonevents/102/359/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+吸精・性器
+> CONTEXT: Commonevents/102/175/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/102/228/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+吸精・口
+> CONTEXT: Commonevents/102/175/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/102/228/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/102/381/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/102/407/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+好意
+> CONTEXT: Commonevents/102/190/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+交合
+> CONTEXT: Commonevents/102/190/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔脱衣
+> CONTEXT: Commonevents/102/228/Choice/3 < UNTRANSLATED
+> CONTEXT: Commonevents/102/407/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+主人公脱衣
+> CONTEXT: Commonevents/102/381/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/102/407/Choice/3 < UNTRANSLATED
 
 > END STRING
 
@@ -2060,7 +2575,7 @@ stuck in my head..."
 > BEGIN STRING
 \\name[ヴェルミィーナ]\\_
 「あはぁ……っ……\\H」
-> CONTEXT: Commonevents/119/53/Dialogue
+> CONTEXT: Commonevents/119/63/Dialogue
 \\name[Vermina]\\_
 「Ah...a...\\H」
 > END STRING
@@ -2068,7 +2583,7 @@ stuck in my head..."
 > BEGIN STRING
 \\name[ヴェルミィーナ]\\_
 「ふふ、ふふふ……」
-> CONTEXT: Commonevents/119/67/Dialogue
+> CONTEXT: Commonevents/119/77/Dialogue
 \\name[Vermina]\\_
 「Hehe, hehheheh……」
 > END STRING
@@ -2077,7 +2592,7 @@ stuck in my head..."
 \\name[ヴェルミィーナ]\\_
 「さぁ、最後に残るのが甘い溺没の破滅か。
 　それともその尊い夢想の理性か……」
-> CONTEXT: Commonevents/119/69/Dialogue
+> CONTEXT: Commonevents/119/79/Dialogue
 \\name[Vermina]\\_
 「Now, all that remains is to fall by sweet drowning.
 　Or that precious sense of reason...」
@@ -2086,7 +2601,7 @@ stuck in my head..."
 > BEGIN STRING
 \\name[ヴェルミィーナ]\\_
 「私達で答え合わせしましょう？　\\n[101]」
-> CONTEXT: Commonevents/119/72/Dialogue
+> CONTEXT: Commonevents/119/82/Dialogue
 \\name[Vermina]\\_
 「Shall we find out, \\n[101]?」
 > END STRING
@@ -2095,12 +2610,6 @@ stuck in my head..."
 明晰の泉だ。しかしこの泉は力を引き出している。
 > CONTEXT: Commonevents/125/1/Dialogue
 It's a Fountain of Lucidity. Power is being drawn from it.
-> END STRING
-
-> BEGIN STRING
-･･･失った古印破棄の執行書が再び現れた！
-> CONTEXT: Commonevents/125/7/Dialogue
-...The lost old seal destruction text has reappeared!
 > END STRING
 
 > BEGIN STRING
@@ -2130,20 +2639,6 @@ So, shall I try it out?
 > CONTEXT: Commonevents/125/51/Dialogue
 \\name[Gilgorn]\\_
 ...Haa!!
-> END STRING
-
-> BEGIN STRING
-\\n[101]の意識が更にはっきりした！
-> CONTEXT: Commonevents/125/41/Dialogue
-> CONTEXT: Commonevents/125/61/Dialogue
-\\n[101]'s consciousness has become even clearer!
-> END STRING
-
-> BEGIN STRING
-\\n[101]の現の魔力が上がった！
-> CONTEXT: Commonevents/125/43/Dialogue
-> CONTEXT: Commonevents/125/63/Dialogue
-\\n[101]'s real magic power has increased!
 > END STRING
 
 > BEGIN STRING
@@ -2194,7 +2689,7 @@ I'm not gonna waste any more time with you--
 > BEGIN STRING
 \\name[ギルゴーン]\\_
 ･･･脅かしおって。
-> CONTEXT: Commonevents/125/88/Dialogue
+> CONTEXT: Commonevents/125/93/Dialogue
 \\name[Gilgon]\\_
 ...You're scaring me.
 > END STRING
@@ -2204,7 +2699,7 @@ I'm not gonna waste any more time with you--
 ･･･む、貴様。何だその本は。
 まさかそれが、貴様の欲しかったものとやらか？
 この我の手間を掛けさせた割には、つまらない成果だな。
-> CONTEXT: Commonevents/125/90/Dialogue
+> CONTEXT: Commonevents/125/95/Dialogue
 \\name[Gilgorn]\\_
 ...Mm, you. What is that book?
 Is that what you wanted?
@@ -2215,7 +2710,7 @@ It's a boring result considering all the effort I put into it.
 \\name[ギルゴーン]\\_
 ･･･それとも、それは貴様にとっては、\\_
 つまらなくも無い代物なのか？
-> CONTEXT: Commonevents/125/94/Dialogue
+> CONTEXT: Commonevents/125/99/Dialogue
 \\name[Gilgorn]\\_
 ...Or, is it not a a boring thing from your perspective?
 > END STRING
@@ -2225,7 +2720,7 @@ It's a boring result considering all the effort I put into it.
 ･･･フン、まぁいい。
 今は貴様が解決の要であるのは違いないのだ。\\!
 あまり我を失望させてくれるなよ。
-> CONTEXT: Commonevents/125/97/Dialogue
+> CONTEXT: Commonevents/125/102/Dialogue
 \\name[Gilgorn]\\_
 ...Hmph, okay. There is no doubt that you are 
 the key to solving this problem right now. \\!
@@ -2236,7 +2731,7 @@ Don't let me down too much.
 \\name[ギルゴーン]\\_
 現の魔力とやらに何を期待しているかは知らぬが、
 滅びは着々と進んでいる。早急にな。
-> CONTEXT: Commonevents/125/103/Dialogue
+> CONTEXT: Commonevents/125/108/Dialogue
 \\name[Gilgon]\\_
 I don't know what to expect from the real magical power, 
 but destruction is steadily progressing. Hurry!
@@ -2246,7 +2741,7 @@ but destruction is steadily progressing. Hurry!
 \\name[ギルゴーン]\\_
 さぁ、まだ泉はあるのだろう？
 我を案内するのだな。
-> CONTEXT: Commonevents/125/106/Dialogue
+> CONTEXT: Commonevents/125/111/Dialogue
 \\name[Gilgorn]\\_
 Well, are there more fountains?
 Lead me to them.
@@ -2254,14 +2749,14 @@ Lead me to them.
 
 > BEGIN STRING
 明晰の泉だ。しかし泉の力を引き出せるものが仲間にいない。
-> CONTEXT: Commonevents/125/115/Dialogue
+> CONTEXT: Commonevents/125/120/Dialogue
 It's a Fountain of Lucidity. However, no one in the party can 
 draw out the power of the spring.
 > END STRING
 
 > BEGIN STRING
 綺麗な泉だ。しかしこの泉は既に見ている。
-> CONTEXT: Commonevents/125/121/Dialogue
+> CONTEXT: Commonevents/125/126/Dialogue
 It's a beautiful spring. 
 But you've been to this fountain already.
 > END STRING
@@ -2269,15 +2764,27 @@ But you've been to this fountain already.
 > BEGIN STRING
 綺麗な泉に自分の顔が映り込んでいる･･･。
 もうしばらく見続けますか？
-> CONTEXT: Commonevents/125/125/Dialogue
+> CONTEXT: Commonevents/125/130/Dialogue
 My face is reflected in the beautiful fountain...
 Continue watching for a while?
 > END STRING
 
 > BEGIN STRING
+･･････
+> CONTEXT: Commonevents/125/134/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 \\n[101]の意識が少しはっきりした！
-> CONTEXT: Commonevents/125/136/Dialogue
+> CONTEXT: Commonevents/125/141/Dialogue
 \\n[101]'s consciousness has become a little clearer!
+> END STRING
+
+> BEGIN STRING
+契約できる夢魔数の上限が上がった！
+> CONTEXT: Commonevents/125/143/Dialogue
+Maximum number of succubus contracts has increased!
 > END STRING
 
 > BEGIN STRING
@@ -2359,20 +2866,27 @@ Would you like to perform the pact ritual with \\v[2]?
 > END STRING
 
 > BEGIN STRING
+"盟約"
+> CONTEXT: Commonevents/130/67/InlineScript/6:12 < UNTRANSLATED
+> CONTEXT: Commonevents/130/108/InlineScript/3:12 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 \\n[101]は\\v[2]に指輪を贈った！
-> CONTEXT: Commonevents/130/66/Dialogue
+> CONTEXT: Commonevents/130/75/Dialogue
 \\n[101] gave \\v[2] a ring!
 > END STRING
 
 > BEGIN STRING
 光が２人を包み込む･･････！
-> CONTEXT: Commonevents/130/67/Dialogue
+> CONTEXT: Commonevents/130/76/Dialogue
 Light envelops the two of them...!
 > END STRING
 
 > BEGIN STRING
 \\v[2]は\\n[101]の【大切な人】となった！
-> CONTEXT: Commonevents/130/102/Dialogue
+> CONTEXT: Commonevents/130/117/Dialogue
 \\v[2] has become \\n[101]'s [important person]!
 > END STRING
 
@@ -2396,9 +2910,2421 @@ Thanks as always!
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-オイオイ！　金が足りねーナァ！？
-> CONTEXT: Commonevents/131/17/Dialogue
-Oi oi! Not enough money!?
+やあ、ステートを変化させたいなら私に言ってくれ
+> CONTEXT: Commonevents/135/0/Dialogue
+\\name[\\v[2]]\\_
+Hey, if you want to change your state, let me know.
+> END STRING
+
+> BEGIN STRING
+ステートを変更しますか？
+> CONTEXT: Commonevents/135/2/Dialogue
+Do you want to change your state?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+何をつけるんだい？
+１回戦闘するとたいていは元に戻るから。
+面倒だが戦闘したらまた来てくれ。
+> CONTEXT: Commonevents/135/5/Dialogue
+\\name[\\v[2]]\\_
+What do you want?
+It usually goes back to normal after one battle.
+It's a pain, but come back after a battle.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+わかった、やめるんだな？
+> CONTEXT: Commonevents/135/25/Dialogue
+\\name[\\v[2]]\\_
+Okay, you're going to stop?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうかい？
+用があったらまた来てくれ。
+> CONTEXT: Commonevents/135/31/Dialogue
+\\name[\\v[2]]\\_
+Is that so?
+Come again if you need anything.
+> END STRING
+
+> BEGIN STRING
+先頭のキャラクターの何をリセットしますか？
+> CONTEXT: Commonevents/136/0/Dialogue
+What do you want to reset for the first character?
+> END STRING
+
+> BEGIN STRING
+弱点をリセット
+> CONTEXT: Commonevents/136/1/Choice/0
+> CONTEXT: Commonevents/136/1/Choice/0
+Reset weakness
+> END STRING
+
+> BEGIN STRING
+ボーナスをリセット
+> CONTEXT: Commonevents/136/1/Choice/1
+> CONTEXT: Commonevents/136/1/Choice/1
+Reset bonuses
+> END STRING
+
+> BEGIN STRING
+弱点をリセットしました。
+> CONTEXT: Commonevents/136/9/Dialogue
+Weaknesses reset.
+> END STRING
+
+> BEGIN STRING
+ボーナスをリセットしました。
+> CONTEXT: Commonevents/136/18/Dialogue
+Bonuses reset.
+> END STRING
+
+> BEGIN STRING
+別世界にいる間は性別を変更できません。
+> CONTEXT: Commonevents/137/1/Dialogue
+You cannot change your gender 
+while in the alternate reality.
+> END STRING
+
+> BEGIN STRING
+"ジュデンシア"
+> CONTEXT: Commonevents/138/0/InlineScript/1:26
+"Judencia"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+またいつでもどうぞ。
+> CONTEXT: Commonevents/138/8/Dialogue
+\\name[\\v[2]]\\_
+Please come again anytime.
+> END STRING
+
+> BEGIN STRING
+\\n[101]が先頭でないと
+行く事ができません。
+> CONTEXT: Commonevents/138/19/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ホーム"
+> CONTEXT: Commonevents/138/29/InlineScript/1:26
+"Home"
+> END STRING
+
+> BEGIN STRING
+"\#{$game_actors[101].name}邸"
+> CONTEXT: Commonevents/138/37/InlineScript/2:2
+"\#{$game_actors[101].name} Residence"
+> END STRING
+
+> BEGIN STRING
+"銀色の都市"
+> CONTEXT: Commonevents/138/46/InlineScript/1:26
+"Silver City"
+> END STRING
+
+> BEGIN STRING
+"常夜の街"
+> CONTEXT: Commonevents/138/54/InlineScript/1:26
+"Evernight City"
+> END STRING
+
+> BEGIN STRING
+"シークレットラボ"
+> CONTEXT: Commonevents/138/62/InlineScript/1:26
+"Secret Lab"
+> END STRING
+
+> BEGIN STRING
+"大天使の城"
+> CONTEXT: Commonevents/138/70/InlineScript/1:26 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"淫界"
+> CONTEXT: Commonevents/138/78/InlineScript/1:26 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+体の開発に関するお悩みなら、
+いつでも聞いてくれよ！
+> CONTEXT: Commonevents/139/1/Dialogue
+\\name[\\v[2]]\\_
+If you have any concerns about sensitization,
+feel free to ask me anytime!
+> END STRING
+
+> BEGIN STRING
+体を開発されたい！
+> CONTEXT: Commonevents/139/4/Choice/0
+> CONTEXT: Commonevents/139/4/Choice/0
+Sensitize my body!
+> END STRING
+
+> BEGIN STRING
+開発された体をリセットしたい！
+> CONTEXT: Commonevents/139/4/Choice/1
+> CONTEXT: Commonevents/139/4/Choice/1
+Reset sensitization!
+> END STRING
+
+> BEGIN STRING
+体を開発ってなあに？
+> CONTEXT: Commonevents/139/4/Choice/2
+> CONTEXT: Commonevents/139/4/Choice/2
+What is sensitization?
+> END STRING
+
+> BEGIN STRING
+"開発度ON＋後遺症ON"
+> CONTEXT: Commonevents/139/8/InlineScript/1:22
+"Sensitization ON + Aftereffects ON"
+> END STRING
+
+> BEGIN STRING
+"開発度ON"
+> CONTEXT: Commonevents/139/11/InlineScript/1:22
+"Sensitization ON"
+> END STRING
+
+> BEGIN STRING
+"開発度OFF"
+> CONTEXT: Commonevents/139/16/InlineScript/1:22
+"Aftereffects OFF"
+> END STRING
+
+> BEGIN STRING
+"※開発度強制ON中です。"
+> CONTEXT: Commonevents/139/20/InlineScript/1:22
+"※Sensitization forced ON"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今は「\\v[3]」になってるよ。
+\\c[12]\\v[4]\\c[0]
+> CONTEXT: Commonevents/139/26/Dialogue
+\\name[\\v[2]]\\_
+It's now "\\v[3]".
+\\c[12]\\v[4]\\c[0]
+> END STRING
+
+> BEGIN STRING
+開発度ON
+> CONTEXT: Commonevents/139/29/Choice/0
+> CONTEXT: Commonevents/139/29/Choice/0
+Sensitization ON
+> END STRING
+
+> BEGIN STRING
+開発度ON＋後遺症ON
+> CONTEXT: Commonevents/139/29/Choice/1
+> CONTEXT: Commonevents/139/29/Choice/1
+Sensitization ON＋Aftereffects ON
+> END STRING
+
+> BEGIN STRING
+開発度OFF
+> CONTEXT: Commonevents/139/29/Choice/2
+> CONTEXT: Commonevents/139/29/Choice/2
+Sensitization OFF
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「開発度ON」に変更したよ。
+> CONTEXT: Commonevents/139/34/Dialogue
+\\name[\\v[2]]\\_
+Changed it to "Sensitization ON".
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「開発度ON＋後遺症ON」に変更したよ。
+> CONTEXT: Commonevents/139/41/Dialogue
+\\name[\\v[2]]\\_
+Changed to "Sensitization ON ＋ Aftereffects ON".
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+「開発度OFF」に変更したよ。
+> CONTEXT: Commonevents/139/48/Dialogue
+\\name[\\v[2]]\\_
+Changed to "Sensitization OFF".
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+体を責められると、性感帯に目覚めていく事があるだろう？
+その状態を\\c[12]開発された状態\\c[0]って言うんだ！
+> CONTEXT: Commonevents/139/68/Dialogue
+\\name[\\v[2]]\\_
+When your body is stimulated, 
+your erogenous zones might awaken, right?
+That state is called\\c[12]sensitized state\\c[0]!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\c[12]開発度\\c[0]をONにすると、みるみる性感帯が
+開発されていって楽しいぜ！
+> CONTEXT: Commonevents/139/71/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]When you turn on sensitization\\c[0], 
+your erogenous zones will develop in no time, and it's fun!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+また、性感帯だけじゃなく、キスや挿入といった
+行為も、開発されていくぜ！
+どうだ、たまんねえだろう？
+> CONTEXT: Commonevents/139/74/Dialogue
+\\name[\\v[2]]\\_
+And not only the erogenous zones, but acts like kissing 
+and penetration will also undergo sensitization!
+How is it, isn't it exciting?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+更に、\\c[12]後遺症\\c[0]をONにすれば、戦いが終わっても
+開発された性感帯を持続できるんだぜ！
+ゾクゾクするよな！
+> CONTEXT: Commonevents/139/78/Dialogue
+\\name[\\v[2]]\\_
+Plus, if you turn on \\c[12]Aftereffects\\c[0], 
+your sensitized erogenous zones will continue 
+even after the battle is over! It's thrilling!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+開発されすぎて後遺症に悩まされるなら、
+僕に言ってくれればリセットできるからな。
+いつでも頼ってくれよな！
+> CONTEXT: Commonevents/139/82/Dialogue
+\\name[\\v[2]]\\_
+If you're suffering from the aftereffects of sensitization,
+just let me know and I'll reset it for you.
+You can always rely on me!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それじゃ、ぐっどらっく！
+> CONTEXT: Commonevents/139/88/Dialogue
+\\name[\\v[2]]\\_
+Well then, good luck!
+> END STRING
+
+> BEGIN STRING
+"Real"
+> CONTEXT: Commonevents/141/1/InlineScript/2:20 < UNTRANSLATED
+> CONTEXT: Commonevents/141/37/InlineScript/2:20 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"Heaven"
+> CONTEXT: Commonevents/141/1/InlineScript/3:20 < UNTRANSLATED
+> CONTEXT: Commonevents/141/37/InlineScript/3:20 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"Extreme"
+> CONTEXT: Commonevents/141/1/InlineScript/4:20 < UNTRANSLATED
+> CONTEXT: Commonevents/141/37/InlineScript/4:20 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"VeryHard"
+> CONTEXT: Commonevents/141/1/InlineScript/5:20 < UNTRANSLATED
+> CONTEXT: Commonevents/141/37/InlineScript/5:20 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"Hard"
+> CONTEXT: Commonevents/141/1/InlineScript/6:20 < UNTRANSLATED
+> CONTEXT: Commonevents/141/37/InlineScript/6:20 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"Romance"
+> CONTEXT: Commonevents/141/1/InlineScript/7:21 < UNTRANSLATED
+> CONTEXT: Commonevents/141/37/InlineScript/7:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"Easy"
+> CONTEXT: Commonevents/141/1/InlineScript/8:21 < UNTRANSLATED
+> CONTEXT: Commonevents/141/37/InlineScript/8:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"VeryEasy"
+> CONTEXT: Commonevents/141/1/InlineScript/9:21 < UNTRANSLATED
+> CONTEXT: Commonevents/141/37/InlineScript/9:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"Normal"
+> CONTEXT: Commonevents/141/1/InlineScript/10:13 < UNTRANSLATED
+> CONTEXT: Commonevents/141/37/InlineScript/10:13 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ゲーム難易度を変更できます。
+現在の設定は「\\v[3]」です。
+> CONTEXT: Commonevents/141/13/Dialogue
+\\name[\\v[2]]\\_
+You can change the game difficulty.
+The current setting is "\\v[3]".
+> END STRING
+
+> BEGIN STRING
+変更する
+> CONTEXT: Commonevents/141/16/Choice/0
+> CONTEXT: Commonevents/141/16/Choice/0
+> CONTEXT: Commonevents/144/63/Choice/0
+> CONTEXT: Commonevents/144/63/Choice/0
+Change
+> END STRING
+
+> BEGIN STRING
+変更しない
+> CONTEXT: Commonevents/141/16/Choice/1
+> CONTEXT: Commonevents/141/16/Choice/1
+Don't change
+> END STRING
+
+> BEGIN STRING
+\\~
+> CONTEXT: Commonevents/141/18/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+変更を中止しました。
+現在の設定は「\\v[3]」です。
+> CONTEXT: Commonevents/141/21/Dialogue
+\\name[\\v[2]]\\_
+Changes canceled.
+Current setting is "\\v[3]".
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ゲーム難易度を変更しました。
+現在の設定は「\\v[3]」です。
+> CONTEXT: Commonevents/141/49/Dialogue
+\\name[\\v[2]]\\_
+Game difficulty has been changed.
+The current setting is "\\v[3]".
+> END STRING
+
+> BEGIN STRING
+"知りたがりなメイド"
+> CONTEXT: Commonevents/142/0/InlineScript/1:22
+"Curious Maid"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふっ、貴方の好みの女性を教えて下さらない？
+> CONTEXT: Commonevents/142/3/Dialogue
+\\name[\\v[2]]\\_
+Hehe, can you tell me what kind of women you like?
+> END STRING
+
+> BEGIN STRING
+好みの年齢を教える
+> CONTEXT: Commonevents/142/5/Choice/0
+> CONTEXT: Commonevents/142/5/Choice/0
+Preferred age
+> END STRING
+
+> BEGIN STRING
+好みの胸のサイズを教える
+> CONTEXT: Commonevents/142/5/Choice/1
+> CONTEXT: Commonevents/142/5/Choice/1
+Preferred breast size
+> END STRING
+
+> BEGIN STRING
+好みをリセットしたい
+> CONTEXT: Commonevents/142/5/Choice/2
+> CONTEXT: Commonevents/142/5/Choice/2
+Reset preferences
+> END STRING
+
+> BEGIN STRING
+何も教えない
+> CONTEXT: Commonevents/142/5/Choice/3
+> CONTEXT: Commonevents/142/5/Choice/3
+> CONTEXT: Commonevents/151/4/Choice/2
+> CONTEXT: Commonevents/151/4/Choice/2
+> CONTEXT: Commonevents/166/4/Choice/2
+> CONTEXT: Commonevents/166/4/Choice/2
+Nothing
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+どんな年齢層の女性が好みかしら？
+> CONTEXT: Commonevents/142/7/Dialogue
+\\name[\\v[2]]\\_
+What age range of women do you prefer?
+> END STRING
+
+> BEGIN STRING
+年上が好み
+> CONTEXT: Commonevents/142/9/Choice/0
+> CONTEXT: Commonevents/142/9/Choice/0
+Prefer older
+> END STRING
+
+> BEGIN STRING
+同い年が好み
+> CONTEXT: Commonevents/142/9/Choice/1
+> CONTEXT: Commonevents/142/9/Choice/1
+Prefer same age
+> END STRING
+
+> BEGIN STRING
+年下が好み
+> CONTEXT: Commonevents/142/9/Choice/2
+> CONTEXT: Commonevents/142/9/Choice/2
+Prefer younger
+> END STRING
+
+> BEGIN STRING
+やっぱり教えない
+> CONTEXT: Commonevents/142/9/Choice/3
+> CONTEXT: Commonevents/142/9/Choice/3
+> CONTEXT: Commonevents/142/109/Choice/2
+> CONTEXT: Commonevents/142/109/Choice/2
+Can't say
+> END STRING
+
+> BEGIN STRING
+"年上が好み"
+> CONTEXT: Commonevents/142/11/InlineScript/1:22
+> CONTEXT: Commonevents/142/88/InlineScript/1:26
+"Prefer older"
+> END STRING
+
+> BEGIN STRING
+"同い年が好み"
+> CONTEXT: Commonevents/142/14/InlineScript/1:22
+> CONTEXT: Commonevents/142/88/InlineScript/3:29
+"Prefer same age"
+> END STRING
+
+> BEGIN STRING
+"年下が好み"
+> CONTEXT: Commonevents/142/17/InlineScript/1:22
+> CONTEXT: Commonevents/142/88/InlineScript/5:29
+"Prefer younger"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふっ、また教えてね！
+> CONTEXT: Commonevents/142/20/Dialogue
+> CONTEXT: Commonevents/142/129/Dialogue
+> CONTEXT: Commonevents/142/144/Dialogue
+\\name[\\v[2]]\\_
+Hehe, let me know again!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふっ、\\c[12]\\v[3]\\c[0]なのね。
+いいこと聞いちゃった♪
+> CONTEXT: Commonevents/142/25/Dialogue
+\\name[\\v[2]]\\_
+Hehe, it's \\c[12]\\v[3]\\c[0].
+That's good to hear♪
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+よかったら、苦手なタイプも
+教えてくださらない？
+> CONTEXT: Commonevents/142/29/Dialogue
+\\name[\\v[2]]\\_
+If you don't mind, 
+could you tell me what types you don't like?
+> END STRING
+
+> BEGIN STRING
+年上が苦手
+> CONTEXT: Commonevents/142/32/Choice/0
+> CONTEXT: Commonevents/142/32/Choice/0
+Older
+> END STRING
+
+> BEGIN STRING
+同い年が苦手
+> CONTEXT: Commonevents/142/32/Choice/1
+> CONTEXT: Commonevents/142/32/Choice/1
+Same age
+> END STRING
+
+> BEGIN STRING
+年下が苦手
+> CONTEXT: Commonevents/142/32/Choice/2
+> CONTEXT: Commonevents/142/32/Choice/2
+Younger
+> END STRING
+
+> BEGIN STRING
+特にないよ
+> CONTEXT: Commonevents/142/32/Choice/3
+> CONTEXT: Commonevents/142/32/Choice/3
+Nothing
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それはさっき好みだって言ったばっかりよ？
+どっちかハッキリしなさい。
+> CONTEXT: Commonevents/142/35/Dialogue
+> CONTEXT: Commonevents/142/47/Dialogue
+> CONTEXT: Commonevents/142/59/Dialogue
+\\name[\\v[2]]\\_
+I just said it was a matter of preference.
+Make it clear which one it is.
+> END STRING
+
+> BEGIN STRING
+"年上が苦手"
+> CONTEXT: Commonevents/142/41/InlineScript/1:22
+> CONTEXT: Commonevents/142/95/InlineScript/1:26
+"Prefer older"
+> END STRING
+
+> BEGIN STRING
+"同い年が苦手"
+> CONTEXT: Commonevents/142/53/InlineScript/1:22
+> CONTEXT: Commonevents/142/95/InlineScript/3:29
+"Prefer same age"
+> END STRING
+
+> BEGIN STRING
+"年下が苦手"
+> CONTEXT: Commonevents/142/65/InlineScript/1:22
+> CONTEXT: Commonevents/142/95/InlineScript/5:29
+"Prefer younger"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら。どの年齢層でもイケちゃうなんて
+ストライクゾーンが広いのねぇ\\H
+> CONTEXT: Commonevents/142/74/Dialogue
+\\name[\\v[2]]\\_
+Oho. You're popular with all age groups, 
+so you have a wide strike zone\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふっ、\\c[12]\\v[4]\\c[0]なんだ♪
+> CONTEXT: Commonevents/142/79/Dialogue
+\\name[\\v[2]]\\_
+Hehe, it's \\c[12]\\v[4]\\c[0]♪
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+聞かせてくれて、ありがとう\\H
+> CONTEXT: Commonevents/142/103/Dialogue
+> CONTEXT: Commonevents/142/116/Dialogue
+> CONTEXT: Commonevents/142/125/Dialogue
+\\name[\\v[2]]\\_
+Thank you for letting me hear it\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+どういう胸の女性が好みかしら？
+> CONTEXT: Commonevents/142/107/Dialogue
+\\name[\\v[2]]\\_
+What kind of breasts do you like in women?
+> END STRING
+
+> BEGIN STRING
+巨乳が好み
+> CONTEXT: Commonevents/142/109/Choice/0
+> CONTEXT: Commonevents/142/109/Choice/0
+Prefer big
+> END STRING
+
+> BEGIN STRING
+貧乳が好み
+> CONTEXT: Commonevents/142/109/Choice/1
+> CONTEXT: Commonevents/142/109/Choice/1
+Prefer small
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+貴方の好みは一旦忘れましょう。
+また教えてね\\H
+> CONTEXT: Commonevents/142/139/Dialogue
+\\name[\\v[2]]\\_
+Let's forget about your preferences for now.
+Tell me again later\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ホールドスキルの反動を変更してみない？
+いつもとは違った趣向もいいと思うのよ。
+> CONTEXT: Commonevents/143/0/Dialogue
+\\name[\\v[2]]\\_
+Why not try changing the recoil of the hold skill?
+I think it would be nice 
+to try something different from the usual.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今の味方の反動は標準みたいね。
+> CONTEXT: Commonevents/143/4/Dialogue
+\\name[\\v[2]]\\_
+The recoil for allies is standard.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今の味方の反動は増量みたいね。
+> CONTEXT: Commonevents/143/9/Dialogue
+\\name[\\v[2]]\\_
+The recoil for allies is increased.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今の味方の反動は特大みたいね。
+> CONTEXT: Commonevents/143/14/Dialogue
+\\name[\\v[2]]\\_
+The recoil for allies is huge.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今の敵の反動は標準みたいね。
+> CONTEXT: Commonevents/143/19/Dialogue
+\\name[\\v[2]]\\_
+The recoil for enemies is standard.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今の敵の反動は増量みたいね。
+> CONTEXT: Commonevents/143/24/Dialogue
+\\name[\\v[2]]\\_
+The recoil for enemies is increased.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今の敵の反動は特大みたいね。
+> CONTEXT: Commonevents/143/29/Dialogue
+\\name[\\v[2]]\\_
+The recoil for enemies is huge.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+じゃあ味方と敵、どっちの反動を調整する？
+> CONTEXT: Commonevents/143/33/Dialogue
+\\name[\\v[2]]\\_
+So, which recoil should we adjust, 
+for allies or enemies?
+> END STRING
+
+> BEGIN STRING
+味方の反動を調整
+> CONTEXT: Commonevents/143/35/Choice/0
+> CONTEXT: Commonevents/143/35/Choice/0
+Ally recoil
+> END STRING
+
+> BEGIN STRING
+敵の反動を調整
+> CONTEXT: Commonevents/143/35/Choice/1
+> CONTEXT: Commonevents/143/35/Choice/1
+Enemy recoil
+> END STRING
+
+> BEGIN STRING
+両方を一括で調整
+> CONTEXT: Commonevents/143/35/Choice/2
+> CONTEXT: Commonevents/143/35/Choice/2
+Adjust both
+> END STRING
+
+> BEGIN STRING
+標準
+> CONTEXT: Commonevents/143/37/Choice/0
+> CONTEXT: Commonevents/143/37/Choice/0
+> CONTEXT: Commonevents/143/50/Choice/0
+> CONTEXT: Commonevents/143/50/Choice/0
+> CONTEXT: Commonevents/143/63/Choice/0
+> CONTEXT: Commonevents/143/63/Choice/0
+Normal
+> END STRING
+
+> BEGIN STRING
+増量
+> CONTEXT: Commonevents/143/37/Choice/1
+> CONTEXT: Commonevents/143/37/Choice/1
+> CONTEXT: Commonevents/143/50/Choice/1
+> CONTEXT: Commonevents/143/50/Choice/1
+> CONTEXT: Commonevents/143/63/Choice/1
+> CONTEXT: Commonevents/143/63/Choice/1
+More
+> END STRING
+
+> BEGIN STRING
+特大
+> CONTEXT: Commonevents/143/37/Choice/2
+> CONTEXT: Commonevents/143/37/Choice/2
+> CONTEXT: Commonevents/143/50/Choice/2
+> CONTEXT: Commonevents/143/50/Choice/2
+> CONTEXT: Commonevents/143/63/Choice/2
+> CONTEXT: Commonevents/143/63/Choice/2
+Huge
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+変更したよ、じゃあお楽しみに。
+> CONTEXT: Commonevents/143/82/Dialogue
+\\name[\\v[2]]\\_
+I've made the changes, so look forward to it.
+> END STRING
+
+> BEGIN STRING
+"敵味方ともにON"
+> CONTEXT: Commonevents/144/2/InlineScript/1:22
+> CONTEXT: Commonevents/144/21/InlineScript/1:22
+> CONTEXT: Commonevents/144/40/InlineScript/1:22
+"Both friend and foe are ON"
+> END STRING
+
+> BEGIN STRING
+"味方のみON"
+> CONTEXT: Commonevents/144/5/InlineScript/1:22
+> CONTEXT: Commonevents/144/24/InlineScript/1:22
+> CONTEXT: Commonevents/144/43/InlineScript/1:22
+"Only allies ON"
+> END STRING
+
+> BEGIN STRING
+"敵のみON"
+> CONTEXT: Commonevents/144/11/InlineScript/1:22
+> CONTEXT: Commonevents/144/30/InlineScript/1:22
+> CONTEXT: Commonevents/144/49/InlineScript/1:22
+"Only enemies are on"
+> END STRING
+
+> BEGIN STRING
+"敵味方ともにOFF"
+> CONTEXT: Commonevents/144/14/InlineScript/1:22
+> CONTEXT: Commonevents/144/33/InlineScript/1:22
+> CONTEXT: Commonevents/144/52/InlineScript/1:22
+"OFF for both friends and foes"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+特殊絶頂設定を変更されますか？
+> CONTEXT: Commonevents/144/57/Dialogue
+\\name[\\v[2]]\\_
+Would you like to change the special climax settings?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\c[12]自爆絶頂\\c[0]は「\\v[3]」、
+\\c[12]相互絶頂\\c[0]は「\\v[4]」、
+\\c[12]瞬間絶頂\\c[0]は「\\v[5]」が現在の設定ですわ。
+> CONTEXT: Commonevents/144/59/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]Self climax\\c[0] is currently set to "\\v[3]",
+\\c[12]Mutual climax\\c[0] is currently set to "\\v[4]",
+\\c[12]Instant climax\\c[0] is currently set to "\\v[5]".
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\c[12]自爆絶頂\\c[0]の設定は如何なさいますか？
+現在の設定は「\\v[3]」ですわ。
+> CONTEXT: Commonevents/144/65/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]What would you like to set for Self Climax\\c[0]?
+The current setting is "\\v[3]".
+> END STRING
+
+> BEGIN STRING
+味方のみON
+> CONTEXT: Commonevents/144/68/Choice/0
+> CONTEXT: Commonevents/144/68/Choice/0
+> CONTEXT: Commonevents/144/91/Choice/0
+> CONTEXT: Commonevents/144/91/Choice/0
+> CONTEXT: Commonevents/144/114/Choice/0
+> CONTEXT: Commonevents/144/114/Choice/0
+Only allies
+> END STRING
+
+> BEGIN STRING
+敵のみON
+> CONTEXT: Commonevents/144/68/Choice/1
+> CONTEXT: Commonevents/144/68/Choice/1
+> CONTEXT: Commonevents/144/91/Choice/1
+> CONTEXT: Commonevents/144/91/Choice/1
+> CONTEXT: Commonevents/144/114/Choice/1
+> CONTEXT: Commonevents/144/114/Choice/1
+Only enemies
+> END STRING
+
+> BEGIN STRING
+敵味方ともにON
+> CONTEXT: Commonevents/144/68/Choice/2
+> CONTEXT: Commonevents/144/68/Choice/2
+> CONTEXT: Commonevents/144/91/Choice/2
+> CONTEXT: Commonevents/144/91/Choice/2
+> CONTEXT: Commonevents/144/114/Choice/2
+> CONTEXT: Commonevents/144/114/Choice/2
+Both
+> END STRING
+
+> BEGIN STRING
+敵味方ともにOFF
+> CONTEXT: Commonevents/144/68/Choice/3
+> CONTEXT: Commonevents/144/68/Choice/3
+> CONTEXT: Commonevents/144/91/Choice/3
+> CONTEXT: Commonevents/144/91/Choice/3
+> CONTEXT: Commonevents/144/114/Choice/3
+> CONTEXT: Commonevents/144/114/Choice/3
+None
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\c[12]相互絶頂\\c[0]の設定は如何なさいますか？
+現在の設定は「\\v[4]」ですわ。
+> CONTEXT: Commonevents/144/88/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]What would you like to set Mutual Climax\\c[0]?
+The current setting is "\\v[4]".
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\c[12]瞬間絶頂\\c[0]の設定は如何なさいますか？
+現在の設定は「\\v[5]」ですわ。
+> CONTEXT: Commonevents/144/111/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]What would you like to set for Instant Climax\\c[0]?
+The current setting is "\\v[5]".
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+変更しましたわ。
+それでは、よき夢を。
+> CONTEXT: Commonevents/144/135/Dialogue
+\\name[\\v[2]]\\_
+I've made the changes.
+Sweet dreams.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\c[12]自爆絶頂\\c[0]とは、自分が攻めている最中に
+その反動で自分が先に達してしまうというものですわ。
+殿方としては少し情けないことになりますわね。
+> CONTEXT: Commonevents/144/140/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]Self climax\\c[0] is when you are attacking 
+and the recoil causes you to reach orgasm first.
+It's a bit embarrassing for a man.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+これはスウィングのような「自分に反動があるスキル」で
+自分のEPが0になった瞬間に発生しますわ。
+> CONTEXT: Commonevents/144/144/Dialogue
+\\name[\\v[2]]\\_
+This occurs when your EP hits 0 with a skill 
+that has a recoil effect on you, such as Swing.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ただ、絶頂のタイミングは相手の方が僅かに先ですの。
+相手が絶頂する場合、自分はEP1で耐えられますわ。
+例外は、相互絶頂が有効になっている場合ですわね。
+> CONTEXT: Commonevents/144/147/Dialogue
+\\name[\\v[2]]\\_
+However, the other person will climax first.
+If the other person climaxes, you can withstand it with 1 EP.
+The exception to this is when mutual climax is enabled.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ちなみに、単独自爆ということもできますわ。
+自爆絶頂が有効な場合のみ
+自慰スキルで自分のEPを0にすることができますの。
+> CONTEXT: Commonevents/144/151/Dialogue
+\\name[\\v[2]]\\_
+By the way, you can also do a solo climax.
+Only if the self climax is active, you can use 
+the masturbation skill to reduce your own EP to 0.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\c[12]相互絶頂\\c[0]とは、自分の攻めによって
+自分と相手が同時に達するというものですわ。
+双方が満足する、とても素敵な展開ですわね。
+> CONTEXT: Commonevents/144/155/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]Mutual climax\\c[0] is when you and your opponent 
+reach orgasm at the same time through your attack.
+It's a wonderful situation that satisfies both parties.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+これはタイミングが大事ですの。
+条件は「自分に反動があるスキル」で相手を絶頂させ、
+その時に自分がクライシス状態になっていることですわ。
+> CONTEXT: Commonevents/144/159/Dialogue
+\\name[\\v[2]]\\_
+Timing is important here.
+The condition is to make the opponent climax 
+with a skill that has recoil
+and to be in a crisis state at the same time.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この時のVPダメージは攻め側の方が少なくなりますの。
+絶頂が避けられないのなら
+相打ちを覚悟で攻め切ってしまうというのも手ですわね。
+> CONTEXT: Commonevents/144/163/Dialogue
+\\name[\\v[2]]\\_
+At this time, the attacking side will take less VP damage.
+If the climax is unavoidable, it's a good idea 
+to go all out and attack, even if it means a draw.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+とはいえ、攻め切れなければ自爆してしまう可能性も。
+自分と相手の力量を見極めること･･･
+つまり、お互いの理解が大事ということですわね。
+> CONTEXT: Commonevents/144/167/Dialogue
+\\name[\\v[2]]\\_
+However, if you can't keep up your attack, you may just 
+self climax. Assess your and your opponent's strengths...
+In other words, mutual understanding is important.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\c[12]瞬間絶頂\\c[0]とは、自分が僅かなEPの時に
+ある部位をホールドするか、ある部位をホールドされた時に
+達してしまうというものですわ。
+> CONTEXT: Commonevents/144/171/Dialogue
+\\name[\\v[2]]\\_
+\\c[12]Instantaneous climax\\c[0] is when you hold a certain part 
+of your body or have a certain part of your body held 
+when you have very little EP.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+対象となる部位は「ペニス、アソコ、アナル」の\\_
+いずれかですわ。
+……少し恥ずかしいですわね。
+> CONTEXT: Commonevents/144/175/Dialogue
+\\name[\\v[2]]\\_
+The target body parts are either "penis, vagina, or anus".
+...It's a little embarrassing.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+例えばインサートならどちらも
+絶頂する可能性がありますけど、
+オーラルインサートでは♂側しか絶頂しないのですわ。
+> CONTEXT: Commonevents/144/179/Dialogue
+\\name[\\v[2]]\\_
+For example, with insertion, both partners could climax, 
+but with oral insertion, only ♂ can climax.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+EPの目安としては「100以下」かつ
+「最大EPの10分の1以下」になっていることですわ。
+ギリギリの時は挿入するのを控えたほうが宜しいですわね。
+> CONTEXT: Commonevents/144/183/Dialogue
+\\name[\\v[2]]\\_
+The EP should be "less than 100" and
+"less than 1/10 of the maximum EP."
+If it's on the edge, it's best to refrain from inserting.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ちなみにどちらもホールド瞬間絶頂したときには、
+同時絶頂の設定に関係なく同時に達しますわ。
+> CONTEXT: Commonevents/144/187/Dialogue
+\\name[\\v[2]]\\_
+By the way, if you hold both and climax instantly,
+you will climax at the same time regardless of 
+the mutual climax setting.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そのままで宜しいのですわね。
+それでは、よき夢を。
+> CONTEXT: Commonevents/144/192/Dialogue
+\\name[\\v[2]]\\_
+So it's fine as is.
+Sweet dreams.
+> END STRING
+
+> BEGIN STRING
+"ON"
+> CONTEXT: Commonevents/145/1/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Commonevents/145/5/InlineScript/2:22 < UNTRANSLATED
+> CONTEXT: Commonevents/145/10/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Commonevents/145/14/InlineScript/2:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"OFF"
+> CONTEXT: Commonevents/145/1/InlineScript/2:22 < UNTRANSLATED
+> CONTEXT: Commonevents/145/5/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Commonevents/145/10/InlineScript/2:22 < UNTRANSLATED
+> CONTEXT: Commonevents/145/14/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ホールド変更機能は\\v[3]
+ホールド強奪機能は\\v[5]
+だよ。設定を変えたいかい？
+> CONTEXT: Commonevents/145/18/Dialogue
+\\name[\\v[2]]\\_
+The hold change function is \\v[3]
+The hold steal function is \\v[5]
+Want to change the settings?
+> END STRING
+
+> BEGIN STRING
+ホールド変更機能を\\v[4]にする
+> CONTEXT: Commonevents/145/22/Choice/0
+> CONTEXT: Commonevents/145/22/Choice/0
+Change hold function to \\v[4]
+> END STRING
+
+> BEGIN STRING
+ホールド強奪機能を\\v[6]にする
+> CONTEXT: Commonevents/145/22/Choice/1
+> CONTEXT: Commonevents/145/22/Choice/1
+Hold steal function to \\v[6]
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\v[4]にしたよ。
+変えたくなったらまた話しかけてね。
+> CONTEXT: Commonevents/145/32/Dialogue
+\\name[\\v[2]]\\_
+I changed it to \\v[4].
+If you want to change it, talk to me again.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\v[6]にしたよ。
+変えたくなったらまた話しかけてね。
+> CONTEXT: Commonevents/145/45/Dialogue
+\\name[\\v[2]]\\_
+I changed it to \\v[6].
+If you want to change it, talk to me again.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ホールド状態でイかされた時に
+そのままホールドが継続されることがあるよね？
+> CONTEXT: Commonevents/145/50/Dialogue
+\\name[\\v[2]]\\_
+When you're held and made to cum,
+it's possible for the hold to continue, right?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+一方的に攻められるのはイイけど
+違うホールド技でも攻められてみたい･･･
+そんなアナタにぴったりな機能だよ。
+> CONTEXT: Commonevents/145/53/Dialogue
+\\name[\\v[2]]\\_
+It's nice to be attacked one-sidedly, but
+you'd like to be attacked with different hold techniques...
+This is the perfect feature for you.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\c[12]ホールド変更機能\\c[0]がONになってると
+アナタがイかされてへろへろになってる間に
+相手が別のホールド技を掛け直してくれるの。
+> CONTEXT: Commonevents/145/57/Dialogue
+\\name[\\v[2]]\\_
+When the \\c[12]Hold change\\c[0] is ON
+while you're exhausted from a climax, 
+your opponent can reapply a different hold technique.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お口でイかせたら、次はアソコで･･･って感じ。
+体勢的に難しいのもあるから
+ホールドによって変化先はある程度決まってるよ。
+> CONTEXT: Commonevents/145/61/Dialogue
+\\name[\\v[2]]\\_
+If you cum in the mouth, then next is down there...
+Some positions are difficult,
+so the changes are somewhat determined by the hold.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あと、\\c[12]ホールド強奪機能\\c[0]がONになってると
+相手が複数の場合、夢魔同士でホールドの奪い合いが
+発生することもあるよ。
+> CONTEXT: Commonevents/145/65/Dialogue
+\\name[\\v[2]]\\_
+Also, if \\c[12]Hold steal\\c[0] is ON, 
+if there are multiple opponents, 
+succubi may fight over the holds.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ホールドを引き剥がして自分に挿入させる･･･って感じ。
+相手の友好度が高かったり
+精を受けた回数に差が出たりすると発生しやすくなるよ。
+> CONTEXT: Commonevents/145/69/Dialogue
+\\name[\\v[2]]\\_
+It's like tearing someone off and taking their place.
+This is more likely at higher friendship levels or if 
+there is a difference in the times they've received semen.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+興味があるなら試してみてね。
+> CONTEXT: Commonevents/145/73/Dialogue
+\\name[\\v[2]]\\_
+If you're interested, give it a try.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そのままでいいんだね。
+変えたくなったらまた話しかけてね。
+> CONTEXT: Commonevents/145/77/Dialogue
+\\name[\\v[2]]\\_
+I guess it's fine the way it is.
+If you want to change it, talk to me again.
+> END STRING
+
+> BEGIN STRING
+別世界にいる間、ロウラットは離脱できません。
+> CONTEXT: Commonevents/147/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+不幸になりたいかい？
+> CONTEXT: Commonevents/148/0/Dialogue
+\\name[\\v[2]]\\_
+Do you want to be unhappy?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+これでオッケー
+> CONTEXT: Commonevents/148/7/Dialogue
+\\name[\\v[2]]\\_
+Okay
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+遠慮しなくていいのに
+> CONTEXT: Commonevents/148/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+えっちなのはいけないと思いませんか？
+（はいを選択すると一部画像に
+　ハートが表示されます）
+> CONTEXT: Commonevents/149/0/Dialogue
+\\name[\\v[2]]\\_
+Don't you think it's wrong to be naughty?
+(If Yes, hearts will cover some images)
+> END STRING
+
+> BEGIN STRING
+現在は表示ありです
+> CONTEXT: Commonevents/149/5/Dialogue
+> CONTEXT: Commonevents/200/5/Dialogue
+Currently displayed
+> END STRING
+
+> BEGIN STRING
+現在は表示なしです
+> CONTEXT: Commonevents/149/8/Dialogue
+> CONTEXT: Commonevents/200/8/Dialogue
+Currently not displayed
+> END STRING
+
+> BEGIN STRING
+ハートを表示しますか？
+> CONTEXT: Commonevents/149/11/Dialogue
+Show hearts?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうでしょう、そうでしょう。
+> CONTEXT: Commonevents/149/15/Dialogue
+\\name[\\v[2]]\\_
+I see, I see.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+えぇぇ・・・
+> CONTEXT: Commonevents/149/20/Dialogue
+\\name[\\v[2]]\\_
+Eeeh...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢世界には慣れてきた？
+そろそろ君も他の攻められ方にも目覚めて来たと思うんだ。
+僕に今の君のトレンドってものを教えてくれよ。
+> CONTEXT: Commonevents/151/0/Dialogue
+> CONTEXT: Commonevents/165/0/Dialogue
+> CONTEXT: Commonevents/166/0/Dialogue
+> CONTEXT: Commonevents/167/0/Dialogue
+\\name[\\v[2]]\\_
+Have you gotten used to the dream world? It's about time 
+you became aware of other ways of being attacked.
+Tell me what you want to know about.
+> END STRING
+
+> BEGIN STRING
+弱点を教える
+> CONTEXT: Commonevents/151/4/Choice/0
+> CONTEXT: Commonevents/151/4/Choice/0
+> CONTEXT: Commonevents/166/4/Choice/0
+> CONTEXT: Commonevents/166/4/Choice/0
+Weaknesses
+> END STRING
+
+> BEGIN STRING
+何で責められたいか教える
+> CONTEXT: Commonevents/151/4/Choice/1
+> CONTEXT: Commonevents/151/4/Choice/1
+> CONTEXT: Commonevents/165/4/Choice/2
+> CONTEXT: Commonevents/165/4/Choice/2
+Attack preferences
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふぅん･･････。
+> CONTEXT: Commonevents/151/9/Dialogue
+> CONTEXT: Commonevents/151/139/Dialogue
+> CONTEXT: Commonevents/165/66/Dialogue
+> CONTEXT: Commonevents/165/114/Dialogue
+> CONTEXT: Commonevents/165/258/Dialogue
+> CONTEXT: Commonevents/165/392/Dialogue
+> CONTEXT: Commonevents/166/66/Dialogue
+> CONTEXT: Commonevents/166/207/Dialogue
+> CONTEXT: Commonevents/167/66/Dialogue
+> CONTEXT: Commonevents/167/114/Dialogue
+> CONTEXT: Commonevents/167/195/Dialogue
+> CONTEXT: Commonevents/167/336/Dialogue
+\\name[\\v[2]]\\_
+Hmm......
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ありがとう、なるほどねぇ。
+> CONTEXT: Commonevents/151/12/Dialogue
+> CONTEXT: Commonevents/151/142/Dialogue
+> CONTEXT: Commonevents/165/261/Dialogue
+\\name[\\v[2]]\\_
+Thank you, I see.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふふ、１つも無いならないで良いよ。
+> CONTEXT: Commonevents/151/16/Dialogue
+> CONTEXT: Commonevents/165/135/Dialogue
+\\name[\\v[2]]\\_
+Hehe, it's okay if you don't have any.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もっと手で責められたい？
+> CONTEXT: Commonevents/151/19/Dialogue
+> CONTEXT: Commonevents/165/138/Dialogue
+\\name[\\v[2]]\\_
+Want more handjobs?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もっと胸で責められたい？
+> CONTEXT: Commonevents/151/31/Dialogue
+> CONTEXT: Commonevents/165/150/Dialogue
+\\name[\\v[2]]\\_
+Want more breast stimulation?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もっと口で責められたい？
+> CONTEXT: Commonevents/151/43/Dialogue
+> CONTEXT: Commonevents/165/162/Dialogue
+\\name[\\v[2]]\\_
+Want more oral?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もっと足で責められたい？
+> CONTEXT: Commonevents/151/55/Dialogue
+> CONTEXT: Commonevents/165/174/Dialogue
+\\name[\\v[2]]\\_
+Want more foot play?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もっとアソコで責められたい？
+> CONTEXT: Commonevents/151/67/Dialogue
+> CONTEXT: Commonevents/165/186/Dialogue
+\\name[\\v[2]]\\_
+Want to be teased more down there?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もっと拘束されたい？
+> CONTEXT: Commonevents/151/79/Dialogue
+> CONTEXT: Commonevents/165/198/Dialogue
+\\name[\\v[2]]\\_
+Want to be restrained more?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もっとキスで責められたい？
+> CONTEXT: Commonevents/151/91/Dialogue
+> CONTEXT: Commonevents/165/210/Dialogue
+\\name[\\v[2]]\\_
+Want more kissing?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もっと愛撫されたい？
+> CONTEXT: Commonevents/151/103/Dialogue
+> CONTEXT: Commonevents/165/222/Dialogue
+\\name[\\v[2]]\\_
+Want more caressing?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もっと菊座を責められたい？
+> CONTEXT: Commonevents/151/115/Dialogue
+> CONTEXT: Commonevents/165/234/Dialogue
+\\name[\\v[2]]\\_
+Want your anus to be teased more?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+君が集中的に責められたい？
+> CONTEXT: Commonevents/151/127/Dialogue
+> CONTEXT: Commonevents/165/246/Dialogue
+\\name[\\v[2]]\\_
+Do you want to be dominated?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+いつでも教えてくれよな。
+> CONTEXT: Commonevents/151/146/Dialogue
+> CONTEXT: Commonevents/165/406/Dialogue
+> CONTEXT: Commonevents/166/221/Dialogue
+> CONTEXT: Commonevents/167/350/Dialogue
+\\name[\\v[2]]\\_
+I can teach you at any time.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こちらのベッドで戯れれば、修行の成果として
+修行ポイントを得る事ができますわ。
+> CONTEXT: Commonevents/152/1/Dialogue
+\\name[\\v[2]]\\_
+If you play around on this bed, 
+you will get training points as a result of your training.
+> END STRING
+
+> BEGIN STRING
+修行ポイントとは？
+> CONTEXT: Commonevents/152/4/Choice/0
+> CONTEXT: Commonevents/152/4/Choice/0
+What are training points?
+> END STRING
+
+> BEGIN STRING
+チェックしてもらう
+> CONTEXT: Commonevents/152/4/Choice/1
+> CONTEXT: Commonevents/152/4/Choice/1
+Check
+> END STRING
+
+> BEGIN STRING
+リセットしてもらう
+> CONTEXT: Commonevents/152/4/Choice/2
+> CONTEXT: Commonevents/152/4/Choice/2
+Reset
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+修行ポイントとは、基礎パラメータを
+さらに強化する事ができるものです。
+> CONTEXT: Commonevents/152/6/Dialogue
+\\name[\\v[2]]\\_
+Training points are used to further strengthen basic parameters.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+EP・VP・魅力・精力・器用さ・素早さ・忍耐力・精神力。
+これらの基礎パラメータを強化できれば、
+更に強力な夢魔とも渡り合えるでしょう。
+> CONTEXT: Commonevents/152/9/Dialogue
+\\name[\\v[2]]\\_
+EP, VP, Charm, Energy, Dexterity, Agility, Endurance, Spirit.
+If you can strengthen these basic parameters,
+you'll be able to deal with even more powerful succubi.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+但し、修行ポイントは無限に得られるわけではありません。
+くれぐれもご注意ください。
+> CONTEXT: Commonevents/152/13/Dialogue
+\\name[\\v[2]]\\_
+However, training points cannot be obtained infinitely.
+Please be careful.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+目安としては、２つのパラメータを最大まで強化でき
+更にあと１つを半分まで強化できる、
+と思って頂ければ大丈夫です。
+> CONTEXT: Commonevents/152/16/Dialogue
+\\name[\\v[2]]\\_
+As a rough guide, you can think of it as being able to 
+strengthen two parameters to their maximum,
+and then strengthen the other by half.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+修行ポイントの修得状況を知りたい、
+また修行ポイントを振り直したい場合は
+私にお声がけ下さい。
+> CONTEXT: Commonevents/152/20/Dialogue
+\\name[\\v[2]]\\_
+If you would like to know the status of your training points,
+or if you would like to reallocate your training points,
+please contact me.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+どなたの修行ポイントを
+診断なさいますか？
+> CONTEXT: Commonevents/152/34/Dialogue
+\\name[\\v[2]]\\_
+Whose training points would you like to diagnose?
+> END STRING
+
+> BEGIN STRING
+１：\\v[3]
+> CONTEXT: Commonevents/152/37/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/152/102/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+２：\\v[4]
+> CONTEXT: Commonevents/152/37/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/152/102/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+３：\\v[5]
+> CONTEXT: Commonevents/152/37/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/152/102/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+４：\\v[6]
+> CONTEXT: Commonevents/152/37/Choice/3 < UNTRANSLATED
+> CONTEXT: Commonevents/152/102/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それでは、\\v[5]様の
+修行ポイントを診断してみましょう。
+> CONTEXT: Commonevents/152/72/Dialogue
+\\name[\\v[2]]\\_
+Now, let's diagnose \\v[5]'s training points.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+最大EPは \\v[6] ポイントです。
+最大VPは \\v[7] ポイントです。
+> CONTEXT: Commonevents/152/75/Dialogue
+\\name[\\v[2]]\\_
+Max EP is \\v[6] points.
+Max VP is \\v[7] points.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+魅力は \\v[8] ポイントです。
+忍耐力は \\v[9] ポイントです。
+精力は \\v[10] ポイントです。
+> CONTEXT: Commonevents/152/78/Dialogue
+\\name[\\v[2]]\\_
+Charm is \\v[8] points.
+Endurance is \\v[9] points.
+Energy is \\v[10] points.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+器用さは \\v[11] ポイントです。
+素早さは \\v[12] ポイントです。
+精神力は \\v[13] ポイントです。
+> CONTEXT: Commonevents/152/82/Dialogue
+\\name[\\v[2]]\\_
+Dexterity is \\v[11] points.
+Agility is \\v[12] points.
+Spirit is \\v[13] points.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+どなたの修行ポイントを
+リセットなさいますか？
+> CONTEXT: Commonevents/152/99/Dialogue
+\\name[\\v[2]]\\_
+Whose training points would you like to reset?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+リセットしたい基礎パラメータは
+どちらでしょう？
+> CONTEXT: Commonevents/152/128/Dialogue
+\\name[\\v[2]]\\_
+Which basic parameter do you want to reset?
+> END STRING
+
+> BEGIN STRING
+全てリセットしたい
+> CONTEXT: Commonevents/152/131/Choice/0
+> CONTEXT: Commonevents/152/131/Choice/0
+Reset everything
+> END STRING
+
+> BEGIN STRING
+最大EP
+> CONTEXT: Commonevents/152/131/Choice/1
+> CONTEXT: Commonevents/152/131/Choice/1
+Max EP
+> END STRING
+
+> BEGIN STRING
+最大VP
+> CONTEXT: Commonevents/152/131/Choice/2
+> CONTEXT: Commonevents/152/131/Choice/2
+Max VP
+> END STRING
+
+> BEGIN STRING
+"全て"
+> CONTEXT: Commonevents/152/133/InlineScript/1:22
+"All"
+> END STRING
+
+> BEGIN STRING
+"ＥＰ"
+> CONTEXT: Commonevents/152/136/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ＶＰ"
+> CONTEXT: Commonevents/152/139/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+最初へ戻る
+> CONTEXT: Commonevents/152/153/Choice/3
+> CONTEXT: Commonevents/152/153/Choice/3
+Back to top
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\v[10]様の、\\v[9]の
+修行ポイントをリセットでよろしいですね？
+> CONTEXT: Commonevents/152/179/Dialogue
+\\name[\\v[2]]\\_
+Is it ok to reset \\v[10]'s training points for \\v[9]?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+修行ポイントをリセットさせて頂きました。
+> CONTEXT: Commonevents/152/276/Dialogue
+\\name[\\v[2]]\\_
+Your training points have been reset.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+またいつでもお声がけくださいね。
+> CONTEXT: Commonevents/152/283/Dialogue
+\\name[\\v[2]]\\_
+Please feel free to contact me again anytime.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここは夢の世界だからね。
+キミが望むならキミを童貞に戻してあげよう。
+どうかな？
+> CONTEXT: Commonevents/154/4/Dialogue
+\\name[\\v[2]]\\_
+This is a dream world.
+If you want, I can make you a virgin again.
+What do you think?
+> END STRING
+
+> BEGIN STRING
+童貞にしてもらいますか？
+> CONTEXT: Commonevents/154/8/Dialogue
+Would you like to become a virgin?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+よし、これでオッケー。
+間違っても意中の人以外に奪われるなよ。
+> CONTEXT: Commonevents/154/12/Dialogue
+\\name[\\v[2]]\\_
+Okay, all good.
+Don't let anyone other 
+than the one you want take it from you.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうかい。
+ま、その気になったらまた来てくれよ。
+> CONTEXT: Commonevents/154/17/Dialogue
+> CONTEXT: Commonevents/157/62/Dialogue
+> CONTEXT: Commonevents/158/45/Dialogue
+> CONTEXT: Commonevents/159/36/Dialogue
+\\name[\\v[2]]\\_
+Is that so?
+Well, come back when you feel like it.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここは夢の世界ですからね。
+あなたが望むならあなたを
+処女に戻してあげましょう。
+> CONTEXT: Commonevents/155/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+処女にしてもらいますか？
+> CONTEXT: Commonevents/155/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+よし、これで大丈夫です。
+意中の人以外に奪われないよう
+気を付けてくださいね。
+> CONTEXT: Commonevents/155/12/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/156/8/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/156/15/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうですか。
+その気になったら、またお越しください。
+> CONTEXT: Commonevents/155/18/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/156/21/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここは夢の世界ですからね。
+あなたが望むならあなたを
+童貞や処女に戻してあげましょう。
+> CONTEXT: Commonevents/156/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+どうしますか？
+> CONTEXT: Commonevents/156/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+童貞にしてもらう
+> CONTEXT: Commonevents/156/5/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+処女にしてもらう
+> CONTEXT: Commonevents/156/5/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そこのキミ。そう、キミだよキミ。
+ちょっといいかい？
+> CONTEXT: Commonevents/157/1/Dialogue
+> CONTEXT: Commonevents/158/1/Dialogue
+> CONTEXT: Commonevents/159/1/Dialogue
+\\name[\\v[2]]\\_
+Hey there. Yes, it's you.
+Can I ask you something?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+キミはもし自分が女だったら…
+って考えたことないかい？
+> CONTEXT: Commonevents/157/4/Dialogue
+\\name[\\v[2]]\\_
+Have you ever wondered 
+what it would be like if you were a woman?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もしよければキミを女の子にしてあげられるけど、
+興味あるかい？
+> CONTEXT: Commonevents/157/7/Dialogue
+\\name[\\v[2]]\\_
+If you want, I can turn you into a girl,
+are you interested?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やあ、また会ったね。
+> CONTEXT: Commonevents/157/13/Dialogue
+> CONTEXT: Commonevents/158/13/Dialogue
+> CONTEXT: Commonevents/159/13/Dialogue
+\\name[\\v[2]]\\_
+Hello, nice to meet you again.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+性別を変えてみるかい？
+> CONTEXT: Commonevents/157/15/Dialogue
+> CONTEXT: Commonevents/158/15/Dialogue
+> CONTEXT: Commonevents/159/15/Dialogue
+\\name[\\v[2]]\\_
+Would you like to change your gender?
+> END STRING
+
+> BEGIN STRING
+女の子にしてもらいますか？
+> CONTEXT: Commonevents/157/19/Dialogue
+Would you like to be a girl?
+> END STRING
+
+> BEGIN STRING
+女の子にしてもらう
+> CONTEXT: Commonevents/157/20/Choice/0
+> CONTEXT: Commonevents/157/20/Choice/0
+Become girl
+> END STRING
+
+> BEGIN STRING
+ふたなりにしてもらう
+> CONTEXT: Commonevents/157/20/Choice/1
+> CONTEXT: Commonevents/157/20/Choice/1
+Become futanari
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おおっと。キミは欲張りなんだね。
+> CONTEXT: Commonevents/157/41/Dialogue
+\\name[\\v[2]]\\_
+Oops. You're greedy.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+キミはもし自分が男だったら…
+って考えたことないかい？
+> CONTEXT: Commonevents/158/4/Dialogue
+> CONTEXT: Commonevents/159/4/Dialogue
+\\name[\\v[2]]\\_
+Have you ever wondered 
+what it would be like if you were a man?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もしよければキミを男の子にしてあげられるけど、
+興味あるかい？
+> CONTEXT: Commonevents/158/7/Dialogue
+> CONTEXT: Commonevents/159/7/Dialogue
+\\name[\\v[2]]\\_
+If you want, I can turn you into a boy.
+Are you interested?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おっと、キミは妊娠しているようだね。
+妊娠中は男の子になれないよ。
+> CONTEXT: Commonevents/158/20/Dialogue
+> CONTEXT: Commonevents/159/20/Dialogue
+\\name[\\v[2]]\\_
+Oh, it looks like you're pregnant.
+You can't turn into a boy while pregnant.
+> END STRING
+
+> BEGIN STRING
+男の子にしてもらいますか？
+> CONTEXT: Commonevents/158/25/Dialogue
+> CONTEXT: Commonevents/159/25/Dialogue
+Would you like to be a boy?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+これでどこからどう見ても男の子だね。
+経験が無いようだったから
+童貞にしておいたよ。
+> CONTEXT: Commonevents/158/33/Dialogue
+\\name[\\v[2]]\\_
+So no matter how you look at it, you're a boy.
+You didn't seem to have any experience, so
+I decided to keep you a virgin.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+これでどこからどう見ても男の子だね。
+> CONTEXT: Commonevents/158/39/Dialogue
+> CONTEXT: Commonevents/159/32/Dialogue
+\\name[\\v[2]]\\_
+No matter how you look at it, you're a boy.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\n[101]、お留守番してみるかい？
+夢魔たちだけで探索ができるようになるよ。
+> CONTEXT: Commonevents/160/0/Dialogue
+\\name[\\v[2]]\\_
+\\n[101], would you like to stay home and watch?
+You'll be able to explore with the succubi alone.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+代わりに探索してくれる仲間がいないね。
+仲間を連れてきてから、もう一度話し掛けてよ。
+> CONTEXT: Commonevents/160/7/Dialogue
+\\name[\\v[2]]\\_
+You don't have any companions to explore for you.
+Talk to me again after you bring some companions.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それじゃあ、いってらっしゃい。
+> CONTEXT: Commonevents/160/17/Dialogue
+> CONTEXT: Commonevents/161/18/Dialogue
+\\name[\\v[2]]\\_
+Well then, have fun.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おかえり。
+\\n[101]をパーティに戻すかい？
+> CONTEXT: Commonevents/161/0/Dialogue
+\\name[\\v[2]]\\_
+Welcome back.
+Would you like \\n[101] back in the party?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+パーティがいっぱいだね。
+仲間を預けてから、もう一度話し掛けてよ。
+> CONTEXT: Commonevents/161/7/Dialogue
+\\name[\\v[2]]\\_
+Your party is full.
+Please leave your companions and talk to me again.
+> END STRING
+
+> BEGIN STRING
+基本の弱点を教える
+> CONTEXT: Commonevents/165/4/Choice/0
+> CONTEXT: Commonevents/165/4/Choice/0
+> CONTEXT: Commonevents/167/4/Choice/0
+> CONTEXT: Commonevents/167/4/Choice/0
+Basic weaknesses
+> END STRING
+
+> BEGIN STRING
+特殊な弱点を教える
+> CONTEXT: Commonevents/165/4/Choice/1
+> CONTEXT: Commonevents/165/4/Choice/1
+> CONTEXT: Commonevents/167/4/Choice/1
+> CONTEXT: Commonevents/167/4/Choice/1
+Special weaknesses
+> END STRING
+
+> BEGIN STRING
+強力な弱点を教える
+> CONTEXT: Commonevents/165/4/Choice/3
+> CONTEXT: Commonevents/165/4/Choice/3
+> CONTEXT: Commonevents/166/4/Choice/1
+> CONTEXT: Commonevents/166/4/Choice/1
+> CONTEXT: Commonevents/167/4/Choice/3
+> CONTEXT: Commonevents/167/4/Choice/3
+Strong weaknesses
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふふ、こっちは１つ以上は必ず申告してもらうよ。
+> CONTEXT: Commonevents/165/6/Dialogue
+> CONTEXT: Commonevents/166/6/Dialogue
+> CONTEXT: Commonevents/167/6/Dialogue
+> CONTEXT: Commonevents/167/135/Dialogue
+\\name[\\v[2]]\\_
+Hehehe, I'll definitely have you declare at least one of these.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+口で攻められるのは好き？
+> CONTEXT: Commonevents/165/11/Dialogue
+> CONTEXT: Commonevents/167/11/Dialogue
+\\name[\\v[2]]\\_
+Do you like being attacked by mouth?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+手で攻められるのは好き？
+> CONTEXT: Commonevents/165/24/Dialogue
+> CONTEXT: Commonevents/167/24/Dialogue
+\\name[\\v[2]]\\_
+Do you like being attacked by hands?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+胸で攻められるのは好き？
+> CONTEXT: Commonevents/165/37/Dialogue
+> CONTEXT: Commonevents/167/37/Dialogue
+\\name[\\v[2]]\\_
+Do you like being attacked by breasts?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+アソコで攻められるのは好き？
+> CONTEXT: Commonevents/165/50/Dialogue
+> CONTEXT: Commonevents/167/50/Dialogue
+\\name[\\v[2]]\\_
+Do you like being attacked by genitals?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ありがとう、なるほどねぇ。
+君はそういうのが好きなんだな。
+> CONTEXT: Commonevents/165/69/Dialogue
+> CONTEXT: Commonevents/165/117/Dialogue
+> CONTEXT: Commonevents/166/69/Dialogue
+> CONTEXT: Commonevents/167/69/Dialogue
+> CONTEXT: Commonevents/167/117/Dialogue
+> CONTEXT: Commonevents/167/198/Dialogue
+\\name[\\v[2]]\\_
+Thank you, I see.
+You like that kind of thing.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なんだ、１つくらいあるだろう。教えてくれよな。
+> CONTEXT: Commonevents/165/74/Dialogue
+> CONTEXT: Commonevents/166/74/Dialogue
+> CONTEXT: Commonevents/167/74/Dialogue
+> CONTEXT: Commonevents/167/203/Dialogue
+\\name[\\v[2]]\\_
+Well, probably at least one of them applies. Please tell me.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふふ、こっちは１つも無いならないで良いよ。
+> CONTEXT: Commonevents/165/80/Dialogue
+> CONTEXT: Commonevents/167/80/Dialogue
+\\name[\\v[2]]\\_
+Hehehe, if none of these apply, you don't have to say anything.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+挿入中に攻められるのは好き？
+> CONTEXT: Commonevents/165/85/Dialogue
+> CONTEXT: Commonevents/167/85/Dialogue
+\\name[\\v[2]]\\_
+Do you like being attacked through sexual intercourse?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+足とかで嗜虐的に攻められるのは好き？
+> CONTEXT: Commonevents/165/98/Dialogue
+> CONTEXT: Commonevents/167/98/Dialogue
+\\name[\\v[2]]\\_
+Do you like being attacked sadistically by feet?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ちぇ。なんだ、１つもないんだ。
+> CONTEXT: Commonevents/165/123/Dialogue
+> CONTEXT: Commonevents/165/400/Dialogue
+> CONTEXT: Commonevents/166/215/Dialogue
+> CONTEXT: Commonevents/167/123/Dialogue
+> CONTEXT: Commonevents/167/344/Dialogue
+\\name[\\v[2]]\\_
+Hey. What, none of these apply?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうそう、痛いのはそういう素質が無くても、
+段々と慣れてきちゃうんだよ。
+> CONTEXT: Commonevents/165/127/Dialogue
+> CONTEXT: Commonevents/167/127/Dialogue
+\\name[\\v[2]]\\_
+That's right, the painful part is that 
+even if you don't have those qualities,
+you gradually grow into it.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+され続けてたらいつの間にか快感になってたりするかもな。
+調教済みってことさ。
+> CONTEXT: Commonevents/165/130/Dialogue
+> CONTEXT: Commonevents/167/130/Dialogue
+\\name[\\v[2]]\\_
+If you keep doing something, 
+it might become more pleasant before you know it.
+That means it's been trained.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふふ、こっちは１つも無いならないで良いよ。
+特に好きなところだけ教えてね。
+> CONTEXT: Commonevents/165/266/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/166/81/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/167/210/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+女性の手は大好き？
+> CONTEXT: Commonevents/165/272/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/166/87/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/167/216/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+女性の口は大好き？
+> CONTEXT: Commonevents/165/285/Dialogue
+> CONTEXT: Commonevents/166/100/Dialogue
+> CONTEXT: Commonevents/167/229/Dialogue
+\\name[\\v[2]]\\_
+Do you love a woman's mouth?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+女性の胸は大好き？
+> CONTEXT: Commonevents/165/298/Dialogue
+> CONTEXT: Commonevents/166/113/Dialogue
+> CONTEXT: Commonevents/167/242/Dialogue
+\\name[\\v[2]]\\_
+Do you love women's breasts?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ペニスは大好き？
+> CONTEXT: Commonevents/165/311/Dialogue
+> CONTEXT: Commonevents/166/126/Dialogue
+> CONTEXT: Commonevents/167/255/Dialogue
+\\name[\\v[2]]\\_
+Do you love penises?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+女性のアソコは大好き？
+> CONTEXT: Commonevents/165/324/Dialogue
+> CONTEXT: Commonevents/166/139/Dialogue
+> CONTEXT: Commonevents/167/268/Dialogue
+\\name[\\v[2]]\\_
+Do you love women's genitals?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+女性のお尻は大好き？
+> CONTEXT: Commonevents/165/337/Dialogue
+> CONTEXT: Commonevents/166/152/Dialogue
+> CONTEXT: Commonevents/167/281/Dialogue
+\\name[\\v[2]]\\_
+Do you love women's butts?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+女性の足は大好き？
+> CONTEXT: Commonevents/165/350/Dialogue
+> CONTEXT: Commonevents/166/165/Dialogue
+> CONTEXT: Commonevents/167/294/Dialogue
+\\name[\\v[2]]\\_
+Do you love women's feet?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+尻尾は大好き？
+> CONTEXT: Commonevents/165/363/Dialogue
+> CONTEXT: Commonevents/166/178/Dialogue
+> CONTEXT: Commonevents/167/307/Dialogue
+\\name[\\v[2]]\\_
+Do you love tails?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+触手は大好き？
+> CONTEXT: Commonevents/165/376/Dialogue
+> CONTEXT: Commonevents/166/191/Dialogue
+> CONTEXT: Commonevents/167/320/Dialogue
+\\name[\\v[2]]\\_
+Do you love tentacles?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ありがとう、ふふっ……なるほどねぇ。
+> CONTEXT: Commonevents/165/395/Dialogue
+> CONTEXT: Commonevents/166/210/Dialogue
+> CONTEXT: Commonevents/167/339/Dialogue
+\\name[\\v[2]]\\_
+Thank you, hehe... I see.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+口を攻められるのは好き？
+> CONTEXT: Commonevents/166/11/Dialogue
+> CONTEXT: Commonevents/167/140/Dialogue
+\\name[\\v[2]]\\_
+Do you like having your mouth attacked?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お尻を攻められるのは好き？
+> CONTEXT: Commonevents/166/24/Dialogue
+> CONTEXT: Commonevents/167/153/Dialogue
+\\name[\\v[2]]\\_
+Do you like having your ass touched?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+胸を攻められるのは好き？
+> CONTEXT: Commonevents/166/37/Dialogue
+> CONTEXT: Commonevents/167/166/Dialogue
+\\name[\\v[2]]\\_
+Do you like having your chest touched?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+アソコを攻められるのは好き？
+> CONTEXT: Commonevents/166/50/Dialogue
+> CONTEXT: Commonevents/167/179/Dialogue
+\\name[\\v[2]]\\_
+Do you like having your private parts attacked?
+> END STRING
+
+> BEGIN STRING
+身体の弱点を教える
+> CONTEXT: Commonevents/167/4/Choice/2
+> CONTEXT: Commonevents/167/4/Choice/2
+Tell weaknesses
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢魔のホールド中に動きを付けますか？
+（はいを選択すると対応夢魔の
+　ホールドがアニメーションになります）
+> CONTEXT: Commonevents/200/0/Dialogue
+\\name[\\v[2]]\\_
+Do you want to see animation while holding succubi?
+(If Yes, the corresponding succubi's hold will be animated)
+> END STRING
+
+> BEGIN STRING
+ホールドアニメを表示しますか？
+> CONTEXT: Commonevents/200/11/Dialogue
+Show hold animation?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+表示ありにしました
+> CONTEXT: Commonevents/200/15/Dialogue
+\\name[\\v[2]]\\_
+Displayed
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+表示なしにしました
+> CONTEXT: Commonevents/200/20/Dialogue
+\\name[\\v[2]]\\_
+Don't display
 > END STRING
 
 > BEGIN STRING
@@ -2431,28 +5357,34 @@ is lurking at this collection point!
 > END STRING
 
 > BEGIN STRING
+夢魔を避けて採取する
+> CONTEXT: Commonevents/204/26/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
 ･･････！\\|
 この茸は夢魔が擬態しているようだ。
-> CONTEXT: Commonevents/204/36/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/204/47/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 何かすれば擬態を解きそうだ。
-> CONTEXT: Commonevents/204/38/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/204/49/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 ･･････！\\|
 この石像は夢魔が擬態しているようだ。
-> CONTEXT: Commonevents/204/42/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/204/53/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 石像に襲いかかりますか？
-> CONTEXT: Commonevents/204/44/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/204/55/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -2639,5 +5571,2533 @@ is lurking at this collection point!
 
 \\center　　BEST END\\v[2]
 > CONTEXT: Commonevents/206/101/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"達"
+> CONTEXT: Commonevents/214/69/InlineScript/6:30 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+今回の記録
+遊技場 \\v[5] 階にて
+\\v[189]によって失神させられる
+> CONTEXT: Commonevents/214/78/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デバッグ用の夢のしおりを入手します。
+> CONTEXT: Commonevents/221/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ただいまの階層は \\v[182] 階です
+> CONTEXT: Commonevents/225/1/Dialogue
+You are currently on floor \\v[182]
+> END STRING
+
+> BEGIN STRING
+脱出します。
+> CONTEXT: Commonevents/225/4/Dialogue
+Escape.
+> END STRING
+
+> BEGIN STRING
+夢魔加速の罠だ！
+この階層にいる間、追ってくる夢魔が速くなる！
+> CONTEXT: Commonevents/229/3/Dialogue
+It's a succubus acceleration trap!
+While you're on this floor, 
+the succubi chasing you are faster!
+> END STRING
+
+> BEGIN STRING
+宝箱からスライムが出てきた！
+> CONTEXT: Commonevents/237/12/Dialogue
+Slime came out of the treasure chest!
+> END STRING
+
+> BEGIN STRING
+\\v[2]達はスライムの粘液が付いて
+上手く移動できなくなってしまった！
+> CONTEXT: Commonevents/237/15/Dialogue
+\\v[2]'s party became covered in slime 
+and are unable to move around properly!
+> END STRING
+
+> BEGIN STRING
+宝箱からサキュバスが現れた！
+> CONTEXT: Commonevents/237/42/Dialogue
+A succubus appeared from the treasure chest!
+> END STRING
+
+> BEGIN STRING
+\\v[2]達はキッスに弱くなった。
+> CONTEXT: Commonevents/237/47/Dialogue
+\\v[2] became weak to kisses.
+> END STRING
+
+> BEGIN STRING
+\\v[2]達は欲情した。
+> CONTEXT: Commonevents/237/71/Dialogue
+\\v[2] became aroused.
+> END STRING
+
+> BEGIN STRING
+宝箱からワーウルフが現れた！
+> CONTEXT: Commonevents/237/121/Dialogue
+A werewolf appeared from the treasure chest!
+> END STRING
+
+> BEGIN STRING
+\\v[2]達は性器への攻めに弱くなった。
+> CONTEXT: Commonevents/237/127/Dialogue
+\\v[2] became weak to attacks on genitals.
+> END STRING
+
+> BEGIN STRING
+宝箱から黒猫が出てきた！
+> CONTEXT: Commonevents/237/153/Dialogue
+A black cat appeared from the treasure chest!
+> END STRING
+
+> BEGIN STRING
+黒猫の不吉な鳴き声が
+\\v[2]達の運気を奪う！……
+> CONTEXT: Commonevents/237/156/Dialogue
+The ominous cries of the black cat
+\\v[2] take away luck...!
+> END STRING
+
+> BEGIN STRING
+\\n[101]は妊娠してしまった……
+> CONTEXT: Commonevents/242/60/Dialogue
+\\n[101] is pregnant...
+> END STRING
+
+> BEGIN STRING
+気を失っている間に
+身体を開発されてしまったようだ･･･。
+> CONTEXT: Commonevents/249/98/Dialogue
+My body was conditioned while I was unconscious...
+> END STRING
+
+> BEGIN STRING
+ネコはどこかに去ってしまった。
+> CONTEXT: Commonevents/250/18/Dialogue
+> CONTEXT: Commonevents/251/8/Dialogue
+The cat has gone somewhere.
+> END STRING
+
+> BEGIN STRING
+あっ･･････
+> CONTEXT: Commonevents/250/23/Dialogue
+> CONTEXT: Commonevents/252/2/Dialogue
+Ah······
+> END STRING
+
+> BEGIN STRING
+ネコは\\v[3]の服を奪って
+どこかに去ってしまった。
+> CONTEXT: Commonevents/250/31/Dialogue
+The cat stole \\v[3]'s clothes 
+and ran off somewhere.
+> END STRING
+
+> BEGIN STRING
+リスは風の翼を咥えて
+どこかに去ってしまった。
+> CONTEXT: Commonevents/252/7/Dialogue
+The squirrel took Wind Wings
+in its mouth and flew away.
+> END STRING
+
+> BEGIN STRING
+リスはどこかに去ってしまった。
+> CONTEXT: Commonevents/252/15/Dialogue
+The squirrel has gone somewhere.
+> END STRING
+
+> BEGIN STRING
+七つの大罪が一つ「\\c[12]\\v[2]\\c[0]」を司る領域。
+挑む意志があるのならポートに手を触れよ。
+
+\\c[12]\\v[2]\\c[0]の領域に進みますか？\\c[12]\\v[3]\\c[0]
+> CONTEXT: Commonevents/258/2/Dialogue
+Realm where one of Seven Deadly Sins governs "\\c[12]\\v[2]\\c[0]".
+If you have the will to challenge, touch the port.
+Proceed to the realm of \\c[12]\\v[2]\\c[0]? \\c[12]\\v[3]\\c[0]
+> END STRING
+
+> BEGIN STRING
+そのフロアは今は行けないようだ……。
+> CONTEXT: Commonevents/259/13/Dialogue
+> CONTEXT: Commonevents/259/18/Dialogue
+> CONTEXT: Commonevents/259/23/Dialogue
+Can't go to that floor right now...
+> END STRING
+
+> BEGIN STRING
+何かが開くような音がした。
+> CONTEXT: Commonevents/260/23/Dialogue
+Sounds like something opened.
+> END STRING
+
+> BEGIN STRING
+何やら怪しいタイトルの本がある。
+暗号解読書を使って読みますか？
+> CONTEXT: Commonevents/261/0/Dialogue
+There's a book with a suspicious title.
+Would you like to read it using a codebreaker?
+> END STRING
+
+> BEGIN STRING
+\\n[101]は元の姿に戻った！
+> CONTEXT: Commonevents/261/12/Dialogue
+\\n[101] has returned to original form!
+> END STRING
+
+> BEGIN STRING
+なんと、\\n[101]は
+子供になってしまった！
+> CONTEXT: Commonevents/261/22/Dialogue
+Oh my goodness, \\n[101]
+has turned into a child!
+> END STRING
+
+> BEGIN STRING
+夢日記の書その\\v[398]を開いた！
+> CONTEXT: Commonevents/262/5/Dialogue
+Opened the dream diary book \\v[398]!
+> END STRING
+
+> BEGIN STRING
+何かが開いたような音がした！
+> CONTEXT: Commonevents/262/8/Dialogue
+It sounded like something opened!
+> END STRING
+
+> BEGIN STRING
+この夢日記の書は
+今開いても意味がないようだ。
+最初からやり直し！
+> CONTEXT: Commonevents/262/14/Dialogue
+There seems to be no point in opening 
+this dream diary now. Start over from the beginning!
+> END STRING
+
+> BEGIN STRING
+ダメージの調整
+> CONTEXT: Commonevents/280/10/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1046/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デバッグモードの切り替え
+> CONTEXT: Commonevents/280/10/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1046/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+状態異常の付与
+> CONTEXT: Commonevents/280/10/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1046/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ムードの変更
+> CONTEXT: Commonevents/280/10/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+受ける快楽を調整します。
+> CONTEXT: Commonevents/280/12/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1048/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+与ダメージ
+> CONTEXT: Commonevents/280/13/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1049/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+被ダメージ
+> CONTEXT: Commonevents/280/13/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1049/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+与ダメ被ダメの一括調整
+> CONTEXT: Commonevents/280/13/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1049/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+VP変化の調整
+> CONTEXT: Commonevents/280/13/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+現在の与ダメージ率
+\\c[2]\\v[304]\\c[0] ％
+> CONTEXT: Commonevents/280/18/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1054/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+与ダメージ比率入力（入力：0～999）
+> CONTEXT: Commonevents/280/21/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/39/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1057/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1075/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+変更後の与ダメージ率
+\\c[2]\\v[304]\\c[0] ％
+> CONTEXT: Commonevents/280/29/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1065/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+現在の被ダメージ率
+\\c[2]\\v[305]\\c[0] ％
+> CONTEXT: Commonevents/280/36/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1072/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+変更後の被ダメージ率
+\\c[2]\\v[305]\\c[0] ％
+> CONTEXT: Commonevents/280/47/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1083/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダメージ比率入力（入力：0～999）
+> CONTEXT: Commonevents/280/52/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1088/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+変更後のダメージ率
+\\c[2]\\v[305]\\c[0] ％
+> CONTEXT: Commonevents/280/61/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1097/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+現在のVP減少率
+\\c[2]\\v[306]\\c[0] ％
+> CONTEXT: Commonevents/280/68/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1104/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+VP減少比率入力（入力：0～99）
+> CONTEXT: Commonevents/280/71/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1107/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+変更後のVP減少率
+\\c[2]\\v[306]\\c[0] ％
+> CONTEXT: Commonevents/280/79/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1115/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+戦闘中にF6で内部データが参照できるようになるほか
+F5で口上再読込み、F7で無抵抗化出来るようになり、
+トークの内容を指示できるようになります。
+> CONTEXT: Commonevents/280/89/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1125/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アクターのステートの変更
+> CONTEXT: Commonevents/280/120/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1156/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アクターのステートのリセット
+> CONTEXT: Commonevents/280/120/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1156/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エネミーのステートの変更
+> CONTEXT: Commonevents/280/120/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エネミーのステートのリセット
+> CONTEXT: Commonevents/280/120/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+恍惚・欲情・暴走・虚脱
+> CONTEXT: Commonevents/280/122/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/868/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1158/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+畏怖・麻痺・散漫・淫毒
+> CONTEXT: Commonevents/280/122/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/868/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1158/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+高揚・沈着・焦燥・専心
+> CONTEXT: Commonevents/280/122/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/868/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1158/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+一人目
+> CONTEXT: Commonevents/280/127/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/153/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/179/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/205/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/237/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/263/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/289/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/315/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/347/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/377/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/407/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/433/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/467/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/517/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/539/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/565/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/606/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/660/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/686/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/718/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/755/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/808/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1163/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1189/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1215/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1241/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1273/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1299/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1325/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1351/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1383/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1413/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1443/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1469/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1503/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1553/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1575/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1601/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1642/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1696/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1722/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1754/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1791/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1844/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+二人目
+> CONTEXT: Commonevents/280/127/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/153/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/179/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/205/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/237/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/263/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/289/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/315/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/347/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/377/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/407/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/433/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/467/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/517/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/539/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/565/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/606/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/660/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/686/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/718/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/755/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/808/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1163/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1189/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1215/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1241/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1273/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1299/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1325/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1351/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1383/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1413/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1443/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1469/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1503/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1553/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1575/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1601/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1642/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1696/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1722/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1754/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1791/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1844/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]は心を奪われた！
+> CONTEXT: Commonevents/280/130/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/147/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1166/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1183/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]は心を奪われた！
+> CONTEXT: Commonevents/280/134/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1170/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]達は心を奪われた！
+> CONTEXT: Commonevents/280/138/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1174/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]は欲情してしまった！
+> CONTEXT: Commonevents/280/160/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1196/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]達は欲情してしまった！
+> CONTEXT: Commonevents/280/164/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1200/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]は我を忘れてしまった！
+> CONTEXT: Commonevents/280/186/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1222/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]達は我を忘れてしまった！
+> CONTEXT: Commonevents/280/190/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1226/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]の身体から力が抜けていく……！
+> CONTEXT: Commonevents/280/208/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/225/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1244/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1261/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]の身体から力が抜けていく……！
+> CONTEXT: Commonevents/280/212/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1248/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]達の身体から力が抜けていく……！
+> CONTEXT: Commonevents/280/216/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1252/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]は消極的になってしまった！
+> CONTEXT: Commonevents/280/240/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/257/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1276/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1293/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]は消極的になってしまった！
+> CONTEXT: Commonevents/280/244/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1280/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]達は消極的になってしまった！
+> CONTEXT: Commonevents/280/248/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1284/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]の身体がだんだん痺れてきた……！
+> CONTEXT: Commonevents/280/266/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/283/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1302/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1319/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]の身体がだんだん痺れてきた……！
+> CONTEXT: Commonevents/280/270/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1306/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]達の身体がだんだん痺れてきた……！
+> CONTEXT: Commonevents/280/274/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1310/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]の意識が朦朧としてきた……！
+> CONTEXT: Commonevents/280/292/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/309/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1328/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1345/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]の意識が朦朧としてきた……！
+> CONTEXT: Commonevents/280/296/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1332/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]達の意識が朦朧としてきた……！
+> CONTEXT: Commonevents/280/300/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1336/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]は淫毒に冒されてしまった！
+> CONTEXT: Commonevents/280/318/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/335/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1354/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1371/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]は淫毒に冒されてしまった！
+> CONTEXT: Commonevents/280/322/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1358/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]達は淫毒に冒されてしまった！
+> CONTEXT: Commonevents/280/326/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1362/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]は気分が高揚してきた！
+> CONTEXT: Commonevents/280/351/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/371/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1387/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1407/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]は気分が高揚してきた！
+> CONTEXT: Commonevents/280/356/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1392/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]達は気分が高揚してきた！
+> CONTEXT: Commonevents/280/361/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/918/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1397/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]は気分が落ち着いてきた！
+> CONTEXT: Commonevents/280/381/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/401/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1417/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1437/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]は気分が落ち着いてきた！
+> CONTEXT: Commonevents/280/386/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1422/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]達は気分が落ち着いてきた！
+> CONTEXT: Commonevents/280/391/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/923/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1427/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]の緊張が高まってきた！
+> CONTEXT: Commonevents/280/410/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/427/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1446/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1463/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]の緊張が高まってきた！
+> CONTEXT: Commonevents/280/414/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1450/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]達の緊張が高まってきた！
+> CONTEXT: Commonevents/280/418/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1454/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]の精神が研ぎ澄まされた！
+> CONTEXT: Commonevents/280/436/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/453/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1472/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1489/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]の精神が研ぎ澄まされた！
+> CONTEXT: Commonevents/280/440/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1476/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]達の精神が研ぎ澄まされた！
+> CONTEXT: Commonevents/280/444/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1480/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+衰弱・絶頂・失神・クライシス・拘束
+> CONTEXT: Commonevents/280/462/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1498/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+女体化・ふたなり化・無防備・奴隷
+> CONTEXT: Commonevents/280/462/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1498/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+処女・童貞・完全拘束・契約干渉
+> CONTEXT: Commonevents/280/462/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1498/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+衰弱・絶頂
+> CONTEXT: Commonevents/280/464/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/280/1500/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]は絶頂に達した！
+> CONTEXT: Commonevents/280/476/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/511/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1512/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1547/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]は絶頂に達した！
+> CONTEXT: Commonevents/280/486/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1522/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]達は絶頂に達した！
+> CONTEXT: Commonevents/280/496/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1532/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+一人の場合は選択不可
+> CONTEXT: Commonevents/280/532/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1568/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]はいきそうになってきた…！
+> CONTEXT: Commonevents/280/542/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/559/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1578/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1595/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]はいきそうになってきた…！
+> CONTEXT: Commonevents/280/546/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1582/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]達はいきそうになってきた…！
+> CONTEXT: Commonevents/280/550/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/947/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1586/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]は拘束されてしまった！
+> CONTEXT: Commonevents/280/568/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/585/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1604/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1621/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]は拘束されてしまった！
+> CONTEXT: Commonevents/280/572/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1608/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]達は拘束されてしまった！
+> CONTEXT: Commonevents/280/576/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/951/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1612/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\n[101]は女になってしまった！
+> CONTEXT: Commonevents/280/602/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1638/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]の陰核が肥大化を始める……！
+\\v[3]の股間にペニスが出現した！
+> CONTEXT: Commonevents/280/611/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/649/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1647/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1685/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]の陰核が肥大化を始める……！
+\\v[4]の股間にペニスが出現した！
+> CONTEXT: Commonevents/280/622/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1658/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔達の陰核が肥大化を始める……！
+夢魔達の股間にペニスが出現した！
+> CONTEXT: Commonevents/280/637/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1673/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]は夢魔の好きに任せることにした！
+> CONTEXT: Commonevents/280/663/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/680/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1699/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1716/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]は夢魔の好きに任せることにした！
+> CONTEXT: Commonevents/280/667/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1703/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]達は夢魔の好きに任せることにした！
+> CONTEXT: Commonevents/280/671/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1707/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]は奴隷に身をやつした！
+> CONTEXT: Commonevents/280/689/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/706/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1725/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1742/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]は奴隷に身をやつした！
+> CONTEXT: Commonevents/280/693/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1729/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]達は奴隷に身をやつした！
+> CONTEXT: Commonevents/280/697/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1733/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]は処女になった！
+> CONTEXT: Commonevents/280/722/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/747/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1758/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1783/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]は処女になった！
+> CONTEXT: Commonevents/280/729/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1765/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔達は処女になった！
+> CONTEXT: Commonevents/280/737/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/986/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1773/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]は童貞になった！
+> CONTEXT: Commonevents/280/759/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/764/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/795/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/800/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1795/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1800/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1831/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1836/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]は童貞になった！
+> CONTEXT: Commonevents/280/771/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/776/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1807/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1812/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ペニスを持つものは童貞になった！
+> CONTEXT: Commonevents/280/785/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1821/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]は鎖に繋がれてしまった！
+> CONTEXT: Commonevents/280/811/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/828/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1847/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1864/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]は鎖に繋がれてしまった！
+> CONTEXT: Commonevents/280/815/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1851/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]達は鎖に繋がれてしまった！
+> CONTEXT: Commonevents/280/819/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1855/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔達は自分を抑えられなくなった！
+> CONTEXT: Commonevents/280/836/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/280/1872/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔達は心を奪われた！
+> CONTEXT: Commonevents/280/873/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔達は欲情してしまった！
+> CONTEXT: Commonevents/280/877/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔達は我を忘れてしまった！
+> CONTEXT: Commonevents/280/881/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔達の身体から力が抜けていく……！
+> CONTEXT: Commonevents/280/885/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔達は消極的になってしまった！
+> CONTEXT: Commonevents/280/895/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔達の身体がだんだん痺れてきた……！
+> CONTEXT: Commonevents/280/899/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔達の意識が朦朧としてきた……！
+> CONTEXT: Commonevents/280/903/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔達は淫毒に冒されてしまった！
+> CONTEXT: Commonevents/280/907/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔達の緊張が高まってきた！
+> CONTEXT: Commonevents/280/927/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔達の精神が研ぎ澄まされた！
+> CONTEXT: Commonevents/280/931/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+衰弱・クライシス・拘束
+> CONTEXT: Commonevents/280/938/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ふたなり化・無防備・奴隷
+> CONTEXT: Commonevents/280/938/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+処女・童貞・完全拘束
+> CONTEXT: Commonevents/280/938/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔達は絶頂に達した！
+> CONTEXT: Commonevents/280/943/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]達の陰核が肥大化を始める……！
+\\v[3]達の股間にペニスが出現した！
+> CONTEXT: Commonevents/280/965/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔達は無防備になりなすがままになった！
+> CONTEXT: Commonevents/280/970/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔達は奴隷に身をやつした！
+> CONTEXT: Commonevents/280/974/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ペニスを持つ夢魔達は童貞になった！
+> CONTEXT: Commonevents/280/994/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔達は鎖に繋がれてしまった！
+> CONTEXT: Commonevents/280/998/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ムード入力（入力：0～99）
+> CONTEXT: Commonevents/280/1033/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+VP減少量の調整
+> CONTEXT: Commonevents/280/1049/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+銀色の記憶を封印した。
+> CONTEXT: Commonevents/281/2/Dialogue
+The silver memories were sealed away.
+> END STRING
+
+> BEGIN STRING
+銀色の記憶を呼び覚ました！
+> CONTEXT: Commonevents/281/6/Dialogue
+Awakened silver memories!
+> END STRING
+
+> BEGIN STRING
+金色の記憶を封印した。
+> CONTEXT: Commonevents/282/2/Dialogue
+The golden memories were sealed away.
+> END STRING
+
+> BEGIN STRING
+金色の記憶を呼び覚ました！
+> CONTEXT: Commonevents/282/6/Dialogue
+Awakened golden memories!
+> END STRING
+
+> BEGIN STRING
+\\v[2]がパーティーにいない！
+> CONTEXT: Commonevents/290/4/Dialogue
+\\v[2] is not in the party!
+> END STRING
+
+> BEGIN STRING
+\\v[2]にペニスがない！
+> CONTEXT: Commonevents/290/10/Dialogue
+\\v[2] has no penis!
+> END STRING
+
+> BEGIN STRING
+\\v[2]のVPが足りない！
+> CONTEXT: Commonevents/290/16/Dialogue
+\\v[2] doesn't have enough VP!
+> END STRING
+
+> BEGIN STRING
+精気瓶を補充しますか？
+\\v[2]のVPを限界まで消費します。
+> CONTEXT: Commonevents/290/20/Dialogue
+Would you like to refill your Spirit Flask?
+\\v[2]'s VP will be consumed up to the limit.
+> END STRING
+
+> BEGIN STRING
+\\v[2]は精気瓶に自らのペニスを挿入すると、
+激しく扱きはじめた！
+> CONTEXT: Commonevents/290/28/Dialogue
+\\v[2] inserted his penis into the sperm bottle 
+and began stroking it vigorously!
+> END STRING
+
+> BEGIN STRING
+精気瓶が肉襞のようにペニスに絡みつき、
+\\v[2]の快感が高まる！
+> CONTEXT: Commonevents/290/31/Dialogue
+> CONTEXT: Commonevents/290/240/Dialogue
+The sperm bottle wraps around the penis like a fold of flesh,
+increasing the pleasure!
+> END STRING
+
+> BEGIN STRING
+\\v[2]は絶頂を迎え射精した！
+大量の精液が精気瓶に注ぎ込まれる……。
+> CONTEXT: Commonevents/290/40/Dialogue
+> CONTEXT: Commonevents/290/249/Dialogue
+\\v[2] reaches climax and ejaculates!
+A huge amount of semen is poured into the sperm bottle...
+> END STRING
+
+> BEGIN STRING
+……？
+精気瓶がペニスに咥え付いて離れない……。
+> CONTEXT: Commonevents/290/42/Dialogue
+...?
+The sperm bottle is stuck to the penis and won't let go...
+> END STRING
+
+> BEGIN STRING
+\\v[2]は続けざまに何度も何度も射精してしまった！
+もうこれ以上出すことはできない……。
+> CONTEXT: Commonevents/290/52/Dialogue
+> CONTEXT: Commonevents/290/261/Dialogue
+\\v[2] ejaculated over and over again!
+Can't get any more out...
+> END STRING
+
+> BEGIN STRING
+精気瓶が補充された！
+VPが1になった！
+> CONTEXT: Commonevents/290/54/Dialogue
+> CONTEXT: Commonevents/290/263/Dialogue
+The spirit bottle has been replenished!
+VP is now at 1!
+> END STRING
+
+> BEGIN STRING
+精気瓶が補充された！
+\\v[2]のVPが1になった！
+> CONTEXT: Commonevents/290/217/Dialogue
+The spirit bottle has been replenished!
+\\v[2]'s VP is now 1!
+> END STRING
+
+> BEGIN STRING
+\\v[3]は\\v[2]のペニスに精気瓶をあてがうと、
+激しく扱きはじめた！
+> CONTEXT: Commonevents/290/237/Dialogue
+\\v[3] placed the sperm bottle on \\v[2]'s penis 
+and began to stroke it vigorously!
+> END STRING
+
+> BEGIN STRING
+……？
+\\v[3]がペニスを扱く手を止めてくれない……。
+> CONTEXT: Commonevents/290/251/Dialogue
+…?
+\\v[3] won't stop stroking my penis...
+> END STRING
+
+> BEGIN STRING
+ここでは使うことができません！
+> CONTEXT: Commonevents/303/7/Dialogue
+It can't be used here!
+> END STRING
+
+> BEGIN STRING
+夢のテントを使用しますか？
+> CONTEXT: Commonevents/303/12/Dialogue
+Would you like to use your dream tent?
+> END STRING
+
+> BEGIN STRING
+ハザマノセカイでしか使う事ができません！
+> CONTEXT: Commonevents/305/2/Dialogue
+It can only be used in Border World!
+> END STRING
+
+> BEGIN STRING
+"\#{r}は、
+淫蕩な香りの霧を吸い込んでしまった！"
+> CONTEXT: Commonevents/331/14/InlineScript/3:33 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"\#{r}は、
+淫蕩な芳香を吸い込んでしまった！"
+> CONTEXT: Commonevents/332/4/InlineScript/3:33 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+不穏な気配を感じた\\n[101]たちは、
+アウルムから離れ、身構える！
+> CONTEXT: Commonevents/335/12/Dialogue
+Sensing an uneasy presence, \\n[101]'s party
+leaves Aurum and prepares themselves!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ははっ、なかなかやるじゃないか。
+正直、ビックリしたよ。
+> CONTEXT: Commonevents/335/15/Dialogue
+\\name[\\v[2]]\\_
+Haha, that's pretty good.
+Honestly, I was surprised.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……\\|おお、よしよし。\\|いい子にしてたね。
+お腹を空かせてしまったのかい？
+> CONTEXT: Commonevents/335/18/Dialogue
+\\name[\\v[2]]\\_
+……\\|Oh, good, good. \\|You've been a good girl.
+Are you hungry?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ははっ。どうやらボクのペット達が
+キミ達のこと、とても気に入ったみたいだよ。
+> CONTEXT: Commonevents/335/21/Dialogue
+\\name[\\v[2]]\\_
+Haha. It seems like my pets
+like you guys very much.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それじゃ、そろそろ紹介してあげようかな。
+ボクの可愛いペット達をさ！
+> CONTEXT: Commonevents/335/24/Dialogue
+\\name[\\v[2]]\\_
+Well, I guess it's time to introduce you to my cute pets!
+> END STRING
+
+> BEGIN STRING
+突如現れたおぞましい触手の姿に
+\\n[101]たちは思わず後ずさりしてしまう！
+> CONTEXT: Commonevents/336/4/Dialogue
+The horrifying tentacles that suddenly appeared 
+made \\n[101]'s party take a step back!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ははっ！
+そんなに身構えちゃって、どうしたんだい？
+ほら、よく見てみなよ。可愛いだろう？
+> CONTEXT: Commonevents/336/7/Dialogue
+\\name[\\v[2]]\\_
+Haha!
+What's wrong with you, getting nervous?
+Look, take a closer look. Isn't she cute?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+でも……、
+ちょっとばかり気性が荒いところがあるから
+扱いには気をつけなよ？
+> CONTEXT: Commonevents/336/11/Dialogue
+\\name[\\v[2]]\\_
+But...
+she can be a bit of a hothead,
+so be careful how you handle her.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この子たちのご機嫌を損ねたら
+何をしでかすか分からないからね♪
+> CONTEXT: Commonevents/336/15/Dialogue
+\\name[\\v[2]]\\_
+If you upset these girl,
+you never know what they'll do♪
+> END STRING
+
+> BEGIN STRING
+大天使セラフィエルのミッションをクリアした。
+> CONTEXT: Commonevents/344/30/Dialogue
+Completed Archangel Seraphiel's mission.
+> END STRING
+
+> BEGIN STRING
+黄昏王国にいる間しか使うことができません！
+> CONTEXT: Commonevents/345/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ナイトストーカー"
+> CONTEXT: Commonevents/347/36/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふ……、楽しかった……わ…\\H
+> CONTEXT: Commonevents/347/38/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+すっごくキモチイイことしてあげる・・・\\H
+> CONTEXT: Commonevents/351/33/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+すっごくキモチイイことしてあげる・・・だから
+邪魔な服・・・全部脱いじゃおうね\\H
+> CONTEXT: Commonevents/351/40/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]は
+\\v[3]の服を脱がせようと試みた！
+> CONTEXT: Commonevents/351/48/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]は抵抗した！
+> CONTEXT: Commonevents/351/52/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/353/64/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/71/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+う～ん、残念だけど・・・
+服の上からしてあげるね\\H
+> CONTEXT: Commonevents/351/54/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それじゃあ、じ～っくり気持ちよくしてあげる\\H
+> CONTEXT: Commonevents/351/63/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もうイキそう？
+じゃあもっとサービスしてあげる\\H
+> CONTEXT: Commonevents/351/72/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+まだイっちゃだ～め\\H
+我慢した分だけイクときが気持ちいいんだよ
+> CONTEXT: Commonevents/351/82/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふっ・・・我慢してる\\H
+どこまで我慢できるかな\\H
+> CONTEXT: Commonevents/351/90/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+かわいい顔\\H
+もっともっと気持ちよくなってね\\H
+> CONTEXT: Commonevents/351/102/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+まだイかないかな？
+じゃあもっとしてあげる\\H
+> CONTEXT: Commonevents/351/110/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イきそうでイけないもどかしさが
+\\v[3]の精神を追い詰めていく……！
+> CONTEXT: Commonevents/351/145/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+絶頂への期待から
+\\v[3]は抵抗するのをやめてしまった！
+> CONTEXT: Commonevents/351/149/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]は誘惑に耐えた！
+> CONTEXT: Commonevents/351/153/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふっ\\H
+もうイきたくてしょうがないって顔してるよ\\H
+じゃあじっとしててね\\H
+> CONTEXT: Commonevents/351/167/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふっ\\H
+もういじわるするのもこれくらいで・・・
+イかせてア・ゲ・ル
+> CONTEXT: Commonevents/351/176/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]は見せつけるように
+再び\\v[3]のペニスを、
+ゆっくりとしごき始めた……！
+> CONTEXT: Commonevents/351/190/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/360/25/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ふふっ\\H
+すごいね、耐えちゃった\\H
+> CONTEXT: Commonevents/351/195/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/351/220/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]は
+\\v[3]にそっとキスをしてきた！
+> CONTEXT: Commonevents/351/223/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/360/59/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ねぇ、お兄さん……？
+アタシのココ、舐めてくれる……？
+> CONTEXT: Commonevents/353/42/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/49/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ねぇ、アナタ……？
+アタシのココ、舐めてくれる……？
+> CONTEXT: Commonevents/353/50/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/57/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]の視界いっぱいに、
+指で開かれた\\v[2]のアソコが映る！
+> CONTEXT: Commonevents/353/60/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/67/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+う～ん、残念・・・
+> CONTEXT: Commonevents/353/66/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/73/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]は
+\\v[3]の頭に馬乗りになった！
+> CONTEXT: Commonevents/353/78/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/85/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+うふふ\\Hそっちばっかりに
+気を取られていいのかな？
+> CONTEXT: Commonevents/353/87/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/94/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+お客様、どうぞお楽に……。
+私めの口でお清めさせて頂きます
+> CONTEXT: Commonevents/353/93/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]は
+\\v[3]のペニスを口に咥えた！
+> CONTEXT: Commonevents/353/101/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+あむっ……んふぅ……っ\\H
+> CONTEXT: Commonevents/353/108/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/353/127/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/109/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/122/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+んっ……ふぅ……っ\\H
+……ふふ、どうぞ最後までお愉しみくださいね
+> CONTEXT: Commonevents/353/113/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/353/132/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]は
+\\v[3]のアソコに吸い付いた！
+> CONTEXT: Commonevents/353/120/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+うふふ・・・\\H
+もうとろとろだね
+> CONTEXT: Commonevents/353/165/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/154/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+あむっ……んふぅ……っ\\H
+ふふっ\\H じゃあどっちでイかせるか
+お兄さんに選んでもらおうかな？
+> CONTEXT: Commonevents/353/172/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/161/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+んっ……ふぅ……っ\\H
+……ふふ、それではどちらに最後を任せるか
+お客様に選んでいただきましょうか
+> CONTEXT: Commonevents/353/179/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/353/195/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+あむっ……んふぅ……っ\\H
+ふふっ\\H じゃあどっちでイかせるか
+アナタに選んでもらおうかな？
+> CONTEXT: Commonevents/353/188/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/170/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+アタシののココ、舐めながらイっちゃう？
+> CONTEXT: Commonevents/353/204/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/179/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+それともフェラチオでお兄さんのソレ
+いっぱい気持ちよくしてあげようか？
+> CONTEXT: Commonevents/353/210/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/185/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+私めにお任せを
+ご満足頂けるよう努めて参ります。
+> CONTEXT: Commonevents/353/216/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/353/230/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+それともあなたのアソコ、
+舌でいっぱい気持ちよくしてあげようか？
+> CONTEXT: Commonevents/353/224/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/193/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]に任せる
+> CONTEXT: Commonevents/353/237/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/358/200/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]に任せる
+> CONTEXT: Commonevents/353/237/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/358/200/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+え～・・・でもお兄さんが選んだんだから
+仕方ないよね
+> CONTEXT: Commonevents/353/241/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/204/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+それでは失礼致します……
+私めに過分な気遣いは不要でございます……
+> CONTEXT: Commonevents/353/247/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/353/261/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+え～・・・でもおアナタが選んだんだから
+仕方ないよね
+> CONTEXT: Commonevents/353/255/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/212/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それじゃあ、アタシのにおいを嗅ぎながら
+イっちゃえ～
+> CONTEXT: Commonevents/353/270/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/221/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お兄さんならアタシのにおい
+気に入ってくれると思ったのに・・・
+> CONTEXT: Commonevents/353/281/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/232/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+アナタならアタシのにおい
+気に入ってくれると思ったのに・・・
+> CONTEXT: Commonevents/353/289/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/239/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+うふふ・・・それじゃあご要望に応えて
+い～っぱい気持ちよくしてあげる\\H
+> CONTEXT: Commonevents/353/298/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/246/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+ふふ・・・イかせてほしい？
+でも、だ～め\\H
+もっともっとイジメてあ・げ・る\\H
+> CONTEXT: Commonevents/353/303/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/253/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+ふふ、お兄さんのカワイイ顔
+もっと見ていたいけど・・・
+そろそろ可哀そうだから
+> CONTEXT: Commonevents/353/310/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/260/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+思いっきり・・・イかせてあげる\\H
+> CONTEXT: Commonevents/353/314/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/358/264/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+かしこまりました。
+引き続き私めがお相手致しますね
+> CONTEXT: Commonevents/353/329/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"強吸精"
+> CONTEXT: Commonevents/355/17/InlineScript/1:24 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]は
+\\v[3]のペニスを口に咥えた！
+> CONTEXT: Commonevents/358/102/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]は
+\\v[3]のアソコに吸い付いた！
+> CONTEXT: Commonevents/358/115/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[2]は見せつけるように
+再び\\v[3]の敏感な所を、
+ゆっくりと弄り始めた……！
+> CONTEXT: Commonevents/360/30/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[3]は
+\\v[2]の責めに耐えきった！
+> CONTEXT: Commonevents/360/36/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ヘブンリーラッシュ"
+> CONTEXT: Commonevents/362/42/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/362/63/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/362/86/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/362/108/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/362/130/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/362/152/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/362/174/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/362/196/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/362/218/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/362/232/InlineScript/6:16 < UNTRANSLATED
+> CONTEXT: Commonevents/362/268/InlineScript/3:16 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[5]は抵抗した！
+> CONTEXT: Commonevents/362/249/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/363/196/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/364/18/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/365/18/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/366/18/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[5]は抵抗できない！
+> CONTEXT: Commonevents/362/254/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/363/201/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/364/23/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/365/23/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/366/23/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ストロークラッシュ"
+> CONTEXT: Commonevents/363/37/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/363/52/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/363/69/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/363/85/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/363/101/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/363/117/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/363/133/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/363/149/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/363/165/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/363/179/InlineScript/6:16 < UNTRANSLATED
+> CONTEXT: Commonevents/363/209/InlineScript/3:16 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ルーレットグラインド"
+> CONTEXT: Commonevents/367/31/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/367/64/InlineScript/6:16 < UNTRANSLATED
+> CONTEXT: Commonevents/367/165/InlineScript/6:16 < UNTRANSLATED
+> CONTEXT: Commonevents/367/184/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/367/213/InlineScript/6:16 < UNTRANSLATED
+> CONTEXT: Commonevents/367/314/InlineScript/6:16 < UNTRANSLATED
+> CONTEXT: Commonevents/367/333/InlineScript/3:16 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]と\\v[6]は、お互いに目を合わせ
+位置を入れ替えてきた……！
+> CONTEXT: Commonevents/367/42/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[4]が\\v[5]から離れ、
+同時に\\v[6]がまたがってくる……！
+> CONTEXT: Commonevents/367/52/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+とどめとばかりに、
+\\v[4]が\\v[5]に近づいてくる……！
+> CONTEXT: Commonevents/367/89/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[5]の顔が、
+\\v[4]のアソコで押しつぶされる……！
+> CONTEXT: Commonevents/367/111/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[5]の唇が、
+\\v[4]の唇で塞がれてしまう……！
+> CONTEXT: Commonevents/367/116/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[5]の顔に、
+\\v[4]の胸が押し当てられる……！
+> CONTEXT: Commonevents/367/122/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[5]の顔が、
+\\v[4]の胸の谷間に埋められてしまう……！
+> CONTEXT: Commonevents/367/126/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ルーレットグラインド連携"
+> CONTEXT: Commonevents/367/136/InlineScript/5:16 < UNTRANSLATED
+> CONTEXT: Commonevents/367/285/InlineScript/5:16 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"エナジードレイン"
+> CONTEXT: Commonevents/367/152/InlineScript/3:16 < UNTRANSLATED
+> CONTEXT: Commonevents/367/301/InlineScript/3:16 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[6]が\\v[5]から離れ、
+同時に\\v[4]がまたがってくる……！
+> CONTEXT: Commonevents/367/201/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+とどめとばかりに、
+\\v[6]が\\v[5]に近づいてくる……！
+> CONTEXT: Commonevents/367/238/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[5]の顔が、
+\\v[6]のアソコで押しつぶされる……！
+> CONTEXT: Commonevents/367/260/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[5]の唇が、
+\\v[6]の唇で塞がれてしまう……！
+> CONTEXT: Commonevents/367/265/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[5]の顔に、
+\\v[6]の胸が押し当てられる……！
+> CONTEXT: Commonevents/367/271/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\v[5]の顔が、
+\\v[6]の胸の谷間に埋められてしまう……！
+> CONTEXT: Commonevents/367/275/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+フリールームでは使えない
+> CONTEXT: Commonevents/389/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ハザマノセカイでは使えない
+> CONTEXT: Commonevents/389/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+どのような代物かわからない状態では
+使わない方がいいだろう…
+> CONTEXT: Commonevents/389/14/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+今は使用できない
+> CONTEXT: Commonevents/389/20/Dialogue
+Not available now
+> END STRING
+
+> BEGIN STRING
+本の世界に入りますか？
+(帰るときはホームに戻ります)
+> CONTEXT: Commonevents/389/23/Dialogue
+Would you like to enter the world of the book? 
+(When you leave, you will return to Home)
+> END STRING
+
+> BEGIN STRING
+"精力吸収"
+> CONTEXT: Commonevents/402/3/InlineScript/1:24 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+主を攻められた触手が暴れだした。
+> CONTEXT: Commonevents/403/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"精神吸収"
+> CONTEXT: Commonevents/405/3/InlineScript/1:24 < UNTRANSLATED
+> CONTEXT: Commonevents/405/5/InlineScript/1:24 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スリーピィのパンツを手に入れた！
+アイマスクの代わりに使うとよく安眠できる
+穏やかパンツだ！
+> CONTEXT: Commonevents/433/15/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/433/37/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+校長先生のパンツを手に入れた！
+絶大な魔力を感じる・・・！！
+被っても平気なのだろうか・・・？
+> CONTEXT: Commonevents/433/30/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ゴブリンのパンツを手に入れた！
+石を入れて振り回すといい感じに
+投石できるめちゃつよパンツ。
+> CONTEXT: Commonevents/433/44/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エテルヌスのパンツを手に入れた！
+ちょうど息子のサイズに
+ぴったり合いそうな小ぶりパンツ。
+> CONTEXT: Commonevents/433/51/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ガーゴイルのパンツを手に入れた！
+石のようにカッチカチ！
+どうやったら履けるのかわからないパンツ。
+> CONTEXT: Commonevents/433/58/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルラウネのパンツを手に入れた！
+フローラルな香りのするパンツ。
+甘くやさしい上品な香りがする。
+> CONTEXT: Commonevents/433/65/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリアのパンツを手に入れた！
+夜の奉仕用で使用するパンツ。
+想像しただけでエッチだ。
+> CONTEXT: Commonevents/433/72/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マタンゴのパンツを手に入れた！
+キノコの香りがするパンツ。
+自身のキノコもつられて元気になりそうだ。
+> CONTEXT: Commonevents/433/79/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キャストのパンツを手に入れた！
+まだ一度も使ったことのない未使用パンツ。
+処女パン、処女パン！！
+> CONTEXT: Commonevents/433/86/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エンジェルのパンツを手に入れた！
+見つめてるだけでヘブン状態に
+なれる幸せパンツ。
+被ったら昇天しそう。
+> CONTEXT: Commonevents/433/93/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スライムのパンツを手に入れた！
+ドライヤーで乾かしても
+なぜかねばねばしてるパンツ。
+> CONTEXT: Commonevents/433/101/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サケを手に入れた！
+サケはサケ目サケ科サケ属の魚。
+つまりサケってわけ。
+> CONTEXT: Commonevents/433/108/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スズキを　釣りあげた！
+また　おまえか－？！
+> CONTEXT: Commonevents/433/115/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アユを手に入れた！
+Are you ready? うん！
+> CONTEXT: Commonevents/433/121/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ブラックバスを手に入れた！
+キャッチアンドリリース。
+> CONTEXT: Commonevents/433/127/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ピラニアを手に入れた！
+甘噛みなら大歓迎です。
+> CONTEXT: Commonevents/433/133/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サメを手に入れた！
+まだ胎内にいるうちに
+他の兄弟を食べてしまう魚。
+ふーん、エッチじゃん。
+> CONTEXT: Commonevents/433/139/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドクターフィッシュを手に入れた！
+肌の古い角質を食べてくれる魚。
+ぼくのちんちんも食べてくれませんか？
+> CONTEXT: Commonevents/433/147/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+コイを手に入れた！
+竿の振動から伝わってくる重量！
+この胸の高鳴り！これが・・・コイッ!?
+> CONTEXT: Commonevents/433/154/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メダカを手に入れた！
+めだかの学校の歌詞ってさ、
+はだかに置き換えるとなんかエッチだよね。
+> CONTEXT: Commonevents/433/161/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+すっぽんを手に入れた！
+食べるとちんこが元気になるらしい。
+頭の形がちんこに似てるから？
+> CONTEXT: Commonevents/433/168/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[出産ロボ]\\_
+オヤ、\\v[2]サマ。
+妊娠シテイラッシャルノデスネ。
+> CONTEXT: Commonevents/434/35/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[出産ロボ]\\_
+\\n[101]様ノオ子様デスカ？
+ソレハオメデトウゴザイマス！
+コレDE\\v[4]人目デスネ！
+> CONTEXT: Commonevents/434/39/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[出産ロボ]\\_
+\\n[101]様ノ子デハナイモヨウ……。
+……\\n[101]様、イイ趣味ヲオ持チノヨウデ
+コレデ\\v[4]人目ノオ子様デスネ！
+> CONTEXT: Commonevents/434/46/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[出産ロボ]\\_
+\\n[101]様、ゴ自身デゴ懐妊サレタノデスガ？
+特殊ナ性癖ヲオ持チノヨウデ
+素晴ラシイト思イマス。
+> CONTEXT: Commonevents/434/53/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[出産ロボ]\\_
+……夢魔ニ襲ワレテ孕マサレテシマッタノデスネ。
+イイセンスデス。
+> CONTEXT: Commonevents/434/60/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[出産ロボ]\\_
+カシコマリマシタ！
+サア、ドウゾコチラヘ。
+> CONTEXT: Commonevents/434/68/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[出産ロボ]\\_
+無事ニ産マレマシタ。
+> CONTEXT: Commonevents/434/99/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[出産ロボ]\\_
+冒険ニ連レテ行カレルノハ危ナイノデ
+オ子様ハコチラデオ預カリシマスネ。
+> CONTEXT: Commonevents/434/101/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[出産ロボ]\\_
+ハァ・・・
+妊婦サンガ性癖ニ刺サッテ仕方ナイノ
+デショウカ？
+> CONTEXT: Commonevents/434/110/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[出産ロボ]\\_
+妊娠中ハ器用サト素早サガ低下シマスノデ
+ソウイウ性癖ヲオ持チデナイナラ
+サッサト出産サセタ方ガイイデスヨ。
+> CONTEXT: Commonevents/434/114/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[出産ロボ]\\_
+ソレハ「豊穣のルーン」
+妊娠スルコトガ可能ニナル、ルーンデス。
+> CONTEXT: Commonevents/434/123/Dialogue
+\\name[Birthing Robot]\\_
+That's the "Fertility Rune"
+It makes pregnancy possible, rune death.
+> END STRING
+
+> BEGIN STRING
+\\name[出産ロボ]\\_
+モットモ、一発デ妊娠デキルコトハ少ナイノデ
+何回モ中出シシテ種付ケスルコトヲ
+オススメシマス。
+> CONTEXT: Commonevents/434/126/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[出産ロボ]\\_
+ソレト、男性器ヲ持ツ夢魔ニ負ケテシマッタ場合、
+望マヌ妊娠ヲシテシマウコトガアリマス。
+> CONTEXT: Commonevents/434/130/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[出産ロボ]\\_
+ソウイウプレイガ　オ好キデナイ場合ハ
+気ヲ付ケテクダサイ。
+> CONTEXT: Commonevents/434/133/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[出産ロボ]\\_
+身重ノ方ガ居マシタラ
+コノ出産ロボニオ任セクダサイ。
+> CONTEXT: Commonevents/434/138/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+子世代実装キャラ一覧
+> CONTEXT: Commonevents/436/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リジェオの子供・ライジェロ
+> CONTEXT: Commonevents/436/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミカエルの子供・プティ
+> CONTEXT: Commonevents/436/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+正面からじゃないと読めない！
+> CONTEXT: Commonevents/436/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+校庭に戻りますか？
+> CONTEXT: Commonevents/437/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+まだ子供が生まれていません！
+> CONTEXT: Commonevents/437/36/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/437/57/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+まだ実装されていません！
+> CONTEXT: Commonevents/437/43/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"Ranka_no_Sato"
+> CONTEXT: Commonevents/439/4/InlineScript/1:27 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"NOMALE"
+> CONTEXT: Commonevents/440/0/InlineScript/1:27 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"SAMPLE"
+> CONTEXT: Commonevents/441/2/InlineScript/1:27 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"シスター戦"
+> CONTEXT: Commonevents/455/4/InlineScript/6:12 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"ニュクス戦"
+> CONTEXT: Commonevents/455/15/InlineScript/6:12 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"モリガン戦"
+> CONTEXT: Commonevents/455/26/InlineScript/6:12 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"インヴィ戦"
+> CONTEXT: Commonevents/455/37/InlineScript/6:12 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"天使戦"
+> CONTEXT: Commonevents/455/48/InlineScript/6:12 < UNTRANSLATED
+> CONTEXT: Commonevents/455/59/InlineScript/6:12 < UNTRANSLATED
+> CONTEXT: Commonevents/455/70/InlineScript/6:12 < UNTRANSLATED
+> CONTEXT: Commonevents/455/81/InlineScript/6:12 < UNTRANSLATED
+> CONTEXT: Commonevents/455/92/InlineScript/6:12 < UNTRANSLATED
+> CONTEXT: Commonevents/455/103/InlineScript/6:12 < UNTRANSLATED
+> CONTEXT: Commonevents/455/114/InlineScript/6:12 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"銀都市会話"
+> CONTEXT: Commonevents/455/125/InlineScript/6:12 < UNTRANSLATED
+> CONTEXT: Commonevents/455/136/InlineScript/6:12 < UNTRANSLATED
+> CONTEXT: Commonevents/455/147/InlineScript/6:12 < UNTRANSLATED
+> CONTEXT: Commonevents/455/158/InlineScript/6:12 < UNTRANSLATED
+> CONTEXT: Commonevents/455/169/InlineScript/6:12 < UNTRANSLATED
+> CONTEXT: Commonevents/455/180/InlineScript/6:12 < UNTRANSLATED
+> CONTEXT: Commonevents/455/191/InlineScript/6:12 < UNTRANSLATED
+> CONTEXT: Commonevents/455/202/InlineScript/6:12 < UNTRANSLATED
 
 > END STRING

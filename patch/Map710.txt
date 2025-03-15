@@ -1,0 +1,79 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+…開かない、どうやら戻れないようだ。
+> CONTEXT: Map710/events/1/pages/0/1/Dialogue
+> CONTEXT: Map710/events/2/pages/0/1/Dialogue
+...It won't open, and it looks like I can't go back.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この階段の下は夢魔達の隔離施設です。
+カタコンベの奥へはこちらからは行かれませんよ。
+> CONTEXT: Map710/events/31/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Below these stairs is a quarantine facility for succubi.
+You can't get to the depths of the catacombs from here.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+隔離施設は領主様が管理にめんど…
+いえ、実験し終えた個体を消滅するまで
+幽閉しておく施設です。
+> CONTEXT: Map710/events/31/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+The isolation facility is a hassle for the lord to manage...
+No, it's a facility where individuals who have been 
+experimented on are imprisoned until they disappear.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+まぁ、無神経に押し込めすぎて
+一部の夢魔が外に出てきてしまってますけども…。
+> CONTEXT: Map710/events/31/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+Well, they've been pushing it in too thoughtlessly
+and some of the succubi have come out...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+先に進むには段差を跳び降りなくてはならず、
+一度降りたら一周しないと戻れません。
+あらかじめご了承くださいませ。
+> CONTEXT: Map710/events/31/pages/0/11/Dialogue
+\\name[\\v[2]]\\_
+To proceed further, you must jump down a step, and once you have 
+jumped down you cannot return without going around in a circle.
+Thank you for your understanding.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+…と、ここまで説明いたしましたが、
+やはり入らないほうがよろしいかと……
+> CONTEXT: Map710/events/31/pages/0/15/Dialogue
+\\name[\\v[2]]\\_
+...I've explained this much, but
+I think it's probably best not to enter...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+餓えた夢魔がうろついていますし、
+内部管理もしていないため、とても暗いので……。
+> CONTEXT: Map710/events/31/pages/0/18/Dialogue
+\\name[\\v[2]]\\_
+There are hungry succubi roaming around,
+and there's no internal management, so it's very dark...
+> END STRING
+
+> BEGIN STRING
+…開かない、鍵がかかっているようだ。
+> CONTEXT: Map710/events/33/pages/0/1/Dialogue
+> CONTEXT: Map710/events/39/pages/0/1/Dialogue
+> CONTEXT: Map706/events/14/pages/0/1/Dialogue
+...It won't open, it seems to be locked.
+> END STRING
