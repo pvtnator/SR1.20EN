@@ -1,112 +1,126 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 「夢魔図鑑」と書かれた本がある。
-> CONTEXT: Map566/events/11/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/20/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/11/pages/0/1/Dialogue
+> CONTEXT: Map206/events/20/pages/0/0/Dialogue
+There is a book called "Succubus Encyclopedia."
 > END STRING
 
 > BEGIN STRING
 図鑑を開く
-> CONTEXT: Map566/events/11/pages/0/2/Choice/0 < UNTRANSLATED
-> CONTEXT: Map206/events/20/pages/0/1/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Map566/events/11/pages/0/2/Choice/0
+> CONTEXT: Map206/events/20/pages/0/1/Choice/0
+Open the encyclopedia
 > END STRING
 
 > BEGIN STRING
 説明書きを読む
-> CONTEXT: Map566/events/11/pages/0/2/Choice/1 < UNTRANSLATED
-> CONTEXT: Map206/events/20/pages/0/1/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Map566/events/11/pages/0/2/Choice/1
+> CONTEXT: Map206/events/20/pages/0/1/Choice/1
+Read the instructions
 > END STRING
 
 > BEGIN STRING
 離れる
-> CONTEXT: Map566/events/11/pages/0/2/Choice/2 < UNTRANSLATED
-> CONTEXT: Map206/events/20/pages/0/1/Choice/2 < UNTRANSLATED
-
+> CONTEXT: Map566/events/11/pages/0/2/Choice/2
+> CONTEXT: Map206/events/20/pages/0/1/Choice/2
+Leave
 > END STRING
 
 > BEGIN STRING
 これはこの夢世界に住まう夢魔たち、
 その名や姿形、持ち合わせる能力を記した図鑑である。
-> CONTEXT: Map566/events/11/pages/0/7/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/20/pages/0/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/11/pages/0/7/Dialogue
+> CONTEXT: Map206/events/20/pages/0/6/Dialogue
+This is a picture book listing the names, 
+appearances, and abilities of the succubi 
+that inhabit this dream world.
 > END STRING
 
 > BEGIN STRING
 しかし夢魔とは本来我々、現の者たちには
 触れ得ざる存在。
-> CONTEXT: Map566/events/11/pages/0/9/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/20/pages/0/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/11/pages/0/9/Dialogue
+> CONTEXT: Map206/events/20/pages/0/8/Dialogue
+However, succubi are essentially beings that we, 
+the modern people, cannot touch.
 > END STRING
 
 > BEGIN STRING
 ゆえにこの図鑑も最初から
 夢魔たちの全てを表すことはない。
-> CONTEXT: Map566/events/11/pages/0/11/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/20/pages/0/10/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/11/pages/0/11/Dialogue
+> CONTEXT: Map206/events/20/pages/0/10/Dialogue
+Therefore, this encyclopedia will not 
+initially show all of the succubi.
 > END STRING
 
 > BEGIN STRING
 この図鑑を持つ者が夢世界を旅し、
 新たなる地、新たなる夢魔と出会い、
 彼女らと契りを結ぶことで
-> CONTEXT: Map566/events/11/pages/0/13/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/20/pages/0/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/11/pages/0/13/Dialogue
+> CONTEXT: Map206/events/20/pages/0/12/Dialogue
+Those who possess this book can travel to the dream world,
+encounter new lands and new succubi,
+and make contracts with them.
 > END STRING
 
 > BEGIN STRING
 彼女たちの力、その秘めたるところまでを映し出すだろう。
 
 　　　　　　　著：　L・M
-> CONTEXT: Map566/events/11/pages/0/16/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/20/pages/0/15/Dialogue < UNTRANSLATED
+> CONTEXT: Map566/events/11/pages/0/16/Dialogue
+> CONTEXT: Map206/events/20/pages/0/15/Dialogue
+It will reveal their power, even hidden aspects.
 
+　　　　　　　Author: L.M.
 > END STRING
 
 > BEGIN STRING
 ※
 契約済みの夢魔であれば左右キーで情報を閲覧できます
-> CONTEXT: Map566/events/11/pages/0/19/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/20/pages/0/18/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/11/pages/0/19/Dialogue
+> CONTEXT: Map206/events/20/pages/0/18/Dialogue
+*
+If you have made a contract with a succubus, 
+view information by pressing the left and right keys.
 > END STRING
 
 > BEGIN STRING
 またその場合の各ページにてA、Sキーを操作することで
 情報ページのスクロールが可能です
-> CONTEXT: Map566/events/11/pages/0/21/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/20/pages/0/20/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/11/pages/0/21/Dialogue
+> CONTEXT: Map206/events/20/pages/0/20/Dialogue
+In this case, you can scroll through the 
+information pages by using the A and S keys on each page.
 > END STRING
 
 > BEGIN STRING
 ドロップアイテムは表示されていても、
 夢魔のレベルによっては全く落とさない可能性もあります。
-> CONTEXT: Map566/events/11/pages/0/23/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/20/pages/0/22/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/11/pages/0/23/Dialogue
+> CONTEXT: Map206/events/20/pages/0/22/Dialogue
+Depending on the level, the displayed 
+item drops may not drop at all.
 > END STRING
 
 > BEGIN STRING
 shiftキーを押すことで、夢魔の服を脱いだ状態を確認でき、
 決定キーを押すことで夢魔の姿だけを観察できます。
-> CONTEXT: Map566/events/11/pages/0/25/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/20/pages/0/24/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/11/pages/0/25/Dialogue
+> CONTEXT: Map206/events/20/pages/0/24/Dialogue
+By pressing shift, you can see the succubus without clothes,
+and by pressing confirm you can just observe the appearance.
 > END STRING
 
 > BEGIN STRING
 また、一部のユニークキャラはDキーを押すことで
 特別な姿の状態を確認できます。
-> CONTEXT: Map566/events/11/pages/0/27/Dialogue < UNTRANSLATED
-> CONTEXT: Map206/events/20/pages/0/26/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/11/pages/0/27/Dialogue
+> CONTEXT: Map206/events/20/pages/0/26/Dialogue
+Also, for some unique characters, 
+press D to see their special appearance.
 > END STRING
 
 > BEGIN STRING
@@ -214,20 +228,20 @@ Let's leave her alone...
 
 > BEGIN STRING
 図鑑テスト
-> CONTEXT: Map566/events/18/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/18/pages/0/0/Dialogue
+Picture book test
 > END STRING
 
 > BEGIN STRING
 図鑑進行レベル変更
-> CONTEXT: Map566/events/18/pages/0/2/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Map566/events/18/pages/0/2/Choice/0
+Change book level
 > END STRING
 
 > BEGIN STRING
 全夢魔図鑑レベルリセット
-> CONTEXT: Map566/events/18/pages/0/2/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Map566/events/18/pages/0/2/Choice/1
+Reset all encyclopedia levels
 > END STRING
 
 > BEGIN STRING
