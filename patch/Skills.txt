@@ -346,7 +346,7 @@ Interrupt
 > BEGIN STRING
 [レジスト] 対象のホールド妨害を試みる [最遅行動]
 > CONTEXT: Skills/28/description/
-[Resist]Attempt to disrupt the target's hold [Act last]
+[Resist]Attempt to disrupt the target's hold [Delay]
 > END STRING
 
 > BEGIN STRING
@@ -936,13 +936,13 @@ Caress/80
 > BEGIN STRING
 ラッシュ
 > CONTEXT: Skills/87/name/ < UNTRANSLATED
-
+Rush
 > END STRING
 
 > BEGIN STRING
 キッス・バスト・ヒップ・クロッチを連続で使う。
 > CONTEXT: Skills/87/description/ < UNTRANSLATED
-
+Use kiss, bust, hips and crotch in succession.
 > END STRING
 
 > BEGIN STRING
@@ -972,25 +972,25 @@ Double pafu/100
 > BEGIN STRING
 テンタクル/75
 > CONTEXT: Skills/92/name/ < UNTRANSLATED
-
+Tentacle/75
 > END STRING
 
 > BEGIN STRING
 触手で攻める。[低確率：高揚・沈着]
 > CONTEXT: Skills/92/description/ < UNTRANSLATED
-
+Attack with tentacles. [Low: Uplift/Calm]
 > END STRING
 
 > BEGIN STRING
 パフスラップ/100
 > CONTEXT: Skills/100/name/ < UNTRANSLATED
-
+Puff Slap/100
 > END STRING
 
 > BEGIN STRING
 [胸→口] 胸で相手の顔をはたく。[自分着衣↓][追加：苦痛スタン][精力/魅力]
 > CONTEXT: Skills/100/description/ < UNTRANSLATED
-
+[Chest→Mouth] Slap opponent's face with chest. [Clothes↓][Pain Stun][Energy/Charm]
 > END STRING
 
 > BEGIN STRING
@@ -1026,7 +1026,7 @@ Fast Raid/100
 > BEGIN STRING
 [手/口→体] 素早く攻める。[先制行動][器用さ]
 > CONTEXT: Skills/103/description/
-[Hands/Mouth→Body] Attack quickly. [Fast][Dexterity]
+[Hand/Mouth→Body] Attack quickly. [Fast][Dexterity]
 > END STRING
 
 > BEGIN STRING
@@ -1038,19 +1038,19 @@ Trick Raid/30
 > BEGIN STRING
 [手/口→体] 不意打ちする。チェック済みの相手へのSS率が高い。[器用さ]
 > CONTEXT: Skills/104/description/
-[Hands/Mouth→Body] High SS rate against checked opponents. [Dexterity]
+[Hands/Mouth→Body] Surprise attack. High SS rate on checked opponents. [Dexterity]
 > END STRING
 
 > BEGIN STRING
 セカンドレイド/30
 > CONTEXT: Skills/105/name/ < UNTRANSLATED
-
+Second Raid/30
 > END STRING
 
 > BEGIN STRING
 [手/口→体] 先に攻めさせ、反撃する。チェック済みの相手へのSS率が高い。[最遅行動][器用さ]
 > CONTEXT: Skills/105/description/ < UNTRANSLATED
-
+[Hands/Mouth→Body] Counterattack. High SS rate on checked opponents. [Slow][Dexterity]
 > END STRING
 
 > BEGIN STRING
@@ -1068,13 +1068,13 @@ Devourer/100
 > BEGIN STRING
 シャドウレイド/30
 > CONTEXT: Skills/107/name/ < UNTRANSLATED
-
+Shadow Raid/30
 > END STRING
 
 > BEGIN STRING
 [手→体] 味方を囮に不意打ちする。味方が狙われている間、SS率が高い。[器用さ]
 > CONTEXT: Skills/107/description/ < UNTRANSLATED
-
+[Hands→Body] Ally acts as decoy. When ally is targeted, high SS rate. [Dexterity]
 > END STRING
 
 > BEGIN STRING
@@ -1089,25 +1089,25 @@ Ring of Love
 > BEGIN STRING
 [レジスト] [口→♀] アソコを吸う。[条件：双方裸]
 > CONTEXT: Skills/108/description/
-[Resist][Mouth→♀] Suck the genitals. [Condition: Both naked]
+[Resist][Mouth→♀] Suck genitals. [Req: Both naked]
 > END STRING
 
 > BEGIN STRING
 [レジスト] [♀→口] 相手の顔に騎乗する。[条件：双方裸]
 > CONTEXT: Skills/109/description/
-[Resist][♀→Mouth] Ride on the opponents's face. [Condition: both naked]
+[Resist][♀→Mouth] Ride on opponent's face. [Req: Both naked]
 > END STRING
 
 > BEGIN STRING
 自慰したくてもできない
 > CONTEXT: Skills/110/name/ < UNTRANSLATED
-
+Can't Masturbate
 > END STRING
 
 > BEGIN STRING
 自慰をしたいのに手を拘束されて悶々
 > CONTEXT: Skills/110/description/ < UNTRANSLATED
-
+Want to masturbate, but hands are tied and in agony
 > END STRING
 
 > BEGIN STRING
@@ -1125,13 +1125,13 @@ Pleasure/40
 > BEGIN STRING
 フィルス・ムード
 > CONTEXT: Skills/112/name/ < UNTRANSLATED
-
+Filthy Mood
 > END STRING
 
 > BEGIN STRING
 全員を暴走状態にする。
 > CONTEXT: Skills/112/description/ < UNTRANSLATED
-
+Put everyone into a state of berserk.
 > END STRING
 
 > BEGIN STRING
@@ -1158,7 +1158,7 @@ Deep Kiss/90
 > BEGIN STRING
 [口→口] 舌を絡めあうキッス。 [ムードアップ・低確率：恍惚][精力/魅力]
 > CONTEXT: Skills/115/description/
-[Mouth→Mouth] Tongues entwined. [Mood up, low chance: Ecstasy][Energy/Charm]
+[Mouth→Mouth] Kiss with tongues entwined. [Mood up, low: Ecstasy][Energy/charm]
 > END STRING
 
 > BEGIN STRING
@@ -1170,25 +1170,25 @@ Hard Kiss/100
 > BEGIN STRING
 [口→口] 舌を絡めあう激しいキッス。 [ムードアップ・低確率：恍惚][条件：キッス(LvMAX)][精力/魅力]
 > CONTEXT: Skills/116/description/
-[Mouth→Mouth] Passionate, tongues entwined. [Mood Up, Ecstasy][Req: Kiss (LvMAX)][Energy/Charm]
+[Mouth→Mouth] Passionate kiss with tongues entwined. [Mood Up, Low: Ecstasy][Req: Kiss (LvMAX)][Energy/Charm]
 > END STRING
 
 > BEGIN STRING
 [口→♀] ♀を吸う。[必中：潤滑アップ][精力]
 > CONTEXT: Skills/118/description/
-[Mouth→♀] Suck ♀. [Increase lubrication][Energy]
+[Mouth→♀] Suck ♀. [Guaranteed: Increase lubrication][Energy]
 > END STRING
 
 > BEGIN STRING
 いたずら/10
 > CONTEXT: Skills/119/name/ < UNTRANSLATED
-
+Prank/10
 > END STRING
 
 > BEGIN STRING
 味方を愛撫する。必ずSSが発生する。
 > CONTEXT: Skills/119/description/ < UNTRANSLATED
-
+Caress an ally. SS will always occur.
 > END STRING
 
 > BEGIN STRING
@@ -2352,7 +2352,7 @@ Trim Stalks
 トリムヴァイン
 > CONTEXT: Skills/217/name/
 > CONTEXT: Armors/228/name/
-Trim vines
+Trim Vines
 > END STRING
 
 > BEGIN STRING
@@ -2445,7 +2445,7 @@ Frisgilde//999
 > BEGIN STRING
 [魔法][奥義] 味方一人を限界突破させる。[先制行動]
 > CONTEXT: Skills/226/description/
-[Magic][Special] Push one ally beyond limits. [Fast]
+[Magic][Special] Push 1 ally beyond limits. [Fast]
 > END STRING
 
 > BEGIN STRING
@@ -2739,7 +2739,7 @@ Pretty Wink//4
 > BEGIN STRING
 [目→視覚][CT:4] ムードを上げつつ、相手1人をドキドキさせる。
 > CONTEXT: Skills/267/description/
-[Eyes→Sight][CT: 4] Raises the mood and makes one opponent excited.
+[Eyes→Sight][CT: 4] Raises the mood and makes 1 opponent excited.
 > END STRING
 
 > BEGIN STRING
@@ -4053,7 +4053,7 @@ Sweet whisper
 > BEGIN STRING
 [口→耳] 相手1人の感度を上げ、ムードアップさせる。
 > CONTEXT: Skills/418/description/
-[Mouth→Ear] Increase the mood and sensitivity of 1 opponent.
+[Mouth→Ear] Increase the sensitivity of 1 opponent and mood.
 > END STRING
 
 > BEGIN STRING
@@ -4066,7 +4066,7 @@ Unlucky roar
 > BEGIN STRING
 [口→耳] 相手全員を不幸状態にする。（敵用）
 > CONTEXT: Skills/419/description/
-[Mouth→Ear]Makes all opponents unhappy. (for enemy)
+[Mouth→Ear] Makes all opponents unhappy. (for enemy)
 > END STRING
 
 > BEGIN STRING
@@ -5231,49 +5231,49 @@ Covers the area with snow, increasing charm and spirit by 25%.
 > BEGIN STRING
 ディープマウント
 > CONTEXT: Skills/581/name/ < UNTRANSLATED
-
+Deep Mount
 > END STRING
 
 > BEGIN STRING
 [レジスト] キス状態から腕を押さえつける
 > CONTEXT: Skills/581/description/ < UNTRANSLATED
-
+[Resist] Hold down arms while kissing
 > END STRING
 
 > BEGIN STRING
 ヘブンリーマウント
 > CONTEXT: Skills/582/name/ < UNTRANSLATED
-
+Heavenly Mount
 > END STRING
 
 > BEGIN STRING
 [レジスト] ぱふぱふ状態から腕を押さえつける
 > CONTEXT: Skills/582/description/ < UNTRANSLATED
-
+[Resist] Hold down arms while in Puff-Puff state
 > END STRING
 
 > BEGIN STRING
 エキサイトマウント
 > CONTEXT: Skills/583/name/ < UNTRANSLATED
-
+Excite Mount
 > END STRING
 
 > BEGIN STRING
 [レジスト] 顔面騎乗状態から腕を押さえつける
 > CONTEXT: Skills/583/description/ < UNTRANSLATED
-
+[Resist] Hold down arms while sitting on the face
 > END STRING
 
 > BEGIN STRING
 インモラルマウント
 > CONTEXT: Skills/584/name/ < UNTRANSLATED
-
+Immoral Mount
 > END STRING
 
 > BEGIN STRING
 [レジスト] 顔面尻騎乗状態から腕を押さえつける
 > CONTEXT: Skills/584/description/ < UNTRANSLATED
-
+[Resist] Hold down arms while riding on the face
 > END STRING
 
 > BEGIN STRING
@@ -5352,7 +5352,7 @@ Ivy rose
 > BEGIN STRING
 [触手→体] 敵1人を低確率で拘束状態にする。[器用さ]
 > CONTEXT: Skills/591/description/
-[Tentacle→Body] Low chance of restraining one enemy. [Dexterity]
+[Tentacle→Body] Low chance of restraining 1 enemy. [Dexterity]
 > END STRING
 
 > BEGIN STRING
@@ -6886,7 +6886,7 @@ Scratch・必殺/100
 > BEGIN STRING
 ライディング/95
 > CONTEXT: Skills/767/name/ < UNTRANSLATED
-
+Ride/95
 > END STRING
 
 > BEGIN STRING
@@ -6927,7 +6927,7 @@ Energy Drain/100
 > CONTEXT: Skills/779/description/
 > CONTEXT: Skills/781/description/
 > CONTEXT: Skills/1448/description/
-[×××] Shake your hips. [Insert (LvMAX)] [VP Drain]
+[×××] Shake your hips. [Insert (LvMAX)][VP Drain]
 > END STRING
 
 > BEGIN STRING
@@ -10305,7 +10305,7 @@ Soul Drain/100
 > BEGIN STRING
 [×××] 魂を吸い上げる。[インサート(LvMAX)][全VPドレイン][精力]
 > CONTEXT: Skills/1276/description/
-[XXX] Absorb soul. [Insert (LvMAX)][All VP drain] [Energy]
+[XXX] Absorb soul. [Insert (LvMAX)][All VP drain][Energy]
 > END STRING
 
 > BEGIN STRING
@@ -10670,7 +10670,7 @@ Blowkiss
 > BEGIN STRING
 [口→視覚] 投げキッスで敵１人を誘惑する。[魅力]
 > CONTEXT: Skills/1315/description/
-[Mouth→Sight] Seduce one enemy with a blown kiss. [Charm]
+[Mouth→Sight] Seduce 1 enemy with a blown kiss. [Charm]
 > END STRING
 
 > BEGIN STRING
@@ -10682,13 +10682,13 @@ Glamorous・Bust
 > BEGIN STRING
 [胸→視覚] 胸を強調し、敵１人を誘惑する。[魅力]
 > CONTEXT: Skills/1316/description/
-[Chest→Sight] Emphasize the chest and seduces one enemy. [Charm]
+[Chest→Sight] Emphasize the chest and seduces 1 enemy. [Charm]
 > END STRING
 
 > BEGIN STRING
 [♀→視覚] アソコを開き、敵１人を誘惑する。[魅力]
 > CONTEXT: Skills/1317/description/
-[♀→Sight] Open your vagina and seduce one enemy. [Charm]
+[♀→Sight] Open your vagina and seduce 1 enemy. [Charm]
 > END STRING
 
 > BEGIN STRING
@@ -10700,7 +10700,7 @@ Queen's Heal
 > BEGIN STRING
 [脚→視覚] 脚で敵１人を誘惑する。[魅力]
 > CONTEXT: Skills/1318/description/
-[Leg→Sight] Use your legs to lure one enemy. [Charm]
+[Leg→Sight] Use your legs to lure 1 enemy. [Charm]
 > END STRING
 
 > BEGIN STRING
@@ -11073,7 +11073,7 @@ Skill Steal
 > BEGIN STRING
 敵全員の基本スキルを１つ忘れさせる。
 > CONTEXT: Skills/1360/description/
-Makes all enemies forget one basic skill.
+Makes all enemies forget 1 basic skill.
 > END STRING
 
 > BEGIN STRING
@@ -12010,13 +12010,13 @@ Deep Charm
 ヘブンリーチャーム
 > CONTEXT: Skills/1453/name/ < UNTRANSLATED
 > CONTEXT: Skills/1454/name/ < UNTRANSLATED
-
+Heavenly Charm
 > END STRING
 
 > BEGIN STRING
 [レジスト] 自分のアソコに相手のペニスを挿入させる。ぱふぱふから派生
 > CONTEXT: Skills/1453/description/ < UNTRANSLATED
-
+[Resist] Insert opponent's penis into your vagina. Derived from Puff-Puff.
 > END STRING
 
 > BEGIN STRING
@@ -12648,7 +12648,7 @@ Ethereal: Hide
 > BEGIN STRING
 [魔法][控え専用] 味方１人の弱化効果全てを解除する。
 > CONTEXT: Skills/1529/description/
-[Magic][Backline] Removes all harmful effects from one ally.
+[Magic][Backline] Removes all harmful effects from 1 ally.
 > END STRING
 
 > BEGIN STRING
@@ -13027,7 +13027,7 @@ Seduction・Blowjob
 > BEGIN STRING
 誘惑・キッス
 > CONTEXT: Skills/1595/name/
-Seduction・Kiss
+Temptation・Kiss
 > END STRING
 
 > BEGIN STRING
@@ -14851,7 +14851,7 @@ Alpha Loosen/0/13
 > BEGIN STRING
 [魔法][CT:13] 敵１人を高確率で意識散漫にさせる。[精神力][耐性半減]
 > CONTEXT: Skills/2113/description/
-[Magic][CT:13] High chance of making one enemy unconscious. [Spirit][Half Resistance]
+[Magic][CT:13] High chance of making 1 enemy unconscious. [Spirit][Half Resistance]
 > END STRING
 
 > BEGIN STRING
@@ -14875,7 +14875,7 @@ Alpha Sleep/0/13
 > BEGIN STRING
 [魔法][CT:13] 敵１人を高確率で眠らせる。[精神力][耐性半減]
 > CONTEXT: Skills/2115/description/
-[Magic][CT:13] High chance of putting one enemy to sleep. [Spirit][Half Resistance]
+[Magic][CT:13] High chance of putting 1 enemy to sleep. [Spirit][Half Resistance]
 > END STRING
 
 > BEGIN STRING
@@ -17195,7 +17195,7 @@ Eminent Force
 > BEGIN STRING
 [魔法] 味方１人の全ての能力を強める。
 > CONTEXT: Skills/2595/description/
-[Magic] Strengthens all abilities of one ally.
+[Magic] Strengthens all abilities of 1 ally.
 > END STRING
 
 > BEGIN STRING
@@ -17207,7 +17207,7 @@ Shard Force
 > BEGIN STRING
 [魔法] 敵１人の全ての能力を弱める。
 > CONTEXT: Skills/2597/description/
-[Magic] Weakens all abilities of one opponent.
+[Magic] Weakens all abilities of 1 opponent.
 > END STRING
 
 > BEGIN STRING
