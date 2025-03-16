@@ -104,16 +104,16 @@ if __name__ == "__main__":
     current_dir = Path.cwd()
     translations = {}
 
-    source_files = [current_dir / "mod_scripts.txt"]
+    #source_files = [current_dir / "mod_scripts.txt"]
     #source_files = [current_dir / "patch" / "Armors.txt"]
-    #source_files += [current_dir / "patch" / "Skills.txt"]
+    source_files = [current_dir / "patch" / "Skills.txt"]
     #source_files += [current_dir / "patch" / "Items.txt"]
-    #dest_files = [current_dir / "mod_scripts.txt"]
-    #dest_files = [current_dir / "talk.txt"]
-    dest_files = []
-    for file in (current_dir / "patch").rglob("*.txt"):
-        if not "Unused" in str(file) and not "States" in str(file):
-            dest_files.append(file)
+    dest_files = [current_dir / "mod_scripts.txt"]
+    dest_files += [current_dir / "talk.txt"]
+    #dest_files = []
+    #for file in (current_dir / "patch").rglob("*.txt"):
+    #    if not "Unused" in str(file) and not "States" in str(file):
+    #        dest_files.append(file)
 
     print("===Reading current translations===")
     for translations_file in source_files:
