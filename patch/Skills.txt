@@ -5394,7 +5394,7 @@ Calm other allies. Can be used without participating in battle.
 
 > BEGIN STRING
 チェインカレス/25/17
-> CONTEXT: Skills/596/name/ < UNTRANSLATED
+> CONTEXT: Skills/596/name/
 Chain Caress/25/17
 > END STRING
 
@@ -9490,34 +9490,34 @@ Gluttony
 
 > BEGIN STRING
 スロウス
-> CONTEXT: Skills/1183/name/ < UNTRANSLATED
+> CONTEXT: Skills/1183/name/
 Sloth
 > END STRING
 
 > BEGIN STRING
 プライド
-> CONTEXT: Skills/1184/name/ < UNTRANSLATED
-> CONTEXT: Skills/1187/name/ < UNTRANSLATED
+> CONTEXT: Skills/1184/name/
+> CONTEXT: Skills/1187/name/
 Pride
 > END STRING
 
 > BEGIN STRING
 グリード
-> CONTEXT: Skills/1185/name/ < UNTRANSLATED
+> CONTEXT: Skills/1185/name/
 Greed
 > END STRING
 
 > BEGIN STRING
 ラース
-> CONTEXT: Skills/1186/name/ < UNTRANSLATED
+> CONTEXT: Skills/1186/name/
 Lars
 > END STRING
 
 > BEGIN STRING
 ドレインイート/30
-> CONTEXT: Skills/1188/name/ < UNTRANSLATED
-> CONTEXT: Skills/1189/name/ < UNTRANSLATED
-> CONTEXT: Skills/1190/name/ < UNTRANSLATED
+> CONTEXT: Skills/1188/name/
+> CONTEXT: Skills/1189/name/
+> CONTEXT: Skills/1190/name/
 Drain Eat/30
 > END STRING
 
@@ -9537,7 +9537,7 @@ Drain Eat/30
 
 > BEGIN STRING
 狐火
-> CONTEXT: Skills/1191/name/ < UNTRANSLATED
+> CONTEXT: Skills/1191/name/
 Foxfire
 > END STRING
 
@@ -9549,7 +9549,7 @@ Foxfire
 
 > BEGIN STRING
 鬼火
-> CONTEXT: Skills/1192/name/ < UNTRANSLATED
+> CONTEXT: Skills/1192/name/
 Will-o'-the-wisp
 > END STRING
 
@@ -9561,7 +9561,7 @@ Will-o'-the-wisp
 
 > BEGIN STRING
 色欲のキス/80
-> CONTEXT: Skills/1195/name/ < UNTRANSLATED
+> CONTEXT: Skills/1195/name/
 Lustful Kiss/80
 > END STRING
 
@@ -9597,7 +9597,7 @@ Receiving energy from your partner's penis
 
 > BEGIN STRING
 嫉妬の炎
-> CONTEXT: Skills/1198/name/ < UNTRANSLATED
+> CONTEXT: Skills/1198/name/
 Flames of Jealousy
 > END STRING
 
@@ -12317,25 +12317,25 @@ Greatly recovers EP.
 > BEGIN STRING
 ヘルスブレス
 > CONTEXT: Skills/1495/name/ < UNTRANSLATED
-
+Health Breath
 > END STRING
 
 > BEGIN STRING
 ＥＰを超回復する。
 > CONTEXT: Skills/1495/description/ < UNTRANSLATED
-
+Super recovers EP.
 > END STRING
 
 > BEGIN STRING
 ピースフルブレス
 > CONTEXT: Skills/1496/name/ < UNTRANSLATED
-
+Peaceful Breath
 > END STRING
 
 > BEGIN STRING
 ＥＰを超大回復する。
 > CONTEXT: Skills/1496/description/ < UNTRANSLATED
-
+Recover a huge amount of EP.
 > END STRING
 
 > BEGIN STRING
@@ -12365,13 +12365,13 @@ Chance of inflicting fear on opponents. [Charm]
 > BEGIN STRING
 恐怖の魔眼
 > CONTEXT: Skills/1500/name/ < UNTRANSLATED
-
+Demonic Eye of Terror
 > END STRING
 
 > BEGIN STRING
 相手を高確率で畏怖させる。[魅力]
 > CONTEXT: Skills/1500/description/ < UNTRANSLATED
-
+High chance of intimidating the opponent. [Charm]
 > END STRING
 
 > BEGIN STRING
@@ -12653,44 +12653,44 @@ Ethereal: Hide
 
 > BEGIN STRING
 イーザカール・レイン
-> CONTEXT: Skills/1530/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1530/name/
+Iiza Curl Rain
 > END STRING
 
 > BEGIN STRING
 [魔法][控え専用] 味方全員の弱化効果全てを解除する。
-> CONTEXT: Skills/1530/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1530/description/
+[Magic][Reserve] Remove all harmful effects from all allies.
 > END STRING
 
 > BEGIN STRING
 疾風のざわめき/150/6
-> CONTEXT: Skills/1533/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1533/name/
+Rumbling Winds/150/6
 > END STRING
 
 > BEGIN STRING
 [魔法][CT:6] 敵全員を風で攻める。時々服を脱がす。[精神力]
-> CONTEXT: Skills/1533/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1533/description/
+[Magic][CT:6] Attack all enemies with wind. Sometimes strips. [Spirit]
 > END STRING
 
 > BEGIN STRING
 快楽の嵐/250/999
-> CONTEXT: Skills/1534/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1534/name/
+Pleasure Storm/250/999
 > END STRING
 
 > BEGIN STRING
 [魔法][奥義] 敵全員を風で攻める。時々服を脱がす。[精神力]
-> CONTEXT: Skills/1534/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1534/description/
+[Magic][Secret] Attack all enemies with wind. Sometimes strips. [Spirit]
 > END STRING
 
 > BEGIN STRING
 混沌のいたずら/100
-> CONTEXT: Skills/1535/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1535/name/
+Chaos Mischief/100
 > END STRING
 
 > BEGIN STRING
@@ -12701,8 +12701,8 @@ Ethereal: Hide
 
 > BEGIN STRING
 混沌の激情/150/6
-> CONTEXT: Skills/1536/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1536/name/
+Chaotic Rage/150/6
 > END STRING
 
 > BEGIN STRING
@@ -12713,93 +12713,93 @@ Ethereal: Hide
 
 > BEGIN STRING
 混沌の絶頂/250/999
-> CONTEXT: Skills/1537/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1537/name/
+Chaos Climax/250/999
 > END STRING
 
 > BEGIN STRING
 [魔法][奥義] 敵全員に触手から液体をぶっかける。[精神力]
-> CONTEXT: Skills/1537/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1537/description/
+[Magic][Secret] Splash liquid from tentacles at all enemies. [Spirit]
 > END STRING
 
 > BEGIN STRING
 エンハンスサークル
-> CONTEXT: Skills/1541/name/ < UNTRANSLATED
+> CONTEXT: Skills/1541/name/
 Enhance Circle
 > END STRING
 
 > BEGIN STRING
 [手→] ３ターンの間、ブルム系強化魔法の効果と消費VPが増加する。
-> CONTEXT: Skills/1541/description/ < UNTRANSLATED
-> CONTEXT: Skills/2238/description/ < UNTRANSLATED
+> CONTEXT: Skills/1541/description/
+> CONTEXT: Skills/2238/description/
 [Hand→] Increase effect and cost of Bloom-type magic for 3 turns.
 > END STRING
 
 > BEGIN STRING
 デモンサークル
-> CONTEXT: Skills/1542/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1542/name/
+Demon Circle
 > END STRING
 
 > BEGIN STRING
 [手→] ３ターンの間、イーザ系弱体魔法の効果と消費VPが増加する。
-> CONTEXT: Skills/1542/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1542/description/
+[Hand→] For 3 turns, effect and cost of Iiza-type magic increased.
 > END STRING
 
 > BEGIN STRING
 悪魔の契約/100/999
-> CONTEXT: Skills/1544/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1544/name/
+Devil's Contract/100/999
 > END STRING
 
 > BEGIN STRING
 [口→口][奥義] あなたから口づけでVPを吸収し、能力を超強化する。[追加：恍惚]
-> CONTEXT: Skills/1544/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1544/description/
+[Mouth→Mouth][Secret] Absorb VP with a kiss and super strengthen abilities. [Ecstasy]
 > END STRING
 
 > BEGIN STRING
 混沌の坩堝/0/999
-> CONTEXT: Skills/1545/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1545/name/
+Crucible of Chaos/0/999
 > END STRING
 
 > BEGIN STRING
 [魔法][奥義] 最大５連続で状態異常魔法を唱える。[精神力]
-> CONTEXT: Skills/1545/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1545/description/
+[Magic][Secret] Cast up to 5 consecutive status ailment spells. [Spirit]
 > END STRING
 
 > BEGIN STRING
 増幅の淫筆
-> CONTEXT: Skills/1547/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1547/name/
+Amplified Lewdness
 > END STRING
 
 > BEGIN STRING
 [魔法] 自身に、欲情すると状態異常付与率が上がる淫紋を描く。[欲情]
-> CONTEXT: Skills/1547/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1547/description/
+[Magic]Draw lustful mark on self, increasing status ailment chance when aroused.[Lust]
 > END STRING
 
 > BEGIN STRING
 カオスエンチャント
-> CONTEXT: Skills/1550/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1550/name/
+Chaos Enchant
 > END STRING
 
 > BEGIN STRING
 [魔法] 味方１人に混沌の力を付与する。全能力を自身の精神力に応じて上昇させるが、VPを減少させる。
-> CONTEXT: Skills/1550/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/1550/description/
+[Magic] Grant 1 ally power of chaos. Increase abilities based on spirit, reduce VP.
 > END STRING
 
 > BEGIN STRING
 ファイアエンチャント
-> CONTEXT: Skills/1551/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1551/name/
+Fire Enchant
 > END STRING
 
 > BEGIN STRING
@@ -12810,8 +12810,8 @@ Enhance Circle
 
 > BEGIN STRING
 アイスエンチャント
-> CONTEXT: Skills/1552/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1552/name/
+Ice Enchant
 > END STRING
 
 > BEGIN STRING
@@ -12822,8 +12822,8 @@ Enhance Circle
 
 > BEGIN STRING
 ウィンドエンチャント
-> CONTEXT: Skills/1553/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1553/name/
+Wind Enchant
 > END STRING
 
 > BEGIN STRING
@@ -12834,8 +12834,8 @@ Enhance Circle
 
 > BEGIN STRING
 アースエンチャント
-> CONTEXT: Skills/1554/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1554/name/
+Earth Enchant
 > END STRING
 
 > BEGIN STRING
@@ -12846,8 +12846,8 @@ Enhance Circle
 
 > BEGIN STRING
 ライトエンチャント
-> CONTEXT: Skills/1555/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1555/name/
+Light Enchant
 > END STRING
 
 > BEGIN STRING
@@ -12858,8 +12858,8 @@ Enhance Circle
 
 > BEGIN STRING
 ダークエンチャント
-> CONTEXT: Skills/1556/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/1556/name/
+Dark Enchant
 > END STRING
 
 > BEGIN STRING
@@ -12870,55 +12870,55 @@ Enhance Circle
 
 > BEGIN STRING
 スクリプチャー/0/999
-> CONTEXT: Skills/1558/name/ < UNTRANSLATED
+> CONTEXT: Skills/1558/name/
 Scripture/0/999
 > END STRING
 
 > BEGIN STRING
 [手→][奥義] ５ターンの間様々な魔法を使えるようになる。
-> CONTEXT: Skills/1558/description/ < UNTRANSLATED
+> CONTEXT: Skills/1558/description/
 [Hand→][Secret] Allows use of various spells for 5 turns.
 > END STRING
 
 > BEGIN STRING
 アイスウォール//7
-> CONTEXT: Skills/1560/name/ < UNTRANSLATED
+> CONTEXT: Skills/1560/name/
 Ice Wall//7
 > END STRING
 
 > BEGIN STRING
 [魔法][CT:7] 味方単体を６ターンの間、快楽から護る氷の結界を作り出す。
-> CONTEXT: Skills/1560/description/ < UNTRANSLATED
+> CONTEXT: Skills/1560/description/
 [Magic][CT: 7] Create ice barrier to protect ally from pleasure for 6 turns.
 > END STRING
 
 > BEGIN STRING
 クリスタルウォール//7
-> CONTEXT: Skills/1561/name/ < UNTRANSLATED
+> CONTEXT: Skills/1561/name/
 Crystal Wall//7
 > END STRING
 
 > BEGIN STRING
 [魔法][CT:7] 味方全体を６ターンの間、快楽から護る氷の結界を作り出す。
-> CONTEXT: Skills/1561/description/ < UNTRANSLATED
+> CONTEXT: Skills/1561/description/
 [Magic][CT:7] Create ice barrier to protect all allies from pleasure for 6 turns.
 > END STRING
 
 > BEGIN STRING
 戒めの雷/200/999
-> CONTEXT: Skills/1563/name/ < UNTRANSLATED
+> CONTEXT: Skills/1563/name/
 Warning Lightning/200/999
 > END STRING
 
 > BEGIN STRING
 [魔法][奥義] 敵１人を雷で攻める。状態異常にさせているほど威力が増大する。[精神力]
-> CONTEXT: Skills/1563/description/ < UNTRANSLATED
+> CONTEXT: Skills/1563/description/
 [Magic][Secret] Attack with lightning. Power increases from status ailments. [Spirit]
 > END STRING
 
 > BEGIN STRING
 痺れるような快感/85/3
-> CONTEXT: Skills/1564/name/ < UNTRANSLATED
+> CONTEXT: Skills/1564/name/
 Tingly Pleasure/85/3
 > END STRING
 
@@ -12954,19 +12954,19 @@ Silent Rain/100
 
 > BEGIN STRING
 凍える氷風/90
-> CONTEXT: Skills/1572/name/ < UNTRANSLATED
+> CONTEXT: Skills/1572/name/
 Freezing Ice Wind/90
 > END STRING
 
 > BEGIN STRING
 [魔法] 背筋も凍る氷風で敵全体を撫でる。まれに相手をスタンさせる。[精神力]
-> CONTEXT: Skills/1572/description/ < UNTRANSLATED
+> CONTEXT: Skills/1572/description/
 [Magic] Spine-chilling icy wind. Occasionally stuns. [Spirit]
 > END STRING
 
 > BEGIN STRING
 草花のいたずら/80
-> CONTEXT: Skills/1575/name/ < UNTRANSLATED
+> CONTEXT: Skills/1575/name/
 Flower Mischief/80
 > END STRING
 
@@ -13116,31 +13116,31 @@ Hard Grind/160/6
 
 > BEGIN STRING
 [♀→♂][CT:6] 腰を強く振る。[精力]
-> CONTEXT: Skills/1621/description/ < UNTRANSLATED
+> CONTEXT: Skills/1621/description/
 [♀→♂][CT:6] Shake hips strongly. [Energy]
 > END STRING
 
 > BEGIN STRING
 スクリューグラインド/120/6
-> CONTEXT: Skills/1622/name/ < UNTRANSLATED
+> CONTEXT: Skills/1622/name/
 Screw Grind/120/6
 > END STRING
 
 > BEGIN STRING
 [♀→♂][CT:6] 腰を回しながら振る。[精力][SSしやすい]
-> CONTEXT: Skills/1622/description/ < UNTRANSLATED
+> CONTEXT: Skills/1622/description/
 [♀→♂][CT:6] Swing while rotating hips. [Energy][Easy to SS]
 > END STRING
 
 > BEGIN STRING
 ラッシュグラインド/120/6
-> CONTEXT: Skills/1623/name/ < UNTRANSLATED
+> CONTEXT: Skills/1623/name/
 Rush Grind/120/6
 > END STRING
 
 > BEGIN STRING
 [♀→♂][CT:6] 腰を連続で振る。[精力][追撃率アップ]
-> CONTEXT: Skills/1623/description/ < UNTRANSLATED
+> CONTEXT: Skills/1623/description/
 [♀→♂][CT:6] Swing hips continuously. [Energy][Follow-up rate]
 > END STRING
 
@@ -13158,37 +13158,37 @@ Melty Grind/160/6
 
 > BEGIN STRING
 アクロバティック/120/6
-> CONTEXT: Skills/1636/name/ < UNTRANSLATED
+> CONTEXT: Skills/1636/name/
 Acrobatic/120/6
 > END STRING
 
 > BEGIN STRING
 [♀＋視覚→♂] 全体に激しく揺れる乳を見せつけながら腰を振る。
-> CONTEXT: Skills/1636/description/ < UNTRANSLATED
+> CONTEXT: Skills/1636/description/
 [♀+Vision→♂] Shake hips, showing off wildly swaying breasts.
 > END STRING
 
 > BEGIN STRING
 ボルトクロッチ/90
-> CONTEXT: Skills/1637/name/ < UNTRANSLATED
+> CONTEXT: Skills/1637/name/
 Bolt Crotch/90
 > END STRING
 
 > BEGIN STRING
 [♀→♂] 電気を浴びせながらアソコをきつく締めあげる
-> CONTEXT: Skills/1637/description/ < UNTRANSLATED
+> CONTEXT: Skills/1637/description/
 [♀→♂] Electric shock and tight squeeze
 > END STRING
 
 > BEGIN STRING
 ボイスグラインド/50
-> CONTEXT: Skills/1638/name/ < UNTRANSLATED
+> CONTEXT: Skills/1638/name/
 Voice Grind/50
 > END STRING
 
 > BEGIN STRING
 [♀→♂] 相手を煽りながら腰を振る。[暴走付与]
-> CONTEXT: Skills/1638/description/ < UNTRANSLATED
+> CONTEXT: Skills/1638/description/
 [♀→♂] Swings hips while teasing. [Berserk]
 > END STRING
 
@@ -13206,7 +13206,7 @@ Hard Scratch/160/6
 
 > BEGIN STRING
 [♀→♀][CT:6] 局部を強く擦り合わせる。[精力]
-> CONTEXT: Skills/1641/description/ < UNTRANSLATED
+> CONTEXT: Skills/1641/description/
 [♀→♀][CT:6] Rub genitals together strongly. [Energy]
 > END STRING
 
@@ -13218,7 +13218,7 @@ Scissor Scratch/120/6
 
 > BEGIN STRING
 [♀→♀][CT:6] 局部を交差するように擦り合わせる。[精力][SSしやすい]
-> CONTEXT: Skills/1642/description/ < UNTRANSLATED
+> CONTEXT: Skills/1642/description/
 [♀→♀][CT:6] Rub genitals in a crosswise motion. [Energy][Easily SS]
 > END STRING
 
@@ -13230,7 +13230,7 @@ Rush Scratch/120/6
 
 > BEGIN STRING
 [♀→♀][CT:6] 局部を連続で擦り合わせる。[精力][追撃率アップ]
-> CONTEXT: Skills/1643/description/ < UNTRANSLATED
+> CONTEXT: Skills/1643/description/
 [♀→♀][CT:6] Continuously rub genitals. [Energy][Follow-up rate]
 > END STRING
 
@@ -13242,7 +13242,7 @@ Guard Scratch/120/6
 
 > BEGIN STRING
 [♀→♀][CT:6] 身を守りつつ局部を擦り合わせる。[ターン中ガード][精力]
-> CONTEXT: Skills/1644/description/ < UNTRANSLATED
+> CONTEXT: Skills/1644/description/
 [♀→♀][CT:6] Rub genitals while protecting yourself. [Guard][Energy]
 > END STRING
 
@@ -13254,7 +13254,7 @@ Turn Scratch/120/6
 
 > BEGIN STRING
 [♀→♀][CT:6] 局部を回すように擦り合わせる。精神力を１段階弱める。[精力]
-> CONTEXT: Skills/1645/description/ < UNTRANSLATED
+> CONTEXT: Skills/1645/description/
 [♀→♀][CT:6]Rub genitals in a circular motion. Lower spirit by 1 level.[Energy]
 > END STRING
 
@@ -13266,7 +13266,7 @@ Melty Scratch/160/6
 
 > BEGIN STRING
 [♀→♀][CT:6] 局部を優しく擦り合わせる。[ガード貫通][器用さ]
-> CONTEXT: Skills/1646/description/ < UNTRANSLATED
+> CONTEXT: Skills/1646/description/
 [♀→♀][CT:6] Gently rub genitals together. [Guard Pierce][Dexterity]
 > END STRING
 
@@ -13278,7 +13278,7 @@ Rapid Scratch/100/999
 
 > BEGIN STRING
 [♀→♀][奥義] 局部を超高速で何度も擦り合わせる。[精力]
-> CONTEXT: Skills/1651/description/ < UNTRANSLATED
+> CONTEXT: Skills/1651/description/
 [♀→♀][Secret] Rub genitals together at high speed repeatedly. [Energy]
 > END STRING
 
@@ -13290,19 +13290,19 @@ EX Scratch/150/999
 
 > BEGIN STRING
 [♀→♀][奥義] 局部を毒液を出しながら擦り合わせる。様々な状態異常にさせる。[精力]
-> CONTEXT: Skills/1652/description/ < UNTRANSLATED
+> CONTEXT: Skills/1652/description/
 [♀→♀][Secret] Rub genitals, release venom. Causes status ailments. [Energy]
 > END STRING
 
 > BEGIN STRING
 ボイススクラッチ/50/6
-> CONTEXT: Skills/1658/name/ < UNTRANSLATED
+> CONTEXT: Skills/1658/name/
 Voice Scratch/50/6
 > END STRING
 
 > BEGIN STRING
 [♀→♀] 相手を煽りながら擦り合わせる。[暴走付与]
-> CONTEXT: Skills/1658/description/ < UNTRANSLATED
+> CONTEXT: Skills/1658/description/
 [♀→♀] Rub twhile provoking. [Berserk]
 > END STRING
 
@@ -13350,13 +13350,13 @@ Rush Oral/120/6
 
 > BEGIN STRING
 メルティオーラル/160/6
-> CONTEXT: Skills/1664/name/ < UNTRANSLATED
+> CONTEXT: Skills/1664/name/
 Melty Oral/160/6
 > END STRING
 
 > BEGIN STRING
 [♂→口][CT:6] 口を甘く犯す。[追加：スタン][器用さ][ガード貫通]
-> CONTEXT: Skills/1664/description/ < UNTRANSLATED
+> CONTEXT: Skills/1664/description/
 [♂→Mouth][CT:6] Sweetly violate the mouth. [Stun][Dexterity][Guard Pierce]
 > END STRING
 
@@ -14014,61 +14014,61 @@ Melty Press/160/6
 
 > BEGIN STRING
 ヘヴンリーチョーク/50
-> CONTEXT: Skills/1846/name/ < UNTRANSLATED
+> CONTEXT: Skills/1846/name/
 Heavenly Choke/50
 > END STRING
 
 > BEGIN STRING
 [胸→口] 顔を胸で強く挟み、締め付ける。[中：スタン][精力/魅力]
-> CONTEXT: Skills/1846/description/ < UNTRANSLATED
+> CONTEXT: Skills/1846/description/
 [Chest→Mouth] Grip face tightly between breasts and squeeze.[Stun][Energy/Charm]
 > END STRING
 
 > BEGIN STRING
 ミルキースプラッシュ/30
-> CONTEXT: Skills/1847/name/ < UNTRANSLATED
+> CONTEXT: Skills/1847/name/
 Milky Splash/30
 > END STRING
 
 > BEGIN STRING
 [胸→口] 相手の顔に母乳を噴出させる。[中：恍惚/母乳中毒][魅力]
-> CONTEXT: Skills/1847/description/ < UNTRANSLATED
+> CONTEXT: Skills/1847/description/
 [Chest→Mouth] Squirt breast milk in the face. [Ecstasy/Addiction][Charm]
 > END STRING
 
 > BEGIN STRING
 ヘヴンリーボイス/50/6
-> CONTEXT: Skills/1848/name/ < UNTRANSLATED
+> CONTEXT: Skills/1848/name/
 Heavenly Voice/50/6
 > END STRING
 
 > BEGIN STRING
 [聴覚][CT:6] 胸で相手を押さえつけながら、ささやく。[中：暴走/誘惑][魅力]
-> CONTEXT: Skills/1848/description/ < UNTRANSLATED
+> CONTEXT: Skills/1848/description/
 [Hear][CT:6] Whisper while pressing against breasts. [Berserk/Seduction][Charm]
 > END STRING
 
 > BEGIN STRING
 訓教の抱擁/80/999
-> CONTEXT: Skills/1851/name/ < UNTRANSLATED
+> CONTEXT: Skills/1851/name/
 Discipline Embrace/80/999
 > END STRING
 
 > BEGIN STRING
 [胸→口][奥義] 胸を広げ、包み込むように抱きしめる。[開発度影響：特大][精力/魅力]
-> CONTEXT: Skills/1851/description/ < UNTRANSLATED
+> CONTEXT: Skills/1851/description/
 [Chest→Mouth][Secret] Spread breasts and embrace. [Extra Conditioning][Energy/Charm]
 > END STRING
 
 > BEGIN STRING
 昇天の抱擁/100/999
-> CONTEXT: Skills/1852/name/ < UNTRANSLATED
+> CONTEXT: Skills/1852/name/
 Ascension Embrace/100/999
 > END STRING
 
 > BEGIN STRING
 [胸→口][奥義] 相手を抱きしめ、豊かな胸で昇天に導く。[精力/魅力]
-> CONTEXT: Skills/1852/description/ < UNTRANSLATED
+> CONTEXT: Skills/1852/description/
 [Chest→Mouth][Secret] Embrace and lead to ecstasy with breasts. [Energy/Charm]
 > END STRING
 
@@ -14134,49 +14134,49 @@ Melty Back/160/6
 
 > BEGIN STRING
 ハードスクイーズ/160/6
-> CONTEXT: Skills/1881/name/ < UNTRANSLATED
+> CONTEXT: Skills/1881/name/
 Hard Squeeze/160/6
 > END STRING
 
 > BEGIN STRING
 [尻→♂][CT:6] 強く締める。[精力]
-> CONTEXT: Skills/1881/description/ < UNTRANSLATED
+> CONTEXT: Skills/1881/description/
 [Ass→♂][CT:6] Tighten tightly. [Energy]
 > END STRING
 
 > BEGIN STRING
 スクリュースクイーズ/120/6
-> CONTEXT: Skills/1882/name/ < UNTRANSLATED
+> CONTEXT: Skills/1882/name/
 Screw Squeeze/120/6
 > END STRING
 
 > BEGIN STRING
 [尻→♂][CT:6] 腰を回しながら締める。[精力][SSしやすい]
-> CONTEXT: Skills/1882/description/ < UNTRANSLATED
+> CONTEXT: Skills/1882/description/
 [Ass→♂][CT:6] Rotate hips while squeezing. [Energy][Easy to SS]
 > END STRING
 
 > BEGIN STRING
 ラッシュスクイーズ/120/6
-> CONTEXT: Skills/1883/name/ < UNTRANSLATED
+> CONTEXT: Skills/1883/name/
 Rush Squeeze/120/6
 > END STRING
 
 > BEGIN STRING
 [尻→♂][CT:6] 連続で締める。[精力][追撃率アップ]
-> CONTEXT: Skills/1883/description/ < UNTRANSLATED
+> CONTEXT: Skills/1883/description/
 [Ass→♂][CT:6] Continuous tightening. [Energy][Follow-up rate]
 > END STRING
 
 > BEGIN STRING
 メルティスクイーズ/160/6
-> CONTEXT: Skills/1884/name/ < UNTRANSLATED
+> CONTEXT: Skills/1884/name/
 Melty Squeeze/160/6
 > END STRING
 
 > BEGIN STRING
 [尻→♂][CT:6] 甘く締める。[器用さ][ガード貫通]
-> CONTEXT: Skills/1884/description/ < UNTRANSLATED
+> CONTEXT: Skills/1884/description/
 [Ass→♂][CT:6] Gently squeeze. [Dexterity][Guard Pierce]
 > END STRING
 
@@ -14200,7 +14200,7 @@ Hard Caress/160/6
 
 > BEGIN STRING
 スウィートブレス/20/6
-> CONTEXT: Skills/1902/name/ < UNTRANSLATED
+> CONTEXT: Skills/1902/name/
 Sweet Breath/20/6
 > END STRING
 
@@ -14212,13 +14212,13 @@ Sweet Breath/20/6
 
 > BEGIN STRING
 ラブ・ウィスパー/30
-> CONTEXT: Skills/1903/name/ < UNTRANSLATED
+> CONTEXT: Skills/1903/name/
 Love Whisper/30
 > END STRING
 
 > BEGIN STRING
 [声] 耳元でとろけるような甘い言葉を囁く。精神力を下げる。[低：恍惚][器用さ]
-> CONTEXT: Skills/1903/description/ < UNTRANSLATED
+> CONTEXT: Skills/1903/description/
 [Voice] Whisper sweet words. Lower spirit. [Low: Ecstasy][Dexterity]
 > END STRING
 
@@ -14712,14 +14712,14 @@ Night Festival/100/999
 
 > BEGIN STRING
 オメガ・チャーム/0/17
-> CONTEXT: Skills/2102/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/2102/name/
+Omega Charm/0/17
 > END STRING
 
 > BEGIN STRING
 [魔法][CT:17] 敵全員を高確率で恍惚させる。[精神力][耐性半減]
-> CONTEXT: Skills/2102/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2102/description/
+[Magic][CT:17]High chance to inflict ecstacy to all enemies.[Spirit][Half Resistance]
 > END STRING
 
 > BEGIN STRING
@@ -14857,13 +14857,13 @@ Night Festival/100/999
 > BEGIN STRING
 オメガ・ルーズ/0/17
 > CONTEXT: Skills/2114/name/ < UNTRANSLATED
-
+Omega Loose/0/17
 > END STRING
 
 > BEGIN STRING
 [魔法][CT:17] 敵全員を高確率で意識散漫にさせる。[精神力][耐性半減]
 > CONTEXT: Skills/2114/description/ < UNTRANSLATED
-
+[Magic][CT:17] High chance of making all enemies unconscious. [Spirit][Half Resistance]
 > END STRING
 
 > BEGIN STRING
@@ -15036,213 +15036,213 @@ This turn, provoke and protect from attacks. [Pleasure Down][Resist Up]
 
 > BEGIN STRING
 メタルタウント//15
-> CONTEXT: Skills/2141/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/2141/name/
+Metal Taunt//15
 > END STRING
 
 > BEGIN STRING
 [CT:15]このターン、挑発し攻撃から身を守る。[快感減衰][耐性アップ]
-> CONTEXT: Skills/2141/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2141/description/
+[CT:15] Provoke and protect from attacks for a turn. [Pleasure Down][Resist Up]
 > END STRING
 
 > BEGIN STRING
 バリア//6
-> CONTEXT: Skills/2143/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/2143/name/
+Barrier//6
 > END STRING
 
 > BEGIN STRING
 [魔法][CT:6] 味方全体をこのターン、攻撃から身を守る。[快感減衰][最速行動][精神力]
-> CONTEXT: Skills/2143/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2143/description/
+[Magic][CT:6] Protect allies from attacks this turn. [Pleasure Down][Fast][Spirit]
 > END STRING
 
 > BEGIN STRING
 オーラバリア/600/15
-> CONTEXT: Skills/2144/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/2144/name/
+Aura Barrier/600/15
 > END STRING
 
 > BEGIN STRING
 [魔法][CT:15] 味方全体をこのターン、攻撃から身を守る。[快感減衰][最速行動][精神力]
-> CONTEXT: Skills/2144/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2144/description/
+[Magic][CT:15] Protect allies from attacks this turn. [Pleasure Down][Fast][Spirit]
 > END STRING
 
 > BEGIN STRING
 魔女の唇/100
-> CONTEXT: Skills/2150/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/2150/name/
+Witch's Lips/100
 > END STRING
 
 > BEGIN STRING
 [口→口] 魔法で自らの幻影を作り出し、キスをする。[精神力/魅力]
-> CONTEXT: Skills/2150/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2150/description/
+[Mouth→Mouth] Create illusion of self with magic and kiss it. [Spirit/Charm]
 > END STRING
 
 > BEGIN STRING
 妖魔の唇/150/6
-> CONTEXT: Skills/2151/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/2151/name/
+Demon's Lips/150/6
 > END STRING
 
 > BEGIN STRING
 [口→口] 魔法で自らの集団を作り出し、キスをする。[精神力/魅力]
-> CONTEXT: Skills/2151/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2151/description/
+[Mouth→Mouth] Create a group of yourself with magic and kiss them. [Spirit/Charm]
 > END STRING
 
 > BEGIN STRING
 夜魔の唇/250/999
-> CONTEXT: Skills/2152/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/2152/name/
+Night Demon's Lips/250/999
 > END STRING
 
 > BEGIN STRING
 [口→身体][奥義] 魔法で巨大な唇を作り出し、吸い尽くす。[精神力/魅力]
-> CONTEXT: Skills/2152/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2152/description/
+[Mouth→Body][Secret]Magically create giant lips and suck everything dry.[Spirit/Charm]
 > END STRING
 
 > BEGIN STRING
 口淫の淫筆//13
-> CONTEXT: Skills/2170/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/2170/name/
+Lewd Oral Pen//13
 > END STRING
 
 > BEGIN STRING
 [魔法][CT:13] 敵１人に３ターンの間、口に弱くなる淫紋を描く。
-> CONTEXT: Skills/2170/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2170/description/
+[Magic][CT:13] Draw a lewd mark on the mouth, weakening for 3 turns.
 > END STRING
 
 > BEGIN STRING
 乳淫の淫筆//13
-> CONTEXT: Skills/2171/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/2171/name/
+Lewd Breast Pen//13
 > END STRING
 
 > BEGIN STRING
 [魔法][CT:13] 敵１人に３ターンの間、胸に弱くなる淫紋を描く。
-> CONTEXT: Skills/2171/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2171/description/
+[Magic][CT:13] Draw a lewd mark on the chest, weakening for 3 turns.
 > END STRING
 
 > BEGIN STRING
 尻淫の淫筆//13
-> CONTEXT: Skills/2172/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/2172/name/
+Lewd Butt Pen//13
 > END STRING
 
 > BEGIN STRING
 [魔法][CT:13] 敵１人に３ターンの間、尻に弱くなる淫紋を描く。
-> CONTEXT: Skills/2172/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2172/description/
+[Magic][CT:13] Draw a lewd mark on the butt, weakening for 3 turns.
 > END STRING
 
 > BEGIN STRING
 女淫の淫筆//13
-> CONTEXT: Skills/2173/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/2173/name/
+Lewd Woman Pen//13
 > END STRING
 
 > BEGIN STRING
 [魔法][CT:13] 敵１人に３ターンの間、♀挿入以外の♀に弱くなる淫紋を描く。
-> CONTEXT: Skills/2173/description/ < UNTRANSLATED
-> CONTEXT: Skills/2175/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2173/description/
+> CONTEXT: Skills/2175/description/
+[Magic][CT:13] Draw a lewd mark on ♀, weak to ♀ for 3 turns excluding insert.
 > END STRING
 
 > BEGIN STRING
 男淫の淫筆//13
-> CONTEXT: Skills/2174/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/2174/name/
+Lewd Man Pen//13
 > END STRING
 
 > BEGIN STRING
 [魔法][CT:13] 敵１人に３ターンの間、♀挿入以外の♂に弱くなる淫紋を描く。
-> CONTEXT: Skills/2174/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2174/description/
+[Magic][CT:13] Draw a lewd mark on ♀, weak to ♂ for 3 turns excluding insert.
 > END STRING
 
 > BEGIN STRING
 性交の淫筆//13
-> CONTEXT: Skills/2175/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/2175/name/
+Lewd Sex Pen//13
 > END STRING
 
 > BEGIN STRING
 愛欲の舞踏//6
-> CONTEXT: Skills/2190/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/2190/name/
+Dance of Passion //6
 > END STRING
 
 > BEGIN STRING
 [踊り CT:6] 興奮を煽るように踊る。相手全体を中確率で欲情させる。[魅力]
-> CONTEXT: Skills/2190/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2190/description/
+[Dance CT:6] Arousing dance. Chance to inflict lust on all enemies. [Charm]
 > END STRING
 
 > BEGIN STRING
 衝動の舞踏//6
-> CONTEXT: Skills/2191/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/2191/name/
+Dance of Impulse // 6
 > END STRING
 
 > BEGIN STRING
 [踊り CT:6] 劣情を誘うように踊る。相手全体を中確率で暴走させる。[魅力]
-> CONTEXT: Skills/2191/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2191/description/
+[Dance CT:6] Desireful dance. Chance to inflict berserk on all enemies. [Charm]
 > END STRING
 
 > BEGIN STRING
 断片の舞踏//6
-> CONTEXT: Skills/2192/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/2192/name/
+Dance of Fragments //6
 > END STRING
 
 > BEGIN STRING
 [踊り CT:6] 心を掻き乱すように踊る。相手全体を中確率で散漫させる。[魅力]
-> CONTEXT: Skills/2192/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2192/description/
+[Dance CT:6] Stirring dance. Chance of distracting all opponents. [Charm]
 > END STRING
 
 > BEGIN STRING
 蠱惑の天舞
-> CONTEXT: Skills/2194/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/2194/name/
+Charming Dance of Heaven
 > END STRING
 
 > BEGIN STRING
 [必：踊3]見たものすべての心を奪う踊り。相手全体を超高確率で魅了させる。[魅力]
-> CONTEXT: Skills/2194/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2194/description/
+[Must: Dance 3] A dance that fascinates all. Very high chance to charm opponents. [Charm]
 > END STRING
 
 > BEGIN STRING
 治癒の天舞/100
-> CONTEXT: Skills/2195/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/2195/name/
+Healing Dance/100
 > END STRING
 
 > BEGIN STRING
 [必：踊3]穢れを祓い、安寧をもたらす踊り。全員を超大回復させる。
-> CONTEXT: Skills/2195/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2195/description/
+[Must: Dance 3] Purifying, peaceful dance. Super large recovery for everyone.
 > END STRING
 
 > BEGIN STRING
 魅惑の天舞/100
-> CONTEXT: Skills/2196/name/ < UNTRANSLATED
-
+> CONTEXT: Skills/2196/name/
+Enchanting Dance/100
 > END STRING
 
 > BEGIN STRING
 [必：踊3]魅惑の渦を作り出す踊り。全員の魅力を２段階上昇させる。
-> CONTEXT: Skills/2196/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2196/description/
+[Must: Dance 3] A vortex of fascination. Increase everyone's charm by 2 levels.
 > END STRING
 
 > BEGIN STRING
@@ -15277,8 +15277,8 @@ Abyss Scratch/100/7
 
 > BEGIN STRING
 [手→体][CT:7] 漆黒の手で愛撫する。[畏怖の相手：強制スタン][器用さ]
-> CONTEXT: Skills/2201/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2201/description/
+[Hand→Body][CT:7] Caress with jet black hands. [Fear: Forced Stun][Dexterity]
 > END STRING
 
 > BEGIN STRING
@@ -15289,8 +15289,8 @@ Cat Raid/70/999
 
 > BEGIN STRING
 [手/口→体][奥義] 不意打ちする。[器用さ][高：スタン][SS率+100％]
-> CONTEXT: Skills/2202/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2202/description/
+[Hand/Mouth→Body][Secret] Attack by surprise. [Dexterity][High: Stun][SS rate +100%]
 > END STRING
 
 > BEGIN STRING
@@ -15313,8 +15313,8 @@ Ignition
 
 > BEGIN STRING
 [口→] 欲情状態になるが、８ターンの間反動のあるスキルの威力と追撃率が上昇する。
-> CONTEXT: Skills/2206/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2206/description/
+[Mouth→] Self-inflict lust, increase power and follow-up of recoil skills for 8 turns.
 > END STRING
 
 > BEGIN STRING
@@ -15325,32 +15325,32 @@ Elder Step
 
 > BEGIN STRING
 [魔法][控え専用] 控え夢魔と交代し、パートナーにエルダブルムを詠唱する。
-> CONTEXT: Skills/2208/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2208/description/
+[Magic][Reserve] Switch with the reserve and cast Elder Bloom.
 > END STRING
 
 > BEGIN STRING
 サフラステップ
 > CONTEXT: Skills/2209/name/
-Safra Step
+Saffron Step
 > END STRING
 
 > BEGIN STRING
 [魔法][控え専用] 控え夢魔と交代し、パートナーにサフラブルムを詠唱する。
-> CONTEXT: Skills/2209/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2209/description/
+[Magic][Reserve] Switch with reserve and cast Saffron Bloom.
 > END STRING
 
 > BEGIN STRING
 フラウステップ
 > CONTEXT: Skills/2210/name/
-Flow Step
+Flower Step
 > END STRING
 
 > BEGIN STRING
 [魔法][控え専用] 控え夢魔と交代し、パートナーにイリスフラウを詠唱する。
-> CONTEXT: Skills/2210/description/ < UNTRANSLATED
-
+> CONTEXT: Skills/2210/description/
+[Magic][Reserve] Switch with reserve and cast Iris Flower.
 > END STRING
 
 > BEGIN STRING
@@ -15368,7 +15368,7 @@ Elder Eject
 > BEGIN STRING
 サフライジェクト
 > CONTEXT: Skills/2217/name/
-Safra Eject
+Saffron Eject
 > END STRING
 
 > BEGIN STRING
@@ -15380,7 +15380,7 @@ Safra Eject
 > BEGIN STRING
 フラウイジェクト
 > CONTEXT: Skills/2218/name/
-Flow Eject
+Flower Eject
 > END STRING
 
 > BEGIN STRING
