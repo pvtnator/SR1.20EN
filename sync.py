@@ -112,6 +112,7 @@ if __name__ == "__main__":
     #source_files = [current_dir / "patch" / "Unused.txt"]
     #source_files = [current_dir / "patch" / "Armors.txt"]
     source_files = [current_dir / "patch" / "Skills.txt"]
+    #source_files += [current_dir / "patch" / "Scripts.txt"]
     #source_files += [current_dir / "patch" / "Items.txt"]
     dest_files = [current_dir / "mod_scripts.txt"]
     #dest_files += [current_dir / "talk.txt"]
@@ -143,6 +144,8 @@ if __name__ == "__main__":
                     if "/" in string:
                         translations[string.split("/")[0]] = lines[i].split("/")[0]
                         #print(string.split("/")[0]+" = "+lines[i].split("/")[0])
+                    if "Scripts" in translations_file.as_posix():
+                        translations[string.replace('"','')] = lines[i].replace('"','')
                     else:
                         translations[string] = lines[i]
                     #print(string.strip()+" = "+lines[i].strip())
