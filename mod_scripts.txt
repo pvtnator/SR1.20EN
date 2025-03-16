@@ -3164,13 +3164,13 @@ Everyone's dexterity has increased!
 > BEGIN STRING
 レクチャータイム
 > CONTEXT: Incense_System.rb
-
+Lecture Time
 > END STRING
 
 > BEGIN STRING
 #{actors_word}の集中力が高まった！
 > CONTEXT: Incense_System.rb
-
+#{actors_word}'s concentration has improved!
 > END STRING
 
 > BEGIN STRING
@@ -6966,7 +6966,7 @@ Genoshindre
 フェアリーサークル
 > CONTEXT: O_MOD_Game_Actor_戦闘中スキル.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Fairy Circle
 > END STRING
 
 > BEGIN STRING
@@ -7341,7 +7341,7 @@ Heavenly Accept
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Falling Accept
 > END STRING
 
 > BEGIN STRING
@@ -7367,7 +7367,7 @@ Ouroboros Love
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Dominate Love
 > END STRING
 
 > BEGIN STRING
@@ -7380,7 +7380,7 @@ Ouroboros Love
 > CONTEXT: O_MOD_Scene_Battle_AnimationDef.rb
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Deep Mount
 > END STRING
 
 > BEGIN STRING
@@ -7393,7 +7393,7 @@ Ouroboros Love
 > CONTEXT: O_MOD_Scene_Battle_AnimationDef.rb
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Heavenly Mount
 > END STRING
 
 > BEGIN STRING
@@ -7406,7 +7406,7 @@ Ouroboros Love
 > CONTEXT: O_MOD_Scene_Battle_AnimationDef.rb
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Excite Mount
 > END STRING
 
 > BEGIN STRING
@@ -7419,7 +7419,7 @@ Ouroboros Love
 > CONTEXT: O_MOD_Scene_Battle_AnimationDef.rb
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Immoral Mount
 > END STRING
 
 > BEGIN STRING
@@ -7434,7 +7434,7 @@ Ouroboros Love
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Deep Charm
 > END STRING
 
 > BEGIN STRING
@@ -7449,7 +7449,7 @@ Ouroboros Love
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Heavenly Charm
 > END STRING
 
 > BEGIN STRING
@@ -7486,7 +7486,7 @@ Heavenly Spoil
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Soothing Embrace
 > END STRING
 
 > BEGIN STRING
@@ -7528,7 +7528,7 @@ Virtual Accept
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Request
 > END STRING
 
 > BEGIN STRING
@@ -7791,7 +7791,7 @@ Puff-puff
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: XL_MOD_Battle_Cutin.rb
 > CONTEXT: 修正用.rb
-Shell match
+Shell Match
 > END STRING
 
 > BEGIN STRING
@@ -7803,7 +7803,7 @@ Shell match
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Tail Insert
 > END STRING
 
 > BEGIN STRING
@@ -9191,14 +9191,14 @@ Hidden Passion
 情動の目覚め
 > CONTEXT: O_MOD_Game_Battler_1.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Emotional Awakening
 > END STRING
 
 > BEGIN STRING
 傾国の妙技
 > CONTEXT: O_MOD_Game_Battler_1.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Nation Toppling Art
 > END STRING
 
 > BEGIN STRING
@@ -10208,7 +10208,7 @@ Jewel Slime
 奉仕の心得
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Service Code
 > END STRING
 
 > BEGIN STRING
@@ -11311,7 +11311,7 @@ Lust
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_5.rb
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+Heavenly Smother
 > END STRING
 
 > BEGIN STRING
@@ -12313,7 +12313,7 @@ Snake Emblem
 不眠症
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Insomnia
 > END STRING
 
 > BEGIN STRING
@@ -13049,7 +13049,7 @@ Can't use it when you're serious!
 > CONTEXT: O_MOD_RPG_Skilltext.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: O_MOD_Scene_Battle_AttackElementChange.rb
-
+Close Sisters
 > END STRING
 
 > BEGIN STRING
@@ -13187,7 +13187,7 @@ You can't use it unless riding!
 > BEGIN STRING
 貝合わせ中でなければ使えない！
 > CONTEXT: O_MOD_Game_Battler_3.rb
-Can't use it outside of shell match!
+Can't use it outside of Shell Match!
 > END STRING
 
 > BEGIN STRING
@@ -14503,7 +14503,7 @@ absorb
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Verature
 > END STRING
 
 > BEGIN STRING
@@ -14827,7 +14827,7 @@ Unyielding
 増長
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Growth
 > END STRING
 
 > BEGIN STRING
@@ -14835,28 +14835,28 @@ Unyielding
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
-
+Double Stance
 > END STRING
 
 > BEGIN STRING
 快楽への備え
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Pleasure Preparation
 > END STRING
 
 > BEGIN STRING
 ウィングガード
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Wing Guard
 > END STRING
 
 > BEGIN STRING
 マジックバリア
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Magic Barrier
 > END STRING
 
 > BEGIN STRING
@@ -14866,7 +14866,7 @@ Unyielding
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Whore of Babylon 2
 > END STRING
 
 > BEGIN STRING
@@ -14876,7 +14876,7 @@ Unyielding
 > CONTEXT: O_MOD_Scene_Battle_5.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Whore of Babylon
 > END STRING
 
 > BEGIN STRING
@@ -14958,7 +14958,7 @@ Mischievous Compousure
 不調の見透かし
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Glimpse of Disorder
 > END STRING
 
 > BEGIN STRING
@@ -14966,21 +14966,21 @@ Mischievous Compousure
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Moonlight Feast
 > END STRING
 
 > BEGIN STRING
 サンクチュアリ
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Sanctuary
 > END STRING
 
 > BEGIN STRING
 私は貴方とともに
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+I Am With You
 > END STRING
 
 > BEGIN STRING
@@ -14994,7 +14994,7 @@ Blocking
 ディフレクト
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Deflect
 > END STRING
 
 > BEGIN STRING
@@ -15003,7 +15003,7 @@ Blocking
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+Playful One
 > END STRING
 
 > BEGIN STRING
@@ -15046,7 +15046,7 @@ Heal Breath
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: O_MOD_Scene_Menu_Party_skill.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Health Breath
 > END STRING
 
 > BEGIN STRING
@@ -15055,14 +15055,14 @@ Heal Breath
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: O_MOD_Scene_Menu_Party_skill.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Peaceful Breath
 > END STRING
 
 > BEGIN STRING
 安らぎのまくら
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Comfortable Pillow
 > END STRING
 
 > BEGIN STRING
@@ -15070,14 +15070,14 @@ Heal Breath
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Secrets Breathing Technique
 > END STRING
 
 > BEGIN STRING
 サナティオコーデックス
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Sanatio Codex
 > END STRING
 
 > BEGIN STRING
@@ -15091,14 +15091,14 @@ Sure Calm
 鎮静の熟達
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Sedation Mastery
 > END STRING
 
 > BEGIN STRING
 鎮静の極意
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Sedation Secret
 > END STRING
 
 > BEGIN STRING
@@ -15160,7 +15160,7 @@ Romanticist
 > BEGIN STRING
 反転リバウンド
 > CONTEXT: O_MOD_Game_Battler_4.rb
-
+Reverse Rebound
 > END STRING
 
 > BEGIN STRING
@@ -15204,7 +15204,7 @@ Thorough
 鉄壁
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Impenetrable
 > END STRING
 
 > BEGIN STRING
@@ -15245,7 +15245,7 @@ Hungry Sperm Blowjob
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
-
+Teasing Habit
 > END STRING
 
 > BEGIN STRING
@@ -15267,7 +15267,7 @@ For dialog test
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Overflowing Magic
 > END STRING
 
 > BEGIN STRING
@@ -15275,7 +15275,7 @@ For dialog test
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+Crisis Resistance
 > END STRING
 
 > BEGIN STRING
@@ -15284,13 +15284,13 @@ For dialog test
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
-
+Unwavering
 > END STRING
 
 > BEGIN STRING
 コンセプションミルク
 > CONTEXT: O_MOD_Game_Battler_4.rb
-
+Conception Milk
 > END STRING
 
 > BEGIN STRING
@@ -15313,14 +15313,14 @@ Pleasure
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Conviction
 > END STRING
 
 > BEGIN STRING
 空寂の繭
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Empty Cocoon
 > END STRING
 
 > BEGIN STRING
@@ -15347,14 +15347,14 @@ Skilled
 プロテクトスタイル
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Protective Style
 > END STRING
 
 > BEGIN STRING
 リフレクトスタイル
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Reflect Style
 > END STRING
 
 > BEGIN STRING
@@ -15363,7 +15363,7 @@ Skilled
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+Dexterous Fingers
 > END STRING
 
 > BEGIN STRING
@@ -15372,7 +15372,7 @@ Skilled
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+Skilled Tongue
 > END STRING
 
 > BEGIN STRING
@@ -15387,14 +15387,14 @@ Foresight
 身構える
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+On Guard
 > END STRING
 
 > BEGIN STRING
 切り返し
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Switchback
 > END STRING
 
 > BEGIN STRING
@@ -15402,7 +15402,7 @@ Foresight
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Synthesis
 > END STRING
 
 > BEGIN STRING
@@ -15431,21 +15431,21 @@ Heat up
 大童
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Hark Worker
 > END STRING
 
 > BEGIN STRING
 エンパシー
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Empathy
 > END STRING
 
 > BEGIN STRING
 ハートシェイク
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Heartshake
 > END STRING
 
 > BEGIN STRING
@@ -15459,7 +15459,7 @@ Clever Link
 巧みな支援
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Skillful Support
 > END STRING
 
 > BEGIN STRING
@@ -15473,7 +15473,7 @@ Gust of Wind Blade
 娘の応援
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Daughter Support
 > END STRING
 
 > BEGIN STRING
@@ -15484,7 +15484,7 @@ Gust of Wind Blade
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
-
+Metallic Body
 > END STRING
 
 > BEGIN STRING
@@ -15492,7 +15492,7 @@ Gust of Wind Blade
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
-
+Dream Continuation
 > END STRING
 
 > BEGIN STRING
@@ -15500,21 +15500,21 @@ Gust of Wind Blade
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
-
+Predator's Eyes
 > END STRING
 
 > BEGIN STRING
 悪戯夢魔の乱撃
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Mischievous Succubus Attack
 > END STRING
 
 > BEGIN STRING
 決着をつけよう
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Let's Settle This
 > END STRING
 
 > BEGIN STRING
@@ -15535,14 +15535,14 @@ Witch's Essence
 憐れな獲物
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Pitiful Prey
 > END STRING
 
 > BEGIN STRING
 しなやかな跳躍
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Graceful Leap
 > END STRING
 
 > BEGIN STRING
@@ -15557,7 +15557,7 @@ Sharpness
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
-
+Tail Master
 > END STRING
 
 > BEGIN STRING
@@ -15573,13 +15573,13 @@ Tentacle Master
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
-
+Dildo Master
 > END STRING
 
 > BEGIN STRING
 シャドウレイド
 > CONTEXT: O_MOD_Game_Battler_4.rb
-
+Shadow Raid
 > END STRING
 
 > BEGIN STRING
@@ -15622,7 +15622,7 @@ SS率
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Good at cowgirl position
 > END STRING
 
 > BEGIN STRING
@@ -15632,7 +15632,7 @@ SS率
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Good at Shell Match
 > END STRING
 
 > BEGIN STRING
@@ -15651,7 +15651,7 @@ Face sitting
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
-
+Good at rear restraint
 > END STRING
 
 > BEGIN STRING
@@ -15661,7 +15661,7 @@ Face sitting
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Good at blowjobs
 > END STRING
 
 > BEGIN STRING
@@ -15671,7 +15671,7 @@ Face sitting
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Good at cunnilingus
 > END STRING
 
 > BEGIN STRING
@@ -15711,7 +15711,7 @@ Kiss Proficiency
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Good at fingering
 > END STRING
 
 > BEGIN STRING
@@ -15721,7 +15721,7 @@ Kiss Proficiency
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Good at deep throating
 > END STRING
 
 > BEGIN STRING
@@ -15731,7 +15731,7 @@ Kiss Proficiency
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Good at anal thrusting
 > END STRING
 
 > BEGIN STRING
@@ -15741,7 +15741,7 @@ Kiss Proficiency
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Good at reverse Puff-Puff
 > END STRING
 
 > BEGIN STRING
@@ -15751,7 +15751,7 @@ Kiss Proficiency
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Good at electric massage
 > END STRING
 
 > BEGIN STRING
@@ -15765,28 +15765,28 @@ Heart Shock
 激情の衝撃
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Passion Impact
 > END STRING
 
 > BEGIN STRING
 幽玄の衝撃
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Mysterious Impact
 > END STRING
 
 > BEGIN STRING
 迅雷の衝撃
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Lightning Impact
 > END STRING
 
 > BEGIN STRING
 シールドコア
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Shield Core
 > END STRING
 
 > BEGIN STRING
@@ -15827,21 +15827,21 @@ Poisonous fluids
 毒素循環
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Toxic Circulation
 > END STRING
 
 > BEGIN STRING
 濁穢の潟
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Muddy Lagoon
 > END STRING
 
 > BEGIN STRING
 飛び散る胞子
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Scattering Spores
 > END STRING
 
 > BEGIN STRING
@@ -15862,7 +15862,7 @@ Queen of Deadly Sins
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
 > CONTEXT: 弱点開発MOD.rb
-
+Last Bay Baron
 > END STRING
 
 > BEGIN STRING
@@ -15873,7 +15873,7 @@ Queen of Deadly Sins
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
 > CONTEXT: 弱点開発MOD.rb
-
+Last Bay Baron 2
 > END STRING
 
 > BEGIN STRING
@@ -15913,7 +15913,7 @@ Occupation: Tuner
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_RPG_Skilltext.rb
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+Marshmallow Bust
 > END STRING
 
 > BEGIN STRING
@@ -15933,7 +15933,7 @@ Snow Queen
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_AttackElementChange.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Enchanting Honeypot
 > END STRING
 
 > BEGIN STRING
@@ -15942,7 +15942,7 @@ Snow Queen
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_RPG_Skilltext.rb
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+Peachy Butt
 > END STRING
 
 > BEGIN STRING
@@ -15959,7 +15959,7 @@ Thousand-Armed Kannon
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_RPG_Skilltext.rb
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+Beautiful Legs
 > END STRING
 
 > BEGIN STRING
@@ -15979,35 +15979,35 @@ Sweet whisper
 強引に迫る
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Forceful
 > END STRING
 
 > BEGIN STRING
 蛇毒
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Snake Venom
 > END STRING
 
 > BEGIN STRING
 ハイポサミア
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Hyposamemia
 > END STRING
 
 > BEGIN STRING
 邪魔をするな
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Out of My Way
 > END STRING
 
 > BEGIN STRING
 情欲燐火
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Lust Phosphorus
 > END STRING
 
 > BEGIN STRING
@@ -16027,7 +16027,7 @@ Demon's Kiss
 呪詛のキスマーク
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Cursed Kiss Mark
 > END STRING
 
 > BEGIN STRING
@@ -19008,7 +19008,7 @@ Unique X
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Unconscious Chanting
 > END STRING
 
 > BEGIN STRING
@@ -19016,7 +19016,7 @@ Unique X
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Child of Calamity
 > END STRING
 
 > BEGIN STRING
@@ -19033,7 +19033,7 @@ Unique X
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: PR_Game_Troop.rb
-
+Feet Pride
 > END STRING
 
 > BEGIN STRING
@@ -19042,7 +19042,7 @@ Unique X
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: PR_Game_Troop.rb
-
+Soft Play
 > END STRING
 
 > BEGIN STRING
@@ -20098,7 +20098,7 @@ Cause lust on all enemies based on mood upon undressing.
 > BEGIN STRING
 メイドとしての奉仕の技能。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Service skills as a maid.
 > END STRING
 
 > BEGIN STRING
@@ -20170,13 +20170,13 @@ When you enter battle, assess all opponents.
 > BEGIN STRING
 非ホールド時にプレジャーを使用したとき、ムードが高いほど敵全員を恍惚状態にする。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+High chance of ecstacy when using Pleasure if high mood and not in hold
 > END STRING
 
 > BEGIN STRING
 ムードが低い状態で責めてきた相手の力を弱める。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Weakens attacker when mood is low.
 > END STRING
 
 > BEGIN STRING
@@ -20276,13 +20276,13 @@ During battle, allied Lilim and Lilith will be able to use your skills.
 > BEGIN STRING
 消費VPが増加するが、VPが減るほど与える快楽が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+VP consumption up, but the less VP used, the more pleasure given.
 > END STRING
 
 > BEGIN STRING
 快楽とともに精気を削る。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Drain vitality with pleasure.
 > END STRING
 
 > BEGIN STRING
@@ -20296,13 +20296,13 @@ When you feel cornered, the pleasure you give decreases.
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
-
+Coercion
 > END STRING
 
 > BEGIN STRING
 畏怖状態の相手を追撃しやすい。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Easier to follow-up against opponents suffering from fear.
 > END STRING
 
 > BEGIN STRING
@@ -20351,7 +20351,7 @@ Lubrication level of the vagina is hard to increase.
 > BEGIN STRING
 暴走系状態（暴走、母乳中毒、愛液中毒）になりにくい。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Berserk states are less likely (including poisons).
 > END STRING
 
 > BEGIN STRING
@@ -20387,7 +20387,7 @@ Fully lubricated from the start, easy to increase opponent's lubrication.
 > BEGIN STRING
 状態異常魔法が一切効かない。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Status ailment magic is completely ineffective.
 > END STRING
 
 > BEGIN STRING
@@ -20477,25 +20477,25 @@ Normally unaffected by mood.
 > BEGIN STRING
 話芸
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Storyteller
 > END STRING
 
 > BEGIN STRING
 トークの成功率が上がる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increase the success rate of talks.
 > END STRING
 
 > BEGIN STRING
 呑気
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Carefree
 > END STRING
 
 > BEGIN STRING
 たまに待機ターンになる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Sometimes pass a turn.
 > END STRING
 
 > BEGIN STRING
@@ -20547,7 +20547,7 @@ Fascinating
 > BEGIN STRING
 戦闘に出た時にＶＰを８０消費して、敵全員を中確率で魅了する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+At the start of battle, lose 80 VP and inflict charm on all opponents.
 > END STRING
 
 > BEGIN STRING
@@ -20571,20 +20571,20 @@ Easy to trigger follow-ups on opponents with 2+ status ailments.
 > BEGIN STRING
 単体ホールド中、相手へのSS率が上昇しホールドから抜け出しにくくする。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+During hold, SS rate for opponent increases.
 > END STRING
 
 > BEGIN STRING
 至高の昇天術
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+Supreme Ascension Technique
 > END STRING
 
 > BEGIN STRING
 絶頂させた時、骨抜きを付与する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Upon climax, inflict debone.
 > END STRING
 
 > BEGIN STRING
@@ -20621,7 +20621,7 @@ Addicted to semen.
 > BEGIN STRING
 ホールド中も自分と相手の服を脱がせる事ができる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Able to remove your or opponent's clothes while in a hold.
 > END STRING
 
 > BEGIN STRING
@@ -20654,13 +20654,13 @@ Upon winning a battle, receive a hunger recovery item.
 > BEGIN STRING
 戦闘勝利時に満腹度回復アイテムを入手する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Obtain a hunger recovery item upon victory in battle.
 > END STRING
 
 > BEGIN STRING
 一度以上絶頂しているとクライシス時に受ける快感が半減する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+If climaxed more than once, pleasure felt during crisis is halved.
 > END STRING
 
 > BEGIN STRING
@@ -20752,37 +20752,37 @@ When you get abused, a switch flips.
 > BEGIN STRING
 思わず見とれてしまう程の美脚の持ち主。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Such beautiful legs you can't help but stare.
 > END STRING
 
 > BEGIN STRING
 キスに滅法強い。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Extremely good at kissing.
 > END STRING
 
 > BEGIN STRING
 触れるだけで蕩けてしまうほど心地の良い胸を持つ。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Such comfortable breasts you'll melt just by touching them.
 > END STRING
 
 > BEGIN STRING
 とてもハリがあって魅力的な美尻を持つ。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Very firm and attractive buttocks.
 > END STRING
 
 > BEGIN STRING
 苦痛を加えられても怯まない。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Does not flinch from pain.
 > END STRING
 
 > BEGIN STRING
 催淫性のある蜜を滴らせる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Dripping with aphrodisiac nectar.
 > END STRING
 
 > BEGIN STRING
@@ -20794,13 +20794,13 @@ Acrobat
 > BEGIN STRING
 ♀を使用したホールドのレベルが高いほど与える快楽が増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+The higher the ♀ hold level, the greater the pleasure it gives.
 > END STRING
 
 > BEGIN STRING
 \n更にバストが大きいと相手の目を釘付けにする。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+\nWith large bust, catch the attention of your partner.
 > END STRING
 
 > BEGIN STRING
@@ -22459,33 +22459,33 @@ Pleasure does not decrease when attacking a sleeping enemy.
 > BEGIN STRING
 相手の反動技で自分が受ける快感が減少する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Pleasure received from opponent's reactions reduced.
 > END STRING
 
 > BEGIN STRING
 再生
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Reproduction
 > END STRING
 
 > BEGIN STRING
 控えにいる時、徐々にVPを回復する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Gradually recovers VP when benched.
 > END STRING
 
 > BEGIN STRING
 滑らかな身体
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Smooth Body
 > END STRING
 
 > BEGIN STRING
 リリースのコマンド難易度が低下する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Release command difficulty is reduced.
 > END STRING
 
 > BEGIN STRING
@@ -22758,13 +22758,13 @@ Learn counter skills.
 体術の心得
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Physical Training Mastery
 > END STRING
 
 > BEGIN STRING
 ぱふぱふと逆ぱふぱふ、顔面騎乗とクンニホールドが逆転可能になる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Able to reserve Puff-Puff, face sitting and cunnilingus.
 > END STRING
 
 > BEGIN STRING
@@ -22772,7 +22772,7 @@ Learn counter skills.
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_3.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Multi-Hand
 > END STRING
 
 > BEGIN STRING
@@ -22790,7 +22790,7 @@ Learn counter skills.
 > BEGIN STRING
 ホールド中もアイテムを使用可能。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Can use items while holding.
 > END STRING
 
 > BEGIN STRING
@@ -23746,14 +23746,14 @@ Attract partner upon climaxing.
 > BEGIN STRING
 ホールドされた場合、味方にホールド相手を襲わせる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+In hold, party attacks the opponent in hold.
 > END STRING
 
 > BEGIN STRING
 魔道の極意
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: S_MOD_Game_Battler_Magiceffect.rb
-
+Secret of Magic
 > END STRING
 
 > BEGIN STRING
@@ -23766,7 +23766,7 @@ Attract partner upon climaxing.
 鋭い眼光
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Sharp Eyes
 > END STRING
 
 > BEGIN STRING
@@ -23786,25 +23786,25 @@ Attract partner upon climaxing.
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_5.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
-
+Mysterious Waist
 > END STRING
 
 > BEGIN STRING
 挿入中の特殊技を使用可能。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Can use special skills during insertion.
 > END STRING
 
 > BEGIN STRING
 [敵対時] 挿入中の特殊技を使用可能。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Hostile] Can use special skills during insertion.
 > END STRING
 
 > BEGIN STRING
 恍惚状態の相手を攻めても恍惚状態が解除されない。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Attacking an opponent in trance will not remove the trance.
 > END STRING
 
 > BEGIN STRING
@@ -23822,7 +23822,7 @@ Endurance increases dramatically when clothed, but vulnerable to Resist.
 > BEGIN STRING
 発情状態でない時に絶頂すると残りVPに関わらず失神してしまう。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+If you climax when not in heat, faint regardless of remaining VP.
 > END STRING
 
 > BEGIN STRING
@@ -23853,7 +23853,7 @@ Enter a state of estrus, energy/endurance↑, dexterity/spirit↓.
 深緑の瞳
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+Deep Green Eyes
 > END STRING
 
 > BEGIN STRING
@@ -24217,19 +24217,19 @@ An absolute queen.
 ベルヴェルク
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
-
+Bellverk
 > END STRING
 
 > BEGIN STRING
 相手の強化状態に応じて追撃が上昇する
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Attack increases against strengthened opponent
 > END STRING
 
 > BEGIN STRING
 スキル使用VP消費を20％減、相手からの魔法を無効化するが、絶頂時のＶＰ消費が増える。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+VP consumption -20%, nullify enemy magic, increased VP losee at climax.
 > END STRING
 
 > BEGIN STRING
@@ -24369,7 +24369,7 @@ Demon Seeker
 夜の導き手
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
-
+Night Guide
 > END STRING
 
 > BEGIN STRING
@@ -24431,7 +24431,7 @@ Dream Teachings
 暗黒魔道士
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
-
+Dark Mage
 > END STRING
 
 > BEGIN STRING
@@ -24944,7 +24944,7 @@ A mysteriously charming succubus. Acquire Z personality.
 > BEGIN STRING
 [♀→♂]特殊ホールドスキル。アソコを妖しく蠢かせ、相手を骨抜きにする。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[♀→♂] Special hold. Vagina wriggles seductively, weakening the opponent.
 > END STRING
 
 > BEGIN STRING
@@ -24962,7 +24962,7 @@ A mysteriously charming succubus. Acquire Z personality.
 > BEGIN STRING
 アクセプト中の特殊ホールドスキル。\n挿入した相手の腰を押さえつけながらグラインドする。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+A special hold during Accept.\nHold down hips and grind.
 > END STRING
 
 > BEGIN STRING
@@ -24992,7 +24992,7 @@ A mysteriously charming succubus. Acquire Z personality.
 > BEGIN STRING
 [口→口]特殊ホールドスキル。口内に舌を捩じ込む。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Mouth→Mouth] Special hold. Twists the tongue into the mouth.
 > END STRING
 
 > BEGIN STRING
@@ -25064,7 +25064,7 @@ A mysteriously charming succubus. Acquire Z personality.
 > BEGIN STRING
 [胸→口]特殊ホールドスキル。相手の顔を胸で強く圧迫し、窒息させる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Chest→Mouth] Special hold. Press face tightly on chest, suffocating them.
 > END STRING
 
 > BEGIN STRING
@@ -25076,7 +25076,7 @@ A mysteriously charming succubus. Acquire Z personality.
 > BEGIN STRING
 [♀→口]特殊ホールドスキル。相手の顔をアソコで強く圧迫し、窒息させる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[♀→Mouth] Special hold. Press vagina tightly on face, suffocating them.
 > END STRING
 
 > BEGIN STRING
@@ -25204,13 +25204,13 @@ A species of succubi
 > BEGIN STRING
 元型種
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Archetype
 > END STRING
 
 > BEGIN STRING
 元型の種族。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Archetypal race.
 > END STRING
 
 > BEGIN STRING
@@ -25523,7 +25523,7 @@ Increases the chance of a kiss.
 > BEGIN STRING
 [敵対時] 口や舌による攻めを行う確率が上がる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Hostile] Increase the chance of attacking with the mouth or tongue.
 > END STRING
 
 > BEGIN STRING
@@ -25535,7 +25535,7 @@ Increases the chance of a kiss.
 > BEGIN STRING
 [敵対時] 指や掌による攻めを行う確率が上がる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Hostile] Increase the chance of attacking with fingers or palms.
 > END STRING
 
 > BEGIN STRING
@@ -25547,7 +25547,7 @@ Increases the chance of a kiss.
 > BEGIN STRING
 [敵対時] 乳房や乳首による攻めを行う確率が上がる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Hostile] Increase the chance of attacking with breasts or nipples.
 > END STRING
 
 > BEGIN STRING
@@ -25559,19 +25559,19 @@ Increases the chance of a kiss.
 > BEGIN STRING
 [敵対時] アソコによる攻めを行う確率が上がる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Hostile] Increase the chance of attacking with vagina.
 > END STRING
 
 > BEGIN STRING
 足による攻めを行う確率が上がる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increase the chance of attacking with feet.
 > END STRING
 
 > BEGIN STRING
 [敵対時] 足による攻めを行う確率が上がる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+[Hostile] Increase the chance of attacking with feet.
 > END STRING
 
 > BEGIN STRING
@@ -26341,13 +26341,13 @@ When asked, grants self [Uplift] and Mood↑.
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_5.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
-
+Management Knowledge
 > END STRING
 
 > BEGIN STRING
 絶頂を制限するスキルを使用してくることがある。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Sometimes use climax limiting skills.
 > END STRING
 
 > BEGIN STRING
@@ -26635,13 +26635,13 @@ Draws out power of and greatly increases abilities. Not effective for everyone.
 > BEGIN STRING
 精神力が減少する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Spirit down.
 > END STRING
 
 > BEGIN STRING
 眠り状態になりにくい。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Hard to fall asleep.
 > END STRING
 
 > BEGIN STRING
@@ -26684,7 +26684,7 @@ Low chance that inflict status ailments along with pleasure.
 > BEGIN STRING
 眠り状態の相手を攻めた時、相手を起こさない。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Attack sleeping opponents without waking them up.
 > END STRING
 
 > BEGIN STRING
@@ -26696,14 +26696,14 @@ When the opponent reaches climax, absorb all abilities.
 > BEGIN STRING
 相手が絶頂中の時の追撃が、必ず４回になる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+When the opponent is at climax, always follow-up 4 times.
 > END STRING
 
 > BEGIN STRING
 ドリームチャージ
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+Dream Charge
 > END STRING
 
 > BEGIN STRING
@@ -26728,13 +26728,13 @@ When the opponent reaches climax, absorb all abilities.
 夜桜饗宴
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Night Cherry Blossom Festival
 > END STRING
 
 > BEGIN STRING
 脱衣時に精気を削るようになる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+When undressing, vitality will be reduced.
 > END STRING
 
 > BEGIN STRING
@@ -26752,13 +26752,13 @@ The probability of receiving SS decreases with mood.
 > BEGIN STRING
 淫毒を吸い取り熟成させ、相手に強力にして返す。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Absorbs aphrodisiac and return it in a more powerful form.
 > END STRING
 
 > BEGIN STRING
 状態異常でない限り、能力や防御力がアップする。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Abilities and defense up when not under status ailment.
 > END STRING
 
 > BEGIN STRING
@@ -26770,7 +26770,7 @@ The probability of receiving SS decreases with mood.
 > BEGIN STRING
 武芸の達人
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Martial Arts Master
 > END STRING
 
 > BEGIN STRING
@@ -26854,7 +26854,7 @@ The probability of receiving SS decreases with mood.
 > BEGIN STRING
 すでに行動済みの場合、被ダメージダウン。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+After action, damage taken down.
 > END STRING
 
 > BEGIN STRING
@@ -27202,7 +27202,7 @@ In extremely cold areas, the rate of SS is reduced.
 突風の舞
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
-
+Wind Dance
 > END STRING
 
 > BEGIN STRING
@@ -27251,7 +27251,7 @@ Increases resistance to magical status ailments.
 静寂の時間
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Silence Time
 > END STRING
 
 > BEGIN STRING
@@ -27264,7 +27264,7 @@ Increases resistance to magical status ailments.
 崩壊の呪い
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Curse of Decay
 > END STRING
 
 > BEGIN STRING
@@ -27301,7 +27301,7 @@ Increases resistance to magical status ailments.
 依存への誘い
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Addiction Invitation
 > END STRING
 
 > BEGIN STRING
@@ -27326,7 +27326,7 @@ Maximum EP increases depending on the number of times you climax.
 情景の踊り
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
-
+Dance of Scenery
 > END STRING
 
 > BEGIN STRING
@@ -27410,91 +27410,91 @@ This succubus has taken your virginity.
 > BEGIN STRING
 この夢魔は貴方に童貞を捧げてもらえたと思っている。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+This succubus believes you have given her your virginity.
 > END STRING
 
 > BEGIN STRING
 初めてを奪われた？
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Took your virginity?
 > END STRING
 
 > BEGIN STRING
 この夢魔は貴方の童貞を奪えたと思っている。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+This succubus thinks she's taken your virginity.
 > END STRING
 
 > BEGIN STRING
 相手を恍惚にする確率が上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increase the chance of inflicting ecstacy.
 > END STRING
 
 > BEGIN STRING
 相手を欲情にする確率が上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increase the chance of arousing the opponent.
 > END STRING
 
 > BEGIN STRING
 相手を暴走にする確率が上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increase the chance of inflicting berserk.
 > END STRING
 
 > BEGIN STRING
 相手を虚脱にする確率が上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increase the chance of inflicting lethargy.
 > END STRING
 
 > BEGIN STRING
 相手を畏怖にする確率が上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increase the chance of intimidating opponents.
 > END STRING
 
 > BEGIN STRING
 相手を麻痺にする確率が上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increase the chance of inflicting paralysis.
 > END STRING
 
 > BEGIN STRING
 相手を散漫にする確率が上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increase the chance of distracting opponents.
 > END STRING
 
 > BEGIN STRING
 相手を魅了にする確率が上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increase the chance of charming opponents.
 > END STRING
 
 > BEGIN STRING
 相手を眠りにする確率が上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increase the chance of inflicting sleep.
 > END STRING
 
 > BEGIN STRING
 相手を畏怖にさせた時、その畏怖による行動不能率が上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+When you inflict fear, they are more likely to not act.
 > END STRING
 
 > BEGIN STRING
 自分が眠りで回復するＥＰ量が上昇する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increase the amount of EP recovered when sleeping.
 > END STRING
 
 > BEGIN STRING
 相手を眠りにさせた時の眠りターン数が伸びる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Increase the number of sleep turns when you inflict sleep.
 > END STRING
 
 > BEGIN STRING
@@ -43124,7 +43124,7 @@ Cannot be used unless opponent is mounted!
 > BEGIN STRING
 相手と貝合わせ中でないと使えません！
 > CONTEXT: O_MOD_Scene_Battle_3.rb
-Can't use outside of shell match!
+Can't use outside of Shell Match!
 > END STRING
 
 > BEGIN STRING
@@ -75943,13 +75943,13 @@ Time has stopped for #{myname}'s body!
 > BEGIN STRING
 #{myname}は貝合わせに弱くなった！
 > CONTEXT: PR_RPG_Statetext.rb
-#{myname} has become weak to shell matching!
+#{myname} has become weak to Shell Matching!
 > END STRING
 
 > BEGIN STRING
 #{myname}は貝合わせにますます弱くなった！
 > CONTEXT: PR_RPG_Statetext.rb
-#{myname} has become more vulnerable to shell matching!
+#{myname} has become more vulnerable to Shell Matching!
 > END STRING
 
 > BEGIN STRING
@@ -76915,9 +76915,9 @@ You're exceeding the maximum level!
 > END STRING
 
 > BEGIN STRING
-#{bonus.name}」を習得
+「#{bonus.name}」を習得
 > CONTEXT: PR_Window_PromiseRight.rb
-
+Learn 「#{bonus.name}」
 > END STRING
 
 > BEGIN STRING
