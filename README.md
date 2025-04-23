@@ -1,7 +1,7 @@
 # Succubus Rhapsodia translation project.
-Mostly edited MTL using a combination of many tools and some basic understanding of Japanese.
+Largely manually translated line by line, albeit with the assistance of various MTL tools and consulting the Japanese modding community to support my basic level Japanese.
 If you encounter issues, please read below so you understand what are relevant bugs to report.
-In general, please report game logic bugs (from a fresh save).
+In general, please report game logic bugs (from a save started with the translation applied).
 If you want translations to be improved, look at the help section below.
 
 ### Original work by Dreamania. The official game is required to apply this patch.
@@ -9,7 +9,7 @@ If you want translations to be improved, look at the help section below.
 ## Progress
 Basically, the game is fully translated. The only major part that would still require work is editing the combat dialog of regular enemies. 
 It's based on GoogleTranslate with some automated fixes applied on top. The most common lines that showed up while testing have been edited, but a lot remains unedited.
-However, since there is a lot of such text and most of it won't be seen by players, this is not a priority for me.
+This is currently being worked on and should be done soon.
 Boss dialog is manually checked and edited.
 
 ## Installation Instructions
@@ -48,7 +48,7 @@ In other words, it's best to start a new save after applying this mod, although 
 Note also that when you load a save, the current map is loaded from the save and changes won't be applied until you re-enter that map.
 
 ## Help
-If you want to help, the most helpful thing would be translating/editing character specific dialog in characters.txt. 
+While the base game is now almost fully manually translated, feel free to suggest/pull request improvements. There is likely some amount of nuance that I may have not translated as well as it could and there is always a good chance of mistakes here and there. The pronouns system also felt really difficult to translate so I'm open to ideas for that.
 However, if you wish to start translating, make sure you understand what the correct formatting is, 
 and if the translated strings are used elsewhere, especially for control logic, make sure it's consistent.
 You must also take care with text wrapping. It's easy to make it overflow.
