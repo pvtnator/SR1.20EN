@@ -111,12 +111,14 @@ if __name__ == "__main__":
     #source_files = [current_dir / "mod_scripts.txt"]
     #source_files = [current_dir / "patch" / "Unused.txt"]
     #source_files = [current_dir / "patch" / "Armors.txt"]
-    source_files = [current_dir / "patch" / "Skills.txt"]
+    source_files = [current_dir / "patch" / "Enemies.txt"]
+    #source_files = [current_dir / "patch" / "Troops.txt"]
+    #source_files = [current_dir / "patch" / "Skills.txt"]
     #source_files = [current_dir / "mapswap" / "patch" / "Skills.txt"]
     #source_files += [current_dir / "patch" / "Scripts.txt"]
     #source_files += [current_dir / "patch" / "Items.txt"]
     dest_files = [current_dir / "mod_scripts.txt"]
-    #dest_files += [current_dir / "talk.txt"]
+    dest_files += [current_dir / "talk.txt"]
     #dest_files = [current_dir / "patch" / "Skills.txt"]
     #for file in (current_dir / "patch").rglob("*.txt"):
     #    if not "Unused" in str(file) and not "States" in str(file):
