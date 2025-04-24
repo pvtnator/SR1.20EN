@@ -96,53 +96,25 @@ Come back when you're ready.
 
 > BEGIN STRING
 ニュクスと再戦しますか？
-> CONTEXT: Map749/events/22/pages/0/0/Dialogue
+> CONTEXT: None < UNUSED
 Will you rematch with Nyx?
 > END STRING
 
 > BEGIN STRING
 戦う
-> CONTEXT: Map749/events/22/pages/0/1/Choice/0
-> CONTEXT: Map749/events/22/pages/0/1/Choice/0
 > CONTEXT: Map624/events/101/pages/0/1/Choice/0
 > CONTEXT: Map624/events/101/pages/0/1/Choice/0
-> CONTEXT: Map523/events/2/pages/0/11/Choice/0
-> CONTEXT: Map523/events/2/pages/0/11/Choice/0
-> CONTEXT: Map523/events/3/pages/0/11/Choice/0
-> CONTEXT: Map523/events/3/pages/0/11/Choice/0
-> CONTEXT: Map523/events/4/pages/0/11/Choice/0
-> CONTEXT: Map523/events/4/pages/0/11/Choice/0
-> CONTEXT: Map523/events/5/pages/0/11/Choice/0
-> CONTEXT: Map523/events/5/pages/0/11/Choice/0
 > CONTEXT: Map624/events/164/pages/0/1/Choice/0
 > CONTEXT: Map624/events/164/pages/0/1/Choice/0
-> CONTEXT: Map523/events/6/pages/0/11/Choice/0
-> CONTEXT: Map523/events/6/pages/0/11/Choice/0
-> CONTEXT: Map523/events/7/pages/0/11/Choice/0
-> CONTEXT: Map523/events/7/pages/0/11/Choice/0
-> CONTEXT: Map523/events/8/pages/0/11/Choice/0
-> CONTEXT: Map523/events/8/pages/0/11/Choice/0
 > CONTEXT: Map523/events/10/pages/0/1/Choice/0
 > CONTEXT: Map523/events/10/pages/0/1/Choice/0
 > CONTEXT: Map523/events/11/pages/0/1/Choice/0
 > CONTEXT: Map523/events/11/pages/0/1/Choice/0
-> CONTEXT: Map523/events/12/pages/0/11/Choice/0
-> CONTEXT: Map523/events/12/pages/0/11/Choice/0
-> CONTEXT: Map523/events/13/pages/0/11/Choice/0
-> CONTEXT: Map523/events/13/pages/0/11/Choice/0
-> CONTEXT: Map523/events/14/pages/0/11/Choice/0
-> CONTEXT: Map523/events/14/pages/0/11/Choice/0
-> CONTEXT: Map523/events/15/pages/0/11/Choice/0
-> CONTEXT: Map523/events/15/pages/0/11/Choice/0
-> CONTEXT: Map523/events/17/pages/0/11/Choice/0
-> CONTEXT: Map523/events/17/pages/0/11/Choice/0
 Fight
 > END STRING
 
 > BEGIN STRING
 ニュクス単体と戦う
-> CONTEXT: Map749/events/22/pages/0/1/Choice/1
-> CONTEXT: Map749/events/22/pages/0/1/Choice/1
 > CONTEXT: Map624/events/164/pages/0/1/Choice/1
 > CONTEXT: Map624/events/164/pages/0/1/Choice/1
 Fight Nyx alone
@@ -150,8 +122,6 @@ Fight Nyx alone
 
 > BEGIN STRING
 戦わない
-> CONTEXT: Map749/events/22/pages/0/1/Choice/2
-> CONTEXT: Map749/events/22/pages/0/1/Choice/2
 > CONTEXT: Map624/events/101/pages/0/1/Choice/1
 > CONTEXT: Map624/events/101/pages/0/1/Choice/1
 > CONTEXT: Map624/events/140/pages/0/4/Choice/2
@@ -168,62 +138,12 @@ Fight Nyx alone
 > CONTEXT: Map624/events/145/pages/0/4/Choice/2
 > CONTEXT: Map624/events/146/pages/0/3/Choice/2
 > CONTEXT: Map624/events/146/pages/0/3/Choice/2
-> CONTEXT: Map523/events/2/pages/0/11/Choice/1
-> CONTEXT: Map523/events/2/pages/0/11/Choice/1
-> CONTEXT: Map523/events/2/pages/1/11/Choice/3
-> CONTEXT: Map523/events/2/pages/1/11/Choice/3
-> CONTEXT: Map523/events/3/pages/0/11/Choice/1
-> CONTEXT: Map523/events/3/pages/0/11/Choice/1
-> CONTEXT: Map523/events/3/pages/1/11/Choice/3
-> CONTEXT: Map523/events/3/pages/1/11/Choice/3
-> CONTEXT: Map523/events/4/pages/0/11/Choice/1
-> CONTEXT: Map523/events/4/pages/0/11/Choice/1
-> CONTEXT: Map523/events/4/pages/1/11/Choice/3
-> CONTEXT: Map523/events/4/pages/1/11/Choice/3
-> CONTEXT: Map523/events/5/pages/0/11/Choice/1
-> CONTEXT: Map523/events/5/pages/0/11/Choice/1
-> CONTEXT: Map523/events/5/pages/1/11/Choice/3
 > CONTEXT: Map624/events/164/pages/0/1/Choice/2
 > CONTEXT: Map624/events/164/pages/0/1/Choice/2
-> CONTEXT: Map523/events/5/pages/1/11/Choice/3
-> CONTEXT: Map523/events/6/pages/0/11/Choice/1
-> CONTEXT: Map523/events/6/pages/0/11/Choice/1
-> CONTEXT: Map523/events/6/pages/1/11/Choice/2
-> CONTEXT: Map523/events/6/pages/1/11/Choice/2
-> CONTEXT: Map523/events/7/pages/0/11/Choice/1
-> CONTEXT: Map523/events/7/pages/0/11/Choice/1
-> CONTEXT: Map523/events/7/pages/1/11/Choice/3
-> CONTEXT: Map523/events/7/pages/1/11/Choice/3
-> CONTEXT: Map523/events/8/pages/0/11/Choice/1
-> CONTEXT: Map523/events/8/pages/0/11/Choice/1
-> CONTEXT: Map523/events/8/pages/1/11/Choice/2
-> CONTEXT: Map523/events/8/pages/1/11/Choice/2
-> CONTEXT: Map523/events/9/pages/0/11/Choice/2
-> CONTEXT: Map523/events/9/pages/0/11/Choice/2
 > CONTEXT: Map523/events/10/pages/0/1/Choice/1
 > CONTEXT: Map523/events/10/pages/0/1/Choice/1
 > CONTEXT: Map523/events/11/pages/0/1/Choice/1
 > CONTEXT: Map523/events/11/pages/0/1/Choice/1
-> CONTEXT: Map523/events/12/pages/0/11/Choice/1
-> CONTEXT: Map523/events/12/pages/0/11/Choice/1
-> CONTEXT: Map523/events/12/pages/1/11/Choice/2
-> CONTEXT: Map523/events/12/pages/1/11/Choice/2
-> CONTEXT: Map523/events/13/pages/0/11/Choice/1
-> CONTEXT: Map523/events/13/pages/0/11/Choice/1
-> CONTEXT: Map523/events/13/pages/1/11/Choice/2
-> CONTEXT: Map523/events/13/pages/1/11/Choice/2
-> CONTEXT: Map523/events/14/pages/0/11/Choice/1
-> CONTEXT: Map523/events/14/pages/0/11/Choice/1
-> CONTEXT: Map523/events/14/pages/1/11/Choice/2
-> CONTEXT: Map523/events/14/pages/1/11/Choice/2
-> CONTEXT: Map523/events/15/pages/0/11/Choice/1
-> CONTEXT: Map523/events/15/pages/0/11/Choice/1
-> CONTEXT: Map523/events/16/pages/0/11/Choice/2
-> CONTEXT: Map523/events/16/pages/0/11/Choice/2
-> CONTEXT: Map523/events/17/pages/0/11/Choice/1
-> CONTEXT: Map523/events/17/pages/0/11/Choice/1
-> CONTEXT: Map523/events/18/pages/0/11/Choice/2
-> CONTEXT: Map523/events/18/pages/0/11/Choice/2
 Don't fight
 > END STRING
 

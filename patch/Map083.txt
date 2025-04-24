@@ -610,7 +610,7 @@ Meow.
 \\name[\\v[2]]\\_
 それー♪
 花粉、鱗粉をぶわー\\H
-> CONTEXT: Map083/events/28/pages/0/12/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 That's it♪
 Pollen and scales are flying around\\H
@@ -619,7 +619,7 @@ Pollen and scales are flying around\\H
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ……んー？
-> CONTEXT: Map083/events/28/pages/0/18/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 ...Hmm?
 > END STRING
@@ -628,7 +628,7 @@ Pollen and scales are flying around\\H
 \\name[\\v[2]]\\_
 あはっ\\H
 ひょっとして、この香りが気に入ってくれたのかしら♪
-> CONTEXT: Map083/events/28/pages/0/21/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Ahhh\\H
 Maybe you like this scent♪
@@ -638,7 +638,7 @@ Maybe you like this scent♪
 \\name[\\v[2]]\\_
 えー、やめてほしいの～？
 ちょっとイミわかんな～い！
-> CONTEXT: Map083/events/28/pages/0/25/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Eh, you want me to stop?
 I don't get it!
@@ -648,7 +648,7 @@ I don't get it!
 \\name[\\v[2]]\\_
 この世界、ちょっと味気ないから
 私がイイ香りを振りまいてあげてるんじゃ～ん！
-> CONTEXT: Map083/events/28/pages/0/28/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 This world is a bit dull, so I'm spreading a nice scent around!
 > END STRING
@@ -657,7 +657,7 @@ This world is a bit dull, so I'm spreading a nice scent around!
 \\name[\\v[2]]\\_
 文句があるなら、キミもこの香りの
 トリコにしたげる～\\H
-> CONTEXT: Map083/events/28/pages/0/31/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 If you have a problem with this, 
 I'll make you fall in love with this scent too~\\H
@@ -665,7 +665,7 @@ I'll make you fall in love with this scent too~\\H
 
 > BEGIN STRING
 "アランシア"
-> CONTEXT: Map083/events/28/pages/0/74/InlineScript/1:22
+> CONTEXT: Map083/events/28/pages/0/75/InlineScript/1:22
 "Arancia"
 > END STRING
 
@@ -673,7 +673,7 @@ I'll make you fall in love with this scent too~\\H
 \\name[\\v[2]]\\_
 ああんっ……\\H
 も～、そこまで言うなら分かったわよぉ～……！
-> CONTEXT: Map083/events/28/pages/0/75/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Ahhh...\\H
 Well, if you say so, I understand...!
@@ -791,4 +791,60 @@ I must train hard so as not to expose my disgrace to such an enemy.
 \\name[\\v[2]]\\_
 Well then.
 See you again somewhere!
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あっはは\\H　そぉら\\H
+このアランシアの鱗粉をたっぷり吸い込みなさぁい\\H
+> CONTEXT: Map083/events/28/pages/0/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……あらぁ？
+> CONTEXT: Map083/events/28/pages/0/18/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あははっ\\H
+ひょっとして、わたくしの鱗粉が気に入りましたぁ？
+> CONTEXT: Map083/events/28/pages/0/21/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+は……？　やめてほしい、ですって？
+このアランシアの虜にならないばかりか、
+何様のつもりで命令してますの？
+> CONTEXT: Map083/events/28/pages/0/25/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+せっかくこの場のたくさんの方に、
+わたくしの鱗粉の虜になってもらおうというのに！
+> CONTEXT: Map083/events/28/pages/0/29/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+文句を言うような愚鈍な方は、
+中毒にして何も言えなくしてさしあげます\\H
+> CONTEXT: Map083/events/28/pages/0/32/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ああんっ……\\H
+もぅ！　ここまで強情な方だなんて……！
+> CONTEXT: Map083/events/28/pages/0/76/Dialogue < UNTRANSLATED
+
 > END STRING

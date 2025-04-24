@@ -44,7 +44,6 @@ Learn the terror of the Kunoichi!
 > CONTEXT: Map766/events/16/pages/0/68/Dialogue
 > CONTEXT: Map588/events/2/pages/0/70/Dialogue
 > CONTEXT: Map588/events/2/pages/1/23/Dialogue
-> CONTEXT: Map517/events/14/pages/0/86/Dialogue
 > CONTEXT: Map510/events/6/pages/0/67/Dialogue
 > CONTEXT: Map506/events/20/pages/0/40/Dialogue
 > CONTEXT: Map506/events/23/pages/0/41/Dialogue
@@ -59,9 +58,10 @@ Learn the terror of the Kunoichi!
 > CONTEXT: Map256/events/3/pages/0/35/Dialogue
 > CONTEXT: Map255/events/12/pages/0/81/Dialogue
 > CONTEXT: Map063/events/5/pages/0/14/Dialogue
-> CONTEXT: Map083/events/28/pages/0/40/Dialogue
 > CONTEXT: Map096/events/57/pages/0/139/Dialogue
 > CONTEXT: Map096/events/57/pages/0/332/Dialogue
+> CONTEXT: Map517/events/14/pages/0/85/Dialogue
+> CONTEXT: Map083/events/28/pages/0/41/Dialogue
 Outcome of the battle?
 > END STRING
 
@@ -83,8 +83,6 @@ Outcome of the battle?
 > CONTEXT: Map588/events/2/pages/0/71/Choice/0
 > CONTEXT: Map588/events/2/pages/1/24/Choice/0
 > CONTEXT: Map588/events/2/pages/1/24/Choice/0
-> CONTEXT: Map517/events/14/pages/0/87/Choice/0
-> CONTEXT: Map517/events/14/pages/0/87/Choice/0
 > CONTEXT: Map510/events/6/pages/0/68/Choice/0
 > CONTEXT: Map510/events/6/pages/0/68/Choice/0
 > CONTEXT: Map506/events/20/pages/0/41/Choice/0
@@ -113,12 +111,14 @@ Outcome of the battle?
 > CONTEXT: Map255/events/12/pages/0/82/Choice/0
 > CONTEXT: Map063/events/5/pages/0/15/Choice/0
 > CONTEXT: Map063/events/5/pages/0/15/Choice/0
-> CONTEXT: Map083/events/28/pages/0/41/Choice/0
-> CONTEXT: Map083/events/28/pages/0/41/Choice/0
 > CONTEXT: Map096/events/57/pages/0/140/Choice/0
 > CONTEXT: Map096/events/57/pages/0/140/Choice/0
 > CONTEXT: Map096/events/57/pages/0/333/Choice/0
 > CONTEXT: Map096/events/57/pages/0/333/Choice/0
+> CONTEXT: Map517/events/14/pages/0/86/Choice/0
+> CONTEXT: Map517/events/14/pages/0/86/Choice/0
+> CONTEXT: Map083/events/28/pages/0/42/Choice/0
+> CONTEXT: Map083/events/28/pages/0/42/Choice/0
 Victory
 > END STRING
 
@@ -159,13 +159,9 @@ Victory
 > CONTEXT: Map588/events/2/pages/1/24/Choice/2
 > CONTEXT: Map588/events/2/pages/1/35/Label
 > CONTEXT: Map588/events/2/pages/1/76/Label
-> CONTEXT: Map517/events/14/pages/0/87/Choice/1
-> CONTEXT: Map517/events/14/pages/0/87/Choice/1
 > CONTEXT: Map510/events/6/pages/0/68/Choice/1
-> CONTEXT: Map517/events/14/pages/0/94/Label
 > CONTEXT: Map510/events/6/pages/0/68/Choice/1
 > CONTEXT: Map510/events/6/pages/0/75/Label
-> CONTEXT: Map517/events/14/pages/0/108/Label
 > CONTEXT: Map510/events/6/pages/0/112/Label
 > CONTEXT: Map517/events/22/pages/1/9/Label
 > CONTEXT: Map517/events/23/pages/1/10/Label
@@ -215,26 +211,29 @@ Victory
 > CONTEXT: Map256/events/3/pages/0/36/Choice/1
 > CONTEXT: Map256/events/3/pages/0/36/Choice/1
 > CONTEXT: Map256/events/3/pages/0/43/Label
-> CONTEXT: Map256/events/3/pages/0/82/Label
 > CONTEXT: Map255/events/12/pages/0/82/Choice/1
 > CONTEXT: Map255/events/12/pages/0/82/Choice/1
 > CONTEXT: Map255/events/12/pages/0/89/Label
 > CONTEXT: Map255/events/12/pages/0/104/Label
-> CONTEXT: Map102/events/11/pages/1/10/Label
 > CONTEXT: Map063/events/5/pages/0/15/Choice/1
 > CONTEXT: Map063/events/5/pages/0/15/Choice/1
 > CONTEXT: Map063/events/5/pages/0/22/Label
 > CONTEXT: Map063/events/5/pages/0/36/Label
-> CONTEXT: Map083/events/28/pages/0/41/Choice/1
 > CONTEXT: Map096/events/57/pages/0/140/Choice/1
-> CONTEXT: Map083/events/28/pages/0/41/Choice/1
-> CONTEXT: Map083/events/28/pages/0/48/Label
 > CONTEXT: Map096/events/57/pages/0/140/Choice/1
-> CONTEXT: Map083/events/28/pages/0/64/Label
 > CONTEXT: Map096/events/57/pages/0/147/Label
 > CONTEXT: Map096/events/57/pages/0/161/Label
 > CONTEXT: Map096/events/57/pages/0/333/Choice/1
 > CONTEXT: Map096/events/57/pages/0/333/Choice/1
+> CONTEXT: Map517/events/14/pages/0/86/Choice/1
+> CONTEXT: Map517/events/14/pages/0/86/Choice/1
+> CONTEXT: Map517/events/14/pages/0/93/Label
+> CONTEXT: Map517/events/14/pages/0/107/Label
+> CONTEXT: Map256/events/3/pages/0/87/Label
+> CONTEXT: Map083/events/28/pages/0/42/Choice/1
+> CONTEXT: Map083/events/28/pages/0/42/Choice/1
+> CONTEXT: Map083/events/28/pages/0/49/Label
+> CONTEXT: Map083/events/28/pages/0/65/Label
 Defeat
 > END STRING
 
@@ -468,10 +467,7 @@ Have a rematch with Black Kirin?
 > CONTEXT: Map845/events/60/pages/0/2/InlineScript/5:34 < UNTRANSLATED
 > CONTEXT: Map845/events/85/pages/0/2/InlineScript/5:34 < UNTRANSLATED
 > CONTEXT: Map845/events/91/pages/0/2/InlineScript/5:34 < UNTRANSLATED
-> CONTEXT: Map749/events/22/pages/0/5/InlineScript/1:34 < UNTRANSLATED
-> CONTEXT: Map749/events/22/pages/0/25/InlineScript/1:34 < UNTRANSLATED
 > CONTEXT: Map749/events/23/pages/0/52/InlineScript/1:34 < UNTRANSLATED
-> CONTEXT: Map517/events/14/pages/0/83/InlineScript/1:34 < UNTRANSLATED
 > CONTEXT: Map624/events/164/pages/0/5/InlineScript/1:34 < UNTRANSLATED
 > CONTEXT: Map624/events/164/pages/0/24/InlineScript/1:34 < UNTRANSLATED
 > CONTEXT: Map478/events/9/pages/0/2/InlineScript/5:34 < UNTRANSLATED
@@ -514,14 +510,8 @@ Have a rematch with Black Kirin?
 > CONTEXT: Map210/events/22/pages/0/9/InlineScript/1:34 < UNTRANSLATED
 > CONTEXT: Map169/events/6/pages/0/2/InlineScript/5:34 < UNTRANSLATED
 > CONTEXT: Map169/events/7/pages/0/2/InlineScript/5:34 < UNTRANSLATED
-> CONTEXT: Map169/events/9/pages/0/2/InlineScript/5:34 < UNTRANSLATED
 > CONTEXT: Map169/events/10/pages/0/2/InlineScript/5:34 < UNTRANSLATED
 > CONTEXT: Map169/events/11/pages/0/2/InlineScript/5:34 < UNTRANSLATED
-> CONTEXT: Map169/events/15/pages/0/2/InlineScript/5:34 < UNTRANSLATED
-> CONTEXT: Map169/events/16/pages/0/2/InlineScript/5:34 < UNTRANSLATED
-> CONTEXT: Map169/events/18/pages/0/2/InlineScript/5:34 < UNTRANSLATED
-> CONTEXT: Map169/events/35/pages/0/2/InlineScript/5:34 < UNTRANSLATED
-> CONTEXT: Map169/events/36/pages/0/2/InlineScript/5:34 < UNTRANSLATED
 > CONTEXT: Map169/events/39/pages/0/2/InlineScript/5:34 < UNTRANSLATED
 > CONTEXT: Map169/events/40/pages/0/2/InlineScript/5:34 < UNTRANSLATED
 > CONTEXT: Map169/events/41/pages/0/2/InlineScript/5:34 < UNTRANSLATED
@@ -529,10 +519,16 @@ Have a rematch with Black Kirin?
 > CONTEXT: Map169/events/43/pages/0/2/InlineScript/5:34 < UNTRANSLATED
 > CONTEXT: Map169/events/44/pages/0/2/InlineScript/5:34 < UNTRANSLATED
 > CONTEXT: Map169/events/45/pages/0/2/InlineScript/5:34 < UNTRANSLATED
-> CONTEXT: Map169/events/50/pages/0/2/InlineScript/5:34 < UNTRANSLATED
 > CONTEXT: Map102/events/5/pages/0/80/InlineScript/1:34 < UNTRANSLATED
 > CONTEXT: Map063/events/6/pages/1/9/InlineScript/1:34 < UNTRANSLATED
-> CONTEXT: Map083/events/28/pages/0/37/InlineScript/1:34 < UNTRANSLATED
+> CONTEXT: Map517/events/14/pages/0/82/InlineScript/1:34 < UNTRANSLATED
+> CONTEXT: Map523/events/24/pages/0/17/InlineScript/1:34 < UNTRANSLATED
+> CONTEXT: Map523/events/24/pages/0/41/InlineScript/1:34 < UNTRANSLATED
+> CONTEXT: Map523/events/25/pages/0/17/InlineScript/1:34 < UNTRANSLATED
+> CONTEXT: Map523/events/25/pages/0/41/InlineScript/1:34 < UNTRANSLATED
+> CONTEXT: Map523/events/43/pages/0/18/InlineScript/1:34 < UNTRANSLATED
+> CONTEXT: Map523/events/43/pages/0/42/InlineScript/1:34 < UNTRANSLATED
+> CONTEXT: Map083/events/28/pages/0/38/InlineScript/1:34 < UNTRANSLATED
 
 > END STRING
 
@@ -564,9 +560,7 @@ Have a rematch with Black Kirin?
 > CONTEXT: Map510/events/6/pages/0/71/Label < UNTRANSLATED
 > CONTEXT: Map510/events/6/pages/0/85/Label < UNTRANSLATED
 > CONTEXT: Map506/events/20/pages/0/44/Label < UNTRANSLATED
-> CONTEXT: Map517/events/14/pages/0/90/Label < UNTRANSLATED
 > CONTEXT: Map506/events/20/pages/0/59/Label < UNTRANSLATED
-> CONTEXT: Map517/events/14/pages/0/105/Label < UNTRANSLATED
 > CONTEXT: Map517/events/22/pages/1/6/Label < UNTRANSLATED
 > CONTEXT: Map517/events/23/pages/1/7/Label < UNTRANSLATED
 > CONTEXT: Map506/events/23/pages/0/45/Label < UNTRANSLATED
@@ -594,12 +588,13 @@ Have a rematch with Black Kirin?
 > CONTEXT: Map256/events/3/pages/0/55/Label < UNTRANSLATED
 > CONTEXT: Map255/events/12/pages/0/85/Label < UNTRANSLATED
 > CONTEXT: Map255/events/12/pages/0/100/Label < UNTRANSLATED
-> CONTEXT: Map102/events/11/pages/1/7/Label < UNTRANSLATED
 > CONTEXT: Map063/events/5/pages/0/18/Label < UNTRANSLATED
 > CONTEXT: Map063/events/5/pages/0/33/Label < UNTRANSLATED
 > CONTEXT: Map096/events/57/pages/0/143/Label < UNTRANSLATED
 > CONTEXT: Map096/events/57/pages/0/158/Label < UNTRANSLATED
-> CONTEXT: Map083/events/28/pages/0/44/Label < UNTRANSLATED
-> CONTEXT: Map083/events/28/pages/0/59/Label < UNTRANSLATED
+> CONTEXT: Map517/events/14/pages/0/89/Label < UNTRANSLATED
+> CONTEXT: Map517/events/14/pages/0/104/Label < UNTRANSLATED
+> CONTEXT: Map083/events/28/pages/0/45/Label < UNTRANSLATED
+> CONTEXT: Map083/events/28/pages/0/60/Label < UNTRANSLATED
 
 > END STRING

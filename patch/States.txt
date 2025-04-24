@@ -653,25 +653,25 @@ Charm
 
 > BEGIN STRING
 無防備
-> CONTEXT: States/95/name/ < UNTRANSLATED
-> CONTEXT: Map600/events/1/pages/0/13/Choice/2 < UNTRANSLATED
-> CONTEXT: Map600/events/1/pages/0/13/Choice/2 < UNTRANSLATED
-> CONTEXT: Map600/events/1/pages/0/57/Choice/2 < UNTRANSLATED
-> CONTEXT: Map600/events/1/pages/0/57/Choice/2 < UNTRANSLATED
-> CONTEXT: Map586/events/11/pages/0/13/Choice/2 < UNTRANSLATED
-> CONTEXT: Map586/events/11/pages/0/13/Choice/2 < UNTRANSLATED
-> CONTEXT: Map586/events/11/pages/0/57/Choice/2 < UNTRANSLATED
-> CONTEXT: Map586/events/11/pages/0/57/Choice/2 < UNTRANSLATED
-> CONTEXT: Map472/events/7/pages/0/14/Choice/2 < UNTRANSLATED
-> CONTEXT: Map472/events/7/pages/0/14/Choice/2 < UNTRANSLATED
-> CONTEXT: Map472/events/7/pages/0/58/Choice/2 < UNTRANSLATED
-> CONTEXT: Map472/events/7/pages/0/58/Choice/2 < UNTRANSLATED
-> CONTEXT: Commonevents/280/594/Choice/2 < UNTRANSLATED
-> CONTEXT: Commonevents/280/594/Choice/2 < UNTRANSLATED
-> CONTEXT: Commonevents/280/958/Choice/1 < UNTRANSLATED
-> CONTEXT: Commonevents/280/958/Choice/1 < UNTRANSLATED
-> CONTEXT: Commonevents/280/1630/Choice/2 < UNTRANSLATED
-> CONTEXT: Commonevents/280/1630/Choice/2 < UNTRANSLATED
+> CONTEXT: States/95/name/
+> CONTEXT: Map600/events/1/pages/0/13/Choice/2
+> CONTEXT: Map600/events/1/pages/0/13/Choice/2
+> CONTEXT: Map600/events/1/pages/0/57/Choice/2
+> CONTEXT: Map600/events/1/pages/0/57/Choice/2
+> CONTEXT: Map586/events/11/pages/0/13/Choice/2
+> CONTEXT: Map586/events/11/pages/0/13/Choice/2
+> CONTEXT: Map586/events/11/pages/0/57/Choice/2
+> CONTEXT: Map586/events/11/pages/0/57/Choice/2
+> CONTEXT: Map472/events/7/pages/0/14/Choice/2
+> CONTEXT: Map472/events/7/pages/0/14/Choice/2
+> CONTEXT: Map472/events/7/pages/0/58/Choice/2
+> CONTEXT: Map472/events/7/pages/0/58/Choice/2
+> CONTEXT: Commonevents/280/594/Choice/2
+> CONTEXT: Commonevents/280/594/Choice/2
+> CONTEXT: Commonevents/280/958/Choice/1
+> CONTEXT: Commonevents/280/958/Choice/1
+> CONTEXT: Commonevents/280/1630/Choice/2
+> CONTEXT: Commonevents/280/1630/Choice/2
 Defenseless
 > END STRING
 
@@ -917,7 +917,6 @@ Feel
 
 > BEGIN STRING
 契約干渉
-> CONTEXT: States/128/name/
 > CONTEXT: Commonevents/280/715/Choice/3
 > CONTEXT: Commonevents/280/715/Choice/3
 > CONTEXT: Commonevents/280/1751/Choice/3
@@ -2657,5 +2656,35 @@ Deep Spot
 > BEGIN STRING
 物語,永遠の絆
 > CONTEXT: States/460/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+催眠
+> CONTEXT: States/128/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+雪夜に溶けゆく
+> CONTEXT: States/397/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+雪夜に溶けゆく制限
+> CONTEXT: States/398/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+還り来る者
+> CONTEXT: States/447/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+還り来る者制限
+> CONTEXT: States/448/name/ < UNTRANSLATED
 
 > END STRING

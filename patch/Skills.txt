@@ -2357,7 +2357,7 @@ Trim Vines
 
 > BEGIN STRING
 [魔法] 味方１人の眠り・骨抜き・拘束･狂乱・虜を解除する。
-> CONTEXT: Skills/217/description/
+> CONTEXT: None < UNUSED
 [Magic] Removes Sleep, Weakness, Restraint, Frenzy, and Captivity from 1 ally.
 > END STRING
 
@@ -4107,13 +4107,13 @@ Uplifting Kiss/100
 
 > BEGIN STRING
 癒しの口付け/70
-> CONTEXT: Skills/423/name/
+> CONTEXT: None < UNUSED
 Healing Kiss/70
 > END STRING
 
 > BEGIN STRING
 [口→口] 味方に口付けをしてＥＰを小回復させ、スタン・恍惚・暴走を解除する。
-> CONTEXT: Skills/423/description/
+> CONTEXT: None < UNUSED
 [Mouth→Mouth] Kisses ally to recover a bit of EP, cure stun, ecstasy, and berserk.
 > END STRING
 
@@ -9720,37 +9720,37 @@ Drain energy directly from the soul. Reduce VP further if climaxed. [Condition: 
 
 > BEGIN STRING
 女王の寵愛
-> CONTEXT: Skills/1210/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 [魔法] 味方１人の全ての能力を１段階強めムードを上げる。
-> CONTEXT: Skills/1210/description/
+> CONTEXT: None < UNUSED
 [Magic] Increases all abilities of 1 ally by 1 level and improves mood.
 > END STRING
 
 > BEGIN STRING
 大魔の指先/100
-> CONTEXT: Skills/1211/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 [手→体] 敵全員を攻める。[条件：ムード50][低確率:欲情・虚脱・麻痺][精力]
-> CONTEXT: Skills/1211/description/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 魔女の叡智
-> CONTEXT: Skills/1212/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 [魔法] 味方１人のＥＰを特大回復させ、祝福状態にする。
-> CONTEXT: Skills/1212/description/
+> CONTEXT: None < UNUSED
 [Magic] Recovers a large amount of EP for 1 ally and blesses them.
 > END STRING
 
@@ -10783,13 +10783,13 @@ Thousand-Armed Kannon
 
 > BEGIN STRING
 毒霞の術
-> CONTEXT: Skills/1326/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 毒の粉を吹き付け、淫毒・欲情・麻痺を付与する。
-> CONTEXT: Skills/1326/description/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -10813,7 +10813,7 @@ Meditation
 
 > BEGIN STRING
 ＥＰを回復すると共に、欲情を鎮めて沈着状態になる。
-> CONTEXT: Skills/1328/description/
+> CONTEXT: None < UNUSED
 Recover EP and calm lust, putting you in a calm state.
 > END STRING
 
@@ -10825,7 +10825,7 @@ Recover EP and calm lust, putting you in a calm state.
 
 > BEGIN STRING
 [口→口] 奥歯に仕込んだ淫毒を相手に口移しする。
-> CONTEXT: Skills/1329/description/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -11640,7 +11640,7 @@ Lost Impact
 
 > BEGIN STRING
 [踊り 場：全] 剣を使って｢アルダ｣を舞う。５ターンの間、敵味方全員の忍耐力を下げ、味方の素早さアップ。
-> CONTEXT: Skills/1415/description/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -11700,25 +11700,25 @@ Lost Impact
 
 > BEGIN STRING
 回復の口付け/100
-> CONTEXT: Skills/1422/name/
+> CONTEXT: None < UNUSED
 Recovery Kiss/100
 > END STRING
 
 > BEGIN STRING
 [口→口] 味方に口付けをしてＥＰをチュー回復させ、スタン、恍惚、暴走、虚脱を解除する。
-> CONTEXT: Skills/1422/description/
+> CONTEXT: None < UNUSED
 [Mouth→Mouth] Kiss ally to recover EP, cure stun, ecstasy, berserk, lethargy.
 > END STRING
 
 > BEGIN STRING
 快癒の口付け/100
-> CONTEXT: Skills/1423/name/
+> CONTEXT: None < UNUSED
 Soothing Kiss/100
 > END STRING
 
 > BEGIN STRING
 [口→口] 味方に口付けをしてＥＰを大回復させ、スタン、淫毒、恍惚、暴走、虚脱、麻痺を解除する。
-> CONTEXT: Skills/1423/description/
+> CONTEXT: None < UNUSED
 [Mouth→Mouth] Heal EP, stun, poison, ecstasy, berserk, lethargy, paralysis.
 > END STRING
 
@@ -12924,7 +12924,7 @@ Tingly Pleasure/85/3
 
 > BEGIN STRING
 [魔法] 敵全体をゾクゾクするような電流で攻め、体を敏感な状態にさせる。[精神力]
-> CONTEXT: Skills/1564/description/
+> CONTEXT: None < UNUSED
 [Magic] Hypersensitizing tingling electric current. [Spirit]
 > END STRING
 
@@ -12936,19 +12936,19 @@ Burning Flames of Love/90
 
 > BEGIN STRING
 [魔法] 敵全体の心に火を付け、低確率で暴走させる。[精神力]
-> CONTEXT: Skills/1566/description/
+> CONTEXT: None < UNUSED
 [Magic] Inflicts berserk on all enemies with a low chance. [Spirit]
 > END STRING
 
 > BEGIN STRING
 静寂の雨/100
-> CONTEXT: Skills/1569/name/
+> CONTEXT: None < UNUSED
 Silent Rain/100
 > END STRING
 
 > BEGIN STRING
 [魔法] 敵全体に暖かい雨を浴びせ、潤滑度を上げる。[精神力]
-> CONTEXT: Skills/1569/description/
+> CONTEXT: None < UNUSED
 [Magic] Splashes warm rain, increasing enemies' lubrication. [Spirit]
 > END STRING
 
@@ -13870,79 +13870,79 @@ Melty Kiss/160/6
 
 > BEGIN STRING
 [口→胸][CT:6] 胸や乳首を強く吸い上げる。[精力]
-> CONTEXT: Skills/1821/description/ < UNTRANSLATED
+> CONTEXT: Skills/1821/description/
 [Mouth→Chest][CT:6] Suck the breasts and nipples hard. [Energy]
 > END STRING
 
 > BEGIN STRING
 ドラッグサック/180/6
-> CONTEXT: Skills/1822/name/ < UNTRANSLATED
+> CONTEXT: Skills/1822/name/
 Drug Suck/180/6
 > END STRING
 
 > BEGIN STRING
 [口→胸][CT:6] 乳首を吸いあげる。高威力だが……[精力][母乳カウンター]
-> CONTEXT: Skills/1822/description/ < UNTRANSLATED
+> CONTEXT: Skills/1822/description/
 [Mouth→Chest][CT:6] Suck nipple. Strong, but...[Energy][Breastmilk Counter]
 > END STRING
 
 > BEGIN STRING
 ラブチャージ/50
-> CONTEXT: Skills/1823/name/ < UNTRANSLATED
+> CONTEXT: Skills/1823/name/
 Love Charge/50
 > END STRING
 
 > BEGIN STRING
 [口→胸] 胸に顔を擦り付けて甘える。[中：欲情][精力]
-> CONTEXT: Skills/1823/description/ < UNTRANSLATED
+> CONTEXT: Skills/1823/description/
 [Mouth→Chest] Rub face against breasts and act sweet. [Lust][Energy]
 > END STRING
 
 > BEGIN STRING
 ラブストローク/50
-> CONTEXT: Skills/1824/name/ < UNTRANSLATED
+> CONTEXT: Skills/1824/name/
 Love Stroke/50
 > END STRING
 
 > BEGIN STRING
 [手→胸] 甘えながら胸を揉む。[中：散漫][精力]
-> CONTEXT: Skills/1824/description/ < UNTRANSLATED
+> CONTEXT: Skills/1824/description/
 [Hand→Chest] Rub breasts while being affectionate. [Distract][Energy]
 > END STRING
 
 > BEGIN STRING
 ラブチェック
-> CONTEXT: Skills/1825/name/ < UNTRANSLATED
+> CONTEXT: Skills/1825/name/
 Love Check
 > END STRING
 
 > BEGIN STRING
 [口→胸] 乳首を軽く噛み、感度を上げる。[中：胸感度アップ][精力]
-> CONTEXT: Skills/1825/description/ < UNTRANSLATED
+> CONTEXT: Skills/1825/description/
 [Mouth→Chest] Lightly bite nipple, increase sensitivity. [Sensitivity][Energy]
 > END STRING
 
 > BEGIN STRING
 ダブルサック/120/6
-> CONTEXT: Skills/1826/name/ < UNTRANSLATED
+> CONTEXT: Skills/1826/name/
 Double Suck/120/6
 > END STRING
 
 > BEGIN STRING
 [口→胸][CT:6] 両方の乳首を同時に吸い上げる。[精力][SSしやすい]
-> CONTEXT: Skills/1826/description/ < UNTRANSLATED
+> CONTEXT: Skills/1826/description/
 [Mouth→Chest][CT:6] Suck both nipples at the same time. [Energy][Easy SS]
 > END STRING
 
 > BEGIN STRING
 [口→胸][CT:6] 胸や乳首を強く吸い上げる。[精力][追撃しやすい]
-> CONTEXT: Skills/1827/description/ < UNTRANSLATED
+> CONTEXT: Skills/1827/description/
 [Mouth→Chest][CT:6] Suck breasts and nipples hard. [Energy][Easy SS]
 > END STRING
 
 > BEGIN STRING
 [口→胸][CT:6] 胸や乳首を器用に吸い上げる。[器用さ][追撃しやすい]
-> CONTEXT: Skills/1828/description/ < UNTRANSLATED
+> CONTEXT: Skills/1828/description/
 [Mouth→Chest][CT:6] Suck breasts and nipples skillfully. [Energy][Easy SS]
 > END STRING
 
@@ -15217,7 +15217,7 @@ Charming Dance of Heaven
 
 > BEGIN STRING
 [必：踊3]見たものすべての心を奪う踊り。相手全体を超高確率で魅了させる。[魅力]
-> CONTEXT: Skills/2194/description/
+> CONTEXT: None < UNUSED
 [Must: Dance 3] A dance that fascinates all. Very high chance to charm opponents. [Charm]
 > END STRING
 
@@ -15229,7 +15229,7 @@ Healing Dance/100
 
 > BEGIN STRING
 [必：踊3]穢れを祓い、安寧をもたらす踊り。全員を超大回復させる。
-> CONTEXT: Skills/2195/description/
+> CONTEXT: None < UNUSED
 [Must: Dance 3] Purifying, peaceful dance. Super large recovery for everyone.
 > END STRING
 
@@ -15241,7 +15241,7 @@ Enchanting Dance/100
 
 > BEGIN STRING
 [必：踊3]魅惑の渦を作り出す踊り。全員の魅力を２段階上昇させる。
-> CONTEXT: Skills/2196/description/
+> CONTEXT: None < UNUSED
 [Must: Dance 3] A vortex of fascination. Increase everyone's charm by 2 levels.
 > END STRING
 
@@ -16153,7 +16153,7 @@ Technical Beat
 
 > BEGIN STRING
 [場：自][奥義] ５ターンの間、味方全員の全能力が上がる。サンドフォートレスのみ使用可能。
-> CONTEXT: Skills/2355/description/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -16352,7 +16352,6 @@ Technical Beat
 > BEGIN STRING
 [口→嗅覚][CT:8] 敵全体を高確率で麻痺させる。[魅力]
 > CONTEXT: Skills/2375/description/ < UNTRANSLATED
-> CONTEXT: Skills/2376/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -17765,5 +17764,419 @@ Shard Force
 > BEGIN STRING
 ■フォーリンアクセプト強スキル
 > CONTEXT: Skills/2940/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法] 味方１人の拘束・眠り・骨抜き・拘束･狂乱・虜を解除する。
+> CONTEXT: Skills/217/description/ < UNTRANSLATED
+[Magic] Removes Sleep/Weakness/Restraint/Frenzy/Captivity/Debone from 1 ally.
+> END STRING
+
+> BEGIN STRING
+癒しの口付け/150
+> CONTEXT: Skills/423/name/ < UNTRANSLATED
+Healing Kiss/150
+> END STRING
+
+> BEGIN STRING
+[口→口] 味方に口付けをしてＥＰを小回復させ、スタン・恍惚・暴走を解除する。[器用さ]
+> CONTEXT: Skills/423/description/ < UNTRANSLATED
+[Mouth→Mouth] Kiss ally to recover EP, Stun, Ecstasy, Berserk.[Dexterity]
+> END STRING
+
+> BEGIN STRING
+女王の寵愛//8
+> CONTEXT: Skills/1210/name/ < UNTRANSLATED
+Queen's Favor//88
+> END STRING
+
+> BEGIN STRING
+[手→][CT:8] 味方１人の全ての能力を１段階強めムードを上げる。
+> CONTEXT: Skills/1210/description/ < UNTRANSLATED
+[Hand→][CT:8] Increase all abilities of 1 ally by 1 level and improve mood.
+> END STRING
+
+> BEGIN STRING
+大魔の指先/100/3
+> CONTEXT: Skills/1211/name/ < UNTRANSLATED
+Demon's Fingertips/100/3
+> END STRING
+
+> BEGIN STRING
+[手→体][CT:3] 敵全員を攻める。[条件：ムード50][低確率:欲情・虚脱・麻痺][精力]
+> CONTEXT: Skills/1211/description/ < UNTRANSLATED
+[Hand→Body][CT:3] Attack all enemies. [Mood 50][Low: Lust/Lethargy/Paralysis][Energy]
+> END STRING
+
+> BEGIN STRING
+魔女の叡智//999
+> CONTEXT: Skills/1212/name/ < UNTRANSLATED
+Witch Wisdom//999
+> END STRING
+
+> BEGIN STRING
+[魔法][奥義] 味方１人のＥＰを特大回復させ、祝福状態にする。
+> CONTEXT: Skills/1212/description/ < UNTRANSLATED
+[Magic][Secret] Recovers a large amount of EP for 1 ally and blesses them.
+> END STRING
+
+> BEGIN STRING
+毒霞//3
+> CONTEXT: Skills/1326/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+毒の粉を吹き付け、淫毒・欲情・麻痺を付与する。[器用さ]
+> CONTEXT: Skills/1326/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ＥＰを回復すると共に、欲情を鎮めて沈着状態になる。[精神力]
+> CONTEXT: Skills/1328/description/ < UNTRANSLATED
+Recover EP and Lust, putting you in a calm state.[Spirit]
+> END STRING
+
+> BEGIN STRING
+[口→口] 奥歯に仕込んだ淫毒を相手に口移しする。[器用さ]
+> CONTEXT: Skills/1329/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[踊り 場：全] 剣を使って｢アルダ｣を舞う。５ターンの間、敵味方全員の忍耐力を下げ、器用さをアップ。
+> CONTEXT: Skills/1415/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+回復の口付け/150
+> CONTEXT: Skills/1422/name/ < UNTRANSLATED
+Recovery Kiss/150
+> END STRING
+
+> BEGIN STRING
+[口→口] 味方に口付けしＥＰをチュー回復させ、スタン、恍惚、暴走、虚脱を解除する。[器用さ]
+> CONTEXT: Skills/1422/description/ < UNTRANSLATED
+[Mouth→Mouth] Kiss ally to recover EP, Stun, Ecstasy, Berserk, Lethargy.[Spirit]
+> END STRING
+
+> BEGIN STRING
+快癒の口付け/150
+> CONTEXT: Skills/1423/name/ < UNTRANSLATED
+Soothing Kiss/150
+> END STRING
+
+> BEGIN STRING
+[口→口] 味方に口付けしＥＰを大回復させ、スタン、淫毒、恍惚、暴走、虚脱、麻痺を解除する。[器用さ]
+> CONTEXT: Skills/1423/description/ < UNTRANSLATED
+[Mouth→Mouth] Heal EP/Stun/Aphrodisiac/Ecstasy/Berserk/Lethargy/Paralysis.[Spirit]
+> END STRING
+
+> BEGIN STRING
+[魔法][CT:3] 敵全体をゾクゾクするような電流で攻め、体を敏感な状態にさせる。[精神力]
+> CONTEXT: Skills/1564/description/ < UNTRANSLATED
+[Magic][CT:3] Hypersensitizing tingling electric current. [Spirit]
+> END STRING
+
+> BEGIN STRING
+浄化の光
+> CONTEXT: Skills/1565/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法] 敵全体を浄化し、悪性の状態異常や状態変化を治す。治した相手にはより強い快楽を与える。 [精神力]
+> CONTEXT: Skills/1565/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法] 敵全体の心に火を付け、低確率で暴走させる。[ムードアップ：小][精神力]
+> CONTEXT: Skills/1566/description/ < UNTRANSLATED
+[Magic] Inflicts berserk on all enemies with a low chance. [Small Mood Up][Spirit]
+> END STRING
+
+> BEGIN STRING
+熱情の焔/180/7
+> CONTEXT: Skills/1567/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][CT:7] 敵全体の心を燃え上がらせ、高揚させる。[ムードアップ：小][精神力]
+> CONTEXT: Skills/1567/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+嫉妬の業火//999
+> CONTEXT: Skills/1568/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][奥義] 嫉妬心を燃やし、敵全体を攻める。強化系の状態変化がかかっている相手に効果大。[精神力]
+> CONTEXT: Skills/1568/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+静寂の雨
+> CONTEXT: Skills/1569/name/ < UNTRANSLATED
+Silent Rain
+> END STRING
+
+> BEGIN STRING
+[魔法] 敵全体に暖かい雨を浴びせ、かかった液体を洗い流す。[ムードアップ：小][精神力]
+> CONTEXT: Skills/1569/description/ < UNTRANSLATED
+[Magic] Splashes warm rain, increasing enemies' lubrication. [Small Mood Up][Spirit]
+> END STRING
+
+> BEGIN STRING
+スライム//3
+> CONTEXT: Skills/1570/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][CT:3] 敵全体にスライムをぶっかける。液体のかかっていない相手に効果大。[精神力]
+> CONTEXT: Skills/1570/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+母なる海//999
+> CONTEXT: Skills/1571/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][奥義] 母なる海に抱かれる。液体のかかった相手に効果大。インセンス効果も洗い流す。[精神力]
+> CONTEXT: Skills/1571/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+悴む寒風/135/8
+> CONTEXT: Skills/1573/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][CT:8] 悴むような寒風で敵全体を撫でる。相手の素早さを下げ、まれにスタンさせる。[精神力]
+> CONTEXT: Skills/1573/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダイヤモンドダスト/175/999
+> CONTEXT: Skills/1574/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][奥義] 氷晶で敵全体の素早さを下げ、偶にスタンさせる。[先制行動][ムードアップ：大][精神力]
+> CONTEXT: Skills/1574/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+蔦の鞭/110
+> CONTEXT: Skills/1576/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法] 魔法で呼び出した快楽の蔦で相手を叩く。自身に魔虫が纏わりつき、素早さ↓器用さ↑[S][精神力]
+> CONTEXT: Skills/1576/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+母なる大地/300/999
+> CONTEXT: Skills/1577/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][奥義] 母なる風花が敵全体を優しく包む。相手に魔蛹が纏わりつき、魅力↓忍耐力↑[精神力]
+> CONTEXT: Skills/1577/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+癒しの風/100/4
+> CONTEXT: Skills/1584/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][CT:4]  味方全体のＥＰを回復させる。[素早さ]
+> CONTEXT: Skills/1584/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[必：踊3] 見たものすべての心を奪う踊り。相手全体を超高確率で魅了させる。[魅力]
+> CONTEXT: Skills/2194/description/ < UNTRANSLATED
+[Must: Dance 3] A dance that fascinates all. Very high chance to charm opponents. [Charm]
+> END STRING
+
+> BEGIN STRING
+[必：踊3] 穢れを祓い、安寧をもたらす踊り。全員を超大回復させる。
+> CONTEXT: Skills/2195/description/ < UNTRANSLATED
+[Must: Dance 3] Purifying, peaceful dance. Super large recovery for everyone.
+> END STRING
+
+> BEGIN STRING
+[必：踊3] 魅惑の渦を作り出す踊り。全員の魅力を２段階上昇させる。
+> CONTEXT: Skills/2196/description/ < UNTRANSLATED
+[Must: Dance 3] A vortex of fascination. Increase everyone's charm by 2 levels.
+> END STRING
+
+> BEGIN STRING
+宵闇ノ終//30
+> CONTEXT: Skills/2258/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[場：全][CT:30] ７ターンの間周囲が暗くなり、攻めが通り難くなる。【ダウト】持ちなどは平気。
+> CONTEXT: Skills/2258/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+星降る予言//23
+> CONTEXT: Skills/2283/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][CT:23][必：予11] 星に関する予言を行い、ランダムで相手をスタン、恍惚、畏怖にさせたりする。
+> CONTEXT: Skills/2283/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+癒しの予言
+> CONTEXT: Skills/2284/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][必：予9] 予言を行い、癒しの魔法を２回ランダムで放つ。
+> CONTEXT: Skills/2284/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+癒しの大予言//999
+> CONTEXT: Skills/2285/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][奥義][必：予16] 大予言を行い、強力な癒しの魔法をランダムで２回放つ。
+> CONTEXT: Skills/2285/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+災いの予言//9
+> CONTEXT: Skills/2286/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][CT:9][必：予7] 予言を行い、状態異常の魔法をランダムに放つ。
+> CONTEXT: Skills/2286/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ノートルダムの大予言//999
+> CONTEXT: Skills/2287/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][奥義][必：予13] 大予言を行い、強力な状態異常の魔法をランダムで２回放つ。
+> CONTEXT: Skills/2287/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+不思議な予言
+> CONTEXT: Skills/2288/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][必：予1] 味方に何かが起こる。
+> CONTEXT: Skills/2288/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+不吉な予言
+> CONTEXT: Skills/2289/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法][必：予1] 相手に何かが起こる。
+> CONTEXT: Skills/2289/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+預言
+> CONTEXT: Skills/2290/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[口] 神託を得る事で予言のカウントが進む。
+> CONTEXT: Skills/2290/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+風水術
+> CONTEXT: Skills/2291/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[魔法] 現在いるマップに応じ、ブルム・アルダ系の魔法が発動する。
+> CONTEXT: Skills/2291/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[場：自][奥義] ５ターンの間、味方全員の全能力が上がる。サンドフォートレス時のみ使用可能。
+> CONTEXT: Skills/2355/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[口→嗅覚][CT:8] 敵全体を高確率で散漫にさせる。[魅力]
+> CONTEXT: Skills/2376/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+つむじ風の夜//4
+> CONTEXT: Skills/2609/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[手→体][CT:4] 目にも止まらぬ速さの予測不能な愛撫。相手より速いほど威力が上がる。[素早さ][器用さ]
+> CONTEXT: Skills/2609/description/ < UNTRANSLATED
 
 > END STRING

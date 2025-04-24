@@ -1448,6 +1448,7 @@ Kekekekekekekeke.
 > CONTEXT: Map209/events/96/pages/0/15/InlineScript/1:22
 > CONTEXT: Map209/events/96/pages/0/26/InlineScript/1:22
 > CONTEXT: Map209/events/96/pages/0/41/InlineScript/1:22
+> CONTEXT: Map209/events/96/pages/1/0/InlineScript/1:22
 "Old hooded woman"
 > END STRING
 
@@ -1457,6 +1458,8 @@ Kekekekekekekeke.
 > CONTEXT: Map073/events/23/pages/0/1/Dialogue
 > CONTEXT: Map209/events/96/pages/0/1/Dialogue
 > CONTEXT: Map209/events/96/pages/0/54/Dialogue
+> CONTEXT: Map209/events/96/pages/1/1/Dialogue
+> CONTEXT: Map209/events/96/pages/1/30/Dialogue
 \\name[\\v[2]]\\_
 Hih, hih, hih...
 > END STRING
@@ -1465,7 +1468,7 @@ Hih, hih, hih...
 \\name[\\v[2]]\\_
 知りたくないかい？　彼女たちの事　そのナカを
 知りたいだろう？　知りたいはずさ　そのすべてをね
-> CONTEXT: Map209/events/96/pages/0/3/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Don't you want to know? 
 You want to know more about them? 
@@ -1477,6 +1480,7 @@ You want to know everything about them.
 そんなあんたにこの「夢魔図鑑」をお売りしようと思って\\_
 ねぇ･･････。
 > CONTEXT: Map209/events/96/pages/0/6/Dialogue
+> CONTEXT: Map209/events/96/pages/1/6/Dialogue
 \\name[\\v[2]]\\_
 I could sell this "Succubi Encyclopedia" to you...
 > END STRING
@@ -1485,6 +1489,7 @@ I could sell this "Succubi Encyclopedia" to you...
 \\name[\\v[2]]\\_
 \\gなんとたったの7500Lps.だ･･････ひ、ひ、どうだい？
 > CONTEXT: Map209/events/96/pages/0/9/Dialogue
+> CONTEXT: Map209/events/96/pages/1/9/Dialogue
 \\name[\\v[2]]\\_
 \\gIt's only 7500Lps... Hihhih, what say you?
 > END STRING
@@ -1492,12 +1497,16 @@ I could sell this "Succubi Encyclopedia" to you...
 > BEGIN STRING
 怪しすぎる……
 > CONTEXT: Map209/events/96/pages/0/11/Choice/2
+> CONTEXT: Map209/events/96/pages/1/11/Choice/2
+> CONTEXT: Map209/events/96/pages/1/11/Choice/2
 Suspicious...
 > END STRING
 
 > BEGIN STRING
 どこかで会った？
 > CONTEXT: Map209/events/96/pages/0/11/Choice/3
+> CONTEXT: Map209/events/96/pages/1/11/Choice/3
+> CONTEXT: Map209/events/96/pages/1/11/Choice/3
 We met somewhere?
 > END STRING
 
@@ -1527,6 +1536,7 @@ I'll send it to your house, so check it out later.
 ひ、ひ、そうかいそうかい･･････。
 > CONTEXT: Map073/events/23/pages/0/34/Dialogue
 > CONTEXT: Map209/events/96/pages/0/42/Dialogue
+> CONTEXT: Map209/events/96/pages/1/18/Dialogue
 \\name[\\v[2]]\\_
 Hih, hih, I see, I see...
 > END STRING
@@ -1536,6 +1546,7 @@ Hih, hih, I see, I see...
 ひ、ひ、そうかいそうかい。
 誉め言葉として受け取っておくよ･･････。
 > CONTEXT: Map209/events/96/pages/0/46/Dialogue
+> CONTEXT: Map209/events/96/pages/1/22/Dialogue
 \\name[\\v[2]]\\_
 Hihhih, I see. 
 I'll take that as a compliment...
@@ -1545,8 +1556,52 @@ I'll take that as a compliment...
 \\name[\\v[2]]\\_
 ひ、ひ、そうかもしれないねぇ･･････。
 迷える子羊を救うのも儂の仕事じゃからのぅ。
-> CONTEXT: Map209/events/96/pages/0/51/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Hihhih, maybe that's true...
 After all, it's my job to save lost lambs.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+状態異常、怖くない？怖いよね？
+そんな君におススメなアイテムがあるよ！
+……ちょーっとお高いけどね！！
+> CONTEXT: Map209/events/7/pages/2/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+状態異常怖くない？怖いよね？
+そんな君におススメなアイテムがあるよ！
+いまなら特別価格！！お安くなってるよ～
+> CONTEXT: Map209/events/7/pages/2/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+知りたくないかい？　彼女たちの事　そのナカを。
+知りたいだろう？　知りたいはずさ　そのすべてをね。
+> CONTEXT: Map209/events/96/pages/0/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map209/events/96/pages/1/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ひ、ひ、そうかもしれないねぇ･･････。
+迷える子羊を救うのも仕事だからねぇ……。
+> CONTEXT: Map209/events/96/pages/0/51/Dialogue < UNTRANSLATED
+> CONTEXT: Map209/events/96/pages/1/27/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なんだい、もう持ってるじゃないか。
+あんたも好きだねぇ･･････ひ、ひ、ひ･･････。
+> CONTEXT: Map209/events/96/pages/1/13/Dialogue < UNTRANSLATED
+
 > END STRING

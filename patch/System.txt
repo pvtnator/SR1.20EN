@@ -1508,7 +1508,7 @@ HP0で無くとも使用可能
 
 > BEGIN STRING
 自分：女体化不可
-> CONTEXT: System/elements/222/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -2569,5 +2569,23 @@ button54
 > BEGIN STRING
 007-System07
 > CONTEXT: System/save_se/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+自分：女性には使用不可
+> CONTEXT: System/elements/222/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+回復ｽﾃ影響増&威力影響減
+> CONTEXT: System/elements/371/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+素早さで倍率変動
+> CONTEXT: System/elements/372/ < UNTRANSLATED
 
 > END STRING
