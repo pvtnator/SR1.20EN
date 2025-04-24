@@ -13627,13 +13627,13 @@ Not for use by women!
 > BEGIN STRING
 貧乳時は胸を使用できない！
 > CONTEXT: O_MOD_Game_Battler_3.rb
-
+Can't use breasts if they are small!
 > END STRING
 
 > BEGIN STRING
 #{t_battlers[0].name}に釘付けにされて使えない！
 > CONTEXT: O_MOD_Game_Battler_3.rb
-
+Stuck with #{t_battlers[0].name} and can't use!
 > END STRING
 
 > BEGIN STRING
@@ -13651,7 +13651,7 @@ Cannot be used in slavery!
 > BEGIN STRING
 起きている相手には使用できない！
 > CONTEXT: O_MOD_Game_Battler_3.rb
-
+Cannot be used on someone who is awake!
 > END STRING
 
 > BEGIN STRING
@@ -13664,7 +13664,7 @@ Can't take off clothes while in a hold!
 脱衣の極意
 > CONTEXT: O_MOD_Game_Battler_3.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Strip Secret
 > END STRING
 
 > BEGIN STRING
@@ -14045,7 +14045,7 @@ Opponent's tail is already in use!
 > BEGIN STRING
 相手に抑え込まれており、使えない！
 > CONTEXT: O_MOD_Game_Battler_3.rb
-
+Can't use due to being held down by opponent!
 > END STRING
 
 > BEGIN STRING
@@ -21400,7 +21400,7 @@ Unique T
 > BEGIN STRING
 射精スキルを覚える。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn ejaculation skills.
 > END STRING
 
 > BEGIN STRING
@@ -21413,25 +21413,25 @@ Acquire ejaculation skills.
 大罪の力
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+Power of Sin
 > END STRING
 
 > BEGIN STRING
 おねだりで強制射精スキルを使えるようになる。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Can use forced ejaculation skill by begging.
 > END STRING
 
 > BEGIN STRING
 おねだりに強制射精スキルを追加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Adds forced ejaculation skill to begging.
 > END STRING
 
 > BEGIN STRING
 フラッタナイズとインサートの誘惑・複合スキルが使えるようになる
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Allow seduction and combination skills of Flatten and Insert.
 > END STRING
 
 > BEGIN STRING
@@ -36454,7 +36454,7 @@ The mist prevented the magic from being activated!
 > BEGIN STRING
 #{activename}は、#{targetname}の背中を\n\m羽で優しく撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+#{activename} gently stroked \n#{targetname}'s back with wings!
 > END STRING
 
 > BEGIN STRING
@@ -36574,7 +36574,7 @@ The mist prevented the magic from being activated!
 > BEGIN STRING
 #{activename}は羽で、\n\m#{targetname}の全身を優しく撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+#{activename} gently stroked #{targetname}'s \nwhole body with wings!
 > END STRING
 
 > BEGIN STRING
@@ -37360,7 +37360,7 @@ two overwhelming
 > BEGIN STRING
 #{tail}を使い、\n\m服の上から#{targetname}の#{brk3}#{target.bustsize}を優しく撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+'s #{tail} gently stroked \n#{targetname}'s #{target.bustsize} over clothes!
 > END STRING
 
 > BEGIN STRING
@@ -37390,7 +37390,7 @@ two overwhelming
 > BEGIN STRING
 #{tail}を服の間に滑り込ませ、\n\m#{targetname}の#{brk3}#{target.bustsize}を弄ぶ！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ slipped #{tail} under clothes \nand played with #{targetname}'s #{target.bustsize}!
 > END STRING
 
 > BEGIN STRING
@@ -37504,7 +37504,7 @@ two overwhelming
 > BEGIN STRING
 #{targetname}の#{targetpantsu}の隙間から、\n\m#{tail}を滑り込ませて優しく撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ slipped #{tail} through the gap in \n#{targetname}'s #{targetpantsu} and stroked gently!
 > END STRING
 
 > BEGIN STRING
@@ -41869,7 +41869,7 @@ intertwined tongues \n​m​with #{targetname} and shook hips #{waist}!
 > BEGIN STRING
 #{myself.bustsize}の谷間で、\n\m#{targetname}の顔を包み、#{waist}腰を動かしてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- moved hips #{waist} with face between \n​m​#{targetname}'s #{myself.bustsize}!
+ moved hips #{waist} with #{targetname}'s face \n​m​between #{myself.bustsize}!
 > END STRING
 
 > BEGIN STRING
@@ -42577,7 +42577,7 @@ Plus, #{myname} drank the liquid herself!
 > BEGIN STRING
 \n\w#{targetname}は抵抗できない！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​w​#{targetname} cannot resist!
 > END STRING
 
 > BEGIN STRING
@@ -44081,7 +44081,7 @@ Agility
 > BEGIN STRING
 は#{$game_actors[101].name}とキスをしてスイッチが入った！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+ kissed #{$game_actors[101].name} and got turned on!\w\q
 > END STRING
 
 > BEGIN STRING
@@ -44111,19 +44111,19 @@ Provocative gestures stimulate opponents!
 > BEGIN STRING
 #{$game_variables[13].name}は目の前で繰り広げられる、\m\n
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{$game_variables[13].name} cannot look away from​m\n
 > END STRING
 
 > BEGIN STRING
 の痴態から目を逸らすことができない！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+'s lewd act!​w​q
 > END STRING
 
 > BEGIN STRING
 #{$game_variables[13].name}は欲情してしまった！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{$game_variables[13].name} became horny!​w​q
 > END STRING
 
 > BEGIN STRING
@@ -46720,7 +46720,7 @@ White Flood
 > BEGIN STRING
 #{active.name}は#{target.name}の胸を掴み、\n谷間にペニスを突き入れた！
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+#{active.name} grabbed #{target.name}'s breasts \nand thrusted his penis into her cleavage!
 > END STRING
 
 > BEGIN STRING
@@ -51910,7 +51910,7 @@ Archangel Castle
 > BEGIN STRING
 淫界
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Lewd World
 > END STRING
 
 > BEGIN STRING
@@ -51928,55 +51928,55 @@ Get transported to the main base.
 > BEGIN STRING
 １Ｆ　ロビー
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+1F Lobby
 > END STRING
 
 > BEGIN STRING
 ２Ｆ　居住エリア
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+2F Residental Area
 > END STRING
 
 > BEGIN STRING
 ３Ｆ　歓楽街
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+3F Entertainment District
 > END STRING
 
 > BEGIN STRING
 ４Ｆ　封印の間
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+4F Seal Room
 > END STRING
 
 > BEGIN STRING
 ５Ｆ　セキュリティエリア
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+5F Security Area
 > END STRING
 
 > BEGIN STRING
 屋上　悠久の庭園
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Roof: Eternal Garden
 > END STRING
 
 > BEGIN STRING
 屋上
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Roof
 > END STRING
 
 > BEGIN STRING
 #{$game_variables[2]}階
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Floor #{$game_variables[2]}
 > END STRING
 
 > BEGIN STRING
 何階に行きますか？\n（※現在は#{current_floor}にいます）
 > CONTEXT: O_MOD_SR_Util_other.rb
-
+Go to which floor?\n(※Current: #{current_floor})
 > END STRING
 
 > BEGIN STRING
@@ -63756,7 +63756,7 @@ A magic circle has appeared at #{battler.name}'s feet!
 > BEGIN STRING
 #{battler.name}は気分が高揚してきた！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{battler.name} is feeling uplifted!
 > END STRING
 
 > BEGIN STRING
@@ -63768,19 +63768,19 @@ A magic circle has appeared at #{battler.name}'s feet!
 > BEGIN STRING
 #{battler.name}は気分が落ち着いてきた！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{battler.name} is feeling calmer!
 > END STRING
 
 > BEGIN STRING
 誘惑のネックレス
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Temptation Necklace
 > END STRING
 
 > BEGIN STRING
 #{battler.name}は相手を挑発した！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{battler.name} provoked opponents!
 > END STRING
 
 > BEGIN STRING
@@ -76225,43 +76225,43 @@ The steel slime that was covering #{myname} melted away!
 > BEGIN STRING
 #{myname}は鋼鉄の衣を纏っている！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} is clad in steel!
 > END STRING
 
 > BEGIN STRING
 #{myname}を纏っていた鋼鉄の衣が解けた！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname}'s steel armor has come undone!
 > END STRING
 
 > BEGIN STRING
 #{myname}はイくことを禁止された！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} is forbidden from cumming!
 > END STRING
 
 > BEGIN STRING
 #{myname}は射精管理から解放された…
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} is free from ejaculation control...
 > END STRING
 
 > BEGIN STRING
 #{myname}は性交の虜にされてしまった！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} is addicted to sex!
 > END STRING
 
 > BEGIN STRING
 #{myname}は性交の虜にされている！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} is addicted to sex!
 > END STRING
 
 > BEGIN STRING
 #{myname}は性交の虜を振り払った！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} shook off sex addiction!
 > END STRING
 
 > BEGIN STRING
@@ -80444,31 +80444,31 @@ Use the Y(S) button to switch to bed talents
 > BEGIN STRING
 攻撃スキル
 > CONTEXT: Window_Skill_Help.rb
-
+Attack skill
 > END STRING
 
 > BEGIN STRING
 ホールドスキル
 > CONTEXT: Window_Skill_Help.rb
-
+Hold skill
 > END STRING
 
 > BEGIN STRING
 回復スキル
 > CONTEXT: Window_Skill_Help.rb
-
+Recovery skill
 > END STRING
 
 > BEGIN STRING
 サポートスキル
 > CONTEXT: Window_Skill_Help.rb
-
+Support skill
 > END STRING
 
 > BEGIN STRING
 対象
 > CONTEXT: Window_Skill_Help.rb
-
+Target
 > END STRING
 
 > BEGIN STRING
@@ -80480,79 +80480,79 @@ Use the Y(S) button to switch to bed talents
 > BEGIN STRING
 威力
 > CONTEXT: Window_Skill_Help.rb
-
+Power
 > END STRING
 
 > BEGIN STRING
 倍率
 > CONTEXT: Window_Skill_Help.rb
-
+Factor
 > END STRING
 
 > BEGIN STRING
 自分以外全体
 > CONTEXT: Window_Skill_Help.rb
-
+All others
 > END STRING
 
 > BEGIN STRING
 敵味方全体
 > CONTEXT: Window_Skill_Help.rb
-
+All
 > END STRING
 
 > BEGIN STRING
 敵単体
 > CONTEXT: Window_Skill_Help.rb
-
+One opponent
 > END STRING
 
 > BEGIN STRING
 敵全体
 > CONTEXT: Window_Skill_Help.rb
-
+All opponents
 > END STRING
 
 > BEGIN STRING
 味方単体
 > CONTEXT: Window_Skill_Help.rb
-
+One ally
 > END STRING
 
 > BEGIN STRING
 味方全体
 > CONTEXT: Window_Skill_Help.rb
-
+All allies
 > END STRING
 
 > BEGIN STRING
 使用者
 > CONTEXT: Window_Skill_Help.rb
-
+Self
 > END STRING
 
 > BEGIN STRING
 （控えも含む）
 > CONTEXT: Window_Skill_Help.rb
-
+(Including reserve)
 > END STRING
 
 > BEGIN STRING
 （控えのみ）
 > CONTEXT: Window_Skill_Help.rb
-
+(Only reserve)
 > END STRING
 
 > BEGIN STRING
 現在VP#{@skill.sp_cost * 0.1}％
 > CONTEXT: Window_Skill_Help.rb
-
+Current VP#{@skill.sp_cost * 0.1}％
 > END STRING
 
 > BEGIN STRING
 最大VP#{@skill.sp_cost * 0.1}％
 > CONTEXT: Window_Skill_Help.rb
-
+Max VP#{@skill.sp_cost * 0.1}％
 > END STRING
 
 > BEGIN STRING
@@ -80564,7 +80564,7 @@ Use the Y(S) button to switch to bed talents
 > BEGIN STRING
 奥義
 > CONTEXT: Window_Skill_Help.rb
-
+Secret
 > END STRING
 
 > BEGIN STRING
@@ -80588,7 +80588,7 @@ Use the Y(S) button to switch to bed talents
 > BEGIN STRING
 使用側ステータス影響
 > CONTEXT: Window_Skill_Help.rb
-
+User status effect
 > END STRING
 
 > BEGIN STRING
@@ -80624,7 +80624,7 @@ Use the Y(S) button to switch to bed talents
 > BEGIN STRING
 防御側ステータス影響
 > CONTEXT: Window_Skill_Help.rb
-
+Defender status effect
 > END STRING
 
 > BEGIN STRING
@@ -80660,25 +80660,25 @@ Use the Y(S) button to switch to bed talents
 > BEGIN STRING
 魅力依存
 > CONTEXT: Window_Skill_Help.rb
-
+Charm based
 > END STRING
 
 > BEGIN STRING
 精力依存
 > CONTEXT: Window_Skill_Help.rb
-
+Energy based
 > END STRING
 
 > BEGIN STRING
 精神力依存
 > CONTEXT: Window_Skill_Help.rb
-
+Spirit based
 > END STRING
 
 > BEGIN STRING
 ステート基礎付与率
 > CONTEXT: Window_Skill_Help.rb
-
+State base chance
 > END STRING
 
 > BEGIN STRING
@@ -80702,97 +80702,97 @@ Use the Y(S) button to switch to bed talents
 > BEGIN STRING
 ステート解除
 > CONTEXT: Window_Skill_Help.rb
-
+State release
 > END STRING
 
 > BEGIN STRING
 スキル効果
 > CONTEXT: Window_Skill_Help.rb
-
+Skill effect
 > END STRING
 
 > BEGIN STRING
 能力増減倍化
 > CONTEXT: Window_Skill_Help.rb
-
+Ability multiplier
 > END STRING
 
 > BEGIN STRING
 割合スキル
 > CONTEXT: Window_Skill_Help.rb
-
+Ratio skill
 > END STRING
 
 > BEGIN STRING
 魔法スキル
 > CONTEXT: Window_Skill_Help.rb
-
+Magic skill
 > END STRING
 
 > BEGIN STRING
 精神レジストスキル
 > CONTEXT: Window_Skill_Help.rb
-
+Spirit resist skill
 > END STRING
 
 > BEGIN STRING
 物理レジストスキル
 > CONTEXT: Window_Skill_Help.rb
-
+Physical resist skill
 > END STRING
 
 > BEGIN STRING
 連撃発生不可
 > CONTEXT: Window_Skill_Help.rb
-
+No follow-ups
 > END STRING
 
 > BEGIN STRING
 魔法追撃
 > CONTEXT: Window_Skill_Help.rb
-
+Magic attack
 > END STRING
 
 > BEGIN STRING
 ムードアップ（小）
 > CONTEXT: Window_Skill_Help.rb
-
+Mood up (small)
 > END STRING
 
 > BEGIN STRING
 ムードアップ（中）
 > CONTEXT: Window_Skill_Help.rb
-
+Mood up (medium)
 > END STRING
 
 > BEGIN STRING
 ムードアップ（大）
 > CONTEXT: Window_Skill_Help.rb
-
+Mood up (large)
 > END STRING
 
 > BEGIN STRING
 ムードダウン（小）
 > CONTEXT: Window_Skill_Help.rb
-
+Mood down (small)
 > END STRING
 
 > BEGIN STRING
 ムードダウン（中）
 > CONTEXT: Window_Skill_Help.rb
-
+Mood down (medium)
 > END STRING
 
 > BEGIN STRING
 ムードダウン（大）
 > CONTEXT: Window_Skill_Help.rb
-
+Mood down (large)
 > END STRING
 
 > BEGIN STRING
 ムードダウン（極大）
 > CONTEXT: Window_Skill_Help.rb
-
+Mood down (max)
 > END STRING
 
 > BEGIN STRING
@@ -81938,91 +81938,91 @@ VPドレイン
 > BEGIN STRING
 射精スキル
 > CONTEXT: Window_Skill_Help.rb
-
+Cum skill
 > END STRING
 
 > BEGIN STRING
 絶頂スキル
 > CONTEXT: Window_Skill_Help.rb
-
+Climax skill
 > END STRING
 
 > BEGIN STRING
 胞子スキル
 > CONTEXT: Window_Skill_Help.rb
-
+Spore skill
 > END STRING
 
 > BEGIN STRING
 愛液スキル
 > CONTEXT: Window_Skill_Help.rb
-
+Fluid skill
 > END STRING
 
 > BEGIN STRING
 釘付けスキル
 > CONTEXT: Window_Skill_Help.rb
-
+Pinning skill
 > END STRING
 
 > BEGIN STRING
 鱗粉スキル
 > CONTEXT: Window_Skill_Help.rb
-
+Scale skill
 > END STRING
 
 > BEGIN STRING
 踊りスキル
 > CONTEXT: Window_Skill_Help.rb
-
+Dance skill
 > END STRING
 
 > BEGIN STRING
 エンチャントスキル
 > CONTEXT: Window_Skill_Help.rb
-
+Enchant skill
 > END STRING
 
 > BEGIN STRING
 炎系スキル
 > CONTEXT: Window_Skill_Help.rb
-
+Fire skill
 > END STRING
 
 > BEGIN STRING
 水系スキル
 > CONTEXT: Window_Skill_Help.rb
-
+Water skill
 > END STRING
 
 > BEGIN STRING
 氷系スキル
 > CONTEXT: Window_Skill_Help.rb
-
+Ice skill
 > END STRING
 
 > BEGIN STRING
 風系スキル
 > CONTEXT: Window_Skill_Help.rb
-
+Wind skill
 > END STRING
 
 > BEGIN STRING
 土系スキル
 > CONTEXT: Window_Skill_Help.rb
-
+Earth skill
 > END STRING
 
 > BEGIN STRING
 光系スキル
 > CONTEXT: Window_Skill_Help.rb
-
+Light skill
 > END STRING
 
 > BEGIN STRING
 闇系スキル
 > CONTEXT: Window_Skill_Help.rb
-
+Dark skill
 > END STRING
 
 > BEGIN STRING

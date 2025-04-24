@@ -2,3 +2,8 @@
 python mapConditionReplace.py
 xcopy "..\Succubus Rhapsodia_mod_translated\Data" "..\Succubus Rhapsodia Mod Translated\Mod\Mod_Data" /H /C /I /Y
 xcopy "..\Succubus Rhapsodia_mod_translated\Mod\Mod_Data" "..\Succubus Rhapsodia Mod Translated\Mod\Mod_Data" /H /I /Y
+
+python ./translateCharacters.py apply mod_scripts Mod_Scripts
+RD "..\Succubus Rhapsodia Mod Translated\Mod\Mod_Scripts" /S /Q
+xcopy "..\Succubus Rhapsodia_mod_translated\Mod\Mod_Scripts" "..\Succubus Rhapsodia Mod Translated\Mod\Mod_Scripts" /E /H /I /Y
+pause
