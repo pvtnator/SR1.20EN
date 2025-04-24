@@ -1,346 +1,261 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "（リジェオとは契約済みです）"
-> CONTEXT: Map523/events/2/pages/0/5/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/2/pages/1/5/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 リジェオと戦いますか？
 \\v[3]
-> CONTEXT: Map523/events/2/pages/0/9/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/2/pages/1/9/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 前回の記録を引き継ぎますか？
-> CONTEXT: Map523/events/2/pages/0/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/2/pages/1/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/3/pages/0/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/3/pages/1/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/4/pages/0/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/4/pages/1/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/5/pages/0/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/5/pages/1/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/6/pages/0/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/6/pages/1/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/7/pages/0/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/7/pages/1/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/8/pages/0/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/8/pages/1/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/9/pages/0/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/9/pages/0/54/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/9/pages/1/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/9/pages/1/54/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/12/pages/0/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/12/pages/1/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/13/pages/0/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/13/pages/1/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/14/pages/0/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/14/pages/1/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/15/pages/0/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/16/pages/0/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/16/pages/0/52/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/17/pages/0/15/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/18/pages/0/16/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/18/pages/0/54/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/88/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 記録を破棄しますか？
-> CONTEXT: Map523/events/2/pages/0/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/2/pages/1/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/3/pages/0/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/3/pages/1/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/4/pages/0/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/4/pages/1/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/5/pages/0/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/5/pages/1/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/6/pages/0/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/6/pages/1/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/7/pages/0/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/7/pages/1/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/8/pages/0/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/8/pages/1/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/9/pages/0/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/9/pages/0/61/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/9/pages/1/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/9/pages/1/61/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/12/pages/0/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/12/pages/1/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/13/pages/0/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/13/pages/1/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/14/pages/0/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/14/pages/1/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/15/pages/0/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/16/pages/0/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/16/pages/0/59/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/17/pages/0/22/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/18/pages/0/23/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/18/pages/0/61/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/88/7/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "（追憶では記録は引き継がれません）"
-> CONTEXT: Map523/events/2/pages/1/1/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/3/pages/1/1/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/4/pages/1/1/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/5/pages/1/1/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/6/pages/1/1/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/7/pages/1/1/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/8/pages/1/1/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/9/pages/1/1/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/12/pages/1/1/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/13/pages/1/1/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ノーマルリジェオ
-> CONTEXT: Map523/events/2/pages/1/11/Choice/0 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 追憶リジェオ
-> CONTEXT: Map523/events/2/pages/1/11/Choice/1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 Lv120リジェオ
-> CONTEXT: Map523/events/2/pages/1/11/Choice/2 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "（ネイジュレンジとは契約済みです）"
-> CONTEXT: Map523/events/3/pages/0/5/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/3/pages/1/5/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ネイジュレンジと戦いますか？
 \\v[3]
-> CONTEXT: Map523/events/3/pages/0/9/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/3/pages/1/9/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ノーマルネイジー
-> CONTEXT: Map523/events/3/pages/1/11/Choice/0 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 追憶ネイジー
-> CONTEXT: Map523/events/3/pages/1/11/Choice/1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 Lv118ネイジー
-> CONTEXT: Map523/events/3/pages/1/11/Choice/2 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "（ユーガノットとは契約済みです）"
-> CONTEXT: Map523/events/4/pages/0/5/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/4/pages/1/5/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ユーガノットと戦いますか？
 \\v[3]
-> CONTEXT: Map523/events/4/pages/0/9/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/4/pages/1/9/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ノーマルユーガ
-> CONTEXT: Map523/events/4/pages/1/11/Choice/0 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 追憶ユーガ
-> CONTEXT: Map523/events/4/pages/1/11/Choice/1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 Lv116ユーガ
-> CONTEXT: Map523/events/4/pages/1/11/Choice/2 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "（シルフェとは契約済みです）"
-> CONTEXT: Map523/events/5/pages/0/5/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/5/pages/1/5/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 シルフェと戦いますか？
 \\v[3]
-> CONTEXT: Map523/events/5/pages/0/9/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/5/pages/1/9/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ノーマルシルフェ
-> CONTEXT: Map523/events/5/pages/1/11/Choice/0 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 追憶シルフェ
-> CONTEXT: Map523/events/5/pages/1/11/Choice/1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 Lv118シルフェ
-> CONTEXT: Map523/events/5/pages/1/11/Choice/2 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "（ギルゴーンとは契約済みです）"
-> CONTEXT: Map523/events/6/pages/0/5/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/6/pages/1/5/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ギルゴーンと戦いますか？
 \\v[3]
-> CONTEXT: Map523/events/6/pages/0/9/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/6/pages/1/9/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ノーマルギルゴーン
-> CONTEXT: Map523/events/6/pages/1/11/Choice/0 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 追憶ギルゴーン
-> CONTEXT: Map523/events/6/pages/1/11/Choice/1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "（フルビュアとは契約済みです）"
-> CONTEXT: Map523/events/7/pages/0/5/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/7/pages/1/5/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 フルビュアと戦いますか？
 \\v[3]
-> CONTEXT: Map523/events/7/pages/0/9/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/7/pages/1/9/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ノーマルフルビュア
-> CONTEXT: Map523/events/7/pages/1/11/Choice/0 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 追憶フルビュア
-> CONTEXT: Map523/events/7/pages/1/11/Choice/1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 Lv110フルビュア
-> CONTEXT: Map523/events/7/pages/1/11/Choice/2 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "（ラーミルとは契約済みです）"
-> CONTEXT: Map523/events/8/pages/0/5/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/8/pages/1/5/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ラーミルと戦いますか？
 \\v[3]
-> CONTEXT: Map523/events/8/pages/0/9/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/8/pages/1/9/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ノーマルラーミル
-> CONTEXT: Map523/events/8/pages/1/11/Choice/0 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 Lv110ラーミル
-> CONTEXT: Map523/events/8/pages/1/11/Choice/1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "（ヴェルミィーナとは契約済みです）"
-> CONTEXT: Map523/events/9/pages/0/5/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/9/pages/1/5/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ヴェルミィーナと戦いますか？
 \\v[3]
-> CONTEXT: Map523/events/9/pages/0/9/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/9/pages/1/9/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ノーマルヴェルミィーナ
-> CONTEXT: Map523/events/9/pages/0/11/Choice/0 < UNTRANSLATED
-> CONTEXT: Map523/events/9/pages/1/11/Choice/0 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ベストエンドヴェルミィーナ
-> CONTEXT: Map523/events/9/pages/0/11/Choice/1 < UNTRANSLATED
-> CONTEXT: Map523/events/9/pages/1/11/Choice/1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 追憶ヴェルミィーナ
-> CONTEXT: Map523/events/9/pages/1/11/Choice/2 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 Lv110ヴェルミィーナ
-> CONTEXT: Map523/events/9/pages/1/11/Choice/3 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -353,170 +268,164 @@ Lv110ヴェルミィーナ
 
 > BEGIN STRING
 "（イヴとは契約済みです）"
-> CONTEXT: Map523/events/12/pages/0/5/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/12/pages/1/5/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 イヴと戦いますか？
 \\v[3]
-> CONTEXT: Map523/events/12/pages/0/9/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/12/pages/1/9/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ノーマルイヴ
-> CONTEXT: Map523/events/12/pages/1/11/Choice/0 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 追憶イヴ
-> CONTEXT: Map523/events/12/pages/1/11/Choice/1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "（シスターとは契約済みです）"
-> CONTEXT: Map523/events/13/pages/0/5/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/13/pages/1/5/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 シスターと戦いますか？
 \\v[3]
-> CONTEXT: Map523/events/13/pages/0/9/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/13/pages/1/9/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ノーマルシスター
-> CONTEXT: Map523/events/13/pages/1/11/Choice/0 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 追憶シスター
-> CONTEXT: Map523/events/13/pages/1/11/Choice/1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "（カオシアとは契約済みです）"
-> CONTEXT: Map523/events/14/pages/0/5/InlineScript/2:1 < UNTRANSLATED
-> CONTEXT: Map523/events/14/pages/1/5/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 カオシアと戦いますか？
 \\v[3]
-> CONTEXT: Map523/events/14/pages/0/9/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/14/pages/1/9/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ストーリーカオシア
-> CONTEXT: Map523/events/14/pages/1/11/Choice/0 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 追憶カオシア
-> CONTEXT: Map523/events/14/pages/1/11/Choice/1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "（シャッテンベスティとは契約済みです）"
-> CONTEXT: Map523/events/15/pages/0/5/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 シャッテンベスティと戦いますか？
 \\v[3]
-> CONTEXT: Map523/events/15/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 強化段階が設定できます。（最大５）
-> CONTEXT: Map523/events/15/pages/0/36/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ４以上は主人公が離脱していると設定できません。
-> CONTEXT: Map523/events/15/pages/0/42/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "（ディリヘンテとは契約済みです）"
-> CONTEXT: Map523/events/16/pages/0/5/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ディリヘンテと戦いますか？
 \\v[3]
-> CONTEXT: Map523/events/16/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 単独
-> CONTEXT: Map523/events/16/pages/0/11/Choice/0 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 お供付き
-> CONTEXT: Map523/events/16/pages/0/11/Choice/1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "（ミリュリエールとは契約済みです）"
-> CONTEXT: Map523/events/17/pages/0/5/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ミリュリエールと戦いますか？
 \\v[3]
-> CONTEXT: Map523/events/17/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "（ティアヴァールとは契約済みです）"
-> CONTEXT: Map523/events/18/pages/0/5/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ティアヴァールと戦いますか？
 \\v[3]
-> CONTEXT: Map523/events/18/pages/0/9/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 Lv30
-> CONTEXT: Map523/events/18/pages/0/11/Choice/0 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 Lv70
-> CONTEXT: Map523/events/18/pages/0/11/Choice/1 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -574,7 +483,7 @@ Lv70
 \\name[\\v[2]]\\_
 契約済みの夢魔と再戦する場合、
 戦闘記録の引き継ぎは行われない。
-> CONTEXT: Map523/events/20/pages/0/11/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -590,5 +499,32 @@ Lv70
 > BEGIN STRING
 アウルムと戦いますか？
 > CONTEXT: Map523/events/21/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+主人公が離脱していると敗北戦は行えません。
+> CONTEXT: Map523/events/15/pages/0/47/Dialogue < UNTRANSLATED
+> CONTEXT: Map523/events/26/pages/0/48/Dialogue < UNTRANSLATED
+> CONTEXT: Map523/events/26/pages/0/76/Dialogue < UNTRANSLATED
+> CONTEXT: Map523/events/33/pages/0/30/Dialogue < UNTRANSLATED
+> CONTEXT: Map523/events/33/pages/0/54/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+相手の夢魔が契約済みや記憶の中の存在の場合、
+戦闘記録の引き継ぎは行われない。
+> CONTEXT: Map523/events/20/pages/0/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この場所では戦闘から逃げることができ、
+全滅してもホームに戻されることもない。
+さあ、名のある夢魔たちに挑むといい。
+> CONTEXT: Map523/events/20/pages/0/18/Dialogue < UNTRANSLATED
 
 > END STRING

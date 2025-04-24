@@ -237,13 +237,13 @@ Holds the meaning "opportunity". Stronger during Shell Match.
 
 > BEGIN STRING
 干渉石
-> CONTEXT: Armors/24/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 契約に干渉する危険な宝石。
-> CONTEXT: Armors/24/description/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -3772,7 +3772,7 @@ V・ピュアハート/20/-10
 
 > BEGIN STRING
 忍に生きる者の着衣。欲情、暴走、虚脱、畏怖に耐性。
-> CONTEXT: Armors/430/description/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -3886,7 +3886,7 @@ V・ピュアハート/20/-10
 
 > BEGIN STRING
 とあるファンが激写した秘蔵写真。彼にいいトコロを見せようとやる気が出るが暴走しやすくなるのが玉に瑕。
-> CONTEXT: Armors/440/description/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -3922,7 +3922,7 @@ V・ピュアハート/20/-10
 
 > BEGIN STRING
 身につけると雄としての魅力が増す。肉体的、精神的にも強くなる。
-> CONTEXT: Armors/443/description/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -4108,7 +4108,7 @@ V・ピュアハート/20/-10
 
 > BEGIN STRING
 黙示録の聖書/0/-20
-> CONTEXT: Armors/461/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -5158,7 +5158,7 @@ V・ピュアハートS/100/-20
 
 > BEGIN STRING
 かつて邪竜を封じたとされる紋章。ステータスは大きく下がるものの、恍惚、虚脱、麻痺、散漫を無効化する。
-> CONTEXT: Armors/641/description/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -5296,7 +5296,7 @@ V・ピュアハートS/100/-20
 
 > BEGIN STRING
 あくまおーひつじさま/60/0
-> CONTEXT: Armors/653/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -5459,5 +5459,53 @@ V・ピュアハートS/100/-20
 > BEGIN STRING
 一般社会との関係を絶ち、力強く叫ぶ者の首輪。ＶＰを消費して自動的に発動する効果を抑制する。
 > CONTEXT: Armors/666/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+催眠振り子
+> CONTEXT: Armors/24/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+催眠状態になってしまう危険なコイン。
+> CONTEXT: Armors/24/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+忍に生きる者の着衣。欲情、暴走、虚脱、畏怖に耐性。口による攻めと受けを無効化する。
+> CONTEXT: Armors/430/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+とあるファンが激写した秘蔵写真。いいトコロを見せようとやる気が出るが、暴走しやすくなってしまう。
+> CONTEXT: Armors/440/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+身につけると魅力がぐぐーんと増す。肉体的、精神的にも強くなる。
+> CONTEXT: Armors/443/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+黙示録の聖書/-5/-5
+> CONTEXT: Armors/461/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+かつて邪竜を封じたとされる紋章。恍惚、虚脱、麻痺、散漫を無効化する。[全スロット]
+> CONTEXT: Armors/641/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あくまおーひつじさま/75/0
+> CONTEXT: Armors/653/name/ < UNTRANSLATED
 
 > END STRING
