@@ -7,10 +7,7 @@ If you want translations to be improved, look at the help section below.
 ### Original work by Dreamania. The official game is required to apply this patch.
 
 ## Progress
-Basically, the game is fully translated. The only major part that would still require work is editing the combat dialog of regular enemies. 
-It's based on GoogleTranslate with some automated fixes applied on top. The most common lines that showed up while testing have been edited, but a lot remains unedited.
-This is currently being worked on and should be done soon.
-Boss dialog is manually checked and edited.
+Entirely manually translated/edited.
 
 ## Installation Instructions
 You can find the latest release version from the releases page (usually on the right side).  
