@@ -1527,7 +1527,7 @@ You don't have the money... I can't sell it...
 あんたの家に送っとくとくから、後で確認しておきな。
 > CONTEXT: Map209/events/96/pages/0/27/Dialogue
 \\name[\\v[2]]\\_
-Hihhih, the deal is done...
+Hih hih, the deal is done...
 I'll send it to your house, so check it out later.
 > END STRING
 
@@ -1538,7 +1538,7 @@ I'll send it to your house, so check it out later.
 > CONTEXT: Map209/events/96/pages/0/42/Dialogue
 > CONTEXT: Map209/events/96/pages/1/18/Dialogue
 \\name[\\v[2]]\\_
-Hih, hih, I see, I see...
+Hih hih, I see, I see...
 > END STRING
 
 > BEGIN STRING
@@ -1548,7 +1548,7 @@ Hih, hih, I see, I see...
 > CONTEXT: Map209/events/96/pages/0/46/Dialogue
 > CONTEXT: Map209/events/96/pages/1/22/Dialogue
 \\name[\\v[2]]\\_
-Hihhih, I see. 
+Hih hih, I see. 
 I'll take that as a compliment...
 > END STRING
 
@@ -1558,7 +1558,7 @@ I'll take that as a compliment...
 迷える子羊を救うのも儂の仕事じゃからのぅ。
 > CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
-Hihhih, maybe that's true...
+Hih hih, maybe that's true...
 After all, it's my job to save lost lambs.
 > END STRING
 
@@ -1567,8 +1567,11 @@ After all, it's my job to save lost lambs.
 状態異常、怖くない？怖いよね？
 そんな君におススメなアイテムがあるよ！
 ……ちょーっとお高いけどね！！
-> CONTEXT: Map209/events/7/pages/2/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/7/pages/2/2/Dialogue
+\\name[\\v[2]]\\_
+Aren't you afraid of status ailments?
+I have something to recommend to you!
+...It's a little expensive though!!
 > END STRING
 
 > BEGIN STRING
@@ -1576,32 +1579,43 @@ After all, it's my job to save lost lambs.
 状態異常怖くない？怖いよね？
 そんな君におススメなアイテムがあるよ！
 いまなら特別価格！！お安くなってるよ～
-> CONTEXT: Map209/events/7/pages/2/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/7/pages/2/9/Dialogue
+\\name[\\v[2]]\\_
+Aren't you afraid of status ailments?
+I have something to recommend to you!
+Special price!! On sale now~
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 知りたくないかい？　彼女たちの事　そのナカを。
 知りたいだろう？　知りたいはずさ　そのすべてをね。
-> CONTEXT: Map209/events/96/pages/0/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map209/events/96/pages/1/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/96/pages/0/3/Dialogue
+> CONTEXT: Map209/events/96/pages/1/3/Dialogue
+\\name[\\v[2]]\\_
+Don't you want to know? What's inside them?
+You want to know, right? 
+You want to know everything about them.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ひ、ひ、そうかもしれないねぇ･･････。
 迷える子羊を救うのも仕事だからねぇ……。
-> CONTEXT: Map209/events/96/pages/0/51/Dialogue < UNTRANSLATED
-> CONTEXT: Map209/events/96/pages/1/27/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/96/pages/0/51/Dialogue
+> CONTEXT: Map209/events/96/pages/1/27/Dialogue
+\\name[\\v[2]]\\_
+Hih hih, that might be true...
+After all, saving lost lambs is part of my job...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 なんだい、もう持ってるじゃないか。
 あんたも好きだねぇ･･････ひ、ひ、ひ･･････。
-> CONTEXT: Map209/events/96/pages/1/13/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map209/events/96/pages/1/13/Dialogue
+\\name[\\v[2]]\\_
+Oh, you already have it.
+You like it too, don't you...
+Hih, hih, hih...
 > END STRING

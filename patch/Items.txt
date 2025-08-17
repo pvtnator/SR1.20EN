@@ -727,7 +727,7 @@ Bitter Chocolate
 > BEGIN STRING
 [菓] ＥＰが微回復し、恍惚と眠りを解除する。
 > CONTEXT: Items/75/description/
-[Candy] Slightly recovers EP and removes trance and sleep effects.
+[Snack] Slightly recovers EP and removes trance and sleep effects.
 > END STRING
 
 > BEGIN STRING
@@ -739,67 +739,67 @@ Basil Cookies
 > BEGIN STRING
 [菓] ＥＰが微回復し、暴走と欲情を解除する。
 > CONTEXT: Items/76/description/
-[Tea] Slightly recovers EP and removes berserk and lust.
+[Snack] Slightly recovers EP and cures berserk and lust.
 > END STRING
 
 > BEGIN STRING
 ガーリックバゲット
-> CONTEXT: Items/77/name/ < UNTRANSLATED
-
+> CONTEXT: Items/77/name/
+Garlic Baguette
 > END STRING
 
 > BEGIN STRING
 [菓] ＥＰが微回復し、虚脱と骨抜きを解除する。
-> CONTEXT: Items/77/description/ < UNTRANSLATED
-
+> CONTEXT: Items/77/description/
+[Snack] Slightly recovers EP and cures lethargy and debone.
 > END STRING
 
 > BEGIN STRING
 ショコラキュイ
-> CONTEXT: Items/78/name/ < UNTRANSLATED
-
+> CONTEXT: Items/78/name/
+Chocolat Cuit
 > END STRING
 
 > BEGIN STRING
 [菓] ＥＰが微回復し、畏怖状態を解除する。
-> CONTEXT: Items/78/description/ < UNTRANSLATED
-
+> CONTEXT: Items/78/description/
+[Snack] Slightly recovers EP and cures fear.
 > END STRING
 
 > BEGIN STRING
 ミルクプリン
-> CONTEXT: Items/79/name/ < UNTRANSLATED
-
+> CONTEXT: Items/79/name/
+Milk Pudding
 > END STRING
 
 > BEGIN STRING
 [菓] ＥＰが微回復し、麻痺と中毒を解除する。
-> CONTEXT: Items/79/description/ < UNTRANSLATED
-
+> CONTEXT: Items/79/description/
+[Snack] Slightly recovers EP and cures paralysis and poisoning.
 > END STRING
 
 > BEGIN STRING
 ラムネ
-> CONTEXT: Items/80/name/ < UNTRANSLATED
-
+> CONTEXT: Items/80/name/
+Ramune
 > END STRING
 
 > BEGIN STRING
 [菓] ＥＰが微回復し、散漫状態を解除する。
-> CONTEXT: Items/80/description/ < UNTRANSLATED
-
+> CONTEXT: Items/80/description/
+[Snack] Slightly recovers EP and cures distraction.
 > END STRING
 
 > BEGIN STRING
 ウイスキーボンボン
-> CONTEXT: Items/81/name/ < UNTRANSLATED
-
+> CONTEXT: Items/81/name/
+Whiskey Bonbons
 > END STRING
 
 > BEGIN STRING
 [菓] ＥＰが微回復し、魅了と虜を解除する。
-> CONTEXT: Items/81/description/ < UNTRANSLATED
-
+> CONTEXT: Items/81/description/
+[Snack] Slightly recovers EP and cures charm and captivation.
 > END STRING
 
 > BEGIN STRING
@@ -2225,13 +2225,13 @@ Rabbit ears
 
 > BEGIN STRING
 美味しいごはん
-> CONTEXT: Items/331/name/ < UNTRANSLATED
+> CONTEXT: Items/331/name/
 Delicious Food
 > END STRING
 
 > BEGIN STRING
 美味しいごはん。
-> CONTEXT: Items/331/description/ < UNTRANSLATED
+> CONTEXT: Items/331/description/
 Delicious Food.
 > END STRING
 

@@ -53,7 +53,7 @@ where weapons are no longer necessary...
 良かったらうちで食べていってね！
 > CONTEXT: Map901/events/7/pages/0/4/Dialogue
 \\name[\\v[2]]\\_
-If you like, come and eat at my place!
+Eat in if you'd like!
 > END STRING
 
 > BEGIN STRING
@@ -81,7 +81,7 @@ If you eat that much, you'll get fat.
 ヘイお待ち！！
 > CONTEXT: Map901/events/11/pages/0/0/Dialogue
 \\name[Maid]\\_
-Hey, we're waiting for you!
+Just a second!!
 > END STRING
 
 > BEGIN STRING
@@ -120,36 +120,40 @@ You're such idiots.
 
 > BEGIN STRING
 "パティシエ"
-> CONTEXT: Map901/events/20/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map901/events/20/pages/0/0/InlineScript/1:22
+"Pastry chef"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 腕によりをかけて作ったお菓子だよ！
 ぜひ買って行ってね！！
-> CONTEXT: Map901/events/20/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map901/events/20/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+These sweets were made with the utmost care!
+Please buy some!!
 > END STRING
 
 > BEGIN STRING
 "スイーツマニア"
-> CONTEXT: Map901/events/21/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map901/events/21/pages/0/0/InlineScript/1:22
+"Sweets Mania"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 個数限定で貴重なお菓子を取り扱ってるよ
-> CONTEXT: Map901/events/21/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map901/events/21/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+We offer limited quantities of rare sweets
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ほしい物はあるかい？
-> CONTEXT: Map901/events/21/pages/0/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map901/events/21/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+Anything you want?
 > END STRING
 
 > BEGIN STRING
@@ -173,7 +177,7 @@ Silk Tart
 > CONTEXT: Map901/events/21/pages/0/5/Choice/2
 > CONTEXT: Map901/events/21/pages/0/5/Choice/2
 > CONTEXT: Items/41/name/
-Pakik
+Cracky
 > END STRING
 
 > BEGIN STRING
@@ -189,137 +193,159 @@ Nothing
 \\name[\\v[2]]\\_
 フルーツタルトが欲しいの？
 一つ2500Lps.だよ！
-> CONTEXT: Map901/events/21/pages/0/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map901/events/21/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+Would you like a Fruit Tart?
+They're 2500Lps. each!
 > END STRING
 
 > BEGIN STRING
 フルーツタルトを買いますか？
-> CONTEXT: Map901/events/21/pages/0/10/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/17/pages/2/7/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/17/pages/3/7/Dialogue < UNTRANSLATED
-> CONTEXT: Map524/events/17/pages/4/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map901/events/21/pages/0/10/Dialogue
+> CONTEXT: Map524/events/17/pages/2/7/Dialogue
+> CONTEXT: Map524/events/17/pages/3/7/Dialogue
+> CONTEXT: Map524/events/17/pages/4/4/Dialogue
+Buy a Fruit Tart?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ありゃ、お金が足りないよ？
-> CONTEXT: Map901/events/21/pages/0/14/Dialogue < UNTRANSLATED
-> CONTEXT: Map901/events/21/pages/0/52/Dialogue < UNTRANSLATED
-> CONTEXT: Map901/events/21/pages/0/90/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map901/events/21/pages/0/14/Dialogue
+> CONTEXT: Map901/events/21/pages/0/52/Dialogue
+> CONTEXT: Map901/events/21/pages/0/90/Dialogue
+\\name[\\v[2]]\\_
+Oh, you don't have enough money?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ごめんごめん、売り切れみたいだ。
 キミが使って数が減った頃には入荷できるはずだよ。
-> CONTEXT: Map901/events/21/pages/0/21/Dialogue < UNTRANSLATED
-> CONTEXT: Map901/events/21/pages/0/59/Dialogue < UNTRANSLATED
-> CONTEXT: Map901/events/21/pages/0/97/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map901/events/21/pages/0/21/Dialogue
+> CONTEXT: Map901/events/21/pages/0/59/Dialogue
+> CONTEXT: Map901/events/21/pages/0/97/Dialogue
+\\name[\\v[2]]\\_
+Sorry, seems like it's sold out.
+There should be more in stock by the time you've used it.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 毎度あり！今後ともごひいきに！！
-> CONTEXT: Map901/events/21/pages/0/35/Dialogue < UNTRANSLATED
-> CONTEXT: Map901/events/21/pages/0/73/Dialogue < UNTRANSLATED
-> CONTEXT: Map901/events/21/pages/0/111/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map901/events/21/pages/0/35/Dialogue
+> CONTEXT: Map901/events/21/pages/0/73/Dialogue
+> CONTEXT: Map901/events/21/pages/0/111/Dialogue
+\\name[\\v[2]]\\_
+Thank you for your continued patronage!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そっか！必要になったらまた声をかけてね！
-> CONTEXT: Map901/events/21/pages/0/39/Dialogue < UNTRANSLATED
-> CONTEXT: Map901/events/21/pages/0/77/Dialogue < UNTRANSLATED
-> CONTEXT: Map901/events/21/pages/0/115/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map901/events/21/pages/0/39/Dialogue
+> CONTEXT: Map901/events/21/pages/0/77/Dialogue
+> CONTEXT: Map901/events/21/pages/0/115/Dialogue
+\\name[\\v[2]]\\_
+I see! Let me know if you need anything again!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 シルクタルトが欲しいの？
 一つ4000Lps.だよ！
-> CONTEXT: Map901/events/21/pages/0/45/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map901/events/21/pages/0/45/Dialogue
+\\name[\\v[2]]\\_
+Would you like a Silk Tart?
+They're 4000Lps. each!
 > END STRING
 
 > BEGIN STRING
 シルクタルトを買いますか？
-> CONTEXT: Map901/events/21/pages/0/48/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map901/events/21/pages/0/48/Dialogue
+Buy Silk Tart?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 パキっこが欲しいの？
 一つ5500Lps.だよ！
-> CONTEXT: Map901/events/21/pages/0/83/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map901/events/21/pages/0/83/Dialogue
+\\name[\\v[2]]\\_
+Would you like a Cracky?
+They're 5500Lps. each!
 > END STRING
 
 > BEGIN STRING
 パキっこを買いますか？
-> CONTEXT: Map901/events/21/pages/0/86/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map901/events/21/pages/0/86/Dialogue
+Buy a Cracky?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 お持ち帰りにしますか？
-> CONTEXT: Map901/events/22/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map901/events/22/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Would you like some takeaway?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 俺たちが冒険で集めた選りすぐりのルーン、
 貴重な素材と交換しようじゃないか。
-> CONTEXT: Map901/events/23/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map901/events/23/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Exchange valuable materials for the finest runes 
+we've collected on our adventures.
 > END STRING
 
 > BEGIN STRING
 "ねこの冒険者"
-> CONTEXT: Map901/events/24/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map901/events/24/pages/0/0/InlineScript/1:22
+"Cat Adventurer"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 作るのが面倒なルーンを売ってあげるよ
 ちょ～っと高いけどね！
-> CONTEXT: Map901/events/24/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map901/events/24/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I sell runes that are a pain to make.
+They're a little pricey though!
 > END STRING
 
 > BEGIN STRING
 "魔法使い"
-> CONTEXT: Map901/events/25/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map901/events/25/pages/0/0/InlineScript/1:22
+"Wizard"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ボクたちが冒険で集めた選りすぐりのルーン、
 交換していかないかい？
-> CONTEXT: Map901/events/25/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map901/events/25/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Would you like to exchange for 
+some of the finest runes 
+we've collected on our adventures?
 > END STRING
 
 > BEGIN STRING
 "シーフ"
-> CONTEXT: Map901/events/28/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map901/events/28/pages/0/0/InlineScript/1:22
+"Thief"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 備えあれば憂いなし！
 冒険には必須なルーン、見ていかない？
-> CONTEXT: Map901/events/28/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map901/events/28/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Forewarned is forearmed!
+Would you like to take a look at runes 
+that are essential for adventure?
 > END STRING
