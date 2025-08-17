@@ -23,7 +23,7 @@ so please be careful when entering the houses.
 \\name[\\v[2]]\\_
 こんばんわ、今日も素敵な夜ね\\H
 貴方も一杯どうかしら？
-> CONTEXT: Map757/events/4/pages/0/1/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Good evening, it's a lovely night again today\\H
 How about a drink for you too?
@@ -33,7 +33,7 @@ How about a drink for you too?
 \\name[\\v[2]]\\_
 ベッドの上で愛し合いながら飲むワインも
 悪くないのよ？、うふふふ\\H
-> CONTEXT: Map757/events/4/pages/0/4/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Drinking wine while making love in bed 
 isn't bad either, you know? Hehehehe\\H
@@ -71,7 +71,7 @@ You were expecting something naughty, weren't you?
 不思議な香りが部屋中に充満した！\\!
 \\v[3]の力が徐々に失われていく・・・
 > CONTEXT: Map757/events/5/pages/1/51/Dialogue
-A mysterious scent filled the room! \\!
+A mysterious scent filled the room!\\!
 \\v[3]'s powers are gradually fading...
 > END STRING
 
@@ -87,6 +87,269 @@ and see a figure bouncing up and down in the distance...
 魔力で封じられている。
 > CONTEXT: Map757/events/22/pages/1/0/Dialogue
 > CONTEXT: Map757/events/24/pages/1/0/Dialogue
-> CONTEXT: Map757/events/27/pages/0/0/Dialogue
+> CONTEXT: Map757/events/27/pages/1/0/Dialogue
 It is sealed with magic.
+> END STRING
+
+> BEGIN STRING
+"リリス"
+> CONTEXT: Map757/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Map757/events/3/pages/1/0/InlineScript/1:22
+> CONTEXT: Map757/events/5/pages/1/71/InlineScript/1:22
+> CONTEXT: Map757/events/5/pages/1/85/InlineScript/1:22
+"Lilith"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+特に、お一人で入る際はね\\H
+うふふふふ\\H
+> CONTEXT: Map757/events/3/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+Especially if you're going in alone\\H
+Hehehehe\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+愛し合う場所によって実りやすいフルーツは異なります。
+ベッドでも野外でも、色々な場所で愛し合ってみると良いでし
+ょう\\H
+> CONTEXT: Map757/events/3/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+The type of fruit you're likely to bear depends on 
+where you make love. Try making love in different places, 
+whether in bed or outdoors\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+フルーツによる能力の強化は、いつも果実を買ってくださる青
+い髪のメイドさんが詳しいです。
+彼女は貴方の助けになるでしょう。
+> CONTEXT: Map757/events/3/pages/1/5/Dialogue
+\\name[\\v[2]]\\_
+The blue-haired maid who always buys you fruit 
+is knowledgeable about enhancing your abilities with fruit.
+She'll be able to help you.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それでは、帰ったらフルーツ作りに励んでくださいね\\H
+うふふふふ\\H
+> CONTEXT: Map757/events/3/pages/1/9/Dialogue
+\\name[\\v[2]]\\_
+Well then, when you get home, get busy growing fruit\\H
+Hehehehehe\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こんばんわ、今日も素敵な夜ね\\H
+自家製フルーツから作られたお酒、貴方も一杯どうかしら？
+> CONTEXT: Map757/events/4/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Good evening, it's another wonderful night\\H
+How about a drink made from our own home-grown fruit?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ベッドの上で愛し合いながら飲むリキュールも
+悪くないのよ？、うふふふ\\H
+> CONTEXT: Map757/events/4/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Drinking liqueur while making love in bed 
+isn't so bad, you know? Ehehehe\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今日も素敵な夜になったね\\H
+自家製フルーツから作られたお酒、貴方も一杯どうかしら？
+> CONTEXT: Map757/events/4/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+It's been another wonderful evening\\H
+How about a drink made from our own fruit?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ベッドの上で愛し合った後に飲むリキュールも
+悪くないのよ？、うふふふ\\H
+> CONTEXT: Map757/events/4/pages/1/4/Dialogue
+\\name[\\v[2]]\\_
+Drinking liqueur after making love in bed 
+isn't so bad either, you know? Ehehehe\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あぁん\\H
+イかされちゃったぁ\\H
+> CONTEXT: Map757/events/5/pages/1/72/Dialogue
+\\name[\\v[2]]\\_
+Ahhh\\H
+I came\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+こんなに立派なお方が居るなんて\\H
+あぁ、なんと気持ちいいのでしょうか\\H
+> CONTEXT: Map757/events/5/pages/1/75/Dialogue
+\\name[\\v[4]]\\_
+Can't believe I'm in the presence of someone so lovely\\H
+Oh, how wonderful it feels\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+襲ったつもりが返り討ちに遭うなんてね\\H
+貴方、最高だわ\\H
+> CONTEXT: Map757/events/5/pages/1/78/Dialogue
+\\name[\\v[2]]\\_
+I thought I was attacking, but I got beaten in return\\H
+You're the best\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+先ほどは急に襲ってしまい申し訳ありませんでした。
+でも、貴方の味が忘れられなくて\\H
+> CONTEXT: Map757/events/5/pages/1/117/Dialogue
+\\name[\\v[4]]\\_
+I'm sorry for suddenly attacking you earlier.
+But I can't forget your taste\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+うふふふふ\\H
+それでは、引き続きフルーツ作りに励んでください\\H
+> CONTEXT: Map757/events/5/pages/1/120/Dialogue
+\\name[\\v[4]]\\_
+Ehehehe\\H
+Well then, please work hard on growing fruit\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+先ほどは急に襲ってしまい申し訳ありませんでした。
+貴方がとても美味しそうで、私もつい\\H
+> CONTEXT: Map757/events/5/pages/1/125/Dialogue
+\\name[\\v[4]]\\_
+I'm sorry for suddenly attacking you earlier.
+You looked so delicious, I couldn't help it\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+ああ、申し遅れました。
+私たち一家はこの街でフルーツ農家を営んでおります。
+> CONTEXT: Map757/events/5/pages/1/128/Dialogue
+\\name[\\v[4]]\\_
+Oh, sorry for the late introduction.
+My family runs a fruit farm in this town.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+しかしながら、育てているのは普通の果実ではありません。
+特別なフルーツであり、食べることで能力を引き出すのです。
+> CONTEXT: Map757/events/5/pages/1/131/Dialogue
+\\name[\\v[4]]\\_
+However, what we're growing isn't ordinary fruit.
+It's a special fruit, and eating it unlocks powers.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+何よりも特別なのは育て方\\H
+ベッドの上で愛を育むことで、実るフルーツなのです\\H
+> CONTEXT: Map757/events/5/pages/1/134/Dialogue
+\\name[\\v[4]]\\_
+What's most special is how you raise them\\H
+They're fruits that grow when you 
+nurture them with love in bed\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+お近づきの印に、先ほど実ったフルーツを貴方に差し上げま
+す。
+どうぞ、受け取ってください。
+> CONTEXT: Map757/events/5/pages/1/137/Dialogue
+\\name[\\v[4]]\\_
+As a token of our friendship, 
+I present you with some of the fruit I just ripened.
+Please accept it.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+ベッドの上での様子を見たところ、貴方はフルーツ農家の素
+質が大いにあると思います。
+このまま私たちの家族に･･･
+> CONTEXT: Map757/events/5/pages/1/155/Dialogue
+\\name[\\v[4]]\\_
+From the way you look in bed, 
+I think you have great potential as a fruit farmer.
+If you stay with our family...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+と、言いたいところですが、貴方には既に大切な夢魔たちが
+たくさん居るとお見受けします。
+ならば彼女たちと愛し合うと良いでしょう。
+> CONTEXT: Map757/events/5/pages/1/159/Dialogue
+\\name[\\v[4]]\\_
+I'd like to say that, 
+but I imagine you already have many precious succubi.
+In that case, you should make love to them.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+すると、あら不思議\\H
+今の貴方なら愛の力でフルーツを実らせられるはずです\\H
+> CONTEXT: Map757/events/5/pages/1/163/Dialogue
+\\name[\\v[4]]\\_
+And lo and behold, it's a miracle\\H
+You should now be able to make fruit grow 
+with the power of love\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+ベッドの上でも野外でも、大切な夢魔たちと好きなだけ愛し合
+うと良いでしょう\\H
+実った果実が貴方をさらに魅力的にしますわ\\H
+> CONTEXT: Map757/events/5/pages/1/166/Dialogue
+\\name[\\v[4]]\\_
+Whether in bed or out, you should make love 
+as much as you like with your precious succubi\\H
+The ripe fruit will make you even more charming\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+うふふふふ\\H
+それでは、フルーツ作りに励んでください\\H
+> CONTEXT: Map757/events/5/pages/1/170/Dialogue
+\\name[\\v[4]]\\_
+Hehehehehe\\H
+Well then, get busy growing fruit\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+…クスっ、どうしたのかしら？\\H
+私たちとフルーツでも作りたいの？
+> CONTEXT: Map757/events/33/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+...Heh, what is it?\\H
+Want to grow some fruit with us?
 > END STRING

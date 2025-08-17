@@ -4432,7 +4432,7 @@ I can teach you at any time.
 \\name[\\v[2]]\\_
 こちらのベッドで戯れれば、修行の成果として
 修行ポイントを得る事ができますわ。
-> CONTEXT: Commonevents/152/1/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 If you play around on this bed, 
 you will get training points as a result of your training.
@@ -4440,22 +4440,22 @@ you will get training points as a result of your training.
 
 > BEGIN STRING
 修行ポイントとは？
-> CONTEXT: Commonevents/152/4/Choice/0
-> CONTEXT: Commonevents/152/4/Choice/0
+> CONTEXT: Commonevents/152/3/Choice/0
+> CONTEXT: Commonevents/152/3/Choice/0
 What are training points?
 > END STRING
 
 > BEGIN STRING
 チェックしてもらう
-> CONTEXT: Commonevents/152/4/Choice/1
-> CONTEXT: Commonevents/152/4/Choice/1
+> CONTEXT: Commonevents/152/3/Choice/1
+> CONTEXT: Commonevents/152/3/Choice/1
 Check
 > END STRING
 
 > BEGIN STRING
 リセットしてもらう
-> CONTEXT: Commonevents/152/4/Choice/2
-> CONTEXT: Commonevents/152/4/Choice/2
+> CONTEXT: Commonevents/152/3/Choice/2
+> CONTEXT: Commonevents/152/3/Choice/2
 Reset
 > END STRING
 
@@ -4463,7 +4463,7 @@ Reset
 \\name[\\v[2]]\\_
 修行ポイントとは、基礎パラメータを
 さらに強化する事ができるものです。
-> CONTEXT: Commonevents/152/6/Dialogue
+> CONTEXT: Commonevents/152/5/Dialogue
 \\name[\\v[2]]\\_
 Training points are used to further strengthen basic parameters.
 > END STRING
@@ -4473,7 +4473,7 @@ Training points are used to further strengthen basic parameters.
 EP・VP・魅力・精力・器用さ・素早さ・忍耐力・精神力。
 これらの基礎パラメータを強化できれば、
 更に強力な夢魔とも渡り合えるでしょう。
-> CONTEXT: Commonevents/152/9/Dialogue
+> CONTEXT: Commonevents/152/11/Dialogue
 \\name[\\v[2]]\\_
 EP, VP, Charm, Energy, Dexterity, Agility, Endurance, Spirit.
 If you can strengthen these basic parameters,
@@ -4484,7 +4484,7 @@ you'll be able to deal with even more powerful succubi.
 \\name[\\v[2]]\\_
 但し、修行ポイントは無限に得られるわけではありません。
 くれぐれもご注意ください。
-> CONTEXT: Commonevents/152/13/Dialogue
+> CONTEXT: Commonevents/152/15/Dialogue
 \\name[\\v[2]]\\_
 However, training points cannot be obtained infinitely.
 Please be careful.
@@ -4495,7 +4495,7 @@ Please be careful.
 目安としては、２つのパラメータを最大まで強化でき
 更にあと１つを半分まで強化できる、
 と思って頂ければ大丈夫です。
-> CONTEXT: Commonevents/152/16/Dialogue
+> CONTEXT: Commonevents/152/18/Dialogue
 \\name[\\v[2]]\\_
 As a rough guide, you can think of it as being able to 
 strengthen two parameters to their maximum,
@@ -4507,7 +4507,7 @@ and then strengthen the other by half.
 修行ポイントの修得状況を知りたい、
 また修行ポイントを振り直したい場合は
 私にお声がけ下さい。
-> CONTEXT: Commonevents/152/20/Dialogue
+> CONTEXT: Commonevents/152/22/Dialogue
 \\name[\\v[2]]\\_
 If you would like to know the status of your training points,
 or if you would like to reallocate your training points,
@@ -4518,36 +4518,44 @@ please contact me.
 \\name[\\v[2]]\\_
 どなたの修行ポイントを
 診断なさいますか？
-> CONTEXT: Commonevents/152/34/Dialogue
+> CONTEXT: Commonevents/152/36/Dialogue
 \\name[\\v[2]]\\_
 Whose training points would you like to diagnose?
 > END STRING
 
 > BEGIN STRING
 １：\\v[3]
-> CONTEXT: Commonevents/152/37/Choice/0 < UNTRANSLATED
-> CONTEXT: Commonevents/152/102/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/152/39/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/152/39/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/152/104/Choice/0 < UNTRANSLATED
+> CONTEXT: Commonevents/152/104/Choice/0 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 ２：\\v[4]
-> CONTEXT: Commonevents/152/37/Choice/1 < UNTRANSLATED
-> CONTEXT: Commonevents/152/102/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/152/39/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/152/39/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/152/104/Choice/1 < UNTRANSLATED
+> CONTEXT: Commonevents/152/104/Choice/1 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 ３：\\v[5]
-> CONTEXT: Commonevents/152/37/Choice/2 < UNTRANSLATED
-> CONTEXT: Commonevents/152/102/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/152/39/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/152/39/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/152/104/Choice/2 < UNTRANSLATED
+> CONTEXT: Commonevents/152/104/Choice/2 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 ４：\\v[6]
-> CONTEXT: Commonevents/152/37/Choice/3 < UNTRANSLATED
-> CONTEXT: Commonevents/152/102/Choice/3 < UNTRANSLATED
+> CONTEXT: Commonevents/152/39/Choice/3 < UNTRANSLATED
+> CONTEXT: Commonevents/152/39/Choice/3 < UNTRANSLATED
+> CONTEXT: Commonevents/152/104/Choice/3 < UNTRANSLATED
+> CONTEXT: Commonevents/152/104/Choice/3 < UNTRANSLATED
 
 > END STRING
 
@@ -4555,7 +4563,7 @@ Whose training points would you like to diagnose?
 \\name[\\v[2]]\\_
 それでは、\\v[5]様の
 修行ポイントを診断してみましょう。
-> CONTEXT: Commonevents/152/72/Dialogue
+> CONTEXT: Commonevents/152/74/Dialogue
 \\name[\\v[2]]\\_
 Now, let's diagnose \\v[5]'s training points.
 > END STRING
@@ -4564,7 +4572,7 @@ Now, let's diagnose \\v[5]'s training points.
 \\name[\\v[2]]\\_
 最大EPは \\v[6] ポイントです。
 最大VPは \\v[7] ポイントです。
-> CONTEXT: Commonevents/152/75/Dialogue
+> CONTEXT: Commonevents/152/77/Dialogue
 \\name[\\v[2]]\\_
 Max EP is \\v[6] points.
 Max VP is \\v[7] points.
@@ -4575,7 +4583,7 @@ Max VP is \\v[7] points.
 魅力は \\v[8] ポイントです。
 忍耐力は \\v[9] ポイントです。
 精力は \\v[10] ポイントです。
-> CONTEXT: Commonevents/152/78/Dialogue
+> CONTEXT: Commonevents/152/80/Dialogue
 \\name[\\v[2]]\\_
 Charm is \\v[8] points.
 Endurance is \\v[9] points.
@@ -4587,7 +4595,7 @@ Energy is \\v[10] points.
 器用さは \\v[11] ポイントです。
 素早さは \\v[12] ポイントです。
 精神力は \\v[13] ポイントです。
-> CONTEXT: Commonevents/152/82/Dialogue
+> CONTEXT: Commonevents/152/84/Dialogue
 \\name[\\v[2]]\\_
 Dexterity is \\v[11] points.
 Agility is \\v[12] points.
@@ -4598,7 +4606,7 @@ Spirit is \\v[13] points.
 \\name[\\v[2]]\\_
 どなたの修行ポイントを
 リセットなさいますか？
-> CONTEXT: Commonevents/152/99/Dialogue
+> CONTEXT: Commonevents/152/101/Dialogue
 \\name[\\v[2]]\\_
 Whose training points would you like to reset?
 > END STRING
@@ -4607,54 +4615,54 @@ Whose training points would you like to reset?
 \\name[\\v[2]]\\_
 リセットしたい基礎パラメータは
 どちらでしょう？
-> CONTEXT: Commonevents/152/128/Dialogue
+> CONTEXT: Commonevents/152/130/Dialogue
 \\name[\\v[2]]\\_
 Which basic parameter do you want to reset?
 > END STRING
 
 > BEGIN STRING
 全てリセットしたい
-> CONTEXT: Commonevents/152/131/Choice/0
-> CONTEXT: Commonevents/152/131/Choice/0
+> CONTEXT: Commonevents/152/133/Choice/0
+> CONTEXT: Commonevents/152/133/Choice/0
 Reset everything
 > END STRING
 
 > BEGIN STRING
 最大EP
-> CONTEXT: Commonevents/152/131/Choice/1
-> CONTEXT: Commonevents/152/131/Choice/1
+> CONTEXT: Commonevents/152/133/Choice/1
+> CONTEXT: Commonevents/152/133/Choice/1
 Max EP
 > END STRING
 
 > BEGIN STRING
 最大VP
-> CONTEXT: Commonevents/152/131/Choice/2
-> CONTEXT: Commonevents/152/131/Choice/2
+> CONTEXT: Commonevents/152/133/Choice/2
+> CONTEXT: Commonevents/152/133/Choice/2
 Max VP
 > END STRING
 
 > BEGIN STRING
 "全て"
-> CONTEXT: Commonevents/152/133/InlineScript/1:22
+> CONTEXT: Commonevents/152/135/InlineScript/1:22
 "All"
 > END STRING
 
 > BEGIN STRING
 "ＥＰ"
-> CONTEXT: Commonevents/152/136/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Commonevents/152/138/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "ＶＰ"
-> CONTEXT: Commonevents/152/139/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Commonevents/152/141/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 最初へ戻る
-> CONTEXT: Commonevents/152/153/Choice/3
-> CONTEXT: Commonevents/152/153/Choice/3
+> CONTEXT: Commonevents/152/155/Choice/3
+> CONTEXT: Commonevents/152/155/Choice/3
 Back to top
 > END STRING
 
@@ -4662,7 +4670,7 @@ Back to top
 \\name[\\v[2]]\\_
 \\v[10]様の、\\v[9]の
 修行ポイントをリセットでよろしいですね？
-> CONTEXT: Commonevents/152/179/Dialogue
+> CONTEXT: Commonevents/152/181/Dialogue
 \\name[\\v[2]]\\_
 Is it ok to reset \\v[10]'s training points for \\v[9]?
 > END STRING
@@ -4670,7 +4678,7 @@ Is it ok to reset \\v[10]'s training points for \\v[9]?
 > BEGIN STRING
 \\name[\\v[2]]\\_
 修行ポイントをリセットさせて頂きました。
-> CONTEXT: Commonevents/152/276/Dialogue
+> CONTEXT: Commonevents/152/278/Dialogue
 \\name[\\v[2]]\\_
 Your training points have been reset.
 > END STRING
@@ -4678,7 +4686,7 @@ Your training points have been reset.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 またいつでもお声がけくださいね。
-> CONTEXT: Commonevents/152/283/Dialogue
+> CONTEXT: Commonevents/152/285/Dialogue
 \\name[\\v[2]]\\_
 Please feel free to contact me again anytime.
 > END STRING
@@ -8281,15 +8289,15 @@ jump6
 
 > BEGIN STRING
 メンバー選択
-> CONTEXT: Commonevents/152/90/Label < UNTRANSLATED
-> CONTEXT: Commonevents/152/124/Label < UNTRANSLATED
+> CONTEXT: Commonevents/152/92/Label < UNTRANSLATED
+> CONTEXT: Commonevents/152/126/Label < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 パラメータ選択
-> CONTEXT: Commonevents/152/127/Label < UNTRANSLATED
-> CONTEXT: Commonevents/152/164/Label < UNTRANSLATED
+> CONTEXT: Commonevents/152/129/Label < UNTRANSLATED
+> CONTEXT: Commonevents/152/166/Label < UNTRANSLATED
 
 > END STRING
 
@@ -8328,5 +8336,91 @@ jump6
 異世界編で再開
 > CONTEXT: Commonevents/341/12/Label < UNTRANSLATED
 > CONTEXT: Commonevents/341/40/Label < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+修行ポイントのことなら私にお任せください。
+> CONTEXT: Commonevents/152/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+特別なフルーツを食べれば修行ポイントを得られます。
+ある街に住む、リリスの農家がフルーツに詳しいですわ。
+> CONTEXT: Commonevents/152/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ねえ、あなたは覚えているでしょう？\\|
+あの秘密の夜に見た、この綺麗な身体を。
+> CONTEXT: Commonevents/377/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+でも、あなたはあの夜の思い出を忘れようとした。
+> CONTEXT: Commonevents/377/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+･･･くすくすくす\\H\\|
+だけど、それはできなかったの。
+> CONTEXT: Commonevents/377/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\n[101]の心の奥底には、ずっと私がいたの。
+> CONTEXT: Commonevents/377/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\n[101]がいやらしい妄想をいっぱいしてくれたから、\\|
+私はここにいるの\\H
+> CONTEXT: Commonevents/377/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+二度とあなたが忘れないために･･･\\|
+ずっと私を見ていてね、\\n[101]\\H
+> CONTEXT: Commonevents/377/15/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……ふん、やるじゃないか\\H
+もうイっちまいそうだよ……\\H
+> CONTEXT: Commonevents/378/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+だが、そっちは物足りないという顔をしているぞ？
+このド変態が\\H
+> CONTEXT: Commonevents/378/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ならばもっと愉しませてやるよ\\H
+この場に淀んだ負の夢から、最強の悪夢と凶夢を生み出して
+やる！
+> CONTEXT: Commonevents/378/8/Dialogue < UNTRANSLATED
 
 > END STRING

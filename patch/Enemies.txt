@@ -1694,7 +1694,6 @@ Werewolf/100/60
 > BEGIN STRING
 ワーウルフ/101/60
 > CONTEXT: Enemies/479/name/
-> CONTEXT: Enemies/627/name/
 Werewolf/101/60
 > END STRING
 
@@ -1765,7 +1764,6 @@ Mimic/145/60
 > BEGIN STRING
 ミミック/146/60
 > CONTEXT: Enemies/492/name/
-> CONTEXT: Enemies/640/name/
 Mimic/146/60
 > END STRING
 
@@ -2208,7 +2206,6 @@ Gang Commander/111/55
 > BEGIN STRING
 グラキエース/239/60
 > CONTEXT: Enemies/589/name/
-> CONTEXT: Enemies/652/name/
 Grakiace/239/60
 > END STRING
 
@@ -2264,7 +2261,7 @@ Sister-cast/236/62
 
 > BEGIN STRING
 レッサーサキュバス/6/61
-> CONTEXT: Enemies/603/name/
+> CONTEXT: None < UNUSED
 Lesser Succubus/6/61
 > END STRING
 
@@ -2276,7 +2273,7 @@ Succubus/10/62
 
 > BEGIN STRING
 サキュバス/11/62
-> CONTEXT: Enemies/605/name/
+> CONTEXT: None < UNUSED
 Succubus/11/62
 > END STRING
 
@@ -2288,7 +2285,6 @@ Succubus Lord/15/64
 
 > BEGIN STRING
 サキュバスロード/16/63
-> CONTEXT: Enemies/607/name/
 > CONTEXT: Enemies/797/name/
 Succubus Lord/16/63
 > END STRING
@@ -2301,7 +2297,7 @@ Imp/21/58
 
 > BEGIN STRING
 インプ/22/59
-> CONTEXT: Enemies/609/name/
+> CONTEXT: None < UNUSED
 Imp/22/59
 > END STRING
 
@@ -2313,7 +2309,7 @@ Devil/26/62
 
 > BEGIN STRING
 デビル/27/61
-> CONTEXT: Enemies/611/name/
+> CONTEXT: None < UNUSED
 Devil/27/61
 > END STRING
 
@@ -2325,13 +2321,13 @@ Demon/31/63
 
 > BEGIN STRING
 デーモン/32/64
-> CONTEXT: Enemies/613/name/
+> CONTEXT: None < UNUSED
 Demon/32/64
 > END STRING
 
 > BEGIN STRING
 プチウィッチ/38/58
-> CONTEXT: Enemies/615/name/
+> CONTEXT: None < UNUSED
 Petite Witch/38/58
 > END STRING
 
@@ -2343,7 +2339,7 @@ Witch/42/62
 
 > BEGIN STRING
 ウィッチ/43/61
-> CONTEXT: Enemies/617/name/
+> CONTEXT: None < UNUSED
 Witch/43/61
 > END STRING
 
@@ -2355,7 +2351,7 @@ Slave/63/58
 
 > BEGIN STRING
 ナイトメア/75/61
-> CONTEXT: Enemies/621/name/
+> CONTEXT: None < UNUSED
 Nightmare/75/61
 > END STRING
 
@@ -2373,13 +2369,13 @@ Gold Slime/90/61
 
 > BEGIN STRING
 ファミリア/97/61
-> CONTEXT: Enemies/625/name/
+> CONTEXT: None < UNUSED
 Familiar/97/61
 > END STRING
 
 > BEGIN STRING
 ワーキャット/105/61
-> CONTEXT: Enemies/629/name/
+> CONTEXT: None < UNUSED
 Werecat/105/61
 > END STRING
 
@@ -2403,7 +2399,7 @@ Curse Magus/122/61
 
 > BEGIN STRING
 アルラウネ/127/59
-> CONTEXT: Enemies/635/name/
+> CONTEXT: None < UNUSED
 Alraune/127/59
 > END STRING
 
@@ -2422,6 +2418,7 @@ Dark Angel/137/62
 > BEGIN STRING
 ガーゴイル/141/61
 > CONTEXT: Enemies/638/name/
+> CONTEXT: Troops/970/name/
 Gargoyle/141/61
 > END STRING
 
@@ -2433,7 +2430,7 @@ Mimic/145/61
 
 > BEGIN STRING
 タマモ/152/61
-> CONTEXT: Enemies/641/name/
+> CONTEXT: None < UNUSED
 Tamamo/152/61
 > END STRING
 
@@ -2481,25 +2478,25 @@ Mermaid/244/61
 
 > BEGIN STRING
 ノスフェラトゥ/238/63
-> CONTEXT: Enemies/650/name/
+> CONTEXT: None < UNUSED
 Nosferatu/238/63
 > END STRING
 
 > BEGIN STRING
 レッサーサキュバス/6/200
-> CONTEXT: Enemies/655/name/
+> CONTEXT: None < UNUSED
 Lesser Succubus/6/200
 > END STRING
 
 > BEGIN STRING
 ナイトメア/75/200
-> CONTEXT: Enemies/657/name/
+> CONTEXT: Enemies/2008/name/
 Nightmare/75/200
 > END STRING
 
 > BEGIN STRING
 ワーキャット/105/200
-> CONTEXT: Enemies/658/name/
+> CONTEXT: Enemies/2010/name/
 Werecat/105/200
 > END STRING
 
@@ -2511,25 +2508,25 @@ Managarmr/428/67
 
 > BEGIN STRING
 ウィッチ/43/200
-> CONTEXT: Enemies/660/name/
+> CONTEXT: None < UNUSED
 Witch/43/200
 > END STRING
 
 > BEGIN STRING
 レギーナ/210/200
-> CONTEXT: Enemies/661/name/
+> CONTEXT: None < UNUSED
 Regina/210/200
 > END STRING
 
 > BEGIN STRING
 ミミック/223/200
-> CONTEXT: Enemies/662/name/
+> CONTEXT: None < UNUSED
 Mimic/223/200
 > END STRING
 
 > BEGIN STRING
 ウィッチ/212/74
-> CONTEXT: Enemies/663/name/
+> CONTEXT: None < UNUSED
 Witch/212/74
 > END STRING
 
@@ -2638,7 +2635,7 @@ Demon/32/70
 
 > BEGIN STRING
 ミカエル/248/70
-> CONTEXT: Enemies/683/name/
+> CONTEXT: None < UNUSED
 Mikael/248/70
 > END STRING
 
@@ -2741,6 +2738,7 @@ Imaginary Friend/220/80
 > BEGIN STRING
 シャッテンベスティ/265/80
 > CONTEXT: Enemies/700/name/
+> CONTEXT: Enemies/713/name/
 Schattenbesti/265/80
 > END STRING
 
@@ -2770,61 +2768,61 @@ Lilith/209/74
 
 > BEGIN STRING
 リジェオ/252/120
-> CONTEXT: Enemies/705/name/
+> CONTEXT: None < UNUSED
 Rigeo/252/120
 > END STRING
 
 > BEGIN STRING
 ネイジュレンジ/251/118
-> CONTEXT: Enemies/706/name/
+> CONTEXT: None < UNUSED
 Neijurange/251/118
 > END STRING
 
 > BEGIN STRING
 シルフェ/256/118
-> CONTEXT: Enemies/707/name/
+> CONTEXT: None < UNUSED
 Silfe/256/118
 > END STRING
 
 > BEGIN STRING
 ユーガノット/255/116
-> CONTEXT: Enemies/708/name/
+> CONTEXT: None < UNUSED
 Yuganot/255/116
 > END STRING
 
 > BEGIN STRING
 フルビュア/253/110
-> CONTEXT: Enemies/709/name/
+> CONTEXT: None < UNUSED
 Fulbeua/253/110
 > END STRING
 
 > BEGIN STRING
 ラーミル/257/110
-> CONTEXT: Enemies/710/name/
+> CONTEXT: None < UNUSED
 Ramil/257/110
 > END STRING
 
 > BEGIN STRING
 ヴェルミィーナ/258/110
-> CONTEXT: Enemies/711/name/
+> CONTEXT: None < UNUSED
 Vermina/258/110
 > END STRING
 
 > BEGIN STRING
 イヴ/262/130
-> CONTEXT: Enemies/712/name/
+> CONTEXT: None < UNUSED
 Eve/262/130
 > END STRING
 
 > BEGIN STRING
 シャッテンベスティ/265/130
-> CONTEXT: Enemies/713/name/
+> CONTEXT: None < UNUSED
 Schattenbesti/265/130
 > END STRING
 
 > BEGIN STRING
 カオシア/259/120
-> CONTEXT: Enemies/714/name/
+> CONTEXT: None < UNUSED
 Chaosia/259/120
 > END STRING
 
@@ -2855,6 +2853,7 @@ Chaosia/259/120
 > CONTEXT: Enemies/718/name/
 > CONTEXT: Enemies/1018/name/
 > CONTEXT: Enemies/1623/name/
+> CONTEXT: Enemies/2005/name/
 【data】Fulbeua/253/1
 > END STRING
 
@@ -3386,6 +3385,7 @@ Succubus Queen/18/95
 > BEGIN STRING
 グレーターデーモン/34/95
 > CONTEXT: Enemies/833/name/
+> CONTEXT: Troops/904/name/
 Greater Demon/34/95
 > END STRING
 
@@ -3638,6 +3638,7 @@ Mia/299/90
 > BEGIN STRING
 【data】キャスト黒/54/1
 > CONTEXT: Enemies/925/name/
+> CONTEXT: Enemies/2003/name/
 【data】Cast黒/54/1
 > END STRING
 
@@ -3657,6 +3658,7 @@ Mia/299/90
 > BEGIN STRING
 【data】ナイトメア黄/75/1
 > CONTEXT: Enemies/928/name/
+> CONTEXT: Enemies/2009/name/
 【data】Nightmare黄/75/1
 > END STRING
 
@@ -3711,6 +3713,7 @@ Mia/299/90
 > BEGIN STRING
 【data】ワーキャット黒/105/1
 > CONTEXT: Enemies/937/name/
+> CONTEXT: Enemies/2011/name/
 【data】Werecat黒/105/1
 > END STRING
 
@@ -4273,6 +4276,7 @@ Mia/299/90
 > BEGIN STRING
 【data】ディリヘンテ/264/1
 > CONTEXT: Enemies/1040/name/
+> CONTEXT: Enemies/2007/name/
 【data】Diligente/264/1
 > END STRING
 
@@ -7119,41 +7123,37 @@ Surugato/358/97
 
 > BEGIN STRING
 【data】暗黒の輪/02/1
-> CONTEXT: Enemies/1791/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 暗黒の輪/409/94
-> CONTEXT: Enemies/1792/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 【data】暗黒の翼/02/1
-> CONTEXT: Enemies/1793/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 暗黒の翼/409/94
-> CONTEXT: Enemies/1794/name/ < UNTRANSLATED
-> CONTEXT: Enemies/1795/name/ < UNTRANSLATED
-> CONTEXT: Enemies/1796/name/ < UNTRANSLATED
-> CONTEXT: Enemies/1797/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 【data】シェムハザ共通/402/1
-> CONTEXT: Enemies/1798/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 【data】シェムハザ/402/1
-> CONTEXT: Enemies/1799/name/
-> CONTEXT: Enemies/1801/name/
+> CONTEXT: None < UNUSED
 【data】Shemhaza/402/1
 > END STRING
 
@@ -7604,7 +7604,7 @@ Seraphiel/396/110
 
 > BEGIN STRING
 シェムハザ/402/125
-> CONTEXT: Enemies/1802/name/
+> CONTEXT: None < UNUSED
 Shemhaza/402/125
 > END STRING
 
@@ -7624,4 +7624,242 @@ Nephilim/401/103
 アドウェルサ/352/110
 > CONTEXT: Enemies/1876/name/
 Adversa/352/110
+> END STRING
+
+> BEGIN STRING
+レッサーサキュバス/6/77
+> CONTEXT: Enemies/603/name/ < UNTRANSLATED
+> CONTEXT: Enemies/655/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバス/11/77
+> CONTEXT: Enemies/605/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバスロード/16/77
+> CONTEXT: Enemies/607/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インプ/22/77
+> CONTEXT: Enemies/609/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デビル/27/77
+> CONTEXT: Enemies/611/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デーモン/32/77
+> CONTEXT: Enemies/613/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチウィッチ/38/77
+> CONTEXT: Enemies/615/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィッチ/43/77
+> CONTEXT: Enemies/617/name/ < UNTRANSLATED
+> CONTEXT: Enemies/660/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ナイトメア/75/77
+> CONTEXT: Enemies/621/name/ < UNTRANSLATED
+> CONTEXT: Enemies/657/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/97/77
+> CONTEXT: Enemies/625/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーウルフ/101/77
+> CONTEXT: Enemies/627/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワーキャット/105/77
+> CONTEXT: Enemies/629/name/ < UNTRANSLATED
+> CONTEXT: Enemies/658/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルラウネ/127/77
+> CONTEXT: Enemies/635/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミミック/146/77
+> CONTEXT: Enemies/640/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+タマモ/152/77
+> CONTEXT: Enemies/641/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ノスフェラトゥ/238/1
+> CONTEXT: Enemies/650/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グラキエース/239/1
+> CONTEXT: Enemies/652/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レギーナ/210/1
+> CONTEXT: Enemies/661/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミミック/223/77
+> CONTEXT: Enemies/662/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィッチクラフト/49/77
+> CONTEXT: Enemies/663/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スクラーヴェ/248/70
+> CONTEXT: Enemies/683/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リジェオ/252/80
+> CONTEXT: Enemies/705/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ネイジュレンジ/251/80
+> CONTEXT: Enemies/706/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シルフェ/256/80
+> CONTEXT: Enemies/707/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ユーガノット/255/80
+> CONTEXT: Enemies/708/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+フルビュア/253/80
+> CONTEXT: Enemies/709/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ラーミル/257/85
+> CONTEXT: Enemies/710/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ヴェルミィーナ/258/85
+> CONTEXT: Enemies/711/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イヴ/262/80
+> CONTEXT: Enemies/712/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カオシア/259/85
+> CONTEXT: Enemies/714/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ギルゴーン/254/80
+> CONTEXT: Enemies/725/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【data】大天使シェムハザ/402/1
+> CONTEXT: Enemies/1799/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【data】暗黒天使シェムハザ/402/1
+> CONTEXT: Enemies/1801/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+暗黒天使シェムハザ/402/120
+> CONTEXT: Enemies/1802/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【data】死神天使シェムハザ/391/1
+> CONTEXT: Enemies/1803/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+死神天使シェムハザ/391/120
+> CONTEXT: Enemies/1804/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キャスト/54/120
+> CONTEXT: Enemies/2002/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+フルビュア/253/120
+> CONTEXT: Enemies/2004/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ディリヘンテ/264/120
+> CONTEXT: Enemies/2006/name/ < UNTRANSLATED
+
 > END STRING

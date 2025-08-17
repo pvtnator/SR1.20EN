@@ -10,6 +10,7 @@ def extract_strings(folder_path, output_file, update={}, conv={}):
 
     # Walk through all files in the folder and its subfolders
     for file in folder_path.rglob("*.rb"):
+        print(file)
         relative = file.relative_to(folder_path)
         context = relative.as_posix()
         with file.open(encoding='utf-8', errors='replace') as f:
@@ -196,7 +197,7 @@ if __name__ == "__main__":
     current_dir = Path.cwd()
     mode = sys.argv[1] if len(sys.argv)>1 else "extract"
     source = sys.argv[2] if len(sys.argv)>2 else "mod_scripts"
-    dest = sys.argv[3] if len(sys.argv)>3 else "Mod_Talk"
+    dest = sys.argv[3] if len(sys.argv)>3 else "Mod_Scripts"
     quickpatch = ""
     translated_dir = current_dir.parent / Path().resolve().name.replace("patch","translated")
     if mode=="apply":

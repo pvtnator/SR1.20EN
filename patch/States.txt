@@ -19,10 +19,6 @@ Weak
 絶頂
 > CONTEXT: States/3/name/
 > CONTEXT: States/11/name/
-> CONTEXT: Map600/events/1/pages/0/13/Choice/0
-> CONTEXT: Map600/events/1/pages/0/13/Choice/0
-> CONTEXT: Map600/events/1/pages/0/57/Choice/0
-> CONTEXT: Map600/events/1/pages/0/57/Choice/0
 > CONTEXT: Map586/events/11/pages/0/13/Choice/0
 > CONTEXT: Map586/events/11/pages/0/13/Choice/0
 > CONTEXT: Map586/events/11/pages/0/57/Choice/0
@@ -263,10 +259,6 @@ Lust
 > CONTEXT: States/36/name/
 > CONTEXT: Map204/events/3/pages/0/69/Choice/2
 > CONTEXT: Map204/events/3/pages/0/69/Choice/2
-> CONTEXT: Map600/events/1/pages/0/13/Choice/1
-> CONTEXT: Map600/events/1/pages/0/13/Choice/1
-> CONTEXT: Map600/events/1/pages/0/57/Choice/1
-> CONTEXT: Map600/events/1/pages/0/57/Choice/1
 > CONTEXT: Map586/events/11/pages/0/13/Choice/1
 > CONTEXT: Map586/events/11/pages/0/13/Choice/1
 > CONTEXT: Map586/events/11/pages/0/57/Choice/1
@@ -654,10 +646,6 @@ Charm
 > BEGIN STRING
 無防備
 > CONTEXT: States/95/name/
-> CONTEXT: Map600/events/1/pages/0/13/Choice/2
-> CONTEXT: Map600/events/1/pages/0/13/Choice/2
-> CONTEXT: Map600/events/1/pages/0/57/Choice/2
-> CONTEXT: Map600/events/1/pages/0/57/Choice/2
 > CONTEXT: Map586/events/11/pages/0/13/Choice/2
 > CONTEXT: Map586/events/11/pages/0/13/Choice/2
 > CONTEXT: Map586/events/11/pages/0/57/Choice/2
@@ -748,10 +736,6 @@ Provocation
 > BEGIN STRING
 拘束
 > CONTEXT: States/105/name/
-> CONTEXT: Map600/events/1/pages/0/27/Choice/0
-> CONTEXT: Map600/events/1/pages/0/27/Choice/0
-> CONTEXT: Map600/events/1/pages/0/68/Choice/0
-> CONTEXT: Map600/events/1/pages/0/68/Choice/0
 > CONTEXT: Map586/events/11/pages/0/27/Choice/0
 > CONTEXT: Map586/events/11/pages/0/27/Choice/0
 > CONTEXT: Map586/events/11/pages/0/68/Choice/0
@@ -778,8 +762,6 @@ Fracture
 > BEGIN STRING
 完全拘束
 > CONTEXT: States/107/name/ < UNTRANSLATED
-> CONTEXT: Map600/events/1/pages/0/27/Choice/1 < UNTRANSLATED
-> CONTEXT: Map600/events/1/pages/0/68/Choice/1 < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/27/Choice/1 < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/68/Choice/1 < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/28/Choice/1 < UNTRANSLATED
@@ -805,8 +787,6 @@ Fracture
 > BEGIN STRING
 奴隷
 > CONTEXT: States/110/name/ < UNTRANSLATED
-> CONTEXT: Map600/events/1/pages/0/27/Choice/2 < UNTRANSLATED
-> CONTEXT: Map600/events/1/pages/0/68/Choice/2 < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/27/Choice/2 < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/68/Choice/2 < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/28/Choice/2 < UNTRANSLATED
@@ -1847,8 +1827,7 @@ Absorb(Image)
 
 > BEGIN STRING
 呪詛の唇
-> CONTEXT: States/309/name/ < UNTRANSLATED
-> CONTEXT: Skills/1308/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -2312,7 +2291,7 @@ Temptation・Kiss
 
 > BEGIN STRING
 ピローグラインド 使用制限
-> CONTEXT: States/393/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -2686,5 +2665,49 @@ Deep Spot
 > BEGIN STRING
 還り来る者制限
 > CONTEXT: States/448/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+隷属
+> CONTEXT: States/199/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+吸精魔の唇
+> CONTEXT: States/309/name/
+> CONTEXT: Skills/1308/name/
+Sperm-Sucking Demon's Lips
+> END STRING
+
+> BEGIN STRING
+劣勢ホールド継続
+> CONTEXT: States/339/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドミネイトフェイス制限
+> CONTEXT: States/381/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ピローグラインド/カムバック 使用制限
+> CONTEXT: States/393/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファータイルコネクト
+> CONTEXT: States/414/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+死神の吐息使用準備
+> CONTEXT: States/415/name/ < UNTRANSLATED
+> CONTEXT: Skills/256/name/ < UNTRANSLATED
 
 > END STRING

@@ -672,7 +672,7 @@ unless I know more about the dream world?
 > BEGIN STRING
 ある日の出来事だ。
 蓄積器のひとつに変化が起きた。
-> CONTEXT: Map647/events/11/pages/0/4/Dialogue
+> CONTEXT: None < UNUSED
 It happened one day.
 A change occurred in one of the accumulators.
 > END STRING
@@ -681,7 +681,7 @@ A change occurred in one of the accumulators.
 蓄積器がまるで胎動するかのように明滅を繰り返し
 熱を放ったかと思うと
 その表面を割り、一人の少女が姿を現したのだ。
-> CONTEXT: Map647/events/11/pages/0/6/Dialogue
+> CONTEXT: None < UNUSED
 The accumulator blinked repeatedly 
 as if in a fetal state, emitting heat, 
 and then its surface broke open, revealing a young girl.
@@ -709,7 +709,7 @@ For the time being, I decided to take care of the newborn girl.
 彼女は純真そのもので、私の言うことはよく聞いてくれた。
 彼女も私を慕っていてくれているようで
 私と彼女は、まるで母娘のような関係を築いていった。
-> CONTEXT: Map647/events/11/pages/0/14/Dialogue
+> CONTEXT: None < UNUSED
 She was innocent and always listened to what I had to say.
 She seemed to adore me, too, and we built a relationship 
 like that of a mother and daughter.
@@ -718,7 +718,7 @@ like that of a mother and daughter.
 > BEGIN STRING
 おそらく彼女は元型の影響を強く受けた夢魔であろう。
 傾向から考えて「永遠の少女」か。
-> CONTEXT: Map647/events/11/pages/0/17/Dialogue
+> CONTEXT: None < UNUSED
 She is probably a succubus strongly influenced by an archetype.
 Judging from her tendencies, perhaps she is the "eternal girl."
 > END STRING
@@ -748,8 +748,11 @@ but once you're in, it seems like it's not easy to get out...
 とある首輪をプレゼントされたデビルが
 特別な姿のデーモンになったという記録を最近見つけてね。
 ぜひ一度見てみたいものだよ。
-> CONTEXT: Map647/events/3/pages/4/29/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/4/29/Dialogue
+\\name[\\v[2]]\\_
+I recently came across a record of a devil 
+who was given a certain collar and transformed 
+into a special demon form. I'd love to see it for myself.
 > END STRING
 
 > BEGIN STRING
@@ -757,8 +760,11 @@ but once you're in, it seems like it's not easy to get out...
 ある見習い魔女が『偽典』の知識を応用し、
 他の魔女とは異なる力を伸ばし、パートナーを支えた……。
 古い魔女の日記にある一節なのだが、興味深いものだね。
-> CONTEXT: Map647/events/3/pages/4/37/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/4/37/Dialogue
+\\name[\\v[2]]\\_
+One apprentice witch applied her knowledge of the Pseudo-Scriptures 
+to develop unique powers and support her partner...
+This is an interesting passage from an old witch's diary.
 > END STRING
 
 > BEGIN STRING
@@ -766,8 +772,11 @@ but once you're in, it seems like it's not easy to get out...
 休暇を利用してゴブリンタウンへ行ったんだが、
 盗賊の姿をした変わったゴブリンがいたんだ。
 鍛冶屋のナイフを携帯してたら姿が変わったそうだよ。
-> CONTEXT: Map647/events/3/pages/4/45/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/4/45/Dialogue
+\\name[\\v[2]]\\_
+I went to Goblin Town on vacation. 
+There I encountered a strange goblin disguised as a thief. 
+Apparently, she changed appearance when carrying a blacksmith's knife.
 > END STRING
 
 > BEGIN STRING
@@ -775,8 +784,11 @@ but once you're in, it seems like it's not easy to get out...
 少年は、異世界というものを信じているかな？
 最近、そこから流れ着いたとされる杖が見つかってね。
 それを持ったゴブリンは不思議な姿になると報告があるぞ。
-> CONTEXT: Map647/events/3/pages/4/53/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map647/events/3/pages/4/53/Dialogue
+\\name[\\v[2]]\\_
+Do you believe in other worlds, boy? Recently, a wand that is 
+said to have washed up from one of these worlds was discovered.
+It has been reported that goblins who hold it take on strange forms.
 > END STRING
 
 > BEGIN STRING
@@ -784,6 +796,45 @@ but once you're in, it seems like it's not easy to get out...
 少年はこの町の鍛冶師とも戦ったのだろう？
 彼女は元ホブゴブリンでね、素質を有していたから
 『ギャングチーフ』になれたのだと。彼女が言っていたぞ。
-> CONTEXT: Map647/events/3/pages/4/61/Dialogue < UNTRANSLATED
+> CONTEXT: Map647/events/3/pages/4/61/Dialogue
+\\name[\\v[2]]\\_
+Did you also fight the town's blacksmith, boy?
+She was a former hobgoblin, and she had the talent 
+to become a "gang chief." That's what she said.
+> END STRING
 
+> BEGIN STRING
+ある日の出来事だ。
+蓄積器に変化が起きた。
+> CONTEXT: Map647/events/11/pages/0/4/Dialogue
+It all happened one day.
+A change occurred in the accumulator.
+> END STRING
+
+> BEGIN STRING
+蓄積器がまるで胎動するかのように明滅を繰り返し
+熱を放ったかと思うと
+その表面を割り、少女たちが姿を現したのだ。
+> CONTEXT: Map647/events/11/pages/0/6/Dialogue
+The accumulator blinked repeatedly as if in a fetal state, 
+emitting heat, and then the surface cracked open, 
+revealing the girls.
+> END STRING
+
+> BEGIN STRING
+彼女達は純真そのもので、私の言うことはよく聞いてくれた。
+彼女等も私を慕っていてくれているようで、
+私たちはまるで母娘のような関係を築いていった。
+> CONTEXT: Map647/events/11/pages/0/14/Dialogue
+They were pure and innocent, and always listened to what I said.
+They seemed to adore me, too, and we built a relationship 
+almost like that of a mother and daughter.
+> END STRING
+
+> BEGIN STRING
+これらは元型の影響を強く受けた夢魔であろう。
+傾向から考えて「永遠の少女」か。
+> CONTEXT: Map647/events/11/pages/0/17/Dialogue
+These are likely succubi strongly influenced by the archetype.
+Judging from the tendency, perhaps the "eternal girl"?
 > END STRING

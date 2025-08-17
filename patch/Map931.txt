@@ -290,7 +290,7 @@ Let's retreat...!
 
 > BEGIN STRING
 黒麒麟と再戦しますか？
-> CONTEXT: Map931/events/6/pages/1/0/Dialogue
+> CONTEXT: None < UNUSED
 Have a rematch with Black Kirin?
 > END STRING
 
@@ -597,4 +597,10 @@ Have a rematch with Black Kirin?
 > CONTEXT: Map083/events/28/pages/0/45/Label < UNTRANSLATED
 > CONTEXT: Map083/events/28/pages/0/60/Label < UNTRANSLATED
 
+> END STRING
+
+> BEGIN STRING
+キリンと再戦しますか？
+> CONTEXT: Map931/events/6/pages/1/0/Dialogue
+Would you like to have a rematch with Kirin?
 > END STRING
