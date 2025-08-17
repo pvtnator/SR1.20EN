@@ -1951,6 +1951,7 @@ Random
 ,
 > CONTEXT: Game_Map_ランダムマップ.rb
 > CONTEXT: O_MOD_Scene_Title_data改変.rb
+> CONTEXT: O_MOD_顔グラフィック戦闘.rb
 > CONTEXT: PR_基本設定強化.rb
 > CONTEXT: Window_NameInput.rb
 > CONTEXT: Window_Status.rb
@@ -73719,6 +73720,14 @@ I
 > END STRING
 
 > BEGIN STRING
+主人公のことをよく知っている人間。
+          彼女もまた夢世界に迷い込んでしまったようだが……？
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 Friend1-2
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -73738,6 +73747,13 @@ Mirror World
 > END STRING
 
 > BEGIN STRING
+子供の頃に見えるとされる空想の友人。
+          その多くは子供たちの友人としてふるまい、心を支える。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 villager1-1
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -73754,6 +73770,13 @@ Buddy
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 > CONTEXT: P_H_MOD_Game_Map.rb
 Outlands
+> END STRING
+
+> BEGIN STRING
+どこにでも居る一般的な村娘。
+          とても貧弱で、強力な夢魔に一人で抗う術は無いだろう。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
 > END STRING
 
 > BEGIN STRING
@@ -73802,7 +73825,23 @@ Crumbling Western
 > END STRING
 
 > BEGIN STRING
+『黒』の意を冠する名が指す通り、
+        夜闇に身を隠しエモノの身包みを剥ぐ黒ずくめの盗賊。
+        力ずくで物を奪う為、身体をよく鍛えているようだ。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 devil1-5
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+『影の者』の意を冠する名を持つ武芸者。
+        予言者であり、教師でもあり、
+        あらゆる武芸に精通する武具の達人でもある。
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -73883,9 +73922,35 @@ Moonlit Sea of Trees\nChurch Library etc.
 > END STRING
 
 > BEGIN STRING
+まだ弱く、サキュバスとしての実力は出せていない夢魔。
+          身体の感度が非常に高く、一般人でもまだ抵抗できる。
+          \\L
+          主人公が初めて対峙し契約するであろう夢魔。
+          これから始まる冒険の水先案内人とも言える。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 lesser_succubus1-2
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
+> END STRING
+
+> BEGIN STRING
+『Over Fascinate Enemy』通称【ＯＦＥ】と呼称される夢魔。
+          その場所に似つかわしくない高い能力を持ち
+          下位と呼称される彼女もまた例外ではない。
+          \\L
+          主人公が初めて遭遇する【ＯＦＥ】。
+          調伏させることが出来れば心強い仲間となるだろう。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+An 'OFE' or 'Over Fascinate Enemy.'
+High abilities unsuited to her location,
+even though she's considered low-rank.
+\\L
+The protagonist's first encounter with OFE.
+If subdued, she will become a valuable ally.
 > END STRING
 
 > BEGIN STRING
@@ -73905,6 +73970,20 @@ lesser_succubus1-5
 深淵の樹海\nカタコンベ
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 Abyss Sea of Trees\nThe Catacombs
+> END STRING
+
+> BEGIN STRING
+時々消えかかっている不思議な姿をした夢魔。
+          \\L
+          実験No.---
+          ---と---を素体とし、経過を見る。
+          ……一見成功はしているが、何かがおかしい。
+          概念の存在を素体としたため、
+          自身の存在が揺らいでしまっているのだろう。
+          遠からずのうちに霧散してしまうかもしれない。
+          残念だが、これは廃棄する他ないだろう。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
 > END STRING
 
 > BEGIN STRING
@@ -73959,7 +74038,27 @@ Palfis Secret Church etc.
 > END STRING
 
 > BEGIN STRING
+理想の姿で夢の中に現れ、
+          異性と交わり精を得るとされる「夢魔」の代表。
+          女性型は「下に寝る（succubo）」から由来している。
+          \\L
+          レッサーサキュバスがランクアップした姿。
+          ここまでくれば夢魔としては一人前とも言える。
+          数も多く、あらゆる場所で遭遇機会がある。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 succubus1-2
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+サキュバスの【ＯＦＥ】の特徴の一つは過激であること。
+          それは【高揚】していることで如実に表れている。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -73984,7 +74083,25 @@ Magic Castle Too Romanca
 > END STRING
 
 > BEGIN STRING
+サキュバスがさらに力を蓄え大成した姿。
+          あどけなさは残っておらず、
+          自身の身体と技術を惜しみなく使い、対象を魅了する。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 succubus_lord2-2
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+大成し余裕がある言動となったが嗜好は変わらない。
+          より苛烈に、より情熱的に吸精を試みる姿は
+          駆け出しの頃から変わらないサキュバスらしい姿でもある。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74021,6 +74138,20 @@ Heaven
 > END STRING
 
 > BEGIN STRING
+『銀色の都市』の学園に通う夢魔。
+        特殊な出生だが本人はあまり気にしていない。
+        \\L
+        シスターサキュバスに元型「太母」を付与したところ
+        元の夢魔とも、付与した元型の性質とも異なる
+        全く新しい性質の夢魔が誕生した。
+        恥じらう仕草が特徴の彼女を学園に送ってみたが、
+        気づけば学園のマドンナのような扱いになっているようだ。
+        --とある研究者の手記より抜粋
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 succubus_lily1-1
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -74052,6 +74183,15 @@ I
 > END STRING
 
 > BEGIN STRING
+『銀色の都市』の学園に通っている夢魔。
+          体育倉庫をナワバリにしていたが、今は別荘に入り浸っている。
+          本来は雪山に住まう夢魔なのだが……？
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 lesser_succubus1-13
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -74061,6 +74201,16 @@ lesser_succubus1-13
 ジェノン雪渓
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 Jenon Snow Valley
+> END STRING
+
+> BEGIN STRING
+『氷』の名を関する夢魔。
+          住処に近づいた者を悪戯に襲い、遭難させてしまう。
+          ただし本当に気まぐれなので、
+          機嫌が良ければ助けてくれる事もあるようだ。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
 > END STRING
 
 > BEGIN STRING
@@ -74083,6 +74233,16 @@ succubus1-3
 
 > BEGIN STRING
 ジェノン雪渓深部
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+『雪のように白い』の異名を持つ夢魔。
+          白色の液体に対してとにかく強い執着があるようで、
+          好きなものから名前さえもそれらの関連物となっている。
+          もちろん人を襲う際も……。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74136,7 +74296,25 @@ Moonlit Sea of Trees\nDark Cave
 > END STRING
 
 > BEGIN STRING
+夢世界に紛れ込んでいる若い悪魔。
+          夢をさまよう人間を惑わせては遊んでいる。
+          悪戯好きで魔法も使えるが、まだ非力。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 imp0-2
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+小悪魔の【ＯＦＥ】は単独種で現れることが少ない。
+          上位種の随伴として現れ、フィールドをかく乱する。
+          その姿はまさしく小悪魔のようである。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74175,7 +74353,26 @@ Lad
 > END STRING
 
 > BEGIN STRING
+人間を誑かし、堕落させる悪魔。
+          人間の下等な本性や罪深さの象徴であり、
+          人間達からは畏怖されている。
+          夢世界では夢魔として強引に人間へ襲いかかる。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 devil1-2
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+悪魔達は基本的に身勝手だが、契約には真摯である。
+          叱咤しつつも主を立てるその姿は
+          さながら悪友にも見えるかもしれない。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74200,7 +74397,25 @@ Hell World Ordeo
 > END STRING
 
 > BEGIN STRING
+デビルがさらなる力を身につけ成長した姿。
+          夢世界での立ち振る舞いも板に付いており、
+          悪魔としての力を十全に発揮し精を貪ろうとする。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 daemon2-2
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+隠れた嗜好として酒が上げられる。
+          ただし飲むよりも雰囲気を楽しむことが好みようで
+          酒場に訪れることを喜ぶ一面もある。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74260,6 +74475,14 @@ Sweetie
 > END STRING
 
 > BEGIN STRING
+『銀色の都市』でいたずらを働いていた夢魔。
+        気さくな性格で交流関係も幅広い。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 devil1-3
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -74290,7 +74513,28 @@ petit_witch0-1
 > END STRING
 
 > BEGIN STRING
+超常的な力を操る魔女の見習い。
+          学問に追われる見習いの身であり、
+          情事にも興味はあるが、多くの場合技術は育っていない。
+          \\L
+          夢世界ではなく現実に実体を持つ存在。
+          その多くはパルフィス密教会に所属し、
+          その教義に賛同している。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 petit_witch0-2
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+魔女見習いの中でも情事の才が光る者。
+          それは習得魔法にも現れており
+          新たな強化魔法により盤面の構築力が高くなっている。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74314,7 +74558,28 @@ witch1-1
 > END STRING
 
 > BEGIN STRING
+超自然的な力を操ることができる魔女。
+          それは人を助ける力となるが、時に災いともなりえる。
+          人間にとっては身近で畏敬の存在である。
+          \\L
+          プチウィッチが成長した姿。
+          現では人間であるが、ここは夢世界なのだ。
+          成長すればその姿形も理想とするものに変わるのだろう。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 witch1-2
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+魔女と呼ばれる彼女も人間である。
+          書の執筆に勤しみ、研究に精を出し、娯楽を嗜む。
+          その姿は普通の人間と変わりないものだ。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74350,7 +74615,29 @@ witch1-4
 > END STRING
 
 > BEGIN STRING
+『銀色の都市』の図書館館長をしている魔女。
+          最近では提携先の図書館とも交流が進んでいる。
+          趣味はタロット占いらしい。
+          \\L
+          占星術には未来を占う力がある。数秘術を以てしてカバラを
+          読み解けば運命を覗き見る事も容易い。…これらを源流とした
+          ものにタロット占いが存在する。…とするならば、これに特化
+          した存在は世界を変える力を持ち得るかもしれない。
+          --とある研究者の手記より抜粋
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 petit_witch0-4
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+ヘカテーの補佐をしている見習い魔女。
+          師に対してかなり重い愛情を抱える。
+          また、可愛い女性に対して暴走しがちな面もある。
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74374,6 +74661,16 @@ rejeo2-1
 > END STRING
 
 > BEGIN STRING
+異界には失われた古代魔法を使う魔女が住まうという。
+        仮にもし、これらの存在をこちらの世界でも再現できれば
+        古代魔法の研究もより進むかもしれない。
+        かつて塵となって消えた古の悪魔の一端。
+        これを魔女と組み合わせればあるいは……？
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 neijurange2-1
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -74388,6 +74685,18 @@ neijurange2-1
 
 > BEGIN STRING
 アンタ
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+超能力……実に不思議な現象だ。
+        精霊や悪魔との契約を基にした魔法とは異なり
+        自らの内に潜む何らかのエネルギーを操作し、
+        対象物に干渉する力であるらしい。
+        今のところ人間にしか存在しないと思われるこの力を
+        人為的に発露させることはできるのだろうか？
+        是非試してみたい所だが……。
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74420,13 +74729,40 @@ I
 > END STRING
 
 > BEGIN STRING
+とある悪魔と契約し、すでに失われた筈の
+        古代魔法を使いこなす怪しい魔女。
+        傲慢で、自らに酔っている者が多いらしい。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 cast0-1
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
 
 > BEGIN STRING
+夢に現れた人間の女性。夢の中の存在であるため、
+          彼女らと現実の人物が同一のものとも限らず、
+          何か相互の干渉が必ずしもあるわけでは無い。
+          \\L
+          キャストとは演者のことである。
+          ならば元となる人物は誰であろうか。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 cast0-2
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+主人公の思い出としてあった夢魔。
+          思い出した後なら彼女の在り様も変わるかもしれない。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74466,6 +74802,17 @@ slave0-1
 兄様
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 Brother
+> END STRING
+
+> BEGIN STRING
+夢世界で囚われている奴隷の少女。
+          \\L
+          『本物』でもあるこの世界で何かに隷属している彼女は
+          現でも本当に実在するのだろうか。
+          あるいは、人々が内々に秘める
+          被虐心の表れなのかもしれない。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
 > END STRING
 
 > BEGIN STRING
@@ -74517,6 +74864,14 @@ Dear
 > END STRING
 
 > BEGIN STRING
+聖地ラハスヤで踊り子となった奴隷たち。
+        その美しい踊りは敵味方の区別なく全員を鼓舞する。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 Santaclaus
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -74542,6 +74897,15 @@ Dream Snowfield
 > END STRING
 
 > BEGIN STRING
+子供たちに夢を与える仕事を生業とする者たち。
+        実はれっきとした職業であり、何人も存在している。
+        隠れ里に住まう『サンタさん』も彼女とは別人なのだ。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 sleepy0-1
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -74551,6 +74915,17 @@ sleepy0-1
 おにーさん
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 Buddy
+> END STRING
+
+> BEGIN STRING
+常に眠そうにしている夢魔。名前の由来も眠気である。
+          夢世界に迷い込んだ人間をより深い眠りに誘い、
+          仲間と集団で襲い掛かる。
+          \\L
+          ……のはごく稀で、たいていの場合は
+          自らも眠りに落ちるとされている。なんで？
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
 > END STRING
 
 > BEGIN STRING
@@ -74579,7 +74954,27 @@ nightmare1-1
 > END STRING
 
 > BEGIN STRING
+その名の通り、悪夢を体現する夢魔である。
+          人間に悪夢を見せ、精神を蝕みながら快楽を与える事で、
+          正常な思考をさせずに堕落させる。
+          \\L
+          ……と噂されているが自分の睡眠を優先させることが多い。
+          気怠そうな言動とは裏腹に素早く行動することが出来る。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 nightmare1-2
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+【ＯＦＥ】と評される悪夢を体現させる夢魔。
+          見せる悪夢は千差万別だがマイペースなのは変わらず
+          特に昼寝に関しては一家言があるらしい。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74610,6 +75005,15 @@ sleepy0-4
 > END STRING
 
 > BEGIN STRING
+ひんやり冷たい氷枕の夢魔。
+        柔らかく、ひんやりとした彼女のお腹やお尻は
+        枕にするのにピッタリと噂されている……。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 sleepy0-5
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -74628,6 +75032,15 @@ Onii-san
 > END STRING
 
 > BEGIN STRING
+魔物『スライム』の特徴を持つ夢魔。
+          粘体の体で女性の姿を形作っている。動きは緩慢だが、
+          一度捕われれば逃げられず、溶かすように精を搾取する。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 queen_slime2-1
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -74640,13 +75053,41 @@ queen_slime2-1
 > END STRING
 
 > BEGIN STRING
+成長を続けることで女王の称号を得たスライム。
+          粘体も貴族然とした容姿を取るようになった。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 gold_slime1-1
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
 
 > BEGIN STRING
+密教会の研究者により生み出された特殊なスライム。
+          体内で金を生成し、無限に黄金を生み出すことができる。
+          錬金術師達の悲願であり、到達点とも呼べる存在。
+          黄金からなる腐食耐性により、状態異常を付与する魔法が
+          効かない非常に特異な性質を持つ。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 slime1-2
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+黄金のみに止まらず、宝石さえも生み出せるようになった
+          極めて希少価値の高いスライム。
+          彼女の存在は国一つをも揺るがしかねない。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74671,6 +75112,20 @@ Abyss Sea of Trees
 > END STRING
 
 > BEGIN STRING
+時々消えかかっている不思議な姿をした夢魔。
+          これらの個体の中では比較的安定しているようにも見える。
+          \\L
+          実験No.---
+          異界の---と---のスライムを素体とし、経過を見る。
+          ……自己が二つ存在している？何とも奇妙な現象だ。
+          存在も比較的安定しているようだが……
+          この結果は成功とは言い難い。
+          残念だが、廃棄する他ないだろう。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 shoggoth
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -74678,6 +75133,16 @@ shoggoth
 
 > BEGIN STRING
 familiar0-1
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+上位の悪魔や時に魔法使いに仕え、
+          給仕や家事労働を行う使用人の小悪魔。
+          とは言え彼女らも悪魔であり、
+          情事などから主人を陥れ、立場が逆転する事も。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74695,13 +75160,40 @@ Master
 > END STRING
 
 > BEGIN STRING
+ファミリアの中にも特殊な嗜好を持つ者がいる。
+          奉仕ではなく調教を好み主人すら堕とそうとする者。
+          そんな彼女を満足させるのも主の務めである
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 familiar0-6
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
 
 > BEGIN STRING
+サンドイッチ売りの師匠に仕え、
+          日々食の極みを追い求める小悪魔。
+          とはいえ彼女らも悪魔であり、
+          つい気を緩め日々の精進を怠ってしまう事も。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 familiar0-3
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+『銀色の都市』で暗躍していたいわくつきの従者。
+        今はなりを潜めているものの油断は出来ないだろう。
+        \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74739,6 +75231,15 @@ Husband
 > END STRING
 
 > BEGIN STRING
+人間と狼の中間のような容姿を持つ亜人。
+          敵対者には狼のように激しい攻撃を行い、
+          主と認めた者には子犬のように甘えながら忠義を尽す。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 werewolf1-2
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -74752,7 +75253,29 @@ I
 > END STRING
 
 > BEGIN STRING
+獄界に住むワーウルフ。
+          冥界の番犬を彷彿とさせる体躯を誇るも、
+          主人に対する忠義に変わりはない。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 werewolf1-4
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+時々消えかかっている不思議な姿をした夢魔。
+          \\L
+          実験No.---
+          ---の狼と---の---猫を素体とし、経過を見る。
+          ……概念の存在でなくても無理な組み合わせでは
+          自己の同一性を保持できないようだ。
+          記憶を操作してもいずれ同じ末路を迎えてしまう。
+          残念だが、これも廃棄する他ないだろう。
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74788,6 +75311,16 @@ yeti0-1
 > END STRING
 
 > BEGIN STRING
+ジェノン雪渓に隠れ住むUMAたち。
+        声帯が未発達な分、ボディランゲージを主体とした独特な
+        コミュニケーション手段を持つ。
+        基本的に穏やかなうえ、仲間達と積極的に愛し合うことで
+        不和を生まないようにし、群れを維持しているようだ。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 werecat1-1
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -74807,7 +75340,25 @@ Buddy
 > END STRING
 
 > BEGIN STRING
+人間と猫の中間のような容姿を持つ亜人。
+          猫のように少し気だるげでそっけない態度をとるが、
+          素早く的確な一撃をもって遊び相手を翻弄する。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 werecat1-2
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+洞窟のような暗所を根城とするワーキャット。
+          黒猫＝不吉の象徴とされる起源に諸説あるが、
+          当の彼女にはあまり興味がないことらしい。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74858,6 +75409,15 @@ Nee-chan
 > END STRING
 
 > BEGIN STRING
+人間だけでなく魔物も現から紛れ込むことがある。
+          彼女達は夢世界に広大な街を作った。
+          そしていつか、魔王と出会うことを楽しみにしている。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 gangcommander0-1
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -74867,6 +75427,15 @@ gangcommander0-1
 にーさま
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 Buddy
+> END STRING
+
+> BEGIN STRING
+血気盛んなゴブリン達を統率する個体。
+          集団戦を得意とする彼女たちは司令官の号令に従い
+          一気呵成に略奪……ではなく攻め立てるのだ。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
 > END STRING
 
 > BEGIN STRING
@@ -74882,7 +75451,33 @@ goblinthief0-1
 > END STRING
 
 > BEGIN STRING
+元来の器用さが開花し、盗賊に身を窶したゴブリン。
+          ゴブリンは悪戯好きとしても知られていて、盗みも働く。
+          だが盗む物は他愛もない物ばかり。
+          \\L
+          夢世界に武器は必要ない。
+          彼女たちゴブリンが武器を持つのは、
+          現の世界での名残なのかもしれない。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 hobgoblin0-1
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+ゴブリン達の中でもトクベツな才能を持つ個体。
+          リーダーの資質があり、ゴブリン達から大事にされている。
+          血気盛んなゴブリンの中では珍しく穏やかな性格で、
+          炊事や家事などの手伝いを好むとされている。
+          台所の隅にパンやミルクを備えておけば、
+          家憑きになって家の事を手伝ってくれるだろう。
+          \\L
+          才能を秘めたゴブリンであるが、
+          その才能が開花するかは彼女の素質と努力次第。
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74894,7 +75489,35 @@ goblinshaman0-1
 > END STRING
 
 > BEGIN STRING
+ホブゴブリンが呪術を修めた姿。
+          精霊召喚を得意とするが、召喚に時間を要するようだ。
+          足りない魔力を補うために自らを呪い、力を得ている。
+          身体に刻んだ代償は己を蝕み続けており、
+          いつか彼女を飲み込む事になるだろう。
+          \\L
+          才能は開花しなかったが、力がないというわけではない。
+          これは素質を持たなかった者の努力の結果なのだ。
+          その果てにあるものも、彼女はちゃんと理解している。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 gangcommander0-3
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+ホブゴブリンの才能が開花した姿。
+          指揮官を束ねるにふさわしい『長』であり
+          言動にも自信が満ち溢れている。
+          \\L
+          元来は優しい性格とされるホブゴブリンであるが、
+          ゴブリン達の長であるが故に恐ろしいという誤解を受ける
+          事も多く、これはそのイメージが集約された姿なのだろう。
+          高慢な性格の個体が多いが、元来の内気な個体も存在する。
+          紫水晶の影響を強く受けた個体が内気になることが多い。
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74913,6 +75536,20 @@ generalfrost1-1
 
 > BEGIN STRING
 goblin0-5
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+『異界の杖』を手に、魔法を操るゴブリン。
+          彼女の持つ杖は『輝杖カクラヌスマ』と呼ばれる。
+          本来は到底ゴブリンなどに扱える代物ではない。
+          なので未熟な彼女は杖の力に振り回されているとも言える。
+          \\L
+          本人に魔法の資質はないが、杖がそれを補ってくれている。
+          杖は自然と調和する彼女たちを気に入ったのかもしれない。
+          今は杖に守られる立場の彼女も、成長すれば杖に認められ、
+          本来持つ強大な力を引き出せるようになるだろう……。
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -74973,6 +75610,15 @@ Sir
 > END STRING
 
 > BEGIN STRING
+夢世界に迷い込んだ聖職者。
+          聖職者に相応しく性行為そのものに疎いが、
+          鍛え抜かれた魔法は冒険への手厚い支援となる。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 priestess1-2
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -74997,13 +75643,42 @@ cursemagus2-1
 > END STRING
 
 > BEGIN STRING
+魔術師全てが性に疎いわけではない。
+          呪術を得意とする者は行為を愉しむ傾向が強い。
+          それはまるで、昂る精を自らの糧とするかのように。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 alraune1-1
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
 
 > BEGIN STRING
+植物と人間が混じり合った容姿の亜人。
+          土地に根を張り獲物を待つ彼女だが
+          世界を見て回ることに憧れを持つ。
+          \\L
+          緩やかに愛を育むことを好む。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 alraune1-2
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+植物と人間が混じり合った容姿の亜人。
+          土地に根を張り獲物を待つ彼女だが
+          世界を見て回ることに憧れを持つ。
+          \\L
+          情熱的に愛を育むことを好む。
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75016,6 +75691,20 @@ alraune1-5
 
 > BEGIN STRING
 あなた様
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+時々消えかかっている不思議な姿をした夢魔。
+          \\L
+          実験No.---
+          ---の夢魔と植物の---を素体とし、経過を見る。
+          ……これは驚いた、姿が大きく変わっている。
+          ---に存在が引っ張られた結果なのだろう。
+          しかし、自我のない存在と夢魔の組み合わせでも
+          個を確立できず、存在が希釈され続けている……。
+          元にした植物の存在感が大きすぎたのだろうか？
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75039,7 +75728,29 @@ matango2-1
 > END STRING
 
 > BEGIN STRING
+茸と人間が混じり合った容姿の亜人。
+          表情が分かりやすいためか
+          考えていることがなんとなく分かってしまう。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 matango2-4
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+時々消えかかっている不思議な姿をした夢魔。
+          \\L
+          実験No.---
+          ---の夢魔と菌類の---を素体とし、経過を見る。
+          ……影響は小さいようだが、やはり姿が変わった。
+          完璧ではないが、今回はその存在も多少安定している。
+          やはり元となったモノの存在感が影響を及ぼすようだ。
+          もう少し経過を見てみるとしよう。
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75075,6 +75786,17 @@ dark_angel1-1
 > END STRING
 
 > BEGIN STRING
+神の僕たる天使が堕天した姿。
+          堕ちた後も主に対する信仰は持ち合わせているようだが、
+          言葉の端々から不敬の念も同時に表れている。
+          堕天とは神への叛逆の意思の表れであるため、
+          こうなってしまうのも自明であろう。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 dark_angel1-2
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -75105,6 +75827,14 @@ petit_angel0-1
 > END STRING
 
 > BEGIN STRING
+正体不明の魔人により、その存在を壊された天使たち。
+          天使としての存在が希釈され、とある夢魔との
+          キメラとも呼べる存在へ成り果ててしまっている……。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 putti
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -75117,7 +75847,25 @@ angel1-1
 > END STRING
 
 > BEGIN STRING
+正体不明の魔人により、その存在を壊された天使たち。
+          天使だったころの記憶は朧気で、
+          自らのアイデンティティは希釈されてしまっている。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 lesser_succubus1-7
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+正体不明の魔人により、その存在を壊された天使たち。
+          自らを神の子たるミカエルと自認しているが、
+          それさえも本当だったかはわからない。
+          どこからが自分の記憶でどこからが『設定』なのか、
+          希釈されきった『彼女たち』にもはや知る術はない。
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75159,6 +75907,15 @@ imp0-4
 > END STRING
 
 > BEGIN STRING
+群体で行動し、人間にとりつく悪霊たち。
+        自らの住まう土地に強い思い入れがあり、
+        悪魔祓いの聖者に対し自分達を土地から追い出さないよう
+        懇願し、聞き入れて貰ったという逸話も残されている。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 cast0-5
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -75171,7 +75928,33 @@ cast0-5
 > END STRING
 
 > BEGIN STRING
+勇敢な者や聖なる者の前に現れ、
+        その死を予言しすすり泣く精霊たち。
+        死に往く者のために涙を流す優しい存在だが、
+        現れるタイミングが不吉そのものでもあるため、
+        悪霊と勘違いされることもしばしば。
+        本来はある種の守護霊とも呼べる存在で、
+        その家固有のバンシーがいる事もあるらしい。
+        また、彼女らと交わった者は祝福を得るともされ、
+        口付けをしたりその乳房を吸う事で
+        彼女の養子として保護して貰えるとも言われている…。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 nightmare1-3
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+【夜の化身】の娘の一人でフードを被っている。
+        自身は星雲そのものを象徴する【星雲の化身】であり、
+        星々を操る術を持つともされる。
+        【夜の化身】の娘の中では若輩で、まだ幼い様子。
+        いたずらをして周囲を驚かそうとするが、
+        上手くいかないことの方が多い。
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75196,6 +75979,15 @@ Lilith1-7
 
 > BEGIN STRING
 gargoyle1-1
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+雨樋の機能をもつ、怪物などを象った彫刻。
+          それが転じて夢世界では持ち場を守る番人として
+          主を仇なす者に襲い掛かるのだ。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75238,7 +76030,25 @@ mimic1-1
 > END STRING
 
 > BEGIN STRING
+擬態の名を冠する亜人。
+          宝箱に身を隠し、開くものを快楽の底に陥れる。
+          それを彼女は見世物として楽しむのだ。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 mimic1-2
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+魔王の城に鎮座する宝箱。
+          冒険者は嬉々として開封するのだが中には彼女がいた。
+          ダンジョンの宝箱にトラップがあるのはお約束である。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75274,6 +76084,17 @@ Idiot
 > END STRING
 
 > BEGIN STRING
+不正な富を象徴し『強欲』を司る金銭の悪魔。
+        欲望に塗れた者をおびき寄せ、絶望を与えることが好き。
+        が、逆にそれがいいという人も……。
+        金銀財宝に強い執着を持ち、どんな手段を以てしても
+        手中に収めんとする。彼女が認めた者は財宝とみなされ、
+        二度と帰ってくることはないという噂もある。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 tamamo1-1
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -75292,7 +76113,25 @@ Guy
 > END STRING
 
 > BEGIN STRING
+伝承として存在する九尾の狐。
+          その名を持つ亜人は美貌のみならず伽も自負しており、
+          一度対峙すれば冒険者を快楽の底へと誘うであろう。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 lilim0-1
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+夜の悪霊とされる夢魔。
+          とある伝承では無数の姉妹が存在し
+          夢世界での彼女ともまた違う姿を持つ。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75322,6 +76161,19 @@ lilim0-5
 > END STRING
 
 > BEGIN STRING
+時々消えかかっている不思議な姿をした夢魔。
+          これらの個体の中では比較的安定しているようにも見える。
+          \\L
+          実験No.---
+          ---と---の器を素体とし、経過を見る。
+          ……研究は一歩前進と言ったところか。
+          想定とは違った結果となったが、少なくとも
+          存在は安定している。これを基に研究を進めれば……
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 Lilith1-1
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -75341,6 +76193,18 @@ Lilith1-2
 
 > BEGIN STRING
 Lilith1-4
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+時々消えかかっている不思議な姿をした夢魔。
+          これらの個体の中ではかなり安定しているようにも見える。
+          \\L
+          実験体の一部が街の外にいるという報告を受けた。
+          おかしい、失敗作はシルキー達が処分しているはず。
+          適当に捨てたなんて事はない筈なのだが……。
+          まさか、情でも湧いて逃がしてしまったのだろうか？
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75376,7 +76240,23 @@ Nosferatu1-1
 > END STRING
 
 > BEGIN STRING
+『銀色の都市』に居を構える吸血鬼。
+          制約が少ない夢世界を気に入っている。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 Melusine1-1
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+『銀色の都市』で領主を務める亜人。
+          自身が目指す「人と魔の共生」へ邁進している。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75388,7 +76268,23 @@ Servant1-1
 > END STRING
 
 > BEGIN STRING
+シスターに忠誠を誓うメイド長。
+          先代メイド長の直弟子であり今でも彼女を慕っている。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 Servant1-2
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+シスターに忠誠を誓うメイド長。
+          裏方を担当しており表方と実力の違いはほぼない。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75415,6 +76311,14 @@ Silky1-2
 boss_SilkLady
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 > CONTEXT: 修正用.rb
+
+> END STRING
+
+> BEGIN STRING
+かつて存在したサーヴァントモデルのプロトタイプ。
+          元の自我を取り戻せるかは主人公との繋がりが鍵となる。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
 
@@ -75456,6 +76360,20 @@ Eternus1-1
 > END STRING
 
 > BEGIN STRING
+それは永遠。それは無垢。年月を経ても濁ること無き少女。
+          それと同時に、あなた相手には無垢なまま染まる。
+          彼女こそ、永遠の少女。
+          \\L
+          これらは元型の影響を強く受けた夢魔であろう。
+          傾向から考えて「永遠の少女」か。世話をしてみると、
+          なかなか可愛いものである。性的な欲求には乏しいようだが
+          依存性があるという意味では夢魔らしいのかもしれない。
+          --とある研究者の手記より抜粋 その1
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 Eternus1-2
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -75488,6 +76406,13 @@ rockgolem1-1
 
 > BEGIN STRING
 incubus
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+見目麗しい魔性の少年。一瞥だけでは少女と見紛う。
+          言葉巧みに相手を誘い、そのテクニックでモノにする。
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75608,7 +76533,23 @@ boss_neijurange
 > END STRING
 
 > BEGIN STRING
+『月明かりの樹海』深部に棲む夢魔。
+        【天然由来】の二つ名の通り淫毒による搦め手が得意。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 boss_rejeo
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+【饗宴の魔女】を師事する夢魔。
+          周りから【落ちこぼれ】と評されるも魔法の才は高い。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75620,7 +76561,23 @@ boss_fulbeua
 > END STRING
 
 > BEGIN STRING
+【美の体現者】とも謳われるほど魅力が高い夢魔。
+        自身の在りようたる美しさに絶対の自信を持っている。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 boss_gilgoon
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+人類の敵とも言われた魔族の王。
+          【丈夫な玩具】に堕ちるも王たる精神に曇りはない。
+          \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75632,7 +76589,23 @@ boss_youganot
 > END STRING
 
 > BEGIN STRING
+『獄界オルデオ』の奥地に棲む夢魔。
+        【冒涜飼い】の所以の通り触手を自在に使いこなす。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 boss_shilphe
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+人が織りなす物語を好む夢魔。
+        【上から目線】と噂されるも当人は特に気にしていない模様。
+        \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75644,7 +76617,23 @@ boss_rarmil
 > END STRING
 
 > BEGIN STRING
+主人公の師であり【秩序の魔女】の二つ名を持つ人間。
+        多様な魔法を操り、荒事にも精通している。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 boss_vermiena
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+【金色の夢魔】の異名を持つ夢魔。
+        ラーミル、そして主人公と浅からぬ因縁がある。
+        \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75656,7 +76645,23 @@ boss_chaosia
 > END STRING
 
 > BEGIN STRING
+【饗宴の魔女】の二つ名を持つ元人間の夢魔。
+        リジェオの師でありパルフィス密教会の首魁でもある。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 boss_milluriere
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+『平原の丘』にて佇むスライム。
+        大きくにも小さくにも自由に変化することが出来る。
+        \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75668,7 +76673,29 @@ boss_sister
 > END STRING
 
 > BEGIN STRING
+『銀色の都市』で領主を務めていた聖職者。
+        【銀色の魔人】の名の通り、その力の底は計り知れない。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 boss_Eve1-1
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+女性偶像（アニマ）」の化身である元型。
+        超自我による弊害は主人公との契約で緩和されたようだ。
+        \\L
+        ……彼女の世話を任せたシルキーの姿が突然薄れ、
+        消え去ってしまった。突然のことで私も混乱した。
+        ここに至り、私は思わぬ形で目的を達したことに気づいた。
+        つまり、彼女こそが「純粋な元型」だったのだ。
+        シルキーの消滅は、彼女の超自我による希釈現象だろう。
+        --とある研究者の手記より抜粋 その2
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75681,6 +76708,14 @@ tearvoir
 > END STRING
 
 > BEGIN STRING
+『夢魔の遊技場』の支配人であり性闘士。
+        実力に裏付けされ経営手腕と戦闘センスは一級品。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 boss_Diligente
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 > CONTEXT: 修正用.rb
@@ -75688,7 +76723,23 @@ boss_Diligente
 > END STRING
 
 > BEGIN STRING
+銀色の都市」で従者をしている口が悪いメイド。
+          研究への情熱は本物で【黄昏の賢者】も一目置いている。
+          \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 boss_Schatten1-1
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+口が悪いメイドの研究の中でイレギュラー的に発生した夢魔。
+        相反する願いの存在ながらも主人公を思う気持ちは本物。
+        \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75700,13 +76751,39 @@ Hypnos1-1
 > END STRING
 
 > BEGIN STRING
+【夜の化身】の娘の一人であり、
+        『彼岸の森』で待ち受ける双子の姉。
+        姉妹での戦闘が得意で主にサポーターを担当している。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 Hypnos1-2
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
 
 > BEGIN STRING
+【夜の化身】の娘の一人であり、
+        『彼岸の森』で待ち受ける双子の妹。
+        姉妹での戦闘が得意で主にアタッカーを担当している。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 Nemesis1-1
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+【夜の化身】の娘の一人。
+        真面目で礼儀正しいが攻められるのが好み。
+        \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75725,7 +76802,23 @@ Hemether1-1
 > END STRING
 
 > BEGIN STRING
+【夜の化身】の娘でヘメレとアイテルの仲良し姉妹。
+        夢世界きってのアイドルでありファンも非常に多い。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 Eris1-1
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+【夜の化身】の娘の一人で母が大好きと公言している。
+        攻め立てるのは得意だが攻められるのは苦手。
+        \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75737,7 +76830,24 @@ boss_Thanatos
 > END STRING
 
 > BEGIN STRING
+【夜の化身】の娘だが
+        理由あって『銀色の都市』に身を寄せている。
+        親友であるシルクレディが還ってきたことを喜んでいる。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 boss_Vidrir
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+【黄昏の賢者】の二つ名を持つ人間。
+        【銀色の魔人】が師と仰ぐほどの能力を持つ。
+        \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75752,6 +76862,14 @@ boss_MotherHarlot
 妾
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 > CONTEXT: Window_Firstperson_Change.rb
+
+> END STRING
+
+> BEGIN STRING
+【バビロンの堕淫婦】と名乗る異世界の存在。
+        主人公が満足させたことで夢世界の危機は去った。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
 
@@ -75804,7 +76922,23 @@ boss_Nyx1-1
 > END STRING
 
 > BEGIN STRING
+【夜の化身】の名の通り、夢世界の夜そのものでもある存在。\n多くの娘を持ち親子間の仲は非常に良好である。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 boss_overmind
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+傍観者を名乗る別の世界からの訪問者。
+        その能力の粋は【上霊】の呼び声の通り非常に高く、
+        主人公を起因とした二つの夢魔の誕生に深く関わっている。
+        \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75823,7 +76957,28 @@ machina2-1
 > END STRING
 
 > BEGIN STRING
+シスターの部下である機械人形。
+        機械人形ならではの装備品も携える。
+        感情プログラムが貧弱な初期型の人形で、
+        反応や対応等が他の機体と比べ機械的である。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 machina2-2
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+シスターの部下である機械人形。
+        機械人形らしからぬ愛嬌を振りまいているが、
+        その多くは彼女の習性のようなものであり、
+        内心では冷静に相手を分析している。
+        本質的にはアトレッツァとあまり変わらない。
+        \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75842,13 +76997,43 @@ avaritia
 > END STRING
 
 > BEGIN STRING
+大罪の結晶強奪事件で対峙した淫魔軍の一員。
+        事件の後はハザマノセカイで身を隠している噂。
+        \\L
+        アヴァリツィアやで！
+        強欲言うてもただの欲しがりやさかい、よろしゅーな♪
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 invidia
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
 
 > BEGIN STRING
+大罪の結晶強奪事件で対峙した淫魔軍の一員。
+        事件の後はハザマノセカイで身を隠している噂。
+        \\L
+        インヴィディアって言います。
+        嫉妬深くないですよぉ？……本当ですよぉ？
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 luxuria
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+大罪の結晶強奪事件で対峙した淫魔軍の一員。
+        事件の後はハザマノセカイで身を隠している噂。
+        \\L
+        ルクスリアだよ♪
+        色欲……？よくわかんないけどよろしくね♡
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75866,6 +77051,16 @@ acedia
 > END STRING
 
 > BEGIN STRING
+大罪の結晶強奪事件で対峙した淫魔軍の一員。
+        事件の後はハザマノセカイで身を隠している噂。
+        \\L
+        アケディアちゃんだよ……。
+        怠惰で結構……それじゃおやすみ……ぐぅ……
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 ira
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -75878,7 +77073,28 @@ ira
 > END STRING
 
 > BEGIN STRING
+大罪の結晶強奪事件で対峙した淫魔軍の一員。
+        事件の後はハザマノセカイで身を隠している噂。
+        \\L
+        イーラだ、あいつらのまとめ役もしてる。
+        ……憤怒らしくない？
+        ま、名は必ずしも体を表さず、てな♪
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 gula
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+大罪の結晶強奪事件で対峙した淫魔軍の一員。
+        事件の後はハザマノセカイで身を隠している噂。
+        \\L
+        ワタシ、グーラって言います。
+        暴食？はい、よくお腹が空いてしまいまして……♡
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75891,6 +77107,16 @@ superbia
 
 > BEGIN STRING
 オマエ
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+大罪の結晶強奪事件で対峙した淫魔軍の一員。
+        事件の後はハザマノセカイで身を隠している噂。
+        \\L
+        スペルビアだ。今さら言うことじゃねーな。
+        傲慢？我を通してるだけだぜ、人聞きが悪い♡
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75909,6 +77135,16 @@ boss_adversa
 
 > BEGIN STRING
 boss_Einherjar
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+トレジャーハンターを名乗る異界の亜人。
+          ルーン魔法に長けておりセックスが大好き。
+          気に入った相手との妊活に励んでいる。
+          \\L
+          敗北させた相手を磔にして楽しむ癖がある。
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75933,6 +77169,15 @@ boss_Einherjar2-4
 
 > BEGIN STRING
 boss_Valkyria
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+戦士館にて守り人を務める戦乙女。
+        旧知の仲であるエインヘリヤルに説得され
+        主人公を新たな主として仕えるようになった。
+        \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -75968,6 +77213,22 @@ nuit
 > END STRING
 
 > BEGIN STRING
+ハザマノセカイでお店の店員を務める人間。
+        性闘にも精通しており店長との連係プレイが得意。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+ハザマノセカイでお店の店長を務める人間。
+        娼婦としての一面を持ちその筋では伝説と謳われていたほど。
+        \\L
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 nacht
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -75975,6 +77236,16 @@ nacht
 
 > BEGIN STRING
 boss_gennonnsinndre
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+かつて淫魔軍と戦った軍将。
+        絶大な氷の魔力で淫魔軍を退けていたが、
+        淫魔の術中によりその精神を蝕まれる。
+        圧倒的な精神力で何とか自我を保っていたが、
+        主人公と相対する頃には、とっくに限界を過ぎていた。
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -76175,13 +77446,43 @@ boss_Draghignazzo
 > END STRING
 
 > BEGIN STRING
+かつて存在した悪魔たち『マレブランケ』の一人。
+      封印後は人々の記憶から忘れ去られていたが……。
+      \\L
+      非常に凶暴な、ドラゴンの要素を持った悪魔。
+      とはいえ精神は子供らしく、単純な手に引っかかるようだ。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 boss_Libicocco
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
 
 > BEGIN STRING
+かつて存在した悪魔たち『マレブランケ』の一人。
+      封印後は人々の記憶から忘れ去られていたが……。
+      \\L
+      のんびりとした性格だが、俊足の斥候
+      マレブランケの中でも最後まで封印されなかったらしいが……
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 boss_Farfarello
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+かつて存在した悪魔たち『マレブランケ』の一人。
+      封印後は人々の記憶から忘れ去られていたが……。
+      \\L
+      知識を求め、他者から知恵を食らう悪魔。
+      協力者に裏切られて封印されたようだ。
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -76199,7 +77500,27 @@ boss_Cagnazzo
 > END STRING
 
 > BEGIN STRING
+かつて存在した悪魔たち『マレブランケ』の一人。
+      封印後は人々の記憶から忘れ去られていたが……。
+      \\L
+      頭がよく回り、マレブランケの戦略を立案する。
+      しかし打たれ弱いところがあり、焦りがマレブランケを……。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 boss_Graffiacane
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+かつて存在した悪魔たち『マレブランケ』の一人。
+      封印後は人々の記憶から忘れ去られていたが……。
+      \\L
+      元は武術や武器に優れた戦士だった。
+      しかし長い封印の中で、幼児退行してしまったようだ。
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -76211,7 +77532,27 @@ boss_Ciriatto
 > END STRING
 
 > BEGIN STRING
+かつて存在した悪魔たち『マレブランケ』の一人。
+      封印後は人々の記憶から忘れ去られていたが……。
+      \\L
+      悪魔の中では優しい精神を持つ。
+      マレブランケの医療を担当していたらしい。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 boss_Malacoda
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+かつて存在した悪魔たち『マレブランケ』の一人。
+      封印後は人々の記憶から忘れ去られていたが……。
+      \\L
+      マレブランケをまとめる大悪魔……なのだが。
+      長い時の中で自分が誰がかも忘れ去ってしまったらしい。
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -76223,7 +77564,27 @@ boss_Alichino
 > END STRING
 
 > BEGIN STRING
+かつて存在した悪魔たち『マレブランケ』の一人。
+      封印後は人々の記憶から忘れ去られていたが……。
+      \\L
+      甘い香りを漂わせ、甘い夢を持つ女。
+      カルカブリーナには甘すぎると嫌われている。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 boss_Calcabrina
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+かつて存在した悪魔たち『マレブランケ』の一人。
+      封印後は人々の記憶から忘れ去られていたが……。
+      \\L
+      冷たい体と冷たい心を持つ女。
+      アリキーノには冷たすぎると嫌われている。
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -76241,6 +77602,16 @@ boss_Barbariccia
 > END STRING
 
 > BEGIN STRING
+かつて存在した悪魔たち『マレブランケ』の一人。
+      封印後は人々の記憶から忘れ去られていたが……。
+      \\L
+      マレブランケを復活させようとしていたサブリーダー。
+      ロウラットを利用し力を取り込もうとしたが失敗した。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 boss_Rubicante
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -76253,7 +77624,27 @@ boss_Rubicante
 > END STRING
 
 > BEGIN STRING
+かつて存在した悪魔たち『マレブランケ』の一人。
+      封印後は人々の記憶から忘れ去られていたが……。
+      \\L
+      催眠で人を思うがままにするのが好きな悪魔。
+      子供ならではの嗜虐性は多くの者を恐れさせた。
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 boss_Scarmiglione
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+かつて存在した悪魔たち『マレブランケ』の一人。
+      封印後は人々の記憶から忘れ去られていたが……。
+      \\L
+      色仕掛けによる誘惑などを得意としている。
+      仕事はするが遊び惚けることが多いらしい……。
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -76296,6 +77687,14 @@ boss_Gwiber
 
 > BEGIN STRING
 mia
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+主人公誘拐事件の首謀者。
+      改心した後も虎視眈々と主人公の隣を狙っている。
+      \\L
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -82501,7 +83900,7 @@ Lv#{level || '　'}: #{bonus_name}
 > BEGIN STRING
 /\s+/
 > CONTEXT: Window_DictionaryRight.rb
-
+/\r\n\t\f\v/
 > END STRING
 
 > BEGIN STRING

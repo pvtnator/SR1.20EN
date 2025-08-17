@@ -10,16 +10,15 @@ def extract_strings(folder_path, output_file, update={}, conv={}):
 
     # Walk through all files in the folder and its subfolders
     for file in folder_path.rglob("*.rb"):
-        print(file)
         relative = file.relative_to(folder_path)
         context = relative.as_posix()
         with file.open(encoding='utf-8', errors='replace') as f:
             content = f.read()
         
         # Find all strings in the file
-        found_strings = re.findall(r'"「{0,}(.*?)」{0,}"', content)
+        found_strings = re.findall(r'"「{0,}([\s\S]*?)」{0,}"', content)
         if "script" in source:
-            found_strings += re.findall(r'\'「{0,}(.*?)」{0,}\'', content)
+            found_strings += re.findall(r'\'「{0,}([\s\S]*?)」{0,}\'', content)
         found_strings += re.findall(r'\/.*?\/', content)
         
         # Add found strings to the dictionary with their contexts
@@ -221,6 +220,9 @@ if __name__ == "__main__":
             i += 1
             string = lines[i].rstrip()
             i += 1
+            while lines[i][0] != ">":
+                string += "\n"+lines[i].rstrip()
+                i+=1
             contexts = []
             while(lines[i][0] == ">"):
                 context = lines[i][11:].strip()
@@ -232,21 +234,25 @@ if __name__ == "__main__":
                     if not c in translations:
                         translations[c] = {}
                         regexes[c] = []
+                    tr = lines[i].rstrip()
+                    while lines[i+1][0] != ">":
+                        i+=1
+                        tr += "\n"+lines[i].rstrip()
                     if mode == "extract":
                         if source == "mod_scripts" and "\"" in string:
                             conv[string.replace("\"", "")] = string
                             string = string.replace("\"", "")
-                        translations["global"][string.strip()] = lines[i].rstrip()
+                        translations["global"][string.strip()] = tr
                         continue
                     if source == "mod_scripts" and mode=="apply" and string[0]!='/' \
                                                 and not '"' in string:
                         regexes[c].append(re.escape('"'+string+'"'))
-                        translations[c]['"'+string+'"'] = '"'+lines[i].rstrip()+'"'
+                        translations[c]['"'+string+'"'] = '"'+tr+'"'
                         regexes[c].append(re.escape("'"+string+"'"))
-                        translations[c]["'"+string+"'"] = "'"+lines[i].rstrip()+"'"
+                        translations[c]["'"+string+"'"] = "'"+tr+"'"
                     else:
                         regexes[c].append(re.escape(string))
-                        translations[c][string] = lines[i].rstrip()
+                        translations[c][string] = tr
                     #print(string)
                     #print(r'"「{0,}('+re.escape(string)+r')」{0,}"')
             i += 2
