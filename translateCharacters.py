@@ -16,9 +16,10 @@ def extract_strings(folder_path, output_file, update={}, conv={}):
             content = f.read()
         
         # Find all strings in the file
-        found_strings = re.findall(r'"「{0,}([\s\S]*?)」{0,}"', content)
+        found_strings = re.findall(r'"「{0,}(.*?)」{0,}"', content)
         if "script" in source:
-            found_strings += re.findall(r'\'「{0,}([\s\S]*?)」{0,}\'', content)
+            found_strings += re.findall(r'\'「{0,}(.*?)」{0,}\'', content)
+            #found_strings += re.findall(r'\'「{0,}([\s\S]*?)」{0,}\'', content)
         found_strings += re.findall(r'\/.*?\/', content)
         
         # Add found strings to the dictionary with their contexts
@@ -76,7 +77,7 @@ def autotranslate(translations_file, lines, multiline=200):
                 string = string.replace("アソコ", "おまんこ").replace("ココ", "おまんこ")
                 string = string.replace(r"\\H", r".\\H")
                 string = string.replace("…", "...")
-                string = re.sub("\.{2,}", "...", string)
+                string = re.sub("\\.{2,}", "...", string)
                 numbered = len(batchi)
                 string = str(numbered)+". "+string.rstrip()+"\r\n"
                 batcht += string
@@ -91,13 +92,16 @@ def autotranslate(translations_file, lines, multiline=200):
                         #print(len(paste))
                         #print(len(batcht.split("\n")))
                         if len(paste) != len(batcht.split("\n")) and len(paste) > 5 and pyperclip.paste() != batcht:
+                            if multiline == 10:
+                                print("Switched to 5 lines")
+                                return 5
                             print("Switched to 10 lines")
                             return 10
                         pasted = pyperclip.paste()
                         if pasted!=batcht:
                             pasted = pasted.replace("\r\n\r\n", "\r\n")
                             pasted = re.sub(r'\r\n(?!\d)', r'\\n', pasted)
-                            paste = re.findall("\d{1,2}\. ?(.*?(?=\d\.[A-Za-z ]|\n|$))", pasted)
+                            paste = re.findall("\\d{1,2}\\. ?(.*?(?=\\d\\.[A-Za-z ]|\n|$))", pasted)
                             #for p in range(len(paste)):
                             #    print(str(p+1)+". "+paste[p])
                     trlines = paste
@@ -121,14 +125,14 @@ def autotranslate(translations_file, lines, multiline=200):
                             translated = re.sub("Giggle|Laughs{0,}|[Ll]ol", "*Giggle*", translated) 
                             translated = translated.replace("violent", "intense")
                             translated = re.sub("\\\\H　{0,}([a-zA-Z])", "\\\\H \\1", translated)
-                            translated = re.sub("[Ss]{0,}[Ww]h{0,}oosh(?=[,\.\\\\])", "*woosh*", translated)
-                            translated = re.sub("[Ll]ick(?=[,\.\\\\])", "*kiss*", translated)
-                            translated = re.sub("[Kk]iss(?=[,\.\\\\])", "*kiss*", translated)
-                            translated = re.sub("[Ss]mooch(?=[ ,\.\\\\])", "*smooch*", translated)
-                            translated = re.sub("[Ss]lurp(?=[ ,\.\\\\])", "*slurp*", translated)
+                            translated = re.sub("[Ss]{0,}[Ww]h{0,}oosh(?=[,\\.\\\\])", "*woosh*", translated)
+                            translated = re.sub("[Ll]ick(?=[,\\.\\\\])", "*kiss*", translated)
+                            translated = re.sub("[Kk]iss(?=[,\\.\\\\])", "*kiss*", translated)
+                            translated = re.sub("[Ss]mooch(?=[ ,\\.\\\\])", "*smooch*", translated)
+                            translated = re.sub("[Ss]lurp(?=[ ,\\.\\\\])", "*slurp*", translated)
                             translated = re.sub(r"\* \*|\*, \*", ", ", translated)
                             translated = re.sub("\"(.*)\"", "「\\1」", translated)
-                            translated = re.sub("\.{2,}", "...", translated)
+                            translated = re.sub("\\.{2,}", "...", translated)
                             translated = re.sub("([a-zA-Z])\\1{3,}", "\\1\\1", translated)
                             #translated = re.sub(r"([^\.])\.\\H", r"\1\\H", translated)
                             parts = translated.split("\\n")
@@ -194,9 +198,9 @@ def apply_translations(folder_path, apply_path, regexes, translations, mustinclu
                 
 if __name__ == "__main__":
     current_dir = Path.cwd()
-    mode = sys.argv[1] if len(sys.argv)>1 else "extract"
-    source = sys.argv[2] if len(sys.argv)>2 else "mod_scripts"
-    dest = sys.argv[3] if len(sys.argv)>3 else "Mod_Scripts"
+    mode = sys.argv[1] if len(sys.argv)>1 else "autotranslate"
+    source = sys.argv[2] if len(sys.argv)>2 else "talk"
+    dest = sys.argv[3] if len(sys.argv)>3 else "talk"
     quickpatch = ""
     translated_dir = current_dir.parent / Path().resolve().name.replace("patch","translated")
     if mode=="apply":
