@@ -8342,7 +8342,7 @@ jump6
 > BEGIN STRING
 \\name[\\v[2]]\\_
 修行ポイントのことなら私にお任せください。
-> CONTEXT: Commonevents/152/1/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/152/1/Dialogue
 \\name[\\v[2]]\\_
 Leave it to me when it comes to training points.
 > END STRING
@@ -8351,7 +8351,7 @@ Leave it to me when it comes to training points.
 \\name[\\v[2]]\\_
 特別なフルーツを食べれば修行ポイントを得られます。
 ある街に住む、リリスの農家がフルーツに詳しいですわ。
-> CONTEXT: Commonevents/152/8/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/152/8/Dialogue
 \\name[\\v[2]]\\_
 Eat special fruits to earn training points.
 A Lilith farmer in a certain town 
@@ -8426,5 +8426,17 @@ is knowledgeable about fruits.
 この場に淀んだ負の夢から、最強の悪夢と凶夢を生み出して
 やる！
 > CONTEXT: Commonevents/378/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+前回の記録を引き継ぎますか？
+> CONTEXT: Commonevents/88/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+記録を破棄しますか？
+> CONTEXT: Commonevents/88/7/Dialogue < UNTRANSLATED
 
 > END STRING

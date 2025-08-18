@@ -1,435 +1,5 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-"（リジェオとは契約済みです）"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-リジェオと戦いますか？
-\\v[3]
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-前回の記録を引き継ぎますか？
-> CONTEXT: Commonevents/88/0/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-記録を破棄しますか？
-> CONTEXT: Commonevents/88/7/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-"（追憶では記録は引き継がれません）"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ノーマルリジェオ
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-追憶リジェオ
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-Lv120リジェオ
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-"（ネイジュレンジとは契約済みです）"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ネイジュレンジと戦いますか？
-\\v[3]
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ノーマルネイジー
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-追憶ネイジー
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-Lv118ネイジー
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-"（ユーガノットとは契約済みです）"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ユーガノットと戦いますか？
-\\v[3]
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ノーマルユーガ
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-追憶ユーガ
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-Lv116ユーガ
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-"（シルフェとは契約済みです）"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-シルフェと戦いますか？
-\\v[3]
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ノーマルシルフェ
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-追憶シルフェ
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-Lv118シルフェ
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-"（ギルゴーンとは契約済みです）"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ギルゴーンと戦いますか？
-\\v[3]
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ノーマルギルゴーン
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-追憶ギルゴーン
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-"（フルビュアとは契約済みです）"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-フルビュアと戦いますか？
-\\v[3]
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ノーマルフルビュア
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-追憶フルビュア
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-Lv110フルビュア
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-"（ラーミルとは契約済みです）"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ラーミルと戦いますか？
-\\v[3]
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ノーマルラーミル
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-Lv110ラーミル
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-"（ヴェルミィーナとは契約済みです）"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ヴェルミィーナと戦いますか？
-\\v[3]
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ノーマルヴェルミィーナ
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ベストエンドヴェルミィーナ
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-追憶ヴェルミィーナ
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-Lv110ヴェルミィーナ
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-？？？と戦いますか？
-> CONTEXT: Map523/events/10/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/11/pages/0/0/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-"（イヴとは契約済みです）"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-イヴと戦いますか？
-\\v[3]
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ノーマルイヴ
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-追憶イヴ
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-"（シスターとは契約済みです）"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-シスターと戦いますか？
-\\v[3]
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ノーマルシスター
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-追憶シスター
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-"（カオシアとは契約済みです）"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-カオシアと戦いますか？
-\\v[3]
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ストーリーカオシア
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-追憶カオシア
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-"（シャッテンベスティとは契約済みです）"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-シャッテンベスティと戦いますか？
-\\v[3]
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-強化段階が設定できます。（最大５）
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-４以上は主人公が離脱していると設定できません。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-"（ディリヘンテとは契約済みです）"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ディリヘンテと戦いますか？
-\\v[3]
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-単独
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-お供付き
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-"（ミリュリエールとは契約済みです）"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ミリュリエールと戦いますか？
-\\v[3]
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-"（ティアヴァールとは契約済みです）"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ティアヴァールと戦いますか？
-\\v[3]
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-Lv30
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-Lv70
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
 "拡張テスター"
 > CONTEXT: Map523/events/19/pages/0/0/InlineScript/1:22 < UNTRANSLATED
 
@@ -450,24 +20,19 @@ Lv70
 
 > BEGIN STRING
 "回想の管理人"
-> CONTEXT: Map523/events/20/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-この場所では、過去に戦った
-名のある夢魔たちと再戦することができる。
-> CONTEXT: None < UNUSED
-
+> CONTEXT: Map523/events/20/pages/0/0/InlineScript/1:22
+"Reminiscence Manager"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 過去に戦っていて未契約の夢魔の場合、
 前回の記録を引き継いで戦うことも可能だ。
-> CONTEXT: Map523/events/20/pages/0/11/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map523/events/20/pages/0/11/Dialogue
+\\name[\\v[2]]\\_
+If you have fought a succubus but have not yet 
+made a contract with her,
+you can continue fighting using your previous record.
 > END STRING
 
 > BEGIN STRING
@@ -475,16 +40,11 @@ Lv70
 この記録には開発度の状況や、
 君が童貞を捧げたかどうかなども細かく記録されている。
 契約時にも反映されるので有効に活用したまえ。
-> CONTEXT: Map523/events/20/pages/0/14/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
+> CONTEXT: Map523/events/20/pages/0/14/Dialogue
 \\name[\\v[2]]\\_
-契約済みの夢魔と再戦する場合、
-戦闘記録の引き継ぎは行われない。
-> CONTEXT: None < UNUSED
-
+This record contains information about your conditioning,
+whether or not you have lost your virginity and more.
+It will also be reflected in the contract, so make use of it.
 > END STRING
 
 > BEGIN STRING
@@ -492,14 +52,17 @@ Lv70
 拡張されたこの世界では、
 君と契約している方の夢魔こそが本体だ。
 それ以外は幻影だと思っておくといい。
-> CONTEXT: Map523/events/20/pages/0/21/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map523/events/20/pages/0/21/Dialogue
+\\name[\\v[2]]\\_
+In this expanded world,
+the succubus you have a contract with is the real body.
+All others should be considered illusions.
 > END STRING
 
 > BEGIN STRING
 アウルムと戦いますか？
-> CONTEXT: Map523/events/21/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map523/events/21/pages/0/0/Dialogue
+Fight Aurum?
 > END STRING
 
 > BEGIN STRING
@@ -527,8 +90,10 @@ Lv70
 \\name[\\v[2]]\\_
 相手の夢魔が契約済みや記憶の中の存在の場合、
 戦闘記録の引き継ぎは行われない。
-> CONTEXT: Map523/events/20/pages/0/18/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map523/events/20/pages/0/18/Dialogue
+\\name[\\v[2]]\\_
+If the succubus has a contract or exists in your memory,
+battle records will not be carried over.
 > END STRING
 
 > BEGIN STRING
@@ -536,9 +101,12 @@ Lv70
 この場所では戦闘から逃げることができ、
 全滅してもホームに戻されることもない。
 さあ、名のある夢魔たちに挑むといい。
-> CONTEXT: Map523/events/20/pages/0/25/Dialogue < UNTRANSLATED
-> CONTEXT: Map523/events/20/pages/0/62/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map523/events/20/pages/0/25/Dialogue
+> CONTEXT: Map523/events/20/pages/0/62/Dialogue
+\\name[\\v[2]]\\_
+You can run from battle here, and even if 
+you are wiped out, you won't be sent back home.
+Now, take on the famous succubi.
 > END STRING
 
 > BEGIN STRING
@@ -546,20 +114,23 @@ Lv70
 この場所では、過去に戦った
 名のある夢魔たちと再戦することができる。
 何か聞きたいことはあるか？
-> CONTEXT: Map523/events/20/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map523/events/20/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Here you can rematch famous succubi 
+you've fought in the past.
+Is there anything you'd like to ask?
 > END STRING
 
 > BEGIN STRING
 再戦について
-> CONTEXT: Map523/events/20/pages/0/5/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Map523/events/20/pages/0/5/Choice/0
+About rematches
 > END STRING
 
 > BEGIN STRING
 夢の奔流について
-> CONTEXT: Map523/events/20/pages/0/5/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Map523/events/20/pages/0/5/Choice/1
+About Dream Stream
 > END STRING
 
 > BEGIN STRING
@@ -567,24 +138,31 @@ Lv70
 君が名のある夢魔と過去に戦ったことがあるとき、
 この空間に夢魔の幻影が現れる。
 彼女たちに話しかければ再戦が可能だ。
-> CONTEXT: Map523/events/20/pages/0/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map523/events/20/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+If you have previously fought a named succubus,
+that succubus's apparition will appear in this space.
+You can rematch them by talking to them.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 君が名のある夢魔たちと過去に戦ったことがあるとき、
 下のポートから夢の奔流（ほんりゅう）に行ける。
-> CONTEXT: Map523/events/20/pages/0/31/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map523/events/20/pages/0/31/Dialogue
+\\name[\\v[2]]\\_
+If you have previously fought against named succubi,
+you can access the Dream Stream from the port below.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 夢の奔流は、君の夢の深みにある場所だ。
 そこでは強力な夢魔たちが次々と押し寄せてくる。
-> CONTEXT: Map523/events/20/pages/0/34/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map523/events/20/pages/0/34/Dialogue
+\\name[\\v[2]]\\_
+Dream Stream is a place deep within your dreams.
+It's where powerful succubi surge forth.
 > END STRING
 
 > BEGIN STRING
@@ -592,8 +170,11 @@ Lv70
 夢の奔流の最深部には「根源」と呼ばれる夢魔が居る。
 根源たる夢魔は君の心の中で過剰に美化され、極めて強大
 な力を持つ。
-> CONTEXT: Map523/events/20/pages/0/37/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map523/events/20/pages/0/37/Dialogue
+\\name[\\v[2]]\\_
+In the depths of Dream Stream lies a "Source" succubus.
+The Source succubus is overly glorified in your mind 
+and wields immense power.
 > END STRING
 
 > BEGIN STRING
@@ -601,8 +182,11 @@ Lv70
 根源たる夢魔は本来なら持っていないスキルやアビリティを
 有する。
 そして、強力な「奥の手」を使用する。
-> CONTEXT: Map523/events/20/pages/0/41/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map523/events/20/pages/0/41/Dialogue
+\\name[\\v[2]]\\_
+Source Succubi possess skills and abilities 
+that they normally do not possess.
+Also, they use powerful "secret weapons."
 > END STRING
 
 > BEGIN STRING
@@ -610,8 +194,11 @@ Lv70
 根源だけでなくそこに至るまでの夢魔たちも強化されているこ
 とが多い。
 ポートで回復可能な回数も限られているから注意せよ。
-> CONTEXT: Map523/events/20/pages/0/45/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map523/events/20/pages/0/45/Dialogue
+\\name[\\v[2]]\\_
+Not only the Source, but also the succubi on the way 
+are often strengthened. Be careful, 
+as the number of times you can heal with a port is limited.
 > END STRING
 
 > BEGIN STRING
@@ -619,8 +206,11 @@ Lv70
 奔流では逃げたり全滅してもこの場所に戻って来れるが、
 再び奔流に行く場合は一戦目からやり直しだ。
 さあ、奔流の根源たる夢魔に挑むといい。
-> CONTEXT: Map523/events/20/pages/0/49/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map523/events/20/pages/0/49/Dialogue
+\\name[\\v[2]]\\_
+If you escape or lose in the stream, you can return here.
+However, if you return to the stream, you must start over.
+Now, challenge the succubi that are the sources of streams.
 > END STRING
 
 > BEGIN STRING
@@ -628,21 +218,35 @@ Lv70
 根源に打ち勝ったのなら、私の同胞を訪ねると良い。
 君の夢の奥底を読み取り、強力な装備を交換してくれるだろ
 う。
-> CONTEXT: Map523/events/20/pages/0/53/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map523/events/20/pages/0/53/Dialogue
+\\name[\\v[2]]\\_
+Once you've overcome the Source, visit my brethren.
+They'll read the depths of your dreams 
+and trade powerful gear for you.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 同胞は私と瓜二つで、ある令嬢に仕えている。
 普段は小さな隣人という存在を集めているぞ。
-> CONTEXT: Map523/events/20/pages/0/57/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map523/events/20/pages/0/57/Dialogue
+\\name[\\v[2]]\\_
+My compatriot is the spitting image of me 
+and serves a certain young lady.
+He usually gathers little neighbors.
 > END STRING
 
 > BEGIN STRING
 結晶は尋常ではない魔力を発している。
 どの夢の奔流に挑みますか？
-> CONTEXT: Map523/events/61/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map523/events/61/pages/0/0/Dialogue
+The crystal radiates extraordinary magical power.
+Which Dream Stream will you challenge?
+> END STRING
+
+> BEGIN STRING
+？？？と戦いますか？
+> CONTEXT: Map523/events/10/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map523/events/11/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
