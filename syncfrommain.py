@@ -60,11 +60,11 @@ if __name__ == "__main__":
     main_dir = current_dir.parent / Path().resolve().name.replace("mod_patch","patch")
 
     main_files = [main_dir / "characters.txt"]
-    for file in (main_dir / "patch").rglob("*.txt"):
-        main_files.append(file)
+    #for file in (main_dir / "patch").rglob("*.txt"):
+    #    main_files.append(file)
 
     #override
-    main_files = [current_dir / "patch" / "Scripts.txt"]
+    #main_files = [current_dir / "patch" / "Scripts.txt"]
 
     #print("===Reading current translations===")
     for file in main_files:
@@ -96,9 +96,10 @@ if __name__ == "__main__":
             else:
                 i += 1
 
-        #print("===Updating mod translations===")
-        #if "characters" in file.as_posix():
-        #    sync(current_dir / "talk.txt", translations)
+        print("===Updating mod translations===")
+        if "characters" in file.as_posix():
+            print("talk")
+            sync(current_dir / "talk.txt", translations)
         else:
             #sync(current_dir / file.relative_to(main_dir), translations)
             if "Scripts" in file.as_posix():
