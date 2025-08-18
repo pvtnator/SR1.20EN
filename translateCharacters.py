@@ -161,6 +161,103 @@ def autotranslate(translations_file, lines, multiline=200):
             i += 1
     return 0
 
+def talkautofixes(translations_file, lines):
+    i = 0
+    while i < len(lines):
+        if lines[i].strip() == "> BEGIN STRING":
+            i += 1
+            string = lines[i]
+            i += 1
+            contexts = []
+            while(lines[i][0] == ">"):
+                context = lines[i][11:].strip()
+                contexts.append(context)
+                i += 1
+            lines[i] = lines[i].replace("\\n　\n", "\n")
+            if (len(lines[i])>5 and string.count("\\\\H") > 0 and lines[i].count("\\\\H") == 0):
+                if string.rstrip()[-1] == "H":
+                    lines[i] = lines[i].rstrip()+"\\\\H\n"
+                    lines[i] = re.sub(r"([a-z])\.\\\\H", r"\1\\\\H", lines[i])
+            i += 2
+        else:
+            i += 1
+            
+    with open(translations_file, 'w', encoding='utf-8') as trans_file:
+        trans_file.writelines(lines)
+
+def talkmanualfix(translations_file, lines, multiline=200):
+    import pyperclip
+    i = 0
+    batchi = []
+    batcht = ""
+    batchut = ""
+    while i < len(lines):
+        if lines[i].strip() == "> BEGIN STRING":
+            i += 1
+            string = lines[i]
+            i += 1
+            contexts = []
+            while(lines[i][0] == ">"):
+                context = lines[i][11:].strip()
+                contexts.append(context)
+                i += 1
+            if (string.count("\\\\H") > 0 and lines[i].count("\\\\H") == 0):
+                batchi.append(i)
+                numbered = len(batchi)
+                batchut += str(numbered)+". "+string.rstrip()+"\r\n"
+                batcht += str(numbered)+". "+lines[i].rstrip()+"\r\n"
+                if i > len(lines)-10 or len(batchi)>=multiline or len(batcht)>4800:
+                    batcht = batcht.strip()
+                    #print("\n"+batcht+"\n")
+                    print(str(100*i/len(lines))+"%\n")
+                    pyperclip.copy(batcht)
+                    print(batchut.strip())
+                    paste = []
+                    while(pyperclip.paste() == batcht or len(paste) != len(batcht.split("\n"))):
+                        time.sleep(0.2)
+
+                        pasted = pyperclip.paste()
+                        if pasted!=batcht:
+                            pasted = pasted.replace("\r\n\r\n", "\r\n")
+                            pasted = re.sub(r'\r\n(?!\d)', r'\\n', pasted)
+                            paste = re.findall("\\d{1,2}\\. ?(.*?(?=\\d\\.[A-Za-z ]|\n|$))", pasted)
+                            #for p in range(len(paste)):
+                            #    print(str(p+1)+". "+paste[p])
+                    trlines = paste
+                    multiline = 200
+                    for j in range(len(trlines)):
+                        translated = trlines[j].strip()
+                        if len(translated) > 3:
+                            #print(translated)
+                            if translated[-1] == "." and translated[-2] != ".":
+                                translated = translated[:-1]
+
+                            #translated = re.sub(r"([^\.])\.\\H", r"\1\\H", translated)
+                            parts = translated.split("\\n")
+                            translated = ""
+                            pi = 0
+                            while pi < len(parts):
+                                p = parts[pi]
+                                splitsymbols = [". ", "! ", "? ", ", ", " "]
+                                for ss in splitsymbols:
+                                    spot = 30 if ss==" " else 20
+                                    if len(p) > 50 and p.find(ss, spot, spot+20) >= 0:
+                                        parts[pi] = p[:p.find(ss, spot, spot+20)+1]
+                                        parts.insert(pi+1, brk+p[p.find(ss, spot, spot+20)+len(ss):])
+                                        #p = p[:p.find(ss, spot)+1]+brk+p[p.find(ss, spot)+len(ss):]
+                                        break
+                                translated += parts[pi] if translated=="" else "\\n"+parts[pi]
+                                pi += 1
+                            lines[batchi[j]] = translated+"\n"
+                    batchi.clear()
+                    batcht = ""
+                    with open(translations_file, 'w', encoding='utf-8') as trans_file:
+                        trans_file.writelines(lines)
+            i += 2
+        else:
+            i += 1
+    return 0
+
 def patch_file(file, context, translations, regexes, glpattern, target_path):
     with file.open(encoding='utf-8', errors='surrogateescape') as f:
         content = f.read()
@@ -198,7 +295,7 @@ def apply_translations(folder_path, apply_path, regexes, translations, mustinclu
                 
 if __name__ == "__main__":
     current_dir = Path.cwd()
-    mode = sys.argv[1] if len(sys.argv)>1 else "autotranslate"
+    mode = sys.argv[1] if len(sys.argv)>1 else "autofix"
     source = sys.argv[2] if len(sys.argv)>2 else "talk"
     dest = sys.argv[3] if len(sys.argv)>3 else "talk"
     quickpatch = ""
@@ -276,3 +373,11 @@ if __name__ == "__main__":
         while multiline > 0:
             multiline = autotranslate(translations_file, lines, multiline)
         print("Autotranslate done.")
+    elif mode == "autofix":
+        talkautofixes(translations_file, lines)
+        print("Auto fix done.")
+    elif mode == "manualfix":
+        multiline = talkmanualfix(translations_file, lines)
+        while multiline > 0:
+            multiline = autotranslate(translations_file, lines, multiline)
+        print("Manual fix done.")
