@@ -746,12 +746,13 @@ Ride/100
 > BEGIN STRING
 スタンプ/75
 > CONTEXT: Skills/69/name/ < UNTRANSLATED
+> CONTEXT: Skills/94/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 [足→♂] 足で扱く。[条件：エレキテルプレス][追加：畏怖][精力]
-> CONTEXT: Skills/69/description/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -989,7 +990,7 @@ Puff Slap/100
 
 > BEGIN STRING
 [胸→口] 胸で相手の顔をはたく。[自分着衣↓][追加：苦痛スタン][精力/魅力]
-> CONTEXT: Skills/100/description/
+> CONTEXT: None < UNUSED
 [Chest→Mouth] Slap opponent's face with chest. [Clothes↓][Pain Stun][Energy/Charm]
 > END STRING
 
@@ -2184,8 +2185,6 @@ Boosted: Charm
 ラスト
 > CONTEXT: Skills/202/name/
 > CONTEXT: Armors/219/name/
-> CONTEXT: Map600/events/1/pages/0/160/Choice/2
-> CONTEXT: Map600/events/1/pages/0/160/Choice/2
 > CONTEXT: Map586/events/11/pages/0/160/Choice/2
 > CONTEXT: Map586/events/11/pages/0/160/Choice/2
 > CONTEXT: Map472/events/7/pages/0/161/Choice/2
@@ -7079,13 +7078,13 @@ Level Drain/100
 
 > BEGIN STRING
 ディープスロート/95
-> CONTEXT: Skills/796/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 喉でペニスを締めながらペニスを効果的に攻める。ＳＳ率大。
-> CONTEXT: Skills/796/description/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -8952,6 +8951,7 @@ Dominate Love
 > BEGIN STRING
 [口] 相手の血を吸う。[追加：器用さ吸収][器用さ]
 > CONTEXT: Skills/1101/description/ < UNTRANSLATED
+> CONTEXT: Skills/2378/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -9170,6 +9170,7 @@ Dominate Love
 > BEGIN STRING
 [×××] 足で扱く。追加：Ｐ敏感
 > CONTEXT: Skills/1140/description/ < UNTRANSLATED
+> CONTEXT: Skills/2425/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -9177,6 +9178,8 @@ Dominate Love
 [×××] 足で扱く。[追加：畏怖]
 > CONTEXT: Skills/1141/description/ < UNTRANSLATED
 > CONTEXT: Skills/1142/description/ < UNTRANSLATED
+> CONTEXT: Skills/2426/description/ < UNTRANSLATED
+> CONTEXT: Skills/2427/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -9195,6 +9198,7 @@ Dominate Love
 > BEGIN STRING
 [×××] 足で扱く。追撃用。[追加：畏怖]
 > CONTEXT: Skills/1143/description/ < UNTRANSLATED
+> CONTEXT: Skills/2428/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -9679,6 +9683,7 @@ Hungry Sperm Kiss/80
 対象を停止させる。
 > CONTEXT: Skills/1204/description/ < UNTRANSLATED
 > CONTEXT: Skills/2307/description/ < UNTRANSLATED
+> CONTEXT: Skills/1228/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -10019,7 +10024,7 @@ Hungry Sperm Kiss/80
 
 > BEGIN STRING
 [足→♂] 強く踏み潰す。[条件：エレキテルプレス(LvMAX)]
-> CONTEXT: Skills/1245/description/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -10911,7 +10916,7 @@ Blowkiss
 
 > BEGIN STRING
 呪詛のキスマーク/100/4
-> CONTEXT: Skills/1344/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -11170,13 +11175,13 @@ Corrupt Scratch/100
 
 > BEGIN STRING
 ハーレムビジョン/90/4
-> CONTEXT: Skills/1368/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 [魔法] 敵全体に幻覚を見せ、毎ターンダメージ付与。[精神力]
-> CONTEXT: Skills/1368/description/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -11317,13 +11322,13 @@ VPが足りず、触手から満腹度を搾取される
 
 > BEGIN STRING
 暗黒の化身
-> CONTEXT: Skills/1383/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 [場：敵] 戦場に暗黒の輪と翼を浮かび上がらせる。
-> CONTEXT: Skills/1383/description/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -13203,7 +13208,7 @@ Temptation・Kiss
 
 > BEGIN STRING
 [♀→♂] 電気を浴びせながらアソコをきつく締めあげる
-> CONTEXT: Skills/1637/description/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -13318,6 +13323,7 @@ EX Scratch/150/999
 > BEGIN STRING
 [♀→♀][奥義] 局部を毒液を出しながら擦り合わせる。様々な状態異常にさせる。[精力]
 > CONTEXT: Skills/1652/description/ < UNTRANSLATED
+> CONTEXT: Skills/1653/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -13879,7 +13885,7 @@ Love Love Kiss/120/6
 
 > BEGIN STRING
 [口→口] 電気を浴びせながらキスをする。[麻痺・苦痛スタン付与]
-> CONTEXT: Skills/1798/description/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -18192,7 +18198,7 @@ Melty Press/160/6
 
 > BEGIN STRING
 [口→嗅覚][CT:8] 敵全体を高確率で散漫にさせる。[魅力]
-> CONTEXT: Skills/2376/description/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -18205,5 +18211,253 @@ Melty Press/160/6
 > BEGIN STRING
 [手→体][CT:4] 目にも止まらぬ速さの予測不能な愛撫。相手より速いほど威力が上がる。[素早さ][器用さ]
 > CONTEXT: Skills/2609/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[足→♂] 足で扱く。[条件：エレキテルプレス][S][追加：畏怖][精力]
+> CONTEXT: Skills/69/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[足→口] 足で扱く。[条件：インサルトプレス][S][追加：畏怖][精力]
+> CONTEXT: Skills/94/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サーヴ/100
+> CONTEXT: Skills/95/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[口→足] 足を舐める。相手をくすぐるが・・・[器用さ]
+> CONTEXT: Skills/95/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[胸→口] 胸で相手の顔をはたく。[自分着衣↓][S][追加：苦痛スタン][精力/魅力]
+> CONTEXT: Skills/100/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+死神の吐息使用準備に入る。
+> CONTEXT: Skills/256/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+◆顔舐め◆
+> CONTEXT: Skills/407/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+顔舐め・焦/85
+> CONTEXT: Skills/408/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+顔を舐める。
+> CONTEXT: Skills/408/description/ < UNTRANSLATED
+> CONTEXT: Skills/409/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+顔舐め/90
+> CONTEXT: Skills/409/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+顔舐め・必殺/95
+> CONTEXT: Skills/410/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+顔を舐める。ＳＳ率大。
+> CONTEXT: Skills/410/description/ < UNTRANSLATED
+> CONTEXT: Skills/411/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+▽顔舐め・追撃/95
+> CONTEXT: Skills/411/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+カム・バック
+> CONTEXT: Skills/677/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[♀→♂] 搾り取った精をお返しする
+> CONTEXT: Skills/677/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+一瞬の永遠
+> CONTEXT: Skills/1228/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アルーリングリリース/100
+> CONTEXT: Skills/1229/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファータイルコネクト/100
+> CONTEXT: Skills/1241/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[♀→♂] 子宮口で♂に吸い付く
+> CONTEXT: Skills/1241/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[足→♂] 強く踏み潰す。[S][条件：エレキテルプレス(LvMAX)]
+> CONTEXT: Skills/1245/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+吸精のキスマーク/100/4
+> CONTEXT: Skills/1344/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+触手を震わせる
+> CONTEXT: Skills/1368/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+触手をぶるぶると震わせ、次のターンに淫液を放つ
+> CONTEXT: Skills/1368/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+隷属の魔眼
+> CONTEXT: Skills/1383/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手を屈服させる。[魅力＋精神力]
+> CONTEXT: Skills/1383/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トキシッククロッチ/120/6
+> CONTEXT: Skills/1635/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[♀→♂] 局部を毒液を出して締め付ける。様々な状態異常にさせる。[精力]
+> CONTEXT: Skills/1635/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[♀→♂] 電気を浴びせながらアソコをきつく締めあげる[S]
+> CONTEXT: Skills/1637/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トキシックスクラッチ/120/6
+> CONTEXT: Skills/1653/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トキシックポアー/50/6
+> CONTEXT: Skills/1758/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[♀→口] 自分のアソコから蜜を垂らす。[高：淫毒][精力/魅力]
+> CONTEXT: Skills/1758/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[口→口] 電気を浴びせながらキスをする。[S][麻痺・苦痛スタン付与]
+> CONTEXT: Skills/1798/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[口→嗅覚][CT:8] 敵全体を高確率で散漫させる。[魅力]
+> CONTEXT: Skills/2376/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+死神の吐息//8
+> CONTEXT: Skills/2377/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[口→嗅覚] 死神の吐息を吹きかけ、麻痺・淫毒・欲情にする。
+> CONTEXT: Skills/2377/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+死神の吸血/100
+> CONTEXT: Skills/2378/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■インサルトプレススキル
+> CONTEXT: Skills/2424/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+顔踏み・焦/70
+> CONTEXT: Skills/2425/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+顔踏み/75
+> CONTEXT: Skills/2426/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+顔踏み・必殺/80
+> CONTEXT: Skills/2427/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+▽顔踏み・追撃/75
+> CONTEXT: Skills/2428/name/ < UNTRANSLATED
 
 > END STRING

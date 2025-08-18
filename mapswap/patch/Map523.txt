@@ -458,7 +458,7 @@ Lv70
 \\name[\\v[2]]\\_
 この場所では、過去に戦った
 名のある夢魔たちと再戦することができる。
-> CONTEXT: Map523/events/20/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -466,7 +466,7 @@ Lv70
 \\name[\\v[2]]\\_
 過去に戦っていて未契約の夢魔の場合、
 前回の記録を引き継いで戦うことも可能だ。
-> CONTEXT: Map523/events/20/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map523/events/20/pages/0/11/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -475,7 +475,7 @@ Lv70
 この記録には開発度の状況や、
 君が童貞を捧げたかどうかなども細かく記録されている。
 契約時にも反映されるので有効に活用したまえ。
-> CONTEXT: Map523/events/20/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map523/events/20/pages/0/14/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -492,7 +492,7 @@ Lv70
 拡張されたこの世界では、
 君と契約している方の夢魔こそが本体だ。
 それ以外は幻影だと思っておくといい。
-> CONTEXT: Map523/events/20/pages/0/14/Dialogue < UNTRANSLATED
+> CONTEXT: Map523/events/20/pages/0/21/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -516,7 +516,7 @@ Lv70
 \\name[\\v[2]]\\_
 相手の夢魔が契約済みや記憶の中の存在の場合、
 戦闘記録の引き継ぎは行われない。
-> CONTEXT: Map523/events/20/pages/0/11/Dialogue < UNTRANSLATED
+> CONTEXT: Map523/events/20/pages/0/18/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -525,6 +525,113 @@ Lv70
 この場所では戦闘から逃げることができ、
 全滅してもホームに戻されることもない。
 さあ、名のある夢魔たちに挑むといい。
-> CONTEXT: Map523/events/20/pages/0/18/Dialogue < UNTRANSLATED
+> CONTEXT: Map523/events/20/pages/0/25/Dialogue < UNTRANSLATED
+> CONTEXT: Map523/events/20/pages/0/62/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この場所では、過去に戦った
+名のある夢魔たちと再戦することができる。
+何か聞きたいことはあるか？
+> CONTEXT: Map523/events/20/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+再戦について
+> CONTEXT: Map523/events/20/pages/0/5/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢の奔流について
+> CONTEXT: Map523/events/20/pages/0/5/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+君が名のある夢魔と過去に戦ったことがあるとき、
+この空間に夢魔の幻影が現れる。
+彼女たちに話しかければ再戦が可能だ。
+> CONTEXT: Map523/events/20/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+君が名のある夢魔たちと過去に戦ったことがあるとき、
+下のポートから夢の奔流（ほんりゅう）に行ける。
+> CONTEXT: Map523/events/20/pages/0/31/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢の奔流は、君の夢の深みにある場所だ。
+そこでは強力な夢魔たちが次々と押し寄せてくる。
+> CONTEXT: Map523/events/20/pages/0/34/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢の奔流の最深部には「根源」と呼ばれる夢魔が居る。
+根源たる夢魔は君の心の中で過剰に美化され、極めて強大
+な力を持つ。
+> CONTEXT: Map523/events/20/pages/0/37/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+根源たる夢魔は本来なら持っていないスキルやアビリティを
+有する。
+そして、強力な「奥の手」を使用する。
+> CONTEXT: Map523/events/20/pages/0/41/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+根源だけでなくそこに至るまでの夢魔たちも強化されているこ
+とが多い。
+ポートで回復可能な回数も限られているから注意せよ。
+> CONTEXT: Map523/events/20/pages/0/45/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+奔流では逃げたり全滅してもこの場所に戻って来れるが、
+再び奔流に行く場合は一戦目からやり直しだ。
+さあ、奔流の根源たる夢魔に挑むといい。
+> CONTEXT: Map523/events/20/pages/0/49/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+根源に打ち勝ったのなら、私の同胞を訪ねると良い。
+君の夢の奥底を読み取り、強力な装備を交換してくれるだろ
+う。
+> CONTEXT: Map523/events/20/pages/0/53/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+同胞は私と瓜二つで、ある令嬢に仕えている。
+普段は小さな隣人という存在を集めているぞ。
+> CONTEXT: Map523/events/20/pages/0/57/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+結晶は尋常ではない魔力を発している。
+どの夢の奔流に挑みますか？
+> CONTEXT: Map523/events/61/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING

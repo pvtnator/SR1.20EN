@@ -1,8 +1,6 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 書置きを見直す
-> CONTEXT: Map600/events/1/pages/0/0/Choice/0
-> CONTEXT: Map600/events/1/pages/0/0/Choice/0
 > CONTEXT: Map586/events/11/pages/0/0/Choice/0
 > CONTEXT: Map586/events/11/pages/0/0/Choice/0
 > CONTEXT: Map472/events/7/pages/0/1/Choice/0
@@ -18,8 +16,6 @@ Review the notes
 
 > BEGIN STRING
 装備品やルーンの効果について
-> CONTEXT: Map600/events/1/pages/0/0/Choice/1
-> CONTEXT: Map600/events/1/pages/0/0/Choice/1
 > CONTEXT: Map586/events/11/pages/0/0/Choice/1
 > CONTEXT: Map586/events/11/pages/0/0/Choice/1
 > CONTEXT: Map472/events/7/pages/0/1/Choice/1
@@ -35,8 +31,6 @@ About the effects of equipment and runes
 
 > BEGIN STRING
 演出を変更する
-> CONTEXT: Map600/events/1/pages/0/0/Choice/2
-> CONTEXT: Map600/events/1/pages/0/0/Choice/2
 > CONTEXT: Map586/events/11/pages/0/0/Choice/2
 > CONTEXT: Map586/events/11/pages/0/0/Choice/2
 > CONTEXT: Map472/events/7/pages/0/1/Choice/2
@@ -50,24 +44,12 @@ Change the arrangements
 
 > BEGIN STRING
 →次へ
-> CONTEXT: Map600/events/1/pages/0/0/Choice/3
-> CONTEXT: Map600/events/1/pages/0/0/Choice/3
-> CONTEXT: Map600/events/1/pages/0/13/Choice/3
-> CONTEXT: Map600/events/1/pages/0/13/Choice/3
-> CONTEXT: Map600/events/1/pages/0/57/Choice/3
-> CONTEXT: Map600/events/1/pages/0/57/Choice/3
 > CONTEXT: Map586/events/11/pages/0/0/Choice/3
-> CONTEXT: Map600/events/1/pages/0/146/Choice/3
 > CONTEXT: Map586/events/11/pages/0/0/Choice/3
-> CONTEXT: Map600/events/1/pages/0/146/Choice/3
 > CONTEXT: Map586/events/11/pages/0/13/Choice/3
 > CONTEXT: Map586/events/11/pages/0/13/Choice/3
-> CONTEXT: Map600/events/1/pages/0/186/Choice/3
 > CONTEXT: Map586/events/11/pages/0/57/Choice/3
-> CONTEXT: Map600/events/1/pages/0/186/Choice/3
 > CONTEXT: Map586/events/11/pages/0/57/Choice/3
-> CONTEXT: Map600/events/1/pages/0/200/Choice/3
-> CONTEXT: Map600/events/1/pages/0/200/Choice/3
 > CONTEXT: Map586/events/11/pages/0/146/Choice/3
 > CONTEXT: Map586/events/11/pages/0/146/Choice/3
 > CONTEXT: Map586/events/11/pages/0/186/Choice/3
@@ -91,7 +73,6 @@ Change the arrangements
 
 > BEGIN STRING
 自分の状態の変化
-> CONTEXT: Map600/events/1/pages/0/11/Choice/0 < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/11/Choice/0 < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/12/Choice/0 < UNTRANSLATED
 
@@ -99,7 +80,6 @@ Change the arrangements
 
 > BEGIN STRING
 相手の状態の変化
-> CONTEXT: Map600/events/1/pages/0/11/Choice/1 < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/11/Choice/1 < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/12/Choice/1 < UNTRANSLATED
 
@@ -107,8 +87,6 @@ Change the arrangements
 
 > BEGIN STRING
 解除する
-> CONTEXT: Map600/events/1/pages/0/27/Choice/3 < UNTRANSLATED
-> CONTEXT: Map600/events/1/pages/0/68/Choice/3 < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/27/Choice/3 < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/68/Choice/3 < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/28/Choice/3 < UNTRANSLATED
@@ -121,7 +99,6 @@ Change the arrangements
 この寝室では、夢魔たちとの逢瀬をより愉しむ為に、
 受ける快感や絶頂時の脱力が、通常のおよそ半分程となる。
 愛し合うには時間も必要だ。
-> CONTEXT: Map600/events/1/pages/0/105/Dialogue
 > CONTEXT: Map586/events/11/pages/0/105/Dialogue
 > CONTEXT: Map468/events/4/pages/0/35/Dialogue
 > CONTEXT: Map472/events/7/pages/0/106/Dialogue
@@ -136,7 +113,6 @@ will be about half of normal. Take your time making love.
 \\name[寝室の使用方法]\\_
 また寝室では、自分も夢魔も互いに追撃が出やすくなる。
 お互いの特性を知っておくのも大事だろう。
-> CONTEXT: Map600/events/1/pages/0/109/Dialogue
 > CONTEXT: Map586/events/11/pages/0/109/Dialogue
 > CONTEXT: Map468/events/4/pages/0/39/Dialogue
 > CONTEXT: Map472/events/7/pages/0/110/Dialogue
@@ -152,7 +128,6 @@ It is also important to know each other's characteristics.
 夢魔を複数人連れている場合、
 「相手する」か「仲間にする」かを選べる。
 一人で複数を相手したり、逆に複数で一人を攻めたりできる。
-> CONTEXT: Map600/events/1/pages/0/112/Dialogue
 > CONTEXT: Map586/events/11/pages/0/112/Dialogue
 > CONTEXT: Map468/events/4/pages/0/42/Dialogue
 > CONTEXT: Map472/events/7/pages/0/113/Dialogue
@@ -168,7 +143,6 @@ or conversely, multiple people can go against one person.
 一晩を共にした夢魔は、例外なく好意を抱いてくれるが、
 この際、相手をした夢魔のほうが仲間にした夢魔よりも、
 好意を抱く度合が高いようだ。
-> CONTEXT: Map600/events/1/pages/0/116/Dialogue
 > CONTEXT: Map586/events/11/pages/0/116/Dialogue
 > CONTEXT: Map468/events/4/pages/0/46/Dialogue
 > CONTEXT: Map472/events/7/pages/0/117/Dialogue
@@ -183,7 +157,6 @@ but more so the succubi you go against than your companions.
 さて、堅苦しいのもここまでだ。
 後は、思うがままに愛を貪りあうといい。
 健闘を祈る。
-> CONTEXT: Map600/events/1/pages/0/120/Dialogue
 > CONTEXT: Map586/events/11/pages/0/120/Dialogue
 > CONTEXT: Map468/events/4/pages/0/50/Dialogue
 > CONTEXT: Map472/events/7/pages/0/121/Dialogue
@@ -198,7 +171,6 @@ I wish you good luck.
 \\name[装備効果について]\\_
 装備品やルーンを仲間に刻印した場合、
 相手にした際に現れない効果が存在する。
-> CONTEXT: Map600/events/1/pages/0/128/Dialogue
 > CONTEXT: Map586/events/11/pages/0/128/Dialogue
 > CONTEXT: Map468/events/4/pages/0/58/Dialogue
 > CONTEXT: Map472/events/7/pages/0/129/Dialogue
@@ -213,7 +185,6 @@ effects will not work when you use them against your opponent.
 ステータス増減、装備品によって習得されている素質や\\_
 スキル。
 これらは相手にした時でも効果が現れている。
-> CONTEXT: Map600/events/1/pages/0/131/Dialogue
 > CONTEXT: Map586/events/11/pages/0/131/Dialogue
 > CONTEXT: Map468/events/4/pages/0/61/Dialogue
 > CONTEXT: Map472/events/7/pages/0/132/Dialogue
@@ -228,7 +199,6 @@ and equipment are effective when used against opponents.
 装備品による状態異常耐性や、その他の効果。
 これらは相手にした時には発揮されない。
 注意されたし。
-> CONTEXT: Map600/events/1/pages/0/135/Dialogue
 > CONTEXT: Map586/events/11/pages/0/135/Dialogue
 > CONTEXT: Map468/events/4/pages/0/65/Dialogue
 > CONTEXT: Map472/events/7/pages/0/136/Dialogue
@@ -241,7 +211,6 @@ Make note of this.
 
 > BEGIN STRING
 何を変えますか？
-> CONTEXT: Map600/events/1/pages/0/143/Dialogue
 > CONTEXT: Map586/events/11/pages/0/143/Dialogue
 > CONTEXT: Map468/events/4/pages/0/73/Dialogue
 > CONTEXT: Map472/events/7/pages/0/144/Dialogue
@@ -251,8 +220,6 @@ What do you want to change?
 
 > BEGIN STRING
 背景
-> CONTEXT: Map600/events/1/pages/0/144/Choice/0
-> CONTEXT: Map600/events/1/pages/0/144/Choice/0
 > CONTEXT: Map586/events/11/pages/0/144/Choice/0
 > CONTEXT: Map586/events/11/pages/0/144/Choice/0
 > CONTEXT: Map468/events/4/pages/0/74/Choice/0
@@ -266,8 +233,6 @@ Background
 
 > BEGIN STRING
 音楽
-> CONTEXT: Map600/events/1/pages/0/144/Choice/1
-> CONTEXT: Map600/events/1/pages/0/144/Choice/1
 > CONTEXT: Map586/events/11/pages/0/144/Choice/1
 > CONTEXT: Map586/events/11/pages/0/144/Choice/1
 > CONTEXT: Map468/events/4/pages/0/74/Choice/1
@@ -281,8 +246,6 @@ Music
 
 > BEGIN STRING
 何も変えない
-> CONTEXT: Map600/events/1/pages/0/144/Choice/2
-> CONTEXT: Map600/events/1/pages/0/144/Choice/2
 > CONTEXT: Map586/events/11/pages/0/144/Choice/2
 > CONTEXT: Map586/events/11/pages/0/144/Choice/2
 > CONTEXT: Map468/events/4/pages/0/74/Choice/2
@@ -296,8 +259,6 @@ Nothing
 
 > BEGIN STRING
 樹海
-> CONTEXT: Map600/events/1/pages/0/146/Choice/0
-> CONTEXT: Map600/events/1/pages/0/146/Choice/0
 > CONTEXT: Map586/events/11/pages/0/146/Choice/0
 > CONTEXT: Map586/events/11/pages/0/146/Choice/0
 > CONTEXT: Map472/events/7/pages/0/147/Choice/0
@@ -311,8 +272,6 @@ Sea of Trees
 
 > BEGIN STRING
 洞窟
-> CONTEXT: Map600/events/1/pages/0/146/Choice/1
-> CONTEXT: Map600/events/1/pages/0/146/Choice/1
 > CONTEXT: Map586/events/11/pages/0/146/Choice/1
 > CONTEXT: Map586/events/11/pages/0/146/Choice/1
 > CONTEXT: Map472/events/7/pages/0/147/Choice/1
@@ -322,8 +281,6 @@ Cave
 
 > BEGIN STRING
 教会
-> CONTEXT: Map600/events/1/pages/0/146/Choice/2
-> CONTEXT: Map600/events/1/pages/0/146/Choice/2
 > CONTEXT: Map586/events/11/pages/0/146/Choice/2
 > CONTEXT: Map586/events/11/pages/0/146/Choice/2
 > CONTEXT: Map472/events/7/pages/0/147/Choice/2
@@ -333,7 +290,6 @@ Church
 
 > BEGIN STRING
 樹海の背景に変更しました。
-> CONTEXT: Map600/events/1/pages/0/148/Dialogue
 > CONTEXT: Map586/events/11/pages/0/148/Dialogue
 > CONTEXT: Map472/events/7/pages/0/149/Dialogue
 > CONTEXT: Map468/events/4/pages/0/80/Dialogue
@@ -342,7 +298,6 @@ The background has been changed to Sea of Trees.
 
 > BEGIN STRING
 洞窟の背景に変更しました。
-> CONTEXT: Map600/events/1/pages/0/152/Dialogue
 > CONTEXT: Map586/events/11/pages/0/152/Dialogue
 > CONTEXT: Map472/events/7/pages/0/153/Dialogue
 > CONTEXT: Map468/events/4/pages/0/95/Dialogue
@@ -351,7 +306,6 @@ Changed to cave background.
 
 > BEGIN STRING
 教会の背景に変更しました。
-> CONTEXT: Map600/events/1/pages/0/156/Dialogue
 > CONTEXT: Map586/events/11/pages/0/156/Dialogue
 > CONTEXT: Map472/events/7/pages/0/157/Dialogue
 > CONTEXT: Map468/events/4/pages/0/100/Dialogue
@@ -360,7 +314,6 @@ Changed to church background.
 
 > BEGIN STRING
 平原
-> CONTEXT: Map600/events/1/pages/0/160/Choice/0 < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/160/Choice/0 < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/161/Choice/0 < UNTRANSLATED
 
@@ -368,7 +321,6 @@ Changed to church background.
 
 > BEGIN STRING
 深き森
-> CONTEXT: Map600/events/1/pages/0/160/Choice/1 < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/160/Choice/1 < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/161/Choice/1 < UNTRANSLATED
 
@@ -376,8 +328,6 @@ Changed to church background.
 
 > BEGIN STRING
 室内
-> CONTEXT: Map600/events/1/pages/0/160/Choice/3
-> CONTEXT: Map600/events/1/pages/0/160/Choice/3
 > CONTEXT: Map586/events/11/pages/0/160/Choice/3
 > CONTEXT: Map586/events/11/pages/0/160/Choice/3
 > CONTEXT: Map472/events/7/pages/0/161/Choice/3
@@ -387,7 +337,6 @@ Indoors
 
 > BEGIN STRING
 平原の背景に変更しました。
-> CONTEXT: Map600/events/1/pages/0/162/Dialogue < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/162/Dialogue < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/163/Dialogue < UNTRANSLATED
 > CONTEXT: Map468/events/4/pages/0/90/Dialogue < UNTRANSLATED
@@ -396,7 +345,6 @@ Indoors
 
 > BEGIN STRING
 深き森の背景に変更しました。
-> CONTEXT: Map600/events/1/pages/0/166/Dialogue < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/166/Dialogue < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/167/Dialogue < UNTRANSLATED
 > CONTEXT: Map468/events/4/pages/0/85/Dialogue < UNTRANSLATED
@@ -405,7 +353,6 @@ Indoors
 
 > BEGIN STRING
 ラストバトルの背景に変更しました。
-> CONTEXT: Map600/events/1/pages/0/170/Dialogue < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/170/Dialogue < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/171/Dialogue < UNTRANSLATED
 > CONTEXT: Map468/events/4/pages/0/175/Dialogue < UNTRANSLATED
@@ -414,7 +361,6 @@ Indoors
 
 > BEGIN STRING
 室内の背景に戻しました。
-> CONTEXT: Map600/events/1/pages/0/174/Dialogue
 > CONTEXT: Map586/events/11/pages/0/174/Dialogue
 > CONTEXT: Map472/events/7/pages/0/175/Dialogue
 > CONTEXT: Map468/events/4/pages/0/180/Dialogue
@@ -423,8 +369,6 @@ Returned it to the indoors background.
 
 > BEGIN STRING
 OFE戦
-> CONTEXT: Map600/events/1/pages/0/186/Choice/1
-> CONTEXT: Map600/events/1/pages/0/186/Choice/1
 > CONTEXT: Map586/events/11/pages/0/186/Choice/1
 > CONTEXT: Map586/events/11/pages/0/186/Choice/1
 > CONTEXT: Map472/events/7/pages/0/187/Choice/1
@@ -436,8 +380,6 @@ OFE battle
 
 > BEGIN STRING
 ボス戦
-> CONTEXT: Map600/events/1/pages/0/186/Choice/2
-> CONTEXT: Map600/events/1/pages/0/186/Choice/2
 > CONTEXT: Map586/events/11/pages/0/186/Choice/2
 > CONTEXT: Map586/events/11/pages/0/186/Choice/2
 > CONTEXT: Map472/events/7/pages/0/187/Choice/2
@@ -449,8 +391,6 @@ Boss battle
 
 > BEGIN STRING
 通常戦のBGMに変更しました。
-> CONTEXT: Map600/events/1/pages/0/188/Dialogue
-> CONTEXT: Map600/events/1/pages/0/216/Dialogue
 > CONTEXT: Map586/events/11/pages/0/188/Dialogue
 > CONTEXT: Map586/events/11/pages/0/216/Dialogue
 > CONTEXT: Map472/events/7/pages/0/189/Dialogue
@@ -461,7 +401,6 @@ Changed to normal battle BGM.
 
 > BEGIN STRING
 OFE戦のBGMに変更しました。
-> CONTEXT: Map600/events/1/pages/0/192/Dialogue
 > CONTEXT: Map586/events/11/pages/0/192/Dialogue
 > CONTEXT: Map472/events/7/pages/0/193/Dialogue
 > CONTEXT: Map468/events/4/pages/0/192/Dialogue
@@ -470,7 +409,6 @@ Changed to OFE battle BGM
 
 > BEGIN STRING
 ボス戦のBGMに変更しました。
-> CONTEXT: Map600/events/1/pages/0/196/Dialogue
 > CONTEXT: Map586/events/11/pages/0/196/Dialogue
 > CONTEXT: Map472/events/7/pages/0/197/Dialogue
 > CONTEXT: Map468/events/4/pages/0/196/Dialogue
@@ -479,7 +417,6 @@ Changed to boss battle BGM
 
 > BEGIN STRING
 体験版ベッド戦
-> CONTEXT: Map600/events/1/pages/0/200/Choice/0 < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/200/Choice/0 < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/201/Choice/0 < UNTRANSLATED
 
@@ -487,7 +424,6 @@ Changed to boss battle BGM
 
 > BEGIN STRING
 ラーミル戦
-> CONTEXT: Map600/events/1/pages/0/200/Choice/2 < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/200/Choice/2 < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/201/Choice/2 < UNTRANSLATED
 
@@ -495,7 +431,6 @@ Changed to boss battle BGM
 
 > BEGIN STRING
 体験版ベッド戦のBGMに変更しました。
-> CONTEXT: Map600/events/1/pages/0/202/Dialogue < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/202/Dialogue < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/203/Dialogue < UNTRANSLATED
 
@@ -503,7 +438,6 @@ Changed to boss battle BGM
 
 > BEGIN STRING
 チュートリアルのBGMに変更しました。
-> CONTEXT: Map600/events/1/pages/0/206/Dialogue < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/206/Dialogue < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/207/Dialogue < UNTRANSLATED
 
@@ -511,7 +445,6 @@ Changed to boss battle BGM
 
 > BEGIN STRING
 ラーミル戦のBGMに変更しました。
-> CONTEXT: Map600/events/1/pages/0/210/Dialogue < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/210/Dialogue < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/211/Dialogue < UNTRANSLATED
 
@@ -519,7 +452,6 @@ Changed to boss battle BGM
 
 > BEGIN STRING
 ライバルサキュバス戦
-> CONTEXT: Map600/events/1/pages/0/214/Choice/0 < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/214/Choice/0 < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/215/Choice/0 < UNTRANSLATED
 
@@ -527,7 +459,6 @@ Changed to boss battle BGM
 
 > BEGIN STRING
 ラスボス戦
-> CONTEXT: Map600/events/1/pages/0/214/Choice/1 < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/214/Choice/1 < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/215/Choice/1 < UNTRANSLATED
 
@@ -535,8 +466,6 @@ Changed to boss battle BGM
 
 > BEGIN STRING
 ベッド戦
-> CONTEXT: Map600/events/1/pages/0/214/Choice/2
-> CONTEXT: Map600/events/1/pages/0/214/Choice/2
 > CONTEXT: Map586/events/11/pages/0/214/Choice/2
 > CONTEXT: Map586/events/11/pages/0/214/Choice/2
 > CONTEXT: Map472/events/7/pages/0/215/Choice/2
@@ -548,7 +477,6 @@ Bed battle
 
 > BEGIN STRING
 ラスボス戦のBGMに変更しました。
-> CONTEXT: Map600/events/1/pages/0/220/Dialogue < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/220/Dialogue < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/221/Dialogue < UNTRANSLATED
 
@@ -556,7 +484,6 @@ Bed battle
 
 > BEGIN STRING
 ベッド戦のBGMに戻しました。
-> CONTEXT: Map600/events/1/pages/0/224/Dialogue
 > CONTEXT: Map586/events/11/pages/0/224/Dialogue
 > CONTEXT: Map472/events/7/pages/0/225/Dialogue
 > CONTEXT: Map468/events/4/pages/0/200/Dialogue

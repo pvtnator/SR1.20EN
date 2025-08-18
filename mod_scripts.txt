@@ -2903,7 +2903,7 @@ Passion Beat
 > BEGIN STRING
 #{actors_word}のやる気が高まった！
 > CONTEXT: Incense_System.rb
-
+#{actors_word} is motivated!
 > END STRING
 
 > BEGIN STRING
@@ -2933,19 +2933,19 @@ Technical Beat
 > BEGIN STRING
 #{actors_word}の器用さと素早さが上昇した！
 > CONTEXT: Incense_System.rb
-
+#{actors_word}'s dexterity and agility increased!
 > END STRING
 
 > BEGIN STRING
 #{actors_word}の気合は高まっている……！
 > CONTEXT: Incense_System.rb
-
+#{actors_word} is fired up...!
 > END STRING
 
 > BEGIN STRING
 #{actors_word}の気合が落ち着いた！
 > CONTEXT: Incense_System.rb
-
+#{actors_word} calmed down!
 > END STRING
 
 > BEGIN STRING
@@ -34002,7 +34002,7 @@ But it didn't work on #{myname}!
 > BEGIN STRING
 、\n\m#{targetname}の動向を見守っている……
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-",\\n​m​is keeping an eye on \#{targetname}..."
+,\\n​m​is keeping an eye on \#{targetname}...
 > END STRING
 
 > BEGIN STRING
@@ -38269,7 +38269,7 @@ two overwhelming
 > BEGIN STRING
 #{targetname}の#{targetpantsu}の中に、\n\m#{tail}を潜り込ませペニスを擦りあげてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ slipped tail into #{targetname}'s \n#{targetpantsu} and rubbed his penis!
 > END STRING
 
 > BEGIN STRING
@@ -38941,7 +38941,7 @@ while looking up
 > BEGIN STRING
 励まし、気合を高めた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ is encouraged and motivated!
 > END STRING
 
 > BEGIN STRING
@@ -42318,13 +42318,13 @@ up and down
 > BEGIN STRING
 #{emotion}\n\m#{targetname}の乳首を舌先で舐め上げてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ #{emotion}\nlicked #{targetname}'s nipples with the tip of tongue!
 > END STRING
 
 > BEGIN STRING
 #{emotion}\n\m#{targetname}の乳首を指先で撫でまわしてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ #{emotion}\ncaressed #{targetname}'s nipples with fingertips!
 > END STRING
 
 > BEGIN STRING
@@ -55217,7 +55217,7 @@ GAME_PLAYED
 > END STRING
 
 > BEGIN STRING
-#{map_split}」エリア\n簡易戦闘実行可能！
+「#{map_split}」エリア\n簡易戦闘実行可能！
 > CONTEXT: O_MOD_SR_Util_other_2.rb
 Simple battles enabled\nin 「#{map_split}」!
 > END STRING
@@ -82625,25 +82625,25 @@ Valkyria
 > BEGIN STRING
 ティミッド
 > CONTEXT: P_H_MOD_Game_Map.rb
-
+Timid
 > END STRING
 
 > BEGIN STRING
 マレブランケ
 > CONTEXT: P_H_MOD_Game_Map.rb
-
+Malebranche
 > END STRING
 
 > BEGIN STRING
 雪渓
 > CONTEXT: P_H_MOD_Game_Map.rb
-
+Snowfield
 > END STRING
 
 > BEGIN STRING
 氷の洞窟
 > CONTEXT: P_H_MOD_Game_Map.rb
-
+Ice Cave
 > END STRING
 
 > BEGIN STRING

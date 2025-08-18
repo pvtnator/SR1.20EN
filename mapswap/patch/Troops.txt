@@ -705,8 +705,6 @@ Mary/322/70
 > BEGIN STRING
 チュートリアル
 > CONTEXT: Troops/138/name/ < UNTRANSLATED
-> CONTEXT: Map600/events/1/pages/0/200/Choice/1 < UNTRANSLATED
-> CONTEXT: Map600/events/1/pages/0/200/Choice/1 < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/200/Choice/1 < UNTRANSLATED
 > CONTEXT: Map586/events/11/pages/0/200/Choice/1 < UNTRANSLATED
 > CONTEXT: Map472/events/7/pages/0/201/Choice/1 < UNTRANSLATED
@@ -4265,7 +4263,7 @@ Lesser Succubus/8/65, Imp/24/65
 
 > BEGIN STRING
 【BOSS】レッサーサキュバス
-> CONTEXT: Troops/923/name/
+> CONTEXT: None < UNUSED
 【BOSS】Lesser Succubus
 > END STRING
 
@@ -5064,7 +5062,6 @@ Werewolf/101/64
 
 > BEGIN STRING
 リリス/209/69
-> CONTEXT: Troops/904/name/
 > CONTEXT: Enemies/736/name/
 Lilith/209/69
 > END STRING
@@ -5175,7 +5172,7 @@ Imp/21/69, Nightmare/74/73
 
 > BEGIN STRING
 レッサーサキュバス/5/82*2, レッサーサキ
-> CONTEXT: Troops/919/name/
+> CONTEXT: None < UNUSED
 Lesser Succubus/5/82*2, レッサーサキ
 > END STRING
 
@@ -5265,49 +5262,49 @@ Werecat/104/88, Gang Commander/
 
 > BEGIN STRING
 サキュバス/10/85*2
-> CONTEXT: Troops/935/name/
+> CONTEXT: None < UNUSED
 Succubus/10/85*2
 > END STRING
 
 > BEGIN STRING
 デビル/26/86*2
-> CONTEXT: Troops/936/name/
+> CONTEXT: None < UNUSED
 Devil/26/86*2
 > END STRING
 
 > BEGIN STRING
 デビル/26/86, サキュバス/10/85
-> CONTEXT: Troops/937/name/
+> CONTEXT: None < UNUSED
 Devil/26/86, Succubus/10/85
 > END STRING
 
 > BEGIN STRING
 プチウィッチ/37/84*2
-> CONTEXT: Troops/938/name/
+> CONTEXT: None < UNUSED
 Petite Witch/37/84*2
 > END STRING
 
 > BEGIN STRING
 インプ/21/80*2, プチウィッチ/37/84
-> CONTEXT: Troops/939/name/
+> CONTEXT: None < UNUSED
 Imp/21/80*2, Petite Witch/37/84
 > END STRING
 
 > BEGIN STRING
 プチウィッチ/37/84, ワーキャット/105/92
-> CONTEXT: Troops/940/name/
+> CONTEXT: None < UNUSED
 Petite Witch/37/84, Werecat/105/92
 > END STRING
 
 > BEGIN STRING
 プリーステス/118/120*2
-> CONTEXT: Troops/941/name/
+> CONTEXT: None < UNUSED
 Priestess/118/120*2
 > END STRING
 
 > BEGIN STRING
 キャスト/53/85, プリーステス/118/120
-> CONTEXT: Troops/942/name/
+> CONTEXT: None < UNUSED
 Cast/53/85, Priestess/118/120
 > END STRING
 
@@ -5379,14 +5376,13 @@ Witch/42/88, Mimic/145/88
 
 > BEGIN STRING
 ミミック/145/88*3
-> CONTEXT: Troops/954/name/
+> CONTEXT: None < UNUSED
 Mimic/145/88*3
 > END STRING
 
 > BEGIN STRING
 【BOSS】ウィッチ
 > CONTEXT: Troops/955/name/
-> CONTEXT: Troops/958/name/
 【BOSS】Witch
 > END STRING
 
@@ -5470,7 +5466,7 @@ Doppelganger/172/83*2
 
 > BEGIN STRING
 ガーゴイル/141/93, サキュバスロード/16/9
-> CONTEXT: Troops/970/name/
+> CONTEXT: None < UNUSED
 Gargoyle/141/93, Succubus Lord/16/9
 > END STRING
 
@@ -5482,13 +5478,13 @@ Succubus/10/85, Lesser Succubus/5/8
 
 > BEGIN STRING
 サキュバス/11/86, レッサーサキュバス/6/8
-> CONTEXT: Troops/972/name/
+> CONTEXT: None < UNUSED
 Succubus/11/86, Lesser Succubus/6/8
 > END STRING
 
 > BEGIN STRING
 リリム/156/97*2, ミミック/146/94
-> CONTEXT: Troops/973/name/
+> CONTEXT: None < UNUSED
 Lilim/156/97*2, Mimic/146/94
 > END STRING
 
@@ -5518,19 +5514,19 @@ Imp/21/69, Demon/31/71, Devil/26/
 
 > BEGIN STRING
 インプ/22/87, デーモン/32/93, デビル/27/
-> CONTEXT: Troops/978/name/
+> CONTEXT: None < UNUSED
 Imp/22/87, Demon/32/93, Devil/27/
 > END STRING
 
 > BEGIN STRING
 ダークエンジェル/137/73, タマモ/152/73,
-> CONTEXT: Troops/979/name/
+> CONTEXT: None < UNUSED
 Dark Angel/137/73, Tamamo/152/73,
 > END STRING
 
 > BEGIN STRING
 ワーウルフ/100/73*2, ワーウルフ/101/72
-> CONTEXT: Troops/980/name/
+> CONTEXT: None < UNUSED
 Werewolf/100/73*2, Werewolf/101/72
 > END STRING
 
@@ -5548,13 +5544,13 @@ Dark Angel/137/73*2
 
 > BEGIN STRING
 ナイトメア/75/74*2, キャスト/53/76
-> CONTEXT: Troops/983/name/
+> CONTEXT: None < UNUSED
 Nightmare/75/74*2, Cast/53/76
 > END STRING
 
 > BEGIN STRING
 ファミリア/96/76, ファミリア/97/75
-> CONTEXT: Troops/984/name/
+> CONTEXT: None < UNUSED
 Familiar/96/76, Familiar/97/75
 > END STRING
 
@@ -5584,7 +5580,7 @@ Slime/80/74*2, Gold Slime/90/72
 
 > BEGIN STRING
 アルラウネ/126/73*2, アルラウネ/127/74
-> CONTEXT: Troops/989/name/
+> CONTEXT: None < UNUSED
 Alraune/126/73*2, Alraune/127/74
 > END STRING
 
@@ -5596,7 +5592,7 @@ Matango/133/75, Angel/234/69
 
 > BEGIN STRING
 プチウィッチ/37/73, ワーキャット/105/72,
-> CONTEXT: Troops/991/name/
+> CONTEXT: None < UNUSED
 Petite Witch/37/73, Werecat/105/72,
 > END STRING
 
@@ -5620,7 +5616,7 @@ Gang Commander/111/94, ノスフェラト
 
 > BEGIN STRING
 インプ/22/87*2, グラキエース/239/88
-> CONTEXT: Troops/995/name/
+> CONTEXT: None < UNUSED
 Imp/22/87*2, Grakiace/239/88
 > END STRING
 
@@ -5634,6 +5630,7 @@ Imp/22/87*2, Grakiace/239/88
 【BOSS】ディリヘンテ
 > CONTEXT: Troops/997/name/
 > CONTEXT: Troops/1010/name/
+> CONTEXT: Troops/1753/name/
 【BOSS】Diligente
 > END STRING
 
@@ -5677,6 +5674,7 @@ Imp/22/87*2, Grakiace/239/88
 > BEGIN STRING
 【BOSS】フルビュア
 > CONTEXT: Troops/1005/name/
+> CONTEXT: Troops/1752/name/
 【BOSS】Fulbeua
 > END STRING
 
@@ -8883,13 +8881,13 @@ Gremlin/532/80
 
 > BEGIN STRING
 ドゥーロンは周りに淫毒をまき散らした！
-> CONTEXT: Troops/1747/pages/0/3/Dialogue
+> CONTEXT: Troops/1747/pages/0/2/Dialogue
 Doulonは周りに淫毒をまき散らした！
 > END STRING
 
 > BEGIN STRING
 \\n[101]たちは淫毒を浴びてしまった！
-> CONTEXT: Troops/1747/pages/0/5/Dialogue < UNTRANSLATED
+> CONTEXT: Troops/1747/pages/0/4/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -9070,5 +9068,156 @@ Doulonは周りに淫毒をまき散らした！
 > CONTEXT: Enemies/1243/name/ < UNTRANSLATED
 > CONTEXT: Enemies/1323/name/ < UNTRANSLATED
 > CONTEXT: Enemies/1353/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【R】レッサーサキュバス
+> CONTEXT: Troops/919/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】レッサーサキュバス
+> CONTEXT: Troops/923/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+サキュバス/10/62*2
+> CONTEXT: Troops/935/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デビル/26/62*2
+> CONTEXT: Troops/936/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デビル/26/62, サキュバス/10/62
+> CONTEXT: Troops/937/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチウィッチ/37/60*2
+> CONTEXT: Troops/938/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+インプ/21/58, プチウィッチ/37/60
+> CONTEXT: Troops/939/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【R】プチウィッチ/37/60
+> CONTEXT: Troops/940/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プリーステス/118/57*2
+> CONTEXT: Troops/941/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キャスト/53/60, プリーステス/118/57
+> CONTEXT: Troops/942/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミミック/145/61*3
+> CONTEXT: Troops/954/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ウィッチクラフト
+> CONTEXT: Troops/958/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】サキュバス
+> CONTEXT: Troops/972/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リリム/156/61*2
+> CONTEXT: Troops/973/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】デーモン
+> CONTEXT: Troops/978/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】タマモ
+> CONTEXT: Troops/979/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ワーウルフ
+> CONTEXT: Troops/980/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ナイトメア
+> CONTEXT: Troops/983/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ファミリア/96/60, ファミリア/97/77
+> CONTEXT: Troops/984/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】アルラウネ
+> CONTEXT: Troops/989/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プチウィッチ/37/60, ワーキャット/105/77,
+> CONTEXT: Troops/991/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】インプ
+> CONTEXT: Troops/995/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ギルゴーン
+> CONTEXT: Troops/1013/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■夢の奔流
+> CONTEXT: Troops/1750/name/ < UNTRANSLATED
+> CONTEXT: Enemies/2001/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】/キャスト/54/120
+> CONTEXT: Troops/1751/name/ < UNTRANSLATED
 
 > END STRING

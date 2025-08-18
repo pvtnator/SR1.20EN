@@ -1,78 +1,89 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "夢見がちな女の子"
-> CONTEXT: Map137/events/3/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map137/events/3/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map151/events/35/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map151/events/35/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map128/events/5/pages/0/1/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map128/events/5/pages/0/1/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map151/events/35/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map151/events/35/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map125/events/8/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map125/events/8/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map126/events/58/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map126/events/58/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map137/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Map137/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Map151/events/35/pages/0/0/InlineScript/1:22
+> CONTEXT: Map151/events/35/pages/0/0/InlineScript/1:22
+> CONTEXT: Map128/events/5/pages/0/1/InlineScript/1:22
+> CONTEXT: Map128/events/5/pages/0/1/InlineScript/1:22
+> CONTEXT: Map151/events/35/pages/1/0/InlineScript/1:22
+> CONTEXT: Map151/events/35/pages/1/0/InlineScript/1:22
+> CONTEXT: Map125/events/8/pages/0/0/InlineScript/1:22
+> CONTEXT: Map125/events/8/pages/0/0/InlineScript/1:22
+> CONTEXT: Map126/events/58/pages/0/0/InlineScript/1:22
+> CONTEXT: Map126/events/58/pages/0/0/InlineScript/1:22
+"A dreamy girl"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ううっ……ぐずっ……ここどこぉ……
 サンタさんどこぉ……
-> CONTEXT: Map137/events/3/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map137/events/3/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map137/events/3/pages/0/1/Dialogue
+> CONTEXT: Map137/events/3/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Ugh...gah...where am I...
+Where's Santa...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あっ……お兄さん……
 私サンタさん……見つけられなかった……
-> CONTEXT: Map137/events/3/pages/0/4/Dialogue < UNTRANSLATED
-> CONTEXT: Map137/events/3/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map137/events/3/pages/0/4/Dialogue
+> CONTEXT: Map137/events/3/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Ah...
+I couldn't find Santa...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 えっ……？お兄さんが会わせてくれるの……？
-> CONTEXT: Map137/events/3/pages/0/7/Dialogue < UNTRANSLATED
-> CONTEXT: Map137/events/3/pages/0/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map137/events/3/pages/0/7/Dialogue
+> CONTEXT: Map137/events/3/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+Huh...? You will let me meet her...?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ……\\|うんっ！私サンタさんに会いたい！
 お兄さん、サンタさんのところに連れて行って！
-> CONTEXT: Map137/events/3/pages/0/13/Dialogue < UNTRANSLATED
-> CONTEXT: Map137/events/3/pages/0/13/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map137/events/3/pages/0/13/Dialogue
+> CONTEXT: Map137/events/3/pages/0/13/Dialogue
+\\name[\\v[2]]\\_
+...\\|Yes! I want to meet Santa!
+Take me to Santa!
 > END STRING
 
 > BEGIN STRING
 少女を保護した
 サンタさんのところに連れて行こう……
-> CONTEXT: Map137/events/3/pages/0/17/Dialogue < UNTRANSLATED
-> CONTEXT: Map137/events/3/pages/0/17/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map137/events/3/pages/0/17/Dialogue
+> CONTEXT: Map137/events/3/pages/0/17/Dialogue
+The girl is rescued. 
+Let's take her to Santa.
 > END STRING
 
 > BEGIN STRING
 "銀髪のスリーピィ"
-> CONTEXT: Map137/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map137/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map137/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map137/events/4/pages/0/0/InlineScript/1:22
+"Silver-haired Sleepy"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 んむう……なんだぇ……？
 ようやく寒風を凌げる場所で眠れそうじゃったのに……
-> CONTEXT: Map137/events/4/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map137/events/4/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map137/events/4/pages/0/1/Dialogue
+> CONTEXT: Map137/events/4/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Hmm... what's going on...?
+I was finally able to sleep in a place 
+where I could shelter from the cold wind...
 > END STRING
 
 > BEGIN STRING
@@ -80,18 +91,23 @@
 ふかふかのおふとんがあるとな？
 寝るならそこのほうがいいのぅ
 ぜひ連れて行っておくれ
-> CONTEXT: Map137/events/4/pages/0/7/Dialogue < UNTRANSLATED
-> CONTEXT: Map137/events/4/pages/0/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map137/events/4/pages/0/7/Dialogue
+> CONTEXT: Map137/events/4/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+You think there's a fluffy futon?
+That would be better for sleeping.
+Please take me there.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 用が無いなら寝させておくれ
 わしは眠たいのじゃ……
-> CONTEXT: Map137/events/4/pages/0/19/Dialogue < UNTRANSLATED
-> CONTEXT: Map137/events/4/pages/0/19/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map137/events/4/pages/0/19/Dialogue
+> CONTEXT: Map137/events/4/pages/0/19/Dialogue
+\\name[\\v[2]]\\_
+If you have no business here, let me sleep.
+I'm sleepy...
 > END STRING
 
 > BEGIN STRING
@@ -100,15 +116,16 @@
 > CONTEXT: Map137/events/33/pages/0/0/InlineScript/1:22
 > CONTEXT: Map137/events/33/pages/1/0/InlineScript/1:22
 > CONTEXT: Map137/events/33/pages/1/0/InlineScript/1:22
-"Beastman Swordsman"
+"Beast Swordsman"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あれ？キミ、この先へ行くつもり？
-> CONTEXT: Map137/events/33/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map137/events/33/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map137/events/33/pages/0/1/Dialogue
+> CONTEXT: Map137/events/33/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Huh? Are you going further?
 > END STRING
 
 > BEGIN STRING
@@ -116,18 +133,22 @@
 残念だけど、この先に目的のものは
 なーんにもないと思うよ？
 あるのは極寒の寒さと怪しげな建物だけ！
-> CONTEXT: Map137/events/33/pages/0/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map137/events/33/pages/0/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map137/events/33/pages/0/3/Dialogue
+> CONTEXT: Map137/events/33/pages/0/3/Dialogue
+\\name[\\v[2]]\\_
+Unfortunately, I don't think there's anything ahead.
+All you'll find is the freezing cold 
+and a suspicious building!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あと、珍しい魔物がそれなりに
 いるくらいじゃないかなー？
-> CONTEXT: Map137/events/33/pages/0/7/Dialogue < UNTRANSLATED
-> CONTEXT: Map137/events/33/pages/0/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map137/events/33/pages/0/7/Dialogue
+> CONTEXT: Map137/events/33/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+Also, I think there are quite a few rare demons?
 > END STRING
 
 > BEGIN STRING
@@ -135,9 +156,12 @@
 魔物が目当てだって？！
 …･･変わったニンゲンだね
 キミ、魔獣使いか何かなのかい？
-> CONTEXT: Map137/events/33/pages/0/10/Dialogue < UNTRANSLATED
-> CONTEXT: Map137/events/33/pages/0/10/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map137/events/33/pages/0/10/Dialogue
+> CONTEXT: Map137/events/33/pages/0/10/Dialogue
+\\name[\\v[2]]\\_
+You're after demons?!
+...You're a strange human.
+Are you a demon tamer or something?
 > END STRING
 
 > BEGIN STRING
@@ -145,9 +169,11 @@
 ま、そういう事ならイイ事を教えてあげる！
 ここには世にも珍しい魔物がごくまれに
 出てくることがあるんだ
-> CONTEXT: Map137/events/33/pages/0/14/Dialogue < UNTRANSLATED
-> CONTEXT: Map137/events/33/pages/0/14/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map137/events/33/pages/0/14/Dialogue
+> CONTEXT: Map137/events/33/pages/0/14/Dialogue
+\\name[\\v[2]]\\_
+Well, if that's the case, I'll tell you something!
+A rare demon sometimes appear here.
 > END STRING
 
 > BEGIN STRING
@@ -155,9 +181,12 @@
 異世界から来たってウワサもあるみたい
 だけどそのぶんかなり手ごわいから、
 挑むなら十分に準備しておくべきだね
-> CONTEXT: Map137/events/33/pages/0/18/Dialogue < UNTRANSLATED
-> CONTEXT: Map137/events/33/pages/0/18/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map137/events/33/pages/0/18/Dialogue
+> CONTEXT: Map137/events/33/pages/0/18/Dialogue
+\\name[\\v[2]]\\_
+There are rumors she's from another world.
+But that makes her quite formidable, so if you're 
+going to challenge her, you should be well prepared.
 > END STRING
 
 > BEGIN STRING
@@ -165,16 +194,21 @@
 やぁ
 さっきから女の子があそこで泣いてるけど
 何かあったのかい？
-> CONTEXT: Map137/events/33/pages/1/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map137/events/33/pages/1/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map137/events/33/pages/1/2/Dialogue
+> CONTEXT: Map137/events/33/pages/1/2/Dialogue
+\\name[\\v[2]]\\_
+Hey,
+that girl's been crying there for a while now.
+Did something happen?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 やぁ、キミか
 珍しい魔物には出会えたかい？
-> CONTEXT: Map137/events/33/pages/1/8/Dialogue < UNTRANSLATED
-> CONTEXT: Map137/events/33/pages/1/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map137/events/33/pages/1/8/Dialogue
+> CONTEXT: Map137/events/33/pages/1/8/Dialogue
+\\name[\\v[2]]\\_
+Hey, it's you!
+Have you encountered any unusual monsters?
 > END STRING
