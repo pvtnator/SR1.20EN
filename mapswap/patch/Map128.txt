@@ -41,6 +41,7 @@
 > CONTEXT: Map165/events/154/pages/0/16/InlineScript/1:22
 > CONTEXT: Map165/events/154/pages/1/0/InlineScript/1:22
 > CONTEXT: Map165/events/154/pages/1/0/InlineScript/1:22
+> CONTEXT: Map125/events/2/pages/10/0/InlineScript/1:22
 "Santa"
 > END STRING
 
@@ -217,8 +218,7 @@ so I'm still investigating the details...
 \\name[\\v[2]]\\_
 これは一旦道を封鎖しておいたほうが良さそうじゃな
 なにかわかったら知らせるぞ
-> CONTEXT: Map128/events/5/pages/2/42/Dialogue
-> CONTEXT: Map128/events/5/pages/2/42/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 I think we should block off the road for now.
 I'll let you know if I find out anything.
@@ -229,8 +229,7 @@ I'll let you know if I find out anything.
 そうだわ、後でお礼がしたいの
 この里の外の焚き火のところで待ってるわ
 ……ふふふ\\H
-> CONTEXT: Map128/events/5/pages/2/45/Dialogue
-> CONTEXT: Map128/events/5/pages/2/45/Dialogue
+> CONTEXT: Map128/events/5/pages/2/52/Dialogue
 \\name[\\v[3]]\\_
 That's right, I want to thank you later.
 I'll be waiting by the bonfire outside the village.
@@ -291,8 +290,7 @@ Until then, I'll keep an eye on her.
 "ジェノシンドレ"
 > CONTEXT: Map128/events/5/pages/6/1/InlineScript/1:22
 > CONTEXT: Map128/events/5/pages/6/1/InlineScript/1:22
-> CONTEXT: Map125/events/4/pages/3/1/InlineScript/1:22
-> CONTEXT: Map125/events/4/pages/3/1/InlineScript/1:22
+> CONTEXT: Map125/events/4/pages/3/0/InlineScript/1:22
 "Genosindre"
 > END STRING
 
@@ -481,4 +479,20 @@ to him for now. In the meantime, get some rest.
 So, this lady will rest in this village 
 for a while longer. Don't worry about us, 
 just do what you need to do.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今までは外れに行けぬよう封鎖しておったが
+お主ならなんとかなるかの？
+> CONTEXT: Map128/events/5/pages/2/42/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+外れに行けるよう封鎖を解いておく。
+じゃが、行くならしっかりと準備してから行くように。
+> CONTEXT: Map128/events/5/pages/2/45/Dialogue < UNTRANSLATED
+
 > END STRING

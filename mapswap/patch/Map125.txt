@@ -365,8 +365,7 @@ like you'd have no problem even if you went off the beaten path.
 \\name[\\v[2]]\\_
 外れへ行く道を開けておこう。
 何があるか分からぬから、気をつけるのじゃぞ。
-> CONTEXT: Map125/events/2/pages/6/11/Dialogue
-> CONTEXT: Map125/events/2/pages/6/11/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Let's open a path to the outskirts.
 Be careful, you never know what's out there.
@@ -481,6 +480,7 @@ she might not have made it in time.
 ほんと一安心じゃわい。
 > CONTEXT: Map125/events/2/pages/9/16/Dialogue
 > CONTEXT: Map125/events/2/pages/9/16/Dialogue
+> CONTEXT: Map125/events/2/pages/10/12/Dialogue
 \\name[\\v[2]]\\_
 Luckily, there are pharmacists and maids in the village,
 and they were able to treat her just in time.
@@ -502,8 +502,6 @@ My bed's so warm...I don't want to leave...
 静かに眠っている……
 > CONTEXT: Map125/events/4/pages/2/9/Dialogue
 > CONTEXT: Map125/events/4/pages/2/9/Dialogue
-> CONTEXT: Map126/events/71/pages/2/0/Dialogue
-> CONTEXT: Map126/events/71/pages/2/0/Dialogue
 Sleeping peacefully...
 > END STRING
 
@@ -512,10 +510,8 @@ Sleeping peacefully...
 あっ……。
 その節はご迷惑をおかけしました。
 私はしばらくここで休むよう言われております。
-> CONTEXT: Map125/events/4/pages/3/18/Dialogue
-> CONTEXT: Map125/events/4/pages/3/18/Dialogue
-> CONTEXT: Map125/events/4/pages/3/43/Dialogue
-> CONTEXT: Map125/events/4/pages/3/43/Dialogue
+> CONTEXT: Map125/events/4/pages/3/17/Dialogue
+> CONTEXT: Map125/events/4/pages/3/50/Dialogue
 \\name[\\v[2]]\\_
 Ah...
 I apologize for the inconvenience.
@@ -527,10 +523,8 @@ I've been told to rest here for a while.
 私としては今すぐにでも淫魔どもに一泡吹かせたいのですが
 サンタさんのみならず里の皆さんにまで止められまして……
 申し訳有りませんが、そちらの方は頼みます……。
-> CONTEXT: Map125/events/4/pages/3/22/Dialogue
-> CONTEXT: Map125/events/4/pages/3/22/Dialogue
-> CONTEXT: Map125/events/4/pages/3/47/Dialogue
-> CONTEXT: Map125/events/4/pages/3/47/Dialogue
+> CONTEXT: Map125/events/4/pages/3/21/Dialogue
+> CONTEXT: Map125/events/4/pages/3/54/Dialogue
 \\name[\\v[2]]\\_
 I'd love to show those succubi right now,
 but Santa and everyone in the village is trying to stop me...
@@ -740,6 +734,7 @@ She told me all about it!
 > CONTEXT: Map125/events/11/pages/2/0/InlineScript/1:22
 > CONTEXT: Map125/events/11/pages/3/0/InlineScript/1:22
 > CONTEXT: Map125/events/11/pages/3/0/InlineScript/1:22
+> CONTEXT: Map125/events/11/pages/4/0/InlineScript/1:22
 "Blonde Fallen Angel"
 > END STRING
 
@@ -1031,6 +1026,7 @@ You can get there from behind the three igloos to the north.
 ようこそお越しくださいました\\H
 > CONTEXT: Map125/events/11/pages/3/1/Dialogue
 > CONTEXT: Map125/events/11/pages/3/1/Dialogue
+> CONTEXT: Map125/events/11/pages/4/1/Dialogue
 \\name[\\v[2]]\\_
 Hey, \\n[101]!
 Welcome!\\H
@@ -1099,8 +1095,7 @@ salty prosciutto and sweet, sticky honey.
 トッピング：\\T[161]ハニー２つ
 技量：５０以上必要
 効果：魅力小ＵＰ
-> CONTEXT: Map125/events/12/pages/0/12/Dialogue
-> CONTEXT: Map125/events/12/pages/0/12/Dialogue
+> CONTEXT: None < UNUSED
 Ingredients: \\T[151] Low-quality ingredients
 Toppings: \\T[161] Two honeys
 Dexterity: Requires 50 or above
@@ -1125,8 +1120,7 @@ mustard sauce and lettuce.
 トッピング：\\T[165]ペッパー２つ
 技量：５０以上必要
 効果：忍耐力小ＵＰ
-> CONTEXT: Map125/events/12/pages/0/23/Dialogue
-> CONTEXT: Map125/events/12/pages/0/23/Dialogue
+> CONTEXT: None < UNUSED
 Ingredients: \\T[151] Low-quality ingredients
 Toppings: \\T[165] Two peppers
 Dexterity: Requires 50 or above
@@ -1151,8 +1145,7 @@ and finished with tartar sauce.
 トッピング：\\T[167]レモン２つ
 技量：５０以上必要
 効果：素早さ小ＵＰ
-> CONTEXT: Map125/events/12/pages/0/34/Dialogue
-> CONTEXT: Map125/events/12/pages/0/34/Dialogue
+> CONTEXT: None < UNUSED
 Ingredients: \\T[151] Low-quality ingredients
 Toppings: \\T[167] Two lemons
 Dexterity: Requires 50 or above
@@ -1177,8 +1170,7 @@ No milk mushrooms are used, so you can rest assured.
 トッピング：\\T[164]クルミ\\T[168]ナッツ２つ
 技量：１６０以上必要
 効果：最大ＥＰ大ＵＰ
-> CONTEXT: Map125/events/12/pages/0/46/Dialogue
-> CONTEXT: Map125/events/12/pages/0/46/Dialogue
+> CONTEXT: None < UNUSED
 Ingredients: \\T[152] Normal Ingredients
 Toppings: \\T[164] Walnuts \\T[168] Two Nuts
 Dexterity: Requires 160 or higher
@@ -1213,8 +1205,9 @@ Effect: Greatly increases maximum EP
 > CONTEXT: Map125/events/12/pages/0/251/Dialogue
 > CONTEXT: Map125/events/12/pages/0/269/Dialogue
 > CONTEXT: Map125/events/12/pages/0/269/Dialogue
-> CONTEXT: Map125/events/12/pages/0/309/Dialogue
-> CONTEXT: Map125/events/12/pages/0/309/Dialogue
+> CONTEXT: Map125/events/12/pages/0/287/Dialogue
+> CONTEXT: Map125/events/12/pages/0/327/Dialogue
+> CONTEXT: Map125/events/12/pages/0/344/Dialogue
 It's a blank page...
 > END STRING
 
@@ -1236,8 +1229,7 @@ and the acidity of the lemon juice enhances the flavor.
 トッピング：\\T[167]レモン２つ
 技量：１６０以上必要
 効果：素早さ大ＵＰ
-> CONTEXT: Map125/events/12/pages/0/64/Dialogue
-> CONTEXT: Map125/events/12/pages/0/64/Dialogue
+> CONTEXT: None < UNUSED
 Ingredients: \\T[152] Normal Ingredients
 Toppings: \\T[167] 2 Lemons
 Dexterity: Requires 160 or higher
@@ -1262,8 +1254,7 @@ garnished with herbs, resembles a beautiful, large flower.
 トッピング：\\T[161]ハニー\\T[162]ジンジャー
 技量：１６０以上必要
 効果：精力大ＵＰ
-> CONTEXT: Map125/events/12/pages/0/82/Dialogue
-> CONTEXT: Map125/events/12/pages/0/82/Dialogue
+> CONTEXT: None < UNUSED
 Ingredients: \\T[152] Normal Ingredients
 Toppings: \\T[161] Honey \\T[162] Ginger
 Dexterity: Requires 160 or higher
@@ -1288,8 +1279,7 @@ your body and soul with its sweetness.
 トッピング：\\T[166]マロン２つ\\T[169]根っこ
 技量：１６０以上必要
 効果：状態異常耐性大ＵＰ
-> CONTEXT: Map125/events/12/pages/0/100/Dialogue
-> CONTEXT: Map125/events/12/pages/0/100/Dialogue
+> CONTEXT: None < UNUSED
 Ingredients: \\T[152] Normal Ingredients
 Toppings: \\T[166] Two Chestnuts \\T[169] Roots
 Dexterity: Requires 160 or higher
@@ -1314,8 +1304,7 @@ can be a culture shock, the chewy texture is delicious.
 トッピング：\\T[165]ペッパー\\T[167]レモン
 技量：１６０以上必要
 効果：精神力大ＵＰ
-> CONTEXT: Map125/events/12/pages/0/118/Dialogue
-> CONTEXT: Map125/events/12/pages/0/118/Dialogue
+> CONTEXT: None < UNUSED
 Ingredients: \\T[152] Normal Ingredients
 Toppings: \\T[165] Pepper \\T[167] Lemon
 Dexterity: Requires 160 or higher
@@ -1340,8 +1329,7 @@ vanilla ice cream shaped like a full moon.
 トッピング：\\T[161]ハニー\\T[167]レモン
 技量：２００以上必要
 効果：器用さ大ＵＰ
-> CONTEXT: Map125/events/12/pages/0/136/Dialogue
-> CONTEXT: Map125/events/12/pages/0/136/Dialogue
+> CONTEXT: None < UNUSED
 Ingredients: \\T[152] Normal Ingredients
 Toppings: \\T[161] Honey \\T[167] Lemon
 Dexterity: Requires 200 or more
@@ -1366,8 +1354,7 @@ are coated with rich cheese.
 トッピング：\\T[162]ジンジャー２つ\\T[164]クルミ
 技量：２００以上必要
 効果：最大ＶＰ大ＵＰ
-> CONTEXT: Map125/events/12/pages/0/154/Dialogue
-> CONTEXT: Map125/events/12/pages/0/154/Dialogue
+> CONTEXT: None < UNUSED
 Ingredients: \\T[152]
 Toppings: \\T[162] 2 Gingers \\T[164] Walnuts
 Dexterity: 200 or higher required
@@ -1392,8 +1379,7 @@ sweet whipped cream.
 トッピング：\\T[161]ハニー\\T[166]マロン\\T[167]レモン
 技量：３６０以上必要
 効果：取得経験値量超大UP
-> CONTEXT: Map125/events/12/pages/0/172/Dialogue
-> CONTEXT: Map125/events/12/pages/0/172/Dialogue
+> CONTEXT: None < UNUSED
 Ingredients: \\T[153] Premium Ingredients
 Toppings: \\T[161] Honey \\T[166] Chestnut \\T[167] Lemon
 Dexterity: Requires 360 or higher
@@ -1418,8 +1404,7 @@ the ingredients used. Pleasant to eat together.
 トッピング：\\T[168]ナッツ\\T[169]根っこ２つ
 技量：３５０以上必要
 効果：夢魔契約率超大UP
-> CONTEXT: Map125/events/12/pages/0/190/Dialogue
-> CONTEXT: Map125/events/12/pages/0/190/Dialogue
+> CONTEXT: None < UNUSED
 Ingredients: \\T[153] Best Ingredients
 Toppings: \\T[168] Nuts \\T[169] Two Roots
 Dexterity: Requires 350 or higher
@@ -1431,8 +1416,7 @@ Effect: Huge increase in succubus contract rate
 生クリームとイチゴをふんだんに使った
 クレープの定番メニュー。生クリームの甘さと
 イチゴの酸味の絶妙なバランス。
-> CONTEXT: Map125/events/12/pages/0/204/Dialogue
-> CONTEXT: Map125/events/12/pages/0/204/Dialogue
+> CONTEXT: Map125/events/12/pages/0/222/Dialogue
 Strawberry Whipped Cream: 
 A classic crepe made with plenty of fresh cream 
 and strawberries. The sweetness of the cream and 
@@ -1444,8 +1428,7 @@ the tartness of the strawberries are perfectly balanced.
 トッピング：\\T[163]苺２つ
 技量：１６０以上必要
 効果：処女出現率小UP
-> CONTEXT: Map125/events/12/pages/0/208/Dialogue
-> CONTEXT: Map125/events/12/pages/0/208/Dialogue
+> CONTEXT: None < UNUSED
 Ingredients: \\T[152] Normal Ingredients
 Toppings: \\T[163] Two Strawberries
 Dexterity: Requires 160 or higher
@@ -1457,8 +1440,7 @@ Effect: Slightly increases chance of virgins appearing
 卵をたっぷりと使った銀色の都市の定番の朝食。
 出汁の利いた卵が
 ほっぺたが落ちるような味わいを堪能させる。
-> CONTEXT: Map125/events/12/pages/0/222/Dialogue
-> CONTEXT: Map125/events/12/pages/0/222/Dialogue
+> CONTEXT: Map125/events/12/pages/0/240/Dialogue
 Gold Toast: 
 A classic breakfast in the Silver City, 
 made with plenty of eggs. The eggs, seasoned with 
@@ -1470,8 +1452,7 @@ dashi stock, offer a mouthwatering flavor.
 トッピング：\\T[161]ハニー２つ\\T[168]ナッツ
 技量：１８０以上必要
 効果：取得Ｌｐｓ．量大UP
-> CONTEXT: Map125/events/12/pages/0/226/Dialogue
-> CONTEXT: Map125/events/12/pages/0/226/Dialogue
+> CONTEXT: None < UNUSED
 Ingredients: \\T[152] Normal Ingredients
 Toppings: \\T[161] Two Honey \\T[168] Nuts
 Dexterity: Requires 180 or higher
@@ -1483,8 +1464,7 @@ Effect: Greatly increases LPS gain
 平原と丘で採れたブルーベリーのレアチーズケーキ。
 濃厚なチーズに、甘く粘っこいソースが
 たまらなく癖になる。
-> CONTEXT: Map125/events/12/pages/0/240/Dialogue
-> CONTEXT: Map125/events/12/pages/0/240/Dialogue
+> CONTEXT: Map125/events/12/pages/0/258/Dialogue
 Sticky Cake: 
 Made with blueberries harvested from the plains and hills. 
 The rich cheese and sweet, sticky sauce 
@@ -1496,8 +1476,7 @@ are irresistibly addictive.
 トッピング：\\T[163]苺\\T[164]クルミ\\T[169]根っこ
 技量：１８０以上必要
 効果：アイテムドロップ率大UP
-> CONTEXT: Map125/events/12/pages/0/244/Dialogue
-> CONTEXT: Map125/events/12/pages/0/244/Dialogue
+> CONTEXT: None < UNUSED
 Ingredients: \\T[152] Normal Ingredients
 Toppings: \\T[163] Strawberries \\T[164] Walnuts \\T[169] Roots
 Dexterity: Requires 180 or higher
@@ -1509,8 +1488,7 @@ Effect: Greatly increases item drop rate
 遊技場の看板メニュー。夢魔が飲むと
 お腹を満たす効果がある。酸味が利きながらも飲みやすく
 リラックスしたひとときを過ごせる。
-> CONTEXT: Map125/events/12/pages/0/258/Dialogue
-> CONTEXT: Map125/events/12/pages/0/258/Dialogue
+> CONTEXT: Map125/events/12/pages/0/276/Dialogue
 Trick Rose Tea: 
 Amusement park's signature drink. When drunk by succubi, 
 has the effect of filling the stomach. 
@@ -1522,8 +1500,7 @@ It's tart yet easy to drink, allowing you to relax.
 トッピング：\\T[161]ハニー\\T[167]レモン
 技量：１８０以上必要
 効果：満腹度大回復、空腹率小ＤＯＷＮ
-> CONTEXT: Map125/events/12/pages/0/262/Dialogue
-> CONTEXT: Map125/events/12/pages/0/262/Dialogue
+> CONTEXT: None < UNUSED
 Ingredients: \\T[153] Best Ingredients
 Toppings: \\T[161] Honey \\T[167] Lemon
 Dexterity: Requires 180 or higher
@@ -1535,8 +1512,7 @@ Effect: Greatly restores fullness, slightly reduces hunger
 天界から伝わったとされる、ふんわりとしたパンケーキ。
 とろりとした蜂蜜に、記事は口溶けの良い舌触りで
 まるで天に昇るような気分に。
-> CONTEXT: Map125/events/12/pages/0/275/Dialogue
-> CONTEXT: Map125/events/12/pages/0/275/Dialogue
+> CONTEXT: Map125/events/12/pages/0/293/Dialogue
 Angelic Pancakes: 
 Said to have been brought down from heaven. 
 The thick honey and melt-in-your-mouth dough 
@@ -1548,8 +1524,7 @@ will make you feel like you've ascended to heaven.
 トッピング：\\T[166]マロン３つ
 技量：１６０以上必要
 効果：特殊呼称出現率小ＵＰ
-> CONTEXT: Map125/events/12/pages/0/279/Dialogue
-> CONTEXT: Map125/events/12/pages/0/279/Dialogue
+> CONTEXT: None < UNUSED
 Ingredients: \\T[152] Normal Ingredients
 Toppings: \\T[166] 3 Chestnuts
 Skill: Requires 160 or higher
@@ -1561,8 +1536,7 @@ Effect: Special name appearance rate small increase
 サンタさんが客人に振る舞うとされるクリームシチュー。
 沢山の具に濃厚クリームで
 体の芯から温まる。
-> CONTEXT: Map125/events/12/pages/0/286/Dialogue
-> CONTEXT: Map125/events/12/pages/0/286/Dialogue
+> CONTEXT: Map125/events/12/pages/0/304/Dialogue
 Snow Country Cream Stew: 
 Said to be served by Santa Claus to guests. 
 Packed with plenty of ingredients and rich cream, 
@@ -1574,8 +1548,7 @@ it'll warm you from the inside out.
 トッピング：\\T[161]ハニー\\T[165]ペッパー\\T[166]マロン
 技量：３２０以上必要
 効果：全能力値中ＵＰ、最大VP中ＵＰ
-> CONTEXT: Map125/events/12/pages/0/290/Dialogue
-> CONTEXT: Map125/events/12/pages/0/290/Dialogue
+> CONTEXT: None < UNUSED
 Ingredients: \\T[154] Supreme Ingredient
 Toppings: \\T[161] Honey \\T[165] Pepper \\T[166] Chestnut
 Dexterity: Requires 320 or higher
@@ -1587,8 +1560,7 @@ Effect: Increase in all stats and maximum VP
 クリスマスに作られる気を模したロールケーキ。
 ふんわりスポンジと甘酸っぱい苺で
 クリスマスを飾る。
-> CONTEXT: Map125/events/12/pages/0/298/Dialogue
-> CONTEXT: Map125/events/12/pages/0/298/Dialogue
+> CONTEXT: Map125/events/12/pages/0/316/Dialogue
 Santa's Gift: 
 A roll cake made to resemble a Christmas treat. 
 It's decorated with fluffy sponge cake and 
@@ -1600,10 +1572,349 @@ sweet and tart strawberries for a festive Christmas feel.
 トッピング：\\T[161]ハニー\\T[163]苺２つ
 技量：３２０以上必要
 効果：全能力値中ＵＰ、魅力中ＵＰ
-> CONTEXT: Map125/events/12/pages/0/302/Dialogue
-> CONTEXT: Map125/events/12/pages/0/302/Dialogue
+> CONTEXT: None < UNUSED
 Ingredients: \\T[154] Supreme Ingredient
 Toppings: \\T[161] Honey \\T[163] Two Strawberries
 Dexterity: Requires 320 or higher
 Effect: Increase in all stats and increase in charm
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+外れにある洞窟に入れるようにしておこう。
+何があるか分からぬから、気をつけるのじゃぞ。
+> CONTEXT: Map125/events/2/pages/6/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+またハザマノセカイの住民がこちらに迷い込んだとは……
+外れにあったあの裂け目が影響してそうじゃの……。
+> CONTEXT: Map125/events/2/pages/10/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+またお主の力が必要なようじゃ、いつもすまんの。
+> CONTEXT: Map125/events/2/pages/10/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここがこんなに賑やかになったのも、
+お主のおかげじゃ、感謝するぞ
+> CONTEXT: Map125/events/2/pages/10/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ああ、あなたは……
+ジェノン様のところへ向かわれた……
+> CONTEXT: Map125/events/10/pages/7/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お願いします……っ！
+私と一緒にこの地に来てるであろう我が子と
+私の仲間達を探してきてほしいのです……っ！
+> CONTEXT: Map125/events/10/pages/7/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あの子もきっとこの近くに飛ばされたはず……
+ですからお願いです！お礼も用意します！
+なるべく早くお願いします！
+> CONTEXT: Map125/events/10/pages/7/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+本当なら私も探しに行きたいのですが
+この地は大変広く土地勘が無い私が向かうのは
+危険とサンタさんが……
+> CONTEXT: Map125/events/10/pages/7/16/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お願いします、あの子は私がそばにいないと……
+> CONTEXT: Map125/events/10/pages/7/20/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この度はありがとうございます！
+我が子と再会でき、仲間もみな無事に集うことができました！
+> CONTEXT: Map125/events/10/pages/8/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こちらはお礼の品物です。
+急にこの地へ飛ばされたもので
+大したものでは有りませんがお受け取りください。
+> CONTEXT: Map125/events/10/pages/8/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ところで、気が動転していたので気づきませんでしたが
+あの布団で眠っていらっしゃる方は
+もしかして、ジェノン様……？
+> CONTEXT: Map125/events/10/pages/8/20/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+いつも遭難者を保護していて……
+本当にご苦労さまですわ。
+> CONTEXT: Map125/events/11/pages/4/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ですが貴方様のお陰でここも以前より賑わいを見せて
+笑顔が耐えないのです、ふふっ\\H
+> CONTEXT: Map125/events/11/pages/4/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうそう、２連かまくらの魔女さんに
+以前差し上げた『至高の食材』を取り扱うよう
+お願いをしましたわ。
+> CONTEXT: Map125/events/11/pages/4/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私が仕入れていて、その仕入れもとても大変なので、
+安くないお代をいただくことになってしまいますが……
+もし買っていただけるのであればありがたいですわ。
+> CONTEXT: Map125/events/11/pages/4/15/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[151]粗末な食材
+トッピング
+\\T[161]ハニー２つ
+技量：５０以上　効果：魅力小ＵＰ
+> CONTEXT: Map125/events/12/pages/0/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[151]粗末な食材
+トッピング
+\\T[165]ペッパー２つ
+技量：５０以上　効果：忍耐力小ＵＰ
+> CONTEXT: Map125/events/12/pages/0/23/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[151]粗末な食材
+トッピング
+\\T[167]レモン２つ
+技量：５０以上　効果：素早さ小ＵＰ
+> CONTEXT: Map125/events/12/pages/0/34/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[152]普通の食材
+トッピング
+\\T[164]クルミ\\T[168]ナッツ２つ
+技量：１６０以上　効果：最大ＥＰ大ＵＰ
+> CONTEXT: Map125/events/12/pages/0/46/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[152]普通の食材
+トッピング
+\\T[167]レモン２つ
+技量：１６０以上　効果：素早さ大ＵＰ
+> CONTEXT: Map125/events/12/pages/0/64/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[152]普通の食材
+トッピング
+\\T[161]ハニー\\T[162]ジンジャー
+技量：１６０以上　効果：精力大ＵＰ
+> CONTEXT: Map125/events/12/pages/0/82/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[152]普通の食材
+トッピング
+\\T[166]マロン２つ\\T[169]根っこ
+技量：１６０以上　効果：状態異常耐性大ＵＰ
+> CONTEXT: Map125/events/12/pages/0/100/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[152]普通の食材
+トッピング
+\\T[165]ペッパー\\T[167]レモン
+技量：１６０以上　効果：精神力大ＵＰ
+> CONTEXT: Map125/events/12/pages/0/118/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[152]普通の食材
+トッピング
+\\T[161]ハニー\\T[167]レモン
+技量：２００以上　効果：器用さ大ＵＰ
+> CONTEXT: Map125/events/12/pages/0/136/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[152]
+トッピング
+\\T[162]ジンジャー２つ\\T[164]クルミ
+技量：２００以上　効果：最大ＶＰ大ＵＰ
+> CONTEXT: Map125/events/12/pages/0/154/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[153]最高の食材
+トッピング
+\\T[161]ハニー\\T[166]マロン\\T[167]レモン
+技量：３６０以上　効果：取得経験値量超大UP
+> CONTEXT: Map125/events/12/pages/0/172/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[153]最高の食材
+トッピング
+\\T[168]ナッツ\\T[169]根っこ２つ
+技量：３５０以上　効果：夢魔契約率超大UP
+> CONTEXT: Map125/events/12/pages/0/190/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+・シルバースパイス
+銀色の都市の定番料理のカレーライス。
+一皿に込められた辛味と旨味は
+口に運ぶ手が止まらなくなる。
+> CONTEXT: Map125/events/12/pages/0/204/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[153]最高の食材
+トッピング
+\\T[161]ハニー\\T[165]ペッパー\\T[211]ヘルペッパー
+技量：２８０以上　効果：全能力値中UP
+> CONTEXT: Map125/events/12/pages/0/208/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[152]普通の食材
+トッピング
+\\T[163]苺２つ
+技量：１６０以上　効果：処女出現率小UP
+> CONTEXT: Map125/events/12/pages/0/226/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[152]普通の食材
+トッピング
+\\T[161]ハニー２つ\\T[168]ナッツ
+技量：１８０以上　効果：取得Ｌｐｓ．量大UP
+> CONTEXT: Map125/events/12/pages/0/244/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[152]普通の食材
+トッピング
+\\T[163]苺\\T[164]クルミ\\T[169]根っこ
+技量：１８０以上　効果：アイテムドロップ率大UP
+> CONTEXT: Map125/events/12/pages/0/262/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[153]最高の食材
+トッピング
+\\T[161]ハニー\\T[167]レモン
+技量：１８０以上　効果：満腹度大回復、空腹率小ＤＯＷＮ
+> CONTEXT: Map125/events/12/pages/0/280/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[152]普通の食材
+トッピング
+\\T[166]マロン３つ
+技量：１６０以上　効果：特殊呼称出現率小ＵＰ
+> CONTEXT: Map125/events/12/pages/0/297/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[154]至高の食材
+トッピング
+\\T[161]ハニー\\T[165]ペッパー\\T[166]マロン
+技量：３２０以上　効果：全能力値中ＵＰ、最大VP中ＵＰ
+> CONTEXT: Map125/events/12/pages/0/308/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[154]至高の食材
+トッピング
+\\T[161]ハニー\\T[163]苺２つ
+技量：３２０以上　効果：全能力値中ＵＰ、魅力中ＵＰ
+> CONTEXT: Map125/events/12/pages/0/320/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+・祝祭のロースト
+お祝いごとの時に作られる鳥の丸焼き。
+香ばしい香りとあふれる肉汁は、
+食べる人の笑顔を引き出す。
+> CONTEXT: Map125/events/12/pages/0/333/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食材：\\T[154]至高の食材
+トッピング
+\\T[161]ハニー\\T[165]ペッパー\\T[167]レモン
+技量：３２０以上　効果：全能力値中ＵＰ、精力中ＵＰ
+> CONTEXT: Map125/events/12/pages/0/337/Dialogue < UNTRANSLATED
+
 > END STRING

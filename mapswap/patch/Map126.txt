@@ -265,6 +265,7 @@ Luckily, the Frozen Library isn't too far from here.
 幸せそうな顔をしながら寝息を立てている……
 > CONTEXT: Map126/events/31/pages/0/0/Dialogue
 > CONTEXT: Map126/events/31/pages/0/0/Dialogue
+> CONTEXT: Map126/events/30/pages/0/0/Dialogue
 She was breathing heavily in her sleep 
 with a happy look on her face...
 > END STRING
@@ -497,8 +498,7 @@ I look forward to your continued support.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 やぁ、なにか買っていくかい？
-> CONTEXT: Map126/events/41/pages/2/1/Dialogue
-> CONTEXT: Map126/events/41/pages/2/1/Dialogue
+> CONTEXT: Map126/events/41/pages/2/13/Dialogue
 \\name[\\v[2]]\\_
 Hey, would you like to buy something?
 > END STRING
@@ -841,6 +841,7 @@ I'm sure it's the result of something reckless being done to them...
 > CONTEXT: Map165/events/209/pages/0/0/InlineScript/1:22
 > CONTEXT: Map165/events/209/pages/0/27/InlineScript/1:22
 > CONTEXT: Map165/events/209/pages/0/27/InlineScript/1:22
+> CONTEXT: Map126/events/51/pages/2/0/InlineScript/1:22
 "Red Haired Fallen Angel"
 > END STRING
 
@@ -875,6 +876,7 @@ If you do, I'd like to stay too...\\H
 この里もかなり賑わいを見せてきましたよ。
 > CONTEXT: Map126/events/51/pages/1/1/Dialogue
 > CONTEXT: Map126/events/51/pages/1/1/Dialogue
+> CONTEXT: Map126/events/51/pages/2/1/Dialogue
 \\name[\\v[2]]\\_
 Oh, \\n[101],
 thanks to your rescue efforts,
@@ -1320,4 +1322,72 @@ Thank you for protecting me the other day.
 \\name[\\v[2]]\\_
 E-everyone here is so warm and welcoming...
 I plan to stay here...for a while...
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+最近ニウェウスって人がここに来たけど
+あの人アタシと同じタイプなのかしら……
+> CONTEXT: Map126/events/14/pages/2/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+時々アタシと同じように堕天使さんを堕としているんだけど
+堕天使さん、ホント幸せそうな顔しているわ\\H
+> CONTEXT: Map126/events/14/pages/2/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やぁ、ちょっと料理上手な天使さんから、
+キミに『至高の食材』を販売するように言われてね。
+ここで取り扱うようにしたよ、見ていってくれ。
+> CONTEXT: Map126/events/41/pages/2/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+最近はトイフェル様も良いけどニウェウス様も……\\H\\|
+\\|は！？今、私はしたないことを……。
+> CONTEXT: Map126/events/51/pages/2/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら、あの時はありがとね\\H
+ここは白いし温かいしいい場所じゃない\\H
+> CONTEXT: Map126/events/60/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それになんだか顔を赤くして近づいてくる天使さんがいるけど
+あの子もすごく可愛らしくて、ふふっ\\H
+毎回楽しませて貰っているわ\\H
+> CONTEXT: Map126/events/60/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あ、貴方は、
+あの時は有難うございました。
+ここすごく温かいですね。
+> CONTEXT: Map126/events/61/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+糸？張りませんよ流石に。
+私は裁縫が得意なので
+それでお手伝いさせていただこうかなと思っていますよ。
+> CONTEXT: Map126/events/61/pages/0/5/Dialogue < UNTRANSLATED
+
 > END STRING

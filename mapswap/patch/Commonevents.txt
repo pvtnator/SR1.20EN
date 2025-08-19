@@ -262,6 +262,8 @@ Get debugging items.
 > CONTEXT: Commonevents/12/42/Choice/2
 > CONTEXT: Commonevents/12/84/Choice/2
 > CONTEXT: Commonevents/12/84/Choice/2
+> CONTEXT: Map124/events/13/pages/2/5/Choice/2
+> CONTEXT: Map124/events/13/pages/2/5/Choice/2
 Check information
 > END STRING
 
@@ -1541,7 +1543,7 @@ Let's forget that it was all a dream.
 \\name[\\v[7]]\\_
 ここ、爛柯の里では他の夢世界とは
 時間の流れが違うらしい。
-> CONTEXT: Commonevents/13/666/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/13/675/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -1549,7 +1551,7 @@ Let's forget that it was all a dream.
 \\name[\\v[7]]\\_
 ためしに1週間滞在してみたが
 元の世界に帰ったら1日も経っていなかった・・・
-> CONTEXT: Commonevents/13/669/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/13/678/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -1557,7 +1559,7 @@ Let's forget that it was all a dream.
 \\name[\\v[7]]\\_
 他者と違う時間を生きることは
 良いことなのかどうかはわからない。
-> CONTEXT: Commonevents/13/672/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/13/681/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -1565,7 +1567,7 @@ Let's forget that it was all a dream.
 \\name[\\v[7]]\\_
 少なくとも私は、親しい人とは同じ時間を
 共有したいと切に思う。
-> CONTEXT: Commonevents/13/675/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/13/684/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -1965,13 +1967,13 @@ Let's forget that it was all a dream.
 
 > BEGIN STRING
 "map_name_mod_kakuzato"
-> CONTEXT: Commonevents/14/731/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/732/InlineScript/2:21 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "map_name_mod_heavencastle"
-> CONTEXT: Commonevents/14/740/InlineScript/2:21 < UNTRANSLATED
+> CONTEXT: Commonevents/14/747/InlineScript/2:21 < UNTRANSLATED
 
 > END STRING
 
@@ -8286,5 +8288,46 @@ It makes pregnancy possible, rune death.
 この場に淀んだ負の夢から、最強の悪夢と凶夢を生み出して
 やる！
 > CONTEXT: Commonevents/378/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+恩人の少年へ
+このポートは試験用だったが、ちゃんと機能してるようだね。
+> CONTEXT: Commonevents/13/570/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+安定した転送や、書き込める情報量の増加など、
+開発者いわく様々あるようだが、
+まぁ基本は君が普段使っているポートと同じだ。
+> CONTEXT: Commonevents/13/572/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+我々密教会はこの後もサンタさんにお世話になりながら
+色々と研究を続けていく予定だよ。
+> CONTEXT: Commonevents/13/575/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+君の力になるようなものも、ショップで取り扱う予定だから
+たまに来て、見ていってくれ。
+> CONTEXT: Commonevents/13/577/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_kakurega"
+> CONTEXT: Commonevents/14/736/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"map_name_mod_jenonbase"
+> CONTEXT: Commonevents/14/757/InlineScript/2:21 < UNTRANSLATED
 
 > END STRING

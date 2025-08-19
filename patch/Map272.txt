@@ -225,13 +225,12 @@ can work on strengthening without worry...
 
 > BEGIN STRING
 雪原の隠れ里に移動しますか？
-> CONTEXT: Map272/events/22/pages/0/4/Dialogue
+> CONTEXT: None < UNUSED
 Move to the hidden village in the snowy plains?
 > END STRING
 
 > BEGIN STRING
 "Freeze_Library"
-> CONTEXT: Map272/events/22/pages/0/7/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Map272/events/209/pages/0/7/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Map209/events/66/pages/0/8/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Map209/events/66/pages/1/8/InlineScript/1:27 < UNTRANSLATED
@@ -239,6 +238,8 @@ Move to the hidden village in the snowy plains?
 > CONTEXT: Map128/events/27/pages/1/1/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Commonevents/12/61/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Commonevents/12/106/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map272/events/22/pages/0/10/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map272/events/22/pages/1/10/InlineScript/1:27 < UNTRANSLATED
 
 > END STRING
 
@@ -725,4 +726,11 @@ I see... that's it...
 \\name[\\v[2]]\\_
 This is a visiting service.
 If you need anything, please buy it.
+> END STRING
+
+> BEGIN STRING
+サンタが住む隠れ里が映っている。
+> CONTEXT: Map272/events/22/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map272/events/22/pages/1/4/Dialogue < UNTRANSLATED
+
 > END STRING

@@ -374,20 +374,18 @@ Let me change them right now...\\H
 > BEGIN STRING
 \\name[\\v[2]]\\_
 …\\|…\\|…\\|…。
-> CONTEXT: Map124/events/30/pages/0/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map124/events/30/pages/0/3/Dialogue < UNTRANSLATED
 > CONTEXT: Map126/events/49/pages/0/1/Dialogue < UNTRANSLATED
 > CONTEXT: Map126/events/49/pages/0/1/Dialogue < UNTRANSLATED
 > CONTEXT: Map126/events/106/pages/0/1/Dialogue < UNTRANSLATED
 > CONTEXT: Map126/events/106/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map124/events/30/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あっ、お兄さん、あの時はありがとね\\H
-> CONTEXT: Map124/events/30/pages/0/8/Dialogue
-> CONTEXT: Map124/events/30/pages/0/8/Dialogue
+> CONTEXT: Map124/events/30/pages/0/6/Dialogue
 \\name[\\v[2]]\\_
 Oh, big guy, thank you for that time\\H
 > END STRING
@@ -397,8 +395,7 @@ Oh, big guy, thank you for that time\\H
 ……元気なさそうに見えるって？
 うん…、ここに保護される前にちょっとね……
 でももう大丈夫だから、心配しないで\\H
-> CONTEXT: Map124/events/30/pages/0/10/Dialogue
-> CONTEXT: Map124/events/30/pages/0/10/Dialogue
+> CONTEXT: Map124/events/30/pages/0/8/Dialogue
 \\name[\\v[2]]\\_
 ...You think I look a bit unwell?
 Yeah...before I was rescued here...
@@ -629,6 +626,8 @@ I often split firewood!
 > CONTEXT: Map165/events/252/pages/0/1/InlineScript/1:22
 > CONTEXT: Map165/events/253/pages/0/1/InlineScript/1:22
 > CONTEXT: Map165/events/253/pages/0/1/InlineScript/1:22
+> CONTEXT: Map124/events/47/pages/1/0/InlineScript/1:22
+> CONTEXT: Map124/events/47/pages/2/0/InlineScript/1:22
 "General Frost"
 > END STRING
 
@@ -636,8 +635,8 @@ I often split firewood!
 \\name[\\v[2]]\\_
 あっ、おにーさんこんにちわ。
 あの時は迷惑をかけたわね。
-> CONTEXT: Map124/events/47/pages/0/1/Dialogue
-> CONTEXT: Map124/events/47/pages/0/1/Dialogue
+> CONTEXT: Map124/events/47/pages/0/2/Dialogue
+> CONTEXT: Map124/events/47/pages/0/18/Dialogue
 \\name[\\v[2]]\\_
 Oh, hello, big guy.
 I'm sorry for the trouble I caused you back then.
@@ -648,10 +647,150 @@ I'm sorry for the trouble I caused you back then.
 お詫びしたいのだけども
 ちょっと準備が必要なのよね。
 しばらくしたらあたしに話しかけてほしいわ。
-> CONTEXT: Map124/events/47/pages/0/4/Dialogue
-> CONTEXT: Map124/events/47/pages/0/4/Dialogue
+> CONTEXT: Map124/events/47/pages/0/21/Dialogue
 \\name[\\v[2]]\\_
 I'm sorry, but
 I need to get ready.
 Please talk to me later.
+> END STRING
+
+> BEGIN STRING
+楽しそうに遊んでいる……
+> CONTEXT: Map124/events/18/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map124/events/19/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あ、\\n[101]さん、
+あの時はお世話になりました。
+> CONTEXT: Map124/events/29/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうだ、お礼を渡せてませんでしたね。
+つまらないものですがこちらを差し上げます。
+> CONTEXT: Map124/events/29/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+保護されてなんとか落ち着けてます。
+このまま暗殺稼業を廃業して、
+ここでまったり過ごすのも悪く有りませんわね。
+> CONTEXT: Map124/events/29/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+しかし、相変わらず私の尻尾に抱きつく人はいますけどね。
+私の尻尾ってそんなに良いものなんでしょうか……？
+> CONTEXT: Map124/events/29/pages/1/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この度は誠に有難うございました。
+おかげさまで娘ともども穏やかに過ごせています。
+> CONTEXT: Map124/events/31/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+しかしジェノン様もここにおられるとは……
+あの方は防衛戦で受けた攻撃で精神を蝕まれて、
+あの山奥に隔離されたと聞いておりましたが……
+> CONTEXT: Map124/events/31/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お詫びしたいのだけども
+ちょっと材料が足りないのよね……。
+> CONTEXT: Map124/events/47/pages/0/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+もし『雪割草』と『凍った古い杖』
+それと『青い水晶』を持ってたら
+あたしに譲ってくれないかしら
+> CONTEXT: Map124/events/47/pages/0/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+絶対おにーさんの役に立つ物を作れるから
+もし見かけたらよろしくね\\H
+> CONTEXT: Map124/events/47/pages/0/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+材料は集まったかしら？
+『雪割草』、『凍った古い杖』、『青い水晶』が材料よ。
+材料が集まったらよろしくね\\H
+> CONTEXT: Map124/events/47/pages/1/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map124/events/47/pages/1/14/Dialogue < UNTRANSLATED
+> CONTEXT: Map124/events/47/pages/1/24/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+どう？
+材料は集まったかしら？
+> CONTEXT: Map124/events/47/pages/1/31/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+えっと……
+うん！全部集まっているわね！
+じゃあちょっと待ってて！
+> CONTEXT: Map124/events/47/pages/1/36/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+はい、これ！
+あたしが持ってる杖！
+> CONTEXT: Map124/events/47/pages/1/43/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+性能もお墨付きだから、大事に使ってよね\\H
+> CONTEXT: Map124/events/47/pages/1/53/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら、材料が集まったら私にまた声をかけて頂戴。
+> CONTEXT: Map124/events/47/pages/1/58/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここは見たこと無いやつばっかりね。
+子分たちはあの怪しい奴らと遊んでいるし。
+あたしがしっかり見張ってないと行けないわね。
+> CONTEXT: Map124/events/47/pages/2/1/Dialogue < UNTRANSLATED
+
 > END STRING

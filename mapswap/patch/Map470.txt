@@ -1,7 +1,6 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 ← 丘の平原　　平原の丘 →
-> CONTEXT: Map470/events/2/pages/0/0/Dialogue
 > CONTEXT: Map237/events/2/pages/0/0/Dialogue
 > CONTEXT: Map237/events/2/pages/0/0/Dialogue
 ← Plains of Hills　　Hills of Plains →
@@ -11,7 +10,6 @@
 \\name[\\v[2]]\\_
 やぁこんにちは、ここは夢の別れ道。
 右に行っても左に行ってもそこは夢。
-> CONTEXT: Map470/events/3/pages/0/1/Dialogue
 > CONTEXT: Map237/events/3/pages/0/1/Dialogue
 > CONTEXT: Map237/events/3/pages/0/1/Dialogue
 \\name[\\v[2]]\\_
@@ -23,7 +21,6 @@ Whether you go right or left, it's a dream.
 \\name[\\v[2]]\\_
 けれど夢にも違いはある。
 左に行けばそこは丘の平原、右に行けば平原の丘。
-> CONTEXT: Map470/events/3/pages/0/4/Dialogue
 > CONTEXT: Map237/events/3/pages/0/4/Dialogue
 > CONTEXT: Map237/events/3/pages/0/4/Dialogue
 \\name[\\v[2]]\\_
@@ -35,7 +32,6 @@ if you go to the right, you'll find a Hills of Plains.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ん？　同じじゃないかって？
-> CONTEXT: Map470/events/3/pages/0/7/Dialogue
 > CONTEXT: Map237/events/3/pages/0/7/Dialogue
 > CONTEXT: Map237/events/3/pages/0/7/Dialogue
 \\name[\\v[2]]\\_
@@ -46,7 +42,6 @@ Huh? Isn't it the same?
 \\name[\\v[2]]\\_
 何を言ってるんだ君は！
 丘と平原が一緒なはずがないだろう？
-> CONTEXT: Map470/events/3/pages/0/9/Dialogue
 > CONTEXT: Map237/events/3/pages/0/9/Dialogue
 > CONTEXT: Map237/events/3/pages/0/9/Dialogue
 \\name[\\v[2]]\\_
@@ -58,10 +53,132 @@ Hills and plains can't be the same thing, right?
 \\name[\\v[2]]\\_
 いいかい？　丘には夢が詰まっていて
 平原は希望に溢れている。
-> CONTEXT: Map470/events/3/pages/0/12/Dialogue
 > CONTEXT: Map237/events/3/pages/0/12/Dialogue
 > CONTEXT: Map237/events/3/pages/0/12/Dialogue
 \\name[\\v[2]]\\_
 See? The hills are full of dreams 
 and the plains are full of hope.
+> END STRING
+
+> BEGIN STRING
+"異国の剣士"
+> CONTEXT: Map470/events/1/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map470/events/1/pages/1/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+むぅ、おかしなところに迷い込んでしまったようだ。
+どうも皆、いろんな場所から迷い込んでいるらしい。
+> CONTEXT: Map470/events/1/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+この屋敷の奥で、いったい何が行われているんだ？
+> CONTEXT: Map470/events/1/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+どうやら周囲を散策している間に終わってしまったようだな。
+……ところで、いったい何をやっていたんだ？
+> CONTEXT: Map470/events/1/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ただ今、フーシェン様の婿選びの試練をしております。
+精力や胆力に自身のある殿方はどうぞ……\\H
+> CONTEXT: Map470/events/3/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+フーシェン様の屋敷は、改築予定となります。
+なんでもご友人の金華猫様が、
+催し物をするとか……。
+> CONTEXT: Map470/events/3/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+くくくっ\\H　またエサがやってきた……\\H
+> CONTEXT: Map470/events/4/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……いえ、なんでも。
+さぁさぁ中へどうぞー\\H
+> CONTEXT: Map470/events/4/pages/0/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+どうぞお通りくださぁい\\H
+> CONTEXT: Map470/events/4/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"異国の旅人"
+> CONTEXT: Map470/events/5/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map470/events/5/pages/1/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+な、なんだここは？
+洞窟を探検していたと思ったら、急にこんな場所へ。
+> CONTEXT: Map470/events/5/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+何かに呼び寄せられた……感覚がする。
+> CONTEXT: Map470/events/5/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+呼び寄せられた感覚がしたんだが、
+どうやらお呼びじゃなかったらしい……。
+> CONTEXT: Map470/events/5/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+掃除飽きたわぁ……。
+誰も気にしないだろうし、サボっちゃおうかなぁ……。
+> CONTEXT: Map470/events/6/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+はぁ、はぁっ……！
+運動しないと太っちゃう！
+> CONTEXT: Map470/events/7/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ぜーはーぜーはー！
+なんか！　ランナーズハイを感じてる！
+> CONTEXT: Map470/events/7/pages/1/1/Dialogue < UNTRANSLATED
+
 > END STRING

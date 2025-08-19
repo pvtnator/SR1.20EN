@@ -88,7 +88,7 @@ A ring that allows you to kiss your allies.
 > BEGIN STRING
 インキュバスの極意/-20/-20
 > CONTEXT: Armors/11/name/
-Succubus Secret/-20/-20
+Incubus' Secret/-20/-20
 > END STRING
 
 > BEGIN STRING
@@ -1896,14 +1896,14 @@ World Rune/20/20
 
 > BEGIN STRING
 [◇] 味方全員の能力をランダムで2回高める魔法スキルを習得する。
-> CONTEXT: Armors/215/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/215/description/
+[◇] Learn a spell that randomly increases the abilities of all allies twice.
 > END STRING
 
 > BEGIN STRING
 [◇] 敵全員の能力をランダムで2回弱める魔法スキルを習得する。
-> CONTEXT: Armors/216/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/216/description/
+[◇] Learn a spell that randomly weakens the abilities of all enemies twice.
 > END STRING
 
 > BEGIN STRING
@@ -2304,14 +2304,14 @@ World Rune/20/20
 
 > BEGIN STRING
 【巨根】
-> CONTEXT: Armors/289/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/289/name/
+【Big Penis】
 > END STRING
 
 > BEGIN STRING
 [☆] ♂に対する攻撃に滅法強い素質を得る。
-> CONTEXT: Armors/289/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/289/description/
+[☆] Gain an extremely strong ♂ attack ability.
 > END STRING
 
 > BEGIN STRING
@@ -2328,14 +2328,14 @@ World Rune/20/20
 
 > BEGIN STRING
 【脚線美】
-> CONTEXT: Armors/291/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/291/name/
+【Beautiful Legs】
 > END STRING
 
 > BEGIN STRING
 [☆] 思わず見とれてしまう程の美脚の素質を得る。
-> CONTEXT: Armors/291/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/291/description/
+[☆] Get such beautiful legs that will make one stare in awe.
 > END STRING
 
 > BEGIN STRING
@@ -2352,26 +2352,26 @@ World Rune/20/20
 
 > BEGIN STRING
 【マシュマロバスト】
-> CONTEXT: Armors/293/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/293/name/
+【Marshmallow Bust】
 > END STRING
 
 > BEGIN STRING
 [☆] 触れるだけで蕩けてしまうほど心地の良い胸の素質を得る。
-> CONTEXT: Armors/293/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/293/description/
+[☆] Gain breasts so comfortable touching them melts you away.
 > END STRING
 
 > BEGIN STRING
 【桃尻】
-> CONTEXT: Armors/294/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/294/name/
+【Peachy butt】
 > END STRING
 
 > BEGIN STRING
 [☆] とてもハリがあって魅力的な美尻の素質を得る。
-> CONTEXT: Armors/294/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/294/description/
+[☆] Gain the potential for firm, attractive, beautiful buttocks.
 > END STRING
 
 > BEGIN STRING
@@ -2382,8 +2382,8 @@ World Rune/20/20
 
 > BEGIN STRING
 [☆] 苦痛を加えられても怯まない素質を得る。
-> CONTEXT: Armors/295/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/295/description/
+[☆] Gain the ability to not flinch even when hit.
 > END STRING
 
 > BEGIN STRING
@@ -3706,50 +3706,44 @@ A book that teaches the teachings of God. Acquire "Repent".
 
 > BEGIN STRING
 外典/-20/-15
-> CONTEXT: Armors/427/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/427/name/
+Apocrypha/-20/-15
 > END STRING
 
 > BEGIN STRING
 神の教えを説くにつき、排除された都合の悪い書物。欲情中の相手を追撃しやすくなる。
-> CONTEXT: Armors/427/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/427/description/
+Removed to preach the teachings of God. Easier to pursue someone in lust.
 > END STRING
 
 > BEGIN STRING
 ハーレムパンツ/-5/25
-> CONTEXT: Armors/428/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/428/name/
+Harem Pants/-5/25
 > END STRING
 
 > BEGIN STRING
 踊り子が身に着けるぶかぶかのボトムス。プライスオブハレムを習得する。
-> CONTEXT: Armors/428/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/428/description/
+Baggy bottoms worn by dancers. Learn Price of Harem.
 > END STRING
 
 > BEGIN STRING
 艶やかな振袖/80/15
-> CONTEXT: Armors/429/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/429/name/
+Gorgeous Furisode/80/15
 > END STRING
 
 > BEGIN STRING
 高級な和服。欲情、虚脱、暴走、麻痺に耐性。
-> CONTEXT: Armors/429/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/429/description/
+High-quality kimono. Resistant to lust, lethargy, berserk, and paralysis.
 > END STRING
 
 > BEGIN STRING
 黒装束/0/30
-> CONTEXT: Armors/430/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-忍に生きる者の着衣。欲情、暴走、虚脱、畏怖に耐性。
-> CONTEXT: None < UNUSED
-
+> CONTEXT: Armors/430/name/
+Black Costume/0/30
 > END STRING
 
 > BEGIN STRING
@@ -3766,38 +3760,38 @@ A crown set with pearls. Resists berserk, addiction, fear, and distraction.
 
 > BEGIN STRING
 バニーバンド/80
-> CONTEXT: Armors/432/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/432/name/
+Bunny Band/80
 > END STRING
 
 > BEGIN STRING
 ウサギの耳を模した装飾品。暴走、麻痺に耐性。
-> CONTEXT: Armors/432/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/432/description/
+Accessory resembling rabbit ears. Resistant to berserk and paralysis.
 > END STRING
 
 > BEGIN STRING
 努力の腕輪/10
-> CONTEXT: Armors/433/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/433/name/
+Effort Bracelet/10
 > END STRING
 
 > BEGIN STRING
 得られる修行ポイントが倍になる腕輪。
-> CONTEXT: Armors/433/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/433/description/
+A bracelet that doubles the experience points you earn.
 > END STRING
 
 > BEGIN STRING
 踊り子の服/70/-20
-> CONTEXT: Armors/434/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/434/name/
+Dancer's Clothes/70/-20
 > END STRING
 
 > BEGIN STRING
 踊り子が身に着けるヒラヒラの衣装。ベリーダンスを習得する。
-> CONTEXT: Armors/434/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/434/description/
+Dancers wear flowing costumes. Learn Belly Dance.
 > END STRING
 
 > BEGIN STRING
@@ -3880,26 +3874,20 @@ A tube that allows hole acceptance to be used.
 
 > BEGIN STRING
 アンジュセレクト/0/50
-> CONTEXT: Armors/442/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/442/name/
+Ange Select/0/50
 > END STRING
 
 > BEGIN STRING
 アンジュ謹製の状態異常シリーズ決定版。特に厄介な状態異常はこれを見て対処しよう。
-> CONTEXT: Armors/442/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/442/description/
+Definitive edition of Ange's series. Deal with troublesome status ailments.
 > END STRING
 
 > BEGIN STRING
 王者のベルト/60/30
-> CONTEXT: Armors/443/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-身につけると雄としての魅力が増す。肉体的、精神的にも強くなる。
-> CONTEXT: None < UNUSED
-
+> CONTEXT: Armors/443/name/
+Champion's Belt/60/30
 > END STRING
 
 > BEGIN STRING
@@ -4114,8 +4102,8 @@ Still-Rotting Gauntlets/40
 
 > BEGIN STRING
 長年の風化すら受け付けぬ籠手、装備すると戦闘開始時沈着状態になる。
-> CONTEXT: Armors/463/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/463/description/
+Withstood years of weathering. Start battle in calm state.
 > END STRING
 
 > BEGIN STRING
@@ -4338,116 +4326,116 @@ Ascension Rune
 
 > BEGIN STRING
 意識のルーンⅡ
-> CONTEXT: Armors/505/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/505/name/
+Consciousness Rune II
 > END STRING
 
 > BEGIN STRING
 [○] 恍惚耐性が大きく上がる。このルーンの効果は重複しない。
-> CONTEXT: Armors/505/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/505/description/
+[○] Greatly increases resistance to ecstasy. Does not stack.
 > END STRING
 
 > BEGIN STRING
 抑制のルーンⅡ
-> CONTEXT: Armors/506/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/506/name/
+Restraint Rune II
 > END STRING
 
 > BEGIN STRING
 [○] 欲情耐性が大きく上がる。このルーンの効果は重複しない。
-> CONTEXT: Armors/506/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/506/description/
+[○] Greatly increases lust resistance. Does not stack.
 > END STRING
 
 > BEGIN STRING
 理性のルーンⅡ
-> CONTEXT: Armors/507/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/507/name/
+Reason Rune II
 > END STRING
 
 > BEGIN STRING
 [○] 暴走、中毒耐性が大きく上がる。このルーンの効果は重複しない。
-> CONTEXT: Armors/507/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/507/description/
+[○] Greatly increases berserk and poison resistance. Does not stack.
 > END STRING
 
 > BEGIN STRING
 活気のルーンⅡ
-> CONTEXT: Armors/508/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/508/name/
+Vitality Rune II
 > END STRING
 
 > BEGIN STRING
 [○] 虚脱、骨抜き耐性が大きく上がる。このルーンの効果は重複しない。
-> CONTEXT: Armors/508/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/508/description/
+[○] Greatly increases lethargy and debone resistance. Does not stack.
 > END STRING
 
 > BEGIN STRING
 胆力のルーンⅡ
-> CONTEXT: Armors/509/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/509/name/
+Courage Rune II
 > END STRING
 
 > BEGIN STRING
 [○] 恐怖耐性が大きく上がる。このルーンの効果は重複しない。
-> CONTEXT: Armors/509/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/509/description/
+[○] Greatly increases fear resistance. Does not stack.
 > END STRING
 
 > BEGIN STRING
 柔軟のルーンⅡ
-> CONTEXT: Armors/510/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/510/name/
+Flexibility Rune II
 > END STRING
 
 > BEGIN STRING
 [○] 麻痺耐性が大きく上がる。このルーンの効果は重複しない。
-> CONTEXT: Armors/510/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/510/description/
+[○] Greatly increases resistance to paralysis. Does not stack.
 > END STRING
 
 > BEGIN STRING
 一心のルーンⅡ
-> CONTEXT: Armors/511/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/511/name/
+Isshin Rune II
 > END STRING
 
 > BEGIN STRING
 [○] 散漫耐性が大きく上がる。このルーンの効果は重複しない。
-> CONTEXT: Armors/511/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/511/description/
+[○] Greatly increases distraction resistance. Does not stack.
 > END STRING
 
 > BEGIN STRING
 意識のルーンⅢ
-> CONTEXT: Armors/512/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/512/name/
+Consciousness Rune III
 > END STRING
 
 > BEGIN STRING
 [○] 恍惚耐性をすごく上げる。このルーンの効果は重複しない。
-> CONTEXT: Armors/512/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/512/description/
+[○] Greatly increases resistance to ecstasy. Does not stack.
 > END STRING
 
 > BEGIN STRING
 抑制のルーンⅢ
-> CONTEXT: Armors/513/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/513/name/
+Restraint Rune III
 > END STRING
 
 > BEGIN STRING
 [○] 欲情耐性をすごく上げる。このルーンの効果は重複しない。
-> CONTEXT: Armors/513/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/513/description/
+[○] Greatly increases lust resistance. Does not stack.
 > END STRING
 
 > BEGIN STRING
 理性のルーンⅢ
-> CONTEXT: Armors/514/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/514/name/
+Reason Rune III
 > END STRING
 
 > BEGIN STRING
@@ -4458,8 +4446,8 @@ Ascension Rune
 
 > BEGIN STRING
 活気のルーンⅢ
-> CONTEXT: Armors/515/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/515/name/
+Vitality Rune III
 > END STRING
 
 > BEGIN STRING
@@ -4470,122 +4458,122 @@ Ascension Rune
 
 > BEGIN STRING
 胆力のルーンⅢ
-> CONTEXT: Armors/516/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/516/name/
+Courage Rune III
 > END STRING
 
 > BEGIN STRING
 [○] 恐怖耐性をすごく上げる。このルーンの効果は重複しない。
-> CONTEXT: Armors/516/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/516/description/
+[○] Greatly increases fear resistance. Does not stack.
 > END STRING
 
 > BEGIN STRING
 柔軟のルーンⅢ
-> CONTEXT: Armors/517/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/517/name/
+Flexibility Rune III
 > END STRING
 
 > BEGIN STRING
 [○] 麻痺耐性をすごく上げる。このルーンの効果は重複しない。
-> CONTEXT: Armors/517/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/517/description/
+[○] Greatly increases resistance to paralysis. Does not stack.
 > END STRING
 
 > BEGIN STRING
 一心のルーンⅢ
-> CONTEXT: Armors/518/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/518/name/
+Isshin Rune III
 > END STRING
 
 > BEGIN STRING
 [○] 散漫耐性をすごく上げる。このルーンの効果は重複しない。
-> CONTEXT: Armors/518/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/518/description/
+[○] Greatly increases distraction resistance. Does not stack.
 > END STRING
 
 > BEGIN STRING
 意識のルーンⅣ
-> CONTEXT: Armors/519/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/519/name/
+Consciousness Rune IV
 > END STRING
 
 > BEGIN STRING
 [○] 恍惚状態を無効にする。
-> CONTEXT: Armors/519/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/519/description/
+[○] Ecstasy immunity.
 > END STRING
 
 > BEGIN STRING
 抑制のルーンⅣ
-> CONTEXT: Armors/520/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/520/name/
+Restraint Rune IV
 > END STRING
 
 > BEGIN STRING
 [○] 欲情状態を無効にする。
-> CONTEXT: Armors/520/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/520/description/
+[○] Lust immunity.
 > END STRING
 
 > BEGIN STRING
 理性のルーンⅣ
-> CONTEXT: Armors/521/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/521/name/
+Reason Rune IV
 > END STRING
 
 > BEGIN STRING
 [○] 暴走、中毒状態を無効にする。
-> CONTEXT: Armors/521/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/521/description/
+[○] Berserk and poison immunity.
 > END STRING
 
 > BEGIN STRING
 活気のルーンⅣ
-> CONTEXT: Armors/522/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/522/name/
+Vitality Rune IV
 > END STRING
 
 > BEGIN STRING
 [○] 虚脱、骨抜き状態を無効にする。
-> CONTEXT: Armors/522/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/522/description/
+[○] Lethargy and debone immunity.
 > END STRING
 
 > BEGIN STRING
 胆力のルーンⅣ
-> CONTEXT: Armors/523/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/523/name/
+Courage Rune IV
 > END STRING
 
 > BEGIN STRING
 [○] 恐怖状態を無効にする。
-> CONTEXT: Armors/523/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/523/description/
+[○] Fear immunity.
 > END STRING
 
 > BEGIN STRING
 柔軟のルーンⅣ
-> CONTEXT: Armors/524/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/524/name/
+Flexibility Rune IV
 > END STRING
 
 > BEGIN STRING
 [○] 麻痺状態を無効にする。
-> CONTEXT: Armors/524/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/524/description/
+[○] Paralysis immunity.
 > END STRING
 
 > BEGIN STRING
 一心のルーンⅣ
-> CONTEXT: Armors/525/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/525/name/
+Isshin Rune IV
 > END STRING
 
 > BEGIN STRING
 [○] 散漫状態を無効にする。
-> CONTEXT: Armors/525/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/525/description/
+[○] Distraction immunity.
 > END STRING
 
 > BEGIN STRING
@@ -5447,20 +5435,20 @@ Trim Vines Hide
 
 > BEGIN STRING
 催眠振り子
-> CONTEXT: Armors/24/name/ < UNTRANSLATED
-
+> CONTEXT: Armors/24/name/
+Hypnotic Pendulum
 > END STRING
 
 > BEGIN STRING
 催眠状態になってしまう危険なコイン。
-> CONTEXT: Armors/24/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/24/description/
+A dangerous coin that puts you into a hypnotic state.
 > END STRING
 
 > BEGIN STRING
 忍に生きる者の着衣。欲情、暴走、虚脱、畏怖に耐性。口による攻めと受けを無効化する。
-> CONTEXT: Armors/430/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/430/description/
+Resistant to lust, berserk, lethargy, and fear. Nullify oral attacks.
 > END STRING
 
 > BEGIN STRING
@@ -5471,8 +5459,8 @@ Trim Vines Hide
 
 > BEGIN STRING
 身につけると魅力がぐぐーんと増す。肉体的、精神的にも強くなる。
-> CONTEXT: Armors/443/description/ < UNTRANSLATED
-
+> CONTEXT: Armors/443/description/
+Makes you more attractive and stronger both physically and mentally.
 > END STRING
 
 > BEGIN STRING
@@ -5568,5 +5556,125 @@ Trim Vines Hide
 > BEGIN STRING
 とても気持ちの良い道具。これを持つとマゾを追撃せずにはいられなくなる。
 > CONTEXT: Armors/686/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+冬将軍の杖/10/75
+> CONTEXT: Armors/667/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ジェネラルフロストが持つ杖。冬の如き冷気の力を持つ。コールドタッチを習得する。
+> CONTEXT: Armors/667/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ねこまたさま/50/30
+> CONTEXT: Armors/668/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+尻尾が２つに別れても猫は猫。睡眠耐性が低下する。
+> CONTEXT: Armors/668/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+阿吽の呼吸/40/30
+> CONTEXT: Armors/669/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+始まりと終わりを表す神聖なこまいぬさまたち。畏怖と虚脱の耐性が上昇する。
+> CONTEXT: Armors/669/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シルクの手袋/5
+> CONTEXT: Armors/670/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+手触りの良い絹で作られた手袋。器用さが上がる。
+> CONTEXT: Armors/670/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+従者の手袋/10/5
+> CONTEXT: Armors/671/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+付添人が身につける手袋。
+> CONTEXT: Armors/671/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+侍従長の手袋/40/5
+> CONTEXT: Armors/672/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+付き添う者の長は、佇まいも高貴なものである。
+> CONTEXT: Armors/672/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+秘められた煽情/70/60
+> CONTEXT: Armors/673/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+その感情は隠していてもいつか見られてしまう。攻撃した時に確率で自身が欲情状態になる。
+> CONTEXT: Armors/673/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+琥珀の指輪/40/5
+> CONTEXT: Armors/674/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+石言葉は友情や誠実。好感度と契約の珠が上がりやすくなる。
+> CONTEXT: Armors/674/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+藍玉の指輪/50/5
+> CONTEXT: Armors/675/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+石言葉は幸福、永遠の若さと愛。好感度と契約の珠が上がりやすくなる。
+> CONTEXT: Armors/675/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+紅玉の指輪/70/10
+> CONTEXT: Armors/676/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+石言葉は情熱、友愛、実り。好感度と契約の珠が上がりやすくなる他、戦闘終了後に稀に契約の珠が増える。
+> CONTEXT: Armors/676/description/ < UNTRANSLATED
 
 > END STRING

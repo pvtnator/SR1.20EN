@@ -1,18 +1,18 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 ・・・演奏が終わってから話しかけてくださいね。
-> CONTEXT: Map230/events/1/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/1/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/1/pages/0/0/Dialogue
+> CONTEXT: Map230/events/1/pages/0/0/Dialogue
+Please talk after the performance is over.
 > END STRING
 
 > BEGIN STRING
 "１０００２１番目の弟子"
-> CONTEXT: Map230/events/2/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map230/events/2/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map230/events/15/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map230/events/15/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map230/events/2/pages/0/0/InlineScript/1:22
+> CONTEXT: Map230/events/2/pages/0/0/InlineScript/1:22
+> CONTEXT: Map230/events/15/pages/0/0/InlineScript/1:22
+> CONTEXT: Map230/events/15/pages/0/0/InlineScript/1:22
+"The 100021st disciple"
 > END STRING
 
 > BEGIN STRING
@@ -20,60 +20,69 @@
 おス！ここで武者修行させてもらってます！
 何か食べていくっスか？
 超特急で作るっスよ！！
-> CONTEXT: Map230/events/2/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/2/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/15/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/15/pages/0/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/2/pages/0/2/Dialogue
+> CONTEXT: Map230/events/2/pages/0/2/Dialogue
+> CONTEXT: Map230/events/15/pages/0/2/Dialogue
+> CONTEXT: Map230/events/15/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+Hey! I'm training here!
+Would you like something to eat?
+I'll make it super quick!!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 おス！
 それではいってらっしゃいませっ！
-> CONTEXT: Map230/events/2/pages/0/12/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/2/pages/0/12/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/15/pages/0/12/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/15/pages/0/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/2/pages/0/12/Dialogue
+> CONTEXT: Map230/events/2/pages/0/12/Dialogue
+> CONTEXT: Map230/events/15/pages/0/12/Dialogue
+> CONTEXT: Map230/events/15/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+Hey there!
+Have a nice day!
 > END STRING
 
 > BEGIN STRING
 "ウィッチっぽい女性"
-> CONTEXT: Map230/events/3/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map230/events/3/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map230/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Map230/events/3/pages/0/0/InlineScript/1:22
+"Witch-like"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ここでは女性同士の闘いがメインみたいだね。
-> CONTEXT: Map230/events/3/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/3/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/3/pages/0/1/Dialogue
+> CONTEXT: Map230/events/3/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+It seems like the main focus here 
+is on women fighting each other.
 > END STRING
 
 > BEGIN STRING
 "サキュバスっぽい夢魔"
-> CONTEXT: Map230/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map230/events/4/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map230/events/4/pages/0/0/InlineScript/1:22
+> CONTEXT: Map230/events/4/pages/0/0/InlineScript/1:22
+"Succubus-like"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ペアコースはルームごとに対戦相手の特色があるみたい。
 誰と楽しむか考えるのも悪くないわね。
-> CONTEXT: Map230/events/4/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/4/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/4/pages/0/1/Dialogue
+> CONTEXT: Map230/events/4/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Each room in the Pair Course has its own unique opponent.
+It's not a bad idea to think about who you'll have fun with.
 > END STRING
 
 > BEGIN STRING
 "デーモンっぽい悪魔"
-> CONTEXT: Map230/events/5/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map230/events/5/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map230/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Map230/events/5/pages/0/0/InlineScript/1:22
+"Demon-like"
 > END STRING
 
 > BEGIN STRING
@@ -81,203 +90,299 @@
 ペアルームはタッグマッチでの勝負だ。
 おきにの奴同士で組むのもいいが
 組み合わせを活かして闘うのも戦術の一つだな。
-> CONTEXT: Map230/events/5/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/5/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/5/pages/0/1/Dialogue
+> CONTEXT: Map230/events/5/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+The Pair Room is a tag match.
+Pairing up your favorites is fun, but 
+using combinations to your advantage is also good.
 > END STRING
 
 > BEGIN STRING
 こちらではお口直し用の美味しいお水をお配りしております。
-> CONTEXT: Map230/events/6/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/6/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/16/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/16/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/6/pages/0/0/Dialogue
+> CONTEXT: Map230/events/6/pages/0/0/Dialogue
+> CONTEXT: Map230/events/16/pages/0/0/Dialogue
+> CONTEXT: Map230/events/16/pages/0/0/Dialogue
+Delicious water is provided to refresh palate.
 > END STRING
 
 > BEGIN STRING
 美味しいお水を飲みますか？
 
 ※食事効果がリセットされます
-> CONTEXT: Map230/events/6/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/6/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/16/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/16/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map230/events/6/pages/0/1/Dialogue
+> CONTEXT: Map230/events/6/pages/0/1/Dialogue
+> CONTEXT: Map230/events/16/pages/0/1/Dialogue
+> CONTEXT: Map230/events/16/pages/0/1/Dialogue
+Take some delicious water?
 
+*Food effects will be reset
 > END STRING
 
 > BEGIN STRING
 ん？
 参加できないのにどうしてここにいるかって？
 僕はただ、勝負に興じる人たちの話を聞くのが好きなのさ。
-> CONTEXT: Map230/events/7/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/7/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/7/pages/0/0/Dialogue
+> CONTEXT: Map230/events/7/pages/0/0/Dialogue
+Huh?
+Why am I here if I can't participate?
+I just love listening to people compete.
 > END STRING
 
 > BEGIN STRING
 それにここだと搾り取られる心配もないしね。
 曰く、「試合前に過度な興奮はするもんじゃない」とさ。
-> CONTEXT: Map230/events/7/pages/0/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/7/pages/0/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/7/pages/0/3/Dialogue
+> CONTEXT: Map230/events/7/pages/0/3/Dialogue
+Plus, I don't have to worry about getting drained here.
+They "shouldn't get too excited before a match."
 > END STRING
 
 > BEGIN STRING
 "メイドっぽい従者"
-> CONTEXT: Map230/events/8/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map230/events/8/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map230/events/8/pages/0/0/InlineScript/1:22
+> CONTEXT: Map230/events/8/pages/0/0/InlineScript/1:22
+"Maid-like"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふぅ・・・勝負には負けてしまいましたが
 色々吐き出せてすっきりしました。
-> CONTEXT: Map230/events/8/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/8/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/8/pages/0/1/Dialogue
+> CONTEXT: Map230/events/8/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Oof... I lost the battle,
+but I feel so much better now that I've gotten it all out.
 > END STRING
 
 > BEGIN STRING
 対戦相手を教えて欲しいとは言われたけど・・・
 それは流石にフェアじゃないわね。
-> CONTEXT: Map230/events/9/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/9/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/9/pages/0/0/Dialogue
+> CONTEXT: Map230/events/9/pages/0/0/Dialogue
+You asked me to tell you who your opponent is, but...
+That just doesn't seem fair.
 > END STRING
 
 > BEGIN STRING
 こういうのはじょーほーしゅーしゅーが大事と聞いたわ！
-> CONTEXT: Map230/events/10/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/10/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/10/pages/0/0/Dialogue
+> CONTEXT: Map230/events/10/pages/0/0/Dialogue
+In this case, it's important to be considerate!
 > END STRING
 
 > BEGIN STRING
 ねぇねぇお姉さん！
 あたい達の対戦相手のこと教えて！
-> CONTEXT: Map230/events/11/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/11/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/11/pages/0/0/Dialogue
+> CONTEXT: Map230/events/11/pages/0/0/Dialogue
+Hey hey big sis!
+Tell me about our opponents!
 > END STRING
 
 > BEGIN STRING
 "カグヅチ"
-> CONTEXT: Map230/events/14/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map230/events/14/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map230/events/14/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map230/events/14/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map179/events/28/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map179/events/28/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map179/events/28/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map179/events/28/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map230/events/14/pages/0/0/InlineScript/1:22
+> CONTEXT: Map230/events/14/pages/0/0/InlineScript/1:22
+> CONTEXT: Map230/events/14/pages/1/0/InlineScript/1:22
+> CONTEXT: Map230/events/14/pages/1/0/InlineScript/1:22
+> CONTEXT: Map179/events/28/pages/0/0/InlineScript/1:22
+> CONTEXT: Map179/events/28/pages/0/0/InlineScript/1:22
+> CONTEXT: Map179/events/28/pages/1/0/InlineScript/1:22
+> CONTEXT: Map179/events/28/pages/1/0/InlineScript/1:22
+"Kagutsuchi"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 うむ。ここはセクシバル・・・
 夢魔同士に性闘を重き置いた施設じゃ。
-> CONTEXT: Map230/events/14/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/14/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/14/pages/0/1/Dialogue
+> CONTEXT: Map230/events/14/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Yes. This is Sexival...
+A facility that emphasizes sexual combat between succubi.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 勝ち抜くとセクシバルバッチを進呈し
 これを用いて例のフルーツとの交換が可能じゃ。
-> CONTEXT: Map230/events/14/pages/0/4/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/14/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/14/pages/0/4/Dialogue
+> CONTEXT: Map230/events/14/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+If you win, you'll receive a Sexival Badge,
+which you can exchange for fruits.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 褒美も潤沢に揃っておる。
 お主たちの参加を待っておるぞ。
-> CONTEXT: Map230/events/14/pages/0/7/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/14/pages/0/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/14/pages/0/7/Dialogue
+> CONTEXT: Map230/events/14/pages/0/7/Dialogue
+\\name[\\v[2]]\\_
+There are plenty of rewards available.
+We look forward to your participation.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 うむ、\\n[101]。
 不思議なフルーツを交換していくかえ？
-> CONTEXT: Map230/events/14/pages/1/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/14/pages/1/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map179/events/28/pages/1/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map179/events/28/pages/1/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/14/pages/1/1/Dialogue
+> CONTEXT: Map230/events/14/pages/1/1/Dialogue
+> CONTEXT: Map179/events/28/pages/1/1/Dialogue
+> CONTEXT: Map179/events/28/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+Hmm, \\n[101].
+Want to trade for some mysterious fruit?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 うむ、また来るがよいぞ。
-> CONTEXT: Map230/events/14/pages/1/10/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/14/pages/1/10/Dialogue < UNTRANSLATED
-> CONTEXT: Map179/events/28/pages/1/10/Dialogue < UNTRANSLATED
-> CONTEXT: Map179/events/28/pages/1/10/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/14/pages/1/10/Dialogue
+> CONTEXT: Map230/events/14/pages/1/10/Dialogue
+> CONTEXT: Map179/events/28/pages/1/10/Dialogue
+> CONTEXT: Map179/events/28/pages/1/10/Dialogue
+\\name[\\v[2]]\\_
+Yes, please come again.
 > END STRING
 
 > BEGIN STRING
 "受付嬢"
-> CONTEXT: Map230/events/18/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map230/events/18/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map231/events/7/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map231/events/7/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map230/events/18/pages/0/0/InlineScript/1:22
+> CONTEXT: Map230/events/18/pages/0/0/InlineScript/1:22
+> CONTEXT: Map231/events/7/pages/0/0/InlineScript/1:22
+> CONTEXT: Map231/events/7/pages/0/0/InlineScript/1:22
+"Receptionist"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 申し訳ございません。
 これより先は人間の男性の入場をお断りしております。
-> CONTEXT: Map230/events/18/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/18/pages/0/2/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/18/pages/0/2/Dialogue
+> CONTEXT: Map230/events/18/pages/0/2/Dialogue
+\\name[\\v[2]]\\_
+Sorry.
+Human males are not allowed beyond this point.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 セクシバルに参加されますか？
-> CONTEXT: Map230/events/18/pages/0/10/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/18/pages/0/10/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/18/pages/0/10/Dialogue
+> CONTEXT: Map230/events/18/pages/0/10/Dialogue
+\\name[\\v[2]]\\_
+Will you be participating in the Sexival?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 かしこまりました。
 どうぞこちらへ・・・
-> CONTEXT: Map230/events/18/pages/0/14/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/18/pages/0/14/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/18/pages/0/14/Dialogue
+> CONTEXT: Map230/events/18/pages/0/14/Dialogue
+> CONTEXT: Map230/events/22/pages/1/7/Dialogue
+\\name[\\v[2]]\\_
+Understood.
+Please come this way...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 申し訳ございません。
 ご入場あたっては２名様以下となっております。
-> CONTEXT: Map230/events/18/pages/0/32/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/18/pages/0/32/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/18/pages/0/32/Dialogue
+> CONTEXT: Map230/events/18/pages/0/32/Dialogue
+> CONTEXT: Map230/events/22/pages/1/39/Dialogue
+\\name[\\v[2]]\\_
+Sorry.
+Entry is limited to 2 people or less.
 > END STRING
 
 > BEGIN STRING
 遊技場入口に移動しますか？
-> CONTEXT: Map230/events/19/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/19/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map230/events/19/pages/0/0/Dialogue
+> CONTEXT: Map230/events/19/pages/0/0/Dialogue
+Go to the entrance of the playground?
 > END STRING
 
 > BEGIN STRING
 申し訳ございません。
 これより先は改修作業のため立ち入りをお断りしております。
-> CONTEXT: Map230/events/22/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map230/events/22/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map230/events/22/pages/0/0/Dialogue
+> CONTEXT: Map230/events/22/pages/0/0/Dialogue
+> CONTEXT: Map230/events/22/pages/3/0/Dialogue
+We apologize.
+Entry beyond this point is prohibited 
+due to renovation work.
+> END STRING
 
+> BEGIN STRING
+"案内係"
+> CONTEXT: Map230/events/22/pages/1/0/InlineScript/1:22
+> CONTEXT: Map230/events/22/pages/2/0/InlineScript/1:22
+"Guide"
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢魔の訓練場に参加されますか？
+> CONTEXT: Map230/events/22/pages/1/3/Dialogue
+\\name[\\v[2]]\\_
+Would you like to join the Succubus Training Grounds?
+> END STRING
+
+> BEGIN STRING
+夢魔の訓練場？
+> CONTEXT: Map230/events/22/pages/1/5/Choice/2
+Succubus Training Grounds?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+夢魔の訓練場は娼館を模した特設ルームで
+性技を競い合う場となっております。
+> CONTEXT: Map230/events/22/pages/1/25/Dialogue
+\\name[\\v[2]]\\_
+The Succubus Training Grounds are specially designed 
+rooms modeled after brothels, 
+where participants compete in sexual prowess.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+全部で３回闘って頂きますが、
+一戦ごとＥＰの回復を行わせて頂きます。
+> CONTEXT: Map230/events/22/pages/1/28/Dialogue
+\\name[\\v[2]]\\_
+You will fight a total of 3 times,
+and your EP will be restored after each battle.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+参加される方の人数は問いませんが、
+人数によってお相手の力も強化されます。
+> CONTEXT: Map230/events/22/pages/1/31/Dialogue
+\\name[\\v[2]]\\_
+The number of participants is not important, 
+but the more people there are, 
+the stronger your opponents will be.
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+先日の戦いぶり、お見事でございました。
+こちらはカグヅチ様からです。
+> CONTEXT: Map230/events/22/pages/2/1/Dialogue
+\\name[\\v[2]]\\_
+Your performance in the battle the other day was impressive.
+This is from Miss Kaguzuchi.
 > END STRING

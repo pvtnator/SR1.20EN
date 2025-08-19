@@ -925,38 +925,38 @@ A mysterious lump that can store energy. Can be replenished if VP is full.
 
 > BEGIN STRING
 セクシアムコイン
-> CONTEXT: Items/104/name/ < UNTRANSLATED
-
+> CONTEXT: Items/104/name/
+Sexium Coin
 > END STRING
 
 > BEGIN STRING
 セクシアムを勝ち抜いた勝者の証。集めるといいことあるかも？
-> CONTEXT: Items/104/description/ < UNTRANSLATED
-
+> CONTEXT: Items/104/description/
+Proof of victory of Sexium. Collect all and get lucky?
 > END STRING
 
 > BEGIN STRING
 セクシアムメダル
-> CONTEXT: Items/105/name/ < UNTRANSLATED
-
+> CONTEXT: Items/105/name/
+Sexium Medal
 > END STRING
 
 > BEGIN STRING
 セクシアムを勝ち抜いた強者の証。これを売るなんてとんでもない。
-> CONTEXT: Items/105/description/ < UNTRANSLATED
-
+> CONTEXT: Items/105/description/
+Proof of surviving Sexium. Selling it would be ridiculous.
 > END STRING
 
 > BEGIN STRING
 セクシバルバッチ
-> CONTEXT: Items/106/name/ < UNTRANSLATED
-
+> CONTEXT: Items/106/name/
+Sexival Batch
 > END STRING
 
 > BEGIN STRING
 セクシバルを勝ち抜いた勝者の証。バッチだけど交換できる。
-> CONTEXT: Items/106/description/ < UNTRANSLATED
-
+> CONTEXT: Items/106/description/
+Proof of victory for surviving Sexival. It's a badge, but can be exchanged.
 > END STRING
 
 > BEGIN STRING
@@ -2666,14 +2666,14 @@ A forbidden grimoire that was sealed deep within the Forbidden Library.
 
 > BEGIN STRING
 天光の大宝玉
-> CONTEXT: Items/392/name/ < UNTRANSLATED
-
+> CONTEXT: Items/392/name/
+Heavenly Light Jewel
 > END STRING
 
 > BEGIN STRING
 とある存在の力を弱めるための宝玉、ヘメテルからの寵愛の証。
-> CONTEXT: Items/392/description/ < UNTRANSLATED
-
+> CONTEXT: Items/392/description/
+Used to weaken a certain power, a symbol of Hemeter's favor.
 > END STRING
 
 > BEGIN STRING
@@ -2708,8 +2708,8 @@ CorruptRegalia
 
 > BEGIN STRING
 禁書庫の奥に封印されていた砕かれた角、詳細をシスターに聞いてみよう。
-> CONTEXT: Items/395/description/ < UNTRANSLATED
-
+> CONTEXT: Items/395/description/
+Ask Sister for about the shattered horn deep in the Forbidden Library.
 > END STRING
 
 > BEGIN STRING
@@ -3323,5 +3323,17 @@ Are you ready? うん！
 > BEGIN STRING
 するどくて冷たい氷の柱。2-5回連続で落ちてくるというウワサ。
 > CONTEXT: Items/272/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+慧眼のルーン石
+> CONTEXT: Items/387/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+無量のルーンが刻める不思議な石板。魔女達の叡智の到達点。 刻印できるルーンの数が増加する。
+> CONTEXT: Items/387/description/ < UNTRANSLATED
 
 > END STRING

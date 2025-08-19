@@ -1,7 +1,6 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "にわとり"
-> CONTEXT: Map496/events/20/pages/0/5/InlineScript/1:22
 > CONTEXT: Map243/events/20/pages/0/5/InlineScript/1:22
 > CONTEXT: Map243/events/20/pages/0/5/InlineScript/1:22
 "Chicken"
@@ -11,7 +10,6 @@
 \\name[\\v[2]]\\_
 あぁ、少年よ、丁度いいところに来てくれた。
 どうか私の頼みを聞いてくれないだろうか。
-> CONTEXT: Map496/events/20/pages/0/8/Dialogue
 > CONTEXT: Map243/events/20/pages/0/8/Dialogue
 > CONTEXT: Map243/events/20/pages/0/8/Dialogue
 \\name[\\v[2]]\\_
@@ -23,7 +21,6 @@ I hope you'll listen to my request.
 \\name[\\v[2]]\\_
 見ての通り私は大工でね。
 この川に架ける橋を作っているんだ。
-> CONTEXT: Map496/events/20/pages/0/12/Dialogue
 > CONTEXT: Map243/events/20/pages/0/12/Dialogue
 > CONTEXT: Map243/events/20/pages/0/12/Dialogue
 \\name[\\v[2]]\\_
@@ -35,7 +32,6 @@ I'm building a bridge over this river.
 \\name[\\v[2]]\\_
 だが大切な食料を平原の丘にいる夢魔に
 盗まれてしまったのだ！
-> CONTEXT: Map496/events/20/pages/0/15/Dialogue
 > CONTEXT: Map243/events/20/pages/0/15/Dialogue
 > CONTEXT: Map243/events/20/pages/0/15/Dialogue
 \\name[\\v[2]]\\_
@@ -48,7 +44,6 @@ in the Hills of Plains!
 このままでは力が出ず、橋を架けることもできない。
 少年よ、どうか平原の丘で
 "美味しいごはん"を探してきてくれないだろうか？
-> CONTEXT: Map496/events/20/pages/0/18/Dialogue
 > CONTEXT: Map243/events/20/pages/0/18/Dialogue
 > CONTEXT: Map243/events/20/pages/0/18/Dialogue
 \\name[\\v[2]]\\_
@@ -60,7 +55,6 @@ to build the bridge. Boy, could you please find some
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ！！
-> CONTEXT: Map496/events/20/pages/0/25/Dialogue < UNTRANSLATED
 > CONTEXT: Map243/events/20/pages/0/25/Dialogue < UNTRANSLATED
 > CONTEXT: Map243/events/20/pages/0/25/Dialogue < UNTRANSLATED
 
@@ -70,7 +64,6 @@ to build the bridge. Boy, could you please find some
 \\name[\\v[2]]\\_
 そ、それは私の美味しいごはん！
 いただきます！
-> CONTEXT: Map496/events/20/pages/0/27/Dialogue
 > CONTEXT: Map243/events/20/pages/0/27/Dialogue
 > CONTEXT: Map243/events/20/pages/0/27/Dialogue
 \\name[\\v[2]]\\_
@@ -80,7 +73,6 @@ Thank you for the meal!
 
 > BEGIN STRING
 美味しいごはんを奪い取られた。
-> CONTEXT: Map496/events/20/pages/0/30/Dialogue
 > CONTEXT: Map243/events/20/pages/0/30/Dialogue
 > CONTEXT: Map243/events/20/pages/0/30/Dialogue
 Delicious Food was taken.
@@ -89,7 +81,6 @@ Delicious Food was taken.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 バクッ…ムシャムシャ……ガツガツ……ゴクン。
-> CONTEXT: Map496/events/20/pages/0/32/Dialogue
 > CONTEXT: Map243/events/20/pages/0/32/Dialogue
 > CONTEXT: Map243/events/20/pages/0/32/Dialogue
 \\name[\\v[2]]\\_
@@ -100,7 +91,6 @@ Crunch...chomp...gulp...gulp.
 \\name[\\v[2]]\\_
 いやーごちそうさま！
 これで橋を作ることができるよ！
-> CONTEXT: Map496/events/20/pages/0/34/Dialogue
 > CONTEXT: Map243/events/20/pages/0/34/Dialogue
 > CONTEXT: Map243/events/20/pages/0/34/Dialogue
 \\name[\\v[2]]\\_
@@ -112,7 +102,6 @@ Now I can build a bridge!
 \\name[\\v[2]]\\_
 君にはお礼をしなくては……
 よし、君には私特製の食材をプレゼントしよう！
-> CONTEXT: Map496/events/20/pages/0/37/Dialogue
 > CONTEXT: Map243/events/20/pages/0/37/Dialogue
 > CONTEXT: Map243/events/20/pages/0/37/Dialogue
 \\name[\\v[2]]\\_
@@ -125,7 +114,6 @@ as a gift!
 \\name[\\v[2]]\\_
 元々私には食べることができないものだったからね。
 君が持っていてくれるほうがいいだろう。
-> CONTEXT: Map496/events/20/pages/0/40/Dialogue
 > CONTEXT: Map243/events/20/pages/0/40/Dialogue
 > CONTEXT: Map243/events/20/pages/0/40/Dialogue
 \\name[\\v[2]]\\_
@@ -137,10 +125,17 @@ It would be better if you had it.
 \\name[\\v[2]]\\_
 それではさらばだ少年！
 コケッコッコー！
-> CONTEXT: Map496/events/20/pages/0/44/Dialogue
 > CONTEXT: Map243/events/20/pages/0/44/Dialogue
 > CONTEXT: Map243/events/20/pages/0/44/Dialogue
 \\name[\\v[2]]\\_
 Well then, farewell, boy!
 Cock-a-doodle-doo!
+> END STRING
+
+> BEGIN STRING
+Snow_in_the_Forest
+> CONTEXT: Map496/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map495/bgm/name/ < UNTRANSLATED
+> CONTEXT: Map494/bgm/name/ < UNTRANSLATED
+
 > END STRING

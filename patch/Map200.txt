@@ -1,0 +1,46 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+先に近くの者に話を聞くべきだ……。
+> CONTEXT: Map200/events/54/pages/0/0/Dialogue < UNTRANSLATED
+> CONTEXT: Map200/events/55/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"Different_Space"
+> CONTEXT: Map200/events/54/pages/1/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map200/events/55/pages/1/1/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Map064/events/23/pages/0/2/InlineScript/1:27 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"調査員"
+> CONTEXT: Map200/events/57/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あっ……！　\\n[101]さん！
+よくぞ来てくださいました！
+> CONTEXT: Map200/events/57/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+実はこの先なのですが、新たに道ができており、
+何やら別世界と繋がっているようなのです……。
+> CONTEXT: Map200/events/57/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+調査をお願いできる有力者なんて、
+淫魔の脅威を退けたあなたしかいなく……。
+この先がどうなっているか調査を頼みたいのです。
+> CONTEXT: Map200/events/57/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
