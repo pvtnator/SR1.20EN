@@ -49972,7 +49972,7 @@ The tip of #{target.name}'s penis \nhas been taken into #{active.name}'s mouth!
 > BEGIN STRING
 は未知の快感に耐え切れない！！\w\q
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+ can't stand the strange pleasure!!​w​q
 > END STRING
 
 > BEGIN STRING
@@ -55754,13 +55754,13 @@ Furthermore, #{level_drain_text}​w​q​
 > BEGIN STRING
 #{target.name}のペニスは萎えてしまった！\w\q
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
+#{target.name}'s penis has gone flaccid!​w​q
 > END STRING
 
 > BEGIN STRING
 #{target.name}のペニスが少し萎えてしまった！\w\q
 > CONTEXT: O_MOD_SR_Util_spam.rb
-#{target.name}'s penis has gone a little flaccid! ​w​q
+#{target.name}'s penis has gone a little flaccid!​w​q
 > END STRING
 
 > BEGIN STRING
@@ -56409,7 +56409,7 @@ You gave #{$msg.t_enemy.name} #{base_dmg.to_s} pleasure!
 > BEGIN STRING
 #{$game_actors[101].name}は未知の快感に耐え切れない！！\w\q
 > CONTEXT: O_MOD_Talk_Sys_Talk.rb
-
+#{$game_actors[101].name} can't stand the strange pleasure!!​w​q
 > END STRING
 
 > BEGIN STRING
