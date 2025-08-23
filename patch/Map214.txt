@@ -589,9 +589,10 @@ Please find a solution as soon as possible, \\n[101].
 > BEGIN STRING
 夢干渉をする
 > CONTEXT: Map214/events/1/pages/4/38/Choice/1
-> CONTEXT: Map214/events/1/pages/4/43/Label
-> CONTEXT: Map214/events/1/pages/4/80/Label
 Dream interference
+> CONTEXT: Map214/events/1/pages/4/43/Label < UNTRANSLATED
+> CONTEXT: Map214/events/1/pages/4/80/Label < UNTRANSLATED
+
 > END STRING
 
 > BEGIN STRING
@@ -864,29 +865,32 @@ a little more tolerant of dreams.
 
 > BEGIN STRING
 "秩序の魔女の弟子"
-> CONTEXT: Map214/events/1/pages/7/2/InlineScript/9:26 < UNTRANSLATED
-
+> CONTEXT: Map214/events/1/pages/7/2/InlineScript/9:26
+"Witch of Order Apprentice"
 > END STRING
 
 > BEGIN STRING
 落ち着いたら
 \\v[2]様とゆっくり過ごそう。
-> CONTEXT: Map214/events/1/pages/7/17/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map214/events/1/pages/7/17/Dialogue
+Once things have calmed down,
+Spend some time relaxing with \\v[2].
 > END STRING
 
 > BEGIN STRING
 少し時間が出来た。
 \\v[2]とゆっくり過ごしますか？
-> CONTEXT: Map214/events/1/pages/7/22/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map214/events/1/pages/7/22/Dialogue
+There's some free time.
+Spend some time relaxing with \\v[2]?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 おや\\n[101]、どうかしましたか？
-> CONTEXT: Map214/events/1/pages/7/50/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map214/events/1/pages/7/50/Dialogue
+\\name[\\v[2]]\\_
+Oh \\n[101], what is it?
 > END STRING
 
 > BEGIN STRING
@@ -894,38 +898,47 @@ a little more tolerant of dreams.
 ・・・\\|そうですね。
 こちらではあなたと二人で
 ゆっくり過ごす時間が取れませんでした。
-> CONTEXT: Map214/events/1/pages/7/53/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map214/events/1/pages/7/53/Dialogue
+\\name[\\v[2]]\\_
+...\\|That's right.
+I didn't have time to spend time with you here.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふ、改まると少し気恥ずかしいですね。
-> CONTEXT: Map214/events/1/pages/7/58/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map214/events/1/pages/7/58/Dialogue
+\\name[\\v[2]]\\_
+Hehe, it's a little embarrassing to be so formal.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふむ\\|・・・それでは一つ講義をしましょうか。
-> CONTEXT: Map214/events/1/pages/7/64/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map214/events/1/pages/7/64/Dialogue
+\\name[\\v[2]]\\_
+Hmm\\|...So let me give you a lecture.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 秩序とは正しき道を保つこと。\\|
 正しき道とは理性と愛、両方が備わっているもの。
-> CONTEXT: Map214/events/1/pages/7/67/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map214/events/1/pages/7/67/Dialogue
+\\name[\\v[2]]\\_
+Order is maintaining the right path. \\|
+The right path is one that contains 
+both reason and love.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 これはあなたの師になってから説き続けましたが
 きちんと教導出来ているか不安でした。
-> CONTEXT: Map214/events/1/pages/7/71/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map214/events/1/pages/7/71/Dialogue
+\\name[\\v[2]]\\_
+I've been preaching this since I became your teacher,
+but I was worried if I was teaching you properly.
 > END STRING
 
 > BEGIN STRING
@@ -933,15 +946,19 @@ a little more tolerant of dreams.
 ・・・意外でしたか？
 私自身、師として弟子に苦悩を見せるべきではないと
 自戒していましたからね。
-> CONTEXT: Map214/events/1/pages/7/75/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map214/events/1/pages/7/75/Dialogue
+\\name[\\v[2]]\\_
+...Surprised?
+As a teacher, I have always warned myself 
+not to show my students any pain.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 しかし、今だから言えることでもあるのです。
-> CONTEXT: Map214/events/1/pages/7/80/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map214/events/1/pages/7/80/Dialogue
+\\name[\\v[2]]\\_
+But there's something I can say now.
 > END STRING
 
 > BEGIN STRING
@@ -949,16 +966,21 @@ a little more tolerant of dreams.
 銀色の都市、明けない夜の街、異なる世界での冒険・・・。
 \\|レンディカの一件の後も
 あなたは自分が正しいと思った道を進んでいる。
-> CONTEXT: Map214/events/1/pages/7/83/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map214/events/1/pages/7/83/Dialogue
+\\name[\\v[2]]\\_
+Silver City, Evernight City, adventures in different worlds...
+\\|Even after the incident with Rendica,
+you continue to follow the path you believe is right.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 何をすべきか理性で判断し
 愛し愛される存在達と道を違うことなく歩んでいる。
-> CONTEXT: Map214/events/1/pages/7/88/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map214/events/1/pages/7/88/Dialogue
+\\name[\\v[2]]\\_
+You use rational judgment to decide what to do
+and walk the same path as those who love and are loved.
 > END STRING
 
 > BEGIN STRING
@@ -966,24 +988,31 @@ a little more tolerant of dreams.
 師としてこれほど誇らしいことはありません。
 \\n[101]、
 あなたは間違いなく私の自慢の弟子ですよ。
-> CONTEXT: Map214/events/1/pages/7/92/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map214/events/1/pages/7/92/Dialogue
+\\name[\\v[2]]\\_
+As a teacher, I couldn't be more proud.
+\\n[101],
+You are without a doubt my proudest student.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今のあなたなら独り立ちしても・・・\\|
 ――え？
-> CONTEXT: Map214/events/1/pages/7/97/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map214/events/1/pages/7/97/Dialogue
+\\name[\\v[2]]\\_
+You could stand on your own now...\\|
+--Huh?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 『秩序の魔女の弟子』である\\n[101]・・・？
 ・・・\\|ええ、あなたがいいのなら構いません。
-> CONTEXT: Map214/events/1/pages/7/101/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map214/events/1/pages/7/101/Dialogue
+\\name[\\v[2]]\\_
+"Witch of Order Apprentice" \\n[101]...?
+...\\|Yes, if that's what you want, I don't mind.
 > END STRING
 
 > BEGIN STRING
@@ -991,6 +1020,9 @@ a little more tolerant of dreams.
 あなたがその名を名乗るならば、
 私は『秩序の魔女』として
 それにふさわしくあるように邁進するのみですから。
-> CONTEXT: Map214/events/1/pages/7/105/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map214/events/1/pages/7/105/Dialogue
+\\name[\\v[2]]\\_
+If you take that title,
+I will do my best to be worthy of it 
+as the "Witch of Order."
 > END STRING
