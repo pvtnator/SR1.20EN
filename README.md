@@ -10,14 +10,21 @@ If you want translations to be improved, look at the help section below.
 Entirely manually translated/edited.
 
 ## Installation Instructions
-You can find the latest release version from the releases page (usually on the right side).  
+You can find the latest release version from the [releases](https://github.com/pvtnator/SR1.20EN/releases) page.  
 The releases are provided as .atc files **or .zip files that include built-in AttachéCase4 decryption**, which should be easier for most.  
 
 But if you get the .atc, [AttachéCase4](https://hibara.org/software/attachecase/) is required to decrypt it.
 Make sure to turn on [drag and drop password](https://hibara.org/sof*ware/attachecase/help/settings/#settings-password-file),  
 then drag and drop the .atc file to AttachéCase4 window and drag and drop the icon.ico from the game folder to the password field.  
 This is to avoid providing game data files directly, and to be consistent with the rest of the game's modding scene.  
-Alternatively, you can just setup the patching according to instructions below.  
+Alternatively, you can just setup the patching according to instructions below.
+
+## Troubleshooting
+If you tried following the instructions above but it didn't work, consider the following advice:
+
+* Set Windows to Japanese locale. This shows up as "Language for non-Unicode Programmes" in Windows 11 settings. Locale emulators might also work, but make sure you can unzip the game under JP locale as well.
+* You need the Meiryo font. It should get installed if you install Japanese language pack for Windows through the system settings, or you can try to look for it online. Without this, the mood value won't show.
+* Make sure you only download the MOD translation if you have the MOD installed. If you want the base game with translation, download the [1.0.0 version](https://github.com/pvtnator/SR1.20EN/releases/tag/1.0.0).
 
 ## Patching Instructions
 If you wish to do the patching yourself, follow these instructions.
@@ -45,7 +52,7 @@ In other words, it's best to start a new save after applying this mod, although 
 Note also that when you load a save, the current map is loaded from the save and changes won't be applied until you re-enter that map.
 
 ## Help
-While the base game is now almost fully manually translated, feel free to suggest/pull request improvements. There is likely some amount of nuance that I may have not translated as well as it could and there is always a good chance of mistakes here and there. The pronouns system also felt really difficult to translate so I'm open to ideas for that.
+While the base game is now fully manually translated, feel free to suggest/pull request improvements. There is likely some amount of nuance that I may have not translated as well as it could and there is always a good chance of mistakes here and there. The pronouns system also felt really difficult to translate so I'm open to ideas for that.
 However, if you wish to start translating, make sure you understand what the correct formatting is, 
 and if the translated strings are used elsewhere, especially for control logic, make sure it's consistent.
 You must also take care with text wrapping. It's easy to make it overflow.
