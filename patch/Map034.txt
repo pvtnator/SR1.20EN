@@ -19,6 +19,8 @@ Slave
 > CONTEXT: Map046/events/434/pages/0/1/Choice/0
 > CONTEXT: Map046/events/435/pages/0/1/Choice/0
 > CONTEXT: Map034/events/129/pages/0/1/Choice/0
+> CONTEXT: Map046/events/65/pages/0/1/Choice/0
+> CONTEXT: Map046/events/65/pages/0/1/Choice/0
 Perverted
 > END STRING
 
@@ -188,6 +190,7 @@ Mare
 ソーサラー
 > CONTEXT: Map034/events/77/pages/0/1/Choice/1
 > CONTEXT: Map034/events/466/pages/0/108/Choice/2
+> CONTEXT: Map046/events/69/pages/0/0/Dialogue
 Sorcerer
 > END STRING
 
@@ -522,36 +525,42 @@ Innocent
 > BEGIN STRING
 テネシティ
 > CONTEXT: Map034/events/466/pages/0/215/Choice/1
+> CONTEXT: Map046/events/65/pages/0/0/Dialogue
 Tenacity
 > END STRING
 
 > BEGIN STRING
 トロル
 > CONTEXT: Map034/events/466/pages/0/215/Choice/2
+> CONTEXT: Map046/events/68/pages/0/0/Dialogue
 Troll
 > END STRING
 
 > BEGIN STRING
 カグヤ
 > CONTEXT: Map034/events/466/pages/0/322/Choice/0
+> CONTEXT: Map046/events/70/pages/0/0/Dialogue
 Kaguya
 > END STRING
 
 > BEGIN STRING
 ミルケンティア
 > CONTEXT: Map034/events/466/pages/0/322/Choice/1
+> CONTEXT: Map046/events/71/pages/0/0/Dialogue
 Milkencia
 > END STRING
 
 > BEGIN STRING
 バトラー
 > CONTEXT: Map034/events/466/pages/0/322/Choice/2
+> CONTEXT: Map034/events/107/pages/0/0/Dialogue
 Butler
 > END STRING
 
 > BEGIN STRING
 ネコマタ
 > CONTEXT: Map034/events/466/pages/0/471/Choice/0
+> CONTEXT: Map034/events/106/pages/0/0/Dialogue
 Nekomata
 > END STRING
 
@@ -602,6 +611,7 @@ Civilian
 > BEGIN STRING
 アランシア
 > CONTEXT: Map034/events/466/pages/0/471/Choice/2 < UNTRANSLATED
+> CONTEXT: Map046/events/63/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -609,18 +619,21 @@ Civilian
 ルーバー
 > CONTEXT: Map034/events/466/pages/0/578/Choice/0 < UNTRANSLATED
 > CONTEXT: Map034/events/466/pages/0/578/Choice/0 < UNTRANSLATED
+> CONTEXT: Map046/events/64/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "能天気"
 > CONTEXT: Map034/events/466/pages/0/552/InlineScript/3:6 < UNTRANSLATED
+> CONTEXT: Map046/events/63/pages/0/12/InlineScript/3:6 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "陰湿"
 > CONTEXT: Map034/events/466/pages/0/589/InlineScript/3:6 < UNTRANSLATED
+> CONTEXT: Map046/events/64/pages/0/12/InlineScript/3:6 < UNTRANSLATED
 
 > END STRING
 
@@ -633,5 +646,17 @@ Civilian
 > BEGIN STRING
 "健気"
 > CONTEXT: Map034/events/466/pages/0/624/InlineScript/3:6 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アズライグ
+> CONTEXT: Map034/events/104/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グウィバー
+> CONTEXT: Map034/events/105/pages/0/0/Dialogue < UNTRANSLATED
 
 > END STRING

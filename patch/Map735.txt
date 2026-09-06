@@ -795,6 +795,9 @@ I just got really good runes.
 選択肢
 > CONTEXT: Map735/events/34/pages/0/12/Label < UNTRANSLATED
 > CONTEXT: Map735/events/34/pages/0/143/Label < UNTRANSLATED
+> CONTEXT: Map005/events/40/pages/3/31/Label < UNTRANSLATED
+> CONTEXT: Map005/events/40/pages/3/43/Label < UNTRANSLATED
+> CONTEXT: Map005/events/40/pages/3/53/Label < UNTRANSLATED
 
 > END STRING
 
@@ -881,4 +884,48 @@ It looks like the case has been resolved safely.
 \\name[\\v[2]]\\_
 It's good that everyone's back, but
 they said they wouldn't eat for a while...
+> END STRING
+
+> BEGIN STRING
+3：現在地が常夜の街
+> CONTEXT: Map735/events/17/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+入力値が経験値を上回ったらキャンセル
+> CONTEXT: Map735/events/31/pages/0/35/Comment < UNTRANSLATED
+> CONTEXT: Map735/events/31/pages/0/57/Comment < UNTRANSLATED
+> CONTEXT: Map735/events/31/pages/0/89/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"魔法人形"
+> CONTEXT: Map735/events/41/pages/0/0/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あらら、ここはどこかしら？
+私の住む場所と全然違うみたいだけど……。
+> CONTEXT: Map735/events/41/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+えっ、私がどこから来たのかって？
+えぇと、まずこの町の外側……南側から来たわ。
+> CONTEXT: Map735/events/41/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+すごく暗い森へ入らずに、わき道から来たの。
+裂け目のような空間を通り抜けた気がするわ。
+> CONTEXT: Map735/events/41/pages/0/7/Dialogue < UNTRANSLATED
+
 > END STRING

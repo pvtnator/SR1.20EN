@@ -62,7 +62,7 @@ Shell Match
 > BEGIN STRING
 [レジスト][♀→♀] ♀同士を密着させる。[条件：双方裸]
 > CONTEXT: Skills/5/description/
-[Resist][♀→♀]Bring ♀ close to each other.[Condition: both naked]
+[Resist][♀→♀]Bring ♀ close to each other.[Req: both naked]
 > END STRING
 
 > BEGIN STRING
@@ -76,7 +76,7 @@ Insert
 > BEGIN STRING
 [レジスト] [♂→♀] 挿入する。[条件：双方裸]
 > CONTEXT: Skills/6/description/
-[Resist][♂→♀]Insert.[Condition: both naked]
+[Resist][♂→♀]Insert.[Req: both naked]
 > END STRING
 
 > BEGIN STRING
@@ -90,7 +90,7 @@ Oral insert
 > BEGIN STRING
 [レジスト] [♂→口] 咥えさせる。[条件：自分裸]
 > CONTEXT: Skills/7/description/
-[Resist][♂→Mouth]Insert to mouth.[Condition: naked]
+[Resist][♂→Mouth]Insert to mouth.[Req: naked]
 > END STRING
 
 > BEGIN STRING
@@ -104,7 +104,7 @@ Back insert
 > BEGIN STRING
 [レジスト] [♂→尻] 菊座に挿入する。[条件：双方裸]
 > CONTEXT: Skills/8/description/
-[Resist][♂→Butt]Anal insert.[Condition: both naked]
+[Resist][♂→Butt]Anal insert.[Req: both naked]
 > END STRING
 
 > BEGIN STRING
@@ -173,7 +173,7 @@ Oral accept
 > BEGIN STRING
 [レジスト] [口→♂] 咥える。[条件：相手裸]
 > CONTEXT: Skills/14/description/
-[Resist][Mouth→♂]Put it in your mouth.[Condition: target naked]
+[Resist][Mouth→♂]Put it in your mouth.[Req: target naked]
 > END STRING
 
 > BEGIN STRING
@@ -186,7 +186,7 @@ Back accept
 > BEGIN STRING
 [レジスト] [尻→♂] 菊座に挿入する。[条件：双方裸]
 > CONTEXT: Skills/15/description/
-[Resist][Butt→♂]Anal insert.[Condition: both naked]
+[Resist][Butt→♂]Anal insert.[Req: both naked]
 > END STRING
 
 > BEGIN STRING
@@ -200,7 +200,7 @@ Draw nectar
 > BEGIN STRING
 [レジスト] [口→♀] アソコを吸う。[条件：相手裸]
 > CONTEXT: Skills/16/description/
-[Resist][Mouth→♀]Oral sex.[Condition: Opponent naked]
+[Resist][Mouth→♀]Oral sex.[Req: Opponent naked]
 > END STRING
 
 > BEGIN STRING
@@ -241,7 +241,7 @@ Helm Match
 > BEGIN STRING
 [レジスト] [♂→♂]♂ 同士を密着させる。[条件：双方裸]
 > CONTEXT: Skills/19/description/
-[Resist][♂→♂] ♂ are pressed together. [Condition: Both naked]
+[Resist][♂→♂] ♂ are pressed together. [Req: Both naked]
 > END STRING
 
 > BEGIN STRING
@@ -254,7 +254,7 @@ Dildo insert
 > BEGIN STRING
 [レジスト] [張子→♀] ディルドを挿入する。[条件：双方裸]
 > CONTEXT: Skills/20/description/
-[Resist][Dildo→♀]Insert the dildo.[Condition: both naked]
+[Resist][Dildo→♀]Insert the dildo.[Req: both naked]
 > END STRING
 
 > BEGIN STRING
@@ -267,7 +267,7 @@ Dildo in mouth
 > BEGIN STRING
 [レジスト] [張子→口] ディルドを口に挿入する。[条件：自分裸]
 > CONTEXT: Skills/21/description/
-[Resist][Dildo→Mouth]Insert the dildo into the mouth.[Condition: naked]
+[Resist][Dildo→Mouth]Insert the dildo into the mouth.[Req: naked]
 > END STRING
 
 > BEGIN STRING
@@ -281,7 +281,7 @@ Dildo in back
 > BEGIN STRING
 [レジスト] [張子→尻] ディルドを菊座に挿入する。[条件：双方裸]
 > CONTEXT: Skills/22/description/
-[Resist][Dildo→Butt]Dildo anal insert.[Condition: both naked]
+[Resist][Dildo→Butt]Dildo anal insert.[Req: both naked]
 > END STRING
 
 > BEGIN STRING
@@ -574,7 +574,6 @@ Energy Drain/150/10
 > BEGIN STRING
 タイトクロッチ/100
 > CONTEXT: Skills/50/name/
-> CONTEXT: Skills/1232/name/
 Tight Crotch/100
 > END STRING
 
@@ -660,7 +659,6 @@ Ride/100
 > BEGIN STRING
 ディープスロート/100
 > CONTEXT: Skills/59/name/ < UNTRANSLATED
-> CONTEXT: Skills/1234/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -716,7 +714,7 @@ Squeeze/100
 [×××] 締める。[条件：バックインサート][精力]
 > CONTEXT: Skills/64/description/
 > CONTEXT: Skills/67/description/
-[×××] Tighten. [Condition: Back Insert][Energy]
+[×××] Tighten. [Req: Back Insert][Energy]
 > END STRING
 
 > BEGIN STRING
@@ -1222,6 +1220,7 @@ heal01
 > CONTEXT: Skills/1496/menu_se/name/ < UNTRANSLATED
 > CONTEXT: Skills/2245/menu_se/name/ < UNTRANSLATED
 > CONTEXT: Skills/2246/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Skills/272/menu_se/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -3798,7 +3797,7 @@ Down Melty
 > BEGIN STRING
 安らかな香りで相手を虚脱へといざなう。[条件：ムード30]
 > CONTEXT: Skills/372/description/
-The soothing scent lures opponent into ecstasy. [Condition: Mood 30]
+The soothing scent lures opponent into ecstasy. [Req: Mood 30]
 > END STRING
 
 > BEGIN STRING
@@ -3995,7 +3994,7 @@ Ritual Circle
 
 > BEGIN STRING
 ◆特殊口業◆
-> CONTEXT: Skills/413/name/ < UNTRANSLATED
+> CONTEXT: Skills/412/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -7208,7 +7207,7 @@ Deep Kiss・必殺/95
 
 > BEGIN STRING
 ◇特殊アナルホールド業◇
-> CONTEXT: Skills/821/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -9724,7 +9723,7 @@ Soul Reaper/150
 > BEGIN STRING
 魂から直接エナジードレインする。相手が絶頂中ならVPを多く削る。[条件:ムード100]
 > CONTEXT: Skills/1209/description/
-Drain energy directly from the soul. Reduce VP further if climaxed. [Condition: Mood 100]
+Drain energy directly from the soul. Reduce VP further if climaxed. [Req: Mood 100]
 > END STRING
 
 > BEGIN STRING
@@ -9869,7 +9868,7 @@ Carries the power of the deadly sins.
 
 > BEGIN STRING
 アネモネクロッチ/100
-> CONTEXT: Skills/1231/name/
+> CONTEXT: None < UNUSED
 Anemone Crotch/100
 > END STRING
 
@@ -9894,68 +9893,43 @@ Massive Grind
 > BEGIN STRING
 [レジスト] [♀→♂] 身体を押さえつける。[条件：アクセプト(LvMAX)]
 > CONTEXT: Skills/1233/description/
-[Resist][♀→♂] Hold down the body. [Condition: Accept (LvMAX)]
+[Resist][♀→♂] Hold down the body. [Req: Accept (LvMAX)]
 > END STRING
 
 > BEGIN STRING
 [口→♂] 根元まで咥える。[条件：オーラルアクセプト(LvMAX)]
 > CONTEXT: Skills/1234/description/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-スクリューベーゼ/100
-> CONTEXT: Skills/1235/name/ < UNTRANSLATED
-
+[Mouth→♂] Take it all the way to the base [Req: Oral Accept(Lv MAX)]
 > END STRING
 
 > BEGIN STRING
 [口→口] 相手の口内に舌をねじ込む。[条件：フラッタナイズ(LvMAX)]
 > CONTEXT: Skills/1235/description/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-クランプルストローク/95
-> CONTEXT: Skills/1236/name/
-Crumple Stroke/95
+[Mouth→Mouth] Thrust into opponent's mouth [Req: Flutternize (LvMAX)]
 > END STRING
 
 > BEGIN STRING
 [胸→♂] 腕を使って強く圧迫する。[条件：ペリスコープ(LvMAX)]
 > CONTEXT: Skills/1236/description/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-スポットアタッチ/95
-> CONTEXT: Skills/1237/name/ < UNTRANSLATED
-
+[Chest→♂] Apply strong pressure with arms [Req: Periscope (Lv MAX)]
 > END STRING
 
 > BEGIN STRING
 [手→尻] 指を前立腺に這わせる。[条件：フィンガーインバック(LvMAX)]
 > CONTEXT: Skills/1237/description/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-スポットアタッチ/100
-> CONTEXT: Skills/1238/name/ < UNTRANSLATED
-> CONTEXT: Skills/1239/name/ < UNTRANSLATED
-
+[Hand→Butt] Trace fingers along the prostate [Req: Finger in Back (LvMAX)]
 > END STRING
 
 > BEGIN STRING
 [触手→♀] 触手を奥深くまで押し込む。[条件：テンタクルインサート(LvMAX)]
 > CONTEXT: Skills/1238/description/ < UNTRANSLATED
-
+[Tentacle→♀] Push the tentacle deep inside [Req: Tentacle Insert (Lv MAX)]
 > END STRING
 
 > BEGIN STRING
 [触手→尻] 触手を前立腺に這わせる。[条件：テンタクルインバック(LvMAX)]
 > CONTEXT: Skills/1239/description/ < UNTRANSLATED
-
+[Tentacle→Butt] Tentacles crawl onto the prostate [Req: Tentacle in Back (Lv MAX)]
 > END STRING
 
 > BEGIN STRING
@@ -9967,7 +9941,7 @@ Deep Piston
 > BEGIN STRING
 [レジスト] [♂→口] 奥深くまで押し込む。[条件：オーラルインサート(LvMAX)]
 > CONTEXT: Skills/1240/description/ < UNTRANSLATED
-
+[Resist][♂→Mouth] Push it in deep [Req: Oral Insert (LvMAX)]
 > END STRING
 
 > BEGIN STRING
@@ -9979,12 +9953,12 @@ Portio piston
 > BEGIN STRING
 [レジスト] [♂→♀] アソコの奥深くまで挿入する[条件：インサート(LvMAX)]
 > CONTEXT: Skills/1242/description/ < UNTRANSLATED
-
+[Resist][♂→♀] Insert deep into the vagina [Req: Insert (LvMAX)]
 > END STRING
 
 > BEGIN STRING
 ヘブンリースムーザー/95
-> CONTEXT: Skills/1243/name/
+> CONTEXT: None < UNUSED
 Heavenly Smother/95
 > END STRING
 
@@ -9995,33 +9969,9 @@ Heavenly Smother/95
 > END STRING
 
 > BEGIN STRING
-エキサイトドロップ/100
-> CONTEXT: Skills/1244/name/
-Excite Drop/100
-> END STRING
-
-> BEGIN STRING
 [♀→口] 強く圧迫し、窒息させる。[条件：エキサイトビュー(LvMAX)]
 > CONTEXT: Skills/1244/description/
 [♀→Mouth] Press hard and suffocate. [Req: Excite View (LvMAX)]
-> END STRING
-
-> BEGIN STRING
-ハードスタンプ/80
-> CONTEXT: Skills/1245/name/
-Hard Stamp/80
-> END STRING
-
-> BEGIN STRING
-[足→♂] 強く踏み潰す。[条件：エレキテルプレス(LvMAX)]
-> CONTEXT: None < UNUSED
-[Foot→♂] Stomp hard. [Req: Elekitel Press (LvMAX)]
-> END STRING
-
-> BEGIN STRING
-オーラルペリスコープ/100
-> CONTEXT: Skills/1246/name/
-Oral Periscope/100
 > END STRING
 
 > BEGIN STRING
@@ -10045,24 +9995,12 @@ Falling Milking
 > BEGIN STRING
 [レジスト] [口→胸] 母乳を絞り出すように吸う。[条件：フォーリンヘブン(LvMAX)]
 > CONTEXT: Skills/1248/description/
-[Resist][Mouth→Chest] Suck breast milk. [Condition: Falling Heaven (LvMAX)]
-> END STRING
-
-> BEGIN STRING
-デモンズバキューム/100
-> CONTEXT: Skills/1249/name/ < UNTRANSLATED
-
+[Resist][Mouth→Chest] Suck breast milk. [Req: Falling Heaven (LvMAX)]
 > END STRING
 
 > BEGIN STRING
 [触手→♂] 強く吸い上げる[優勢][必ずSS]
 > CONTEXT: Skills/1249/description/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-デモンズバキューム/95
-> CONTEXT: Skills/1250/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -10112,9 +10050,7 @@ Wild Swing/100
 > BEGIN STRING
 [×××] 荒々しく腰を振る。[条件：優勢][精力]
 > CONTEXT: Skills/1254/description/
-> CONTEXT: Skills/1256/description/
-> CONTEXT: Skills/1257/description/
-[xxx] Shake hips fiercly. [Condition: Dominance][Energy]
+[xxx] Shake hips fiercly. [Req: Dominance][Energy]
 > END STRING
 
 > BEGIN STRING
@@ -11518,7 +11454,7 @@ Scissor Cross/100
 > BEGIN STRING
 [♀→♂] 両脚で相手の腰を絡め取る [条件：インサート劣勢時]
 > CONTEXT: Skills/1403/description/
-[♀→♂] Entangle the opponent's waist with both legs. [Condition: Insert defense]
+[♀→♂] Entangle the opponent's waist with both legs. [Req: Insert defense]
 > END STRING
 
 > BEGIN STRING
@@ -11770,7 +11706,7 @@ Deep Insert
 > BEGIN STRING
 [レジスト] 互いに唇を貪りあう。[条件：♀挿入]
 > CONTEXT: Skills/1428/description/
-[Resist] Devour each other's lips. [Condition: ♀ insert]
+[Resist] Devour each other's lips. [Req: ♀ insert]
 > END STRING
 
 > BEGIN STRING
@@ -11782,7 +11718,7 @@ Falling Insert
 > BEGIN STRING
 [レジスト] 自分の口で相手の胸に吸い付く。[条件：♀挿入]
 > CONTEXT: Skills/1429/description/
-[Resist] Suck opponent's breasts by mouth. [Condition: ♀ insert]
+[Resist] Suck opponent's breasts by mouth. [Req: ♀ insert]
 > END STRING
 
 > BEGIN STRING
@@ -11794,7 +11730,7 @@ Heavy Insert
 > BEGIN STRING
 [レジスト] [♂→♀] Lv.MAXで挿入する。[条件：双方裸]
 > CONTEXT: Skills/1430/description/
-[Resist][♂→♀] Insert at Lv.MAX. [Condition: Both naked]
+[Resist][♂→♀] Insert at Lv.MAX. [Req: Both naked]
 > END STRING
 
 > BEGIN STRING
@@ -11878,7 +11814,7 @@ Heavy Insert
 > BEGIN STRING
 [口＋♂→口＋♀] キスしながら強く腰を振る。[条件：LvMAX][ガード][精力]
 > CONTEXT: Skills/1438/description/
-[Mouth+♂→Mouth+♀] Kiss while shaking your hips strongly. [Condition: LvMAX][Guard][Energy]
+[Mouth+♂→Mouth+♀] Kiss while shaking your hips strongly. [Req: LvMAX][Guard][Energy]
 > END STRING
 
 > BEGIN STRING
@@ -12350,6 +12286,7 @@ Recover a huge amount of EP.
 > BEGIN STRING
 魅了の魔眼
 > CONTEXT: Skills/1498/name/
+> CONTEXT: States/501/name/
 Charming Eye
 > END STRING
 
@@ -12374,6 +12311,7 @@ Chance of inflicting fear on opponents. [Charm]
 > BEGIN STRING
 恐怖の魔眼
 > CONTEXT: Skills/1500/name/
+> CONTEXT: States/502/name/
 Demonic Eye of Terror
 > END STRING
 
@@ -12398,6 +12336,7 @@ Chance of making the opponent go berserk. [Charm]
 > BEGIN STRING
 激情の魔眼
 > CONTEXT: Skills/1502/name/
+> CONTEXT: States/503/name/
 Demonic Eye of Passion
 > END STRING
 
@@ -12422,6 +12361,7 @@ High chance of making the opponent go berserk. [Charm]
 > BEGIN STRING
 放心の魔眼
 > CONTEXT: Skills/1504/name/ < UNTRANSLATED
+> CONTEXT: States/504/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -12446,6 +12386,7 @@ High chance of making the opponent go berserk. [Charm]
 > BEGIN STRING
 麻痺の魔眼
 > CONTEXT: Skills/1506/name/ < UNTRANSLATED
+> CONTEXT: States/505/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -12470,6 +12411,7 @@ Distracts the opponent with a medium chance. [Charm]
 > BEGIN STRING
 散漫の魔眼
 > CONTEXT: Skills/1508/name/
+> CONTEXT: States/506/name/
 Distract Evil Eye
 > END STRING
 
@@ -17041,6 +16983,7 @@ Genital caress [Dexterity]
 > BEGIN STRING
 欲情の魔眼
 > CONTEXT: Skills/2557/name/ < UNTRANSLATED
+> CONTEXT: States/507/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -17059,6 +17002,7 @@ Genital caress [Dexterity]
 > BEGIN STRING
 恍惚の魔眼
 > CONTEXT: Skills/2559/name/ < UNTRANSLATED
+> CONTEXT: States/508/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -17083,6 +17027,7 @@ Genital caress [Dexterity]
 > BEGIN STRING
 幻覚の魔眼
 > CONTEXT: Skills/2561/name/ < UNTRANSLATED
+> CONTEXT: States/509/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -17107,6 +17052,7 @@ Genital caress [Dexterity]
 > BEGIN STRING
 催眠の魔眼
 > CONTEXT: Skills/2563/name/ < UNTRANSLATED
+> CONTEXT: States/510/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -18334,6 +18280,7 @@ Fertile Connect/100
 > BEGIN STRING
 隷属の魔眼
 > CONTEXT: Skills/1383/name/ < UNTRANSLATED
+> CONTEXT: States/500/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -18437,4 +18384,277 @@ Fertile Connect/100
 ▽顔踏み・追撃/75
 > CONTEXT: Skills/2428/name/ < UNTRANSLATED
 
+> END STRING
+
+> BEGIN STRING
+ホールド技使用準備に入る。
+> CONTEXT: Skills/255/description/ < UNTRANSLATED
+Prepare a hold
+> END STRING
+
+> BEGIN STRING
+ニップル/70
+> CONTEXT: Skills/271/name/ < UNTRANSLATED
+Nipple/70
+> END STRING
+
+> BEGIN STRING
+乳首を指で弄る。
+> CONTEXT: Skills/271/description/ < UNTRANSLATED
+Play with nipples with fingers
+> END STRING
+
+> BEGIN STRING
+トランスウィークネス//5
+> CONTEXT: Skills/272/name/ < UNTRANSLATED
+Transweakness//5
+> END STRING
+
+> BEGIN STRING
+自身の弱点を変更させ、チェックやアナライズを解く。
+> CONTEXT: Skills/272/description/ < UNTRANSLATED
+Change weaknesses and undo checks and analyses
+> END STRING
+
+> BEGIN STRING
+アライメント
+> CONTEXT: Skills/357/name/ < UNTRANSLATED
+Alignment
+> END STRING
+
+> BEGIN STRING
+援軍を呼び出す。（初期非表示キャラを参戦させる）
+> CONTEXT: Skills/357/description/ < UNTRANSLATED
+Call Reinforcements
+> END STRING
+
+> BEGIN STRING
+セルディバイド
+> CONTEXT: Skills/358/name/ < UNTRANSLATED
+Cell Divide
+> END STRING
+
+> BEGIN STRING
+分裂して仲間を出現させる。
+> CONTEXT: Skills/358/description/ < UNTRANSLATED
+Split and create allies
+> END STRING
+
+> BEGIN STRING
+ギャグセンス
+> CONTEXT: Skills/413/name/ < UNTRANSLATED
+Humor
+> END STRING
+
+> BEGIN STRING
+[口→耳] ギャグで悶笑させる。
+> CONTEXT: Skills/413/description/ < UNTRANSLATED
+[Mouth→Ear] Make them laugh uncontrollably with a joke
+> END STRING
+
+> BEGIN STRING
+メガトンプレス/150/5
+> CONTEXT: Skills/462/name/ < UNTRANSLATED
+Megaton Press/150/5
+> END STRING
+
+> BEGIN STRING
+[胸→口][CT:5] 相手の顔目掛けて、胸を振り下ろす。[精力/魅力]
+> CONTEXT: Skills/462/description/ < UNTRANSLATED
+[Chest→Mouth][CT:5] Bring chest down towards opponent's face [Energy/Charm]
+> END STRING
+
+> BEGIN STRING
+コットンテイル
+> CONTEXT: Skills/550/name/ < UNTRANSLATED
+Cottontail
+> END STRING
+
+> BEGIN STRING
+ふさふさの尻尾でくすぐる。稀に骨抜き・恍惚にする。
+> CONTEXT: Skills/550/description/ < UNTRANSLATED
+Tickle with bushy tail, inflict debone and ecstasy
+> END STRING
+
+> BEGIN STRING
+テイマーズウィップ/100
+> CONTEXT: Skills/578/name/ < UNTRANSLATED
+Tamer's Whip/100
+> END STRING
+
+> BEGIN STRING
+[鞭→全身] 相手を鞭で叩き、離反させる。[S][追加：離反]
+> CONTEXT: Skills/578/description/ < UNTRANSLATED
+[Whip→Body] Whip to make them stop [S][Add: Breakaway]
+> END STRING
+
+> BEGIN STRING
+アネモネクロッチ/120
+> CONTEXT: Skills/1231/name/ < UNTRANSLATED
+Anemone Crotch/120
+> END STRING
+
+> BEGIN STRING
+タイトクロッチ/120
+> CONTEXT: Skills/1232/name/ < UNTRANSLATED
+Tight Crotch/120
+> END STRING
+
+> BEGIN STRING
+ディープスロート/120
+> CONTEXT: Skills/1234/name/ < UNTRANSLATED
+Deep Throat/120
+> END STRING
+
+> BEGIN STRING
+スクリューベーゼ/120
+> CONTEXT: Skills/1235/name/ < UNTRANSLATED
+Screw Base/120
+> END STRING
+
+> BEGIN STRING
+クランプルストローク/120
+> CONTEXT: Skills/1236/name/ < UNTRANSLATED
+Crumple Stroke/120
+> END STRING
+
+> BEGIN STRING
+スポットアタッチ/120
+> CONTEXT: Skills/1237/name/ < UNTRANSLATED
+> CONTEXT: Skills/1238/name/ < UNTRANSLATED
+> CONTEXT: Skills/1239/name/ < UNTRANSLATED
+Spot Attach/120
+> END STRING
+
+> BEGIN STRING
+ヘブンリースムーザー/120
+> CONTEXT: Skills/1243/name/ < UNTRANSLATED
+Heavenly Smother/120
+> END STRING
+
+> BEGIN STRING
+エキサイトドロップ/120
+> CONTEXT: Skills/1244/name/ < UNTRANSLATED
+Excite Drop/120
+> END STRING
+
+> BEGIN STRING
+ハードスタンプ/120
+> CONTEXT: Skills/1245/name/ < UNTRANSLATED
+Hard Stamp/120
+> END STRING
+
+> BEGIN STRING
+オーラルペリスコープ/120
+> CONTEXT: Skills/1246/name/ < UNTRANSLATED
+Oral Periscope/120
+> END STRING
+
+> BEGIN STRING
+デモンズバキューム/120
+> CONTEXT: Skills/1249/name/ < UNTRANSLATED
+> CONTEXT: Skills/1250/name/ < UNTRANSLATED
+Demon's Vacuum/120
+> END STRING
+
+> BEGIN STRING
+[♀→♂] 荒々しく腰を振る。[条件：優勢][精力]
+> CONTEXT: Skills/1256/description/ < UNTRANSLATED
+[♀→♂] Thrust hips hard [Req: Dominant][Energy]
+> END STRING
+
+> BEGIN STRING
+[尻→♂] 荒々しく腰を振る。[条件：優勢][精力]
+> CONTEXT: Skills/1257/description/ < UNTRANSLATED
+[Butt→♂] Thrusts hips hard [Req: Dominant][Energy]
+> END STRING
+
+> BEGIN STRING
+居合を取り、３ターンの間レジストスキルを回避する。
+> CONTEXT: Skills/1295/description/ < UNTRANSLATED
+Evade resist skills for 3 turns
+> END STRING
+
+> BEGIN STRING
+ニップルグラインド/120
+> CONTEXT: Skills/1633/name/ < UNTRANSLATED
+Nipple Grind/120
+> END STRING
+
+> BEGIN STRING
+[♀→♂] 乳首を攻めながら腰を振る。[精力]
+> CONTEXT: Skills/1633/description/ < UNTRANSLATED
+[♀→♂] Attack nipples while thrusting hips [Energy]
+> END STRING
+
+> BEGIN STRING
+くすぐりグラインド/120
+> CONTEXT: Skills/1634/name/ < UNTRANSLATED
+Tickle Grind/120
+> END STRING
+
+> BEGIN STRING
+[♀→♂] くすぐりながら腰を振る。[精力]
+> CONTEXT: Skills/1634/description/ < UNTRANSLATED
+[♀→♂] Tickle while shaking hips [Energy]
+> END STRING
+
+> BEGIN STRING
+スライミースクラッチ/120/6
+> CONTEXT: Skills/1657/name/ < UNTRANSLATED
+Slimy Scratch/120/6
+> END STRING
+
+> BEGIN STRING
+[♀→♀][CT:6] ぬるぬるの局部で優しく擦り合わせる。[ガード貫通][器用さ]
+> CONTEXT: Skills/1657/description/ < UNTRANSLATED
+[♀→♀][CT:6] Gently rub slippery genitals [Guard Pierce][Dexterity]
+> END STRING
+
+> BEGIN STRING
+ニップルライディング/120
+> CONTEXT: Skills/1756/name/ < UNTRANSLATED
+Nipple Riding/120
+> END STRING
+
+> BEGIN STRING
+[♀＋手→口＋胸] 乳首を責めながら腰を振る。[精力/魅力]
+> CONTEXT: Skills/1756/description/ < UNTRANSLATED
+[♀+Hand→Mouth+Breast] Thrust hips while teasing nipples [Energy/Charm]
+> END STRING
+
+> BEGIN STRING
+くすぐりライディング/120
+> CONTEXT: Skills/1757/name/ < UNTRANSLATED
+Tickle Riding/120
+> END STRING
+
+> BEGIN STRING
+[♀＋手→口＋身体] くすぐりながら腰を振る。[精力/魅力]
+> CONTEXT: Skills/1757/description/ < UNTRANSLATED
+[♀+Hand→Mouth+Body] Tickle while shaking hips [Energy/Charm]
+> END STRING
+
+> BEGIN STRING
+スライミーカレス/100
+> CONTEXT: Skills/1918/name/ < UNTRANSLATED
+Slimy Caress/100
+> END STRING
+
+> BEGIN STRING
+[→全身] ぬるぬるの手で愛撫する。[器用さ]
+> CONTEXT: Skills/1918/description/ < UNTRANSLATED
+[→Body] Caress with slippery hands [Dexterity]
+> END STRING
+
+> BEGIN STRING
+スライムガード
+> CONTEXT: Skills/2126/name/ < UNTRANSLATED
+Slime Guard
+> END STRING
+
+> BEGIN STRING
+このターン、攻撃から身を守る。[最速行動][快感減衰][忍耐力]
+> CONTEXT: Skills/2126/description/ < UNTRANSLATED
+Defend for a turn [Fast][Pleasure Down][Endurance]
 > END STRING

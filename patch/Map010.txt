@@ -167,3 +167,50 @@ vwxyz 0123456789
 > CONTEXT: Map010/events/46/pages/0/8/Dialogue < UNTRANSLATED
 
 > END STRING
+
+> BEGIN STRING
+enemy = コピー元のエネミーのIDを指定します。
+数値か数値の配列で指定します。
+省略不可。
+> CONTEXT: Map010/events/11/pages/0/3/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+level = エネミーのレベルを指定します。
+数値か数値の配列で指定します。
+指定しないと1になります。
+エネミーの数より指定が少ないと足りない分は
+先頭と同じレベルになります。
+> CONTEXT: Map010/events/11/pages/0/6/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+flg = エネミーのボス属性（強さ）を指定します。
+指定しないと普通になります。
+エネミーの数より指定が少ないと足りない分は
+先頭と同じ属性になります。
+指定可能なのは以下の通りです。
+> CONTEXT: Map010/events/11/pages/0/11/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+0, "普通"
+1, "イベント", "EVENT"
+2, "強敵", "OFE"
+3, "ボス", "BOSS"
+4, "ラスボス", "LASTBBOSS"
+5, "フォロワー", "FOLLOWER"
+> CONTEXT: Map010/events/11/pages/0/16/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+※本来変数で指定する必要も、色変える必要もないですが、
+　変数で指定することで開始位置もランダム、
+　色変えることで、作成処理中暗く待機
+> CONTEXT: Map010/events/21/pages/0/6/Comment < UNTRANSLATED
+
+> END STRING

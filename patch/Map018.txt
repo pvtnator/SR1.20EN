@@ -1,0 +1,20 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+■視界感知シンボルの視界制御は、画面左上で行う。
+---------------------------------------------------
+> CONTEXT: Map018/events/7/pages/0/0/Comment < UNTRANSLATED
+> CONTEXT: Map001/events/46/pages/0/0/Comment < UNTRANSLATED
+> CONTEXT: Map001/events/47/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■視界決定
+scope_range  : 距離
+scope_type   : 種別
+---------------------------------------------------
+> CONTEXT: Map018/events/7/pages/0/2/Comment < UNTRANSLATED
+> CONTEXT: Map001/events/46/pages/0/2/Comment < UNTRANSLATED
+> CONTEXT: Map001/events/47/pages/0/2/Comment < UNTRANSLATED
+
+> END STRING

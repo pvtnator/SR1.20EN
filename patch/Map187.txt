@@ -200,3 +200,16 @@ That's scary.
 \\name[\\v[2]]\\_
 Really scary.
 > END STRING
+
+> BEGIN STRING
+イベント実行は上のイベントで行う
+> CONTEXT: Map187/events/9/pages/0/1/Comment < UNTRANSLATED
+> CONTEXT: Map187/events/10/pages/0/1/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イベント起動は下のイベントで行う
+> CONTEXT: Map187/events/11/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING

@@ -1298,6 +1298,9 @@ Kiss sensitivity(high)
 > CONTEXT: States/240/name/ < UNTRANSLATED
 > CONTEXT: States/267/name/ < UNTRANSLATED
 > CONTEXT: Skills/1226/name/ < UNTRANSLATED
+> CONTEXT: Map340/events/3/pages/0/0/Comment < UNTRANSLATED
+> CONTEXT: Map340/events/6/pages/0/0/Comment < UNTRANSLATED
+> CONTEXT: Classes/526/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -2710,11 +2713,49 @@ Fertile Connect
 死神の吐息使用準備
 > CONTEXT: States/415/name/ < UNTRANSLATED
 > CONTEXT: Skills/256/name/ < UNTRANSLATED
-
+Prepare Grim Reaper's Breath
 > END STRING
 
 > BEGIN STRING
 減衰
 > CONTEXT: States/480/name/ < UNTRANSLATED
 
+> END STRING
+
+> BEGIN STRING
+離反
+> CONTEXT: States/187/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+居合
+> CONTEXT: States/188/name/ < UNTRANSLATED
+> CONTEXT: Skills/1295/name/ < UNTRANSLATED
+Iaido
+> END STRING
+
+> BEGIN STRING
+ホールド使用準備
+> CONTEXT: States/189/name/ < UNTRANSLATED
+> CONTEXT: Skills/255/name/ < UNTRANSLATED
+Prepare Hold
+> END STRING
+
+> BEGIN STRING
+ホールド変化エネミー
+> CONTEXT: States/329/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホールド解放までのターン数
+> CONTEXT: States/337/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+猫祟り
+> CONTEXT: States/481/name/ < UNTRANSLATED
+Cat Curse
 > END STRING

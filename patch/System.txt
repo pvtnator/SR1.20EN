@@ -95,6 +95,7 @@ EP
 > BEGIN STRING
 装備
 > CONTEXT: System/words/equip/
+> CONTEXT: Commonevents/228/73/Comment
 Equipment
 > END STRING
 
@@ -141,6 +142,7 @@ Charm
 > BEGIN STRING
 ルーン
 > CONTEXT: System/words/armor4/
+> CONTEXT: Commonevents/228/83/Comment
 Runes
 > END STRING
 
@@ -1538,13 +1540,13 @@ HP0で無くとも使用可能
 
 > BEGIN STRING
 相手：♂占有中のみ可
-> CONTEXT: System/elements/227/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 相手：♀占有中のみ可
-> CONTEXT: System/elements/228/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -2587,5 +2589,35 @@ button54
 > BEGIN STRING
 素早さで倍率変動
 > CONTEXT: System/elements/372/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+味方夢魔専用回復アイテム
+> CONTEXT: System/elements/118/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【没】相手：♂占有中のみ可
+> CONTEXT: System/elements/227/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【没】相手：♀占有中のみ可
+> CONTEXT: System/elements/228/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対象：味方全体
+> CONTEXT: System/elements/428/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対象：味方全体(自分以外)
+> CONTEXT: System/elements/429/ < UNTRANSLATED
 
 > END STRING

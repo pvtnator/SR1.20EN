@@ -390,6 +390,7 @@ Here's some flowers♪
 > BEGIN STRING
 ……。
 > CONTEXT: Map209/events/52/pages/0/0/Dialogue
+> CONTEXT: Map566/events/19/pages/0/2/Dialogue
 ...
 > END STRING
 
@@ -1618,4 +1619,156 @@ After all, saving lost lambs is part of my job...
 Oh, you already have it.
 You like it too, don't you...
 Hih, hih, hih...
+> END STRING
+
+> BEGIN STRING
+＠灯り17
+> CONTEXT: Map209/events/3/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■庭の女の子
+ミニポプリが無い時にミニポプリを１個くれる。
+> CONTEXT: Map209/events/39/pages/0/0/Comment < UNTRANSLATED
+> CONTEXT: Map209/events/39/pages/1/0/Comment < UNTRANSLATED
+> CONTEXT: Map209/events/39/pages/2/0/Comment < UNTRANSLATED
+> CONTEXT: Map209/events/39/pages/3/0/Comment < UNTRANSLATED
+> CONTEXT: Map209/events/39/pages/4/0/Comment < UNTRANSLATED
+> CONTEXT: Map209/events/39/pages/5/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+紛失報告があったので100, 101両方所持していない場合再入手
+> CONTEXT: Map209/events/52/pages/1/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホームメイドだけ特殊処理
+> CONTEXT: Map209/events/59/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+0：現在地がホーム
+> CONTEXT: Map209/events/59/pages/1/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"A：ON"
+> CONTEXT: Map209/events/98/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"A：OFF"
+> CONTEXT: Map209/events/98/pages/0/5/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"B：ON"
+> CONTEXT: Map209/events/98/pages/0/9/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"B：OFF"
+> CONTEXT: Map209/events/98/pages/0/12/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"C：ON"
+> CONTEXT: Map209/events/98/pages/0/16/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"C：OFF"
+> CONTEXT: Map209/events/98/pages/0/19/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"D：ON"
+> CONTEXT: Map209/events/98/pages/0/23/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"D：OFF"
+> CONTEXT: Map209/events/98/pages/0/26/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【セルフスイッチ】
+\\v[2]　\\v[3]
+\\v[4]　\\v[5]
+> CONTEXT: Map209/events/98/pages/0/29/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+reset_all
+> CONTEXT: Map209/events/98/pages/0/32/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+clear
+> CONTEXT: Map209/events/98/pages/0/32/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セルフスイッチの変更
+> CONTEXT: Map209/events/98/pages/0/32/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+なし
+> CONTEXT: Map209/events/98/pages/0/32/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セルフスイッチリセットが完了しました
+> CONTEXT: Map209/events/98/pages/0/36/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セルフスイッチクリアが完了しました
+> CONTEXT: Map209/events/98/pages/0/40/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+Aは？
+> CONTEXT: Map209/events/98/pages/0/43/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+Bは？
+> CONTEXT: Map209/events/98/pages/0/52/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+Cは？
+> CONTEXT: Map209/events/98/pages/0/61/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+Dは？
+> CONTEXT: Map209/events/98/pages/0/70/Dialogue < UNTRANSLATED
+
 > END STRING

@@ -545,7 +545,7 @@ It doesn't seem necessary in this day and age.
 
 > BEGIN STRING
 メイジサキュバス・ウィッチサキュバスと再戦しますか？
-> CONTEXT: Map210/events/20/pages/0/0/Dialogue
+> CONTEXT: None < UNUSED
 Would you like to fight Mage Succubus/Witch Succubus again?
 > END STRING
 
@@ -574,4 +574,10 @@ I'm very sorry about that.
 > CONTEXT: Map210/events/22/pages/0/4/Dialogue
 \\name[\\v[2]]\\_
 Would you like to have a rematch with me?
+> END STRING
+
+> BEGIN STRING
+メフィスト・デモノロジストと再戦しますか？
+> CONTEXT: Map210/events/20/pages/0/0/Dialogue < UNTRANSLATED
+
 > END STRING

@@ -23,17 +23,13 @@ Apparently, she doesn't seem to notice you.
 
 > BEGIN STRING
 "ウィッチサキュバス"
-> CONTEXT: Map484/events/10/pages/0/1/InlineScript/1:22
-> CONTEXT: Map484/events/10/pages/0/322/InlineScript/1:22
-> CONTEXT: Map484/events/11/pages/0/8/InlineScript/1:22
+> CONTEXT: None < UNUSED
 "Witch Succubus"
 > END STRING
 
 > BEGIN STRING
 "メイジサキュバス"
-> CONTEXT: Map484/events/10/pages/0/1/InlineScript/2:22
-> CONTEXT: Map484/events/10/pages/0/322/InlineScript/2:22
-> CONTEXT: Map484/events/11/pages/0/8/InlineScript/2:22
+> CONTEXT: None < UNUSED
 "Mage Succubus"
 > END STRING
 
@@ -406,5 +402,55 @@ Skip to just before combat?
 > BEGIN STRING
 \\n[101]「………………」
 > CONTEXT: Map484/events/11/pages/0/87/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★★★★★★★★★★★★★★★★★★★★★★★★
+★　淫夢世界にいる場合
+★★★★★★★★★★★★★★★★★★★★★★★★★
+> CONTEXT: Map484/events/1/pages/1/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"デモノロジスト"
+> CONTEXT: Map484/events/10/pages/0/1/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map484/events/10/pages/0/322/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map484/events/11/pages/0/8/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"メフィスト"
+> CONTEXT: Map484/events/10/pages/0/1/InlineScript/2:22 < UNTRANSLATED
+> CONTEXT: Map484/events/10/pages/0/322/InlineScript/2:22 < UNTRANSLATED
+> CONTEXT: Map484/events/11/pages/0/8/InlineScript/2:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★★★★★★★★★★★★★★★★★★★★★★★★
+★
+★　夢魔に捕まった場合
+★
+★★★★★★★★★★★★★★★★★★★★★★★★★
+> CONTEXT: Map484/events/10/pages/0/5/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+眠り＋淫夢状態で戦闘開始
+> CONTEXT: Map484/events/10/pages/0/123/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★★★★★★★★★★★★★★★★★★★★★★★★
+★
+★　夢魔から逃げ切った場合
+★
+★★★★★★★★★★★★★★★★★★★★★★★★★
+> CONTEXT: Map484/events/10/pages/0/131/Comment < UNTRANSLATED
 
 > END STRING

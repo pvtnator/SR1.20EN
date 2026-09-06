@@ -403,6 +403,8 @@ L-Lord Haut...!
 > CONTEXT: Map197/events/23/pages/0/20/InlineScript/1:22
 > CONTEXT: Map064/events/22/pages/0/0/InlineScript/1:22
 > CONTEXT: Map064/events/22/pages/0/15/InlineScript/1:22
+> CONTEXT: Map096/events/55/pages/0/0/InlineScript/1:22
+> CONTEXT: Map096/events/55/pages/0/20/InlineScript/1:22
 "Time crossing rabbit"
 > END STRING
 
@@ -489,6 +491,7 @@ Let me know if you want it back.
 > CONTEXT: Map718/events/20/pages/0/8/Dialogue
 > CONTEXT: Map665/events/6/pages/0/9/Dialogue
 > CONTEXT: Map064/events/22/pages/0/16/Dialogue
+> CONTEXT: Map096/events/55/pages/0/21/Dialogue
 \\name[\\v[2]]\\_
 Well then...\\|Yummm~
 > END STRING
@@ -1540,6 +1543,8 @@ END
 > CONTEXT: Map047/events/1/pages/0/322/Label < UNTRANSLATED
 > CONTEXT: Map047/events/1/pages/0/325/Label < UNTRANSLATED
 > CONTEXT: Map047/events/1/pages/0/361/Label < UNTRANSLATED
+> CONTEXT: Map005/events/40/pages/3/33/Label < UNTRANSLATED
+> CONTEXT: Map005/events/40/pages/3/54/Label < UNTRANSLATED
 
 > END STRING
 
@@ -1673,5 +1678,39 @@ END
 > CONTEXT: Map566/events/9/pages/0/222/Label < UNTRANSLATED
 > CONTEXT: Map206/events/3/pages/0/233/Label < UNTRANSLATED
 > CONTEXT: Map272/events/219/pages/2/215/Label < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"※現在の設定では、いにしえの姿が出現します。"
+> CONTEXT: Map898/events/24/pages/0/2/InlineScript/1:5 < UNTRANSLATED
+> CONTEXT: Map749/events/22/pages/0/2/InlineScript/1:5 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"※現在の設定では、通常の姿が出現します。"
+> CONTEXT: Map898/events/24/pages/0/6/InlineScript/1:5 < UNTRANSLATED
+> CONTEXT: Map749/events/22/pages/0/6/InlineScript/1:5 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここから先、いにしえのすがたで冒険したい？
+
+\\v[3]
+> CONTEXT: Map898/events/24/pages/0/10/Dialogue < UNTRANSLATED
+> CONTEXT: Map749/events/22/pages/0/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+\\v[3]に設定したよ！
+> CONTEXT: Map898/events/24/pages/0/18/Dialogue < UNTRANSLATED
+> CONTEXT: Map898/events/24/pages/0/24/Dialogue < UNTRANSLATED
+> CONTEXT: Map749/events/22/pages/0/18/Dialogue < UNTRANSLATED
+> CONTEXT: Map749/events/22/pages/0/24/Dialogue < UNTRANSLATED
 
 > END STRING

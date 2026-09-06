@@ -82,7 +82,7 @@ Do you still need something?
 > BEGIN STRING
 ドクター・ゼノアと再戦しますか？
 > CONTEXT: Map471/events/3/pages/3/4/Dialogue
-> CONTEXT: Map471/events/3/pages/4/7/Dialogue
+> CONTEXT: Map471/events/3/pages/4/16/Dialogue
 Have a rematch with Dr. Zenoah?
 > END STRING
 
@@ -186,4 +186,20 @@ Haha... It's been a while since I felt so refreshed...\\H
 \\name[\\v[2]]\\_
 You're pretty good.
 I like it...\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+鎮め草とマシマシイタケ？
+マシマシイタケ知らねぇが
+鎮め草なら寒い地域にあるんじゃねぇのか？
+> CONTEXT: Map471/events/3/pages/4/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+んで、まだ話あんのか？
+> CONTEXT: Map471/events/3/pages/4/12/Dialogue < UNTRANSLATED
+
 > END STRING

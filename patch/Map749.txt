@@ -308,7 +308,7 @@ So, let's make a contract first\\H
 > BEGIN STRING
 \\n[101]が先頭でないと危険なようだ。
 > CONTEXT: Map749/events/27/pages/0/1/Dialogue
-> CONTEXT: Map096/events/37/pages/1/1/Dialogue
+> CONTEXT: Map096/events/37/pages/1/33/Dialogue
 It seems dangerous if \\n[101] isn't in the lead.
 > END STRING
 
@@ -324,6 +324,8 @@ Jump in?
 うさぎに話しかけて、
 時を戻しましょう。
 > CONTEXT: Map749/events/27/pages/1/0/Dialogue
+> CONTEXT: Map096/events/37/pages/1/2/Dialogue
+> CONTEXT: Map096/events/37/pages/1/25/Dialogue
 Talk to the rabbit to turn back time.
 > END STRING
 
@@ -348,6 +350,8 @@ Do you want to go to the new Border World?
 リセットしない
 > CONTEXT: Map749/events/28/pages/0/6/Choice/0
 > CONTEXT: Map749/events/28/pages/0/6/Choice/0
+> CONTEXT: Map096/events/55/pages/0/14/Choice/0
+> CONTEXT: Map096/events/55/pages/0/14/Choice/0
 Do not reset
 > END STRING
 
@@ -355,6 +359,8 @@ Do not reset
 リセットする
 > CONTEXT: Map749/events/28/pages/0/6/Choice/1
 > CONTEXT: Map749/events/28/pages/0/6/Choice/1
+> CONTEXT: Map096/events/55/pages/0/14/Choice/1
+> CONTEXT: Map096/events/55/pages/0/14/Choice/1
 Reset
 > END STRING
 
@@ -362,6 +368,7 @@ Reset
 \\name[\\v[2]]\\_
 リセットしたくなったら声をかけてよ。
 > CONTEXT: Map749/events/28/pages/0/8/Dialogue
+> CONTEXT: Map096/events/55/pages/0/16/Dialogue
 \\name[\\v[2]]\\_
 Let me know if you ever want to reset.
 > END STRING
@@ -403,4 +410,17 @@ You must take the lead and protect your allies.
 \\name[\\v[2]]\\_
 Also, the girls seem to like you, 
 so they'd be happy if you could take them with you.
+> END STRING
+
+> BEGIN STRING
+＠灯り15
+> CONTEXT: Map749/events/15/pages/0/0/Comment < UNTRANSLATED
+> CONTEXT: Map209/events/76/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エリスは母様大好きなので内心は嫌がっていない
+> CONTEXT: Map749/events/23/pages/0/42/Comment < UNTRANSLATED
+
 > END STRING
