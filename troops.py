@@ -52,7 +52,7 @@ def process_file(input_file):
 
 if __name__ == "__main__":
     lines = []
-    with open("patch/Classes.txt", 'r', encoding='utf-8') as trans_file:
+    with open("patch/Enemies.txt", 'r', encoding='utf-8') as trans_file:
         lines = trans_file.readlines()
     i = 0
     while i < len(lines):
@@ -80,7 +80,7 @@ if __name__ == "__main__":
             i += 1
 
     
-    process_file("patch/Enemies.txt")
+    #process_file("patch/Enemies.txt")
     #process_file("patch/Classes.txt")
-    #process_file("patch/Troops.txt")
+    process_file("patch/Troops.txt")
     #process_file("mod_scripts.txt")

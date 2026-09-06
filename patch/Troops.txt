@@ -2367,7 +2367,7 @@ Lesser Succubus/5/28, Slave/63/20*
 > BEGIN STRING
 リミテッドスレイヴ/412/35, リミテッドス
 > CONTEXT: Troops/352/name/ < UNTRANSLATED
-
+Limited Slave/412/35, リミテッドス
 > END STRING
 
 > BEGIN STRING
@@ -4883,7 +4883,7 @@ Alraune/126/53*2, Alraune/127/53
 【BOSS】サーヴァント
 > CONTEXT: Troops/878/name/
 > CONTEXT: Troops/892/name/
-【BOSS】Serpent
+【BOSS】Servant
 > END STRING
 
 > BEGIN STRING
@@ -4943,7 +4943,7 @@ Assemble!
 > BEGIN STRING
 【BOSS】スクーグスロー
 > CONTEXT: Troops/887/name/
-【BOSS】Skoogsloh
+【BOSS】Skogsrå
 > END STRING
 
 > BEGIN STRING
@@ -5941,7 +5941,7 @@ Lilim/227/57, Familiar/96/59
 ■常夜・リエーヴァ邸
 > CONTEXT: Troops/1056/name/ < UNTRANSLATED
 > CONTEXT: Enemies/771/name/ < UNTRANSLATED
-
+■常夜・Lieva邸
 > END STRING
 
 > BEGIN STRING
@@ -6039,7 +6039,7 @@ Then... I'll rape you... until you go crazy...\\H」
 > BEGIN STRING
 【BOSS】リエーヴァ乱交
 > CONTEXT: Troops/1067/name/
-【BOSS】Lieva Orgy
+【BOSS】Lieva乱交
 > END STRING
 
 > BEGIN STRING
@@ -6628,7 +6628,7 @@ Explain?
 > BEGIN STRING
 レヴナント/438/68, メデイア/212/66
 > CONTEXT: None < UNUSED
-Revenant/438/68, Medeia/212/66
+Revenant/438/68, Medea/212/66
 > END STRING
 
 > BEGIN STRING
@@ -6646,7 +6646,7 @@ Revenant/438/68, Wonderbox/333/
 > BEGIN STRING
 イノセント/429/67, メデイア/212/66
 > CONTEXT: None < UNUSED
-Innocent/429/67, メデイア/212/66
+Innocent/429/67, Medea/212/66
 > END STRING
 
 > BEGIN STRING
@@ -6664,7 +6664,7 @@ Revenant/438/69
 > BEGIN STRING
 メデイア/212/66, ワンダーボックス/333/70
 > CONTEXT: Troops/1208/name/
-Medeia/212/66, Wonderbox/333/70
+Medea/212/66, Wonderbox/333/70
 > END STRING
 
 > BEGIN STRING
@@ -6676,7 +6676,7 @@ Wonderbox/333/70*2
 > BEGIN STRING
 メデイア/212/66
 > CONTEXT: Troops/1210/name/
-Medeia/212/66
+Medea/212/66
 > END STRING
 
 > BEGIN STRING
@@ -6743,7 +6743,7 @@ Kobold/100/70, Sylph/137/70
 > BEGIN STRING
 コボルト/100/70, メア/74/71
 > CONTEXT: Troops/1222/name/
-Kobold/100/70, Mea/74/71
+Kobold/100/70, Mare/74/71
 > END STRING
 
 > BEGIN STRING
@@ -6761,7 +6761,7 @@ Dryad/126/65, Sylph/137/70
 > BEGIN STRING
 ドライアド/126/65, メア/74/71
 > CONTEXT: Troops/1225/name/
-Dryad/126/65, Mea/74/71
+Dryad/126/65, Mare/74/71
 > END STRING
 
 > BEGIN STRING
@@ -6917,7 +6917,7 @@ Catullus/105/71, Banshee/63/73
 > BEGIN STRING
 カトゥルス/105/71*2
 > CONTEXT: Troops/1255/name/ < UNTRANSLATED
-
+Catullus/105/71*2
 > END STRING
 
 > BEGIN STRING
@@ -7463,7 +7463,7 @@ Banshee/63/78, Nereis/126/78
 > BEGIN STRING
 ネーレイス/126/78, アティーナ/183/79
 > CONTEXT: Troops/1375/name/
-Nereis/126/78, Atina/183/79
+Nereis/126/78, アティーナ/183/79
 > END STRING
 
 > BEGIN STRING
@@ -7572,7 +7572,7 @@ Selous/63/73*3
 > BEGIN STRING
 アセト/156/72*2
 > CONTEXT: Troops/1398/name/ < UNTRANSLATED
-
+Aceto/156/72*2
 > END STRING
 
 > BEGIN STRING
@@ -7584,7 +7584,7 @@ Selous/63/73*3
 > BEGIN STRING
 アセト/156/72, ピアチェレ/178/79
 > CONTEXT: Troops/1400/name/
-アセト/156/72, Piacere/178/79
+Aceto/156/72, Piacere/178/79
 > END STRING
 
 > BEGIN STRING
@@ -7680,7 +7680,7 @@ Amore/177/75, Assassin/175/78
 > BEGIN STRING
 アサシン/175/78, ピアチェレ/178/79
 > CONTEXT: Troops/1419/name/
-Aceto/175/78, Piacere/178/79
+Assassin/175/78, Piacere/178/79
 > END STRING
 
 > BEGIN STRING
@@ -8396,7 +8396,7 @@ Mikael/248/92, Petite Angel/235/91
 > BEGIN STRING
 【BOSS】モリガン＆スルガト
 > CONTEXT: Troops/1576/name/
-【BOSS】Morrigan & Surugato
+【BOSS】Morrigan＆Surugato
 > END STRING
 
 > BEGIN STRING
@@ -8419,57 +8419,9 @@ Mikael/248/92, Petite Angel/235/91
 > END STRING
 
 > BEGIN STRING
-グローア/74/95, サイレント/53/91
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-グローア/74/95, ゾンビサキュバス/320/95
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ダークリリム/165/92, グローア/74/95
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ダークリリム/165/92, サイレント/53/91
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ダークリリム/165/92, ゾンビサキュバス/32
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-サイレント/53/91, ゾンビサキュバス/320/9
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
 ショゴス/86/97
 > CONTEXT: Enemies/1850/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-ショゴス/86/97, ゾンビサキュバス/320/95
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ダークリリム/165/92, ショゴス/86/97
-> CONTEXT: None < UNUSED
-
+Shoggoth/86/97
 > END STRING
 
 > BEGIN STRING
@@ -8482,7 +8434,7 @@ Mikael/248/92, Petite Angel/235/91
 > BEGIN STRING
 【BOSS】淫魔軍師アウローラ
 > CONTEXT: Troops/1580/name/ < UNTRANSLATED
-
+【BOSS】淫魔軍師Aurora
 > END STRING
 
 > BEGIN STRING
@@ -8494,7 +8446,7 @@ Mikael/248/92, Petite Angel/235/91
 > BEGIN STRING
 【BOSS】ネフィリムとカーリー
 > CONTEXT: Troops/1582/name/ < UNTRANSLATED
-
+【BOSS】NephilimとCarly
 > END STRING
 
 > BEGIN STRING
@@ -8520,7 +8472,7 @@ Mikael/248/92, Petite Angel/235/91
 【BOSS】デザイア
 > CONTEXT: Troops/1587/name/ < UNTRANSLATED
 > CONTEXT: Troops/1535/name/ < UNTRANSLATED
-
+【BOSS】Desire
 > END STRING
 
 > BEGIN STRING
@@ -8556,7 +8508,7 @@ Mikael/248/92, Petite Angel/235/91
 > BEGIN STRING
 【BOSS】淫女王アドウェルサ
 > CONTEXT: Troops/1597/name/ < UNTRANSLATED
-
+【BOSS】淫女王Adversa
 > END STRING
 
 > BEGIN STRING
@@ -8574,13 +8526,13 @@ Mikael/248/92, Petite Angel/235/91
 > BEGIN STRING
 ベルゼビュート/180/98*2
 > CONTEXT: Troops/1601/name/ < UNTRANSLATED
-
+Beelzebub/180/98*2
 > END STRING
 
 > BEGIN STRING
 ベルゼビュート/180/98, アスモデ/178/97
 > CONTEXT: Troops/1602/name/ < UNTRANSLATED
-
+Beelzebub/180/98, アスモデ/178/97
 > END STRING
 
 > BEGIN STRING
@@ -8592,25 +8544,25 @@ Mikael/248/92, Petite Angel/235/91
 > BEGIN STRING
 レッサーアスモデ/177/87, グレムリン/532/
 > CONTEXT: Troops/1609/name/ < UNTRANSLATED
-
+レッサーアスモデ/177/87, Gremlin/532/
 > END STRING
 
 > BEGIN STRING
 アサシンサキュバス/175/99, レッサーアス
 > CONTEXT: Troops/1612/name/ < UNTRANSLATED
-
+AssassinSuccubus/175/99, レッサーアス
 > END STRING
 
 > BEGIN STRING
 アサシンサキュバス/175/99, グレムリン/53
 > CONTEXT: Troops/1613/name/ < UNTRANSLATED
-
+AssassinSuccubus/175/99, Gremlin/53
 > END STRING
 
 > BEGIN STRING
 アサシンサキュバス/175/99, ベルゼビュー
 > CONTEXT: Troops/1614/name/ < UNTRANSLATED
-
+AssassinSuccubus/175/99, Belleゼビュー
 > END STRING
 
 > BEGIN STRING
@@ -8622,13 +8574,13 @@ Mikael/248/92, Petite Angel/235/91
 > BEGIN STRING
 イルシオン/209/102, グレムリン/532/94*2
 > CONTEXT: Troops/1616/name/ < UNTRANSLATED
-
+イルシオン/209/102, Gremlin/532/94*2
 > END STRING
 
 > BEGIN STRING
 イルシオン/209/102, ベルゼビュート/180/9
 > CONTEXT: Troops/1617/name/ < UNTRANSLATED
-
+イルシオン/209/102, Beelzebub/180/9
 > END STRING
 
 > BEGIN STRING
@@ -8646,13 +8598,13 @@ Mikael/248/92, Petite Angel/235/91
 > BEGIN STRING
 カーミラ/238/102, グレムリン/532/94*2
 > CONTEXT: Troops/1633/name/ < UNTRANSLATED
-
+カーミラ/238/102, Gremlin/532/94*2
 > END STRING
 
 > BEGIN STRING
 カーミラ/238/102, ベルゼビュート/180/98*
 > CONTEXT: Troops/1634/name/ < UNTRANSLATED
-
+カーミラ/238/102, Beelzebub/180/98*
 > END STRING
 
 > BEGIN STRING
@@ -8664,13 +8616,13 @@ Mikael/248/92, Petite Angel/235/91
 > BEGIN STRING
 アスモデロード/179/108, ベルゼビュート/1
 > CONTEXT: Troops/1636/name/ < UNTRANSLATED
-
+アスモデロード/179/108, Beelzebub/1
 > END STRING
 
 > BEGIN STRING
 アスモデロード/179/108, ベルフェゴール/1
 > CONTEXT: Troops/1637/name/ < UNTRANSLATED
-
+アスモデロード/179/108, Belphegor/1
 > END STRING
 
 > BEGIN STRING
@@ -9310,7 +9262,7 @@ Lilim/156/61*2
 > BEGIN STRING
 【OFE】タマモ
 > CONTEXT: Troops/979/name/
-【OFE】Tamomo
+【OFE】Tamamo
 > END STRING
 
 > BEGIN STRING
@@ -9371,7 +9323,7 @@ Petite Witch/37/60, Werecat/105/77,
 > BEGIN STRING
 【BOSS】フーシェン
 > CONTEXT: Troops/1749/name/ < UNTRANSLATED
-
+【BOSS】Fu Shen
 > END STRING
 
 > BEGIN STRING
@@ -9392,7 +9344,7 @@ Petite Witch/37/60, Werecat/105/77,
 ドラギニャッツォは罵倒の言葉を何度も言い放ってきた！
 > CONTEXT: Troops/1774/pages/0/2/Dialogue < UNTRANSLATED
 > CONTEXT: Troops/1791/pages/0/2/Dialogue < UNTRANSLATED
-
+Draghignazzo hurled numerous insults!
 > END STRING
 
 > BEGIN STRING
@@ -9406,7 +9358,7 @@ Petite Witch/37/60, Werecat/105/77,
 リビコッコは早業でこちらの服を脱がせてきた！
 > CONTEXT: Troops/1775/pages/0/1/Dialogue < UNTRANSLATED
 > CONTEXT: Troops/1792/pages/0/1/Dialogue < UNTRANSLATED
-
+Libicocco quickly managed to take off my clothes!
 > END STRING
 
 > BEGIN STRING
@@ -9420,7 +9372,7 @@ Petite Witch/37/60, Werecat/105/77,
 ファルファレルロは恐怖の呪文を唱えている……。
 > CONTEXT: Troops/1776/pages/0/2/Dialogue < UNTRANSLATED
 > CONTEXT: Troops/1793/pages/0/2/Dialogue < UNTRANSLATED
-
+Farfarello is chanting a terrifying spell...
 > END STRING
 
 > BEGIN STRING
@@ -9442,7 +9394,7 @@ Petite Witch/37/60, Werecat/105/77,
 グラッフィアカーネの興奮が、こちらまで伝わる……！
 > CONTEXT: Troops/1778/pages/0/2/Dialogue < UNTRANSLATED
 > CONTEXT: Troops/1795/pages/0/2/Dialogue < UNTRANSLATED
-
+Graffiacane's excitement is palpable...!
 > END STRING
 
 > BEGIN STRING
@@ -9509,7 +9461,7 @@ Petite Witch/37/60, Werecat/105/77,
 ルビカンテの催眠が思考力を奪う……！
 > CONTEXT: Troops/1784/pages/0/2/Dialogue < UNTRANSLATED
 > CONTEXT: Troops/1801/pages/0/2/Dialogue < UNTRANSLATED
-
+Rubicante's hypnosis takes away ability to think...!
 > END STRING
 
 > BEGIN STRING
@@ -9523,7 +9475,7 @@ Petite Witch/37/60, Werecat/105/77,
 スカルミリオーネの誘惑が、こちらを刺激してくる……！
 > CONTEXT: Troops/1785/pages/0/2/Dialogue < UNTRANSLATED
 > CONTEXT: Troops/1802/pages/0/2/Dialogue < UNTRANSLATED
-
+Scarmiglione's allure is stimulating...!
 > END STRING
 
 > BEGIN STRING
@@ -9549,14 +9501,14 @@ Petite Witch/37/60, Werecat/105/77,
 > BEGIN STRING
 【OFE】ファミリア青, ウィッチクラフト青
 > CONTEXT: Troops/764/name/ < UNTRANSLATED
-
+【OFE】Familiar青, Witchcraft青
 > END STRING
 
 > BEGIN STRING
 ジェネラルフロスト/202/30, ジャックフロ
 > CONTEXT: Troops/766/name/ < UNTRANSLATED
 > CONTEXT: Troops/767/name/ < UNTRANSLATED
-
+General Frost/202/30, ジャックフロ
 > END STRING
 
 > BEGIN STRING
@@ -9607,45 +9559,45 @@ Petite Witch/37/60, Werecat/105/77,
 > BEGIN STRING
 【BOSS】マインデビル, エンプーサ
 > CONTEXT: Troops/1201/name/ < UNTRANSLATED
-
+【BOSS】Mine Devil, Empusa
 > END STRING
 
 > BEGIN STRING
 マインデビル/27/67, レッサーエンプーサ/5
 > CONTEXT: Troops/1202/name/ < UNTRANSLATED
-
+Mine Devil/27/67, Lesser Empusa/5
 > END STRING
 
 > BEGIN STRING
 マインデビル/27/67, マインインプ/22/65
 > CONTEXT: Troops/1203/name/ < UNTRANSLATED
-
+Mine Devil/27/67, Mine Imp/22/65
 > END STRING
 
 > BEGIN STRING
 レッサーエンプーサ/5/65, エンプーサ/10/6
 > CONTEXT: Troops/1204/name/ < UNTRANSLATED
-
+Lesser Empusa/5/65, Empusa/10/6
 > END STRING
 
 > BEGIN STRING
 マインインプ/22/65, エンプーサ/10/67
 > CONTEXT: Troops/1205/name/ < UNTRANSLATED
-
+Mine Imp/22/65, Empusa/10/67
 > END STRING
 
 > BEGIN STRING
 マインデビル/27/68
 > CONTEXT: Troops/1206/name/ < UNTRANSLATED
 > CONTEXT: Enemies/1151/name/ < UNTRANSLATED
-
+Mine Devil/27/68
 > END STRING
 
 > BEGIN STRING
 エンプーサ/10/69
 > CONTEXT: Troops/1207/name/ < UNTRANSLATED
 > CONTEXT: Enemies/1152/name/ < UNTRANSLATED
-
+Empusa/10/69
 > END STRING
 
 > BEGIN STRING
@@ -9657,7 +9609,7 @@ Petite Witch/37/60, Werecat/105/77,
 > BEGIN STRING
 ★★心奪う香り発動以降、4ターン毎にベルフェゴール出現
 > CONTEXT: Troops/1438/pages/1/0/Comment < UNTRANSLATED
-
+★★心奪う香り発動以降、4ターン毎にBelphegor出現
 > END STRING
 
 > BEGIN STRING
@@ -9695,13 +9647,13 @@ Petite Witch/37/60, Werecat/105/77,
 > BEGIN STRING
 【BOSS】デモノロジスト
 > CONTEXT: Troops/1467/name/ < UNTRANSLATED
-
+【BOSS】Demonologist
 > END STRING
 
 > BEGIN STRING
 【BOSS】メフィスト
 > CONTEXT: Troops/1468/name/ < UNTRANSLATED
-
+【BOSS】Mephisto
 > END STRING
 
 > BEGIN STRING
@@ -9749,109 +9701,109 @@ Petite Witch/37/60, Werecat/105/77,
 > BEGIN STRING
 ルシフェル処理
 > CONTEXT: Troops/1504/pages/0/6/Comment < UNTRANSLATED
-
+Lucifer処理
 > END STRING
 
 > BEGIN STRING
 ラファエル処理
 > CONTEXT: Troops/1504/pages/0/16/Comment < UNTRANSLATED
-
+Raphael処理
 > END STRING
 
 > BEGIN STRING
 イブリース/137/89, サイレント/53/89
 > CONTEXT: Troops/1508/name/ < UNTRANSLATED
-
+Iblis/137/89, サイレント/53/89
 > END STRING
 
 > BEGIN STRING
 イブリース/137/89, スクラーヴェ/53/89
 > CONTEXT: Troops/1509/name/ < UNTRANSLATED
-
+Iblis/137/89, スクラーヴェ/53/89
 > END STRING
 
 > BEGIN STRING
 レヴナント/438/91, イブリース/137/89
 > CONTEXT: Troops/1510/name/ < UNTRANSLATED
-
+Revenant/438/91, Iblis/137/89
 > END STRING
 
 > BEGIN STRING
 【BOSS】ワーデン
 > CONTEXT: Troops/1515/name/ < UNTRANSLATED
-
+【BOSS】Warden
 > END STRING
 
 > BEGIN STRING
 【BOSS】サイクロプス
 > CONTEXT: Troops/1525/name/ < UNTRANSLATED
-
+【BOSS】Cyclops
 > END STRING
 
 > BEGIN STRING
 レッサーセラフィム/248/92, エンジェル/23
 > CONTEXT: Troops/1528/name/ < UNTRANSLATED
-
+Lesser Seraphim/248/92, Angel/23
 > END STRING
 
 > BEGIN STRING
 レッサーセラフィム/248/92, プチエンジェ
 > CONTEXT: Troops/1529/name/ < UNTRANSLATED
-
+Lesser Seraphim/248/92, プチエンジェ
 > END STRING
 
 > BEGIN STRING
 レッサーセラフィム/248/92, セラフィム/32
 > CONTEXT: Troops/1530/name/ < UNTRANSLATED
-
+Lesser Seraphim/248/92, Seraphim/32
 > END STRING
 
 > BEGIN STRING
 エンジェル/234/91, セラフィム/325/92
 > CONTEXT: Troops/1532/name/ < UNTRANSLATED
-
+Angel/234/91, Seraphim/325/92
 > END STRING
 
 > BEGIN STRING
 セラフィム/325/92, プチエンジェル/235/91
 > CONTEXT: Troops/1533/name/ < UNTRANSLATED
-
+Seraphim/325/92, Petite Angel/235/91
 > END STRING
 
 > BEGIN STRING
 【BOSS】セラフィムロード
 > CONTEXT: Troops/1538/name/ < UNTRANSLATED
-
+【BOSS】Seraphim Lord
 > END STRING
 
 > BEGIN STRING
 【BOSS】シスターリリム
 > CONTEXT: Troops/1539/name/ < UNTRANSLATED
-
+【BOSS】Sister Lilim
 > END STRING
 
 > BEGIN STRING
 【BOSS】メルビス・バトラー
 > CONTEXT: Troops/1540/name/ < UNTRANSLATED
-
+【BOSS】Melvis・Butler
 > END STRING
 
 > BEGIN STRING
 【BOSS】セツナ・ナデシコ
 > CONTEXT: Troops/1541/name/ < UNTRANSLATED
-
+【BOSS】Setsuna・Nadeshiko
 > END STRING
 
 > BEGIN STRING
 【BOSS】ベル・ソワール
 > CONTEXT: Troops/1542/name/ < UNTRANSLATED
-
+【BOSS】Belle・Soir
 > END STRING
 
 > BEGIN STRING
 【BOSS】ミノタウロス・キマイラ
 > CONTEXT: Troops/1543/name/ < UNTRANSLATED
-
+【BOSS】Minotaur・Chimera
 > END STRING
 
 > BEGIN STRING
@@ -9864,37 +9816,37 @@ Petite Witch/37/60, Werecat/105/77,
 > BEGIN STRING
 【BOSS】天使長ガブリエル
 > CONTEXT: Troops/1555/name/ < UNTRANSLATED
-
+【BOSS】天使長Gabriel
 > END STRING
 
 > BEGIN STRING
 【BOSS】デルモア・イーザル
 > CONTEXT: Troops/1560/name/ < UNTRANSLATED
-
+【BOSS】Delmore・Izal
 > END STRING
 
 > BEGIN STRING
 【BOSS】デルモア単体
 > CONTEXT: Troops/1561/name/ < UNTRANSLATED
-
+【BOSS】Delmore単体
 > END STRING
 
 > BEGIN STRING
 【BOSS】イーザル単体
 > CONTEXT: Troops/1562/name/ < UNTRANSLATED
-
+【BOSS】Izal単体
 > END STRING
 
 > BEGIN STRING
 ヴィクセンメイド/1945/75
 > CONTEXT: Troops/1721/name/ < UNTRANSLATED
-
+Vixen Maid/1945/75
 > END STRING
 
 > BEGIN STRING
 【BOSS】イチリア
 > CONTEXT: Troops/1722/name/ < UNTRANSLATED
-
+【BOSS】Ichilia
 > END STRING
 
 > BEGIN STRING
@@ -9918,7 +9870,7 @@ Petite Witch/37/60, Werecat/105/77,
 > BEGIN STRING
 【BOSS】桜華
 > CONTEXT: Troops/1764/name/ < UNTRANSLATED
-
+【BOSS】Sakura
 > END STRING
 
 > BEGIN STRING
@@ -9931,13 +9883,13 @@ Petite Witch/37/60, Werecat/105/77,
 > BEGIN STRING
 赤鬼/578/70, 青鬼/579/70
 > CONTEXT: Troops/1766/name/ < UNTRANSLATED
-
+Red Oni/578/70, Blue Oni/579/70
 > END STRING
 
 > BEGIN STRING
 デザイア/526/110*2
 > CONTEXT: Troops/1767/name/ < UNTRANSLATED
-
+Desire/526/110*2
 > END STRING
 
 > BEGIN STRING
