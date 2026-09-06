@@ -5,6 +5,7 @@
 ラボに戻ります。ご注意ください。
 > CONTEXT: Map007/events/3/pages/0/6/Dialogue < UNTRANSLATED
 > CONTEXT: Map007/events/3/pages/0/6/Dialogue < UNTRANSLATED
+> CONTEXT: Map073/events/9/pages/0/6/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -73,16 +74,14 @@
 \\name[\\v[2]]\\_
 へ～え。
 天国行きが決まったんだって？
-> CONTEXT: Map007/events/6/pages/1/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map007/events/6/pages/1/1/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そいつぁ良かったじゃねぇか！
-> CONTEXT: Map007/events/6/pages/1/4/Dialogue < UNTRANSLATED
-> CONTEXT: Map007/events/6/pages/1/4/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -90,8 +89,7 @@
 \\name[\\v[2]]\\_
 脱獄囚が出たと聞いたが、
 そいつらめちゃくちゃ強いんだってな？
-> CONTEXT: Map007/events/6/pages/2/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map007/events/6/pages/2/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map007/events/6/pages/5/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -99,8 +97,7 @@
 \\name[\\v[2]]\\_
 あんた、その２人に勝ったことあるのかよ！？
 そりゃあ、スゲーな。
-> CONTEXT: Map007/events/6/pages/2/4/Dialogue < UNTRANSLATED
-> CONTEXT: Map007/events/6/pages/2/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map007/events/6/pages/5/4/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -108,8 +105,7 @@
 \\name[\\v[2]]\\_
 けどよ、２人いっぺんに
 戦ったわけではないんだろ？
-> CONTEXT: Map007/events/6/pages/2/7/Dialogue < UNTRANSLATED
-> CONTEXT: Map007/events/6/pages/2/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map007/events/6/pages/5/7/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -117,16 +113,14 @@
 \\name[\\v[2]]\\_
 あの２人がタッグを組めば、
 たとえあんたでも太刀打ちできないだろうさ。
-> CONTEXT: Map007/events/6/pages/2/10/Dialogue < UNTRANSLATED
-> CONTEXT: Map007/events/6/pages/2/10/Dialogue < UNTRANSLATED
+> CONTEXT: Map007/events/6/pages/5/10/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 誰かに助けを求めたりしない限り……な。
-> CONTEXT: Map007/events/6/pages/2/13/Dialogue < UNTRANSLATED
-> CONTEXT: Map007/events/6/pages/2/13/Dialogue < UNTRANSLATED
+> CONTEXT: Map007/events/6/pages/5/13/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -134,8 +128,7 @@
 \\name[\\v[2]]\\_
 へえ。
 あんた、生きて帰れるようになったんだってな。
-> CONTEXT: Map007/events/6/pages/3/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map007/events/6/pages/3/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map007/events/6/pages/6/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -143,8 +136,7 @@
 \\name[\\v[2]]\\_
 そんな奴ぁ、いつぶりだろうな。
 さぞ、血の滲む努力をされたんだろう。
-> CONTEXT: Map007/events/6/pages/3/4/Dialogue < UNTRANSLATED
-> CONTEXT: Map007/events/6/pages/3/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map007/events/6/pages/6/4/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -152,8 +144,7 @@
 \\name[\\v[2]]\\_
 大したもんだ。
 ま、達者でな！
-> CONTEXT: Map007/events/6/pages/3/7/Dialogue < UNTRANSLATED
-> CONTEXT: Map007/events/6/pages/3/7/Dialogue < UNTRANSLATED
+> CONTEXT: Map007/events/6/pages/6/7/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -161,5 +152,54 @@
 002-Wind02
 > CONTEXT: Map007/bgs/name/ < UNTRANSLATED
 > CONTEXT: Map007/bgs/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★ハザマノセカイで異世界編初期化フラグを起動しても
+セルフスイッチが初期化されないため、ここで初期化
+> CONTEXT: Map007/events/5/pages/0/67/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+へ～え。
+天国行きが決まったんだって？
+そいつぁ良かったじゃねぇか！
+> CONTEXT: Map007/events/6/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+けど、昇降機が合って、遠回りになるんだってな。
+なにかあったら助けになるぜ！
+> CONTEXT: Map007/events/6/pages/1/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+下界を突破したんだってな。
+そこまで送ってやるけど、どうだい？
+> CONTEXT: Map007/events/6/pages/2/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+天界まであと一歩のところ
+だったんだってな。
+そこまで送ってやるけど、どうだい？
+> CONTEXT: Map007/events/6/pages/3/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+昇降機が再開したんだってな。
+もうそこから乗って上がればよくね？
+> CONTEXT: Map007/events/6/pages/4/1/Dialogue < UNTRANSLATED
 
 > END STRING

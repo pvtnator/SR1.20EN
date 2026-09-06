@@ -16,18 +16,11 @@
 > BEGIN STRING
 "ジュデンシア"
 > CONTEXT: Commonevents/138/0/InlineScript/1:26
-> CONTEXT: Map073/events/2/pages/1/2/InlineScript/1:22
-> CONTEXT: Map073/events/2/pages/1/2/InlineScript/1:22
-> CONTEXT: Map073/events/2/pages/2/2/InlineScript/1:22
-> CONTEXT: Map073/events/2/pages/2/2/InlineScript/1:22
-> CONTEXT: Map073/events/2/pages/3/2/InlineScript/1:22
-> CONTEXT: Map073/events/2/pages/3/2/InlineScript/1:22
-> CONTEXT: Map073/events/2/pages/4/2/InlineScript/1:22
-> CONTEXT: Map073/events/2/pages/4/2/InlineScript/1:22
 > CONTEXT: Map073/events/4/pages/0/0/InlineScript/1:22
 > CONTEXT: Map073/events/4/pages/0/0/InlineScript/1:22
 > CONTEXT: Map062/events/9/pages/0/0/InlineScript/3:22
 > CONTEXT: Map062/events/9/pages/0/0/InlineScript/3:22
+> CONTEXT: Map073/events/2/pages/1/0/InlineScript/1:22
 "Judencia"
 > END STRING
 
@@ -35,8 +28,7 @@
 \\name[\\v[3]]\\_
 \\n[101]様……、本日は貴方にとって
 重要な人物の裁きが下ると聞いています。
-> CONTEXT: Map073/events/2/pages/2/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map073/events/2/pages/2/3/Dialogue < UNTRANSLATED
+> CONTEXT: Map073/events/6/pages/2/3/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -44,8 +36,7 @@
 \\name[\\v[3]]\\_
 是非、審判の様子を覗いてみては
 いかがでしょうか？
-> CONTEXT: Map073/events/2/pages/2/6/Dialogue < UNTRANSLATED
-> CONTEXT: Map073/events/2/pages/2/6/Dialogue < UNTRANSLATED
+> CONTEXT: Map073/events/6/pages/2/6/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -53,8 +44,7 @@
 \\name[\\v[2]]\\_
 さあ、こちらがお部屋ですわ。
 ごゆっくりおくつろぎ下さいませ。
-> CONTEXT: Map073/events/4/pages/0/4/Dialogue < UNTRANSLATED
-> CONTEXT: Map073/events/4/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Map073/events/4/pages/0/6/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -63,7 +53,391 @@
 あ、そうそう。
 夢世界との間のワープでしたら
 朝飯前ですから、いつでもお声がけくださいね。
-> CONTEXT: Map073/events/4/pages/0/7/Dialogue < UNTRANSLATED
-> CONTEXT: Map073/events/4/pages/0/7/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
+
+> END STRING
+
+> BEGIN STRING
+"★クリア済"
+> CONTEXT: Map073/events/2/pages/1/9/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map073/events/2/pages/1/13/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map073/events/2/pages/1/17/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map073/events/2/pages/1/21/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map073/events/2/pages/1/25/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map073/events/2/pages/1/29/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map073/events/2/pages/1/33/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+イイコトに関して、聞きたいことはありますか？
+> CONTEXT: Map073/events/2/pages/1/37/Dialogue < UNTRANSLATED
+> CONTEXT: Map073/events/2/pages/1/78/Dialogue < UNTRANSLATED
+> CONTEXT: Map073/events/2/pages/1/117/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セツナ・ナデシコ　\\v[3]
+> CONTEXT: Map073/events/2/pages/1/39/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+シスターリリム　\\v[4]
+> CONTEXT: Map073/events/2/pages/1/39/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メルビス　\\v[5]
+> CONTEXT: Map073/events/2/pages/1/39/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+次の情報へ
+> CONTEXT: Map073/events/2/pages/1/39/Choice/3 < UNTRANSLATED
+> CONTEXT: Map073/events/2/pages/1/80/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★
+★　セツナ・ナデシコ
+★
+> CONTEXT: Map073/events/2/pages/1/41/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+セツナとナデシコは、
+１階南西にある訓練室で、
+修行に励んでいますわ。
+> CONTEXT: Map073/events/2/pages/1/44/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+居合で構えられている時に
+近づくのはなかなか難しいでしょう。
+> CONTEXT: Map073/events/2/pages/1/48/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★
+★　シスターリリム
+★
+> CONTEXT: Map073/events/2/pages/1/53/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+シスターリリムは、
+１階北西から更に進んだ、
+礼拝堂に仕えていますわ。
+> CONTEXT: Map073/events/2/pages/1/56/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+いざとなったら集団で纏まって
+襲ってきますから、注意する事です。
+> CONTEXT: Map073/events/2/pages/1/60/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★
+★　メルビス
+★
+> CONTEXT: Map073/events/2/pages/1/65/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+メルビスは、この城にいる唯一の淫魔にございます。
+このすぐ隣の客室にて
+執事とお仕事をなさっているようです。
+> CONTEXT: Map073/events/2/pages/1/68/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やることをやっていなければ
+快楽を与える事はできませんので
+ご留意くださいませ。
+> CONTEXT: Map073/events/2/pages/1/72/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミノタウロス・キマイラ　\\v[6]
+> CONTEXT: Map073/events/2/pages/1/80/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベル・ソワール　\\v[7]
+> CONTEXT: Map073/events/2/pages/1/80/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イヅナ　\\v[8]
+> CONTEXT: Map073/events/2/pages/1/80/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★
+★　ミノタウロス・キマイラ
+★
+> CONTEXT: Map073/events/2/pages/1/82/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ミノタウロスとキマイラは、
+１階の東通路内にある戦略会議室に
+いるようです。
+> CONTEXT: Map073/events/2/pages/1/85/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なんでも、作戦遂行のために
+強者を欲しているのだとか。
+> CONTEXT: Map073/events/2/pages/1/89/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★
+★　ベル・ソワール
+★
+> CONTEXT: Map073/events/2/pages/1/94/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ベルとソワールは、中庭を突っ切って、
+中央北の資料室で読書に勤しんでいますわ。
+> CONTEXT: Map073/events/2/pages/1/97/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+最初は話しかけても反応がないと思いますが、
+何度も話しかければ、やがて気づくでしょう。
+……ほどほどにした方が良いかもしれませんが。
+> CONTEXT: Map073/events/2/pages/1/100/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★
+★　イヅナ
+★
+> CONTEXT: Map073/events/2/pages/1/106/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+イヅナは中庭にいるという情報を
+掴んでいます。
+> CONTEXT: Map073/events/2/pages/1/109/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+狐のようですが、内気なせいで
+誰かに化けていないと人前に出られないとか。
+> CONTEXT: Map073/events/2/pages/1/112/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セラフィムロード　\\v[9]
+> CONTEXT: Map073/events/2/pages/1/119/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+元に戻る
+> CONTEXT: Map073/events/2/pages/1/119/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★
+★　セラフィムロード
+★
+> CONTEXT: Map073/events/2/pages/1/121/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+セラフィムロードは、１階北東を更に奥に進んだ
+秘湯におられます。
+> CONTEXT: Map073/events/2/pages/1/124/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+途中に脱衣所があるので
+裸同士で付き合う事になろうかと思われますので
+ご容赦くださいね。
+> CONTEXT: Map073/events/2/pages/1/127/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あ、そうそう。
+夢世界との間のワープでしたら
+そちらのメイドに、いつでもお声がけくださいね。
+> CONTEXT: Map073/events/4/pages/0/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+5：現在地が大天使の城
+> CONTEXT: Map073/events/6/pages/1/0/Comment < UNTRANSLATED
+> CONTEXT: Map073/events/6/pages/2/0/Comment < UNTRANSLATED
+> CONTEXT: Map073/events/6/pages/3/0/Comment < UNTRANSLATED
+> CONTEXT: Map073/events/6/pages/4/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"A：ON"
+> CONTEXT: Map073/events/8/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"A：OFF"
+> CONTEXT: Map073/events/8/pages/0/5/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"B：ON"
+> CONTEXT: Map073/events/8/pages/0/9/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"B：OFF"
+> CONTEXT: Map073/events/8/pages/0/12/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"C：ON"
+> CONTEXT: Map073/events/8/pages/0/16/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"C：OFF"
+> CONTEXT: Map073/events/8/pages/0/19/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"D：ON"
+> CONTEXT: Map073/events/8/pages/0/23/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"D：OFF"
+> CONTEXT: Map073/events/8/pages/0/26/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【セルフスイッチ】
+\\v[2]　\\v[3]
+\\v[4]　\\v[5]
+> CONTEXT: Map073/events/8/pages/0/29/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+reset_all
+> CONTEXT: Map073/events/8/pages/0/32/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+clear
+> CONTEXT: Map073/events/8/pages/0/32/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セルフスイッチの変更
+> CONTEXT: Map073/events/8/pages/0/32/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+なし
+> CONTEXT: Map073/events/8/pages/0/32/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セルフスイッチリセットが完了しました
+> CONTEXT: Map073/events/8/pages/0/36/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セルフスイッチクリアが完了しました
+> CONTEXT: Map073/events/8/pages/0/40/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+Aは？
+> CONTEXT: Map073/events/8/pages/0/43/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+Bは？
+> CONTEXT: Map073/events/8/pages/0/52/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+Cは？
+> CONTEXT: Map073/events/8/pages/0/61/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+Dは？
+> CONTEXT: Map073/events/8/pages/0/70/Dialogue < UNTRANSLATED
 
 > END STRING

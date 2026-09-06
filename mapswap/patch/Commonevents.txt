@@ -2548,6 +2548,8 @@ BGMの変更をキャンセルしました。
 > CONTEXT: Commonevents/102/153/Choice/3 < UNTRANSLATED
 > CONTEXT: Commonevents/102/323/Choice/3 < UNTRANSLATED
 > CONTEXT: Commonevents/102/359/Choice/3 < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/77/Comment < UNTRANSLATED
+> CONTEXT: Map227/events/12/pages/0/458/Comment < UNTRANSLATED
 
 > END STRING
 
@@ -3229,64 +3231,67 @@ while in the alternate reality.
 \\name[\\v[2]]\\_
 またいつでもどうぞ。
 > CONTEXT: Commonevents/138/8/Dialogue < UNTRANSLATED
+> CONTEXT: Map073/events/2/pages/1/136/Dialogue < UNTRANSLATED
+> CONTEXT: Map073/events/2/pages/1/142/Dialogue < UNTRANSLATED
+> CONTEXT: Map073/events/2/pages/1/148/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\n[101]が先頭でないと
 行く事ができません。
-> CONTEXT: Commonevents/138/19/Dialogue < UNTRANSLATED
+> CONTEXT: Commonevents/138/20/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "ホーム"
-> CONTEXT: Commonevents/138/29/InlineScript/1:26 < UNTRANSLATED
+> CONTEXT: Commonevents/138/42/InlineScript/1:26 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "\#{$game_actors[101].name}邸"
-> CONTEXT: Commonevents/138/37/InlineScript/2:2 < UNTRANSLATED
+> CONTEXT: Commonevents/138/50/InlineScript/2:2 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "銀色の都市"
-> CONTEXT: Commonevents/138/46/InlineScript/1:26 < UNTRANSLATED
+> CONTEXT: Commonevents/138/59/InlineScript/1:26 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "常夜の街"
-> CONTEXT: Commonevents/138/54/InlineScript/1:26 < UNTRANSLATED
+> CONTEXT: Commonevents/138/67/InlineScript/1:26 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "シークレットラボ"
-> CONTEXT: Commonevents/138/62/InlineScript/1:26 < UNTRANSLATED
+> CONTEXT: Commonevents/138/75/InlineScript/1:26 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "大天使の城"
-> CONTEXT: Commonevents/138/70/InlineScript/1:26 < UNTRANSLATED
+> CONTEXT: Commonevents/138/83/InlineScript/1:26 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "Another_World"
-> CONTEXT: Commonevents/138/70/InlineScript/2:28 < UNTRANSLATED
-> CONTEXT: Commonevents/138/78/InlineScript/2:28 < UNTRANSLATED
 > CONTEXT: Commonevents/341/62/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Commonevents/345/21/InlineScript/1:27 < UNTRANSLATED
+> CONTEXT: Commonevents/138/83/InlineScript/2:28 < UNTRANSLATED
+> CONTEXT: Commonevents/138/91/InlineScript/2:28 < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "淫界"
-> CONTEXT: Commonevents/138/78/InlineScript/1:26 < UNTRANSLATED
+> CONTEXT: Commonevents/138/91/InlineScript/1:26 < UNTRANSLATED
 
 > END STRING
 
@@ -4238,6 +4243,10 @@ Sweet dreams.
 > CONTEXT: Commonevents/145/5/InlineScript/2:22 < UNTRANSLATED
 > CONTEXT: Commonevents/145/10/InlineScript/1:22 < UNTRANSLATED
 > CONTEXT: Commonevents/145/14/InlineScript/2:22 < UNTRANSLATED
+> CONTEXT: Map898/events/24/pages/0/17/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map876/events/32/pages/0/2/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map876/events/32/pages/0/21/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map749/events/22/pages/0/17/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
 
@@ -4247,6 +4256,10 @@ Sweet dreams.
 > CONTEXT: Commonevents/145/5/InlineScript/1:22 < UNTRANSLATED
 > CONTEXT: Commonevents/145/10/InlineScript/2:22 < UNTRANSLATED
 > CONTEXT: Commonevents/145/14/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map898/events/24/pages/0/23/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map876/events/32/pages/0/5/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map876/events/32/pages/0/24/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map749/events/22/pages/0/23/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
 
@@ -8329,5 +8342,3229 @@ It makes pregnancy possible, rune death.
 > BEGIN STRING
 "map_name_mod_jenonbase"
 > CONTEXT: Commonevents/14/757/InlineScript/2:21 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■コピー用
+---------------------------------------------------
+> CONTEXT: Commonevents/1/1/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+使い方：CI場所移動１→場所移動→CI場所移動２
+> CONTEXT: Commonevents/3/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+採取中処理。採取効率上昇スキル持ちがいると、ループが減少。
+今は暫定的に２ループ。
+> CONTEXT: Commonevents/5/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■MOD曲が設定されている場合は公式通常曲に変更
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/9/58/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+敗北時以外はここでアナウンス
+> CONTEXT: Commonevents/9/106/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/16/179/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/232/132/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/238/77/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/248/132/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/256/144/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/340/120/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+雪原の隠れ里変数処理
+> CONTEXT: Commonevents/10/33/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+全採取ポイント終了スイッチを解除
+> CONTEXT: Commonevents/12/29/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/27/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■夢の拠点
+---------------------------------------------------
+> CONTEXT: Commonevents/13/1/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■混濁した夢世界　Lv.3
+---------------------------------------------------
+> CONTEXT: Commonevents/13/22/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/16/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■パルフィス密教会 Lv.8
+---------------------------------------------------
+> CONTEXT: Commonevents/13/41/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/32/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■ホームポート
+---------------------------------------------------
+> CONTEXT: Commonevents/13/61/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/40/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■夢の拠点（製品版）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/88/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/48/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■教会図書館
+---------------------------------------------------
+> CONTEXT: Commonevents/13/105/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/56/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■シルフェ屋敷
+---------------------------------------------------
+> CONTEXT: Commonevents/13/124/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/71/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■月明かりの樹海（低級１）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/148/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/79/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■月明かりの樹海（上級１）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/170/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/87/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■月明かりの樹海（上級２）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/185/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/95/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■闇洞窟（低級１）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/203/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/103/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/122/5/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■闇洞窟（低級２）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/222/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/111/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/122/12/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■闇洞窟（上級１）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/241/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/119/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/122/19/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■闇洞窟（上級２）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/268/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/263/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■パルフィス密教会（中級１）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/283/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/135/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■パルフィス密教会（中級２）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/300/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/143/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■パルフィス密教会（上級１）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/317/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/151/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■パルフィス密教会（上級２）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/335/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/159/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■獄界オルデオ（上級１）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/358/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/167/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■獄界オルデオ（上級２）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/381/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/175/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■獄界オルデオ（上級３）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/400/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/183/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■獄界オルデオ（上級４）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/421/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/191/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■魔城トゥーロマンサ（上級１）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/440/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/199/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■魔城トゥーロマンサ（上級２）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/470/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/207/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■魔城トゥーロマンサ（上級３）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/487/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/215/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■魔城トゥーロマンサ（上級４）
+---------------------------------------------------
+> CONTEXT: Commonevents/13/517/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/223/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■外れの地
+---------------------------------------------------
+> CONTEXT: Commonevents/13/550/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/231/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■氷結図書館
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/13/559/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/14/429/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■雪原の隠れ里
+--------------------------------------------------
+> CONTEXT: Commonevents/13/566/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■平原と丘
+--------------------------------------------------
+> CONTEXT: Commonevents/13/581/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/13/593/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/13/599/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■記憶のかけら
+--------------------------------------------------
+> CONTEXT: Commonevents/13/587/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■ロウラット邸
+--------------------------------------------------
+> CONTEXT: Commonevents/13/605/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■雪国
+--------------------------------------------------
+> CONTEXT: Commonevents/13/611/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■天上界
+--------------------------------------------------
+> CONTEXT: Commonevents/13/617/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■銀の町
+--------------------------------------------------
+> CONTEXT: Commonevents/13/623/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■常夜の街
+--------------------------------------------------
+> CONTEXT: Commonevents/13/629/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■追憶の魔王城
+--------------------------------------------------
+> CONTEXT: Commonevents/13/635/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■追憶の密協会②
+--------------------------------------------------
+> CONTEXT: Commonevents/13/641/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■追憶の密協会③
+--------------------------------------------------
+> CONTEXT: Commonevents/13/647/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■シルフェ屋敷
+--------------------------------------------------
+> CONTEXT: Commonevents/13/653/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■ラボ
+--------------------------------------------------
+> CONTEXT: Commonevents/13/659/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■フリールーム用一括
+--------------------------------------------------
+> CONTEXT: Commonevents/13/665/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■爛柯の里
+---------------------------
+> CONTEXT: Commonevents/13/671/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■混濁した夢世界　Lv.1
+---------------------------------------------------
+> CONTEXT: Commonevents/14/8/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■混濁した夢世界　Lv.5
+---------------------------------------------------
+> CONTEXT: Commonevents/14/24/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■闇洞窟（上級２）　ゴブリンタウン
+---------------------------------------------------
+> CONTEXT: Commonevents/14/127/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■麓町レンディカ
+---------------------------------------------------
+> CONTEXT: Commonevents/14/239/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■ラーミルの家
+---------------------------------------------------
+> CONTEXT: Commonevents/14/247/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■混濁したレンディカ
+---------------------------------------------------
+> CONTEXT: Commonevents/14/255/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■外れの地（低級）
+---------------------------------------------------
+> CONTEXT: Commonevents/14/271/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■混濁した夢世界（製品版）
+---------------------------------------------------
+> CONTEXT: Commonevents/14/279/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■浅き夢の瀬
+---------------------------------------------------
+> CONTEXT: Commonevents/14/287/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■ラーミルテリトリー
+---------------------------------------------------
+> CONTEXT: Commonevents/14/295/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■闇洞窟Lv12
+---------------------------------------------------
+> CONTEXT: Commonevents/14/303/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■鏡の世界 Lv47
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/311/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■夢魔の遊技場
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/320/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■平原と丘
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/329/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■夢のかけら Lv60
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/338/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■深淵の樹海Lv58
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/347/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■天上界
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/356/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■銀色の都市
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/365/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■常夜の街
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/374/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■追憶の夢世界 Lv70
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/383/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■彼岸の森 Lv64
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/392/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■ハザマノセカイ Lv70
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/401/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■氷結図書館へ続く雪原 Lv25
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/410/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■氷結図書館へ続く洞窟 Lv25
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/420/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■爛柯の里
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/438/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■丘の峡谷 Lv60
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/447/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■平原の崖 Lv60
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/456/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■台地の館(平原と丘最深部)
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/466/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■カタコンベ Lv70
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/476/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■隔離施設 Lv70
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/485/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■戦士館 Lv85
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/495/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■彼岸の森 Lv99
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/505/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■禁書庫 Lv99
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/514/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■ラボラトリー Lv99
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/523/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■シークレットラボ
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/532/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■悠久の庭園
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/541/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■アジトへの道 Lv72
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/550/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■モリガンのアジト
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/560/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■強欲 Lv75
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/569/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■嫉妬 Lv75
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/578/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■色欲 Lv75
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/587/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■怠惰 Lv75
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/596/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■憤怒 Lv75
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/605/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■暴食 Lv75
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/614/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■傲慢 Lv75
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/623/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■ジェノン雪渓 Lv80
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/632/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■静寂の館 Lv83
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/642/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■深海宮殿 Lv82
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/652/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■聖地ラハスヤ Lv81
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/662/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■地下書庫 Lv85
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/671/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■マレブランケ
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/680/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■黄昏の王宮 Lv89
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/689/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■審判の塔 Lv90
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/699/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■淫界 Lv95
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/708/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■夢魔の隠れ家
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/717/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■雪原の隠れ里
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/726/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■大天使の城
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/742/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■ジェノン雪渓麓 Lv80
+--------------------------------------------------
+-
+> CONTEXT: Commonevents/14/752/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+開始前にリセットしておく
+> CONTEXT: Commonevents/16/1/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/28/6/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/41/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+経験値処理
+> CONTEXT: Commonevents/16/33/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/16/78/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/16/123/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/16/163/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+妊娠処理
+> CONTEXT: Commonevents/16/40/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/16/85/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/16/130/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/16/170/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/28/85/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/28/150/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+遊技場脱出処理
+> CONTEXT: Commonevents/16/49/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/16/94/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/16/139/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ランクアップ確認
+タグ「ランクアップ」で検索(コールサイン44)
+ステップ１が開始前、２で開始、３で終了。
+ステップ４がランクアップ拒否となる。
+> CONTEXT: Commonevents/17/1/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■　事前処理　■
+---------------------------------------------------
+> CONTEXT: Commonevents/17/80/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/59/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■　ランクアップ処理　■
+---------------------------------------------------
+> CONTEXT: Commonevents/17/87/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/59/7/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■　ランクアップアニメーション処理　■
+---------------------------------------------------
+> CONTEXT: Commonevents/17/90/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+落とし穴先がゴブリンタウンの場合、マップ名を表示
+> CONTEXT: Commonevents/18/48/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■　デバッグアイテム
+---------------------------------------------------
+> CONTEXT: Commonevents/20/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■　０：夢の魔力の扉
+---------------------------------------------------
+> CONTEXT: Commonevents/20/10/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■　１：魔女の鍵の扉
+---------------------------------------------------
+> CONTEXT: Commonevents/20/31/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■　２：暗闇で開く扉
+---------------------------------------------------
+> CONTEXT: Commonevents/20/52/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+チェックフラグを立てる
+> CONTEXT: Commonevents/21/0/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/101/0/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/369/0/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/370/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テキストを作る
+> CONTEXT: Commonevents/21/5/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/101/5/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/369/5/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/370/5/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リザルト表示
+> CONTEXT: Commonevents/21/9/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/101/9/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/369/9/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/370/9/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■　事前処理　■
+主人公と契約夢魔の名前を取得
+主人公     ：　変数[2]
+契約夢魔  ：　変数[3]
+※対象が複数の場合、最後のターゲットしか取得できません。
+---------------------------------------------------
+> CONTEXT: Commonevents/28/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メッセージタグ($msg.tag)を「契約」に、
+メッセージコールサイン($msg.callsign)を「40」に
+(戦闘開始・終了口上ツリーから呼び出す)
+> CONTEXT: Commonevents/28/8/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トークステップ($msg.talk_step)で契約推移を管理する
+１：契約開始
+２：契約締結(同行する)
+３：契約締結(拠点に送る)
+４：契約を結ばない
+> CONTEXT: Commonevents/28/11/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\# ▼子作りMOD▼
+> CONTEXT: Commonevents/28/29/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+妊娠フラグが立っていればMODのテキスト
+立っていなければ公式のテキスト
+> CONTEXT: Commonevents/28/30/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\# ▲子作りMOD▲
+> CONTEXT: Commonevents/28/41/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#パーティがすでにいっぱいの場合
+> CONTEXT: Commonevents/28/52/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#-------------------------------------------------\#
+> CONTEXT: Commonevents/28/76/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/28/141/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/28/206/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/28/223/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+開発度処理
+> CONTEXT: Commonevents/28/88/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/28/153/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+引き継ぎ戦の夢魔を契約した場合、
+引き継ぎアクター欄から外す。
+> CONTEXT: Commonevents/28/97/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/28/162/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+名前入力処理用
+> CONTEXT: Commonevents/28/106/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/28/172/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#夢魔加入時点で、拠点許容数になった場合
+> CONTEXT: Commonevents/28/130/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/28/195/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■１つの文章コマンドに入る文字量
+非戦闘時：大体３０字まで×４行
+（横をフルに使うと読みづらいので、適度に改行すること）
+戦闘時：大体２０字ちょいまで×４行
+（誰かが喋る場合、１行目を名前で使うために注意）
+---------------------------------------------------
+> CONTEXT: Commonevents/30/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■制御文字（よく使うものだけ掲載）
+\\H：ハートマーク　\\B：太字ON/OFF　\\I：斜体ON/OFF
+\\_：直後の改行無視　\\n：改行　\\v[n]：変数n番表示
+\\.：1/4Fウェイト　\\|：１秒ウェイト　\\!：決定キー入力を待つ。
+\\name[n]：nの単語をネームプレートにして出す。※
+※これは戦闘には使わない。マップ用。
+> CONTEXT: Commonevents/30/6/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+その他　→　http://xrxs.at-ninja.jp/No9x.htm
+---------------------------------------------------
+> CONTEXT: Commonevents/30/12/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■口上の文章体裁
+・誰かが喋る時は１行目に名前を入れて２行目から「」で喋らせる。
+・「」内で改行した場合、行の１文字目に全角スペースを入れる。
+・」、）など、括弧を閉じる前には「。」を付けない。
+> CONTEXT: Commonevents/30/14/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+例：
+主人公
+「隣の客は、よく柿食う客だ。
+　赤サキュバス、青サキュバス、黄サキュバス」
+---------------------------------------------------
+> CONTEXT: Commonevents/30/18/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■※注意※
+半角スペースを入れるとハートマークに変わる謎のバグが発生中。
+半角スペースは文章中にいれないこと。また、見分けが付かない
+のでハートマークを入れる時は半角スペースを使わずに、従来の
+制御文字で書くこと。
+> CONTEXT: Commonevents/30/23/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■　事前処理　■
+口上を呼び出す夢魔を取得
+⇒取得した夢魔ツリーから口上を呼び出し格納する
+(スクリプトエディタ内で処理)
+★コモンイベントスキル（連携口上に対応/ハザマ完結MOD
+-------------------------------------------------
+> CONTEXT: Commonevents/31/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■ここからトーク口上開始。
+事前にコールした口上を文章量に応じて逐次出力
+---------------------------------------------------
+> CONTEXT: Commonevents/31/13/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■戦闘中の場合、トーキングエネミーを表示
+> CONTEXT: Commonevents/31/34/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+会話の表示が終わったらタグを空白に戻しておく
+> CONTEXT: Commonevents/31/61/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+掛け合いフラグスイッチを下げておく
+> CONTEXT: Commonevents/32/2/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+会話パターンが簡易表示の場合、絶頂処理のみ表示する
+> CONTEXT: Commonevents/32/5/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+絶頂時参加夢魔が２人以上なら掛け合いフラグを立てる
+> CONTEXT: Commonevents/32/7/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/33/7/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+★ステップ２～４：連携した夢魔の口上★
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+> CONTEXT: Commonevents/32/10/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+３人以上は参加しないはずなので、カウント３で止める
+> CONTEXT: Commonevents/32/23/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/33/26/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+★ステップ７：攻撃した夢魔の追撃の口上★
+ 　攻撃した夢魔が挿入タイプのホールド中のみ発生する
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+> CONTEXT: Commonevents/32/43/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+♂か♀がホールド中で攻撃した夢魔にホールドされている場合
+> CONTEXT: Commonevents/32/56/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/34/65/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+★ステップ９：攻撃した夢魔のとどめの口上★
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+> CONTEXT: Commonevents/32/59/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/34/68/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+★ステップ５０：絶頂アナウンス★
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+> CONTEXT: Commonevents/32/66/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+★絶頂処理★
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+> CONTEXT: Commonevents/32/71/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/34/86/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★***********************************************
+★ 終了後処理/202208skMOD
+★ コモンイベントスキル中に絶頂すると
+★ 処理中断される事に伴う対応
+★***********************************************
+> CONTEXT: Commonevents/32/77/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+会話パターンが簡易表示の場合、敗北処理のみ表示する
+> CONTEXT: Commonevents/33/5/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+★ステップ１０：攻撃した夢魔の余韻口上★
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+> CONTEXT: Commonevents/33/8/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+★ステップ１１～１３：連携した夢魔の口上★
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+> CONTEXT: Commonevents/33/13/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+★ステップ２０～３０：攻撃した夢魔の余韻後行動の口上★
+   対象のEPが０か否か、ホールド中なら継続か否かで分岐
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+> CONTEXT: Commonevents/33/42/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホールド・非ホールドで画面シェイク更新
+> CONTEXT: Commonevents/33/47/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/34/57/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/39/8/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+余韻：締め
+> CONTEXT: Commonevents/33/50/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+★敗北処理★
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+> CONTEXT: Commonevents/33/54/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#ロウ君失神時は敗北処理に進む
+> CONTEXT: Commonevents/33/59/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+淫界の触手は処理を省略/ハザマ完結MOD
+> CONTEXT: Commonevents/34/0/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/35/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+絶頂させたキャラクターと方法によって好感度上昇が変わる
+主人公ホールド＞主人公＞パートナー
+> CONTEXT: Commonevents/34/9/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+口上詳細モード時の処理
+> CONTEXT: Commonevents/34/21/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/35/6/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+口上が発生するモードの場合のみ、口上と描写が入る
+> CONTEXT: Commonevents/34/39/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+★ステップ１：攻撃された夢魔の口上★
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+> CONTEXT: Commonevents/34/40/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+★ステップ７：攻撃された夢魔の追撃の口上★
+ 　攻撃された夢魔が挿入タイプのホールド中のみ発生する
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+> CONTEXT: Commonevents/34/49/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/39/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+本番状態で、かつホールド中専用攻撃を行った場合のみ
+> CONTEXT: Commonevents/34/55/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/39/6/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相手が踏みとどまっている場合
+> CONTEXT: Commonevents/35/24/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホールド継続している場合は、アクティブバトラーがホールド中の場
+合のみホールド継続口上を表示/2101skMOD
+> CONTEXT: Commonevents/35/29/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+$msg.t_enemyが事前に設定されていない場合、
+エラー対策としてここで設定する
+> CONTEXT: Commonevents/36/7/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/37/7/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================\#
+\#
+\# ●敗北時スイッチ・変数等加算解除コーナー
+\#
+\#=================================================\#
+> CONTEXT: Commonevents/38/0/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/214/0/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/233/0/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/235/0/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/242/0/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/243/0/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/249/0/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/257/0/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/341/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================\#
+\#
+\#
+\#
+\#=================================================\#
+> CONTEXT: Commonevents/38/6/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/214/6/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/233/6/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/235/6/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/242/5/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/243/5/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/249/6/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/257/6/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+フリールームに復帰
+> CONTEXT: Commonevents/38/16/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ロウラット邸に復帰
+> CONTEXT: Commonevents/38/23/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+銀色の都市に復帰
+> CONTEXT: Commonevents/38/31/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+常夜の街に復帰
+> CONTEXT: Commonevents/38/41/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホームに復帰
+> CONTEXT: Commonevents/38/55/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+敗北時はここでアナウンス
+> CONTEXT: Commonevents/38/108/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/214/87/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/233/80/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/235/74/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/243/33/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/249/103/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/257/101/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/341/194/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メッセージタグ($msg.tag)を「精の献上」に、
+メッセージコールサイン($msg.callsign)を「41」に
+(コール41は満腹度０と共通)
+
+献上開始はトークステップ($msg.talk_step)を１に、献上終了は２に
+全処理が終了したら口上リセットコモンを挟むこと
+> CONTEXT: Commonevents/41/3/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■ここから夢魔に精を献上した時の口上開始。
+夢魔名や性格に合わせて条件分岐→対応コモンイベントへ。
+---------------------------------------------------
+> CONTEXT: Commonevents/41/36/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/290/96/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■ここから口上開始。
+事前にコールした口上を文章量に応じて逐次出力
+---------------------------------------------------
+> CONTEXT: Commonevents/41/52/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/41/119/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/290/112/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/290/179/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精の献上によるステータス変動
+> CONTEXT: Commonevents/41/158/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/41/197/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+▼子作りMOD▼
+> CONTEXT: Commonevents/41/173/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+▲子作りMOD▲
+> CONTEXT: Commonevents/41/186/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メッセージタグ($msg.tag)を「空腹」に、
+メッセージコールサイン($msg.callsign)を「41」に
+(コール41は精の献上と共通)
+１人目はトークステップ($msg.talk_step)を１に、２人目は２に、３人
+目は３にする
+全処理が終了したら口上リセットコモンを挟むこと
+> CONTEXT: Commonevents/43/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■　事前処理　■
+主人公と夢魔の名前を取得
+主人公 　　　　　　　    ：　変数[2]
+満腹度０夢魔の先頭  ：　変数[3]
+---------------------------------------------------
+> CONTEXT: Commonevents/43/11/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================\#
+●１人目
+> CONTEXT: Commonevents/43/24/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================\#
+●２人目
+> CONTEXT: Commonevents/43/60/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================\#
+●３人目
+> CONTEXT: Commonevents/43/100/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+戦闘終了時や精の献上など、特殊イベントの後に実行する。
+直前までに得ていた全情報をリセットして、別のバグ発生を抑制。
+> CONTEXT: Commonevents/44/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+オーソドックスなリセットのみにとどめる
+エネミーやアクターの情報、攻撃部位などをリセットすると不要なバ
+グになりかねないので、それらのリセットは面倒でもその場で逐一行
+うこと
+> CONTEXT: Commonevents/45/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+攻撃アニメーション
+> CONTEXT: Commonevents/46/10/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/47/10/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+敵の背後を取っている場合
+> CONTEXT: Commonevents/58/20/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+プレイヤーが背後を取られている場合
+> CONTEXT: Commonevents/58/25/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■　ランクアップイベント事前処理　■
+---------------------------------------------------
+> CONTEXT: Commonevents/59/10/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+終わったら消す
+> CONTEXT: Commonevents/61/35/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/64/13/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+事前準備
+> CONTEXT: Commonevents/69/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+喋りすぎ防止のため、トループに含まれる夢魔数で数を絞る
+１～３体：うち１体
+４～５体：うち２体
+６体以上：うち３体
+> CONTEXT: Commonevents/69/3/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+初期非表示の場合、その夢魔は喋らないように修正
+※ハザマ後編MOD
+> CONTEXT: Commonevents/69/12/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベッド戦、空腹戦、BOSS戦は全員が必ず喋るため、
+人数はトループ人数そのままとなる
+
+※初期非表示の場合、その夢魔は喋らないように修正
+※ハザマ後編MOD
+> CONTEXT: Commonevents/69/25/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エネミーナンバーをランダムに格納（めんどい）
+【R】【BOSS】【OFE】以外はランダムに選出
+上記３パターンの場合はエネミー０番が強制、後はランダム
+> CONTEXT: Commonevents/69/41/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+格納した順番に喋らせる
+> CONTEXT: Commonevents/69/68/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+配列化した変数を数列に戻す
+> CONTEXT: Commonevents/69/73/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+出た全夢魔を１体ずつチェックするので、
+同じイベントが複数発生してしまいます。
+同じ口上を避けたい場合、それ用に対応してください
+> CONTEXT: Commonevents/69/79/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+喋り終えた人数カウント
+> CONTEXT: Commonevents/69/86/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メッセージウィンドウを消去する。
+> CONTEXT: Commonevents/87/83/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トーク用スイッチOFF/MOD
+> CONTEXT: Commonevents/102/1/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+$msg.t_enemy、$msg.t_targetの両者を確定
+並びに会話難易度を読み込み
+会話が始まると無条件で好感度＋３
+
+\#["愛撫","主人公脱衣","仲間脱衣","夢魔脱衣"
+\#"奉仕","視姦","吸精","交合","契約"]
+> CONTEXT: Commonevents/102/3/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/1/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トーク回数カウント
+> CONTEXT: Commonevents/102/13/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/11/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デバッカー使用中はカウントが増えない
+> CONTEXT: Commonevents/102/14/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+会話パターンルーレットを読み込み
+> CONTEXT: Commonevents/102/19/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/13/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================\#
+　　　　　　　　　　　強制打ち切りタイプの会話
+\#=================================================\#
+> CONTEXT: Commonevents/102/27/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/21/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================\#
+　　　　　　　　　　　　　　　会話前口上
+\#=================================================\#
+> CONTEXT: Commonevents/102/40/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/34/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+暫定処理
+> CONTEXT: Commonevents/102/46/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/40/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デバックモードONの場合
+> CONTEXT: Commonevents/102/50/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+主人公or夢魔ホールド時は飛ばし
+> CONTEXT: Commonevents/102/52/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+主人公が脱いでいる場合
+> CONTEXT: Commonevents/102/63/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔が脱いでいる場合
+> CONTEXT: Commonevents/102/65/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/102/271/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔が脱いでいない場合
+> CONTEXT: Commonevents/102/225/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/102/404/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+主人公が脱いでいない場合
+> CONTEXT: Commonevents/102/269/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================\#
+　　　　　　　　　　　       　  好意
+\#=================================================\#
+> CONTEXT: Commonevents/102/452/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/44/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================\#
+　　　　　　　　　     　   成否タイプ会話
+\#=================================================\#
+> CONTEXT: Commonevents/102/465/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/57/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+主人公脱衣、仲間脱衣、夢魔脱衣
+吸精・口、吸精・性器など、
+「１回のレジストの成否で終了」するタイプ
+> CONTEXT: Commonevents/102/468/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/60/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#口上コールからレジストゲーム起動
+> CONTEXT: Commonevents/102/479/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/102/516/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/71/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/108/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================\#
+　　　　　　　　　     　   継続タイプ会話
+\#=================================================\#
+> CONTEXT: Commonevents/102/505/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/97/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#レジストに成功した場合ループを止める
+> CONTEXT: Commonevents/102/530/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/122/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#ログウェイトを反映させるため、１フレームのウェイトでインタプリタを
+走らせる
+> CONTEXT: Commonevents/102/536/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/102/555/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/103/12/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/128/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/147/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#対象のEPが０ならループを止める
+> CONTEXT: Commonevents/102/563/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/155/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#トークスイッチ79は、絶頂ダメージが決定してから
+スクリプト内で落とす
+> CONTEXT: Commonevents/102/567/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/159/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#特定トークで特定ステートが付着するとループを止める
+> CONTEXT: Commonevents/102/572/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/164/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#回数が一定回数以上で止まる
+> CONTEXT: Commonevents/102/590/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/182/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#ループ中断でなければ口上を呼び出して先頭に戻る
+> CONTEXT: Commonevents/102/610/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/202/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================\#
+> CONTEXT: Commonevents/102/624/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/113/216/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ここのウェイト数は要調整
+> CONTEXT: Commonevents/103/1/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マニュアル動作時のみ起動
+> CONTEXT: Commonevents/104/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ギルゴーンをスタンさせる
+> CONTEXT: Commonevents/106/16/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\# ヴェルミィーナを本気状態にする
+> CONTEXT: Commonevents/119/48/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\# 女体化時はシェルマッチまたはインサートを通す/MOD
+> CONTEXT: Commonevents/119/51/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+残り体力を調整
+> CONTEXT: Commonevents/119/65/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+===================================================
+■初期化
+===================================================
+> CONTEXT: Commonevents/122/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+===================================================
+> CONTEXT: Commonevents/122/4/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■闇洞窟（B5F前半）
+---------------------------------------------------
+> CONTEXT: Commonevents/123/1/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■闇洞窟（B5F後半）
+---------------------------------------------------
+> CONTEXT: Commonevents/123/11/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■闇洞窟（B6F前半）
+---------------------------------------------------
+> CONTEXT: Commonevents/123/21/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+
+■闇洞窟（B6F後半）
+---------------------------------------------------
+> CONTEXT: Commonevents/123/31/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#執行書が消えた場合、入手しなおしをさせる
+> CONTEXT: Commonevents/125/2/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■真偽はスイッチ225番に返す
+> CONTEXT: Commonevents/127/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■ポート魔法陣の中央にいるかのチェック
+---------------------------------------------------
+> CONTEXT: Commonevents/128/4/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■すでに忘却の古印を破棄している場合はここで終了
+---------------------------------------------------
+> CONTEXT: Commonevents/128/26/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■条件を満たす夢魔を３体連れているかのチェック
+　（精神力100以上、VP1001以上）
+---------------------------------------------------
+> CONTEXT: Commonevents/128/38/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■条件を満たした夢魔がパーティの２番目にいるか
+---------------------------------------------------
+> CONTEXT: Commonevents/130/4/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【大切な人】付与
+> CONTEXT: Commonevents/130/113/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■変数５にセリフ、変数６に値段を入れる。
+　真偽はスイッチ184で返す。
+> CONTEXT: Commonevents/131/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+●●
+●● 大天使の城、淫界へは、ロウラットが先頭・
+●● 男でなければNG
+●●
+> CONTEXT: Commonevents/138/14/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\n[101]が女体化中は
+行くことはできません。
+> CONTEXT: Commonevents/138/26/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\n[101]がふたなり化中は
+行くことはできません。
+> CONTEXT: Commonevents/138/32/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+●●
+●●　指定の場所へワープ
+●●
+> CONTEXT: Commonevents/138/39/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/337/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+転送前のマップ変数をリセット（転送後に再設定）
+> CONTEXT: Commonevents/138/99/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/337/9/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+淫界開通に伴い、朦朧度を回復させておく
+> CONTEXT: Commonevents/138/125/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/337/27/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リセットメイドと同処理
+> CONTEXT: Commonevents/141/27/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+好みの年齢素質（471～478）をリセットしてから、
+好み素質と苦手素質を習得する。
+> CONTEXT: Commonevents/142/83/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+------○○の虜-------------------------------------
+> CONTEXT: Commonevents/165/265/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/166/80/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/167/209/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+･･････！\\|
+この夢魔は何者かが擬態しているようだ。
+> CONTEXT: Commonevents/204/66/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢魔に話しかけますか？
+> CONTEXT: Commonevents/204/68/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■ホーム
+ホームメンバーズ
+---------------------------------------------------
+> CONTEXT: Commonevents/208/4/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■月明かりの樹海（低級）
+レッサキュ橙・桃　インプ緑　スライム青
+---------------------------------------------------
+> CONTEXT: Commonevents/208/12/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■闇洞窟（低級）
+ワーウルフ黒　ナイトメア黒・黄
+---------------------------------------------------
+> CONTEXT: Commonevents/208/20/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■闇洞窟（リジェオ拠点）
+リジェオ
+---------------------------------------------------
+> CONTEXT: Commonevents/208/28/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■教会図書館
+キャスト　ワーキャット　プリーステス
+---------------------------------------------------
+> CONTEXT: Commonevents/208/36/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■パルフィス密教会（中級）
+サキュバス橙　プチウィッチ緑・紫　ウィッチ緑・紫　ファミリア青
+---------------------------------------------------
+> CONTEXT: Commonevents/208/44/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■闇洞窟（上級）
+ゴブリン　ギャングコマンダー　インプ白　デビル緑・白
+---------------------------------------------------
+> CONTEXT: Commonevents/208/52/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■月明かりの樹海（上級）　木の虚
+サキュバス桃　アルラウネ緑・青　マタンゴ　ワーキャット黒
+---------------------------------------------------
+> CONTEXT: Commonevents/208/60/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■月明かりの樹海　茸の夢魔の寝床
+ネイジュレンジ
+---------------------------------------------------
+> CONTEXT: Commonevents/208/68/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■パルフィス密教会（上級）
+カースメイガス　ファミリア緑　スレイヴ　ゴールドスライム
+（サンドイッチ売り）
+---------------------------------------------------
+> CONTEXT: Commonevents/208/76/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■シルフェ屋敷
+シルフェ　お得意様たち
+---------------------------------------------------
+> CONTEXT: Commonevents/208/85/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■獄界オルデオ
+デーモン緑・白　リリム　ダークエンジェル　ワーウルフ赤　タマモ
+---------------------------------------------------
+> CONTEXT: Commonevents/208/93/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■獄界オルデオ　はらわた
+ユーガノット
+---------------------------------------------------
+> CONTEXT: Commonevents/208/101/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■魔城トゥーロマンサ
+サキュバスロード橙・桃　ガーゴイル　ミミック青・黒
+---------------------------------------------------
+> CONTEXT: Commonevents/208/109/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■魔城トゥーロマンサ
+フルビュア　ギルゴーン
+---------------------------------------------------
+> CONTEXT: Commonevents/208/117/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■混濁したレンディカ
+---------------------------------------------------
+> CONTEXT: Commonevents/208/125/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■ラーミルテリトリー
+キャスト（黒）　ヴェルミィーナ
+---------------------------------------------------
+> CONTEXT: Commonevents/208/132/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+---------------------------------------------------
+■ラーミルの家
+ラーミル　アイディテス
+---------------------------------------------------
+> CONTEXT: Commonevents/208/140/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+旧処理
+> CONTEXT: Commonevents/218/5/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+仲間夢魔のレベルを戻す
+> CONTEXT: Commonevents/218/9/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パーティ全員の装備を剥がす（刻印されたルーンも戻る）
+> CONTEXT: Commonevents/218/21/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アイテム、装備などを返却する
+> CONTEXT: Commonevents/218/27/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+採集ポイントのリセット
+セルフスイッチのリセット
+> CONTEXT: Commonevents/219/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+自動作成ランダムマップの場合ランダムジャンプ
+> CONTEXT: Commonevents/219/8/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+通常ランダムマップの場合、イベントランダム設置
+> CONTEXT: Commonevents/219/13/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/219/22/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+一度敵の状況などをリセットするため
+適当なマップに移動
+
+> CONTEXT: Commonevents/220/6/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+2:種類
+
+4:階層
+> CONTEXT: Commonevents/228/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+通常宝箱
+> CONTEXT: Commonevents/228/4/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レア宝箱
+> CONTEXT: Commonevents/228/10/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+激レア宝箱
+> CONTEXT: Commonevents/228/16/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/228/22/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+OFE弱
+> CONTEXT: Commonevents/228/28/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+OFE
+> CONTEXT: Commonevents/228/34/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+階層突破
+> CONTEXT: Commonevents/228/40/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+階層突破 50F～
+> CONTEXT: Commonevents/228/46/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食料品
+> CONTEXT: Commonevents/228/53/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+消耗品
+> CONTEXT: Commonevents/228/63/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スキルルーン
+> CONTEXT: Commonevents/228/93/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ニュクス加入まで自動シンボル排除禁止（デバッグ時は可）
+> CONTEXT: Commonevents/232/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+自動シンボル排除禁止（デバッグ時は可）
+> CONTEXT: Commonevents/238/1/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/248/1/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/256/1/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/340/1/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+敗北後の処理は各イベントで設定
+> CONTEXT: Commonevents/238/110/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+追憶の魔城に復帰
+> CONTEXT: Commonevents/249/16/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イヴ手前に復帰
+> CONTEXT: Commonevents/249/22/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+密教会（後半）に復帰
+> CONTEXT: Commonevents/249/28/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+密教会（前半）に復帰
+> CONTEXT: Commonevents/249/34/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+木の洞に復帰
+> CONTEXT: Commonevents/249/40/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+森に復帰
+> CONTEXT: Commonevents/249/46/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================
+\# ●ティミッドの家到着前後で分岐
+\#=================================================
+> CONTEXT: Commonevents/257/105/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+●●エレベータの選択肢を作成●●
+> CONTEXT: Commonevents/259/1/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+●●エレベータの動作●●
+> CONTEXT: Commonevents/259/9/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/259/50/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★
+★★　1F ロビー
+★★
+> CONTEXT: Commonevents/259/51/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★
+★★　2F 居住区
+★★
+> CONTEXT: Commonevents/259/71/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★
+★★　3F 歓楽街
+★★
+> CONTEXT: Commonevents/259/85/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★
+★★　4F 封印の間
+★★
+> CONTEXT: Commonevents/259/99/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★
+★★　5F セキュリティゾーン
+★★
+> CONTEXT: Commonevents/259/119/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★
+★★　屋上 悠久の庭園
+★★
+> CONTEXT: Commonevents/259/139/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マップ表示
+> CONTEXT: Commonevents/259/153/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+主人公がいる場合、主人公１名を残し、それ以外をパーティから
+外す。
+> CONTEXT: Commonevents/267/9/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+主人公がいない場合は、パーティの先頭メンバーになる。
+> CONTEXT: Commonevents/267/21/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+残った１名を磔拘束＋全裸に。
+> CONTEXT: Commonevents/267/28/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+主人公の名称を取得
+> CONTEXT: Commonevents/290/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+主人公の離脱中は使用できない
+> CONTEXT: Commonevents/290/2/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+主人公にブツがない場合は使用できない
+> CONTEXT: Commonevents/290/8/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+主人公のVPがMaxでなければ使用できない
+> CONTEXT: Commonevents/290/14/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パーティーが主人公一人の場合は短縮版
+> CONTEXT: Commonevents/290/25/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+献上イベント流用
+開始前にリセットしておく
+> CONTEXT: Commonevents/290/60/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メッセージタグ($msg.tag)を「精の献上」に、
+メッセージコールサイン($msg.callsign)を「41」に
+(コール41は満腹度０と共通)
+献上開始はトークステップ($msg.talk_step)を１に、献上終了は２
+に
+全処理が終了したら口上リセットコモンを挟むこと
+> CONTEXT: Commonevents/290/64/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+勝ったときの処理
+> CONTEXT: Commonevents/325/10/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★セルフスイッチ初期化
+静寂の里 落とし穴トラップ
+> CONTEXT: Commonevents/329/17/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベッド戦時の修行フルーツの入手個数を設定する
+> CONTEXT: Commonevents/334/2/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+悠久の庭園はイベント消去せずに退避し、
+一定時間経過で再降臨
+> CONTEXT: Commonevents/340/85/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================
+\#　黄昏の王宮
+\#  ※ティミッドの家に戻って最初からやり直し
+\#=================================================
+> CONTEXT: Commonevents/341/6/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================
+\#　審判の塔 or 大天使の城 or 淫界
+\#=================================================
+> CONTEXT: Commonevents/341/37/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================
+\#　淫界の場合、ティミッドから再開
+\#=================================================
+> CONTEXT: Commonevents/341/46/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================
+\#　大天使の城到着後は自室から再開
+\#=================================================
+> CONTEXT: Commonevents/341/59/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================
+\#　大天使の城到着前は審判の塔の地下牢から再開
+\#=================================================
+> CONTEXT: Commonevents/341/67/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================
+\# ●大天使の城はBGM再開
+\#=================================================
+> CONTEXT: Commonevents/341/128/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================
+\# ●審判の塔は無音で再開
+\#=================================================
+> CONTEXT: Commonevents/341/134/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ミッションクリア済みの場合はイベント処理しない。
+> CONTEXT: Commonevents/344/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イイコトをした回数をチェック
+> CONTEXT: Commonevents/344/5/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+大天使の城内で、\\c[12]イイコト\\c[0]
+を全てクリアしたようだ。
+> CONTEXT: Commonevents/344/38/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ナイトストーカーに捕まった場合
+> CONTEXT: Commonevents/347/3/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アスモデに捕まった場合
+> CONTEXT: Commonevents/347/10/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベルゼビュートに捕まった場合
+> CONTEXT: Commonevents/347/17/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+変数2に攻め手の名前、変数3に受け手の名前
+変数315に攻め手変数316に受け手を収納
+317から322は攻め手受け手以外を指定する用
+> CONTEXT: Commonevents/348/0/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/351/0/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/352/3/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/353/3/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/354/3/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/355/0/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/356/2/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/357/3/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/358/3/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/359/2/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/360/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対応表
+エネミー・ターゲット指定時
+8：316 7：315 6：317 5：318 4：319 3：320
+2：321 1：322
+アクター指定時
+4：316 3：315 2：317 1：318
+> CONTEXT: Commonevents/348/3/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+よく使いそうな条件
+> CONTEXT: Commonevents/348/9/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ランダムで夢魔を抽選し変数へ
+全夢魔を抽選するか変数324を超える
+バトラー指定枠がいっぱいでループ終了
+> CONTEXT: Commonevents/350/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ダメージ記憶
+> CONTEXT: Commonevents/351/25/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+焦らし回数
+> CONTEXT: Commonevents/351/27/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+変数のクリア
+> CONTEXT: Commonevents/351/242/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/352/36/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/353/353/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/354/96/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/355/19/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/357/109/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/358/285/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/362/283/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/363/224/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/367/358/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相方居なければキッスして終わり
+> CONTEXT: Commonevents/353/16/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対象がダウン時もキッスして終わり
+> CONTEXT: Commonevents/353/22/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/358/29/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\# エキサイトビューを通す
+> CONTEXT: Commonevents/353/74/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/358/81/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\# オーラルアクセプトを通す
+> CONTEXT: Commonevents/353/103/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/358/104/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\# ロウネクターを通す
+> CONTEXT: Commonevents/353/122/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/358/117/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対象がダウン時は手コキして終わり
+> CONTEXT: Commonevents/354/14/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\# エンブレイスを通す
+> CONTEXT: Commonevents/354/36/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/357/50/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+相方がホールド中や行動不能時はキッスして終わり
+> CONTEXT: Commonevents/358/23/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+寸止め責めは焦らしによるVPダウンの変動を無視する
+> CONTEXT: Commonevents/360/11/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+変数315に攻め手
+変数316に受け手
+変数317に攻め手の連携相手を収納
+> CONTEXT: Commonevents/362/3/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/363/3/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/367/4/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+次からの2ターン使用制限を掛ける
+> CONTEXT: Commonevents/362/19/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/363/19/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+変数2に攻め手の名前
+変数3に受け手の名前
+変数4に攻め手の連携相手の名前を収納
+> CONTEXT: Commonevents/362/22/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/363/22/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/367/21/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★***********************************************
+★ ラッシュ開始
+★***********************************************
+> CONTEXT: Commonevents/362/28/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/363/29/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★-----------------------------------------------
+★　自夢魔の攻め（１回目）
+★　ここだけ、技の直後に口上表示
+★-----------------------------------------------
+> CONTEXT: Commonevents/362/31/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/363/32/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★-----------------------------------------------
+★　連携夢魔の攻め（１回目）
+★-----------------------------------------------
+> CONTEXT: Commonevents/362/53/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/363/48/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★-----------------------------------------------
+★　自夢魔の攻め（２回目）
+★　追撃スイッチは口上を表示させるために入れておく
+★-----------------------------------------------
+> CONTEXT: Commonevents/362/74/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/363/63/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★-----------------------------------------------
+★　連携夢魔の攻め（２回目）
+★-----------------------------------------------
+> CONTEXT: Commonevents/362/97/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/363/80/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★-----------------------------------------------
+★　自夢魔の攻め（３回目）
+★-----------------------------------------------
+> CONTEXT: Commonevents/362/119/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/363/96/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★-----------------------------------------------
+★　連携夢魔の攻め（３回目）
+★-----------------------------------------------
+> CONTEXT: Commonevents/362/141/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/363/112/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★-----------------------------------------------
+★　自夢魔の攻め（４回目）
+★-----------------------------------------------
+> CONTEXT: Commonevents/362/163/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/363/128/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★-----------------------------------------------
+★　連携夢魔の攻め（４回目）
+★-----------------------------------------------
+> CONTEXT: Commonevents/362/185/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/363/144/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★-----------------------------------------------
+★　自夢魔の攻め（５回目）
+★-----------------------------------------------
+> CONTEXT: Commonevents/362/207/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/363/160/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★***********************************************
+★ とどめのWパイズリ
+★***********************************************
+> CONTEXT: Commonevents/362/229/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/363/176/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+技終了後にも喋る
+> CONTEXT: Commonevents/362/266/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/363/207/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★***********************************************
+★ 終了後処理
+★***********************************************
+> CONTEXT: Commonevents/362/280/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/363/221/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/367/355/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+口上用のエネミーを収納
+> CONTEXT: Commonevents/363/28/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★***********************************************
+★ ルーレット（輪姦）開始
+★***********************************************
+> CONTEXT: Commonevents/367/27/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★***********************************************
+★　連携夢魔の攻め（N回目）
+★　HPが1の場合はレジスト
+★***********************************************
+> CONTEXT: Commonevents/367/47/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★-----------------------------------------------
+★　相方が支援ホールドする
+★-----------------------------------------------
+> CONTEXT: Commonevents/367/86/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/367/235/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★-----------------------------------------------
+★　【吸精】持ちであれば、エナドレでイカされる
+★-----------------------------------------------
+> CONTEXT: Commonevents/367/146/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/367/295/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★-----------------------------------------------
+★　HP\>1の場合は通常グラインド
+★-----------------------------------------------
+> CONTEXT: Commonevents/367/180/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/367/329/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★***********************************************
+★　自夢魔の攻め（N＋１回目）
+★　HPが1の場合はレジスト
+★***********************************************
+> CONTEXT: Commonevents/367/196/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★-----------------------------------------------
+★　追撃回数が最大の場合は終了
+★-----------------------------------------------
+> CONTEXT: Commonevents/367/345/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+記憶の奔流
+> CONTEXT: Commonevents/375/9/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+女王の奔流
+> CONTEXT: Commonevents/375/89/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+夢想の奔流
+> CONTEXT: Commonevents/375/119/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アクションを強制させないと召喚したナイトメアとワーキャットが表示
+されない
+> CONTEXT: Commonevents/378/17/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+誰の家に行くか？の
+変数番号1～9はバニラ版ユニークボスの
+子供9人に使う予定なので開けておいてください。
+> CONTEXT: Commonevents/437/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+下1,2桁目が表情番号
+3,4桁目がキャラ番号です。
+--------------------------------------------------
+> CONTEXT: Commonevents/451/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■新しく顔グラを作りたい方は
+このコモンイベントをコピーしてよいので
+別のコモンイベントを作って製作してください。
+--------------------------------------------------
+> CONTEXT: Commonevents/451/3/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■変数0476に000を代入すると
+ピクチャが消去されます。
+--------------------------------------------------
+> CONTEXT: Commonevents/451/7/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■変数下1,2桁番号19は校長先生の
+顔グラフィックが表示されます。
+--------------------------------------------------
+> CONTEXT: Commonevents/451/15/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■ライジェロ
+--------------------------------------------------
+> CONTEXT: Commonevents/451/18/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■リジェオ
+--------------------------------------------------
+> CONTEXT: Commonevents/451/52/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■校長
+--------------------------------------------------
+> CONTEXT: Commonevents/451/78/Comment < UNTRANSLATED
 
 > END STRING

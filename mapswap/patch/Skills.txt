@@ -574,7 +574,6 @@ Heavy Swing/105
 > BEGIN STRING
 タイトクロッチ/100
 > CONTEXT: Skills/50/name/ < UNTRANSLATED
-> CONTEXT: Skills/1232/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -660,7 +659,6 @@ Ride/100
 > BEGIN STRING
 ディープスロート/100
 > CONTEXT: Skills/59/name/ < UNTRANSLATED
-> CONTEXT: Skills/1234/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -1222,6 +1220,7 @@ heal01
 > CONTEXT: Skills/1496/menu_se/name/ < UNTRANSLATED
 > CONTEXT: Skills/2245/menu_se/name/ < UNTRANSLATED
 > CONTEXT: Skills/2246/menu_se/name/ < UNTRANSLATED
+> CONTEXT: Skills/272/menu_se/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -4004,7 +4003,7 @@ Dream world creates a cast.
 
 > BEGIN STRING
 ◆特殊口業◆
-> CONTEXT: Skills/413/name/ < UNTRANSLATED
+> CONTEXT: Skills/412/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -7217,7 +7216,7 @@ Deep Kiss・必殺/95
 
 > BEGIN STRING
 ◇特殊アナルホールド業◇
-> CONTEXT: Skills/821/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -9877,7 +9876,7 @@ Hungry Sperm Kiss/80
 
 > BEGIN STRING
 アネモネクロッチ/100
-> CONTEXT: Skills/1231/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -9913,7 +9912,7 @@ Hungry Sperm Kiss/80
 
 > BEGIN STRING
 スクリューベーゼ/100
-> CONTEXT: Skills/1235/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -9925,7 +9924,7 @@ Hungry Sperm Kiss/80
 
 > BEGIN STRING
 クランプルストローク/95
-> CONTEXT: Skills/1236/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -9937,7 +9936,7 @@ Hungry Sperm Kiss/80
 
 > BEGIN STRING
 スポットアタッチ/95
-> CONTEXT: Skills/1237/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -9949,8 +9948,7 @@ Hungry Sperm Kiss/80
 
 > BEGIN STRING
 スポットアタッチ/100
-> CONTEXT: Skills/1238/name/ < UNTRANSLATED
-> CONTEXT: Skills/1239/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -9992,7 +9990,7 @@ Hungry Sperm Kiss/80
 
 > BEGIN STRING
 ヘブンリースムーザー/95
-> CONTEXT: Skills/1243/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -10004,7 +10002,7 @@ Hungry Sperm Kiss/80
 
 > BEGIN STRING
 エキサイトドロップ/100
-> CONTEXT: Skills/1244/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -10016,7 +10014,7 @@ Hungry Sperm Kiss/80
 
 > BEGIN STRING
 ハードスタンプ/80
-> CONTEXT: Skills/1245/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -10028,7 +10026,7 @@ Hungry Sperm Kiss/80
 
 > BEGIN STRING
 オーラルペリスコープ/100
-> CONTEXT: Skills/1246/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -10058,7 +10056,7 @@ Hungry Sperm Kiss/80
 
 > BEGIN STRING
 デモンズバキューム/100
-> CONTEXT: Skills/1249/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -10070,7 +10068,7 @@ Hungry Sperm Kiss/80
 
 > BEGIN STRING
 デモンズバキューム/95
-> CONTEXT: Skills/1250/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -10120,8 +10118,6 @@ Hungry Sperm Kiss/80
 > BEGIN STRING
 [×××] 荒々しく腰を振る。[条件：優勢][精力]
 > CONTEXT: Skills/1254/description/ < UNTRANSLATED
-> CONTEXT: Skills/1256/description/ < UNTRANSLATED
-> CONTEXT: Skills/1257/description/ < UNTRANSLATED
 
 > END STRING
 
@@ -12371,6 +12367,7 @@ Heavenly Charm
 > BEGIN STRING
 魅了の魔眼
 > CONTEXT: Skills/1498/name/ < UNTRANSLATED
+> CONTEXT: States/501/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -12395,6 +12392,7 @@ Heavenly Charm
 > BEGIN STRING
 恐怖の魔眼
 > CONTEXT: Skills/1500/name/ < UNTRANSLATED
+> CONTEXT: States/502/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -12419,6 +12417,7 @@ Heavenly Charm
 > BEGIN STRING
 激情の魔眼
 > CONTEXT: Skills/1502/name/ < UNTRANSLATED
+> CONTEXT: States/503/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -12443,6 +12442,7 @@ Heavenly Charm
 > BEGIN STRING
 放心の魔眼
 > CONTEXT: Skills/1504/name/ < UNTRANSLATED
+> CONTEXT: States/504/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -12467,6 +12467,7 @@ Heavenly Charm
 > BEGIN STRING
 麻痺の魔眼
 > CONTEXT: Skills/1506/name/ < UNTRANSLATED
+> CONTEXT: States/505/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -12491,6 +12492,7 @@ Heavenly Charm
 > BEGIN STRING
 散漫の魔眼
 > CONTEXT: Skills/1508/name/ < UNTRANSLATED
+> CONTEXT: States/506/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -17062,6 +17064,7 @@ Melty Press/160/6
 > BEGIN STRING
 欲情の魔眼
 > CONTEXT: Skills/2557/name/ < UNTRANSLATED
+> CONTEXT: States/507/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -17080,6 +17083,7 @@ Melty Press/160/6
 > BEGIN STRING
 恍惚の魔眼
 > CONTEXT: Skills/2559/name/ < UNTRANSLATED
+> CONTEXT: States/508/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -17104,6 +17108,7 @@ Melty Press/160/6
 > BEGIN STRING
 幻覚の魔眼
 > CONTEXT: Skills/2561/name/ < UNTRANSLATED
+> CONTEXT: States/509/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -17128,6 +17133,7 @@ Melty Press/160/6
 > BEGIN STRING
 催眠の魔眼
 > CONTEXT: Skills/2563/name/ < UNTRANSLATED
+> CONTEXT: States/510/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -18355,6 +18361,7 @@ Melty Press/160/6
 > BEGIN STRING
 隷属の魔眼
 > CONTEXT: Skills/1383/name/ < UNTRANSLATED
+> CONTEXT: States/500/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -18457,5 +18464,278 @@ Melty Press/160/6
 > BEGIN STRING
 ▽顔踏み・追撃/75
 > CONTEXT: Skills/2428/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホールド技使用準備に入る。
+> CONTEXT: Skills/255/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ニップル/70
+> CONTEXT: Skills/271/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+乳首を指で弄る。
+> CONTEXT: Skills/271/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トランスウィークネス//5
+> CONTEXT: Skills/272/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+自身の弱点を変更させ、チェックやアナライズを解く。
+> CONTEXT: Skills/272/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アライメント
+> CONTEXT: Skills/357/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+援軍を呼び出す。（初期非表示キャラを参戦させる）
+> CONTEXT: Skills/357/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セルディバイド
+> CONTEXT: Skills/358/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+分裂して仲間を出現させる。
+> CONTEXT: Skills/358/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ギャグセンス
+> CONTEXT: Skills/413/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[口→耳] ギャグで悶笑させる。
+> CONTEXT: Skills/413/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メガトンプレス/150/5
+> CONTEXT: Skills/462/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[胸→口][CT:5] 相手の顔目掛けて、胸を振り下ろす。[精力/魅力]
+> CONTEXT: Skills/462/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+コットンテイル
+> CONTEXT: Skills/550/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ふさふさの尻尾でくすぐる。稀に骨抜き・恍惚にする。
+> CONTEXT: Skills/550/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+テイマーズウィップ/100
+> CONTEXT: Skills/578/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[鞭→全身] 相手を鞭で叩き、離反させる。[S][追加：離反]
+> CONTEXT: Skills/578/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アネモネクロッチ/120
+> CONTEXT: Skills/1231/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+タイトクロッチ/120
+> CONTEXT: Skills/1232/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ディープスロート/120
+> CONTEXT: Skills/1234/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スクリューベーゼ/120
+> CONTEXT: Skills/1235/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+クランプルストローク/120
+> CONTEXT: Skills/1236/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スポットアタッチ/120
+> CONTEXT: Skills/1237/name/ < UNTRANSLATED
+> CONTEXT: Skills/1238/name/ < UNTRANSLATED
+> CONTEXT: Skills/1239/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ヘブンリースムーザー/120
+> CONTEXT: Skills/1243/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エキサイトドロップ/120
+> CONTEXT: Skills/1244/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ハードスタンプ/120
+> CONTEXT: Skills/1245/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+オーラルペリスコープ/120
+> CONTEXT: Skills/1246/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デモンズバキューム/120
+> CONTEXT: Skills/1249/name/ < UNTRANSLATED
+> CONTEXT: Skills/1250/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[♀→♂] 荒々しく腰を振る。[条件：優勢][精力]
+> CONTEXT: Skills/1256/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[尻→♂] 荒々しく腰を振る。[条件：優勢][精力]
+> CONTEXT: Skills/1257/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+居合を取り、３ターンの間レジストスキルを回避する。
+> CONTEXT: Skills/1295/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ニップルグラインド/120
+> CONTEXT: Skills/1633/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[♀→♂] 乳首を攻めながら腰を振る。[精力]
+> CONTEXT: Skills/1633/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+くすぐりグラインド/120
+> CONTEXT: Skills/1634/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[♀→♂] くすぐりながら腰を振る。[精力]
+> CONTEXT: Skills/1634/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スライミースクラッチ/120/6
+> CONTEXT: Skills/1657/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[♀→♀][CT:6] ぬるぬるの局部で優しく擦り合わせる。[ガード貫通][器用さ]
+> CONTEXT: Skills/1657/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ニップルライディング/120
+> CONTEXT: Skills/1756/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[♀＋手→口＋胸] 乳首を責めながら腰を振る。[精力/魅力]
+> CONTEXT: Skills/1756/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+くすぐりライディング/120
+> CONTEXT: Skills/1757/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[♀＋手→口＋身体] くすぐりながら腰を振る。[精力/魅力]
+> CONTEXT: Skills/1757/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スライミーカレス/100
+> CONTEXT: Skills/1918/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+[→全身] ぬるぬるの手で愛撫する。[器用さ]
+> CONTEXT: Skills/1918/description/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スライムガード
+> CONTEXT: Skills/2126/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+このターン、攻撃から身を守る。[最速行動][快感減衰][忍耐力]
+> CONTEXT: Skills/2126/description/ < UNTRANSLATED
 
 > END STRING

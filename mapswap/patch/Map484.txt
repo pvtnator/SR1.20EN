@@ -18,22 +18,19 @@
 > CONTEXT: Map484/events/3/pages/0/12/Dialogue < UNTRANSLATED
 > CONTEXT: Map067/events/5/pages/1/1/Dialogue < UNTRANSLATED
 > CONTEXT: Map067/events/5/pages/1/1/Dialogue < UNTRANSLATED
+> CONTEXT: Map067/events/7/pages/1/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 "ウィッチサキュバス"
-> CONTEXT: Map484/events/10/pages/0/1/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map484/events/10/pages/0/322/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map484/events/11/pages/0/8/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "メイジサキュバス"
-> CONTEXT: Map484/events/10/pages/0/1/InlineScript/2:22 < UNTRANSLATED
-> CONTEXT: Map484/events/10/pages/0/322/InlineScript/2:22 < UNTRANSLATED
-> CONTEXT: Map484/events/11/pages/0/8/InlineScript/2:22 < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -342,5 +339,55 @@
 > BEGIN STRING
 \\n[101]「………………」
 > CONTEXT: Map484/events/11/pages/0/87/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★★★★★★★★★★★★★★★★★★★★★★★★
+★　淫夢世界にいる場合
+★★★★★★★★★★★★★★★★★★★★★★★★★
+> CONTEXT: Map484/events/1/pages/1/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"デモノロジスト"
+> CONTEXT: Map484/events/10/pages/0/1/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map484/events/10/pages/0/322/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map484/events/11/pages/0/8/InlineScript/1:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+"メフィスト"
+> CONTEXT: Map484/events/10/pages/0/1/InlineScript/2:22 < UNTRANSLATED
+> CONTEXT: Map484/events/10/pages/0/322/InlineScript/2:22 < UNTRANSLATED
+> CONTEXT: Map484/events/11/pages/0/8/InlineScript/2:22 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★★★★★★★★★★★★★★★★★★★★★★★★
+★
+★　夢魔に捕まった場合
+★
+★★★★★★★★★★★★★★★★★★★★★★★★★
+> CONTEXT: Map484/events/10/pages/0/5/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+眠り＋淫夢状態で戦闘開始
+> CONTEXT: Map484/events/10/pages/0/123/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★★★★★★★★★★★★★★★★★★★★★★★★
+★
+★　夢魔から逃げ切った場合
+★
+★★★★★★★★★★★★★★★★★★★★★★★★★
+> CONTEXT: Map484/events/10/pages/0/131/Comment < UNTRANSLATED
 
 > END STRING

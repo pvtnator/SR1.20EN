@@ -7,7 +7,7 @@
 
 > BEGIN STRING
 【BOSS】アガレス
-> CONTEXT: Troops/13/name/
+> CONTEXT: None < UNUSED
 【BOSS】Agares
 > END STRING
 
@@ -800,6 +800,8 @@ Is this clear so far?
 > CONTEXT: Troops/138/pages/0/28/Choice/1
 > CONTEXT: Troops/1201/pages/0/32/Choice/1
 > CONTEXT: Troops/1201/pages/0/32/Choice/1
+> CONTEXT: Troops/1500/pages/0/18/Choice/1
+> CONTEXT: Troops/1500/pages/0/18/Choice/1
 Listen again
 > END STRING
 
@@ -6458,13 +6460,14 @@ Invidiaは自身の能力を低下させた。
 
 > BEGIN STRING
 【BOSS】イノセント,レヴナント
-> CONTEXT: Troops/1201/name/
+> CONTEXT: None < UNUSED
 【BOSS】Innocent,Revenant
 > END STRING
 
 > BEGIN STRING
 異世界編・チュートリアルを聞きますか？
 > CONTEXT: Troops/1201/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Troops/1500/pages/0/2/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -6545,44 +6548,43 @@ Invidiaは自身の能力を低下させた。
 > BEGIN STRING
 説明は宜しいですか？
 > CONTEXT: Troops/1201/pages/0/31/Dialogue < UNTRANSLATED
+> CONTEXT: Troops/1500/pages/0/17/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 レヴナント/438/68, メデイア/212/66
-> CONTEXT: Troops/1202/name/
+> CONTEXT: None < UNUSED
 Revenant/438/68, メデイア/212/66
 > END STRING
 
 > BEGIN STRING
 イノセント/429/67, レヴナント/438/68
-> CONTEXT: Troops/1203/name/
+> CONTEXT: None < UNUSED
 Innocent/429/67, Revenant/438/68
 > END STRING
 
 > BEGIN STRING
 レヴナント/438/68, ワンダーボックス/333/
-> CONTEXT: Troops/1204/name/
+> CONTEXT: None < UNUSED
 Revenant/438/68, Wonderbox/333/
 > END STRING
 
 > BEGIN STRING
 イノセント/429/67, メデイア/212/66
-> CONTEXT: Troops/1205/name/
+> CONTEXT: None < UNUSED
 Innocent/429/67, メデイア/212/66
 > END STRING
 
 > BEGIN STRING
 イノセント/429/68
-> CONTEXT: Troops/1206/name/
-> CONTEXT: Enemies/1151/name/
+> CONTEXT: None < UNUSED
 Innocent/429/68
 > END STRING
 
 > BEGIN STRING
 レヴナント/438/69
-> CONTEXT: Troops/1207/name/
-> CONTEXT: Enemies/1152/name/
+> CONTEXT: None < UNUSED
 Revenant/438/69
 > END STRING
 
@@ -6967,7 +6969,7 @@ Sorcerer/432/72
 > BEGIN STRING
 【BOSS】モリガン
 > CONTEXT: Troops/1280/name/
-> CONTEXT: Troops/1550/name/
+> CONTEXT: Troops/1548/name/
 【BOSS】Morrigan
 > END STRING
 
@@ -7659,14 +7661,14 @@ Amore/177/75, アサシン/175/78
 > BEGIN STRING
 【BOSS】スルガト
 > CONTEXT: Troops/1438/name/
-> CONTEXT: Troops/1551/name/
+> CONTEXT: Troops/1549/name/
 【BOSS】Surugato
 > END STRING
 
 > BEGIN STRING
 あたりに魔性の芳香が漂い始める……！
 > CONTEXT: Troops/1438/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Troops/1560/pages/0/1/Dialogue < UNTRANSLATED
+> CONTEXT: Troops/1576/pages/0/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -7801,7 +7803,7 @@ Goblin Wizard/43/76, Dolophonos/3
 > BEGIN STRING
 どこからか声が聞こえてくる……。
 > CONTEXT: Troops/1460/pages/0/2/Dialogue < UNTRANSLATED
-> CONTEXT: Troops/1551/pages/0/2/Dialogue < UNTRANSLATED
+> CONTEXT: Troops/1549/pages/0/2/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -7874,13 +7876,13 @@ Belphegor/184/84*3
 
 > BEGIN STRING
 【BOSS】ウィッチサキュバス
-> CONTEXT: Troops/1467/name/
+> CONTEXT: None < UNUSED
 【BOSS】Witch Succubus
 > END STRING
 
 > BEGIN STRING
 【BOSS】メイジサキュバス
-> CONTEXT: Troops/1468/name/
+> CONTEXT: None < UNUSED
 【BOSS】Mage Succubus
 > END STRING
 
@@ -8062,25 +8064,25 @@ Belphegor/184/90, Amore/177/90,
 > BEGIN STRING
 ■審判の塔 下層
 > CONTEXT: Troops/1507/name/ < UNTRANSLATED
-> CONTEXT: Enemies/1486/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1485/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 グローア/74/89, サイレント/53/89
-> CONTEXT: Troops/1508/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 グローア/74/89, スクラーヴェ/53/89
-> CONTEXT: Troops/1509/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 レヴナント/231/91, グローア/74/89
-> CONTEXT: Troops/1510/name/
+> CONTEXT: None < UNUSED
 Revenant/231/91, グローア/74/89
 > END STRING
 
@@ -8154,19 +8156,19 @@ Innocent/27/92, Petite Angel/235/90
 
 > BEGIN STRING
 イノセント/27/93, エンジェル/234/91
-> CONTEXT: Troops/1528/name/
+> CONTEXT: None < UNUSED
 Innocent/27/93, Angel/234/91
 > END STRING
 
 > BEGIN STRING
 イノセント/27/93, プチエンジェル/235/91
-> CONTEXT: Troops/1529/name/
+> CONTEXT: None < UNUSED
 Innocent/27/93, Petite Angel/235/91
 > END STRING
 
 > BEGIN STRING
 イノセント/27/93, ミカエル/248/92
-> CONTEXT: Troops/1530/name/
+> CONTEXT: None < UNUSED
 Innocent/27/93, Mikael/248/92
 > END STRING
 
@@ -8178,13 +8180,13 @@ Angel/234/91, Petite Angel/235/91
 
 > BEGIN STRING
 エンジェル/234/91, ミカエル/248/92
-> CONTEXT: Troops/1532/name/
+> CONTEXT: None < UNUSED
 Angel/234/91, Mikael/248/92
 > END STRING
 
 > BEGIN STRING
 ミカエル/248/92, プチエンジェル/235/91
-> CONTEXT: Troops/1533/name/
+> CONTEXT: None < UNUSED
 Mikael/248/92, Petite Angel/235/91
 > END STRING
 
@@ -8196,76 +8198,73 @@ Mikael/248/92, Petite Angel/235/91
 
 > BEGIN STRING
 【BOSS】ラビス
-> CONTEXT: Troops/1538/name/
+> CONTEXT: None < UNUSED
 【BOSS】Ravis
 > END STRING
 
 > BEGIN STRING
 【BOSS】ガブリエル
-> CONTEXT: Troops/1539/name/
+> CONTEXT: None < UNUSED
 【BOSS】Gabriel
 > END STRING
 
 > BEGIN STRING
 騒ぎを聞きつけ、ミカエルが現れた！
-> CONTEXT: Troops/1539/pages/0/15/Dialogue
-> CONTEXT: Troops/1539/pages/0/34/Dialogue
-> CONTEXT: Troops/1539/pages/0/53/Dialogue
-> CONTEXT: Troops/1539/pages/0/72/Dialogue
+> CONTEXT: None < UNUSED
 騒ぎを聞きつけ、Mikaelが現れた！
 > END STRING
 
 > BEGIN STRING
 【BOSS】ヒラルス・アルミルス
-> CONTEXT: Troops/1540/name/
+> CONTEXT: Troops/1552/name/
 【BOSS】Hilarus・Almirus
 > END STRING
 
 > BEGIN STRING
 【BOSS】ヒラルス単体
-> CONTEXT: Troops/1541/name/
+> CONTEXT: Troops/1553/name/
 【BOSS】Hilarus単体
 > END STRING
 
 > BEGIN STRING
 【BOSS】アルミルス単体
-> CONTEXT: Troops/1542/name/
+> CONTEXT: Troops/1554/name/
 【BOSS】Almirus単体
 > END STRING
 
 > BEGIN STRING
 【BOSS】ノーブル
-> CONTEXT: Troops/1543/name/
+> CONTEXT: None < UNUSED
 【BOSS】Noble
 > END STRING
 
 > BEGIN STRING
 【BOSS】ベル
-> CONTEXT: Troops/1544/name/
+> CONTEXT: None < UNUSED
 【BOSS】Belle
 > END STRING
 
 > BEGIN STRING
 【BOSS】アコライト
-> CONTEXT: Troops/1545/name/
+> CONTEXT: None < UNUSED
 【BOSS】Acolyte
 > END STRING
 
 > BEGIN STRING
 【BOSS】シヴィリアン
-> CONTEXT: Troops/1546/name/
+> CONTEXT: None < UNUSED
 【BOSS】Civilian
 > END STRING
 
 > BEGIN STRING
 【BOSS】高位天使三姉妹
-> CONTEXT: Troops/1548/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 "セラフィエル"
-> CONTEXT: Troops/1551/pages/0/3/InlineScript/1:22
+> CONTEXT: Troops/1549/pages/0/3/InlineScript/1:22
 "Seraphiel"
 > END STRING
 
@@ -8273,124 +8272,122 @@ Mikael/248/92, Petite Angel/235/91
 \\name[\\v[2]]\\_
 これ以上の戦いは危険ですわ。
 一度体制を立て直しましょう……。
-> CONTEXT: Troops/1551/pages/0/4/Dialogue < UNTRANSLATED
+> CONTEXT: Troops/1549/pages/0/4/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 【BOSS】大天使セラフィエル
-> CONTEXT: Troops/1552/name/ < UNTRANSLATED
+> CONTEXT: Troops/1557/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 【BOSS】エウプロシュネー単体
-> CONTEXT: Troops/1553/name/
+> CONTEXT: None < UNUSED
 【BOSS】Euphrosyne単体
 > END STRING
 
 > BEGIN STRING
 【BOSS】アグライアー単体
-> CONTEXT: Troops/1554/name/
+> CONTEXT: None < UNUSED
 【BOSS】Aglaia単体
 > END STRING
 
 > BEGIN STRING
 【BOSS】妖蝶三姉妹
-> CONTEXT: Troops/1555/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 【BOSS】悪戯妖蝶姉妹
-> CONTEXT: Troops/1558/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 【BOSS】堕天使三姉妹
-> CONTEXT: Troops/1559/name/ < UNTRANSLATED
+> CONTEXT: Troops/1646/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 【BOSS】モリガン＆スルガト
-> CONTEXT: Troops/1560/name/ < UNTRANSLATED
+> CONTEXT: Troops/1576/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 【BOSS】大天使シェムハザ
-> CONTEXT: Troops/1561/name/ < UNTRANSLATED
+> CONTEXT: Troops/1647/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 【BOSS】暗黒天使シェムハザ
-> CONTEXT: Troops/1562/name/ < UNTRANSLATED
+> CONTEXT: Troops/1648/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 ■漆黒の冥府
-> CONTEXT: Troops/1566/name/ < UNTRANSLATED
-> CONTEXT: Enemies/1805/name/ < UNTRANSLATED
+> CONTEXT: Troops/1559/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1780/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 グローア/74/95, サイレント/53/91
-> CONTEXT: Troops/1567/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 グローア/74/95, ゾンビサキュバス/320/95
-> CONTEXT: Troops/1568/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ダークリリム/165/92, グローア/74/95
-> CONTEXT: Troops/1569/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ダークリリム/165/92, サイレント/53/91
-> CONTEXT: Troops/1570/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ダークリリム/165/92, ゾンビサキュバス/32
-> CONTEXT: Troops/1571/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 サイレント/53/91, ゾンビサキュバス/320/9
-> CONTEXT: Troops/1572/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ショゴス/86/97
-> CONTEXT: Troops/1573/name/ < UNTRANSLATED
-> CONTEXT: Enemies/1810/name/ < UNTRANSLATED
 > CONTEXT: Enemies/1850/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 ショゴス/86/97, ゾンビサキュバス/320/95
-> CONTEXT: Troops/1574/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 ダークリリム/165/92, ショゴス/86/97
-> CONTEXT: Troops/1575/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -8441,6 +8438,7 @@ Mikael/248/92, Petite Angel/235/91
 > BEGIN STRING
 【BOSS】デザイア
 > CONTEXT: Troops/1587/name/ < UNTRANSLATED
+> CONTEXT: Troops/1535/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -8464,19 +8462,19 @@ Mikael/248/92, Petite Angel/235/91
 
 > BEGIN STRING
 【BOSS】ナイトストーカー
-> CONTEXT: Troops/1591/name/ < UNTRANSLATED
+> CONTEXT: Troops/1575/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 【BOSS】ニューオメガ
-> CONTEXT: Troops/1593/name/
+> CONTEXT: None < UNUSED
 【BOSS】New Omega
 > END STRING
 
 > BEGIN STRING
 【BOSS】アガレス
-> CONTEXT: Troops/1594/name/
+> CONTEXT: None < UNUSED
 【BOSS】Agares
 > END STRING
 
@@ -9008,6 +9006,7 @@ Doulonは周りに淫毒をまき散らした！
 > BEGIN STRING
 【BOSS】イヅナ
 > CONTEXT: Troops/1786/name/
+> CONTEXT: Troops/1544/name/
 【BOSS】Izuna
 > END STRING
 
@@ -9395,5 +9394,477 @@ Doulonは周りに淫毒をまき散らした！
 > BEGIN STRING
 \\n[101]たちの自慰衝動が刺激された！
 > CONTEXT: Troops/1797/pages/0/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【OFE】ファミリア青, ウィッチクラフト青
+> CONTEXT: Troops/764/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ジェネラルフロスト/202/30, ジャックフロ
+> CONTEXT: Troops/766/name/ < UNTRANSLATED
+> CONTEXT: Troops/767/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\# シェルマッチを通す
+> CONTEXT: Troops/1031/pages/0/1/Comment < UNTRANSLATED
+> CONTEXT: Troops/1051/pages/0/3/Comment < UNTRANSLATED
+> CONTEXT: Troops/1053/pages/0/3/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\# アクセプトを通す
+> CONTEXT: Troops/1031/pages/1/1/Comment < UNTRANSLATED
+> CONTEXT: Troops/1051/pages/1/3/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/118/9/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/119/50/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/352/26/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/359/13/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\# ディルドインバックを通す
+> CONTEXT: Troops/1052/pages/0/3/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+攻撃回数
+> CONTEXT: Troops/1066/pages/0/5/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/351/29/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+攻撃回数に応じて恍惚付与
+> CONTEXT: Troops/1066/pages/0/13/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ティンクル/416/75
+> CONTEXT: Troops/1125/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1616/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】マインデビル, エンプーサ
+> CONTEXT: Troops/1201/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マインデビル/27/67, レッサーエンプーサ/5
+> CONTEXT: Troops/1202/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マインデビル/27/67, マインインプ/22/65
+> CONTEXT: Troops/1203/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーエンプーサ/5/65, エンプーサ/10/6
+> CONTEXT: Troops/1204/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マインインプ/22/65, エンプーサ/10/67
+> CONTEXT: Troops/1205/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マインデビル/27/68
+> CONTEXT: Troops/1206/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1151/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エンプーサ/10/69
+> CONTEXT: Troops/1207/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1152/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+最初のターンは溜め無しで大罪素質を取得
+> CONTEXT: Troops/1280/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★心奪う香り発動以降、4ターン毎にベルフェゴール出現
+> CONTEXT: Troops/1438/pages/1/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================
+\# ベルフェゴールその１出現
+\#=================================================
+> CONTEXT: Troops/1438/pages/1/2/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================
+\# ベルフェゴールその２出現
+\#=================================================
+> CONTEXT: Troops/1438/pages/1/22/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================
+\# ベルフェゴールその３出現
+\#=================================================
+> CONTEXT: Troops/1438/pages/1/42/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\#=================================================
+\# ベルフェゴールその４出現
+\#=================================================
+> CONTEXT: Troops/1438/pages/1/62/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】デモノロジスト
+> CONTEXT: Troops/1467/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】メフィスト
+> CONTEXT: Troops/1468/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【イベント】異世界編チュートリアル
+> CONTEXT: Troops/1500/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ここから先は、一部のスキルや状況によって
+マゾに堕とされていく事があります。
+> CONTEXT: Troops/1500/pages/0/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ムチのような被虐技から足技、
+アナル攻め、顔面騎乗、吸精技、くすぐり技など。
+> CONTEXT: Troops/1500/pages/0/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マゾに堕とされると、
+あらゆる面で不利になってしまうため、
+堕とされないようにしましょう。
+> CONTEXT: Troops/1500/pages/0/10/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+マゾに堕とされても、
+マゾから立ち直せるスキルもあります。
+> CONTEXT: Troops/1500/pages/0/13/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+祝福のキッスなどは、
+回復の助けとなるでしょう。
+> CONTEXT: Troops/1500/pages/0/15/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ルシフェル処理
+> CONTEXT: Troops/1504/pages/0/6/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ラファエル処理
+> CONTEXT: Troops/1504/pages/0/16/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イブリース/137/89, サイレント/53/89
+> CONTEXT: Troops/1508/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イブリース/137/89, スクラーヴェ/53/89
+> CONTEXT: Troops/1509/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レヴナント/438/91, イブリース/137/89
+> CONTEXT: Troops/1510/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ワーデン
+> CONTEXT: Troops/1515/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】サイクロプス
+> CONTEXT: Troops/1525/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーセラフィム/248/92, エンジェル/23
+> CONTEXT: Troops/1528/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーセラフィム/248/92, プチエンジェ
+> CONTEXT: Troops/1529/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+レッサーセラフィム/248/92, セラフィム/32
+> CONTEXT: Troops/1530/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エンジェル/234/91, セラフィム/325/92
+> CONTEXT: Troops/1532/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+セラフィム/325/92, プチエンジェル/235/91
+> CONTEXT: Troops/1533/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】セラフィムロード
+> CONTEXT: Troops/1538/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】シスターリリム
+> CONTEXT: Troops/1539/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】メルビス・バトラー
+> CONTEXT: Troops/1540/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】セツナ・ナデシコ
+> CONTEXT: Troops/1541/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ベル・ソワール
+> CONTEXT: Troops/1542/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ミノタウロス・キマイラ
+> CONTEXT: Troops/1543/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■大天使の城・決戦
+> CONTEXT: Troops/1551/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1772/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】天使長ガブリエル
+> CONTEXT: Troops/1555/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】デルモア・イーザル
+> CONTEXT: Troops/1560/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】デルモア単体
+> CONTEXT: Troops/1561/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】イーザル単体
+> CONTEXT: Troops/1562/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ヴィクセンメイド/1945/75
+> CONTEXT: Troops/1721/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】イチリア
+> CONTEXT: Troops/1722/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\n[101]たちは祟られてしまった！
+> CONTEXT: Troops/1746/pages/0/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★１0ターンごとに全体に淫毒をばらまく
+> CONTEXT: Troops/1747/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★１5ターンごとに全体に骨抜きをばらまく
+> CONTEXT: Troops/1749/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】桜華
+> CONTEXT: Troops/1764/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+仙狐/580/80
+> CONTEXT: Troops/1765/name/ < UNTRANSLATED
+> CONTEXT: Enemies/1929/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+赤鬼/578/70, 青鬼/579/70
+> CONTEXT: Troops/1766/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デザイア/526/110*2
+> CONTEXT: Troops/1767/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★１0ターンごとに全体にマゾの目覚めをばらまく
+> CONTEXT: Troops/1774/pages/0/0/Comment < UNTRANSLATED
+> CONTEXT: Troops/1791/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★１ターン目に全体に全裸にされる
+> CONTEXT: Troops/1775/pages/0/0/Comment < UNTRANSLATED
+> CONTEXT: Troops/1792/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★１5ターンごとに全体に畏怖を付与する
+> CONTEXT: Troops/1776/pages/0/0/Comment < UNTRANSLATED
+> CONTEXT: Troops/1793/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★１0ターンごとに全体に恍惚をかける
+> CONTEXT: Troops/1777/pages/0/0/Comment < UNTRANSLATED
+> CONTEXT: Troops/1794/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★10ターンごとに全体に魅了をかける
+> CONTEXT: Troops/1778/pages/0/0/Comment < UNTRANSLATED
+> CONTEXT: Troops/1779/pages/0/0/Comment < UNTRANSLATED
+> CONTEXT: Troops/1795/pages/0/0/Comment < UNTRANSLATED
+> CONTEXT: Troops/1796/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★１5ターンごとに全体に虚脱を付与する
+> CONTEXT: Troops/1780/pages/0/0/Comment < UNTRANSLATED
+> CONTEXT: Troops/1800/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★15ターンごとに全体に骨抜きをかける
+> CONTEXT: Troops/1781/pages/0/0/Comment < UNTRANSLATED
+> CONTEXT: Troops/1798/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★15ターンごとに拘束を付与
+> CONTEXT: Troops/1782/pages/0/0/Comment < UNTRANSLATED
+> CONTEXT: Troops/1799/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★8ターンごとに全体に畏怖を付与する
+> CONTEXT: Troops/1784/pages/0/0/Comment < UNTRANSLATED
+> CONTEXT: Troops/1801/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★１5ターンごとに全体に性交の虜を付与する
+> CONTEXT: Troops/1785/pages/0/0/Comment < UNTRANSLATED
+> CONTEXT: Troops/1802/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+★★１5ターンごとに全体に自慰衝動を付与する
+> CONTEXT: Troops/1797/pages/0/0/Comment < UNTRANSLATED
 
 > END STRING

@@ -1,8 +1,8 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 ユニークサキュバス、ドゥーロンと契約しますか？
-> CONTEXT: Map466/events/4/pages/1/0/Dialogue < UNTRANSLATED
 > CONTEXT: Map466/events/8/pages/0/115/Dialogue < UNTRANSLATED
+> CONTEXT: Map466/events/4/pages/1/1/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -10,16 +10,16 @@
 \\name[\\v[2]]\\
 あれー……？
 けいやくできるかず、いっぱいだよー……？
-> CONTEXT: Map466/events/4/pages/1/5/Dialogue < UNTRANSLATED
 > CONTEXT: Map466/events/8/pages/0/120/Dialogue < UNTRANSLATED
+> CONTEXT: Map466/events/4/pages/1/6/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\
 よゆうができてから、またきてよねー……。
-> CONTEXT: Map466/events/4/pages/1/8/Dialogue < UNTRANSLATED
 > CONTEXT: Map466/events/8/pages/0/123/Dialogue < UNTRANSLATED
+> CONTEXT: Map466/events/4/pages/1/9/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -27,50 +27,50 @@
 \\name[\\v[2]]\\_
 ありがとー……。
 しずかなばしょにー……あんないしてねー……。
-> CONTEXT: Map466/events/4/pages/1/13/Dialogue < UNTRANSLATED
 > CONTEXT: Map466/events/8/pages/0/102/Dialogue < UNTRANSLATED
 > CONTEXT: Map466/events/8/pages/0/128/Dialogue < UNTRANSLATED
+> CONTEXT: Map466/events/4/pages/1/14/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 ドゥーロンと契約を交わした！\\|\\|
-> CONTEXT: Map466/events/4/pages/1/17/Dialogue < UNTRANSLATED
 > CONTEXT: Map466/events/8/pages/0/106/Dialogue < UNTRANSLATED
 > CONTEXT: Map466/events/8/pages/0/132/Dialogue < UNTRANSLATED
+> CONTEXT: Map466/events/4/pages/1/18/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 ドゥーロンは妊娠しているようだ･･･。
-> CONTEXT: Map466/events/4/pages/1/30/Dialogue < UNTRANSLATED
 > CONTEXT: Map466/events/8/pages/0/145/Dialogue < UNTRANSLATED
+> CONTEXT: Map466/events/4/pages/1/31/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 ドゥーロンをホームに迎え入れた！
-> CONTEXT: Map466/events/4/pages/1/36/Dialogue < UNTRANSLATED
-> CONTEXT: Map466/events/4/pages/1/47/Dialogue < UNTRANSLATED
 > CONTEXT: Map466/events/8/pages/0/151/Dialogue < UNTRANSLATED
 > CONTEXT: Map466/events/8/pages/0/162/Dialogue < UNTRANSLATED
+> CONTEXT: Map466/events/4/pages/1/37/Dialogue < UNTRANSLATED
+> CONTEXT: Map466/events/4/pages/1/48/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 ドゥーロンがパーティに加わった！
-> CONTEXT: Map466/events/4/pages/1/43/Dialogue < UNTRANSLATED
 > CONTEXT: Map466/events/8/pages/0/158/Dialogue < UNTRANSLATED
+> CONTEXT: Map466/events/4/pages/1/44/Dialogue < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 なんでさー……いじわるー……！
-> CONTEXT: Map466/events/4/pages/1/61/Dialogue < UNTRANSLATED
-> CONTEXT: Map466/events/4/pages/1/66/Dialogue < UNTRANSLATED
-> CONTEXT: Map466/events/4/pages/1/70/Dialogue < UNTRANSLATED
 > CONTEXT: Map466/events/8/pages/0/176/Dialogue < UNTRANSLATED
+> CONTEXT: Map466/events/4/pages/1/62/Dialogue < UNTRANSLATED
+> CONTEXT: Map466/events/4/pages/1/67/Dialogue < UNTRANSLATED
+> CONTEXT: Map466/events/4/pages/1/71/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -155,6 +155,7 @@
 > BEGIN STRING
 "ドゥーロン"
 > CONTEXT: Map466/events/8/pages/0/81/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map466/events/4/pages/1/0/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
 
@@ -197,5 +198,11 @@
 だったら、しずかなところにいくよー……。
 どこかいいばしょに、つれていってー……。
 > CONTEXT: Map466/events/8/pages/0/97/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ドゥーロンと再戦しますか？
+> CONTEXT: Map466/events/4/pages/2/0/Dialogue < UNTRANSLATED
 
 > END STRING

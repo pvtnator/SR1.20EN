@@ -484,6 +484,7 @@ Here's some flowers♪
 ……。
 > CONTEXT: Map282/events/52/pages/0/0/Dialogue
 > CONTEXT: Map282/events/52/pages/0/0/Dialogue
+> CONTEXT: Map566/events/19/pages/0/2/Dialogue
 ...
 > END STRING
 
@@ -709,5 +710,77 @@ Kiki!
 吹き荒ぶ雪原の風が漏れ出ている…。
 > CONTEXT: Map282/events/66/pages/0/0/Dialogue < UNTRANSLATED
 > CONTEXT: Map282/events/66/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+＠灯り17
+> CONTEXT: Map282/events/3/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+■庭の女の子
+ミニポプリが無い時にミニポプリを１個くれる。
+> CONTEXT: Map282/events/39/pages/0/0/Comment < UNTRANSLATED
+> CONTEXT: Map282/events/39/pages/1/0/Comment < UNTRANSLATED
+> CONTEXT: Map282/events/39/pages/2/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+紛失報告があったので100, 101両方所持していない場合再入手
+> CONTEXT: Map282/events/52/pages/1/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ホームメイドだけ特殊処理
+> CONTEXT: Map282/events/59/pages/0/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+0：現在地がホーム
+> CONTEXT: Map282/events/59/pages/1/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+enemy = コピー元のエネミーのIDを指定します。
+数値か数値の配列で指定します。
+省略不可。
+> CONTEXT: Map282/events/63/pages/0/3/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+level = エネミーのレベルを指定します。
+数値か数値の配列で指定します。
+指定しないと1になります。
+エネミーの数より指定が少ないと足りない分は
+先頭と同じレベルになります。
+> CONTEXT: Map282/events/63/pages/0/6/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+flg = エネミーのボス属性（強さ）を指定します。
+指定しないと普通になります。
+エネミーの数より指定が少ないと足りない分は
+先頭と同じ属性になります。
+指定可能なのは以下の通りです。
+> CONTEXT: Map282/events/63/pages/0/11/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+0, "普通"
+1, "イベント", "EVENT"
+2, "強敵", "OFE"
+3, "ボス", "BOSS"
+4, "ラスボス", "LASTBBOSS"
+5, "フォロワー", "FOLLOWER"
+> CONTEXT: Map282/events/63/pages/0/16/Comment < UNTRANSLATED
 
 > END STRING

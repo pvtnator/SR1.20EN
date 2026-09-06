@@ -58,6 +58,9 @@ She always comes over to me\\H
 > CONTEXT: Map165/events/195/pages/0/1/InlineScript/1:22
 > CONTEXT: Map165/events/195/pages/0/46/InlineScript/1:22
 > CONTEXT: Map165/events/195/pages/0/46/InlineScript/1:22
+> CONTEXT: Map126/events/25/pages/1/0/InlineScript/1:22
+> CONTEXT: Map126/events/25/pages/2/0/InlineScript/1:22
+> CONTEXT: Map126/events/74/pages/0/0/InlineScript/1:22
 "Golden-red Haired Apprentice Witch"
 > END STRING
 
@@ -137,6 +140,7 @@ and they've prepared some useful items.
 > CONTEXT: Map165/events/195/pages/0/0/InlineScript/1:22
 > CONTEXT: Map165/events/195/pages/0/45/InlineScript/1:22
 > CONTEXT: Map165/events/195/pages/0/45/InlineScript/1:22
+> CONTEXT: Map126/events/72/pages/0/0/InlineScript/1:22
 "Blonde Apprentice Witch"
 > END STRING
 
@@ -174,6 +178,8 @@ Achoo!
 > CONTEXT: Map126/events/28/pages/1/0/InlineScript/1:22
 > CONTEXT: Map165/events/181/pages/0/0/InlineScript/1:22
 > CONTEXT: Map165/events/181/pages/0/0/InlineScript/1:22
+> CONTEXT: Map126/events/28/pages/2/0/InlineScript/1:22
+> CONTEXT: Map126/events/28/pages/3/0/InlineScript/1:22
 "Pink Haired Apprentice Witch"
 > END STRING
 
@@ -234,6 +240,8 @@ and she's very inspiring, even if annoying...
 > CONTEXT: Map126/events/29/pages/0/0/InlineScript/1:22
 > CONTEXT: Map165/events/196/pages/0/0/InlineScript/1:22
 > CONTEXT: Map165/events/196/pages/0/0/InlineScript/1:22
+> CONTEXT: Map126/events/29/pages/1/0/InlineScript/1:22
+> CONTEXT: Map126/events/29/pages/2/0/InlineScript/1:22
 "Light Blue Haired Familiar"
 > END STRING
 
@@ -241,8 +249,7 @@ and she's very inspiring, even if annoying...
 \\name[\\v[2]]\\_
 あ、ごきげんよう。
 この度は保護していただきありがとうございました。
-> CONTEXT: Map126/events/29/pages/0/1/Dialogue
-> CONTEXT: Map126/events/29/pages/0/1/Dialogue
+> CONTEXT: None < UNUSED
 \\name[\\v[2]]\\_
 Oh, hello there.
 Thank you for protecting me.
@@ -314,6 +321,9 @@ More of that...ahh...\\H
 > CONTEXT: Map126/events/40/pages/1/0/InlineScript/1:22
 > CONTEXT: Map165/events/237/pages/0/0/InlineScript/1:22
 > CONTEXT: Map165/events/237/pages/0/0/InlineScript/1:22
+> CONTEXT: Map126/events/40/pages/2/0/InlineScript/1:22
+> CONTEXT: Map126/events/40/pages/3/0/InlineScript/1:22
+> CONTEXT: Map126/events/40/pages/4/0/InlineScript/1:22
 "Medea"
 > END STRING
 
@@ -498,7 +508,7 @@ I look forward to your continued support.
 > BEGIN STRING
 \\name[\\v[2]]\\_
 やぁ、なにか買っていくかい？
-> CONTEXT: Map126/events/41/pages/2/13/Dialogue
+> CONTEXT: Map126/events/41/pages/2/54/Dialogue
 \\name[\\v[2]]\\_
 Hey, would you like to buy something?
 > END STRING
@@ -583,6 +593,8 @@ Did you bring any materials?
 > CONTEXT: Map126/events/44/pages/0/0/InlineScript/1:22
 > CONTEXT: Map165/events/190/pages/0/0/InlineScript/1:22
 > CONTEXT: Map165/events/190/pages/0/0/InlineScript/1:22
+> CONTEXT: Map126/events/44/pages/1/0/InlineScript/1:22
+> CONTEXT: Map126/events/44/pages/2/0/InlineScript/1:22
 "Jade Haired Familiar"
 > END STRING
 
@@ -876,7 +888,6 @@ If you do, I'd like to stay too...\\H
 この里もかなり賑わいを見せてきましたよ。
 > CONTEXT: Map126/events/51/pages/1/1/Dialogue
 > CONTEXT: Map126/events/51/pages/1/1/Dialogue
-> CONTEXT: Map126/events/51/pages/2/1/Dialogue
 \\name[\\v[2]]\\_
 Oh, \\n[101],
 thanks to your rescue efforts,
@@ -898,6 +909,8 @@ Teufel's was especially impressive...\\H\\|
 "青髪のシルキー"
 > CONTEXT: Map126/events/52/pages/0/0/InlineScript/1:22
 > CONTEXT: Map126/events/52/pages/0/0/InlineScript/1:22
+> CONTEXT: Map126/events/52/pages/1/0/InlineScript/1:22
+> CONTEXT: Map126/events/52/pages/2/0/InlineScript/1:22
 "Blue Haired Silky"
 > END STRING
 
@@ -1175,6 +1188,8 @@ And when we play, it feels good...\\H
 > CONTEXT: Map165/events/214/pages/0/4/InlineScript/1:22
 > CONTEXT: Map165/events/215/pages/0/4/InlineScript/1:22
 > CONTEXT: Map165/events/215/pages/0/4/InlineScript/1:22
+> CONTEXT: Map126/events/59/pages/1/0/InlineScript/1:22
+> CONTEXT: Map126/events/59/pages/2/0/InlineScript/1:22
 "Brown Haired Silky"
 > END STRING
 
@@ -1353,7 +1368,7 @@ I plan to stay here...for a while...
 \\name[\\v[2]]\\_
 最近はトイフェル様も良いけどニウェウス様も……\\H\\|
 \\|は！？今、私はしたないことを……。
-> CONTEXT: Map126/events/51/pages/2/5/Dialogue < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -1389,5 +1404,666 @@ I plan to stay here...for a while...
 私は裁縫が得意なので
 それでお手伝いさせていただこうかなと思っていますよ。
 > CONTEXT: Map126/events/61/pages/0/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あ、どうもお兄さん
+最近サンタさんに許可を貰ってね
+外れの方の調査をしてみたんだけども……
+> CONTEXT: Map126/events/25/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そこで面白いもの見つけてね
+さらに深く調査するために、行き来しやすいように
+そこに繋がるポータルを作っているんだ
+> CONTEXT: Map126/events/25/pages/1/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なんていうのかな……
+まるで空間が裂けて侵食されてるような
+そんな場所だったよ、お兄さんも見てきたら？
+> CONTEXT: Map126/events/25/pages/1/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+どうもお兄さん。
+やっとポータルが繋がったよ、
+向こうの特異な魔力で手こずっちゃった。
+> CONTEXT: Map126/events/25/pages/2/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+安全に使えることは確認済み。
+あの裂け目の近くに飛べるようにしておいたから、
+お兄さんも使って。
+> CONTEXT: Map126/events/25/pages/2/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やぁお兄さん、外れの方にある洞窟で
+ものすごいものを見つけたんだよ
+今は彼女にそこへ繋がるポータルを作って貰ってるところ
+> CONTEXT: Map126/events/28/pages/2/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+見つけたのは空間の裂け目
+今もじわじわとだけど周辺の地形を侵食していってる。
+なかなか興味深いけどなんとかしなきゃなんだよね～……
+> CONTEXT: Map126/events/28/pages/2/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あ、お兄さんどうも。
+あの裂け目について色々調査してみたけど、
+結構興味深いものだったよ。
+> CONTEXT: Map126/events/28/pages/3/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+まず、裂け目自体は、
+結構色んなところで発生するみたい。
+けど大抵は小さくてすぐ閉じちゃうみたいなんだけど……
+> CONTEXT: Map126/events/28/pages/3/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あの裂け目は、結構大きく裂けちゃったみたい。
+それで周囲の地形にも影響を及ぼしちゃったみたいだね。
+かなり稀なケースだけど。
+> CONTEXT: Map126/events/28/pages/3/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+でもお兄さんが安定させたお陰で、
+これ以上地形への侵食は収まると思う。
+> CONTEXT: Map126/events/28/pages/3/13/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ただ、特異な魔力はまだ放出されてるみたいだから
+物質の変質は止まらないだろうね。
+まぁそれはそれで貴重な資源を得られるからいいけど。
+> CONTEXT: Map126/events/28/pages/3/16/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あら、ごきげんよう。
+この度は保護していただきありがとうございました。
+> CONTEXT: Map126/events/29/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ごきげんよう、なにか探し物でも？
+> CONTEXT: Map126/events/29/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+鎮め草とマシマシイタケですか……
+鎮め草は存じ上げませんが、マシマシイタケなら
+月明かりの樹海の奥地で取れるかと思いますよ。
+> CONTEXT: Map126/events/29/pages/1/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+たしか……ネイジュレンジという夢魔がいた辺りとかに
+生えてた記憶があります、以前密教会に頼まれて
+そこまで取りに行ったことがありますので。
+> CONTEXT: Map126/events/29/pages/1/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ごきげんよう、ここも落ち着いてきましたよ。
+> CONTEXT: Map126/events/29/pages/2/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+私は氷結図書館とここの行き来で忙しいですが、
+なんとか暮らせています、正直前より境遇はいいですね。
+> CONTEXT: Map126/events/29/pages/2/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それとあの天使さんの料理は目を見張るものがあります。
+今度教えを請いに行きましょうかね……。
+> CONTEXT: Map126/events/29/pages/2/6/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やぁやぁ、調子はどうかな？
+ここってすごいね、元いた場所じゃ見つからなかったものが
+たくさん見つかるからね、研究がすごく捗ってるよ\\H
+> CONTEXT: Map126/events/40/pages/2/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ん～？
+サンタさんの家で休んでる人のための薬を作ってほしい？
+う～ん今すぐ効くものだと……
+> CONTEXT: Map126/events/40/pages/2/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おまたせ、ちょっと材料の在庫の方を確認してみけど
+全部は揃わなかったんだ
+できれば、君が探してきてくれないかな？
+> CONTEXT: Map126/events/40/pages/2/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+足りない材料は『鎮め草』と『マシマシイタケ』
+それさえ用意できれば薬は作れるかも！
+> CONTEXT: Map126/events/40/pages/2/16/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+2つともこの辺りでは見つからなかったからさ……
+一応代用できるものを探してみるけど
+見つかるかどうかは怪しいからね、それじゃ頼んだよ\\H
+> CONTEXT: Map126/events/40/pages/2/19/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あ！それそれ！
+鎮め草とマシマシイタケ！
+それがあれば薬が作れるよ！ちょっと待っててね！
+> CONTEXT: Map126/events/40/pages/3/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+後はこれをこうして……
+はい、これであの症状を緩和できると思うよ。
+> CONTEXT: Map126/events/40/pages/3/12/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+薬を受け取った。
+> CONTEXT: Map126/events/40/pages/3/15/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あくまでも緩和だから、
+時間が経ったらまたぶり返しちゃうかも。
+その時はまた飲んでもらえれば抑えられると思う。
+> CONTEXT: Map126/events/40/pages/3/16/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+それじゃあの人に届けてあげて、
+最近結構つらそうにしてたみたいだからさ。
+> CONTEXT: Map126/events/40/pages/3/20/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+どうかな？材料は見つかったかな？
+> CONTEXT: Map126/events/40/pages/3/29/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+鎮め草は文献だとこの辺りみたいに
+寒い地域によく生えてる薬草なんだけど
+なぜか見つからなかったんだよねぇ……
+> CONTEXT: Map126/events/40/pages/3/35/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここは寒さが足りなかったりするのかなぁ
+なんでも、繁殖力自体はあまり強くないみたいだから
+とびっきり寒い場所じゃないといけないのかもね
+> CONTEXT: Map126/events/40/pages/3/39/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+マシマシイタケが生えてるところは
+実は私把握できてないんだよね～
+元いた場所に取り込まれた物を使っていたからさ
+> CONTEXT: Map126/events/40/pages/3/45/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+貸してもらった文献だと、森の奥地に生えてるってことだけど
+詳しいことはわからないなぁ、もしかしたら
+この里の他の人が知ってるかもしれないから聞いてみたら？
+> CONTEXT: Map126/events/40/pages/3/49/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+鎮め草とマシマシイタケさえあれば
+薬を作れるからね、頼んだよ\\H
+> CONTEXT: Map126/events/40/pages/3/55/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やぁやぁ、薬は届けてくれたかな？
+届けてないなら早く届けてあげて、
+あの人最近結構つらそうにしていたからさ。
+> CONTEXT: Map126/events/40/pages/4/2/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やぁやぁ、この間はありがとね。
+こちらとしてもいい経験になったよ\\H
+> CONTEXT: Map126/events/40/pages/4/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+一応扱ったことのある薬草とキノコとはいえ
+とても貴重なものだからね、
+それに面白い効能も見られたからこれまた研究しないとね\\H
+> CONTEXT: Map126/events/40/pages/4/11/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+やぁ少年、以前君に渡したルーン石を覚えてるかい？
+あれを少し貸してくれるかな？
+> CONTEXT: Map126/events/41/pages/2/17/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\T[386]開眼のルーンを渡した。
+> CONTEXT: Map126/events/41/pages/2/21/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ありがとう、少し待っててくれ。
+> CONTEXT: Map126/events/41/pages/2/22/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+よし、できたぞ、受け取ってくれ。
+> CONTEXT: Map126/events/41/pages/2/27/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+少し前に見つかった裂け目……
+あれから奇妙な魔力が放出されてるみたいでね
+> CONTEXT: Map126/events/41/pages/2/37/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+我々みたいな生物には影響は無いみたいだが、
+周囲の物質を変質させてしまう力を持ってるみたいで
+それを素材に使ってルーン石を強化改良したというわけさ。
+> CONTEXT: Map126/events/41/pages/2/40/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+以前のルーン石に追加でルーンを刻印できるはずだよ。
+是非君の旅に役立ててくれ。
+> CONTEXT: Map126/events/41/pages/2/44/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+さて、ついでになにか見ていくかい？
+> CONTEXT: Map126/events/41/pages/2/47/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ごきげんようお兄さん。
+何やら忙しそうですね。
+> CONTEXT: Map126/events/44/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+薬の材料ですか……申し訳ないのですが
+わたくしは奴隷の世話の方を担当してたので……
+> CONTEXT: Map126/events/44/pages/1/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そこにいるわたくしの同期なら
+なにか知っているかもしれません。
+彼女は外での仕事が多かったみたいなので。
+> CONTEXT: Map126/events/44/pages/1/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ごきげんようお兄さん。
+あの奴隷たちも健康に過ごせてますよ。
+> CONTEXT: Map126/events/44/pages/2/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+けど最近は堕天使さんも混ざっているような？
+ですがここでは、奴隷としての忘れて
+ゆっくりと過ごして欲しいものですね。
+> CONTEXT: Map126/events/44/pages/2/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+こう見えて奴隷のお世話って大変なんですよ。
+結構教えることが多いもので……\\H
+> CONTEXT: Map126/events/44/pages/2/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ああ、ジェノシンドレ様、行ってしまわれるのですね……
+あの熱い夜はとても素晴らしいものでした……\\H
+> CONTEXT: Map126/events/51/pages/2/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+…\\|…\\|はっ！？\\n[101]様！？
+今私、なんてことを！？
+> CONTEXT: Map126/events/51/pages/2/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+あ、お兄さんこんにちわ～
+なにかお困りごとですか～？
+> CONTEXT: Map126/events/52/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+鎮め草とマシマシイタケですか？
+鎮め草はわかりませんが、マシマシイタケなら
+アウトドア好きなメイドがごくたま～に持ってきてましたよ。
+> CONTEXT: Map126/events/52/pages/1/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なんでも、キノコの夢魔さんと仲が良くて
+ほんとたま～に貰うことがあるとかないとか！
+一体どんな夢魔さんなんでしょうね～
+> CONTEXT: Map126/events/52/pages/1/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お兄さんこんにちわ～
+また報告用のお手紙を書いているんですよ～
+> CONTEXT: Map126/events/52/pages/2/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+今回の裂け目の発見に関しては、
+大事件の何者でもないですからねぇ。
+お兄さんが抑え込んでくれたとはいえ。
+> CONTEXT: Map126/events/52/pages/2/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お手紙をどうやって届けるかって？
+それはゆっくりと考えていきます！
+> CONTEXT: Map126/events/52/pages/2/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お兄さんお兄さん、聞いてください！
+この里の外れにある洞窟で見ちゃったんですよ！
+空間の裂け目！
+> CONTEXT: Map126/events/59/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+なかなかに珍しいもの見れましたよ～
+普段は領主様のご友人のニュクス様が管理しているので
+見れるものではないんですけどね～
+> CONTEXT: Map126/events/59/pages/1/5/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+けど不安定なようにも見えましたよ。
+周りにも侵食しちゃってるし……
+もしかしたらニュクス様ならなんとかなるかも？
+> CONTEXT: Map126/events/59/pages/1/9/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+お兄さん聞いてくださいよ！
+あの裂け目がいつの間にか安定してたんですよ！
+> CONTEXT: Map126/events/59/pages/2/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+……え？
+お兄さんがニュクス様を連れて行って安定させた？
+> CONTEXT: Map126/events/59/pages/2/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+すごいです！お兄さんって、
+ニュクス様とも契約していらっしゃるのですね！
+わたくし感激です！
+> CONTEXT: Map126/events/59/pages/2/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おにーさんこんにちわ～。
+私になにか用ですか～？
+> CONTEXT: Map126/events/68/pages/1/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+元いた場所ですか～
+ここよりも寒い場所でしたよ～、私たちは寒さに強いけど
+そうじゃない人はすぐ凍える場所ですね～
+> CONTEXT: Map126/events/68/pages/1/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+でも急に現れた裂け目に取り込まれてここに来た感じです。
+けど元の場所よりこっちの方が楽しいですね～
+雪の精霊さんとかよく遊んでくれますよ～
+> CONTEXT: Map126/events/68/pages/1/8/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+おにーさんこんにちわ～。
+> CONTEXT: Map126/events/68/pages/2/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここに最近やってきた茶色のもふもふさん
+そこのもふもふさんみたいにイタズラに良い反応しますね～
+とてもいたずらしがいありますよ。
+> CONTEXT: Map126/events/68/pages/2/3/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ここに来てなかなか暇しませんね～
+ほんとここに案内してくれてありがと～ございます～。
+> CONTEXT: Map126/events/68/pages/2/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+どうもお兄さん、風邪はなんとか治ったよ
+メデイアさんが調合してくれた薬のおかげかな
+> CONTEXT: Map126/events/72/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+メデイアさん、ここに保護される前は
+特殊な空間にいたらしいよ？
+> CONTEXT: Map126/events/72/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+色んなものが、なんでも流れ着くけど
+とても不安定な場所だったんだって
+怖いけど好奇心のほうが勝つかも……
+> CONTEXT: Map126/events/72/pages/0/7/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+そうだ、姉さんが呼んでたよ。
+２連かまくらのお店開いてる金髪の魔女、
+実はあれ私の姉さんなんだよね。
+> CONTEXT: Map126/events/72/pages/0/14/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+……反応がない
+> CONTEXT: Map126/events/74/pages/0/1/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+ごめんね、これまだ未接続なんだ。
+もうちょっと時間が経ったら繋がるはずだから
+気長に待ってて欲しいかも。
+> CONTEXT: Map126/events/74/pages/0/4/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+し、シイタケ……？
+ご、ご、ごめんなさい、私あまり記憶がなくて……
+お、追いかけてきたメイドならもしかしたら……
+> CONTEXT: Map126/events/106/pages/0/13/Dialogue < UNTRANSLATED
 
 > END STRING

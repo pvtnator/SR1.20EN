@@ -305,6 +305,8 @@ Would you like to play with the succubi?
 > CONTEXT: Map127/events/2/pages/0/23/Choice/1
 > CONTEXT: Map127/events/2/pages/0/23/Choice/1
 > CONTEXT: Map127/events/2/pages/0/23/Choice/1
+> CONTEXT: Map568/events/39/pages/0/1/Choice/0
+> CONTEXT: Map568/events/39/pages/0/1/Choice/0
 Regular battle
 > END STRING
 
@@ -388,6 +390,9 @@ Regular battle
 > CONTEXT: Map425/events/7/pages/0/107/InlineScript/11:34 < UNTRANSLATED
 > CONTEXT: Map346/events/20/pages/0/115/InlineScript/11:34 < UNTRANSLATED
 > CONTEXT: Map347/events/22/pages/0/134/InlineScript/11:34 < UNTRANSLATED
+> CONTEXT: Map577/events/9/pages/0/22/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map577/events/9/pages/1/25/InlineScript/2:1 < UNTRANSLATED
+> CONTEXT: Map534/events/164/pages/0/120/InlineScript/11:34 < UNTRANSLATED
 
 > END STRING
 
@@ -516,6 +521,7 @@ Regular battle
 > CONTEXT: Map327/events/230/pages/1/78/Dialogue < UNTRANSLATED
 > CONTEXT: Map327/events/230/pages/1/87/Dialogue < UNTRANSLATED
 > CONTEXT: Map127/events/2/pages/0/119/Dialogue < UNTRANSLATED
+> CONTEXT: Map534/events/164/pages/0/167/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -608,7 +614,6 @@ Regular battle
 > CONTEXT: Commonevents/329/19/InlineScript/3:29 < UNTRANSLATED
 > CONTEXT: Commonevents/329/19/InlineScript/5:29 < UNTRANSLATED
 > CONTEXT: Map580/events/18/pages/0/168/InlineScript/1:31 < UNTRANSLATED
-> CONTEXT: Commonevents/339/11/InlineScript/1:27 < UNTRANSLATED
 > CONTEXT: Map256/events/23/pages/0/9/InlineScript/1:29 < UNTRANSLATED
 > CONTEXT: Map256/events/23/pages/0/9/InlineScript/1:29 < UNTRANSLATED
 > CONTEXT: Map138/events/4/pages/0/38/InlineScript/1:28 < UNTRANSLATED
@@ -675,8 +680,10 @@ Regular battle
 > CONTEXT: Map127/events/2/pages/0/135/InlineScript/1:28 < UNTRANSLATED
 > CONTEXT: Map165/events/204/pages/0/45/InlineScript/1:30 < UNTRANSLATED
 > CONTEXT: Map165/events/205/pages/0/45/InlineScript/1:30 < UNTRANSLATED
-> CONTEXT: Map165/events/256/pages/0/32/InlineScript/1:30 < UNTRANSLATED
-> CONTEXT: Map165/events/257/pages/0/40/InlineScript/1:30 < UNTRANSLATED
+> CONTEXT: Map577/events/9/pages/0/60/InlineScript/1:28 < UNTRANSLATED
+> CONTEXT: Map577/events/9/pages/1/63/InlineScript/1:28 < UNTRANSLATED
+> CONTEXT: Map165/events/256/pages/0/33/InlineScript/1:30 < UNTRANSLATED
+> CONTEXT: Map165/events/257/pages/0/42/InlineScript/1:30 < UNTRANSLATED
 
 > END STRING
 
@@ -712,6 +719,8 @@ Regular battle
 > CONTEXT: Map127/events/3/pages/0/4/Dialogue
 > CONTEXT: Map127/events/5/pages/0/4/Dialogue
 > CONTEXT: Map127/events/5/pages/0/4/Dialogue
+> CONTEXT: Map577/events/1/pages/1/4/Dialogue
+> CONTEXT: Map577/events/3/pages/1/4/Dialogue
 Would you like to make \\v[2] your ally?
 > END STRING
 
@@ -747,5 +756,62 @@ Would you like to make \\v[2] your ally?
 > CONTEXT: Map127/events/3/pages/0/16/Dialogue
 > CONTEXT: Map127/events/5/pages/0/16/Dialogue
 > CONTEXT: Map127/events/5/pages/0/16/Dialogue
+> CONTEXT: Map577/events/1/pages/1/16/Dialogue
+> CONTEXT: Map577/events/3/pages/1/16/Dialogue
 Do you want to remove \\v[2] from your side?
+> END STRING
+
+> BEGIN STRING
+未使用部分
+追撃発生云々を弄る場合に再活動予定
+> CONTEXT: Map989/events/3/pages/1/0/Comment < UNTRANSLATED
+> CONTEXT: Map930/events/4/pages/1/0/Comment < UNTRANSLATED
+> CONTEXT: Map886/events/4/pages/1/0/Comment < UNTRANSLATED
+> CONTEXT: Map878/events/4/pages/1/0/Comment < UNTRANSLATED
+> CONTEXT: Map737/events/4/pages/1/0/Comment < UNTRANSLATED
+> CONTEXT: Map703/events/4/pages/1/0/Comment < UNTRANSLATED
+> CONTEXT: Map625/events/4/pages/1/0/Comment < UNTRANSLATED
+> CONTEXT: Map600/events/1/pages/1/0/Comment < UNTRANSLATED
+> CONTEXT: Map577/events/4/pages/1/0/Comment < UNTRANSLATED
+> CONTEXT: Map586/events/11/pages/1/0/Comment < UNTRANSLATED
+> CONTEXT: Map127/events/4/pages/1/0/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ベッド戦後のステータス変動等の処理
+> CONTEXT: Map989/events/4/pages/0/102/Comment < UNTRANSLATED
+> CONTEXT: Map930/events/2/pages/0/78/Comment < UNTRANSLATED
+> CONTEXT: Map886/events/2/pages/0/110/Comment < UNTRANSLATED
+> CONTEXT: Map878/events/2/pages/0/84/Comment < UNTRANSLATED
+> CONTEXT: Map878/events/19/pages/0/79/Comment < UNTRANSLATED
+> CONTEXT: Map831/events/2/pages/0/65/Comment < UNTRANSLATED
+> CONTEXT: Map845/events/56/pages/1/48/Comment < UNTRANSLATED
+> CONTEXT: Map845/events/56/pages/1/67/Comment < UNTRANSLATED
+> CONTEXT: Map746/events/14/pages/0/108/Comment < UNTRANSLATED
+> CONTEXT: Map746/events/14/pages/0/158/Comment < UNTRANSLATED
+> CONTEXT: Map746/events/14/pages/0/211/Comment < UNTRANSLATED
+> CONTEXT: Map746/events/14/pages/0/218/Comment < UNTRANSLATED
+> CONTEXT: Map737/events/2/pages/0/102/Comment < UNTRANSLATED
+> CONTEXT: Map703/events/2/pages/0/102/Comment < UNTRANSLATED
+> CONTEXT: Map692/events/3/pages/1/154/Comment < UNTRANSLATED
+> CONTEXT: Map666/events/8/pages/1/188/Comment < UNTRANSLATED
+> CONTEXT: Map625/events/2/pages/0/102/Comment < UNTRANSLATED
+> CONTEXT: Map601/events/1/pages/0/60/Comment < UNTRANSLATED
+> CONTEXT: Map600/events/2/pages/0/60/Comment < UNTRANSLATED
+> CONTEXT: Map586/events/2/pages/0/69/Comment < UNTRANSLATED
+> CONTEXT: Map577/events/2/pages/0/102/Comment < UNTRANSLATED
+> CONTEXT: Map624/events/151/pages/0/47/Comment < UNTRANSLATED
+> CONTEXT: Map641/events/253/pages/0/127/Comment < UNTRANSLATED
+> CONTEXT: Map534/events/164/pages/0/156/Comment < UNTRANSLATED
+> CONTEXT: Map624/events/227/pages/0/46/Comment < UNTRANSLATED
+> CONTEXT: Map624/events/227/pages/0/50/Comment < UNTRANSLATED
+> CONTEXT: Map624/events/227/pages/0/54/Comment < UNTRANSLATED
+> CONTEXT: Map381/events/4/pages/0/126/Comment < UNTRANSLATED
+> CONTEXT: Map425/events/7/pages/0/143/Comment < UNTRANSLATED
+> CONTEXT: Map346/events/20/pages/0/151/Comment < UNTRANSLATED
+> CONTEXT: Map347/events/22/pages/0/171/Comment < UNTRANSLATED
+> CONTEXT: Map127/events/2/pages/0/104/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/268/2/Comment < UNTRANSLATED
+
 > END STRING
