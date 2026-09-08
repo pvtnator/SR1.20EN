@@ -4051,25 +4051,25 @@ Storm Elegy
 虚ろな朧月
 > CONTEXT: Incense_System.rb
 > CONTEXT: O_MOD_Game_Battler_2.rb
-
+Hazy Moon
 > END STRING
 
 > BEGIN STRING
 #{field_word}が妖しげな月光に照らされた！
 > CONTEXT: Incense_System.rb
-
+#{field_word} got illuminated\nby the eerie moonlight!
 > END STRING
 
 > BEGIN STRING
 #{field_word}は妖しげな月光に照らされている……！
 > CONTEXT: Incense_System.rb
-
+#{field_word} are illuminated\nby the eerie moonlight...!
 > END STRING
 
 > BEGIN STRING
 #{field_word}を妖しげな月光が照らさなくなった！
 > CONTEXT: Incense_System.rb
-
+#{field_word} are no longer illuminated\nby the eerie moonlight!
 > END STRING
 
 > BEGIN STRING
@@ -14339,14 +14339,14 @@ Can't use unless the dildo is in anus!
 あいつを狙いなさい
 > CONTEXT: O_MOD_Game_Battler_3.rb
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+Target Him
 > END STRING
 
 > BEGIN STRING
 相手が挑発中だと使えない！
 > CONTEXT: O_MOD_Game_Battler_3.rb
 > CONTEXT: O_MOD_Scene_Battle_5.rb
-
+Can't be used if the opponent is taunting!
 > END STRING
 
 > BEGIN STRING
@@ -19513,7 +19513,7 @@ Maen
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Kinkabyo
+Jinhua Cat
 > END STRING
 
 > BEGIN STRING
@@ -29241,7 +29241,7 @@ The pleasure from SS on a berserked opponent increases further.
 初めてに弱い
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: PR_Scene_Battle PluralAttack.rb
-
+First Weakness
 > END STRING
 
 > BEGIN STRING
@@ -33338,7 +33338,7 @@ Embarrassed
 > BEGIN STRING
 、\n\m#{targetname}を素早い動きで愛撫した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+,\n​m​caressed #{targetname} with swift movements!
 > END STRING
 
 > BEGIN STRING
@@ -33350,25 +33350,25 @@ Embarrassed
 > BEGIN STRING
 、\n\m#{targetname}を緩急をつけた動きで翻弄した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ outmaneuvered #{targetname} \n​m​with a mix of fast and slow movements!
 > END STRING
 
 > BEGIN STRING
 、\n\m#{targetname}を調べ上げるように愛撫した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+,\n​m​caressed as if to examine thoroughly!
 > END STRING
 
 > BEGIN STRING
 、\n\m#{targetname}を激しく愛撫した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+,\n​m​passionately caressed #{targetname}!
 > END STRING
 
 > BEGIN STRING
 、\n\m#{targetname}の弱点を集中的に愛撫した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ focused on caressing \n​m​#{targetname}'s weak spots!
 > END STRING
 
 > BEGIN STRING
@@ -34474,7 +34474,7 @@ But it didn't work on #{myname}!
 > BEGIN STRING
 、\n\m#{targetname}の動向を見守っている……
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-,\\n​m​is keeping an eye on \#{targetname}...
+,\n​m​is keeping an eye on #{targetname}...
 > END STRING
 
 > BEGIN STRING
@@ -36641,19 +36641,19 @@ in turning motion
 > BEGIN STRING
 周囲に妖しい炎を灯す！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ ignites an eerie flame all around!
 > END STRING
 
 > BEGIN STRING
 \n\m暖かい雨を降らせた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\nIt brought warm rain!
 > END STRING
 
 > BEGIN STRING
 \n\m辺り一面に静寂が広がる……！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\nSilence spreads all around...!
 > END STRING
 
 > BEGIN STRING
@@ -37979,7 +37979,7 @@ The mist prevented the magic from being activated!
 > BEGIN STRING
 #{tec}、\n\m#{myself.bustsize}と慎ましい胸を#{brk2}互いに擦り付け合う！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ is rubbing \n​m​#{myself.bustsize} against each other #{brk2}#{tec}!
 > END STRING
 
 > BEGIN STRING
@@ -38297,7 +38297,7 @@ two overwhelming
 > BEGIN STRING
 #{myself.bustsize}を、\n\m#{targetname}の#{target.bustsize}に押し当ててきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+'s #{myself.bustsize} pressed against\n​m​#{targetname}'s #{target.bustsize}!
 > END STRING
 
 > BEGIN STRING
@@ -38903,7 +38903,7 @@ two overwhelming
 > BEGIN STRING
 #{targetname}の#{targetpantsu}の中に、\n\m#{tail}を潜り込ませてアソコに優しく触れてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- slipped {tail} into \n#{targetname}'s #{targetpantsu} and gently touched her vagina!
+ slipped #{tail} into \n#{targetname}'s #{targetpantsu} and gently touched her vagina!
 > END STRING
 
 > BEGIN STRING
@@ -38927,55 +38927,55 @@ two overwhelming
 > BEGIN STRING
 #{targetname}の#{targetpantsu}の中に、\n\m#{tail}を潜り込ませて激しくアソコを愛撫してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ slipped #{tail} inside #{targetname}'s \n​m​#{targetpantsu} and intensely caressed her pussy!
 > END STRING
 
 > BEGIN STRING
 #{targetname}のアソコの入り口に、\n\m#{tail}の先を挿入して擦りあげてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ inserted #{tail}'s tip into \n​m​#{targetname}'s pussy and rubbed it!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の#{targetpantsu}の中に、\n\m#{tail}を滑り込ませて更にアソコを愛撫してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ slipped #{tail} inside #{targetname}'s \n​m​#{targetpantsu} and caressed even more!
 > END STRING
 
 > BEGIN STRING
 #{targetname}のアソコに、\n\m#{tail}を更に擦り付けて愛撫してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- rubbed #{tail} against \n#{targetname}'s vagina and caressed her!
+ rubbed #{tail} against \n​m​#{targetname}'s vagina and caressed her!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の#{targetpantsu}の中に、\n\m#{tail}を潜り込ませて陰核に優しく触れてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ slipped the #{tail} into #{targetname}'s \n​m​#{targetpantsu} and gently touched the clitoris!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の陰核に、\n\m#{tail}を擦り付けて撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- rubbed tail against \n#{targetname}'s clitoris!
+ rubbed tail against \n​m​#{targetname}'s clitoris!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の#{targetpantsu}の中に、\n\m#{tail}を潜り込ませて激しく陰核を刺激してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ slipped #{tail} inside #{targetname}'s \n​m​#{targetpantsu} and intensely stimulated the clitoris!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の陰核に、\n\m#{tail}を擦り付けて激しく刺激してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ rubbed #{tail} against #{targetname}'s \n​m​clitoris and stimulated it intensely!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の#{targetpantsu}の中に、\n\m#{tail}を滑り込ませて更に陰核を愛撫してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ slipped #{tail} into #{targetname}'s \n​m​#{targetpantsu} and then caressed the clitoris even more!
 > END STRING
 
 > BEGIN STRING
@@ -39803,13 +39803,13 @@ while looking up
 > BEGIN STRING
 \n\m#{targetname}への集中狙いを指示した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ instructed to \nfocus attacks on #{targetname}!
 > END STRING
 
 > BEGIN STRING
 、\n\m#{targetname}に憑依した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\npossessed #{targetname}!
 > END STRING
 
 > BEGIN STRING
@@ -39881,7 +39881,7 @@ while looking up
 > BEGIN STRING
 達の周りを月影が包み込む……！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ is enveloped by the moon's shadow...!
 > END STRING
 
 > BEGIN STRING
@@ -40007,7 +40007,7 @@ left and right
 > BEGIN STRING
 アソコをきゅっと締めながら、\n\m#{targetname}の体を舌でなぞってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- ran her tongue over {targetname}'s body \n​m​while squeezing her pussy tight!
+ ran her tongue over #{targetname}'s body \n​m​while squeezing her pussy tight!
 > END STRING
 
 > BEGIN STRING
@@ -40092,7 +40092,7 @@ left and right
 > BEGIN STRING
 なおも乳首を弄りながら、\n\m#{tec}、#{waist}腰を前後させてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- started moving hips back and forth #{waist} \n​m​while playing with nipples {tec}!
+ started moving hips back and forth #{waist} \n​m​while playing with nipples #{tec}!
 > END STRING
 
 > BEGIN STRING
@@ -41492,7 +41492,7 @@ suddenly hugged tightly!
 > BEGIN STRING
 #{targetname}の足を押さえ込みながら、\n\m#{myself.bustsize}でペニスをしごいてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- stroked penis with {myself.bustsize} \n​m​while holding down #{targetname}'s legs!
+ stroked penis with #{myself.bustsize} \n​m​while holding down #{targetname}'s legs!
 > END STRING
 
 > BEGIN STRING
@@ -43286,7 +43286,7 @@ Target: penis
 > BEGIN STRING
 #{targetname}の胸を掴み、\n獣のように荒々しく腰を打ち付けた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ grabbed #{targetname}'s chest and \nstarted thrusting like an animal!
 > END STRING
 
 > BEGIN STRING
@@ -44000,7 +44000,7 @@ Plus, #{myname} drank the liquid herself!
 > BEGIN STRING
 \n\m#{myname}はどうすれば良いか分からない！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​But she doesn't know what to do with #{myname}!
 > END STRING
 
 > BEGIN STRING
@@ -74748,7 +74748,7 @@ Die_Letzte_Revolution
 > BEGIN STRING
 戦の幕開け
 > CONTEXT: PR_RPG_Other(その他).rb
-Start of War
+
 > END STRING
 
 > BEGIN STRING
@@ -74760,7 +74760,7 @@ Start of War
 > BEGIN STRING
 深海の伝承歌
 > CONTEXT: PR_RPG_Other(その他).rb
-Deep Sea Folksong
+
 > END STRING
 
 > BEGIN STRING

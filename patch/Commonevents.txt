@@ -2149,8 +2149,8 @@ various doors of dream magic.
 
 > BEGIN STRING
 スライムの粘液が付いて上手く移動できなくなってしまった！
-> CONTEXT: Commonevents/58/71/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/58/71/Dialogue
+Covered in slime and can't move properly!
 > END STRING
 
 > BEGIN STRING
@@ -2161,53 +2161,56 @@ various doors of dream magic.
 
 > BEGIN STRING
 エネミー
-> CONTEXT: Commonevents/84/0/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Commonevents/84/0/Choice/0
+Enemy
 > END STRING
 
 > BEGIN STRING
 アクター
-> CONTEXT: Commonevents/84/0/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Commonevents/84/0/Choice/1
+Actor
 > END STRING
 
 > BEGIN STRING
 "\#{actor.name}は
 妊娠してしまったようだ……"
-> CONTEXT: Commonevents/85/0/InlineScript/3:1 < UNTRANSLATED
-
+> CONTEXT: Commonevents/85/0/InlineScript/3:1
+"Seems that #{actor.name} 
+has become pregnant..."
 > END STRING
 
 > BEGIN STRING
 ステート
-> CONTEXT: Commonevents/87/57/Choice/2 < UNTRANSLATED
-
+> CONTEXT: Commonevents/87/57/Choice/2
+State
 > END STRING
 
 > BEGIN STRING
 ベッド戦の背景を変更します
-> CONTEXT: Commonevents/87/59/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/87/59/Dialogue
+Change the background for the bed battle.
 > END STRING
 
 > BEGIN STRING
 ベッド戦の背景を変更しました
-> CONTEXT: Commonevents/87/61/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/87/61/Dialogue
+Changed the background for the bed battle.
 > END STRING
 
 > BEGIN STRING
 ベッド戦のBGMを変更します
 （SpaceまたはShiftでBGM試聴）
 現在設定されているBGM:  \\v[2]
-> CONTEXT: Commonevents/87/69/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/87/69/Dialogue
+Change the background music for the bed battle.
+(Press Space or Shift to preview the BGM)
+Currently set BGM: \\v[2]
 > END STRING
 
 > BEGIN STRING
 BGMの変更をキャンセルしました。
-> CONTEXT: Commonevents/87/74/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/87/74/Dialogue
+The BGM change has been canceled.
 > END STRING
 
 > BEGIN STRING
@@ -4203,8 +4206,9 @@ If you want to change it, talk to me again.
 
 > BEGIN STRING
 別世界にいる間、ロウラットは離脱できません。
-> CONTEXT: Commonevents/147/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/147/1/Dialogue
+While in the other world, 
+Lauratt cannot leave.
 > END STRING
 
 > BEGIN STRING
@@ -4226,8 +4230,9 @@ Okay
 > BEGIN STRING
 \\name[\\v[2]]\\_
 遠慮しなくていいのに
-> CONTEXT: Commonevents/148/11/Dialogue < UNTRANSLATED
-
+> CONTEXT: Commonevents/148/11/Dialogue
+\\name[\\v[2]]\\_
+You don't have to be shy.
 > END STRING
 
 > BEGIN STRING

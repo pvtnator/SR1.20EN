@@ -134,9 +134,9 @@ press D to see their special appearance.
 キャストが歌を口ずさみながら料理をしている。
 どこかで聞いた覚えがあるが思い出せない……
 > CONTEXT: Map566/events/12/pages/0/5/Dialogue
-The casts are humming a song while cooking.
-I remember hearing it somewhere before, 
-but I can't remember where...
+Cast is humming a song while cooking.
+You remember hearing it somewhere before, 
+but can't remember where...
 > END STRING
 
 > BEGIN STRING
@@ -254,8 +254,11 @@ Reset all encyclopedia levels
 \\name[\\v[2]]\\_
 ここは落ち着ける場所ですね。
 その……以前は破廉恥な方が多かったもので。
-> CONTEXT: Map566/events/3/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/3/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+This is a peaceful place.
+Well... there used to be 
+a lot of indecent people here.
 > END STRING
 
 > BEGIN STRING
@@ -267,16 +270,19 @@ Reset all encyclopedia levels
 
 > BEGIN STRING
 黙々と本を読んでいるようだ。
-> CONTEXT: Map566/events/6/pages/0/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/6/pages/0/3/Dialogue
+She seems to be quietly reading a book.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 …………なんだね？
 もう少しの間、この本を読み進めたいのだが。
-> CONTEXT: Map566/events/7/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/7/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+...What is it?
+I'd like to continue reading this book 
+for a little while longer.
 > END STRING
 
 > BEGIN STRING
@@ -284,76 +290,91 @@ Reset all encyclopedia levels
 落ち着ける場所はいくらあってもいいわね。
 だって、その方が夜の営みになった時に、
 背徳感があるでしょ……\\H
-> CONTEXT: Map566/events/17/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/17/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+It's good to places where you can relax.
+That way, when it comes to intimacy at night,
+it adds a sense of transgression...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 夢世界での旅はどう？
 ラーミルさんとはもう会えた？
-> CONTEXT: Map566/events/13/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+How's your journey in the dream world?
+Have you met Ramil yet?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 \\|･･･そう、まだなのね。
-> CONTEXT: Map566/events/13/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+\\|...So, not yet.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 きっとすぐに出会えるわよ！
 落ち込むなんて貴方らしくないわ！
-> CONTEXT: Map566/events/13/pages/0/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/0/6/Dialogue
+\\name[\\v[2]]\\_
+You'll definitely meet them soon!
+It's not like you to be depressed!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 うん、\\|そうよ。
 あの人ならきっと大丈夫だって！
-> CONTEXT: Map566/events/13/pages/0/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+Yes, \\|That's right.
+I'm sure she will be fine!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 でも、早く見つかるといいわね…
-> CONTEXT: Map566/events/13/pages/0/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/0/12/Dialogue
+\\name[\\v[2]]\\_
+But I hope she's found soon...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あ、\\n[101]！調子はどう？
-> CONTEXT: Map566/events/13/pages/1/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map566/events/13/pages/4/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/1/1/Dialogue
+> CONTEXT: Map566/events/13/pages/4/1/Dialogue
+\\name[\\v[2]]\\_
+Oh, \\n[101]! How are you doing?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そう、ラーミルさんが見つかったのね！
-> CONTEXT: Map566/events/13/pages/1/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/1/3/Dialogue
+\\name[\\v[2]]\\_
+So, Ramil has been found!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 よかった…
 これで\\n[101]も一安心ね。
-> CONTEXT: Map566/events/13/pages/1/5/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/1/5/Dialogue
+\\name[\\v[2]]\\_
+That's good... Now you can rest easy.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 貴方はこれからどうするの？
-> CONTEXT: Map566/events/13/pages/1/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/1/8/Dialogue
+\\name[\\v[2]]\\_
+What are you going to do now?
 > END STRING
 
 > BEGIN STRING
@@ -361,84 +382,108 @@ Reset all encyclopedia levels
 そう…\\|この世界をもっと探索するのね…
 危険はたくさんあるでしょうけど、
 貴方ならきっと大丈夫よ！
-> CONTEXT: Map566/events/13/pages/1/10/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/1/10/Dialogue
+\\name[\\v[2]]\\_
+So...\\|You'll explore this world more...
+There will be many dangers, but
+I'm sure you'll be fine!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 私にできることがあったら、なんでも言ってね！
-> CONTEXT: Map566/events/13/pages/1/14/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/1/14/Dialogue
+\\name[\\v[2]]\\_
+Please let me know if 
+there's anything I can do!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あ、\\n[101]！探索の方はどう？
-> CONTEXT: Map566/events/13/pages/2/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/2/1/Dialogue
+\\name[\\v[2]]\\_
+Oh, \\n[101]! 
+How's the exploration going?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 私？私はようやくこの生活になれてきたってとこかしら…
 ここの子たちとも上手くやれているわ。
-> CONTEXT: Map566/events/13/pages/2/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/2/3/Dialogue
+\\name[\\v[2]]\\_
+Me? I'm finally getting used to this life...
+I'm getting along well with the kids here too.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ただ、やっぱりレンディカの皆と会えないのは寂しいわね…
-> CONTEXT: Map566/events/13/pages/2/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/2/6/Dialogue
+\\name[\\v[2]]\\_
+But, I'm still sad that I can't 
+see everyone in Rendica...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 え、自分がいるって？
 …\\|そうね。\\|確かにそうだわ。
-> CONTEXT: Map566/events/13/pages/2/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/2/8/Dialogue
+\\name[\\v[2]]\\_
+Huh, you're saying I'm there?
+...\\|Yes, that's right. \\|You're absolutely right.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 \\n[101]、ありがとう。
 ふふ…まさか、貴方に励まされるなんてね。
-> CONTEXT: Map566/events/13/pages/2/11/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/2/11/Dialogue
+\\name[\\v[2]]\\_
+\\n[101], thank you.
+Hehe... I never thought I'd be 
+encouraged by you.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あ、\\n[101]…
-> CONTEXT: Map566/events/13/pages/3/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/3/1/Dialogue
+\\name[\\v[2]]\\_
+Oh, \\n[101]...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 \\|…いや、私は大丈夫。
 ただちょっと不安になっちゃって…
-> CONTEXT: Map566/events/13/pages/3/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/3/3/Dialogue
+\\name[\\v[2]]\\_
+\\|...No, I'm fine.
+I'm just feeling a little anxious...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 私たちがこうして、この世界に閉じ込められたように、
 レンディカの皆もこっちに来てるんじゃないかなって…
-> CONTEXT: Map566/events/13/pages/3/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/3/6/Dialogue
+\\name[\\v[2]]\\_
+Just like we're trapped in this world,
+I wonder if everyone from Rendica 
+has come over here too...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 私や\\n[101]はたまたま無事だったけど、
 他のみんなは大丈夫かしら…
-> CONTEXT: Map566/events/13/pages/3/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/3/9/Dialogue
+\\name[\\v[2]]\\_
+We happened to be safe, but
+I wonder if everyone else is okay...
 > END STRING
 
 > BEGIN STRING
@@ -446,31 +491,39 @@ Reset all encyclopedia levels
 え！？
 ラーミルさんがラーミルさんじゃなかったって、
 どういうこと！？
-> CONTEXT: Map566/events/13/pages/4/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/4/3/Dialogue
+\\name[\\v[2]]\\_
+What!?
+What do you mean, Ramil wasn't Ramil!?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そう…\\|そうだったのね…
 じゃあ、本物のラーミルさんは一体どこに…
-> CONTEXT: Map566/events/13/pages/4/7/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/4/7/Dialogue
+\\name[\\v[2]]\\_
+I see...\\|So that's how it was...
+Then where exactly is the real Ramil...?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あ、\\n[101]！元気そうね！
-> CONTEXT: Map566/events/13/pages/5/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/5/1/Dialogue
+\\name[\\v[2]]\\_
+Oh, \\n[101]! You look well!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今日も探索頑張るんでしょ！
 私にできることならなんでも言ってちょうだい！
-> CONTEXT: Map566/events/13/pages/5/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/5/3/Dialogue
+\\name[\\v[2]]\\_
+You'll do your best 
+exploring again today, right?
+Tell me if I can do anything for you!
 > END STRING
 
 > BEGIN STRING
@@ -478,73 +531,81 @@ Reset all encyclopedia levels
 え、\\|エッチなこともいいのかって…\\|バカ！！
 貴方ってエッチなことしか頭にないのね！！！
 変態！！！スケベ！！！
-> CONTEXT: Map566/events/13/pages/5/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/5/6/Dialogue
+\\name[\\v[2]]\\_
+Huh, \\|So you're saying naughty things are okay...
+\\|Idiot!! You only think about naughty things!!!
+Pervert!!! Lecher!!!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ま、まぁ…\\n[101]がどうしてもって言うなら…
-> CONTEXT: Map566/events/13/pages/5/10/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/5/10/Dialogue
+\\name[\\v[2]]\\_
+Well, if...you insist...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 って、何言わせんのよ！
 バカ！\\|バカ！\\|バーーーーーーーーーーカ！！！
-> CONTEXT: Map566/events/13/pages/5/12/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/5/12/Dialogue
+\\name[\\v[2]]\\_
+What are you making me say?!
+Idiot! \\|Idiot! \\|You idiot!!!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ったく…
-> CONTEXT: Map566/events/13/pages/5/15/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/13/pages/5/15/Dialogue
+\\name[\\v[2]]\\_
+Seriously...
 > END STRING
 
 > BEGIN STRING
 \\n[101]の食事だ。
-> CONTEXT: Map566/events/19/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/19/pages/0/1/Dialogue
+This is a meal for \\n[101]
 > END STRING
 
 > BEGIN STRING
 こっそりと媚薬を盛る
-> CONTEXT: Map566/events/19/pages/0/3/Choice/0 < UNTRANSLATED
-
+> CONTEXT: Map566/events/19/pages/0/3/Choice/0
+Secretly slip in an aphrodisiac
 > END STRING
 
 > BEGIN STRING
 媚薬と精力剤も入れちゃう
-> CONTEXT: Map566/events/19/pages/0/3/Choice/1 < UNTRANSLATED
-
+> CONTEXT: Map566/events/19/pages/0/3/Choice/1
+Add more aphrodisiacs
 > END STRING
 
 > BEGIN STRING
 食事に媚薬を混ぜ込んだ！
-> CONTEXT: Map566/events/19/pages/0/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/19/pages/0/6/Dialogue
+Mixed aphrodisiac into the food!
 > END STRING
 
 > BEGIN STRING
 ……。
 寝室で待機しよう……。
-> CONTEXT: Map566/events/19/pages/0/8/Dialogue < UNTRANSLATED
-> CONTEXT: Map566/events/19/pages/0/36/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/19/pages/0/8/Dialogue
+> CONTEXT: Map566/events/19/pages/0/36/Dialogue
+...
+Time to wait in the bedroom...
 > END STRING
 
 > BEGIN STRING
 食事に媚薬と精力剤を、
 大量に投入した！
-> CONTEXT: Map566/events/19/pages/0/33/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map566/events/19/pages/0/33/Dialogue
+Added lots of aphrodisiacs into the food!
 > END STRING
 
 > BEGIN STRING
 1：現在地がロウラット邸
-> CONTEXT: Map566/events/40/pages/0/0/Comment < UNTRANSLATED
-
+> CONTEXT: Map566/events/40/pages/0/0/Comment
+1: Current location is Lauratt's house
 > END STRING
