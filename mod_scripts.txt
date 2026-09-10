@@ -27525,26 +27525,26 @@ Sometimes use climax limiting skills.
 コリオスタート
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+コリオスタート
 > END STRING
 
 > BEGIN STRING
 最初に場に出ていると素早さが２段階増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Agility up by 2 stages at the start of battle
 > END STRING
 
 > BEGIN STRING
 アスタスタート
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Asta Start
 > END STRING
 
 > BEGIN STRING
 最初に場に出ていると精神力が２段階増加する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Spirit up by 2 stages at the start of battle
 > END STRING
 
 > BEGIN STRING
@@ -38915,7 +38915,7 @@ two overwhelming
 > BEGIN STRING
 #{targetname}の#{targetpantsu}の中に、\n\m#{tail}を潜り込ませてアソコを撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ slipped #{tail} inside #{targetname}'s \n​m​#{targetpantsu} and stroked that spot!
 > END STRING
 
 > BEGIN STRING
