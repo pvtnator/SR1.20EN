@@ -1683,16 +1683,16 @@ END
 
 > BEGIN STRING
 "※現在の設定では、いにしえの姿が出現します。"
-> CONTEXT: Map898/events/24/pages/0/2/InlineScript/1:5 < UNTRANSLATED
-> CONTEXT: Map749/events/22/pages/0/2/InlineScript/1:5 < UNTRANSLATED
-
+> CONTEXT: Map898/events/24/pages/0/2/InlineScript/1:5
+> CONTEXT: Map749/events/22/pages/0/2/InlineScript/1:5
+"*With current setting, ancient form will appear."
 > END STRING
 
 > BEGIN STRING
 "※現在の設定では、通常の姿が出現します。"
-> CONTEXT: Map898/events/24/pages/0/6/InlineScript/1:5 < UNTRANSLATED
-> CONTEXT: Map749/events/22/pages/0/6/InlineScript/1:5 < UNTRANSLATED
-
+> CONTEXT: Map898/events/24/pages/0/6/InlineScript/1:5
+> CONTEXT: Map749/events/22/pages/0/6/InlineScript/1:5
+"*With current setting, standard form will appear."
 > END STRING
 
 > BEGIN STRING
@@ -1700,17 +1700,21 @@ END
 ここから先、いにしえのすがたで冒険したい？
 
 \\v[3]
-> CONTEXT: Map898/events/24/pages/0/10/Dialogue < UNTRANSLATED
-> CONTEXT: Map749/events/22/pages/0/10/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map898/events/24/pages/0/10/Dialogue
+> CONTEXT: Map749/events/22/pages/0/10/Dialogue
+\\name[\\v[2]]\\_
+Do you want to adventure in your 
+ancient form from here on out?
+\\v[3]
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 \\v[3]に設定したよ！
-> CONTEXT: Map898/events/24/pages/0/18/Dialogue < UNTRANSLATED
-> CONTEXT: Map898/events/24/pages/0/24/Dialogue < UNTRANSLATED
-> CONTEXT: Map749/events/22/pages/0/18/Dialogue < UNTRANSLATED
-> CONTEXT: Map749/events/22/pages/0/24/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map898/events/24/pages/0/18/Dialogue
+> CONTEXT: Map898/events/24/pages/0/24/Dialogue
+> CONTEXT: Map749/events/22/pages/0/18/Dialogue
+> CONTEXT: Map749/events/22/pages/0/24/Dialogue
+\\name[\\v[2]]\\_
+I set it to \\v[3]!
 > END STRING

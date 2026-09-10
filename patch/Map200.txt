@@ -17,7 +17,7 @@
 > BEGIN STRING
 "調査員"
 > CONTEXT: Map200/events/57/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+"Investigator"
 > END STRING
 
 > BEGIN STRING
@@ -25,7 +25,9 @@
 あっ……！　\\n[101]さん！
 よくぞ来てくださいました！
 > CONTEXT: Map200/events/57/pages/0/1/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Oh...! \\n[101]!
+I'm so glad you came!
 > END STRING
 
 > BEGIN STRING
@@ -33,7 +35,9 @@
 実はこの先なのですが、新たに道ができており、
 何やら別世界と繋がっているようなのです……。
 > CONTEXT: Map200/events/57/pages/0/4/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+Actually, a new path has opened up ahead,
+and it seems to be connected to another world...
 > END STRING
 
 > BEGIN STRING
@@ -42,11 +46,14 @@
 淫魔の脅威を退けたあなたしかいなく……。
 この先がどうなっているか調査を頼みたいのです。
 > CONTEXT: Map200/events/57/pages/0/7/Dialogue < UNTRANSLATED
-
+\\name[\\v[2]]\\_
+You are the only one capable to investigate,
+the one who repelled the threat of the succubus...
+I would like to ask you to investigate what lies ahead.
 > END STRING
 
 > BEGIN STRING
 この先の時空は不安定だ……。
 > CONTEXT: Map200/events/54/pages/0/0/Dialogue < UNTRANSLATED
-
+The space-time ahead is unstable...
 > END STRING
