@@ -2,9 +2,10 @@
 > BEGIN STRING
 \\name[\\v[2]]\\_
 今日も異常なーし！
-> CONTEXT: Map003/events/1/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map003/events/1/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map003/events/1/pages/0/1/Dialogue
+> CONTEXT: Map003/events/1/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Everything's normal today too!
 > END STRING
 
 > BEGIN STRING
@@ -43,11 +44,11 @@
 
 > BEGIN STRING
 "修道士"
-> CONTEXT: Map003/events/11/pages/2/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map003/events/11/pages/2/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map003/events/13/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map003/events/13/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map003/events/11/pages/2/0/InlineScript/1:22
+> CONTEXT: Map003/events/11/pages/2/0/InlineScript/1:22
+> CONTEXT: Map003/events/13/pages/0/0/InlineScript/1:22
+> CONTEXT: Map003/events/13/pages/0/0/InlineScript/1:22
+"Friar"
 > END STRING
 
 > BEGIN STRING
@@ -64,9 +65,12 @@
 私は、ヒーラーとして招集されました。
 ……殺生は望みませんが、これ以上犠牲を
 出さないためにも致し方ないのです。
-> CONTEXT: Map003/events/13/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map003/events/13/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map003/events/13/pages/0/1/Dialogue
+> CONTEXT: Map003/events/13/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+I have been summoned as a healer.
+...I do not wish to kill, but it is unavoidable 
+in order to prevent any further casualties.
 > END STRING
 
 > BEGIN STRING

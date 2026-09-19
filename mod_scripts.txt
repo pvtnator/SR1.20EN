@@ -5270,7 +5270,7 @@ Scathach
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-
+Asmodeus
 > END STRING
 
 > BEGIN STRING
@@ -19670,7 +19670,7 @@ Belka
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Berna
+Belna
 > END STRING
 
 > BEGIN STRING
@@ -33436,25 +33436,25 @@ nipples
 > BEGIN STRING
 指先で、\n\m#{targetname}の#{points}に反撃した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ counterattacked #{targetname}'s \n#{points} with a fingertip!
 > END STRING
 
 > BEGIN STRING
 お返しとばかりに、\n\m#{targetname}の#{points}を愛撫した！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ caressed #{targetname}'s \n#{points} to return the favor!
 > END STRING
 
 > BEGIN STRING
 反撃の構えを取った！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ assumed a counter stance!
 > END STRING
 
 > BEGIN STRING
 目にも止まらぬ速さで#{targetname}に飛び掛かった！！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ lunged at #{targetname} with lightning speed!!
 > END STRING
 
 > BEGIN STRING
@@ -38981,55 +38981,55 @@ two overwhelming
 > BEGIN STRING
 #{targetname}の陰核に、\n\m#{tail}を更に擦り付けて愛撫してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- rubbed #{tail} against \n#{targetname}'s clitoris and caressed her!
+ rubbed #{tail} against \n​m​#{targetname}'s clitoris and caressed her!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の#{targetpantsu}の隙間から、\n\m#{tail}を滑り込ませて優しく撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- slipped #{tail} through the gap in \n#{targetname}'s #{targetpantsu} and stroked gently!
+ slipped #{tail} through the gap in \n​m​#{targetname}'s #{targetpantsu} and stroked gently!
 > END STRING
 
 > BEGIN STRING
 #{targetname}のお尻に、\n\m#{tail}を滑らせて優しく撫でてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- slid #{tail} over\n#{targetname}'s butt and gently stroked it!
+ slid #{tail} over\n​m​#{targetname}'s butt and gently stroked it!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の#{targetpantsu}の隙間から、\n\m#{tail}を滑り込ませて撫で回してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- slipped #{tail} through\nthe gap in #{targetname}'s #{targetpantsu} and stroked it all over!
+ slipped #{tail} through\n​m​the gap in #{targetname}'s #{targetpantsu} and stroked it all over!
 > END STRING
 
 > BEGIN STRING
 #{targetname}のお尻に、\n\m#{tail}を滑らせて撫で回してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- slid #{tail} over \n#{targetname}'s butt and stroked it all over!
+ slid #{tail} over \n​m​#{targetname}'s butt and stroked it all over!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の#{targetpantsu}の隙間から、\n\m#{tail}を滑り込ませて揉みしだいてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- slipped #{tail} through the gap \n\min #{targetname}'s #{targetpantsu} and started rubbing!
+ slipped #{tail} through the gap \n​m​in #{targetname}'s #{targetpantsu} and started rubbing!
 > END STRING
 
 > BEGIN STRING
 #{targetname}のお尻に、\n\m#{tail}を滑らせて激しく揉みしだいてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- slid #{tail} over\n#{targetname}'s ass and rubbed vigorously!
+ slid #{tail} over\n​m​#{targetname}'s ass and rubbed vigorously!
 > END STRING
 
 > BEGIN STRING
 #{targetname}の#{targetpantsu}の隙間から、\n\m#{tail}を滑り込ませて更に愛撫してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- slipped #{tail} through \nthe gap in #{targetname}'s #{targetpantsu} and caressed even more!
+ slipped #{tail} through \n​m​the gap in #{targetname}'s #{targetpantsu} and caressed even more!
 > END STRING
 
 > BEGIN STRING
 #{targetname}のお尻に、\n\m#{tail}を滑らせて更に愛撫してきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
- slid #{tail} over \n#{targetname}'s ass and caressed even more!
+ slid #{tail} over \n​m​#{targetname}'s ass and caressed even more!
 > END STRING
 
 > BEGIN STRING
@@ -50321,7 +50321,7 @@ Underwear shifted aside, #{active.name}'s \nbreasts were pressed against #{targe
 > BEGIN STRING
 #{target.name}は自ら指でアソコを広げ、、\n#{activename}の操る触手の口を受け入れた！！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} spread her pussy and...\naccepted #{activename}'s tentacle!!
 > END STRING
 
 > BEGIN STRING
@@ -50333,13 +50333,13 @@ Underwear shifted aside, #{active.name}'s \nbreasts were pressed against #{targe
 > BEGIN STRING
 #{target.name}は自ら両腕を広げ、\n#{activename}の操る触手の口を受け入れた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} spread arms and \naccepted #{activename}'s tentacle!
 > END STRING
 
 > BEGIN STRING
 #{target.name}の胸に、\n#{activename}の操る触手が張り付いてきた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{activename}'s tentacle \nlatched onto #{target.name}'s chest!
 > END STRING
 
 > BEGIN STRING
@@ -67261,7 +67261,7 @@ Power of Wrath greatly increased \n#{battler.name}'s Energy, Dexterity, and Char
 > BEGIN STRING
 #{battler.name}が淫毒をばらまいた！
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+#{battler.name} scattered lust-inducing poison!
 > END STRING
 
 > BEGIN STRING

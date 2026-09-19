@@ -1,27 +1,11 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-\\name[\\v[2]]\\_
-……おや？珍しいお客さんだね
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-まいどあり！
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-物憂げな歌声が聴こえてくる……。
-> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 入り口に移動する
-> CONTEXT: Map474/events/8/pages/0/3/Choice/1 < UNTRANSLATED
-> CONTEXT: Map466/events/9/pages/1/3/Choice/2 < UNTRANSLATED
-
+> CONTEXT: Map474/events/8/pages/0/3/Choice/1
+> CONTEXT: Map466/events/9/pages/1/3/Choice/2
+Move to entrance
 > END STRING
