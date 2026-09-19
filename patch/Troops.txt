@@ -6622,7 +6622,7 @@ but everything should be done in moderation...
 説明は宜しいですか？
 > CONTEXT: Troops/1201/pages/0/31/Dialogue
 > CONTEXT: Troops/1500/pages/0/17/Dialogue
-Explain?
+Ready to proceed?
 > END STRING
 
 > BEGIN STRING
@@ -8150,39 +8150,21 @@ Belphegor/184/90, Amore/177/90,
 > END STRING
 
 > BEGIN STRING
-グローア/74/89, サイレント/53/89
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-グローア/74/89, スクラーヴェ/53/89
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-レヴナント/231/91, グローア/74/89
-> CONTEXT: None < UNUSED
-Revenant/231/91, グローア/74/89
-> END STRING
-
-> BEGIN STRING
 サイレント/53/89, スクラーヴェ/53/89
-> CONTEXT: Troops/1511/name/ < UNTRANSLATED
-
+> CONTEXT: Troops/1511/name/
+Silent/53/89, Sclaver/53/89
 > END STRING
 
 > BEGIN STRING
 レヴナント/231/91, サイレント/53/89
 > CONTEXT: Troops/1512/name/
-Revenant/231/91, サイレント/53/89
+Revenant/231/91, Silent/53/89
 > END STRING
 
 > BEGIN STRING
 レヴナント/231/91, スクラーヴェ/53/89
 > CONTEXT: Troops/1513/name/
-Revenant/231/91, スクラーヴェ/53/89
+Revenant/231/91, Sclaver/53/89
 > END STRING
 
 > BEGIN STRING
@@ -8201,7 +8183,7 @@ Innocent/27/92, Revenant/231/92
 > BEGIN STRING
 レヴナント/231/92, スクラーヴェ/53/89
 > CONTEXT: Troops/1519/name/
-Revenant/231/92, スクラーヴェ/53/89
+Revenant/231/92, Sclaver/53/89
 > END STRING
 
 > BEGIN STRING
@@ -8213,7 +8195,7 @@ Revenant/231/92, Petite Angel/235/90
 > BEGIN STRING
 イノセント/27/92, スクラーヴェ/53/89
 > CONTEXT: Troops/1521/name/
-Innocent/27/92, スクラーヴェ/53/89
+Innocent/27/92, Sclaver/53/89
 > END STRING
 
 > BEGIN STRING
@@ -8225,7 +8207,7 @@ Innocent/27/92, Petite Angel/235/90
 > BEGIN STRING
 スクラーヴェ/53/89, プチエンジェル/235/9
 > CONTEXT: Troops/1523/name/
-スクラーヴェ/53/89, Petite Angel/235/9
+Sclaver/53/89, Petite Angel/235/9
 > END STRING
 
 > BEGIN STRING
@@ -8236,63 +8218,15 @@ Innocent/27/92, Petite Angel/235/90
 > END STRING
 
 > BEGIN STRING
-イノセント/27/93, エンジェル/234/91
-> CONTEXT: None < UNUSED
-Innocent/27/93, Angel/234/91
-> END STRING
-
-> BEGIN STRING
-イノセント/27/93, プチエンジェル/235/91
-> CONTEXT: None < UNUSED
-Innocent/27/93, Petite Angel/235/91
-> END STRING
-
-> BEGIN STRING
-イノセント/27/93, ミカエル/248/92
-> CONTEXT: None < UNUSED
-Innocent/27/93, Mikael/248/92
-> END STRING
-
-> BEGIN STRING
 エンジェル/234/91, プチエンジェル/235/91
 > CONTEXT: Troops/1531/name/
 Angel/234/91, Petite Angel/235/91
 > END STRING
 
 > BEGIN STRING
-エンジェル/234/91, ミカエル/248/92
-> CONTEXT: None < UNUSED
-Angel/234/91, Mikael/248/92
-> END STRING
-
-> BEGIN STRING
-ミカエル/248/92, プチエンジェル/235/91
-> CONTEXT: None < UNUSED
-Mikael/248/92, Petite Angel/235/91
-> END STRING
-
-> BEGIN STRING
 ■大天使の城ボス
 > CONTEXT: Troops/1537/name/ < UNTRANSLATED
 
-> END STRING
-
-> BEGIN STRING
-【BOSS】ラビス
-> CONTEXT: None < UNUSED
-【BOSS】Ravis
-> END STRING
-
-> BEGIN STRING
-【BOSS】ガブリエル
-> CONTEXT: None < UNUSED
-【BOSS】Gabriel
-> END STRING
-
-> BEGIN STRING
-騒ぎを聞きつけ、ミカエルが現れた！
-> CONTEXT: None < UNUSED
-騒ぎを聞きつけ、Mikaelが現れた！
 > END STRING
 
 > BEGIN STRING
@@ -8311,36 +8245,6 @@ Mikael/248/92, Petite Angel/235/91
 【BOSS】アルミルス単体
 > CONTEXT: Troops/1554/name/
 【BOSS】Almirus単体
-> END STRING
-
-> BEGIN STRING
-【BOSS】ノーブル
-> CONTEXT: None < UNUSED
-【BOSS】Noble
-> END STRING
-
-> BEGIN STRING
-【BOSS】ベル
-> CONTEXT: None < UNUSED
-【BOSS】Belle
-> END STRING
-
-> BEGIN STRING
-【BOSS】アコライト
-> CONTEXT: None < UNUSED
-【BOSS】Acolyte
-> END STRING
-
-> BEGIN STRING
-【BOSS】シヴィリアン
-> CONTEXT: None < UNUSED
-【BOSS】Civilian
-> END STRING
-
-> BEGIN STRING
-【BOSS】高位天使三姉妹
-> CONTEXT: None < UNUSED
-
 > END STRING
 
 > BEGIN STRING
@@ -9664,37 +9568,45 @@ Empusa/10/69
 > BEGIN STRING
 ここから先は、一部のスキルや状況によって
 マゾに堕とされていく事があります。
-> CONTEXT: Troops/1500/pages/0/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/1500/pages/0/6/Dialogue
+From this point onward, depending on 
+certain skills and circumstances, 
+you may be reduced to a masochist.
 > END STRING
 
 > BEGIN STRING
 ムチのような被虐技から足技、
 アナル攻め、顔面騎乗、吸精技、くすぐり技など。
-> CONTEXT: Troops/1500/pages/0/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/1500/pages/0/8/Dialogue
+From whip-like masochistic techniques to foot techniques,
+anal attacks, face riding, semen-sucking techniques, 
+tickling techniques, and more.
 > END STRING
 
 > BEGIN STRING
 マゾに堕とされると、
 あらゆる面で不利になってしまうため、
 堕とされないようにしましょう。
-> CONTEXT: Troops/1500/pages/0/10/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/1500/pages/0/10/Dialogue
+Being corrupted into masochism puts you at a 
+disadvantage in every aspect, 
+so make sure you don't fall into that trap.
 > END STRING
 
 > BEGIN STRING
 マゾに堕とされても、
 マゾから立ち直せるスキルもあります。
-> CONTEXT: Troops/1500/pages/0/13/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/1500/pages/0/13/Dialogue
+Even if you're reduced to masochism, 
+you also have the skills to recover from it.
 > END STRING
 
 > BEGIN STRING
 祝福のキッスなどは、
 回復の助けとなるでしょう。
-> CONTEXT: Troops/1500/pages/0/15/Dialogue < UNTRANSLATED
-
+> CONTEXT: Troops/1500/pages/0/15/Dialogue
+A blessing kiss, for example, 
+may help with the recovery process.
 > END STRING
 
 > BEGIN STRING
@@ -9712,13 +9624,13 @@ Raphael処理
 > BEGIN STRING
 イブリース/137/89, サイレント/53/89
 > CONTEXT: Troops/1508/name/
-Iblis/137/89, サイレント/53/89
+Iblis/137/89, Silent/53/89
 > END STRING
 
 > BEGIN STRING
 イブリース/137/89, スクラーヴェ/53/89
 > CONTEXT: Troops/1509/name/
-Iblis/137/89, スクラーヴェ/53/89
+Iblis/137/89, Sclaver/53/89
 > END STRING
 
 > BEGIN STRING
@@ -9971,54 +9883,54 @@ Desire/526/110*2
 
 > BEGIN STRING
 【BOSS】デルモア
-> CONTEXT: Troops/3/name/ < UNTRANSLATED
+> CONTEXT: Troops/3/name/
 【BOSS】Delmore
 > END STRING
 
 > BEGIN STRING
 【BOSS】イーザル
-> CONTEXT: Troops/4/name/ < UNTRANSLATED
+> CONTEXT: Troops/4/name/
 【BOSS】Izal
 > END STRING
 
 > BEGIN STRING
 【BOSS】ナイトストーカーたち
-> CONTEXT: Troops/5/name/ < UNTRANSLATED
+> CONTEXT: Troops/5/name/
 【BOSS】Night Stalkers
 > END STRING
 
 > BEGIN STRING
 【BOSS】レヴィアン
-> CONTEXT: Troops/8/name/ < UNTRANSLATED
+> CONTEXT: Troops/8/name/
 【BOSS】Levian
 > END STRING
 
 > BEGIN STRING
 ワーウルフ/101/66, レッサーサキュバス/6/
-> CONTEXT: Troops/1021/name/ < UNTRANSLATED
+> CONTEXT: Troops/1021/name/
 Werewolf/101/66, Lesser Succubus/6/
 > END STRING
 
 > BEGIN STRING
 マタンゴ/133/68, エンジェル/234/69
-> CONTEXT: Troops/1022/name/ < UNTRANSLATED
+> CONTEXT: Troops/1022/name/
 Matango/133/68, Angel/234/69
 > END STRING
 
 > BEGIN STRING
 エンジェル/234/69*2
-> CONTEXT: Troops/1024/name/ < UNTRANSLATED
+> CONTEXT: Troops/1024/name/
 Angel/234/69*2
 > END STRING
 
 > BEGIN STRING
 メデイア/555/66*2
-> CONTEXT: Troops/1212/name/ < UNTRANSLATED
+> CONTEXT: Troops/1212/name/
 Medea/555/66*2
 > END STRING
 
 > BEGIN STRING
 【BOSS】レヴィアン・セイレーン
-> CONTEXT: Troops/1586/name/ < UNTRANSLATED
+> CONTEXT: Troops/1586/name/
 【BOSS】Levian・Siren
 > END STRING
