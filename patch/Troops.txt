@@ -5781,13 +5781,13 @@ Slime/80/67*2
 
 > BEGIN STRING
 ワーウルフ, レッサーサキュバス
-> CONTEXT: Troops/1021/name/
+> CONTEXT: None < UNUSED
 Werewolf, Lesser Succubus
 > END STRING
 
 > BEGIN STRING
 マタンゴ/133/64
-> CONTEXT: Troops/1022/name/
+> CONTEXT: None < UNUSED
 Matango/133/64
 > END STRING
 
@@ -5799,19 +5799,19 @@ Werewolf/101/66*3
 
 > BEGIN STRING
 レッサーサキュバス/6/66
-> CONTEXT: Troops/1024/name/
+> CONTEXT: None < UNUSED
 Lesser Succubus/6/66
 > END STRING
 
 > BEGIN STRING
 【R】リリム/275/62*2, リリス/276/75
-> CONTEXT: Troops/1025/name/
+> CONTEXT: None < UNUSED
 【R】Lilim/275/62*2, Lilith/276/75
 > END STRING
 
 > BEGIN STRING
 リリム/275/62*2
-> CONTEXT: Troops/1026/name/
+> CONTEXT: None < UNUSED
 Lilim/275/62*2
 > END STRING
 
@@ -6687,7 +6687,7 @@ Wonderbox/333/70*3
 
 > BEGIN STRING
 ワンダーボックス/333/70, イノセント/429/
-> CONTEXT: Troops/1212/name/
+> CONTEXT: None < UNUSED
 Wonderbox/333/70, Innocent/429/
 > END STRING
 
@@ -8440,6 +8440,7 @@ Shoggoth/86/97
 > BEGIN STRING
 【BOSS】ベルカとベルナ
 > CONTEXT: Troops/1581/name/
+> CONTEXT: Troops/6/name/
 【BOSS】BelkaとBelna
 > END STRING
 
@@ -8464,13 +8465,12 @@ Shoggoth/86/97
 
 > BEGIN STRING
 【BOSS】セイレーン
-> CONTEXT: Troops/1586/name/
+> CONTEXT: Troops/7/name/
 【BOSS】Siren
 > END STRING
 
 > BEGIN STRING
 【BOSS】デザイア
-> CONTEXT: Troops/1587/name/
 > CONTEXT: Troops/1535/name/
 【BOSS】Desire
 > END STRING
@@ -9552,7 +9552,6 @@ General Frost/202/30, ジャックフロ
 > BEGIN STRING
 ティンクル/416/75
 > CONTEXT: Troops/1125/name/ < UNTRANSLATED
-> CONTEXT: Enemies/1616/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -9968,4 +9967,58 @@ Desire/526/110*2
 ★★１5ターンごとに全体に自慰衝動を付与する
 > CONTEXT: Troops/1797/pages/0/0/Comment < UNTRANSLATED
 
+> END STRING
+
+> BEGIN STRING
+【BOSS】デルモア
+> CONTEXT: Troops/3/name/ < UNTRANSLATED
+【BOSS】Delmore
+> END STRING
+
+> BEGIN STRING
+【BOSS】イーザル
+> CONTEXT: Troops/4/name/ < UNTRANSLATED
+【BOSS】Izal
+> END STRING
+
+> BEGIN STRING
+【BOSS】ナイトストーカーたち
+> CONTEXT: Troops/5/name/ < UNTRANSLATED
+【BOSS】Night Stalkers
+> END STRING
+
+> BEGIN STRING
+【BOSS】レヴィアン
+> CONTEXT: Troops/8/name/ < UNTRANSLATED
+【BOSS】Levian
+> END STRING
+
+> BEGIN STRING
+ワーウルフ/101/66, レッサーサキュバス/6/
+> CONTEXT: Troops/1021/name/ < UNTRANSLATED
+Werewolf/101/66, Lesser Succubus/6/
+> END STRING
+
+> BEGIN STRING
+マタンゴ/133/68, エンジェル/234/69
+> CONTEXT: Troops/1022/name/ < UNTRANSLATED
+Matango/133/68, Angel/234/69
+> END STRING
+
+> BEGIN STRING
+エンジェル/234/69*2
+> CONTEXT: Troops/1024/name/ < UNTRANSLATED
+Angel/234/69*2
+> END STRING
+
+> BEGIN STRING
+メデイア/555/66*2
+> CONTEXT: Troops/1212/name/ < UNTRANSLATED
+Medea/555/66*2
+> END STRING
+
+> BEGIN STRING
+【BOSS】レヴィアン・セイレーン
+> CONTEXT: Troops/1586/name/ < UNTRANSLATED
+【BOSS】Levian・Siren
 > END STRING

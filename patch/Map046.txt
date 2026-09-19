@@ -45,33 +45,33 @@ Artrum
 > BEGIN STRING
 エピセインインプ
 > CONTEXT: Map046/events/22/pages/0/0/Dialogue
+> CONTEXT: Map046/events/22/pages/0/1/Choice/0
+> CONTEXT: Map046/events/22/pages/0/1/Choice/0
 Epithein Imp
 > END STRING
 
 > BEGIN STRING
 エピセインデビル
-> CONTEXT: Map046/events/23/pages/0/0/Dialogue
+> CONTEXT: Map046/events/22/pages/0/1/Choice/1
+> CONTEXT: Map046/events/22/pages/0/1/Choice/1
 Epithein Devil
 > END STRING
 
 > BEGIN STRING
 エピセインデーモン
-> CONTEXT: Map046/events/24/pages/0/0/Dialogue
+> CONTEXT: Map046/events/22/pages/0/1/Choice/2
+> CONTEXT: Map046/events/22/pages/0/1/Choice/2
 Epithein Demon
 > END STRING
 
 > BEGIN STRING
 リミテッドスレイヴ
 > CONTEXT: Map046/events/25/pages/0/0/Dialogue
-> CONTEXT: Map046/events/26/pages/0/0/Dialogue
-> CONTEXT: Map046/events/27/pages/0/0/Dialogue
-> CONTEXT: Map046/events/28/pages/0/0/Dialogue
 Limited Slave
 > END STRING
 
 > BEGIN STRING
 意地悪
-> CONTEXT: Map046/events/25/pages/0/1/Choice/0
 > CONTEXT: Map046/events/31/pages/0/1/Choice/0
 > CONTEXT: Map034/events/21/pages/0/1/Choice/3
 > CONTEXT: Map046/events/46/pages/0/1/Choice/1
@@ -89,8 +89,6 @@ Limited Slave
 > CONTEXT: Map046/events/426/pages/0/1/Choice/0
 > CONTEXT: Map046/events/427/pages/0/1/Choice/0
 > CONTEXT: Map034/events/87/pages/0/1/Choice/0
-> CONTEXT: Map046/events/459/pages/0/1/Choice/0
-> CONTEXT: Map046/events/460/pages/0/1/Choice/0
 > CONTEXT: Map034/events/96/pages/0/1/Choice/0
 > CONTEXT: Map034/events/99/pages/0/1/Choice/0
 > CONTEXT: Map034/events/120/pages/0/1/Choice/0
@@ -215,7 +213,6 @@ Tamamo
 > CONTEXT: Map046/events/77/pages/0/0/Dialogue
 > CONTEXT: Map046/events/78/pages/0/0/Dialogue
 > CONTEXT: Map046/events/88/pages/0/0/Dialogue
-> CONTEXT: Map046/events/459/pages/0/0/Dialogue
 Lilim
 > END STRING
 
@@ -224,7 +221,6 @@ Lilim
 > CONTEXT: Map046/events/49/pages/0/0/Dialogue
 > CONTEXT: Map046/events/79/pages/0/0/Dialogue
 > CONTEXT: Map046/events/447/pages/0/0/Dialogue
-> CONTEXT: Map046/events/460/pages/0/0/Dialogue
 Lilith
 > END STRING
 
@@ -818,7 +814,8 @@ Mage Fungus
 
 > BEGIN STRING
 バイコボルト
-> CONTEXT: Map046/events/465/pages/0/0/Dialogue
+> CONTEXT: Map046/events/465/pages/0/1/Choice/0
+> CONTEXT: Map046/events/465/pages/0/1/Choice/0
 Bai Kobold
 > END STRING
 
@@ -885,5 +882,72 @@ Jinhua Cat
 > BEGIN STRING
 ウィッチサキュバス
 > CONTEXT: Map046/events/67/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+デュアルメイド
+> CONTEXT: Map046/events/23/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ヘルマルース
+> CONTEXT: Map046/events/24/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+意地悪：ピンク
+> CONTEXT: Map046/events/25/pages/0/1/Choice/0 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+従順：緑
+> CONTEXT: Map046/events/25/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+虚勢：青
+> CONTEXT: Map046/events/25/pages/0/1/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+倒錯：黒
+> CONTEXT: Map046/events/25/pages/0/1/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+バイゴブリン系統とバイコボルト
+> CONTEXT: Map046/events/465/pages/0/0/Dialogue < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+バイゴブリン
+> CONTEXT: Map046/events/465/pages/0/1/Choice/1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+バイギャング
+> CONTEXT: Map046/events/465/pages/0/1/Choice/2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ゴブリンタイラント
+> CONTEXT: Map046/events/465/pages/0/1/Choice/3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ごめんね、まだ未実装なんだ
+もうちょっと待っててね
+> CONTEXT: Map046/events/465/pages/0/114/Dialogue < UNTRANSLATED
 
 > END STRING

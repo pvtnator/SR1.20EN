@@ -2941,13 +2941,13 @@ Lesser Succubus/7/66
 
 > BEGIN STRING
 リリム/275/62
-> CONTEXT: Enemies/732/name/
+> CONTEXT: None < UNUSED
 Lilim/275/62
 > END STRING
 
 > BEGIN STRING
 リリス/276/75
-> CONTEXT: Enemies/733/name/
+> CONTEXT: None < UNUSED
 Lilith/276/75
 > END STRING
 
@@ -4808,7 +4808,7 @@ Mia/299/90
 
 > BEGIN STRING
 【data】セイレーン桃/194/1
-> CONTEXT: Enemies/1139/name/
+> CONTEXT: Enemies/1823/name/
 【data】Siren桃/194/1
 > END STRING
 
@@ -5686,33 +5686,15 @@ Gelatinous Cube/366/77
 > END STRING
 
 > BEGIN STRING
-ヘルマルース/328/75
-> CONTEXT: Enemies/1419/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
 メイジファンガス/39/73
 > CONTEXT: Enemies/1420/name/
 Mage Fungus/39/73
 > END STRING
 
 > BEGIN STRING
-バイゴブリン/108/67
-> CONTEXT: Enemies/1421/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
 バイコボルト/411/68
 > CONTEXT: Enemies/1422/name/
 Bai Kobold/411/68
-> END STRING
-
-> BEGIN STRING
-バイギャング/111/69
-> CONTEXT: Enemies/1423/name/ < UNTRANSLATED
-
 > END STRING
 
 > BEGIN STRING
@@ -5777,7 +5759,7 @@ Epithein Demon/33/74
 
 > BEGIN STRING
 デュアルメイド/246/70
-> CONTEXT: Enemies/1434/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -5899,7 +5881,7 @@ Shoggoth/86/80
 > BEGIN STRING
 【data】ナイトストーカー/319/1
 > CONTEXT: Enemies/1459/name/ < UNTRANSLATED
-
+【data】Night Stalker/319/1
 > END STRING
 
 > BEGIN STRING
@@ -7093,18 +7075,6 @@ Carly/394/97
 > END STRING
 
 > BEGIN STRING
-セイレーン/194/102
-> CONTEXT: Enemies/1823/name/
-Siren/194/102
-> END STRING
-
-> BEGIN STRING
-デザイア/526/103
-> CONTEXT: None < UNUSED
-Desire/526/103
-> END STRING
-
-> BEGIN STRING
 ナイトシーカー/318/145
 > CONTEXT: Enemies/1801/name/ < UNTRANSLATED
 
@@ -7113,7 +7083,7 @@ Desire/526/103
 > BEGIN STRING
 ナイトストーカー/319/150
 > CONTEXT: Enemies/1802/name/ < UNTRANSLATED
-
+Night Stalker/319/150
 > END STRING
 
 > BEGIN STRING
@@ -7137,19 +7107,7 @@ Beelzebub/180/105
 > BEGIN STRING
 ナイトストーカー/319/100
 > CONTEXT: Enemies/1804/name/ < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-ダークヴァンプ/315/96
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ダークヴァンパイア/316/100
-> CONTEXT: None < UNUSED
-
+Night Stalker/319/100
 > END STRING
 
 > BEGIN STRING
@@ -8179,4 +8137,88 @@ Ichilia/582/65
 桜華/528/100
 > CONTEXT: Enemies/1949/name/
 Sakura/528/100
+> END STRING
+
+> BEGIN STRING
+リリム/165/62
+> CONTEXT: Enemies/732/name/ < UNTRANSLATED
+Lilim/165/62
+> END STRING
+
+> BEGIN STRING
+ヘルマルース/562/75
+> CONTEXT: Enemies/1419/name/ < UNTRANSLATED
+Helmars/562/75
+> END STRING
+
+> BEGIN STRING
+バイゴブリン/558/67
+> CONTEXT: Enemies/1421/name/ < UNTRANSLATED
+Bai Goblin/558/67
+> END STRING
+
+> BEGIN STRING
+バイギャング/559/69
+> CONTEXT: Enemies/1423/name/ < UNTRANSLATED
+Bai Gang/559/69
+> END STRING
+
+> BEGIN STRING
+デュアルメイド/561/70
+> CONTEXT: Enemies/1434/name/ < UNTRANSLATED
+Dual Maid/561/70
+> END STRING
+
+> BEGIN STRING
+【data】バイゴブリン/558/1
+> CONTEXT: Enemies/1526/name/ < UNTRANSLATED
+【data】Bai Goblin/558/1
+> END STRING
+
+> BEGIN STRING
+【data】バイギャング/559/1
+> CONTEXT: Enemies/1527/name/ < UNTRANSLATED
+【data】Bai Gang/559/1
+> END STRING
+
+> BEGIN STRING
+【data】ゴブリンタイラント/560/1
+> CONTEXT: Enemies/1528/name/ < UNTRANSLATED
+【data】Goblin Tyrant/560/1
+> END STRING
+
+> BEGIN STRING
+【data】デュアルメイド/561/1
+> CONTEXT: Enemies/1529/name/ < UNTRANSLATED
+【data】Dual Maid/561/1
+> END STRING
+
+> BEGIN STRING
+【data】ヘルマルース/562/1
+> CONTEXT: Enemies/1530/name/ < UNTRANSLATED
+【data】Helmars/562/1
+> END STRING
+
+> BEGIN STRING
+ティンクル/416/90
+> CONTEXT: Enemies/1616/name/ < UNTRANSLATED
+Twinkle/416/90
+> END STRING
+
+> BEGIN STRING
+【data】レヴィアン/406/1
+> CONTEXT: Enemies/1824/name/ < UNTRANSLATED
+【data】Levian/406/1
+> END STRING
+
+> BEGIN STRING
+セイレーン/194/98
+> CONTEXT: Enemies/1825/name/ < UNTRANSLATED
+Siren/194/98
+> END STRING
+
+> BEGIN STRING
+レヴィアン/406/100
+> CONTEXT: Enemies/1826/name/ < UNTRANSLATED
+Levian/406/100
 > END STRING
