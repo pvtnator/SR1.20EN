@@ -5748,7 +5748,7 @@ Hypnos
 > CONTEXT: O_MOD_RPG_Class_ボーナス.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-
+Mammon
 > END STRING
 
 > BEGIN STRING
@@ -7287,7 +7287,7 @@ Elekiter Press
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: 修正用.rb
-
+Spinning Force
 > END STRING
 
 > BEGIN STRING
@@ -8594,7 +8594,7 @@ Dildo in back
 > CONTEXT: O_MOD_Scene_Battle_4.rb
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
 > CONTEXT: O_MOD_Scene_Battle_Resist.rb
-
+Tentacle Insert
 > END STRING
 
 > BEGIN STRING
@@ -30535,7 +30535,7 @@ pinned down from above
 > BEGIN STRING
 唇を前に突き出し、\n\m#{targetname}を誘ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pouted lips and \n​m​beckoned #{targetname}!
 > END STRING
 
 > BEGIN STRING
@@ -30842,13 +30842,13 @@ Anus
 > BEGIN STRING
 自らの足を\n\m#{targetname}の足に絡めた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ wrapped legs around ​m​#{targetname}'s legs!
 > END STRING
 
 > BEGIN STRING
 自らの足を\n\m#{targetname}の足に絡めてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ wrapped legs around ​m​#{targetname}'s legs!
 > END STRING
 
 > BEGIN STRING
@@ -33964,13 +33964,13 @@ But it didn't work on #{myname}!
 > BEGIN STRING
 \n\m膜を作り出し、快楽から身を守っている！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​created a membrane to protect from pleasure!
 > END STRING
 
 > BEGIN STRING
 挑発しながら身を固めた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ taunted while bracing herself!
 > END STRING
 
 > BEGIN STRING
@@ -34744,13 +34744,13 @@ Iris Seed: Aldar has been cast!
 > BEGIN STRING
 #{myself.bustsize}の乳頭から、\n\m母乳を噴出させた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ squirted breast milk from #{myself.bustsize}!
 > END STRING
 
 > BEGIN STRING
 \n\m#{targetname}の顔が、母乳でずぶ濡れになる！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+\n​m​#{targetname}'s face got soaked in breast milk!
 > END STRING
 
 > BEGIN STRING
@@ -40826,13 +40826,13 @@ as if dancing
 > BEGIN STRING
 アソコをぎゅっと締め付け、\n\m絞り取るように膣内を蠢動させてきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ tightened her pussy and began to \n​m​wriggle her vaginal muscles as if squeezing it!
 > END STRING
 
 > BEGIN STRING
 #{targetname}を押さえつけ、\n\m抉るように激しく腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ pinned #{targetname} down and \n​m​thrust her hips fiercly, as if gouging it!
 > END STRING
 
 > BEGIN STRING
@@ -42068,13 +42068,13 @@ suddenly hugged tightly!
 > BEGIN STRING
 一心不乱に#{targetname}の母乳を啜った！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ slurped #{targetname}'s breast milk\nwith full focus!
 > END STRING
 
 > BEGIN STRING
 夢中で#{targetname}の母乳を啜っている！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ is engrossed in sucking on \n#{targetname}'s breast milk!
 > END STRING
 
 > BEGIN STRING
@@ -45373,7 +45373,7 @@ Angel Fall
 > BEGIN STRING
 "は "
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-" and "
+" received "
 > END STRING
 
 > BEGIN STRING
@@ -45669,19 +45669,19 @@ Endurance
 > BEGIN STRING
 母乳が#{target.name}の精神を蕩けさせていく……！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Breast milk is melting #{target.name}'s mind...!​w​q
 > END STRING
 
 > BEGIN STRING
 母乳が#{@active_battler.name}の精神を蕩けさせていく……！
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+Breast milk is melting #{@active_battler.name}'s mind...!
 > END STRING
 
 > BEGIN STRING
 #{@active_battler.name}の精神力が #{down.to_s} 下がった！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{@active_battler.name}'s spirit decreased by #{down.to_s}!​w​q
 > END STRING
 
 > BEGIN STRING
@@ -51107,13 +51107,13 @@ Vigorously stirring the semen-covered vagina of #{target.name},
 > BEGIN STRING
 #{battler.name}の子宮口の吸い付きが収まった！\w\q
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{battler.name}'s cervix suction has subsided! ​w​q
 > END STRING
 
 > BEGIN STRING
 #{battler.name}の膣内を帯びていた電気が止まった！\w\q
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{battler.name}'s vagina's electricity has stopped! ​w​q
 > END STRING
 
 > BEGIN STRING
@@ -59913,13 +59913,13 @@ with a dissatisfied look on his face,
 > BEGIN STRING
 名残惜しそうにしながら、
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+ reluctantly
 > END STRING
 
 > BEGIN STRING
 #{speaker}は#{emotion}\n#{t_actor}を解放した！
 > CONTEXT: O_MOD_Talk_Sys_Text_Hold.rb
-
+#{speaker} released \n{t_actor} #{emotion}!
 > END STRING
 
 > BEGIN STRING
@@ -79182,7 +79182,7 @@ The magic circle beneath #{myname}'s feet disappeared!
 > BEGIN STRING
 #{myname}は母乳に夢中になっている！
 > CONTEXT: PR_RPG_Statetext.rb
-
+#{myname} is obsessed with breastfeeding!
 > END STRING
 
 > BEGIN STRING

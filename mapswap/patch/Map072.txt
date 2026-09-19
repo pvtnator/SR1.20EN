@@ -7,188 +7,38 @@
 > END STRING
 
 > BEGIN STRING
-\\name[\\v[2]]\\_
-\\n[101]様、また来てくださったのですね。
-今度は前のようにはいきませんよ？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
 アルミルスと再戦しますか？
-> CONTEXT: Map062/events/13/pages/1/4/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-わ～い！
-\\n[101]、また来てくれたんだね～♪
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ね～ね～、
-また遊ぼうよ！！
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ヒラルスと再戦しますか？
-> CONTEXT: Map062/events/14/pages/1/4/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-"クリア済"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-わ～い！
-\\n[101]だ～♪
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-もう、ヒラルスったら。
-そんなにはしゃがないの！
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-でも……。
-実は私も気分が高まっておりましてね……\\H
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-貴方さえよろしければ、私達と一戦、
-是非とも交えさせては頂けませんか……？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-ヒラルス・アルミルスと戦いますか？
-
-\\c[12]\\v[4]\\c[0]
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-え～！
-\\n[101]ってば、ノリが悪いよぉ～＞＜
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-まあまあ。
-\\n[101]様も、お疲れでしょうから。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-また気が向いたらお越しくださいね♪
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-やったあ～！
-\\n[101]、覚悟はいい！？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-こら、ヒラルス！
-お手柔らかにしてあげなさいね？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-\\n[101]様。
-お引き受け下さりありがとうございます。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-準備はよろしいですか？
-では、参ります。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-あはっ、やばぁ～\\H
-\\n[101]、さすがじゃ～ん……\\H
-> CONTEXT: None < UNUSED
-
+> CONTEXT: Map062/events/13/pages/1/4/Dialogue
+Have a rematch with Almirus?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 やはり……、
 私達ではとても及ばないようですね……\\H
-> CONTEXT: Map063/events/2/pages/0/122/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
+> CONTEXT: Map063/events/2/pages/0/122/Dialogue
 \\name[\\v[3]]\\_
-やはり……大天使様の見る目に
-狂いはなかったということ……\\H
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[3]]\\_
-また是非、お相手してくださいね……\\H
-> CONTEXT: None < UNUSED
-
+As expected...
+We're nowhere near good enough...\\H
 > END STRING
 
 > BEGIN STRING
 "メルビス"
-> CONTEXT: Map072/events/2/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map072/events/2/pages/0/61/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map072/events/2/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map072/events/2/pages/1/58/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map072/events/2/pages/0/0/InlineScript/1:22
+> CONTEXT: Map072/events/2/pages/0/61/InlineScript/1:22
+> CONTEXT: Map072/events/2/pages/1/0/InlineScript/1:22
+> CONTEXT: Map072/events/2/pages/1/58/InlineScript/1:22
+"Melvis"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あら。
 客人なんて、珍しいですわね。
-> CONTEXT: Map072/events/2/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map072/events/2/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Oh my.
+A guest is quite unusual.
 > END STRING
 
 > BEGIN STRING
@@ -196,85 +46,106 @@
 私は淫魔ではありますが、
 見境なく食べたりすることはありませんので
 どうぞご安心ください。
-> CONTEXT: Map072/events/2/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map072/events/2/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Although I am a succubus, 
+I do not eat indiscriminately, 
+so please rest assured.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ですが、ご希望とあらば
 遠慮なく頂きますよ……\\H
-> CONTEXT: Map072/events/2/pages/0/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map072/events/2/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+However, if you wish,
+I will gladly accept it...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 また気が向いたら、お立ち寄りくださいませ。
-> CONTEXT: Map072/events/2/pages/0/15/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map072/events/2/pages/0/15/Dialogue
+\\name[\\v[2]]\\_
+Please feel free to drop by again 
+whenever you feel like it.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ。
 このような余興は久しぶりですね……\\H
-> CONTEXT: Map072/events/2/pages/0/62/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map072/events/2/pages/0/62/Dialogue
+\\name[\\v[2]]\\_
+Hehe.
+It's been a while since we had 
+entertainment like this...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ。
 また、私の余興に付き合ってくれるのですね？
-> CONTEXT: Map072/events/2/pages/1/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map072/events/2/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+Hehe.
+So you'll play along with my entertainment again?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 また気が向いたら、声を掛けてくださいね。
-> CONTEXT: Map072/events/2/pages/1/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map072/events/2/pages/1/8/Dialogue
+\\name[\\v[2]]\\_
+Please feel free to 
+contact me again if you feel like it.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ。
 今回もなかなか楽しめましたわ……\\H
-> CONTEXT: Map072/events/2/pages/1/59/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map072/events/2/pages/1/59/Dialogue
+\\name[\\v[2]]\\_
+Hehe.
+I enjoyed this quite a bit too...\\H
 > END STRING
 
 > BEGIN STRING
 "バトラー"
-> CONTEXT: Map072/events/3/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map072/events/3/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map072/events/3/pages/0/0/InlineScript/1:22
+> CONTEXT: Map072/events/3/pages/1/0/InlineScript/1:22
+"Butler"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 姫は少々、退屈しておられます。
 きっと、お相手して下さるでしょう。
-> CONTEXT: Map072/events/3/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map072/events/3/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+The princess is a little bored.
+I'm sure she'll keep you company.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 また、姫とお戯れになるのですね。
 きっと、お相手して下さるでしょう。
-> CONTEXT: Map072/events/3/pages/1/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map072/events/3/pages/1/1/Dialogue
+\\name[\\v[2]]\\_
+You'll be playing with the princess again, won't you?
+I'm sure she'll keep you company.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 そちらにおられる方は
 メルビス様にございます。
-> CONTEXT: Map072/events/4/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map072/events/4/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+The person you are with is Melvis.
 > END STRING
 
 > BEGIN STRING
@@ -282,6 +153,9 @@
 生前は淫魔にありながら、
 その心の美しさから、ここ冥界での審判に合格された
 唯一の淫魔であられます。
-> CONTEXT: Map072/events/4/pages/0/4/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map072/events/4/pages/0/4/Dialogue
+\\name[\\v[2]]\\_
+Although she was a succubus in her lifetime,
+due to the beauty of her heart, she is the only 
+succubus who passed the judgment here in the underworld.
 > END STRING

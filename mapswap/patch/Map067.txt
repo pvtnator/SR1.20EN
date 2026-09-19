@@ -1,146 +1,119 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 "魔法見習い"
-> CONTEXT: Map067/events/5/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map067/events/5/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map067/events/5/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map067/events/5/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map067/events/7/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map067/events/7/pages/1/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map067/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Map067/events/5/pages/0/0/InlineScript/1:22
+> CONTEXT: Map067/events/5/pages/1/0/InlineScript/1:22
+> CONTEXT: Map067/events/5/pages/1/0/InlineScript/1:22
+> CONTEXT: Map067/events/7/pages/0/0/InlineScript/1:22
+> CONTEXT: Map067/events/7/pages/1/0/InlineScript/1:22
+"Mage Apprentice"
 > END STRING
 
 > BEGIN STRING
 集中しているようだ。
 そっとしておこう。
-> CONTEXT: Map067/events/5/pages/0/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map067/events/5/pages/0/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map067/events/5/pages/3/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map067/events/7/pages/0/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map067/events/5/pages/0/3/Dialogue
+> CONTEXT: Map067/events/5/pages/0/3/Dialogue
+> CONTEXT: Map067/events/5/pages/3/3/Dialogue
+> CONTEXT: Map067/events/7/pages/0/3/Dialogue
+She seems to be concentrating.
+Better leave her alone.
 > END STRING
 
 > BEGIN STRING
 ……邪魔しない方がよさそうだ。
-> CONTEXT: Map067/events/5/pages/1/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map067/events/5/pages/1/3/Dialogue < UNTRANSLATED
-> CONTEXT: Map067/events/7/pages/1/3/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-なんだね？
-さっきから私の周りをこそこそと。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-そんなに私と\\c[12]イイコト\\c[0]したいなら
-相手してあげるよ？
-> CONTEXT: None < UNUSED
-
+> CONTEXT: Map067/events/5/pages/1/3/Dialogue
+> CONTEXT: Map067/events/5/pages/1/3/Dialogue
+> CONTEXT: Map067/events/7/pages/1/3/Dialogue
+...It's probably best not to get in the way.
 > END STRING
 
 > BEGIN STRING
 "ベル"
-> CONTEXT: Map067/events/5/pages/3/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map067/events/7/pages/3/54/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map067/events/8/pages/0/52/InlineScript/1:22 < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふふっ……\\H
-今日のところは、これぐらいにしておきましょう……\\H
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふふっ。
-今日のところは、これぐらいにしておきましょう……\\H
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-またキミ達か……。
-今度は何の用だい？
-> CONTEXT: None < UNUSED
-
+> CONTEXT: Map067/events/5/pages/3/0/InlineScript/1:22
+> CONTEXT: Map067/events/7/pages/3/54/InlineScript/1:22
+> CONTEXT: Map067/events/8/pages/0/52/InlineScript/1:22
+"Belle"
 > END STRING
 
 > BEGIN STRING
 "ソワール"
-> CONTEXT: Map067/events/7/pages/3/0/InlineScript/1:22 < UNTRANSLATED
-> CONTEXT: Map067/events/7/pages/3/54/InlineScript/2:22 < UNTRANSLATED
-> CONTEXT: Map067/events/8/pages/0/52/InlineScript/2:22 < UNTRANSLATED
-
+> CONTEXT: Map067/events/7/pages/3/0/InlineScript/1:22
+> CONTEXT: Map067/events/7/pages/3/54/InlineScript/2:22
+> CONTEXT: Map067/events/8/pages/0/52/InlineScript/2:22
+"Soir"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 まだ何か用！？
-> CONTEXT: Map067/events/7/pages/3/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map067/events/7/pages/3/1/Dialogue
+\\name[\\v[2]]\\_
+Do you need something!?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 なら、静かにしてちょうだい。
-> CONTEXT: Map067/events/7/pages/3/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map067/events/7/pages/3/8/Dialogue
+\\name[\\v[2]]\\_
+Then please be quiet.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 また……、
 \\c[12]イイコト\\c[0]されちゃった……\\H
-> CONTEXT: Map067/events/7/pages/3/56/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map067/events/7/pages/3/56/Dialogue
+\\name[\\v[2]]\\_
+Again...
+A \\c[12]good deed\\c[0]...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ふふっ……\\H
 今日のところは、これぐらいにしておきましょう……\\H
-> CONTEXT: Map067/events/7/pages/3/59/Dialogue < UNTRANSLATED
-> CONTEXT: Map067/events/8/pages/0/57/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map067/events/7/pages/3/59/Dialogue
+> CONTEXT: Map067/events/8/pages/0/57/Dialogue
+\\name[\\v[3]]\\_
+Hehe...\\H
+Let's leave it at that for today...\\H
 > END STRING
 
 > BEGIN STRING
 "魔法見習い達"
-> CONTEXT: Map067/events/8/pages/0/0/InlineScript/1:22 < UNTRANSLATED
-
+> CONTEXT: Map067/events/8/pages/0/0/InlineScript/1:22
+"Mage Apprentices"
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ちょっと！
 さっきからうるさいわよ！！
-> CONTEXT: Map067/events/8/pages/0/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map067/events/8/pages/0/8/Dialogue
+\\name[\\v[2]]\\_
+Hey!
+You've been so noisy this whole time!!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 アタシ達が\\c[12]イイコト\\c[0]して
 黙らせてあげる\\H
-> CONTEXT: Map067/events/8/pages/0/11/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map067/events/8/pages/0/11/Dialogue
+\\name[\\v[2]]\\_
+We'll do a \\c[12]good deed\\c[0] for you 
+and shut you up\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 アタシ達の方が……、
 \\c[12]イイコト\\c[0]されちゃった……\\H
-> CONTEXT: Map067/events/8/pages/0/54/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map067/events/8/pages/0/54/Dialogue
+\\name[\\v[2]]\\_
+We were the ones who...
+Had a \\c[12]good deed\\c[0] done to us...\\H
 > END STRING

@@ -1,73 +1,9 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
 この部屋を出ますか？
-> CONTEXT: Map063/events/1/pages/0/0/Dialogue < UNTRANSLATED
-> CONTEXT: Map063/events/1/pages/0/0/Dialogue < UNTRANSLATED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ここでの最初の試練は……。
-準備は良いでしょうか？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-高位天使三姉妹との戦闘
-
-結果は？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-さすがでございますね……！
-それでは、次なる試練とまいりましょう。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-次なる試練は……。
-準備は良いでしょうか？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-妖蝶三姉妹との戦闘
-
-結果は？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふふっ♪
-彼女達の試練にも打ち勝つなんて……！
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-最後は、この私が直々にお相手いたしましょう。
-準備ができたら、いつでも声を掛けて下さいね。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-いよいよ、最終決戦とまいりましょう。
-準備は良いでしょうか？
-> CONTEXT: None < UNUSED
-
+> CONTEXT: Map063/events/1/pages/0/0/Dialogue
+> CONTEXT: Map063/events/1/pages/0/0/Dialogue
+Leave the room?
 > END STRING
 
 > BEGIN STRING
@@ -80,314 +16,390 @@ flow_of_the_river
 \\name[\\v[2]]\\_
 ふふっ。
 覚悟はできたようですね。
-> CONTEXT: Map063/events/2/pages/0/10/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/0/10/Dialogue
+\\name[\\v[2]]\\_
+Heh heh.
+It seems you're ready.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 では、貴方には
 あと３つの試練に挑戦して頂きます。
-> CONTEXT: Map063/events/2/pages/0/13/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/0/13/Dialogue
+\\name[\\v[2]]\\_
+Now, you will face three more challenges.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 寝室で執り行う試練といえば、
 貴方なら言わずとも、お分かりですね？
-> CONTEXT: Map063/events/2/pages/0/16/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/0/16/Dialogue
+\\name[\\v[2]]\\_
+When it comes to trials conducted in the bedroom,
+you know what I'm talking about 
+without me having to say it, right?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 では、早速。
 ここでの１つ目の試練は……。
-> CONTEXT: Map063/events/2/pages/0/20/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/0/20/Dialogue
+\\name[\\v[2]]\\_
+Now, let's get started.
+The first challenge here is...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ヒラルス！
 アルミルス！
-> CONTEXT: Map063/events/2/pages/0/25/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/0/25/Dialogue
+\\name[\\v[2]]\\_
+Hilarus!
+Almirus!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 久しぶりの挑戦者ですわ。
 たっぷりとお相手してさしあげなさい。
-> CONTEXT: Map063/events/2/pages/0/37/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/0/37/Dialogue
+\\name[\\v[2]]\\_
+It's been a while since we've had a challenger.
+Make it a good, long fight.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 わ～い、\\n[101]～！
 やっと遊べるね～\\H
-> CONTEXT: Map063/events/2/pages/0/50/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/0/50/Dialogue
+\\name[\\v[3]]\\_
+Yay, \\n[101]!
+We can finally play～\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[4]]\\_
 こらこら、ヒラルス。
 これは遊びではなくて試練だという事をお忘れなく。
-> CONTEXT: Map063/events/2/pages/0/56/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/0/56/Dialogue
+\\name[\\v[4]]\\_
+Now, now, Hilarus.
+Don't forget that 
+this isn't a game, it's a test.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 は～い。
-> CONTEXT: Map063/events/2/pages/0/62/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/0/62/Dialogue
+\\name[\\v[3]]\\_
+Yes～
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[4]]\\_
 ……とはいえ。
 私も少々、昂るものを感じていますわ\\H
-> CONTEXT: Map063/events/2/pages/0/67/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/0/67/Dialogue
+\\name[\\v[4]]\\_
+...However.
+I, too, am feeling a little excited\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[4]]\\_
 \\n[101]様。
 どうぞ、お手柔らかに。
-> CONTEXT: Map063/events/2/pages/0/70/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/0/70/Dialogue
+\\name[\\v[4]]\\_
+\\n[101].
+Please be gentle.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 さ！
 いっくよ～♪
-> CONTEXT: Map063/events/2/pages/0/77/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/0/77/Dialogue
+\\name[\\v[3]]\\_
+Okay!
+Here we go～♪
 > END STRING
 
 > BEGIN STRING
 ヒラルス・アルミルスとの戦闘
 
 結果は？
-> CONTEXT: Map063/events/2/pages/0/81/Dialogue < UNTRANSLATED
+> CONTEXT: Map063/events/2/pages/0/81/Dialogue
+Battle against Hilarus/Almirus
 
+What was the result?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 あはっ、やばぁ～\\H
 \\n[101]、さすがじゃ～ん……\\H
-> CONTEXT: Map063/events/2/pages/0/128/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/0/128/Dialogue
+\\name[\\v[3]]\\_
+Ahaha, that's amazing～\\H
+\\n[101], as expected...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[4]]\\_
 ふふっ……、
 もはや、私達では到底及ばないようですね……！
-> CONTEXT: Map063/events/2/pages/0/131/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/0/131/Dialogue
+\\name[\\v[4]]\\_
+Hehehe...
+It seems we're nowhere near good enough...!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[4]]\\_
 また是非、お相手してくださいね……\\H
-> CONTEXT: Map063/events/2/pages/0/134/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/0/134/Dialogue
+\\name[\\v[4]]\\_
+Please play with me again sometime...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ヒラルスとアルミルスを破ったようですね。
 素晴らしいですわ。
-> CONTEXT: Map063/events/2/pages/0/150/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/0/150/Dialogue
+\\name[\\v[2]]\\_
+So you defeated Hilarus and Almirus.
+That's amazing.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ですが……、試練はあと２つ。
 それでは、次なる試練とまいりましょう。
-> CONTEXT: Map063/events/2/pages/0/153/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/0/153/Dialogue
+\\name[\\v[2]]\\_
+However... there are two more trials to come.
+Now, let's move on to the next trial.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 準備が出来たら、
 また声を掛けてくださいね。
-> CONTEXT: Map063/events/2/pages/0/156/Dialogue < UNTRANSLATED
-> CONTEXT: Map063/events/2/pages/1/133/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/0/156/Dialogue
+> CONTEXT: Map063/events/2/pages/1/133/Dialogue
+\\name[\\v[2]]\\_
+Please let me know when you're ready.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 それでは、２つ目の試練とまいりましょうか。
-> CONTEXT: Map063/events/2/pages/1/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/1/9/Dialogue
+\\name[\\v[2]]\\_
+Now, let's move on to the second trial.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ガブリエル！
 出番ですわよ！
-> CONTEXT: Map063/events/2/pages/1/13/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/1/13/Dialogue
+\\name[\\v[2]]\\_
+Gabriel!
+It's your turn!
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 お呼びでしょうか？
 セラフィエル様。
-> CONTEXT: Map063/events/2/pages/1/17/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/1/17/Dialogue
+\\name[\\v[3]]\\_
+Did you call for me?
+Lady Seraphiel.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 貴方に対する挑戦者ですわ。
 たっぷりとお相手してさしあげなさい。
-> CONTEXT: Map063/events/2/pages/1/28/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/1/28/Dialogue
+\\name[\\v[2]]\\_
+We have a challenger.
+Give a good, long fight.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 承知しました。
-> CONTEXT: Map063/events/2/pages/1/34/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/1/34/Dialogue
+\\name[\\v[3]]\\_
+Understood.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 では……。
 ご武運を祈っておりますわ。
-> CONTEXT: Map063/events/2/pages/1/37/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/1/37/Dialogue
+\\name[\\v[2]]\\_
+Well then...
+I wish you good luck in battle.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 はじめまして。
 ガブリエルと申します。
-> CONTEXT: Map063/events/2/pages/1/51/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/1/51/Dialogue
+\\name[\\v[3]]\\_
+Nice to meet you.
+My name is Gabriel.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 この大天使城にて、天使長を務めていますわ。
 以後、お見知り置きを。
-> CONTEXT: Map063/events/2/pages/1/55/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/1/55/Dialogue
+\\name[\\v[3]]\\_
+I serve as the Archangel 
+in this Archangel's Castle.
+Please remember me well.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 ……さて。
 長話は無用でしょう。
-> CONTEXT: Map063/events/2/pages/1/59/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/1/59/Dialogue
+\\name[\\v[3]]\\_
+...Now then.
+There's no need for a long explanation.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 早速ですが、お手合わせしましょう。
 ……血が騒ぎますわ\\H
-> CONTEXT: Map063/events/2/pages/1/62/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/1/62/Dialogue
+\\name[\\v[3]]\\_
+Let's get started right away.
+...My blood is boiling\\H
 > END STRING
 
 > BEGIN STRING
 天使長ガブリエルとの戦闘
 
 結果は？
-> CONTEXT: Map063/events/2/pages/1/66/Dialogue < UNTRANSLATED
+> CONTEXT: Map063/events/2/pages/1/66/Dialogue
+Battle against Archangel Gabriel
 
+What was the result?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 はあ……、はあ……っ。
 この私が敗れるなんて……。
-> CONTEXT: Map063/events/2/pages/1/107/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/1/107/Dialogue
+\\name[\\v[3]]\\_
+Haa... haa...
+To think that I, of all people, 
+would be defeated...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 素晴らしいまでの、力の持ち主ですわね。
-> CONTEXT: Map063/events/2/pages/1/110/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/1/110/Dialogue
+\\name[\\v[3]]\\_
+You possess incredible strength.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[3]]\\_
 セラフィエル様が目を付けるのも
 無理はありませんわ。
-> CONTEXT: Map063/events/2/pages/1/112/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/1/112/Dialogue
+\\name[\\v[3]]\\_
+It's no wonder that Lady Seraphiel 
+took an interest in you.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ。
 あの天使長が敗北を喫したのはいつぶりでしょうか。
-> CONTEXT: Map063/events/2/pages/1/127/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/1/127/Dialogue
+\\name[\\v[2]]\\_
+Heh heh.
+I wonder how long it's been since 
+that archangel suffered a defeat.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 さあ……、
 試練はいよいよあと１つ。
-> CONTEXT: Map063/events/2/pages/1/130/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/1/130/Dialogue
+\\name[\\v[2]]\\_
+Now... there's only one trial left.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 いよいよ、最後の試練ですわ。
 準備は良いですね？
-> CONTEXT: Map063/events/2/pages/2/8/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/2/8/Dialogue
+\\name[\\v[2]]\\_
+Now, it's time for the final test.
+Are you ready?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 では、準備が出来たら
 また声を掛けてくださいね。
-> CONTEXT: Map063/events/2/pages/2/15/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/2/15/Dialogue
+\\name[\\v[2]]\\_
+Okay, please let me know when you're ready.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふふっ。
 いい返事ですわ。
-> CONTEXT: Map063/events/2/pages/2/21/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/2/21/Dialogue
+\\name[\\v[2]]\\_
+Hehe.
+That's a good answer.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 最後の試練は……、勿論、この私。
 セラフィエルがお相手いたしますわ。
-> CONTEXT: Map063/events/2/pages/2/25/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/2/25/Dialogue
+\\name[\\v[2]]\\_
+The final trial is... of course, me.
+Seraphiel will be your opponent.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 これ以上の言葉はいりませんね？
 早速、はじめましょう。
-> CONTEXT: Map063/events/2/pages/2/28/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map063/events/2/pages/2/28/Dialogue
+\\name[\\v[2]]\\_
+No further words are needed, right?
+Let's get started right away.
 > END STRING

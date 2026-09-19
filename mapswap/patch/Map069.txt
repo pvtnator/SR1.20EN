@@ -1,117 +1,57 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-"掃除をしている女性"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-さ、これでこの部屋のお掃除も終わりね。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-あら？貴方の衣服……、
-汚れていらっしゃいませんか？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-私が綺麗にしてさしあげましょう。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\c[12]イイコト\\c[0]をしますか？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-"シヴィリアン"
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふふっ……\\H
-綺麗に……なりましたね……\\H
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-あら？
-まだこの私に用事があって？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ご希望でしたら、またお相手致しますよ？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
 再戦しますか？
-> CONTEXT: Map067/events/7/pages/3/3/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map067/events/7/pages/3/3/Dialogue
+Rematch?
 > END STRING
 
 > BEGIN STRING
 ここから先は服を脱いでいく
 必要があるようだ。
-> CONTEXT: Map069/events/3/pages/0/1/Dialogue < UNTRANSLATED
-> CONTEXT: Map069/events/4/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map069/events/3/pages/0/1/Dialogue
+> CONTEXT: Map069/events/4/pages/0/1/Dialogue
+You'll need to take off clothes 
+from here on out.
 > END STRING
 
 > BEGIN STRING
 服を脱ぎますか？
-> CONTEXT: Map069/events/5/pages/0/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map069/events/5/pages/0/0/Dialogue
+Take off clothes?
 > END STRING
 
 > BEGIN STRING
 \\n[101]は、
 着ている服を脱いだ。
-> CONTEXT: Map069/events/5/pages/0/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map069/events/5/pages/0/6/Dialogue
+\\n[101] took off clothes.
 > END STRING
 
 > BEGIN STRING
 服を着ますか？
-> CONTEXT: Map069/events/5/pages/1/0/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map069/events/5/pages/1/0/Dialogue
+Put on clothes?
 > END STRING
 
 > BEGIN STRING
 \\n[101]は、
 脱いでいた服を着た。
-> CONTEXT: Map069/events/5/pages/1/6/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map069/events/5/pages/1/6/Dialogue
+\\n[101] put clothes back on.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 服は脱いでくださ～い♪
-> CONTEXT: Map069/events/6/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map069/events/6/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+Please take off your clothes♪
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 この先は温泉になってま～す！
-> CONTEXT: Map069/events/7/pages/0/1/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map069/events/7/pages/0/1/Dialogue
+\\name[\\v[2]]\\_
+There's a hot spring ahead!
 > END STRING

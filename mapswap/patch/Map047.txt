@@ -1,110 +1,5 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-\\name[\\v[2]]\\_
-くす……。
-これ以上は行かせませんよ……\\H
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-あの天使長を破るとは、
-さすがですわ……\\H
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-貴方は私達淫魔にとって
-脅威となり得る存在……。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ここで芽を摘んでおく事にしましょう……。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-そうですね……。
-自己紹介をしておきましょうか。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-淫界の忍、ラビスでございます。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-結界を張っておきました……。
-貴方の危機に気づく者はおりません……。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-貴方の精を搾り尽くし、
-死の淵を延々と彷徨って頂きましょう……\\H
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-ふふ……。
-どうやら貴方達の事、少し見くびってたみたいね……\\H
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-いいでしょう……。
-今回はこれで撤退させて頂きます。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-やあ、少年。
-今回はここまでなんだ。
-遊んでくれてありがとう。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-一旦、元の世界に戻してあげようか？
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-なら、こいつをあげるよ。
-> CONTEXT: None < UNUSED
-
-> END STRING
-
-> BEGIN STRING
-\\name[\\v[2]]\\_
-そいつを使えば、ここにすぐ戻ってこられるよ。
-それじゃあ、またね！
-> CONTEXT: None < UNUSED
 
 > END STRING
 
@@ -113,15 +8,19 @@
 ほう……
 せっかく、漆黒の冥府に閉じ込めたのに、
 そこから這い上がってくるとは……。
-> CONTEXT: Map047/events/11/pages/0/9/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/9/Dialogue
+\\name[\\v[2]]\\_
+Hmm... I went to all the trouble of trapping 
+you in the pitch-black underworld,
+and yet you managed to crawl out of it...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あなたも懲りない方ですねえ♪
-> CONTEXT: Map047/events/11/pages/0/13/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/13/Dialogue
+\\name[\\v[2]]\\_
+You never learn, do you?♪
 > END STRING
 
 > BEGIN STRING
@@ -129,138 +28,173 @@
 そんなにお望みなのであれば、
 また、ぬるぬるのどろどろにして
 精を搾り取ってさしあげましょう♪
-> CONTEXT: Map047/events/11/pages/0/16/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/16/Dialogue
+\\name[\\v[2]]\\_
+If that's what you want,
+I'll make you slimy and gooey again 
+and squeeze out your essence for you♪
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふっふっふ。
 審判ごっこは楽しいですねえ♪
-> CONTEXT: Map047/events/11/pages/0/33/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/33/Dialogue
+\\name[\\v[2]]\\_
+Heh heh heh.
+Playing the judge is fun♪
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 黄昏王国の大将、自ら乗り込んできて
 精を飲ませてくれるなんて。
-> CONTEXT: Map047/events/11/pages/0/36/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/36/Dialogue
+\\name[\\v[2]]\\_
+The general of the Twilight Kingdom himself came in and
+offered to let me drink his essence.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 う～ん。
 実に美味ですねえ♪
-> CONTEXT: Map047/events/11/pages/0/39/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/39/Dialogue
+\\name[\\v[2]]\\_
+Mmhm～
+Really delicious♪
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ん～？
-> CONTEXT: Map047/events/11/pages/0/46/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/46/Dialogue
+\\name[\\v[2]]\\_
+Hm～?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 おやおやぁ？
 今度はハザマノセカイの英雄様がお出ましとは♪
-> CONTEXT: Map047/events/11/pages/0/51/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/51/Dialogue
+\\name[\\v[2]]\\_
+Oh my?
+The hero of the Border World 
+making an appearance♪
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 この塔を昇り切るとは、お見それしました。
 まさに称賛に値しますよ♪
-> CONTEXT: Map047/events/11/pages/0/54/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/54/Dialogue
+\\name[\\v[2]]\\_
+I'm impressed that you managed to 
+climb this tower to the top.
+It truly deserves praise♪
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 昇降機を壊して、ここで待ち伏せる作戦は
 大成功のようですねぇ♪
-> CONTEXT: Map047/events/11/pages/0/60/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/60/Dialogue
+\\name[\\v[2]]\\_
+The plan to break the elevator and 
+lie in ambush here was a great success♪
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 長旅で疲弊しているところを襲えば
 イチコロだろう、と。
-> CONTEXT: Map047/events/11/pages/0/63/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/63/Dialogue
+\\name[\\v[2]]\\_
+If we attack when they're exhausted from their journey,
+it'll be a piece of cake, I figured.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 私はなんて、頭が良いんでしょうねえ♪
-> CONTEXT: Map047/events/11/pages/0/68/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/68/Dialogue
+\\name[\\v[2]]\\_
+I'm so smart, aren't I?♪
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 あ、そうそう。
 ご挨拶が遅れましたねえ♪
-> CONTEXT: Map047/events/11/pages/0/73/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/73/Dialogue
+\\name[\\v[2]]\\_
+Oh, that's right.
+I'm sorry for the late greeting♪
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 私はデザイア。
-> CONTEXT: Map047/events/11/pages/0/77/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/77/Dialogue
+\\name[\\v[2]]\\_
+I am Desire.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 実は、あなたをこの世界へと導いた、
 淫魔の軍師様より命を仰せつかっているのですよ。
-> CONTEXT: Map047/events/11/pages/0/79/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/79/Dialogue
+\\name[\\v[2]]\\_
+Actually, I've been given orders by the 
+succubus strategist who led you to this world.
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ハザマノセカイの英雄がこの地に降りた際には
 漆黒の冥府に閉じ込めておくように、と……。
-> CONTEXT: Map047/events/11/pages/0/82/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/82/Dialogue
+\\name[\\v[2]]\\_
+Whenever a hero from the Border World descends upon this land,
+they are to be imprisoned in the pitch-black underworld...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 でも、その前に。
-> CONTEXT: Map047/events/11/pages/0/86/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/86/Dialogue
+\\name[\\v[2]]\\_
+But before that...
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 まずは、あなたのその美味しそうな精を、
 じっくりと堪能する事にしましょう\\H
-> CONTEXT: Map047/events/11/pages/0/90/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/90/Dialogue
+\\name[\\v[2]]\\_
+First, let me take my time and 
+savor your delicious-looking essence\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 ふっふっふ……。
 どうやら貴方達の事を見くびっていたようですねえ♪
-> CONTEXT: Map047/events/11/pages/0/134/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/134/Dialogue
+\\name[\\v[2]]\\_
+Heh heh heh...
+It seems I underestimated you♪
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
 いいでしょう……。
 今回はこれで撤退させて頂きますよ……♪
-> CONTEXT: Map047/events/11/pages/0/137/Dialogue < UNTRANSLATED
-
+> CONTEXT: Map047/events/11/pages/0/137/Dialogue
+\\name[\\v[2]]\\_
+Alright...
+I'll withdraw now...♪
 > END STRING
