@@ -4450,6 +4450,19 @@ O_MOD/#{name}/#{costume}/
 > END STRING
 
 > BEGIN STRING
+H_MOD/#{name}/
+> CONTEXT: O_MOD_Game_Actor.rb
+> CONTEXT: O_MOD_Game_Battler_2.rb
+
+> END STRING
+
+> BEGIN STRING
+#{name}/
+> CONTEXT: O_MOD_Game_Actor.rb
+
+> END STRING
+
+> BEGIN STRING
 _N
 > CONTEXT: O_MOD_Game_Actor.rb
 > CONTEXT: O_MOD_Game_Battler_2.rb
@@ -6822,6 +6835,9 @@ Unique W
 > CONTEXT: O_MOD_RPG_Class_ボーナス.rb
 > CONTEXT: O_MOD_顔グラフィック戦闘.rb
 > CONTEXT: PR_MOD_RPG_Cache.rb
+> CONTEXT: Scene_Dictionary.rb
+> CONTEXT: Scene_Load.rb
+> CONTEXT: エラーログ.rb
 
 > END STRING
 
@@ -7098,6 +7114,7 @@ Finger in Back
 ドロウビター
 > CONTEXT: O_MOD_Game_Actor_戦闘中スキル.rb
 > CONTEXT: O_MOD_Game_BattlerHold.rb
+> CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_Game_Battler_4.rb
 > CONTEXT: O_MOD_Game_Battler_ホールド関数.rb
 > CONTEXT: O_MOD_HoldPop_Sprite.rb
@@ -8883,9 +8900,8 @@ Feather Embrace
 > CONTEXT: O_MOD_Game_Battler_ホールド関数.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
-Feather
 > CONTEXT: Window_NameInput.rb
-
+Feather
 > END STRING
 
 > BEGIN STRING
@@ -10975,18 +10991,30 @@ Order Silky
 > BEGIN STRING
 バイゴブリン
 > CONTEXT: O_MOD_Game_Battler_2.rb
+> CONTEXT: O_MOD_Game_Enemy _設定用.rb
+> CONTEXT: O_MOD_RPG_Class_ボーナス.rb
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
 
 > BEGIN STRING
 バイギャング
 > CONTEXT: O_MOD_Game_Battler_2.rb
+> CONTEXT: O_MOD_Game_Enemy _設定用.rb
+> CONTEXT: O_MOD_RPG_Class_ボーナス.rb
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
 
 > BEGIN STRING
 ゴブリンタイラント
 > CONTEXT: O_MOD_Game_Battler_2.rb
+> CONTEXT: O_MOD_Game_Enemy _設定用.rb
+> CONTEXT: O_MOD_RPG_Class_ボーナス.rb
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
 
@@ -11391,6 +11419,20 @@ _PZ4+PP
 > END STRING
 
 > BEGIN STRING
+_WPZ
+> CONTEXT: O_MOD_Game_Battler_2.rb
+> CONTEXT: O_MOD_顔グラフィック戦闘.rb
+> CONTEXT: PR_Scene_Battle Other.rb
+
+> END STRING
+
+> BEGIN STRING
+ダブルパイズリ
+> CONTEXT: O_MOD_Game_Battler_2.rb
+Double Paizuri
+> END STRING
+
+> BEGIN STRING
 _PF
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
@@ -11409,10 +11451,46 @@ _OI
 > END STRING
 
 > BEGIN STRING
+_OID
+> CONTEXT: O_MOD_Game_Battler_2.rb
+
+> END STRING
+
+> BEGIN STRING
+口挿入＋ディープスロート
+> CONTEXT: O_MOD_Game_Battler_2.rb
+
+> END STRING
+
+> BEGIN STRING
+_OIS
+> CONTEXT: O_MOD_Game_Battler_2.rb
+
+> END STRING
+
+> BEGIN STRING
+口挿入＋スネークスロート
+> CONTEXT: O_MOD_Game_Battler_2.rb
+
+> END STRING
+
+> BEGIN STRING
 _VR
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_顔グラフィック戦闘.rb
 > CONTEXT: XL_MOD_Battle_Cutin.rb
+
+> END STRING
+
+> BEGIN STRING
+_VRP
+> CONTEXT: O_MOD_Game_Battler_2.rb
+
+> END STRING
+
+> BEGIN STRING
+顔面騎乗＋着衣
+> CONTEXT: O_MOD_Game_Battler_2.rb
 
 > END STRING
 
@@ -11595,6 +11673,24 @@ _DN
 > END STRING
 
 > BEGIN STRING
+_DB
+> CONTEXT: O_MOD_Game_Battler_2.rb
+
+> END STRING
+
+> BEGIN STRING
+_DBS
+> CONTEXT: O_MOD_Game_Battler_2.rb
+
+> END STRING
+
+> BEGIN STRING
+ドロウビター＋ディープスポット
+> CONTEXT: O_MOD_Game_Battler_2.rb
+
+> END STRING
+
+> BEGIN STRING
 _DI
 > CONTEXT: O_MOD_Game_Battler_2.rb
 > CONTEXT: O_MOD_顔グラフィック戦闘.rb
@@ -11665,6 +11761,12 @@ Metamorphosis
 
 > BEGIN STRING
 #{i}/
+> CONTEXT: O_MOD_Game_Battler_2.rb
+
+> END STRING
+
+> BEGIN STRING
+./Graphics/Battlers/H_MOD/#{name}
 > CONTEXT: O_MOD_Game_Battler_2.rb
 
 > END STRING
@@ -13502,6 +13604,15 @@ _
 > BEGIN STRING
 /バストサイズを数字で取る 最大サイズを7に/
 > CONTEXT: O_MOD_Game_Battler_2.rb
+
+> END STRING
+
+> BEGIN STRING
+/H_MOD/
+> CONTEXT: O_MOD_Game_Battler_2.rb
+> CONTEXT: Scene_Dictionary.rb
+> CONTEXT: Scene_Load.rb
+> CONTEXT: エラーログ.rb
 
 > END STRING
 
@@ -17160,7 +17271,7 @@ Pain knowledge
 > BEGIN STRING
 浄化の光
 > CONTEXT: O_MOD_Game_Battler_4.rb
-
+Purifying Light
 > END STRING
 
 > BEGIN STRING
@@ -18611,13 +18722,6 @@ A
 > END STRING
 
 > BEGIN STRING
-T
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: Window_NameInput.rb
-
-> END STRING
-
-> BEGIN STRING
 カグヤ
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Class_ボーナス.rb
@@ -18673,6 +18777,13 @@ Innocent
 
 > BEGIN STRING
 N
+> CONTEXT: O_MOD_Game_Enemy _設定用.rb
+> CONTEXT: Window_NameInput.rb
+
+> END STRING
+
+> BEGIN STRING
+T
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: Window_NameInput.rb
 
@@ -18870,6 +18981,15 @@ Almirus
 > END STRING
 
 > BEGIN STRING
+デュアルメイド
+> CONTEXT: O_MOD_Game_Enemy _設定用.rb
+> CONTEXT: O_MOD_RPG_Class_ボーナス.rb
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+Dual Maid
+> END STRING
+
+> BEGIN STRING
 緋
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Class_ボーナス.rb
@@ -18878,11 +18998,20 @@ Almirus
 > END STRING
 
 > BEGIN STRING
+ヘルマルース
+> CONTEXT: O_MOD_Game_Enemy _設定用.rb
+> CONTEXT: O_MOD_RPG_Class_ボーナス.rb
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+Helmarus
+> END STRING
+
+> BEGIN STRING
 乳首責め好き
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_AttackElementChange.rb
-
+Nipple Love
 > END STRING
 
 > BEGIN STRING
@@ -18891,14 +19020,7 @@ Almirus
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_Scene_Battle_AttackElementChange.rb
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
-
-> END STRING
-
-> BEGIN STRING
-G
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: Window_NameInput.rb
-
+Tickle Love
 > END STRING
 
 > BEGIN STRING
@@ -18928,7 +19050,7 @@ Automata
 > BEGIN STRING
 アエシュマ
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
-
+Aeshma
 > END STRING
 
 > BEGIN STRING
@@ -18936,7 +19058,7 @@ Automata
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-
+Night Seeker
 > END STRING
 
 > BEGIN STRING
@@ -18944,7 +19066,7 @@ Automata
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-
+Night Stalker
 > END STRING
 
 > BEGIN STRING
@@ -19171,21 +19293,6 @@ Aurum's Tentacles
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 Melvis
-> END STRING
-
-> BEGIN STRING
-アウローラ
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Aurora
-> END STRING
-
-> BEGIN STRING
-ナジェラス
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Najeras
 > END STRING
 
 > BEGIN STRING
@@ -19477,22 +19584,6 @@ Gwiber
 > END STRING
 
 > BEGIN STRING
-茨木童子
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Ibaraki Doji
-> END STRING
-
-> BEGIN STRING
-善狐
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Zenko
-> END STRING
-
-> BEGIN STRING
 イヅナ
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
@@ -19501,51 +19592,11 @@ Izuna
 > END STRING
 
 > BEGIN STRING
-魔縁
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Maen
-> END STRING
-
-> BEGIN STRING
 金華猫
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 Jinhua Cat
-> END STRING
-
-> BEGIN STRING
-カイン＆アベル
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Cain＆Abel
-> END STRING
-
-> BEGIN STRING
-アンテノーラ
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Antenora
-> END STRING
-
-> BEGIN STRING
-トロメーア
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Tolomea
-> END STRING
-
-> BEGIN STRING
-ジュデッカ
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Giudecca
 > END STRING
 
 > BEGIN STRING
@@ -19561,7 +19612,7 @@ Doulon
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
-
+Underworld Battle
 > END STRING
 
 > BEGIN STRING
@@ -19569,15 +19620,7 @@ Doulon
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: O_MOD_SR_Util_spam.rb
-
-> END STRING
-
-> BEGIN STRING
-ローズ
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-Rose
+Underworld Enroachment
 > END STRING
 
 > BEGIN STRING
@@ -19585,7 +19628,7 @@ Rose
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-
+Sakura
 > END STRING
 
 > BEGIN STRING
@@ -19593,7 +19636,7 @@ Rose
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-
+Ichilia
 > END STRING
 
 > BEGIN STRING
@@ -19639,11 +19682,67 @@ Bastet
 > END STRING
 
 > BEGIN STRING
+デルモア
+> CONTEXT: O_MOD_Game_Enemy _設定用.rb
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+Delmore
+> END STRING
+
+> BEGIN STRING
+イーザル
+> CONTEXT: O_MOD_Game_Enemy _設定用.rb
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+Izal
+> END STRING
+
+> BEGIN STRING
+レヴィアン
+> CONTEXT: O_MOD_Game_Enemy _設定用.rb
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+Levian
+> END STRING
+
+> BEGIN STRING
+ヴェーラ
+> CONTEXT: O_MOD_Game_Enemy _設定用.rb
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+Vera
+> END STRING
+
+> BEGIN STRING
+ラティフォリア
+> CONTEXT: O_MOD_Game_Enemy _設定用.rb
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+Latifolia
+> END STRING
+
+> BEGIN STRING
 カーリー
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 Carly
+> END STRING
+
+> BEGIN STRING
+アウローラ
+> CONTEXT: O_MOD_Game_Enemy _設定用.rb
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+Aurora
+> END STRING
+
+> BEGIN STRING
+ナジェラス
+> CONTEXT: O_MOD_Game_Enemy _設定用.rb
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+Najeras
 > END STRING
 
 > BEGIN STRING
@@ -19699,46 +19798,11 @@ Grim Reaper Angel Shemhaza
 > END STRING
 
 > BEGIN STRING
-ノーブル
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
-Noble
-> END STRING
-
-> BEGIN STRING
-タレイア
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
-Thalia
-> END STRING
-
-> BEGIN STRING
-エウプロシュネー
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
-Euphrosyne
-> END STRING
-
-> BEGIN STRING
-アグライアー
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
-Aglaia
-> END STRING
-
-> BEGIN STRING
 ニューオメガ
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 New Omega
-> END STRING
-
-> BEGIN STRING
-ジャヒー
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
-Jahi
 > END STRING
 
 > BEGIN STRING
@@ -19845,13 +19909,6 @@ F
 > END STRING
 
 > BEGIN STRING
-C
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: Window_NameInput.rb
-
-> END STRING
-
-> BEGIN STRING
 不思議な昂ぶり
 > CONTEXT: O_MOD_Game_Enemy _設定用.rb
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
@@ -19866,6 +19923,13 @@ Strange Excitement
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 > CONTEXT: PR_MOD_Scene_Battle_6.rb
 Lustful
+> END STRING
+
+> BEGIN STRING
+C
+> CONTEXT: O_MOD_Game_Enemy _設定用.rb
+> CONTEXT: Window_NameInput.rb
+
 > END STRING
 
 > BEGIN STRING
@@ -20000,19 +20064,6 @@ Invitation Pride
 > CONTEXT: O_MOD_Scene_Battle_RandomAction.rb
 > CONTEXT: PR_Game_Troop.rb
 Soft Play
-> END STRING
-
-> BEGIN STRING
-#{path_a}#{path_b}T/
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-
-> END STRING
-
-> BEGIN STRING
-個性的T
-> CONTEXT: O_MOD_Game_Enemy _設定用.rb
-> CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-Unique T
 > END STRING
 
 > BEGIN STRING
@@ -22369,6 +22420,12 @@ Unique R
 個性的S
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
 Unique S
+> END STRING
+
+> BEGIN STRING
+個性的T
+> CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
+Unique T
 > END STRING
 
 > BEGIN STRING
@@ -27797,7 +27854,7 @@ Abilities and defense up when not under status ailment.
 > BEGIN STRING
 高揚状態の時、受ける快楽が半減する。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+While uplifted, pleasure received is halved.
 > END STRING
 
 > BEGIN STRING
@@ -27809,79 +27866,79 @@ Martial Arts Master
 > BEGIN STRING
 剣、魔剣、暗器、棒、防具、本、魔道具、聖具、カード、魔の者に関する装備を身に着けると追加スキルを得る。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Equipping particular items grants additional skills.
 > END STRING
 
 > BEGIN STRING
 剣の達人
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Master Swordsman
 > END STRING
 
 > BEGIN STRING
 身に着けた剣から正道の力を得る。ディルドインサートとディルドインマウスに加え、ハウリングを追加習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn Dildo insert, Dildo in mouth, and "Howling" skill.
 > END STRING
 
 > BEGIN STRING
 魔剣の達人
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Demon Sword Master
 > END STRING
 
 > BEGIN STRING
 魔剣や魔の者から邪の力を得る。ディルドインサートとディルドインバックに加え、ロスト・インパクトを追加習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn Dildo insert, Dildo in back, and "Lost Impact".
 > END STRING
 
 > BEGIN STRING
 暗器の達人
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Conceal Master
 > END STRING
 
 > BEGIN STRING
 鞭やナイフ、カード等から熟練の技を得る。ディルドインサートに加え、エンブレイスとテクニカルビートを追加習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn Dildo insert, Embrace and "Technical Beat".
 > END STRING
 
 > BEGIN STRING
 棒術の達人
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Staff Master
 > END STRING
 
 > BEGIN STRING
 槍や棒、杖などから気の操術を得る。ディルドインサートに加え、痺れるような快感とパッションビートを追加習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn Dildo inser, "Numbing Pleasure" and "Passion Beat."
 > END STRING
 
 > BEGIN STRING
 聖盾
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Holy Shield
 > END STRING
 
 > BEGIN STRING
 防具や聖具などから守護の力を得る。ディルドインサートに加え、ガードスクラッチと快癒の口付けを追加習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Learn Dildo insert, "Guard Scratch" and "Healing Kiss".
 > END STRING
 
 > BEGIN STRING
 軍師
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+Tactician
 > END STRING
 
 > BEGIN STRING
 本や羽扇、魔道具などから戦術を読む力を得る。ディルドインサートに加え、草花のいたずらと熱情の焔を追加習得。
 > CONTEXT: O_MOD_RPG_Ability_素質・設定用.rb
-
+In addition to dildo insertion, acquire "Floral Mischief" and "Passion Flames."
 > END STRING
 
 > BEGIN STRING
@@ -29966,11 +30023,90 @@ Agares
 > END STRING
 
 > BEGIN STRING
+ノーブル
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+Noble
+> END STRING
+
+> BEGIN STRING
+タレイア
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+Thalia
+> END STRING
+
+> BEGIN STRING
+エウプロシュネー
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+Euphrosyne
+> END STRING
+
+> BEGIN STRING
+アグライアー
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+Aglaia
+> END STRING
+
+> BEGIN STRING
+ジャヒー
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+Jahi
+> END STRING
+
+> BEGIN STRING
+茨木童子
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+Ibaraki Doji
+> END STRING
+
+> BEGIN STRING
+善狐
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+Zenko
+> END STRING
+
+> BEGIN STRING
+魔縁
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+Maen
+> END STRING
+
+> BEGIN STRING
 グレムリン
 > CONTEXT: O_MOD_RPG_Class_習得スキル.rb
 > CONTEXT: O_MOD_SR_Util_other.rb
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 Gremlin
+> END STRING
+
+> BEGIN STRING
+カイン＆アベル
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+Cain＆Abel
+> END STRING
+
+> BEGIN STRING
+アンテノーラ
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+Antenora
+> END STRING
+
+> BEGIN STRING
+トロメーア
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+Tolomea
+> END STRING
+
+> BEGIN STRING
+ジュデッカ
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+Giudecca
+> END STRING
+
+> BEGIN STRING
+ローズ
+> CONTEXT: O_MOD_RPG_Class_習得スキル.rb
+Rose
 > END STRING
 
 > BEGIN STRING
@@ -31596,13 +31732,13 @@ Clitoris
 > BEGIN STRING
 足をバタつかせて、\n\m#{targetname}の拘束を振り払おうと試みた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ attempted to shake off \n​m​#{targetname}'s hold!
 > END STRING
 
 > BEGIN STRING
 身体をよじり、\n\m#{targetname}の腕を振り払おうと試みた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ attempted to shake off \n​m​#{targetname}'s arms!
 > END STRING
 
 > BEGIN STRING
@@ -36533,7 +36669,7 @@ in turning motion
 > BEGIN STRING
 力を抜きすべてを受け入れた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ let go of the tension and accepted everything!
 > END STRING
 
 > BEGIN STRING
@@ -43388,19 +43524,19 @@ Target: penis
 > BEGIN STRING
 #{targetname}と、\n\m互いの舌を絡めながら、#{waist}腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-intertwined tongues \n​m​with #{targetname} and shook hips #{waist}!
+ intertwined tongues \n​m​with #{targetname} and shook hips #{waist}!
 > END STRING
 
 > BEGIN STRING
 #{targetname}と、\n\m互いに唇を貪りあいながら、#{waist}腰を振り始めた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ began to sway hips #{waist} \n​m​while devouring #{targetname}'s lips!
 > END STRING
 
 > BEGIN STRING
 #{targetname}と、\n\m互いに唇を貪りあいながら、#{waist}腰を振ってきた！
 > CONTEXT: O_MOD_RPG_Skilltext.rb
-
+ thrusted hips against #{targetname} #{waist} \n​m​while devouring each other's lips!
 > END STRING
 
 > BEGIN STRING
@@ -47071,13 +47207,13 @@ Wriggle
 > BEGIN STRING
 #{@active_battler.name}は腕を振りほどいた！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{@active_battler.name} shook off the arms!​w​q
 > END STRING
 
 > BEGIN STRING
 しかし、腕はがっちりと押さえつけられ振りほどけない！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+But couldn't shake the arms free!​w​q
 > END STRING
 
 > BEGIN STRING
@@ -47089,19 +47225,19 @@ Slash
 > BEGIN STRING
 #{@active_battler.name}は足を振りほどいた！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{@active_battler.name} shook free!​w​q
 > END STRING
 
 > BEGIN STRING
 しかし、足はがっちりと押さえつけられ振りほどけない！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+But couldn't shake legs free!​w​q
 > END STRING
 
 > BEGIN STRING
 #{@active_battler.name}は腕による拘束を解いた！\w\q
 > CONTEXT: O_MOD_Scene_Battle_4.rb
-
+#{@active_battler.name} broke free from the arm restraint!​w​q
 > END STRING
 
 > BEGIN STRING
@@ -50579,61 +50715,61 @@ Underwear shifted aside, #{active.name}'s \nbreasts were pressed against #{targe
 > BEGIN STRING
 #{target.name}は自ら#{target.bustsize}を差し出し、\n#{active.name}の唇を受け入れた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} offered up their #{target.bustsize} \nand welcomed #{active.name}'s lips!
 > END STRING
 
 > BEGIN STRING
 #{target.name}は、自らのペニスを\n#{active.name}に差し出した！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} offered their penis to #{active.name}!
 > END STRING
 
 > BEGIN STRING
 #{target.name}のペニスが、\n#{active.name}に掴まれてしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name}'s penis has been \ngrabbed by #{active.name}!
 > END STRING
 
 > BEGIN STRING
 #{target.name}は力を抜き、\n#{active.name}の押さえつけを受け入れた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} relaxed and accepted \n#{active.name}'s pinning hold!
 > END STRING
 
 > BEGIN STRING
 #{target.name}の腕は、\n#{active.name}の腕に組み伏せられてしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-#{target.name}'s arms were pinned down \n by#{active.name}!
+#{active.name} pinned down #{target.name}'s arms!
 > END STRING
 
 > BEGIN STRING
 #{target.name}の腕は、\n#{active.name}に押さえつけられてしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-#{target.name}'s arms have been pinned down by\n#{active.name}!
+#{active.name} pinned down #{target.name}'s arms!
 > END STRING
 
 > BEGIN STRING
 #{target.name}は力を抜き、\n#{active.name}による腕の拘束を受け入れた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} relaxed and accepted \nhaving their arms restrained by #{active.name}!
 > END STRING
 
 > BEGIN STRING
 #{target.name}の腕は、#{active.name}によって\n強制的に大きく広げられてしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name}'s arms have been forcibly \nspread wide by #{active.name}!
 > END STRING
 
 > BEGIN STRING
 #{target.name}は力を抜き、\n#{active.name}による脚の拘束を受け入れた！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name} relaxed and accepted the \nleg restraint applied by #{active.name}!
 > END STRING
 
 > BEGIN STRING
 #{target.name}の脚は、\n#{active.name}の脚に絡めとられてしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{target.name}'s legs have been \nentangled by #{active.name}'s legs!
 > END STRING
 
 > BEGIN STRING
@@ -50651,13 +50787,13 @@ The tip of #{target.name}'s penis \nhas been taken into #{active.name}'s mouth!
 > BEGIN STRING
 #{target.name}のアナルの最奥に、\n#{activename}の指が突き入れられてしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{activename}'s fingers have been thrust \ndeep into the depths of #{target.name}'s anus!
 > END STRING
 
 > BEGIN STRING
 #{target.name}のアナルの最奥に、\n#{activename}の触手が突き入れられてしまった！
 > CONTEXT: O_MOD_Scene_Battle_HoldEffect.rb
-
+#{activename}'s tentacle has been thrust \ndeep into #{target.name}'s anus!
 > END STRING
 
 > BEGIN STRING
@@ -52401,6 +52537,7 @@ Goblin Guard
 > BEGIN STRING
 Another_World
 > CONTEXT: O_MOD_Scene_Title_data改変.rb
+> CONTEXT: P_H_MOD_Game_Map.rb
 
 > END STRING
 
@@ -63886,25 +64023,7 @@ female_bedin_special_talk
 > END STRING
 
 > BEGIN STRING
-519_IbarakiDoji
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-520_Zenko
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
 521_Iduna
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-522_Maen
 > CONTEXT: O_MOD_口上メソッド_基本.rb
 
 > END STRING
@@ -63917,30 +64036,6 @@ female_bedin_special_talk
 
 > BEGIN STRING
 532_gremlin_
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-533_CainAndAbel
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-534_Antenora
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-535_Ptolomea
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-536_Judecca
 > CONTEXT: O_MOD_口上メソッド_基本.rb
 
 > END STRING
@@ -64012,6 +64107,36 @@ female_bedin_special_talk
 > END STRING
 
 > BEGIN STRING
+558_GoblinF_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+559_GangcommanderF_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+560_Goblintyrant_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+561_SilkyF_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+562_EinherjarF_
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
 581_Vixenmaid_
 > CONTEXT: O_MOD_口上メソッド_基本.rb
 
@@ -64043,6 +64168,18 @@ female_bedin_special_talk
 
 > BEGIN STRING
 312_Overmind
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+377_Delmor
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+378_Esal
 > CONTEXT: O_MOD_口上メソッド_基本.rb
 
 > END STRING
@@ -64132,6 +64269,18 @@ female_bedin_special_talk
 > END STRING
 
 > BEGIN STRING
+399_Urouge
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
+400_Bheara
+> CONTEXT: O_MOD_口上メソッド_基本.rb
+
+> END STRING
+
+> BEGIN STRING
 401_Nephilim
 > CONTEXT: O_MOD_口上メソッド_基本.rb
 
@@ -64150,19 +64299,13 @@ female_bedin_special_talk
 > END STRING
 
 > BEGIN STRING
-404_Thaleia
+404_Latifolia
 > CONTEXT: O_MOD_口上メソッド_基本.rb
 
 > END STRING
 
 > BEGIN STRING
-405_Euphrosyne
-> CONTEXT: O_MOD_口上メソッド_基本.rb
-
-> END STRING
-
-> BEGIN STRING
-406_Aglaia
+406_Levian
 > CONTEXT: O_MOD_口上メソッド_基本.rb
 
 > END STRING
@@ -64174,7 +64317,7 @@ female_bedin_special_talk
 > END STRING
 
 > BEGIN STRING
-408_Jahi
+408_Zafiel
 > CONTEXT: O_MOD_口上メソッド_基本.rb
 
 > END STRING
@@ -64263,7 +64406,6 @@ msg
 > BEGIN STRING
 母
 > CONTEXT: O_MOD_口上メソッド_基本.rb
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 > CONTEXT: Window_NameInput.rb
 
 > END STRING
@@ -76282,6 +76424,38 @@ troll0-1
 > END STRING
 
 > BEGIN STRING
+goblinF
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+gangcommanderF
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+goblintyrant
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+朕
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+> CONTEXT: Window_Firstperson_Change.rb
+> CONTEXT: Window_NameInput.rb
+
+> END STRING
+
+> BEGIN STRING
+同志主人公名
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 cobold0-1
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -76537,13 +76711,13 @@ nightmare1-3
 > END STRING
 
 > BEGIN STRING
-lilim0-7
+nightseeker
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
 
 > BEGIN STRING
-Lilith1-7
+nightstalker
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -76666,6 +76840,7 @@ lilim0-2
 > BEGIN STRING
 lilim0-3
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+> CONTEXT: 修正用.rb
 
 > END STRING
 
@@ -76696,6 +76871,7 @@ Lilith1-3
 > BEGIN STRING
 Lilith1-2
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+> CONTEXT: 修正用.rb
 
 > END STRING
 
@@ -76767,6 +76943,12 @@ Silky1-1
 
 > BEGIN STRING
 Silky1-2
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+SilkyF
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -77382,6 +77564,12 @@ boss_Einherjar2-4
 > END STRING
 
 > BEGIN STRING
+boss_Einherjar2-2F
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 boss_Valkyria
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -77496,6 +77684,24 @@ boss_aurum
 > END STRING
 
 > BEGIN STRING
+boss_Delmor
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+boss_Esal
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+キサマ
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
 Melubis
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
@@ -77514,7 +77720,7 @@ boss_Nadgerous
 > END STRING
 
 > BEGIN STRING
-kali
+boss_Kali
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -77556,13 +77762,13 @@ boss_Urouge
 > END STRING
 
 > BEGIN STRING
-ラティフォリア
+boss_Bheara
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
 
 > BEGIN STRING
-boss_Latifolia
+其方
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -77589,6 +77795,18 @@ boss_Shemhaza
 
 > BEGIN STRING
 boss_ShemhazaZ
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+boss_Latifolia
+> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
+
+> END STRING
+
+> BEGIN STRING
+boss_Levian
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -77751,37 +77969,7 @@ boss_theria1-1
 > END STRING
 
 > BEGIN STRING
-boss_IbarakiDoji
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-
-> END STRING
-
-> BEGIN STRING
-弟くん
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-
-> END STRING
-
-> BEGIN STRING
-boss_Zenko
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-
-> END STRING
-
-> BEGIN STRING
-ご主人殿
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-
-> END STRING
-
-> BEGIN STRING
 boss_Iduna
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-
-> END STRING
-
-> BEGIN STRING
-boss_Maen
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -77825,36 +78013,6 @@ boss_Ouka
 
 > BEGIN STRING
 gremlin
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-
-> END STRING
-
-> BEGIN STRING
-boss_CainAndAbel
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-
-> END STRING
-
-> BEGIN STRING
-わたしたち
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-
-> END STRING
-
-> BEGIN STRING
-boss_Antenora
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-
-> END STRING
-
-> BEGIN STRING
-boss_Ptolomea
-> CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
-
-> END STRING
-
-> BEGIN STRING
-boss_Rose
 > CONTEXT: PR_RPG_SDB（種族値・設定用）.rb
 
 > END STRING
@@ -83351,6 +83509,18 @@ Unique Succubus Encyclopedia
 > END STRING
 
 > BEGIN STRING
+H_MOD/#{graphic_name}/#{graphic_name}
+> CONTEXT: Scene_Dictionary.rb
+
+> END STRING
+
+> BEGIN STRING
+./Graphics/Battlers/H_MOD/#{graphic_name}
+> CONTEXT: Scene_Dictionary.rb
+
+> END STRING
+
+> BEGIN STRING
 O_MOD/boss_sister/Z/boss_sister
 > CONTEXT: Scene_Dictionary.rb
 > CONTEXT: Window_DictionaryLeft.rb
@@ -83371,6 +83541,12 @@ O_MOD/boss_rejeo/X/boss_Shemhaza
 > CONTEXT: Scene_Dictionary.rb
 > CONTEXT: Window_DictionaryLeft.rb
 > CONTEXT: Window_DictionaryRight.rb
+
+> END STRING
+
+> BEGIN STRING
+/#{graphic_name}/
+> CONTEXT: Scene_Dictionary.rb
 
 > END STRING
 
@@ -83399,6 +83575,13 @@ buy
 > BEGIN STRING
 sell
 > CONTEXT: Scene_Item_Shop.rb
+
+> END STRING
+
+> BEGIN STRING
+./Graphics/Battlers/H_MOD/
+> CONTEXT: Scene_Load.rb
+> CONTEXT: エラーログ.rb
 
 > END STRING
 
@@ -84181,13 +84364,6 @@ This succubus now calls herself "#{@actor.defaultname_self}".
 > BEGIN STRING
 小生
 > CONTEXT: Window_Firstperson_Change.rb
-
-> END STRING
-
-> BEGIN STRING
-朕
-> CONTEXT: Window_Firstperson_Change.rb
-> CONTEXT: Window_NameInput.rb
 
 > END STRING
 
@@ -85441,6 +85617,12 @@ z
 
 > BEGIN STRING
 ＊
+> CONTEXT: Window_NameInput.rb
+
+> END STRING
+
+> BEGIN STRING
+G
 > CONTEXT: Window_NameInput.rb
 
 > END STRING
@@ -100826,6 +101008,18 @@ Speed_pow_r
 > END STRING
 
 > BEGIN STRING
+000000
+> CONTEXT: エラーログ.rb
+
+> END STRING
+
+> BEGIN STRING
+202609
+> CONTEXT: エラーログ.rb
+
+> END STRING
+
+> BEGIN STRING
 ◆ #{Time.now.strftime('%Y-%m-%dT%H:%M:%S')}\n
 > CONTEXT: エラーログ.rb
 
@@ -100838,7 +101032,13 @@ Speed_pow_r
 > END STRING
 
 > BEGIN STRING
-パッチ :\n\t260901A\n
+H_MODバージョン :\n\t#{h_mod_ver}\n
+> CONTEXT: エラーログ.rb
+
+> END STRING
+
+> BEGIN STRING
+パッチ :\n\t260923\n
 > CONTEXT: エラーログ.rb
 
 > END STRING
@@ -101085,7 +101285,7 @@ a+
 > END STRING
 
 > BEGIN STRING
-260724
+260906
 > CONTEXT: 初期設定.rb
 
 > END STRING
