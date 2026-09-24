@@ -1,29 +1,98 @@
 > RPGMAKER TRANS PATCH FILE VERSION 3.2
 > BEGIN STRING
-占いの館に戻りますか？
-> CONTEXT: Map483/events/10/pages/0/0/Dialogue < UNTRANSLATED
+\\name[\\v[4]]\\_
+うまくいったようですね……\\H
+> CONTEXT: Map483/events/5/pages/0/33/Dialogue
+\\name[\\v[4]]\\_
+Looks like it worked...\\H
+> END STRING
 
+> BEGIN STRING
+\\name[\\v[3]]\\_
+デザイア。
+なかなかやるじゃない……\\H
+> CONTEXT: Map483/events/5/pages/0/40/Dialogue
+\\name[\\v[3]]\\_
+Desire.
+Not bad at all...\\H
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-……ふう
-どうです？あなたも休憩していきませんか
-> CONTEXT: Map483/events/374/pages/0/1/Dialogue < UNTRANSLATED
-
+なぁに。
+このぐらい、朝メシ前でございますよ♪
+> CONTEXT: Map483/events/5/pages/0/47/Dialogue
+\\name[\\v[2]]\\_
+What?
+This is a piece of cake for me♪
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-だ、だめだ……。
-行けども行けども、ここに戻されちまう……。
-> CONTEXT: Map483/events/437/pages/0/1/Dialogue < UNTRANSLATED
+……さて。
+この先が目的地のようです……。
+準備はよろしいですね？
+> CONTEXT: Map483/events/5/pages/0/54/Dialogue
+\\name[\\v[2]]\\_
+...Well then.
+It seems this is our destination...
+Are you ready?
+> END STRING
 
+> BEGIN STRING
+\\name[\\v[3]]\\_
+申し訳ないんだけど。
+少しだけ、遊んできてもいいかしら？
+> CONTEXT: Map483/events/5/pages/0/67/Dialogue
+\\name[\\v[3]]\\_
+I'm sorry, but...
+Is it okay if I go play for a little while?
 > END STRING
 
 > BEGIN STRING
 \\name[\\v[2]]\\_
-なんとか……足あとを……たよりに……。
-> CONTEXT: Map483/events/437/pages/0/4/Dialogue < UNTRANSLATED
+……例の者ですか？
+> CONTEXT: Map483/events/5/pages/0/74/Dialogue
+\\name[\\v[2]]\\_
+...With that guy?
+> END STRING
 
+> BEGIN STRING
+\\name[\\v[3]]\\_
+……さすが。
+察しがいいわね\\H
+> CONTEXT: Map483/events/5/pages/0/80/Dialogue
+\\name[\\v[3]]\\_
+...Impressive.
+You're quick to understand\\H
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[4]]\\_
+いいんじゃないかしら\\H
+時間ならまだ少し余裕があるのでしょう？
+> CONTEXT: Map483/events/5/pages/0/86/Dialogue
+\\name[\\v[4]]\\_
+I think that's fine\\H
+You still have a little time to spare, don't you?
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[2]]\\_
+邪魔が入ると、我々も面倒ですからねぇ。
+お好きにどうぞ♪
+> CONTEXT: Map483/events/5/pages/0/94/Dialogue
+\\name[\\v[2]]\\_
+It's annoying to get interrupted, after all.
+Do as you please♪
+> END STRING
+
+> BEGIN STRING
+\\name[\\v[3]]\\_
+……では。
+すぐに戻るわ\\H
+> CONTEXT: Map483/events/5/pages/0/101/Dialogue
+\\name[\\v[3]]\\_
+...Well then.
+I'll be right back\\H
 > END STRING

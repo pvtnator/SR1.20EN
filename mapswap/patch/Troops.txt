@@ -7814,6 +7814,7 @@ Goblin Wizard/43/76, Dolophonos/3
 > CONTEXT: Map086/events/11/pages/0/19/InlineScript/1:22 < UNTRANSLATED
 > CONTEXT: Map086/events/11/pages/0/87/InlineScript/1:22 < UNTRANSLATED
 > CONTEXT: Map086/events/11/pages/0/87/InlineScript/1:22 < UNTRANSLATED
+> CONTEXT: Map083/events/60/pages/0/13/InlineScript/1:22 < UNTRANSLATED
 
 > END STRING
 
@@ -8198,7 +8199,7 @@ Mikael/248/92, Petite Angel/235/91
 
 > BEGIN STRING
 【BOSS】ラビス
-> CONTEXT: None < UNUSED
+> CONTEXT: Troops/9/name/
 【BOSS】Ravis
 > END STRING
 
@@ -8407,7 +8408,7 @@ Mikael/248/92, Petite Angel/235/91
 > BEGIN STRING
 【BOSS】ベルカとベルナ
 > CONTEXT: Troops/1581/name/
-> CONTEXT: Troops/6/name/
+> CONTEXT: Troops/5/name/
 【BOSS】BelkaとBerna
 > END STRING
 
@@ -8432,7 +8433,7 @@ Mikael/248/92, Petite Angel/235/91
 
 > BEGIN STRING
 【BOSS】セイレーン
-> CONTEXT: Troops/7/name/
+> CONTEXT: Troops/6/name/
 【BOSS】Siren
 > END STRING
 
@@ -8463,12 +8464,13 @@ Mikael/248/92, Petite Angel/235/91
 > BEGIN STRING
 【BOSS】ナイトストーカー
 > CONTEXT: Troops/1575/name/ < UNTRANSLATED
+> CONTEXT: Troops/4/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 【BOSS】ニューオメガ
-> CONTEXT: None < UNUSED
+> CONTEXT: Troops/17/name/
 【BOSS】New Omega
 > END STRING
 
@@ -8829,7 +8831,6 @@ Silky/242/45, Legion/278/65
 > BEGIN STRING
 グレムリン/532/80
 > CONTEXT: Troops/1740/name/
-> CONTEXT: Enemies/1908/name/
 Gremlin/532/80
 > END STRING
 
@@ -9768,6 +9769,7 @@ Doulonは周りに淫毒をまき散らした！
 > BEGIN STRING
 【BOSS】桜華
 > CONTEXT: Troops/1764/name/ < UNTRANSLATED
+> CONTEXT: Troops/11/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -9870,25 +9872,25 @@ Doulonは周りに淫毒をまき散らした！
 
 > BEGIN STRING
 【BOSS】デルモア
-> CONTEXT: Troops/3/name/ < UNTRANSLATED
+> CONTEXT: Troops/2/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 【BOSS】イーザル
-> CONTEXT: Troops/4/name/ < UNTRANSLATED
+> CONTEXT: Troops/3/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 【BOSS】ナイトストーカーたち
-> CONTEXT: Troops/5/name/ < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 【BOSS】レヴィアン
-> CONTEXT: Troops/8/name/ < UNTRANSLATED
+> CONTEXT: Troops/7/name/ < UNTRANSLATED
 
 > END STRING
 
@@ -9919,5 +9921,35 @@ Doulonは周りに淫毒をまき散らした！
 > BEGIN STRING
 【BOSS】レヴィアン・セイレーン
 > CONTEXT: Troops/1586/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】カーリー
+> CONTEXT: Troops/8/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ヴェーラ
+> CONTEXT: Troops/10/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ゼノア
+> CONTEXT: Troops/12/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ラティフォリア
+> CONTEXT: Troops/18/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+【BOSS】ナジェラス
+> CONTEXT: Troops/19/name/ < UNTRANSLATED
 
 > END STRING

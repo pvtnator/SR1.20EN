@@ -229,13 +229,13 @@ judge's room first and observe the proceedings.
 > BEGIN STRING
 ★スイッチ1055の処理：OFFになっていない問題に対する応急処
 置
-> CONTEXT: Map009/events/35/pages/2/38/Comment < UNTRANSLATED
+> CONTEXT: None < UNUSED
 
 > END STRING
 
 > BEGIN STRING
 今回はここまでです。
-> CONTEXT: Map009/events/35/pages/3/1/Dialogue
+> CONTEXT: Map009/events/35/pages/2/4/Dialogue
 That's all for now.
 > END STRING
 
@@ -280,4 +280,12 @@ and then return here.
 > CONTEXT: Map009/events/37/pages/0/41/Dialogue
 \\name[\\v[2]]\\_
 ...But before that.
+> END STRING
+
+> BEGIN STRING
+★
+★　大罪戦再戦でアイテム入手できていたため、ここで削除
+★
+> CONTEXT: Map009/events/35/pages/2/17/Comment < UNTRANSLATED
+
 > END STRING

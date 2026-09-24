@@ -90,7 +90,6 @@
 > CONTEXT: Map002/events/112/pages/1/163/Dialogue < UNTRANSLATED
 > CONTEXT: Map517/events/14/pages/0/85/Dialogue < UNTRANSLATED
 > CONTEXT: Map480/events/1/pages/0/37/Dialogue < UNTRANSLATED
-> CONTEXT: Map082/events/8/pages/0/28/Dialogue < UNTRANSLATED
 > CONTEXT: Map080/events/3/pages/0/26/Dialogue < UNTRANSLATED
 > CONTEXT: Map078/events/4/pages/0/23/Dialogue < UNTRANSLATED
 > CONTEXT: Map080/events/3/pages/1/27/Dialogue < UNTRANSLATED
@@ -106,11 +105,12 @@
 > CONTEXT: Map054/events/10/pages/1/8/Dialogue < UNTRANSLATED
 > CONTEXT: Map054/events/10/pages/2/16/Dialogue < UNTRANSLATED
 > CONTEXT: Map062/events/13/pages/1/16/Dialogue < UNTRANSLATED
-> CONTEXT: Map047/events/11/pages/0/97/Dialogue < UNTRANSLATED
 > CONTEXT: Map062/events/14/pages/1/16/Dialogue < UNTRANSLATED
 > CONTEXT: Map040/events/4/pages/0/46/Dialogue < UNTRANSLATED
 > CONTEXT: Map041/events/3/pages/0/37/Dialogue < UNTRANSLATED
 > CONTEXT: Map041/events/15/pages/0/13/Dialogue < UNTRANSLATED
+> CONTEXT: Map083/events/60/pages/0/101/Dialogue < UNTRANSLATED
+> CONTEXT: Map047/events/11/pages/0/104/Dialogue < UNTRANSLATED
 
 > END STRING
 
@@ -225,9 +225,7 @@
 > CONTEXT: Map517/events/14/pages/0/86/Choice/0 < UNTRANSLATED
 > CONTEXT: Map480/events/1/pages/0/38/Choice/0 < UNTRANSLATED
 > CONTEXT: Map480/events/1/pages/0/38/Choice/0 < UNTRANSLATED
-> CONTEXT: Map082/events/8/pages/0/29/Choice/0 < UNTRANSLATED
 > CONTEXT: Map080/events/3/pages/0/27/Choice/0 < UNTRANSLATED
-> CONTEXT: Map082/events/8/pages/0/29/Choice/0 < UNTRANSLATED
 > CONTEXT: Map080/events/3/pages/0/27/Choice/0 < UNTRANSLATED
 > CONTEXT: Map078/events/4/pages/0/24/Choice/0 < UNTRANSLATED
 > CONTEXT: Map078/events/4/pages/0/24/Choice/0 < UNTRANSLATED
@@ -260,8 +258,6 @@
 > CONTEXT: Map063/events/2/pages/1/69/Choice/0 < UNTRANSLATED
 > CONTEXT: Map054/events/10/pages/2/17/Choice/0 < UNTRANSLATED
 > CONTEXT: Map062/events/13/pages/1/17/Choice/0 < UNTRANSLATED
-> CONTEXT: Map047/events/11/pages/0/98/Choice/0 < UNTRANSLATED
-> CONTEXT: Map047/events/11/pages/0/98/Choice/0 < UNTRANSLATED
 > CONTEXT: Map062/events/13/pages/1/17/Choice/0 < UNTRANSLATED
 > CONTEXT: Map062/events/14/pages/1/17/Choice/0 < UNTRANSLATED
 > CONTEXT: Map062/events/14/pages/1/17/Choice/0 < UNTRANSLATED
@@ -271,6 +267,10 @@
 > CONTEXT: Map041/events/3/pages/0/38/Choice/0 < UNTRANSLATED
 > CONTEXT: Map041/events/15/pages/0/14/Choice/0 < UNTRANSLATED
 > CONTEXT: Map041/events/15/pages/0/14/Choice/0 < UNTRANSLATED
+> CONTEXT: Map083/events/60/pages/0/102/Choice/0 < UNTRANSLATED
+> CONTEXT: Map083/events/60/pages/0/102/Choice/0 < UNTRANSLATED
+> CONTEXT: Map047/events/11/pages/0/105/Choice/0 < UNTRANSLATED
+> CONTEXT: Map047/events/11/pages/0/105/Choice/0 < UNTRANSLATED
 
 > END STRING
 
@@ -583,14 +583,10 @@
 > CONTEXT: Map480/events/1/pages/0/38/Choice/1 < UNTRANSLATED
 > CONTEXT: Map480/events/1/pages/0/45/Label < UNTRANSLATED
 > CONTEXT: Map480/events/1/pages/0/59/Label < UNTRANSLATED
-> CONTEXT: Map082/events/8/pages/0/29/Choice/1 < UNTRANSLATED
 > CONTEXT: Map080/events/3/pages/0/27/Choice/1 < UNTRANSLATED
-> CONTEXT: Map082/events/8/pages/0/29/Choice/1 < UNTRANSLATED
 > CONTEXT: Map080/events/3/pages/0/27/Choice/1 < UNTRANSLATED
-> CONTEXT: Map082/events/8/pages/0/36/Label < UNTRANSLATED
 > CONTEXT: Map080/events/3/pages/0/34/Label < UNTRANSLATED
 > CONTEXT: Map078/events/4/pages/0/24/Choice/1 < UNTRANSLATED
-> CONTEXT: Map082/events/8/pages/0/50/Label < UNTRANSLATED
 > CONTEXT: Map080/events/3/pages/0/54/Label < UNTRANSLATED
 > CONTEXT: Map078/events/4/pages/0/24/Choice/1 < UNTRANSLATED
 > CONTEXT: Map078/events/4/pages/0/31/Label < UNTRANSLATED
@@ -645,13 +641,9 @@
 > CONTEXT: Map054/events/10/pages/2/24/Label < UNTRANSLATED
 > CONTEXT: Map063/events/2/pages/1/94/Label < UNTRANSLATED
 > CONTEXT: Map062/events/13/pages/1/17/Choice/1 < UNTRANSLATED
-> CONTEXT: Map047/events/11/pages/0/98/Choice/1 < UNTRANSLATED
-> CONTEXT: Map047/events/11/pages/0/98/Choice/1 < UNTRANSLATED
 > CONTEXT: Map062/events/13/pages/1/17/Choice/1 < UNTRANSLATED
 > CONTEXT: Map062/events/13/pages/1/24/Label < UNTRANSLATED
-> CONTEXT: Map047/events/11/pages/0/105/Label < UNTRANSLATED
 > CONTEXT: Map062/events/13/pages/1/38/Label < UNTRANSLATED
-> CONTEXT: Map047/events/11/pages/0/123/Label < UNTRANSLATED
 > CONTEXT: Map062/events/14/pages/1/17/Choice/1 < UNTRANSLATED
 > CONTEXT: Map062/events/14/pages/1/17/Choice/1 < UNTRANSLATED
 > CONTEXT: Map062/events/14/pages/1/24/Label < UNTRANSLATED
@@ -668,6 +660,14 @@
 > CONTEXT: Map041/events/15/pages/0/14/Choice/1 < UNTRANSLATED
 > CONTEXT: Map041/events/15/pages/0/21/Label < UNTRANSLATED
 > CONTEXT: Map041/events/15/pages/0/37/Label < UNTRANSLATED
+> CONTEXT: Map083/events/60/pages/0/102/Choice/1 < UNTRANSLATED
+> CONTEXT: Map083/events/60/pages/0/102/Choice/1 < UNTRANSLATED
+> CONTEXT: Map083/events/60/pages/0/109/Label < UNTRANSLATED
+> CONTEXT: Map083/events/60/pages/0/126/Label < UNTRANSLATED
+> CONTEXT: Map047/events/11/pages/0/105/Choice/1 < UNTRANSLATED
+> CONTEXT: Map047/events/11/pages/0/105/Choice/1 < UNTRANSLATED
+> CONTEXT: Map047/events/11/pages/0/112/Label < UNTRANSLATED
+> CONTEXT: Map047/events/11/pages/0/130/Label < UNTRANSLATED
 
 > END STRING
 
@@ -1780,7 +1780,6 @@
 > CONTEXT: Map467/events/27/pages/0/2/Comment < UNTRANSLATED
 > CONTEXT: Map473/events/52/pages/0/2/Comment < UNTRANSLATED
 > CONTEXT: Map467/events/28/pages/0/2/Comment < UNTRANSLATED
-> CONTEXT: Map483/events/536/pages/0/2/Comment < UNTRANSLATED
 > CONTEXT: Map465/events/6/pages/0/2/Comment < UNTRANSLATED
 > CONTEXT: Map473/events/53/pages/0/2/Comment < UNTRANSLATED
 > CONTEXT: Map462/events/2/pages/0/2/Comment < UNTRANSLATED
