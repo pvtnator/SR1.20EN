@@ -174,6 +174,16 @@ def talkautofixes(translations_file, lines):
                 contexts.append(context)
                 i += 1
             lines[i] = lines[i].replace("\\n　\n", "\n")
+            lines[i] = lines[i].replace("\\H", "\\\\H")
+            lines[i] = lines[i].replace("\\\\\\H", "\\\\H")
+            while "\\n　\\\\H" in lines[i]:
+                lines[i] = lines[i].replace("\\n　\\\\H", "\\\\H\\n　")
+            lines[i] = lines[i].replace("\\\\H\\\\H\\\\H", "\\\\H\\\\H")
+            lines[i] = lines[i].replace("　 ", "　")
+            lines[i] = lines[i].replace("\\n　\\n", "\\n")
+            if len(lines[i]) - lines[i].rfind("\\n") < 5:
+                lines[i] = "".join(lines[i].rsplit("\\n", 1))
+            
             if (len(lines[i])>5 and string.count("\\\\H") > 0 and lines[i].count("\\\\H") == 0):
                 if string.rstrip()[-1] == "H":
                     lines[i] = lines[i].rstrip()+"\\\\H\n"
@@ -295,7 +305,7 @@ def apply_translations(folder_path, apply_path, regexes, translations, mustinclu
                 
 if __name__ == "__main__":
     current_dir = Path.cwd()
-    mode = sys.argv[1] if len(sys.argv)>1 else "autotranslate"
+    mode = sys.argv[1] if len(sys.argv)>1 else "autofix"
     source = sys.argv[2] if len(sys.argv)>2 else "talk"
     dest = sys.argv[3] if len(sys.argv)>3 else "talk"
     quickpatch = ""
