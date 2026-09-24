@@ -8344,7 +8344,7 @@ Shoggoth/86/97
 > BEGIN STRING
 【BOSS】ベルカとベルナ
 > CONTEXT: Troops/1581/name/
-> CONTEXT: Troops/6/name/
+> CONTEXT: Troops/5/name/
 【BOSS】BelkaとBelna
 > END STRING
 
@@ -8369,7 +8369,7 @@ Shoggoth/86/97
 
 > BEGIN STRING
 【BOSS】セイレーン
-> CONTEXT: Troops/7/name/
+> CONTEXT: Troops/6/name/
 【BOSS】Siren
 > END STRING
 
@@ -8400,12 +8400,13 @@ Shoggoth/86/97
 > BEGIN STRING
 【BOSS】ナイトストーカー
 > CONTEXT: Troops/1575/name/ < UNTRANSLATED
+> CONTEXT: Troops/4/name/ < UNTRANSLATED
 
 > END STRING
 
 > BEGIN STRING
 【BOSS】ニューオメガ
-> CONTEXT: None < UNUSED
+> CONTEXT: Troops/17/name/
 【BOSS】New Omega
 > END STRING
 
@@ -8760,7 +8761,6 @@ Silky/242/45, Legion/278/65
 > BEGIN STRING
 グレムリン/532/80
 > CONTEXT: Troops/1740/name/
-> CONTEXT: Enemies/1908/name/
 Gremlin/532/80
 > END STRING
 
@@ -8983,11 +8983,6 @@ Doulon scattered lewd toxins all around!
 > CONTEXT: Map227/events/1/pages/0/157/Label < UNTRANSLATED
 > CONTEXT: Map227/events/1/pages/0/188/Label < UNTRANSLATED
 > CONTEXT: Map227/events/1/pages/0/219/Label < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/141/Label < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/157/Label < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/188/Label < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/219/Label < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/234/Label < UNTRANSLATED
 > CONTEXT: Commonevents/2/8/Label < UNTRANSLATED
 > CONTEXT: Commonevents/2/23/Label < UNTRANSLATED
 > CONTEXT: Commonevents/2/38/Label < UNTRANSLATED
@@ -9006,6 +9001,11 @@ Doulon scattered lewd toxins all around!
 > CONTEXT: Map002/events/5/pages/0/401/Label < UNTRANSLATED
 > CONTEXT: Troops/1500/pages/0/5/Label < UNTRANSLATED
 > CONTEXT: Troops/1500/pages/0/22/Label < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/147/Label < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/163/Label < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/194/Label < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/225/Label < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/240/Label < UNTRANSLATED
 
 > END STRING
 
@@ -9018,11 +9018,6 @@ Doulon scattered lewd toxins all around!
 > CONTEXT: Map227/events/1/pages/0/274/Label < UNTRANSLATED
 > CONTEXT: Map227/events/1/pages/0/305/Label < UNTRANSLATED
 > CONTEXT: Map227/events/1/pages/0/336/Label < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/242/Label < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/274/Label < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/289/Label < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/320/Label < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/351/Label < UNTRANSLATED
 > CONTEXT: Commonevents/2/61/Label < UNTRANSLATED
 > CONTEXT: Commonevents/2/77/Label < UNTRANSLATED
 > CONTEXT: Commonevents/2/92/Label < UNTRANSLATED
@@ -9042,6 +9037,11 @@ Doulon scattered lewd toxins all around!
 > CONTEXT: Map002/events/5/pages/0/239/Label < UNTRANSLATED
 > CONTEXT: Map002/events/5/pages/0/246/Label < UNTRANSLATED
 > CONTEXT: Map002/events/5/pages/0/251/Label < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/248/Label < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/280/Label < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/295/Label < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/326/Label < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/357/Label < UNTRANSLATED
 
 > END STRING
 
@@ -9781,6 +9781,7 @@ Vixen Maid/1945/75
 > BEGIN STRING
 【BOSS】桜華
 > CONTEXT: Troops/1764/name/
+> CONTEXT: Troops/11/name/
 【BOSS】Sakura
 > END STRING
 
@@ -9883,25 +9884,25 @@ Desire/526/110*2
 
 > BEGIN STRING
 【BOSS】デルモア
-> CONTEXT: Troops/3/name/
+> CONTEXT: Troops/2/name/
 【BOSS】Delmore
 > END STRING
 
 > BEGIN STRING
 【BOSS】イーザル
-> CONTEXT: Troops/4/name/
+> CONTEXT: Troops/3/name/
 【BOSS】Izal
 > END STRING
 
 > BEGIN STRING
 【BOSS】ナイトストーカーたち
-> CONTEXT: Troops/5/name/
+> CONTEXT: None < UNUSED
 【BOSS】Night Stalkers
 > END STRING
 
 > BEGIN STRING
 【BOSS】レヴィアン
-> CONTEXT: Troops/8/name/
+> CONTEXT: Troops/7/name/
 【BOSS】Levian
 > END STRING
 
@@ -9933,4 +9934,40 @@ Medea/555/66*2
 【BOSS】レヴィアン・セイレーン
 > CONTEXT: Troops/1586/name/
 【BOSS】Levian・Siren
+> END STRING
+
+> BEGIN STRING
+【BOSS】カーリー
+> CONTEXT: Troops/8/name/
+【BOSS】Carly
+> END STRING
+
+> BEGIN STRING
+【BOSS】ラビス
+> CONTEXT: Troops/9/name/
+【BOSS】Ravis
+> END STRING
+
+> BEGIN STRING
+【BOSS】ヴェーラ
+> CONTEXT: Troops/10/name/
+【BOSS】Vera
+> END STRING
+
+> BEGIN STRING
+【BOSS】ゼノア
+> CONTEXT: Troops/12/name/
+【BOSS】Zenoa
+> END STRING
+
+> BEGIN STRING
+【BOSS】ラティフォリア
+> CONTEXT: Troops/18/name/
+【BOSS】Latifolia
+> END STRING
+
+> BEGIN STRING
+【BOSS】ナジェラス
+> CONTEXT: Troops/19/name/
+【BOSS】Najeras
 > END STRING

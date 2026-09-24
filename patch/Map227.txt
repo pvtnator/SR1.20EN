@@ -33,7 +33,7 @@ First of all...
 あなたの性別をお聞きしてもよろしくて？
 どちらになりたいか、で答えて頂いても構いませんわ\\H
 > CONTEXT: Map227/events/1/pages/0/19/Dialogue
-> CONTEXT: Map227/events/1/pages/1/19/Dialogue
+> CONTEXT: Map227/events/1/pages/1/24/Dialogue
 \\name[\\v[2]]\\_
 May I ask what your gender is?
 You can answer by what gender you want to be\\H
@@ -43,8 +43,8 @@ You can answer by what gender you want to be\\H
 男
 > CONTEXT: Map227/events/1/pages/0/22/Choice/0
 > CONTEXT: Map227/events/1/pages/0/22/Choice/0
-> CONTEXT: Map227/events/1/pages/1/22/Choice/0
-> CONTEXT: Map227/events/1/pages/1/22/Choice/0
+> CONTEXT: Map227/events/1/pages/1/27/Choice/0
+> CONTEXT: Map227/events/1/pages/1/27/Choice/0
 Man
 > END STRING
 
@@ -52,8 +52,8 @@ Man
 女
 > CONTEXT: Map227/events/1/pages/0/22/Choice/1
 > CONTEXT: Map227/events/1/pages/0/22/Choice/1
-> CONTEXT: Map227/events/1/pages/1/22/Choice/1
-> CONTEXT: Map227/events/1/pages/1/22/Choice/1
+> CONTEXT: Map227/events/1/pages/1/27/Choice/1
+> CONTEXT: Map227/events/1/pages/1/27/Choice/1
 Woman
 > END STRING
 
@@ -62,8 +62,8 @@ Woman
 > CONTEXT: Map209/events/15/pages/0/3/Choice/3
 > CONTEXT: Map227/events/1/pages/0/22/Choice/2
 > CONTEXT: Map227/events/1/pages/0/22/Choice/2
-> CONTEXT: Map227/events/1/pages/1/22/Choice/2
-> CONTEXT: Map227/events/1/pages/1/22/Choice/2
+> CONTEXT: Map227/events/1/pages/1/27/Choice/2
+> CONTEXT: Map227/events/1/pages/1/27/Choice/2
 Other
 > END STRING
 
@@ -72,7 +72,7 @@ Other
 あら、素敵な殿方でしたのね？\\.\\.
 （主人公の性別が【男】になります）\\n
 > CONTEXT: Map227/events/1/pages/0/24/Dialogue
-> CONTEXT: Map227/events/1/pages/1/24/Dialogue
+> CONTEXT: Map227/events/1/pages/1/29/Dialogue
 \\name[\\v[2]]\\_
 Oh, what a nice gentleman! \\.\\.
 (The protagonist's gender will be 【Man】)\\n
@@ -87,13 +87,13 @@ Oh, what a nice gentleman! \\.\\.
 > CONTEXT: Map227/events/1/pages/0/155/Dialogue
 > CONTEXT: Map227/events/1/pages/0/186/Dialogue
 > CONTEXT: Map227/events/1/pages/0/217/Dialogue
-> CONTEXT: Map227/events/1/pages/1/53/Dialogue
-> CONTEXT: Map227/events/1/pages/1/92/Dialogue
-> CONTEXT: Map227/events/1/pages/1/131/Dialogue
-> CONTEXT: Map227/events/1/pages/1/155/Dialogue
-> CONTEXT: Map227/events/1/pages/1/186/Dialogue
-> CONTEXT: Map227/events/1/pages/1/217/Dialogue
-> CONTEXT: Map227/events/1/pages/1/232/Dialogue
+> CONTEXT: Map227/events/1/pages/1/59/Dialogue
+> CONTEXT: Map227/events/1/pages/1/98/Dialogue
+> CONTEXT: Map227/events/1/pages/1/137/Dialogue
+> CONTEXT: Map227/events/1/pages/1/161/Dialogue
+> CONTEXT: Map227/events/1/pages/1/192/Dialogue
+> CONTEXT: Map227/events/1/pages/1/223/Dialogue
+> CONTEXT: Map227/events/1/pages/1/238/Dialogue
 \\name[\\v[2]]\\_
 Oh, don't lie\\H
 > END STRING
@@ -103,7 +103,7 @@ Oh, don't lie\\H
 あら、可愛らしいご婦人でしたのね？\\.\\.
 （主人公の性別が【女】になります）\\n
 > CONTEXT: Map227/events/1/pages/0/60/Dialogue
-> CONTEXT: Map227/events/1/pages/1/60/Dialogue
+> CONTEXT: Map227/events/1/pages/1/66/Dialogue
 \\name[\\v[2]]\\_
 Oh, a lovely lady, aren't you? \\.\\.
 (The protagonist's gender will be 【Woman】)\\n
@@ -114,7 +114,7 @@ Oh, a lovely lady, aren't you? \\.\\.
 昨今はそういう方も多いと聞き及んでいますわ\\.\\.
 （主人公の性別が【ふたなり】になります）\\n
 > CONTEXT: Map227/events/1/pages/0/99/Dialogue
-> CONTEXT: Map227/events/1/pages/1/99/Dialogue
+> CONTEXT: Map227/events/1/pages/1/105/Dialogue
 \\name[\\v[2]]\\_
 I've heard that there are a lot of people 
 like that these days\\.\\.
@@ -128,9 +128,9 @@ like that these days\\.\\.
 > CONTEXT: Map227/events/1/pages/0/138/Dialogue
 > CONTEXT: Map227/events/1/pages/0/224/Dialogue
 > CONTEXT: Map227/events/1/pages/0/341/Dialogue
-> CONTEXT: Map227/events/1/pages/1/138/Dialogue
-> CONTEXT: Map227/events/1/pages/1/239/Dialogue
-> CONTEXT: Map227/events/1/pages/1/356/Dialogue
+> CONTEXT: Map227/events/1/pages/1/144/Dialogue
+> CONTEXT: Map227/events/1/pages/1/245/Dialogue
+> CONTEXT: Map227/events/1/pages/1/362/Dialogue
 \\name[\\v[2]]\\_
 That's right...\\.\\.
 Next...
@@ -141,7 +141,7 @@ Next...
 次のうちで、貴方が一番惹かれるのは何でしょう？
 特に無ければ、興味がありそうなものをお選びになって。
 > CONTEXT: Map227/events/1/pages/0/142/Dialogue
-> CONTEXT: Map227/events/1/pages/1/142/Dialogue
+> CONTEXT: Map227/events/1/pages/1/148/Dialogue
 \\name[\\v[2]]\\_
 Which of the following interests you the most?
 Choose the option that's closest to your preference.
@@ -152,8 +152,8 @@ Choose the option that's closest to your preference.
 > CONTEXT: Commonevents/2/11/Choice/0
 > CONTEXT: Map227/events/1/pages/0/145/Choice/0
 > CONTEXT: Map227/events/1/pages/0/145/Choice/0
-> CONTEXT: Map227/events/1/pages/1/145/Choice/0
-> CONTEXT: Map227/events/1/pages/1/145/Choice/0
+> CONTEXT: Map227/events/1/pages/1/151/Choice/0
+> CONTEXT: Map227/events/1/pages/1/151/Choice/0
 Chatting with good friends
 > END STRING
 
@@ -162,8 +162,8 @@ Chatting with good friends
 > CONTEXT: Commonevents/2/11/Choice/1
 > CONTEXT: Map227/events/1/pages/0/145/Choice/1
 > CONTEXT: Map227/events/1/pages/0/145/Choice/1
-> CONTEXT: Map227/events/1/pages/1/145/Choice/1
-> CONTEXT: Map227/events/1/pages/1/145/Choice/1
+> CONTEXT: Map227/events/1/pages/1/151/Choice/1
+> CONTEXT: Map227/events/1/pages/1/151/Choice/1
 Exercise to build physical strength
 > END STRING
 
@@ -172,8 +172,8 @@ Exercise to build physical strength
 > CONTEXT: Commonevents/2/11/Choice/2
 > CONTEXT: Map227/events/1/pages/0/145/Choice/2
 > CONTEXT: Map227/events/1/pages/0/145/Choice/2
-> CONTEXT: Map227/events/1/pages/1/145/Choice/2
-> CONTEXT: Map227/events/1/pages/1/145/Choice/2
+> CONTEXT: Map227/events/1/pages/1/151/Choice/2
+> CONTEXT: Map227/events/1/pages/1/151/Choice/2
 Relax and read in a quiet room
 > END STRING
 
@@ -182,7 +182,7 @@ Relax and read in a quiet room
 そう、他愛の無いお喋りも時には良いものですわね。\\.\\.
 （主人公の性格が【真面目】になります）\\n
 > CONTEXT: Map227/events/1/pages/0/147/Dialogue
-> CONTEXT: Map227/events/1/pages/1/147/Dialogue
+> CONTEXT: Map227/events/1/pages/1/153/Dialogue
 \\name[\\v[2]]\\_
 Yes, sometimes it's nice to have a little chat.\\.\\.
 (The main character's personality becomes [Serious])\\n
@@ -194,8 +194,8 @@ Yes, sometimes it's nice to have a little chat.\\.\\.
 （主人公の性格が【腕白】になります）\\n
 > CONTEXT: Map227/events/1/pages/0/163/Dialogue
 > CONTEXT: Map227/events/1/pages/0/169/Dialogue
-> CONTEXT: Map227/events/1/pages/1/163/Dialogue
 > CONTEXT: Map227/events/1/pages/1/169/Dialogue
+> CONTEXT: Map227/events/1/pages/1/175/Dialogue
 \\name[\\v[2]]\\_
 Hehe, I think tomboyish women are also wonderful. \\.\\.
 (The protagonist's personality becomes 【Naughty】)\\n
@@ -206,7 +206,7 @@ Hehe, I think tomboyish women are also wonderful. \\.\\.
 ふふ、たくましい殿方は素敵ですわね。\\.\\.
 （主人公の性格が【腕白】になります）\\n
 > CONTEXT: Map227/events/1/pages/0/174/Dialogue
-> CONTEXT: Map227/events/1/pages/1/174/Dialogue
+> CONTEXT: Map227/events/1/pages/1/180/Dialogue
 \\name[\\v[2]]\\_
 Hehe, strong men are wonderful.\\.\\.
 (The main character's personality becomes 【Naughty】)\\n
@@ -218,8 +218,8 @@ Hehe, strong men are wonderful.\\.\\.
 （主人公の性格が【冷静】になります）\\n
 > CONTEXT: Map227/events/1/pages/0/194/Dialogue
 > CONTEXT: Map227/events/1/pages/0/200/Dialogue
-> CONTEXT: Map227/events/1/pages/1/194/Dialogue
 > CONTEXT: Map227/events/1/pages/1/200/Dialogue
+> CONTEXT: Map227/events/1/pages/1/206/Dialogue
 \\name[\\v[2]]\\_
 Hehe, intelligent people are photogenic. \\.\\.
 (The protagonist's personality becomes 【Calm】)\\n
@@ -231,7 +231,7 @@ Hehe, intelligent people are photogenic. \\.\\.
 （主人公の性格が【冷静】になります）\\n
 > CONTEXT: Commonevents/2/43/Dialogue
 > CONTEXT: Map227/events/1/pages/0/205/Dialogue
-> CONTEXT: Map227/events/1/pages/1/205/Dialogue
+> CONTEXT: Map227/events/1/pages/1/211/Dialogue
 \\name[\\v[2]]\\_
 Hehe, intelligent men are picture perfect.\\.\\.
 (The main character's personality becomes 【Calm】)\\n
@@ -243,8 +243,8 @@ Hehe, intelligent men are picture perfect.\\.\\.
 特に好みが無ければ、一番近いものをお選びになって。
 > CONTEXT: Map227/events/1/pages/0/229/Dialogue
 > CONTEXT: Map227/events/1/pages/0/235/Dialogue
-> CONTEXT: Map227/events/1/pages/1/244/Dialogue
 > CONTEXT: Map227/events/1/pages/1/250/Dialogue
+> CONTEXT: Map227/events/1/pages/1/256/Dialogue
 \\name[\\v[2]]\\_
 What do you find attractive about a woman's body?
 If you don't have a preference, choose the closest one.
@@ -256,7 +256,7 @@ If you don't have a preference, choose the closest one.
 特に好みが無ければ、一番近いものをお選びになって。
 > CONTEXT: Commonevents/2/62/Dialogue
 > CONTEXT: Map227/events/1/pages/0/240/Dialogue
-> CONTEXT: Map227/events/1/pages/1/255/Dialogue
+> CONTEXT: Map227/events/1/pages/1/261/Dialogue
 \\name[\\v[2]]\\_
 What do you find attractive about women?
 Choose the option that's closest to your preference.
@@ -267,8 +267,8 @@ Choose the option that's closest to your preference.
 > CONTEXT: Commonevents/2/65/Choice/0
 > CONTEXT: Map227/events/1/pages/0/247/Choice/0
 > CONTEXT: Map227/events/1/pages/0/247/Choice/0
-> CONTEXT: Map227/events/1/pages/1/262/Choice/0
-> CONTEXT: Map227/events/1/pages/1/262/Choice/0
+> CONTEXT: Map227/events/1/pages/1/268/Choice/0
+> CONTEXT: Map227/events/1/pages/1/268/Choice/0
 Glossy lips
 > END STRING
 
@@ -277,8 +277,8 @@ Glossy lips
 > CONTEXT: Commonevents/2/65/Choice/1
 > CONTEXT: Map227/events/1/pages/0/247/Choice/1
 > CONTEXT: Map227/events/1/pages/0/247/Choice/1
-> CONTEXT: Map227/events/1/pages/1/262/Choice/1
-> CONTEXT: Map227/events/1/pages/1/262/Choice/1
+> CONTEXT: Map227/events/1/pages/1/268/Choice/1
+> CONTEXT: Map227/events/1/pages/1/268/Choice/1
 Slender body
 > END STRING
 
@@ -287,8 +287,8 @@ Slender body
 > CONTEXT: Commonevents/2/65/Choice/2
 > CONTEXT: Map227/events/1/pages/0/247/Choice/2
 > CONTEXT: Map227/events/1/pages/0/247/Choice/2
-> CONTEXT: Map227/events/1/pages/1/262/Choice/2
-> CONTEXT: Map227/events/1/pages/1/262/Choice/2
+> CONTEXT: Map227/events/1/pages/1/268/Choice/2
+> CONTEXT: Map227/events/1/pages/1/268/Choice/2
 Plump breasts
 > END STRING
 
@@ -297,8 +297,8 @@ Plump breasts
 > CONTEXT: Commonevents/2/65/Choice/3
 > CONTEXT: Map227/events/1/pages/0/247/Choice/3
 > CONTEXT: Map227/events/1/pages/0/247/Choice/3
-> CONTEXT: Map227/events/1/pages/1/262/Choice/3
-> CONTEXT: Map227/events/1/pages/1/262/Choice/3
+> CONTEXT: Map227/events/1/pages/1/268/Choice/3
+> CONTEXT: Map227/events/1/pages/1/268/Choice/3
 Curvy hips
 > END STRING
 
@@ -307,7 +307,7 @@ Curvy hips
 ふふ、私も貴方に唇を奪われてみたいですわ。\\.\\.
 （主人公の弱点が【口攻めに弱い】になります）\\n
 > CONTEXT: Map227/events/1/pages/0/249/Dialogue
-> CONTEXT: Map227/events/1/pages/1/264/Dialogue
+> CONTEXT: Map227/events/1/pages/1/270/Dialogue
 \\name[\\v[2]]\\_
 Hehe, I would also like to steal a kiss from you.\\.\\.
 (The main character's weakness becomes 【Mouth weakness】)\\n
@@ -326,12 +326,12 @@ Hehe, I would also like to steal a kiss from you.\\.\\.
 > CONTEXT: Map227/events/1/pages/0/334/Dialogue
 > CONTEXT: Map227/events/1/pages/0/389/Dialogue
 > CONTEXT: Map227/events/1/pages/0/416/Dialogue
-> CONTEXT: Map227/events/1/pages/1/272/Dialogue
-> CONTEXT: Map227/events/1/pages/1/287/Dialogue
-> CONTEXT: Map227/events/1/pages/1/318/Dialogue
-> CONTEXT: Map227/events/1/pages/1/349/Dialogue
-> CONTEXT: Map227/events/1/pages/1/404/Dialogue
-> CONTEXT: Map227/events/1/pages/1/431/Dialogue
+> CONTEXT: Map227/events/1/pages/1/278/Dialogue
+> CONTEXT: Map227/events/1/pages/1/293/Dialogue
+> CONTEXT: Map227/events/1/pages/1/324/Dialogue
+> CONTEXT: Map227/events/1/pages/1/355/Dialogue
+> CONTEXT: Map227/events/1/pages/1/410/Dialogue
+> CONTEXT: Map227/events/1/pages/1/437/Dialogue
 \\name[\\v[2]]\\_
 Hehe, there's no need to hurry\\H
 > END STRING
@@ -341,7 +341,7 @@ Hehe, there's no need to hurry\\H
 手足の綺麗な女性は立ち振る舞いも素敵ですわね。\\.\\.
 （主人公の弱点が【手攻めに弱い】になります）\\n
 > CONTEXT: Map227/events/1/pages/0/264/Dialogue
-> CONTEXT: Map227/events/1/pages/1/279/Dialogue
+> CONTEXT: Map227/events/1/pages/1/285/Dialogue
 \\name[\\v[2]]\\_
 A woman with beautiful legs and arms who also has a lovely demeanor.\\.\\.
 (The main character's weakness becomes 【Caress weakness】)\\n
@@ -353,8 +353,8 @@ A woman with beautiful legs and arms who also has a lovely demeanor.\\.\\.
 （主人公の弱点が【胸攻めに弱い】になります）\\n
 > CONTEXT: Map227/events/1/pages/0/280/Dialogue
 > CONTEXT: Map227/events/1/pages/0/286/Dialogue
-> CONTEXT: Map227/events/1/pages/1/295/Dialogue
 > CONTEXT: Map227/events/1/pages/1/301/Dialogue
+> CONTEXT: Map227/events/1/pages/1/307/Dialogue
 \\name[\\v[2]]\\_
 It's a symbol of femininity, there's no one who doesn't like it. \\.\\.
 (The protagonist's weakness is 【Breast weakness】)\\n
@@ -366,7 +366,7 @@ It's a symbol of femininity, there's no one who doesn't like it. \\.\\.
 （主人公の弱点が【胸攻めに弱い】になります）\\n
 > CONTEXT: Commonevents/2/97/Dialogue
 > CONTEXT: Map227/events/1/pages/0/291/Dialogue
-> CONTEXT: Map227/events/1/pages/1/306/Dialogue
+> CONTEXT: Map227/events/1/pages/1/312/Dialogue
 \\name[\\v[2]]\\_
 It's a symbol of motherhood, and there's no man who doesn't like it.\\.\\.
 (The main character's weakness is 【Breast weakness】)\\n
@@ -378,8 +378,8 @@ It's a symbol of motherhood, and there's no man who doesn't like it.\\.\\.
 （主人公の弱点が【女陰攻めに弱い】になります）\\n
 > CONTEXT: Map227/events/1/pages/0/311/Dialogue
 > CONTEXT: Map227/events/1/pages/0/317/Dialogue
-> CONTEXT: Map227/events/1/pages/1/326/Dialogue
 > CONTEXT: Map227/events/1/pages/1/332/Dialogue
+> CONTEXT: Map227/events/1/pages/1/338/Dialogue
 \\name[\\v[2]]\\_
 Hehe, there are surprisingly many people who like it. \\.\\.
 (The protagonist's weakness is 【Vagina weakness】)\\n
@@ -390,7 +390,7 @@ Hehe, there are surprisingly many people who like it. \\.\\.
 ふふ、女性の魅力は胸だけとは限りませんもの。\\.\\.
 （主人公の弱点が【女陰攻めに弱い】になります）\\n
 > CONTEXT: Map227/events/1/pages/0/322/Dialogue
-> CONTEXT: Map227/events/1/pages/1/337/Dialogue
+> CONTEXT: Map227/events/1/pages/1/343/Dialogue
 \\name[\\v[2]]\\_
 Hehe, a woman's charm is not limited to her breasts.\\.\\.
 (The main character's weakness becomes 【Vagina weakness】)\\n
@@ -403,8 +403,8 @@ Hehe, a woman's charm is not limited to her breasts.\\.\\.
 ふふ、お相手の性別は問いませんわ\\H
 > CONTEXT: Map227/events/1/pages/0/345/Dialogue
 > CONTEXT: Map227/events/1/pages/0/352/Dialogue
-> CONTEXT: Map227/events/1/pages/1/360/Dialogue
-> CONTEXT: Map227/events/1/pages/1/367/Dialogue
+> CONTEXT: Map227/events/1/pages/1/366/Dialogue
+> CONTEXT: Map227/events/1/pages/1/373/Dialogue
 \\name[\\v[2]]\\_
 May I ask you about your sexual experiences?
 Hehe, I don't care about the gender of your partner\\H
@@ -415,7 +415,7 @@ Hehe, I don't care about the gender of your partner\\H
 貴方の･･･女性との経験について
 教えてもらってもよろしいかしら？
 > CONTEXT: Map227/events/1/pages/0/358/Dialogue
-> CONTEXT: Map227/events/1/pages/1/373/Dialogue
+> CONTEXT: Map227/events/1/pages/1/379/Dialogue
 \\name[\\v[2]]\\_
 Could you tell me about your experiences with women?
 > END STRING
@@ -424,7 +424,7 @@ Could you tell me about your experiences with women?
 \\name[\\v[2]]\\_
 大事なことですものね\\H
 > CONTEXT: Map227/events/1/pages/0/361/Dialogue
-> CONTEXT: Map227/events/1/pages/1/376/Dialogue
+> CONTEXT: Map227/events/1/pages/1/382/Dialogue
 \\name[\\v[2]]\\_
 It's important, isn't it?\\H
 > END STRING
@@ -433,15 +433,15 @@ It's important, isn't it?\\H
 性の経験は？
 > CONTEXT: Map227/events/1/pages/0/369/Dialogue
 > CONTEXT: Map227/events/1/pages/0/373/Dialogue
-> CONTEXT: Map227/events/1/pages/1/384/Dialogue
-> CONTEXT: Map227/events/1/pages/1/388/Dialogue
+> CONTEXT: Map227/events/1/pages/1/390/Dialogue
+> CONTEXT: Map227/events/1/pages/1/394/Dialogue
 Do you have sexual experience?
 > END STRING
 
 > BEGIN STRING
 女性経験は？
 > CONTEXT: Map227/events/1/pages/0/376/Dialogue
-> CONTEXT: Map227/events/1/pages/1/391/Dialogue
+> CONTEXT: Map227/events/1/pages/1/397/Dialogue
 Do you have experience with women?
 > END STRING
 
@@ -449,8 +449,8 @@ Do you have experience with women?
 ある
 > CONTEXT: Map227/events/1/pages/0/381/Choice/0
 > CONTEXT: Map227/events/1/pages/0/381/Choice/0
-> CONTEXT: Map227/events/1/pages/1/396/Choice/0
-> CONTEXT: Map227/events/1/pages/1/396/Choice/0
+> CONTEXT: Map227/events/1/pages/1/402/Choice/0
+> CONTEXT: Map227/events/1/pages/1/402/Choice/0
 Yes
 > END STRING
 
@@ -458,8 +458,8 @@ Yes
 ない
 > CONTEXT: Map227/events/1/pages/0/381/Choice/1
 > CONTEXT: Map227/events/1/pages/0/381/Choice/1
-> CONTEXT: Map227/events/1/pages/1/396/Choice/1
-> CONTEXT: Map227/events/1/pages/1/396/Choice/1
+> CONTEXT: Map227/events/1/pages/1/402/Choice/1
+> CONTEXT: Map227/events/1/pages/1/402/Choice/1
 No
 > END STRING
 
@@ -467,7 +467,7 @@ No
 \\name[\\v[2]]\\_
 ふふ、すでに経験がありましたのね\\H
 > CONTEXT: Map227/events/1/pages/0/383/Dialogue
-> CONTEXT: Map227/events/1/pages/1/398/Dialogue
+> CONTEXT: Map227/events/1/pages/1/404/Dialogue
 \\name[\\v[2]]\\_
 Fufu, so you've already had that experience?\\H
 > END STRING
@@ -476,7 +476,7 @@ Fufu, so you've already had that experience?\\H
 \\name[\\v[2]]\\_
 ふふ、まだ経験はなかったのですね\\H
 > CONTEXT: Map227/events/1/pages/0/396/Dialogue
-> CONTEXT: Map227/events/1/pages/1/411/Dialogue
+> CONTEXT: Map227/events/1/pages/1/417/Dialogue
 \\name[\\v[2]]\\_
 Fufu, so you haven't had any experience yet?\\H
 > END STRING
@@ -486,7 +486,7 @@ Fufu, so you haven't had any experience yet?\\H
 あらあら･･･\\H
 > CONTEXT: Commonevents/2/127/Dialogue
 > CONTEXT: Map227/events/1/pages/0/426/Dialogue
-> CONTEXT: Map227/events/1/pages/1/441/Dialogue
+> CONTEXT: Map227/events/1/pages/1/447/Dialogue
 \\name[\\v[2]]\\_
 Oh my...\\H
 > END STRING
@@ -496,7 +496,7 @@ Oh my...\\H
 まぁ、私としたことが大事な事を伺っておりませんでしたわ。
 > CONTEXT: Commonevents/2/129/Dialogue
 > CONTEXT: Map227/events/1/pages/0/428/Dialogue
-> CONTEXT: Map227/events/1/pages/1/443/Dialogue
+> CONTEXT: Map227/events/1/pages/1/449/Dialogue
 \\name[\\v[2]]\\_
 Well, if anyone asks, I didn't hear anything.
 > END STRING
@@ -506,7 +506,7 @@ Well, if anyone asks, I didn't hear anything.
 貴方のお名前、教えてくださらないかしら？
 > CONTEXT: Commonevents/2/132/Dialogue
 > CONTEXT: Map227/events/1/pages/0/431/Dialogue
-> CONTEXT: Map227/events/1/pages/1/446/Dialogue
+> CONTEXT: Map227/events/1/pages/1/452/Dialogue
 \\name[\\v[2]]\\_
 Can you tell me your name?
 > END STRING
@@ -516,7 +516,7 @@ Can you tell me your name?
 \\v[3]、というお名前なんですの？
 > CONTEXT: Commonevents/2/137/Dialogue
 > CONTEXT: Map227/events/1/pages/0/436/Dialogue
-> CONTEXT: Map227/events/1/pages/1/451/Dialogue
+> CONTEXT: Map227/events/1/pages/1/457/Dialogue
 \\name[\\v[2]]\\_
 \\v[3], is your name?
 > END STRING
@@ -526,7 +526,7 @@ Can you tell me your name?
 あら、ご冗談がお上手ですのね\\H
 > CONTEXT: Commonevents/2/143/Dialogue
 > CONTEXT: Map227/events/1/pages/0/442/Dialogue
-> CONTEXT: Map227/events/1/pages/1/457/Dialogue
+> CONTEXT: Map227/events/1/pages/1/463/Dialogue
 \\name[\\v[2]]\\_
 Oh, you're so funny\\H
 > END STRING
@@ -535,7 +535,7 @@ Oh, you're so funny\\H
 \\name[\\v[2]]\\_
 成程･･･\\H\\.\\.
 > CONTEXT: Map227/events/1/pages/0/447/Dialogue
-> CONTEXT: Map227/events/1/pages/1/462/Dialogue
+> CONTEXT: Map227/events/1/pages/1/468/Dialogue
 \\name[\\v[2]]\\_
 I see...\\H\\.\\.
 > END STRING
@@ -545,7 +545,7 @@ I see...\\H\\.\\.
 ･･･ええ、これで質問は終了ですわ。
 ご協力、感謝致しますの。
 > CONTEXT: Map227/events/1/pages/0/449/Dialogue
-> CONTEXT: Map227/events/1/pages/1/464/Dialogue
+> CONTEXT: Map227/events/1/pages/1/470/Dialogue
 \\name[\\v[2]]\\_
 ...Okay, that's the end of the questions.
 Thank you for your cooperation.
@@ -556,7 +556,7 @@ Thank you for your cooperation.
 そろそろ幕も上がりますわ。
 またすぐにでもお会いすることになることでしょうけど･･･。
 > CONTEXT: Map227/events/1/pages/0/452/Dialogue
-> CONTEXT: Map227/events/1/pages/1/467/Dialogue
+> CONTEXT: Map227/events/1/pages/1/473/Dialogue
 \\name[\\v[2]]\\_
 It's almost time to raise the curtain.
 I'm sure we'll see each other again soon...
@@ -566,7 +566,7 @@ I'm sure we'll see each other again soon...
 \\name[\\v[2]]\\_
 ふふっ、今宵の夢が楽しみですわね\\H
 > CONTEXT: Map227/events/1/pages/0/455/Dialogue
-> CONTEXT: Map227/events/1/pages/1/470/Dialogue
+> CONTEXT: Map227/events/1/pages/1/476/Dialogue
 \\name[\\v[2]]\\_
 Hehe, I'm looking forward to tonight's dream\\H
 > END STRING
@@ -574,14 +574,14 @@ Hehe, I'm looking forward to tonight's dream\\H
 > BEGIN STRING
 オープニングを見ますか？
 > CONTEXT: Map227/events/1/pages/0/459/Dialogue
-> CONTEXT: Map227/events/1/pages/1/474/Dialogue
+> CONTEXT: Map227/events/1/pages/1/480/Dialogue
 Watch the opening?
 > END STRING
 
 > BEGIN STRING
 異性とのお遊び
-> CONTEXT: Map227/events/1/pages/1/145/Choice/3
-> CONTEXT: Map227/events/1/pages/1/145/Choice/3
+> CONTEXT: Map227/events/1/pages/1/151/Choice/3
+> CONTEXT: Map227/events/1/pages/1/151/Choice/3
 Play with the opposite sex
 > END STRING
 
@@ -589,7 +589,7 @@ Play with the opposite sex
 \\name[\\v[2]]\\_
 うふふ\\H　素敵な異性との交流は心躍りますものね。\\.\\.
 （主人公の性格が【助平】になります）\\n
-> CONTEXT: Map227/events/1/pages/1/224/Dialogue
+> CONTEXT: Map227/events/1/pages/1/230/Dialogue
 \\name[\\v[2]]\\_
 Ufufu\\H Wonderful person of the opposite sex is exciting. \\.\\.
 (The protagonist's personality becomes 【Lecherous】)\\n
@@ -602,9 +602,9 @@ Ufufu\\H Wonderful person of the opposite sex is exciting. \\.\\.
 > CONTEXT: Map227/events/1/pages/0/94/Label < UNTRANSLATED
 > CONTEXT: Map227/events/1/pages/0/133/Label < UNTRANSLATED
 > CONTEXT: Map227/events/1/pages/1/18/Label < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/55/Label < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/94/Label < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/133/Label < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/61/Label < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/100/Label < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/139/Label < UNTRANSLATED
 
 > END STRING
 
@@ -614,10 +614,10 @@ Ufufu\\H Wonderful person of the opposite sex is exciting. \\.\\.
 > CONTEXT: Map227/events/1/pages/0/391/Label < UNTRANSLATED
 > CONTEXT: Map227/events/1/pages/0/418/Label < UNTRANSLATED
 > CONTEXT: Map227/events/1/pages/0/423/Label < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/382/Label < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/406/Label < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/433/Label < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/438/Label < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/388/Label < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/412/Label < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/439/Label < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/444/Label < UNTRANSLATED
 
 > END STRING
 
@@ -625,8 +625,6 @@ Ufufu\\H Wonderful person of the opposite sex is exciting. \\.\\.
 ３番
 > CONTEXT: Map227/events/1/pages/0/430/Label < UNTRANSLATED
 > CONTEXT: Map227/events/1/pages/0/444/Label < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/445/Label < UNTRANSLATED
-> CONTEXT: Map227/events/1/pages/1/459/Label < UNTRANSLATED
 > CONTEXT: Commonevents/2/131/Label < UNTRANSLATED
 > CONTEXT: Commonevents/2/145/Label < UNTRANSLATED
 > CONTEXT: Map002/events/5/pages/0/256/Label < UNTRANSLATED
@@ -644,5 +642,13 @@ Ufufu\\H Wonderful person of the opposite sex is exciting. \\.\\.
 > CONTEXT: Map002/events/5/pages/0/384/Label < UNTRANSLATED
 > CONTEXT: Map002/events/5/pages/0/391/Label < UNTRANSLATED
 > CONTEXT: Map002/events/5/pages/0/396/Label < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/451/Label < UNTRANSLATED
+> CONTEXT: Map227/events/1/pages/1/465/Label < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+性別決定前に妊娠状態のリセット
+> CONTEXT: Map227/events/1/pages/1/19/Comment < UNTRANSLATED
 
 > END STRING

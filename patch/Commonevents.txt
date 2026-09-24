@@ -10094,7 +10094,7 @@ $msg.t_enemyが事前に設定されていない場合、
 > CONTEXT: Commonevents/243/33/Comment < UNTRANSLATED
 > CONTEXT: Commonevents/249/103/Comment < UNTRANSLATED
 > CONTEXT: Commonevents/257/101/Comment < UNTRANSLATED
-> CONTEXT: Commonevents/341/194/Comment < UNTRANSLATED
+> CONTEXT: Commonevents/341/195/Comment < UNTRANSLATED
 
 > END STRING
 
@@ -11763,4 +11763,20 @@ completed within the Archangel's castle.
 --------------------------------------------------
 > CONTEXT: Commonevents/451/78/Comment < UNTRANSLATED
 
+> END STRING
+
+> BEGIN STRING
+難易度を下げて再戦しますか？
+
+※この戦闘のみ難易度が\\c[12]VeryEasy\\c[0]になります。
+> CONTEXT: Commonevents/321/1/Dialogue
+Would you like to lower the difficulty and try again?
+
+*Very Easy, for this battle only.
+> END STRING
+
+> BEGIN STRING
+★ 既にRomanceであれば選択肢は表示しない。
+> CONTEXT: Commonevents/321/14/Comment
+★ On Romance, the option will not be available.
 > END STRING
