@@ -72,10 +72,10 @@ def autotranslate(translations_file, lines, multiline=200):
                                     len(string.strip())>3 and ("\\\\H" in string or "\\n" in string or \
                                     (not "global" in contexts and not "System" in str(contexts))):
                 batchi.append(i)
-                string = string.replace("#{myname}", "私").replace("#{target}", "あなた")
-                string = string.replace("#{$msg.t_target.name}", "あなた")
+                string = string.replace("#{myname}", "あたし").replace("#{target}", "きみ")
+                string = string.replace("#{$msg.t_target.name}", "きみ")
                 string = string.replace("アソコ", "おまんこ").replace("ココ", "おまんこ")
-                string = string.replace(r"\\H", r".\\H")
+                string = string.replace(r"\\H", r"\\H")
                 string = string.replace("…", "...")
                 string = re.sub("\\.{2,}", "...", string)
                 numbered = len(batchi)
@@ -144,7 +144,7 @@ def autotranslate(translations_file, lines, multiline=200):
                                 splitsymbols = [". ", "! ", "? ", ", ", " "]
                                 for ss in splitsymbols:
                                     spot = 30 if ss==" " else 20
-                                    if len(p) > 50 and p.find(ss, spot, spot+20) >= 0:
+                                    if len(p) > 60 and p.find(ss, spot, spot+20) >= 0:
                                         parts[pi] = p[:p.find(ss, spot, spot+20)+1]
                                         parts.insert(pi+1, brk+p[p.find(ss, spot, spot+20)+len(ss):])
                                         #p = p[:p.find(ss, spot)+1]+brk+p[p.find(ss, spot)+len(ss):]
@@ -295,7 +295,7 @@ def apply_translations(folder_path, apply_path, regexes, translations, mustinclu
                 
 if __name__ == "__main__":
     current_dir = Path.cwd()
-    mode = sys.argv[1] if len(sys.argv)>1 else "extract"
+    mode = sys.argv[1] if len(sys.argv)>1 else "autotranslate"
     source = sys.argv[2] if len(sys.argv)>2 else "talk"
     dest = sys.argv[3] if len(sys.argv)>3 else "talk"
     quickpatch = ""
